@@ -1,0 +1,12 @@
+Type Value,Name,Reference,Date
+0x0000-0x0001,Unassigned,,
+0x0002,Route Target,[RFC5701],
+0x0003,Route Origin,[RFC5701],
+0x0004,OSPFv3 Route Attributes (DEPRECATED),[RFC6565],
+0x0005-0x000a,Unassigned,,
+0x000b,VRF Route Import,[RFC6515][RFC6514],
+0x000c-0x000f,Unassigned,,
+0x0010,Cisco VPN-Distinguisher,[Eric_Rosen],2012-04-10
+0x0011,UUID-based Route Target,[Dhananjaya_Rao],2013-04-30
+0x0012,Inter-Area P2MP Segmented Next-Hop,[RFC7524],2014-01-08
+0x0013-0x00ff,Unassigned,,

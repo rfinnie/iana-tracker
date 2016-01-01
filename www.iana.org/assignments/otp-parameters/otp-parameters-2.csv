@@ -1,0 +1,5 @@
+Extension Set Id,Description,Reference
+hex,hexadecimal number,[RFC2243]
+init-hex,re-initialize using hexadecimal,[RFC2243]
+init-word,re-initialize using six words,[RFC2243]
+word,six dictionary words,[RFC2243]

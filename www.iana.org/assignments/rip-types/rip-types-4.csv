@@ -1,0 +1,6 @@
+Value,Description,Reference,Notes
+0,none,,
+1,Unassigned,,
+2,simple password,[RFC1388],
+3,md5,[RFC2082],
+4-65534,Unassigned,,

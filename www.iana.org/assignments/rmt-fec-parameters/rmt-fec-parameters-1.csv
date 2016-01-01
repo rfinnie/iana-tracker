@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Compact No-Code,[RFC5445]
+1,Raptor,[RFC5053]
+2,Reed-Solomon Codes over GF(2^^m),[RFC5510]
+3,LDPC Staircase Codes,[RFC5170]
+4,LDPC Triangle Codes,[RFC5170]
+5,Reed-Solomon Codes over GF(2^^8),[RFC5510]
+6,RaptorQ Code,[RFC6330]
+7-127,Unassigned,

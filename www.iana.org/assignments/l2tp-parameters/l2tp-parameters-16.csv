@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Reserved,[RFC2661]
+1,Textual username/password exchange,[RFC2661]
+2,PPP CHAP,[RFC2661]
+3,PPP PAP,[RFC2661]
+4,No Authentication,[RFC2661]
+5,Microsoft CHAP Version 1 (MSCHAPv1),[RFC2661]
+6,Reserved,
+7,EAP,[draft-ietf-l2tpext-proxy-authen-ext-eap-00]

@@ -1,0 +1,14 @@
+Value,Description,Reference
+0,Reserved,[RFC5440]
+1,IGP metric,[RFC5440]
+2,TE metric,[RFC5440]
+3,Hop Counts,[RFC5440]
+4,Aggregate bandwidth consumption,[RFC5541]
+5,Load of the most loaded link,[RFC5541]
+6,Cumulative IGP cost,[RFC5541]
+7,Cumulative TE cost,[RFC5541]
+8,P2MP IGP metric,[RFC6006]
+9,P2MP TE metric,[RFC6006]
+10,P2MP hop count metric,[RFC6006]
+11,"Segment-ID (SID) Depth. (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
+12-255,Unassigned,

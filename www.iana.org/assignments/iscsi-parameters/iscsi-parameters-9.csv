@@ -1,0 +1,8 @@
+Status Class(one octet),Description,Reference
+0x00,Success,[RFC7143]
+0x01,Redirection,[RFC7143]
+0x02,Initiator Error,[RFC7143]
+0x03,Target Error,[RFC7143]
+0x04-0x0e,Unassigned,
+0x0f,Vendor-Unique,[RFC7143]
+0x10-0xff,Unassigned,

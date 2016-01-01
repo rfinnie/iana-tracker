@@ -1,0 +1,12 @@
+Value,Message Description,Reference
+0,Reserved,
+1,General request to clear control connection,
+2,General error--Error Code indicates the problem,
+3,Control channel already exists,
+4,Requester is not authorized to establish a control channel,
+5,"The protocol version of the requester is not
+supported
+Error Code indicates highest version supported",
+6,Requester is being shut down,
+7,Finite State Machine error,
+8,Control connection due to mismatching CCDS value,[RFC3308]

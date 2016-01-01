@@ -1,0 +1,55 @@
+Response Code,Value,Description,Reference
+Informational,0x01,Route change: possible route change on the outbound path.,[RFC5973]
+Informational,0x02,Re-authentication required.,[RFC5973]
+Informational,0x03,NATFW node is going down soon.,[RFC5973]
+Informational,0x04,NATFW signaling session lifetime expired.,[RFC5973]
+Informational,0x05,NATFW signaling session terminated.,[RFC5973]
+Success,0x01,All successfully processed.,[RFC5973]
+Protocol error,0x01,"Illegal message type: the type given in the Message Type
+        field of the NSLP header is unknown.",[RFC5973]
+Protocol error,0x02,"Wrong message length: the length given for the message in
+        the NSLP header does not match the length of the message data.",[RFC5973]
+Protocol error,0x03,"Bad flags value: an undefined flag or combination of
+        flags was set in the NSLP header.",[RFC5973]
+Protocol error,0x04,"Mandatory object missing: an object required in a message
+        of this type was missing.",[RFC5973]
+Protocol error,0x05,"Illegal object present: an object was present which must
+        not be used in a message of this type.",[RFC5973]
+Protocol error,0x06,"Unknown object present: an object of an unknown type was
+        present in the message.",[RFC5973]
+Protocol error,0x07,"Wrong object length: the length given for the object in
+        the object header did not match the length of the object data
+        present.",[RFC5973]
+Protocol error,0x08,"Unknown object field value: a field in an object had an
+        unknown value.",[RFC5973]
+Protocol error,0x09,"Invalid Flag-Field combination: An object contains an
+        invalid combination of flags and/or fields.",[RFC5973]
+Protocol error,0x0A,Duplicate object present.,[RFC5973]
+Protocol error,0x0B,Received EXTERNAL request message on external side.,[RFC5973]
+Transient failure,0x01,Requested resources temporarily not available.,[RFC5973]
+Permanent failure,0x01,Authentication failed.,[RFC5973]
+Permanent failure,0x02,Authorization failed.,[RFC5973]
+Permanent failure,0x04,Internal or system error.,[RFC5973]
+Permanent failure,0x06,No edge-device here.,[RFC5973]
+Permanent failure,0x07,DId not reach the NR.,[RFC5973]
+Signaling session failure,0x01,Session terminated asynchronously.,[RFC5973]
+Signaling session failure,0x02,Requested lifetime is too big.,[RFC5973]
+Signaling session failure,0x03,"No reservation found matching the MRI of the CREATE
+        request.",[RFC5973]
+Signaling session failure,0x04,Requested policy rule denied due to policy conflict.,[RFC5973]
+Signaling session failure,0x05,Unknown policy rule action.,[RFC5973]
+Signaling session failure,0x06,Requested rule action not applicable.,[RFC5973]
+Signaling session failure,0x07,NATFW_DTINFO object is required.,[RFC5973]
+Signaling session failure,0x08,"Requested value in sub_ports field in NATFW_EFI not
+        permitted.",[RFC5973]
+Signaling session failure,0x09,Requested IP protocol not supported.,[RFC5973]
+Signaling session failure,0x0A,"Plain IP policy rules not permitted -- need transport
+        layer information.",[RFC5973]
+Signaling session failure,0x0B,ICMP type value not permitted.,[RFC5973]
+Signaling session failure,0x0C,Source IP address range is too large.,[RFC5973]
+Signaling session failure,0x0D,Destination IP address range is too large.,[RFC5973]
+Signaling session failure,0x0E,Source L4-port range is too large.,[RFC5973]
+Signaling session failure,0x0F,Destination L4-port range is too large.,[RFC5973]
+Signaling session failure,0x10,Requested lifetime is too small.,[RFC5973]
+Signaling session failure,0x11,Modified lifetime is too big.,[RFC5973]
+Signaling session failure,0x12,Modified lifetime is too small.,[RFC5973]

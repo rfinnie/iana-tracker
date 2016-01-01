@@ -1,0 +1,582 @@
+Index,Name,Compression Code or FourCC Codec ID,Codec ID in the IANA Namespace,Description,Bit Depth,Contact
+B.1,Intel RDX,ANIM,video/vnd.avi;codec=ANIM,Intel RDX,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.2,AuraVision Aura 2,AUR2,video/vnd.avi;codec=AUR2,AuraVision Aura 2: YUV 422,8,"Steve Gibson
+  510-440-7180
+  Fast Multimedia
+  47865 Fremont Blvd
+  Fremont, California 94538 USA"
+B.3,AuraVision Aura 1,AURA,video/vnd.avi;codec=AURA,AuraVision Aura 1: YUV 411,6,"Steve Gibson
+  510-440-7180
+  Fast Multimedia
+  47865 Fremont Blvd
+  Fremont, California 94538 USA"
+B.4,Brooktree MediaStream,BT20,video/vnd.avi;codec=BT20,Brooktree MediaStream,,"Dave Wilson
+  512-502-1725
+  Brooktree Corporation
+  9868 Scranton Road
+  San Diego, California 92121-3707 USA"
+B.5,Brooktree Composite Video,BTCV,video/vnd.avi;codec=BTCV,Brooktree Composite Video,,"Dave Wilson
+  512-502-1725
+  Brooktree Corporation
+  9868 Scranton Road
+  San Diego, California 92121-3707 USA"
+B.6,Intel YUV12,CC12,video/vnd.avi;codec=CC12,AuraVision Aura 2: Intel YUV12,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.7,Canopus DV,CDVC,video/vnd.avi;codec=CDVC,Canopus DV,,"Masayoshi Araki
+  81-78-992-7812
+  m-araki&canopus.co.jp
+  Canopus, Co., Ltd.
+  Kobe Hi-Tech Park
+  1-2-2 Murotani, Nishi-ku
+  Kobe, Hyogo 651-22 Japan"
+B.8,Winnov Caviara Cham,CHAM,video/vnd.avi;codec=CHAM,Winnov Caviara Cham,,"Winnov, Inc.
+  1230 Oakmead Parkway, Suite 312
+  Sunnyvale, California 94086 USA
+  408-733-7419"
+B.9,Proprietary YUV 4 pixels,CLJR,video/vnd.avi;codec=CLJR,Proprietary YUV 4 pixels/DWORD,,"Mr Scott MacDonald
+  512 442-7555
+  Cirrus Logic"
+B.10,Common Data Format in Printing,CMYK,video/vnd.avi;codec=CMYK,Common Data Format in Printing,32bits (8 per component),"Colorgraph (UK)
+  2 Mars House, Calleva Park
+  Aldermaston, Reading, Berkshire RG7 8LB UK
+  +44-118-9819435"
+B.11,Weitek 4:2:0 YUV Planar,CPLA,video/vnd.avi;codec=CPLA,Weitek 4:2:0 YUV Planar,,"Weitek
+  408-522-7541"
+B.12,Cinepak by Supermac,CVID,video/vnd.avi;codec=CVID,Cenepac by Supermac,,"Lou Doctor
+  Supermac"
+B.13,Microsoft Color WLT DIB,CWLT,video/vnd.avi;codec=CWLT,Microsoft Color WLT DIB,24,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.14,Creative Labs YUV,CYUV,video/vnd.avi;codec=CYUV,Creative Labs YUV,,"Peter Ridge
+  408-428-2366
+  Creative Labs, Inc
+  California, USA"
+B.15,H.261,D261,video/vnd.avi;codec=D261,H.261 Video Format,24,"John Forecast
+  forecast&shell.lkg.dec.com
+  508-486-5264
+  Digital Equipment Corporation
+  146 Main Street
+  Maynard, MA 01754-2571 USA
+  1-800-DIGITAL"
+B.16,H.263,D263,video/vnd.avi;codec=D263,H.263 Video Format,24,"John Forecast
+  forecast&shell.lkg.dec.com
+  508-486-5264
+  Digital Equipment Corporation
+  146 Main Street
+  Maynard, MA 01754-2571 USA
+  1-800-DIGITAL"
+B.17,True Motion 1.0,DUCK,video/vnd.avi;codec=DUCK,TrueMotion 1.0,,"David Silver
+  david&duck.com
+  (212)941-2403
+  The Duck Corporation
+  375 Greenwich Street
+  New York, NY 10013 USA
+  (212) 941-2400
+  http://www.duck.com/"
+B.18,DVE-2 Videoconferencing,DVE2,video/vnd.avi;codec=DVE2,DVE-2 Videoconferencing,,"Alexander V. Sokolsky
+  InSoft, Inc.
+  4718 Old Gettysburg Rd, Suite 307
+  Mechanicsburg, PA 17055-4378 USA
+  717-730-9501"
+B.19,Field Encoded Motion JPEG,FLJP,video/vnd.avi;codec=FLJP,Field Encoded Motion JPEG With LSI Bitstream Format,,"Dale Weaver
+  weaverdm&dvision.com
+  312-714-1400  -2169
+  D-Vision Systems, Inc.
+  8755 W. Higgins, Second Floor
+  Chicago, IL 60631 USA"
+B.20,Fractal Video Frame,FVF1,video/vnd.avi;codec=FVF1,Fractal Video Frame,,"Iterated Systems, Inc.
+  5550-a Peachtree Parkway, Suite 650
+  Norcross, GA 30092 USA
+  404-840-0633"
+B.21,Microsoft Greyscale WLT DIB,GWLT,video/vnd.avi;codec=GWLT,Microsoft Greyscale WLT DIB,8,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.22,H.260,H260,video/vnd.avi;codec=H260,H.260,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.23,H.261,H261,video/vnd.avi;codec=H261,H.261,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.24,H.262,H262,video/vnd.avi;codec=H262,H.262,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.25,H.263,H263,video/vnd.avi;codec=H263,H.263,12/pixel,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.26,H.264,H264,video/vnd.avi;codec=H264,H.264,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.27,H.265,H265,video/vnd.avi;codec=H265,H.265,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.28,H.266,H266,video/vnd.avi;codec=H266,H.266,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.29,H.267,H267,video/vnd.avi;codec=H267,H.267,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.30,H.268,H268,video/vnd.avi;codec=H268,H.268,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.31,H.260,H269,video/vnd.avi;codec=H269,H.269,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.32,I263,I263,video/vnd.avi;codec=I263,Intel I263,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.33,Intel Indeo 4,I420,video/vnd.avi;codec=I420,Intel Indeo 4,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.34,Intel RDX,IAN,video/vnd.avi;codec=IAN,Intel RDX,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.35,CellB Videoconferencing Codec,ICLB,video/vnd.avi;codec=ICLB,CellB Videoconferencing Codec,,"Alexander V. Sokolsky
+  InSoft, Inc.
+  4718 Old Gettysburg Rd, Suite 307
+  Mechanicsburg, PA 17055-4378 USA
+  717-730-9501"
+B.36,Intel Layered Video,ILVC,video/vnd.avi;codec=ILVC,Intel Layered Video,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.37,ITU-T H.263+,ILVR,video/vnd.avi;codec=ILVR,nITU-T's H.263+ compression standard,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.38,Intel YUV Uncompressed,IRAW,video/vnd.avi;codec=IRAW,Intel YUV uncompressed,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.39,Intel Indeo Video 3,IV30,video/vnd.avi;codec=IV30,Intel Indeo Video 3,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.40,Intel Indeo Video 3.1,IV31,video/vnd.avi;codec=IV31,Intel Indeo Video 3.1,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.41,Intel Indeo Video 3.2,IV32,video/vnd.avi;codec=IV32,Intel Indeo Video 3.2,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.42,Intel Indeo Video 3.3,IV33,video/vnd.avi;codec=IV33,Intel Indeo Video 3.3,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.43,Intel Indeo Video 3.4,IV34,video/vnd.avi;codec=IV34,Intel Indeo Video 3.4,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.44,Intel Indeo Video 3.5,IV35,video/vnd.avi;codec=IV35,Intel Indeo Video 3.5,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.45,Intel Indeo Video 3.6,IV36,video/vnd.avi;codec=IV36,Intel Indeo Video 3.6,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.46,Intel Indeo Video 3.7,IV37,video/vnd.avi;codec=IV37,Intel Indeo Video 3.7,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.47,Intel Indeo Video 3.8,IV38,video/vnd.avi;codec=IV38,Intel Indeo Video 3.8,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.48,Intel Indeo Video 3.9,IV39,video/vnd.avi;codec=IV39,Intel Indeo Video 3.9,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.49,Intel Indeo Video 4.0,IV40,video/vnd.avi;codec=IV40,Intel Indeo Video 4.0,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.50,Intel Indeo Video 4.1,IV41,video/vnd.avi;codec=IV41,Intel Indeo Video 4.1,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.51,Intel Indeo Video 4.2,IV42,video/vnd.avi;codec=IV42,Intel Indeo Video 4.2,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.52,Intel Indeo Video 4.3,IV43,video/vnd.avi;codec=IV43,Intel Indeo Video 4.3,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.53,Intel Indeo Video 4.4,IV44,video/vnd.avi;codec=IV44,Intel Indeo Video 4.4,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.54,Intel Indeo Video 4.5,IV45,video/vnd.avi;codec=IV45,Intel Indeo Video 4.5,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.55,Intel Indeo Video 4.6,IV46,video/vnd.avi;codec=IV46,Intel Indeo Video 4.6,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.56,Intel Indeo Video 4.7,IV47,video/vnd.avi;codec=IV47,Intel Indeo Video 4.7,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.57,Intel Indeo Video 4.8,IV48,video/vnd.avi;codec=IV48,Intel Indeo Video 4.8,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.58,Intel Indeo Video 4.9,IV49,video/vnd.avi;codec=IV49,Intel Indeo Video 4.9,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.59,Intel Indeo Video 5.0,IV50,video/vnd.avi;codec=IV50,Intel Indeo Video 5.0,"8, 16, 24, 32","Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.60,Still Image JPEG DIB,JPEG,video/vnd.avi;codec=JPEG,Still Image JPEG DIB,,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.61,Motion JPEG DIB,MJPG,video/vnd.avi;codec=MJPG,Motion JPEG DIB Format,"24, 8","Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.62,Microsoft MPEG-4 Video Codec,MP42,video/vnd.avi;codec=MP42,Microsoft MPEG-4 Video Codec V2,,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.63,MPEG 1 Video Frame,MPEG,video/vnd.avi;codec=MPEG,MPEG 1 Video I Frame,,"Greg Stiehl
+  stiehl&chromatic.com
+  Chromatic Research, Inc
+  615 Tasman Dr
+  Sunnyvale, California 94089 USA
+  408-752-9100"
+B.64,MR Codec,MRCA,video/vnd.avi;codec=MRCA,MR Codec,,"Martin Regen
+  49/89/50206-252
+  FAST Multimedia AG
+  Lansbergerstrasse 76
+  Munchen 80339 Germany
+  49/89/50206-0"
+B.65,Run Length Encoding,MRLE,video/vnd.avi;codec=MRLE,Run Length Encoding,,"Terri Hendry, 425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.66,Video 1,MSVC,video/vnd.avi;codec=MSVC,Microsoft Video 1,,"Terri Hendry, 425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.67,Photomotion,PHMO,video/vnd.avi;codec=PHMO,Photomotion,,IBM Corporation
+B.68,QPEG 1.1 Format Video,qpeq,video/vnd.avi;codec=qpeq,QPEG 1.1 Format Video Codec,,"Dr. Knabe
+  0049.2161.6181.0
+  Q-Team
+  Brauereistr. 11
+  D-41352 Korschenbroich Germany
+  0049.2161.6181.0"
+B.69,RGBT,RGBT,video/vnd.avi;codec=RGBT,32 bits support,,"Andy Pennell
+  Computer Concepts Ltd.
+  Gaddesden Place
+  Hemel Hempstead, Herts HP2 6EX UK
+  44 1442 63933"
+B.70,Run Length Encoded 4,RLE4,video/vnd.avi;codec=RLE4,Run Length Encoded 4,4,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.71,Run Length Encoded 8,RLE8,video/vnd.avi;codec=RLE8,Run Length Encoded 8,8,"Terri Hendry, 425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.72,Indeo 2.1,RT21,video/vnd.avi;codec=RT21,Indeo 2.1,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.73,Intel RDX,RVX,video/vnd.avi;codec=RVX,Intel RDX,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.74,Sun Digital Camera Codec,SDCC,video/vnd.avi;codec=SDCC,Sun Digital Camera Codec,,"Hideki Inoue
+  hinoue&sun-denshi.co.jp
+  Sun Communications, Inc.
+  GLORIA Bld. 6F, 1-3, AGEBA-CHO, SHINJYUKU-KU
+  Tokyo 162 Japan
+  81-3-5261-1801"
+B.75,Crystal Net SFM Codec,SFMC,video/vnd.avi;codec=SFMC,Crystal Net SFM Codec,,"Dr. Itzhak Levit
+  Crystal Net Corporation
+  1485 Saratoga Ave.
+  San Jose, California 95129 USA
+  408-446-2966"
+B.76,SMSC,SMSC,video/vnd.avi;codec=SMSC,SMSC,,"Lee Boekelheide
+  Radius (USA)
+  503-968-1270"
+B.77,SMSD,SMSD,video/vnd.avi;codec=SMSD,SMSD,,"Lee Boekelheide
+  Radius (USA)
+  503-968-1270"
+B.78,Splash Studios ACM Audio Codec,SPLC,audio/vnd.wave;codec=SPLC,Splash Studios ACM Audio Codec,,"Mark Cutter
+  Splash Studios
+  8573 154th Avenue NE
+  Redmond, WA 98052 USA
+  425-882-0300"
+B.79,Microsoft VXtreme Video Codec,SQZ2,video/vnd.avi;codec=SQZ2,Microsoft Vxtreme Video Codec V2,,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.80,Sorenson Video R1,SV10,video/vnd.avi;codec=SV10,Sorenson Video R1,,"Evan Hillman
+  ehillman&s-vision.com
+  Sorenson Vision
+  570 East Research Park Way
+  Logan, Utah 84341 USA
+  801-792-1114"
+B.81,TeraLogic Motion Infraframe Codec A,TLMS,video/vnd.avi;codec=TLMS,TeraLogic Motion Intraframe Codec,,"Charles Chui
+  chui&teralogic-inc.com
+  650-526-6003
+  TeraLogic, Inc.
+  707 California Street
+  Mountain View, California 94041 USA
+  650-526-2000"
+B.82,TeraLogic Motion Infraframe Codec B,TLST,video/vnd.avi;codec=TLST,TeraLogic Motion Intraframe Codec,,"Charles Chui
+  chui&teralogic-inc.com
+  650-526-6003
+  TeraLogic, Inc.
+  707 California Street
+  Mountain View, California 94041 USA
+  650-526-2000"
+B.83,TrueMotion 2.0,TM20,video/vnd.avi;codec=TM20,TrueMotion 2.0,,"David Silver
+  david&duck.com
+  (212) 941-2403
+  The Duck Corporation
+  375 Greenwich Street
+  New York, New York 10013 USA
+  (212) 941-2400"
+B.84,TeraLogic Motion Intraframe Codec 2,TMIC,video/vnd.avi;codec=TMIC,TeraLogic Motion Intraframe Codec 2,,"Charles Chui
+  chui&teralogic-inc.com
+  650-526-6003
+  TeraLogic, Inc.
+  707 California Street
+  Mountain View, California 94041 USA
+  650-526-2000"
+B.85,TrueMotion Video Compression,tmot,video/vnd.avi;codec=tmot,True Motion Video Compression,,"Glen D. Johnson
+  Horizons Technology, Inc
+  3990 Ruffin Road
+  San Diego, California 92123 USA
+  619-292-8331"
+B.86,TrueMotion RT 2.0,TR20,video/vnd.avi;codec=TR20,TrueMotionRT 2.0,,"David Silver
+  david&duck.com
+  (212) 941-2403
+  The Duck Corporation
+  375 Greenwich Street
+  New York, New York 10013 USA
+  (212) 941-2400"
+B.87,Ultimotion,ULTI,video/vnd.avi;codec=ULTI,Ultimotion,,IBM Corporation
+B.88,UYVY 4:2:2 byte ordering,UYVY,video/vnd.avi;codec=UYVY,UYVY 4:2:2 byte ordering,16,"Terri Hendry
+  425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.89,24 bit YUV 4:2:2 Format,V422,video/vnd.avi;codec=V422,"24 bit YUV 4:2:2 format (CCIR 601).  For this format, 2 consecutive pixels are represented by a 32 bit (4 byte) Y1UY2V color value.",,"Gueirard RJ
+  33 1 46 29 0300
+  Vitec Multimedia
+  99 rue Pierre Semard
+  F-92320 Chatillon France
+  33-1-46-73-06-06"
+B.90,16 bit YUV 4:2:2 Format,V655,video/vnd.avi;codec=V655,16 bit YUV 4:2:2 Format Codec,,"Gueirard RJ
+  33 1 46 29 0300
+  Vitec Multimedia
+  99 rue Pierre Semard
+  F-92320 Chatillon France
+  33-1-46-73-06-06"
+B.91,ATI VCR 1.0,VCR1,video/vnd.avi;codec=VCR1,ATI VCR 1.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.92,ATI VCR 2.0,VCR2,video/vnd.avi;codec=VCR2,ATI VCR 2.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.93,ATI VCR 3.0,VCR3,video/vnd.avi;codec=VCR3,ATI VCR 3.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.94,ATI VCR 4.0,VCR4,video/vnd.avi;codec=VCR4,ATI VCR 4.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.95,ATI VCR 5.0,VCR5,video/vnd.avi;codec=VCR5,ATI VCR 5.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.96,ATI VCR 6.0,VCR6,video/vnd.avi;codec=VCR6,ATI VCR 6.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.97,ATI VCR 7.0,VCR7,video/vnd.avi;codec=VCR7,ATI VCR 7.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.98,ATI VCR 8.0,VCR8,video/vnd.avi;codec=VCR8,ATI VCR 8.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.99,ATI VCR 9.0,VCR9,video/vnd.avi;codec=VCR9,ATI VCR 9.0,,"Ivan Yang
+  Ivan&atitech.ca
+  905-882-2600 x3243
+  ATI Technologies Inc.
+  33 Commerce Valley Dr. E.
+  Thornhill, Ontario L3T 7N6 Canada
+  905-882-2600"
+B.100,Video Maker Pro DIB,VDCT,video/vnd.avi;codec=VDCT,Video Maker Pro DIB,16,"Gueirard RJ
+  33 1 46 29 0300
+  Vitec Multimedia
+  99 rue Pierre Semard
+  F-92320 Chatillon France
+  33-1-46-73-06-06"
+B.101,YUV 4:2:2 CCIR 601 for V422,VIDS,video/vnd.avi;codec=VIDS,YUV 4:2:2 CCIR for V422,"24, 16","Gueirard RJ
+  33 1 46 29 0300
+  Vitec Multimedia
+  99 rue Pierre Semard
+  F-92320 Chatillon France
+  33-1-46-73-06-06"
+B.102,Vivo H.263,VIVO (Note: it is also registered as vivo),video/vnd.avi;codec=VIVO (Note: it is also registered as video/vnd.avi;codec=vivo),Vivo H.263,16,"Vivo Software
+  411 Waverley Oaks Road, Suite 313
+  Waltham, MA 02154 USA
+  (617) 899-8900"
+B.103,VIXL,VIXL,video/vnd.avi;codec=VIXL,for use with the miro video and movie products,"8, 16, 24","Matthias Huebner
+  49-531-2113-519
+  Miro Computer Products AG
+  Carl-Miele-Strasse 4
+  Braunsweig 38112 Germany
+  49-531-2113-0"
+B.104,VLCAP.DRV,VLV1,video/vnd.avi;codec=VLV1,VLCAP.DRV,,"Videologic
+  Home Park Estate
+  Kings Langley WD4 8LZ UK
+  44923260511"
+B.105,W9960,WBVC,video/vnd.avi;codec=WBVC,W9960,,"Jason Lin
+  JLLIN&winbond.com.tw
+  Winbond Electronics Corp
+  PG41, No. 9, Li Hsin Rd.
+  Science-Based Industrial Park
+  Hsinchu, Taiwan
+  886-3-5790666 x6641"
+B.106,"mmioFOURCC('X"",'2','6','3')",X263,video/vnd.avi;codec=X263,"mmioFOURCC('X"",'2','6','3')",12 bits/pixel,"Min-Hsiung Lin
+  Min.Lin&xirlink.com
+  Xirlink, Inc.
+  2210 O'Toole Ave.
+  San Jose, California 95131 USA
+  408-324-2100"
+B.107,XL Video Decoder,XLV0,video/vnd.avi;codec=XLV0,PC1 4:1:1 with transparency,,"Gary Grandbois
+  NetXL, Inc
+  48521 Warm Springs Blvd., Suite 310
+  Fremont, California 94539 USA
+  510-445-8734"
+B.108,YUV 2:1:1 Packed,Y211,video/vnd.avi;codec=Y211,YUV 2:1:1 Packed,8,"Terri Hendry, 425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.109,YUV 4:1:1 Packed,Y411,video/vnd.avi;codec=Y411,YUV 4:1:1 Packed,16,"Terri Hendry, 425-936-2069
+  Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.110,YUV 4:1:1 Planar,Y41B,video/vnd.avi;codec=Y41B,YUV 4:1:1 Planar,,"408-522-7541
+  Weitek (USA)"
+B.111,PC1 4:1:1,Y41P,video/vnd.avi;codec=Y41P,PC1 4:1:1,12,"Dave Wilson
+  512-502-1725
+  Brooktree Corporation
+  9868 Scranton Road
+  San Diego, California 92121-3707 USA
+  1-800-228-2777"
+B.112,PC1 4:1:1 with transparency,Y41T,video/vnd.avi;codec=Y41T,PC1 4:1:1 with transparency,12,"Dave Wilson
+  512-502-1725
+  Brooktree Corporation
+  9868 Scranton Road
+  San Diego, California 92121-3707 USA
+  1-800-228-2777"
+B.113,YUV 4:2:2 Planar,Y42B,video/vnd.avi;codec=Y42B,YUV 4:2:2 Planar,,"Weitek (USA)
+  408-522-7541"
+B.114,PCI 4:2:2 with transparency,Y42T,video/vnd.avi;codec=Y42T,PCI 4:2:2 with transparency,12,"Dave Wilson
+  512-502-1725
+  Brooktree Corporation
+  9868 Scranton Road
+  San Diego, California 92121-3707 USA
+  1-800-228-2777"
+B.115,Intel YUV12 Codec,YC12,video/vnd.avi;codec=YC12,Intel YUV12 Codec,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.116,Winnov Caviar YUV8,YUV8,video/vnd.avi;codec=YUV8,Winnov Caviar YUV8,,"Winnov, Inc.
+  1230 Oakmead Parkway, Suite 312
+  Sunnyvale, California 94086
+  408-733-7419"
+B.117,YUV9,YUV9,video/vnd.avi;codec=YUV9,YUV9,,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.118,YUYV 4:2:2 byte ordering packed,YUY2,video/vnd.avi;codec=YUY2,YUYV 4:2:2 byte ordering packed,16,"Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.119,"BI_YUYV, Canopus",YUYV,video/vnd.avi;codec=YUYV,"BI_YUYV, Canopus",16,"Masayoshi Araki
+  m-araki&canopus.co.jp
+  81-78-992-7812
+  Canopus, Co., Ltd.
+  Kobe Hi-Tech Park
+  1-2-2 Murotani, Nishi-ku
+  Kobe, Hyogo 651-22 Japan"
+B.120,YVU12 Planar,YV12,video/vnd.avi;codec=YV12,YVU12 Planar,,"Weitek
+  408-522-7541"
+B.121,YVU9 Planar,YVU9,video/vnd.avi;codec=YVU9,YVU9 Planar,9,"Intel Corporation
+  5200 NE Elam Young Parkway
+  Hillsboro, Oregon 97124 USA
+  503-696-2448"
+B.122,YVYU 4:2:2 byte ordering,YVYU,video/vnd.avi;codec=YUV9,YVYU,16,"Microsoft Corporation
+  One Microsoft Way
+  Redmond, WA 98052-6399 USA"
+B.123,Video Zipper,ZPEG,video/vnd.avi;codec=ZPEG,for the Video Zipper,,"Metheus
+  1600 NW Compton Drive
+  Beaverton, Oregon 97006-6905 USA
+  503-690-1550"

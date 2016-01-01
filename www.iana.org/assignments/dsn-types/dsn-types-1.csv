@@ -1,0 +1,4 @@
+address-type,Description,Reference
+rfc822,Internet Mail,[RFC3461]
+x400,X.400 Mail,[RFC2156]
+UTF-8,UTF-8 mail address,[RFC6533]

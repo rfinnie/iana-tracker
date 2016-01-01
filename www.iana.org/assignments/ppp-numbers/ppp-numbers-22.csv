@@ -1,0 +1,7 @@
+Value,Option,Reference
+0,Reserved,[RFC2153]
+1,Name-Projection,[RFC2097]
+2,Peer-Information,[RFC2097]
+3,Multicast-Filtering,[RFC2097]
+4,IEEE-MAC-Address-Required,[RFC2097]
+5-255,Unassigned,

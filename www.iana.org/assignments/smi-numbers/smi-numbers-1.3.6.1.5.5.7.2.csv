@@ -1,0 +1,6 @@
+Decimal,Description,References
+1,id-qt-cps,[RFC2459]
+2,id-qt-unotice,[RFC2459]
+3,id-qt-textNotice,[Reserved and Obsolete]
+4,id-qt-acps,[RFC4476]
+5,id-qt-acunotice,[RFC4476]

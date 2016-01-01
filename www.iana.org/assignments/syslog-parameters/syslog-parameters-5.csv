@@ -1,0 +1,5 @@
+Value,Protocol Version,Reference
+00,Reserved,[RFC5848]
+01,Defined in [RFC5848],[RFC5848]
+02-50,Unassigned,
+51-99,Reserved for Private Use,[RFC5848]

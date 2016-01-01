@@ -1,0 +1,3 @@
+Type,Name,Description,Reference
+0,Reserved,Reserved,[RFC6113]
+1,FX_FAST_ARMOR_AP_REQUEST,Ticket armor using an ap-req.,[RFC6113]

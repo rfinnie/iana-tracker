@@ -1,0 +1,21 @@
+Type,Description,Payload Type,Reference
+0,Reserved,,[RFC6696]
+1,keyName-NAI,TLV,[RFC6696]
+2,rRK Lifetime,TV,[RFC6696]
+3,rMSK Lifetime,TV,[RFC6696]
+4,Domain name,TLV,[RFC6696]
+5,Cryptosuite list,TLV,[RFC6696]
+6,Authorization Indication,TLV,[RFC6696]
+7,Sequence number,TV,[RFC6630]
+8,ERP/AAK-Key,TLV,[RFC6630]
+9,pRK Lifetime,TLV,[RFC6630]
+10,pMSK Lifetime,TLV,[RFC6630]
+11,CAP-Identifier,TLV,[RFC6630]
+12-127,Unassigned,,
+128,Called-Station-Id,TLV,[RFC6696]
+129,Calling-Station-Id,TLV,[RFC6696]
+130,NAS-Identifier,TLV,[RFC6696]
+131,NAS-IP-Address,TLV,[RFC6696]
+132,NAS-IPv6-Address,TLV,[RFC6696]
+133-191,Unassigned,,
+192-255,Reserved for Private Use,,[RFC6696]

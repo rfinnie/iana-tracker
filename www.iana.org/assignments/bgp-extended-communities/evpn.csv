@@ -1,0 +1,6 @@
+Sub-Type Value,Name,Reference,Date
+0x00,MAC Mobility,[RFC7432],2012-07-11
+0x01,ESI Label,[RFC7432],2012-07-11
+0x02,ES-Import Route Target,[RFC7432],2012-07-11
+0x03,EVPN Router’s MAC Extended Community,[draft-sajassi-l2vpn-evpn-inter-subnet-forwarding],2014-09-23
+0x04-0xff,Unassigned,,

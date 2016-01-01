@@ -1,0 +1,23 @@
+Value,Cause Code,Reference
+1,Invalid Stream Identifier,[RFC4960]
+2,Missing Mandatory Parameter,[RFC4960]
+3,Stale Cookie Error,[RFC4960]
+4,Out of Resource,[RFC4960]
+5,Unresolvable Address,[RFC4960]
+6,Unrecognized Chunk Type,[RFC4960]
+7,Invalid Mandatory Parameter,[RFC4960]
+8,Unrecognized Parameters,[RFC4960]
+9,No User Data,[RFC4960]
+10,Cookie Received While Shutting Down,[RFC4960]
+11,Restart of an Association with New Addresses,[RFC4960]
+12,User Initiated Abort,[RFC4460]
+13,Protocol Violation,[RFC4460]
+14-159,Unassigned,
+160,Request to Delete Last Remaining IP Address,[RFC5061]
+161,Operation Refused Due to Resource Shortage,[RFC5061]
+162,Request to Delete Source IP Address,[RFC5061]
+163,Association Aborted due to illegal ASCONF-ACK,[RFC5061]
+164,Request refused - no authorization,[RFC5061]
+165-260,Unassigned,
+261,Unsupported HMAC Identifier,[RFC4895]
+262-65535,Unassigned,

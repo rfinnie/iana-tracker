@@ -1,0 +1,11 @@
+Value,Operation Name,Reference
+0,Function complete,[RFC7143]
+1,Task does not exist,[RFC7143]
+2,LUN does not exist,[RFC7143]
+3,Task still allegiant,[RFC7143]
+4,Task allegiance reassignment not supported,[RFC7143]
+5,Task management function not supported,[RFC7143]
+6,Function authorization failed,[RFC7143]
+7,Function succeeded,[RFC7144]
+8-254,Unassigned,
+255,Function rejected,[RFC7143]

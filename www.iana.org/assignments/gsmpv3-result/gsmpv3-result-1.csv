@@ -1,0 +1,9 @@
+Result Value,Result Type Name,Reference
+0,Reserved,
+1,NoSuccessAck,[RFC3292]
+2,AckAll,[RFC3292]
+3,Success,[RFC3292]
+4,Failure,[RFC3292]
+5,More,[RFC3292]
+6,ReturnReceipt,[RFC3292]
+7-255,Unassigned,

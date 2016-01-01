@@ -1,0 +1,14 @@
+Value,Description,FS LSP ID Format/TLV Format,IIH Announce P2P,IIH Announce L1LAN,IIH Announce L2LAN,Reference
+0,Reserved,,,,,[RFC7356]
+1,Level 1 Circuit Flooding Scope,Extended/Standard,y,y,n,[RFC7356]
+2,Level 2 Circuit Flooding Scope,Extended/Standard,y,n,y,[RFC7356]
+3,Level 1 Flooding Scope,Extended/Standard,y,y,n,[RFC7356]
+4,Level 2 Flooding Scope,Extended/Standard,y,n,y,[RFC7356]
+5,Domain Flooding Scope,Extended/Standard,y,y,y,[RFC7356]
+6-63,Unassigned,,,,,
+64,Level 1 Circuit Flooding Scope,Extended/Extended,y,y,n,[RFC7356]
+65,Level 2 Circuit Flooding Scope,Extended/Extended,y,n,y,[RFC7356]
+66,Level 1 Flooding Scope,Extended/Extended,y,y,n,[RFC7356]
+67,Level 2 Flooding Scope,Extended/Extended,y,n,y,[RFC7356]
+68,Domain Flooding Scope,Extended/Extended,y,y,y,[RFC7356]
+69-127,Unassigned,,,,,

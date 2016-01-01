@@ -1,0 +1,9 @@
+Decimal,Description,References
+1,id-TEST-certPolicyOne,[RFC7229]
+2,id-TEST-certPolicyTwo,[RFC7229]
+3,id-TEST-certPolicyThree,[RFC7229]
+4,id-TEST-certPolicyFour,[RFC7229]
+5,id-TEST-certPolicyFive,[RFC7229]
+6,id-TEST-certPolicySix,[RFC7229]
+7,id-TEST-certPolicySeven,[RFC7229]
+8,id-TEST-certPolicyEight,[RFC7229]

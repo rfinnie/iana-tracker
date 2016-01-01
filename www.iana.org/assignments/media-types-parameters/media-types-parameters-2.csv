@@ -1,0 +1,11 @@
+X.400 Basic Body Part,MIME content-type,Reference
+ia5-text,text/plain;charset=us-ascii,[RFC1494]
+voice,No Mapping Defined,[RFC1494]
+g3-facsimile,image/g3fax,[RFC1494]
+g4-class1,no mapping defined,[RFC1494]
+teletex,no mapping defined,[RFC1494]
+videotex,no mapping defined,[RFC1494]
+encrypted,no mapping defined,[RFC1494]
+bilaterally-defined,application/octet-stream,[RFC1494]
+nationally-defined,no mapping defined,[RFC1494]
+externally-defined,See Extended Body Parts,[RFC1494]

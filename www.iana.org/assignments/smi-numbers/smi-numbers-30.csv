@@ -1,0 +1,6 @@
+Decimal,Name,References
+0,Reserved,[IANA]
+1,spkm-1,[Carlisle_Adams]
+2,spkm-2,[Carlisle_Adams]
+3,spkm-3,[RFC2847]
+10,spkmGssTokens,[RFC2025]

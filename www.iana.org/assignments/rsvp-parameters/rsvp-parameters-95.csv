@@ -1,0 +1,10 @@
+Value,Description,Reference
+1,IPv4 address,[RFC3209]
+2,IPv6 address,[RFC3209]
+3,Label,[RFC6001]
+4,Unnumbered Interface ID,[RFC3477]
+32,Autonomous system number,[RFC3209]
+33,"Explicit Exclusion Route
+ subobject (EXRS)",[RFC4874]
+34,SRLG,[RFC4874]
+35,Switching Capability (SC),[RFC6001]

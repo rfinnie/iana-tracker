@@ -1,0 +1,11 @@
+Label,Description,Reference
+experimental1,Reserved for Experimental Use,[RFC5295]
+experimental2,Reserved for Experimental Use,[RFC5295]
+private1,Reserved for Private Use,[RFC5295]
+private2,Reserved for Private Use,[RFC5295]
+EMSK,Extended Master Session Key (EMSK),[RFC5295]
+dsrk@ietf.org,Domain Specific Root Key (DSRK),[RFC5295]
+EAP Re-authentication Root Key@ietf.org,Re-auth usage label,[RFC6696]
+DSRK Delivery Authorized Key@ietf.org,DSRK authorized delivery key,[RFC6696]
+EAP Early-Authentication Root Key@ietf.org,Early authentication usage,[RFC6630]
+TEAPbindkey@ietf.org,TEAP binding usage label,[RFC7170]

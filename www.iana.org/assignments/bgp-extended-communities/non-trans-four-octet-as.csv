@@ -1,0 +1,4 @@
+Sub-Type Value,Name,Reference,Date
+0x00-0x03,Unassigned,,
+0x04,Generic,[draft-ietf-idr-as4octet-extcomm-generic-subtype],
+0x05-0xff,Unassigned,,

@@ -1,0 +1,6 @@
+Value,Name,References
+0,Reserved,[RFC3168]
+1,Allowed,[RFC3168]
+2,Forbidden,[RFC3168]
+3-61439,Unassigned,
+61440-65535,Reserved for private use,

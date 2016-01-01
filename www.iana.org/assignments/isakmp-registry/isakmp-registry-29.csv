@@ -1,0 +1,3 @@
+Value,Domain,References
+0,Reserved,[RFC2407]
+0x80000000-0xffffffff,Reserved for private use,

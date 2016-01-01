@@ -1,0 +1,8 @@
+SubType,Description,Reference
+0,Reserved,
+1,ASCII_DN,[RFC3182]
+2,UNICODE_DN,[RFC3182]
+3,ASCII_DN_ENCRYPT,[RFC3182]
+4,UNICODE_DN_ENCRYPT,[RFC3182]
+5-127,Unassigned,
+128-255,Reserved,

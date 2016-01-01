@@ -1,0 +1,11 @@
+Name,Reference
+no-cache:,[RFC-ietf-mmusic-rfc2326bis-40]
+public:,[RFC-ietf-mmusic-rfc2326bis-40]
+private:,[RFC-ietf-mmusic-rfc2326bis-40]
+no-transform:,[RFC-ietf-mmusic-rfc2326bis-40]
+only-if-cached:,[RFC-ietf-mmusic-rfc2326bis-40]
+max-stale:,[RFC-ietf-mmusic-rfc2326bis-40]
+min-fresh:,[RFC-ietf-mmusic-rfc2326bis-40]
+must-revalidate:,[RFC-ietf-mmusic-rfc2326bis-40]
+proxy-revalidate:,[RFC-ietf-mmusic-rfc2326bis-40]
+max-age:,[RFC-ietf-mmusic-rfc2326bis-40]

@@ -1,0 +1,8 @@
+Value,Description,Reference
+0x00,Reserved,[RFC5974]
+0x01,RESERVE,[RFC5974]
+0x02,QUERY,[RFC5974]
+0x03,RESPONSE,[RFC5974]
+0x04,NOTIFY,[RFC5974]
+0x05-0xEF,Unassigned,
+0xF0-0xFF,Reserved for Experimental/Private Use,[RFC5974]

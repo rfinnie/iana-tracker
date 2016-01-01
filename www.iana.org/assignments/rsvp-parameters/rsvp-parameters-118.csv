@@ -1,0 +1,8 @@
+TLV Value,Name,Reference
+0,Reserved,[RFC6001]
+1,Call Attributes Flags TLV,[RFC6001]
+2,Endpoint ID,[RFC6004]
+3,Service ID TLV,[RFC6060]
+4,VCAT TLV,[RFC6344]
+5-32767,Unassigned,
+32768-65535,Reserved for Private Use,[RFC6001]

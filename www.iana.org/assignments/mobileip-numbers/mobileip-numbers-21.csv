@@ -1,0 +1,5 @@
+Value,Name,Reference
+0,Reserved,[RFC4721]
+1,Reserved,[RFC4721]
+2,CHAP_SPI,[RFC4721]
+3-255,Unassigned,

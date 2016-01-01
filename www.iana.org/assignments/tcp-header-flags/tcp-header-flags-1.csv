@@ -1,0 +1,4 @@
+Bit,Name,Reference
+7,NS (Nonce Sum),[RFC3540]
+8,CWR (Congestion Window Reduced),[RFC3168]
+9,ECE (ECN-Echo),[RFC3168]

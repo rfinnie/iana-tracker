@@ -1,0 +1,21 @@
+Value,Name,Reference
+0,One-byte Padding (encoded with no Length nor Data field),[RFC5944]
+1-15,Unassigned,
+16,Mobility Agent Advertisement,[RFC5944]
+17-18,Unassigned,
+19,Prefix-Lengths,[RFC5944]
+20,Link-Layer Address Option Format (LLA),[RFC4988]
+21,New IPv4 Address,[RFC4988]
+22,New Router Prefix Information,[RFC4988]
+23,Unassigned,
+24,Challenge Extension,[RFC4721]
+25-126,Unassigned,
+127,Non-skippable Adv. Extension for Experimental use,[RFC4064]
+128-135,Unassigned,
+136,NAI Carrying Extension,[RFC3846]
+137,CARD MN-AR signature option,[RFC4065]
+138,CARD Request option,[RFC4065]
+139,CARD Reply option,[RFC4065]
+140,Generalized Link Layer Address Advertisement Extension,[RFC4881]
+141-254,Unassigned,
+255,Skippable Adv. Extension for Experimental use,[RFC4064]

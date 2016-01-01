@@ -1,0 +1,12 @@
+Value,Algorithm Profile,Reference
+0,RESERVED,[RFC7401]
+1,NULL-ENCRYPT,[RFC2410]
+2,Unassigned,
+3,DSA,[RFC7401]
+4,Unassigned,
+5,RSA,[RFC7401]
+6,Unassigned,
+7,ECDSA,[RFC7401]
+8,Unassigned,
+9,ECDSA_LOW,[RFC7401]
+10-65535,Unassigned,

@@ -1,0 +1,8 @@
+Value,KEK Class,Type,Reference
+0,Reserved,,[RFC3547]
+1,LKH_DOWNLOAD_ARRAY,V,[RFC3547]
+2,LKH_UPDATE_ARRAY,V,[RFC3547]
+3,SIG_ALGORITHM_KEY,V,[RFC3547]
+4-127,Unassigned,,
+128-255,Private Use,,[RFC3547]
+256-32767,Unassigned,,

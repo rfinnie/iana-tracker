@@ -1,0 +1,29 @@
+Code,Description,Reference
+requestError,"This code indicates that the request was badly formed 
+        in some fashion.",[RFC5985]
+xmlError,"This code indicates that the XML content of the request
+        was either badly formed or invalid.",[RFC5985]
+generalLisError,"This code indicates that an unspecified error
+        occurred at the LIS.",[RFC5985]
+locationUnknown,"This code indicates that the LIS could not
+        determine the location of the Device.",[RFC5985]
+unsupportedMessage,"This code indicates that the request was not
+        supported or understood by the LIS.  This error code is used when
+        a HELD request contains a document element that is not supported
+        by the receiver.",[RFC5985]
+timeout,"This code indicates that the LIS could not satisfy the
+        request within the time specified in the ""responseTime"" parameter.",[RFC5985]
+cannotProvideLiType,"This code indicates that the LIS was unable to
+        provide LI of the type or types requested.  This code is used when
+        the ""exact"" attribute on the ""locationType"" parameter is set to
+        ""true"".",[RFC5985]
+notLocatable,"This code indicates that the LIS is unable to locate
+        the Device, and that the Device MUST NOT make further attempts to
+        retrieve LI from this LIS.  This error code is used to indicate
+        that the Device is outside the access network served by the LIS;
+        for instance, the VPN and NAT scenarios discussed in
+        Section 4.1.2.",[RFC5985]
+badIdentifier,"This error code indicates that a Device identifier
+        used in the HELD request was either: not supported by the LIS,
+        badly formatted, or not one for which the requester was authorized
+        to make a request.",[RFC6155]

@@ -1,0 +1,9 @@
+Value,Transform ID,References
+0,RESERVED,[RFC2407]
+1,IPCOMP_OUI,[RFC2407]
+2,IPCOMP_DEFLATE,[RFC2407]
+3,IPCOMP_LZS,[RFC2407]
+4,IPCOMP_LZJH,[RFC3051]
+5-47,Reserved for approved algorithms,
+48-63,Reserved for private use,
+64-255,Unassigned,

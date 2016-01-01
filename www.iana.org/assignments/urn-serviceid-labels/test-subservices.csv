@@ -1,0 +1,11 @@
+Service,Description,Reference
+test.sos,test for sos,[RFC6881]
+test.sos.ambulance,test for sos.ambulance,[RFC6881]
+test.sos.animal-control,test for sos.animal-control,[RFC6881]
+test.sos.fire,test for sos.fire,[RFC6881]
+test.sos.gas,test for sos.gas,[RFC6881]
+test.sos.marine,test for sos.marine,[RFC6881]
+test.sos.mountain,test for sos.mountain,[RFC6881]
+test.sos.physician,test for sos.physician,[RFC6881]
+test.sos.poison,test for sos.poison,[RFC6881]
+test.sos.police,test for sos.police,[RFC6881]

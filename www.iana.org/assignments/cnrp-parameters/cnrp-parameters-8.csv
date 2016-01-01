@@ -1,0 +1,6 @@
+Code,Description,Reference
+5.0.0,Something undefined caused a permanent failure,[RFC3367]
+5.1.0,The query permanently failed,[RFC3367]
+5.2.0,The service had a permanent failure,[RFC3367]
+5.2.1,This Service is no longer available,[RFC3367]
+5.2.2,The Server had a permanent failure,[RFC3367]

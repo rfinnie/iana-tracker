@@ -1,0 +1,29 @@
+Decimal,Description,Reference
+0-63,BBNCC Monitoring,[Michael_Brescia]
+64-149,Unassigned,[Jon_Postel]
+150,Xerox NS IDP,"[""The Ethernet, A Local Area Network: Data Link Layer and
+Physical Layer Specification"", AA-K759B-TK, Digital
+Equipment Corporation, Maynard, MA.  Also as: ""The Ethernet
+- A Local Area Network"", Version 1.0, Digital Equipment
+Corporation, Intel Corporation, Xerox Corporation,
+September 1980.  And: ""The Ethernet, A Local Area Network:
+Data Link Layer and Physical Layer Specifications"",
+Digital, Intel and Xerox, November 1982.  And: XEROX, ""The
+Ethernet, A Local Area Network: Data Link Layer and
+Physical Layer Specification"", X3T51/80-50, Xerox
+Corporation, Stamford, CT., October 1980.][Fonda_Pallone]"
+151,Unassigned,[Jon_Postel]
+152,PARC Universal Protocol,"[Boggs, D., J. Shoch, E. Taft, and R. Metcalfe, ""PUP: An
+Internetwork Architecture"", XEROX Palo Alto Research Center,
+CSL-79-10, July 1979; also in IEEE Transactions on
+Communication, Volume COM-28, Number 4, April 1980.][Fonda_Pallone]"
+153,TIP Status Reporting,[Jim_Herman]
+154,TIP Accounting,[Jim_Herman]
+155,Internet Protocol [regular],[RFC791][Jon_Postel]
+156-158,Internet Protocol [experimental],[RFC791][Jon_Postel]
+159,Figleaf Link,[Joseph_Walters_Jr]
+160,Blacker Local Network Protocol,[Dennis_Morris]
+161-194,Unassigned,[Jon_Postel]
+195,ISO-IP,[RFC926][Robert_Myhill]
+196-247,Experimental Protocols,[Jon_Postel]
+248-255,Network Maintenance,[Jim_Herman]

@@ -1,0 +1,12 @@
+Key Usage,Specification,Deprecated,Reference
+OTP,Section 5,FALSE,[RFC6030]
+CR,Section 5,FALSE,[RFC6030]
+Encrypt,Section 5,FALSE,[RFC6030]
+Integrity,Section 5,FALSE,[RFC6030]
+Verify,Section 5,FALSE,[RFC6030]
+Unlock,Section 5,FALSE,[RFC6030]
+Decrypt,Section 5,FALSE,[RFC6030]
+KeyWrap,Section 5,FALSE,[RFC6030]
+Unwrap,Section 5,FALSE,[RFC6030]
+Derive,Section 5,FALSE,[RFC6030]
+Generate,Section 5,FALSE,[RFC6030]

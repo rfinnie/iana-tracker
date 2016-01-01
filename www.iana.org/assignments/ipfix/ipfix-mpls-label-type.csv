@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Unknown: The MPLS label type is not known.,[RFC3954][ipfix-iana_at_cisco.com]
+1,TE-MIDPT: Any TE tunnel mid-point or tail label,[RFC5102]
+2,Pseudowire: Any PWE3 or Cisco AToM based label,[RFC5102]
+3,VPN: Any label associated with VPN,[RFC5102]
+4,BGP: Any label associated with BGP or BGP routing,[RFC5102]
+5,LDP: Any label associated with dynamically assigned labels using LDP,[RFC5102]
+6-255,Unassigned,[RFC5102]

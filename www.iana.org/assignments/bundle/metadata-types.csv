@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Reserved,[RFC6258]
+1,URI,[RFC6258]
+2-191,Unassigned,
+192-255,Private and/or Experimental Use,[RFC6258]

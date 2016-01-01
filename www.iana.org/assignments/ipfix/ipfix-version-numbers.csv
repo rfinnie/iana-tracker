@@ -1,0 +1,6 @@
+Value,Version,Reference
+0,Reserved,
+1-8,Reserved (historic),
+9,Cisco Systems NetFlow Version 9 (historic),[RFC3954]
+10,IPFIX,[RFC7011]
+11-65535,Unassigned,

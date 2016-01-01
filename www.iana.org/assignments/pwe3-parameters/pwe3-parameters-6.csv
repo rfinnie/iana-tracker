@@ -1,0 +1,18 @@
+AII Type,Length,Description,Reference
+0x01,4,A 32 bit unsigned number local identifier,[RFC6074]
+0x02,"variable   
+8 or 12",Aggregate Identifier,[RFC5003]
+0x03,"variable   
+1 to 33",ATM/FR Control Channel,"[""ATM and Frame Relay to MPLS Control Plane Interworking: Client-Server"",
+MFA Forum 10.0.0, MFA Forum, September 2006.]"
+0x04,"variable   
+3 to 35",ATM/FR Signaling Call Reference,"[""ATM and Frame Relay to MPLS Control Plane Interworking: Client-Server"",
+MFA Forum 10.0.0, MFA Forum, September 2006.]"
+0x05,"variable   
+2 to 30",Frame Relay Port and Connection Identifier,"[Soft Permanent Virtual Circuit Interworking between MPLS Pseudowires and
+ATM, MFA Forum, work in progress (this specification is at the baseline
+text stage).]"
+0x06,"variable   
+2 to 30",ATM Port and Connection Identifier,"[Soft Permanent Virtual Circuit Interworking between MPLS Pseudowires and
+ATM, MFA Forum, work in progress (this specification is at the baseline
+text stage).]"

@@ -1,0 +1,5 @@
+Value,Name,Reference
+0,Diameter,[RFC5624]
+1,Resource priority parameters,[RFC6735]
+2-32767,Unassigned,
+32768-4294967295,Reserved,[RFC5624]

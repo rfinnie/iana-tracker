@@ -1,0 +1,4 @@
+Decimal,Description,References
+0,Reserved,[IANA]
+1,iakerb proxy protocol,[Jonathan_Trostle]
+2,iakerb minimum messages protocol,[Jonathan_Trostle]

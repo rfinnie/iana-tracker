@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Success,[RFC5844]
+1-127,Unassigned,
+128,"Failure, Reason Unspecified",[RFC5844]
+129,Administratively prohibited,[RFC5844]
+130,Incorrect IPv4 home address,[RFC5844]
+131,Invalid IPv4 address,[RFC5844]
+132,Dynamic IPv4 home address assignment not available,[RFC5844]
+133-255,Unassigned,

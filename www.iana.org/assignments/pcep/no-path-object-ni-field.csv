@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,No path satisfying the set of constraints could be found,[RFC5440]
+1,PCE chain broken,[RFC5440]
+2-255,Unassigned,

@@ -1,0 +1,8 @@
+Range,Guideline,Registration Procedures
+0-8,Success Codes,None
+9-63,Allocation guidelines not specified,None
+64-127,Error Codes from the Foreign Agent,Expert Review
+128-192,Error Codes from the Home Agent,Expert Review
+193-200,Error Codes from the Gateway Foreign Agent,Expert Review
+201-210,Error Codes form the Correspondent Node,Expert Review
+211-255,Allocation guidelines not specified,None

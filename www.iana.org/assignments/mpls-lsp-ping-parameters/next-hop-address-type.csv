@@ -1,0 +1,10 @@
+Type,Type of Next Hop,Address Length,IF Length,Reference
+0,Unassigned,,,
+1,IPv4 Numbered,4,4,[RFC4379]
+2,IPv4 Unnumbered,4,4,[RFC4379]
+3,IPv6 Numbered,16,16,[RFC4379]
+4,IPv6 Unnumbered,16,4,[RFC4379]
+5,Reserved,,,[RFC6426][RFC7555]
+6,IPv4 Protocol Adj,4,0,[RFC7555]
+7,IPv6 Protocol Adj,16,0,[RFC7555]
+8-255,Unassigned,,,

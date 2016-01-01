@@ -1,0 +1,12 @@
+Value,BFD Diagnostic Code Name,Reference
+0,No Diagnostic,[RFC5880]
+1,Control Detection Time Expired,[RFC5880]
+2,Echo Function Failed,[RFC5880]
+3,Neighbor Signaled Session Down,[RFC5880]
+4,Forwarding Plane Reset,[RFC5880]
+5,Path Down,[RFC5880]
+6,Concatenated Path Down,[RFC5880]
+7,Administratively Down,[RFC5880]
+8,Reverse Concatenated Path Down,[RFC5880]
+9,mis-connectivity defect,[RFC6428]
+10-31,Unassigned,

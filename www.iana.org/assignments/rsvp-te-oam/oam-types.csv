@@ -1,0 +1,6 @@
+Type,Description,Reference
+0,Unassigned,
+1,Ethernet OAM,[RFC7369]
+2,Unassigned,
+3,MPLS OAM,[RFC7487]
+4-255,Unassigned,

@@ -1,0 +1,7 @@
+Value,Description,Reference
+0,Reserved,[RFC5685]
+1,IPv4 address of the VPN gateway,[RFC5685]
+2,IPv6 address of the VPN gateway,[RFC5685]
+3,FQDN of the VPN gateway,[RFC5685]
+4-240,Unassigned,
+241-255,Reserved for Private Use,[RFC5685]

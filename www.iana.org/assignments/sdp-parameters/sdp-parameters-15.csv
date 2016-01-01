@@ -1,0 +1,9 @@
+Value Name,Long Name,Usable with,Reference
+sli,Slice Loss Indication,nack,[RFC4585]
+pli,Picture Loss Indication,nack,[RFC4585]
+rpsi,Reference Picture Selection Indication,"ack, nack",[RFC4585]
+app,Application layer feedback,"ack, nack",[RFC4585]
+rai,Rapid Acquisition Indication,nack,[RFC6285]
+tllei,Transport-Layer Third-Party Loss Early Indication,nack,[RFC6642]
+pslei,Payload-Specific Third-Party Loss Early Indication,nack,[RFC6642]
+ecn,Explicit Congestion Notification,nack,[RFC6679]

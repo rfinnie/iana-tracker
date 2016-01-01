@@ -1,0 +1,8 @@
+s-num,s-type val,"Description (s-num, s-type)",Reference
+0x01,0x01,"Complete PRID, BER",[RFC3084]
+0x02,0x01,"Prefix PRID, BER",[RFC3084]
+0x03,0x01,"EPD, BER",[RFC3084]
+0x04,0x01,"GPERR, BER",[RFC3084]
+0x05,0x01,"CPERR, BER",[RFC3084]
+0x06,0x01,"ErrorPRID, BER",[RFC3084]
+,0x02,Reserved for transport of XML encoded data,[RFC3084]

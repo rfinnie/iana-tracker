@@ -1,0 +1,20 @@
+Value,Hex,Name,Label Advertisement Discipline,Reference,Notes/Registration Date
+0,0x00,Reserved,,,
+1,0x01,Wildcard,Not applicable,[RFC5036][RFC7358],
+2,0x02,Prefix,As negotiated (DU or DoD),[RFC5036][RFC7358],
+3,,Unassigned,,,
+4,0x04,CR-LSP,DoD,[RFC3212][RFC7358],
+5,0x05,Typed Wildcard FEC Element,Not applicable,[RFC5918][RFC7358],
+6,0x06,P2MP,DU,[RFC6388][RFC7358],
+7,0x07,MP2MP-up,DU,[RFC6388][RFC7358],
+8,0x08,MP2MP-down,DU,[RFC6388][RFC7358],
+9,0x09,HSMP-upstream,DU,[RFC7140][RFC7358],2014-01-09
+10,0x0A,HSMP-downstream,"DU, Upstream",[RFC7140][RFC7358],2014-01-09
+11-127,,Unassigned,,,
+128,0x80,PWid FEC Element,DU,[RFC4447][RFC7358],
+129,0x81,Generalized PWid FEC Element,DU,[RFC4447][RFC7358],
+130,0x82,P2MP PW Upstream FEC Element,Upstream,[draft-ietf-pwe3-p2mp-pw][RFC7358],2009-06-03
+131,0x83,Protection FEC Element,DU,[draft-ietf-pwe3-endpoint-fast-protection][RFC7358],2010-02-26
+132,0x84,P2MP PW Downstream FEC Element,DU,[draft-ietf-pwe3-p2mp-pw][RFC7358],2014-04-04
+133-191,,Unassigned,,,
+192-255,,Reserved for Private Use,,,

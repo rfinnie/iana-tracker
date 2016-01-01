@@ -1,0 +1,4 @@
+Decimal,Name,Description,References
+0,Reserved,Reserved,[IANA]
+1,mib-2,MIB,[Keith_McCloghrie]
+2,pib,PIB,[RFC3159]

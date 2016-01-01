@@ -1,0 +1,5 @@
+Value,Description,DTLS-OK,Reference
+0-63,Unassigned,,
+64,upn_domain_hint,Y,[RFC4681]
+65-223,Unassigned,,
+224-255,Reserved for Private Use,,[RFC4681]

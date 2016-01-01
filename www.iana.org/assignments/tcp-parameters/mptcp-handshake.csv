@@ -1,0 +1,5 @@
+Flag Bit,Meaning,Reference
+A,Checksum required,"[RFC6824], Section 3.1"
+B,Extensibility,"[RFC6824], Section 3.2"
+C-G,Unassigned,
+H,HMAC-SHA1,"[RFC6824], Section 3.2"

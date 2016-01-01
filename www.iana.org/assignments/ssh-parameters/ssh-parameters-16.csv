@@ -1,0 +1,13 @@
+Method Name,Reference,Note
+diffie-hellman-group-exchange-sha1,[RFC4419],Section 4.1
+diffie-hellman-group-exchange-sha256,[RFC4419],Section 4.2
+diffie-hellman-group1-sha1,[RFC4253],Section 8.1
+diffie-hellman-group14-sha1,[RFC4253],Section 8.2
+ecdh-sha2-*,[RFC5656],
+ecmqv-sha2,[RFC5656],
+gss-group1-sha1-*,[RFC4462],Section 2.3
+gss-group14-sha1-*,[RFC4462],Section 2.4
+gss-gex-sha1-*,[RFC4462],Section 2.5
+gss-*,[RFC4462],Section 2.6
+rsa1024-sha1,[RFC4432],
+rsa2048-sha256,[RFC4432],

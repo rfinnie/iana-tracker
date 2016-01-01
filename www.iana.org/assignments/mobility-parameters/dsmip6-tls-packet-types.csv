@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,non-encrypted IP packet,[RFC6618]
+1,encrypted IP packet,[RFC6618]
+2-7,Unassigned,
+8,mobility header,[RFC6618]
+9-15,Unassigned,

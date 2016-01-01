@@ -1,0 +1,6 @@
+Code,Meaning,Reference
+0,Reserved,[RFC6677]
+1,Channel-binding data from client,[RFC6677]
+2,Channel-binding response: success,[RFC6677]
+3,Channel-binding response: failure,[RFC6677]
+4-255,Unassigned,

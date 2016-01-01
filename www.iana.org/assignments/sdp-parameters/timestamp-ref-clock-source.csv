@@ -1,0 +1,8 @@
+Name,Long Name,Reference
+ntp,Network Time Protocol,"[RFC7273, section 4]"
+ptp,Precision Time Protocol,"[RFC7273, section 4]"
+gps,Global Positioning System,"[RFC7273, section 4]"
+gal,Galileo,"[RFC7273, section 4]"
+glonass,Global Navigation Satellite System,"[RFC7273, section 4]"
+local,Local Clock,"[RFC7273, section 4]"
+private,Private Clock,"[RFC7273, section 4]"

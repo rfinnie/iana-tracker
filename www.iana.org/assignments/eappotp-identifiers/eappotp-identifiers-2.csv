@@ -1,0 +1,8 @@
+Octet 1,Octet 2,Hash Algorithm,Reference
+0x00,0x00,Reserved,[RFC4793]
+0x00,0x01,SHA-1,[RFC4793]
+0x00,0x02,SHA-224,[RFC4793]
+0x00,0x03,SHA-256 (default),[RFC4793]
+0x00,0x04,SHA-384,[RFC4793]
+0x00,0x05,SHA-512,[RFC4793]
+0x80,-,Vendor-specific (or experimental),[RFC4793]

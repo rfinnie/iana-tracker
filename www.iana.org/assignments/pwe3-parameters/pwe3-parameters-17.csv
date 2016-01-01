@@ -1,0 +1,11 @@
+Type,Length,Description,Reference
+0x00,,Unassigned,
+0x01,4,PWid of last PW segment traversed,[RFC6073]
+0x02,variable,PW Switching Point description string,[RFC6073]
+0x03,4/16,Local IP address of PW Switching Point,[RFC6073]
+0x04,4/16,"Remote IP address of last PW Switching Point   
+traversed or of the T-PE",[RFC6073]
+0x05,variable,FEC Element of last PW segment traversed,[RFC6073]
+0x06,14,L2 PW address of PW Switching Point,[RFC6073][RFC7267]
+0x07,24,Static PW/MPLS-TP PW segment ID of last PW segment traversed,[RFC6478]
+0x08-0xFF,,Unassigned,

@@ -1,0 +1,5 @@
+Name,URI,Deprecated,Reference
+PSKC Key Container,urn:ietf:params:xml:ns:keyprov:dskpp:pskc-key-container,FALSE,[RFC6030][RFC6063]
+SKPC Key Container,urn:ietf:params:xml:ns:keyprov:dskpp:skpc-key-container,FALSE,[RFC6031][RFC6063]
+PKCS12 Key Container,urn:ietf:params:xml:ns:keyprov:dskpp:pkcs12-key-container,FALSE,"['Personal Information Exchange Syntax Standard', PKCS 12 Version 1.0][ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-12/pkcs-12v1.pdf][RFC6063]"
+PKCS5-XML Key Container,urn:ietf:params:xml:ns:keyprov:dskpp:pkcs5-xml-key-container,FALSE,"['XML Schema for PKCS 5 Version 2.0', PKCS 5 Version 2.0 Amd.1 (FINAL DRAFT), October 2006,][http://www.rsasecurity.com/rsalabs/pkcs/][RFC6063]"

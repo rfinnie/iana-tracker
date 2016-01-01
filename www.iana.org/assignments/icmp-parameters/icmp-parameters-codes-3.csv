@@ -1,0 +1,22 @@
+Codes,Description,Reference
+0,Net Unreachable,[RFC792]
+1,Host Unreachable,[RFC792]
+2,Protocol Unreachable,[RFC792]
+3,Port Unreachable,[RFC792]
+4,"Fragmentation Needed and Don't
+        Fragment was Set",[RFC792]
+5,Source Route Failed,[RFC792]
+6,Destination Network Unknown,[RFC1122]
+7,Destination Host Unknown,[RFC1122]
+8,Source Host Isolated,[RFC1122]
+9,"Communication with Destination
+        Network is Administratively Prohibited",[RFC1122]
+10,"Communication with Destination Host is
+        Administratively Prohibited",[RFC1122]
+11,"Destination Network Unreachable for Type
+        of Service",[RFC1122]
+12,"Destination Host Unreachable for Type of
+        Service",[RFC1122]
+13,Communication Administratively Prohibited,[RFC1812]
+14,Host Precedence Violation,[RFC1812]
+15,Precedence cutoff in effect,[RFC1812]

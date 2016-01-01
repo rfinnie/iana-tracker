@@ -1,0 +1,32 @@
+Value,Description,Reference
+0,Reserved,[RFC6624]
+1,Frame Relay,[RFC4446]
+2,ATM AAL5 SDU VCC transport,[RFC4446]
+3,ATM transparent cell transport,[RFC4816]
+4,Ethernet (VLAN) Tagged Mode,[RFC4448]
+5,Ethernet Raw Mode,[RFC4448]
+6,Cisco HDLC,[RFC4618]
+7,PPP,[RFC4618]
+8,SONET/SDH Circuit Emulation Service,[RFC4842]
+9,ATM n-to-one VCC cell transport,[RFC4717]
+10,ATM n-to-one VPC cell transport,[RFC4717]
+11,IP Layer 2 Transport,[RFC3032]
+12-14,Unassigned,
+15,Frame Relay Port mode,[RFC4619]
+16,Unassigned,
+17,Structure-agnostic E1 over packet,[RFC4553]
+18,Structure-agnostic T1 (DS1) over packet,[RFC4553]
+19,VPLS,[RFC4761]
+20,Structure-agnostic T3 (DS3) over packet,[RFC4553]
+21,Nx64kbit/s Basic Service using Structure-aware,[RFC5086]
+22-24,Unassigned,
+25,Frame Relay DLCI,[RFC4619]
+25-39,Unassigned,
+40,Structure-agnostic E3 over packet,[RFC4553]
+41,Octet-aligned payload for Structure-agnostic DS1 circuits,[RFC4553]
+42,E1 Nx64kbit/s with CAS using Structure-aware,[RFC5086]
+43,DS1 (ESF) Nx64kbit/s with CAS using Structure-aware,[RFC5086]
+44,DS1 (SF) Nx64kbit/s with CAS using Structure-aware,[RFC5086]
+45-127,Unassigned,
+128-251,Unassigned,
+252-255,Experimental Use,[RFC6624]

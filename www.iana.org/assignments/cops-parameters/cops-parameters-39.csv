@@ -1,0 +1,9 @@
+SubType,Description,Reference
+0,Reserved,
+1,ASCII_ID,[RFC3182]
+2,UNICODE_ID,[RFC3182]
+3,KERBEROS_TKT,[RFC3182]
+4,X509_V3_CERT,[RFC3182]
+5,PGP_CERT,[RFC3182]
+6-127,Unassigned,
+128-255,Reserved,

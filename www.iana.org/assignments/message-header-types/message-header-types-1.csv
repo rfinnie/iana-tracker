@@ -1,0 +1,24 @@
+Value,Description,Reference
+fax-message,"Indicates a message whose primary content is a fax     
+mail message.  The primary content is image data.
+The context is usually a message recorded from
+a facsimile telephone call.",[RFC3458]
+multimedia-message,"Indicates a message whose primary content is           
+a multimedia message.  The primary content is
+multimedia, most likely MHTML.  The context is
+often spam or newsletters.",[RFC3458]
+None,Indicates an unknown message context.,[RFC3458]
+pager-message,"Indicates a message whose primary content is a page.   
+The primary content is text data.  The context is
+an urgent message usually of a limited length.",[RFC3458]
+text-message,"Indicates a classic, text-based, Internet message.",[RFC3458]
+video-message,"Indicates a message whose primary content is a video   
+mail message.  The primary content is video data.
+The context is usually a message recorded using
+a video camera, or a message whose primary purpose
+is to contain an external reference to a message
+recorded using a video camera.",[RFC3938]
+voice-message,"Indicates a message whose primary content is a voice   
+mail message.  The primary content is audio data.
+The context is usually a message recorded from
+a voice telephone call.",[RFC3458]

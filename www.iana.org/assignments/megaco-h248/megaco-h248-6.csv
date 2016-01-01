@@ -1,0 +1,26 @@
+Profile Name,Version,Reference/Contact
+AuditProfiles,01,"Profile Package, ITU-T Rec. [ITU-T Rec. H.248.18], ITU-T TSB"
+Ericsson*,-,<Osmo.Seppala&lmf.ericsson.se>
+ETSI_ARGW,01,"[ETSI ES 283 002], ETSI Secretariat, 650 Route des Lucioles, 06921 Sophia Antipolis CEDEX, France, PTCCHelp&etsi.org"
+ETSI_BGF,01,"[[European Telecommunications Standards Institute, ""Telecommunications
+and Internet converged Services and Protocols for Advanced Networking (TISPAN);
+Resource and Admission Control: H.248 Profile for controlling Border Gateway
+Functions (BGF) in the Resource and Admission Control Subsystem (RACS);
+Protocol specification""; ETSI ES 283 018 V1.1.1 (2006-06), June 2006]], ETSI Secretariat, 650 Route des Lucioles, 06921 Sophia Antipolis CEDEX, France, PTCCHelp&etsi.org"
+ETSI_GateControl,01,"[ETSI 102 333], ETSI Secretariat, 650 Route des Lucioles, 06921 Sophia Antipolis CEDEX, France, PTCCHelp&etsi.org"
+etsi_tgw,01,"[[European Telecommunications Standards Institute, ""Telecommunications
+and Internet converged Services and Protocols for Advanced Networking (TISPAN);
+PSTN/ISDN Emulation: H.248 Profile for controlling Trunking Media Gateways
+in the PSTN/ISDN Emulation Subsystem (PES);Protocol specification"",
+ETSI ES 283 024 V1.1.1 (2006-06), June 2006]], ETSI Secretariat, 650 Route des Lucioles, 06921 Sophia Antipolis CEDEX, France, PTCCHelp&etsi.org"
+ETSIprof*,-,"ETSI Secretariat, 650 Route des Lucioles, 06921 Sophia Antipolis CEDEX, France, ptcchelp&etsi.org"
+IPPhone,01,"IP Phone Profile, [RFC3054], peter_blatherwick&mitel.com, Mitel Networks"
+MSF_BGF,01,"MSF-IA-MEGACO.009-FINAL, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSF_BGF,02,"MSF-IA-MEGACO.016-FINAL, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSF_cBTG,01,"msf2008.012.01, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSFprof*,-,"MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSFR3TGW,01,"MSF-IA-MEGACO.011-FINAL, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSFR4_MS,01,"MSF-IA-MEGACO.015-FINAL, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+MSFUKAG,01,"MSF-IA-MEGACO.005-FINAL, MultiService Forum, 48377 Fremont Blvd., Suite 117, Fremont, CA 94538, USA, info&msforum.org"
+nokiamgw*,01,"jarkko.pyykkonen&nokia.com, Nokia Networks, PL/P.O. Box 300, 90401 Oulu Finland"
+NoProfile,01,"[RFC5125] or, ITU-T Rec. [H.248.1], ITU-T TSB"

@@ -1,0 +1,13 @@
+Value,Description,Reference
+0,success,[RFC5846]
+1,partial success,[RFC5846]
+2-127,Unassigned,
+128,Binding Does NOT Exist,[RFC5846]
+129,IPv4 Home Address Option Required,[RFC5846]
+130,Global Revocation NOT Authorized,[RFC5846]
+131,Revoked Mobile Nodes Identity Required,[RFC5846]
+132,Revocation Failed - MN is Attached,[RFC5846]
+133,Revocation Trigger NOT Supported,[RFC5846]
+134,Revocation Function NOT Supported,[RFC5846]
+135,Proxy Binding Revocation NOT Supported,[RFC5846]
+136-255,Unassigned,

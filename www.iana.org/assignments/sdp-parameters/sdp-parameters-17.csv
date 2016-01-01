@@ -1,0 +1,5 @@
+Token,Semantics,Reference
+FID,Flow Identification,[RFC5576]
+FEC,Forward Error Correction,[RFC5576]
+FEC-FR,Forward Error Correction FR,[RFC5956]
+DUP,Duplication,[RFC7104]

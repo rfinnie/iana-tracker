@@ -1,0 +1,10 @@
+Value,SRTP encr alg,Reference
+0,NULL,[RFC3830]
+1,AES-CM,[RFC3830]
+2,AES-F8,[RFC3830]
+3,SEED-CTR,[RFC5748]
+4,SEED-CCM,[RFC5748]
+5,SEED-GCM,[RFC5748]
+6,AES-GCM,[RFC7714]
+7-240,Unassigned,
+241-255,Reserved for Private Use,

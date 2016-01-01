@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Reserved,[RFC7458]
+1,Virt-Net-Req Type,[RFC7458]
+2,Virt-Net-Req Sub type,[RFC7458]
+3,Connectivity Type,[RFC7458]
+4,Access Technology,[RFC7458]
+5,Serial ID Type,[RFC7458]
+6-127,Unassigned,

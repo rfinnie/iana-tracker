@@ -1,0 +1,4 @@
+Number,Meaning,Reference
+0,RSA-SHA256,[RFC7486]
+1,RSA-SHA1,[RFC7486]
+2-99,Unassigned,

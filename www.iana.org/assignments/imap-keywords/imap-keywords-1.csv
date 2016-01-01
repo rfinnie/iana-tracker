@@ -1,0 +1,7 @@
+Keyword,Type,Usage,Comments,Reference
+$MDNSent,SHARED,COMMON,,[RFC3503]
+$Forwarded,BOTH,COMMON,,[RFC5550]
+$SubmitPending,SHARED,COMMON,,[RFC5550]
+$Submitted,SHARED,COMMON,,[RFC5550]
+[$Junk],BOTH,COMMON,,[Alexey_Melnikov]
+[$NotJunk],BOTH,COMMON,,[Alexey_Melnikov]

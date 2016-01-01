@@ -1,0 +1,16 @@
+Service Name,Usage,Reference
+rcmd,remote command/rlogin/telnet,
+host,generic host-based service,[RFC2743]
+imap,mailstore access/IMAP4,[RFC3501]
+pop,maildrop access/POP3,[RFC5034]
+acap,remote configuration access/ACAP,[RFC2244]
+nfs,distributed file system protocol,[RFC2623][RFC7530][RFC5661]
+ftp,file transfer/FTP/TFTP,[RFC2228]
+ldap,Lightweight Directory Access Protocol (LDAP),[RFC4510][RFC4513]
+smtp,message transfer/SMTP,[RFC4954]
+beep,Blocks Extensible Exchange Protocol,[RFC3080]
+mupdate,Mailbox Update (MUPDATE) Protocol,[RFC3656]
+sacred,Secure Available Credentials (SACRED) Protocol,[RFC3767]
+sieve,ManageSieve Protocol,[RFC5804]
+xmpp,Extensible Messaging and Presence Protocol (XMPP),[RFC6120]
+nntp,Network News Transfer Protocol (NNTP),[RFC4643]

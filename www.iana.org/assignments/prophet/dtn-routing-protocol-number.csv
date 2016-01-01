@@ -1,0 +1,4 @@
+Value,Protocol,Reference
+0x00,PRoPHET Protocol,[RFC6693]
+0x01-0xEF,Unassigned,
+0xF0-0xFF,Reserved for Private/Experimental Use,[RFC6693]

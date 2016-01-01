@@ -1,0 +1,9 @@
+"ID",Algorithm,Reference
+0,Uncompressed,[RFC4880]
+1,ZIP,[RFC1951]
+2,ZLIB,[RFC1950]
+3,BZip2,"[J. Seward, jseward&acm.org, ""The Bzip2 and libbzip2
+home page""]"
+4-99,Unassigned,[RFC4880]
+100-110,Private/Experimental algorithm,[RFC4880]
+111-255,Unassigned,[RFC4880]

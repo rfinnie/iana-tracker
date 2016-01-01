@@ -1,0 +1,3 @@
+Token,Semantics,Reference
+lay,Layered decoding dependency,[RFC5583]
+mdc,Multi descriptive decoding dependency,[RFC5583]

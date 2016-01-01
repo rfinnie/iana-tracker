@@ -1,0 +1,6 @@
+Subtype Value,Name,Reference
+0,Reserved,[RFC7629]
+1,Multipath Extension,[RFC7629]
+2,Flow-Binding Extension,[RFC7629]
+3-254,Unassigned,
+255,Reserved,[RFC7629]

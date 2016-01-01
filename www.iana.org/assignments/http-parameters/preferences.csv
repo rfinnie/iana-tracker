@@ -1,0 +1,15 @@
+Preference,Value,Description,Reference
+respond-async,,Indicates that the client prefers that the server respond asynchronously to a request.,"[RFC7240], Section 4.1"
+return,"One of either ""minimal"" or ""representation""","When the value is ""minimal"", it indicates that the
+client prefers that the server return a minimal response to a
+request. When the value is ""representation"", it indicates that
+the client prefers that the server include a representation of the
+current state of the resource in response to a request.","[RFC7240], Section 4.2"
+wait,,"Indicates an upper bound to the length of time the
+      client expects it will take the server to process the request once
+      it has been received.","[RFC7240], Section 4.3"
+handling,"One of either ""strict"" or ""lenient""","When value is ""strict"", it indicates that the client
+wishes the server to apply strict validation and error handling to
+the processing of a request. When the value is ""lenient"", it
+indicates that the client wishes the server to apply lenient
+validation and error handling to the processing of the request.","[RFC7240], Section 4.4"

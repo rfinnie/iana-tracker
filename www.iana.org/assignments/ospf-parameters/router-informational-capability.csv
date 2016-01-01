@@ -1,0 +1,9 @@
+Bit Number,Capability Name,Reference
+0,OSPF graceful restart capable,[RFC3623]
+1,OSPF graceful restart helper,[RFC3623]
+2,OSPF Stub Router support,[RFC3137]
+3,OSPF Traffic Engineering support,[RFC3630]
+4,OSPF point-to-point over LAN,"[N. Shen, A. Zinin, ""Point-to-point operation over LAN in link-state
+routing protocols"", Work in Progress, April 2006.]"
+5,OSPF Experimental TE,[RFC4973]
+6-31,Unassigned,

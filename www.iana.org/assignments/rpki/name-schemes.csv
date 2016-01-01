@@ -1,0 +1,6 @@
+Filename Extension,RPKI Object,Reference
+.cer,Certificate,[RFC6481]
+.crl,Certificate Revocation List,[RFC6481]
+.gbr,Ghostbusters Record,[RFC6493]
+.mft,Manifest,[RFC6481]
+.roa,Route Origination Authorization,[RFC6481]

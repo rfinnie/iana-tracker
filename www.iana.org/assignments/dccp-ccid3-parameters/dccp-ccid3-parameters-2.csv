@@ -1,0 +1,11 @@
+Type,Description/Meaning,Reference
+128,RTT Estimate,[RFC6323]
+129-183,Unassigned,
+184-190,Reserved for experimental and testing use,[RFC4342]
+191,Unassigned,
+192,Loss Event Rate,[RFC4342]
+193,Loss Intervals,[RFC4342]
+194,Receive Rate,[RFC4342]
+195-247,Unassigned,
+248-254,Reserved for experimental and testing use,[RFC4342]
+255,Reserved,[RFC4342]

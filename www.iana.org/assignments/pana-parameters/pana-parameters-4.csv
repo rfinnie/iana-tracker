@@ -1,0 +1,16 @@
+Code,Attribute Name,Enc,Reference
+0,Reserved,,[RFC5191]
+1,AUTH,N,[RFC5191][RFC6786]
+2,EAP-Payload,X,[RFC5191][RFC6786]
+3,Integrity-Algorithm,N,[RFC5191][RFC6786]
+4,Key-Id,N,[RFC5191][RFC6786]
+5,Nonce,N,[RFC5191][RFC6786]
+6,PRF-Algorithm,N,[RFC5191][RFC6786]
+7,Result-Code,N,[RFC5191][RFC6786]
+8,Session-Lifetime,X,[RFC5191][RFC6786]
+9,Termination-Cause,X,[RFC5191][RFC6786]
+10,PaC-Information,N,[RFC6345][RFC6786]
+11,Relayed-Message,N,[RFC6345][RFC6786]
+12,Encryption-Encap,N,[RFC6786]
+13,Encryption-Algorithm,N,[RFC6786]
+14-65535,Unassigned,,

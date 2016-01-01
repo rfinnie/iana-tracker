@@ -1,0 +1,8 @@
+SubType,Description,Reference
+0,Reserved,
+1,BANDWIDTH,[RFC3520]
+2,FLOW_SPEC,[RFC3520]
+3,SDP,[RFC3520]
+4,DSCP,[RFC3520]
+5-127,Unassigned,
+128-255,Reserved,

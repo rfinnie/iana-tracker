@@ -1,0 +1,5 @@
+Parameter,Reference
+radius-attribute,"[RFC7056], Section 5"
+federated-saml-assertion,"[RFC7056], Section 6.1"
+federated-saml-attribute,"[RFC7056], Section 6.2"
+federated-saml-nameid,"[RFC7056], Section 6.3"

@@ -1,0 +1,10 @@
+Value,Description,Reference,Registration Date
+0,No L2-Specific Sublayer,[RFC3931],
+1,Default L2-Specific Sublayer present,[RFC3931],
+2,ATM-Specific Sublayer present,[RFC4454],
+3,MPT-Specific Sublayer,"[""Data-Over-Cable
+        Service Interface Specifications: Downstream External PHY Interface
+        Specification CM-SP-DEPI-I01-050805"", DOCSIS, August 2005]",2006-01-30
+4,PSP-Specific Sublayer,"[""Data-Over-Cable
+        Service Interface Specifications: Downstream External PHY Interface
+        Specification CM-SP-DEPI-I01-050805"", DOCSIS, August 2005]",2006-01-30

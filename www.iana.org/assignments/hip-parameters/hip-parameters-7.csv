@@ -1,0 +1,5 @@
+Value,DI-Type,Reference
+0,none included,[RFC7401]
+1,FQDN,[RFC7401]
+2,NAI,[RFC7401]
+3-15,Unassigned,

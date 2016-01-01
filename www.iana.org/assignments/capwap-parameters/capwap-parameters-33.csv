@@ -1,0 +1,7 @@
+IEEE 802.11 Tagging Policy,Bit Position,Reference
+Unassigned,0-2,
+WTP Controlled IEEE 802.1p (P),3,[RFC5416]
+AC Controlled IEEE 802.1p (Q),4,[RFC5416]
+WTP Controlled DSCP (D),5,[RFC5416]
+AC Controlled Outer Header DSCP (O),6,[RFC5416]
+AC Controlled Inner Header DSCP (I),7,[RFC5416]

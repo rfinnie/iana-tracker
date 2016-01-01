@@ -1,0 +1,15 @@
+Value,Description,Reference,Registration Date
+0,Reserved,[RFC5213],
+1,Virtual,[RFC5213],
+2,PPP,[RFC5213],
+3,IEEE 802.3,[RFC5213],
+4,IEEE 802.11a/b/g,[RFC5213],
+5,IEEE 802.16e,[RFC5213],
+6,3GPP GERAN,[3GPP TS 29.275][Julien_Laganier],2008-07-30
+7,3GPP UTRAN,[3GPP TS 29.275][Julien_Laganier],2008-07-30
+8,3GPP E-UTRAN,[3GPP TS 29.275][Julien_Laganier],2008-07-30
+9,3GPP2 eHRPD,[3GPP2 X.P0057][Kuntal_Chowdhury],2008-08-21
+10,3GPP2 HRPD,[3GPP2 X.P0061][Kuntal_Chowdhury],2008-08-21
+11,3GPP2 1xRTT,[3GPP2 X.S0011][Kuntal_Chowdhury],2008-08-21
+12,3GPP2 UMB,[3GPP2 X.S0054][Kuntal_Chowdhury],2008-08-21
+13-255,Unassigned,,

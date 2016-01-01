@@ -1,0 +1,6 @@
+Type,SDP Name,Reference
+bwtype,CT,[RFC4566]
+bwtype,AS,[RFC4566]
+bwtype,RS,[RFC3556]
+bwtype,RR,[RFC3556]
+bwtype,TIAS,[RFC3890]

@@ -1,0 +1,19 @@
+Type,Description,Reference
+0,Reserved,[RFC6285]
+1,Requested Media Sender SSRC(s),[RFC6285]
+2,Min RAMS Buffer Fill Requirement,[RFC6285]
+3,Max RAMS Buffer Fill Requirement,[RFC6285]
+4,Max Receive Bitrate,[RFC6285]
+5,Request for Preamble Only,[RFC6285]
+6,Supported Enterprise Number(s),[RFC6285]
+7-30,Unassigned,
+31,Media Sender SSRC,[RFC6285]
+32,RTP Seqnum of the First Packet,[RFC6285]
+33,Earliest Multicast Join Time,[RFC6285]
+34,Burst Duration,[RFC6285]
+35,Max Transmit Bitrate,[RFC6285]
+36-60,Unassigned,
+61,Extended RTP Seqnum of First Multicast Packet,[RFC6285]
+62-127,Unassigned,
+128-254,Reserved for Private Use,[RFC6285]
+255,Reserved,[RFC6285]

@@ -1,0 +1,10 @@
+Code,Name
+0,Query
+1,Register
+2,Register-Stop
+3,Join/Prune
+4,RP-Reachable
+5,Assert
+6,Graft
+7,Graft Ack
+8,Mode

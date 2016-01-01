@@ -1,0 +1,6 @@
+Value,Name,Reference
+0,Unspecified Error,[RFC6608]
+1,Receive Unexpected Message in OpenSent State,[RFC6608]
+2,Receive Unexpected Message in OpenConfirm State,[RFC6608]
+3,Receive Unexpected Message in Established State,[RFC6608]
+4-255,Unassigned,

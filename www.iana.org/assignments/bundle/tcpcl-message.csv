@@ -1,0 +1,9 @@
+Type,Code,Description,Reference
+,0x0,Reserved,[RFC7242]
+DATA_SEGMENT,0x1,"Indicates the transmission of a segment of bundle data, as described in Section 5.2.",[RFC7242]
+ACK_SEGMENT,0x2,"Acknowledges reception of a data segment, as described in Section 5.3.",[RFC7242]
+REFUSE_BUNDLE,0x3,"Indicates that the transmission of the current bundle shall be stopped, as described in Section 5.4.",[RFC7242]
+KEEPALIVE,0x4,"KEEPALIVE message for the connection, as described in Section 5.6.",[RFC7242]
+SHUTDOWN,0x5,"Indicates that one of the nodes participating in the connection wishes to cleanly terminate the connection, as described in Section 6.",[RFC7242]
+LENGTH,0x6,"Contains the length (in bytes) of the next bundle, as described in Section 5.5.",[RFC7242]
+,0x7-0xf,Unassigned,

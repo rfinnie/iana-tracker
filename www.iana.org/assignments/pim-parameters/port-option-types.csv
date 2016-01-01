@@ -1,0 +1,8 @@
+Type,Name,Reference
+0,Reserved,[RFC6559]
+1,PIM IPv4 Join/Prune,[RFC6559]
+2,PIM IPv6 Join/Prune,[RFC6559]
+3-32763,Unassigned Critical Options,
+32764-32767,Experimental,[RFC6559]
+32768-65531,Unassigned Non-Critical Options,
+65532-65535,Experimental,[RFC6559]

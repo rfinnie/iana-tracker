@@ -1,0 +1,17 @@
+Type,Option Name,Reference
+0,Reserved,[RFC5533]
+1,I1 (first establishment message from the initiator),[RFC5533]
+2,R1 (first establishment message from the responder),[RFC5533]
+3,I2 (2nd establishment message from the initiator),[RFC5533]
+4,R2 (2nd establishment message from the responder),[RFC5533]
+5,R1bis (Reply to reference to non-existent context),[RFC5533]
+6,I2bis (Reply to a R1bis message),[RFC5533]
+7-59,Unassigned,
+60-63,Reserved for Experimental Use,[RFC5533]
+64,Update Request,[RFC5533]
+65,Update Acknowledgement,[RFC5533]
+66,Keepalive,[RFC5533]
+67,Probe Message,[RFC5533]
+68,Error Message,[RFC5533]
+69-123,Unassigned,
+124-127,Reserved for Experimental Use,[RFC5533]

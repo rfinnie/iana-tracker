@@ -1,0 +1,4 @@
+Codes,Description,Reference
+0,Pointer indicates the error,
+1,Missing a Required Option,[RFC1108]
+2,Bad Length,

@@ -1,0 +1,2 @@
+Extension Identifier,Extension Common Name,Extension Definition,Known Incompatible Extensions,Reference
+permessage-deflate,WebSocket Per-Message Deflate,,None,[RFC7692]

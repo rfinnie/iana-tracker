@@ -1,0 +1,18 @@
+Value,Name,Reference
+0,Unassigned,
+1,Packet,[RFC3471]
+2,Ethernet,[RFC3471]
+3,ANSI/ETSI PDH,[RFC3471]
+4,Reserved,[RFC3471]
+5,SDH ITU-T G.707 / SONET ANSI T1.105,[RFC3471]
+6,Reserved,[RFC3471]
+7,Digital Wrapper,[RFC3471]
+8,Lambda (photonic),[RFC3471]
+9,Fiber,[RFC3471]
+10,Reserved,[RFC3471]
+11,FiberChannel,[RFC3471]
+12,G.709 ODUk (Digital Path),[RFC4328]
+13,G.709 Optical Channel,[RFC4328]
+14,"Line (e.g., 8B/10B)",[RFC6004]
+15-239,Unassigned,
+240-255,Experimental Usage/temporarily,

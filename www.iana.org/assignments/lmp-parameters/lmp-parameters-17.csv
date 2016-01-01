@@ -1,0 +1,14 @@
+C-Type,Description,Reference
+0,Reserved,
+1,Interface Switching Type,[RFC4204]
+2,Wavelength,[RFC4204]
+3,Link_GroupId,[RFC4209]
+4,SRLG,[RFC4209]
+5,BER_Estimate,[RFC4209]
+6,Optical_Protection,[RFC4209]
+7,Total_Span_Length,[RFC4209]
+8,Administrative_Group,[RFC4209]
+9,Data Channel Status,[RFC5818]
+10-127,Unassigned (Standards Action),
+128-247,Unassigned (Expert Review),
+248-255,Private Use.,

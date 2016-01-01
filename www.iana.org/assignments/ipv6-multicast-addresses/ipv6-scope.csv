@@ -1,0 +1,12 @@
+Scope,Name,Reference
+0,Reserved,[RFC4291][RFC7346]
+1,Interface-Local scope,[RFC4291][RFC7346]
+2,Link-Local scope,[RFC4291][RFC7346]
+3,Realm-Local scope,[RFC4291][RFC7346]
+4,Admin-Local scope,[RFC4291][RFC7346]
+5,Site-Local scope,[RFC4291][RFC7346]
+6-7,Unassigned,
+8,Organization-Local scope,[RFC4291][RFC7346]
+9-D,Unassigned,
+E,Global scope,[RFC4291][RFC7346]
+F,Reserved,[RFC4291][RFC7346]

@@ -1,0 +1,5 @@
+Value,Registration Failure Type,Reference
+0,Registration requires additional credentials,[RFC5203]
+1,Registration type unavailable,[RFC5203]
+2-200,Unassigned,
+201-255,Reserved for Private Use,[RFC5203]

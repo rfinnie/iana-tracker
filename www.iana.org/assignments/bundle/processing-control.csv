@@ -1,0 +1,18 @@
+Bit Position (right to left),Description,Reference
+0,Bundle is a fragment,[RFC5050]
+1,Application data unit is an administrative record,[RFC5050]
+2,Bundle must not be fragmented,[RFC5050]
+3,Custody transfer is requested,[RFC5050]
+4,Destination endpoint is a singleton,[RFC5050]
+5,Acknowledgement by application is requested,[RFC5050]
+6,Reserved,[RFC5050]
+7-8,Class of service: priority,[RFC5050]
+9-13,Class of service: reserved,[RFC5050]
+14,Request reporting of bundle reception,[RFC5050]
+15,Request reporting of custody acceptance,[RFC5050]
+16,Request reporting of bundle forwarding,[RFC5050]
+17,Request reporting of bundle delivery,[RFC5050]
+18,Request reporting of bundle deletion,[RFC5050]
+19,Reserved,[RFC5050]
+20,Reserved,[RFC5050]
+21-63,Unassigned,

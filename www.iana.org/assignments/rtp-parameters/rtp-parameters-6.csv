@@ -1,0 +1,8 @@
+Value,Name,Reference
+0,Reserved,[RFC6284]
+1,Port Mapping Request,[RFC6284]
+2,Port Mapping Response,[RFC6284]
+3,Token Verification Request,[RFC6284]
+4,Token Verification Failure,[RFC6284]
+5-30,Unassigned,
+31,Reserved,[RFC6284]

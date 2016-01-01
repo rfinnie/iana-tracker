@@ -1,0 +1,4 @@
+Service,Description,Reference
+counseling,Counseling services,[RFC5031]
+sos,Emergency services,[RFC5031]
+test,self-test,[RFC6881]

@@ -1,0 +1,5 @@
+Value,Description,Reference
+callerid,Caller ID,[RFC7195]
+uuie,User-User Information Element,[RFC7195]
+dtmf,Dual-tone Multi-Frequency,[RFC7195]
+external,External,[RFC7195]

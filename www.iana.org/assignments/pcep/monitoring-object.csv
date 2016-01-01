@@ -1,0 +1,7 @@
+Bit,Description,Reference
+0-18,Unassigned,
+19,Incomplete,[RFC5886]
+20,Overload,[RFC5886]
+21,Processing Time,[RFC5886]
+22,General,[RFC5886]
+23,Liveness,[RFC5886]

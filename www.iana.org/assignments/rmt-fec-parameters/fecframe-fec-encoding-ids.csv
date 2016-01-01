@@ -1,0 +1,12 @@
+Value,Description,Reference
+0,Reserved,[RFC6363]
+1,Raptor FEC Scheme for Arbitrary Packet Flows,Section 6 in [RFC6681] using [RFC5053].
+2,RaptorQ FEC Scheme for Arbitrary Packet Flows,Section 6 in [RFC6681] using [RFC6330].
+3,Raptor FEC Scheme Optimised for Arbitrary Packet Flows,Section 7 in [RFC6681] using [RFC5053].
+4,RaptorQ FEC Scheme Optimised for Arbitrary Packet Flows,Section 7 in [RFC6681] using [RFC6330].
+5,Raptor FEC Scheme for a Single Sequence Flow,Section 8 in [RFC6681] using [RFC5053].
+6,RaptorQ FEC Scheme for a Single Sequence Flow,Section 8 in [RFC6681] using [RFC6330].
+7,Simple LDPC-Staircase FEC Scheme for Arbitrary Packet Flows,Section 5 in [RFC6816]
+8,Simple Reed-Solomon FEC Scheme over GF(2^^m) for Arbitrary Packet Flows,[RFC6865]
+9-254,Unassigned,
+255,Reserved,[RFC6363]

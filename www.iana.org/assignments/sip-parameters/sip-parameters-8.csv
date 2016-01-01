@@ -1,0 +1,16 @@
+Privacy Type,Description,Registrant,Reference
+user,"Request that privacy services           
+provide a user-level privacy function",[Jon_Peterson],[RFC3323]
+header,"Request that privacy services modify    
+headers that cannot be set arbitrarily  
+by the user (Contact/Via).",[Jon_Peterson],[RFC3323]
+session,"Request that privacy services provide   
+privacy for session media",[Jon_Peterson],[RFC3323]
+none,"Privacy services must not perform any   
+privacy function",[Jon_Peterson],[RFC3323]
+critical,"Privacy service must perform the        
+specified services or fail the request",[Jon_Peterson],[RFC3323]
+id,"Privacy requsted for Third-Party        
+Asserted Identity",[Cullen_Jennings],[RFC3325]
+history,"Privacy requested for                   
+History-Info header field(s)",[Mary_Barnes],[RFC7044]

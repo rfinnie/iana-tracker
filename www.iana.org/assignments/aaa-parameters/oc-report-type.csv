@@ -1,0 +1,4 @@
+AVP Value,Attribute Name,Reference
+0,HOST_REPORT,[RFC7683]
+1,REALM_REPORT,[RFC7683]
+2-4294967295,Unassigned,

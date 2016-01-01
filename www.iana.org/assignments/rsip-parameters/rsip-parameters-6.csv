@@ -1,0 +1,4 @@
+Value,Vendor ID,Reference
+0,Reserved,[RFC3103]
+1-240,Unassigned,[RFC3103]
+241-255,Reserved for private use,[RFC3103]

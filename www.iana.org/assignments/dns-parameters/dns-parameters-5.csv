@@ -1,0 +1,8 @@
+OpCode,Name,Reference
+0,Query,[RFC1035]
+1,"IQuery  (Inverse Query, OBSOLETE)",[RFC3425]
+2,Status,[RFC1035]
+3,Unassigned,
+4,Notify,[RFC1996]
+5,Update,[RFC2136]
+6-15,Unassigned,

@@ -1,0 +1,6 @@
+Bit Number,Name,Reference
+0,Request for FEC Neighbor Address info,[RFC7555]
+1,Request for Downstream Mapping,[RFC7555]
+2,Request for Downstream Detailed Mapping,[RFC7555]
+3,Explicit DSCP Request,[RFC7555]
+4-15,Unassigned,

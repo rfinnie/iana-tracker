@@ -1,0 +1,16 @@
+Value,Description
+17,FSM Timeout error.
+18,"No NCPs available (all disabled or rejected); no NCPs
+went to Opened state.  (Control Protocol Number may be
+zero only if neither peer has enabled NCPs.)"
+19,"NCP failure: failed to converge on acceptable addresses.
+ Valid Direction values are:
+   1: Too many Configure-Naks received from peer.
+   2: Too many Configure-Naks sent to peer."
+20,"NCP failure: user not permitted to use any addresses.
+ Valid Direction values are:
+   1: Local link address not acceptable to peer.
+   2: Remote link address not acceptable to local system."
+21-32767,Unassigned (by IESG Approval)
+32768-65279,Unassigned (First Come First Served)
+65280-65535,Private or Experimental Use

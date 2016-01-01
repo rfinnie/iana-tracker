@@ -1,0 +1,15 @@
+Value,Method,Reference
+0,Reserved,
+1,pre-shared key,[RFC2409]
+2,DSS signatures,[RFC2409]
+3,RSA signatures,[RFC2409]
+4,Encryption with RSA,[RFC2409]
+5,Revised encryption with RSA,[RFC2409]
+6,Reserved (was Encryption with El-Gamal),
+7,Reserved (was Revised encryption with El-Gamal),
+8,Reserved (was ECDSA signatures),
+9,ECDSA with SHA-256 on the P-256 curve,[RFC4754]
+10,ECDSA with SHA-384 on the P-384 curve,[RFC4754]
+11,ECDSA with SHA-512 on the P-521 curve,[RFC4754]
+12-65000,Unassigned,
+65001-65535,Reserved for private use,

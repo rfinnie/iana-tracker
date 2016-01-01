@@ -1,0 +1,18 @@
+Value,Parameter,Reference
+0,Reserved,[RFC3103]
+1,Address,[RFC3103]
+2,Ports,[RFC3103]
+3,Lease Time,[RFC3103]
+4,Client ID,[RFC3103]
+5,Bind ID,[RFC3103]
+6,Tunnel Type,[RFC3103]
+7,RSIP Method,[RFC3103]
+8,Error,[RFC3103]
+9,Flow Policy,[RFC3103]
+10,Indicator,[RFC3103]
+11,Message Counter,[RFC3103]
+12,Vendor Specific Parameter,[RFC3103]
+13-21,Unassigned,
+22,SPI,[RFC3104]
+23-240,Unassigned,
+241-255,Reserved for private use,[RFC3103]

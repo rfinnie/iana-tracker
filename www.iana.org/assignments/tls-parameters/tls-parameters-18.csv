@@ -1,0 +1,10 @@
+Value,Description,DTLS-OK,Reference
+0,none,Y,[RFC5246]
+1,md5,Y,[RFC5246]
+2,sha1,Y,[RFC5246]
+3,sha224,Y,[RFC5246]
+4,sha256,Y,[RFC5246]
+5,sha384,Y,[RFC5246]
+6,sha512,Y,[RFC5246]
+7-223,Unassigned,,
+224-255,Reserved for Private Use,,[RFC5246]

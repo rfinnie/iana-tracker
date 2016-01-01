@@ -1,0 +1,7 @@
+Value,Description,Reference
+Bit 0,"Mandatory Bit, ""M-bit""",[RFC2661][RFC3931]
+Bit 1,"Hidden Bit, ""H-bit""",[RFC2661][RFC3931]
+Bit 2,Reserved,[RFC2661][RFC3931]
+Bit 3,Reserved,[RFC2661][RFC3931]
+Bit 4,Reserved,[RFC2661][RFC3931]
+Bit 5,Reserved,[RFC2661][RFC3931]

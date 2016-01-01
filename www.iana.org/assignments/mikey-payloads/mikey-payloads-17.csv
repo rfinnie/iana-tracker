@@ -1,0 +1,7 @@
+Value,TS Type,Reference
+0,NTP-UTC,[RFC3830]
+1,NTP,[RFC3830]
+2,COUNTER,[RFC3830]
+3,NTP-UTC-32,[RFC6043]
+4-240,Unassigned,
+241-255,Reserved for Private Use,

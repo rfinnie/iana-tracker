@@ -1,0 +1,18 @@
+Value,Description,Reference
+00000000 to 10101111,Unassigned,
+10110EEN,Extension header GHC,[RFC7400]
+10111000 to 11001111,Unassigned,
+11010CPP,UDP GHC,[RFC7400]
+11011000 to 11011110,Unassigned,
+11011111,ICMPv6 GHC,[RFC7400]
+1110000N,IPv6 Hop-by-Hop Options Header,[RFC6282]
+1110001N,IPv6 Routing Header,[RFC6282]
+1110010N,IPv6 Fragment Header,[RFC6282]
+1110011N,IPv6 Destinations Options Header,[RFC6282]
+1110100N,IPv6 Mobility Header,[RFC6282]
+1110101N,Reserved for future extension headers,[RFC6282]
+1110110N,Reserved for future extension headers,[RFC6282]
+1110111N,IPv6 Header,[RFC6282]
+11110CPP,UDP Header,[RFC6282]
+11111000 to 11111110,Unassigned,
+11111111,"Unassigned, reserved for extensions",[RFC6282]

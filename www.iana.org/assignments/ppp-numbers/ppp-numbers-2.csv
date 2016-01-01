@@ -1,0 +1,156 @@
+Value (in hex),Protocol Name,Reference
+0001,Padding Protocol,[RFC1661]
+0003,ROHC small-CID,[RFC3095]
+0005,ROHC large-CID,[RFC3095]
+0007-001f,Reserved (transparency inefficient),[RFC1661]
+0021,Internet Protocol version 4,[RFC1332]
+0023,OSI Network Layer,[RFC1377]
+0025,Xerox NS IDP,[RFC1764]
+0027,DECnet Phase IV,[RFC1762]
+0029,Appletalk,[RFC1378]
+002b,Novell IPX,[RFC1552]
+002d,Van Jacobson Compressed TCP/IP,[RFC1332]
+002f,Van Jacobson Uncompressed TCP/IP,[RFC1332]
+0031,Bridging PDU,[RFC3518]
+0033,Stream Protocol (ST-II),
+0035,Banyan Vines,[RFC1763]
+0037,Unassigned,
+0039,AppleTalk EDDP,
+003b,AppleTalk SmartBuffered,
+003d,Multi-Link,[RFC1990]
+003f,NETBIOS Framing,[RFC2097]
+0041,Cisco Systems,
+0043,Ascom Timeplex,
+0045,Fujitsu Link Backup and Load Balancing (LBLB),
+0047,DCA Remote Lan,
+0049,Serial Data Transport Protocol (PPP-SDTP),[RFC1963]
+004b,SNA over 802.2,[RFC2043]
+004d,SNA,[RFC2043]
+004f,IPv6 Header Compression,
+0051,KNX Bridging Data,[ianp_knxunix_knx_co]
+0053,Encryption,[RFC1968]
+0055,Individual Link Encryption,[RFC1968]
+0057,Internet Protocol version 6,[RFC5072]
+0059,PPP Muxing,[RFC3153]
+005b,Vendor-Specific Network Protocol (VSNP),[RFC3772]
+005d,TRILL Network Protocol (TNP),[RFC6361]
+0061,RTP IPHC Full Header,[RFC3544]
+0063,RTP IPHC Compressed TCP,[RFC3544]
+0065,RTP IPHC Compressed Non TCP,[RFC3544]
+0067,RTP IPHC Compressed UDP 8,[RFC3544]
+0069,RTP IPHC Compressed RTP 8,[RFC3544]
+006f,Stampede Bridging,
+0071,Reserved,[Karl_Fox]
+0073,MP+ Protocol,[RFC1934]
+007d,Reserved (Control Escape),[RFC1661]
+007f,Reserved (compression inefficient),[RFC1662]
+0081,Unassigned,
+0083,Unassigned,
+00c1,NTCITS IPI,[Alan_Ungar]
+00cf,Reserved (PPP NLPID),[RFC1661]
+00fb,Single link compression in multilink,[RFC1962]
+00fd,Compressed datagram,[RFC1962]
+00ff,Reserved (compression inefficient),[RFC1661]
+0201,802.1d Hello Packets,[RFC3518]
+0203,IBM Source Routing BPDU,[RFC3518]
+0205,DEC LANBridge100 Spanning Tree,[RFC3518]
+0207,Cisco Discovery Protocol,[Arun_Sastry]
+0209,Netcs Twin Routing,[Oliver_Korfmacher]
+020b,STP - Scheduled Transfer Protocol,[Ben_Segal]
+020d,EDP - Extreme Discovery Protocol,[Don_Grosser]
+0211,Optical Supervisory Channel Protocol (OSCP),[Sharat_C_Prasad]
+0213,Optical Supervisory Channel Protocol (OSCP),[Sharat_C_Prasad]
+0231,Luxcom,
+0233,Sigma Network Systems,
+0235,Apple Client Server Protocol,[Howard_Ridenour]
+0281,MPLS Unicast,[RFC3032]
+0283,MPLS Multicast,[RFC3032]
+0285,IEEE p1284.4 standard - data packets,[Brian_Batchelder]
+0287,ETSI TETRA Network Protocol Type 1,[Seppo_Nieminen]
+0289,Multichannel Flow Treatment Protocol,[Pete_McCann]
+028b-1exx,Reserved for compression inefficient,
+2063,RTP IPHC Compressed TCP No Delta,[RFC3544]
+2065,RTP IPHC Context State,[RFC3544]
+2067,RTP IPHC Compressed UDP 16,[RFC3544]
+2069,RTP IPHC Compressed RTP 16,[RFC3544]
+4001,Cray Communications Control Protocol,[Erling_B_Stage]
+4003,CDPD Mobile Network Registration Protocol,[Frank_Quick]
+4005,Expand accelerator protocol,[Ilan_Rachmani]
+4007,ODSICP NCP,[K_Arvind]
+4009,DOCSIS DLL,[Jason_Gaedtke]
+400B,Cetacean Network Detection Protocol,[Curtis_A_Siller_Jr]
+4021,Stacker LZS,[RFC1974]
+4023,RefTek Protocol,[Robert_Banfill]
+4025,Fibre Channel,[Murali_Rajagopal]
+4027,EMIT Protocols,[Bryant_Eastham]
+405b,Vendor-Specific Protocol (VSP),[RFC3772]
+405d,TRILL Link State Protocol (TLSP),[RFC6361]
+8001-801f,Not Used - reserved,[RFC1661]
+8021,Internet Protocol Control Protocol,[RFC1332]
+8023,OSI Network Layer Control Protocol,[RFC1377]
+8025,Xerox NS IDP Control Protocol,[RFC1764]
+8027,DECnet Phase IV Control Protocol,[RFC1762]
+8029,Appletalk Control Protocol,[RFC1378]
+802b,Novell IPX Control Protocol,[RFC1552]
+802d,Reserved,
+802f,Reserved,
+8031,Bridging NCP,[RFC3518]
+8033,Stream Protocol Control Protocol,
+8035,Banyan Vines Control Protocol,[RFC1763]
+8037,Unassigned,
+8039,Reserved,
+803b,Reserved,
+803d,Multi-Link Control Protocol,[RFC1990]
+803f,NETBIOS Framing Control Protocol,[RFC2097]
+8041,Cisco Systems Control Protocol,
+8043,Ascom Timeplex,
+8045,Fujitsu LBLB Control Protocol,
+8047,DCA Remote Lan Network Control Protocol (RLNCP),
+8049,Serial Data Control Protocol (PPP-SDCP),[RFC1963]
+804b,SNA over 802.2 Control Protocol,[RFC2043]
+804d,SNA Control Protocol,[RFC2043]
+804f,IP6 Header Compression Control Protocol,
+8051,KNX Bridging Control Protocol,[ianp_knxunix_knx_co]
+8053,Encryption Control Protocol,[RFC1968]
+8055,Individual Link Encryption Control Protocol,[RFC1968]
+8057,IPv6 Control Protocol,[RFC5072]
+8059,PPP Muxing Control Protocol,[RFC3153]
+805b,Vendor-Specific Network Control Protocol (VSNCP),[RFC3772]
+805d,TRILL Network Control Protocol (TNCP),[RFC6361]
+806f,Stampede Bridging Control Protocol,
+8073,MP+ Control Protocol,[RFC1934]
+8071,Reserved,[Karl_Fox]
+807d,Not Used - reserved,[RFC1661]
+8081,Unassigned,
+8083,Unassigned,
+80c1,NTCITS IPI Control Protocol,[Alan_Ungar]
+80cf,Not Used - reserved,[RFC1661]
+80fb,single link compression in multilink control,[RFC1962]
+80fd,Compression Control Protocol,[RFC1962]
+80ff,Not Used - reserved,[RFC1661]
+8207,Cisco Discovery Protocol Control,[Arun_Sastry]
+8209,Netcs Twin Routing,[Oliver_Korfmacher]
+820b,STP - Control Protocol,[Ben_Segal]
+820d,EDPCP - Extreme Discovery Protocol Ctrl Prtcl,[Don_Grosser]
+8235,Apple Client Server Protocol Control,[Howard_Ridenour]
+8281,MPLSCP,[RFC3032]
+8285,IEEE p1284.4 standard - Protocol Control,[Brian_Batchelder]
+8287,ETSI TETRA TNP1 Control Protocol,[Seppo_Nieminen]
+8289,Multichannel Flow Treatment Protocol,[Pete_McCann]
+c021,Link Control Protocol,[RFC1661]
+c023,Password Authentication Protocol,[RFC1661]
+c025,Link Quality Report,[RFC1661]
+c027,Shiva Password Authentication Protocol,
+c029,CallBack Control Protocol (CBCP),
+c02b,BACP Bandwidth Allocation Control Protocol,[RFC2125]
+c02d,BAP,[RFC2125]
+c05b,Vendor-Specific Authentication Protocol (VSAP),[RFC3772]
+c081,Container Control Protocol,[Ken_funk_com]
+c223,Challenge Handshake Authentication Protocol,[RFC1661]
+c225,RSA Authentication Protocol,[Badari_Narayana]
+c227,Extensible Authentication Protocol,[RFC3748]
+c229,Mitsubishi Security Info Exch Ptcl (SIEP),[Shoichiro_Seno]
+c26f,Stampede Bridging Authorization Protocol,
+c281,Proprietary Authentication Protocol,[Ken_funk_com]
+c283,Proprietary Authentication Protocol,[Wayne_Tackabury]
+c481,Proprietary Node ID Authentication Protocol,[Ken_funk_com]

@@ -1,0 +1,7 @@
+Code,Description,Reference
+0,"registration accepted, IPv6 to be tunneled to HoA",[RFC5454]
+1,"registration accepted, IPv6 to be tunneled to CoA",[RFC5454]
+2-7,Unassigned (available for accept codes),
+8,"registration rejected, reason unspecified",[RFC5454]
+9,"registration rejected, administratively prohibited",[RFC5454]
+10-255,Unassigned (available for reject codes),

@@ -1,0 +1,23 @@
+sumtype value,Checksum type,checksum size,Reference
+0,Reserved,,[RFC3961]
+1,CRC32,4,[RFC3961]
+2,rsa-md4,16,[RFC3961]
+3,rsa-md4-des,24,[RFC3961]
+4,des-mac,16,[RFC3961]
+5,des-mac-k,8,[RFC3961]
+6,rsa-md4-des-k,16,[RFC3961]
+7,rsa-md5,16,[RFC3961]
+8,rsa-md5-des,24,[RFC3961]
+9,rsa-md5-des3,24,
+10,sha1 (unkeyed),20,
+11,Unassigned,,
+12,hmac-sha1-des3-kd,20,[RFC3961]
+13,hmac-sha1-des3,20,
+14,sha1 (unkeyed),20,
+15,hmac-sha1-96-aes128,20,[RFC3962]
+16,hmac-sha1-96-aes256,20,[RFC3962]
+17,cmac-camellia128,16,[RFC6803]
+18,cmac-camellia256,16,[RFC6803]
+19-32770,Unassigned,,
+32771,Reserved,,[RFC1964]
+32772-2147483647,Unassigned,,

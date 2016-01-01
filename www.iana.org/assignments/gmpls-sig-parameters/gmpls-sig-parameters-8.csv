@@ -1,0 +1,12 @@
+Bit Number,Hex Value,Name,Reference
+0,0x80000000,Reflect (R),[RFC3473][RFC3471]
+1-22,,Unassigned,
+23,0x00000100,OAM Flows Enabled (M),[RFC7260]
+24,0x00000080,OAM Alarms Enabled (O),[RFC7260]
+25,0x00000040,Handover (H),[RFC5852]
+26,0x00000020,Lockout (L),[RFC4872]
+27,0x00000010,Inhibit Alarm Communication (I),[RFC4783]
+28,0x00000008,Call control (C),[RFC4974]
+29,0x00000004,Testing (T),[RFC3473][RFC3471]
+30,0x00000002,Administratively down (A),[RFC3473][RFC3471]
+31,0x00000001,Deletion in progress (D),[RFC3473][RFC3471]

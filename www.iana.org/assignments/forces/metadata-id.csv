@@ -1,0 +1,20 @@
+Value,Name,Reference
+0x00000000,Reserved,[RFC6956]
+0x00000001,PHYPortID,"[RFC6956], section 4.4"
+0x00000002,SrcMAC,"[RFC6956], section 4.4"
+0x00000003,DstMAC,"[RFC6956], section 4.4"
+0x00000004,LogicalPortID,"[RFC6956], section 4.4"
+0x00000005,EtherType,"[RFC6956], section 4.4"
+0x00000006,VlanID,"[RFC6956], section 4.4"
+0x00000007,VlanPriority,"[RFC6956], section 4.4"
+0x00000008,NextHopIPv4Addr,"[RFC6956], section 4.4"
+0x00000009,NextHopIPv6Addr,"[RFC6956], section 4.4"
+0x0000000a,HopSelector,"[RFC6956], section 4.4"
+0x0000000b,ExceptionID,"[RFC6956], section 4.4"
+0x0000000c,ValidateErrorID,"[RFC6956], section 4.4"
+0x0000000d,L3PortID,"[RFC6956], section 4.4"
+0x0000000e,RedirectIndex,"[RFC6956], section 4.4"
+0x0000000f,MediaEncapInfoIndex,"[RFC6956], section 4.4"
+0x00000010,ParallelMetadataSet,[RFC7409]
+0x00000011-0x7fffffff,Unassigned,
+0x80000000-0xffffffff,Reserved for Private Use,"[RFC6956], section 4.4"

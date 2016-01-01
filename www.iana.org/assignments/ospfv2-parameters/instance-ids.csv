@@ -1,0 +1,6 @@
+Value,Designation,Reference
+0,Base IPv4 Unicast Instance,[RFC6549]
+1,Base IPv4 Multicast Instance,[RFC6549]
+2,Base IPv4 In-band Management Instance,[RFC6549]
+3-127,Private Use,[RFC6549]
+128-255,Unassigned,

@@ -1,0 +1,7 @@
+Value,Name,Reference
+0,Reserved,[RFC5678]
+1,IS,[RFC5678]
+2,CS,[RFC5678]
+3,ES,[RFC5678]
+4-65534,Unassigned,
+65535,Reserved,[RFC5678]

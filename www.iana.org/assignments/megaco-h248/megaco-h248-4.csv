@@ -1,0 +1,128 @@
+Error Code,Description,Reference
+400,Syntax error in message,
+401,Protocol Error,
+402,Unauthorized,
+403,Syntax error in transaction request,
+406,Version Not Supported,
+410,Incorrect identifier,
+411,The transaction refers to an unknown ContextId,
+412,No ContextIDs available,
+413,Number of transactions in message exceeds maximum,
+421,Unknown action or illegal combination of actions,
+422,Syntax Error in Action,
+430,Unknown TerminationID,
+431,No TerminationID matched a wildcard,
+432,"Out of TerminationIDs or No TerminationID
+available",
+433,TerminationID is already in a Context,
+434,Max number of Terminations in a Context exceeded,
+435,Termination ID is not in specified Context,
+440,Unsupported or unknown Package,
+441,Missing Remote or Local Descriptor,
+442,Syntax Error in Command,
+443,Unsupported or Unknown Command,
+444,Unsupported or Unknown Descriptor,
+445,Unsupported or Unknown Property,
+446,Unsupported or Unknown Parameter,
+447,Descriptor not legal in this command,
+448,Descriptor appears twice in a command,
+449,Unsupported or Unknown Parameter or Property Value,
+450,No such property in this package,
+451,No such event in this package,
+452,No such signal in this package,
+453,No such statistic in this package,
+454,No such parameter value in this package,
+455,Property illegal in this Descriptor,
+456,Property appears twice in this Descriptor,
+457,Missing parameter in signal or event,
+458,Unexpected Event/Request ID,
+459,Invalid Combination of Metering Detection Events,[ITU-T H.248.26]
+460,Unable to set statistic on stream,
+461,Unsupported or Unknown Profile,[ITU-T Rec. H.248.18]
+471,Implied Add for Multiplex failure,
+472,Required Information Missing,
+473,Conflicting Property Values,
+474,Invalid SDP Syntax,[ITU-T Rec. H.248.49]
+475,Unable to pause the playout of the signal,[ITU-T Rec. H.248.66]
+476,Unable to adjust the data delivery speed of the Signal,[ITU-T Rec. H.248.66]
+477,Unable to adjust the playback relative scale of the signal,[ITU-T Rec. H.248.66]
+478,Behaviour Contradicts Resource Rule,[ITU-T Rec. H.248.63]
+479,Only one floor chair per floor is allowed in the Context,[ITU-T Rec. H.249.19]
+480,Unsupported offset unit or Value,[ITU-T Rec. H.248.74]
+481,Element not allowed in a Filter Group Context,[ITU-T Rec. H.248.76]
+482,Unknown Filter Group,[ITU-T Rec. H.248.76]
+483,Invalid action for Enrolment Session state,[ITU-T Rec. H.248.74]
+484,Invalid action for Verification Session state,[ITU-T Rec. H.248.74]
+485,Unsupported measurement block type,[ITU-T Rec. H.248.48]
+486,Unsupported block parameter value,[ITU-T Rec. H.248.48]
+487,Inconsistent block type parameters,[ITU-T Rec. H.248.48]
+488,Incorrect stream endpoint interlinkage,[ITU-T Rec. H.248.92]
+489,Invalid aggregation and/or de-aggregation,[ITU-T Rec. H.248.STGROUP]
+500,Internal software Failure in MG or MGC,
+501,Not Implemented,
+502,Not ready.,
+503,Service Unavailable,
+504,Command Received from unauthorized entity,
+505,"Transaction Request Received before a Service
+Change Reply has been received",
+506,Number of Transaction Pendings Exceeded,
+507,Alternate Transport Mode Preferred,[ITU-T Rec. H.248.67]
+510,Insufficient resources,
+511,Temporarily Busy,
+512,Media Gateway unequipped to detect requested Event,
+513,Media Gateway unequipped to generate requested Signals,
+514,Media Gateway cannot send the specified announcement,
+515,Unsupported Media Type,
+517,Unsupported or invalid mode,
+518,Event buffer full,
+519,Out of space to store digit map,
+520,Digit Map undefined in the MG,
+521,"Termination is ""ServiceChangeing""",
+522,Functionality Requested in Topology Triple Not Supported,
+526,Insufficient bandwidth,
+529,Internal hardware failure in MG,
+530,Temporary Network failure,
+531,Permanent Network failure,
+532,"Audited Property, Statistic, Event or Signal does not exist",
+533,Response exceeds maximum transport PDU size,
+534,Illegal write or read only property,
+540,Unexpected initial hook state,[ITU-T Rec. H.248.1]
+541,Unexpected Spare Bit State,[ITU-T Rec. H.248.33]
+542,Command is not allowed on this termination,
+543,MGC requested event detection timestamp not supported,
+581,Does Not Exist,
+600,Illegal syntax within an announcement specification,[ITU-T Rec. H.248.9]
+601,Variable type not supported,[ITU-T Rec. H.248.9]
+602,Variable value out of range,[ITU-T Rec. H.248.9]
+603,Category not supported,[ITU-T Rec. H.248.9]
+604,Selector type not supported,[ITU-T Rec. H.248.9]
+605,Selector value not supported,[ITU-T Rec. H.248.9]
+606,Unknown segment ID,[ITU-T Rec. H.248.9]
+607,Mismatch between play specification and provisioned data,[ITU-T Rec. H.248.9]
+608,Provisioning error,[ITU-T Rec. H.248.9]
+609,Invalid offset,[ITU-T Rec. H.248.9]
+610,No free segment IDs,[ITU-T Rec. H.248.9]
+611,Temporary segment not found,[ITU-T Rec. H.248.9]
+612,Segment in use,[ITU-T Rec. H.248.9]
+613,ISP port limit overrun,[draft-ietf-megaco-naspkg-04]
+614,No modems available,[draft-ietf-megaco-naspkg-04]
+615,Calling number unacceptable,[draft-ietf-megaco-naspkg-04]
+616,Called number unacceptable,[draft-ietf-megaco-naspkg-04]
+617,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+618,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+622,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+623,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+624,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+625,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+626,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+627,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+628,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+629,Reserved for H.248.9 return code,[ITU-T Rec. H.248.9]
+630,Reserved for H.248.9 / H.248.74 return Code,[ITU-T Rec. H.248.74]
+631,Reserved for H.248.9 / H.248.74 return Code,[ITU-T Rec. H.248.74]
+632,Reserved for H.248.9 / H.248.74 return Code,[ITU-T Rec. H.248.74]
+633,Reserved for H.248.9 / H.248.74 return Code,[ITU-T Rec. H.248.74]
+634,Reserved for H.248.9 / H.248.74 return Code,[ITU-T Rec. H.248.74]
+700,Sieve Script Syntax Error,[ITU-T Rec. H.248.69]
+701,Unsupported Sieve Require Error,[ITU-T Rec. H.248.69]
+702,Sieve Actions Exceeded Error,[ITU-T Rec. H.248.69]

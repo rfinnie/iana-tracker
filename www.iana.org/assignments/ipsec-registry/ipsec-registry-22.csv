@@ -1,0 +1,7 @@
+Range,Registration Procedures,Note
+1 - 8191,Error types,
+8192 - 16383,Doi-Specific Error types,
+16384 - 24575,Status types RESERVED (Future Use),
+24576 - 32767,DOI-specific Status codes,
+32768 - 40959,Private Use,
+40960 - 65535,RESERVED (Future Use),

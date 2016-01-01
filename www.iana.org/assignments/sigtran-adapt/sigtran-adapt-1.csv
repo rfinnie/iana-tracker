@@ -1,0 +1,18 @@
+Value,Description,Reference
+0,Management (MGMT) Message,[RFC4233][RFC3331][RFC4666][RFC3868][RFC4129][RFC3057]
+1,Transfer Messages,[RFC4666]
+2,SS7 Signalling Network Management (SSNM) Messages,[RFC4666][RFC3868]
+3,ASP State Maintenance (ASPSM) Messages,[RFC4233][RFC3331][RFC4666][RFC3868][RFC4129][RFC3057]
+4,ASP Traffic Maintenance (ASPTM) Messages,[RFC4233][RFC3331][RFC4666][RFC3868][RFC4129][RFC3057]
+5,Q.921/Q.931 Boundary Primitives Transport (QPTM) Messages,[RFC4233]
+6,MTP2 User Adaptation (MAUP) Messages,[RFC3331]
+7,Connectionless Messages,[RFC3868]
+8,Connection-Oriented Messages,[RFC3868]
+9,Routing Key Management (RKM) Messages,[RFC4666]
+10,Interface Identifier Management (IIM) Messages,[RFC3331]
+11,M2PA Messages,[RFC4165]
+12,Security Messages,[RFC3788]
+13,DPNSS/DASS2 Boundary Primitives Transport Messages,[RFC4129]
+14,V5 Boundary Primitives Transport Messages (V5PTM),[RFC3807]
+15-127,Unassigned,
+128-255,Reserved for IETF-Defined Message Class extensions,

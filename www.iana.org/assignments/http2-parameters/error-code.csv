@@ -1,0 +1,16 @@
+Code,Name,Description,Reference
+0x0,NO_ERROR,Graceful shutdown,"[RFC7540, Section 7]"
+0x1,PROTOCOL_ERROR,Protocol error detected,"[RFC7540, Section 7]"
+0x2,INTERNAL_ERROR,Implementation fault,"[RFC7540, Section 7]"
+0x3,FLOW_CONTROL_ERROR,Flow-control limits exceeded,"[RFC7540, Section 7]"
+0x4,SETTINGS_TIMEOUT,Settings not acknowledged,"[RFC7540, Section 7]"
+0x5,STREAM_CLOSED,Frame received for closed stream,"[RFC7540, Section 7]"
+0x6,FRAME_SIZE_ERROR,Frame size incorrect,"[RFC7540, Section 7]"
+0x7,REFUSED_STREAM,Stream not processed,"[RFC7540, Section 7]"
+0x8,CANCEL,Stream cancelled,"[RFC7540, Section 7]"
+0x9,COMPRESSION_ERROR,Compression state not updated,"[RFC7540, Section 7]"
+0xa,CONNECT_ERROR,TCP connection error for CONNECT method,"[RFC7540, Section 7]"
+0xb,ENHANCE_YOUR_CALM,Processing capacity exceeded,"[RFC7540, Section 7]"
+0xc,INADEQUATE_SECURITY,Negotiated TLS parameters not acceptable,"[RFC7540, Section 7]"
+0xd,HTTP_1_1_REQUIRED,Use HTTP/1.1 for the request,"[RFC7540, Section 7]"
+0xe-0xffffffff,Unassigned,,

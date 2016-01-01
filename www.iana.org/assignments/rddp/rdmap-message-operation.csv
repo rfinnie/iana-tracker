@@ -1,0 +1,15 @@
+RDMAP Message Operation Code,Message Type,Reference
+0x0,RDMA Write,[RFC5040]
+0x1,RDMA Read Request,[RFC5040]
+0x2,RDMA Read Response,[RFC5040]
+0x3,Send,[RFC5040]
+0x4,Send with Invalidate,[RFC5040]
+0x5,Send with Solicited Event,[RFC5040]
+0x6,Send with Solicited Event and Invalidate,[RFC5040]
+0x7,Terminate,[RFC5040]
+0x8,Immediate Data,[RFC7306]
+0x9,Immediate Data with Solicited Event,[RFC7306]
+0xA,Atomic Request,[RFC7306]
+0xB,Atomic Response,[RFC7306]
+0xC-OxE,Unassigned,
+0xF,Reserved (Experimental),[RFC6580]

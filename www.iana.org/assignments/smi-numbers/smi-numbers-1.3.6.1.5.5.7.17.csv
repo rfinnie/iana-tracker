@@ -1,0 +1,8 @@
+Decimal,Description,References
+1,id-stc-build-pkc-path,[RFC5055]
+2,id-stc-build-valid-pkc-path,[RFC5055]
+3,id-stc-build-status-checked-pkc-path,[RFC5055]
+4,id-stc-build-aa-path,[RFC5055]
+5,id-stc-build-valid-aa-path,[RFC5055]
+6,id-stc-build-status-checked-aa-path,[RFC5055]
+7,id-stc-status-check-ac-and-build-status-checked-aa-path,[RFC5055]

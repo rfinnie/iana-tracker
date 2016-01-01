@@ -1,0 +1,8 @@
+Type,Description,Reference
+0,Reserved,[RFC7369]
+1,MD Name Sub-TLV,[RFC7369]
+2,Short MA Name Sub-TLV,[RFC7369]
+3,MEP ID Sub-TLV,[RFC7369]
+4,Continuity Check Sub-TLV,[RFC7369]
+5-65534,Unassigned,
+65535,Reserved for Experimental Use,[RFC7369]

@@ -1,0 +1,4 @@
+Value,Name,Reference
+0x00,Private Use,[RFC5931]
+0x01,HMAC-SHA256 as defined in RFC4634,[RFC5931][RFC4634]
+0x02-0xFF,Unassigned,

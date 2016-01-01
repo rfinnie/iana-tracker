@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC4255]
+1,RSA,[RFC4255]
+2,DSA,[RFC4255]
+3,ECDSA,[RFC6594]
+4,Ed25519,[RFC7479]

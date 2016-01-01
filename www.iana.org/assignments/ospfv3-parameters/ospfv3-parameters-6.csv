@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Reserved,[RFC4940]
+1,Point-to-Point connection to another router,[RFC5340]
+2,Transit Network,[RFC5340]
+3,Reserved,[RFC5340]
+4,Virtual Link,[RFC5340]
+5-127,Unassigned,
+128-255,Reserved,

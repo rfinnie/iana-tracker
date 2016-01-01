@@ -1,0 +1,5 @@
+Value,Description,Reference,Notes
+0,must be discarded,[RFC1058],
+1,version 1,[RFC1058],
+2,version 2,[RFC2453],
+3-254,Unassigned,,

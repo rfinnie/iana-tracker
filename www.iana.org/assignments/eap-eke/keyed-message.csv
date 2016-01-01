@@ -1,0 +1,6 @@
+Value,Name,Key Length (Octets),Definition,Reference
+0,Reserved,,,[RFC6124]
+1,MAC_HMAC_SHA1,20,"HMAC SHA-1, as defined in [RFC2104]",[RFC6124]
+2,MAC_HMAC_SHA2_256,32,HMAC SHA-2-256,[RFC6124]
+3-127,Unassigned,,,
+128-255,Reserved for Private Use,,,[RFC6124]

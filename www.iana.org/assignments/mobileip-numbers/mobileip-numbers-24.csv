@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Successful Handoff,[RFC4881]
+1,Generic Handoff Failure,[RFC4881]
+2-255,Unassigned,

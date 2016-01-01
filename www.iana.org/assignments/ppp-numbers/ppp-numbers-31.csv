@@ -1,0 +1,4 @@
+Value,Description,Reference
+1,RTP Header Compression,[RFC2508][RFC3544]
+2,Enhanced RTP-Compression,[RFC3544]
+3,TCP or non-TCP Compression Disable,[RFC3544]

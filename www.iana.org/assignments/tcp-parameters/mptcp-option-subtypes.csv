@@ -1,0 +1,11 @@
+Value,Symbol,Name,Reference
+0x0,MP_CAPABLE,Multipath Capable,"[RFC6824], Section 3.1"
+0x1,MP_JOIN,Join Connection,"[RFC6824], Section 3.2"
+0x2,DSS,Data Sequence Signal (Data ACK and Data Sequence Mapping),"[RFC6824], Section 3.3"
+0x3,ADD_ADDR,Add Address,"[RFC6824], Section 3.4.1"
+0x4,REMOVE_ADDR,Remove Address,"[RFC6824], Section 3.4.2"
+0x5,MP_PRIO,Change Subflow Priority,"[RFC6824], Section 3.3.8"
+0x6,MP_FAIL,Fallback,"[RFC6824], Section 3.6"
+0x7,MP_FASTCLOSE,Fast Close,"[RFC6824], Section 3.5"
+0x8-0xe,Unassigned,,
+0xf,Reserved for Private Use,,[RFC6824]

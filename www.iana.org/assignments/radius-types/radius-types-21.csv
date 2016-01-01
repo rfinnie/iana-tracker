@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Location of the User's Client Device,[RFC5580]
+1,Location of the RADIUS Client,[RFC5580]
+2-255,Unassigned,

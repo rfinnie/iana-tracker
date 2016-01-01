@@ -1,0 +1,6 @@
+ECP Option,Configuration Type,Reference
+0,OUI,[RFC1968]
+1,Deprecated (DESE),[Karl_Fox]
+2,3DESE,[RFC2420]
+3,DESE-bis,[RFC2419]
+4-255,Unassigned,

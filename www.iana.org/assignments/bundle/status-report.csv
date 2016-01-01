@@ -1,0 +1,10 @@
+Value,Description,Reference
+00000000,Reserved,[RFC6255]
+00000001,Reporting node received bundle,[RFC5050]
+00000010,Reporting node accepted custody of bundle,[RFC5050]
+00000100,Reporting node forwarded the bundle,[RFC5050]
+00001000,Reporting node delivered the bundle,[RFC5050]
+00010000,Reporting node deleted the bundle,[RFC5050]
+00100000,Unassigned,
+01000000,Unassigned,
+10000000,Unassigned,

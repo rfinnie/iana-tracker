@@ -1,0 +1,4 @@
+Profile,Type Value,Reference
+Split MAC with WTP encryption,0,[RFC7494]
+Split MAC with AC encryption,1,[RFC7494]
+Unassigned,2-255,

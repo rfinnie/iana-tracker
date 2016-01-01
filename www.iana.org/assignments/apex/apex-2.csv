@@ -1,0 +1,6 @@
+Option,Reference
+attachOverride,[RFC3342]
+dataHopping,[RFC3342]
+dataTiming,[RFC3342]
+hold4Endpoint,[RFC3342]
+statusRequest,[RFC3340]

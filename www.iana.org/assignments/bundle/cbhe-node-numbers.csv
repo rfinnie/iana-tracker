@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Reserved,[RFC7116]
+1-16383,Unassigned,
+16384-2097151,"Allocated to the Space Assigned Numbers Authority (SANA) 
+for use by Consultative Committee for Space Data Systems (CCSDS) missions.",[RFC7116]
+2097152-268435455,Reserved for Private or Experimental Use,[RFC7116]
+268435456-4398046511103,Unassigned,
+>=4398046511104,Reserved,[RFC7116]

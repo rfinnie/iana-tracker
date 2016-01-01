@@ -1,0 +1,21 @@
+Value,Description,Reference
+0,Reserved,[RFC7684]
+1,"SID/Label Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+2,"Prefix SID Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+3,"SID/Label Binding Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+4,"IPv4 ERO Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+5,"Unnumbered Interface ID ERO Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+6,"IPv4 Backup ERO Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+7,"Unnumbered Interface ID Backup ERO Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+8,"ERO Metric Sub-TLV (TEMPORARY - registered 
+      2015-10-22, expires 2016-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+9-32767,Unassigned,
+32768-33023,Reserved for Experimental Use,[RFC7684]
+33024-65535,Reserved,[RFC7684]

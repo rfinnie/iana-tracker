@@ -1,0 +1,32 @@
+ID Value,Chunk Type,Reference
+0,Payload Data (DATA),[RFC4960]
+1,Initiation (INIT),[RFC4960]
+2,Initiation Acknowledgement (INIT ACK),[RFC4960]
+3,Selective Acknowledgement (SACK),[RFC4960]
+4,Heartbeat Request (HEARTBEAT),[RFC4960]
+5,Heartbeat Acknowledgement (HEARTBEAT ACK),[RFC4960]
+6,Abort (ABORT),[RFC4960]
+7,Shutdown (SHUTDOWN),[RFC4960]
+8,Shutdown Acknowledgement (SHUTDOWN ACK),[RFC4960]
+9,Operation Error (ERROR),[RFC4960]
+10,State Cookie (COOKIE ECHO),[RFC4960]
+11,Cookie Acknowledgement (COOKIE ACK),[RFC4960]
+12,Reserved for Explicit Congestion Notification Echo (ECNE),[RFC4960]
+13,Reserved for Congestion Window Reduced (CWR),[RFC4960]
+14,Shutdown Complete (SHUTDOWN COMPLETE),[RFC4960]
+15,Authentication Chunk (AUTH),[RFC4895]
+16-62,Unassigned,
+63,Reserved for IETF-defined Chunk Extensions,
+64-126,Unassigned,
+127,Reserved for IETF-defined Chunk Extensions,
+128,Address Configuration Acknowledgment (ASCONF-ACK),[RFC5061]
+129,Unassigned,
+130,Re-configuration Chunk (RE-CONFIG),[RFC6525]
+131,Unassigned,
+132,Padding Chunk (PAD),[RFC4820]
+133-190,Unassigned,
+191,Reserved for IETF-defined Chunk Extensions,
+192,Forward TSN,[RFC3758]
+193,Address Configuration Change Chunk (ASCONF),[RFC5061]
+194-254,Unassigned,
+255,Reserved for IETF-defined Chunk Extensions,[RFC4960]

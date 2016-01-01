@@ -1,0 +1,6 @@
+Type,Description,Reference
+0-4,Unassigned,
+5,ICV,[RFC7182]
+6,TIMESTAMP,[RFC7182]
+7-223,Unassigned,
+224-255,Reserved for Experimental Use,[RFC5444]

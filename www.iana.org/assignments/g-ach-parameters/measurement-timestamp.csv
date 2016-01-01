@@ -1,0 +1,6 @@
+Type,Description,Size in Bits,Reference
+0,Null Timestamp,64,[RFC6374]
+1,Sequence Number,64,[RFC6374]
+2,Network Time Protocol version 4 64-bit Timestamp,64,[RFC6374]
+3,Truncated IEEE 1588v2 PTP Timestamp,64,[RFC6374]
+4-15,Unassigned,,

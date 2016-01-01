@@ -1,0 +1,15 @@
+Code,Summary,Description,Reference,Submitter,Change Controller
+2.XXX.YYY,Success,"Success specifies that the DSN is reporting a
+positive delivery action.  Detail sub-codes may
+provide notification of transformations required for
+delivery.",[RFC3463] (Standards track),G. Vaudreuil,IESG
+4.XXX.YYY,Persistent Transient Failure,"A persistent transient failure is one in which the
+message as sent is valid, but persistence of some
+temporary condition has caused abandonment or delay of
+attempts to send the message. If this code accompanies
+a delivery failure report, sending in the future may be
+successful.",[RFC3463] (Standards track),G. Vaudreuil,IESG
+5.XXX.YYY,Permanent Failure,"A permanent failure is one which is not likely to be
+resolved by resending the message in the current form.
+Some change to the message or the destination must be
+made for successful delivery.",[RFC3463] (Standards track),G. Vaudreuil,IESG

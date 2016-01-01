@@ -1,0 +1,7 @@
+Value,Ciphersuite,Reference
+0,HMAC-SHA1-80,[RFC5327]
+1,RSA-SHA256,[RFC5327]
+2-127,Unassigned,
+128-191,Reserved,[RFC5327]
+192-254,Private/Experimental Use,[RFC5327]
+255,NULL,[RFC5327]

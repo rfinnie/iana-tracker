@@ -1,0 +1,166 @@
+                                        Resource Reservation Protocol-Traffic Engineering (RSVP-TE) Parameters
+
+   Created
+           2006-01-23
+
+   Last Updated
+           2015-11-23
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * Attributes TLV Space
+     * Attribute Flags
+     * Session Attribute Object Flags
+     * Record Route Object Sub-object Flags
+     * Sub-TLV Types for WSON Processing Hop Attribute TLV
+     * Values for Wavelength Assignment Method field in WavelengthSelection Sub-TLV
+
+Attributes TLV Space
+
+   Registration Procedure(s)
+
+ IETF Consensus
+
+   Reference
+           [RFC5420][RFC7570]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Type               Name               Allowed on LSP_ATTRIBUTES Allowed on LSP_REQUIRED_ATTRIBUTES     Allowed on LSP Hop         Reference
+                                                                                                              Attributes
+    1   Attribute Flags                             Yes                           Yes                            Yes             [RFC5420][RFC7570]
+    2   Service ID TLV                              Yes                            No                             No             [RFC6060][RFC7570]
+    3   OAM Configuration TLV                       Yes                           Yes                             No             [RFC7260][RFC7570]
+    4   WSON Processing Hop Attribute               No                             No                            Yes             [RFC7689]
+        TLV
+
+Attribute Flags
+
+   Registration Procedure(s)
+
+ IETF Consensus
+
+   Reference
+           [RFC5420][RFC7570]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit No                     Name                     Attribute Flags Path Attribute Flags RRO ERO                    Reference
+                                                                                 Resv
+     0    End-to-end re-routing                                Yes                No        No  No  [RFC4920][RFC5420][RFC7570]
+     1    Boundary re-routing                                  Yes                No        No  No  [RFC4920][RFC5420][RFC7570]
+     2    Segment-based re-routing                             Yes                No        No  No  [RFC4920][RFC5420][RFC7570]
+     3    LSP Integrity Required                               Yes                No        No  No  [RFC4875][RFC7570]
+     4    Contiguous LSP                                       Yes                No        Yes No  [RFC5151][RFC7570]
+     5    LSP stitching desired                                Yes                No        Yes No  [RFC5150][RFC7570]
+     6    Pre-Planned LSP Flag                                 Yes                No        No  No  [RFC6001][RFC7570]
+     7    Non-PHP behavior flag                                Yes                No        Yes No  [RFC6511][RFC7570]
+     8    OOB mapping flag                                     Yes                No        Yes No  [RFC6511][RFC7570]
+     9    Entropy Label Capability                             Yes                Yes       No  No  [RFC6790][RFC7570]
+     10   OAM MEP entities desired                             Yes                Yes       Yes No  [RFC7260][RFC7570]
+     11   OAM MIP entities desired                             Yes                Yes       Yes No  [RFC7260][RFC7570]
+          SRLG collection Flag (TEMPORARY - registered
+     12   2014-09-11, extension registered 2015-08-27,         Yes                Yes       Yes No  [draft-ietf-teas-rsvp-te-srlg-collect][RFC7570]
+          expires 2016-09-11)
+     13   Loopback                                             Yes                No        Yes Yes [RFC7571]
+
+Session Attribute Object Flags
+
+   Registration Procedure(s)
+
+ IETF Consensus
+
+   Reference
+           [RFC4859]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit Flag             Name             Reference
+     0x01   Local protection desired     [RFC3209]
+     0x02   Local recording desired      [RFC3209]
+     0x04   SE Style desired             [RFC3209]
+     0x08   Bandwidth protection desired [RFC4090]
+     0x10   Node protection desired      [RFC4090]
+     0x20   Path re-evaluation request   [RFC4736]
+     0x40   Soft Preemption Desired      [RFC5712]
+
+Record Route Object Sub-object Flags
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC3209]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Flag            Name            Reference
+   0x01 Local protection available [RFC3209]
+   0x02 Local protection in use    [RFC3209]
+   0x04 Bandwidth protection       [RFC4090]
+   0x08 Node protection            [RFC4090]
+   0x10 Unassigned
+   0x20 Node-id                    [RFC4561]
+   0x40 Unassigned
+   0x80 Unassigned
+
+Sub-TLV Types for WSON Processing Hop Attribute TLV
+
+   Registration Procedure(s)
+
+ Standards Action or Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC7689]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value       Meaning       Reference
+     0   Reserved            [RFC7689]
+     1   ResourceBlockInfo   [RFC7689]
+     2   WavelengthSelection [RFC7689]
+
+Values for Wavelength Assignment Method field in WavelengthSelection Sub-TLV
+
+   Registration Procedure(s)
+
+ Standards Action or Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC7689]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value          Meaning           Reference
+     0   unspecified                [RFC7689]
+     1   First-Fit                  [RFC7689]
+     2   Random                     [RFC7689]
+     3   Least-Loaded (multi-fiber) [RFC7689]
+   4-127 Unassigned

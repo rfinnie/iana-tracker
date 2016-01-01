@@ -1,0 +1,9 @@
+Name,Change Controller,Reference
+code,IETF,[RFC6749]
+code id_token,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+code id_token token,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+code token,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+id_token,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+id_token token,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+none,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html]
+token,IETF,[RFC6749]

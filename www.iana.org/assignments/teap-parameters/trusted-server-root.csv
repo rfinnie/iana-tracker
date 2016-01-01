@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Unassigned,
+1,PKCS#7-Server-Certificate-Root,[RFC7170]
+2-65535,Unassigned,

@@ -1,0 +1,9 @@
+Bit Position,MPLS OAM Function Flag,Description,Reference
+0,C,Continuity Check (CC),[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+1,V,Connectivity Verification (CV),[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+2,F,Fault Management Signal (FMS),[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+3,L,Performance Measurement/Loss (PM/Loss),[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+4,D,Performance Measurement/Delay (PM/Delay),[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+5,T,Throughput Measurement,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+6-30,,Unassigned (Must be zero),
+31,,Reserved,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]

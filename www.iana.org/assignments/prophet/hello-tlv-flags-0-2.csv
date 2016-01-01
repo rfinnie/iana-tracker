@@ -1,0 +1,7 @@
+Value,Meaning,Reference
+0b000,Reserved,[RFC6693]
+0b001,SYN,[RFC6693]
+0b010,SYNACK,[RFC6693]
+0b011,ACK,[RFC6693]
+0b100,RSTACK,[RFC6693]
+0b101-0b111,Unassigned,

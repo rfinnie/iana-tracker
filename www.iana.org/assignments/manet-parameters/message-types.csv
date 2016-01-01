@@ -1,0 +1,5 @@
+Type,Description,Reference
+0,HELLO : Local signaling,[RFC6130]
+1,TC : Topology Control (MANET-wide signaling),[RFC7181]
+2-223,Unassigned,
+224-255,Reserved for Experimental Use,[RFC5444]

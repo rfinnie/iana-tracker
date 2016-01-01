@@ -1,0 +1,23 @@
+Value,Name,Reference
+0,FramebufferUpdate,[RFC6143]
+1,SetColourMapEntries,[RFC6143]
+2,Bell,[RFC6143]
+3,ServerCutText,[RFC6143]
+4-15,Possibly used in UltraVNC,historic assignment
+16-126,Unassigned,
+127,VMWare,historic assignment
+128,Car Connectivity,"[Jörg_Brakensiek]
+        [Terminal Mode v1.0]"
+129-149,Unassigned,
+150,TightVNC EndOfContinuousUpdates,historic assignment
+151-172,Unassigned,
+173,ServerState,historic assignment
+174-247,Unassigned,
+248,ServerFence,TigerVNC
+249,OLIVE Call Control,historic assignment
+250,Colin Dean xvp,historic assignment
+251,Unassigned,
+252,tight,historic assignment
+253,gii,historic assignment
+254,VMWare,historic assignment
+255,Anthony Liguori,historic assignment

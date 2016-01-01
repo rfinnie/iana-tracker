@@ -1,0 +1,4 @@
+Value,Description,Reference
+0x0000,Reserved,[RFC6124]
+0x0001-0xFEFF,Unassigned,
+0xFF00-0xFFFF,Reserved for Private Use,[RFC6124]

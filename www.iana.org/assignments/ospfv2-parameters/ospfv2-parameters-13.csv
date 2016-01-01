@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Reserved,
+1,Grace Period,[RFC3623]
+2,Graceful Restart reason,[RFC3623]
+3,IP Interface Address,[RFC3623]
+4-255,Unassigned,
+256-65519,Reserved,
+65520-65527,Experimentation,
+65528-65535,Vendor Private Use,

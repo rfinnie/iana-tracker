@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Reserved,[RFC5971]
+1,TCP opened in the forwards direction,[RFC5971]
+2,TLS initiated in the forwards direction,[RFC5971]
+3,SCTP opened in the forwards direction,[RFC6084]
+4,DTLS initiated in the forwards direction,[RFC6084]
+5-119,Unassigned,
+120-127,Reserved for Private/Experimental Use,[RFC5971]
+128-255,Reserved,[RFC5971]

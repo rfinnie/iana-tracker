@@ -1,0 +1,18 @@
+Value,Description,Reference
+0,Reserved,[RFC4851]
+1,Reserved,[RFC4851]
+2,Reserved,[RFC4851]
+3,Result TLV,[RFC4851]
+4,NAK TLV,[RFC4851]
+5,Error TLV,[RFC4851]
+6,Unassigned,
+7,Vendor-Specific TLV,[RFC4851]
+8,Unassigned,
+9,EAP-Payload TLV,[RFC4851]
+10,Intermediate-Result TLV,[RFC4851]
+11,PAC TLV,[RFC5422]
+12,Crypto-Binding TLV,[RFC4851]
+13-17,Unassigned,
+18,Server-Trusted-Root TLV,[RFC5422]
+19,Request-Action TLV,[RFC4851]
+20,PKCS#7 TLV,[RFC5422]

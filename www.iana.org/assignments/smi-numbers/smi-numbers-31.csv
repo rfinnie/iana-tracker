@@ -1,0 +1,5 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,MSP30,Message Security Protocol v3.0,[Carlisle_Adams]
+2,MSP31,Message Security Protocol v3.1,[Carlisle_Adams]
+3,MSP40,Message Security Protocol v4.0,[Carlisle_Adams]

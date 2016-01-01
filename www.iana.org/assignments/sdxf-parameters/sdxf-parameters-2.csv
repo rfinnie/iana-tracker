@@ -1,0 +1,5 @@
+Encryption Method,Description,Reference
+01,AES (Rijndeal),"[http://csrc.nist.gov/encryption/aes/][NIST, ""ADVANCED ENCRYPTION STANDARD (AES, Rijndael)"",
+FIPS 197, November 2001]"
+02-239,Unassigned,
+240-255,Private or application specific,

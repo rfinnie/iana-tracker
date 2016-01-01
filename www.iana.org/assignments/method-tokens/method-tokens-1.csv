@@ -1,0 +1,50 @@
+Token,Description,Reference,Registration Date
+A-GPS,GPS with assistance,[RFC4119],
+AOA,Angle of Arrival,[James_Winterbottom],
+best-guess,"The LIS cannot provide an accurate location. The value is its best guess, but may be very inaccurate.",[Brian_Rosen],2012-01-11
+Cell,Location of the cellular radio antenna,[RFC4119],
+Derived,"This value is intended to represent a location       
+object determined by geocoding or reverse geocoding
+a location determined by some other method.",[Brian_Rosen],2008-07-15
+Device-Assisted_A-GPS,"Device provides psuedo-ranges to a network element   
+that computes the location",[James_Winterbottom],
+Device-Assisted_EOTD,"Enhanced Observed Time Difference, device provides   
+measurements, network element computes location",[James_Winterbottom],
+Device-Based_A-GPS,"Network provides psuedo-ranges to the device and     
+the device computes its location",[James_Winterbottom],
+Device-Based_EOTD,"Enhanced Observed Time Difference, network element   
+provides measurements and device computes location",[James_Winterbottom],
+DHCP,"Provided by DHCP (used for wireline access           
+networks, see 802.11 below)",[RFC4119],
+GPS,Global Positioning System,[RFC4119],
+Handset_AFLT,Advanced Forward Link Trilateration,[James_Winterbottom],
+Handset_EFLT,Enhanced Forward Link Trilateration,[James_Winterbottom],
+Hybrid_A-GPS,"Device provides psuedo-rangesto a network element    
+that computes the location in combination with
+network measurements",[James_Winterbottom],
+IPDL,Idle Period Down Link,[James_Winterbottom],
+LLDP-MED,"Provided by Link Layer Discovery Protocol - Media    
+Endpoint Discovery (LLDP-MED)","[Telecommunications Industry Association, ""Link Layer Discovery
+Protocol for Media Endpoint Devices"", ANSI/TIA-1057, April 2006.][Peter_Blatherwick]",
+Manual,"Entered manually by an operator or user, e.g.,       
+based on subscriber billing or service location
+information",[RFC4119],
+MPL,Measured Path Loss,[James_Winterbottom],2007-10-18
+NMR,Network Measurement Reports,[James_Winterbottom],
+OTDOA,Observed Time Difference of Arrival,[James_Winterbottom],
+RFID,"Proximity to a Radio Frequency Identification        
+beacon",[James_Winterbottom],
+RSSI,Received Signal Strength Indicator,[James_Winterbottom],2007-10-18
+RSSI-RTT,"Combination of Received Signal Strength Indicator    
+and Round Trip Time used to determine the location
+of the Target",[James_Winterbottom],2007-10-18
+RTT,Round Trip Time,[James_Winterbottom],
+TA,Timing Advance,[James_Winterbottom],
+TA-NMR,Timing Advance and Network Measurement Reports,[James_Winterbottom],
+Triangulation,"Triangulated from time-of-arrival, signal strength   
+or similar measurements",[RFC4119],
+UTDOA,Uplink Time Difference of Arrival,[James_Winterbottom],
+Wiremap,"Location determined using wiremap correlations to    
+ciruit identifiers",[James_Winterbottom],
+802.11,"802.11 access point (used for DHCP-based             
+provisioning over wireless access networks)",[RFC4119],

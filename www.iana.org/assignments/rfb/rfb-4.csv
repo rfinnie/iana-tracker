@@ -1,0 +1,48 @@
+Value,Name,Reference
+0,Raw,[RFC6143]
+1,CopyRect,[RFC6143]
+2,RRE,[RFC6143]
+5,Hextile,[RFC6143]
+9-10,Possibly used in UltraVNC,historic assignment
+16,ZRLE,[RFC6143]
+-239,Cursor pseudo-encoding,[RFC6143]
+-223,DesktopSize pseudo-encoding,[RFC6143]
+4,CoRRE,historic assignment
+6,zlib,historic assignment
+7,tight,historic assignment
+8,zlibhex,historic assignment
+15,TRLE,[RFC6143]
+17,Hitachi ZYWRLE,historic assignment
+20,H.264,[Tristan_Richardson]
+21,JPEG,"historic assignment 
+        [Tristan_Richardson]"
+22,JRLE,"historic assignment 
+        [Tristan_Richardson]"
+1000-1002,Apple Inc.,[Michael_Stein]
+1011,Apple Inc.,[Michael_Stein]
+1024 to 1099,RealVNC,"historic assignment 
+        [Tristan_Richardson]"
+1100-1105,Apple Inc.,[Michael_Stein]
+-1 to -222,tight options,historic assignment
+-224 to -238,tight options,historic assignment
+-240 to -256,tight options,historic assignment
+-257 to -272,Anthony Liguori,historic assignment
+-273 to -304,VMWare,historic assignment
+-305,gii,historic assignment
+-306,popa,historic assignment
+-307,Peter Astrand DesktopName,historic assignment
+-308,Pierre Ossman ExtendedDesktopSize,historic assignment
+-309,Colin Dean xvp,historic assignment
+-310,OLIVE Call Control,historic assignment
+-311,ClientRedirect,[Brian_Hinz]
+-312,Fence,TigerVNC
+-313,ContinuousUpdates,TigerVNC
+-314,CursorWithAlpha,[Tristan_Richardson]
+-412 to -512,TurboVNC fine-grained quality level,historic assignment
+-523 to -528,Car Connectivity,"[Jörg_Brakensiek]
+        [Terminal Mode v1.0]"
+-763 to -768,TurboVNC subsampling level,historic assignment
+0x48323634,VA H.264,[David_Verbeiren]
+0x574d5600 to 0x574d56ff,VMWare,historic assignment
+0xc0a1e5ce to 0xc0a1e5cf,Possibly used in UltraVNC,historic assignment
+0xffff0000 to 0xffff8003,Possibly used in UltraVNC,historic assignment

@@ -1,0 +1,4 @@
+ECN Support,Type Value,Reference
+Limited ECN Support,0,[RFC5415]
+Full and Limited ECN Support,1,[RFC5415]
+Unassigned,2-255,

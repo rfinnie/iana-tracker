@@ -1,0 +1,5 @@
+Bit,FCS,Reference
+1,Null FCS,[RFC1570]
+2,CCITT 16-Bit FCS,[RFC1570]
+3,Unassigned,
+4,CCITT 32-bit FCS,[RFC1570]

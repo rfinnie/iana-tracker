@@ -1,0 +1,7 @@
+Value,Description,Reference
+1,Unexpected DIFFSERV object,[RFC3270]
+2,Unsupported PHB,[RFC3270]
+3,Invalid EXP<-->PHB mapping,[RFC3270]
+4,Unsupported PSC,[RFC3270]
+5,"Per-LSP context allocation            
+failure",[RFC3270]

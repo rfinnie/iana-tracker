@@ -1,0 +1,10 @@
+Decimal,Name,Description,References
+1,ipfixFuncSelectAll,Select everything,[RFC6615]
+2,psampSampCountBased,Systematic Count-based Sampling,[RFC6727]
+3,psampSampTimeBased,Systematic Time-based Sampling,[RFC6727]
+4,psampSampRandOutOfN,Random n-out-of-N Sampling,[RFC6727]
+5,psampSampUniProb,Universal Probabilistic Sampling,[RFC6727]
+6,psampFiltPropMatch,Property Match Filtering,[RFC6727]
+7,psampFiltHash,Hash-based Filtering,[RFC6727]
+8,flowSelectorAlgorithm,"This Object Identifier identifies the Intermediate Flow Selection Process 
+technique (e.g., Filtering, Sampling) that is applied by the Intermediate Flow Selection Process",[RFC7014]

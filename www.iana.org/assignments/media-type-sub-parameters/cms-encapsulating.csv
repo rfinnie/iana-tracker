@@ -1,0 +1,12 @@
+Name,Object Identifier,Reference
+authData,1.2.840.113549.1.9.16.1.2,[RFC5652]
+compressedData,1.2.840.113549.1.9.16.1.9,[RFC3274]
+contentCollection,1.2.840.113549.1.9.16.1.19,[RFC4073]
+contentInfo,1.2.840.113549.1.9.16.1.6,[RFC5652]
+contentWithAttrs,1.2.840.113549.1.9.16.1.20,[RFC4073]
+authEnvelopedData,1.2.840.113549.1.9.16.1.23,[RFC5083]
+encryptedKeyPkg,2.16.840.1.101.2.1.2.78.2,[RFC6032]
+digestData,1.2.840.113549.1.9.16.1.5,[RFC5652]
+encryptedData,1.2.840.113549.1.9.16.1.6,[RFC5652]
+envelopedData,1.2.840.113549.1.9.16.1.3,[RFC5652]
+signedData,1.2.840.113549.1.9.16.1.2,[RFC5652]

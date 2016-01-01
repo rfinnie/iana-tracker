@@ -1,0 +1,6 @@
+Value,KEK Management Type,Reference
+0,Reserved,[RFC3547]
+1,LKH,[RFC3547]
+2-127,Unassigned,
+128-255,Private Use,[RFC3547]
+256-65535,Unassigned,

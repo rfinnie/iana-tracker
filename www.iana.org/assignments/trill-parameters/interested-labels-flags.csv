@@ -1,0 +1,7 @@
+Bit,Menemonic,Description,Reference
+0,M4,IPv4 Multicast Router Attached,[RFC7176]
+1,M6,IPv6 Multicast Router Attached,[RFC7176]
+2,BM,Bit Map,[RFC7176]
+3,ES,ESADI Participation,[RFC7357]
+4,AA,FGLs for Active-Active,[RFC-ietf-trill-aa-multi-attach-06]
+5-7,,Unassigned,

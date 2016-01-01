@@ -1,0 +1,9 @@
+Value,Algorithm,Description,Reference
+0,none,"The ""identity function"": The hash value of an object is the object itself",[RFC7182]
+1,SHA-1,[NIST-FIPS-180-4],[RFC7182]
+2,SHA-224,[NIST-FIPS-180-4],[RFC7182]
+3,SHA-256,[NIST-FIPS-180-4],[RFC7182]
+4,SHA-384,[NIST-FIPS-180-4],[RFC7182]
+5,SHA-512,[NIST-FIPS-180-4],[RFC7182]
+6-251,,Unassigned,
+252-255,,Reserved for Experimental Use,[RFC7182]

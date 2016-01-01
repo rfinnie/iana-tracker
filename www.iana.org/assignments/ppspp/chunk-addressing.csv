@@ -1,0 +1,7 @@
+Method,Description,Reference
+0,32-bit bins,[RFC7574]
+1,64-bit byte ranges,[RFC7574]
+2,32-bit chunk ranges,[RFC7574]
+3,64-bit bins,[RFC7574]
+4,64-bit chunk ranges,[RFC7574]
+5-255,Unassigned,

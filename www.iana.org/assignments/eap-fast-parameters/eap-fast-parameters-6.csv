@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Reserved,[RFC5422]
+1,PKCS#7-Server-Certificate-Root,[RFC5422]
+2-63,Allocated for management by Cisco,[RFC5422]
+64-255,Unassigned,

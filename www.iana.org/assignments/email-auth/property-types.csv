@@ -1,0 +1,5 @@
+ptype,Definition,Description
+body,[RFC7601] section 2.3,The property being reported was found in the body of the message.
+header,[RFC7601] section 2.3,The property being reported was found in a header field of the message.
+policy,[RFC7601] section 2.3,The property being reported relates to a locally-defined policy.
+smtp,[RFC7601] section 2.3,The property being reported is a parameter to an SMTP command used to relay the message.

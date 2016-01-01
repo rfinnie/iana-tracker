@@ -1,0 +1,7 @@
+Type,Name,H-LEN,Reference
+256,Extension-Padding,1-5,[RFC4326]
+257,Time-Stamp,3,[RFC5163]
+258-449,Unassigned,,
+450,LL_RCS_FEC_ADT,4,[EN 301 790 V1.5.1][Laurence_Duquerroy]
+451,LL_CRC32,3,[EN 301 790 V1.5.1][Laurence_Duquerroy]
+452-511,Unassigned,,

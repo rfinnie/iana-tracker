@@ -1,0 +1,4 @@
+Value,Bit Position,Description,Reference
+P flag,8,Section 4.1,[RFC5973]
+E flag,9,Section 4.1,[RFC5973]
+Reserved,10-15,Section 4.1,[RFC5973]

@@ -1,0 +1,6 @@
+Code,Default Reason Phrase,Reference
+100,"""Cannot Process Location""",[RFC6442]
+200,"""Permission to Use Location Information""",[RFC6442]
+201,"""Permission to Retransmit Location Information to a Third Party""",[RFC6442]
+202,"""Permission to Route Based on Location Information""",[RFC6442]
+300,"""Deference Failure""",[RFC6442]

@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,None,
+1,VJ TCP/IP header compression,
+2,IPX header compression,
+3,Stac-LZS compression,

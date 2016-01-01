@@ -1,0 +1,4 @@
+Service,Description,Reference
+counseling.children,Counseling for children,[RFC5031]
+counseling.mental-health,Mental health counseling,[RFC5031]
+counseling.suicide,Suicide prevention hotline,[RFC5031]

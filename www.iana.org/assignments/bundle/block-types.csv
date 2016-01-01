@@ -1,0 +1,12 @@
+Value,Description,Reference
+0,Reserved,[RFC6255]
+1,Bundle Payload Block,[RFC5050]
+2,Bundle Authentication Block,[RFC6257]
+3,Payload Integrity Block,[RFC6257]
+4,Payload Confidentiality Block,[RFC6257]
+5,Previous-Hop Insertion Block,[RFC6259]
+6-7,Unassigned,
+8,Metadata Extension Block,[RFC6258]
+9,Extension Security Block,[RFC6257]
+10-191,Unassigned,
+192-255,Reserved for Private and/or Experimental Use,[RFC5050]

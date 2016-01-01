@@ -1,0 +1,7 @@
+Value,Description,Reference
+0,Reserved,[RFC7432]
+1,Ethernet Auto-discovery,[RFC7432]
+2,MAC/IP Advertisement,[RFC7432]
+3,Inclusive Multicast Ethernet Tag,[RFC7432]
+4,Ethernet Segment,[RFC7432]
+5-255,Unassigned,

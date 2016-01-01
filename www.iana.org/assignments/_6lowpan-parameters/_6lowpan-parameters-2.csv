@@ -1,0 +1,8 @@
+Address Range,Description,Reference
+0000000000000000 to 0111111111111111,unicast addresses,
+1000000000000000 to 1001111111111111,multicast addresses,
+1010000000000000 to 1011111111111111,reserved for future assignment,
+1100000000000000 to 1101111111111111,reserved for future assignment,
+1110000000000000 to 1111111111111100,reserved for future assignment,
+1111111111111110,"defined in IEEE 802.15.4 (""unassigned"" short address)",
+1111111111111111,defined in IEEE 802.15.4 (broadcast address),

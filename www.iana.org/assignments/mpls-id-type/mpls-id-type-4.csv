@@ -1,0 +1,7 @@
+Identifier type,Element,Reference
+0x00,Reserved,[RFC3033]
+0x01,Reserved for ST2+,[RFC3033]
+0x02,RSVP message,[RFC3033]
+0x03-0xFD,Unassigned,
+0xFE,Experimental/Organization specific,[RFC3033]
+0xFF,Reserved,

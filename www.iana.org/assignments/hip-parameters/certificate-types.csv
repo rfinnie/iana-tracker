@@ -1,0 +1,10 @@
+Type Number,Cert Format,Reference
+0,Reserved,[RFC6253]
+1,X.509 v3,[RFC6253]
+2,SPKI,[RFC6253]
+3,Hash and URL of X.509 v3,[RFC6253]
+4,Hash and URL of SPKI,[RFC6253]
+5,LDAP URL of X.509 v3,[RFC6253]
+6,LDAP URL of SPKI,[RFC6253]
+7,Distinguished Name of X.509 v3,[RFC6253]
+8,Distinguished Name of SPKI,[RFC6253]

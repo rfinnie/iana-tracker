@@ -1,0 +1,5 @@
+Decimal,Hexadecimal,Description,Reference,Note
+127,0x7F,Reserved,,
+126,0x7E,Mobile IPv6 Home-Agents anycast,[RFC2526],Also see [RFC3775]
+125,0x7D,IPv6 over GeoNetworking geographic anycast,[ETSI EN 302 636-6-1][Martin_Arndt],To be used for all published versions of [ETSI EN 302 636-6-1]
+1-124,0x01-0x7D,Reserved,,

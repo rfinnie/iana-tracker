@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Success,[RFC6775]
+1,Duplicate Address,[RFC6775]
+2,Neighbor Cache Full,[RFC6775]
+3-255,Unassigned,

@@ -1,0 +1,5 @@
+Value,Description,Reference
+1,Message Length Info,[RFC5971]
+2,MTU Info,[RFC5971]
+3,Object Type Info,[RFC5971]
+4,Object Value Info,[RFC5971]

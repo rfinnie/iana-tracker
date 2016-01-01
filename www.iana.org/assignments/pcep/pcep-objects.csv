@@ -1,0 +1,75 @@
+Object-Class Value,Name,Object-Type,Reference
+0,Reserved,1-15: Reserved,[RFC5440]
+1,OPEN,1: Open,[RFC5440]
+,,2-15: Unassigned,
+2,RP,1: Request Parameters,[RFC5440]
+,,2-15: Unassigned,
+3,NO-PATH,1: No Path,[RFC5440]
+,,2-15: Unassigned,
+4,END-POINTS,1: IPv4 addresses,[RFC5440]
+,,2: IPv6 addresses,[RFC5440]
+,,3: IPv4,[RFC6006]
+,,4: IPv6,[RFC6006]
+,,5-15: Unassigned,
+5,BANDWIDTH,1: Requested bandwidth,[RFC5440]
+,,2: Bandwidth of an existing TE LSP for which a reoptimization is requested,[RFC5440]
+,,3-15: Unassigned,
+6,METRIC,1: Metric,[RFC5440]
+,,2-15: Unassigned,
+7,ERO,1: Explicit Route,[RFC5440]
+,,2-15: Unassigned,
+8,RRO,1: Recorded Route,[RFC5440]
+,,2-15: Unassigned,
+9,LSPA,1: LSP Attributes,[RFC5440]
+,,2-15: Unassigned,
+10,IRO,1: Include Route,[RFC5440]
+,,2-15: Unassigned,
+11,SVEC,1: Synchronization Vector,[RFC5440]
+,,2-15: Unassigned,
+12,NOTIFICATION,1: Notification,[RFC5440]
+,,2-15: Unassigned,
+13,PCEP-ERROR,1: PCEP Error,[RFC5440]
+,,2-15: Unassigned,
+14,LOAD-BALANCING,1: Load Balancing,[RFC5440]
+,,2-15: Unassigned,
+15,CLOSE,1: Close,[RFC5440]
+,,2-15: Unassigned,
+16,PATH-KEY,1: Path Key,[RFC5520]
+,,2-15: Unassigned,
+17,XRO,1: Route exclusion,[RFC5521]
+,,2-15: Unassigned,
+18,Unassigned,1-15: Unassigned,
+19,MONITORING,1: Monitoring,[RFC5886]
+,,2-15: Unassigned,
+20,PCC-REQ-ID,1: IPV4 Addresses,[RFC5886]
+,,2: IPV6 Addresses,[RFC5886]
+,,3-15: Unassigned,
+21,OF,1: Objective Function,[RFC5541]
+,,2-15: Unassigned,
+22,CLASSTYPE,1: Class-Type,[RFC5455]
+,,2-15: Unassigned,
+23,Unassigned,1-15: Unassigned,
+24,GLOBAL-CONSTRAINTS,1: Global Constraints,[RFC5557]
+,,2-15: Unassigned,
+25,PCE-ID,1: IPV4 Addresses,[RFC5886]
+,,2: IPV6 Addresses,[RFC5886]
+,,3-15: Unassigned,
+26,PROC-TIME,1: PROC-TIME,[RFC5886]
+,,2-15: Unassigned,
+27,OVERLOAD,1: overload,[RFC5886]
+,,2-15: Unassigned,
+28,UNREACH-DESTINATION,1: IPv4,[RFC6006]
+,,2: IPv6,[RFC6006]
+,,3-15: Unassigned,
+29,SERO,1: SERO,[RFC6006]
+,,2-15: Unassigned,
+30,SRRO,1: SRRO,[RFC6006]
+,,2-15: Unassigned,
+31,Branch Node Capability Object,1: Branch node list,[RFC6006]
+,,2: Non-branch node list,[RFC6006]
+,,3-15: Unassigned,
+32-33,Unassigned,1-15: Unassigned,
+34,VENDOR-INFORMATION,0: Unassigned,
+,,1: Vendor-Specific Constraints,[RFC7470]
+,,2-15: Unassigned,
+35-255,Unassigned,1-15: Unassigned,

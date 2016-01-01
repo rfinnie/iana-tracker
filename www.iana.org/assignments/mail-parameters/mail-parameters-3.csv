@@ -1,0 +1,6 @@
+EHLO Keyword,Parameters,Reference
+SIZE,number,[RFC1870]
+NO-SOLICITING,Soliciting-keywords,[RFC3865]
+AUTH,SASL mechanism names,[RFC4954]
+BURL,Permitted URL prefixes,[RFC4468]
+MT-PRIORITY,Name of the Priority Assignment Policy (optional),[RFC6710]

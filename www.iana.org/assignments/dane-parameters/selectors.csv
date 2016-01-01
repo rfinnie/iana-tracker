@@ -1,0 +1,5 @@
+Value,Acronym,Short Description,Reference
+0,Cert,Full certificate,[RFC6698]
+1,SPKI,SubjectPublicKeyInfo,[RFC6698]
+2-254,,Unassigned,
+255,PrivSel,Reserved for Private Use,[RFC6698]

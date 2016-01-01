@@ -1,0 +1,116 @@
+Capability name,Description,RFC number,Contact address,Registration date
+body,"Provides a test for matching against the
+the body of the message being processed",[RFC5173],[Sieve_discussion_list],
+"comparator-* (anything starting with ""comparator-"")","adds the indicated comparator for use with the
+:comparator argument",[RFC4790][RFC5228] (Sieve base spec),[Sieve_discussion_list],
+convert,"adds a new Sieve test and action that enable Sieve
+        scripts to perform data conversions on the message being
+        delivered.",[RFC6558],[Sieve_discussion_list],
+copy,,[RFC3894],[Jutta_Degener],
+date,"The ""date"" extension gives Sieve the ability
+to test date and time values.",[RFC5260],[Sieve_discussion_list],
+duplicate,"Adds test 'duplicate' that can be used to test whether a 
+particular message is a duplicate, i.e., whether a copy of it was seen before 
+by the delivery agent that is executing the Sieve script.",[RFC7352],[Sieve_discussion_list],2014-06-30
+editheader,"Adds actions 'addheader' and 'deleteheader'
+that modify the header of the message being
+processed",[RFC5293],[Sieve_discussion_list],
+enclose,"adds the ""enclose"" action for enclosing a message with a
+wrapper.",[RFC5703],[Sieve_discussion_list],
+encoded-character,"changes the interpretation of strings to allow
+arbitrary octets and Unicode characters to be
+represented using US-ASCII",[RFC5228] (Sieve base spec),[Sieve_discussion_list],
+enotify,"adds the 'notify' action for notifying user about the
+received message. It also provides two new tests:
+valid_notify_method checks notification URIs for
+validity; notify_method_capability can check recipients
+capabilities.",[RFC5435],[Sieve_discussion_list],
+envelope,"adds the 'envelope' test for testing the message
+transport sender and recipient address",[RFC5228] (Sieve base spec),[Sieve_discussion_list],
+envelope-deliverby,"The ""envelope-deliverby"" extension extends the
+envelope test to allow checking of information
+associated with the Deliver-By ESMTP extension
+defined in [RFC2852].",[RFC6009],[Sieve_discussion_list],
+envelope-dsn,"The ""envelope-dsn"" extension extends the envelope
+test to allow checking of information associated
+with the DSN ESMTP extension defined in [RFC3461].",[RFC6009],[Sieve_discussion_list],
+environment,"The ""environment"" extension provides a new
+environment test that can be used to implement
+scripts that behave differently when moved
+from one system to another or otherwise
+operated in different contexts.",[RFC5183],[Sieve_discussion_list],
+ereject,"adds the 'ereject' action for refusing delivery
+of a message. The refusal should happen as early
+as possible (e.g. at the protocol level) and might
+not preserve the exact reason for refusal if it
+contains non-US-ASCII text.",[RFC5429],[Sieve_discussion_list],
+extlists,"Adds the "":list"" match type to certain Sieve tests, and
+        the "":list"" argument to the ""redirect"" action.  The "":list"" match
+        type changes tests to match values against values stored in one
+        or more externally stored lists.  The "":list"" argument to the
+        redirect action changes the redirect action to forward the
+        message to email addresses stored in the externally stored list.",[RFC6134],[Sieve_discussion_list],
+extracttext,"adds the ""extracttext"" action for extracting text from a
+MIME body part.",[RFC5703],[Sieve_discussion_list],
+fileinto,"adds the 'fileinto' action for delivering to a
+mailbox other than the default",[RFC5228] (Sieve base spec),[Sieve_discussion_list],
+foreverypart,"adds the ""foreverypart"" and ""break"" actions for
+iterating through MIME parts of a message.",[RFC5703],[Sieve_discussion_list],
+ihave,"The ""ihave"" extension provides a means to write
+scripts that make use of other extensions only
+when they are actually available.",[RFC5463],[Sieve_discussion_list],
+imapsieve,Add Sieve processing for IMAP events.,[RFC6785],[Sieve_discussion_list],
+imap4flags,Adds actions and tests for manipulating IMAP flags,[RFC5232],[Sieve_discussion_list],
+include,"adds the ""include"" command to execute other Sieve 
+scripts, the ""return"" action from an included script, and the ""global"" command and ""global"" 
+variables namespace to access variables shared among included scripts.",[RFC6609],[Sieve_discussion_list],
+index,"The ""index"" extension provides a means to
+limit header and address tests to specific
+instances when more than one field of a
+given type is present.",[RFC5260],[Sieve_discussion_list],
+mailbox,"adds test for checking for mailbox existence and a new
+optional argument to fileinto for creating a mailbox
+before attempting mail delivery.",[RFC5490],[Sieve_discussion_list],
+mboxmetadata,"adds tests for checking for mailbox metadata item
+existence and for retrieving of a mailbox metadata
+value.",[RFC5490],[Sieve_discussion_list],
+mime,"adds the "":mime"" and "":anychild"" tagged arguments to the
+""header"", ""address"", and ""exists"" tests.  Adds the "":type"", "":subtype"",
+"":contenttype"", and "":param"" options when "":mime"" is used with the
+""header"" test.",[RFC5703],[Sieve_discussion_list],
+redirect-deliverby,"The ""redirect-deliverby"" extension extends the
+redirect action to allow specification of the BY
+ESMTP parameter associated with the Deliver-By SMTP
+extension defined in [RFC2852].",[RFC6009],[Sieve_discussion_list],
+redirect-dsn,"The ""redirect-dsn"" extension extends the redirect
+action to allow specification of the NOTIFY and
+RET ESMTP parameters associated with the DSN SMTP
+extension defined in [RFC3461].",[RFC6009],[Sieve_discussion_list],
+regex,,[draft-murchison-sieve-regex-07],[Kenneth_Murchison],
+reject,"adds the ""reject"" action for refusing delivery
+of a message.  The exact reason for refusal is
+conveyed back to the client.",[RFC5429],[Sieve_discussion_list],
+relational,"Extends existing conditional tests in Sieve language
+to allow relational operators",[RFC5231],[Sieve_discussion_list],
+replace,"adds the ""replace"" action for replacing a MIME body part
+of a message.",[RFC5703],[Sieve_discussion_list],
+servermetadata,"adds tests for checking for server metadata item
+existence and for retrieving of a server metadata value.",[RFC5490],[Sieve_discussion_list],
+spamtest,"Provides a test to check for varying likelihood of
+an email message being spam.",[RFC5235],[Sieve_discussion_list],
+spamtestplus,"Provides a test to check for varying likelihood of
+an email message being spam, possibly using a percentage
+range.",[RFC5235],[Sieve_discussion_list],
+subaddress,"adds the ':user' and ':detail' address parts
+for use with the address and envelope tests",[RFC5233],[Sieve_discussion_list],
+vacation,"adds an action for generating an auto-reply saying
+that the original message will not be read or
+answered immediately",[RFC5230],[Sieve_discussion_list],
+vacation-seconds,"adds the "":seconds"" parameter to the Sieve Vacation
+        extension.  Implementations that support this MUST also support
+        ""vacation"".",[RFC6131],[Sieve_discussion_list],
+variables,Adds support for variables to the Sieve filtering language.,[RFC5229],[Sieve_discussion_list],
+virustest,"Provides a test to check for varying likelihood of
+there being malicious content in an email message.",[RFC5235],[Sieve_discussion_list],
+"vnd.dovecot.* (anything starting with ""vnd.dovecot."")","Extends the Sieve language with vendor-defined functionality specific to
+the Dovecot Secure IMAP server (http://www.dovecot.org).",Not applicable,[Stephan_Bosch][Timo_Sirainen],2008-07-28

@@ -1,0 +1,7 @@
+Value,Description,DTLS-OK,Reference
+0,anonymous,Y,[RFC5246]
+1,rsa,Y,[RFC5246]
+2,dsa,Y,[RFC5246]
+3,ecdsa,Y,[RFC5246]
+4-223,Unassigned,,
+224-255,Reserved for Private Use,,[RFC5246]

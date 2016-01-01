@@ -1,0 +1,34 @@
+Value,Name,Reference
+0x20,Unassigned,
+0x21,integer,[RFC2910]
+0x22,boolean,[RFC2910]
+0x23,enum,[RFC2910]
+0x24-0x2F,Unassigned - to be for integer data types,[RFC2910]
+0x30,octetString with an unspecified format,[RFC2910]
+0x31,dateTime,[RFC2910]
+0x32,resolution,[RFC2910]
+0x33,rangeOfInteger,[RFC2910]
+0x34,begCollection,[RFC3382]
+0x35,textWithLanguage,[RFC2910]
+0x36,nameWithLanguage,[RFC2910]
+0x37,endCollection,[RFC3382]
+0x38-0x3F,Unassigned - to be for octetString data types,[RFC2910]
+0x40,Unassigned,
+0x41,textWithoutLanguage,[RFC2910]
+0x42,nameWithoutLanguage,[RFC2910]
+0x43,"Reserved for future IANA Registration after
+an Expert Review as defined
+in [RFC2911] section 6.3.",[RFC2910]
+0x44,keyword,[RFC2910]
+0x45,uri,[RFC2910]
+0x46,uriScheme,[RFC2910]
+0x47,charset,[RFC2910]
+0x48,naturalLanguage,[RFC2910]
+0x49,mimeMediaType,[RFC2910]
+0x4A,memberAttrName,[RFC3382]
+0x4B-0x5F,"Unassigned - to be for character-string data
+types",[RFC2910]
+0x60-0x7E,Unassigned,
+0x7F,"For extension using the next 4 octets - see
+Note above.",[RFC2910]
+0x80-0xFF,Unassigned,

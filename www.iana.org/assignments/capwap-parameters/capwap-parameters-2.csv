@@ -1,0 +1,8 @@
+Flag Field Name,Bit Position,Reference
+Type 'T',0,[RFC5415]
+Fragment 'F',1,[RFC5415]
+Last 'L',2,[RFC5415]
+Wireless 'W',3,[RFC5415]
+Radio MAC 'M',4,[RFC5415]
+Keep-Alive 'K',5,[RFC5415]
+Unassigned,6-9,

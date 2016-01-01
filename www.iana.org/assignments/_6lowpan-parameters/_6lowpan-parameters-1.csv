@@ -1,0 +1,15 @@
+Bit Pattern,Header Type,Reference
+00 xxxxxx,NALP - Not a LoWPAN frame,[RFC4944]
+01 000000,Reserved as a replacement value for ESC,[RFC6282]
+01 000001,IPv6 - uncompressed IPv6 Addresses,[RFC4944]
+01 000010,LOWPAN_HC1 - LOWPAN_HC1 compressed IPv6,[RFC4944]
+01 000011,LOWPAN_DFF,[RFC6971]
+01 000100 through 01 001111,reserved for future use,
+01 010000,LOWPAN_BC0 - LOWPAN_BC0 broadcast,[RFC4944]
+01 010001 through 01 011111,reserved for future use,
+01 1xxxxx,LOWPAN_IPHC,[RFC6282]
+10 xxxxxx,MESH - Mesh header,[RFC4944]
+11 000xxx,FRAG1 -- Fragmentation Header (first),[RFC4944]
+11 001000 through 11 011111,reserved for future use,
+11 100xxx,FRAGN -- Fragmentation Header (subsequent),[RFC4944]
+11 101000 through 11 111111,reserved for future use,

@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Bundle Protocol Administrative Record,[RFC6260]
+1,CCSDS File Delivery Service,[CCSDS 727.0-B-4]
+2,Reserved,[RFC7116]
+3-63,Unassigned,
+64-1023,"Allocated to the Space Assigned Numbers Authority (SANA) 
+for use by Consultative Committee for Space Data Systems (CCSDS) missions.",[RFC7116]
+1024-65535,Unassigned,
+>=65535,Reserved for Private or Experimental Use,[RFC7116]

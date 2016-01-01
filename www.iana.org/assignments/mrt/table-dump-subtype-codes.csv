@@ -1,0 +1,6 @@
+Value,Name,Reference
+0,Reserved,[RFC6396]
+1,AFI_IPv4,[RFC6396]
+2,AFI_IPv6,[RFC6396]
+3-65534,Unassigned,
+65535,Reserved,[RFC6396]

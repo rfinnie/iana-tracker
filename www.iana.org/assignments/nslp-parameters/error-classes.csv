@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Reserved,[RFC5974][RFC5973]
+1,Informational,[RFC5974][RFC5973]
+2,Success,[RFC5974][RFC5973]
+3,Protocol Error,[RFC5974][RFC5973]
+4,Transient Failure,[RFC5974][RFC5973]
+5,Permanent Failure,[RFC5974][RFC5973]
+6,QoS Model Error,[RFC5974]
+7,Signaling session failure,[RFC5973]
+8-15,Reserved,[RFC5974][RFC5973]

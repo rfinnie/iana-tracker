@@ -1,0 +1,13 @@
+Attribute Name,Reference
+comment,[RFC4819]
+comment-language,[RFC4819]
+command-override,[RFC4819]
+subsystem,[RFC4819]
+x11,[RFC4819]
+shell,[RFC4819]
+exec,[RFC4819]
+agent,[RFC4819]
+env,[RFC4819]
+from,[RFC4819]
+port-forward,[RFC4819]
+reverse-forward,[RFC4819]

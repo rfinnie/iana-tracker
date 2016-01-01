@@ -1,0 +1,3 @@
+Bit,Flag,Description,Reference
+Bit 0,DO,DNSSEC answer OK,[RFC4035][RFC3225]
+Bit 1-15,,Reserved,

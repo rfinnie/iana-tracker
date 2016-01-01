@@ -1,0 +1,13 @@
+Value,Abbrev.,Name,Reference
+0,END,end of SDES list,[RFC3550]
+1,CNAME,canonical name,[RFC3550]
+2,NAME,user name,[RFC3550]
+3,EMAIL,user's electronic mail address,[RFC3550]
+4,PHONE,user's phone number,[RFC3550]
+5,LOC,geographic user location,[RFC3550]
+6,TOOL,name of application or tool,[RFC3550]
+7,NOTE,notice about the source,[RFC3550]
+8,PRIV,private extensions,[RFC3550]
+9,H323-CADDR,H.323 callable address,[Vineet_Kumar]
+10,APSI,Application Specific Identifier,[RFC6776]
+11-255,,Unassigned,

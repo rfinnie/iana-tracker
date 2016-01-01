@@ -1,0 +1,10 @@
+Value,Exchange Type,Reference
+0,NONE,[RFC2408]
+1,Base,[RFC2408]
+2,Identity Protection,[RFC2408]
+3,Authentication Only,[RFC2408]
+4,Aggressive,[RFC2408]
+5,Informational,[RFC2408]
+6-31,ISAKMP Future Use,
+32-239,DOI Specific Use,
+240-255,Private Use,

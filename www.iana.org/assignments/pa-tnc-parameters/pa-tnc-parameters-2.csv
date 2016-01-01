@@ -1,0 +1,5 @@
+PEN,Integer,Name,Reference
+0,0,Reserved,[RFC5792]
+0,1,Invalid Parameter,[RFC5792]
+0,2,Version Not Supported,[RFC5792]
+0,3,Attribute Type Not Supported,[RFC5792]

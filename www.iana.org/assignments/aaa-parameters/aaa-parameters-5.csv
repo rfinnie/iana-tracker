@@ -1,0 +1,4 @@
+AVP Value,Attribute Name,Reference
+1000,Reserved,
+1001,DIAMETER_MULTI_ROUND_AUTH,[RFC6733]
+1002-1999,Unassigned,

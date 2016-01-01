@@ -1,0 +1,32 @@
+Number,Description,WHOIS,RDAP,Reference,"Registration
+        Date"
+0-65535,See Sub-registry 16-bit AS numbers,,,[RFC1930],
+65536-65551,Reserved for use in documentation and sample code,,,[RFC5398],2008-12-03
+65552-131071,Reserved,,,,
+131072-132095,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2006-11-29
+132096-133119,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2011-08-09
+133120-133631,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2013-09-11
+133632-134556,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2014-09-02
+134557-135580,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2014-09-02
+135581-196607,Unallocated,,,,
+196608-197631,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2006-11-29
+197632-198655,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2011-01-04
+198656-199679,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2012-03-21
+199680-200191,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2013-09-09
+200192-201215,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2014-02-28
+201216-202239,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2014-02-28
+202240-203263,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2015-06-11
+203264-204287,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2015-06-11
+204288-262143,Unallocated,,,,
+262144-263167,Assigned by LACNIC,whois.lacnic.net,https://rdap.lacnic.net/rdap/,,2006-11-29
+263168-263679,Assigned by LACNIC,whois.lacnic.net,https://rdap.lacnic.net/rdap/,,2013-06-11
+263680-264604,Assigned by LACNIC,whois.lacnic.net,https://rdap.lacnic.net/rdap/,,2014-09-05
+264605-265628,Assigned by LACNIC,whois.lacnic.net,https://rdap.lacnic.net/rdap/,,2014-09-05
+265629-327679,Unallocated,,,,
+327680-328703,Assigned by AFRINIC,whois.afrinic.net,https://rdap.afrinic.net/rdap/http://rdap.afrinic.net/rdap/,,2006-11-29
+328704-393215,Unallocated,,,,
+393216-394239,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2006-11-30
+394240-395164,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2015-04-29
+395165-4199999999,Unallocated,,,,
+4200000000-4294967294,Reserved for Private Use,,,[RFC6996],
+4294967295,Reserved,,,[RFC7300],

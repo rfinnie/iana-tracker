@@ -1,0 +1,6 @@
+Value,Reference
+Voice-Message,[RFC2421]
+Voice-Message-Notification,[RFC2421]
+Originator-Spoken-Name,[RFC2421]
+Recipient-Spoken-Name,[RFC2421]
+Spoken-Subject,[RFC2421]

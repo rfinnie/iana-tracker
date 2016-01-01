@@ -1,0 +1,15 @@
+Value,Description,Reference
+0,Reserved,[RFC7222]
+1,Per-MN-Agg-Max-DL-Bit-Rate,[RFC7222]
+2,Per-MN-Agg-Max-UL-Bit-Rate,[RFC7222]
+3,Per-Session-Agg-Max-DL-Bit-Rate,[RFC7222]
+4,Per-Session-Agg-Max-UL-Bit-Rate,[RFC7222]
+5,Allocation-Retention-Priority,[RFC7222]
+6,Aggregate-Max-DL-Bit-Rate,[RFC7222]
+7,Aggregate-Max-UL-Bit-Rate,[RFC7222]
+8,Guaranteed-DL-Bit-Rate,[RFC7222]
+9,Guaranteed-UL-Bit-Rate,[RFC7222]
+10,QoS-Traffic-Selector,[RFC7222]
+11,QoS-Vendor-Specific-Attribute,[RFC7222]
+12-254,Unassigned,
+255,Reserved,[RFC7222]

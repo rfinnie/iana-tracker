@@ -1,0 +1,4 @@
+Bit Position,Meaning,Reference
+0,Sent by Listener,[RFC6693]
+1-2,Reserved,[RFC6693]
+3-7,Unassigned,

@@ -1,0 +1,5 @@
+Decimal,Description,References
+1,id-sti-originatorSig,[RFC3183]
+2,id-sti-domainSig,[RFC3183]
+3,id-sti-addAttribSig,[RFC3183]
+4,id-sti-reviewSig,[RFC3183]

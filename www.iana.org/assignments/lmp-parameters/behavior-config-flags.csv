@@ -1,0 +1,5 @@
+Bit Number,Bit Name,Meaning,Reference
+0,S,SONET/SDH Test support,[RFC6898]
+1,D,DWDM support,[RFC6898]
+2,C,Data Channel consistency check support,[RFC6898]
+3-8152,,Unassigned,

@@ -1,0 +1,4 @@
+Value,Meaning,Reference
+0x00000001,D-bit (Digital access requested),[RFC2661]
+0x00000002,A-bit (Analogue access requested),[RFC2661]
+0x00000004,B-bit (ATM Bearer support),[RFC3301]

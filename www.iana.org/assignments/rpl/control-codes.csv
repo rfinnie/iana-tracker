@@ -1,0 +1,19 @@
+Code,Description,Reference
+0x00,DODAG Information Solicitation,[RFC6550]
+0x01,DODAG Information Object,[RFC6550]
+0x02,Destination Advertisement Object,[RFC6550]
+0x03,Destination Advertisement Object Acknowledegment,[RFC6550]
+0x04,P2P Discovery Reply Object,[RFC6997]
+0x05,P2P Discovery Reply Object Acknowledgement,[RFC6997]
+0x06,Measurement Object,[RFC6998]
+0x07-0x7A,Unassigned,
+0x80,Secure DODAG Information Solicitation,[RFC6550]
+0x81,Secure DODAG Information Object,[RFC6550]
+0x82,Secure Destination Advertisement Object,[RFC6550]
+0x83,Secure Destination Advertisement Object Acknowledgment,[RFC6550]
+0x84,Secure P2P Discovery Reply Object,[RFC6997]
+0x85,Secure P2P Discovery Reply Object Acknowledgement,[RFC6997]
+0x86,Secure Measurement Object,[RFC6998]
+0x87-0x89,Unassigned,
+0x8A,Consistency Check,[RFC6550]
+0x8B-0xFF,Unassigned,

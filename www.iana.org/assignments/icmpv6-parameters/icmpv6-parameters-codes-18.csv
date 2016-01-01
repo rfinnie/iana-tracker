@@ -1,0 +1,4 @@
+Code,Name,Reference
+0,A successful reply.  The Reply Data field may or may not be empty.,[RFC4620]
+1,The Responder refuses to supply the answer.  The Reply Data field will be empty.,[RFC4620]
+2,The Qtype of the Query is unknown to the Responder.  The Reply Data field will be empty.,[RFC4620]

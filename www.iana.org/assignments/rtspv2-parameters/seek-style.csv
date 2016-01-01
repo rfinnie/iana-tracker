@@ -1,0 +1,10 @@
+Name,Description,Reference
+RAP,"Using the closest Random Access Point prior or at the
+      requested start position.",[RFC-ietf-mmusic-rfc2326bis-40]
+CoRAP,"Conditional Random Access Point is like RAP, but only if
+      the RAP is closer prior to the requested start position than
+      current pause point.",[RFC-ietf-mmusic-rfc2326bis-40]
+First-Prior,"The first-prior policy will start delivery with the
+      media unit that has a playout time first prior to the requested
+      start position.",[RFC-ietf-mmusic-rfc2326bis-40]
+Next,The next media units after the provided start position.,[RFC-ietf-mmusic-rfc2326bis-40]

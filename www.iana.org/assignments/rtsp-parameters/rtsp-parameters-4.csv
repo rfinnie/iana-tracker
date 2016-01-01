@@ -1,0 +1,6 @@
+Option Tag,Reference
+3gpp-pipelined,[3GPP TS 26.234][http://www.3gpp.org/ftp/specs/html-info/26234.htm][RFC6064]
+3gpp-switch,[3GPP TS 26.234][http://www.3gpp.org/ftp/specs/html-info/26234.htm][RFC6064]
+3gpp-switch-req-sdp,[3GPP TS 26.234][http://www.3gpp.org/ftp/specs/html-info/26234.htm][RFC6064]
+3gpp-switch-stream,[3GPP TS 26.234][http://www.3gpp.org/ftp/specs/html-info/26234.htm][RFC6064]
+FEC-protection-needed,[RFC6695]

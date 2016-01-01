@@ -1,0 +1,6 @@
+Value,Key ID Type,Comment,Reference
+0,MBMS Key Domain ID,ID of the group key domain,[RFC4563]
+1,MBMS Service Key ID,ID of the group key,[RFC4563]
+2,MBMS Transport Key ID,ID of the group traffic key,[RFC4563]
+3-240,Unassigned,,
+241-255,Reserved for Private Use,,

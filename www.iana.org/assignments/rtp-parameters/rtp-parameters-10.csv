@@ -1,0 +1,14 @@
+Extension URI,Description,Contact,Reference
+urn:ietf:params:rtp-hdrext:toffset,Transmission Time offsets,[Singer],[RFC5450]
+urn:ietf:params:rtp-hdrext:smpte-tc,SMPTE time-code mapping,[Singer],[RFC5484]
+urn:ietf:params:rtp-hdrext:ntp-64,Synchronisation metadata: 64-bit timestamp format,[Thomas_Schierl],[IETF Audio/Video Transport Working Group][RFC6051]
+urn:ietf:params:rtp-hdrext:ntp-56,Synchronisation metadata: 56-bit timestamp format,[Thomas_Schierl],[IETF Audio/Video Transport Working Group][RFC6051]
+urn:ietf:params:rtp-hdrext:ssrc-audio-level,Audio Level,[Jonathan_Lennox],[RFC6464]
+urn:ietf:params:rtp-hdrext:csrc-audio-level,Mixer-to-client audio level indicators,[Emil_Ivov],[RFC6465]
+urn:ietf:params:rtp-hdrext:encrypt,Encrypted extension header element,[Jonathan_Lennox],[RFC6904]
+urn:3gpp:video-orientation,"Coordination of video orientation (CVO) feature, see clause 6.2.3",[Specifications_Manager_3GPP],"[3GPP TS 26.114, version 12.5.0]"
+urn:3gpp:video-orientation:6,"Higher granularity (6-bit) coordination of video orientation (CVO) feature, see clause 6.2.3",[Specifications_Manager_3GPP],"[3GPP TS 26.114, version 12.5.0]"
+urn:3gpp:roi-sent,"Signalling of the arbitrary region-of-interest (ROI) information
+for the sent video, see clause 6.2.3.4",[Specifications_Manager_3GPP],"[3GPP TS 26.114, version 13.1.0]"
+urn:3gpp:predefined-roi-sent,"Signalling of the predefined region-of-interest (ROI) information
+for the sent video, see clause 6.2.3.4",[Specifications_Manager_3GPP],"[3GPP TS 26.114, version 13.1.0]"

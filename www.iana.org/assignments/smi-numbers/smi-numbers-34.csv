@@ -1,0 +1,4 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,iKEEnd,IPSec End System Usage,[Rodney_Thayer]
+2,iKEIntermediate,IPSec Intermediate System Usage,[Rodney_Thayer]

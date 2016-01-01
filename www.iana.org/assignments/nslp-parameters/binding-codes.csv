@@ -1,0 +1,10 @@
+Value,Description,Reference
+0x00,Reserved,[RFC5974]
+0x01,Tunnel and end-to-end sessions,[RFC5974]
+0x02,Bidirectional sessions,[RFC5974]
+0x03,Aggregate sessions,[RFC5974]
+0x04,Dependent sessions (binding session is alive only if the other session is also alive),[RFC5974]
+0x05,Indicated session caused pre-emption,[RFC5974]
+0x06-0x7F,Unassigned,
+0x80-0x9F,Reserved for Experimental/Private Use,[RFC5974]
+0xA0-0xFF,Reserved,[RFC5974]

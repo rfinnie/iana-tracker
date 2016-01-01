@@ -1,0 +1,6 @@
+Type,SDP Name,Reference
+addrtype,IP4,[RFC4566]
+addrtype,IP6,[RFC4566]
+addrtype,NSAP,[RFC3108]
+addrtype,GWID,[RFC3108]
+addrtype,E164,[RFC7195][RFC3108]

@@ -1,0 +1,8 @@
+Value,SRTP auth alg,Reference
+0,NULL,[RFC3830]
+1,HMAC-SHA-1,[RFC3830]
+2,RCCm1,[RFC4771]
+3,RCCm2,[RFC4771]
+4,RCCm3,[RFC4771]
+5-240,Unassigned,
+241-255,Reserved for Private Use,

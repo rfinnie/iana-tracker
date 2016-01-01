@@ -1,0 +1,5 @@
+AVP Value,Attribute Name,Reference
+0,IPv4 Address,[RFC4006]
+1,IPv6 Address,[RFC4006]
+2,URL,[RFC4006]
+3,SIP URI,[RFC4006]

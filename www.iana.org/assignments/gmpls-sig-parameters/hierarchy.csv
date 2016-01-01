@@ -1,0 +1,7 @@
+Bit Number,Hex Value,Name,Reference
+0-2,,Unassigned,
+3,0x10,Hierarchy/stitching (H),[RFC6107]
+4,0x08,Bundle (B),[RFC6107]
+5,0x04,Routing adjacency (R),[RFC6107]
+6,0x02,TE link (T),[RFC6107]
+7,0x01,Private (P),[RFC6107]

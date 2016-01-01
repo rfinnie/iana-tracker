@@ -1,0 +1,78 @@
+Decimal,Name,Description,References
+5,x25,X.25,[RFC1382]
+7,dot3,Ethernet-like Objects,[RFC3635]
+8,IEEE802.4,Token Bus-like Objects,[RFC1230][RFC1239]
+9,dot5,Token Ring-like Objects,[RFC1748]
+15,FDDI,FDDI Objects,[RFC1512][Jeffrey_Case]
+16,lapb,LAP B,[RFC1381]
+18,ds1,T1 Carrier Objects,[RFC4805]
+19,e1,E1 Carrier Objects,[RFC4805]
+20,isdnMib,ISDN MIB,[RFC2127]
+21,dialControlMib,Dial Control MIB,[RFC2128]
+23,ppp,Point-to-Point Protocol,[RFC1471]
+30,ds3,DS3/E3 Interface Objects,[RFC3896]
+31,sip,SMDS Interface Objects,[RFC1694]
+32,frame-relay,Frame Relay Objects,[RFC2115][Caralyn_Brown]
+33,RS-232,RS-232 Objects,[RFC1659]
+34,Parallel,Parallel Printer Objects,[RFC1660]
+35,arcnet,ARC network,
+36,arcnet-plus,ARC network plus,
+37,atm,ATM,
+38,MIOX25,MIOX25,[RFC1461]
+39,sonetMIB,SONET MIB,[RFC3592]
+44,frnetservMIB,Frame Relay Service MIB for DCE,[RFC1604]
+45,dot12MIB,IEEE 802.12,[RFC2020]
+46,ipoaMIB,IPOA-MIB,[RFC2320]
+47,mfrMIB,FR-MFR-MIB,[RFC3020]
+48,hdsl2ShdslMIB,HDSL2-SHDSL-LINE-MIB,[RFC4319]
+49,apsMIB,APS-MIB,[RFC3498]
+50-55,Reserved,Reserved,
+56,fcMgmtMIB,fcMgmtMIB,[RFC4044]
+57-80,Reserved,Reserved,
+81,ds0,DS0-MIB,[RFC2494]
+82,ds0bundle,DS0Bundle-MIB,[RFC2494]
+83-93,Reserved,Reserved,
+94,adslmib,adslMIB,[RFC2662]
+95,l2tp,L2TP-MIB,[RFC3371]
+96,Reserved,Reserved,
+97,vdslMIB,VDSL-LINE-MIB,[RFC3728]
+98-126,Reserved,Reserved,
+127,docsIfMib,DOCS IF MIB,[RFC2670]
+128-130,Reserved,Reserved,
+131,tunnelMIB,IP Tunnel MIB,[RFC2667]
+132,coffee,coffee pot,[RFC2325]
+133,optIfMibModule,OPT-IF-MIB,[RFC3591]
+134,etherWisMIB,ETHER-WIS MIB,[RFC3637]
+135-165,Reserved,Reserved,
+166,mplsStdMIB,MPLS STD MIB,[RFC3811]
+167-183,Reserved,Reserved,
+184,propBWAp2Mp,PropBroadbandWirelessAccesspt2Multipt,[http://standards.ieee.org/getieee802/802.16.html]
+185-199,Reserved,Reserved,
+200,teLinkStdMIB,TE-LINK-STD-MIB,[RFC4220]
+201-223,Reserved,Reserved,
+224,fcipMIB,FCIP-MGMT-MIB,[RFC4404]
+225-226,Reserved,Reserved,
+227,lmpMIB,LMP-MIB,[RFC4327]
+228,vdslExtSCMMIB,VDSL-LINE-EXT-SCM-MIB,[RFC4069]
+229,vdslExtMCMMIB,VDSL-LINE-EXT-MCM-MIB,[RFC4070]
+230,ifcpMgmtMIB,IFCP-MGMT-MIB,[RFC6173]
+231-237,Reserved,Reserved,
+238,adsl2MIB,ADSL2-LINE-MIB,[RFC4706]
+239,dvbRcsMib,DVB-RCS-MIB,[RFC5728][ETSI EN 301 790][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+240-245,Reserved,Reserved,
+246,pwStdMIB,PW-STD-MIB,[RFC5601]
+247-250,Reserved,Reserved,
+251,vdsl2MIB,VDSL2-LINE-MIB,[RFC5650]
+252-262,Reserved,Reserved,
+263,Reserved,Reserved,"[RFC6768][RFC Errata 
+          3591]"
+264,Reserved,Reserved,"[RFC6767][RFC Errata 
+          3589]"
+265,Reserved,Reserved,"[RFC6766][RFC Errata 
+          3588]"
+266-272,Reserved,Reserved,
+273,TED-MIB,TED-MIB,[RFC6825]
+274,VPLS-GENERIC-MIB,VPLS-GENERIC-MIB,[RFC7257]
+275,VPLS-LDP-MIB,VPLS-LDP-MIB,[RFC7257]
+276,VPLS-BGP-MIB MIB,VPLS-BGP-MIB,[RFC7257]
+277-280,Reserved,Reserved,

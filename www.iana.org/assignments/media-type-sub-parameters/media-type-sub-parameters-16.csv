@@ -1,0 +1,4 @@
+Colorimetry,Reference
+colorimetry=BT601-5,[RFC4175]
+colorimetry=BT709-2,[RFC4175]
+colorimetry=SMPTE240M,[RFC4175]

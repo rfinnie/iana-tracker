@@ -1,0 +1,4 @@
+Value,Name,Reference
+0,Server Mobility,[RFC2730]
+1,Retry After,[RFC2730]
+2,Shared Lease Identifier,[RFC2730]

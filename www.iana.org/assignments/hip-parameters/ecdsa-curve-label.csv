@@ -1,0 +1,5 @@
+Value,Curve,Reference
+0,RESERVED,[RFC7401]
+1,NIST P-256,[RFC7401]
+2,NIST P-384,[RFC7401]
+3-65535,Unassigned,

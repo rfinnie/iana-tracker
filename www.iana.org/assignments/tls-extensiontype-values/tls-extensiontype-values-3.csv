@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,X.509,[RFC6091]
+1,OpenPGP,[RFC6091]
+2,Raw Public Key,[RFC7250]
+3-223,Unassigned,
+224-255,Reserved for Private Use,[RFC6091]

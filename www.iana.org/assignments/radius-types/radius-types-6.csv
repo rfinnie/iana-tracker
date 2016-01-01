@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,None,
+1,Send routing packets,
+2,Listen for routing packets,
+3,Send and Listen,

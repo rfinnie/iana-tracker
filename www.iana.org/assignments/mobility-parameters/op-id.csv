@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC6757]
+1,Operator-Identifier as a variable-length Private Enterprise Number (PEN),[RFC6757]
+2,Realm of the Operator,[RFC6757]
+3-254,Unassigned,
+255,Reserved,[RFC6757]

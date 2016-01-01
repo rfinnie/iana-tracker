@@ -1,0 +1,8 @@
+Address,Description,Reference
+01-80-C2-00-00-40,All-RBridges,[RFC6325]
+01-80-C2-00-00-41,All-IS-IS-RBridges,[RFC6325]
+01-80-C2-00-00-42,All-ESADI-RBridges/All-Egress-RBridges,[RFC6325][RFC7178]
+01-80-C2-00-00-43 to 01-80-C2-00-00-44,Unassigned,
+01-80-C2-00-00-45,TRILL-End-Stations,[RFC7178]
+01-80-C2-00-00-46,All-Edge-RBridges,[RFC7178]
+01-80-C2-00-00-47 to 01-80-C2-00-00-4F,Unassigned,

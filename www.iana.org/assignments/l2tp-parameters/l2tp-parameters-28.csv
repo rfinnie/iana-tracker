@@ -1,0 +1,19 @@
+Bit (Value),Description,Reference
+"0
+            (0x01)",ICMP Ping,[RFC5085]
+"1
+            (0x02)",Reserved,[RFC5085]
+"2
+            (0x04)","BFD IP/UDP-encapsulated, for PW Fault Detection only",[RFC5885]
+"3
+            (0x08)","BFD IP/UDP-encapsulated, for PW Fault Detection and   
+AC/PW Fault Status Signaling",[RFC5885]
+"4
+            (0x10)","BFD PW-ACH-encapsulated, for PW Fault Detection only",[RFC5885]
+"5
+            (0x20)","BFD PW-ACH-encapsulated, for PW Fault Detection and   
+AC/PW Fault Status Signaling",[RFC5885]
+"6
+            (0x40)",Reserved,[RFC5085]
+"7
+            (0x80)",Reserved,[RFC5085]

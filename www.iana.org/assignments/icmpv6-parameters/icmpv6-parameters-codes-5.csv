@@ -1,0 +1,5 @@
+Code,Name,Reference
+0,erroneous header field encountered,
+1,unrecognized Next Header type encountered,
+2,unrecognized IPv6 option encountered,
+3,IPv6 First Fragment has incomplete IPv6 Header Chain,[RFC7112]

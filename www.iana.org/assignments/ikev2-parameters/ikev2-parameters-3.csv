@@ -1,0 +1,9 @@
+Type,Description,Used In,Reference
+0,Reserved,,[RFC7296]
+1,Encryption Algorithm (ENCR),(IKE and ESP),[RFC7296]
+2,Pseudo-random Function (PRF),(IKE),[RFC7296]
+3,Integrity Algorithm (INTEG),"(IKE, AH, optional in ESP)",[RFC7296]
+4,Diffie-Hellman Group (D-H),"(IKE, optional in AH & ESP)",[RFC7296]
+5,Extended Sequence Numbers (ESN),(AH and ESP),[RFC7296]
+6-240,Unassigned,,
+241-255,Private use,,[RFC7296]

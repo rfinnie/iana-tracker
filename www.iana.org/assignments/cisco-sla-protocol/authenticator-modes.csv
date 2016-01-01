@@ -1,0 +1,7 @@
+Mode,Description,Reference
+0,No Authentication,[RFC6812]
+1,SHA256,[RFC6812]
+2,HMAC-SHA-256,[RFC6812]
+3-200,Unassigned,
+201-225,Private Use,[RFC6812]
+226-255,Experimental Use,[RFC6812]

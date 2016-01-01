@@ -1,0 +1,4 @@
+Code,Meaning,Reference
+0x01,NetBIOS support,[RFC2114]
+0x02,TCP Listen Mode support,[RFC2114]
+0x04,Command/Response,[RFC2114]

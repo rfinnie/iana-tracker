@@ -1,0 +1,24 @@
+Value,Name,Reference
+0,Unassigned,
+1,Packet-Switch Capable-1 (PSC-1),[RFC3471]
+2,Deprecated,[RFC7074]
+3,Deprecated,[RFC7074]
+4,Deprecated,[RFC7074]
+5-29,Unassigned,
+30,Ethernet Virtual Private Line (EVPL),[RFC6004]
+31-39,Unassigned,
+40,802_1 PBB-TE,[RFC6060]
+41-50,Unassigned,
+51,Layer-2 Switch Capable  (L2SC),[RFC3471]
+52-99,Unassigned,
+100,Time-Division-Multiplex Capable (TDM),[RFC3471]
+101-109,Unassigned,
+110,OTN-TDM capable,[RFC7138]
+111-124,Unassigned,
+125,Data Channel Switching Capable (DCSC),[RFC6002]
+126-149,Unassigned,
+150,Lambda-Switch Capable (LSC),[RFC3471]
+151,WSON-LSC,[RFC7688]
+152-199,Unassigned,
+200,Fiber-Switch Capable (FSC),[RFC3471]
+201-255,Unassigned,

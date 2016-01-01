@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC5946]
+1,Receiver-Proxy-Needed,[RFC5946]
+2,Receiver-Proxy-Not-Needed,[RFC5946]
+3-240,Unassigned,
+241-255,Reserved for Private Use,[RFC5946]

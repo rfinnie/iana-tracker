@@ -1,0 +1,13 @@
+Value,Description,Reference
+1,RRO too large for MTU,[RFC3209]
+2,RRO Notification,[RFC3209]
+3,Tunnel locally repaired,[RFC3209]
+4,Control Channel Active State,[RFC3473]
+5,Control Channel Degraded State,[RFC3473]
+6,Preferable path exists,[RFC4736]
+7,Local link maintenance required,[RFC4736]
+8,Local node maintenance required,[RFC4736]
+9,LSP Failure,[RFC4872]
+10,LSP Recovered,[RFC4872]
+11,LSP Locally Failed,[RFC4872]
+12,No OOB mapping received,[RFC6511]

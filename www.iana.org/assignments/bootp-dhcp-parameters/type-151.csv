@@ -1,0 +1,11 @@
+Status-Code,Name,Reference
+0,Success,[RFC6926]
+1,UnspecFail,[RFC6926]
+2,QueryTerminated,[RFC6926]
+3,MalformedQuery,[RFC6926]
+4,NotAllowed,[RFC6926]
+5,DataMissing,[RFC7724]
+6,ConnectionActive,[RFC7724]
+7,CatchUpComplete,[RFC7724]
+8,TLSConnectionRefused,[RFC7724]
+9-255,Unassigned,

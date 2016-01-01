@@ -1,0 +1,5 @@
+Value,Name,Reference
+0,off,[IEEE1621]
+1,sleep,[IEEE1621]
+2,on,[IEEE1621]
+3-255,Unassigned,

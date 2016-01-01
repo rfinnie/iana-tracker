@@ -1,0 +1,7 @@
+Modes,Reference
+mode=generic,[RFC3640]
+mode=CELP-cbr,[RFC3640]
+mode=CELP-vbr,[RFC3640]
+mode=AAC-lbr,[RFC3640]
+mode=AAC-hbr,[RFC3640]
+mode=rtp-midi,[RFC6295]

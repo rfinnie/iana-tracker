@@ -1,0 +1,14 @@
+Reason Code(one octet),Description,Reference
+0x01,Reserved,[RFC7143]
+0x02,Data digest error,[RFC7143]
+0x03,SNACK Reject,[RFC7143]
+0x04,Protocol Error,[RFC7143]
+0x05,Command not supported,[RFC7143]
+0x06,Immediate command reject,[RFC7143]
+0x07,Task in progress,[RFC7143]
+0x08,Invalid data ack,[RFC7143]
+0x09,Invalid PDU field,[RFC7143]
+0x0a,Long op reject,[RFC7143]
+0x0b,"""Deprecated reason code""",[RFC7143]
+0x0c,Waiting for Logout,[RFC7143]
+0x0d-0xff,Unassigned,

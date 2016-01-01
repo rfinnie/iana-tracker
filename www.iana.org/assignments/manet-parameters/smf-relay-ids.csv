@@ -1,0 +1,7 @@
+Value,Name,Description,Reference
+0,CF,Section 4,[RFC6621]
+1,S-MPR,Appendix B,[RFC6621]
+2,E-CDS,Appendix A,[RFC6621]
+3,MPR-CDS,Appendix C,[RFC6621]
+4-127,,Unassigned,
+128-255,,Reserved for Experimental Use,[RFC6621]

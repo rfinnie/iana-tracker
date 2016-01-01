@@ -1,0 +1,9 @@
+Value,Description,Reference
+0x00,Reserved,[RFC5974]
+0x01,Reservation successful,[RFC5974]
+0x02,Teardown successful,[RFC5974]
+0x03,Acknowledgement,[RFC5974]
+0x04,Refresh successful,[RFC5974]
+0x05-0x7F,Unassigned,
+0x80-0xBF,Reserved for Experimental/Private Use,[RFC5974]
+0xC0-0xFF,Reserved,[RFC5974]

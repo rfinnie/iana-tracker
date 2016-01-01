@@ -1,0 +1,16 @@
+Code Value,Error Code Name,Reference
+0x0000,InvalidErrorCode,[RFC7019]
+0x0001,Error_Unknown_Algorithm,[RFC7019]
+0x0002,Error_Child_Limit_Reached,[RFC7019]
+0x0003,Error_Node_Bandwidth_Reached,[RFC7019]
+0x0004,Error_Node_Conn_Limit_Reached,[RFC7019]
+0x0005,Error_Link_Cap_Limit_Reached,[RFC7019]
+0x0006,Error_Node_Mem_Limit_Reached,[RFC7019]
+0x0007,Error_Node_CPU_Cap_Limit_Reached,[RFC7019]
+0x0008,Error_Path_Limit_Reached,[RFC7019]
+0x0009,Error_Path_Delay_Limit_Reached,[RFC7019]
+0x000A,Error_Tree_Fanout_Limit_Reached,[RFC7019]
+0x000B,Error_Tree_Depth_Limit_Reached,[RFC7019]
+0x000C,Error_Other,[RFC7019]
+0x000D-0x7FFF,Unassigned,
+0x8000-0xFFFF,Reserved for Private Use,[RFC7019]

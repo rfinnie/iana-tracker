@@ -1,0 +1,5 @@
+Code,Meaning,Description,Reference
+0x00,Idle timeout,The connection is being closed due to idleness.,[RFC7242]
+0x01,Version mismatch,The node cannot conform to the specified TCPCL protocol version.,[RFC7242]
+0x02,Busy,The node is too busy to handle the current connection.,[RFC7242]
+0x03-0xff,,Unassigned,

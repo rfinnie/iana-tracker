@@ -1,0 +1,6 @@
+AVP Value,Attribute Name,Reference
+1,RE_AUTH,[RFC6733]
+2,STR,[RFC6733]
+3,Unassigned,
+4,ACCOUNTING,[RFC6733]
+5-8,Unassigned,

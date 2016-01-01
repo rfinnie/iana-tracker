@@ -1,0 +1,10 @@
+Tag,Meaning,Reference
+issue,Authorization Entry by Domain,[RFC6844]
+issuewild,Authorization Entry by Wildcard Domain,[RFC6844]
+iodef,Report incident by IODEF report,[RFC6844]
+auth,Reserved,"[RFC6844][RFC Errata 
+          3547]"
+path,Reserved,"[RFC6844][RFC Errata 
+          3547]"
+policy,Reserved,"[RFC6844][RFC Errata 
+          3547]"

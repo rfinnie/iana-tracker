@@ -1,0 +1,4 @@
+Variable Name,RFC,Point of Contact
+${ietf.org:CPU_ARCH},[RFC5661],[IESG]
+${ietf.org:OS_TYPE},[RFC5661],[IESG]
+${ietf.org:OS_VERSION},[RFC5661],[IESG]

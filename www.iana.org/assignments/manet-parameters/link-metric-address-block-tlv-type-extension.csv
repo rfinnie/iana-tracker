@@ -1,0 +1,4 @@
+Type Extension,Description,Reference
+0-7,Link metric meaning assigned by administrative action.,[RFC7181][RFC-ietf-manet-olsrv2-multitopology-07]
+8-223,Unassigned,
+224-255,Reserved for Experimental Use,[RFC7181]

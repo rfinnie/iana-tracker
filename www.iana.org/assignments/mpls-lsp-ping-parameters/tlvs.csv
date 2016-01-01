@@ -1,0 +1,33 @@
+Type,TLV Name,Reference,Sub-TLV Registry
+1,Target FEC Stack,[RFC4379],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+2,Downstream Mapping (DEPRECATED),[RFC4379][RFC6424],No Sub-TLVs
+3,Pad,[RFC4379],No Sub-TLVs
+4,Not Assigned,[RFC4379],
+5,Vendor Enterprise Number,[RFC4379],No Sub-TLVs
+6,Not Assigned,[RFC4379],
+7,Interface and Label Stack,[RFC4379],No Sub-TLVs
+8,Not Assigned,[RFC4379],
+9,Errored TLVs,[RFC4379],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-9]
+10,Reply TOS Byte,[RFC4379],No Sub-TLVs
+11,P2MP Responder Identifier,[RFC6425],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-11]
+12,Echo Jitter,[RFC6425],No Sub-TLVs
+13,Source ID,[RFC6426],No Sub-TLVs
+14,Destination ID,[RFC6426],No Sub-TLVs
+15,BFD Discriminator,[RFC5884],No Sub-TLVs
+16,Reverse-path Target FEC Stack,[RFC6426],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+17-19,Unassigned,,
+20,Downstream Detailed Mapping,[RFC6424],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-20]
+21,Reply Path,[RFC7110],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+22,Reply TC,[RFC7110],No Sub-TLVs
+23,Proxy Echo Parameters,[RFC7555],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-23]
+24,Reply-to Address,[RFC7555],No Sub-TLVs
+25,Upstream Neighbor Address,[RFC7555],No Sub-TLVs
+26,Downstream Neighbor Address,[RFC7555],No Sub-TLVs
+27,MPLS OAM Functions,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-27]
+28-31743,Unassigned,,
+31744-32767,Reserved for Vendor or Private Use,[RFC4379],
+32768,Relay Node Address Stack TLV,[RFC-ietf-mpls-lsp-ping-relay-reply-11],No Sub-TLVs
+32769,Time To Live,[RFC7394],No Sub-TLVs
+32770,Reply Mode Order TLV,[RFC-ietf-mpls-lsp-ping-reply-mode-simple-05],No Sub-TLVs
+32771-64511,Unassigned,,
+64512-65535,Reserved for Vendor or Private Use,[RFC4379],

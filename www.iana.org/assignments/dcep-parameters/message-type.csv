@@ -1,0 +1,7 @@
+Type,Name,Reference
+0x00,Reserved,[RFC-ietf-rtcweb-data-protocol-09]
+0x01,Reserved,[RFC-ietf-rtcweb-data-protocol-09]
+0x02,DATA_CHANNEL_ACK,[RFC-ietf-rtcweb-data-protocol-09]
+0x03,DATA_CHANNEL_OPEN,[RFC-ietf-rtcweb-data-protocol-09]
+0x04-0xfe,Unassigned,
+0xff,Reserved,[RFC-ietf-rtcweb-data-protocol-09]

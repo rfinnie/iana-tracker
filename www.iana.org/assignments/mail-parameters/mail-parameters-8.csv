@@ -1,0 +1,6 @@
+Clause Name,Description,Syntax Summary,Reference
+PRIORITY,"Records the value of the MT-PRIORITY  
+parameter specified in the MAIL FROM
+command",See Section 7 of RFC,[RFC6710]
+state,"Indicates entry into a special        
+queue state",state <state-name>,[RFC6729]

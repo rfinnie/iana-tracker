@@ -1,0 +1,7 @@
+NSLPID,Description,Reference
+0,Used for GIST messages not related to any signalling application.,[RFC5971]
+1-32,QoS NSLP Aggregation Levels 0-31,[RFC5974]
+33,NATFW,[RFC5973]
+34-32703,Unassigned,
+32704-32767,Reserved for Private/Experimental Use,[RFC5971]
+32768-65535,Reserved,[RFC5971]

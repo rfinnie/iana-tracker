@@ -1,0 +1,8 @@
+Version,Description,Reference
+0,Unassigned,
+1,GSMP Version 1,[RFC1987]
+2,GSMP Version 2,[RFC2297]
+3,GSMP Version 3,[RFC3292]
+4-49,Unassigned,
+50,ANCP Version 1,[RFC6320]
+51-255,Unassigned,

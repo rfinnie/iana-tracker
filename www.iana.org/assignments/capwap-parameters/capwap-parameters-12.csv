@@ -1,0 +1,7 @@
+Discovery Types,Type Value,Reference
+Unknown,0,[RFC5415]
+Static Configuration,1,[RFC5415]
+DHCP,2,[RFC5415]
+DNS,3,[RFC5415]
+AC Referral,4,[RFC5415]
+Unassigned,5-255,

@@ -1,0 +1,5 @@
+Value,Message Type,Reference
+1,Route Request (RREQ),[RFC3561]
+2,Route Reply (RREP),[RFC3561]
+3,Route Error (RERR),[RFC3561]
+4,Route-Reply Ack (RREP-ACK),[RFC3561]

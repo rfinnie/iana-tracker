@@ -1,0 +1,16 @@
+Kind-ID,Kind,Reference
+0x0,INVALID,[RFC6940]
+0x1,Unassigned,
+0x2,TURN-SERVICE,[RFC6940]
+0x3,CERTIFICATE_BY_NODE,[RFC6940]
+0x4-0x9,Unassigned,
+0x10,CERTIFICATE_BY_USER,[RFC6940]
+0x11-0x103,Unassigned,
+0x104,REDIR,[RFC7374]
+0x105,CoAP-REGISTRATION,[RFC7650]
+0x106,CoAP-CACHING,[RFC7650]
+0x107-0x7ffffffe,Unassigned,
+0x7fffffff,Reserved,[RFC6940]
+0x8000000-0xf0000000,Unassigned,
+0xf0000001-0xfffffffe,Reserved for Private Use,[RFC6940]
+0xffffffff,Reserved,[RFC6940]

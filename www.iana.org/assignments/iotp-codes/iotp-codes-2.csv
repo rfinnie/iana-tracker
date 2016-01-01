@@ -1,0 +1,13 @@
+Brand/BrandID,Organization,Contact Person/E-mail address,Reference
+"""Amex""",American Express,,[RFC2801]
+"""Dankort""",Dankort,,[RFC2801]
+"""JCB""",JCB,,[RFC2801]
+"""Maestro""",Maestro,,[RFC2801]
+"""MasterCard""",MasterCard,,[RFC2801]
+"""NICOS""",NICOS,,[RFC2801]
+"""VISA""",Visa,[Tony_Lewis],[RFC2801]
+"""atCredits""",@UK PLC,[Ronald_Duncan_ukplc],[RFC2801]
+"""EZpay""",ITI Services,[Admin_itinternet_net],[RFC2801]
+"""GeldKarte""",GeldKarte,,[RFC2801]
+"""Mondex""",Mondex,,[RFC2801]
+"""paybox""",paybox.net AG,[guillaume_taglang_pa],[RFC2801]

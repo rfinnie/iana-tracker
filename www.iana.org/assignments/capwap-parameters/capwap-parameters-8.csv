@@ -1,0 +1,6 @@
+AC Information Type,Type Value,Reference
+Reserved,0,[RFC5415]
+Unassigned,1-3,
+Hardware Version,4,[RFC5415]
+Software Version,5,[RFC5415]
+Unassigned,6-65535,

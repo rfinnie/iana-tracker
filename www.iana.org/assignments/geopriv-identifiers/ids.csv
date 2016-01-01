@@ -1,0 +1,3 @@
+URN,Description,Reference,Contact,Index Value
+urn:ietf:params:geopriv:relative:2d,A two-dimensional relative coordinate reference system,[RFC7035],"IETF, GEOPRIV working group (geopriv&ietf.org), Martin Thomson (martin.thomson&gmail.com).",N/A
+urn:ietf:params:geopriv:relative:3d,A three-dimensional relative coordinate reference system,[RFC7035],"IETF, GEOPRIV working group (geopriv&ietf.org), Martin Thomson (martin.thomson&gmail.com).",N/A

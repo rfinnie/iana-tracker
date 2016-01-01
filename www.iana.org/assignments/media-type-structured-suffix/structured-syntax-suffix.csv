@@ -1,0 +1,247 @@
+Name,+suffix,References,Encoding Considerations,Interoperability Considerations,Fragment Identifier Considerations,Security Considerations,Contact,Author/Change Controller,Registration Date,Modification Date(s)
+Extensible Markup Language (XML),+xml,[RFC7303],"Same as [RFC7303], Section 9.1.","Same as [RFC7303], Section 9.1. 
+      See above, and also Section 3, for guidelines on the use of the 'charset' parameter.","Registrations which use this
+      '+xml' convention MUST also make reference to [RFC7303],
+      specifically Section 5, in specifying fragment identifier syntax
+      and semantics, and they MAY restrict the syntax to a specified
+      subset of schemes, except that they MUST NOT disallow barenames or
+      'element' scheme pointers.  They MAY further require support for
+      other registered schemes.  They also MAY add additional syntax
+      (which MUST NOT overlap with [XPointerFramework] syntax) together
+      with associated semantics, and MAY add additional semantics for
+      barename XPointers which, as provided for in Section 5, will only
+      apply when [RFC7303] does not define an interpretation.
+      
+      
+      In practice these constraints imply that for a fragment
+      identifier addressed to an instance of a specific ""xxx/yyy+xml""
+      type, there are three cases:
+      
+      
+      For fragment identifiers matching the syntax defined in
+      [XPointerFramework], where the fragment identifier resolves
+      per the rules specified there, then process as specified
+      there;
+      
+      
+      For fragment identifiers matching the syntax defined in
+      [XPointerFramework], where the fragment identifier does
+      _not_ resolve per the rules specified there, then process as
+      specified in ""xxx/yyy+xml"";
+      
+      
+      For fragment identifiers _not_ matching the syntax defined
+      in [XPointerFramework], then process as specified in ""xxx/
+      yyy+xml"".  A fragment identifier of the form
+      ""xywh=160,120,320,240"", as defined in [MediaFrags], which
+      might be used in a URI for an XML-encoded image, would fall
+      in this category.","See Section 10, [RFC7303].","See Authors' Addresses section, [RFC7303].","The XML specification is a work product of the World Wide Web 
+      Consortium's XML Core Working Group. The W3C has change control over 
+      [RFC7303].",2012-11-15,2014-04-17
+JavaScript Object Notation (JSON),+json,[RFC4627][RFC6839],"Per [RFC4627], JSON is allowed to be
+        represented using UTF-8, UTF-16, or UTF-32.  When
+        JSON is written in UTF-8, JSON is 8bit compatible ([RFC2045]).  When JSON is written in UTF-16 or
+        UTF-32, JSON is binary ([RFC2045]).",n/a,"The syntax and semantics of fragment
+        identifiers specified for +json SHOULD be as
+        specified for ""application/json"".  (At
+        publication of this document, there is no
+        fragment identification syntax defined for
+        ""application/json"".)
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/yyy+json""
+        SHOULD be processed as follows:
+        
+        For cases defined in +json, where the
+        fragment identifier resolves per the +json
+        rules, then as specified in +json.
+        
+        For cases defined in +json, where the
+        fragment identifier does not resolve per
+        the +json rules, then as specified in ""xxx/
+        yyy+json"".
+        
+        For cases not defined in +json, then as
+        specified in ""xxx/yyy+json"".",See [RFC4627].,Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,
+Basic Encoding Rules (BER) message transfer syntax,+ber,[ITU.X690.2008][RFC6839],BER is a binary encoding.,n/a,"At publication of this document, there is no
+        fragment identification syntax defined for
+        +ber.
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/yyy+ber""
+        SHOULD be processed as follows:
+        
+        For cases defined in +ber, where the
+        fragment identifier resolves per the +ber
+        rules, then as specified in +ber.
+      
+      For cases defined in +ber, where the
+      fragment identifier does not resolve per
+      the +ber rules, then as specified in ""xxx/
+      yyy+ber"".
+      
+      For cases not defined in +ber, then as
+      specified in ""xxx/yyy+ber"".","Each individual media type registered with
+        a +ber suffix can have additional security
+        considerations.
+        
+        BER has a type-length-value structure, and it is
+        easy to construct malicious content with invalid
+        length fields that can cause buffer overrun
+        conditions.
+        
+        BER allows for arbitrary levels of nesting, which
+        may make it possible to construct malicious
+        content that will cause a stack overflow.
+        
+        Interpreters of the BER structures should be
+        aware of these issues and should take appropriate
+        measures to guard against buffer overflows and
+        stack overruns in particular and malicious
+        content in general.",Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,
+Concise Binary Object Representation (CBOR),+cbor,[RFC7049],CBOR is a binary format.,n/a,"The syntax and semantics of fragment identifiers specified for
+     +cbor SHOULD be as specified for ""application/cbor"".  (At
+     publication of this document, there is no fragment identification
+     syntax defined for ""application/cbor"".)
+
+     The syntax and semantics for fragment identifiers for a specific
+     ""xxx/yyy+cbor"" SHOULD be processed as follows:
+
+     For cases defined in +cbor, where the fragment identifier resolves
+     per the +cbor rules, then process as specified in +cbor.
+
+     For cases defined in +cbor, where the fragment identifier does
+     not resolve per the +cbor rules, then process as specified in
+     ""xxx/yyy+cbor"".
+
+     For cases not defined in +cbor, then process as specified in
+     ""xxx/yyy+cbor"".",See Section 8 of [RFC7049],Apps Area Working Group (apps-discuss at ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2013-09-19,
+Distinguished Encoding Rules (DER) message transfer syntax,+der,[ITU.X690.2008][RFC6839],DER is a binary encoding.,n/a,"At publication of this document, there is no
+        fragment identification syntax defined for
+        +der.
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/yyy+der""
+        SHOULD be processed as follows:
+        
+        For cases defined in +der, where the
+        fragment identifier resolves per the +der
+        rules, then as specified in +der.
+        
+        For cases defined in +der, where the
+        fragment identifier does not resolve per
+        the +der rules, then as specified in ""xxx/
+        yyy+der"".
+        
+        For cases not defined in +der, then as
+        specified in ""xxx/yyy+der"".","Each individual media type registered with
+        a +der suffix can have additional security
+        considerations.
+        
+        DER has a type-length-value structure, and it is
+        easy to construct malicious content with invalid
+        length fields that can cause buffer overrun
+        conditions.
+        
+        DER allows for arbitrary levels of nesting, which
+        may make it possible to construct malicious
+        content that will cause a stack overflow.
+      
+      Interpreters of the DER structures should be
+      aware of these issues and should take appropriate
+      measures to guard against buffer overflows and
+      stack overruns in particular and malicious
+      content in general.",Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,
+Fast Infoset document format,+fastinfoset,[ITU.X891.2005][RFC6839],"Fast Infoset is a binary encoding.  The
+        binary, quoted-printable and base64 content-
+        transfer-encodings are suitable for use with Fast
+        Infoset.",n/a,"The syntax and semantics of fragment
+        identifiers specified for +fastinfoset SHOULD
+        be as specified for ""application/fastinfoset"".
+        (At publication of this document, there is no
+        fragment identification syntax defined for
+        ""application/fastinfoset"".)
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/
+        yyy+fastinfoset"" SHOULD be processed as
+        follows:
+        
+        For cases defined in +fastinfoset, where
+        the fragment identifier resolves per the
+        +fastinfoset rules, then as specified in
+        +fastinfoset.
+        
+        For cases defined in +fastinfoset, where
+        the fragment identifier does not resolve
+        per the +fastinfoset rules, then as
+        specified in ""xxx/yyy+fastinfoset"".
+        
+        For cases not defined in +fastinfoset, then
+        as specified in ""xxx/yyy+fastinfoset"".","There are no security considerations
+        inherent in Fast Infoset.  Each individual media
+        type registered with a +fastinfoset suffix can
+        have additional security considerations.",Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,
+WAP Binary XML (WBXML) document format,+wbxml,"[Open Mobile Alliance, ""Binary XML Content Format
+        Specification"", OMA Wireless Access Protocol WAP-192-
+        WBXML-20010725-a, July 2001.][RFC6839]",WBXML is a binary encoding.,n/a,"The syntax and semantics of fragment
+        identifiers specified for +wbxml SHOULD be as
+        specified for ""application/vnd.wap.wbxml"".
+        (At publication of this document, there is no
+        fragment identification syntax defined for
+        ""application/vnd.wap.wbxml"".)
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/yyy+wbxml""
+        SHOULD be processed as follows:
+        
+        For cases defined in +wbxml, where the
+        fragment identifier resolves per the +wbxml
+        rules, then as specified in +wbxml.
+        
+        For cases defined in +wbxml, where the
+        fragment identifier does not resolve per
+        the +wbxml rules, then as specified in
+        ""xxx/yyy+wbxml"".
+        
+        For cases not defined in +wbxml, then as
+        specified in ""xxx/yyy+wbxml"".","There are no security considerations
+        inherent in WBXML.  Each individual media type
+        registered with a +wbxml suffix can have
+        additional security considerations.",Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,
+ZIP file storage and transfer format,+zip,"[PKWARE, Inc., ""APPNOTE.TXT - .ZIP File Format
+        Specification"", PKWARE .ZIP File Format Specification -
+        Version 6.3.2, September 2007.][RFC6839]",ZIP is a binary encoding.,n/a,"The syntax and semantics of fragment
+        identifiers specified for +zip SHOULD be as
+        specified for ""application/zip"".  (At
+        publication of this document, there is no
+        fragment identification syntax defined for
+        ""application/zip"".)
+        
+        The syntax and semantics for fragment
+        identifiers for a specific ""xxx/yyy+zip""
+        SHOULD be processed as follows:
+        
+        For cases defined in +zip, where the
+        fragment identifier resolves per the +zip
+        rules, then as specified in +zip.
+        
+        For cases defined in +zip, where the
+        fragment identifier does not resolve per
+        the +zip rules, then as specified in ""xxx/
+        yyy+zip"".
+        
+        For cases not defined in +zip, then as
+        specified in ""xxx/yyy+zip"".","ZIP files support two forms of encryption:
+        Strong Encryption and AES 128-bit, 192-bit and
+        256-bit encryption; see the specification for
+        further details.  Each individual media type
+        registered with a +zip suffix can have additional
+        security considerations.",Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        change control over this registration.",2012-11-27,

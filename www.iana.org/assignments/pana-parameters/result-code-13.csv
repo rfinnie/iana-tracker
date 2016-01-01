@@ -1,0 +1,4 @@
+Value,Meaning,Reference
+0,Unassigned,
+1,AES128_CTR,[RFC6786]
+2-4294967295,Unassigned,

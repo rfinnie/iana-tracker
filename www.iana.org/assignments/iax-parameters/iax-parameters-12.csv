@@ -1,0 +1,6 @@
+Bits,Description,Reference
+000,User Specified,[RFC5457]
+001,Unassigned,
+010,National Network Identification,[RFC5457]
+011,International Network Identification,[RFC5457]
+100-111,Unassigned,

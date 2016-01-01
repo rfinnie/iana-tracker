@@ -1,0 +1,8 @@
+Value,Compression Type,Reference
+0,Reserved,[RFC7296]
+1,IPCOMP_OUI,[RFC7296]
+2,IPCOMP_DEFLATE,[RFC2394]
+3,IPCOMP_LZS,[RFC2395]
+4,IPCOMP_LZJH,[RFC3051]
+5-240,Unassigned,
+241-255,Private use,[RFC7296]

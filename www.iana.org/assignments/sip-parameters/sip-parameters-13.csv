@@ -1,0 +1,15 @@
+Value,Description,Reference
+participation,The URI can be used to join the conference,[RFC4575]
+streaming,"The URI can be used to access the streamed  
+conference data",[RFC4575]
+event,"The URI can be used to subscribe to the     
+conference event package",[RFC4575]
+recording,"The URI can be used to access the recorded  
+conference data",[RFC4575]
+web-page,"The URI can be used to access a web page   
+that contains additional information of
+the conference",[RFC4575]
+ccmp,"The URI can be used to indicate that the   
+conference focus supports CCMP.",[RFC7082]
+grouptextchat,"The URI can be used to join a multi-user chat directly 
+associated with the conference",[RFC7106]

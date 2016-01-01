@@ -1,0 +1,9 @@
+Method,Status,Reference
+PUBLISH,Current,[RFC5546]
+REQUEST,Current,[RFC5546]
+REPLY,Current,[RFC5546]
+ADD,Current,[RFC5546]
+CANCEL,Current,[RFC5546]
+REFRESH,Current,[RFC5546]
+COUNTER,Current,[RFC5546]
+DECLINECOUNTER,Current,[RFC5546]

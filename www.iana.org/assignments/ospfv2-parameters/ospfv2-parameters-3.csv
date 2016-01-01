@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Reserved,
+1,Hello,[RFC2328]
+2,Database Description,[RFC2328]
+3,Link State Request,[RFC2328]
+4,Link State Update,[RFC2328]
+5,Link State Ack,[RFC2328]
+6-127,Unassigned,
+128-255,Reserved,

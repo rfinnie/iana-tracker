@@ -1,0 +1,5 @@
+Value,Transport Protocol,Reference
+U,UDP,[RFC6873]
+T,TCP,[RFC6873]
+S,SCTP,[RFC6873]
+W,WebSocket,[RFC7118][RFC7355]

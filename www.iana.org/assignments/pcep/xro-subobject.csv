@@ -1,0 +1,16 @@
+Value,Description,Reference
+1,IPv4 prefix,[RFC3209]
+2,IPv6 prefix,[RFC3209]
+3,Unassigned,
+4,Unnumbered Interface ID,[RFC3477]
+5,4 byte AS number,[RFC-ietf-pce-pcep-domain-sequence-12]
+6,OSPF Area ID,[RFC-ietf-pce-pcep-domain-sequence-12]
+7,IS-IS Area ID,[RFC-ietf-pce-pcep-domain-sequence-12]
+8-31,Unassigned,
+32,Autonomous system number,[RFC3209]
+33,Unassigned,
+34,SRLG,[RFC4874]
+35-63,Unassigned,
+64,IPv4 Path Key,[RFC5520]
+65,IPv6 Path Key,[RFC5520]
+66-127,Unassigned,

@@ -1,0 +1,5 @@
+Type Extension,Name,Description,Reference
+0,LINK_STATUS,"This value is to be interpreted according to the registry 
+      [LINK_STATUS TLV Values]",[RFC6130][RFC7188]
+1-223,,Unassigned,
+224-255,,Reserved for Experimental Use,[RFC6130]

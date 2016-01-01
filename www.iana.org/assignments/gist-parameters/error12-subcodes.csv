@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,MRI Too Wild,[RFC5971]
+1,IP Version Mismatch,[RFC5971]
+2,Ingress Filter Failure,[RFC5971]

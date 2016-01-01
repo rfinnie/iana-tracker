@@ -1,0 +1,10 @@
+Semantics,Token,Reference
+Lip Synchronization,LS,[RFC5888]
+Flow Identification,FID,[RFC5888]
+Single Reservation flow,SRF,[RFC3524]
+Alternative Network Address Types,ANAT,[RFC4091]
+Forward Error Correction (Deprecated),FEC,[RFC5956]
+Forward Error Correction FR,FEC-FR,[RFC5956]
+Composite Session,CS,[RFC-mehta-rmt-flute-sdp-05]
+Decoding Dependency,DDP,[RFC5583]
+Duplication,DUP,[RFC7104]

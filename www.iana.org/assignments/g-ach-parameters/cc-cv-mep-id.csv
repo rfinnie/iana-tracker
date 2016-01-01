@@ -1,0 +1,5 @@
+Value,Name,Reference
+0,Section MEP-ID,[RFC6428]
+1,LSP MEP-ID,[RFC6428]
+2,PW MEP-ID,[RFC6428]
+3-255,Unassigned,

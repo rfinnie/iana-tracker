@@ -1,0 +1,68 @@
+Value,Name,Reference
+0x0000,successful-ok,[RFC2911]
+0x0001,successful-ok-ignored-or-substituted-attributes,[RFC2911]
+0x0002,successful-ok-conflicting-attributes,[RFC2911]
+0x0003,successful-ok-ignored-subscriptions,[RFC3995]
+0x0004,Reserved (ipp-indp-method),
+0x0005,successful-ok-too-many-events,[RFC3995]
+0x0006,Reserved (ipp-indp-method),
+0x0007,successful-ok-events-complete,[RFC3996]
+0x0008-0x007F,Unassigned,
+0x0080-0x00FF,Reserved for vendor use for Successful,
+0x0100-0x017F,Unassigned,
+0x0180-0x01FF,Reserved for vendor use for Informational,
+0x0200-0x02FF,Unassigned,
+0x0300,Reserved (ipp-get-method),
+0x0301-0x037F,Unassigned,
+0x0380-0x03FF,Reserved for vendor use for Redirection,
+0x0400,client-error-bad-request,[RFC2911]
+0x0401,client-error-forbidden,[RFC2911]
+0x0402,client-error-not-authenticated,[RFC2911]
+0x0403,client-error-not-authorized,[RFC2911]
+0x0404,client-error-not-possible,[RFC2911]
+0x0405,client-error-timeout,[RFC2911]
+0x0406,client-error-not-found,[RFC2911]
+0x0407,client-error-gone,[RFC2911]
+0x0408,client-error-request-entity-too-large,[RFC2911]
+0x0409,client-error-request-value-too-long,[RFC2911]
+0x040A,client-error-document-format-not-supported,[RFC2911]
+0x040B,client-error-attributes-or-values-not-supported,[RFC2911]
+0x040C,client-error-uri-scheme-not-supported,[RFC2911]
+0x040D,client-error-charset-not-supported,[RFC2911]
+0x040E,client-error-conflicting-attributes,[RFC2911]
+0x040F,client-error-compression-not-supported,[RFC2911]
+0x0410,client-error-compression-error,[RFC2911]
+0x0411,client-error-document-format-error,[RFC2911]
+0x0412,client-error-document-access-error,[RFC2911]
+0x0413,client-error-attributes-not-settable,[RFC3380]
+0x0414,client-error-ignored-all-subscriptions,[RFC3995]
+0x0415,client-error-too-many-subscriptions,[RFC3995]
+0x0416,Reserved (ipp-indp-method),
+0x0417,Reserved (ipp-install),
+0x0418,client-error-document-password-error,[PWG5100.13]
+0x0419,client-error-document-permission-error,[PWG5100.13]
+0x041A,client-error-document-security-error,[PWG5100.13]
+0x041B,client-error-document-unprintable-error,[PWG5100.13]
+0x041C,client-error-account-info-needed,
+0x041D,client-error-account-closed,[PWG5100.16]
+0x041E,client-error-account-limit-reached,[PWG5100.16]
+0x041F,client-error-account-authorization-failed,[PWG5100.16]
+0x0420,client-error-not-fetchable,[PWG5100.18]
+0x0421-0x047F,Unassigned,
+0x0480-0x04FF,Reserved for vendor use for Client Error,
+0x0500,server-error-internal-error,[RFC2911]
+0x0501,server-error-operation-not-supported,[RFC2911]
+0x0502,server-error-service-unavailable,[RFC2911]
+0x0503,server-error-version-not-supported,[RFC2911]
+0x0504,server-error-device-error,[RFC2911]
+0x0505,server-error-temporary-error,[RFC2911]
+0x0506,server-error-not-accepting-jobs,[RFC2911]
+0x0507,server-error-busy,[RFC2911]
+0x0508,server-error-job-canceled,[RFC2911]
+0x0509,server-error-multiple-document-jobs-not-supported,[RFC2911]
+0x050A,server-error-printer-is-deactivated,[RFC3998]
+0x050B,server-error-too-many-jobs,[PWG5100.7]
+0x050C,server-error-too-many-documents,[PWG5100.7]
+0x050D-0x057F,Unassigned,
+0x0580-0x05FF,Reserved for vendor use for Server Error,
+0x0600-0x07FF,Unassigned,

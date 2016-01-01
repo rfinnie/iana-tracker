@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Query,[RFC5971]
+1,Response,[RFC5971]
+2,Confirm,[RFC5971]
+3,Data,[RFC5971]
+4,Error,[RFC5971]
+5,MA-Hello,[RFC5971]
+6-55,Unassigned,
+56-63,Reserved for Private/Experimental Use,[RFC5971]
+64-127,Reserved,[RFC5971]

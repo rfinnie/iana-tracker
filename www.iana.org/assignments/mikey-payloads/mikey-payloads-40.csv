@@ -1,0 +1,12 @@
+Value,ID Role,Reference
+0,Reserved,[RFC6043]
+1,Initiator (IDRi),[RFC6043]
+2,Responder (IDRr),[RFC6043]
+3,KMS (IDRkms),[RFC6043]
+4,Pre-Shared Key (IDRpsk),[RFC6043]
+5,Application (IDRapp),[RFC6043]
+6,Initiator's KMS (IDRkmsi),[RFC6509]
+7,Responder's KMS (IDRkmsr),[RFC6509]
+8-239,Unassigned,
+240-254,Reserved for Private Use,[RFC6043]
+255,Reserved,[RFC6043]

@@ -1,0 +1,7 @@
+Value,Description,Reference
+0,Reserved,[RFC5422]
+1,Tunnel PAC,[RFC5422]
+2,Machine Authentication PAC,[RFC5422]
+3,User Authorization PAC,[RFC5422]
+4-63,Allocated for management by Cisco,[RFC5422]
+64-255,Unassigned,

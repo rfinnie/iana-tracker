@@ -1,0 +1,6 @@
+Value,Description,Reference
+64,Path Trace Reply,[RFC7455]
+65,Path Trace Message,[RFC7455]
+66,Multi-destination Tree Verification Reply,[RFC7455]
+67,Multi-destination Tree Verification Message,[RFC7455]
+68-95,Unassigned,

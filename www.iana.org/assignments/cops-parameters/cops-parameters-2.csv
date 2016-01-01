@@ -1,0 +1,3 @@
+Value,Name,PIB Module,Description,Reference
+1,,,COPS Usage for RSVP,[RFC2749]
+2,diffServ,dsPolicyPib,"DiffServ QoS, DIFFSERV-PIB",[RFC3317]

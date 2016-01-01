@@ -1,0 +1,33 @@
+Type,Configuration Option,Reference
+0,Vendor Specific,[RFC2153]
+1,Maximum-Receive-Unit,[RFC1661]
+2,Async-Control-Character-Map,
+3,Authentication-Protocol,[RFC1661]
+4,Quality-Protocol,[RFC1661]
+5,Magic-Number,[RFC1661]
+6,DEPRECATED (Quality-Protocol),
+7,Protocol-Field-Compression,[RFC1661]
+8,Address-and-Control-Field-Compression,[RFC1661]
+9,FCS-Alternatives,[RFC1570]
+10,Self-Describing-Pad,[RFC1570]
+11,Numbered-Mode,[RFC1663]
+12,DEPRECATED (Multi-Link-Procedure),
+13,Callback,[RFC1570]
+14,DEPRECATED (Connect-Time),
+15,DEPRECATED (Compound-Frames),
+16,DEPRECATED (Nominal-Data-Encapsulation),
+17,Multilink-MRRU,[RFC1990]
+18,Multilink-Short-Sequence-Number-Header,[RFC1990]
+19,Multilink-Endpoint-Discriminator,[RFC1990]
+20,Proprietary,[Ken_funk_com]
+21,"DCE-Identifier                                
+[Warning: option type in the RFC is incorrect.]",[RFC1976]
+22,Multi-Link-Plus-Procedure,[RFC1934]
+23,Link Discriminator for BACP,[RFC2125]
+24,LCP-Authentication-Option,[Ken_Culbert]
+25,Consistent Overhead Byte Stuffing (COBS),[James_Carlson]
+26,Prefix elision,[RFC2686][RFC2687]
+27,Multilink header format,[RFC2686][RFC2687]
+28,Internationalization,[RFC2484]
+29,Simple Data Link on SONET/SDH,[RFC2823]
+30,Unassigned,

@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Reserved,
+1,X.509v3 Certificate,[RFC3971]
+2-255,Unassigned,

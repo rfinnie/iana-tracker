@@ -1,0 +1,6 @@
+Extension Tag,Meaning,Reference
+0x00,LTP authentication extension,[RFC5327]
+0x01,LTP cookie extension,[RFC5327]
+0x02-0xAF,Unassigned,
+0xB0-0xBF,Reserved,[RFC5326]
+0xC0-0xFF,Private/Experimental Use,[RFC5326]

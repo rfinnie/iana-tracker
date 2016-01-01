@@ -1,0 +1,26 @@
+Value,Length,Name,Reference
+0,,Reserved,[RFC3973]
+1,2,Hold Time,[RFC-ietf-pim-rfc4601bis-06]
+2,4,LAN Prune Delay,[RFC3973]
+3-16,-,Reserved,[RFC-ietf-pim-rfc4601bis-06]
+17,16,Label Parameters (renew 8/01),[Dino_Farinacci]
+18,-,Deprecated,
+19,4,DR Priority (renew 8/01),[RFC-ietf-pim-rfc4601bis-06]
+20,4,Generation ID,[RFC3973]
+21,4,State-Refresh,[RFC3973]
+22,0,Bidirectional Capable,[RFC5015]
+23,1,VCI Capability (renew 8/01),[Dino_Farinacci]
+24,variable,Address List,[RFC-ietf-pim-rfc4601bis-06]
+25,variable,Neighbor List TLV (renew 5/07),[Alex_Zinin]
+26,0,Join Attribute,[RFC5384]
+27,variable,PIM-over-TCP-Capable,[RFC6559]
+28,variable,PIM-over-SCTP-Capable,[RFC6559]
+29,variable,Pop-Count,[RFC6807]
+30,0,PIM MT-ID,[RFC6420]
+31,8,Interface ID,[RFC6395]
+32,0,PIM ECMP Redirect Hello Option,[RFC6754]
+33,2,vPC Peer ID (renew 6/14),[Siddanagouda_Khot]
+34,variable,DR Load Balancing Capability (renew 1/15),[draft-ietf-pim-drlb]
+35,variable,DR Load Balancing GDR (LBGDR) (renew 1/15),[draft-ietf-pim-drlb]
+36-65000,-,Unassigned,
+65001-65535,-,Reserved (Private Use),

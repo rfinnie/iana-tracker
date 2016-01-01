@@ -1,0 +1,18 @@
+Value,Description,Reference
+1,Link advertisement not supported,[RFC6107]
+2,Link advertisement not allowed by policy,[RFC6107]
+3,TE link creation not supported,[RFC6107]
+4,TE link creation not allowed by policy,[RFC6107]
+5,Routing adjacency creation not supported,[RFC6107]
+6,Routing adjacency creation not allowed by policy,[RFC6107]
+7,Bundle creation not supported,[RFC6107]
+8,Bundle creation not allowed by policy,[RFC6107]
+9,Hierarchical LSP not supported,[RFC6107]
+10,LSP stitching not supported,[RFC6107]
+11,Link address type or family not supported,[RFC6107]
+12,IGP instance unknown,[RFC6107]
+13,IGP instance advertisement not allowed by policy,[RFC6107]
+14,Component link identifier not valid,[RFC6107]
+15,"Unsupported component link identifier address     
+family",[RFC6107]
+16,Component link identifier missing,[RFC6107]

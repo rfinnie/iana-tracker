@@ -1,0 +1,13 @@
+Type,Description,Subclass Description,Data Description,Reference
+0x01,DTMF,"0-9, A-D, *, #",Undefined,[RFC5457]
+0x02,Voice,Audio Compression Format,Data,[RFC5457]
+0x03,Video,Video Compression Format,Data,[RFC5457]
+0x04,Control,See Control Frame Subclass,Varies with subclass,[RFC5457]
+0x05,Null,Undefined,Undefined,[RFC5457]
+0x06,IAX Control,See IAX Protocol Messages,Information Elements,[RFC5457]
+0x07,Text,Always 0,Raw Text,[RFC5457]
+0x08,Image,Image Compression Format,Raw Image,[RFC5457]
+0x09,HTML,See HTML Frame Types,Message Specific,[RFC5457]
+0x0A,Comfort Noise,Level in -dBov of comfort noise,None,[RFC5457]
+0x0B,T.38 Primary IFP frame,No subclasses necessary or allowed,,[Kevin_P._Fleming]
+0x0C-0xFF,Unassigned,,,

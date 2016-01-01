@@ -1,0 +1,22 @@
+Protocol,TOS Value,Description
+TELNET [3],1000,(minimize delay)
+FTP,,
+  Control,1000,(minimize delay)
+  Data [4],0100,(maximize throughput)
+TFTP,1000,(minimize delay)
+SMTP [5],,
+  Command phase,1000,(minimize delay)
+  DATA phase,0100,(maximize throughput)
+Domain Name Service,,
+  UDP Query,1000,(minimize delay)
+  TCP Query,0000,
+  Zone Transfer,0100,(maximize throughput)
+NNTP,0001,(minimize monetary cost)
+ICMP,,
+  Errors,0000,
+  Requests,0000 [6],
+  Responses,<same as request> [6],
+Any IGP,0010,(maximize reliability)
+EGP,0000,
+SNMP,0010,(maximize reliability)
+BOOTP,0000,

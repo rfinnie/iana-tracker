@@ -1,0 +1,16 @@
+Value Data Type,Status,Reference
+BINARY,Current,[RFC5545] Section 3.3.1
+BOOLEAN,Current,[RFC5545] Section 3.3.2
+CAL-ADDRESS,Current,[RFC5545] Section 3.3.3
+DATE,Current,[RFC5545] Section 3.3.4
+DATE-TIME,Current,[RFC5545] Section 3.3.5
+DURATION,Current,[RFC5545] Section 3.3.6
+FLOAT,Current,[RFC5545] Section 3.3.7
+INTEGER,Current,[RFC5545] Section 3.3.8
+PERIOD,Current,[RFC5545] Section 3.3.9
+RECUR,Current,[RFC5545] Section 3.3.10
+TEXT,Current,[RFC5545] Section 3.3.11
+TIME,Current,[RFC5545] Section 3.3.12
+UNKNOWN,Reserved - Do not use,[RFC7265] Section 5
+URI,Current,[RFC5545] Section 3.3.13
+UTC-OFFSET,Current,[RFC5545] Section 3.3.14

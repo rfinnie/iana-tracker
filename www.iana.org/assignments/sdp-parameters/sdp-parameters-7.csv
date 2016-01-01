@@ -1,0 +1,35 @@
+Type,SDP Name,Reference
+att-field (session level),cat,[RFC4566]
+att-field (session level),keywds,[RFC4566]
+att-field (session level),type,[RFC4566]
+att-field (session level),type:broadcast,[RFC4566]
+att-field (session level),type:H332,[ITU Recommendation H.332]
+att-field (session level),type:meeting,[RFC4566]
+att-field (session level),type:moderated,[RFC4566]
+att-field (session level),type:test,[RFC4566]
+att-field (session level),charset,[RFC4566]
+att-field (session level),charset:iso8895-1,[RFC4566]
+att-field (session level),tool,[RFC4566]
+att-field (session level),ipbcp,"[ITU-T Recommendation Q.1970, ""BICC IP bearer control
+protocol"" (07/2001)]"
+att-field (session level),group,[RFC5888]
+att-field (session level),ice-lite,[RFC5245]
+att-field (session level),ice-options,[RFC5245]
+att-field (session level),bcastversion,[RFC5159]
+att-field (session level),3GPP-Integrity-Key,[RFC6064]
+att-field (session level),3GPP-SDP-Auth,[RFC6064]
+att-field (session level),alt-group,[RFC6064]
+att-field (session level),PSCid,"[Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
+""Telecommunications and Internet converged Services and Protocols for
+Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""]"
+att-field (session level),bc_service,"[Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
+""Telecommunications and Internet converged Services and Protocols for
+Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""]"
+att-field (session level),bc_program,"[Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
+""Telecommunications and Internet converged Services and Protocols for
+Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""]"
+att-field (session level),bc_service_package,"[Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
+""Telecommunications and Internet converged Services and Protocols for
+Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""]"
+att-field (session level),sescap,[RFC6871]
+att-field (session level),rtsp-ice-d-m,[RFC-ietf-mmusic-rtsp-nat-22]

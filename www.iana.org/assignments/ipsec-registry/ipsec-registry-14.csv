@@ -1,0 +1,6 @@
+Value,Life Type,Reference
+0,Reserved,
+1,seconds,[RFC2409]
+2,kilobytes,[RFC2409]
+3-65000,Unassigned,
+65001-65535,Reserved for private use,

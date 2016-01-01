@@ -1,0 +1,6 @@
+Value,Meaning,Reference
+0,No VCG ID (set up call prior to VCG creation),[RFC6344]
+1,New VCG for Call,[RFC6344]
+2,Modification of Number of Members (no change in VCG ID),[RFC6344]
+3,Remove VCG from Call,[RFC6344]
+4-255,Unassigned,

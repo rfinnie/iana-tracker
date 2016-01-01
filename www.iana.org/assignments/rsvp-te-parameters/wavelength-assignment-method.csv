@@ -1,0 +1,6 @@
+Value,Meaning,Reference
+0,unspecified,[RFC7689]
+1,First-Fit,[RFC7689]
+2,Random,[RFC7689]
+3,Least-Loaded (multi-fiber),[RFC7689]
+4-127,Unassigned,

@@ -1,0 +1,7 @@
+Value,Description,Reference
+0x01,Source LSR address is 4-bytes,[RFC3474]
+0x02,Source LSR address is 16-bytes,[RFC3474]
+0x03,Source LSR address is 20-bytes,[RFC3474]
+0x04,Source LSR address is 6-bytes,[RFC3474]
+0x7f,"the source LSR address has the 
+length defined by the vendor",[RFC3474]

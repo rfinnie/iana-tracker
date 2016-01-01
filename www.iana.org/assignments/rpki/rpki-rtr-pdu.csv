@@ -1,0 +1,14 @@
+Protocol Version,PDU Type,Description,Reference
+0,0,Serial Notify,[RFC6810]
+0,1,Serial Query,[RFC6810]
+0,2,Reset Query,[RFC6810]
+0,3,Cache Response,[RFC6810]
+0,4,IPv4 Prefix,[RFC6810]
+0,5,Unassigned,
+0,6,IPv6 Prefix,[RFC6810]
+0,7,End of Data,[RFC6810]
+0,8,Cache Reset,[RFC6810]
+0,9,Unassigned,
+0,10,Error Report,[RFC6810]
+0,11-254,Unassigned,
+0,255,Reserved,[RFC6810]

@@ -1,0 +1,8 @@
+Protocol Number,Description,Reference
+0,Reserved,[RFC3643]
+1,"FCIP (Fibre Channel Over TCP/IP)               
+encapsulating protocol",[RFC3643][RFC3821]
+2,"iFCP (A Protocol for Internet Fibre Channel    
+Storage Networking) encapsulating protocol",[RFC3643][RFC4172]
+3-239,Unassigned,
+240-255,Reserved for private Use,[RFC3643]

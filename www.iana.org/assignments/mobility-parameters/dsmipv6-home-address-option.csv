@@ -1,0 +1,10 @@
+Code,Description,Reference
+0,Success,[RFC5555]
+1-127,Unassigned,
+128,"Failure, reason unspecified",[RFC5555]
+129,Administratively prohibited,[RFC5555]
+130,Incorrect IPv4 home address,[RFC5555]
+131,Invalid IPv4 address,[RFC5555]
+132,Dynamic IPv4 home address assignment not available,[RFC5555]
+133,Prefix allocation unauthorized,[RFC5555]
+134-255,Unassigned,

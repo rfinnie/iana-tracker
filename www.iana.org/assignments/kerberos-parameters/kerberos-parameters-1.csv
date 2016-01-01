@@ -1,0 +1,28 @@
+etype,encryption type,Reference
+0,reserved,[RFC6448]
+1,des-cbc-crc,[RFC3961]
+2,des-cbc-md4,[RFC3961]
+3,des-cbc-md5,[RFC3961]
+4,Reserved,[RFC3961]
+5,des3-cbc-md5,
+6,Reserved,[RFC3961]
+7,des3-cbc-sha1,
+8,Unassigned,
+9,dsaWithSHA1-CmsOID,[RFC4556]
+10,md5WithRSAEncryption-CmsOID,[RFC4556]
+11,sha1WithRSAEncryption-CmsOID,[RFC4556]
+12,rc2CBC-EnvOID,[RFC4556]
+13,rsaEncryption-EnvOID,[RFC4556][from PKCS#1 v1.5]]
+14,rsaES-OAEP-ENV-OID,[RFC4556][from PKCS#1 v2.0]]
+15,des-ede3-cbc-Env-OID,[RFC4556]
+16,des3-cbc-sha1-kd,[RFC3961]
+17,aes128-cts-hmac-sha1-96,[RFC3962]
+18,aes256-cts-hmac-sha1-96,[RFC3962]
+19-22,Unassigned,
+23,rc4-hmac,[RFC4757]
+24,rc4-hmac-exp,[RFC4757]
+25,camellia128-cts-cmac,[RFC6803]
+26,camellia256-cts-cmac,[RFC6803]
+27-64,Unassigned,
+65,subkey-keymaterial,[(opaque; PacketCable)]
+66-2147483647,Unassigned,

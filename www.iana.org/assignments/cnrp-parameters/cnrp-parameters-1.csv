@@ -1,0 +1,13 @@
+Property Name,Default Type,Description,Reference
+geography,iso3166-1,A geographic location,[RFC3367]
+language,rfc1766,A language specification,[RFC3367]
+category,freeform,"A node in some system of semantic           
+relationships that is considered relevant
+to the common-name.",[RFC3367]
+range,range,"A range given in the format ""x,y"" where     
+x is the starting point and y is the
+length.  This property is used by the
+client to tell the server that is is
+requesting a subrange of the results.",[RFC3367]
+dataseturi,uri,"A URI used to disambiguate between two      
+Datasets offered by the same Service.",[RFC3367]

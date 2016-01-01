@@ -1,0 +1,4 @@
+Value,Entity Protocol Type,Reference
+1,No Protocol,[RFC4171]
+2,iSCSI,[RFC4171]
+3,iFCP,[RFC4171]

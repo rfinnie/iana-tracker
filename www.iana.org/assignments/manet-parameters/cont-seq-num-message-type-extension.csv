@@ -1,0 +1,5 @@
+Type Extension,Name,Description,Reference
+0,CONT_SEQ_NUM (COMPLETE),Specifies a content sequence number for this complete message.,[RFC7181]
+1,CONT_SEQ_NUM (INCOMPLETE),Specifies a content sequence number for this incomplete message.,[RFC7181]
+2-223,,Unassigned,
+224-255,,Reserved for Experimental Use,[RFC7181]

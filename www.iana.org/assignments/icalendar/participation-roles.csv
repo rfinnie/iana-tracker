@@ -1,0 +1,5 @@
+Role Type,Status,Reference
+CHAIR,Current,[RFC5545] Section 3.2.16
+REQ-PARTICIPANT,Current,[RFC5545] Section 3.2.16
+OPT-PARTICIPANT,Current,[RFC5545] Section 3.2.16
+NON-PARTICIPANT,Current,[RFC5545] Section 3.2.16

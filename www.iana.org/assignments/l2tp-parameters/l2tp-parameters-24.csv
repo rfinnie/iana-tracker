@@ -1,0 +1,12 @@
+Value,Description,Reference
+0,Reserved,[RFC4454]
+1,No alarm or alarm cleared (default for Active Status),[RFC4454]
+2,"Unspecified or unknown Alarm Received (default for        
+Inactive Status)",[RFC4454]
+3,ATM Circuit received F1 Alarm on ingress LCCE,[RFC4454]
+4,ATM Circuit received F2 Alarm on ingress LCCE,[RFC4454]
+5,ATM Circuit received F3 Alarm on ingress LCCE,[RFC4454]
+6,ATM Circuit received F4 Alarm on ingress LCCE,[RFC4454]
+7,ATM Circuit received F5 Alarm on ingress LCCE,[RFC4454]
+8,ATM Circuit down due to ATM Port shutdown on Peer LCCE,[RFC4454]
+9,ATM Circuit down due to loop-back timeout on ingress LCCE,[RFC4454]

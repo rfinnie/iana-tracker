@@ -1,0 +1,8 @@
+Value,CFG Type,Reference
+0,Reserved,[RFC7296]
+1,CFG_REQUEST,[RFC7296]
+2,CFG_REPLY,[RFC7296]
+3,CFG_SET,[RFC7296]
+4,CFG_ACK,[RFC7296]
+5-127,Unassigned,
+128-255,Private use,[RFC7296]

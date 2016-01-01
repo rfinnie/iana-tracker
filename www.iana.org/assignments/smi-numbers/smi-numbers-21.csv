@@ -1,0 +1,7 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,copsPrSppiTc,COPS-PR-SPPI-TC,[RFC3159]
+2,frameworkPib,FRAMEWORK-PIB,[RFC3318]
+3,frwkTcPib,FRAMEWORK-TC-PIB,[RFC3318]
+4,dsPolicyPib,DIFFSERV-PIB,[RFC3317]
+5,frwkFeedbackPib,FRAMEWORK-FEEDBACK-PIB,[RFC3571]

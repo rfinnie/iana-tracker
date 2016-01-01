@@ -1,0 +1,14 @@
+Value,Description,Reference
+0x01,Sending a URL,[RFC5457]
+0x02,Data frame,[RFC5457]
+0x03,Unassigned,
+0x04,Beginning frame,[RFC5457]
+0x05-0x07,Unassigned,
+0x08,End frame,[RFC5457]
+0x09-0x0F,Unassigned,
+0x10,Load is complete,[RFC5457]
+0x11,Peer does not support HTML,[RFC5457]
+0x12,Link URL,[RFC5457]
+0x13,Unlink URL,[RFC5457]
+0x14,Reject Link URL,[RFC5457]
+0x15-0x7F,Unassigned,

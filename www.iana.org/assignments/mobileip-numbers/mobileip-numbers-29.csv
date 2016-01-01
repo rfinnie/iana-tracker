@@ -1,0 +1,4 @@
+Value,Name,Reference
+1,IPv6 Prefix Request,[RFC5454]
+2,IPv6 Prefix Reply,[RFC5454]
+3,IPv6 Tunneling Mode,[RFC5454]

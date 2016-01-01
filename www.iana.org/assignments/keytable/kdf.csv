@@ -1,0 +1,4 @@
+KDF,Description,Reference
+none,No KDF is used with this key,
+AES-128-CMAC,AES-CMAC using 128-bit keys,[RFC4493]
+HMAC-SHA-1,HMAC using the SHA-1 hash,[RFC2104]

@@ -1,0 +1,6 @@
+AVP Value,Attribute Name,Reference
+0,DSRK,[RFC6734]
+1,rRK,[RFC6734]
+2,rMSK,[RFC6734]
+3,IKEv2 SK,[RFC6738]
+4-2147483647,Unassigned,

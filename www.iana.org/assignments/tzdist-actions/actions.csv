@@ -1,0 +1,7 @@
+Action Name,Reference
+capabilities,"[RFC-ietf-tzdist-service-11, Section 5.1]"
+list,"[RFC-ietf-tzdist-service-11, Section 5.2]"
+get,"[RFC-ietf-tzdist-service-11, Section 5.3]"
+expand,"[RFC-ietf-tzdist-service-11, Section 5.4]"
+find,"[RFC-ietf-tzdist-service-11, Section 5.5]"
+leapseconds,"[RFC-ietf-tzdist-service-11, Section 5.6]"

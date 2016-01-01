@@ -1,0 +1,7 @@
+Decimal,Description,References
+1,id-cti-ets-proofOfOrigin,[RFC3126]
+2,id-cti-ets-proofOfReceipt,[RFC3126]
+3,id-cti-ets-proofOfDelivery,[RFC3126]
+4,id-cti-ets-proofOfSender,[RFC3126]
+5,id-cti-ets-proofOfApproval,[RFC3126]
+6,id-cti-ets-proofOfCreation,[RFC3126]

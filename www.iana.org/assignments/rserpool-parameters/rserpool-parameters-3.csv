@@ -1,0 +1,4 @@
+Type,Update Action,Reference
+0x0000,ADD_PE,[RFC5353]
+0x0001,DEL_PE,[RFC5353]
+0x0002-0xffff,Unassigned,

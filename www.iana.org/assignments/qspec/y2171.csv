@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,best-effort priority flow,[RFC5975]
+1,normal priority flow,[RFC5975]
+2,high priority flow,[RFC5975]
+3-63,Unassigned,
+64-255,Reserved,[RFC5975]

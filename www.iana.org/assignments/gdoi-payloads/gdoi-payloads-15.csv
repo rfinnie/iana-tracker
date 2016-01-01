@@ -1,0 +1,8 @@
+Value,Key Download Type,Reference
+0,Reserved,[RFC3547]
+1,TEK,[RFC3547]
+2,KEK,[RFC3547]
+3,LKH,[RFC3547]
+4,SID,[RFC6407]
+5-127,Unassigned,[RFC3547]
+128-255,Private Use,[RFC3547]

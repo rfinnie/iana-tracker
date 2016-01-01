@@ -1,0 +1,4 @@
+Value,Description,Reference
+1,No-Protection,[RFC5607]
+2,Integrity-Protection,[RFC5607]
+3,Integrity-Confidentiality-Protection,[RFC5607]

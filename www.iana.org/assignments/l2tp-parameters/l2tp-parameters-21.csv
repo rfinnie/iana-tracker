@@ -1,0 +1,16 @@
+Value,Description
+13,FSM Timeout error.
+14,"Peer has unexpected authenticated name for
+existing MP bundle."
+15,"PPP authentication failure: Authentication protocol
+unacceptable.
+ Valid Direction values are:
+   1: All local authentication protocols were
+      rejected by the peer.
+   2: All authentication protocols requested by peer
+      were unacceptable or unimplemented locally."
+16,"PPP authentication failure: Authentication failed
+(bad name, password, or secret).
+ Valid Direction values are:
+   1: Authentication of peer identity by local system.
+   2: Authentication of local identity by peer system."

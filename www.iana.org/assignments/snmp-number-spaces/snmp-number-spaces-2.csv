@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,reserved for SNMPv1,[RFC3411]
+1,reserved for SNMPv2c,[RFC3411]
+2,reserved for SNMPv2u and SNMPv2*,[RFC3411]
+3,reserved for SNMPv3,[RFC3411]
+4-255,Unassigned,

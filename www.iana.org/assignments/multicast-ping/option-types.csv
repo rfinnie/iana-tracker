@@ -1,0 +1,16 @@
+Type,Name,Reference
+0,Version,[RFC6450]
+1,Client ID,[RFC6450]
+2,Sequence Number,[RFC6450]
+3,Client Timestamp,[RFC6450]
+4,Multicast Group,[RFC6450]
+5,Option Request,[RFC6450]
+6,Server Information,[RFC6450]
+7,Deprecated,[RFC6450]
+8,Deprecated,[RFC6450]
+9,TTL,[RFC6450]
+10,Multicast Prefix,[RFC6450]
+11,Session ID,[RFC6450]
+12,Server Timestamp,[RFC6450]
+13-65531,Unassigned,
+65532-65535,Experimental,[RFC6450]

@@ -1,0 +1,76 @@
+Value,Name,Description,Reference
+0,SUCCESS,Success.,[RFC6887]
+1,UNSUPP_VERSION,"The version number at the start of the PCP Request
+        header is not recognized by this PCP server.  This is a long
+        lifetime error.  [RFC6887] describes PCP version 2.",[RFC6887]
+2,NOT_AUTHORIZED,"The requested operation is disabled for this PCP
+        client, or the PCP client requested an operation that cannot be
+        fulfilled by the PCP server's security policy.  This is a long
+        lifetime error.",[RFC6887]
+3,MALFORMED_REQUEST,"The request could not be successfully parsed.
+        This is a long lifetime error.",[RFC6887]
+4,UNSUPP_OPCODE,Unsupported Opcode.  This is a long lifetime error.,[RFC6887]
+5,UNSUPP_OPTION,"Unsupported Option.  This error only occurs if the
+        Option is in the mandatory-to-process range.  This is a long
+        lifetime error.",[RFC6887]
+6,MALFORMED_OPTION,"Malformed Option (e.g., appears too many times,
+        invalid length).  This is a long lifetime error.",[RFC6887]
+7,NETWORK_FAILURE,"The PCP server or the device it controls are
+        experiencing a network failure of some sort (e.g., has not
+        obtained an External IP address).  This is a short lifetime error.",[RFC6887]
+8,NO_RESOURCES,"Request is well-formed and valid, but the server has
+        insufficient resources to complete the requested operation at this
+        time.  For example, the NAT device cannot create more mappings at
+        this time, is short of CPU cycles or memory, or is unable to
+        handle the request due to some other temporary condition.  The
+        same request may succeed in the future.  This is a system-wide
+        error, different from USER_EX_QUOTA.  This can be used as a catch-
+        all error, should no other error message be suitable.  This is a
+        short lifetime error.",[RFC6887]
+9,UNSUPP_PROTOCOL,"Unsupported transport protocol, e.g.  SCTP in a
+        NAT that handles only UDP and TCP.  This is a long lifetime error.",[RFC6887]
+10,USER_EX_QUOTA,"This attempt to create a new mapping would exceed
+        this subscriber's port quota.  This is a short lifetime error.",[RFC6887]
+11,CANNOT_PROVIDE_EXTERNAL,"The suggested external port and/or
+        external address cannot be provided.  This error MUST only be
+        returned for:
+        *  MAP requests that included the PREFER_FAILURE Option
+        (normal MAP requests will return an available external port); 
+        *  MAP requests for the SCTP protocol (PREFER_FAILURE is implied); 
+        *  PEER requests. 
+        
+        See Section 13.2 of [RFC6887] for processing details.  The error lifetime
+        depends on the reason for the failure.",[RFC6887]
+12,ADDRESS_MISMATCH,"The source IP address of the request packet does
+        not match the contents of the PCP Client's IP Address field, due
+        to an unexpected NAT on the path between the PCP client and the
+        PCP-controlled NAT or firewall.  This is a long lifetime error.",[RFC6887]
+13,EXCESSIVE_REMOTE_PEERS,"The PCP server was not able to create the
+        filters in this request.  This result code MUST only be returned
+        if the MAP request contained the FILTER Option.  See Section 13.3
+        for processing information.  This is a long lifetime error.",[RFC6887]
+14,INITIATION,"The client includes this PCP result code in its
+        request to the server for authentication.",[RFC7652]
+15,AUTHENTICATION_REQUIRED,"This error response is sent to the
+        client if EAP authentication is required.",[RFC7652]
+16,AUTHENTICATION_FAILED,"This error response is sent to the
+        client if EAP authentication failed.",[RFC7652]
+17,AUTHENTICATION_SUCCEEDED,"This success response is sent to the
+        client if EAP authentication succeeded.",[RFC7652]
+18,AUTHORIZATION_FAILED,"This error response is sent to the client
+        if EAP authentication succeeded but authorization failed.",[RFC7652]
+19,SESSION_TERMINATED,"This PCP result code indicates to the
+        partner that the PA session must be terminated.",[RFC7652]
+20,UNKNOWN_SESSION_ID,"This error response is sent from the
+        PCP server if there is no known PA session associated with the
+        Session ID sent in the PA request or common PCP request from the
+        PCP client.",[RFC7652]
+21,DOWNGRADE_ATTACK_DETECTED,"This PCP result code indicates to
+        the client that the server detected a downgrade attack.",[RFC7652]
+22,AUTHENTICATION_REQUEST,"The server indicates to the client that
+        the PA message contains an EAP request.",[RFC7652]
+23,AUTHENTICATION_REPLY,"The client indicates to the server that
+        the PA message contains an EAP response.",[RFC7652]
+24-191,Unassigned,,
+192-254,Reserved for Private Use,,[RFC6887]
+255,Reserved,,[RFC6887]

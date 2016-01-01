@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,No key is present,[RFC4025]
+1,"A DSA key is present, in the format defined in [RFC2536]",[RFC4025]
+2,"A RSA key is present, in the format defined in [RFC3110]",[RFC4025]
+3-255,Unassigned,

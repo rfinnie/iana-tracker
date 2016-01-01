@@ -1,0 +1,15 @@
+Addresses,Usage,Reference
+00-00-00 to 00-00-FF,Reserved,[RFC7042]
+00-01-00 to 00-01-FF,VRRP (Virtual Router Redundancy Protocol),[RFC5798]
+00-02-00 to 00-02-FF,VRRP IPv6 (Virtual Router Redundancy Protocol IPv6),[RFC5798]
+00-03-00 to 00-51-FF,Unassigned,
+00-52-00,PacketPWEthA,[RFC6658]
+00-52-01,PacketPWEthB,[RFC6658]
+00-52-02 to 00-52-12,Unassigned (small allocations),
+00-52-13,Proxy Mobile IPv6,[RFC6543]
+00-52-14 to 00-52-FF,Unassigned (small allocations),
+00-53-00 to 00-53-FF,Documentation,[RFC7042]
+00-54-00 to 90-00-FF,Unassigned,
+90-01-00,TRILL OAM,[RFC7455]
+90-01-01 to 90-01-FF,Unassigned (small allocations requiring both unicast and multicast),
+90-02-00 to FF-FF-FF,Unassigned,

@@ -1,0 +1,5 @@
+CAPWAP IEEE 802.11 Control Message,Message Type Value,Reference
+Reserved,3398912,[RFC5416]
+IEEE 802.11 WLAN Configuration Request,3398913,[RFC5416]
+IEEE 802.11 WLAN Configuration Response,3398914,[RFC5416]
+Unassigned,3398915-3399167,

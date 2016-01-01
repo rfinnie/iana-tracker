@@ -1,0 +1,7 @@
+Value,Name,Reference
+0,Valid Request Could Not Be Completed,[RFC2730]
+1,Invalid Request,[RFC2730]
+2,Excessive Clock Skew,[RFC2730]
+3,Required Feature Not Supported,[RFC2730]
+4-1023,Unassigned,
+1024-2047,Reserved for Experimental Use,[RFC2730]

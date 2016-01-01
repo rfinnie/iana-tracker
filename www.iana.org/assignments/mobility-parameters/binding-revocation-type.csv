@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Reserved,[RFC5846]
+1,Binding Revocation Indication,[RFC5846]
+2,Binding Revocation Acknowledgement,[RFC5846]
+3-255,Unassigned,

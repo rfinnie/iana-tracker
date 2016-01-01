@@ -1,0 +1,10 @@
+Value,Name,Reference
+0,"Reserved for advertising the metric associated    
+with the default topology (see Section 4.2)",[RFC4915]
+1,"Reserved for advertising the metric associated    
+with the default multicast topology",[RFC4915]
+2,Reserved for IPv4 in-band management purposes,[RFC4915]
+3-31,Unassigned,[RFC4915]
+32-127,"Reserved for development, experimental and        
+proprietary features",[RFC4915][RFC3692]
+128-255,Invalid and SHOULD be ignored,[RFC4915]

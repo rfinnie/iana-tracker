@@ -1,0 +1,19 @@
+Capability Name,Description,Syntax,Contact,Reference
+online,"Returns whether the entity identified by the
+   notification-uri parameter to the notify_method_capability test can
+   receive a notify notification immediately.","Can contain one of three values: ""yes"", ""no"" and ""maybe"".
+   Values MUST be in lowercase.",The Sieve discussion list sieve@ietf.org,[RFC5435]
+busy,"An indication of whether the user is considered ""busy""
+        now (the value ""yes"") or not (the value ""no"").  The meaning of
+        ""busy"" is left to the implementation, and may be a state that's
+        synthesized from other information.","Has one of the values ""yes"", ""no"", or ""unknown"".  The value
+        MUST be in lower case.",The Sieve discussion list sieve@ietf.org,[RFC6132]
+show,"The availability status of the user.  This is similar
+        to the presence element with the same name that's defined in
+        Section 4.7.2.1 of RFC 6121.","Has one of the values ""away"", ""chat"", ""dnd"", ""offline"",
+        ""xa"", or ""unknown"".  The value MUST be in lower case.",The Sieve discussion list sieve@ietf.org,[RFC6132]
+status,"A human-readable description of the user's availability
+        status.  This is similar to the presence element with the same
+        name that's defined in Section 4.7.2.2 of RFC 6121.","There is no formal definition for the values this item may
+        take.  It is free-form and may be in any language, and is meant
+        for human consumption.",The Sieve discussion list sieve@ietf.org,[RFC6132]

@@ -1,0 +1,11 @@
+Value,Description,Reference
+0,IPv4 Explicit NULL Label,[RFC3032]
+1,Router Alert Label,[RFC3032]
+2,IPv6 Explicit NULL Label,[RFC3032]
+3,Implicit NULL Label,[RFC3032]
+4-6,Unassigned,
+7,Entropy Label Indicator (ELI),[RFC6790]
+8-12,Unassigned,
+13,GAL Label,[RFC5586]
+14,OAM Alert Label,[RFC3429]
+15,Extension Label,[RFC7274]

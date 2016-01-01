@@ -1,0 +1,11 @@
+Value,Top Level Types,Reference
+0,Reserved,[RFC3630]
+1,Router Address,[RFC3630]
+2,Link,[RFC3630]
+3,Router IPv6 Address,[RFC5329]
+4,Link Local,[RFC4203]
+5,Node Attribute,[RFC5786]
+6,Optical Node Property,[RFC7688]
+7-32767,Unassigned,
+32768-32777,Reserved for Experimental Use,[RFC3630]
+32778-65535,Reserved,[RFC3630]

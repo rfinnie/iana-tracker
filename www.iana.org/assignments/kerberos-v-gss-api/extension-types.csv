@@ -1,0 +1,4 @@
+Type Number,Type Name,Description,Reference
+0x00000000,Channel Binding MIC,Extension for the verifier of the channel bindings,[RFC6542]
+0x00000001 - 0xFFFFF3FF,Unassigned,,
+0xFFFFF400 - 0xFFFFFFFF,Reserved for Private Use,,[RFC6542]

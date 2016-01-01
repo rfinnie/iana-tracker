@@ -1,0 +1,6 @@
+Decimal,Name,Description,References
+1,id-mime-bp-data,,[RFC2157]
+2,id-mime-postscript-body,,[RFC2157]
+3,id-mime-jpeg-body,,[RFC2157]
+4,id-mime-gif-body,,[RFC2157]
+5,id-mime-ftbp-data FTAM application reference,,[RFC2157]

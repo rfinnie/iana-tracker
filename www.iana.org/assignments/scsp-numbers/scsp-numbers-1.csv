@@ -1,0 +1,8 @@
+Value,Name,Reference
+0,Reserved,
+1,ATMARP,[RFC2334]
+2,NHRP,[RFC2334]
+3,MARS,[RFC2334]
+4,DHCP,[RFC2334]
+5,LNNI,[RFC2334]
+6-65535,Unassigned,

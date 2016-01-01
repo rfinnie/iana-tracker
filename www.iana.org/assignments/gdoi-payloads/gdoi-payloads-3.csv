@@ -1,0 +1,8 @@
+Value,Algorithm Type,Reference
+0,Reserved,[RFC3547]
+1,POP_ALG_RSA,[RFC3547]
+2,POP_ALG_DSS,[RFC3547]
+3,POP_ALG_ECDSS,[RFC3547]
+4-127,Unassigned,
+128-255,Private Use,[RFC3547]
+256-32767,Unassigned,

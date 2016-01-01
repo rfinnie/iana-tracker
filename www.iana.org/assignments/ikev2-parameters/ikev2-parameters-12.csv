@@ -1,0 +1,14 @@
+Value,Authentication Method,Reference
+0,Reserved,[RFC7296]
+1,RSA Digital Signature,[RFC7296]
+2,Shared Key Message Integrity Code,[RFC7296]
+3,DSS Digital Signature,[RFC7296]
+4-8,Unassigned,[RFC7296]
+9,ECDSA with SHA-256 on the P-256 curve,[RFC4754]
+10,ECDSA with SHA-384 on the P-384 curve,[RFC4754]
+11,ECDSA with SHA-512 on the P-521 curve,[RFC4754]
+12,Generic Secure Password Authentication Method,[RFC6467]
+13,NULL Authentication,[RFC7619]
+14,Digital Signature,[RFC7427]
+15-200,Unassigned,
+201-255,Private use,[RFC7296]

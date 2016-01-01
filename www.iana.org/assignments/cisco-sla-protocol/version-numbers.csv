@@ -1,0 +1,7 @@
+Version,Description,Reference
+0,Reserved,[RFC6812]
+1,Reserved,[RFC6812]
+2,Version 2,[RFC6812]
+3-200,Unassigned,
+201-225,Private Use,[RFC6812]
+226-255,Experimental Use,[RFC6812]

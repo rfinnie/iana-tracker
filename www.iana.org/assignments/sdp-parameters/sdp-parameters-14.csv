@@ -1,0 +1,10 @@
+Value Name,Long Name,Reference
+ack,Positive acknowledgement,[RFC4585]
+app,Application-defined parameter,[RFC4585]
+ccm,Codec Control Commands and Indications,[RFC5104]
+nack,Negative Acknowledgement,[RFC4585]
+trr-int,Minimal receiver report interval,[RFC4585]
+3gpp-roi-arbitrary,"Video region-of-interest (ROI) arbitrarily selected by 
+        the endpoint",[3GPP TS 26.114 v13.1.0][Ozgur_Oyman]
+3gpp-roi-predefined,"Video region-of-interest (ROI) pre-defined by the sender and 
+        selected by the endpoint",[3GPP TS 26.114 v13.1.0][Ozgur_Oyman]

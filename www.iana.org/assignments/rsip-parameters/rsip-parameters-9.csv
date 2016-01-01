@@ -1,0 +1,7 @@
+Value,Remote Flow Policy,Reference
+0,Reserved,[RFC3103]
+1,Macro flows,[RFC3103]
+2,Micro flows,[RFC3103]
+3,No policy,[RFC3103]
+4-240,Unassigned,[RFC3103]
+241-255,Reserved for private use,[RFC3103]

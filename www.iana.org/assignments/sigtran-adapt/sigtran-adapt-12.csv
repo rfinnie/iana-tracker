@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Reserved,[RFC3331]
+1,Registration Request (REG REQ),[RFC3331]
+2,Registration Response (REG RSP),[RFC3331]
+3,Deregistration Request (DEREG REQ),[RFC3331]
+4,Deregistration Response (DEREG RSP),[RFC3331]
+5-127,Unassigned,
+128-255,Reserved for IETF-Defined IIM extensions,

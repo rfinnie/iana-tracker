@@ -1,0 +1,38 @@
+Value,Code,Reference
+0,Reserved,
+1,ORIGIN,[RFC4271]
+2,AS_PATH,[RFC4271]
+3,NEXT_HOP,[RFC4271]
+4,MULTI_EXIT_DISC,[RFC4271]
+5,LOCAL_PREF,[RFC4271]
+6,ATOMIC_AGGREGATE,[RFC4271]
+7,AGGREGATOR,[RFC4271]
+8,COMMUNITY,[RFC1997]
+9,ORIGINATOR_ID,[RFC4456]
+10,CLUSTER_LIST,[RFC4456]
+11,DPA (deprecated),"[Chen, E., Bates, T., ""Destination Preference Attribute for BGP"",
+Work in progress, March 1996.][RFC6938]"
+12,ADVERTISER  (historic) (deprecated),[RFC1863][RFC4223][RFC6938]
+13,RCID_PATH / CLUSTER_ID (Historic) (deprecated),[RFC1863][RFC4223][RFC6938]
+14,MP_REACH_NLRI,[RFC4760]
+15,MP_UNREACH_NLRI,[RFC4760]
+16,EXTENDED COMMUNITIES,[Eric_Rosen][draft-ramachandra-bgp-ext-communities-00][RFC4360]
+17,AS4_PATH,[RFC6793]
+18,AS4_AGGREGATOR,[RFC6793]
+19,SAFI Specific Attribute (SSA) (deprecated),[Gargi_Nalawade][draft-kapoor-nalawade-idr-bgp-ssa-00][draft-nalawade-idr-mdt-safi-00][draft-wijnands-mt-discovery-00]
+20,Connector Attribute (deprecated),[RFC6037]
+21,AS_PATHLIMIT (deprecated),[draft-ietf-idr-as-pathlimit]
+22,PMSI_TUNNEL,[RFC6514]
+23,Tunnel Encapsulation Attribute,[RFC5512]
+24,Traffic Engineering,[RFC5543]
+25,IPv6 Address Specific Extended Community,[RFC5701]
+26,AIGP,[RFC7311]
+27,PE Distinguisher Labels,[RFC6514]
+28,BGP Entropy Label Capability Attribute (deprecated),[RFC6790][RFC7447]
+29,BGP-LS Attribute,[RFC-ietf-idr-ls-distribution-13]
+30-39,Unassigned,
+40,"BGP Prefix-SID (TEMPORARY - registered 2015-09-30, expires 2016-09-30)",[draft-ietf-idr-bgp-prefix-sid]
+41-127,Unassigned,
+128,ATTR_SET,[RFC6368]
+129-254,Unassigned,
+255,Reserved for development,

@@ -1,0 +1,15 @@
+Type,Name,Reference
+0,Hello,[RFC3973][RFC-ietf-pim-rfc4601bis-06]
+1,Register,[RFC-ietf-pim-rfc4601bis-06]
+2,Register Stop,[RFC-ietf-pim-rfc4601bis-06]
+3,Join/Prune,[RFC3973][RFC-ietf-pim-rfc4601bis-06]
+4,Bootstrap,[RFC-ietf-pim-rfc4601bis-06]
+5,Assert,[RFC3973][RFC-ietf-pim-rfc4601bis-06]
+6,Graft,[RFC3973]
+7,Graft-Ack,[RFC3973]
+8,Candidate RP Advertisement,[RFC-ietf-pim-rfc4601bis-06]
+9,State Refresh,[RFC3973]
+10,DF Election,[RFC5015]
+11,ECMP Redirect,[RFC6754]
+12-14,Unassigned,
+15,Reserved (for extension of type space),[RFC6166]

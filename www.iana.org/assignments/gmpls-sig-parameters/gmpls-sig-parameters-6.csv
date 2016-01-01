@@ -1,0 +1,23 @@
+Value,Description,Reference
+0,"Inclusive List                                                
+Indicates that the object/TLV contains one or more
+subchannel elements that are included in the Label Set.",[RFC3471]
+1,"Exclusive List                                                
+Indicates that the object/TLV contains one or more
+subchannel elements that are excluded from the Label Set.",[RFC3471]
+2,"Inclusive Range                                               
+Indicates that the object/TLV contains a range of labels.
+The object/TLV contains two subchannel elements.  The first
+element indicates the start of the range.  The second
+element indicates the end of the range.  A value of zero
+indicates that there is no bound on the corresponding
+portion of the range.",[RFC3471]
+3,"Exclusive Range                                               
+Indicates that the object/TLV contains a range of labels
+that are excluded from the Label Set.  The object/TLV
+contains two subchannel elements.  The first element
+indicates the start of the range.  The second element
+indicates the end of the range.  A value of zero indicates
+that there is no bound on the corresponding portion of the
+range.",[RFC3471]
+4-255,Unassigned,

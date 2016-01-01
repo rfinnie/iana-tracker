@@ -1,0 +1,4 @@
+Number,Name,Reference
+0,No Extended Sequence Numbers,[RFC7296]
+1,Extended Sequence Numbers,[RFC7296]
+2-65535,Reserved,[RFC7296]

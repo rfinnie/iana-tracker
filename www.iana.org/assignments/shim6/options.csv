@@ -1,0 +1,13 @@
+Type Value,Message,Reference
+0,Reserved,[RFC5533]
+1,Responder Validator,[RFC5533]
+2,Locator List,[RFC5533]
+3,Locator Preferences,[RFC5533]
+4,CGA Parameter Data Structure,[RFC5533]
+5,CGA Signature,[RFC5533]
+6,ULID Pair,[RFC5533]
+7,Forked Instance Identifier,[RFC5533]
+8-9,Unassigned,
+10,Keepalive Timeout Option,[RFC5533]
+11-16383,Unassigned,
+16384-32767,Reserved for Experimental Use,[RFC5533]

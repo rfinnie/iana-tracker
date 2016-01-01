@@ -1,0 +1,46 @@
+Package Name,Type,Contact,Reference
+call-completion,package,"Martin Huelsemann             
+        <martin.huelsemann&telekom.de>",[RFC6910]
+certificate,package,"Cullen Jennings             
+        <fluffy&cisco.com>",[RFC6072]
+credential,package,"Cullen Jennings             
+        <fluffy&cisco.com>",[RFC6072]
+conference,package,"IETF SIPPING Working Group   
+<sipping&ietf.org>",[RFC4575]
+consent-pending-additions,package,"Gonzalo Camarillo            
+<Gonzalo.Camarillo&ericsson.com>",[RFC5362]
+dialog,package,"IETF SIPPING Working Group   
+<sipping&ietf.org>",[RFC4235]
+http-monitor,package,"Adam Roach                   
+<adam&nostrum.com>",[RFC5989]
+kpml,package,"Eric Burger                  
+<e.burger&ieee.org>",[RFC4730]
+load-control,package,"Charles Shen                  
+<charles&cs.columbia.edu>",[RFC7200]
+message-summary,package,"Rohan Mahy                   
+<rohan&cisco.com>",[RFC3842]
+poc-settings,package,"Miguel A. Garcia-Martin      
+<miguel.an.garcia&nokia.com>",[RFC4354]
+presence,package,"Jonathan Rosenberg           
+<jdrosen&jdrosen.net>",[RFC3856]
+reg,package,"Jonathan Rosenberg           
+<jdrosen&jdrosen.net>",[RFC3680]
+refer,package,"Robert Sparks                
+<rsparks&dynamicsoft.com>",[RFC3515]
+session-spec-policy,package,"Volker Hilt                  
+<volkerh&bell-labs.com>",[RFC6795]
+Siemens-RTP-Stats,package,"John Elwell                  
+<john.elwell&siemens.com>",[N/A]
+spirits-INDPs,package,"Vijay K. Gurbani             
+<vkg&lucent.com>",[RFC3910]
+spirits-user-prof,package,"Vijay K. Gurbani             
+<vkg&lucent.com>",[RFC3910]
+ua-profile,package,"Daniel Petrie <dan.ietf&SIPez.com>,           
+        Sumanth Channabasappa <sumanth&cablelabs.com>",[RFC6080]
+vq-rtcpxr,package,"Amy Pendleton             
+        <aspen&telchemy.com>",[RFC6035]
+winfo,template-package,"Jonathan Rosenberg           
+<jdrosen&jdrosen.net>",[RFC3857]
+xcap-diff,package,"IETF Real-time Applications  
+and Infrastructure Area
+<rai&ietf.org>",[RFC5875]

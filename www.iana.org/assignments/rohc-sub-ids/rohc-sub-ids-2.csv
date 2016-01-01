@@ -1,0 +1,6 @@
+Suboption ID,Usage,Reference
+0,Reserved,[RFC3241]
+1,Profiles,[RFC3241]
+2-127,Unassigned,
+128-254,Unassigned,
+255,Reserved,[RFC3241]

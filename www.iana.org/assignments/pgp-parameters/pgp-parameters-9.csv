@@ -1,0 +1,3 @@
+First octet,Feature,Reference
+0x01,Modification Detection (packets 18 and 19),[RFC4880]
+0x02-0x80,Unassigned,[RFC4880]

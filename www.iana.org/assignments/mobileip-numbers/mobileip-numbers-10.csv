@@ -1,0 +1,4 @@
+Subtype Value,Name,Reference
+1,HA Identity,[RFC3846]
+2,AAAH identity,[RFC3846]
+3,Foreign Agent NAI (FA-NAI),[RFC4857]

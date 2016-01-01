@@ -1,0 +1,4 @@
+Name,URI,Options,Contact,Reference
+mailto,[RFC2368],none,[Michael_Haardt],[RFC5436]
+sip-message,SIP/SIPS as specified in [RFC3261].,none,[Sieve_discussion_list],[RFC6468]
+xmpp,[RFC5122],none,[Peter_Saint_Andre],[RFC5437]

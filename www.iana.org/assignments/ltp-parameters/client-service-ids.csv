@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,Reserved,[RFC5326]
+1,Bundle Protocol,[RFC7116]
+2,LTP Service Data Aggregation,[RFC7116]
+3,CCSDS File Delivery Service,[RFC7116]
+4-16383,"Allocated to the Space Assigned Numbers Authority ([SANA]) 
+for use by Consultative Committee for Space Data Systems (CCSDS) missions.",[RFC7116]
+16384-32767,Reserved for Private or Experimental Use,[RFC7116]
+>=32768,Unassigned,

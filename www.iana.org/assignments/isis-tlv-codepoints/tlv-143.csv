@@ -1,0 +1,12 @@
+Value,Group Address Type Code,Reference
+0,Reserved,[RFC7176]
+1,VLAN-FLAGs,[RFC7176]
+2,Enabled-VLANs,[RFC7176]
+3,AppointedFwrdrs,[RFC7176]
+4,SPB-MCID,[RFC6329]
+5,SPB-Digest,[RFC6329]
+6,SPB-B-VID,[RFC6329]
+7,PORT-TRILL-VER,[RFC7176]
+8,VLANs-Appointed,[RFC7176]
+9-254,Unassigned,
+255,Reserved,[RFC7176]

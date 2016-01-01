@@ -1,0 +1,4 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,per-int,perform integrity (e.g. MAC),[Carlisle_Adams]
+2,rec-int,receive integrity (verify MAC),[Carlisle_Adams]

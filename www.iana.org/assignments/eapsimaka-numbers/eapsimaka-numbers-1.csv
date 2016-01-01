@@ -1,0 +1,14 @@
+Value,Description,Reference
+0,Reserved,
+1,AKA-Challenge,[RFC4187][RFC4186]
+2,AKA-Authentication-Reject,[RFC4187][RFC4186]
+3,Unassigned,
+4,AKA-Synchronization-Failure,[RFC4187][RFC4186]
+5,AKA-Identity,[RFC4187][RFC4186]
+6-9,Unassigned,
+10,SIM-Start,[RFC4187][RFC4186]
+11,SIM-Challenge,[RFC4187][RFC4186]
+12,AKA-Notification and SIM-Notification,[RFC4187][RFC4186]
+13,AKA-Reauthentication and SIM-Reauthentication,[RFC4187][RFC4186]
+14,AKA-Client-Error and SIM-Client-Error,[RFC4187][RFC4186]
+15-255,Unassigned,[RFC4187]

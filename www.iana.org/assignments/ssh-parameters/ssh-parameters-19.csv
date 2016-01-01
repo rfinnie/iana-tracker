@@ -1,0 +1,13 @@
+Public Key Algorithm Name,Reference,Note
+ssh-dss,[RFC4253],Section 6.6
+ssh-rsa,[RFC4253],Section 6.6
+spki-sign-rsa,[RFC4253],Section 6.6
+spki-sign-dss,[RFC4253],Section 6.6
+pgp-sign-rsa,[RFC4253],Section 6.6
+pgp-sign-dss,[RFC4253],Section 6.6
+null,[RFC4462],Section 5
+ecdsa-sha2-*,[RFC5656],
+x509v3-ssh-dss,[RFC6187],
+x509v3-ssh-rsa,[RFC6187],
+x509v3-rsa2048-sha256,[RFC6187],
+x509v3-ecdsa-sha2-*,[RFC6187],

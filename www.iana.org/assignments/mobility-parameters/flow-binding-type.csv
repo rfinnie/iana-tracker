@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Unassigned,
+1,Flow Binding Indication,[RFC7109]
+2,Flow Binding Acknowledgement,[RFC7109]
+3-255,Unassigned,

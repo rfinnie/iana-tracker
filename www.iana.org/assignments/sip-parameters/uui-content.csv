@@ -1,0 +1,6 @@
+Content,Description,Reference
+isdn-uui,"The associated contents conforms to the content
+      associated with the ISDN User-to-User service.  In the presence of
+      the ""purpose"" header field parameter set to ""isdn-uui"" (or the
+      absence of any ""purpose"" header field parameter) this is the
+      default meaning and therefore need not be included in this case.",[RFC7434]

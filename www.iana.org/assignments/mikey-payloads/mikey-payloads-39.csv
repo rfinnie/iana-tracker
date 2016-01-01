@@ -1,0 +1,9 @@
+Value,TS Role,Reference
+0,Reserved,[RFC6043]
+1,Time of issue (TRi),[RFC6043]
+2,Start of validity period (TRs),[RFC6043]
+3,End of validity period (TRe),[RFC6043]
+4,Rekeying interval (TRr),[RFC6043]
+5-239,Unassigned,
+240-254,Reserved for Private Use,[RFC6043]
+255,Reserved,[RFC6043]

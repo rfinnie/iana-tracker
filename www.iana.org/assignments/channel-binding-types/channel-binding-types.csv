@@ -1,0 +1,7 @@
+Channel-binding unique prefix,Channel-binding type,Channel type,Published specification,Channel-binding is secret,Description,Intended usage,Person and email address to contact for further information,Owner/Change controller name and email address,Expert reviewer name and contact information,Registration Date,Last Updated,Note
+tls-server-end-point,end-point,TLS [RFC5246],[RFC5929],no,<See specification>,COMMON,[Larry_Zhu][Nicolas_Williams],[IESG],[IETF_TLS_WG],2008-06-26,2010-05-13,"see the published specification for advice on the applicability of
+      this channel binding type."
+tls-unique,unique,TLS [RFC5246],[RFC5929],no,<See specification>,COMMON,[Larry_Zhu][Nicolas_Williams],[IESG],[IETF_TLS_WG],2008-06-26,2010-05-13,"see the published specification for advice on the applicability of
+      this channel binding type."
+tls-unique-for-telnet,unique,TLS [RFC5246],[RFC5929],no,<See specification>,COMMON,[Jeff_Altman][Nicolas_Williams],[IESG],[IETF_TLS_WG],2008-06-26,2010-05-13,"see the published specification for advice on the applicability of
+      this channel binding type."

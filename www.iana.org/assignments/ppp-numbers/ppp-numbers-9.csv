@@ -1,0 +1,11 @@
+Number,Name,Reference
+0,Reserved,[RFC1994]
+1,Reserved,[RFC1994]
+2,Reserved,[RFC1994]
+3,Reserved,[RFC1994]
+4,Reserved,[RFC1994]
+5,CHAP with MD5,[RFC1994]
+6,SHA-1,[David_L_Black]
+7-127,Unassigned,
+128,MS-CHAP,[RFC2433]
+129,MS-CHAP-2,[RFC2759]

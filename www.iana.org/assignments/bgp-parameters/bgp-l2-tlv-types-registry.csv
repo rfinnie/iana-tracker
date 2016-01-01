@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC6624]
+1,Circuit Status Vector,[RFC6624]
+2-127,Unassigned,
+128-251,Unassigned,
+252-255,Experimental Use,[RFC6624]

@@ -1,0 +1,7 @@
+Value,Method,Reference
+0,Reserved,[RFC5533]
+1,HBA,[RFC5533]
+2,CGA,[RFC5533]
+3-200,Unassigned,
+201-254,Reserved for Experimental Use,[RFC5533]
+255,Reserved,[RFC5533]

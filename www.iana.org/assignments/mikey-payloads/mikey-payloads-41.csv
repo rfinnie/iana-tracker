@@ -1,0 +1,8 @@
+Value,RAND Role,Reference
+0,Reserved,[RFC6043]
+1,Initiator (RANDRi),[RFC6043]
+2,Responder (RANDRr),[RFC6043]
+3,KMS (RANDRkms),[RFC6043]
+4-239,Unassigned,
+240-254,Reserved for Private Use,[RFC6043]
+255,Reserved,[RFC6043]

@@ -1,0 +1,6 @@
+Value,Name,Reference
+0x00,Reserved,[RFC5931]
+0x01,EAP-pwd-ID exchange,[RFC5931]
+0x02,EAP-pwd-Commit exchange,[RFC5931]
+0x03,EAP-pwd-Confirm exchange,[RFC5931]
+0x04-0x63,Unassigned,

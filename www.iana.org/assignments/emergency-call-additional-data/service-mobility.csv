@@ -1,0 +1,8 @@
+Token,Description,Reference
+Mobile,The device is able to move at any time,[RFC-ietf-ecrit-additional-data-37]
+Fixed,"The device is not expected to move unless the 
+      service is relocated",[RFC-ietf-ecrit-additional-data-37]
+Nomadic,"The device is not expected to change its point of 
+        attachment while on a call",[RFC-ietf-ecrit-additional-data-37]
+Unknown,"No information is known about the service mobility 
+        environment for the device",[RFC-ietf-ecrit-additional-data-37]

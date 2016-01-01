@@ -1,0 +1,11 @@
+Method,Directionality,Reference
+DESCRIBE,C->S,[RFC-ietf-mmusic-rfc2326bis-40]
+GET_PARAMETER,"C->S, S->C",[RFC-ietf-mmusic-rfc2326bis-40]
+OPTIONS,"C->S, S->C",[RFC-ietf-mmusic-rfc2326bis-40]
+PAUSE,C->S,[RFC-ietf-mmusic-rfc2326bis-40]
+PLAY,C->S,[RFC-ietf-mmusic-rfc2326bis-40]
+PLAY_NOTIFY,S->C,[RFC-ietf-mmusic-rfc2326bis-40]
+REDIRECT,S->C,[RFC-ietf-mmusic-rfc2326bis-40]
+SETUP,C->S,[RFC-ietf-mmusic-rfc2326bis-40]
+SET_PARAMETER,"C->S, S->C",[RFC-ietf-mmusic-rfc2326bis-40]
+TEARDOWN,"C->S, S->C",[RFC-ietf-mmusic-rfc2326bis-40]

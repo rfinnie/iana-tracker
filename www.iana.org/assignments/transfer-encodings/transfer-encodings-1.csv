@@ -1,0 +1,6 @@
+Name,Reference
+7bit,[RFC2045]
+8bit,[RFC2045]
+binary,[RFC2045]
+quoted-printable,[RFC2045]
+base64,[RFC2045]

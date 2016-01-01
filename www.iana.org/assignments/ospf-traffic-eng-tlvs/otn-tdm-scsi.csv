@@ -1,0 +1,5 @@
+Value,Sub-TLV,Reference
+0,Reserved,[RFC7138]
+1,Unreserved Bandwidth for fixed containers,[RFC7138]
+2,Unreserved/MAX Bandwidth for flexible containers,[RFC7138]
+3-65535,Unassigned,

@@ -1,0 +1,5 @@
+Subsystem Name,Reference
+publickey,[RFC4819]
+snmp,[RFC5592]
+netconf,[RFC6242]
+rpki-rtr,[RFC6810]

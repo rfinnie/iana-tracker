@@ -1,0 +1,11 @@
+Value,Description,Reference
+0,General failure after authentication,[RFC4187][RFC4186]
+1-1025,Unassigned,[RFC4187]
+1026,User has been temporarily denied access,[RFC4187][RFC4186]
+1027-1030,Unassigned,[RFC4187]
+1031,User has not subscribed to the requested service,[RFC4187][RFC4186]
+1032-16383,Unassigned,[RFC4187]
+16384,General failure,[RFC4187][RFC4186]
+16385-32767,Unassigned,[RFC4187]
+32768,Success,[RFC4187][RFC4186]
+32769-65535,Unassigned,[RFC4187]

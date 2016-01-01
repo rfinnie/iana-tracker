@@ -1,0 +1,166 @@
+Type,SDP Name,Reference
+att-field (media level only),ptime,[RFC4566]
+att-field (media level only),orient,[RFC4566]
+att-field (media level only),orient:portrait,[RFC4566]
+att-field (media level only),orient:landscape,[RFC4566]
+att-field (media level only),orient:seascape,[RFC4566]
+att-field (media level only),framerate,[RFC4566]
+att-field (media level only),quality,[RFC4566]
+att-field (media level only),rtpmap,[RFC4566]
+att-field (media level only),fmtp,[RFC4566]
+att-field (media level only),rtpred1,[2]
+att-field (media level only),rtpred2,[2]
+att-field (media level only),T38FaxVersion,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38MaxBitRate,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxFillBitRemoval,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxTranscodingMMR,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxTranscodingJBIG,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxRateManagement,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxMaxBuffer,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxMaxDatagram,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),T38FaxUdpEC,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.]"
+att-field (media level only),maxptime,[RFC4566]
+att-field (media level only),des,[RFC3312]
+att-field (media level only),curr,[RFC3312]
+att-field (media level only),conf,[RFC3312]
+att-field (media level only),mid,[RFC5888]
+att-field (media level only),rtcp,[RFC3605]
+att-field (media level only),rtcp-fb,[RFC4585]
+att-field (media level only),label,[RFC4574]
+att-field (media level only),T38VendorInfo,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+        February 2000, July 2005.]"
+att-field (media level only),crypto,[RFC4568]
+att-field (media level only),eecid,[RFC3108]
+att-field (media level only),aalType,[RFC3108]
+att-field (media level only),capability,[RFC3108]
+att-field (media level only),qosClass,[RFC3108]
+att-field (media level only),bcob,[RFC3108]
+att-field (media level only),stc,[RFC3108]
+att-field (media level only),upcc,[RFC3108]
+att-field (media level only),atmQOSparms,[RFC3108]
+att-field (media level only),atmTrfcDesc,[RFC3108]
+att-field (media level only),abrParms,[RFC3108]
+att-field (media level only),abrSetup,[RFC3108]
+att-field (media level only),bearerType,[RFC3108]
+att-field (media level only),lij,[RFC3108]
+att-field (media level only),anycast,[RFC3108]
+att-field (media level only),cache,[RFC3108]
+att-field (media level only),bearerSigIE,[RFC3108]
+att-field (media level only),aalApp,[RFC3108]
+att-field (media level only),cbrRate,[RFC3108]
+att-field (media level only),sbc,[RFC3108]
+att-field (media level only),clkrec,[RFC3108]
+att-field (media level only),fec,[RFC3108]
+att-field (media level only),prtfl,[RFC3108]
+att-field (media level only),structure,[RFC3108]
+att-field (media level only),cpsSDUsize,[RFC3108]
+att-field (media level only),aal2CPS,[RFC3108]
+att-field (media level only),aal2CPSSDUrate,[RFC3108]
+att-field (media level only),aal2sscs3661unassured,[RFC3108]
+att-field (media level only),aal2sscs3661assured,[RFC3108]
+att-field (media level only),aal2sscs3662,[RFC3108]
+att-field (media level only),aal5sscop,[RFC3108]
+att-field (media level only),atmmap,[RFC3108]
+att-field (media level only),silenceSupp,[RFC3108]
+att-field (media level only),ecan,[RFC3108]
+att-field (media level only),gc,[RFC3108]
+att-field (media level only),profileDesc,[RFC3108]
+att-field (media level only),vsel,[RFC3108]
+att-field (media level only),dsel,[RFC3108]
+att-field (media level only),fsel,[RFC3108]
+att-field (media level only),onewaySel,[RFC3108]
+att-field (media level only),codecconfig,[RFC3108]
+att-field (media level only),isup_usi,[RFC3108]
+att-field (media level only),uiLayer1_Prot,[RFC3108]
+att-field (media level only),chain,[RFC3108]
+att-field (media level only),floorctrl,[RFC4583]
+att-field (media level only),confid,[RFC4583]
+att-field (media level only),userid,[RFC4583]
+att-field (media level only),floorid,[RFC4583]
+att-field (media level only),FEC,[RFC-mehta-rmt-flute-sdp-05]
+att-field (media level only),accept-types,[RFC4975]
+att-field (media level only),accept-wrapped-types,[RFC4975]
+att-field (media level only),max-size,[RFC4975]
+att-field (media level only),path,[RFC4975]
+att-field (media level only),dccp-service-code,[RFC5762]
+att-field (media level only),rtcp-mux,[RFC5761]
+att-field (media level only),candidate,[RFC5245]
+att-field (media level only),ice-mismatch,"[RFC5245][RFC Errata 
+          3149]"
+att-field (media level only),remote-candidates,[RFC5245]
+att-field (media level only),SRTPAuthentication,[RFC5159]
+att-field (media level only),SRTPROCTxRate,[RFC5159]
+att-field (media level only),rtcp-rsize,[RFC5506]
+att-field (media level only),file-selector,[RFC5547]
+att-field (media level only),file-transfer-id,[RFC5547]
+att-field (media level only),file-disposition,[RFC5547]
+att-field (media level only),file-date,[RFC5547]
+att-field (media level only),file-icon,[RFC5547]
+att-field (media level only),file-range,[RFC5547]
+att-field (media level only),depend,[RFC5583]
+att-field (media level only),ssrc,[RFC5576]
+att-field (media level only),ssrc-group,[RFC5576]
+att-field (media level only),rtcp-unicast,[RFC5760]
+att-field (media level only),pcfg,[RFC5939]
+att-field (media level only),acfg,[RFC5939]
+att-field (media level only),zrtp-hash,[RFC6189]
+att-field (media level only),X-predecbufsize,[RFC6064]
+att-field (media level only),X-initpredecbufperiod,[RFC6064]
+att-field (media level only),X-initpostdecbufperiod,[RFC6064]
+att-field (media level only),X-decbyterate,[RFC6064]
+att-field (media level only),3gpp-videopostdecbufsize,[RFC6064]
+att-field (media level only),framesize,[RFC6064]
+att-field (media level only),3GPP-SRTP-Config,[RFC6064]
+att-field (media level only),alt,[RFC6064]
+att-field (media level only),alt-default-id,[RFC6064]
+att-field (media level only),3GPP-Adaptation-Support,[RFC6064]
+att-field (media level only),mbms-flowid,[RFC6064]
+att-field (media level only),fec-source-flow,[RFC6364]
+att-field (media level only),fec-repair-flow,[RFC6364]
+att-field (media level only),repair-window,[RFC6364]
+att-field (media level only),rams-updates,[RFC6285]
+att-field (media level only),imageattr,[RFC6236]
+att-field (media level only),cfw-id,[RFC6230]
+att-field (media level only),portmapping-req,[RFC6284]
+att-field (media level only),g.3gpp.cat,"[3GPP TS 24.182
+        v9.8.0 annex B][Frederic_Firmin]"
+att-field (media level only),g.3gpp.crs,"[3GPP TS 24.183
+        v9.5.0 annex E][Frederic_Firmin]"
+att-field (media level only),ecn-capable-rtp,[RFC6679]
+att-field (media level only),visited-realm,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),secondary-realm,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-s-cksum,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-m-cksum,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-codecs,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-m-att,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-s-att,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-m-bw,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),omr-s-bw,"[TS 24.229 v10.7.0
+        table 7.5.2][Frederic_Firmin]"
+att-field (media level only),msrp-cema,[RFC6714]
+att-field (media level only),dccp-port,[RFC6773]
+att-field (media level only),resource,[RFC6787]
+att-field (media level only),channel,[RFC6787]
+att-field (media level only),cmid,[RFC6787]
+att-field (media level only),content,[RFC4796]
+att-field (media level only),lcfg,[RFC6871]
+att-field (media level only),loopback,[RFC6849]
+att-field (media level only),loopback-source,[RFC6849]
+att-field (media level only),loopback-mirror,[RFC6849]
+att-field (media level only),chatroom,[RFC7701]
+att-field (media level only),altc,[RFC6947]
+att-field (media level only),T38FaxMaxIFP,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto]"
+att-field (media level only),T38FaxUdpECDepth,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto]"
+att-field (media level only),T38FaxUdpFECMaxSpan,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto]"
+att-field (media level only),T38ModemType,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto]"
+att-field (media level only),cs-correlation,[RFC7195]
+att-field (media level only),rtcp-idms,[RFC7272]
+att-field (media level only),predefined_ROI,[3GPP TS 26.114 v13.1.0][_3GPP_Specifications_Manager]

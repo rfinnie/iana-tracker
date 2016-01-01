@@ -1,0 +1,5 @@
+CSuite/Specifier,KS,Encryption,ML,Integrity/KDF MAC,Key Derivation Function,Reference
+0x0000,Reserved,,,,,[RFC5433]
+0x0001,16,AES-CBC-128,16,AES-CMAC-128,GKDF,[RFC5433]
+0x0002,32,NULL,32,HMAC-SHA256,GKDF,[RFC5433]
+0x0003-0xFFFF,Unassigned,,,,,

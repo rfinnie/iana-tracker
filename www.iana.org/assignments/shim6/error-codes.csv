@@ -1,0 +1,8 @@
+Code Value,Description,Reference
+0,Unknown Shim6 message type,[RFC5533]
+1,Critical Option not recognized,[RFC5533]
+2,Locator verification method failed,[RFC5533]
+3,Locator List Generation number out of sync,[RFC5533]
+4,Error in the number of locators,[RFC5533]
+5-119,Unassigned,
+120-127,Reserved for debugging purposes,[RFC5533]

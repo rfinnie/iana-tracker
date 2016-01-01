@@ -1,0 +1,9 @@
+Encoding Name,Descriptive Name,Potential Configuration Definition,Actual Configuration Definition,Latent Configuration Definition
+a,Attribute Configuration,[RFC5939],[RFC5939],[RFC6871]
+b,Bandwidth,[RFC7006],[RFC7006],[RFC7006]
+c,Connection Data,[RFC7006],[RFC7006],[RFC7006]
+i,Title,[RFC7006],[RFC7006],[RFC7006]
+m,Media Configuration,[RFC6871],[RFC6871],[RFC6871]
+mt,Media Type,[RFC6871],[RFC6871],[RFC6871]
+pt,Payload Type Number Mapping,[RFC6871],[RFC6871],[RFC6871]
+t,Transport Protocol Configuration,[RFC5939],[RFC5939],[RFC6871]

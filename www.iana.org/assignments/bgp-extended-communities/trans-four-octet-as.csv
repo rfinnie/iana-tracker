@@ -1,0 +1,12 @@
+Sub-Type Value,Name,Reference,Date
+0x00-0x01,Unassigned,,
+0x02,Route Target,[RFC5668],
+0x03,Route Origin,[RFC5668],
+0x04,Generic,[draft-ietf-idr-as4octet-extcomm-generic-subtype],
+0x05,OSPF Domain Identifier,[RFC4577],
+0x06-0x07,Unassigned,,
+0x08,BGP Data Collection,[RFC4384],
+0x09,Source AS,[RFC6514],
+0x0a-0x0f,Unassigned,,
+0x10,Cisco VPN Identifier,[Eric_Rosen],2012-04-10
+0x11-0xff,Unassigned,,

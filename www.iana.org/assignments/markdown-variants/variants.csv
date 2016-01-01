@@ -1,0 +1,160 @@
+Identifier,Name,Description,Additional Parameters,Fragment Identifiers,References,Contact Information,Expiration Date
+Original,Markdown,Gruber's original Markdown syntax.,,,[http://daringfireball.net/projects/markdown][http://daringfireball.net/projects/markdown/syntax][RFC-ietf-appsawg-text-markdown-use-cases-07],(individual) [John_Gruber],
+MultiMarkdown,MultiMarkdown,"MultiMarkdown (MMD) is a superset of ""Original"". It adds multiple
+   syntax features (tables, footnotes, and citations, to name a few),
+   and is intended to output to various formats. Additionally, it builds
+   in ""smart"" typography for various languages (proper left- and right-
+   sided quotes, for example).","options: String with zero or more of the following WSP-delimited
+             tokens:
+
+                ""memoir"" / ""beamer""
+                ""full"" / ""snippet""
+                ""process-html""
+                ""random-footnote-identifiers""
+                ""accept""
+                ""reject""
+                ""nosmart""
+                ""nonotes""
+                ""nolabels""
+                ""nomask""
+
+             The meanings of these tokens are defined in the
+             MultiMarkdown documentation.",,[http://fletcher.github.io/MultiMarkdown-4/syntax],(individual) [Fletcher_T._Penney],
+GFM,GitHub Flavored Markdown,"""Original"" with the following differences:
+      1. Multiple underscores in words
+      2. URL (URI) autolinking
+      3. Strikethrough
+      4. Fenced code blocks
+      5. Syntax highlighting
+      6. Tables (- for rows; | for columns; : for alignment)
+      7. Only some HTML allowed; sanitization is integral
+         to the format",,,[https://help.github.com/articles/github-flavored-markdown/][https://github.com/github/markup/tree/master#html-sanitization],(corporate) [Github_Inc.],
+pandoc,Pandoc,"Markdown is designed to be easy to write and to read: the content
+   should be publishable as-is, as plain text, without looking like it
+   has been marked up with tags or formatting instructions. Yet whereas
+   ""Original"" has HTML generation in mind, pandoc is designed for
+   multiple output formats. Thus, while pandoc allows the embedding of
+   raw HTML, it discourages it, and provides other, non-HTMLish ways of
+   representing important document elements like definition lists,
+   tables, mathematics, and footnotes.","extensions: String with an optional starting syntax token, followed 
+    by a ""+"" and ""-"" delimited list of extension tokens. ""+""
+    preceding an extension token turns the extension on; ""-""
+    turns the extension off.  The starting syntax tokens are
+    ""markdown"", ""markdown_strict"", ""markdown_phpextra"", and
+    ""markdown_github"". If no starting syntax token is given,
+    ""markdown"" is assumed. The extension tokens include:
+        
+    Extensions to turn off (on by default):
+        
+     escaped_line_breaks
+     blank_before_header
+     header_attributes
+     auto_identifiers
+     implicit_header_references
+     blank_before_blockquote
+     fenced_code_blocks
+     fenced_code_attributes
+     line_blocks
+     fancy_lists
+     startnum
+     definition_lists
+     example_lists
+     table_captions
+     simple_tables
+     multiline_tables
+     grid_tables
+     pipe_tables
+     pandoc_title_block
+     yaml_metadata_block
+     all_symbols_escapable
+     intraword_underscores
+     strikeout
+     superscript
+     subscript
+     inline_code_attributes
+     tex_math_dollars
+     raw_html
+     markdown_in_html_blocks
+     native_divs
+     native_spans
+     raw_tex
+     latex_macros
+     implicit_figures
+     footnotes
+     inline_notes
+     citations
+
+     Extensions to turn on (off by default):
+     
+     lists_without_preceding_blankline
+     hard_line_breaks
+     ignore_line_breaks
+     tex_math_single_backslash
+     tex_match_double_backslash
+     markdown_attribute
+     mmd_title_block
+     abbreviations
+     autolink_bare_uris
+     ascii_identifiers
+     link_attributes
+     mmd_header_identifiers
+     compact_definition_lists","Pandoc defines fragment identifiers using the <id> in the
+   {#<id> .class ...} production (PHP Markdown Extra attribute block).
+   This syntax works for Header Identifiers and Code Block Identifiers.",[http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown],(individual) [John_MacFarlane],
+Fountain,Fountain,"Fountain is a simple markup syntax for writing, editing and sharing
+   screenplays in plain, human-readable text. Fountain allows you to
+   work on your screenplay anywhere, on any computer or tablet, using
+   any software that edits text files.",,"See [http://fountain.io/syntax#section-titlepage] and
+   [http://fountain.io/syntax#section-sections]. In the following
+   fragment identifiers, the <key> and <sec*> productions MUST have ""/""
+   characters percent-encoded.
+        #/       Title Page (acts as metadata).
+        #/<key>  Title Page; <key> is the key string.
+        #<sec1> *(""/"" <secn>)
+        Section or subsection. The <sec1>..<secn>
+        productions are the text of the Section line,
+        with whitespace trimmed from both ends.
+        Sub-sections (sections with multiple # at
+        at the beginning of the line in the source)
+        are addressed hierarchically by preceding
+        the sub-section with higher-order
+        sections. If the section hierarchy ""skips"",
+        e.g., # to ###, use a blank section name,
+        e.g., #Section/ACT%20I//PATIO%20SCENE.",[http://fountain.io/syntax],"(individual) [Stu_Maschwitz]
+        (individual) [John_August]",
+CommonMark,CommonMark,"CommonMark is a standard, unambiguous syntax specification for
+   Markdown, along with a suite of comprehensive tests to validate
+   Markdown implementations against this specification. The maintainers
+   believe that CommonMark is necessary, even essential, for the future
+   of Markdown.
+
+   Compared to ""Original"", CommonMark is much longer and in a few
+   instances contradicts ""Original"" based on seasoned experience.
+   Although CommonMark specifically does not mandate any particular
+   encoding for the input content, CommonMark draws in more of Unicode,
+   UTF-8, and HTML (including HTML5) than ""Original"".
+
+   This registration always refers to the latest version or an
+   unspecified version (receiver's choice). Version 0.13 of the
+   CommonMark specification was released 2014-12-10.",,,[http://spec.commonmark.org/],"(individual) [John_MacFarlane]
+        (individual) [David_Greenspan]
+        (individual) [Vicent_Marti]
+        (individual) [Neil_Williams]
+        (individual) [Benjamin_Dumke-von_der_Ehe]
+        (individual) [Jeff_Atwood]",
+kramdown-rfc2629,Markdown for RFCs,"kramdown is a markdown parser by Thomas Leitner, which has a number
+   of backends for generating HTML, Latex, and Markdown again. 
+   kramdown-[RFC2629] is an additional backend to that: It allows the generation of
+   XML2RFC XML markup (also known as [RFC2629] compliant markup).",,,[https://github.com/cabo/kramdown-rfc2629],(individual) [Carsten_Bormann],
+[RFC7328],Pandoc2rfc,"Pandoc2rfc allows authors to write in ""pandoc"" that is then
+   transformed to XML and given to xml2rfc.  The conversions are, in a
+   way, amusing, as we start off with (almost) plain text, use elaborate
+   XML, and end up with plain text again.",,,[RFC7328][https://github.com/miekg/pandoc2rfc],(individual) [R._Miek_Gieben],
+Extra,Markdown Extra,"Markdown Extra is an extension to PHP Markdown implementing some 
+      features currently not available with the plain Markdown syntax.
+   Markdown Extra is available as a separate parser class in PHP
+   Markdown Lib. Other implementations include Maruku (Ruby) and Python
+   Markdown. Markdown Extra is supported in several content management
+   systems, including Drupal, TYPO3, and MediaWiki.",,"Markdown Extra defines fragment identifiers using the <id> in the
+   {#<id> .class ...} production (attribute block). This syntax works
+   for headers, fenced code blocks, links, and images.",[https://michelf.ca/projects/php-markdown/extra/],(individual) [Michel_Fortin],

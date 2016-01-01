@@ -1,0 +1,31 @@
+Subprotocol Identifier,Subprotocol Common Name,Subprotocol Definition,Reference
+MBWS.huawei.com,MBWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner]
+MBLWS.huawei.com,MBLWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner]
+soap,soap,[http://go.microsoft.com/fwlink/?LinkID=231897&clcid=0x409],[Paul_Batum]
+wamp,"WAMP (""The WebSocket Application Messaging Protocol"")",[http://wamp.ws/spec],[Tobias_Oberstein]
+v10.stomp,Name: STOMP 1.0 specification,[http://stomp.github.com/stomp-specification-1.0.html],[Jeff_Mesnil]
+v11.stomp,Name: STOMP 1.1 specification,[http://stomp.github.com/stomp-specification-1.1.html],[Jeff_Mesnil]
+v12.stomp,Name: STOMP 1.2 specification,[http://stomp.github.com/stomp-specification-1.2.html],[Jeff_Mesnil]
+ocpp1.2,OCPP 1.2,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Patrick_Rademakers]
+ocpp1.5,OCPP 1.5,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Patrick_Rademakers]
+ocpp1.6,OCPP 1.6,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Patrick_Rademakers]
+ocpp2.0,OCPP 2.0,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Patrick_Rademakers]
+rfb,RFB,[RFC6143],[Tristan_Richardson]
+sip,WebSocket Transport for SIP (Session Intiation Protocol),[RFC7118],[RFC7118]
+notificationchannel-netapi-rest.openmobilealliance.org,OMA RESTful Network API for Notification Channel,"[OMA RESTful Network API for Notification Channel V 1.0, Open Mobile Alliance, OMA-TS-REST_NetAPI_NotificationChannel-V1_0]",[OMNA_-_Open_Mobile_Naming_Authority][Uwe_Rauschenbach]
+wpcp,Web Process Control Protocol (WPCP),[http://wpcp.net/spec/],[Patrick_Gansterer]
+AMQPWSB10,WebSocket Transport for Advanced Message Queuing Protocol (AMQP) 1.0,[http://docs.oasis-open.org/amqp-bindmap/amqp-wsb/v1.0/amqp-wsb-v1.0.html],[Robin_Cover]
+mqtt,mqtt,[MQTT Version 3.1.1],[Robin_Cover]
+jsflow,jsFlow pubsub/queue protocol,[http://www.jsflow.com/definition],[Magnus_Lundstedt]
+rwpcp,Reverse Web Process Control Protocol (RWPCP),[http://wpcp.net/spec/],[Patrick_Gansterer]
+xmpp,WebSocket Transport for the Extensible Messaging and Presence Protocol (XMPP),[RFC7395],[RFC7395]
+ship,SHIP - Smart Home IP,"SHIP (Smart Home IP) is a an IP based approach to plug and 
+        play home automation and smart energy / energy efficiency, which can 
+        easily be extended to additional domains such as Ambient Assisted 
+        Living (AAL). SHIP can be used solely on the customer premises or can 
+        be integrated into a cloud based solution.",[EEBus Initiative][Andreas_Westermann]
+mielecloudconnect,Miele Cloud Connect Protocol,"This protocol is used to securely connect household or 
+        professional appliances to an internet service portal via a public 
+        communication network in order to enable remote services. The 
+        specification is not published yet.",[Nils_Langhammer]
+v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp],[Masoud_Aghadavoodi_Jolfaei]

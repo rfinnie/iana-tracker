@@ -1,0 +1,9 @@
+Value,Category,Reference
+00001,Africa (AF),[RFC4384]
+00010,Oceania (OC),[RFC4384]
+00011,Asia (AS),[RFC4384]
+00100,Antarctica (AQ),[RFC4384]
+00101,Europe (EU),[RFC4384]
+00110,Latin America/Caribbean Islands (LAC),[RFC4384]
+00111,North America (NA),[RFC4384]
+01000-11111,Reserved,

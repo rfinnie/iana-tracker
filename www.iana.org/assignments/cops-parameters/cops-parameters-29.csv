@@ -1,0 +1,5 @@
+SubType,Description,Reference
+0,Reserved,
+1,NTP_TIMESTAMP,[RFC3520]
+2-127,Unassigned,
+128-255,Reserved,

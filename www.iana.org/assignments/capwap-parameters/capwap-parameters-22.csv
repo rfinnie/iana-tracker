@@ -1,0 +1,6 @@
+WTP Frame Tunnel Mode,Bit Position,Reference
+Unassigned,0-3,
+Native Frame Tunnel Mode,4,[RFC5415]
+802.3 Frame Tunnel Mode,5,[RFC5415]
+Local Bridging,6,[RFC5415]
+Unassigned,7,

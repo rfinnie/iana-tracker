@@ -1,0 +1,13 @@
+Value,Cause Code,Reference
+0x0,Unspecified Error,[RFC5354]
+0x1,Unrecognized Parameter,[RFC5354]
+0x2,Unrecognized Message,[RFC5354]
+0x3,Invalid Values,[RFC5354]
+0x4,Non-unique PE Identifier,[RFC5354]
+0x5,Inconsistent Pooling Policy,[RFC5354]
+0x6,Lack of Resources,[RFC5354]
+0x7,Inconsistent Transport Type,[RFC5354]
+0x8,Inconsistent Data/Control Configuration,[RFC5354]
+0x9,Unknown Pool Handle,[RFC5354]
+0xa,Rejected due to security considerations,[RFC5354]
+0xb-0xffff,Unassigned,

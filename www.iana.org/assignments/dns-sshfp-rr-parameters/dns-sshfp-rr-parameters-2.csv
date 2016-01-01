@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Reserved,[RFC4255]
+1,SHA-1,[RFC4255]
+2,SHA-256,[RFC6594]

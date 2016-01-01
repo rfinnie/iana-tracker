@@ -1,0 +1,6 @@
+Value,Code,Reference
+0,Route-Refresh,[RFC2918][RFC5291]
+1,BoRR,[RFC7313]
+2,EoRR,[RFC7313]
+3-254,Unassigned,
+255,Reserved,[RFC7313]

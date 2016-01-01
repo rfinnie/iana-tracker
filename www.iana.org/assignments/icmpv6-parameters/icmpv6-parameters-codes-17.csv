@@ -1,0 +1,4 @@
+Code,Name,Reference
+0,The Data field contains an IPv6 address which is the Subject of this Query.,[RFC4620]
+1,"The Data field contains a name which is the Subject of this Query, or is empty, as in the case of a NOOP.",[RFC4620]
+2,The Data field contains an IPv4 address which is the Subject of this Query.,[RFC4620]

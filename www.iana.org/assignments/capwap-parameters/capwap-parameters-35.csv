@@ -1,0 +1,6 @@
+IEEE 802.11 WTP Radio Type,Bit Position,Reference
+Unassigned,0-3,
+IEEE 802.11n,4,[RFC5416]
+IEEE 802.11g,5,[RFC5416]
+IEEE 802.11a,6,[RFC5416]
+IEEE 802.11b,7,[RFC5416]

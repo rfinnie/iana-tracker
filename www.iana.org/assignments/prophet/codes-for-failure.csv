@@ -1,0 +1,6 @@
+Value,Code Name,Reference
+0x00-0x01,Reserved,[RFC6693]
+0x02,Unspecified Failure,[RFC6693]
+0x03-0x7F,Unassigned,
+0x80-0xFE,Reserved for Private/Experimental Use,[RFC6693]
+0xFF,Error TLV in Message,[RFC6693]

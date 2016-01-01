@@ -1,0 +1,8 @@
+C-Type (Value),Description,Reference
+0-1,Interface Role field,[RFC5837]
+2,Unallocated - allocatable with Standards Action,[RFC5837]
+3,Unallocated - allocatable with Standards Action,[RFC5837]
+4,ifIndex included,[RFC5837]
+5,IP Address Sub-object included,[RFC5837]
+6,Name Sub-object included,[RFC5837]
+7,MTU included,[RFC5837]

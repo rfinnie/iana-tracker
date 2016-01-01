@@ -1,0 +1,7 @@
+RCode,Semantics,Reference
+0x0,Reason for refusal is unknown or not specified.,[RFC7242]
+0x1,The receiver now has the complete bundle. The sender may now consider the bundle as completely received.,[RFC7242]
+0x2,The receiver's resources are exhausted. The sender SHOULD apply reactive bundle fragmentation before retrying.,[RFC7242]
+0x3,The receiver has encountered a problem that requires the bundle to be retransmitted in its entirety.,[RFC7242]
+0x4-0x7,Unassigned,
+0x8-0xf,Reserved for future usage.,[RFC7242]

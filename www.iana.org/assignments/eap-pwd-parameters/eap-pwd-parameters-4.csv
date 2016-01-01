@@ -1,0 +1,5 @@
+Value,Name,Reference
+0x00,None,[RFC5931]
+0x01,RFC2759,[RFC5931][RFC2759]
+0x02,SASLprep,[RFC5931]
+0x03-0xFF,Unassigned,

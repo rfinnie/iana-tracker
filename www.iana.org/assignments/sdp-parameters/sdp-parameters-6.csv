@@ -1,0 +1,5 @@
+Type,SDP Name,Reference
+enckey,clear,[RFC4566]
+enckey,base64,[RFC4566]
+enckey,uri,[RFC4566]
+enckey,prompt,[RFC4566]

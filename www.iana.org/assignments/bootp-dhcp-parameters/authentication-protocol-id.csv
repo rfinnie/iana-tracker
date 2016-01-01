@@ -1,0 +1,7 @@
+Value,Protocol,Reference
+0,DHCPv4 Configuration Token,"[RFC3118, Section 4]"
+1,DHCPv4 Delayed Authentication,"[RFC3118, Section 5]"
+2,DHCPv6 Delayed Authentication,"[RFC3315, Section 21.4]"
+3,DHCPv6 Reconfigure Key Authentication,"[RFC3315, Section 21.5]"
+4-254,Unassigned,
+255,Reserved,[RFC3118]

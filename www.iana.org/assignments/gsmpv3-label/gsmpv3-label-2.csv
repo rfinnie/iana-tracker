@@ -1,0 +1,9 @@
+Type,TLV Label,Section Title,Reference
+0x000-0x0FF,Unassigned,,
+0x100,ATM Label,ATM TLV Labels,[RFC3292]
+0x101,FR Label,Frame Relay TLV Labels,[RFC3292]
+0x102,MPLS Gen Label,MPLS Generic TLV Labels,[RFC3292]
+0x103,FEC Label,FEC TLV Labels,[RFC3292]
+0x104-0xAFF,Unassigned,,
+0xB00-0xEFF,Unassigned,,
+0xF00-0xFFF,Reserved for Vendor Private Extensions,,

@@ -1,0 +1,7 @@
+Value,Description,Reference
+0,Unassigned,
+1,ATM,[RFC3292]
+2,FR,[RFC3292]
+3,MPLS,[RFC3292]
+4-127,Unassigned,
+128-255,Unassigned,

@@ -1,0 +1,17 @@
+Type,Description,Reference
+0,Reserved,[RFC6332]
+1,RTP Seqnum of the First Multicast Packet,[RFC6332]
+2,SFGMP Join Time,[RFC6332]
+3,Application Request-to-Multicast Delta Time,[RFC6332]
+4,Application Request-to-Presentation Delta Time,[RFC6332]
+5-10,Unassigned,
+11,Application Request-to-RAMS Request Delta Time,[RFC6332]
+12,RAMS Request-to-RAMS Information Delta Time,[RFC6332]
+13,RAMS Request-to-Burst Delta Time,[RFC6332]
+14,RAMS Request-to-Multicast Delta Time,[RFC6332]
+15,RAMS Request-to-Burst-Completion Delta Time,[RFC6332]
+16,Number of Duplicate Packets,[RFC6332]
+17,Size of Burst-to-Multicast Gap,[RFC6332]
+18-127,Unassigned,
+128-254,Reserved for private extensions,[RFC6332]
+255,Reserved,[RFC6332]

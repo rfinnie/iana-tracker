@@ -1,0 +1,6 @@
+Value,Name,Reference
+0,RPF Vector TLV,[RFC5496]
+1,MVPN Join Attribute,[RFC6513]
+2,MT-ID Join Attribute,[RFC6420]
+3,Pop-Count,[RFC6807]
+4-63,Unassigned,

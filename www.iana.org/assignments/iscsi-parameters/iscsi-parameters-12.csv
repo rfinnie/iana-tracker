@@ -1,0 +1,14 @@
+Status Class(fixed),Status Code(one octet),Description,Reference
+0x02,0x00,Initiator error,[RFC7143]
+0x02,0x01,Authentication failure,[RFC7143]
+0x02,0x02,Authorization failure,[RFC7143]
+0x02,0x03,Not found,[RFC7143]
+0x02,0x04,Target removed,[RFC7143]
+0x02,0x05,Unsupported version,[RFC7143]
+0x02,0x06,Too many connections,[RFC7143]
+0x02,0x07,Missing parameter,[RFC7143]
+0x02,0x08,Can't include in session,[RFC7143]
+0x02,0x09,Session type not supported,[RFC7143]
+0x02,0x0a,Session does not exist,[RFC7143]
+0x02,0x0b,Invalid during login,[RFC7143]
+0x02,0x0c-0xff,Unassigned,

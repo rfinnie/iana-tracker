@@ -1,0 +1,7 @@
+Decimal,Description,References
+1,id-nvae-name-mismatch,[RFC5055]
+2,id-nvae-no-name,[RFC5055]
+3,id-nvae-unknown-alg,[RFC5055]
+4,id-nvae-bad-name,[RFC5055]
+5,id-nvae-bad-name-type,[RFC5055]
+6,id-nvae-mixed-names,[RFC5055]

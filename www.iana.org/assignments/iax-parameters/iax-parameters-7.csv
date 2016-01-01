@@ -1,0 +1,6 @@
+Method,Description,Reference
+0x0001,Reserved (was Plaintext),[RFC5457]
+0x0002,MD5,[RFC5457]
+0x0003,Unassigned,
+0x0004,RSA,[RFC5457]
+0x0004-0xFFFF,Unassigned,

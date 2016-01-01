@@ -1,0 +1,7 @@
+AVP Value,Attribute Name,Reference
+1,PAP,[RFC7155]
+2,CHAP,[RFC7155]
+3,MS-CHAP-1,[RFC7155]
+4,MS-CHAP-2,[RFC7155]
+5,EAP,[RFC7155]
+7,None,[RFC7155]

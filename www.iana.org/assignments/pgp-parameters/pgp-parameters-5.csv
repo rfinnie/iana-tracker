@@ -1,0 +1,33 @@
+Value,Attribute,Reference
+0,Reserved,
+1,Reserved,
+2,signature creation time,[RFC4880]
+3,signature expiration time,[RFC4880]
+4,exportable certification,[RFC4880]
+5,trust signature,[RFC4880]
+6,regular expression,[RFC4880]
+7,revocable,[RFC4880]
+8,Reserved,
+9,key expiration time,[RFC4880]
+10,placeholder for backward compatibility,[RFC4880]
+11,preferred symmetric algorithms,[RFC4880]
+12,revocation key,[RFC4880]
+13-15,Reserved,
+16,issuer key ID,[RFC4880]
+17-19,Reserved,
+20,notation data,[RFC4880]
+21,preferred hash algorithms,[RFC4880]
+22,preferred compression algorithms,[RFC4880]
+23,key server preferences,[RFC4880]
+24,preferred key server,[RFC4880]
+25,primary User ID,[RFC4880]
+26,policy URI,[RFC4880]
+27,key flags,[RFC4880]
+28,signer's User ID,[RFC4880]
+29,reason for revocation,[RFC4880]
+30,features,[RFC4880]
+31,signature target,[RFC4880]
+32,embedded signature,[RFC4880]
+33-99,Unassigned,
+100-110,Private or experimental,[RFC4880]
+111-127,Unassigned,[RFC4880]

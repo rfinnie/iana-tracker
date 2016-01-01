@@ -1,0 +1,24 @@
+Value,Message,Implementation,Status,Reference
+0,Reserved,,,
+1,ERROR_RESPONSE,gateway,mandatory,[RFC3103]
+2,REGISTER_REQUEST,host,mandatory,[RFC3103]
+3,REGISTER_RESPONSE,gateway,mandatory,[RFC3103]
+4,DE-REGISTER_REQUEST,host,mandatory,[RFC3103]
+5,DE-REGISTER_RESPONSE,gateway,mandatory,[RFC3103]
+6,ASSIGN_REQUEST_RSA-IP,host,optional,[RFC3103]
+7,ASSIGN_RESPONSE_RSA-IP,gateway,optional,[RFC3103]
+8,ASSIGN_REQUEST_RSAP-IP,host,mandatory,[RFC3103]
+9,ASSIGN_RESPONSE_RSAP-IP,gateway,mandatory,[RFC3103]
+10,EXTEND_REQUEST,host,mandatory,[RFC3103]
+11,EXTEND_RESPONSE,gateway,mandatory,[RFC3103]
+12,FREE_REQUEST,host,mandatory,[RFC3103]
+13,FREE_RESPONSE,gateway,mandatory,[RFC3103]
+14,QUERY_REQUEST,host,optional,[RFC3103]
+15,QUERY_RESPONSE,gateway,mandatory,[RFC3103]
+16,LISTEN_REQUEST,host,optional,[RFC3103]
+17,LISTEN_RESPONSE,gateway,optional,[RFC3103]
+18-21,Unassigned,,,
+22,ASSIGN_REQUEST_RSIPSEC,host,optional,[RFC3104]
+23,ASSIGN_RESPONSE_RSIPSEC,gateway,optional,[RFC3104]
+24-240,Unassigned,,,
+241-255,Reserved for private use,,,

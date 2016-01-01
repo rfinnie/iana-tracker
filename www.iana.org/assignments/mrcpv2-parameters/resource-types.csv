@@ -1,0 +1,7 @@
+Resource Type,Resource Description,Reference
+speechrecog,Speech Recognizer,[RFC6787]
+dtmfrecog,DTMF Recognizer,[RFC6787]
+speechsynth,Speech Synthesizer,[RFC6787]
+basicsynth,Basic Synthesizer,[RFC6787]
+speakverify,Speaker Verifier,[RFC6787]
+recorder,Speech Recorder,[RFC6787]

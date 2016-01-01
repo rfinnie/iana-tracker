@@ -1,0 +1,5 @@
+Notification Name,Value,RFC,How,Minor Versions
+Unassigned,0,,,
+NOTIFY_DEVICEID4_CHANGE,1,[RFC5661],N,1
+NOTIFY_DEVICEID4_DELETE,2,[RFC5661],N,1
+Unassigned,3-4294967295,,,

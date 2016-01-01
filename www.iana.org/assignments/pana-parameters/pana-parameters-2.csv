@@ -1,0 +1,12 @@
+Value,R flag,Abbrev,Name,Reference
+0,,,Reserved,[RFC5191]
+1,0,PCI,PANA-Client-Initiation,[RFC5191]
+2,1,PAR,PANA-Auth-Request,[RFC5191]
+2,0,PAN,PANA-Auth-Answer,[RFC5191]
+3,1,PTR,PANA-Termination-Request,[RFC5191]
+3,0,PTA,PANA-Termination-Answer,[RFC5191]
+4,1,PNR,PANA-Notification-Request,[RFC5191]
+4,0,PNA,PANA-Notification-Answer,[RFC5191]
+5,0,PRY,PANA-Relay,[RFC6345]
+6-65519,,,Unassigned,[RFC5191]
+65520-65535,,,Reserved (Experimental),[RFC5191]

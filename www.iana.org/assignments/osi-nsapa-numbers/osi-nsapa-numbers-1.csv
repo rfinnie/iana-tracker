@@ -1,0 +1,4 @@
+Value,Meaning,Reference
+0,Embedded IPv6 address,[RFC4548]
+1,Embedded IPv4 address,[RFC4548]
+2-9999,Unassigned,

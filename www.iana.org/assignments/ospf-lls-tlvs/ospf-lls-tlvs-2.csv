@@ -1,0 +1,5 @@
+Extended Options Bit,Name,Reference
+0x00000001,LSDB Resynchronization (LR),[RFC4811]
+0x00000002,Restart Signal (RS-bit),[RFC4812]
+0x00000004,I-bit,[RFC5820]
+0x00000008,F-bit,[RFC5820]

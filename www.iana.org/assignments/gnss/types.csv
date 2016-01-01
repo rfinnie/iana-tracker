@@ -1,0 +1,7 @@
+GNSS Name,Description,GNSS Token,Signals,Reference
+Global Positioning System (GPS),"a system of satellites that use spread-spectrum 
+transmission, operated by the US military for commercial and military applications",gps,"L1, L2, L1C, L2C, L5","[""Navstar GPS Space Segment/Navigation User Interface,"" 
+ICD GPS-200, Apr 2000.]"
+Galileo,"a system of satellites that operate in the same 
+spectrum as GPS, operated by the European Union for commercial applications",galileo,"L1, E5A, E5B, E5A+B, E6","[GJU, ""Galileo Open Service Signal In Space Interface  
+Control Document (SIS ICD)"", May 2006.]"

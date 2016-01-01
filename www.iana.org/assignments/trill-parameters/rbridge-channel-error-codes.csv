@@ -1,0 +1,9 @@
+Value,RBridge Channel Error Code Meaning,Reference
+0,No error,[RFC7178]
+1,Frame too short (truncated Ethertype or Channel Header),[RFC7178]
+2,Unrecognized Ethertype,[RFC7178]
+3,Unimplemented value of CHV,[RFC7178]
+4,Wrong value of NA flag,[RFC7178]
+5,Channel Protocol is reserved or unimplemented,[RFC7178]
+6-14,Unassigned,
+15,Reserved (see Note),[RFC7178]

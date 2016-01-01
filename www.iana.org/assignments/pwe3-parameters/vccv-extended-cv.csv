@@ -1,0 +1,6 @@
+Bit (Value),Description,Reference
+Bit 0 (0x01),Independent mode for PW Fault Detection only,[RFC7189]
+Bit 1 (0x02),Independent mode for PW Fault Detection and AC/PW Fault Status Signaling,[RFC7189]
+Bit 2 (0x04),Coordinated mode for PW Fault Detection only,[RFC7189]
+Bit 3 (0x08),Coordinated mode for PW Fault Detection and AC/PW Fault Status Signaling,[RFC7189]
+Bit 4-7 (0x10-0x80),Unassigned,

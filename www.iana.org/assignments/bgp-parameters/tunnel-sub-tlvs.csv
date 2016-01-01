@@ -1,0 +1,8 @@
+Value,Name,Reference
+0,Reserved,[RFC5512]
+1,Encapsulation,[RFC5512]
+2,Protocol Type,[RFC5512]
+3,IPsec Tunnel Authenticator,[RFC5566]
+4,Color,[RFC5512]
+5,Load-Balancing Block,[RFC5640]
+6-255,Unassigned,

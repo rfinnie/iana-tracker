@@ -1,0 +1,5 @@
+State,Description/Meaning,Reference
+0,Received,[RFC4340]
+1,Received ECN Marked,[RFC4340]
+2,Unassigned,[RFC4340]
+3,Not Yet Received,[RFC4340]

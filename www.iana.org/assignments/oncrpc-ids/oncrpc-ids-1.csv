@@ -1,0 +1,5 @@
+r_netid,Description,Reference
+"""tcp""",TCP over IP version 4,[RFC7530]
+"""udp""",UDP over IP version 4,[RFC7530]
+"""tcp6""",TCP over IP version 6,[RFC7530]
+"""udp6""",UDP over IP version 6,[RFC7530]

@@ -1,0 +1,4 @@
+Suboption,Command,Reference
+1,CFB64_IV,[RFC2950]
+2,CFB64_IV_OK,[RFC2950]
+3,CFB64_IV_BAD,[RFC2950]

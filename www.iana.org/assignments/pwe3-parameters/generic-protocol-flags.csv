@@ -1,0 +1,3 @@
+Bit (Value),Description,Reference
+0 (0x0001),S-PE bypass mode,[RFC6478]
+1-15 (0x0002-0x8000),Unassigned,

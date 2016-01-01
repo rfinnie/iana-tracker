@@ -1,0 +1,14 @@
+Value,Description,Reference,Notes
+0,Invalid,,
+1,Request,[RFC1058],
+2,Response,[RFC1058],
+3,TraceOn,[RFC1058],
+4,TraceOff,[RFC1058],
+5,Reserved,[RFC1058],
+6,Triggered Request,[RFC1582],"There are widely deployed implementations that don't support Triggered UDP that use value 6 = ""Poll Entry"" (undocumented)"
+7,Triggered Response,[RFC1582],
+8,Triggered Acknowledgement,[RFC1582],
+9,Update Request,[RFC2091],
+10,Update Response,[RFC2091],
+11,Update Acknowledge,[RFC2091],
+12-254,Unassigned,,

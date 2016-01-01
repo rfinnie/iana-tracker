@@ -1,0 +1,5 @@
+Value,Name,Definition,Reference
+0,Reserved,,[RFC6124]
+1,ENCR_AES128_CBC,"AES with a 128-bit key, CBC mode",[RFC6124]
+2-127,Unassigned,,
+128-255,Reserved for Private Use,,[RFC6124]

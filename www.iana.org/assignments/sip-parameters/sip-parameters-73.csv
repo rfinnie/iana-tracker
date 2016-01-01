@@ -1,0 +1,6 @@
+Reason Code,Reference
+non-urgent,[RFC3261]
+normal,[RFC3261]
+urgent,[RFC3261]
+emergency,[RFC3261]
+psap-callback,[RFC7090]

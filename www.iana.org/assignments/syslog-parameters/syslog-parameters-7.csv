@@ -1,0 +1,3 @@
+Value,Protocol Version,Signature Scheme,Reference
+0,01,Reserved,[RFC5848]
+1,01,OpenPGP DSA,[RFC5848]

@@ -1,0 +1,7 @@
+Value,Key Blob Type,Reference
+C,a PKIX certificate,[RFC5848]
+P,an OpenPGP certificate,[RFC5848]
+K,"the public key whose corresponding private key is   
+used to sign the messages",[RFC5848]
+N,"no key information sent, key is pre-distributed",[RFC5848]
+U,installation-specific key exchange information,[RFC5848]

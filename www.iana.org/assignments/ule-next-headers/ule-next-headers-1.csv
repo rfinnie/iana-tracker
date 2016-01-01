@@ -1,0 +1,18 @@
+Type,Name,Reference
+0,Test-SNDU,[RFC4326]
+1,Bridged-SNDU,[RFC4326]
+2,TS-Concat,[RFC5163]
+3,PDU-Concat,[RFC5163]
+4-128,Unassigned,
+129,LL_GSE_NCR,[EN 301 545-2][Hans-Peter_Lexow]
+130,LL_RCS_L2S,[EN 301 545-2][Hans-Peter_Lexow]
+131,LL_RCS_DCP,[TS 101 545-3][Hans-Peter_Lexow]
+132,LL_RCS_1,[EN 301 545-2][Gorry_Fairhurst]
+133,LL_RCS_TRANSEC_SYS,[EN 301 545-1][Gorry_Fairhurst]
+134,LL_RCS_TRANSEC_PAY,[EN 301 545-1][Gorry_Fairhurst]
+135,DVB-GSE_LLC,[ETSI TS 102 606-2][Alexander_Adolf]
+136-143,Unassigned,
+144-159,Reserved for Private Use,[RFC7280]
+160-199,Unassigned,
+200,LL_RCS_FEC_FDT,[EN 301 790 V1.5.1][Laurence_Duquerroy]
+201-255,Unassigned,

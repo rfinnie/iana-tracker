@@ -1,0 +1,15 @@
+Value,Description,Reference
+0,Reserved,[RFC4940]
+1,Router-LSA,[RFC2328]
+2,Network-LSA,[RFC2328]
+3,Summary-LSA (IP network),[RFC2328]
+4,Summary-LSA (ASBR),[RFC2328]
+5,AS-external-LSA,[RFC2328]
+6,Group-membership-LSA,[RFC1584][RFC5110]
+7,NSSA AS-external LSA,[RFC3101]
+8,Reserved,
+9,Link-scoped Opaque LSA,[RFC5250]
+10,Area-scoped Opaque LSA,[RFC5250]
+11,AS-scoped Opaque LSA,[RFC5250]
+12-127,Unassigned,
+128-255,Reserved,

@@ -1,0 +1,9 @@
+Value,Type,Status,Reference
+0 0,Normal label lower 6 bits is the length of the label,Standard,[RFC1035]
+1 1,"Compressed label the lower 6 bits and the 8 bits           
+from next octet form a pointer to the compression target.",Standard,[RFC1035]
+0 1,"Extended label type the lower 6 bits of this type          
+(section 3) indicate the type of label in use",Proposed,[RFC6891]
+0 1 0 0 0 0 0 1,Binary Label,Historic,[RFC3364][RFC3363][RFC2673][RFC6891]
+0 1 1 1 1 1 1 1,Reserved for future expansion.,Proposed,[RFC6891]
+1 0,Unallocated,,

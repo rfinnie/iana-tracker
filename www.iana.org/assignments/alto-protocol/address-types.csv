@@ -1,0 +1,3 @@
+Identifier,Address Encoding,Prefix Encoding,Mapping to/from IPv4/v6,Reference
+ipv4,See Section 10.4.3 of [RFC7285],See Section 10.4.3 of [RFC7285],Direct mapping to IPv4,[RFC7285]
+ipv6,See Section 10.4.3 of [RFC7285],See Section 10.4.3 of [RFC7285],Direct mapping to IPv6,[RFC7285]

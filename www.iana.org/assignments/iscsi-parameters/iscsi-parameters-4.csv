@@ -1,0 +1,10 @@
+Key Value,Group Description,Reference
+SRP-768,768 bit SRP group,[RFC3723]
+SRP-1024,1024 bit SRP group,[RFC3723]
+SRP-1280,1280 bit SRP group,[RFC3723]
+SRP-1536,1536 bit SRP group,[RFC3723]
+SRP-2048,2048 bit SRP group,[RFC3723]
+MODP-3072,3072 bit MODP group,[RFC3723]
+MODP-4096,4096 bit MODP group,[RFC3723]
+MODP-6144,6144 bit MODP group,[RFC3723]
+MODP-8192,8192 bit MODP group,[RFC3723]

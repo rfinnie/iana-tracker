@@ -1,0 +1,14 @@
+Media Type,Encoding,ID,Reference
+text/plain; charset=utf-8,,0,[RFC2046][RFC3676][RFC5147]
+Unassigned,,1-39,
+application/link-format,,40,[RFC6690]
+application/xml,,41,[RFC3023]
+application/octet-stream,,42,[RFC2045][RFC2046]
+Unassigned,,43-46,
+application/exi,,47,"[""Efficient XML Interchange (EXI) Format 1.0 (Second Edition)"", February 2014]"
+Unassigned,,48-49,
+application/json,,50,[RFC4627]
+Unassigned,,51-59,
+application/cbor,,60,[RFC7049]
+Unassigned,,61-64999,
+Reserved for Experimental Use,,65000-65535,[RFC7252]

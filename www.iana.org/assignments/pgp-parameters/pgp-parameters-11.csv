@@ -1,0 +1,10 @@
+First octet,Extension,Reference
+0x01,This key may be used to certify other keys.,[RFC4880]
+0x02,This key may be used to sign data.,[RFC4880]
+0x04,This key may be used to encrypt communications.,[RFC4880]
+0x08,This key may be used to encrypt storage.,[RFC4880]
+0x10,"The private component of this key may have been    
+split by a secret-sharing mechanism.",[RFC4880]
+0x20,This key may be used for authentication.,[RFC4880]
+0x80,"The private component of this key may be in the    
+possession of more than one person.",[RFC4880]

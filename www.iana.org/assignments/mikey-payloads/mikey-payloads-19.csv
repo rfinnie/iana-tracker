@@ -1,0 +1,6 @@
+Value,ID Type,Reference
+0,NAI,[RFC3830]
+1,URI,[RFC3830]
+2,Byte string,[RFC6043]
+3-240,Unassigned,
+241-255,Reserved for Private Use,

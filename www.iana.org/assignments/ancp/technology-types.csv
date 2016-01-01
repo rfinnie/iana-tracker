@@ -1,0 +1,7 @@
+Type,Meaning,Reference
+0,Not technology dependent,[RFC6320]
+1,Passive Optical Network (PON),[RFC6320]
+2-4,Unassigned,
+5,Digital Subscriber Line (DSL),[RFC6320]
+6-254,Unassigned,
+255,Reserved,[RFC6320]

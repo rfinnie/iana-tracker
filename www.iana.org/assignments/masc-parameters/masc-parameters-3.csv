@@ -1,0 +1,11 @@
+Value,Type,Reference
+0,PREFIX_IN_USE (prefix is being used by the origin),[RFC2909]
+1,"CLAIM_DENIED (the claim is refused (probably          
+by the origin's parent domain))",[RFC2909]
+2,"CLAIM_TO_EXPAND (origin is trying to expand           
+the size of an existing prefix)",[RFC2909]
+3,NEW_CLAIM (origin is trying to claim a new prefix),[RFC2909]
+4,"PREFIX_MANAGED (parent is informing child of          
+space available)",[RFC2909]
+5,WITHDRAW (origin is withdrawing a previous claim),[RFC2909]
+6-127,Unassigned,

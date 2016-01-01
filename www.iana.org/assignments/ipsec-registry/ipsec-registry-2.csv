@@ -1,0 +1,19 @@
+Value,Class,Type,Reference
+1,Encryption Algorithm,B,[RFC2409]
+2,Hash Algorithm,B,[RFC2409]
+3,Authentication Method,B,[RFC2409]
+4,Group Description,B,[RFC2409]
+5,Group Type,B,[RFC2409]
+6,Group Prime/Irreducible Polynomial,V,[RFC2409]
+7,Group Generator One,V,[RFC2409]
+8,Group Generator Two,V,[RFC2409]
+9,Group Curve A,V,[RFC2409]
+10,Group Curve B,V,[RFC2409]
+11,Life Type,B,[RFC2409]
+12,Life Duration,V,[RFC2409]
+13,PRF,B,[RFC2409]
+14,Key Length,B,[RFC2409]
+15,Field Size,B,[RFC2409]
+16,Group Order,V,[RFC2409]
+17-16383,Unassigned,,
+16384-32767,Reserved for private use,,

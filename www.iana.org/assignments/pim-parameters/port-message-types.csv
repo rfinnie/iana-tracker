@@ -1,0 +1,6 @@
+Type,Name,Reference
+0,Reserved,[RFC6559]
+1,Join/Prune,[RFC6559]
+2,Keep-alive,[RFC6559]
+3-65531,Unassigned,
+65532-65535,Experimental,[RFC6559]

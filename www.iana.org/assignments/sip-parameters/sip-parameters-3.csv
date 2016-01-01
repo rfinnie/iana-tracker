@@ -1,0 +1,5 @@
+Protocol value,Protocol Cause,Reference
+SIP,Status code,[RFC3261]
+Q.850,"Cause value in decimal            
+representation",[ITU-T Q.850]
+Preemption,Cause value in decimal[1],[RFC4411]

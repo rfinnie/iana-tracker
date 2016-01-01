@@ -1,0 +1,13 @@
+Number,Description,Reference
+0,00,No Authentication Required,[RFC1928]
+1,01,GSSAPI,[RFC1928]
+2,02,Username/Password,[RFC1929]
+3,03,Challenge-Handshake Authentication Protocol,[Marc_VanHeyningen]
+4,04,Unassigned,
+5,05,Challenge-Response Authentication Method,[Marc_VanHeyningen]
+6,06,Secure Sockets Layer,[Marc_VanHeyningen]
+7,07,NDS Authentication,[Vijay_Talati]
+8,08,Multi-Authentication Framework,[Dan_Fritch]
+9-127,09-7F,Unassigned,
+128-255,80-FE,Reserved for Private Methods,[RFC1928]
+255,FF,No Acceptable Methods,[RFC1928]

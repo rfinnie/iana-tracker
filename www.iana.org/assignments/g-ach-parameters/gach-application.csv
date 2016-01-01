@@ -1,0 +1,4 @@
+Application ID,Description,Reference
+0x0000,G-ACh Advertisement Protocol,[RFC7212]
+0x0001,Ethernet Interface Parameters,[RFC7213]
+0x0002-0xFFFF,Unassigned,

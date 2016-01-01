@@ -1,0 +1,17 @@
+Bit (Value),Description,Reference
+"0
+            (0x01)",L2-Specific Sublayer with V-bit set,[RFC5085]
+"1
+            (0x02)",Reserved,[RFC5085]
+"2
+            (0x04)",Reserved,[RFC5085]
+"3
+            (0x08)",Reserved,[RFC5085]
+"4
+            (0x10)",Reserved,[RFC5085]
+"5
+            (0x20)",Reserved,[RFC5085]
+"6
+            (0x40)",Reserved,[RFC5085]
+"7
+            (0x80)",Reserved,[RFC5085]

@@ -1,0 +1,7 @@
+Value,Name,Reference
+0,Success,[RFC5177]
+1,Invalid prefix length (MOBNET_INVALID_PREFIX_LEN),[RFC5177]
+2,Mobile Router is not authorized for prefix (MOBNET_UNAUTHORIZED),[RFC5177]
+3,Forwarding setup failed (MOBNET_FWDING_SETUP_FAILED),[RFC5177]
+4,Home Agent cannot assign a mobile network prefix (MOBNET_UNASSIGNED),[RFC6626]
+5-255,Unassigned,

@@ -1,0 +1,26 @@
+Name of Extension,Document Status,Reference,Registrant,TLDs,IPR Disclosure,Status,Notes
+Domain Registry Grace Period Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC3915],[IESG],Any,None,Active,None
+E.164 Number Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC4114],[IESG],Any,None,Active,None
+ENUM Validation Information Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC5076],[IESG],Any,None,Active,None
+Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC5910],[IESG],Any,None,Active,None
+Common Object Attribute (COA) Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_coa_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Namestore Extension Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_namestoreext_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2551/],Active,None
+RGP Poll Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_rgp-poll_v00.html],[VeriSign_Inc.],Any,None,Active,None
+ConsoliDate Mapping for the Extensible Provisioning Protocol,Informational,[http://www.verisigninc.com/assets/consolidate-mapping.txt],[VeriSign_Inc.],Any,None,Active,None
+IDN Language Tag for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_idn-lang_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Extensible Provisioning Protocol Mapping: WhoWas,Informational,[http://www.verisigninc.com/assets/epp-whowas-mapping.pdf],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2550/],Active,None
+Extensible Provisioning Protocol Mapping: Email Forwarding,Informational,[http://www.verisigninc.com/assets/email-forwarding-mapping.pdf],[VeriSign_Inc.],.name,None,Active,None
+Extensible Provisioning Protocol Mapping: Defensive Registration,Informational,[http://www.verisigninc.com/assets/defensive-registration-mapping.pdf],[VeriSign_Inc.],.name,None,Active,None
+Extensible Provisioning Protocol Mapping: NameWatch,Informational,[http://www.verisigninc.com/assets/namewatch-mapping.pdf],[VeriSign_Inc.],.name,None,Active,None
+Extensible Provisioning Protocol Mapping: Personal Registration,Informational,[http://www.verisigninc.com/assets/personal-registration-extension.pdf],[VeriSign_Inc.],.name,None,Active,None
+Extensible Provisioning Protocol Mapping: Suggestion,Informational,[http://www.verisigninc.com/assets/epp-sdk/EPP-Suggestion-Mapping.pdf],[VeriSign_Inc.],Any,None,Active,None
+Whois Info Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_whois-info_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Extensible Provisioning Protocol Extension Mapping: Jobs Contact,Informational,[http://www.verisigninc.com/assets/epp-jobscontact-extension.pdf],[VeriSign_Inc.],.jobs,None,Active,None
+Low Balance Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_low-balance_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Premium Domain Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_premium-domain_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Balance Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_balance_v00.html],[VeriSign_Inc.],Any,None,Active,None
+Registry Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_registry_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2552/],Active,None
+Related Domain Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_related-domain_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2553/],Active,None
+.SE extension,Informational,[https://www.iis.se/docs/iis-1.2.txt],[Internet_Infrastructure_Foundation],.se  .nu,None,Active,[Manual for the extension]
+DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmaster/epp-service-specification],[DK_Hostmaster_AS],.dk,None,Active,"This extension includes a number of domain and contact object 
+        extension elements for use with the dk ccTLD."

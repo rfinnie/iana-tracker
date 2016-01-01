@@ -1,0 +1,29 @@
+Type,Property,Description,Reference
+freeform,category,"The value is to be interpreted by the       
+server the best way it knows how.  This
+value has no defined structure.",[RFC3367]
+freeform,geography,"The value is to be interpreted by the       
+server the best way it knows how.  This
+value has no defined structure.",[RFC3367]
+freeform,language,"The value is to be interpreted by the       
+server the best way it knows how.  This
+value has no defined structure.",[RFC3367]
+iso3166-2,geography,"The combination of country and sub-region   
+codes found in ISO 3166-2.",[RFC3367]
+iso3166-1,Geography,Country Codes found in ISO 3166-1.,[RFC3367]
+postalcode,Geography,"A postal code that is valid for some        
+region.  A good example is the Zip code
+system used in the US.",[RFC3367]
+lat-long,Geography,"The latitude and longitude of a             
+geographical location in the form specified
+in Department of Commerce, 1986,
+Representation of geographic point locations
+for information interchange (Federal
+Information Processing Standard 70-1):
+Washington,  Department of Commerce, National
+Institute of Standards and Technology.",[RFC3367]
+rfc1766,Language,Language codes as defined by RFC 1766.,[RFC3367]
+naics,Category,North American Industry Code System.,[RFC3367]
+uri,dataseturi,"A URI adhering to the 'absoluteURI'         
+production of the Collected ABNF found
+in RFC 2396.",[RFC3367]

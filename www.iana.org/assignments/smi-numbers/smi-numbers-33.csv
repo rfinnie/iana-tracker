@@ -1,0 +1,6 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,HMAC-MD5,HMAC-MD5,[Rodney_Thayer]
+2,HMAC-SHA,HMAC-SHA,[Rodney_Thayer]
+3,HMAC-TIGER,HMAC-TIGER,[Rodney_Thayer]
+4,HMAC-RIPEMD160,HMAC-RIPEMD160,[Angelos_Keromytis]

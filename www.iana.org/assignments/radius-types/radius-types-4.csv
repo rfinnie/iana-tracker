@@ -1,0 +1,26 @@
+Value,Description,Reference
+1,Login,
+2,Framed,
+3,Callback Login,
+4,Callback Framed,
+5,Outbound,
+6,Administrative,
+7,NAS Prompt,
+8,Authenticate Only,
+9,Callback NAS Prompt,
+10,Call Check,
+11,Callback Administrative,
+12,Voice,[Murtaza_Chiba]
+13,Fax,[Murtaza_Chiba]
+14,Modem Relay,[Murtaza_Chiba]
+15,IAPP-Register,"[""IEEE Trial-Use Recommended Practice for Multi-Vendor
+Access Point Interoperability via an Inter-Access Point
+Protocol Across Distribution Systems Supporting
+IEEE 802.11 Operation"", IEEE 802.11F, June 2003.][Stuart_Kerry]"
+16,IAPP-AP-Check,"[""IEEE Trial-Use Recommended Practice for Multi-Vendor
+Access Point Interoperability via an Inter-Access Point
+Protocol Across Distribution Systems Supporting
+IEEE 802.11 Operation"", IEEE 802.11F, June 2003.][Stuart_Kerry]"
+17,Authorize Only,[RFC3576]
+18,Framed-Management,[RFC5607]
+19,Additional-Authorization,[RFC7499]

@@ -1,0 +1,7 @@
+Curve Name,Curve Description,JOSE Implementation Requirements,Change Controller,Reference
+P-256,P-256 Curve,Recommended+,[IESG],"[
+        RFC7518, Section 6.2.1.1]"
+P-384,P-384 Curve,Optional,[IESG],"[
+        RFC7518, Section 6.2.1.1]"
+P-521,P-521 Curve,Optional,[IESG],"[
+        RFC7518, Section 6.2.1.1]"

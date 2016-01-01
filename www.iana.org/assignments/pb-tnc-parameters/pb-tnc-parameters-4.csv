@@ -1,0 +1,6 @@
+PEN,Integer,Name,Reference
+0,0,Unexpected Batch Type,[RFC5793]
+0,1,Invalid Parameter,[RFC5793]
+0,2,Local Error,[RFC5793]
+0,3,Unsupported Mandatory Message,[RFC5793]
+0,4,Version Not Supported,[RFC5793]

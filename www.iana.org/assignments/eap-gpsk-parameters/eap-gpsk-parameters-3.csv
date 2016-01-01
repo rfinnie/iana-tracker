@@ -1,0 +1,6 @@
+Failure Code,Description,Reference
+0x00000000,Reserved,[RFC5433]
+0x00000001,PSK Not Found,[RFC5433]
+0x00000002,Authentication Failure,[RFC5433]
+0x00000003,Authorization Failure,[RFC5433]
+0x00000004-0xFFFFFFFF,Unassigned,

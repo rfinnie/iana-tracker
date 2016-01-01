@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,configuration token,[RFC3118]
+1,delayed authentication,[RFC3118]
+2,Delayed Authentication,[RFC3315]
+3,Reconfigure Key,[RFC3315]

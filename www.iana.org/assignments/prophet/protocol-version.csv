@@ -1,0 +1,7 @@
+Value,Version,Reference
+0x00,Reserved,[RFC6693]
+0x01,PRoPHET v1,[RFC6693]
+0x02,PRoPHET v2,[RFC6693]
+0x03-0xEF,Unassigned,
+0xF0-0xFE,Reserved for Private/Experimental Use,[RFC6693]
+0xFF,Reserved,[RFC6693]

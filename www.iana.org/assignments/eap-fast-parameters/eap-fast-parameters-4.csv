@@ -1,0 +1,14 @@
+Value,Description,Reference
+0,Reserved,[RFC5422]
+1,PAC-Key,[RFC5422]
+2,PAC-Opaque,[RFC5422]
+3,PAC-Lifetime,[RFC5422]
+4,A-ID,[RFC5422]
+5,I-ID,[RFC5422]
+6,Reserved,[RFC5422]
+7,A-ID-Info,[RFC5422]
+8,PAC-Acknowledgement,[RFC5422]
+9,PAC-Info,[RFC5422]
+10,PAC-Type,[RFC5422]
+11-63,Allocated for management by Cisco,[RFC5422]
+64-255,Unassigned,

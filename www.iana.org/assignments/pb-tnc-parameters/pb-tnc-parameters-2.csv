@@ -1,0 +1,10 @@
+PEN,Integer,Name,Reference
+0,0,Testing,[RFC5792]
+0,1,Operating System,[RFC5792]
+0,2,Anti-Virus,[RFC5792]
+0,3,Anti-Spyware,[RFC5792]
+0,4,Anti-Malware,[RFC5792]
+0,5,Firewall,[RFC5792]
+0,6,IDPS,[RFC5792]
+0,7,VPN,[RFC5792]
+0,8,NEA Client,[RFC5792]

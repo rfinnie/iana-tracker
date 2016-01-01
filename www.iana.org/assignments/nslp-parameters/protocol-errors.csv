@@ -1,0 +1,29 @@
+Value,Description,Reference
+0x00,Reserved,[RFC5974]
+0x01,"Illegal message type: the type given in the Message Type
+        field of the common header is unknown.",[RFC5974]
+0x02,"Wrong message length: the length given for the message does
+        not match the length of the message data.",[RFC5974]
+0x03,"Bad flags value: an undefined flag or combination of flags
+        was set in the generic flags",[RFC5974]
+0x04,"Bad flags value: an undefined flag or combination of flags
+        was set in the message-specific flags",[RFC5974]
+0x05,"Mandatory object missing: an object required in a message of
+        this type was missing.",[RFC5974]
+0x06,"Illegal object present: an object was present that must not
+        be used in a message of this type.",[RFC5974]
+0x07,"Unknown object present: an object of an unknown type was
+        present in the message.",[RFC5974]
+0x08,"Wrong object length: the length given for the object did not
+        match the length of the object data present.",[RFC5974]
+0x09,RESERVE received from wrong direction.,[RFC5974]
+0x0A,"Unknown object field value: a field in an object had an
+        unknown value.",[RFC5974]
+0x0B,Duplicate object present.,[RFC5974]
+0x0C,Malformed QSPEC.,[RFC5974]
+0x0D,Unknown MRI.,[RFC5974]
+0x0E,Erroneous value in the TLV object's value field.,[RFC5974]
+0x0F,Incompatible QSPEC,[RFC5974]
+0x10-0x7F,Unassigned,
+0x80-0xBF,Reserved for Experimental/Private Use,[RFC5974]
+0xC0-0xFF,Reserved,[RFC5974]

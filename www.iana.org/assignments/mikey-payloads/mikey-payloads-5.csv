@@ -1,0 +1,5 @@
+Value,PRF Func,Section in Document,Reference
+0,MIKEY-1,4.1.3,[RFC3830]
+1,PRF-HMAC-SHA-256,6.1,[RFC6043]
+2-111,Unassigned,,
+112-127,Reserved for Private Use,,

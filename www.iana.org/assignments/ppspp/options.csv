@@ -1,0 +1,13 @@
+Code,Description,Reference
+0,Version,[RFC7574]
+1,Minimum Version,[RFC7574]
+2,Swarm Identifier,[RFC7574]
+3,Content Integrity Protection Method,[RFC7574]
+4,Merkle Hash Tree Function,[RFC7574]
+5,Live Signature Algorithm,[RFC7574]
+6,Chunk Addressing Method,[RFC7574]
+7,Live Discard Window,[RFC7574]
+8,Supported Messages,[RFC7574]
+9,Chunk Size,[RFC7574]
+10-254,Unassigned,
+255,End Option,[RFC7574]

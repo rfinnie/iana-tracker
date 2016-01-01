@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Reserved,[RFC6757]
+1,Network-Identifier sub-option,[RFC6757]
+2,Geo-Location sub-option,[RFC6757]
+3,Operator-Identifier sub-option,[RFC6757]
+4,Civic-Location sub-option,[RFC7563]
+5,MAG-Group-Identifier sub-option,[RFC7563]
+6,ANI Update-Timer sub-option,[RFC7563]
+7-254,Unassigned,
+255,Reserved,[RFC6757]

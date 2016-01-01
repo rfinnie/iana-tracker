@@ -1,0 +1,9 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,conf,confidentiality services,[Carlisle_Adams]
+2,integrity,data integrity services,[Carlisle_Adams]
+3,doa,data origin authen. services,[Carlisle_Adams]
+4,non-rep,non-repudiation services,[Carlisle_Adams]
+5,acc,access control services,[Carlisle_Adams]
+6,dflow,data flow services,[Carlisle_Adams]
+7,time,time services,[Carlisle_Adams]

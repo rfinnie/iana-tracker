@@ -1,0 +1,4 @@
+Decimal,Name,Description,References
+1,id-hex-partial-message,,[RFC2157]
+2,id-hex-multipart-message (OBSOLETE),,[RFC2157]
+3,id-hex-multipart-message-v2,,[RFC2157]

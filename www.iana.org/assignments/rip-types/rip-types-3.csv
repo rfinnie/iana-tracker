@@ -1,0 +1,7 @@
+Value,Description,Reference,Notes
+0,"assigned but, unspecified. Associated full route  
+table exchange",[RFC1058],
+1,Unassigned,,
+2,IP,[RFC1058],
+3-65534,Unassigned,,
+65535,Authentication present,[RFC1388],This is represented in hex as 0xFFFF in Section 3.1

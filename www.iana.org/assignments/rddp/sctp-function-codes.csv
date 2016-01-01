@@ -1,0 +1,10 @@
+SCTP Function Code,SCTP Function Name,Reference
+0x0001,DDP Stream Session Initiate,[RFC5043]
+0x0002,DDP Stream Session Accept,[RFC5043]
+0x0003,DDP Stream Session Reject,[RFC5043]
+0x0004,DDP Stream Session Terminate,[RFC5043]
+0x0005,Enhanced DDP Stream Session Initiate,[RFC6581]
+0x0006,Enhanced DDP Stream Session Accept,[RFC6581]
+0x0007,Enhanced DDP Stream Session Reject,[RFC6581]
+0x0008-0xFFFE,Unassigned,
+0xFFFF,Reserved (Experimental),[RFC6580]

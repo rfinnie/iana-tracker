@@ -1,0 +1,8 @@
+CSLD Type,Description,Reference
+0,Reserved,[RFC6812]
+1,Authentication CSLD,[RFC6812]
+2,UDP-Measurement,[RFC6812]
+3-52,Reserved,[RFC6812]
+53-10239,Unassigned,
+10240-20479,Private Use,[RFC6812]
+20480-65535,Experimental Use,[RFC6812]

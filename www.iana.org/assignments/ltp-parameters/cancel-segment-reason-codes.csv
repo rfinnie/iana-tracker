@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Client service canceled session,[RFC5326]
+1,Unreachable client service,[RFC5326]
+2,Retransmission limit exceeded,[RFC5326]
+3,Miscolored data received,[RFC5326]
+4,System error caused termination,[RFC5326]
+5,Retransmission limit exceeded,[RFC5326]
+6-255,Unassigned,

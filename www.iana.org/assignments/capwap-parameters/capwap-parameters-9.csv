@@ -1,0 +1,5 @@
+CAPWAP Transport Protocol Type,Type Value,Reference
+Reserved,0,[RFC5415]
+UDP-Lite,1,[RFC5415]
+UDP,2,[RFC5415]
+Unassigned,3-255,

@@ -1,0 +1,16 @@
+Code,Description,Reference
+0,Handover Accepted or Successful (when 'P' flag is set),[RFC5949]
+0,Handover Accepted with NCoA valid,[RFC5568]
+1,"Handover Accepted, NCoA not valid",[RFC5568]
+2,"Handover Accepted, NCoA assigned",[RFC5568]
+3,"Handover Accepted, use PCoA",[RFC5568]
+4,Message sent unsolicited,[RFC5568]
+5,Context Transfer Accepted or Successful,[RFC5949]
+6,All available Context Transferred,[RFC5949]
+7-127,Unassigned,
+128,"Handover Not Accepted, reason unspecified",[RFC5568]
+129,Administratively prohibited,[RFC5568]
+130,Insufficient resources,[RFC5568]
+131,Requested Context Not Available,[RFC5949]
+132,Forwarding Not Available,[RFC5949]
+133-255,Unassigned,

@@ -1,0 +1,3 @@
+Decimal,Name,Description,References
+0,RESERVED,,[IANA]
+1,spd-module,SPD Module,[RFC4301]

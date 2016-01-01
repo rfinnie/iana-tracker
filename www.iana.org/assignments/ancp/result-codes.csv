@@ -1,0 +1,33 @@
+Code,Description,Reference
+0x0,No result,[RFC6320]
+0x1,Unassigned,
+0x2,Invalid request message,[RFC6320]
+0x3-0x5,Unassigned,
+0x6,One or more of the specified ports are down,[RFC6320]
+0x7-0x12,Unassigned,
+0x13,Out of resources,[RFC6320]
+0x14-0x50,Unassigned,
+0x51,Request message type not implemented,[RFC6320]
+0x52,Unassigned,
+0x53,Malformed message,[RFC6320]
+0x54,Mandatory TLV missing,[RFC6320]
+0x55,Invalid TLV contents,[RFC6320]
+0x56-0x63,Unassigned,
+0x64,Command error.,[RFC7256]
+0x65,Invalid flow address.,[RFC7256]
+0x66,Multicast flow does not exist.,[RFC7256]
+0x67,Invalid preferred bandwidth amount.,[RFC7256]
+0x68,Inconsistent views of delegated bandwidth amount.,[RFC7256]
+0x69,Bandwidth request conflict.,[RFC7256]
+0x6A-0x495,Unassigned,
+0x500,One or more of the specified ports do not exist,[RFC6320]
+0x501,Loopback test timed out,[RFC6320]
+0x502,Reserved,[RFC6320]
+0x503,DSL line status showtime,[RFC6320]
+0x504,DSL line status idle,[RFC6320]
+0x505,DSL line status silent,[RFC6320]
+0x506,DSL line status training,[RFC6320]
+0x507,DSL line integrity error,[RFC6320]
+0x508,DSLAM resource not available,[RFC6320]
+0x509,Invalid test parameter,[RFC6320]
+0x50A-0xFFFFFF,Unassigned,

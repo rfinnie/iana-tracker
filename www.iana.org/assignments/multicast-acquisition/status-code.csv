@@ -1,0 +1,16 @@
+Code,Description,Reference
+0,A private status code is included in the message,[RFC6332]
+1,Multicast join was successful,[RFC6332]
+2,Multicast join has failed,[RFC6332]
+3,A presentation error has occurred,[RFC6332]
+4,An unspecified RTP receiver internal error has occurred,[RFC6332]
+5-1000,Unassigned,
+1001,RAMS has been successfully completed,[RFC6332]
+1002,No RAMS-R message has been sent,[RFC6332]
+1003,Invalid RAMS-I message syntax,[RFC6332]
+1004,RAMS-I message has timed out,[RFC6332]
+1005,RAMS unicast burst has timed out,[RFC6332]
+1006,An unspecified RTP receiver internal error has occurred during RAMS,[RFC6332]
+1007,A presentation error has occurred during RAMS,[RFC6332]
+1008-65534,Unassigned,
+65535,Reserved,[RFC6332]

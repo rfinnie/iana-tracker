@@ -1,0 +1,4 @@
+Value,Name,Description,Reference
+0x01,Trunk Meta Frame,Indicates that frame is a trunk meta frame.,[RFC5457]
+0x02,T.38 Primary IFP frame,,[Kevin_P._Fleming]
+0x03-0x7F,Unassigned,,

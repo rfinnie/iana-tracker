@@ -1,0 +1,5 @@
+Channel Type,Reference,Note
+session,[RFC4254],Section 6.1
+x11,[RFC4254],Section 6.3.2
+forwarded-tcpip,[RFC4254],Section 7.2
+direct-tcpip,[RFC4254],Section 7.2

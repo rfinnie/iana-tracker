@@ -1,0 +1,4 @@
+Number,Meaning,Reference
+0,a hashed public key,[RFC6698]
+1,a URI,[RFC3986]
+2,"an unformatted string, at the user's/UA's whim",[RFC7486]

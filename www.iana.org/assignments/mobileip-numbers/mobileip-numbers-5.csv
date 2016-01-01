@@ -1,0 +1,5 @@
+Subtype Value,Name,Reference
+1,MN-AAA Authentication subtype,[RFC4721]
+2,FA-FA authentication,[RFC4857]
+3,MN-GFA authentication,[RFC4857]
+4,MN-PAR Auth Extension,[RFC4988]

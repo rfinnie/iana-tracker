@@ -1,0 +1,9 @@
+Type,Description,Reference
+0,Reserved,[RFC6003]
+1,Reserved,[RFC6003]
+2,Ethernet Bandwidth Profile,[RFC6003]
+3,Layer 2 Control Protocol (L2CP),[RFC6003]
+4-239,Unassigned,
+240-254,Reserved for Vendor-Specific Use,[RFC6003]
+255,Reserved,[RFC6003]
+256-65535,Not assigned at this time,[RFC6003]

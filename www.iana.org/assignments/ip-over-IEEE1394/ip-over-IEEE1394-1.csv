@@ -1,0 +1,5 @@
+Value,Description,Reference
+0x00 0000,Reserved,[RFC2734]
+0x00 0001,IPv4 over IEEE 1394,[RFC2734]
+0x00 0002,IPv6 over IEEE 1394,[RFC3146]
+0xFF FFFF,Reserved,[RFC2734]

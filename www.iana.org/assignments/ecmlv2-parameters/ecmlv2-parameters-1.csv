@@ -1,0 +1,13 @@
+Designation,Description,Reference
+AMER,American Express,[RFC4112]
+BANK,Bankcard (Australia),[RFC4112]
+DC,DC (Japan),[RFC4112]
+DINE,Diners Club,[RFC4112]
+DISC,Discover,[RFC4112]
+JCB,JCB,[RFC4112]
+MAST,Mastercard,[RFC4112]
+NIKO,Nikos (Japan),[RFC4112]
+SAIS,Saison (Japan),[RFC4112]
+UC,UC (Japan),[RFC4112]
+UCAR,UCard (Taiwan),[RFC4112]
+VISA,Visa,[RFC4112]

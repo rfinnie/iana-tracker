@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Routing metric is additive,[RFC6551]
+1,Routing metric reports a maximum,[RFC6551]
+2,Routing metric reports a minimum,[RFC6551]
+3,Routing metric is multiplicative,[RFC6551]
+4-7,Unassigned,

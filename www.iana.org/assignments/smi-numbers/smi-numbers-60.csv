@@ -1,0 +1,10 @@
+Decimal,Name,Description,References
+1,snmpUDPDomain,SNMP over UDP,[RFC3417]
+2,snmpCLNSDomain,SNMP over CLNS,[RFC3417]
+3,snmpCONSDomain,SNMP over CONS,[RFC3417]
+4,snmpDDPDomain,SNMP over DDP,[RFC3417]
+5,snmpIPXDomain,SNMP over IPX,[RFC3417]
+6,snmpIeee802Domain,SNMP over IEEE 802,[RFC4789]
+7,snmpSSHDomain,SNMP over SSH Transport Model,[RFC5592]
+8,snmpTLSTCPDomain,SNMP over TLS via TCP,[RFC6353]
+9,snmpDTLSUDPDomain,SNMP over DTLS via UDP,[RFC6353]

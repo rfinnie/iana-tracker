@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC3411]
+1,usmNoPrivProtocol - no privacy,[RFC3414]
+2,usmDESPrivProtocol - CBC-DES,[RFC3414]
+3,Reserved,
+4,usmAesCfb128Protocol - AES-CFB-128,[RFC3826]

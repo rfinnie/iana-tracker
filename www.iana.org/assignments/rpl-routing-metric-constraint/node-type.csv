@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,a mains-powered node,[RFC6551]
+1,a battery-powered node,[RFC6551]
+2,a node powered by an energy scavenger,[RFC6551]
+3,Unassigned,

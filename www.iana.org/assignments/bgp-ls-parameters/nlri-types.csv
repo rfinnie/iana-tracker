@@ -1,0 +1,7 @@
+Type,NLRI Type,Reference
+0,Reserved,[RFC-ietf-idr-ls-distribution-13]
+1,Node NLRI,[RFC-ietf-idr-ls-distribution-13]
+2,Link NLRI,[RFC-ietf-idr-ls-distribution-13]
+3,IPv4 Topology Prefix NLRI,[RFC-ietf-idr-ls-distribution-13]
+4,IPv6 Topology Prefix NLRI,[RFC-ietf-idr-ls-distribution-13]
+5-65535,Unassigned,

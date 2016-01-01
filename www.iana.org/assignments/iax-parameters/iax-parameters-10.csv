@@ -1,0 +1,15 @@
+Value,Description,Reference
+0x00,Unknown,[RFC5457]
+0x01-0x0F,Unassigned,
+0x10,International Number,[RFC5457]
+0x11-0x1F,Unassigned,
+0x20,National Number,[RFC5457]
+0x21-0x2F,Unassigned,
+0x30,Network Specific Number,[RFC5457]
+0x31-0x3F,Unassigned,
+0x40,Subscriber Number,[RFC5457]
+0x41-0x5F,Unassigned,
+0x60,Abbreviated Number,[RFC5457]
+0x61-0x6F,Unassigned,
+0x70,Reserved for extension,[RFC5457]
+0x71-0xFF,Unassigned,

@@ -1,0 +1,5 @@
+Value,Description,Reference
+1,RADIUS,[RFC2866]
+2,Local,[RFC2866]
+3,Remote,[RFC2866]
+4,Diameter,[Pat_Calhoun]

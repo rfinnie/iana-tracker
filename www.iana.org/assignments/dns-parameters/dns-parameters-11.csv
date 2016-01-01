@@ -1,0 +1,18 @@
+Value,Name,Status,Reference
+0,Reserved,,[RFC6891]
+1,LLQ,On-hold,[http://files.dns-sd.org/draft-sekar-dns-llq.txt]
+2,UL,On-hold,[http://files.dns-sd.org/draft-sekar-dns-ul.txt]
+3,NSID,Standard,[RFC5001]
+4,Reserved,,[draft-cheshire-edns0-owner-option]
+5,DAU,Standard,[RFC6975]
+6,DHU,Standard,[RFC6975]
+7,N3U,Standard,[RFC6975]
+8,edns-client-subnet,Optional,[draft-vandergaast-edns-client-subnet][Wilmer_van_der_Gaast]
+9,EDNS EXPIRE,Optional,[RFC7314]
+10,COOKIE,Standard,[draft-ietf-dnsop-cookies]
+11,edns-tcp-keepalive,Optional,[draft-ietf-dnsop-edns-tcp-keepalive]
+12,Padding,Optional,[draft-mayrhofer-edns0-padding]
+13,CHAIN,Optional,[draft-ietf-dnsop-edns-chain-query]
+14-65000,Unassigned,,
+65001-65534,Reserved for Local/Experimental Use,,[RFC6891]
+65535,Reserved for future expansion,,[RFC6891]

@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC4940]
+1,Point-to-Point connection to another router,[RFC2328]
+2,Transit Network,[RFC2328]
+3,Stub Network,[RFC2328]
+4,Virtual Link,[RFC2328]

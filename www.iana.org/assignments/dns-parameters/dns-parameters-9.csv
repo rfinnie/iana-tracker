@@ -1,0 +1,12 @@
+Identifier Type Code,Identifier,Reference
+0x0000,"The 1-octet 'htype' followed by 'hlen' octets     
+of 'chaddr' from a DHCPv4 client's DHCPREQUEST.",[RFC4701]
+0x0001,"The data octets (i.e., the Type and               
+Client-Identifier fields) from a DHCPv4
+client's Client Identifier option.",[RFC4701]
+0x0002,"The client's DUID (i.e., the data octets of a     
+DHCPv6 client's Client Identifier option
+or the DUID field from a DHCPv4 client's
+Client Identifier option).",[RFC4701]
+0x0003-0xFFFE,Unassigned,[RFC4701]
+0xFFFF,Reserved,[RFC4701]

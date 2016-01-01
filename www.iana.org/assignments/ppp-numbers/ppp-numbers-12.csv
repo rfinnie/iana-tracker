@@ -1,0 +1,8 @@
+Operation,Description,Reference
+0,Location determined by user authentication,[RFC1570]
+1,Dialing string,[RFC1570]
+2,Location identifier,[RFC1570]
+3,E.164 number,[RFC1570]
+4,X.500 distinguished name,[RFC1570]
+5,Unassigned,
+6,Location is determined during CBCP negotiation,

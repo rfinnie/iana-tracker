@@ -1,0 +1,8 @@
+Value,Description,Reference
+1,Request,[RFC3748]
+2,Response,[RFC3748]
+3,Success,[RFC3748]
+4,Failure,[RFC3748]
+5,Initiate,[RFC6696]
+6,Finish,[RFC6696]
+7-255,Unassigned,

@@ -1,0 +1,10 @@
+Value,Peer-Class,Reference
+1,Reserved for legacy implementations.,[RFC2097]
+2,PPP NetBIOS Gateway Server.,[RFC2097]
+3,Reserved for legacy implementations.,[RFC2097]
+4,PPP Local Access Only Server.,[RFC2097]
+5,Reserved for legacy implementations.,[RFC2097]
+6,PPP NBF Bridge.,[RFC2097]
+7,Reserved for legacy implementations.,[RFC2097]
+8,PPP End-System.,[RFC2097]
+9-255,Unassigned,

@@ -1,0 +1,10 @@
+Value (Hex),Result Codes for Added field,Reference
+00,Name successfully added.,[RFC2097]
+0D,Duplicate name in local name table.,[RFC2097]
+0E,Name table full.,[RFC2097]
+15,"Name not found or cannot specify ""*"" or null.",[RFC2097]
+16,Name in use on remote NetBIOS.,[RFC2097]
+19,Name conflict detected.,[RFC2097]
+30,Name defined by another environment.,[RFC2097]
+35,Required system resources exhausted.,[RFC2097]
+36-FF,Undefined,

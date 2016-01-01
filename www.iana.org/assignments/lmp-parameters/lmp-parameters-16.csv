@@ -1,0 +1,8 @@
+C-Type,Description,Reference
+0,Reserved,
+1,IPv4 DATA_LINK,[RFC4204]
+2,IPv6 DATA_LINK,[RFC4204]
+3,Unnumbered DATA_LINK,[RFC4204]
+4-111,Unassigned (Standards Action),
+12-119,Unassigned (Expert Review),
+20-127,Private Use,

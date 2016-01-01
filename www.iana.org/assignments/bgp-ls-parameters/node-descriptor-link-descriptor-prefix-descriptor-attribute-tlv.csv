@@ -1,0 +1,116 @@
+TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
+0-255,Reserved,,[RFC-ietf-idr-ls-distribution-13]
+256,Local Node Descriptors,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.2
+      ]"
+257,Remote Node Descriptors,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.3
+      ]"
+258,Link Local/Remote Identifiers,22/4,"[
+        RFC5307, Section 1.1
+      ]"
+259,IPv4 interface address,22/6,"[
+        RFC5305, Section 3.2
+      ]"
+260,IPv4 neighbor address,22/8,"[
+        RFC5305, Section 3.3
+      ]"
+261,IPv6 interface address,22/12,"[
+        RFC6119, Section 4.2
+      ]"
+262,IPv6 neighbor address,22/13,"[
+        RFC6119, Section 4.3
+      ]"
+263,Multi-Topology ID,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.5
+      ]"
+264,OSPF Route Type,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.3
+      ]"
+265,IP Reachability Information,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.3
+      ]"
+266-511,Unassigned,,
+512,Autonomous System,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
+      ]"
+513,BGP-LS Identifier,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
+      ]"
+514,OSPF Area ID,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
+      ]"
+515,IGP Router-ID,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
+      ]"
+516-1023,Unassigned,,
+1024,Node Flag Bits,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.1
+      ]"
+1025,Opaque Node Properties,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.5
+      ]"
+1026,Node Name,variable,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.3
+      ]"
+1027,IS-IS Area Identifier,variable,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.2
+      ]"
+1028,IPv4 Router-ID of Local Node,134/---,"[
+        RFC5305, Section 4.3
+      ]"
+1029,IPv6 Router-ID of Local Node,140/---,"[
+        RFC6119, Section 4.1
+      ]"
+1030,IPv4 Router-ID of Remote Node,134/---,"[
+        RFC5305, Section 4.3
+      ]"
+1031,IPv6 Router-ID of Remote Node,140/---,"[
+        RFC6119, Section 4.1
+      ]"
+1032-1087,Unassigned,,
+1088,Administrative group (color),22/3,"[
+        RFC5305, Section 3.1
+      ]"
+1089,Maximum link bandwidth,22/9,"[
+        RFC5305, Section 3.3
+      ]"
+1090,Max. reservable link bandwidth,22/9,"[
+        RFC5305, Section 3.5
+      ]"
+1091,Unreserved bandwidth,22/11,"[
+        RFC5305, Section 3.6
+      ]"
+1092,TE Default Metric,22/18,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.3
+      ]"
+1093,Link Protection Type,22/20,"[
+        RFC5307, Section 1.2
+      ]"
+1094,MPLS Protocol Mask,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.2
+      ]"
+1095,IGP Metric,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.4
+      ]"
+1096,Shared Risk Link Group,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.5
+      ]"
+1097,Opaque link attribute,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.6
+      ]"
+1098,Link Name attribute,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.7
+      ]"
+1099-1151,Unassigned,,
+1152,IGP Flags,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.3.1
+      ]"
+1153,Route Tag,,[RFC5130]
+1154,Extended Tag,,[RFC5130]
+1155,Prefix Metric,,[RFC5305]
+1156,OSPF Forwarding Address,,[RFC2328]
+1157,Opaque Prefix Attribute,,"[
+        RFC-ietf-idr-ls-distribution-13, Section 3.3.3.6
+      ]"
+1158-65535,Unassigned,,

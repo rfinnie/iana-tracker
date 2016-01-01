@@ -1,0 +1,3 @@
+Name,Description,Reference,Notes
+bytes,a range of octets,[RFC7233],Section 2.1
+none,"reserved as keyword, indicating no ranges are supported",[RFC7233],Section 2.3

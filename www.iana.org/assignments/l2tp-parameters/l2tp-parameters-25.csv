@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Reserved,[RFC4454]
+1,No Alarm type specified (default),[RFC4454]
+2,Alarm Indication Signal (AIS),[RFC4454]
+3,Remote Defect Indicator (RDI),[RFC4454]
+4,Loss of Signal (LOS),[RFC4454]
+5,Loss of pointer (LOP),[RFC4454]
+6,Loss of framer (LOF),[RFC4454]
+7,loopback cells (LB),[RFC4454]
+8,Continuity Check (CC),[RFC4454]

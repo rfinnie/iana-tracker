@@ -1,0 +1,13 @@
+Value,Type,Reference
+0x00,Reserved,[RFC6693]
+0x01,Hello TLV,[RFC6693]
+0x02,Error TLV,[RFC6693]
+0x03-0x9F,Unassigned,
+0xA0,RIB dictionary TLV,[RFC6693]
+0xA1,RIB TLV,[RFC6693]
+0xA2,Bundle Offer (deprecated),[RFC6693]
+0xA3,Bundle Response (deprecated),[RFC6693]
+0xA4,Bundle Offer (v2),[RFC6693]
+0xA5,Bundle Response (v2),[RFC6693]
+0xA6-0xCF,Unassigned,
+0xD0-0xFF,Reserved for Private/Experimental Use,[RFC6693]

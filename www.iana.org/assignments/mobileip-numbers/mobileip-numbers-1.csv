@@ -1,0 +1,23 @@
+Value,Message Types,Reference
+1,Registration Request,[RFC5944]
+2,Unassigned,
+3,Registration Reply,[RFC5944]
+4,Tunnel Data,[RFC3519]
+5-6,Unassigned,
+7,Registration Revocation,[RFC3543]
+8-14,Unassigned,
+15,Revocation Acknowledgment,[RFC3543]
+16,Handoff Request,[RFC4881]
+17,Handoff Reply,[RFC4881]
+18,Regional Registration Request,[RFC4857]
+19,Regional Registration Reply,[RFC4857]
+20,Fast Binding Update (FBU),[RFC4988]
+21,Fast Binding Acknowledgment (FBAck),[RFC4988]
+22,Generic Notification,[RFC6098]
+23,Generic Notification Acknowledgement,[RFC6098]
+24,Home Test Init message,[RFC6521]
+25,Care-of Test Init message,[RFC6521]
+26,Home Test message,[RFC6521]
+27,Care-of Test message,[RFC6521]
+28-254,Unassigned,
+255,Message for Experimental use,[RFC4064]

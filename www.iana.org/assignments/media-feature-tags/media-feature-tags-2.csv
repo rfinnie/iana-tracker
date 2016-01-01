@@ -1,0 +1,95 @@
+Decimal,Name,Description,Reference
+1,g.3gpp.cs-voice,"This feature-tag indicates that        
+the device supports circuit switched
+voice when combining circuit switched
+calls and IM sessions.",[ETSI TS 124 279][John_M_Meredith]
+2,g.3gpp.cs-video,"This feature-tag indicates that        
+the device supports circuit switched
+video when combining circuit switched
+video calls and IM sessions.",[ETSI TS 124 279][John_M_Meredith]
+3,g.3gpp.smsip,"This feature-tag indicates that        
+the device is capable of accepting
+SMS messages via SIP as specified by
+ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
+4,g.3gpp.icsi-ref,"Each value of the
+        Service Reference media feature-tag indicates the software applications
+        supported by the agent. The values for this tag equal the IMS
+        communication Service Identifier (ICSI) values supported by the agent. The Service Reference media feature tag is defined to fulfil the
+        requirements for forking to an appropriate UE when multiple UEs are
+        registered and dispatch to an appropriate application within the UE
+        based upon the IMS communication Service Identifier (ICSI) values as
+        stated in 3GPP TS 23.228.",[3GPP TS 24.229][Frederic_Firmin]
+5,g.3gpp.iari-ref,"Each value of the
+        Application Reference media feature-tag indicates the software
+        applications supported by the agent. The values for this tag equal IMS
+        Application Reference Identifier (IARI) values supported by the agent
+        The Application Reference media feature tag is defined to fulfil the
+        requirements for forking to an appropriate UE when multiple UEs are
+        registered and dispatch to an appropriate application within the UE
+        based upon and IMS Application Reference Identifier (IARI) values as
+        stated in 3GPP TS 23.228.",[3GPP TS 24.229][Frederic_Firmin]
+6,g.3gpp.ics,"This feature-tag
+        when used in a SIP REGISTER request indicates that the function is ICS
+        capability and may operate in ICS mode. This feature-tag when used is a
+        none SIP REGISTER method indicates that the function wants to invoke ICS
+        functionality.",[3GPP TS 24.292][Frederic_Firmin]
+7,g.3gpp.accesstype,"This feature-tag when used in a SIP REGISTER request indicates access network technology
+        used by the device and the particular registration flow that the device
+        is using to register over.",[3GPP TS 24.292][Frederic_Firmin]
+8,g.3gpp.pne-id,"This media feature-tag when used in a SIP request or a SIP response indicates the
+        identifier of a PNE other than a UE.",[3GPP TS 24.259][Frederic_Firmin]
+9,g.3gpp.iut-controller,"This media feature-tag when used in a SIP request or a SIP response indicates that
+        the function sending the SIP message supports the IUT Controller
+        functionality.This media feature tag does not imply that the controller
+        UE capabilities are handled in the same protocol manner.",[3GPP TS 24.337][Frederic_Firmin]
+10,g.3gpp.iut-focus,"This media feature-tag when used in a Contact header field or a Accept-Contact 
+        header field of a SIP request or a SIP response indicates that the function sending the SIP 
+        message supports anchoring a IUT session and/or the SIP message is an inter-UE transfer 
+        operation.",[3GPP TS 24.337][Frederic_Firmin]
+11,g.3gpp.current-iut-controller,"This media feature-tag when used in a Contact header field of SIP request or SIP 
+        response indicates that the UA is the currently active IUT controller for the collaborative 
+        session or is a controllee in the collaborative. The values of the feature tag are ""active"" 
+        and ""passive"".",[3GPP TS 24.337][Frederic_Firmin]
+12,g.3gpp.mid-call,"This feature-tag when used in a SIP request or a SIP response indicates that the 
+        function sending the SIP message supports the MSC server assisted mid-call feature.",[3GPP TS 24.237][Frederic_Firmin]
+13,g.3gpp.srvcc-alerting,"This media feature-tag when used in a Contact header field of a SIP request or a 
+        SIP response indicates that the functional entity sending the SIP message supports SRVCC 
+        access transfer for calls in alerting phase, i.e. for calls whith early dialog.",[3GPP TS 24.237][Frederic_Firmin]
+14,g.3gpp.cs2ps-srvcc-alerting,"This media feature-tag when used in a Contact header field of a SIP request or a 
+        SIP response indicates that the functional entity sending the SIP message supports CS to PS 
+        SRVCC access transfer for calls in alerting phase.",[3GPP TS 24.237 11.10.0][Frederic_Firmin]
+15,g.3gpp.path,"This media feature tag when used in a Contact header field in SIP REGISTER request 
+        or SIP response to the SIP REGISTER request indicates capability of identifying the registration 
+        path and binding SRVCC related information to it.",[3GPP TS 24.237 11.10.0][Frederic_Firmin]
+16,g.3gpp.cs2ps-srvcc,"This media feature tag when included in Contact header field indicates support of the 
+        CS to PS single radio voice call continuity as specified in 3GPP TS 24.237.",[3GPP TS 24.237 11.10.0][Frederic_Firmin]
+17,g.3gpp.pstops-sti,"This media feature-tag when used in a Contact header field of a SIP request or a 
+        SIP response indicates that the functional entity sending the SIP message supports the use of 
+        the PS to PS STI URI.",[3GPP TS 24.237 11.10.0][Frederic_Firmin]
+18,g.3gpp.ti,"This media feature tag when used in a Contact header field as 
+        specified in IETF RFC 3840 in SIP INVITE request or SIP response to the 
+        SIP INVITE request indicates the capability of associating a CS call 
+        with dialog created by the SIP INVITE request.",[3GPP TS 24.237 11.10.0][Frederic_Firmin]
+19,g.3gpp.drvcc-alerting,"This media feature-tag when used in a Contact header field of a 
+        SIP request or a SIP response indicates that the functional entity sending 
+        the SIP message supports the PS to CS dual radio access transfer for calls 
+        in alerting phase.",[3GPP TS 24.237 12.8.0][Frederic_Firmin]
+20,g.3gpp.dynamic-stn,"This media feature-tag when used in a Contact header field of 
+        a SIP request or a SIP response indicates that the functional entity 
+        sending the SIP message supports the use of dynamic STN.",[3GPP TS 24.237 12.8.0][Frederic_Firmin]
+21,g.3gpp.ps2cs-drvcc-orig-pre-alerting,"This media feature-tag when used in a Contact header field of 
+        a SIP request or a SIP response indicates that the functional entity 
+        sending the SIP message supports the PS to CS dual radio access transfer 
+        for originating calls in pre-alerting phase.",[3GPP TS 24.237 12.8.0][Frederic_Firmin]
+22,g.3gpp.ps2cs-srvcc-orig-pre-alerting,"This media feature tag when used in a Contact header field of 
+        a SIP request or a SIP response indicates that the functional entity 
+        sending the SIP message supports the PS to CS SRVCC for originating 
+        calls in pre-alerting phase.",[3GPP TS 24.237 12.8.0][Frederic_Firmin]
+23,g.3gpp.cs2ps-drvcc-alerting,"This media feature-tag, when used in a Contact header field 
+        of a SIP request or a SIP response, indicates that the functional entity 
+        sending the SIP message supports the CS to PS dual radio access transfer 
+        for calls in alerting phase.",[3GPP TS 24.237 v12.9.0][Frederic_Firmin]
+24,g.3gpp.cs2ps-drvcc-orig-pre-alerting,"This media feature-tag when used in a Contact header field 
+        of a SIP request or a SIP response indicates that the functional entity 
+        sending the SIP message supports the CS to PS dual radio access transfer 
+        for originating calls in pre-alerting phase.",[3GPP TS 24.237 v12.9.0][Frederic_Firmin]

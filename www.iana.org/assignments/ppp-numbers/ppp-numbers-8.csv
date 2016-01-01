@@ -1,0 +1,10 @@
+SDCP Option,Configuration Element,Reference
+1,Packet-Format,[RFC1963]
+2,Header-Type,[RFC1963]
+3,Length-Field-Present,[RFC1963]
+4,Multi-Port,[RFC1963]
+5,Transport-Mode,[RFC1963]
+6,Maximum-Frame-Size,[RFC1963]
+7,Allow-Odd-Frames,[RFC1963]
+8,FCS-Type,[RFC1963]
+9,Flow-Expiration-Time,[RFC1963]

@@ -1,0 +1,5 @@
+Value,Identifier,Reference
+0,Reserved,[RFC5770]
+1,UDP-ENCAPSULATION,[RFC5770]
+2,ICE-STUN-UDP,[RFC5770]
+3-65535,Unassigned,

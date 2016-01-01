@@ -1,0 +1,5 @@
+Number,Description,Reference
+0,TCP Checksum,[RFC1146]
+1,8-bit Fletchers's algorithm,[RFC1146]
+2,16-bit Fletchers's algorithm,[RFC1146]
+3,Redundant Checksum Avoidance,[J_Kay]

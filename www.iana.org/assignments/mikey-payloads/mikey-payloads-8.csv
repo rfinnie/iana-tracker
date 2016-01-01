@@ -1,0 +1,7 @@
+Value,Encr Alg,Section in Document,Reference
+0,NULL,4.2.3,[RFC3830]
+1,AES-CM-128,4.2.3,[RFC3830]
+2,AES-KW-128,4.2.3,[RFC3830]
+3,AES-CM-256,6.2,[RFC6043]
+4-240,Unassigned,,
+241-255,Reserved for Private Use,,

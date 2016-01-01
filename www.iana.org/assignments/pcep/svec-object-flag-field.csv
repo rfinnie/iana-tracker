@@ -1,0 +1,7 @@
+Bit,Description,Reference
+0-18,Unassigned,
+19,Partial Path Diverse,[RFC6006]
+20,Link Direction Diverse,[RFC6006]
+21,SRLG Diverse,[RFC5440]
+22,Node Diverse,[RFC5440]
+23,Link Diverse,[RFC5440]

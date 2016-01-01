@@ -1,0 +1,5 @@
+Value,Description,Reference
+0x1,iSCSI control-type PDU,[RFC7145]
+0x2,iSER Hello Message,[RFC7145]
+0x3,iSER HelloReply Message,[RFC7145]
+0x4-0xf,Unassigned,

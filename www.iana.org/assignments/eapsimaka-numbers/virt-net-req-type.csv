@@ -1,0 +1,7 @@
+Value,Description,Reference
+0,Reserved,[RFC7458]
+1,Single PDN connection,[RFC7458]
+2,"Multiple PDN connection.  Can request Non-Seamless Wi-
+      Fi Offload or EPC connectivity (see the Connectivity Type
+      attribute below)",[RFC7458]
+3-127,Unassigned,

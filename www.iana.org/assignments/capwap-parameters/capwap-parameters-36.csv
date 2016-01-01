@@ -1,0 +1,6 @@
+IEEE 802.11 Encryption Capabilities,Bit Position,Reference
+Unassigned,0-11,
+AES-CCMP,12,[RFC5416]
+TKIP and Michael,13,[RFC5416]
+WPI-SMS4 Algorithm,14,[China_BWIPS]
+Unassigned,15,

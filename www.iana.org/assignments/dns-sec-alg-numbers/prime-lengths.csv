@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Unassigned,
+1,index into well-known table,[RFC2539]
+2,index into well-known table,[RFC2539]
+3-15,Unassigned,

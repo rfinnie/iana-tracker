@@ -1,0 +1,6 @@
+MA Method,Description,Reference
+0,Reserved,[RFC6332]
+1,Simple join (No explicit method),[RFC6332]
+2,RAMS,[RFC6285]
+3-254,Unassigned,
+255,Reserved,[RFC6332]

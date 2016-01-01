@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,None,[RFC6830]
+1,HMAC-SHA-1-96,[RFC6830]
+2,HMAC-SHA-256-128,[RFC6830]
+3-65535,Unassigned,

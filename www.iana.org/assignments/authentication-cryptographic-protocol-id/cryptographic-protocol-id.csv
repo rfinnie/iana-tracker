@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC7166]
+1,OSPFv3,[RFC7166]
+2,LDP Cryptographic Protocol ID,[RFC7349]
+3,OSPFv2,[RFC7474]
+4-65535,Unassigned,

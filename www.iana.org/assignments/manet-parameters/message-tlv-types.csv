@@ -1,0 +1,10 @@
+Type,Description,Reference
+0,Defined by Type Extension,[RFC5497]
+1,Defined by Type Extension,[RFC5497]
+2-4,Unassigned,
+5,ICV,[RFC7182]
+6,TIMESTAMP,[RFC7182]
+7,Defined by Type Extension,[RFC7181]
+8,Defined by Type Extension,[RFC7181]
+9-223,Unassigned,
+224-255,Reserved for Experimental Use,[RFC5444]

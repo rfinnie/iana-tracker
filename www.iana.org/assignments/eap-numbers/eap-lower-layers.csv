@@ -1,0 +1,12 @@
+Value,Lower Layer,Reference
+0,Reserved,[RFC6677]
+1,Wired IEEE 802.1X,[RFC6677]
+2,IEEE 802.11 (no-pre-auth),[RFC6677]
+3,IEEE 802.11 (pre-authentication),[RFC6677]
+4,IEEE 802.16e,[RFC6677]
+5,IKEv2,[RFC6677]
+6,PPP,[RFC6677]
+7,PANA (no pre-authentication),[RFC5191][RFC6677]
+8,GSS-API,[RFC7055][RFC6677]
+9,PANA (pre-authentication),[RFC5873][RFC6677]
+10-255,Unassigned,

@@ -1,0 +1,5 @@
+Value,Name,Reference
+201,Expired Home nonce Index,[RFC6521]
+202,Expired Care-of nonce Index,[RFC6521]
+203,Expired nonces,[RFC6521]
+204-210,Unassigned,

@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,"(Unused to allow the direct mapping of        
+parameter names to MIB object names)",[RFC2216]
+1,Generic,[RFC2215]
+2,Guaranteed service,[RFC2212]
+3-4,Unassigned,
+5,Controlled-load service,[RFC2211]
+6-127,Unassigned,
+128-254,Experimental or private services,[RFC2216]
+255,Reserved for future expansion,[RFC2216]

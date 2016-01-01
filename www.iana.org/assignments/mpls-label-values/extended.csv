@@ -1,0 +1,6 @@
+Value,Description,Reference
+0-15,Reserved. Never to be made available for allocation.,[RFC7274]
+16-239,Unassigned,
+240-255,Reserved for Experimental Use,[RFC7274]
+256-1048575,"Reserved. Not to be made available for allocation without a new Standards Track 
+        RFC to define an allocation policy.",[RFC7274]

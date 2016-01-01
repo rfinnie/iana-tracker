@@ -1,0 +1,6 @@
+Subtype Value,Name,Reference
+0,Reserved,[RFC6521]
+1,Route Optimization Reply,[RFC6521]
+2,Mobile-Correspondent Authentication,[RFC6521]
+3,Care-of Address,[RFC6521]
+4-255,Unassigned,

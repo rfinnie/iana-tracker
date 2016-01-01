@@ -1,0 +1,9 @@
+Identifier,Reference
+rsa-hex,[RFC2792]
+rsa-base64,[RFC2792]
+dsa-hex,[RFC2792]
+dsa-base64,[RFC2792]
+binary-hex,[RFC2792]
+binary-base64,[RFC2792]
+x509-hex,[RFC5708]
+x509-base64,[RFC5708]

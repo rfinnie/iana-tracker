@@ -1,0 +1,5 @@
+Type Extension,Name,Description,Reference
+0,INTERVAL_TIME,"The maximum time before another message of the same 
+        type as this message from the same originator should be received",[RFC5497]
+1-223,,Unassigned,
+224-255,,Reserved for Experimental Use,[RFC5497]

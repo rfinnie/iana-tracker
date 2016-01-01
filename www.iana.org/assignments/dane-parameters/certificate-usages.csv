@@ -1,0 +1,7 @@
+Value,Acronym,Short Description,Reference
+0,PKIX-TA,CA constraint,[RFC6698]
+1,PKIX-EE,Service certificate constraint,[RFC6698]
+2,DANE-TA,Trust anchor assertion,[RFC6698]
+3,DANE-EE,Domain-issued certificate,[RFC6698]
+4-254,,Unassigned,
+255,PrivCert,Reserved for Private Use,[RFC6698]

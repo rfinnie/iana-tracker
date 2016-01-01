@@ -1,0 +1,9 @@
+Notification-type,Name,Notification-value,Reference
+0,Reserved,1-255: Reserved,[RFC5440]
+1,Pending Request cancelled,1: PCC cancels a set of pending requests,[RFC5440]
+,,2: PCE cancels a set of pending requests,[RFC5440]
+,,3-255: Unassigned,
+2,PCE Congestion,1: PCE in congested state,[RFC5440]
+,,2: PCE no longer in congested state,[RFC5440]
+,,3-255: Unassigned,
+3-255,Unassigned,1-255: Unassigned,

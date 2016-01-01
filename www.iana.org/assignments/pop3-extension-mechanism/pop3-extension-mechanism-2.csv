@@ -1,0 +1,9 @@
+Response Code,Response Types,Commands,Reference
+LOGIN-DELAY,-ERR,"USER[1], PASS, APOP, AUTH",[RFC2449]
+IN-USE,-ERR,"PASS, APOP, AUTH",[RFC2449]
+SYS/PERM,-ERR,All commands,[RFC3206]
+SYS/TEMP,-ERR,All commands,[RFC3206]
+AUTH,-ERR,"Any authentication command         
+including AUTH USER [2],
+PASS, or APOP.",[RFC3206]
+UTF8,-ERR,"LIST, TOP, RETR",[RFC6856]

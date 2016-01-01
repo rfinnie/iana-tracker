@@ -1,0 +1,5 @@
+Action,Status,Reference
+AUDIO,Current,[RFC5545] Section 3.8.6.1
+DISPLAY,Current,[RFC5545] Section 3.8.6.1
+EMAIL,Current,[RFC5545] Section 3.8.6.1
+PROCEDURE,Deprecated,[RFC2445] Section 4.8.6.1

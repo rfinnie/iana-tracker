@@ -1,0 +1,3 @@
+Compression Algorithm Name,Reference,Note
+none,[RFC4253],Section 6.2
+zlib,[RFC4253],Section 6.2

@@ -1,0 +1,12 @@
+Value,Name,Reference
+0x10,Unsupported,[RFC2910]
+0x11,Unassigned,
+0x12,unknown,[RFC2910]
+0x13,no-value,[RFC2910]
+0x14,Reserved (ipp-col),
+0x15,not-settable,[RFC3380]
+0x16,delete-attribute,[RFC3380]
+0x17,admin-define,[RFC3380]
+0x18,Reserved (ipp-prod-print),
+0x19,Reserved (ipp-prod-print),
+0x1A-0x1F,Unassigned,

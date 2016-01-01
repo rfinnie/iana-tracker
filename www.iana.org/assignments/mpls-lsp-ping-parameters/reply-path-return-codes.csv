@@ -1,0 +1,9 @@
+Value,Meaning,Reference
+0x0000,No return code,[RFC7110]
+0x0001,Malformed Reply Path TLV was received,[RFC7110]
+0x0002,One or more of the sub-TLVs in the Reply Path TLV were not understood,[RFC7110]
+0x0003,The echo reply was sent successfully using the specified Reply Path,[RFC7110]
+0x0004,"The specified Reply Path was not found, the echo reply was sent via other LSP",[RFC7110]
+0x0005,"The specified Reply Path was not found, the echo reply was sent via pure IP forwarding (non-MPLS) path",[RFC7110]
+0x0006-0xFFFB,Unassigned,[RFC7110]
+0xFFFC-0xFFFF,Reserved for Experimental Use,[RFC7110]

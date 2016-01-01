@@ -1,0 +1,4 @@
+Value,Protocol Version,Hash Algorithm,Reference
+0,01,Reserved,[RFC5848]
+1,01,SHA1,[RFC5848]
+2,01,SHA256,[RFC5848]

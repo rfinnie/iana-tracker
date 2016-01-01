@@ -1,0 +1,6 @@
+Method,Description,Reference
+0,No integrity protection,[RFC7574]
+1,Merkle Hash Tree,[RFC7574]
+2,Sign All,[RFC7574]
+3,Unified Merkle Tree,[RFC7574]
+4-255,Unassigned,

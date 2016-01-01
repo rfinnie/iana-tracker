@@ -1,0 +1,9 @@
+Bit,Menemonic,Description,Reference
+0,M4,IPv4 Multicast Router Attached,[RFC7176]
+1,M6,IPv6 Multicast Router Attached,[RFC7176]
+2,,Unassigned,
+3,ES,ESADI Participation,[RFC7357]
+4-15,,(used for a VLAN ID),[RFC7176]
+16,AA,VLANs for Active-Active,[RFC-ietf-trill-aa-multi-attach-06]
+17-19,,Unassigned,
+20-31,,(used for a VLAN ID),[RFC7176]

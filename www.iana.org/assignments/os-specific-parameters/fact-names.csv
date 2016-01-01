@@ -1,0 +1,28 @@
+OS Name,OS Specific Fact Name,Definition of the Syntax of the Fact Value,Specification of Semantics,Reference
+Unix,Unix.ctime,"""time-val"" from [RFC3659]","From IEEE Std 1003.1-2004 XBD 4.7 ""File Times Update"" [http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap04.html#tag_04_07]: 
+        ""st_ctime is associated with the times that the file status is changed.""
+        
+        This is clarified in the operations described throughout IEEE Std 
+        1003.1-2004 XSH 3 ""System Interfaces.""
+        
+        
+        Although IEEE Std 1003.1-2004 only considers st_ctime as having second 
+        resolution, platform-specific extensions exist that provide st_ctime 
+        semantics but with sub-second resolution.  Unix.ctime values from such 
+        platforms MAY use such finer-grain resolution.",[Paul_Millar]
+Unix,Unix.atime,"""time-val"" from [RFC3659]","From IEEE Std 1003.1-2004 XBD 4.7 ""File Times Update"" [http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap04.html#tag_04_07]: 
+        ""The st_atime field is associated with the times that the file data is accessed.""
+        
+        This is clarified in the operations described throughout IEEE Std 
+        1003.1-2004 XSH 3 ""System Interfaces.""
+        
+        
+        Although IEEE Std 1003.1-2004 only considers st_atime as having second 
+        resolution, platform-specific extensions exist that provide st_atime 
+        semantics but with sub-second resolution.  Unix.atime values from such 
+        platforms MAY use such finer-grain resolution.
+        
+        
+        For performance reasons, some platforms allow operations to delay or 
+        suppress updates to st_atime.  FTP servers on such platforms MAY refrain 
+        from publishing the Unix.atime fact.",[Paul_Millar]

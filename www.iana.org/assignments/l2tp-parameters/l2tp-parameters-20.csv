@@ -1,0 +1,17 @@
+Value,Description
+5,"FSM (Finite State Machine) Timeout error.
+(PPP event ""TO-"".)"
+6,No recognizable LCP packets were received.
+7,"LCP failure: Magic Number error; link possibly
+looped back."
+8,LCP link failure: Echo Request timeout.
+9,"Peer has unexpected Endpoint-Discriminator for
+existing Multilink PPP (MP) bundle."
+10,Peer has unexpected MRRU for existing MP bundle.
+11,"Peer has unexpected Short-Sequence-Number option
+for existing MP bundle."
+12,"Compulsory call-back required by a PPP peer was
+refused by the  other.
+ Valid Direction values are:
+   1: Required by local; refused by peer
+   2: Required by peer; refused by local"

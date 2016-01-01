@@ -1,0 +1,5 @@
+Value,Description,Reference
+0x01,Vendor Specific,[RFC4746]
+0x02,Client Channel Binding Data,[RFC4746]
+0x03,Server Channel Binding Data,[RFC4746]
+0x04-0xFF,Unassigned,

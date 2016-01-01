@@ -1,0 +1,7 @@
+Number,Description,Reference
+0,Reserved,[RFC2154]
+1,MD5,[RFC2154]
+2-252,Unassigned,
+253,Reserved,[RFC2154]
+254,Reserved for private algorithm,[RFC2154]
+255,Reserved,[RFC2154]

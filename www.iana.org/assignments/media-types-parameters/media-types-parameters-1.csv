@@ -1,0 +1,12 @@
+MIME content-type,X.400 Body Part,Reference
+text/plain;charset=us-ascii,ia5-text,[RFC1494]
+text/plain;charset=iso-8859-x,Extended Body Part - GeneralText,[RFC1494]
+text/richtext,no mapping defined,[RFC1494]
+application/oda,Extended Body Part - ODA,[RFC1494]
+application/octet-stream,bilaterally-defined,[RFC1494]
+application/postscript,Extended Body Part - mime-postscript-body,[RFC1494]
+image/g3fax,g3-facsimile,[RFC1494]
+image/jpeg,Extended Body Part - mime-jpeg-body,[RFC1494]
+image/gif,Extended Body Part - mime-gif-body,[RFC1494]
+audio/basic,no mapping defined,[RFC1494]
+video/mpeg,no mapping defined,[RFC1494]

@@ -1,0 +1,7 @@
+Function,Description,Reference
+0,SHA-1,[RFC7574]
+1,SHA-224,[RFC7574]
+2,SHA-256,[RFC7574]
+3,SHA-384,[RFC7574]
+4,SHA-512,[RFC7574]
+5-255,Unassigned,

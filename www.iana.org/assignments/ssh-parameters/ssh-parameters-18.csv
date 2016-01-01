@@ -1,0 +1,10 @@
+MAC Algorithm Name,Reference,Note
+hmac-sha1,[RFC4253],Section 6.4
+hmac-sha1-96,[RFC4253],Section 6.4
+hmac-md5,[RFC4253],Section 6.4
+hmac-md5-96,[RFC4253],Section 6.4
+none,[RFC4253],Section 6.4
+AEAD_AES_128_GCM,[RFC5647],Section 6.1
+AEAD_AES_256_GCM,[RFC5647],Section 6.2
+hmac-sha2-256,[RFC6668],Section 2
+hmac-sha2-512,[RFC6668],Section 2

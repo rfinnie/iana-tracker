@@ -1,0 +1,6 @@
+Value,Acronym,Short Description,Reference
+0,Full,No hash used,[RFC6698]
+1,SHA2-256,256 bit hash by SHA2,[RFC6234]
+2,SHA2-512,512 bit hash by SHA2,[RFC6234]
+3-254,,Unassigned,
+255,PrivMatch,Reserved for Private Use,[RFC6698]

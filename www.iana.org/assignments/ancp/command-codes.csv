@@ -1,0 +1,9 @@
+Code,Name,Reference
+0,Reserved,[RFC6320]
+1,Add,[RFC7256]
+2,Delete,[RFC7256]
+3,Delete All,[RFC7256]
+4,Admission Control Reject,[RFC7256]
+5,Conditional Access Reject,[RFC7256]
+6,Admission Control and Conditional Access Reject,[RFC7256]
+7-255,Unassigned,

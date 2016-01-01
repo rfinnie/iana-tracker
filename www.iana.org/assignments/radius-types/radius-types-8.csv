@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Telnet,
+1,Rlogin,
+2,TCP Clear,
+3,PortMaster (proprietary),
+4,LAT,
+5,X25-PAD,
+6,X25-T3POS,
+7,Unassigned,
+8,TCP Clear Quiet (suppresses any NAS-generated connect string),

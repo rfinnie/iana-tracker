@@ -1,0 +1,7 @@
+Value,Description,Reference
+1,IPv4 address,[RFC3209]
+2,IPv6 address,[RFC3209]
+4,Unnumbered Interface ID,[RFC3477]
+64,Maximum Reservable Bandwidth,[RFC4201]
+65,"Interface Switching
+Capability Descriptor",[RFC4202]

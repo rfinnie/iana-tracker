@@ -1,0 +1,7 @@
+Value,Description,Reference
+0x0,Reserved,[RFC5974]
+0x1,IPv4,[RFC5974]
+0x2,IPv6,[RFC5974]
+0x3,FQDN in UTF-8,[RFC5974]
+0x4-0xD,Unassigned,
+0xE-0xF,Reserved for Experimental/Private Use,[RFC5974]

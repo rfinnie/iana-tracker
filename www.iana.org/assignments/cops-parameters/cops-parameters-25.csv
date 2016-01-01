@@ -1,0 +1,8 @@
+SubType,Description,Reference
+0,Reserved,
+1,IPV4_ADDRESS,[RFC3520]
+2,IPV6_ADDRESS,[RFC3520]
+3,UDP_PORT_LIST,[RFC3520]
+4,TCP_PORT_LIST,[RFC3520]
+5-127,Unassigned,
+128-255,Reserved,

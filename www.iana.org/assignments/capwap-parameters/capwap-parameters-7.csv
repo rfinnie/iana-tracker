@@ -1,0 +1,5 @@
+AC DTLS Policy,Bit Position,Reference
+Unassigned,0-4,[RFC5415]
+DTLS Enabled Data Channel Supported,5,[RFC5415]
+Clear Text Data Channel Supported,6,[RFC5415]
+Unassigned,7,[RFC5415]

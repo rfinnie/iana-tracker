@@ -1,0 +1,5 @@
+Name,Description,Reference,Notes
+by,IP-address of incoming interface of a proxy,[RFC7239],Section 5.1
+for,IP-address of client making a request through a proxy,[RFC7239],Section 5.2
+host,Host header field of the incoming request,[RFC7239],Section 5.3
+proto,Application protocol used for incoming request,[RFC7239],Section 5.4

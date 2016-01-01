@@ -1,0 +1,7 @@
+Value,Length,Description,Reference
+0,,Reserved,[RFC7581]
+1,variable,Optical Interface Class List,[RFC7581]
+2,variable,Acceptable Client Signal List,[RFC7581]
+3,variable,Input Bit Rate List,[RFC7581]
+4,variable,Processing Capability List,[RFC7581]
+5-65535,,Unassigned,

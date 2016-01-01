@@ -1,0 +1,10 @@
+Bit,Description,Reference
+0-23,Unassigned,
+24,P2MP Reachability Problem,[RFC6006]
+25,No GCO solution found,[RFC5557]
+26,No GCO migration path found,[RFC5557]
+27,PKS expansion failure,[RFC5520]
+28,BRPC Path computation chain unavailable,[RFC5441]
+29,Unknown Source,[RFC5440]
+30,Unknown Destination,[RFC5440]
+31,PCE currently Unavailable,[RFC5440]

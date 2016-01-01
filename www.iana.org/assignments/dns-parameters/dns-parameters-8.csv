@@ -1,0 +1,7 @@
+Decimal,Hexadecimal,Description,Reference
+0,0x0000,Reserved; registry closed,[RFC6895]
+1,0x0001,Andrews File Service v3.0 Location Service,[RFC1183]
+2,0x0002,DCE/NCA root cell directory node,[RFC1183]
+3-65279,0x0003-0xFEFF,Not allocated; registry closed,
+65280-65534,0xFF00-0xFFFE,Reserved for Private Use,[RFC6895]
+65535,0xFFFF,Reserved; registry closed,[RFC6895]

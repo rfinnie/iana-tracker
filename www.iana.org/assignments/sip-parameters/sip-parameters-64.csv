@@ -1,0 +1,30 @@
+Parameter Name,Description,Reference
+sfua-id,"The URN identifying the User Agent, constructed as specified         
+in section 4.1 of [RFC5626] ""Managing Client-Initiated
+Connections in the Session Initiation Protocol (SIP)"".
+Since the procedure defined by [RFC5626] allows any UA to
+construct a value for this parameter, the sfua-id parameter
+MUST always be included.
+If the UA implements [RFC5626], and includes the
+'+sip.instance' Contact header field parameter in any request,
+when requesting configuration it MUST use the same value for
+the sfua-id parameter.",[RFC6011]
+sfua-user,"An identifier for a user associated with the configuration. Note     
+that this might be different than any SIP 'user' in the UA
+configuration: it could, for example, be the login name of an
+account on the service provider web site.  The syntax of this
+parameter is that of the [RFC2617] 'userid'.
+See Section 2.4.1, ""Configuration Data Request Authentication"" for
+how this parameter relates to authentication of the configuration
+data request.",[RFC6011]
+sfua-vendor,"An identifier that specifies the vendor of the User Agent.  The      
+syntax of the value of this parameter is that of a DNS domain.
+The domain value MUST be that of a domain owned by the vendor.",[RFC6011]
+sfua-model,"An identifier that further specifies the User Agent from among
+those produced by the vendor.  The syntax of the value of this
+parameter is the same as the [RFC3261] 'token'.  Values for this
+parameter are selected by the vendor.",
+sfua-revision,"An identifier that further specifies the User Agent from among       
+those produced by the vendor.  The syntax of the value of this
+parameter is the same as the [RFC3261] 'token'.  Values for this
+parameter are selected by the vendor.",[RFC6011]

@@ -1,0 +1,5 @@
+Decimal,Name,Description,References
+0,Reserved,,[IANA]
+1,isakmpOakley,Signed Hash,[Rodney_Thayer]
+2,certificate,,
+3,asn1-modules,ASN.1 Modules,[RFC4301]

@@ -1,0 +1,6 @@
+Msg Type,Description,Reference
+0,Reserved,[RFC6427]
+1,Alarm Indication Signal (AIS),[RFC6427]
+2,Lock Report (LKR),[RFC6427]
+3-251,Unassigned,
+252-255,Reserved for Experimental Use,[RFC6427]

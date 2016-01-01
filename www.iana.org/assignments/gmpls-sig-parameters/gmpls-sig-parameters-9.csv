@@ -1,0 +1,7 @@
+Value,Name,Reference
+0,Reserved,[RFC4872]
+1,Recovery (R),[RFC4872]
+2,Resource Sharing (S),[RFC4873][RFC6780]
+3,Double-Sided Associated Bidirectional LSP (D),[RFC7551]
+4,Single-Sided Associated Bidirectional LSP (A),[RFC7551]
+5-65535,Unassigned,

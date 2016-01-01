@@ -1,0 +1,3 @@
+Value,Description,Reference,Notes
+core.gp,"Group Configuration resource.  This resource is used to
+   query/manage the group membership of a CoAP server.","[RFC7390, Section 2.6.2]",

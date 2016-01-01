@@ -1,0 +1,9 @@
+C-Type,Description,Reference
+0,Reserved,
+1,IPv4 INTERFACE_ID,[RFC4204]
+2,IPv6 INTERFACE_ID,[RFC4204]
+3,Unnumbered INTERFACE_ID,[RFC4204]
+4,LINK_GROUP,[RFC4209]
+5-111,Unassigned (Standards Action),
+12-119,Unassigned (Expert Review),
+20-127,Private Use,

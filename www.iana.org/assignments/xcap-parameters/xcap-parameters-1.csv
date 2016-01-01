@@ -1,0 +1,25 @@
+Application Unique ID (AUID),Description,Reference
+xcap-caps,Capabilities of an XCAP server,[RFC4825]
+pidf-manipulation,"Pidf-manipulation application           
+usage defines how XCAP is used
+to manipulate the contents of
+PIDF based presence documents.",[RFC4827]
+resource-lists,"A resource lists application is         
+any application that needs access
+to a list of resources, identified
+by a URI, to which operations,
+such as subscriptions, can be applied.",[RFC4826]
+rls-services,"An Resource List Server (RLS)           
+services application is Session
+Initiation Protocol (SIP) application
+whereby a server receives SIP
+SUBSCRIBE requests for resource, and
+generates subscriptions towards the
+a resource list.",[RFC4826]
+pres-rules,"Presence rules are documents that       
+describe the permissions that a
+presentity has granted to users that
+seek to watch their presence.",[RFC5025]
+geolocation-policy,"Geolocation privacy rules are documents that describe
+the permissions that a Target has granted to Location Recipients that 
+access information about his/her geographic location.",[RFC6772]

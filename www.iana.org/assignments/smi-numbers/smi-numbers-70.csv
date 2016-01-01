@@ -1,0 +1,5 @@
+Decimal,Name,Description,References
+2,id-rfc-822-field-list,,[RFC2156]
+3,id-dsn-header-list,,[RFC2156]
+4,id-dsn-field-list,,[RFC2156]
+5,eit-mixer The MIXER pseudo-EIT,,[RFC2156]

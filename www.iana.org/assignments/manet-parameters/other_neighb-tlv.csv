@@ -1,0 +1,8 @@
+Value,Name,Description,Reference
+0,LOST,"The neighbor relationship with the router with that network 
+      address has been lost",[RFC7188]
+1,SYMMETRIC,"The neighbor relationship with the router with that network 
+      address is symmetric",[RFC7188]
+2-223,Unassigned,,
+224-254,Reserved for Experimental Use,,[RFC7188]
+255,UNSPECIFIED,No information about this network address is provided,[RFC7188]

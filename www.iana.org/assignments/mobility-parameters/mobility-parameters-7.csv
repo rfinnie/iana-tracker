@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Reserved (not available for assignment),[RFC4285]
+3,HMAC_SHA1_SPI,[RFC4285]
+5,Reserved for use by 3GPP2,[RFC4285]

@@ -1,0 +1,7 @@
+IEEE 802.11 Antenna Combiner,Type Value,Reference
+Unassigned,0,
+Sectorized (Left),1,[RFC5416]
+Sectorized (Right),2,[RFC5416]
+Omni,3,[RFC5416]
+Multiple Input/Multiple Output (MIMO),4,[RFC5416]
+Unassigned,5-255,

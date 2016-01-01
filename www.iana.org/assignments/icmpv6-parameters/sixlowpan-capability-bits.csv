@@ -1,0 +1,5 @@
+Bit,Description,Reference
+0-7,Reserved for Experimental Use,[RFC7400]
+8-14,Unassigned,
+15,GHC capable bit (G bit),[RFC7400]
+16-47,Unassigned,

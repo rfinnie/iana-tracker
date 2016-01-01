@@ -1,0 +1,5 @@
+Value,Sub-TLV,Reference
+0,Reserved,[RFC7688]
+1,Available Labels,[RFC7688]
+2,Shared Backup Labels,[RFC7688]
+3-65535,Unassigned,

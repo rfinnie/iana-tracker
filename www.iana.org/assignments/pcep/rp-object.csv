@@ -1,0 +1,15 @@
+Bit,Description,Reference
+0-16,Unassigned,
+17,Core-tree computation (C-bit),[RFC7334]
+18,Fragmentation (F-bit),[RFC6006]
+19,P2MP (N-bit),[RFC6006]
+20,ERO-compression (E-bit),[RFC6006]
+21,Make-before-break (M-bit),[RFC5557]
+22,Report the request order (D-bit),[RFC5557]
+23,Path Key (P-bit),[RFC5520]
+24,Supply OF on response,[RFC5541]
+25,VSPT,[RFC5441]
+26,Strict/Loose,[RFC5440]
+27,Bi-directional,[RFC5440]
+28,Reoptimization,[RFC5440]
+29-31,Priority,[RFC5440]

@@ -1,0 +1,8 @@
+Code,Probe Option,Reference
+0,invalidProbeOption,[RFC6940]
+1,responsible_set,[RFC6940]
+2,num_resources,[RFC6940]
+3,uptime,[RFC6940]
+4,exp-probe,[RFC6940]
+5-254,Unassigned,
+255,Reserved,[RFC6940]

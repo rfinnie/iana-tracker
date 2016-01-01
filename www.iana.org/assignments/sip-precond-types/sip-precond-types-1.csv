@@ -1,0 +1,4 @@
+Precondition-Type,Description,Reference
+conn,Connectivity precondition,[RFC5898]
+qos,Quality of Service preconditions,[RFC3312]
+sec,Security precondition,[RFC5027]

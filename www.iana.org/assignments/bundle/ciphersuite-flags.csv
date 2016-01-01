@@ -1,0 +1,7 @@
+Bit Position (right to left),Description,Reference
+0,Block contains results,[RFC6257]
+1,Block contains correlator,[RFC6257]
+2,Block contains parameters,[RFC6257]
+3,Destination EIDref present,[RFC6257]
+4,Source EIDref present,[RFC6257]
+values greater than 4,Reserved,[RFC6257]

@@ -1,0 +1,10 @@
+Value,Description,Reference
+0x01,HMAC_SHA1_128,"[National Institute for Standards and Technology, ""The
+Keyed-Hash Message Authentication Code (HMAC)"", Federal
+Information Processing Standard 198, March 2002.][National Institute for Standards and Technology, ""Secure
+Hash Standard"", Federal Information Processing Standard
+180-2, August 2002.]"
+0x02,HMAC_SHA256_128,"[National Institute for Standards and Technology, ""Secure
+Hash Standard"", Federal Information Processing Standard
+180-2, August 2002.]"
+0x03-0xFF,Unassigned,

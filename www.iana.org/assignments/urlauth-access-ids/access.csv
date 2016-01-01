@@ -1,0 +1,11 @@
+Type,Application,Description,RFC Number,Contact
+<access> identifier,stream,"Used by SIP Media Servers to retrieve
+        attachments for streaming to email clients",[RFC5593],[Neil_Cook]
+<access> identifier prefix,submit,"Used by message submission entities to
+        retrieve attachments to be included in submitted messages",[RFC5593][RFC5092],[Lemonade_WG]
+<access> identifier prefix,user,"Used to restrict access to IMAP sessions
+        that are logged in as the specified userid",[RFC5593][RFC5092],[Lemonade_WG]
+<access> identifier,authuser,"Used to restrict access to IMAP sessions
+        that are logged in as any non-anonymous user of that IMAP server",[RFC5593][RFC5092],[Lemonade_WG]
+<access> identifier,anonymous,"Indicates that use of this URL is
+        not restricted by session authorization identity",[RFC5593][RFC5092],[Lemonade_WG]

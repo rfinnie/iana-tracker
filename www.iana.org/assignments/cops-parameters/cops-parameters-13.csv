@@ -1,0 +1,3 @@
+Error-Code,Error-SubCode Octet 2,Error-SubCode Octet 3,Description,Reference
+15,16,0,No security,[RFC4261]
+15,16,2,Integrity-TLS supported/preferred,[RFC4261]

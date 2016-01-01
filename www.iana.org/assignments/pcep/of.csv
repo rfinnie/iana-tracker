@@ -1,0 +1,12 @@
+Code Point,Name,Reference
+0,Reserved,[RFC5541]
+1,MCP,[RFC5541]
+2,MLP,[RFC5541]
+3,MBP,[RFC5541]
+4,MBC,[RFC5541]
+5,MLL,[RFC5541]
+6,MCC,[RFC5541]
+7,SPT,[RFC6006]
+8,MCT,[RFC6006]
+9-32767,Unassigned,
+32768-65535,Reserved for Private Use,[RFC5541]

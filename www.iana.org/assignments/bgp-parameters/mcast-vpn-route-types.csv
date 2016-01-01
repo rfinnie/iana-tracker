@@ -1,0 +1,17 @@
+Value,Meaning,Reference
+0x00,Reserved,[RFC7441][RFC6514]
+0x01,Intra-AS I-PMSI A-D route,[RFC7441][RFC6514]
+0x02,Inter-AS I-PMSI A-D route,[RFC7441][RFC6514]
+0x03,S-PMSI A-D route,[RFC7441][RFC6514]
+0x04,Leaf A-D route,[RFC7441][RFC6514]
+0x05,Source Active A-D route,[RFC7441][RFC6514]
+0x06,Shared Tree Join route,[RFC7441][RFC6514]
+0x07,Source Tree Join route,[RFC7441][RFC6514]
+0x08-0x3f,Unassigned (Generic/PIM range),
+0x40-0x42,Reserved,[RFC7441]
+0x43,S-PMSI A-D route for C-multicast mLDP,[RFC7441]
+0x44,Leaf A-D route for C-multicast mLDP,[RFC7441]
+0x45-0x46,Reserved,[RFC7441]
+0x47,Source Tree Join route for C-multicast mLDP,[RFC7441]
+0x48-0x7f,Unassigned (mLDP range),
+0x80-0xff,Reserved,[RFC7441]

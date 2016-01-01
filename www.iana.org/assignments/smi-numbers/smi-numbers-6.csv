@@ -1,0 +1,16 @@
+Decimal,Name,Description,References
+1,other,none of the following,[RFC4087]
+2,direct,no intermediate header,[RFC4087]
+3,gre,GRE encapsulation,[RFC4087]
+4,minimal,Minimal encapsulation,[RFC4087]
+5,l2tp,L2TP encapsulation,[RFC4087]
+6,pptp,PPTP encapsulation,[RFC4087]
+7,l2f,L2F encapsulation,[RFC4087]
+8,udp,UDP encapsulation,[RFC4087]
+9,atmp,ATMP encapsulation,[RFC4087]
+10,msdp,MSDP encapsulation,[RFC4087]
+11,sixToFour,6to4 encapsulation,[RFC4087]
+12,sixOverFour,6over4 encapsulation,[RFC4087]
+13,isatap,ISATAP encapsulation,[RFC4087]
+14,teredo,Teredo encapsulation,[RFC4087]
+15,ipHttps,IPHTTPS,"[Sean_Siler][http://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation, ""IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification""]"

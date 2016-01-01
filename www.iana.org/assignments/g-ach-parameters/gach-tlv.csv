@@ -1,0 +1,7 @@
+Type ID,Type Name,Reference
+0,Source Address,[RFC7212]
+1,GAP Request,[RFC7212]
+2,GAP Flush,[RFC7212]
+3,GAP Suppress,[RFC7212]
+4,GAP Authentication,[RFC7212]
+5-255,Unassigned,

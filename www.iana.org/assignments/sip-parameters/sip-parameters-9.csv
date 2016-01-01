@@ -1,0 +1,6 @@
+Mechanism Name,Reference
+digest,[RFC3329]
+tls,[RFC3329]
+ipsec-ike,[RFC3329]
+ipsec-man,[RFC3329]
+ipsec-3gpp,[RFC3329]

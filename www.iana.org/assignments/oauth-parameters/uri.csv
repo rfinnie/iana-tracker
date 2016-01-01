@@ -1,0 +1,6 @@
+URN,Common Name,Change Controller,Reference
+urn:ietf:params:oauth:grant-type:jwt-bearer,JWT Bearer Token Grant Type Profile for OAuth 2.0,IESG,[RFC7523]
+urn:ietf:params:oauth:client-assertion-type:jwt-bearer,JWT Bearer Token Profile for OAuth 2.0 Client Authentication,IESG,[RFC7523]
+urn:ietf:params:oauth:grant-type:saml2-bearer,SAML 2.0 Bearer Assertion Grant Type Profile for OAuth 2.0,IESG,[RFC7522]
+urn:ietf:params:oauth:client-assertion-type:saml2-bearer,SAML 2.0 Bearer Assertion Profile for OAuth 2.0 Client Authentication,IESG,[RFC7522]
+urn:ietf:params:oauth:token-type:jwt,JSON Web Token (JWT) Token Type,IESG,[RFC7519]

@@ -1,0 +1,9 @@
+Addresses,Usage,Reference
+00-00-00-00-00 to 0F-FF-FF-FF-FF,Reserved,[RFC7042]
+10-00-00-00-00 to 10-00-00-00-FF,Documentation,[RFC7042]
+10-00-00-01-00 to FC-FF-FF-FF-FF,Unassigned,
+FD-00-00-00-00 to FD-FF-FF-FF-FF,Reserved,[RFC7042]
+FE-00-00-00-00 to FE-FF-FF-FF-FF,IPv4 Addr Holders,[RFC7042]
+FF-00-00-00-00 to FF-FD-FF-FF-FF,Reserved,[RFC7042]
+FF-FE-00-00-00 to FF-FE-FF-FF-FF,IANA EUI-48 Holders,[RFC7042]
+FF-FF-00-00-00 to FF-FF-FF-FF-FF,Reserved,[RFC7042]

@@ -1,0 +1,7 @@
+WTP Board Data Type,Type Value,Reference
+WTP Model Number,0,[RFC5415]
+WTP Serial Number,1,[RFC5415]
+Board ID,2,[RFC5415]
+Board Revision,3,[RFC5415]
+Base MAC Address,4,[RFC5415]
+Unassigned,5-65535,

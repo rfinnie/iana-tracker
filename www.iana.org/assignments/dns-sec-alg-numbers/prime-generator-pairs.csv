@@ -1,0 +1,6 @@
+Value,Description,Reference
+0x0000,Unassigned,
+0x0001,Well-Known Group 1: A 768 bit prime,[RFC2539]
+0x0002,Well-Known Group 2: A 1024 bit prime,[RFC2539]
+0x0003-0xbfff,Unassigned,
+0xc000-0xffff,Private Use,[RFC2539]

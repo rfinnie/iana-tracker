@@ -1,0 +1,41 @@
+IPv6 Prefix,Allocation,Reference,Notes
+0000::/8,Reserved by IETF,[RFC4291],"[1]
+    [2]
+    [3]
+    [4]
+    [5]"
+0100::/8,Reserved by IETF,[RFC4291],"0100::/64 reserved for Discard-Only Address Block [RFC6666]. 
+Complete registration details are found in [IANA registry iana-ipv6-special-registry]."
+0200::/7,Reserved by IETF,[RFC4048],"Deprecated as of December 2004 [RFC4048]. 
+Formerly an OSI NSAP-mapped prefix set [RFC4548]."
+0400::/6,Reserved by IETF,[RFC4291],
+0800::/5,Reserved by IETF,[RFC4291],
+1000::/4,Reserved by IETF,[RFC4291],
+2000::/3,Global Unicast,[RFC4291],"The IPv6 Unicast space encompasses the entire IPv6 address range 
+with the exception of ff00::/8, per [RFC4291]. IANA unicast address 
+assignments are currently limited to the IPv6 unicast address 
+range of 2000::/3. IANA assignments from this block are registered 
+in [IANA registry ipv6-unicast-address-assignments].
+      [6]    
+      [7]    
+      [8]      
+      [9]      
+      [10]      
+      [11]
+      [12]
+      [13]
+      [14]
+      [15]"
+4000::/3,Reserved by IETF,[RFC4291],
+6000::/3,Reserved by IETF,[RFC4291],
+8000::/3,Reserved by IETF,[RFC4291],
+a000::/3,Reserved by IETF,[RFC4291],
+c000::/3,Reserved by IETF,[RFC4291],
+e000::/4,Reserved by IETF,[RFC4291],
+f000::/5,Reserved by IETF,[RFC4291],
+f800::/6,Reserved by IETF,[RFC4291],
+fc00::/7,Unique Local Unicast,[RFC4193],"For complete registration details, see [IANA registry iana-ipv6-special-registry]."
+fe00::/9,Reserved by IETF,[RFC4291],
+fe80::/10,Link-Scoped Unicast,[RFC4291],"Reserved by protocol. For authoritative registration, see [IANA registry iana-ipv6-special-registry]."
+fec0::/10,Reserved by IETF,[RFC3879],Deprecated by [RFC3879] in September 2004. Formerly a Site-Local scoped address prefix.
+ff00::/8,Multicast,[RFC4291],IANA assignments from this block are registered in [IANA registry ipv6-multicast-addresses].

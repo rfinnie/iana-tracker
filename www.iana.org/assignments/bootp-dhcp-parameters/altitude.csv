@@ -1,0 +1,5 @@
+Type,Altitude Field Description,Reference
+0,No known altitude,[RFC6225]
+1,Altitude in meters,[RFC6225]
+2,Altitude in floors,[RFC6225]
+3-15,Unassigned,

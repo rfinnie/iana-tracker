@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,Reserved,[RFC5448]
+1,EAP-AKA' with CK'/IK',[RFC5448]
+2-65535,Unassigned,

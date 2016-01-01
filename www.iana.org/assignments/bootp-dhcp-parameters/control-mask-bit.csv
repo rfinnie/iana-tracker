@@ -1,0 +1,6 @@
+Bit,Description,Reference
+0,"the PacketCable Provisioning Server     
+used by the CCD.",[RFC3594]
+1,"the group of all PacketCable Call       
+Management Servers used by the CCD.",[RFC3594]
+2-15,Reserved and MUST be set to 0.,
