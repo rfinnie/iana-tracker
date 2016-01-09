@@ -67,3 +67,4 @@ amr,Authentication Methods References,[OpenID_Foundation_Artifact_Binding_Workin
         OpenID Connect Core 1.0, Section 2]"
 sub_jwk,Public key used to check the signature of an ID Token,[OpenID_Foundation_Artifact_Binding_Working_Group],"[
         OpenID Connect Core 1.0, Section 7.4]"
+cnf,Confirmation,[IESG],"[RFC-ietf-oauth-proof-of-possession-11, Section 7.4]"
