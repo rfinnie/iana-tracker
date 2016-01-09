@@ -20,6 +20,6 @@ OTT,"An over-the-top service that provides communication over
 digital,Wireline non-OTT digital phone service,[RFC-ietf-ecrit-additional-data-37]
 OPX,Off-premise extension,[RFC-ietf-ecrit-additional-data-37]
 relay,"A service where a human third-party agent provides 
-        additional assistance This includes sign language relay/interpretation, 
+        additional assistance. This includes sign language relay/interpretation, 
         telematics services that provide a human on the call, and similar 
         services",[RFC-ietf-ecrit-additional-data-37]
