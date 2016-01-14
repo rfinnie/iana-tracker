@@ -63944,7 +63944,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5558-5565</number>
+    <number>5558-5564</number>
+  </record>
+  <record date="2016-01-13">
+    <name>hpe-dp-bura</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Hewlett_Packard_Enterprise"/>
+    </assignee>
+    <description>HPE Advanced BURA</description>
+    <number>5565</number>
+    <xref type="person" data="Silvia_Veronese"/>
+  </record> 
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5565</number>
   </record>
   <record date="2009-03-18">
     <name>westec-connect</name>
@@ -102547,6 +102562,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Steve.Roscio&amp;hp.com</uri>
       <updated>2014-04-09</updated>
     </person>
+    <person id="Hewlett_Packard_Enterprise">
+      <org>Hewlett Packard Enterprise</org>
+      <uri>mailto:silvia.veronese2&amp;hp.com</uri>
+      <updated>2016-01-13</updated>
+    </person>
     <person id="Hideki_Hatta">
       <name>Hideki Hatta</name>
       <uri>mailto:ponum&amp;canon-is.co.jp</uri>
@@ -113690,6 +113710,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Silverstring Ltd.</org>
       <uri>mailto:rdegiorgio&amp;silverstring.com</uri>
       <updated>2011-09-15</updated>
+    </person>
+    <person id="Silvia_Veronese">
+      <name>Silvia Veronese</name>
+      <uri>mailto:silvia.veronese2&amp;hp.com</uri>
+      <updated>2016-01-13</updated>
     </person>
     <person id="SIMB_Tecnologia">
       <org>SIMB Tecnologia</org>
