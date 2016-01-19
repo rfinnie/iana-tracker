@@ -215,7 +215,9 @@ Value,Description,Reference
 244.{27-240},Unassigned,
 244.{241-255},Reserved,[RFC6929]
 245,Extended-Attribute-5,[RFC6929]
-245.{1-25},Unassigned,
+245.1,SAML-Assertion,[RFC-ietf-abfab-aaa-saml-14]
+245.2,SAML-Protocol,[RFC-ietf-abfab-aaa-saml-14]
+245.{3-25},Unassigned,
 245.26,Extended-Vendor-Specific-5,[RFC6929]
 245.{27-240},Unassigned,
 245.{241-255},Reserved,[RFC6929]
