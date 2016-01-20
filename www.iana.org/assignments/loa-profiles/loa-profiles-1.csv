@@ -8,3 +8,5 @@ http://id.skolfederation.se/loa/bas,skolfederation.se-bas,[https://www.skolfeder
 http://id.incommon.org/assurance/bronze,InC-Bronze,[http://assurance.incommon.org],[Ann_West],InC-Bronze/InC-Bronze.xsd
 http://id.incommon.org/assurance/silver,InC-Silver,[http://assurance.incommon.org],[Ann_West],InC-Silver/InC-Silver.xsd
 http://id.skolfederation.se/loa/2fa,skolfederation.se-2fa,[https://www.skolfederation.se/skolfederation-loa],[Stefan_Halén-skolfederation.se],skolfederation.se-2fa/skolfederation.se-2fa.xsd
+http://www.swamid.se/policy/assurance/al1,SWAMID-AL1,[https://www.sunet.se/swamid/policy/al1/],[Pål_Axelsson],SWAMID-AL1/SWAMID-AL1.xsd
+http://www.swamid.se/policy/assurance/al2,SWAMID-AL2,[https://www.sunet.se/swamid/policy/al2/],[Pål_Axelsson],SWAMID-AL2/SWAMID-AL2.xsd

@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-01-05
+           2016-01-13
 
    Expert(s)
 
@@ -10013,7 +10013,13 @@ ahsp               4333        udp    ArrowHead Service Protocol   [QuantuMatriX
                                       (AHSP)
 ahsp               4333       sctp    ArrowHead Service Protocol   [QuantuMatriX_Technologies]                           [Matthew_Schultz]                                         2014-04-10
                                       (AHSP)
-                 4334-4339            Unassigned
+netconf-ch-ssh     4334        tcp    NETCONF Call Home (SSH)      [IESG]                                                [IETF_Chair]                                              2016-01-12                [RFC-ietf-netconf-call-home-17]
+                   4334        udp    Reserved
+netconf-ch-tls     4335        tcp    NETCONF Call Home (TLS)      [IESG]                                                [IETF_Chair]                                              2016-01-12                [RFC-ietf-netconf-call-home-17]
+                   4335        udp    Reserved
+restconf-ch-tls    4336        tcp    RESTCONF Call Home (TLS)     [IESG]                                                [IETF_Chair]                                              2016-01-12                [RFC-ietf-netconf-call-home-17]
+                   4336        udp    Reserved
+                 4337-4339            Unassigned
 gaia               4340        tcp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
 gaia               4340        udp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
 lisp-data          4341        tcp    LISP Data Packets            [Dino_Farinacci]                                      [Dino_Farinacci]                                          2007-11-12
@@ -11609,7 +11615,9 @@ freeciv            5556        udp    Freeciv gameplay             [Reinier_Post
                                                                                                                                                                                                                                                          5556
 farenet            5557        tcp    Sandlab FARENET              [Kay_T_Labinsky]                                      [Kay_T_Labinsky]                                          2010-05-03
                    5557        udp    Reserved
-                 5558-5565            Unassigned
+                 5558-5564            Unassigned
+hpe-dp-bura        5565        tcp    HPE Advanced BURA            [Hewlett_Packard_Enterprise]                          [Silvia_Veronese]                                         2016-01-13
+                   5565        udp    Reserved
 westec-connect     5566        tcp    Westec Connect               [Jon_Bolen]                                           [Jon_Bolen]                                               2009-03-18
                    5566        udp    Reserved
 dof-dps-mc-sec     5567        tcp    DOF Protocol Stack           [OpenDOF]                                             [Bryant_Eastham]                                          2004-11      2015-04-23
@@ -13800,7 +13808,11 @@ lm-webwatcher      8208        udp    LM Webwatcher                [Chris_Flynn]
                  8209-8229            Unassigned
 rexecj             8230        tcp    RexecJ Server                [Curtiss_Howard]                                      [Curtiss_Howard]                                          2004-11
 rexecj             8230        udp    RexecJ Server                [Curtiss_Howard]                                      [Curtiss_Howard]                                          2004-11
-                 8231-8242            Unassigned
+                   8231        tcp    Reserved
+hncp-udp-port      8231        udp    HNCP                         [IESG]                                                [IETF_Chair]                                              2016-01-13                [RFC-ietf-homenet-hncp-10]
+                   8232        tcp    Reserved
+hncp-dtls-port     8232        udp    HNCP over DTLS               [IESG]                                                [IETF_Chair]                                              2016-01-13                [RFC-ietf-homenet-hncp-10]
+                 8233-8242            Unassigned
 synapse-nhttps     8243        tcp    Synapse Non Blocking HTTPS   [Ruwan_Linton]                                        [Ruwan_Linton]                                            2008-07-10
 synapse-nhttps     8243        udp    Synapse Non Blocking HTTPS   [Ruwan_Linton]                                        [Ruwan_Linton]                                            2008-07-10
                  8244-8275            Unassigned
@@ -16433,7 +16445,11 @@ qdb2service        45825       udp    Qpuncture Data Access        [Michael_Yun]
                 45826-45965           Unassigned
 ssr-servermgr      45966       tcp    SSRServerMgr                 [Jeremy_Gilliat]                                      [Jeremy_Gilliat]
 ssr-servermgr      45966       udp    SSRServerMgr                 [Jeremy_Gilliat]                                      [Jeremy_Gilliat]
-                45967-46997           Unassigned
+                45967-46335           Unassigned
+inedo              46336       tcp    Listen port used for Inedo   [Inedo]                                               [Steve_Dennis]                                            2016-01-12
+                                      agent communication
+                   46336       udp    Reserved
+                46337-46997           Unassigned
                                       Connection between a desktop
 spremotetablet     46998       tcp    computer or server and a     [SOFTPRO_GmbH]                                        [Christoph_Hipp]                                          2012-07-19   2013-08-02
                                       signature tablet to capture
@@ -19969,6 +19985,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Hewlett_Packard]                                                                   Hewlett Packard
 [Hewlett_Packard_2]                                                                 Hewlett Packard       mailto:oliver.breyel&hp.com                                   2013-02-07
 [Hewlett_Packard_3]                                                                 Hewlett Packard       mailto:Steve.Roscio&hp.com                                    2014-04-09
+[Hewlett_Packard_Enterprise]                                                        Hewlett Packard       mailto:silvia.veronese2&hp.com                                2016-01-13
+                                                                                    Enterprise
 [Hideki_Hatta]                                            Hideki Hatta                                    mailto:ponum&canon-is.co.jp                                   2007-09-27
 [Hideki_Kiriyama]                                         Hideki Kiriyama                                 mailto:kiriyama&cp10.es.xerox.com
 [Hideo_Wakabayashi]                                       Hideo Wakabayashi                               mailto:hiwaka&alles.or.jp
@@ -20081,6 +20099,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                     d.o.o.
 [In_sik_Choi]                                             In-sik Choi                                     mailto:iscard&virusdesk.com                                   2002-02
 [Inderpreet_Singh]                                        Inderpreet Singh                                mailto:isingh&chantrynetworks.com                             2003-06
+[Inedo]                                                   Inedo                                           mailto:support&inedo.com                                      2016-01-12
 [Inertia_Systemes]                                                                  Inertia Systemes      mailto:jasmin.blouin&inertiasystemes.com                      2015-06-11
 [Ines_Homem_de_Melo]                                      Ines Homem de Melo                              mailto:sidinf&brfapesp.bitnet
 [Ing_Markus_Huemer]                                       Ing. Markus Huemer                              mailto:markus.huemer&hsd.at
@@ -22539,6 +22558,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Silvano_Maffeis]                                         Silvano Maffeis                                 mailto:maffeis&softwired.ch
 [Silvano_Maffeis_2]                                       Silvano Maffeis                                 mailto:maffeis&acm.org                                        2008-01-16
 [Silverstring_Ltd]                                                                  Silverstring Ltd.     mailto:rdegiorgio&silverstring.com                            2011-09-15
+[Silvia_Veronese]                                         Silvia Veronese                                 mailto:silvia.veronese2&hp.com                                2016-01-13
 [SIMB_Tecnologia]                                                                   SIMB Tecnologia       mailto:devel&simb.com.br                                      2014-11-07
 [Simon_Baldwin]                                           Simon Baldwin                                   mailto:simonb&sco.com
 [Simon_Barber]                                            Simon Barber                                    mailto:simon.barber&parc.com                                  2009-09-29
@@ -22677,6 +22697,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Steve_Dekorte]                                           Steve Dekorte                                   mailto:steve&dekorte.com
 [Steve_Dellutri]                                          Steve Dellutri
 [Steve_Dellutri_2]                                        Steve Dellutri                                  mailto:sdellutri&cosmocom.com                                 2006-07
+[Steve_Dennis]                                            Steve Dennis                                    mailto:sdennis&inedo.com                                      2016-01-12
 [Steve_Dobson]                                            Steve Dobson                                    mailto:sdobson&allstor.com
 [Steve_Dorner]                                            Steve Dorner                                    mailto:s-dorner&uiuc.edu
 [Steve_Favor]                                             Steve Favor                                     mailto:sfavor&tigger.intecom.com
