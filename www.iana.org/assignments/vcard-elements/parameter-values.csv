@@ -10,6 +10,7 @@ TEL,TYPE,cell,"[RFC6350], Section 6.4.1"
 TEL,TYPE,video,"[RFC6350], Section 6.4.1"
 TEL,TYPE,pager,"[RFC6350], Section 6.4.1"
 TEL,TYPE,textphone,"[RFC6350], Section 6.4.1"
+TEL,TYPE,main-number,[RFC-ietf-ecrit-additional-data-37]
 "BDAY, ANNIVERSARY",CALSCALE,gregorian,"[RFC6350], Section 5.8"
 RELATED,TYPE,contact,"[RFC6350], Section 6.6.6"
 RELATED,TYPE,acquaintance,"[RFC6350], Section 6.6.6"
