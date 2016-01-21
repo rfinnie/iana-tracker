@@ -10561,7 +10561,7 @@ of OBJECT IDENTIFIER.  Note - In this case the
 "mibObjectIdentifier" will define which MIB object is being
 exported while the value contained in this Information Element
 will be an OID as a value.  The mibObjectValueOID Information
-Element is encoded as ASN.1/BER [BER]<xref type="note" data="1"/> in an octetArray.
+Element is encoded as ASN.1/BER<xref type="note" data="1"/> in an octetArray.
 </paragraph>
 </description>
 <units/>
@@ -10779,7 +10779,7 @@ An IPFIX Information Element which denotes that a MIB
 Object Identifier (MIB OID) is exported in the (Options) Template
 Record.  The mibObjectIdentifier Information Element contains the
 OID assigned to the MIB Object Type Definition encoded as ASN.1/
-BER [BER]<xref type="note" data="1"/>.
+BER<xref type="note" data="1"/>.
 </paragraph>
 </description>
 <units/>
