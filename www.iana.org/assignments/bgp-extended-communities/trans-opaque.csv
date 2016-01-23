@@ -9,4 +9,5 @@ Sub-Type Value,Name,Reference,Date
 0x0b,Color Extended Community,[RFC5512],
 0x0c,Encapsulation Extended Community,[RFC5512],
 0x0d,Default Gateway,[Yakov_Rekhter],2012-07-10
-0x0e-0xff,Unassigned,,
+0x0e,Point-to-Point-to-Multipoint (PPMP) Label,[Rishabh_Parekh],2016-01-19
+0x0f-0xff,Unassigned,,
