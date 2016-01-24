@@ -5,8 +5,8 @@ Type Extension,Name,Description,Reference
       router's willingness to act as a routing MPR, either for the link 
       metric types reported in an MPR_TYPES TLV (in the same order), or (if 
       no MPR_TYPES TLV is present) for the single administratively agreed 
-      link metric type",[RFC7181][RFC7631][RFC-ietf-manet-olsrv2-multitopology-07]
+      link metric type",[RFC7181][RFC7631][RFC7722]
 1,MPR_TYPES,"The link metric types supported on this OLSRv2 interface of 
-      this router (one octet each)",[RFC-ietf-manet-olsrv2-multitopology-07]
+      this router (one octet each)",[RFC7722]
 2-223,,Unassigned,
 224-255,,Reserved for Experimental Use,[RFC7181]
