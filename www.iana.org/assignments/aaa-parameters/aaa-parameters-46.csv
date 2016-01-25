@@ -148,5 +148,6 @@ Authorization",[ftp://ftp.3gpp2.org/TSGX/Projects/][Avi_Lior]
 16777346,3GPP T6a/T6b,[3GPP TS 29.128][Kimmo_Kymalainen]
 16777347,3GPP Ns,[3GPP TS 29.153][Kimmo_Kymalainen]
 16777348,3GPP Nt,[3GPP TS 29.154][Kimmo_Kymalainen]
-16777349-4294967294,Unassigned,
+16777349,3GPP St,[3GPP TS 29.212][Kimmo_Kymalainen]
+16777350-4294967294,Unassigned,
 4294967295,Relay,[RFC6733]
