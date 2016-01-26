@@ -11,3 +11,4 @@ rtp-hdrext,[RFC5285],[http://www.iana.org/assignments/rtp-parameters#rtp-paramet
 geopriv,[RFC7035],[http://www.iana.org/assignments/geopriv-identifiers]
 scim,[RFC7643],[http://www.iana.org/assignments/scim]
 tzdist,[RFC-ietf-tzdist-service-11],[http://www.iana.org/assignments/tzdist-identifiers]
+abfab,[RFC-ietf-abfab-aaa-saml-14],[http://www.iana.org/assignments/abfab-parameters]
