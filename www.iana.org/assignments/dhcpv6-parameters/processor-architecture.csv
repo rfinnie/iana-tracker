@@ -24,4 +24,10 @@ Type,Architecture Name,Reference
 0x00 0x16,arm 64 uboot,[Joseph_Shifflett]
 0x00 0x17,arm uboot 32 boot from http,[Joseph_Shifflett]
 0x00 0x18,arm uboot 64 boot from http,[Joseph_Shifflett]
-0x00 0x19-0xff 0xff,Unassigned,
+0x00 0x19,RISC-V 32-bit UEFI,[Dong_Wei]
+0x00 0x1a,RISC-V 32-bit UEFI boot from http,[Dong_Wei]
+0x00 0x1b,RISC-V 64-bit UEFI,[Dong_Wei]
+0x00 0x1c,RISC-V 64-bit UEFI boot from http,[Dong_Wei]
+0x00 0x1d,RISC-V 128-bit UEFI,[Dong_Wei]
+0x00 0x1e,RISC-V 128-bit UEFI boot from http,[Dong_Wei]
+0x00 0x1f-0xff 0xff,Unassigned,

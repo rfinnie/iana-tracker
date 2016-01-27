@@ -14095,6 +14095,7 @@ iwork,,,iWork Server,[IGG_Software],[IGG_Software],,,,,,Defined TXT keys: None
 jcan,,,Northrup Grumman/TASC/JCAN Protocol,[Laurent_Mihalkovic],[Laurent_Mihalkovic],,,,,,Defined TXT keys: None
 jeditx,,,Jedit X,[Satoshi_Matsumoto],[Satoshi_Matsumoto],,,,,,Defined TXT keys: None
 jini,,,Jini Service Discovery,[Daniel_Steinberg],[Daniel_Steinberg],,,,,,Defined TXT keys: None
+jmap,,tcp,JSON Mail Access Protocol,[JMAP_editor],[Robert_Norris],2016-01-22,,,,,Defined TXT keys: None
 jnx-kcsync,,tcp,jollys keychain cloud sync protocol,[Patrick_Stein],[Patrick_Stein],2011-10-24,,,,,"Defined TXT keys: hash=<40hex characters>
       salt=<40hex characters>
       uuid=<40hex characters>
@@ -14203,6 +14204,7 @@ mxs,,,MatrixStore,[Object_Matrix],[Object_Matrix],,,,,,"Defined TXT keys: None
   mxs.cluster.id=<cluster id the system belongs to>"
 nasmon,,tcp,Proprietary communication protocol for NAS Monitor,[Infinite_Loop],[Claus_Broch2],2012-10-09,,,,,Defined TXT keys: Proprietary
 nasmon,,udp,Proprietary communication protocol for NAS Monitor,[Infinite_Loop],[Claus_Broch2],2012-10-09,,,,,Defined TXT keys: Proprietary
+nasunifiler,,tcp,This DNS-SD service is used by mobile clients to locate the Nasuni Filer (a storage product) for a given company.,[Nasuni_Corporation],[David_Shaw-Nasuni],2016-01-22,,,,,Defined TXT keys: companyfullname == The name of the company hosting the Nasuni Filer
 ncbroadcast,,,Network Clipboard Broadcasts,[Thom_McGrath],[Thom_McGrath],,,,,,Defined TXT keys: Contact The ZAZ Software <networkclipboard at thezaz.com>
 ncdirect,,,Network Clipboard Direct Transfers,[Thom_McGrath],[Thom_McGrath],,,,,,Defined TXT keys: Contact The ZAZ Software <networkclipboard at thezaz.com>
 ncount-issuer,,tcp,The issuer service in the n-Count electronic value transfer system,[n-Count_Technology_BV],[Eduard_de_Jong],2013-01-22,,,,,Defined TXT keys: None
@@ -14386,6 +14388,8 @@ servermgr,,,Mac OS X Server Admin,[Jeff_Albouze],[Jeff_Albouze],,,,,,Defined TXT
 services,,,DNS Service Discovery,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD meta queries.
 sessionfs,,,Session File Sharing,[Anthony_Williams],[Anthony_Williams],,,,,,"Defined TXT keys: Text keys are the file extensions of any file the user plans to share, i.e. pdf, doc, mp3."
 sftp-ssh,,,Secure File Transfer Protocol over SSH,[Bryan_Cole],[Bryan_Cole],,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
+sge-exec,,,Sun Grid Engine (Execution Host),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
+sge-qmaster,,,Sun Grid Engine (Master),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
 shifter,,,Window Shifter server protocol,[Antoine_Martin],[Antoine_Martin],,,,,,"Defined TXT keys:   username     The login username to use (optional)
   ssh_tunnel   Whether an SSH tunnel must be used (required)
   iface        The network interface the server is on (required - may be empty)
@@ -14419,8 +14423,17 @@ smsync,,,Syncellence file synchronization protocol,[Dialectro_Software],[Gord_Pe
       osver=<operating system version>"
 soap,,,Simple Object Access Protocol,[Andrew_Donoho],[Andrew_Donoho],,,,,,Defined TXT keys: None
 socketcloud,,,Socketcloud distributed application framework,[Robert_Goodyear],[Robert_Goodyear],,,,,,"Defined TXT keys: system, service, process, context, direction, status, progress, health, directive, flags"
+soda,,tcp,Secure On Device API,[Smith_Micro_Software_Inc],[David_Sperling_2],2011-10-10,,,,,"Defined TXT keys: a. ssid=<Wi-Fi SSID of the device>
+b. bssid=<Wi-Fi BSSID of the device>"
+souschef,,,SousChef Recipe Sharing Protocol,[Ben],[Ben],,,,,,Defined TXT keys: None
 sox,,,Simple Object eXchange,[Igor_Mozolevsky],[Igor_Mozolevsky],,,,,,Defined TXT keys: Proprietary
 sparechange,,,SpareChange data sharing protocol,[Dave_Carrigan],[Dave_Carrigan],,,,,,Defined TXT keys: None
+sparql,,,SPARQL Protocol and RDF Query Language,[Alex_Tucker],[Alex_Tucker],,,,,,"Defined TXT keys:   txtvers=1
+  path=<relative or absolute URL of endpoint>
+  protovers=<number> [if not specified then default is 1.0, corresponding to SPARQL version]
+  binding=<HTTP | SOAP> [if not specified then default is HTTP]
+  vocabs=<space separated list of URIs> [RDF vocabularies or OWL ontologies used by the endpoint]
+  metadata=<URL> [to fetch RDF/XML description of SPARQL service]"
 spearcat,,,sPearCat Host Discovery,[Pierre_Frisch_2],[Pierre_Frisch_2],,,,,,"Defined TXT keys: applicationname=<Application Name>, osname=<OS Name>, sslsupport=<Uses SSL>"
 spidap,,tcp,Sierra Photonics Inc. data protocol,[Sierra_Photonics_Inc],[Support_Staff],2011-10-20,,,,,Defined TXT keys: None
 spincrisis,,,Spin Crisis,[Sphera_Software],[Sphera_Software],,,,,,Defined TXT keys: None
@@ -14429,8 +14442,6 @@ spl-itunes,,,launchTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys
 spr-itunes,,,netTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys: None
 splashsync,,,SplashData Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
 spres,,tcp,SongPresenter,[Tobias_Hoffmann],[Tobias_Hoffmann],2012-10-09,,,,,"Defined TXT keys: version, name"
-ss-sign,,tcp,Samsung Smart Interaction for Group Network,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
-ss-sign-disc,,udp,Samsung Smart Interaction for Group Network Discovery,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
 spx-hmp,,tcp,SpinetiX HMP,[SpinetiX_S_A],[Diego_Santa_Cruz],2011-10-18,,,,,"Defined TXT keys: txtvers=1
 cport= the port for the content HTTP server
       (secondary HTTP server used for content publishing)
@@ -14440,27 +14451,20 @@ cport= the port for the content HTTP server
       firmware= firmware version string (e.g.,
       2.1.0-0.1.7844)
       model= model string (e.g., HMP100)"
+sqp,,tcp,Square Connect Control Protocol,[Square_Connect_Inc],[Mat_Henshall],2011-10-07,,,,,Defined TXT keys: Proprietary
+ss-sign,,tcp,Samsung Smart Interaction for Group Network,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
+ss-sign-disc,,udp,Samsung Smart Interaction for Group Network Discovery,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
 ssh,,tcp,SSH Remote Login Protocol,[Tatu_Ylonen],[Tatu_Ylonen],,,,,,Defined TXT keys:  u=<username> p=<password>
 ssscreenshare,,,Screen Sharing,,,,,,,,Defined TXT keys: None
 startrecapp,,tcp,Remote Controlled Multimedia Recorder Network,[Luca_Cipressi],[Luca_Cipressi],2015-03-27,,,,,Defined TXT keys: None
 stingray-rpc,,tcp,Stingray Remote Procedure Call,[IK_SATPROF_LLC],[Sergey_Zubov_2],2014-05-02,,,,,Defined TXT keys: None
 stingray-remote,,tcp,Stingray remote control,[IK_SATPROF_LLC],[Sergey_Zubov_2],2014-05-02,,,,,Defined TXT keys: None
 strateges,,,Strateges,[Jean_Olivier_Lanctot],[Jean_Olivier_Lanctot],,,,,,Defined TXT keys: None
-sge-exec,,,Sun Grid Engine (Execution Host),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
-sge-qmaster,,,Sun Grid Engine (Master),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
-soda,,tcp,Secure On Device API,[Smith_Micro_Software_Inc],[David_Sperling_2],2011-10-10,,,,,"Defined TXT keys: a. ssid=<Wi-Fi SSID of the device>
-b. bssid=<Wi-Fi BSSID of the device>"
-souschef,,,SousChef Recipe Sharing Protocol,[Ben],[Ben],,,,,,Defined TXT keys: None
-sparql,,,SPARQL Protocol and RDF Query Language,[Alex_Tucker],[Alex_Tucker],,,,,,"Defined TXT keys:   txtvers=1
-  path=<relative or absolute URL of endpoint>
-  protovers=<number> [if not specified then default is 1.0, corresponding to SPARQL version]
-  binding=<HTTP | SOAP> [if not specified then default is HTTP]
-  vocabs=<space separated list of URIs> [RDF vocabularies or OWL ontologies used by the endpoint]
-  metadata=<URL> [to fetch RDF/XML description of SPARQL service]"
-sqp,,tcp,Square Connect Control Protocol,[Square_Connect_Inc],[Mat_Henshall],2011-10-07,,,,,Defined TXT keys: Proprietary
 stanza,,,Lexcycle Stanza service for discovering shared books,[Marc_Prud_hommeaux],[Marc_Prud_hommeaux],,,,,,Defined TXT keys: None
 stickynotes,,,Sticky Notes,[Johnnie_Walker],[Johnnie_Walker],,,,,,Defined TXT keys: None
 stotp,,tcp,One Time Pad Synchronisation,[softthere_com],[James_Crosby],2011-10-17,,,,,Defined TXT keys: None
+sugarlock-rcp,,tcp,Remote control protocol for Sugarlock consumer electronics devices,[Sugarlock_LLC],[Don_Woodward-Sugarlock],2016-01-22,,,,,Defined TXT keys: txtvers=1
+sugarlock-rcp,,udp,Remote control protocol for Sugarlock consumer electronics devices,[Sugarlock_LLC],[Don_Woodward-Sugarlock],2016-01-22,,,,,Defined TXT keys: txtvers=1
 supple,,,Supple Service protocol,[Dave_Christianson],[Dave_Christianson],,,,,,Defined TXT keys: type url
 surveillus,,,Surveillus Networks Discovery Protocol,[Mark_Lewis_3],[Mark_Lewis_3],,,,,,Defined TXT keys: None
 svn,,,Subversion,[CollabNet],[CollabNet],,,,,,Defined TXT keys: None

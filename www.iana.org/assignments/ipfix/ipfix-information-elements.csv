@@ -3385,7 +3385,7 @@ of OBJECT IDENTIFIER.  Note - In this case the
 ""mibObjectIdentifier"" will define which MIB object is being
 exported while the value contained in this Information Element
 will be an OID as a value.  The mibObjectValueOID Information
-Element is encoded as ASN.1/BER [BER] in an octetArray.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
+Element is encoded as ASN.1/BER[1] in an octetArray.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
 437,mibObjectValueBits,octetArray,flags,current,"An IPFIX Information Element which denotes that a set
 of Enumerated flags or bits from a MIB object will be exported.
 The MIB Object Identifier (""mibObjectIdentifier"") for this field
@@ -3458,8 +3458,7 @@ Fields.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
 445,mibObjectIdentifier,octetArray,default,current,"An IPFIX Information Element which denotes that a MIB
 Object Identifier (MIB OID) is exported in the (Options) Template
 Record.  The mibObjectIdentifier Information Element contains the
-OID assigned to the MIB Object Type Definition encoded as ASN.1/
-BER [BER].",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
+OID assigned to the MIB Object Type Definition encoded as ASN.1/BER[1].",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
 446,mibSubIdentifier,unsigned32,identifier,current,A non-negative sub-identifier of an Object Identifier (OID).,,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
 447,mibIndexIndicator,unsigned64,flags,current,"This set of bit fields is used for marking the
 Information Elements of a Data Record that serve as INDEX MIB

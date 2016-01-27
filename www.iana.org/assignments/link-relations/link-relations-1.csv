@@ -104,6 +104,7 @@ payment,Indicates a resource where payment is accepted.,[RFC5988],"This relation
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
 prefetch,Indicates that the link target should be preemptively cached.,[http://www.w3.org/TR/html5/links.html#link-type-prefetch],
+preload,"Refers to a resource that should be loaded early in the processing of the link's context, without blocking rendering.",[http://www.w3.org/TR/preload/],Additional target attributes establish the detailed fetch properties of the link.
 prev,"Indicates that the link's context is a part of a series, and
       that the previous in the series is the link target.",[http://www.w3.org/TR/html5/links.html#link-type-prev],
 preview,Refers to a resource that provides a preview of the link's context.,"[RFC6903], section 3",

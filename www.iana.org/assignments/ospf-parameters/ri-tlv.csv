@@ -1,7 +1,7 @@
 Value,TLV Name,Reference
 0,Reserved,[RFC-ietf-ospf-rfc4970bis-07]
-1,RI Informational Capabilities,[RFC-ietf-ospf-rfc4970bis-07]
-2,Informational Capabilities,[RFC-ietf-ospf-rfc4970bis-07]
+1,Router Informational Capabilities,[RFC-ietf-ospf-rfc4970bis-07]
+2,Router Functional Capabilities,[RFC-ietf-ospf-rfc4970bis-07]
 3,TE-MESH-GROUP TLV (IPv4),[RFC4972]
 4,TE-MESH-GROUP TLV (IPv6),[RFC4972]
 5,TE Node Capability Descriptor,[RFC5073]
