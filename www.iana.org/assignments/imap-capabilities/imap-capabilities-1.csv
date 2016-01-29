@@ -1,6 +1,7 @@
 Capability Name,Reference
 ACL,[RFC4314]
 ANNOTATE-EXPERIMENT-1,[RFC5257]
+APPENDLIMIT,[RFC-ietf-imapapnd-appendlimit-extension-10]
 AUTH=,[RFC3501]
 BINARY,[RFC3516]
 CATENATE,[RFC4469]
