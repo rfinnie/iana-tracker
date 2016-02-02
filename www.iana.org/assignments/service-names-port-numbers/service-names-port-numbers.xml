@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-01-28</updated>
+  <updated>2016-02-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -75193,7 +75193,7 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>8502</number>
   </record>
-  <record date="2015-06-11" updated="2015-11-03">
+  <record date="2015-06-11" updated="2016-02-01">
     <name>lsp-self-ping</name>
     <protocol>udp</protocol>
     <assignee>
@@ -75201,7 +75201,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>MPLS LSP Self-Ping</description>
-    <xref type="draft" data="RFC-ietf-mpls-self-ping-06"/>
+    <xref type="rfc" data="rfc7746"/>
     <number>8503</number>
   </record>
   <record>
