@@ -11136,6 +11136,9 @@ raqmon-pdu,7744,udp,RAQMON PDU,,,,,[RFC4712],,,
 prgp,7747,tcp,Put/Run/Get Protocol,[Jayasooriah],[Jayasooriah],2008-02-22,,,,,
 prgp,7747,udp,Put/Run/Get Protocol,[Jayasooriah],[Jayasooriah],2008-02-22,,,,,
 ,7748-7776,,Unassigned,,,,,,,,
+inetfs,7775,tcp,A File System using TLS over a wide area network,[Roger_Allan],[Roger_Allan],2016-01-28,,,,,
+,7775,udp,Reserved,,,,,,,,
+,7776,,Unassigned,,,,,,,,
 cbt,7777,tcp,cbt,[Tony_Ballardie],[Tony_Ballardie],,,,,Known Unauthorized Use on port 7777,
 cbt,7777,udp,cbt,[Tony_Ballardie],[Tony_Ballardie],,,,,Known Unauthorized Use on port 7777,
 interwise,7778,tcp,Interwise,[Joseph_Gray],[Joseph_Gray],,,,,,
@@ -11537,7 +11540,7 @@ cmtp-mgt,8501,tcp,CYTEL Message Transfer Management,,,,,,,,
 cmtp-av,8501,udp,CYTEL Message Transfer Audio and Video,[Frank_Jakel],[Frank_Jakel],2011-04-29,,,,,
 ftnmtp,8502,tcp,FTN Message Transfer Protocol,[Yuri_Myakotin],[Yuri_Myakotin],2014-01-07,,,,,
 ,8502,udp,Reserved,,,,,,,,
-lsp-self-ping,8503,udp,MPLS LSP Self-Ping,[IESG],[IETF_Chair],2015-06-11,2015-11-03,[RFC-ietf-mpls-self-ping-06],,,
+lsp-self-ping,8503,udp,MPLS LSP Self-Ping,[IESG],[IETF_Chair],2015-06-11,2016-02-01,[RFC7746],,,
 ,8503,tcp,Reserved,,,,,,,,
 ,8504-8553,,Unassigned,,,,,,,,
 rtsp-alt,8554,tcp,RTSP Alternate (see port 554),[Stephen_Casner_2],[Stephen_Casner_2],,,,,,
@@ -14166,6 +14169,7 @@ magicdice,,,Magic Dice Game Protocol,[Mike_Yenco],[Mike_Yenco],,,,,,Defined TXT 
 mandos,,,Mandos Password Server,[Mandos_Maintainers],[Mandos_Maintainers],,,,,,Defined TXT keys: None
 matrix,,,MATRIX Remote AV Switching,[Ken_Jibiki],[Ken_Jibiki],,,,,,Defined TXT keys: None
 mavlink,,tcp,MAVLink Micro Air Vehicle Communication Protocol,[Roderick_Mann],[Roderick_Mann],2011-10-20,,,,,Defined TXT keys: 0
+mazepseudo-game,,tcp,Peer to peer communication between instances of the Maze Pseudo game.,[Mad_Elf_Software_Inc.],[Kenneth_Suda],2016-02-02,,,,,Defined TXT keys: None (zero byte)
 mbconsumer,,,MediaBroker++ Consumer,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
 mbproducer,,,MediaBroker++ Producer,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
 mbserver,,,MediaBroker++ Server,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
@@ -14475,6 +14479,8 @@ swyp,,,"Framework for transferring any file from any app, to
       any app on any device: simply with a swÿp.",[ExoMachina],[Alexander_List],2011-12-06,,,,,Defined TXT keys: NONE
 sxqdea,,,Synchronize! Pro X,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 sybase-tds,,,Sybase Server,,,,,,,,Defined TXT keys: None
+synclavier,,tcp,"Remote control of Synclavier Digital Audio Workstation 
+      over local area network.",[Synclavier_Digital],[Cameron_Jones],2016-01-27,,,,,Defined TXT keys: None
 syncopation,,,Syncopation Synchronization Protocol by Sonzea,[Sonzea],[Sonzea],,,,,,Defined TXT keys: None
 syncqdea,,,Synchronize! X Plus 2.0,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 synergy,,,Synergy Peer Discovery,[Karl_Timmermann],[Karl_Timmermann],,,,,,Defined TXT keys: None

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-01-22</updated>
+  <updated>2016-02-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -72538,6 +72538,25 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>7748-7776</number>
   </record>
+  <record date="2016-01-28">
+    <name>inetfs</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Roger_Allan"/>
+    </assignee>
+    <description>A File System using TLS over a wide area network</description>
+    <number>7775</number>
+    <xref type="person" data="Roger_Allan"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7775</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>7776</number>
+  </record>
   <record>
     <name>cbt</name>
     <protocol>tcp</protocol>
@@ -75174,7 +75193,7 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>8502</number>
   </record>
-  <record date="2015-06-11" updated="2015-11-03">
+  <record date="2015-06-11" updated="2016-02-01">
     <name>lsp-self-ping</name>
     <protocol>udp</protocol>
     <assignee>
@@ -75182,7 +75201,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>MPLS LSP Self-Ping</description>
-    <xref type="draft" data="RFC-ietf-mpls-self-ping-06"/>
+    <xref type="rfc" data="rfc7746"/>
     <number>8503</number>
   </record>
   <record>
@@ -91374,6 +91393,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: 0</note>
     <xref type="person" data="Roderick_Mann"/>
   </record>
+  <record date="2016-02-02">
+    <name>mazepseudo-game</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Mad_Elf_Software_Inc."/>
+    </assignee>
+    <description>Peer to peer communication between instances of the Maze Pseudo game.</description>
+    <note>Defined TXT keys: None (zero byte)</note>
+    <xref type="person" data="Kenneth_Suda"/>
+  </record>
   <record>
     <name>mbconsumer</name>
     <description>MediaBroker++ Consumer</description>
@@ -93291,6 +93320,17 @@ cport= the port for the content HTTP server
     <name>sybase-tds</name>
     <description>Sybase Server</description>
     <note>Defined TXT keys: None</note>
+  </record>
+  <record date="2016-01-27">
+    <name>synclavier</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Synclavier_Digital"/>
+    </assignee>
+    <description>Remote control of Synclavier Digital Audio Workstation 
+      over local area network.</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Cameron_Jones"/>
   </record>
   <record>
     <name>syncopation</name>
@@ -97089,6 +97129,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Santorini, LLC</org>
       <uri>mailto:cameron&amp;santorinillc.com</uri>
       <updated>2011-10-25</updated>
+    </person>
+    <person id="Cameron_Jones">
+      <name>Cameron Jones</name>
+      <org>Synclavier Digital</org>
+      <uri>mailto:cjones&amp;synclavier.com</uri>
+      <updated>2016-01-27</updated>
     </person>
     <person id="Cameron_Young">
       <name>Cameron Young</name>
@@ -105925,6 +105971,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:flynnk&amp;darkcornersoftware.com</uri>
       <updated>2009-10-14</updated>
     </person>
+    <person id="Kenneth_Suda">
+      <name>Kenneth Suda</name>
+      <org>Mad Elf Software, Inc.</org>
+      <uri>mailto:help&amp;madelfsoftware.com</uri>
+      <updated>2016-02-02</updated>
+    </person>
     <person id="Kenneth_Vaughn">
       <name>Kenneth Vaughn</name>
       <uri>mailto:kvaughn&amp;mail.viggen.com</uri>
@@ -106901,6 +106953,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="M_Flemming">
       <name>M Flemming</name>
       <uri>mailto:mflemming&amp;aol.com</uri>
+    </person>
+    <person id="Mad_Elf_Software_Inc.">
+      <org>Mad Elf Software, Inc.</org>
+      <uri>mailto:help&amp;madelfsoftware.com</uri>
+      <updated>2016-02-02</updated>
     </person>
     <person id="Madhan_Kanagavel">
       <name>Madhan Kanagavel</name>
@@ -112529,6 +112586,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:r.harbers&amp;ict-control.com</uri>
       <updated>2005-08</updated>
     </person>
+    <person id="Roger_Allan">
+      <name>Roger Allan</name>
+      <uri>mailto:rallan&amp;inetfs.org</uri>
+      <updated>2016-01-28</updated>
+    </person>
     <person id="Roger_Binns">
       <name>Roger Binns</name>
       <uri>mailto:rogerb&amp;sco.com</uri>
@@ -114868,6 +114930,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Symantec</org>
       <uri>mailto:info&amp;symantec.com</uri>
       <updated>2012-05-07</updated>
+    </person>
+    <person id="Synclavier_Digital">
+      <org>Synclavier Digital</org>
+      <uri>mailto:admin&amp;synclavier.com</uri>
+      <updated>2016-01-27</updated>
     </person>
     <person id="System_Administrator">
       <name>System Administrator</name>
