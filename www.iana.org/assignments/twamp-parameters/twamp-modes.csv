@@ -7,5 +7,5 @@ Bit Position,Description,Semantics Definition,Reference
 5,Reflect Octets Capability,,[RFC6038]
 6,Symmetrical Size Sender Test Packet Format,,[RFC6038]
 7,IKEv2Derived Mode Capability,Section 5,[RFC7717]
-8,DSCP and ECN Monitoring Capability,Section 2,[RFC-ietf-ippm-type-p-monitor-03]
+8,DSCP and ECN Monitoring Capability,Section 2,[RFC7750]
 9-31,Unassigned,,
