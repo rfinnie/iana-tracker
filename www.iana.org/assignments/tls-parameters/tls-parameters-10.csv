@@ -3,5 +3,10 @@ Value,Description,DTLS-OK,Reference
 1,explicit_prime,Y,[RFC4492]
 2,explicit_char2,Y,[RFC4492]
 3,named_curve,Y,[RFC4492]
-4-247,Unassigned,,
+4-28,Unassigned,,
+29,"ecdh_x25519 (TEMPORARY - 
+        registered 2016-02-08, expires 2017-02-08)",Y,[draft-ietf-tls-tls][draft-ietf-tls-rfc4492bis]
+30,"ecdh_x448 (TEMPORARY - 
+        registered 2016-02-08, expires 2017-02-08)",Y,[draft-ietf-tls-tls][draft-ietf-tls-rfc4492bis]
+31-247,Unassigned,,
 248-255,Reserved for Private Use,,[RFC4492]
