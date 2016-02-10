@@ -34,5 +34,6 @@ shrinking to a single label",[RFC4379]
 31,OAM Problem/Combined mode unsupported,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
 32,OAM Problem/Fault management signaling unsupported,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
 33,OAM Problem/Unable to create fault management association,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
-34-251,Unassigned,
+34,OAM Problem/PM Configuration Error,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16]
+35-251,Unassigned,
 252-255,Reserved for Vendor Private Use,[RFC4379]
