@@ -7,7 +7,7 @@ Sub-Type,Sub-TLV Name,Reference,Comment
 103,BFD Authentication,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
 104,Traffic Class,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
 105-199,Unassigned,,
-200,Performance Measurement,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
+200,Performance Monitoring,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
 201,PM Loss Measurement,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
 202,PM Delay Measurement,[RFC-ietf-mpls-lsp-ping-mpls-tp-oam-conf-16],
 203-299,Unassigned,,

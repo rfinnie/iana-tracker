@@ -101,6 +101,7 @@ payment,Indicates a resource where payment is accepted.,[RFC5988],"This relation
       item containing a book review may include a rel=""payment"" link
       that points to the location where the book may be purchased
       through an online retailer."
+pingback,Gives the address of the pingback resource for the link context.,[http://www.hixie.ch/specs/pingback/pingback],
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
 prefetch,Indicates that the link target should be preemptively cached.,[http://www.w3.org/TR/html5/links.html#link-type-prefetch],
