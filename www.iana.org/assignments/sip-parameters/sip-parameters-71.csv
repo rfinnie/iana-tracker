@@ -96,3 +96,7 @@ g.3gpp.cs2ps-drvcc-orig-pre-alerting,"This feature-capability indicator when inc
         Feature-Caps header field as specified in IETF RFC 6809 in a SIP request 
         or a SIP response to the SIP request indicates support of CS to PS dual 
         radio access transfer for originating calls in pre-alerting phase.",[3GPP TS 24.237 12.9.0][Frederic_Firmin]
+g.3gpp.ics,"This feature-capability indicator when included in a 
+        Feature-Caps header field as specified in IETF RFC 6809 in a SIP initial 
+        request for dialog or a response associated with the SIP initial request 
+        indicates support of IMS Centralized Services (ICS).",[3GPP TS 24.292 12.8.0][Frederic_Firmin]
