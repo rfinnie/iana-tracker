@@ -40,7 +40,7 @@ mobility protocols such as Seamoby",[RFC4065]
 156,ILNPv6 Locator Update Message,[RFC6743]
 157,Duplicate Address Request,[RFC6775]
 158,Duplicate Address Confirmation,[RFC6775]
-159,MPL Control Message,[RFC-ietf-roll-trickle-mcast-12]
+159,MPL Control Message,[RFC7731]
 160-199,Unassigned,
 200,Private experimentation,[RFC4443]
 201,Private experimentation,[RFC4443]
