@@ -28,9 +28,9 @@ Value,Name,Purpose,Valid for Opcodes,Length,May Appear in,Maximum Occurrences,Re
           for local address synthesis (e.g., when an IPv4 address
           is present in referrals).","MAP, ANNOUNCE",variable,"request, response","1 for a request. As many as fit within
           the maximum PCP message size for a response.",[RFC7225]
-130,PORT_SET,To map sets of ports.,MAP,5 bytes,Request and response.,1,[RFC-ietf-pcp-port-set-13]
+130,PORT_SET,To map sets of ports.,MAP,5 bytes,Request and response.,1,[RFC7753]
 131-191,Unassigned,,,,,,
-192,CHECKPOINT_REQUIRED,Indicate if an entry needs to be check-pointed.,"MAP, PEER",0,Request and response.,1,[RFC-vinapamula-flow-ha-14]
+192,CHECKPOINT_REQUIRED,Indicate if an entry needs to be check-pointed.,"MAP, PEER",0,Request and response.,1,[RFC7767]
 193-223,Unassigned,,,,,,
 224-254,Reserved for Private Use,,,,,,[RFC6887]
 255,Reserved,,,,,,[RFC6887]
