@@ -19,7 +19,7 @@ Value,Description,Reference
 0x0025,On-Demand CV,[RFC6426]
 0x0026,LI,[RFC6435]
 0x0027,PW OAM Message,[RFC6478]
-0x0028,MAC Withdraw OAM Message,[RFC-ietf-pals-mpls-tp-mac-wd-03]
+0x0028,MAC Withdraw OAM Message,[RFC7769]
 0x0029-0x0056,Unassigned,
 0x0057,Associated Channel carries an IPv6 packet,[RFC4385]
 0x0058,Fault OAM,[RFC6427]
