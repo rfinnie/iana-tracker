@@ -6,7 +6,7 @@ archives,"Refers to a collection of records, documents, or other
       materials of historical interest.",[http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives],
 author,Refers to the context's author.,[http://www.w3.org/TR/html5/links.html#link-type-author],
 blocked-by,"Identifies the entity that blocks access to a resource
-      folllowing receipt of a legal demand.",[RFC-ietf-httpbis-legally-restricted-status-04],
+      following receipt of a legal demand.",[RFC-ietf-httpbis-legally-restricted-status-04],
 bookmark,Gives a permanent link to use for bookmarking purposes.,[http://www.w3.org/TR/html5/links.html#link-type-bookmark],
 canonical,Designates the preferred version of a resource (the IRI and its contents).,[RFC6596],
 chapter,Refers to a chapter in a collection of resources.,[http://www.w3.org/TR/1999/REC-html401-19991224],
@@ -29,7 +29,11 @@ describes,"The relationship A 'describes' B asserts that
         'describes' established a relation from the describing resource to
         the resource it describes.  If B is 'describedby' A, then A
         'describes' B."
-disclosure,Refers to a list of patent disclosures made with respect to material for which 'disclosure' relation is specified.,[RFC6579],
+disclosure,"Refers to a list of patent disclosures made with respect to 
+      material for which 'disclosure' relation is specified.",[RFC6579],
+dns-prefetch,"Used to indicate an origin that will be used to fetch required 
+      resources for the link context, and that the user agent ought to resolve 
+      as early as possible.",[https://www.w3.org/TR/resource-hints/],
 duplicate,"Refers to a resource whose available representations
       are byte-for-byte identical with the corresponding representations of
       the context IRI.",[RFC6249],"This relation is for static resources.  That is, an HTTP GET
@@ -102,10 +106,20 @@ payment,Indicates a resource where payment is accepted.,[RFC5988],"This relation
       that points to the location where the book may be purchased
       through an online retailer."
 pingback,Gives the address of the pingback resource for the link context.,[http://www.hixie.ch/specs/pingback/pingback],
+preconnect,"Used to indicate an origin that will be used to fetch required 
+      resources for the link context. Initiating an early connection, which 
+      includes the DNS lookup, TCP handshake, and optional TLS negotiation, 
+      allows the user agent to mask the high latency costs of establishing a 
+      connection.",[https://www.w3.org/TR/resource-hints/],
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
 prefetch,Indicates that the link target should be preemptively cached.,[http://www.w3.org/TR/html5/links.html#link-type-prefetch],
-preload,"Refers to a resource that should be loaded early in the processing of the link's context, without blocking rendering.",[http://www.w3.org/TR/preload/],Additional target attributes establish the detailed fetch properties of the link.
+preload,"Refers to a resource that should be loaded early in the 
+      processing of the link's context, without blocking rendering.",[http://www.w3.org/TR/preload/],Additional target attributes establish the detailed fetch properties of the link.
+prerender,"Used to identify a resource that might be required by the next 
+      navigation from the link context, and that the user agent ought to fetch 
+      and execute, such that the user agent can deliver a faster response once 
+      the resource is requested in the future.",[https://www.w3.org/TR/resource-hints/],
 prev,"Indicates that the link's context is a part of a series, and
       that the previous in the series is the link target.",[http://www.w3.org/TR/html5/links.html#link-type-prev],
 preview,Refers to a resource that provides a preview of the link's context.,"[RFC6903], section 3",
