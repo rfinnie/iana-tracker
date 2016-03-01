@@ -2,8 +2,8 @@ Name,Description,Reference
 0x0000,Reserved to indicate no nickname specified,[RFC6325]
 0x0001-0xFFBF,Dynamically allocated by the RBridges within each RBridge campus,[RFC6325]
 0xFFC0,Any-RBridge,[RFC7178]
-0xFFC1,OOMF (Overload Originated Multi-destination Frame),[RFC-ietf-trill-rfc7180bis-07]
+0xFFC1,OOMF (Overload Originated Multi-destination Frame),[RFC7780]
 0xFFC2-0xFFD7,Unassigned,
-0xFFD8-0xFFDF,For use in documentation examples,[RFC-ietf-trill-rfc7180bis-07]
+0xFFD8-0xFFDF,For use in documentation examples,[RFC7780]
 0xFFE0-0xFFFE,Unassigned,
 0xFFFF,Permanently reserved,[RFC6325]
