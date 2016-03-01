@@ -2842,7 +2842,7 @@ Identifier (VNI)
             
             
               
-See NVGRE RFC at [draft-sridharan-virtualization-nvgre]",[ipfix-iana_at_cisco.com],0,2013-02-18
+See NVGRE RFC at [RFC7637]",[ipfix-iana_at_cisco.com],0,2013-02-18
 352,layer2OctetDeltaCount,unsigned64,deltaCounter,current,"The number of layer 2 octets since the previous report (if any) in
 incoming packets for this Flow at the Observation Point.  The
 number of octets includes layer 2 header(s) and layer 2 payload.
