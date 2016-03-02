@@ -47,7 +47,7 @@
     <value>blocked-by</value>
     <description>Identifies the entity that blocks access to a resource
       following receipt of a legal demand.</description>
-    <spec><xref type="draft" data="RFC-ietf-httpbis-legally-restricted-status-04"/></spec>
+    <spec><xref type="rfc" data="rfc7725"/></spec>
   </record>
   
   <record>
