@@ -6,7 +6,7 @@ archives,"Refers to a collection of records, documents, or other
       materials of historical interest.",[http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives],
 author,Refers to the context's author.,[http://www.w3.org/TR/html5/links.html#link-type-author],
 blocked-by,"Identifies the entity that blocks access to a resource
-      following receipt of a legal demand.",[RFC-ietf-httpbis-legally-restricted-status-04],
+      following receipt of a legal demand.",[RFC7725],
 bookmark,Gives a permanent link to use for bookmarking purposes.,[http://www.w3.org/TR/html5/links.html#link-type-bookmark],
 canonical,Designates the preferred version of a resource (the IRI and its contents).,[RFC6596],
 chapter,Refers to a chapter in a collection of resources.,[http://www.w3.org/TR/1999/REC-html401-19991224],
