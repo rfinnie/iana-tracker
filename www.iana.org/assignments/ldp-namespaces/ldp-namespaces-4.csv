@@ -1,6 +1,6 @@
 Value,Description,Reference,Notes/Registration Date
 0x0000,Reserved,,
-0x0001,Sequence Number TLV,[RFC-ietf-pals-mpls-tp-mac-wd-03],2015-11-17
+0x0001,Sequence Number TLV,[RFC7769],2015-11-17
 0x0002-0x00FF,Unassigned,,
 0x0100,FEC,[RFC5036],
 0x0101,Address List,[RFC5036],
