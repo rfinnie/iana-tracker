@@ -1,5 +1,5 @@
 Bit,Description,Reference
-0,Hello reduction support.,[draft-eastlake-trill-rfc6439bis]
+0,Hello reduction support.,[RFC7780]
 1-2,Unassigned,
 3-13,Hop-by-hop extended flag support.,[RFC7179]
 14-31,Unassigned,

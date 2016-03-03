@@ -1,11 +1,11 @@
 Type,Name,Reference
 0,Reserved,[RFC7357]
 1,ESADI-PARAM,[RFC7357]
-2,PN-LAALP-Membership,[RFC-ietf-trill-pseudonode-nickname-07]
-3,PN-RBv,[RFC-ietf-trill-pseudonode-nickname-07]
-4,PN-MAC-RI-LAALP-INFO-START,[RFC-ietf-trill-pseudonode-nickname-07]
-5,PN-MAC-RI-LAALP-INFO-END,[RFC-ietf-trill-pseudonode-nickname-07]
-6,NICKFLAGS,[RFC-ietf-trill-rfc7180bis-07]
+2,PN-LAALP-Membership,[RFC7781]
+3,PN-RBv,[RFC7781]
+4,PN-MAC-RI-LAALP-INFO-START,[RFC7781]
+5,PN-MAC-RI-LAALP-INFO-END,[RFC7781]
+6,NICKFLAGS,[RFC7780]
 7-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC-ietf-trill-aa-multi-attach-06]
 253,AA-LAALP-GROUP-MAC,[RFC-ietf-trill-aa-multi-attach-06]
