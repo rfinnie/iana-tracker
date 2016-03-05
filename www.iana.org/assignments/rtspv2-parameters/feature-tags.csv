@@ -1,7 +1,7 @@
 Name,Description,Reference
 play.basic,"The implementation for delivery and playback operations
          according to the core RTSP specification, as defined in this
-         memo. Applies for both clients, servers and proxies. See
+         memo. Applies for clients, servers, and proxies. See
          Section 11.1 of [RFC-ietf-mmusic-rfc2326bis-40]",[RFC-ietf-mmusic-rfc2326bis-40]
 play.scale,"Support of scale operations for media playback. Applies
          only for servers. See Section 18.46 of [RFC-ietf-mmusic-rfc2326bis-40].",[RFC-ietf-mmusic-rfc2326bis-40]
