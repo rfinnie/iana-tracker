@@ -2,7 +2,7 @@ Name,Description,Reference
 end-of-stream,"This Notify-Reason value indicates the end of a media
       stream.",[RFC-ietf-mmusic-rfc2326bis-40]
 media-properties-update,"This Notify-Reason value allows the server
-      to indicate that the properties of the media has changed during
+      to indicate that the properties of the media have changed during
       the playout.",[RFC-ietf-mmusic-rfc2326bis-40]
 scale-change,"This Notify-Reason value allows the server to notify
       the client about a change in the Scale of the media.",[RFC-ietf-mmusic-rfc2326bis-40]
