@@ -1,5 +1,5 @@
 Name,Description,Reference
-RAP,"Using the closest Random Access Point prior or at the
+RAP,"Using the closest Random Access Point prior to or at the
       requested start position.",[RFC-ietf-mmusic-rfc2326bis-40]
 CoRAP,"Conditional Random Access Point is like RAP, but only if
       the RAP is closer prior to the requested start position than
