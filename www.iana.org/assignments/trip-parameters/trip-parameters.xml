@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trip-parameters">
   <title>Telephony Routing over IP (TRIP) Parameters</title>
   <created>2001-12-18</created>
-  <updated>2016-02-29</updated>
+  <updated>2016-03-08</updated>
 
   <registry id="trip-parameters-1">
     <title>TRIP Capabilities</title>
