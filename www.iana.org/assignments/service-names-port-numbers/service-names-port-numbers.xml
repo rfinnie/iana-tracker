@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-02-26</updated>
+  <updated>2016-03-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -57743,7 +57743,26 @@ Further keys may be added in the future.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4606-4657</number>
+    <number>4606-4620</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>4621</number>
+  </record>
+  <record date="2016-03-04">
+    <name>ventoso</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ventoso_Integrated_Peripherals"/>
+    </assignee>
+    <description>Bidirectional single port remote radio VOIP and Control stream</description>
+    <number>4621</number>
+    <xref type="person" data="John_Lindsey"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4622-4657</number>
   </record>
   <record>
     <name>playsta2-app</name>
@@ -89727,6 +89746,18 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: version=?</note>
     <xref type="person" data="Brady_Anderson"/>
   </record>
+  <record date="2016-03-03">
+    <name>commfort</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="CommFort_software_Ltd."/>
+    </assignee>
+    <description>A client-server chat for LAN or Internet with video chat support</description>
+    <note>Defined TXT keys: commfort, chat, communications, client-server, 
+      local chat, LAN, network, voice chat, video chat, video communication, 
+      video conference, file transfer</note>
+    <xref type="person" data="Maxim_Mirgorodsky"/>
+  </record>
   <record>
     <name>com-ocs-es-mcc</name>
     <description>ElectraStar media centre control protocol</description>
@@ -92704,6 +92735,18 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="John_Wason"/>
   </record>
+  <record date="2016-03-09">
+    <name>rradict</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Dave_Stephenson"/>
+    </assignee>
+    <description>Ruckus Radio Access Device, Installation, Commissioning and Troubleshooting service.</description>
+      <note>Defined TXT keys: txtvers=&lt;version&gt;, serial=&lt;serial number&gt;, 
+        mac=&lt;mac-address&gt;, model=&lt;model number&gt;, opMode=&lt;operational mode&gt;, 
+          tx=&lt;transmitter-status&gt;, timing=&lt;timing-status&gt;</note>
+      <xref type="person" data="Dave_Stephenson"/>
+  </record>
   <record>
     <name>rsmp-server</name>
     <description>Remote System Management Protocol (Server Instance)</description>
@@ -93965,6 +94008,16 @@ cport= the port for the content HTTP server
     <description>NAS Service Protocol</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Rajesh_Batra"/>
+  </record>
+  <record date="2016-03-03">
+    <name>wdp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Microsoft_Corporation_5"/>
+    </assignee>
+    <description>Windows Device Portal</description>
+    <note>Defined TXT keys: http, https, version, SKU, features</note>
+    <xref type="person" data="Hirsch_Singhal"/>
   </record>
   <record>
     <name>we-jell</name>
@@ -98371,6 +98424,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:colm.maccarthaigh&amp;joost.com</uri>
       <updated>2007-04</updated>
     </person>
+    <person id="CommFort_software_Ltd.">
+      <org>CommFort software Ltd.</org>
+      <uri>mailto:support&amp;commfort.com</uri>
+      <updated>2016-03-03</updated>
+    </person>
     <person id="Complan_Network_AS">
       <org>Complan Network AS</org>
       <uri>mailto:knut&amp;winpcs.com</uri>
@@ -99140,6 +99198,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dave_Stampe">
       <name>Dave Stampe</name>
       <uri>mailto:dstampe&amp;psych.toronto.edu</uri>
+    </person>
+    <person id="Dave_Stephenson">
+      <name>Dave Stephenson</name>
+      <uri>mailto:dave.stephenson&amp;ruckuswireless.com</uri>
+      <updated>2016-03-09</updated>
     </person>
     <person id="Dave_Stone">
       <name>Dave Stone</name>
@@ -102865,6 +102928,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Hiroyuki Takahashi</name>
       <uri>mailto:hiro.takahashi&amp;eng.sun.com</uri>
     </person>
+    <person id="Hirsch_Singhal">
+      <name>Hirsch Singhal</name>
+      <org>Microsoft Corporation</org>
+      <uri>mailto:hirsin&amp;microsoft.com</uri>
+      <updated>2016-03-03</updated>
+    </person>
     <person id="Hitoshi_Ishida">
       <name>Hitoshi Ishida</name>
       <uri>mailto:ishida.hitoshi&amp;exc.epson.co.jp</uri>
@@ -105029,6 +105098,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="John_Light">
       <name>John Light</name>
       <uri>mailto:johnl&amp;gssc.gss.com</uri>
+    </person>
+    <person id="John_Lindsey">
+      <name>John Lindsey</name>
+      <uri>mailto:john.lindsey&amp;nilesradio.com</uri>
+      <updated>2016-03-04</updated>
     </person>
     <person id="John_Linn">
       <name>John Linn</name>
@@ -108335,6 +108409,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:m.baklanovsky&amp;spbu.ru</uri>
       <updated>2015-05-20</updated>
     </person>
+    <person id="Maxim_Mirgorodsky">
+      <name>Maxim Mirgorodsky</name>
+      <org>CommFort software Ltd.</org>
+      <uri>mailto:support&amp;commfort.com</uri>
+      <updated>2016-03-03</updated>
+    </person>
     <person id="Maxim_Tseitlin">
       <name>Maxim Tseitlin</name>
       <uri>mailto:mtseitlin&amp;iname.com</uri>
@@ -108957,6 +109037,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Microsoft Corporation</org>
       <uri>mailto:joeball&amp;microsoft.com</uri>
       <updated>2013-06-16</updated>
+    </person>
+    <person id="Microsoft_Corporation_5">
+      <org>Microsoft Corporation</org>
+      <uri>mailto:hirsin&amp;microsoft.com</uri>
+      <updated>2016-03-03</updated>
     </person>
     <person id="Microtec_Informatique">
       <org>Microtec Informatique</org>
@@ -116613,6 +116698,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Venky_Nagar">
       <name>Venky Nagar</name>
       <uri>mailto:venky&amp;fafner.stanford.edu</uri>
+    </person>
+    <person id="Ventoso_Integrated_Peripherals">
+      <org>Ventoso Integrated Peripherals</org>
+      <uri>mailto:john.lindsey&amp;nilesradio.com</uri>
+      <updated>2016-03-04</updated>
     </person>
     <person id="Ventureforth_Inc">
       <org>Ventureforth Inc.</org>
