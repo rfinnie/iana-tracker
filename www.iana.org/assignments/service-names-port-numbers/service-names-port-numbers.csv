@@ -14378,6 +14378,9 @@ robustirc,,tcp,"Like ircu (RFC1459), but failure tolerant due to strong consiste
 roku-rcp,,,Roku Control Protocol,[Don_Woodward],[Don_Woodward],,,,,,Defined TXT keys: txtvers=1
 rql,,,RemoteQuickLaunch,[Daniel_Heffernan],[Daniel_Heffernan],,,,,,Defined TXT keys: None
 rr-disc,,,Robot Raconteur discovery,[Wason_Technology_LLC],[John_Wason],2014-01-27,,,,,Defined TXT keys: None
+rradict,,tcp,"Ruckus Radio Access Device, Installation, Commissioning and Troubleshooting service.",[Dave_Stephenson],[Dave_Stephenson],2016-03-09,,,,,"Defined TXT keys: txtvers=<version>, serial=<serial number>, 
+        mac=<mac-address>, model=<model number>, opMode=<operational mode>, 
+          tx=<transmitter-status>, timing=<timing-status>"
 rsmp-server,,,Remote System Management Protocol (Server Instance),[Geoff_Back_3],[Geoff_Back_3],,,,,,Defined TXT keys: apiver=<major.minor>
 rubygems,,,RubyGems GemServer,[Rich_Kilmer],[Rich_Kilmer],,,,,,Defined TXT keys: None
 rym-rrc,,tcp,Raymarine remote control protocol,[Raymarine_UK_Limited],[Geoffrey_Beer],2012-05-24,2012-06-04,,,,"Defined TXT keys: raymarine-mfd-rrc-version, raymarine-mfd-model, raymarine-mfd-serial"
