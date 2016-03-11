@@ -29,3 +29,4 @@ Field Type,Meaning,Reference
 0x0902,MV Identity Message Request,[RFC5906]
 0x8902,MV Identity Message Response,[RFC5906]
 0xC902,MV Identity Message Error Response,[RFC5906]
+0x2005,Checksum Complement,[RFC-ietf-ntp-checksum-trailer-07]
