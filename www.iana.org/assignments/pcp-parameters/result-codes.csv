@@ -71,6 +71,14 @@ Value,Name,Description,Reference
         the PA message contains an EAP request.",[RFC7652]
 23,AUTHENTICATION_REPLY,"The client indicates to the server that
         the PA message contains an EAP response.",[RFC7652]
-24-191,Unassigned,,
+24,THIRD_PARTY_ID_UNKNOWN,"The provided identifier in a
+      THIRD_PARTY_ID option is unknown/unavailable to the PCP server.
+      This is a long lifetime error.",[RFC-ietf-pcp-third-party-id-option-08]
+25,THIRD_PARTY_MISSING_OPTION,"This error occurs if both
+      THIRD_PARTY and THIRD_PARTY_ID options are expected in a request
+      but one option is missing.  This is a long lifetime error.",[RFC-ietf-pcp-third-party-id-option-08]
+26,UNSUPP_THIRD_PARTY_ID_LENGTH,"The received option length is
+      not supported.  This is a long lifetime error.",[RFC-ietf-pcp-third-party-id-option-08]
+27-191,Unassigned,,
 192-254,Reserved for Private Use,,[RFC6887]
 255,Reserved,,[RFC6887]
