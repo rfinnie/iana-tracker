@@ -110,8 +110,7 @@ Newman, January 1982.][Harry_Forsdick]"
 Specification, Draft Version"", Contract no. CS901145,
 November 16, 1987.][Mike_Little]"
 87,TCF,TCF,,[Guillermo_A_Loyola]
-88,EIGRP,EIGRP,,"[Cisco Systems, ""Gateway Server Reference Manual"", Manual
-Revision B, January 10, 1988.][Guenther_Schreiner]"
+88,EIGRP,EIGRP,,[RFC-savage-eigrp-05]
 89,OSPFIGP,OSPFIGP,,[RFC1583][RFC2328][RFC5340][John_Moy]
 90,Sprite-RPC,Sprite RPC Protocol,,"[Welch, B., ""The Sprite Remote Procedure Call System"",
 Technical Report, UCB/Computer Science Dept., 86/302,
