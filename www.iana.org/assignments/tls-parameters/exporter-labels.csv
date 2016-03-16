@@ -1,17 +1,17 @@
-Value,DTLS-OK,Reference,Note
-client finished,Y,[RFC5246],(1)
-server finished,Y,[RFC5246],(1)
-master secret,Y,[RFC5246],(1)
-key expansion,Y,[RFC5246],(1)
-client EAP encryption,N,[RFC5216][RFC6347],
-ttls keying material,N,[RFC5281][RFC6347],
-ttls challenge,N,[RFC5281][RFC6347],
-EXTRACTOR-dtls_srtp,Y,[RFC5764],
-EXPORTER_DTLS_OVER_SCTP,Y,[RFC6083],
-EXPORTER-ETSI-TC-M2M-Bootstrap,Y,[TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega],
-EXPORTER-ETSI-TC-M2M-Connection,Y,[TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega],
-TLS_MK_Extr,Y,[TR 33.222][Silke_Holtmanns],
-EXPORTER_GBA_Digest,Y,[TS 33.220 Annex M.6][Silke_Holtmanns],
-EXPORTER: teap session key seed,N,[RFC7170],
-EXPORTER-oneM2M-Bootstrap,Y,[oneM2M Security Solutions][Miguel_Angel_Reina_Ortega],
-EXPORTER-oneM2M-Connection,Y,[oneM2M Security Solutions][Miguel_Angel_Reina_Ortega],
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>503 Service Unavailable</title>
+  </head>
+  <body>
+    <h1>Error 503 Service Unavailable</h1>
+    <p>Service Unavailable</p>
+    <h3>Guru Meditation:</h3>
+    <p>XID: 2195801227</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
