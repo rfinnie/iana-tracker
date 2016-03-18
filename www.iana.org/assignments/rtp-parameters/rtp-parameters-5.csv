@@ -10,4 +10,5 @@ Value,Abbrev.,Name,Reference
 8,PRIV,private extensions,[RFC3550]
 9,H323-CADDR,H.323 callable address,[Vineet_Kumar]
 10,APSI,Application Specific Identifier,[RFC6776]
-11-255,,Unassigned,
+11,RGRP,Reporting Group Identifier,[RFC-ietf-avtcore-rtp-multi-stream-optimisation-12]
+12-255,,Unassigned,
