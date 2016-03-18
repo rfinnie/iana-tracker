@@ -18,7 +18,12 @@ Value,Name,Purpose,Valid for Opcodes,Length,May Appear in,Maximum Occurrences,Re
 10,SESSION_LIFETIME,See Section 5.9 of [RFC7652].,AUTHENTICATION,4 octets,Response.,1,[RFC7652]
 11,RECEIVED_PAK,See Section 5.10 of [RFC7652].,AUTHENTICATION,4 octets,Request and response.,1,[RFC7652]
 12,ID_INDICATOR,See Section 5.11 of [RFC7652].,AUTHENTICATION,variable,Response.,1,[RFC7652]
-13-95,Unassigned,,,,,,
+13,THIRD_PARTY_ID,"Together with the THIRD_PARTY option, the
+      THIRD_PARTY_ID option identifies a third party
+      for which a request for an external IP address
+      and port is made.","MAP, PEER","Variable, maximum 1016 octets.","Request. May appear in response only if it
+      appeared in the associated request.",1,[RFC-ietf-pcp-third-party-id-option-08]
+14-95,Unassigned,,,,,,
 96-126,Reserved for Private Use,,,,,,[RFC6887]
 127,Reserved,,,,,,[RFC6887]
 128,DESCRIPTION,Used to associate a text description with a mapping.,"MAP, PEER","variable, maximum 1016 octets.","Request.  May appear in response only if it

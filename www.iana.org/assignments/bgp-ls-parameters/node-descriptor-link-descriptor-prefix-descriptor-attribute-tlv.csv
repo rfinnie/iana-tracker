@@ -37,7 +37,7 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 513,BGP-LS Identifier,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
       ]"
-514,OSPF Area ID,,"[
+514,OSPF Area-ID,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
       ]"
 515,IGP Router-ID,,"[
@@ -47,7 +47,7 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1024,Node Flag Bits,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.1.1
       ]"
-1025,Opaque Node Properties,,"[
+1025,Opaque Node Attribute,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.1.5
       ]"
 1026,Node Name,variable,"[
@@ -73,9 +73,9 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
         RFC5305, Section 3.1
       ]"
 1089,Maximum link bandwidth,22/9,"[
-        RFC5305, Section 3.3
+        RFC5305, Section 3.4
       ]"
-1090,Max. reservable link bandwidth,22/9,"[
+1090,Max. reservable link bandwidth,22/10,"[
         RFC5305, Section 3.5
       ]"
 1091,Unreserved bandwidth,22/11,"[
@@ -96,18 +96,18 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1096,Shared Risk Link Group,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.2.5
       ]"
-1097,Opaque link attribute,,"[
+1097,Opaque Link Attribute,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.2.6
       ]"
-1098,Link Name attribute,,"[
+1098,Link Name,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.2.7
       ]"
 1099-1151,Unassigned,,
 1152,IGP Flags,,"[
         RFC-ietf-idr-ls-distribution-13, Section 3.3.3.1
       ]"
-1153,Route Tag,,[RFC5130]
-1154,Extended Tag,,[RFC5130]
+1153,IGP Route Tag,,[RFC5130]
+1154,IGP Extended Route Tag,,[RFC5130]
 1155,Prefix Metric,,[RFC5305]
 1156,OSPF Forwarding Address,,[RFC2328]
 1157,Opaque Prefix Attribute,,"[
