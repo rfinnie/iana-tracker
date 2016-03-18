@@ -5,7 +5,10 @@ Number,Name,Reference
 3-63,Unassigned,
 64,EXT_FTI,[RFC5775]
 65,DVB-IPTV CDS Completion Poll Request LCT Header Extension,[ETSI TS 102 034]
-66-191,Unassigned,
+66,EXT_ROUTE_PRESENTATION_TIME,[ATSC A/331]
+67,EXT_TOL,[ATSC A/331]
+68-191,Unassigned,
 192,EXT_FDT,[RFC6726]
 193,EXT_CENC,[RFC6726]
-194-255,Unassigned,
+194,EXT_TOL,[ATSC A/331]
+195-255,Unassigned,
