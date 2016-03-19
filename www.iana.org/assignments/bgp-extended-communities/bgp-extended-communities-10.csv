@@ -8,5 +8,5 @@ Sub-Type Value,Name,Reference,Date
 0x08,Flow spec redirect AS-2byte format,[RFC5575][RFC7674],
 0x09,Flow spec traffic-remarking,[RFC5575],
 0x0a,Layer2 Info Extended Community,[RFC4761],
-0x0b,E-Tree Info,[RFC-ietf-l2vpn-vpls-pe-etree-11],2014-11-24
+0x0b,E-Tree Info,[RFC7796],2014-11-24
 0x0c-0xff,Unassigned,,
