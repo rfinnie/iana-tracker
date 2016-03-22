@@ -14075,6 +14075,7 @@ icontrolbox,,tcp,A Remote Control Application service used to control Computers 
 idata,,,Generic Data Acquisition and Control Protocol,[Carson_Fenimore],[Carson_Fenimore],,,,,,Defined TXT keys: None
 idcws,,,Intermec Device Configuration Web Services,[Thaddeus_Ternes],[Thaddeus_Ternes],,,,,,Defined TXT keys: version=<x.xx>
 idsync,,,SplashID Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
+iffl,,,iFFL Bonjour service for communication between client and server applications.,[Kevin_Gregory],[Kevin_Gregory],2016-03-20,,,,,Defined TXT keys: None
 ifolder,,,Published iFolder,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=?
 ihouse,,,Idle Hands iHouse Protocol,[Toby_Smith],[Toby_Smith],,,,,,Defined TXT keys: None
 ii-drills,,,Instant Interactive Drills,[Ricky_Sharp],[Ricky_Sharp],,,,,,Defined TXT keys: None
@@ -14527,6 +14528,7 @@ tcode,,,Time Code,[Marshall_Anschutz],[Marshall_Anschutz],,,,,,Defined TXT keys:
 tcu,,,Tracking Control Unit by RPM-PSI,[James_Nikolai],[James_Nikolai],,,,,,Defined TXT keys: None
 te-faxserver,,,TE-SYSTEMS GmbH Fax Server Daemon,[Tobias_Erichsen],[Tobias_Erichsen],,,,,,Defined TXT keys: Proprietary
 teamlist,,,ARTIS Team Task,[ARTIS_Software],[ARTIS_Software],,,,,,Defined TXT keys: None
+ted,,udp,Teddington Controls,[Teddington_Bemasan_Ltd],[Nathan_Child_CEng_MEng_Hons_MIET],2016-03-21,,,,,Defined TXT keys: None
 teleport,,udp,teleport,[Julien_Robert],[Julien_Robert],,,,,,Defined TXT keys: None
 tenir-rc,,tcp,Proprietary,[Tenir_Software],[Steve_Gums],2011-10-27,,,,,Defined TXT keys: Proprietary
 tera-fsmgr,,,Terascala Filesystem Manager Protocol,[Mike_Nuss],[Mike_Nuss],,,,,,Defined TXT keys: Proprietary
