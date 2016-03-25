@@ -4,7 +4,7 @@
            2001-06-15
 
    Last Updated
-           2016-02-08
+           2016-03-23
 
    Available Formats
            [IMG]
@@ -113,6 +113,13 @@ proto
    proto voice                 [RFC2848]
    proto fax                   [RFC2848]
    proto pager                 [RFC2848]
+   proto TCP/RTP/AVPF          [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/RTP/SAVP          [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/RTP/SAVPF         [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/DTLS/RTP/SAVP     [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/DTLS/RTP/SAVPF    [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/TLS/RTP/AVP       [RFC-ietf-mmusic-proto-iana-registration-06]
+   proto TCP/TLS/RTP/AVPF      [RFC-ietf-mmusic-proto-iana-registration-06]
 
 SDP bwtype
 
@@ -395,6 +402,8 @@ att-field (both session and media level)
    att-field (both session and media      record                 [RFC-ietf-siprec-protocol-18]
    level)
    att-field (both session and media      recordpref             [RFC-ietf-siprec-protocol-18]
+   level)
+   att-field (both session and media      rtcp-rgrp              [RFC-ietf-avtcore-rtp-multi-stream-optimisation-12]
    level)
 
 att-field (media level only)

@@ -1,11 +1,7 @@
 TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
-0-255,Reserved,,[RFC-ietf-idr-ls-distribution-13]
-256,Local Node Descriptors,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.2
-      ]"
-257,Remote Node Descriptors,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.3
-      ]"
+0-255,Reserved,,[RFC7752]
+256,Local Node Descriptors,,"[RFC7752, Section 3.2.1.2]"
+257,Remote Node Descriptors,,"[RFC7752, Section 3.2.1.3]"
 258,Link Local/Remote Identifiers,22/4,"[
         RFC5307, Section 1.1
       ]"
@@ -21,41 +17,19 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 262,IPv6 neighbor address,22/13,"[
         RFC6119, Section 4.3
       ]"
-263,Multi-Topology ID,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.5
-      ]"
-264,OSPF Route Type,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.3
-      ]"
-265,IP Reachability Information,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.3
-      ]"
+263,Multi-Topology ID,,"[RFC7752, Section 3.2.1.5]"
+264,OSPF Route Type,,"[RFC7752, Section 3.2.3]"
+265,IP Reachability Information,,"[RFC7752, Section 3.2.3]"
 266-511,Unassigned,,
-512,Autonomous System,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
-      ]"
-513,BGP-LS Identifier,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
-      ]"
-514,OSPF Area-ID,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
-      ]"
-515,IGP Router-ID,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.2.1.4
-      ]"
+512,Autonomous System,,"[RFC7752, Section 3.2.1.4]"
+513,BGP-LS Identifier,,"[RFC7752, Section 3.2.1.4]"
+514,OSPF Area-ID,,"[RFC7752, Section 3.2.1.4]"
+515,IGP Router-ID,,"[RFC7752, Section 3.2.1.4]"
 516-1023,Unassigned,,
-1024,Node Flag Bits,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.1
-      ]"
-1025,Opaque Node Attribute,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.5
-      ]"
-1026,Node Name,variable,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.3
-      ]"
-1027,IS-IS Area Identifier,variable,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.1.2
-      ]"
+1024,Node Flag Bits,,"[RFC7752, Section 3.3.1.1]"
+1025,Opaque Node Attribute,,"[RFC7752, Section 3.3.1.5]"
+1026,Node Name,variable,"[RFC7752, Section 3.3.1.3]"
+1027,IS-IS Area Identifier,variable,"[RFC7752, Section 3.3.1.2]"
 1028,IPv4 Router-ID of Local Node,134/---,"[
         RFC5305, Section 4.3
       ]"
@@ -81,36 +55,20 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1091,Unreserved bandwidth,22/11,"[
         RFC5305, Section 3.6
       ]"
-1092,TE Default Metric,22/18,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.3
-      ]"
+1092,TE Default Metric,22/18,"[RFC7752, Section 3.3.2.3]"
 1093,Link Protection Type,22/20,"[
         RFC5307, Section 1.2
       ]"
-1094,MPLS Protocol Mask,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.2
-      ]"
-1095,IGP Metric,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.4
-      ]"
-1096,Shared Risk Link Group,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.5
-      ]"
-1097,Opaque Link Attribute,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.6
-      ]"
-1098,Link Name,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.2.7
-      ]"
+1094,MPLS Protocol Mask,,"[RFC7752, Section 3.3.2.2]"
+1095,IGP Metric,,"[RFC7752, Section 3.3.2.4]"
+1096,Shared Risk Link Group,,"[RFC7752, Section 3.3.2.5]"
+1097,Opaque Link Attribute,,"[RFC7752, Section 3.3.2.6]"
+1098,Link Name,,"[RFC7752, Section 3.3.2.7]"
 1099-1151,Unassigned,,
-1152,IGP Flags,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.3.1
-      ]"
+1152,IGP Flags,,"[RFC7752, Section 3.3.3.1]"
 1153,IGP Route Tag,,[RFC5130]
 1154,IGP Extended Route Tag,,[RFC5130]
 1155,Prefix Metric,,[RFC5305]
 1156,OSPF Forwarding Address,,[RFC2328]
-1157,Opaque Prefix Attribute,,"[
-        RFC-ietf-idr-ls-distribution-13, Section 3.3.3.6
-      ]"
+1157,Opaque Prefix Attribute,,"[RFC7752, Section 3.3.3.6]"
 1158-65535,Unassigned,,

@@ -19,5 +19,6 @@ Applications in Local Area Networks."" Work in progress.]"
 209,RSI,Receiver Summary Information,[RFC5760]
 210,TOKEN,Port Mapping,[RFC6284]
 211,IDMS,IDMS Settings,[RFC7272]
-212-254,,Unassigned,
+212,RGRS,Reporting Group Reporting Sources,[RFC-ietf-avtcore-rtp-multi-stream-optimisation-12]
+213-254,,Unassigned,
 255,,Reserved,

@@ -149,5 +149,7 @@ Authorization",[ftp://ftp.3gpp2.org/TSGX/Projects/][Avi_Lior]
 16777347,3GPP Ns,[3GPP TS 29.153][Kimmo_Kymalainen]
 16777348,3GPP Nt,[3GPP TS 29.154][Kimmo_Kymalainen]
 16777349,3GPP St,[3GPP TS 29.212][Kimmo_Kymalainen]
-16777350-4294967294,Unassigned,
+16777350,3GPP PC2,[3GPP TS 29.343][Kimmo_Kymalainen]
+16777351,3GPP Diameter Data Management,[3GPP TS 29.283][Kimmo_Kymalainen]
+16777352-4294967294,Unassigned,
 4294967295,Relay,[RFC6733]

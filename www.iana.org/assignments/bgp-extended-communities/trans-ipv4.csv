@@ -10,7 +10,8 @@ Sub-Type Value,Name,Reference,Date
 0x08-0x09,Unassigned,,
 0x0a,L2VPN Identifier,[RFC6074],
 0x0b,VRF Route Import,[RFC6514],
-0x0c-0x0f,Unassigned,,
+0x0c,Flow-spec Redirect to IPv4,[draft-ietf-idr-flowspec-redirect],2016-03-22
+0x0d-0x0f,Unassigned,,
 0x10,Cisco VPN-Distinguisher,[Eric_Rosen],2012-04-10
 0x11,Unassigned,,
 0x12,Inter-Area P2MP Segmented Next-Hop,[RFC7524],2014-01-08

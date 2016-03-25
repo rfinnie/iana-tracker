@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2016-02-23
+           2016-03-20
 
    Available Formats
            [IMG]
@@ -152,6 +152,7 @@ mms                            prov/mms                            mms          
 modem                                                              modem                          Historical  [RFC2806][RFC3966]
 ms-access                      prov/ms-access                      ms-access                      Provisional [urischemeowners_at_microsoft.com]
 ms-drive-to                    prov/ms-drive-to                    ms-drive-to                    Provisional [urischemeowners_at_microsoft.com]
+ms-enrollment                  prov/ms-enrollment                  ms-enrollment                  Provisional [urischemeowners_at_microsoft.com]
 ms-excel                       prov/ms-excel                       ms-excel                       Provisional [urischemeowners_at_microsoft.com]
 ms-getoffice                   prov/ms-getoffice                   ms-getoffice                   Provisional [urischemeowners_at_microsoft.com]
 ms-help                        prov/ms-help                        ms-help                        Provisional [Alexey_Melnikov]
@@ -284,6 +285,7 @@ v-event                        prov/v-event                        v-event      
 vemmi                                                              versatile multimedia interface Permanent   [RFC2122]
 ventrilo                       prov/ventrilo                       ventrilo                       Provisional [Dave_Thaler]
 videotex                       historic/videotex                   videotex                       Historical  [draft-mavrakis-videotex-url-spec][RFC2122][RFC3986]
+vnc                                                                Remote Framebuffer Protocol    Permanent   [RFC-warden-appsawg-vnc-scheme-10]
 view-source                    prov/view-source                    view-source                    Provisional [Mykyta_Yevstifeyev]
 wais                                                               Wide Area Information Servers  Historical  [RFC4156]
 webcal                         prov/webcal                         webcal                         Provisional [Dave_Thaler]
@@ -324,5 +326,5 @@ z39.50s                                                            Z39.50 Sessio
    [Peter_Lewandowski]                Peter Lewandowski                                    mailto:peter.lewandowski&cygate.se          2014-09-12
    [Peter_Saint-Andre]                Peter Saint-Andre                                    mailto:stpeter&jabber.org                   2012-12-04
    [Peter_Waher]                      Peter Waher                                          mailto:peterwaher&hotmail.com               2015-11-25
-   [urischemeowners_at_microsoft.com] urischemeowners at microsoft.com                     mailto:urischemeowners&microsoft.com        2015-10-09
+   [urischemeowners_at_microsoft.com] urischemeowners at microsoft.com                     mailto:urischemeowners&microsoft.com        2016-03-20
    [W3C_WebApps_Working_Group]        W3C WebApps Working Group                            mailto:public-webapps&w3.org                2015-07-17

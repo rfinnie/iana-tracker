@@ -8639,7 +8639,9 @@ workflowdir,4417,tcp,Workflow Director Communication,[WfDir],[Brian_Doyle],2015-
 ,4417,udp,Reserved,,,,,,,,
 ,4418,tcp,Reserved,,,,,,,,
 axysbridge,4418,udp,AXYS communication protocol,[Duran_Audio_B.V.],[Gerald_van_Beuningen],2016-03-14,,,,,
-,4419-4424,,Unassigned,,,,,,,,
+cbp,4419,tcp,Colnod Binary Protocol,[Colsys_s.r.o.],[Jiri_Merth],2016-03-23,,,,,
+,4419,udp,Reserved,,,,,,,,
+,4420-4424,,Unassigned,,,,,,,,
 netrockey6,4425,tcp,NetROCKEY6 SMART Plus Service,[Feitian_Technologies],[Feitian_Technologies],2010-09-15,,,,,
 netrockey6,4425,udp,NetROCKEY6 SMART Plus Service,[Feitian_Technologies],[Feitian_Technologies],2010-09-15,,,,,
 beacon-port-2,4426,tcp,SMARTS Beacon Port,[Eyal_Yardeni],[Eyal_Yardeni],2003-11,,,,,
@@ -9197,10 +9199,10 @@ scpi-telnet,5024,tcp,SCPI-TELNET,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
 scpi-telnet,5024,udp,SCPI-TELNET,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
 scpi-raw,5025,tcp,SCPI-RAW,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
 scpi-raw,5025,udp,SCPI-RAW,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
-strexec-d,5026,tcp,Storix I/O daemon (data),[Anthony_Johnson],[Anthony_Johnson],2005-08,,,,,
-strexec-d,5026,udp,Storix I/O daemon (data),[Anthony_Johnson],[Anthony_Johnson],2005-08,,,,,
-strexec-s,5027,tcp,Storix I/O daemon (stat),[Anthony_Johnson],[Anthony_Johnson],2005-08,,,,,
-strexec-s,5027,udp,Storix I/O daemon (stat),[Anthony_Johnson],[Anthony_Johnson],2005-08,,,,,
+strexec-d,5026,tcp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08,,,,,
+strexec-d,5026,udp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08,,,,,
+strexec-s,5027,tcp,Storix I/O daemon (stat),[Storix_Inc],[David_Huffman],2005-08,,,,,
+strexec-s,5027,udp,Storix I/O daemon (stat),[Storix_Inc],[David_Huffman],2005-08,,,,,
 qvr,5028,tcp,Quiqum Virtual Relais,[Philipp_Marcel_Albre],[Philipp_Marcel_Albre],2009-07-06,,,,,
 ,5028,udp,Reserved,,,,,,,,
 infobright,5029,tcp,Infobright Database Server,[Mark_Windrim],[Mark_Windrim],2009-07-23,,,,,
@@ -14075,6 +14077,7 @@ icontrolbox,,tcp,A Remote Control Application service used to control Computers 
 idata,,,Generic Data Acquisition and Control Protocol,[Carson_Fenimore],[Carson_Fenimore],,,,,,Defined TXT keys: None
 idcws,,,Intermec Device Configuration Web Services,[Thaddeus_Ternes],[Thaddeus_Ternes],,,,,,Defined TXT keys: version=<x.xx>
 idsync,,,SplashID Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
+iffl,,,iFFL Bonjour service for communication between client and server applications.,[Kevin_Gregory],[Kevin_Gregory],2016-03-20,,,,,Defined TXT keys: None
 ifolder,,,Published iFolder,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=?
 ihouse,,,Idle Hands iHouse Protocol,[Toby_Smith],[Toby_Smith],,,,,,Defined TXT keys: None
 ii-drills,,,Instant Interactive Drills,[Ricky_Sharp],[Ricky_Sharp],,,,,,Defined TXT keys: None
@@ -14527,6 +14530,7 @@ tcode,,,Time Code,[Marshall_Anschutz],[Marshall_Anschutz],,,,,,Defined TXT keys:
 tcu,,,Tracking Control Unit by RPM-PSI,[James_Nikolai],[James_Nikolai],,,,,,Defined TXT keys: None
 te-faxserver,,,TE-SYSTEMS GmbH Fax Server Daemon,[Tobias_Erichsen],[Tobias_Erichsen],,,,,,Defined TXT keys: Proprietary
 teamlist,,,ARTIS Team Task,[ARTIS_Software],[ARTIS_Software],,,,,,Defined TXT keys: None
+ted,,udp,Teddington Controls,[Teddington_Bemasan_Ltd],[Nathan_Child_CEng_MEng_Hons_MIET],2016-03-21,,,,,Defined TXT keys: None
 teleport,,udp,teleport,[Julien_Robert],[Julien_Robert],,,,,,Defined TXT keys: None
 tenir-rc,,tcp,Proprietary,[Tenir_Software],[Steve_Gums],2011-10-27,,,,,Defined TXT keys: Proprietary
 tera-fsmgr,,,Terascala Filesystem Manager Protocol,[Mike_Nuss],[Mike_Nuss],,,,,,Defined TXT keys: Proprietary
