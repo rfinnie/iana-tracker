@@ -1,5 +1,5 @@
 Bit,Description,Reference
-0,Affinity sub-TLV support,[RFC-ietf-trill-cmt-11]
+0,Affinity sub-TLV support,[RFC7783]
 1,FGL-safe,[RFC7172]
 2,OAM capable,[RFC7455]
 3,Backwards-compatible OAM,[RFC7455]
