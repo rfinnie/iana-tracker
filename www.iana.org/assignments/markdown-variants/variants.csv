@@ -1,5 +1,5 @@
 Identifier,Name,Expiration Date,References
-Original,Markdown,,[RFC-ietf-appsawg-text-markdown-12]
+Original,Markdown,,[RFC7763]
 MultiMarkdown,MultiMarkdown,,[RFC7764]
 GFM,GitHub Flavored Markdown,,[RFC7764]
 pandoc,Pandoc,,[RFC7764]
