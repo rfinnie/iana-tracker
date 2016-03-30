@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-03-29</updated>
+  <updated>2016-03-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -91566,14 +91566,14 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: 0</note>
     <xref type="person" data="Roderick_Mann"/>
   </record>
-  <record date="2016-02-02">
+  <record date="2016-02-02" updated="2016-03-30">
     <name>mazepseudo-game</name>
-    <protocol>tcp</protocol>
+    <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="Mad_Elf_Software_Inc."/>
     </assignee>
     <description>Peer to peer communication between instances of the Maze Pseudo game.</description>
-    <note>Defined TXT keys: None (zero byte)</note>
+    <note>Defined TXT keys: 1 TXT record key for the RSA public key used by the server instance.</note>
     <xref type="person" data="Kenneth_Suda"/>
   </record>
   <record>
@@ -106272,7 +106272,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kenneth Suda</name>
       <org>Mad Elf Software, Inc.</org>
       <uri>mailto:help&amp;madelfsoftware.com</uri>
-      <updated>2016-02-02</updated>
+      <updated>2016-03-30</updated>
     </person>
     <person id="Kenneth_Vaughn">
       <name>Kenneth Vaughn</name>
@@ -107264,7 +107264,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mad_Elf_Software_Inc.">
       <org>Mad Elf Software, Inc.</org>
       <uri>mailto:help&amp;madelfsoftware.com</uri>
-      <updated>2016-02-02</updated>
+      <updated>2016-03-30</updated>
     </person>
     <person id="Madhan_Kanagavel">
       <name>Madhan Kanagavel</name>

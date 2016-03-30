@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-03-29
+           2016-03-30
 
    Expert(s)
 
@@ -17373,8 +17373,8 @@ mandos                                Mandos Password Server       [Mandos_Maint
 matrix                                MATRIX Remote AV Switching   [Ken_Jibiki]                                          [Ken_Jibiki]                                                                                                                                  Defined TXT keys: None
 mavlink                        tcp    MAVLink Micro Air Vehicle    [Roderick_Mann]                                       [Roderick_Mann]                                           2011-10-20                                                                          Defined TXT keys: 0
                                       Communication Protocol
-                                      Peer to peer communication
-mazepseudo-game                tcp    between instances of the     [Mad_Elf_Software_Inc.]                               [Kenneth_Suda]                                            2016-02-02                                                                          Defined TXT keys: None (zero byte)
+                                      Peer to peer communication                                                                                                                                                                                                       Defined TXT keys: 1 TXT record key for the RSA public key
+mazepseudo-game                udp    between instances of the     [Mad_Elf_Software_Inc.]                               [Kenneth_Suda]                                            2016-02-02   2016-03-30                                                             used by the server instance.
                                       Maze Pseudo game.
 mbconsumer                            MediaBroker++ Consumer       [Nate_Rivard]                                         [Nate_Rivard]                                                                                                                                 Defined TXT keys: None
 mbproducer                            MediaBroker++ Producer       [Nate_Rivard]                                         [Nate_Rivard]                                                                                                                                 Defined TXT keys: None
@@ -20839,7 +20839,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kenji_Tetsuyama]                                         Kenji Tetsuyama                                 mailto:kenji&onkyo.co.jp                                      2002-11
 [Kenneth_B_Ocheltree]                                     Kenneth B. Ocheltree                            mailto:kennetho&us.ibm.com                                    2008-01-07
 [Kenneth_Flynn]                                           Kenneth Flynn                                   mailto:flynnk&darkcornersoftware.com                          2009-10-14
-[Kenneth_Suda]                                            Kenneth Suda              Mad Elf Software,     mailto:help&madelfsoftware.com                                2016-02-02
+[Kenneth_Suda]                                            Kenneth Suda              Mad Elf Software,     mailto:help&madelfsoftware.com                                2016-03-30
                                                                                     Inc.
 [Kenneth_Vaughn]                                          Kenneth Vaughn                                  mailto:kvaughn&mail.viggen.com
 [Kenny_Millar]                                            Kenny Millar              Spider Electronics    mailto:kenny&spider-e.com                                     2014-03-10
@@ -21072,7 +21072,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Lynn_Carter]                                             Lynn Carter                                     mailto:carterl&execpc.com
 [MPITech_Support]                                                                   MPITech Support       mailto:morten.christensen&i-data.com
 [M_Flemming]                                              M Flemming                                      mailto:mflemming&aol.com
-[Mad_Elf_Software_Inc.]                                                             Mad Elf Software,     mailto:help&madelfsoftware.com                                2016-02-02
+[Mad_Elf_Software_Inc.]                                                             Mad Elf Software,     mailto:help&madelfsoftware.com                                2016-03-30
                                                                                     Inc.
 [Madhan_Kanagavel]                                        Madhan Kanagavel                                mailto:madhan&codelathe.com                                   2008-07-18
 [Madhav_Karhade]                                          Madhav Karhade                                  mailto:madhav.karhade&wibhu.com                               2003-08

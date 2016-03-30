@@ -14193,7 +14193,7 @@ magicdice,,,Magic Dice Game Protocol,[Mike_Yenco],[Mike_Yenco],,,,,,Defined TXT 
 mandos,,,Mandos Password Server,[Mandos_Maintainers],[Mandos_Maintainers],,,,,,Defined TXT keys: None
 matrix,,,MATRIX Remote AV Switching,[Ken_Jibiki],[Ken_Jibiki],,,,,,Defined TXT keys: None
 mavlink,,tcp,MAVLink Micro Air Vehicle Communication Protocol,[Roderick_Mann],[Roderick_Mann],2011-10-20,,,,,Defined TXT keys: 0
-mazepseudo-game,,tcp,Peer to peer communication between instances of the Maze Pseudo game.,[Mad_Elf_Software_Inc.],[Kenneth_Suda],2016-02-02,,,,,Defined TXT keys: None (zero byte)
+mazepseudo-game,,udp,Peer to peer communication between instances of the Maze Pseudo game.,[Mad_Elf_Software_Inc.],[Kenneth_Suda],2016-02-02,2016-03-30,,,,Defined TXT keys: 1 TXT record key for the RSA public key used by the server instance.
 mbconsumer,,,MediaBroker++ Consumer,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
 mbproducer,,,MediaBroker++ Producer,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
 mbserver,,,MediaBroker++ Server,[Nate_Rivard],[Nate_Rivard],,,,,,Defined TXT keys: None
