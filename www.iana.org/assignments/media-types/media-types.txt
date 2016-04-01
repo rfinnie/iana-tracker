@@ -1,7 +1,7 @@
                                                                      Media Types
 
    Last Updated
-           2016-03-22
+           2016-03-28
 
    Registration Procedure(s)
 
@@ -1583,7 +1583,7 @@ text
    html                                                      text/html                             [W3C][Robin_Berjon]
    javascript - OBSOLETED in favor of application/javascript text/javascript                       [RFC4329]
    jcr-cnd                                                   text/jcr-cnd                          [Peeter_Piegaze]
-   markdown                                                  text/markdown                         [RFC-ietf-appsawg-text-markdown-12]
+   markdown                                                  text/markdown                         [RFC7763]
    mizar                                                     text/mizar                            [Jesse_Alama]
    n3                                                        text/n3                               [W3C][Eric_Prudhommeaux]
    parameters                                                text/parameters                       [RFC-ietf-mmusic-rfc2326bis-40]
@@ -1661,7 +1661,7 @@ video
    H264                             video/H264                             [RFC6184]
    H264-RCDO                        video/H264-RCDO                        [RFC6185]
    H264-SVC                         video/H264-SVC                         [RFC6190]
-   H265                             video/H265                             [RFC-ietf-payload-rtp-h265-15]
+   H265                             video/H265                             [RFC7798]
    iso.segment                      video/iso.segment                      [David_Singer][ISO-IEC_JTC1]
    JPEG                             video/JPEG                             [RFC3555]
    jpeg2000                         video/jpeg2000                         [RFC5371][RFC5372]
