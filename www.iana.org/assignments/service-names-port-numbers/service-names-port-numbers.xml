@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-03-31</updated>
+  <updated>2016-04-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -84428,7 +84428,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>23273-23332</number>
+    <number>23273-23293</number>
+  </record>
+  <record date="2016-04-01">
+    <name>5afe-dir</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ayoda_GmbH"/>
+    </assignee>
+    <description>5AFE SDN Directory</description>
+    <number>23294</number>
+    <xref type="person" data="Laurenz_Eschwey"/>
+  </record>
+  <record date="2016-04-01">
+    <name>5afe-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ayoda_GmbH"/>
+    </assignee>
+    <description>5AFE SDN Directory discovery</description>
+    <number>23294</number>
+    <xref type="person" data="Laurenz_Eschwey"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>23295-23332</number>
   </record>
   <record date="2007-11-06">
     <name>elxmgmt</name>
@@ -96195,6 +96219,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Axel Kern</name>
       <uri>mailto:axel.kern&amp;betasystems.com</uri>
     </person>
+    <person id="Ayoda_GmbH">
+      <name>Ayoda GmbH</name>
+      <uri>mailto:info&amp;ayoda.net</uri>
+      <updated>2016-04-01</updated>
+    </person>
     <person id="BTicino_S_p_A">
       <org>BTicino S.p.A.</org>
       <uri>mailto:admin-myopen&amp;myopen-bticino.it</uri>
@@ -106854,6 +106883,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Laurent_Mihalkovic">
       <name>Laurent Mihalkovic</name>
       <uri>mailto:ljp_m&amp;mac.com</uri>
+    </person>
+    <person id="Laurenz_Eschwey">
+      <name>Laurenz Eschwey</name>
+      <uri>mailto:laurenz.eschwey&amp;ayoda.net</uri>
+      <updated>2016-04-01</updated>
     </person>
     <person id="Laurie_Charlwood">
       <name>Laurie Charlwood</name>
