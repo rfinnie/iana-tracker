@@ -63600,7 +63600,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5446-5452</number>
+    <number>5446-5449</number>
+  </record>
+  <record date="2016-04-01">
+    <name>tiepie</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="TiePie_engineering"/>
+    </assignee>
+    <description>TiePie engineering data acquisition</description>
+    <number>5450</number>
+    <xref type="person" data="Reinder_Feenstra"/>
+  </record>
+  <record date="2016-04-01">
+    <name>tiepie-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="TiePie_engineering"/>
+    </assignee>
+    <description>TiePie engineering data acquisition (discovery)</description>
+    <number>5450</number>
+    <xref type="person" data="Reinder_Feenstra"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5451-5452</number>
   </record>
   <record date="2004-11">
     <name>surebox</name>
@@ -112167,6 +112191,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Reid Ligon</name>
       <uri>mailto:reid&amp;connectrf.com</uri>
     </person>
+    <person id="Reinder_Feenstra">
+      <name>Reinder Feenstra</name>
+      <uri>mailto:r.feenstra&amp;tiepie.nl</uri>
+      <updated>2016-04-01</updated>
+    </person>
     <person id="Reinhard_Doelz">
       <name>Reinhard Doelz</name>
       <uri>mailto:doelz&amp;comp.bioz.unibas.ch</uri>
@@ -116122,6 +116151,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Timothy_Wayper">
       <name>Timothy Wayper</name>
       <uri>mailto:timmy&amp;wunderbear.com</uri>
+    </person>
+    <person id="TiePie_engineering">
+      <name>TiePie engineering</name>
+      <uri>mailto:tiepie&amp;tiepie.nl</uri>
+      <updated>2016-04-01</updated>
     </person>
     <person id="TiVo_Inc">
       <org>TiVo Inc.</org>
