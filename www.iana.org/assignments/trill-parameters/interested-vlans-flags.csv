@@ -4,6 +4,6 @@ Bit,Menemonic,Description,Reference
 2,,Unassigned,
 3,ES,ESADI Participation,[RFC7357]
 4-15,,(used for a VLAN ID),[RFC7176]
-16,AA,VLANs for Active-Active,[RFC-ietf-trill-aa-multi-attach-06]
+16,AA,VLANs for Active-Active,[RFC7782]
 17-19,,Unassigned,
 20-31,,(used for a VLAN ID),[RFC7176]
