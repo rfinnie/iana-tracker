@@ -14547,9 +14547,9 @@ test-ok,,tcp,Test Controller Card,[TEST-OK_BV],[Jeroen_Ommering],2012-09-05,,,,,
 tf-redeye,,,ThinkFlood RedEye IR bridge,[Matt_Eagar],[Matt_Eagar],,,,,,Defined TXT keys: None
 thumbwrestling,,,tinkerbuilt Thumb Wrestling game,[Jamie_Halmick],[Jamie_Halmick],,,,,,Defined TXT keys: None
 ticonnectmgr,,,TI Connect Manager Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
-timezone,,tcp,Time Zone Data Distribution Service - non-TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC-ietf-tzdist-service-11],,,"This is an extension of the http service.  Defined
+timezone,,tcp,Time Zone Data Distribution Service - non-TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the http service.  Defined
       TXT keys: path=<context path> (as per Section 6 of [RFC6763])."
-timezones,,tcp,Time Zone Data Distribution Service - over TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC-ietf-tzdist-service-11],,,"This is an extension of the https service.  Defined
+timezones,,tcp,Time Zone Data Distribution Service - over TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the https service.  Defined
       TXT keys: path=<context path> (as per Section 6 of [RFC6763])."
 tinavigator,,,TI Navigator Hub 1.0 Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
 tivo-device,,tcp,TiVo Device Protocol,[TiVo_Inc],[Developer_Support_2],2011-10-18,,,,,Defined TXT keys: None
