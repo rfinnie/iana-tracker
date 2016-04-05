@@ -20,5 +20,11 @@ Code Value,Error Code Name,Reference
 0x12,Error_Exp_A,[RFC6940]
 0x13,Error_Exp_B,[RFC6940]
 0x14,Error_Invalid_Message,[RFC6940]
-0x15-07fff,Unassigned,
+0x15,Error_Underlay_Destination_Unreachable,[RFC-ietf-p2psip-diagnostics-22]
+0x16,Error_Underlay_Time_Exceeded,[RFC-ietf-p2psip-diagnostics-22]
+0x17,Error_Message_Expired,[RFC-ietf-p2psip-diagnostics-22]
+0x18,Error_Upstream_Misrouting,[RFC-ietf-p2psip-diagnostics-22]
+0x19,Error_Loop_Detected,[RFC-ietf-p2psip-diagnostics-22]
+0x1a,Error_TTL_Hops_Exceeded,[RFC-ietf-p2psip-diagnostics-22]
+0x1b-07fff,Unassigned,
 0x8000-0xffff,Reserved,[RFC6940]
