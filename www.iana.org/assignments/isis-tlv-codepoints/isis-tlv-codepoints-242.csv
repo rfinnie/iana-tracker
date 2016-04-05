@@ -17,4 +17,6 @@ Value,Description,Reference
 16,RBCHANNELS,[RFC7176]
 17,AFFINITY,[RFC7176]
 18,LABEL-GROUP,[RFC7176]
-19-255,Unassigned,
+19,Unassigned,
+20,S-BFD Discriminators,[RFC-ietf-isis-sbfd-discriminator-02]
+21-255,Unassigned,
