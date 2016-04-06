@@ -14,4 +14,5 @@ Value,Name,Reference
 12,VxLAN GPE Encapsulation,[draft-sd-l2vpn-evpn-overlay]
 13,MPLS in UDP Encapsulation,"[RFC7510][RFC Errata 
           4350]"
-14-65535,Unassigned,
+14,IPv6 Tunnel,[Martin_Djernaes]
+15-65535,Unassigned,
