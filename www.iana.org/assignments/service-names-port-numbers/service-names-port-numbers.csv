@@ -8643,7 +8643,9 @@ cbp,4419,tcp,Colnod Binary Protocol,[Colsys_s.r.o.],[Jiri_Merth],2016-03-23,,,,,
 ,4419,udp,Reserved,,,,,,,,
 nvm-express,4420,tcp,NVM Express over Fabrics storage access,[NVM_Express_Workgroup],[Amber_Huffman],2016-03-31,,,,,
 nvm-express,4420,udp,NVM Express over Fabrics storage access,[NVM_Express_Workgroup],[Amber_Huffman],2016-03-31,,,,,
-,4421-4424,,Unassigned,,,,,,,,
+scaleft,4421,tcp,Multi-Platform Remote Management for Cloud Infrastructure,[ScaleFT_Inc],[Paul_Querna],2016-04-07,,,,,
+,4421,udp,Reserved,,,,,,,,
+,4422-4424,,Unassigned,,,,,,,,
 netrockey6,4425,tcp,NetROCKEY6 SMART Plus Service,[Feitian_Technologies],[Feitian_Technologies],2010-09-15,,,,,
 netrockey6,4425,udp,NetROCKEY6 SMART Plus Service,[Feitian_Technologies],[Feitian_Technologies],2010-09-15,,,,,
 beacon-port-2,4426,tcp,SMARTS Beacon Port,[Eyal_Yardeni],[Eyal_Yardeni],2003-11,,,,,
@@ -9724,7 +9726,10 @@ spss,5443,udp,Pearson HTTPS,[Pearson],[Pearson],2008-01-17,,,,,
 smbdirect,5445,tcp,Server Message Block over Remote Direct Memory Access,[Microsoft_Corporation_2],[Tom_Talpey],2012-03-15,,,,,
 ,5445,udp,Reserved,,,,,,,,
 smbdirect,5445,sctp,Server Message Block over Remote Direct Memory Access,[Microsoft_Corporation_2],[Tom_Talpey],2012-03-15,,,,,
-,5446-5452,,Unassigned,,,,,,,,
+,5446-5449,,Unassigned,,,,,,,,
+tiepie,5450,tcp,TiePie engineering data acquisition,[TiePie_engineering],[Reinder_Feenstra],2016-04-01,,,,,
+tiepie-disc,5450,udp,TiePie engineering data acquisition (discovery),[TiePie_engineering],[Reinder_Feenstra],2016-04-01,,,,,
+,5451-5452,,Unassigned,,,,,,,,
 surebox,5453,tcp,SureBox,[Emin_BORU],[Emin_BORU],2004-11,,,,,
 surebox,5453,udp,SureBox,[Emin_BORU],[Emin_BORU],2004-11,,,,,
 apc-5454,5454,tcp,APC 5454,[American_Power_Conve],[American_Power_Conve],,,,,,
@@ -12976,7 +12981,10 @@ gntp,23053,tcp,Generic Notification Transport Protocol,[Growl_Project],[Chris_Fo
 ,23054-23271,,Unassigned,,,,,,,,
 ,23272,tcp,Reserved,,,,,,,,
 s102,23272,udp,S102 application,[Kimmo_Kymalainen],[Kimmo_Kymalainen],2009-08-26,,,,,
-,23273-23332,,Unassigned,,,,,,,,
+,23273-23293,,Unassigned,,,,,,,,
+5afe-dir,23294,tcp,5AFE SDN Directory,[Ayoda_GmbH],[Laurenz_Eschwey],2016-04-01,,,,,
+5afe-disc,23294,udp,5AFE SDN Directory discovery,[Ayoda_GmbH],[Laurenz_Eschwey],2016-04-01,,,,,
+,23295-23332,,Unassigned,,,,,,,,
 elxmgmt,23333,tcp,Emulex HBAnyware Remote Management,[Maziar_Tamadon],[Maziar_Tamadon],2007-11-06,,,,,
 elxmgmt,23333,udp,Emulex HBAnyware Remote Management,[Maziar_Tamadon],[Maziar_Tamadon],2007-11-06,,,,,
 ,23334-23399,,Unassigned,,,,,,,,
@@ -14541,9 +14549,9 @@ test-ok,,tcp,Test Controller Card,[TEST-OK_BV],[Jeroen_Ommering],2012-09-05,,,,,
 tf-redeye,,,ThinkFlood RedEye IR bridge,[Matt_Eagar],[Matt_Eagar],,,,,,Defined TXT keys: None
 thumbwrestling,,,tinkerbuilt Thumb Wrestling game,[Jamie_Halmick],[Jamie_Halmick],,,,,,Defined TXT keys: None
 ticonnectmgr,,,TI Connect Manager Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
-timezone,,tcp,Time Zone Data Distribution Service - non-TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC-ietf-tzdist-service-11],,,"This is an extension of the http service.  Defined
+timezone,,tcp,Time Zone Data Distribution Service - non-TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the http service.  Defined
       TXT keys: path=<context path> (as per Section 6 of [RFC6763])."
-timezones,,tcp,Time Zone Data Distribution Service - over TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC-ietf-tzdist-service-11],,,"This is an extension of the https service.  Defined
+timezones,,tcp,Time Zone Data Distribution Service - over TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the https service.  Defined
       TXT keys: path=<context path> (as per Section 6 of [RFC6763])."
 tinavigator,,,TI Navigator Hub 1.0 Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
 tivo-device,,tcp,TiVo Device Protocol,[TiVo_Inc],[Developer_Support_2],2011-10-18,,,,,Defined TXT keys: None

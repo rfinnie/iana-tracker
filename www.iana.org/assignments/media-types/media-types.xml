@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2016-03-28</updated>
+  <updated>2016-04-06</updated>
   
   
   
@@ -447,6 +447,12 @@ Media Type Sub-Parameters: <xref type="registry" data="media-type-sub-parameters
       <name>EDI-X12</name>
       <xref type="rfc" data="rfc1767"/>
       <file type="template">application/EDI-X12</file>
+    </record>
+    <record date="2016-04-06">
+      <name>efi</name>
+      <xref type="person" data="UEFI_Forum"/>
+      <xref type="person" data="Samer_El-Haj-Mahmoud"/>
+      <file type="template">application/efi</file>
     </record>
     <record date="2015-12-10">
       <name>EmergencyCallData.Comment+xml</name>
@@ -1181,12 +1187,12 @@ Media Type Sub-Parameters: <xref type="registry" data="media-type-sub-parameters
     </record>
     <record date="2016-02-04">
       <name>problem+json</name>
-      <xref type="draft" data="RFC-ietf-appsawg-http-problem-03"/>
+      <xref type="rfc" data="rfc7807"/>
       <file type="template">application/problem+json</file>
     </record>
     <record date="2016-02-04">
       <name>problem+xml</name>
-      <xref type="draft" data="RFC-ietf-appsawg-http-problem-03"/>
+      <xref type="rfc" data="rfc7807"/>
       <file type="template">application/problem+xml</file>
     </record>
     <record>
@@ -4423,6 +4429,11 @@ Media Type Sub-Parameters: <xref type="registry" data="media-type-sub-parameters
       <xref type="person" data="Ilan_Mahalal"/>
       <file type="template">application/vnd.oma-scws-http-response</file>
     </record>
+    <record date="2016-04-06">
+      <name>vnd.onepager</name>
+      <xref type="person" data="Nathan_Black"/>
+      <file type="template">application/vnd.onepager</file>
+    </record>
     <record date="2015-08-28">
       <name>vnd.openblox.game-binary</name>
       <xref type="person" data="Mark_Otaris"/>
@@ -5560,6 +5571,11 @@ Media Type Sub-Parameters: <xref type="registry" data="media-type-sub-parameters
       <xref type="person" data="Lyndsey_Ferguson"/>
       <xref type="person" data="Biplab_Sarkar"/>
       <file type="template">application/vnd.vectorworks</file>
+    </record>
+    <record date="2016-04-04">
+      <name>vnd.vel+json</name>
+      <xref type="person" data="James_Wigger"/>
+      <file type="template">application/vnd.vel+json</file>
     </record>
     <record>
       <name>vnd.verimatrix.vcas</name>
@@ -7448,6 +7464,11 @@ by the IANA.</note>
       <xref type="person" data="John_Lines"/>
       <file type="template">text/prs.lines.tag</file>
     </record>
+    <record date="2016-04-04">
+      <name>prs.prop.logic</name>
+      <xref type="person" data="Hans-Dieter_A._Hiep"/>
+      <file type="template">text/prs.prop.logic</file>
+    </record>
     <record>
       <name>raptorfec</name>
       <xref type="rfc" data="rfc6682"/>
@@ -8078,7 +8099,6 @@ by the IANA.</note>
     <person id="_3GPP">
       <name>3GPP - Third Generation Partnership Project</name>
       <uri>mailto:3gppContact&amp;etsi.org</uri>
-      <updated>2015-12-21</updated>
     </person>
     <person id="Gary_Adams">
       <name>Gary Adams</name>
@@ -8284,6 +8304,11 @@ by the IANA.</note>
       <name>Simon Birtwistle</name>
       <uri>mailto:mime&amp;20000.org</uri>
       <updated>2007-01-18</updated>
+    </person>
+    <person id="Nathan_Black">
+      <name>Nathan Black</name>
+      <uri>mailto:nblack&amp;chroniclegraphics.com</uri>
+      <updated>2016-04-06</updated>
     </person>
     <person id="Kevin_Blumberg">
       <name>Kevin Blumberg</name>
@@ -8636,6 +8661,11 @@ by the IANA.</note>
       <name>Electronic Zombie, Corp.</name>
       <uri>mailto:support&amp;electroniczombie.com</uri>
       <updated>2006-07-31</updated>
+    </person>
+    <person id="Samer_El-Haj-Mahmoud">
+      <name>Samer El-Haj-Mahmoud</name>
+      <uri>mailto:Samer.el-haj-mahmoud&amp;hpe.com</uri>
+      <updated>2016-04-06</updated>
     </person>
     <person id="Gary_Ellison">
       <name>Gary Ellison</name>
@@ -9026,6 +9056,11 @@ by the IANA.</note>
       <uri>mailto:mike&amp;hewettresearch.com</uri>
       <updated>2005-12-20</updated>
     </person>
+    <person id="Hans-Dieter_A._Hiep">
+      <name>Hans-Dieter A. Hiep</name>
+      <uri>mailto:info&amp;aexiz.com</uri>
+      <updated>2016-04-04</updated>
+    </person>
     <person id="Masaaki_Hirai">
       <name>Masaaki Hirai</name>
       <uri>mailto:masaaki_hirai&amp;mb1.nkc.co.jp</uri>
@@ -9203,7 +9238,7 @@ by the IANA.</note>
     <person id="Kyunghun_Jung">
       <name>Kyunghun Jung</name>
       <uri>mailto:kyunghun.jung&amp;samsung.com</uri>
-      <updated>2015-12-21</updated>
+      <updated>2016-04-06</updated>
     </person>
     <person id="Allen_K._Kabayama">
       <name>Allen K. Kabayama</name>
@@ -10550,6 +10585,11 @@ by the IANA.</note>
       <uri>mailto:gdt&amp;gdt.id.au</uri>
       <updated>2011-03-30</updated>
     </person>
+    <person id="UEFI_Forum">
+      <name>UEFI Forum</name>
+      <uri>mailto:unst&amp;uefi.org</uri>
+      <updated>2016-04-06</updated>
+    </person>
     <person id="David_Underdown">
       <name>David Underdown</name>
       <uri>mailto:DigitalPreservation&amp;nationalarchives.gsi.gov.uk</uri>
@@ -10698,6 +10738,11 @@ by the IANA.</note>
       <name>Glenn Widener</name>
       <uri>mailto:glennw&amp;ndg.com</uri>
       <updated>1997-06-19</updated>
+    </person>
+    <person id="James_Wigger">
+      <name>James Wigger</name>
+      <uri>mailto:james&amp;rootstudio.co.uk</uri>
+      <updated>2016-04-04</updated>
     </person>
     <person id="Jorn_Wildt">
       <name>Jørn Wildt</name>

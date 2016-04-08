@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-03-31</updated>
+  <updated>2016-04-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -56642,9 +56642,24 @@ common service discovery mechanisms.</note>
     <number>4420</number>
     <xref type="person" data="Amber_Huffman"/>
   </record> 
+  <record date="2016-04-07">
+    <name>scaleft</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ScaleFT_Inc"/>
+    </assignee>
+    <description>Multi-Platform Remote Management for Cloud Infrastructure</description>
+    <number>4421</number>
+    <xref type="person" data="Paul_Querna"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4421</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>4421-4424</number>
+    <number>4422-4424</number>
   </record>
   <record date="2010-09-15">
     <name>netrockey6</name>
@@ -63600,7 +63615,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5446-5452</number>
+    <number>5446-5449</number>
+  </record>
+  <record date="2016-04-01">
+    <name>tiepie</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="TiePie_engineering"/>
+    </assignee>
+    <description>TiePie engineering data acquisition</description>
+    <number>5450</number>
+    <xref type="person" data="Reinder_Feenstra"/>
+  </record>
+  <record date="2016-04-01">
+    <name>tiepie-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="TiePie_engineering"/>
+    </assignee>
+    <description>TiePie engineering data acquisition (discovery)</description>
+    <number>5450</number>
+    <xref type="person" data="Reinder_Feenstra"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5451-5452</number>
   </record>
   <record date="2004-11">
     <name>surebox</name>
@@ -84428,7 +84467,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>23273-23332</number>
+    <number>23273-23293</number>
+  </record>
+  <record date="2016-04-01">
+    <name>5afe-dir</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ayoda_GmbH"/>
+    </assignee>
+    <description>5AFE SDN Directory</description>
+    <number>23294</number>
+    <xref type="person" data="Laurenz_Eschwey"/>
+  </record>
+  <record date="2016-04-01">
+    <name>5afe-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ayoda_GmbH"/>
+    </assignee>
+    <description>5AFE SDN Directory discovery</description>
+    <number>23294</number>
+    <xref type="person" data="Laurenz_Eschwey"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>23295-23332</number>
   </record>
   <record date="2007-11-06">
     <name>elxmgmt</name>
@@ -93728,7 +93791,7 @@ cport= the port for the content HTTP server
     <note>This is an extension of the http service.  Defined
       TXT keys: path=&lt;context path&gt; (as per Section 6 of <xref type="rfc" data="rfc6763"/>).</note>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-tzdist-service-11"/>
+    <xref type="rfc" data="rfc7808"/>
   </record>
   <record date="2015-08-03">
     <name>timezones</name>
@@ -93740,7 +93803,7 @@ cport= the port for the content HTTP server
     <note>This is an extension of the https service.  Defined
       TXT keys: path=&lt;context path&gt; (as per Section 6 of <xref type="rfc" data="rfc6763"/>).</note>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-tzdist-service-11"/>
+    <xref type="rfc" data="rfc7808"/>
   </record>
   <record>
     <name>tinavigator</name>
@@ -96194,6 +96257,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Axel_Kern">
       <name>Axel Kern</name>
       <uri>mailto:axel.kern&amp;betasystems.com</uri>
+    </person>
+    <person id="Ayoda_GmbH">
+      <name>Ayoda GmbH</name>
+      <uri>mailto:info&amp;ayoda.net</uri>
+      <updated>2016-04-01</updated>
     </person>
     <person id="BTicino_S_p_A">
       <org>BTicino S.p.A.</org>
@@ -106855,6 +106923,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Laurent Mihalkovic</name>
       <uri>mailto:ljp_m&amp;mac.com</uri>
     </person>
+    <person id="Laurenz_Eschwey">
+      <name>Laurenz Eschwey</name>
+      <uri>mailto:laurenz.eschwey&amp;ayoda.net</uri>
+      <updated>2016-04-01</updated>
+    </person>
     <person id="Laurie_Charlwood">
       <name>Laurie Charlwood</name>
       <uri>mailto:laurie.charlwood&amp;printsoft.com</uri>
@@ -110854,6 +110927,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Paul Pyck</name>
       <uri>mailto:papy&amp;telindus.be</uri>
     </person>
+    <person id="Paul_Querna">
+      <name>Paul Querna</name>
+      <uri>mailto:paul.querna&amp;scaleft.com</uri>
+      <updated>2016-04-07</updated>
+    </person>
     <person id="Paul_Reddy">
       <name>Paul Reddy</name>
       <uri>mailto:preddy&amp;pharos.com</uri>
@@ -111691,8 +111769,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Pure_Storage">
       <org>Pure Storage</org>
-      <uri>mailto:standards&amp;purestorage.com</uri>
-      <updated>2013-08-13</updated>
+      <uri>mailto:iana&amp;purestorage.com</uri>
+      <updated>2016-04-04</updated>
     </person>
     <person id="Qdea">
       <org>Qdea</org>
@@ -112132,6 +112210,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Reid_Ligon">
       <name>Reid Ligon</name>
       <uri>mailto:reid&amp;connectrf.com</uri>
+    </person>
+    <person id="Reinder_Feenstra">
+      <name>Reinder Feenstra</name>
+      <uri>mailto:r.feenstra&amp;tiepie.nl</uri>
+      <updated>2016-04-01</updated>
     </person>
     <person id="Reinhard_Doelz">
       <name>Reinhard Doelz</name>
@@ -113709,6 +113792,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Saugata Guha</name>
       <uri>mailto:sguha&amp;veritas.com</uri>
       <updated>2004-05</updated>
+    </person>
+    <person id="ScaleFT_Inc">
+      <name>ScaleFT, Inc</name>
+      <uri>mailto:notices&amp;scaleft.com</uri>
+      <updated>2016-04-07</updated>
     </person>
     <person id="Schindler_Aufzuege_ag">
       <org>Schindler Aufzuege ag</org>
@@ -116088,6 +116176,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Timothy_Wayper">
       <name>Timothy Wayper</name>
       <uri>mailto:timmy&amp;wunderbear.com</uri>
+    </person>
+    <person id="TiePie_engineering">
+      <name>TiePie engineering</name>
+      <uri>mailto:tiepie&amp;tiepie.nl</uri>
+      <updated>2016-04-01</updated>
     </person>
     <person id="TiVo_Inc">
       <org>TiVo Inc.</org>

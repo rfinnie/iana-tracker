@@ -12,6 +12,6 @@ setup.rtp.rtcp.mux,"Support of the RTP and RTCP multiplexing as
          servers and any media caching proxy.",[RFC-ietf-mmusic-rfc2326bis-40]
 setup.ice-d-m,"A feature tag representing the support of the ICE-based 
 establishment of datagram media transport that is capable of
-transport establishment through NAT and Firewalls.  This feature
-tag applies to clients, servers and proxies and indicates support
+transport establishment through NAT and firewalls. This feature
+tag applies to clients, servers, and proxies and indicates support
 of all the mandatory functions of this specification.",[RFC-ietf-mmusic-rtsp-nat-22]

@@ -9,5 +9,6 @@ Code,Frame Type,Reference
 0x7,GOAWAY,"[RFC7540, Section 6.8]"
 0x8,WINDOW_UPDATE,"[RFC7540, Section 6.9]"
 0x9,CONTINUATION,"[RFC7540, Section 6.10]"
-0xa-0xef,Unassigned,
+0xa,ALTSVC,"[RFC-ietf-httpbis-alt-svc-14, Section 4]"
+0xb-0xef,Unassigned,
 0xf0-0xff,Reserved for Experimental Use,[RFC7540]

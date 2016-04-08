@@ -130,3 +130,6 @@ instance in the RDAP database was last synchronized from the
 authoritative database (e.g. registry database).",[ICANN],
 registrar expiration,event action,"An action noting the expiration date of the object in
 the registrar system.",[ICANN],
+enum validation expiration,event action,"Association of phone number represented by this ENUM domain 
+        to registrant has expired or will expire at a pre-determined date and 
+        time.",[CZ.NIC_z._s._p._o.],
