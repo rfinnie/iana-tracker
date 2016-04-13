@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-04-12</updated>
+  <updated>2016-04-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -52073,14 +52073,22 @@ common service discovery mechanisms.</note>
   <record>
     <name>opswagent</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Hewlett_Packard_Enterprise_2"/>
+    </assignee>
     <description>Opsware Agent</description>
     <number>3976</number>
+    <xref type="person" data="Cristi_Fati"/>
   </record>
   <record>
     <name>opswagent</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Hewlett_Packard_Enterprise_2"/>
+    </assignee>
     <description>Opsware Agent</description>
     <number>3976</number>
+    <xref type="person" data="Cristi_Fati"/>
   </record>
   <record date="2006-06">
     <name>opswmanager</name>
@@ -98741,6 +98749,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mtalreja&amp;crestron.com</uri>
       <updated>2012-06-27</updated>
     </person>
+    <person id="Cristi_Fati">
+      <org>Cristi Fati</org>
+      <uri>mailto:cristi.fati&amp;hpe.com</uri>
+      <updated>2016-04-13</updated>
+    </person>
     <person id="Cristian_Petculescu">
       <name>Cristian Petculescu</name>
       <uri>mailto:cristp&amp;microsoft.com</uri>
@@ -103052,6 +103065,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Hewlett Packard Enterprise</org>
       <uri>mailto:silvia.veronese2&amp;hp.com</uri>
       <updated>2016-01-13</updated>
+    </person>
+    <person id="Hewlett_Packard_Enterprise_2">
+      <org>Hewlett Packard Enterprise</org>
+      <uri>mailto:cristi.fati&amp;hpe.com</uri>
+      <updated>2016-04-13</updated>
     </person>
     <person id="Hideki_Hatta">
       <name>Hideki Hatta</name>
