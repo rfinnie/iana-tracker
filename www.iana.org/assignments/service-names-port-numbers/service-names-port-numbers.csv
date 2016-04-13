@@ -14142,6 +14142,7 @@ jnx-kcsync,,tcp,jollys keychain cloud sync protocol,[Patrick_Stein],[Patrick_Ste
       uuid=db61dc092922252e45bbb264f59147138c7fd5fa"
 jtag,,,Proprietary,[Uwe_Ziegler],[Uwe_Ziegler],,,,,,"Defined TXT keys: blocked=<name of the device>, version=<firmware/instrument controller version>"
 jukebox,,tcp,Jukebox Request Service,[Gary_Giebler_2],[Gary_Giebler_2],2011-10-18,,,,,Defined TXT keys: None
+jukejoint,,tcp,Music sharing protocol,[Phrenetic_Apps_LLC],[Christopher_Pow],2016-04-12,,,,,Defined TXT keys: none
 keynoteaccess,,tcp,KeynoteAccess is used for sending remote requests/responses when controlling a slideshow with Keynote Remote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 keynotepairing,,tcp,KeynotePairing is used to pair Keynote Remote with Keynote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 kiwin,,tcp,Topology Discovery,[Stephen_kiwin_PALM],[Stephen_kiwin_PALM],2015-06-30,,,,,"Defined TXT keys: kiwin, top"

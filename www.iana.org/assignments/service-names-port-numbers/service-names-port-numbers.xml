@@ -91332,6 +91332,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Gary_Giebler_2"/>
   </record>
+  <record date="2016-04-12">
+    <name>jukejoint</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Phrenetic_Apps_LLC"/>
+    </assignee>
+    <description>Music sharing protocol</description>
+    <note>Defined TXT keys: none</note>
+    <xref type="person" data="Christopher_Pow"/>
+  </record>
   <record date="2011-10-12">
     <name>keynoteaccess</name>
     <protocol>tcp</protocol>
@@ -98286,6 +98296,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>L-ACOUSTICS</org>
       <uri>mailto:christophe.pignon&amp;l-acoustics.com</uri>
       <updated>2012-08-13</updated>
+    </person>
+    <person id="Christopher_Pow">
+      <name>Christopher Pow</name>
+      <org>Phrenetic_Apps_LLC</org>
+      <uri>mailto:christopher.s.pow&amp;gmail.com</uri>
+      <updated>2016-04-12</updated>
     </person>
     <person id="Christopher_Tengi">
       <name>Christopher Tengi</name>
@@ -111587,6 +111603,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Photosmith</org>
       <uri>mailto:ckhorne&amp;photosmithapp.com</uri>
       <updated>2011-10-27</updated>
+    </person>
+    <person id="Phrenetic_Apps_LLC">
+      <org>Phrenetic Apps LLC</org>
+      <uri>mailto:christopher.s.pow&amp;gmail.com</uri>
+      <updated>2016-04-12</updated>
     </person>
     <person id="Physio-Control_Inc">
       <org>Physio-Control, Inc.</org>

@@ -17312,6 +17312,7 @@ jnx-kcsync                     tcp    protocol                     [Patrick_Stei
 jtag                                  Proprietary                  [Uwe_Ziegler]                                         [Uwe_Ziegler]                                                                                                                                 Defined TXT keys: blocked=<name of the device>,
                                                                                                                                                                                                                                                                        version=<firmware/instrument controller version>
 jukebox                        tcp    Jukebox Request Service      [Gary_Giebler_2]                                      [Gary_Giebler_2]                                          2011-10-18                                                                          Defined TXT keys: None
+jukejoint                      tcp    Music sharing protocol       [Phrenetic_Apps_LLC]                                  [Christopher_Pow]                                         2016-04-12                                                                          Defined TXT keys: none
                                       KeynoteAccess is used for
                                       sending remote
 keynoteaccess                  tcp    requests/responses when      [Apple]                                               [Brad_Vaughan]                                            2011-10-12                                                                          Defined TXT keys: None
@@ -19008,6 +19009,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Christopher_Miller_2]                                    Christopher Miller                              mailto:chris.miller&versatrans.com                            2008-01-14
 [Christopher_R_Smith]                                     Christopher R. Smith                            mailto:csmith4&us.ibm.com                                     2004-11
 [Christophe_Pignon]                                       Christophe Pignon         L-ACOUSTICS           mailto:christophe.pignon&l-acoustics.com                      2012-08-13
+[Christopher_Pow]                                         Christopher Pow           Phrenetic_Apps_LLC    mailto:christopher.s.pow&gmail.com                            2016-04-12
 [Christopher_Tengi]                                       Christopher Tengi                               mailto:tengi&princeton.edu
 [Christopher_Truxaw]                                      Christopher Truxaw                              mailto:ctruxaw&redsoftware.com                                2010-10-15
 [Christopher_Wells]                                       Christopher Wells                               mailto:Christopher_Wells&3com.com
@@ -22067,6 +22069,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Phillip_Magson]                                          Phillip Magson                                  mailto:philm&extro.ucc.su.oz.au
 [Phivos_Aristides]                                        Phivos Aristides                                mailto:phivos&opendesign.com
 [Photosmith]                                                                        Photosmith            mailto:ckhorne&photosmithapp.com                              2011-10-27
+[Phrenetic_Apps_LLC]                                                                Phrenetic Apps LLC    mailto:christopher.s.pow&gmail.com                            2016-04-12
 [Physio-Control_Inc]                                                                Physio-Control, Inc.  mailto:kevin.c.drew&physio-control.com                        2014-02-14
 [Pierre_Arnaud]                                           Pierre Arnaud                                   mailto:pierre.arnaud&iname.com
 [Pierre_Couderc]                                          Pierre Couderc                                  mailto:pcouderc&tol.fr                                        2006-03
