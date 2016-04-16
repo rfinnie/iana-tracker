@@ -9,7 +9,7 @@ Value,Name,Status,Reference
 7,N3U,Standard,[RFC6975]
 8,edns-client-subnet,Optional,[RFC-ietf-dnsop-edns-client-subnet-07]
 9,EDNS EXPIRE,Optional,[RFC7314]
-10,COOKIE,Standard,[draft-ietf-dnsop-cookies]
+10,COOKIE,Standard,[RFC-ietf-dnsop-cookies-10]
 11,edns-tcp-keepalive,Standard,[RFC7828]
 12,Padding,Standard,[RFC-ietf-dprive-edns0-padding-03]
 13,CHAIN,Standard,[RFC-ietf-dnsop-edns-chain-query-07]
