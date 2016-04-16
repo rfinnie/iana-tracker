@@ -30,7 +30,7 @@ reload-config,IETF,[RFC6940],,,
 repute-template,IETF,[RFC7072],,2013-09-30,
 stun-key,IETF,[RFC7635],,2015-06-12,
 time,[Poul-Henning_Kamp],[http://phk.freebsd.dk/time/20151129.html],,2015-12-09,
-timezone,IESG,[RFC-ietf-tzdist-service-11],,2015-08-03,
+timezone,IESG,[RFC7808],,2015-08-03,
 void,W3C,[http://www.w3.org/TR/void],,2011-05-11,
 webfinger,IETF,[RFC7033],"The query to the WebFinger resource will
 include one or more parameters in the query string; see Section 4.1
