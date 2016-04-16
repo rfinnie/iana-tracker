@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2016-04-14</updated>
+  <updated>2016-04-15</updated>
   
   
   
@@ -2093,7 +2093,7 @@ Media Type Sub-Parameters: <xref type="registry" data="media-type-sub-parameters
       <xref type="person" data="Ravinder_Chandhok"/>
       <file type="template">application/vnd.commonspace</file>
     </record>
-    <record date="2016-04-14">
+    <record date="2016-04-15">
       <name>vnd.coreos.ignition+json</name>
       <xref type="person" data="Alex_Crawford"/>
       <file type="template">application/vnd.coreos.ignition+json</file>
@@ -8502,7 +8502,7 @@ by the IANA.</note>
     <person id="Alex_Crawford">
       <name>Alex Crawford</name>
       <uri>mailto:alex.crawford&amp;coreos.com</uri>
-      <updated>2016-04-14</updated>
+      <updated>2016-04-15</updated>
     </person>
     <person id="Dave_Crocker">
       <name>Dave Crocker</name>
