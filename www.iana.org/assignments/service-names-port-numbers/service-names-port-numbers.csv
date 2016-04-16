@@ -7915,8 +7915,8 @@ citysearch,3974,tcp,Remote Applicant Tracking Service,[Marc_Castelluccio],[Marc_
 citysearch,3974,udp,Remote Applicant Tracking Service,[Marc_Castelluccio],[Marc_Castelluccio],2005-08,,,,,
 airshot,3975,tcp,Air Shot,[Shingo_Kimura],[Shingo_Kimura],2005-08,,,,,
 airshot,3975,udp,Air Shot,[Shingo_Kimura],[Shingo_Kimura],2005-08,,,,,
-opswagent,3976,tcp,Opsware Agent,,,,,,,,
-opswagent,3976,udp,Opsware Agent,,,,,,,,
+opswagent,3976,tcp,Server Automation Agent,[Hewlett_Packard_Enterprise],[Cristi_Fati],,2016-04-14,,,,
+opswagent,3976,udp,Server Automation Agent,[Hewlett_Packard_Enterprise],[Cristi_Fati],,2016-04-14,,,,
 opswmanager,3977,tcp,Opsware Manager,[Dave_Jagoda],[Dave_Jagoda],2006-06,,,,,
 opswmanager,3977,udp,Opsware Manager,[Dave_Jagoda],[Dave_Jagoda],2006-06,,,,,
 secure-cfg-svr,3978,tcp,Secured Configuration Server,[Dr_Anupam_Bharali],[Dr_Anupam_Bharali],2006-06,,,,,
@@ -10919,8 +10919,8 @@ display,7236,tcp,Wi-Fi Alliance Wi-Fi Display Protocol,[Wi-Fi_Alliance],[Thomas_
 pads,7237,tcp,PADS (Public Area Display System) Server,[Willie_Jan_Bons],[Willie_Jan_Bons],2011-03-10,,,,,
 ,7237,udp,Reserved,,,,,,,,
 ,7238-7261,,Unassigned,,,,,,,,
-cnap,7262,tcp,Calypso Network Access Protocol,[Scott_Halberg],[Scott_Halberg],2009-06-02,,,,,
-cnap,7262,udp,Calypso Network Access Protocol,[Scott_Halberg],[Scott_Halberg],2009-06-02,,,,,
+cnap,7262,tcp,Calypso Network Access Protocol,[Frontrow_Calypso_LLC],[Scott_Halberg],2009-06-02,,,,,
+cnap,7262,udp,Calypso Network Access Protocol,[Frontrow_Calypso_LLC],[Scott_Halberg],2009-06-02,,,,,
 ,7263-7271,,Unassigned,,,,,,,,
 watchme-7272,7272,tcp,WatchMe Monitoring 7272,[Oliver_Heinz],[Oliver_Heinz],2005-08,,,,,
 watchme-7272,7272,udp,WatchMe Monitoring 7272,[Oliver_Heinz],[Oliver_Heinz],2005-08,,,,,
@@ -11393,7 +11393,7 @@ indigo-vbcp,8131,udp,INDIGO-VBCP,[Colin_Caughie],[Colin_Caughie],,,,,,
 dbabble,8132,tcp,dbabble,[Chris_Pugmire],[Chris_Pugmire],,,,,,
 dbabble,8132,udp,dbabble,[Chris_Pugmire],[Chris_Pugmire],,,,,,
 ,8133-8139,,Unassigned,,,,,,,,
-puppet,8140,tcp,The Puppet master service,[Puppet_Labs],[Zach_Leslie],2014-09-18,,,,,
+puppet,8140,tcp,The Puppet master service,[Puppet],[Charles_Dunbar],2014-09-18,,,,,
 ,8140,udp,Reserved,,,,,,,,
 ,8141-8147,,Unassigned,,,,,,,,
 isdd,8148,tcp,i-SDD file transfer,[Frank_Waarsenburg],[Frank_Waarsenburg],2004-11,,,,,
@@ -14142,6 +14142,7 @@ jnx-kcsync,,tcp,jollys keychain cloud sync protocol,[Patrick_Stein],[Patrick_Ste
       uuid=db61dc092922252e45bbb264f59147138c7fd5fa"
 jtag,,,Proprietary,[Uwe_Ziegler],[Uwe_Ziegler],,,,,,"Defined TXT keys: blocked=<name of the device>, version=<firmware/instrument controller version>"
 jukebox,,tcp,Jukebox Request Service,[Gary_Giebler_2],[Gary_Giebler_2],2011-10-18,,,,,Defined TXT keys: None
+jukejoint,,tcp,Music sharing protocol,[Phrenetic_Apps_LLC],[Christopher_Pow],2016-04-12,,,,,Defined TXT keys: none
 keynoteaccess,,tcp,KeynoteAccess is used for sending remote requests/responses when controlling a slideshow with Keynote Remote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 keynotepairing,,tcp,KeynotePairing is used to pair Keynote Remote with Keynote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 kiwin,,tcp,Topology Discovery,[Stephen_kiwin_PALM],[Stephen_kiwin_PALM],2015-06-30,,,,,"Defined TXT keys: kiwin, top"

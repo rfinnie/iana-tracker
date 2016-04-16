@@ -13,8 +13,8 @@ Age,,http,standard,"[RFC7234, Section 5.1]"
 Allow,,http,standard,"[RFC7231, Section 7.4.1]"
 ALPN,,http,standard,"[RFC7639, Section 2]"
 Also-Control,,netnews,obsoleted,[Son-of-1036]
-Alt-Svc,,http,standard,[RFC-ietf-httpbis-alt-svc-14]
-Alt-Used,,http,standard,[RFC-ietf-httpbis-alt-svc-14]
+Alt-Svc,,http,standard,[RFC7838]
+Alt-Used,,http,standard,[RFC7838]
 Alternate-Recipient,,mail,,[RFC4021]
 Alternates,,http,,[RFC4229]
 Apply-To-Redirect-Ref,,http,,[RFC4437]
