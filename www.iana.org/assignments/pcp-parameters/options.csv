@@ -21,7 +21,7 @@ Value,Name,Purpose,Valid for Opcodes,Length,May Appear in,Maximum Occurrences,Re
 13,THIRD_PARTY_ID,"Together with the THIRD_PARTY option, the
       THIRD_PARTY_ID option identifies a third party
       for which a request for an external IP address
-      and port is made.","MAP, PEER","Variable, maximum 1016 octets.","Request. May appear in response only if it
+      and port is made.","MAP, PEER",Variable; maximum 1016 octets.,"Request. May appear in response only if it
       appeared in the associated request.",1,[RFC-ietf-pcp-third-party-id-option-08]
 14-95,Unassigned,,,,,,
 96-126,Reserved for Private Use,,,,,,[RFC6887]

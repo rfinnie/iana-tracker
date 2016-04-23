@@ -1,25 +1,25 @@
 Token,Description,Reference
 wireless,"Wireless Telephone Service: Includes 
-      CDMA, GSM, Wi-Fi, WiMAX, LTE (but not satellite)",[RFC-ietf-ecrit-additional-data-37]
+      CDMA, GSM, Wi-Fi, WiMAX, LTE (but not satellite)",[RFC-ietf-ecrit-additional-data-38]
 coin,"Fixed public pay/coin telephones: Any 
-      coin or credit card operated device",[RFC-ietf-ecrit-additional-data-37]
-one-way,One way outbound service,[RFC-ietf-ecrit-additional-data-37]
+      coin or credit card operated device",[RFC-ietf-ecrit-additional-data-38]
+one-way,One way outbound service,[RFC-ietf-ecrit-additional-data-38]
 temp,"Soft dial tone/quick service/warm 
-      disconnect/suspended",[RFC-ietf-ecrit-additional-data-37]
-MLTS-hosted,Hosted multi-line telephone system such as Centrex,[RFC-ietf-ecrit-additional-data-37]
+      disconnect/suspended",[RFC-ietf-ecrit-additional-data-38]
+MLTS-hosted,Hosted multi-line telephone system such as Centrex,[RFC-ietf-ecrit-additional-data-38]
 MLTS-local,"Local multi-line telephone system, includes all PBX, 
-        key systems, Shared Tenant Service",[RFC-ietf-ecrit-additional-data-37]
+        key systems, Shared Tenant Service",[RFC-ietf-ecrit-additional-data-38]
 sensor-unattended,"These are devices that generate DATA 
-      ONLY. This is a one-way information transmit without interactive media",[RFC-ietf-ecrit-additional-data-37]
+      ONLY. This is a one-way information transmit without interactive media",[RFC-ietf-ecrit-additional-data-38]
 sensor-attended,"Devices that are supported by a 
       monitoring service provider or that are capable of supporting interactive 
-      media",[RFC-ietf-ecrit-additional-data-37]
-POTS,Wireline: Plain Old Telephone Service,[RFC-ietf-ecrit-additional-data-37]
+      media",[RFC-ietf-ecrit-additional-data-38]
+POTS,Wireline: Plain Old Telephone Service,[RFC-ietf-ecrit-additional-data-38]
 OTT,"An over-the-top service that provides communication over 
-        arbitrary Internet access (fixed, nomadic, mobile)",[RFC-ietf-ecrit-additional-data-37]
-digital,Wireline non-OTT digital phone service,[RFC-ietf-ecrit-additional-data-37]
-OPX,Off-premise extension,[RFC-ietf-ecrit-additional-data-37]
+        arbitrary Internet access (fixed, nomadic, mobile)",[RFC-ietf-ecrit-additional-data-38]
+digital,Wireline non-OTT digital phone service,[RFC-ietf-ecrit-additional-data-38]
+OPX,Off-premise extension,[RFC-ietf-ecrit-additional-data-38]
 relay,"A service where a human third-party agent provides 
         additional assistance. This includes sign language relay/interpretation, 
         telematics services that provide a human on the call, and similar 
-        services",[RFC-ietf-ecrit-additional-data-37]
+        services",[RFC-ietf-ecrit-additional-data-38]
