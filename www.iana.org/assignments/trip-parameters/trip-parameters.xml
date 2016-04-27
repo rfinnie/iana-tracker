@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trip-parameters">
   <title>Telephony Routing over IP (TRIP) Parameters</title>
   <created>2001-12-18</created>
-  <updated>2016-04-26</updated>
+  <updated>2016-04-27</updated>
 
   <registry id="trip-parameters-1">
     <title>TRIP Capabilities</title>
@@ -14322,6 +14322,14 @@ Chicago, IL 60640
 United States</description>
       <xref type="person" data="Prince_Adeyemi_2"/>
     </record>
+    <record date="2016-04-27">
+      <value>1948</value>
+      <description>Boris Gorbuntsov
+192236, Sofiyskaya 14B-317
+Saint-Petersburg
+Russia</description>
+      <xref type="person" data="Boris_Gorbuntsov"/>
+    </record>
   </registry>
   
   <people>
@@ -15116,6 +15124,11 @@ United States</description>
       <name>Bora Ismen</name>
       <uri>mailto:bora.ismen&amp;dynaceron.com</uri>
       <updated>2010-04-06</updated>
+    </person>
+    <person id="Boris_Gorbuntsov">
+      <name>Boris Gorbuntsov</name>
+      <uri>mailto:gorbuntsov&amp;stigit.net</uri>
+      <updated>2016-04-27</updated>
     </person>
     <person id="Bosola_Owolabi">
       <name>Bosola Owolabi</name>
