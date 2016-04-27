@@ -169,6 +169,11 @@ version-history,"Points to a resource containing the version history
       for the context.",[RFC5829],
 via,"Identifies a resource that is the source of the
       information in the link's context.",[RFC4287],
+webmention,"Identifies a target URI that supports the Webmention protcol.
+    This allows clients that mention a resource in some form of publishing process
+    to contact that endpoint and inform it that this resource has been mentioned.",[http://www.w3.org/TR/webmention/],"This is a similar ""Linkback"" mechanism to the ones of Refback, Trackback, and Pingback.
+    It uses a different protocol, though, and thus should be discoverable through its own link
+    relation type."
 working-copy,Points to a working copy for this resource.,[RFC5829],
 working-copy-of,"Points to the versioned resource from which this
       working copy was obtained.",[RFC5829],
