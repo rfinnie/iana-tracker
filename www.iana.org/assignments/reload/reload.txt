@@ -4,7 +4,7 @@
            2013-03-26
 
    Last Updated
-           2016-04-26
+           2016-04-27
 
    Available Formats
            [IMG]
@@ -483,6 +483,6 @@ RELOAD Diagnostic Kind ID
    0x000e          EWMA_BYTES_RCVD       [RFC-ietf-p2psip-diagnostics-22]
    0x000f          UNDERLAY_HOP          [RFC-ietf-p2psip-diagnostics-22]
    0x0010          BATTERY_STATUS        [RFC-ietf-p2psip-diagnostics-22]
-   0x0011-0x3e     Unassigned
+   0x0011-0x003e   Unassigned
    0xf000-0xfffe   local use (Reserved)  [RFC-ietf-p2psip-diagnostics-22]
    0xffff          Reserved              [RFC-ietf-p2psip-diagnostics-22]
