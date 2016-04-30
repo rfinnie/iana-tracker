@@ -14116,6 +14116,7 @@ irelay,,,iRelay application discovery service,[Marc_Diamante],[Marc_Diamante],,,
 irmc,,,Intego Remote Management Console,[Olivier_Delecluse],[Olivier_Delecluse],,,,,,"Defined TXT keys: RMC Client Version=<version>, MAC Address=<address>"
 irobotmcs,,tcp,iRobot Monitor and Control Service,[iRobot_Corporation],[Tim_Farlow],2013-11-07,,,,,Defined TXT keys: None
 irobotmcs,,udp,iRobot Monitor and Control Service,[iRobot_Corporation],[Tim_Farlow],2013-11-07,,,,,Defined TXT keys: None
+iroid-sd,,tcp,Iroid Data Service Discovery,[iroïd],[Tom_Wagner],2016-04-22,,,,,Defined TXT keys: none
 irradiatd-iclip,,tcp,iClip clipboard transfer,[Irradiated_Software],[Thomas_Tempelmann],2012-06-19,,,,,Defined TXT keys: none
 irt-sharing,,tcp,Image Resizer Toolbox preview sharing service,[fnxsoftware.com],[Juan_Guerrero],2015-06-30,,,,,Defined TXT keys: irtshrng
 isparx,,,iSparx,[Philipp_Dreiss],[Philipp_Dreiss],,,,,,Defined TXT keys: None

@@ -240,3 +240,5 @@ Decimal,Name,Description,References
 236,vmMIB,VM-MIB,[RFC7666]
 237,ianaStorageMediaTypeMIB,IANA-STORAGE-MEDIA-TYPE-MIB,[RFC7666]
 238,trillOamMIB,TRILL-OAM-MIB,[RFC7784]
+239,swmMIB,SWM-MIB,[RFC-ietf-softwire-mesh-mib-14]
+240,dsLiteMIB,DSLite-MIB,[RFC-ietf-softwire-dslite-mib-15]
