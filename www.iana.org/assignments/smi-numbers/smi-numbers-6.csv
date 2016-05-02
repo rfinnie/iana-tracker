@@ -14,3 +14,5 @@ Decimal,Name,Description,References
 13,isatap,ISATAP encapsulation,[RFC4087]
 14,teredo,Teredo encapsulation,[RFC4087]
 15,ipHttps,IPHTTPS,"[Sean_Siler][http://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation, ""IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification""]"
+16,softwireMesh,softwire Mesh tunnel,[RFC-ietf-softwire-mesh-mib-14]
+17,dsLite,dslite tunnel,[RFC-ietf-softwire-dslite-mib-15]
