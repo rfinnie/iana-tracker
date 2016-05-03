@@ -55,3 +55,6 @@ Decimal,Description,References
 53,id-aa-setKeyInformation,[draft-herzog-setkey]
 54,id-aa-asymmDecryptKeyID,[RFC7030]
 55,id-aa-secureHeaderFieldsIdentifier,[RFC7508]
+56,id-aa-otpChallenge,[RFC-wallace-est-alt-challenge-08]
+57,id-aa-revocationChallenge,[RFC-wallace-est-alt-challenge-08]
+58,id-aa-estIdentityLinking,[RFC-wallace-est-alt-challenge-08]
