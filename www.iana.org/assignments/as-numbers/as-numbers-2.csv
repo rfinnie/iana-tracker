@@ -27,6 +27,8 @@ Number,Description,WHOIS,RDAP,Reference,"Registration
 328704-393215,Unallocated,,,,
 393216-394239,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2006-11-30
 394240-395164,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2015-04-29
-395165-4199999999,Unallocated,,,,
+395165-396188,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2016-05-03
+396189-397212,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2016-05-03
+397213-4199999999,Unallocated,,,,
 4200000000-4294967294,Reserved for Private Use,,,[RFC6996],
 4294967295,Reserved,,,[RFC7300],
