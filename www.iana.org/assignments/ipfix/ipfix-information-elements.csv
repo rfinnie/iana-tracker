@@ -3556,4 +3556,9 @@ encoded digits (0x30 - 0x39).",,,[3GPP TS 23.003] Section 3 and [ITU-T E.164].,[
 456,mobileMSISDN,string,default,current,"The Mobile Station International Subscriber Directory Number
 (MSISDN). The MSISDN is a decimal digit string with up to a maximum of 15
 ASCII/UTF-8 encoded digits (0x30 - 0x39).",,,[3GPP TS 23.003] Section 3 and [ITU-T E.164].,[ipfix-iana_at_cisco.com],0,2015-12-15
-457-32767,Unassigned,,,,,,,,,,
+457,httpStatusCode,unsigned16,identifier,current,"The HTTP Response Status Code, as defined in 
+section 6 of [RFC7231], 
+associated with a flow. Implies that the flow 
+record represents a flow containing an HTTP 
+Response.",,0-999,[RFC7231],[Andrew_Feren],0,2016-04-28
+458-32767,Unassigned,,,,,,,,,,
