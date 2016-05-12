@@ -5091,14 +5091,12 @@ sybaseanywhere,2638,tcp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,
 sybaseanywhere,2638,udp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,,,,
 aminet,2639,tcp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
 aminet,2639,udp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
-sai-sentlm,2640,tcp,"Sabbagh Associates Licence Manager
-IANA assigned this well-formed service name as a replacement for ""sai_sentlm"".",[Elias_Sabbagh],[Elias_Sabbagh],,,,,,
-sai_sentlm,2640,tcp,Sabbagh Associates Licence Manager,[Elias_Sabbagh],[Elias_Sabbagh],,,,,,"This entry is an alias to ""sai-sentlm"".
+,2640,tcp,Reserved,,,,,,,,
+,2640,tcp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
-sai-sentlm,2640,udp,"Sabbagh Associates Licence Manager
-IANA assigned this well-formed service name as a replacement for ""sai_sentlm"".",[Elias_Sabbagh],[Elias_Sabbagh],,,,,,
-sai_sentlm,2640,udp,Sabbagh Associates Licence Manager,[Elias_Sabbagh],[Elias_Sabbagh],,,,,,"This entry is an alias to ""sai-sentlm"".
+,2640,udp,Reserved,,,,,,,,
+,2640,udp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 hdl-srv,2641,tcp,HDL Server,[David_Ely],[David_Ely],,,,,,
