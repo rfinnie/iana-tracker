@@ -690,7 +690,7 @@ The registration template should cite the specification.
       <value>p2p:config-diagnostics</value>
       <name>urn:ietf:params:xml:ns:p2p:config-diagnostics</name>
       <file type="template">ns/p2p/config-diagnostics.txt</file>
-      <xref type="draft" data="RFC-ietf-p2psip-diagnostics-22"/>
+      <xref type="rfc" data="rfc7851"/>
     </record>
     <record date="2014-08-29">
       <value>p2p:redir</value>
