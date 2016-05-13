@@ -36,7 +36,7 @@ geopriv:held,urn:ietf:params:xml:schema:geopriv:held,schema/geopriv/held.xsd,[RF
 geopriv:held:flow,urn:ietf:params:xml:schema:geopriv:held:flow,schema/geopriv/held/flow.xsd,[RFC6915]
 geopriv:held:id,urn:ietf:params:xml:schema:geopriv:held:id,schema/geopriv/held/id.xsd,[RFC6155]
 geopriv:held:policy,urn:ietf:params:xml:schema:geopriv:held:policy,schema/geopriv/held/policy.xsd,[RFC7199]
-geopriv:held:ri,urn:ietf:params:xml:schema:geopriv:held:ri,schema/geopriv/held/ri.xsd,[RFC-ietf-ecrit-held-routing-05]
+geopriv:held:ri,urn:ietf:params:xml:schema:geopriv:held:ri,schema/geopriv/held/ri.xsd,[RFC7840]
 geopriv:lm,urn:ietf:params:xml:schema:geopriv:lm,schema/geopriv/lm.xsd,[RFC7105]
 geopriv:lm:basetypes,urn:ietf:params:xml:schema:geopriv:lm:basetypes,schema/geopriv/lm/basetypes.xsd,[RFC7105]
 geopriv:lm:cellular,urn:ietf:params:xml:schema:geopriv:lm:cellular,schema/geopriv/lm/cellular.xsd,[RFC7105]
