@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-05-03</updated>
+  <updated>2016-05-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -33253,36 +33253,26 @@ common service discovery mechanisms.</note>
     <number>2639</number>
   </record>
   <record>
-    <name>sai-sentlm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Elias_Sabbagh"/>
-    <description>Sabbagh Associates Licence Manager<br/><br/>
-IANA assigned this well-formed service name as a replacement for "sai_sentlm".</description>
+    <description>Reserved<br/><br/></description>
     <number>2640</number>
   </record>
   <record>
-    <name>sai_sentlm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Elias_Sabbagh"/>
-    <description>Sabbagh Associates Licence Manager</description>
+    <description>Reserved</description>
     <number>2640</number>
     <note>This entry is an alias to "sai-sentlm".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms.</note>
   </record>
   <record>
-    <name>sai-sentlm</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Elias_Sabbagh"/>
-    <description>Sabbagh Associates Licence Manager<br/><br/>
-IANA assigned this well-formed service name as a replacement for "sai_sentlm".</description>
+    <description>Reserved<br/><br/></description>
     <number>2640</number>
   </record>
   <record>
-    <name>sai_sentlm</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Elias_Sabbagh"/>
-    <description>Sabbagh Associates Licence Manager</description>
+    <description>Reserved</description>
     <number>2640</number>
     <note>This entry is an alias to "sai-sentlm".
 This entry is now historic, not usable for use with many
@@ -70745,7 +70735,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7108-7120</number>
+    <number>7108-7116</number>
+  </record>
+  <record date="2016-05-10">
+    <name>rothaga</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Arcadian_Computers"/>
+    </assignee>
+    <description>Encrypted chat and file transfer service</description>
+    <number>7117</number>
+    <xref type="person" data="Jonathan_Pollock"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7117</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>7118-7120</number>
   </record>
   <record>
     <name>virprot-lm</name>
@@ -72843,7 +72852,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>7782-7783</number>
   </record>
-  <record date="2014-12-24">
+  <record date="2014-12-24" updated="2016-05-13">
     <name>s-bfd</name>
     <protocol>udp</protocol>
     <assignee>
@@ -72851,8 +72860,8 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Seamless Bidirectional Forwarding Detection (S-BFD)</description>
     <number>7784</number>
-    <xref type="person" data="BFD_Chairs"/>
-    <xref type="draft" data="draft-ietf-bfd-seamless-ip"/>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-bfd-seamless-ip-06"/>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -96007,6 +96016,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:admin&amp;apsolab.com</uri>
       <updated>2014-11-10</updated>
     </person>
+    <person id="Arcadian_Computers">
+      <name>Arcadian Computers</name>
+      <uri>mailto:support&amp;arcadiancomputers.com</uri>
+      <updated>2016-05-10</updated>
+    </person>
     <person id="Archishmat_Gore">
       <name>Archishmat Gore</name>
       <uri>mailto:archisgore&amp;yahoo.com</uri>
@@ -105726,6 +105740,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jonathan Mitchell</name>
       <uri>mailto:jonathan&amp;mugginsoft.com</uri>
       <updated>2008-09-08</updated>
+    </person>
+    <person id="Jonathan_Pollock">
+      <name>Jonathan Pollock</name>
+      <uri>mailto:jon&amp;arcadiancomputers.com</uri>
+      <updated>2016-05-10</updated>
     </person>
     <person id="Jonathan_S_Shapiro">
       <name>Jonathan S. Shapiro</name>

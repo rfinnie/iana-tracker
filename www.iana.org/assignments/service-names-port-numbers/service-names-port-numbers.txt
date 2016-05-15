@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-05-03
+           2016-05-13
 
    Expert(s)
 
@@ -6078,25 +6078,13 @@ sybaseanywhere     2638        tcp    Sybase Anywhere              [Dave_Neudoer
 sybaseanywhere     2638        udp    Sybase Anywhere              [Dave_Neudoerffer]                                    [Dave_Neudoerffer]
 aminet             2639        tcp    AMInet                       [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]
 aminet             2639        udp    AMInet                       [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]
-                                      Sabbagh Associates Licence
-                                      Manager
-
-sai-sentlm         2640        tcp    IANA assigned this           [Elias_Sabbagh]                                       [Elias_Sabbagh]
-                                      well-formed service name as
-                                      a replacement for
-                                      "sai_sentlm".
-                                      Sabbagh Associates Licence                                                                                                                                                                                                       This entry is an alias to "sai-sentlm". This entry is now
-sai_sentlm         2640        tcp    Manager                      [Elias_Sabbagh]                                       [Elias_Sabbagh]                                                                                                                               historic, not usable for use with many common service
+                   2640        tcp    Reserved
+                                                                                                                                                                                                                                                                       This entry is an alias to "sai-sentlm". This entry is now
+                   2640        tcp    Reserved                                                                                                                                                                                                                         historic, not usable for use with many common service
                                                                                                                                                                                                                                                                        discovery mechanisms.
-                                      Sabbagh Associates Licence
-                                      Manager
-
-sai-sentlm         2640        udp    IANA assigned this           [Elias_Sabbagh]                                       [Elias_Sabbagh]
-                                      well-formed service name as
-                                      a replacement for
-                                      "sai_sentlm".
-                                      Sabbagh Associates Licence                                                                                                                                                                                                       This entry is an alias to "sai-sentlm". This entry is now
-sai_sentlm         2640        udp    Manager                      [Elias_Sabbagh]                                       [Elias_Sabbagh]                                                                                                                               historic, not usable for use with many common service
+                   2640        udp    Reserved
+                                                                                                                                                                                                                                                                       This entry is an alias to "sai-sentlm". This entry is now
+                   2640        udp    Reserved                                                                                                                                                                                                                         historic, not usable for use with many common service
                                                                                                                                                                                                                                                                        discovery mechanisms.
 hdl-srv            2641        tcp    HDL Server                   [David_Ely]                                           [David_Ely]
 hdl-srv            2641        udp    HDL Server                   [David_Ely]                                           [David_Ely]
@@ -13079,7 +13067,11 @@ elcn               7101        udp    Embedded Light Control       [Michael_Scar
                  7102-7106            Unassigned
                    7107        tcp    Reserved
 aes-x170           7107        udp    AES-X170                     [Richard_Foss]                                        [Richard_Foss]                                            2011-02-10
-                 7108-7120            Unassigned
+                 7108-7116            Unassigned
+rothaga            7117        tcp    Encrypted chat and file      [Arcadian_Computers]                                  [Jonathan_Pollock]                                        2016-05-10
+                                      transfer service
+                   7117        udp    Reserved
+                 7118-7120            Unassigned
 virprot-lm         7121        tcp    Virtual Prototypes License   [Victor_Galis]                                        [Victor_Galis]
                                       Manager
 virprot-lm         7121        udp    Virtual Prototypes License   [Victor_Galis]                                        [Victor_Galis]
@@ -13491,7 +13483,7 @@ vstat              7779        udp    VSTAT                        [Vinh_Nguyn] 
 accu-lmgr          7781        tcp    accu-lmgr                    [Moises_E_Hernandez]                                  [Moises_E_Hernandez]
 accu-lmgr          7781        udp    accu-lmgr                    [Moises_E_Hernandez]                                  [Moises_E_Hernandez]
                  7782-7783            Unassigned
-s-bfd              7784        udp    Seamless Bidirectional       [IESG]                                                [BFD_Chairs]                                              2014-12-24                [draft-ietf-bfd-seamless-ip]
+s-bfd              7784        udp    Seamless Bidirectional       [IESG]                                                [IETF_Chair]                                              2014-12-24   2016-05-13   [RFC-ietf-bfd-seamless-ip-06]
                                       Forwarding Detection (S-BFD)
                    7784        tcp    Reserved
                                                                                                                                                                                                                                                           Known
@@ -18478,6 +18470,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [AppMac_Software]                                         AppMac Software                                 mailto:appmac&appmac.com
 [Apple_Computer]                                          Apple Computer                                  mailto:perftools-feedback&group.apple.com
 [Apsolab_Inc]                                                                       Apsolab Inc.          mailto:admin&apsolab.com                                      2014-11-10
+[Arcadian_Computers]                                      Arcadian Computers                              mailto:support&arcadiancomputers.com                          2016-05-10
 [Archishmat_Gore]                                         Archishmat Gore                                 mailto:archisgore&yahoo.com                                   2004-11
 [Arcturus_Networks_Inc]                                                             Arcturus Networks     mailto:mdurrant&arcturusnetworks.com                          2011-10-20
                                                                                     Inc.
@@ -20706,6 +20699,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Jonathan_Leffler]                                        Jonathan Leffler                                mailto:jleffler&us.ibm.com                                    2005-12
 [Jonathan_Mergy]                                          Jonathan Mergy                                  mailto:mergy&natus.com
 [Jonathan_Mitchell]                                       Jonathan Mitchell                               mailto:jonathan&mugginsoft.com                                2008-09-08
+[Jonathan_Pollock]                                        Jonathan Pollock                                mailto:jon&arcadiancomputers.com                              2016-05-10
 [Jonathan_S_Shapiro]                                      Jonathan S. Shapiro                             mailto:registrar&eros-os.org                                  2002-03
 [Jonathan_Schaaf]                                         Jonathan Schaaf                                 mailto:j.schaaf&astronautics.com                              2010-02-10
 [Jonathan_Wenocur]                                        Jonathan Wenocur                                mailto:jhw&shiva.com

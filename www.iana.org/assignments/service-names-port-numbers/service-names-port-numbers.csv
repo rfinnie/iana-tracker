@@ -5091,14 +5091,12 @@ sybaseanywhere,2638,tcp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,
 sybaseanywhere,2638,udp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,,,,
 aminet,2639,tcp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
 aminet,2639,udp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
-sai-sentlm,2640,tcp,"Sabbagh Associates Licence Manager
-IANA assigned this well-formed service name as a replacement for ""sai_sentlm"".",[Elias_Sabbagh],[Elias_Sabbagh],,,,,,
-sai_sentlm,2640,tcp,Sabbagh Associates Licence Manager,[Elias_Sabbagh],[Elias_Sabbagh],,,,,,"This entry is an alias to ""sai-sentlm"".
+,2640,tcp,Reserved,,,,,,,,
+,2640,tcp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
-sai-sentlm,2640,udp,"Sabbagh Associates Licence Manager
-IANA assigned this well-formed service name as a replacement for ""sai_sentlm"".",[Elias_Sabbagh],[Elias_Sabbagh],,,,,,
-sai_sentlm,2640,udp,Sabbagh Associates Licence Manager,[Elias_Sabbagh],[Elias_Sabbagh],,,,,,"This entry is an alias to ""sai-sentlm"".
+,2640,udp,Reserved,,,,,,,,
+,2640,udp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 hdl-srv,2641,tcp,HDL Server,[David_Ely],[David_Ely],,,,,,
@@ -10854,7 +10852,10 @@ elcn,7101,udp,Embedded Light Control Network,[Michael_Scarito],[Michael_Scarito]
 ,7102-7106,,Unassigned,,,,,,,,
 ,7107,tcp,Reserved,,,,,,,,
 aes-x170,7107,udp,AES-X170,[Richard_Foss],[Richard_Foss],2011-02-10,,,,,
-,7108-7120,,Unassigned,,,,,,,,
+,7108-7116,,Unassigned,,,,,,,,
+rothaga,7117,tcp,Encrypted chat and file transfer service,[Arcadian_Computers],[Jonathan_Pollock],2016-05-10,,,,,
+,7117,udp,Reserved,,,,,,,,
+,7118-7120,,Unassigned,,,,,,,,
 virprot-lm,7121,tcp,Virtual Prototypes License Manager,[Victor_Galis],[Victor_Galis],,,,,,
 virprot-lm,7121,udp,Virtual Prototypes License Manager,[Victor_Galis],[Victor_Galis],,,,,,
 ,7122-7127,,Unassigned,,,,,,,,
@@ -11174,7 +11175,7 @@ vstat,7779,udp,VSTAT,[Vinh_Nguyn],[Vinh_Nguyn],,,,,,
 accu-lmgr,7781,tcp,accu-lmgr,[Moises_E_Hernandez],[Moises_E_Hernandez],,,,,,
 accu-lmgr,7781,udp,accu-lmgr,[Moises_E_Hernandez],[Moises_E_Hernandez],,,,,,
 ,7782-7783,,Unassigned,,,,,,,,
-s-bfd,7784,udp,Seamless Bidirectional Forwarding Detection (S-BFD),[IESG],[BFD_Chairs],2014-12-24,,[draft-ietf-bfd-seamless-ip],,,
+s-bfd,7784,udp,Seamless Bidirectional Forwarding Detection (S-BFD),[IESG],[IETF_Chair],2014-12-24,2016-05-13,[RFC-ietf-bfd-seamless-ip-06],,,
 ,7784,tcp,Reserved,,,,,,,,
 ,7785,,Unassigned,,,,,,,Known Unauthorized Use on port 7785,
 minivend,7786,tcp,MINIVEND,[Mike_Heins],[Mike_Heins],,,,,Known Unauthorized Use on port 7786,

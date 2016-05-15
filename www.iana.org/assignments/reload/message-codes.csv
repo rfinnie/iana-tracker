@@ -34,8 +34,8 @@ Code Value,Message Code Name,Reference
 0x24,exp_a_ans,[RFC6940]
 0x25,exp_b_req,[RFC6940]
 0x26,exp_b_ans,[RFC6940]
-0x27,path_track_req,[RFC-ietf-p2psip-diagnostics-22]
-0x28,path_track_ans,[RFC-ietf-p2psip-diagnostics-22]
+0x27,path_track_req,[RFC7851]
+0x28,path_track_ans,[RFC7851]
 0x29-0x7fff,Unassigned,
 0x8000-0xfffe,Reserved,[RFC6940]
 0xffff,error,[RFC6940]
