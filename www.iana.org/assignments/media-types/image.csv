@@ -1,5 +1,7 @@
 Name,Template,Description,Reference
+bmp,image/bmp,,[RFC-seantek-windows-image-03]
 cgm,image/cgm,Computer Graphics Metafile,[Alan_Francis]
+emf,image/emf,,[RFC-seantek-windows-image-03]
 example,image/example,,[RFC4735]
 fits,image/fits,,[RFC4047]
 g3fax,image/g3fax,,[RFC1494]
@@ -48,3 +50,4 @@ vnd.valve.source.texture,image/vnd.valve.source.texture,,[Henrik_Andersson]
 vnd.wap.wbmp,image/vnd-wap-wbmp,,[Peter_Stark]
 vnd.xiff,image/vnd.xiff,,[Steven_Martin]
 vnd.zbrush.pcx,image/vnd.zbrush.pcx,,[Chris_Charabaruk]
+wmf,image/wmf,,[RFC-seantek-windows-image-03]
