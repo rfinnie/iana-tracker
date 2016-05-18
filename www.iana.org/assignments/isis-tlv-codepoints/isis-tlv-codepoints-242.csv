@@ -19,4 +19,5 @@ Value,Description,Reference
 18,LABEL-GROUP,[RFC7176]
 19,Unassigned,
 20,S-BFD Discriminators,[RFC-ietf-isis-sbfd-discriminator-02]
-21-255,Unassigned,
+21,Node-Admin-Tag,[RFC-ietf-isis-node-admin-tag-11]
+22-255,Unassigned,
