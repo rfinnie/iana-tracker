@@ -842,6 +842,7 @@ vnd.oma.dcdc,application/vnd.oma.dcdc,[Avi_Primo][OMNA-Open_Mobile_Naming_Author
 vnd.oma.dd2+xml,application/vnd.oma.dd2+xml,[Jun_Sato][Open_Mobile_Alliance_BAC_DLDRM_Working_Group]
 vnd.oma.drm.risd+xml,application/vnd.oma.drm.risd+xml,[Uwe_Rauschenbach][OMNA-Open_Mobile_Naming_Authority]
 vnd.oma.group-usage-list+xml,application/vnd.oma.group-usage-list+xml,[Sean_Kelley][OMA_Presence_and_Availability_PAG_Working_Group]
+vnd.oma.lwm2m+json,application/vnd.oma.lwm2m+json,[John_Mudge][OMNA-Open_Mobile_Naming_Authority]
 vnd.oma.pal+xml,application/vnd.oma.pal+xml,[Brian_McColgan][OMNA-Open_Mobile_Naming_Authority]
 vnd.oma.poc.detailed-progress-report+xml,application/vnd.oma.poc.detailed-progress-report+xml,[OMA_Push_to_Talk_over_Cellular_POC_Working_Group]
 vnd.oma.poc.final-report+xml,application/vnd.oma.poc.final-report+xml,[OMA_Push_to_Talk_over_Cellular_POC_Working_Group]
