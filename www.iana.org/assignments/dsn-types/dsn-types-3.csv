@@ -1,3 +1,3 @@
 MTA-name-type,Description,Reference
 dns,Internet Mail,[RFC3461]
-X.400 Mail,X.400 Mail,[RFC2156]
+x400,X.400 Mail,[RFC2156]
