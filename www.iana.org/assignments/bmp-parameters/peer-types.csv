@@ -1,0 +1,7 @@
+Peer Type,Description,Reference
+0,Global Instance Peer,[RFC-ietf-grow-bmp-17]
+1,RD Instance Peer,[RFC-ietf-grow-bmp-17]
+2,Local Instance Peer,[RFC-ietf-grow-bmp-17]
+3-250,Unassigned,
+251-254,Experimental,[RFC-ietf-grow-bmp-17]
+255,Reserved,[RFC-ietf-grow-bmp-17]

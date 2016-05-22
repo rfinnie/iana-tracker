@@ -1,0 +1,7 @@
+Parameter,Reference
+bindings:radius,"[RFC7833, Section 4]"
+nameid-format:nai,"[RFC7833, Section 5]"
+profiles:authentication,"[RFC7833, Section 7]"
+profiles:query,"[RFC7833, Section 8]"
+cm:user,"[RFC7833, Section 6]"
+cm:machine,"[RFC7833, Section 6]"

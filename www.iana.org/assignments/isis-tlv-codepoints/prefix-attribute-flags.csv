@@ -1,0 +1,4 @@
+Bit #,Name,Reference
+0,External Prefix Flag (X-flag),[RFC7794]
+1,Re-advertisement Flag (R-flag),[RFC7794]
+2,Node Flag (N-flag),[RFC7794]

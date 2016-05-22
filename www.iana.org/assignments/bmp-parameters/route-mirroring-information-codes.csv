@@ -1,0 +1,6 @@
+Type,Description,Reference
+0,Errored PDU,[RFC-ietf-grow-bmp-17]
+1,Messages Lost,[RFC-ietf-grow-bmp-17]
+2-65530,Unassigned,
+65531-65534,Experimental,[RFC-ietf-grow-bmp-17]
+65535,Reserved,[RFC-ietf-grow-bmp-17]

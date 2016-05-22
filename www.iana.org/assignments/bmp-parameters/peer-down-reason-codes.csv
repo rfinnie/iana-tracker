@@ -1,0 +1,10 @@
+Type,Description,Reference
+0,Reserved,[RFC-ietf-grow-bmp-17]
+1,"Local system closed, NOTIFICATION PDU follows",[RFC-ietf-grow-bmp-17]
+2,"Local system closed, FSM Event follows",[RFC-ietf-grow-bmp-17]
+3,"Remote system closed, NOTIFICATION PDU follows",[RFC-ietf-grow-bmp-17]
+4,"Remote system closed, no data",[RFC-ietf-grow-bmp-17]
+5,Peer de-configured,[RFC-ietf-grow-bmp-17]
+6-65530,Unassigned,
+65531-65534,Experimental,[RFC-ietf-grow-bmp-17]
+65535,Reserved,[RFC-ietf-grow-bmp-17]

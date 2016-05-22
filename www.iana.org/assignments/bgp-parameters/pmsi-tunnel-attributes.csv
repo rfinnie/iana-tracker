@@ -1,0 +1,5 @@
+Value,Name,Reference
+0,Unassigned,
+1,Extension,[RFC-ietf-bess-pta-flags-03]
+2-6,Unassigned,
+7,Leaf Information Required (L),[RFC6514]

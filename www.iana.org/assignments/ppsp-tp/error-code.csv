@@ -1,0 +1,8 @@
+error_code,Description,Reference
+00,No Error,[RFC-ietf-ppsp-base-tracker-protocol-11]
+01,Bad Request,[RFC-ietf-ppsp-base-tracker-protocol-11]
+02,Unsupported Version Number,[RFC-ietf-ppsp-base-tracker-protocol-11]
+03,Forbidden Action,[RFC-ietf-ppsp-base-tracker-protocol-11]
+04,Internal Server Error,[RFC-ietf-ppsp-base-tracker-protocol-11]
+05,Service Unavailable,[RFC-ietf-ppsp-base-tracker-protocol-11]
+06,Authentication Required,[RFC-ietf-ppsp-base-tracker-protocol-11]
