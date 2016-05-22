@@ -24,7 +24,8 @@ Value,Extension name,Reference
 22,encrypt_then_mac,[RFC7366]
 23,extended_master_secret,[RFC7627]
 24,"token_binding (TEMPORARY - registered 2016-02-04, expires 2017-02-04)",[draft-ietf-tokbind-negotiation]
-25-34,Unassigned,
+25,cached_info,[RFC-ietf-tls-cached-info-23]
+26-34,Unassigned,
 35,SessionTicket TLS,[RFC4507]
 36-65280,Unassigned,
 65281,renegotiation_info,[RFC5746]

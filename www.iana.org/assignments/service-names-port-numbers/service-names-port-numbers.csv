@@ -550,8 +550,8 @@ cdc,223,udp,Certificate Distribution Center,[Kannan_Alagappan],[Kannan_Alagappan
 masqdialer,224,tcp,masqdialer,[Charles_Wright],[Charles_Wright],,,,,,"Possible Conflict of Port 222 with ""Masqdialer"""
 masqdialer,224,udp,masqdialer,[Charles_Wright],[Charles_Wright],,,,,,"Possible Conflict of Port 222 with ""Masqdialer"""
 ,225-241,,Reserved,[Jon_Postel],[Jon_Postel],,,,,,
-direct,242,tcp,Direct,[Herb_Sutter],[Herb_Sutter],,,,,,
-direct,242,udp,Direct,[Herb_Sutter],[Herb_Sutter],,,,,,
+direct,242,tcp,Direct,[Herb_Sutter],[Paul_Horton],,,,,,
+direct,242,udp,Direct,[Herb_Sutter],[Paul_Horton],,,,,,
 sur-meas,243,tcp,Survey Measurement,[Dave_Clark],[Dave_Clark],,,,,,
 sur-meas,243,udp,Survey Measurement,[Dave_Clark],[Dave_Clark],,,,,,
 inbusiness,244,tcp,inbusiness,[Derrick_Hisatake],[Derrick_Hisatake],,,,,,
@@ -1571,8 +1571,8 @@ dhcp-failover2,847,udp,dhcp-failover 2,[Bernard_Volz],[Bernard_Volz],,,,,,
 gdoi,848,tcp,GDOI,,,,,[RFC3547],,,
 gdoi,848,udp,GDOI,,,,,[RFC3547],,,
 ,849-852,,Unassigned,,,,,,,,
-domain-s,853,tcp,DNS query-response protocol run over TLS/DTLS,[IESG],[IETF_Chair],2015-10-08,2016-03-29,[RFC-ietf-dprive-dns-over-tls-09],,,
-domain-s,853,udp,DNS query-response protocol run over TLS/DTLS,[IESG],[IETF_Chair],2015-10-08,2016-03-29,[RFC-ietf-dprive-dns-over-tls-09],,,
+domain-s,853,tcp,DNS query-response protocol run over TLS/DTLS,[IESG],[IETF_Chair],2015-10-08,2016-05-18,[RFC7858],,,
+domain-s,853,udp,DNS query-response protocol run over TLS/DTLS,[IESG],[IETF_Chair],2015-10-08,2016-05-18,[RFC7858],,,
 ,854-859,,Unassigned,,,,,,,,
 iscsi,860,tcp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
 iscsi,860,udp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
@@ -5091,14 +5091,8 @@ sybaseanywhere,2638,tcp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,
 sybaseanywhere,2638,udp,Sybase Anywhere,[Dave_Neudoerffer],[Dave_Neudoerffer],,,,,,
 aminet,2639,tcp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
 aminet,2639,udp,AMInet,[Alcorn_McBride_Inc],[Alcorn_McBride_Inc],,,,,,
-,2640,tcp,Reserved,,,,,,,,
-,2640,tcp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
-This entry is now historic, not usable for use with many
-common service discovery mechanisms."
-,2640,udp,Reserved,,,,,,,,
-,2640,udp,Reserved,,,,,,,,"This entry is an alias to ""sai-sentlm"".
-This entry is now historic, not usable for use with many
-common service discovery mechanisms."
+ami-control,2640,tcp,Alcorn McBride Inc protocol used for device control,[Alcorn_McBride_Inc],[Joy_Burke],,,,,,
+ami-control,2640,udp,Alcorn McBride Inc protocol used for device control,[Alcorn_McBride_Inc],[Joy_Burke],,,,,,
 hdl-srv,2641,tcp,HDL Server,[David_Ely],[David_Ely],,,,,,
 hdl-srv,2641,udp,HDL Server,[David_Ely],[David_Ely],,,,,,
 tragic,2642,tcp,Tragic,[Stu_Mark],[Stu_Mark],,,,,,
@@ -8802,7 +8796,10 @@ All of these TXT record keys are optional, they may be omitted.
 Further keys may be added in the future."
 deploymentmap,4570,tcp,Service to distribute and update within a site deployment information for Oracle Communications Suite,[Oracle_3],[Dan_Newman],2013-09-20,,,,,
 ,4570,udp,Reserved,,,,,,,,
-,4571-4589,,Unassigned,,,,,,,,
+,4571-4572,,Unassigned,,,,,,,,
+cardifftec-back,4573,tcp,A port for communication between a server and client for a custom backup system,[CardiffTec],[Benjamin_Misell],2016-05-19,,,,,
+,4573,udp,Reserved,,,,,,,,
+,4574-4589,,Unassigned,,,,,,,,
 rid,4590,tcp,RID over HTTP/TLS,[IESG],[IETF_Chair],,,[RFC6546],,,
 ,4590,udp,Reserved,,,,,,,,
 l3t-at-an,4591,tcp,HRPD L3T (AT-AN),[Avi_Lior],[Avi_Lior],2009-02-27,,,,,
@@ -14618,7 +14615,8 @@ vxi-11,,,VXI-11 TCP/IP Instrument Protocol,[Nick_Barendt_2],[Nick_Barendt_2],,,,
 wakeywakey,,tcp,Proprietary,[gerry_Brown_associates],[Gerry_Brown],2012-11-29,,,,,Defined TXT keys: None
 walkietalkie,,,Walkie Talkie,[Johan_Kool],[Johan_Kool],,,,,,Defined TXT keys: None
 wd-2go,,tcp,NAS Service Protocol,[Western_Digital],[Rajesh_Batra],2012-07-11,,,,,Defined TXT keys: None
-wdp,,tcp,Windows Device Portal,[Microsoft_Corporation_5],[Hirsch_Singhal],2016-03-03,,,,,"Defined TXT keys: http, https, version, SKU, features"
+wdp,,tcp,Windows Device Portal,[Microsoft_Corporation_5],[Hirsch_Singhal],2016-03-03,,,,,"Defined TXT keys: D (device type), S (https port), A (architecture),
+    T (tags)"
 we-jell,,,Proprietary collaborative messaging protocol,[Vaughn_Amann],[Vaughn_Amann],,,,,,"Defined TXT keys:   user=<user name>
   stat=<OK, DND, AWY, FWD:uname>
   agent=<agent type>"

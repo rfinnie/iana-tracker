@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-05-13</updated>
+  <updated>2016-05-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, and Alexander Zimmermann
@@ -3324,16 +3324,22 @@ common service discovery mechanisms.</note>
   <record>
     <name>direct</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Herb_Sutter"/>
+    <assignee>
+     <xref type="person" data="Herb_Sutter"/>
+    </assignee>
     <description>Direct</description>
     <number>242</number>
+     <xref type="person" data="Paul_Horton"/> 
   </record>
   <record>
     <name>direct</name>
     <protocol>udp</protocol>
+    <assignee>
     <xref type="person" data="Herb_Sutter"/>
+    </assignee>  
     <description>Direct</description>
     <number>242</number>
+    <xref type="person" data="Paul_Horton"/>
   </record>
   <record>
     <name>sur-meas</name>
@@ -9969,26 +9975,26 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>849-852</number>
   </record>
-  <record date="2015-10-08" updated="2016-03-29">
+  <record date="2015-10-08" updated="2016-05-18">
     <name>domain-s</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dprive-dns-over-tls-09"/>
+    <xref type="rfc" data="rfc7858"/>
     <description>DNS query-response protocol run over TLS/DTLS</description>
     <number>853</number>
     <note/>
   </record>
-  <record date="2015-10-08" updated="2016-03-29">
+  <record date="2015-10-08" updated="2016-05-18">
     <name>domain-s</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dprive-dns-over-tls-09"/>
+    <xref type="rfc" data="rfc7858"/>
     <description>DNS query-response protocol run over TLS/DTLS</description>
     <number>853</number>
     <note/>
@@ -33253,30 +33259,24 @@ common service discovery mechanisms.</note>
     <number>2639</number>
   </record>
   <record>
+    <name>ami-control</name>
     <protocol>tcp</protocol>
-    <description>Reserved<br/><br/></description>
+    <assignee>
+      <xref type="person" data="Alcorn_McBride_Inc"/>
+    </assignee> 
+    <description>Alcorn McBride Inc protocol used for device control</description>
     <number>2640</number>
+    <xref type="person" data="Joy_Burke"/>
   </record>
   <record>
-    <protocol>tcp</protocol>
-    <description>Reserved</description>
-    <number>2640</number>
-    <note>This entry is an alias to "sai-sentlm".
-This entry is now historic, not usable for use with many
-common service discovery mechanisms.</note>
-  </record>
-  <record>
+    <name>ami-control</name>
     <protocol>udp</protocol>
-    <description>Reserved<br/><br/></description>
+    <assignee>
+      <xref type="person" data="Alcorn_McBride_Inc"/>
+    </assignee> 
+    <description>Alcorn McBride Inc protocol used for device control</description>
     <number>2640</number>
-  </record>
-  <record>
-    <protocol>udp</protocol>
-    <description>Reserved</description>
-    <number>2640</number>
-    <note>This entry is an alias to "sai-sentlm".
-This entry is now historic, not usable for use with many
-common service discovery mechanisms.</note>
+    <xref type="person" data="Joy_Burke"/>
   </record>
   <record>
     <name>hdl-srv</name>
@@ -57592,7 +57592,26 @@ Further keys may be added in the future.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4571-4589</number>
+    <number>4571-4572</number>
+  </record>
+  <record date="2016-05-19">
+    <name>cardifftec-back</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="CardiffTec"/>
+    </assignee>
+    <description>A port for communication between a server and client for a custom backup system</description>
+    <number>4573</number>
+    <xref type="person" data="Benjamin_Misell"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4573</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4574-4589</number>
   </record>
   <record>
     <name>rid</name>
@@ -94226,7 +94245,8 @@ cport= the port for the content HTTP server
       <xref type="person" data="Microsoft_Corporation_5"/>
     </assignee>
     <description>Windows Device Portal</description>
-    <note>Defined TXT keys: http, https, version, SKU, features</note>
+    <note>Defined TXT keys: D (device type), S (https port), A (architecture),
+    T (tags)</note>
     <xref type="person" data="Hirsch_Singhal"/>
   </record>
   <record>
@@ -94995,7 +95015,7 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Alcorn_McBride_Inc">
       <name>Alcorn McBride Inc.</name>
-      <uri>mailto:jeff&amp;alcorn.com</uri>
+      <uri>mailto:support&amp;alcorn.com</uri>
     </person>
     <person id="Alec_Carlson">
       <name>Alec Carlson</name>
@@ -96513,6 +96533,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:benjamin&amp;sunrise-tel.com</uri>
       <updated>2004-11</updated>
     </person>
+    <person id="Benjamin_Misell">
+      <name>Benjamin Misell</name>
+      <uri>mailto:beninjam174&amp;gmail.com</uri>
+      <updated>2016-05-19</updated>
+    </person>
     <person id="Benjamin_Rister">
       <name>Benjamin Rister</name>
       <uri>mailto:support&amp;decimus.net</uri>
@@ -97574,6 +97599,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Caprice Productions</org>
       <uri>mailto:ldrake&amp;caprice.com</uri>
       <updated>2012-07-05</updated>
+    </person>
+    <person id="CardiffTec">
+      <name>CardiffTec</name>
+      <uri>mailto:beninjam174&amp;gmail.com</uri>
+      <updated>2016-05-19</updated>
     </person>
     <person id="Carl_Banzhof">
       <name>Carl Banzhof</name>
@@ -105925,6 +105955,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jost Faganel</name>
       <uri>mailto:jost.faganel&amp;hermes.si</uri>
     </person>
+    <person id="Joy_Burke">
+      <name>Joy Burke</name>
+      <uri>mailto:joy&amp;alcorn.com</uri>
+      <updated>2016-05-19</updated>
+    </person>
     <person id="Josyula_R_Rao">
       <name>Josyula R. Rao</name>
       <uri>mailto:jrrao&amp;watson.ibm.com</uri>
@@ -110958,6 +110993,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Paul Hoffman</name>
       <uri>mailto:paul.hoffman&amp;icann.org</uri>
     </person> 
+    <person id="Paul_Horton">
+      <name>Paul Horton</name>
+      <uri>mailto:paul.horton&amp;dxstro.com</uri>
+      <updated>2016-05-18</updated>
+    </person>
     <person id="Paul_Ignatius">
       <name>Paul Ignatius</name>
       <uri>mailto:paul.ignatius&amp;scentric.com</uri>

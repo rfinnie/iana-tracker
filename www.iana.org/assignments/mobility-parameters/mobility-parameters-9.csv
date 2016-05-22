@@ -5,5 +5,5 @@ Value,Description,Reference
 3,Handoff between mobile access gateways for the same interface,[RFC5213]
 4,Handoff state unknown,[RFC5213]
 5,Handoff state not changed (Re-registration),[RFC5213]
-6,Attachment over a new interface sharing prefixes,[RFC-ietf-netext-pmipv6-flowmob-18]
+6,Attachment over a new interface sharing prefixes,[RFC7864]
 7-255,Unassigned,

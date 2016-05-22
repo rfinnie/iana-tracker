@@ -4,6 +4,6 @@ Value,Description,Reference
 128,FAILED-TO-UPDATE-SESSION-PARAMETERS,[RFC7077]
 129,MISSING-VENDOR-SPECIFIC-OPTION,[RFC7077]
 130,CANNOT_MEET_QOS_SERVICE_REQUEST,[RFC7222]
-131,Reason unspecified.,[RFC-ietf-netext-pmipv6-flowmob-18]
-132,MN not attached.,[RFC-ietf-netext-pmipv6-flowmob-18]
+131,Reason unspecified.,[RFC7864]
+132,MN not attached.,[RFC7864]
 133-255,Unassigned,
