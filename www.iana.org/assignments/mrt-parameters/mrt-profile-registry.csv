@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Default MRT Profile,[RFC-ietf-rtgwg-mrt-frr-architecture-10]
+1-200,Unassigned,
+201-220,Reserved for Experimental Use,[RFC-ietf-rtgwg-mrt-frr-architecture-10]
+221-254,Reserved for Private Use,[RFC-ietf-rtgwg-mrt-frr-architecture-10]
+255,Reserved (for future registry extension),[RFC-ietf-rtgwg-mrt-frr-architecture-10]

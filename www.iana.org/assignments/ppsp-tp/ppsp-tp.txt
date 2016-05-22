@@ -1,0 +1,79 @@
+                                                   Peer-to-Peer Streaming Tracker Protocol (PPSTP)
+
+   Created
+           2016-01-14
+
+   Last Updated
+           2016-05-20
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * PPSTP Version Number Registry
+     * PPSTP Request Type Registry
+     * PPSTP Error Code Registry
+
+PPSTP Version Number Registry
+
+   Registration Procedure(s)
+
+ IETF Review
+
+   Reference
+           [RFC-ietf-ppsp-base-tracker-protocol-11]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   ppsp_tp_version_t   Description                  Reference
+   0                 Reserved        [RFC-ietf-ppsp-base-tracker-protocol-11]
+   1                 PPSTP version 1 [RFC-ietf-ppsp-base-tracker-protocol-11]
+   2-255             Unassigned
+
+PPSTP Request Type Registry
+
+   Registration Procedure(s)
+
+ IETF Review
+
+   Reference
+           [RFC-ietf-ppsp-base-tracker-protocol-11]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   request_type                                        Description                                                        Reference
+                CONNECT Returns information about the successful registration of the peer and/or of each
+   CONNECT      swarm action requested. May additionally return the list of peers corresponding to the     [RFC-ietf-ppsp-base-tracker-protocol-11]
+                action attribute requested.
+   FIND         FIND Returns the list of peers corresponding to the requested scope.                       [RFC-ietf-ppsp-base-tracker-protocol-11]
+   STAT_REPORT  STAT_REPORT Confirms the success of the requested operation.                               [RFC-ietf-ppsp-base-tracker-protocol-11]
+
+PPSTP Error Code Registry
+
+   Registration Procedure(s)
+
+ IETF Review
+
+   Reference
+           [RFC-ietf-ppsp-base-tracker-protocol-11]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   error_code        Description                        Reference
+   00         No Error                   [RFC-ietf-ppsp-base-tracker-protocol-11]
+   01         Bad Request                [RFC-ietf-ppsp-base-tracker-protocol-11]
+   02         Unsupported Version Number [RFC-ietf-ppsp-base-tracker-protocol-11]
+   03         Forbidden Action           [RFC-ietf-ppsp-base-tracker-protocol-11]
+   04         Internal Server Error      [RFC-ietf-ppsp-base-tracker-protocol-11]
+   05         Service Unavailable        [RFC-ietf-ppsp-base-tracker-protocol-11]
+   06         Authentication Required    [RFC-ietf-ppsp-base-tracker-protocol-11]

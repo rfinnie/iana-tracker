@@ -1,0 +1,7 @@
+Type,Description,Reference
+0,String,[RFC-ietf-grow-bmp-17]
+1,sysDescr,[RFC-ietf-grow-bmp-17]
+2,sysName,[RFC-ietf-grow-bmp-17]
+3-65530,Unassigned,
+65531-65534,Experimental,[RFC-ietf-grow-bmp-17]
+65535,Reserved,[RFC-ietf-grow-bmp-17]
