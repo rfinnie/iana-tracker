@@ -26,6 +26,6 @@ reference to the body that is located in
 the same SIP message as the body.",[RFC5621]
 info-package,"The body contains information associated with an 
 Info Package",[RFC6086]
-recording-session,"The body describes either metadata about the recording 
-        session or reason for metadata snapshot request 
-        as determined by the MIME value indicated in the Content-Type.",[RFC-ietf-siprec-protocol-18]
+recording-session,"The body describes either metadata about the RS or the reason
+        for the metadata snapshot request as determined by the MIME
+        value indicated in the Content-Type.",[RFC-ietf-siprec-protocol-18]
