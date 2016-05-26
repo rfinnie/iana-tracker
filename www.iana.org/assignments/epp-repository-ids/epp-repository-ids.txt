@@ -4,7 +4,7 @@
            2004-10-26
 
    Last Updated
-           2016-05-25
+           2016-05-26
 
    Available Formats
            [IMG]
@@ -526,6 +526,7 @@ EPP Repository Identifiers
    BEER, #x0042 #x0045 #x0045 #x0052                                 [NIC_MMX]                    [NIC_MMX]                    2016-05-25
    FASHION, #x0046 #x0041 #x0053 #x0048 #x0049 #x004F #x004E         [NIC_MMX]                    [NIC_MMX]                    2016-05-25
    FIT, #x0046 #x0049 #x0054                                         [NIC_MMX]                    [NIC_MMX]                    2016-05-25
+   NFL, #x004E #x0046 #x004C                                         [NEUSTAR]                    [NEUSTAR]                    2016-05-26
 
                                                                         People
 
@@ -556,7 +557,7 @@ EPP Repository Identifiers
    [NCC_Group]                  NCC Group Domain Services                                    mailto:registry&openregistry.com          2015-09-30
    [NET_UA_Network_Coord]       NET.UA Network Coordination Group                            mailto:hostmaster&net.ua
    [Network_Information]        Network Information Center México                           mailto:dtic&nic.mx
-   [NEUSTAR]                    Neustar, Inc.                                                mailto:registrytechnical1&neustar.biz     2016-05-04
+   [NEUSTAR]                    Neustar, Inc.                                                mailto:registrytechnical1&neustar.biz     2016-05-26
    [NIC_BENTLEY]                Nominet UK                                                   mailto:icann-tech-response&nominet.org.uk 2015-10-09
    [NIC_BBC]                    Nominet UK                                                   mailto:icann-tech-response&nominet.org.uk 2015-10-02
    [NIC_BLOG]                   Nominet UK                                                   mailto:icann-tech-response&nominet.org.uk 2016-02-26
