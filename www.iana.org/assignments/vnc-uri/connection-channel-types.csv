@@ -1,7 +1,7 @@
 Value,Description,Reference
-0,Reserved,[RFC-warden-appsawg-vnc-scheme-10]
-1,Standard TCP,[RFC-warden-appsawg-vnc-scheme-10]
+0,Reserved,[RFC7869]
+1,Standard TCP,[RFC7869]
 2-22,Unassigned,
-23,Secure Tunnel,[RFC-warden-appsawg-vnc-scheme-10]
-24,Integrated SSH,[RFC-warden-appsawg-vnc-scheme-10]
+23,Secure Tunnel,[RFC7869]
+24,Integrated SSH,[RFC7869]
 25-2147483647,Unassigned,

@@ -12560,7 +12560,9 @@ vcs-app,14141,tcp,VCS Application,[Ming_Xu],[Ming_Xu],,,,,,
 vcs-app,14141,udp,VCS Application,[Ming_Xu],[Ming_Xu],,,,,,
 icpp,14142,tcp,IceWall Cert Protocol,[Tsutomu_Fujinami],[Tsutomu_Fujinami],2005-08,,,,,
 icpp,14142,udp,IceWall Cert Protocol,[Tsutomu_Fujinami],[Tsutomu_Fujinami],2005-08,,,,,
-,14143-14144,,Unassigned,,,,,,,,
+icpps,14143,tcp,IceWall Cert Protocol over TLS,[Kenta_Kambara],[Kenta_Kambara],2016-05-24,,,,,
+,14143,udp,Reserved,,,,,,,,
+,14144,,Unassigned,,,,,,,,
 gcm-app,14145,tcp,GCM Application,[Ming_Xu],[Ming_Xu],,,,,,
 gcm-app,14145,udp,GCM Application,[Ming_Xu],[Ming_Xu],,,,,,
 ,14146-14148,,Unassigned,,,,,,,,
@@ -13782,6 +13784,7 @@ airprojector,,,AirProjector,[Yoshinori_Nakayama],[Yoshinori_Nakayama],,,,,,"Defi
   bootprog=<Boot program version>"
 airsharing,,,Air Sharing,[Erik_Rogers][Dave_Howell],[Erik_Rogers][Dave_Howell],,,,,,Defined TXT keys: None
 airsharingpro,,,Air Sharing Pro,[Erik_Rogers][Dave_Howell],[Erik_Rogers][Dave_Howell],,,,,,Defined TXT keys: None
+alazartech-atn,,tcp,Alazar Technologies ATN Communication Protocol,[Alazar_Technologies],[Romain_Deterre],2016-05-26,,,,,Defined TXT keys: None
 aloe-gwp,,tcp,Aloe Gateway Protocol,[Layered_Logic],[Brooks_Bell],2012-01-04,,,,,Defined TXT keys: Version
 aloe-pp,,tcp,Aloe Pairing Protocol,[Layered_Logic],[Brooks_Bell],2012-01-04,,,,,"Defined TXT keys: Version, DeviceName, DeviceModel, DeviceSystem, DeviceSystemVersion, AppName, AppVersion"
 amba-cam,,udp,Ambarella Cameras,[Louis_Sun],[Louis_Sun],,,,,,"Defined TXT keys:   product=<product model name>
