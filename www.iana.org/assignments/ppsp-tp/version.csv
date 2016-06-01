@@ -1,4 +1,4 @@
 ppsp_tp_version_t,Description,Reference
-0,Reserved,[RFC-ietf-ppsp-base-tracker-protocol-11]
-1,PPSTP version 1,[RFC-ietf-ppsp-base-tracker-protocol-11]
+0,Reserved,[RFC7846]
+1,PPSTP version 1,[RFC7846]
 2-255,Unassigned,
