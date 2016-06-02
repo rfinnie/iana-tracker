@@ -14207,6 +14207,8 @@ macminder,,,Mac Minder,[Luma_Code],[Luma_Code],,,,,,Defined TXT keys: None
 maestro,,,Maestro Music Sharing Service,[Luke_Steffen],[Luke_Steffen],,,,,,Defined TXT keys: None
 magicdice,,,Magic Dice Game Protocol,[Mike_Yenco],[Mike_Yenco],,,,,,Defined TXT keys: None
 mandos,,,Mandos Password Server,[Mandos_Maintainers],[Mandos_Maintainers],,,,,,Defined TXT keys: None
+mas,,tcp,Pravala Mobility and Aggregation Service,[Pravala_Networks_ULC],[Severn_Tsui],2016-06-01,,,,,Defined TXT keys: None
+mas,,udp,Pravala Mobility and Aggregation Service,[Pravala_Networks_ULC],[Severn_Tsui],2016-06-01,,,,,Defined TXT keys: None
 matrix,,,MATRIX Remote AV Switching,[Ken_Jibiki],[Ken_Jibiki],,,,,,Defined TXT keys: None
 mavlink,,tcp,MAVLink Micro Air Vehicle Communication Protocol,[Roderick_Mann],[Roderick_Mann],2011-10-20,,,,,Defined TXT keys: 0
 mazepseudo-game,,udp,Peer to peer communication between instances of the Maze Pseudo game.,[Mad_Elf_Software_Inc.],[Kenneth_Suda],2016-02-02,2016-03-30,,,,Defined TXT keys: 1 TXT record key for the RSA public key used by the server instance.
@@ -14584,6 +14586,8 @@ ttp4daemon,,,TechTool Pro 4 Anti-Piracy Service,[Micromat],[Micromat],,,,,,Defin
 tunage,,,Tunage Media Control Service,[Matt_Patenaude],[Matt_Patenaude],,,,,,Defined TXT keys: None
 tuneranger,,,TuneRanger,[Acertant],[Acertant],,,,,,Defined TXT keys: None
 twinlevel,,tcp,detect sanitary product,[Oblamatik_AG],[Simon_Ensslen],2012-09-05,,,,,Defined TXT keys: None
+twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
+twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 tzrpc,,tcp,TZ-Software remote procedure call based synchronization protocol,[Thomas_Zwick],[Thomas_Zwick],2011-10-12,,,,,Defined TXT keys: Proprietary
 ubertragen,,,Ubertragen,[Widgetschmie_de],[Widgetschmie_de],,,,,,Defined TXT keys: None
 uddi,,,"Universal Description, Discovery and Integration",[Paul_Denning],[Paul_Denning],,,,,,Defined TXT keys: TBD

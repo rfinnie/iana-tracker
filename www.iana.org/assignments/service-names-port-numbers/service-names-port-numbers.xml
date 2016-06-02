@@ -91747,6 +91747,26 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Mandos_Maintainers"/>
   </record>
+  <record date="2016-06-01">
+    <name>mas</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Pravala_Networks_ULC"/>
+    </assignee>
+    <description>Pravala Mobility and Aggregation Service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Severn_Tsui"/>
+  </record>
+  <record date="2016-06-01">
+    <name>mas</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Pravala_Networks_ULC"/>
+    </assignee>
+    <description>Pravala Mobility and Aggregation Service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Severn_Tsui"/>
+  </record>
   <record>
     <name>matrix</name>
     <description>MATRIX Remote AV Switching</description>
@@ -94086,6 +94106,26 @@ cport= the port for the content HTTP server
     <description>detect sanitary product</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Simon_Ensslen"/>
+  </record>
+  <record date="2016-06-01">
+    <name>twosnakes</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Narendra_Kumar_Reddy_Thummaluru"/>
+    </assignee>
+    <description>Service to enable multiplayer game called two snakes.</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Narendra_Kumar_Reddy_Thummaluru"/>
+  </record>
+  <record date="2016-06-01">
+    <name>twosnakes</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="Narendra_Kumar_Reddy_Thummaluru"/>
+    </assignee>
+    <description>Service to enable multiplayer game called two snakes.</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Narendra_Kumar_Reddy_Thummaluru"/>
   </record>
   <record date="2011-10-12">
     <name>tzrpc</name>
@@ -109962,6 +110002,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:narayanan.raju&amp;hp.com</uri>
       <updated>2009-02-05</updated>
     </person>
+    <person id="Narendra_Kumar_Reddy_Thummaluru">
+      <name>Narendra Kumar Reddy Thummaluru</name>
+      <uri>mailto:narendrakumar.narribits&amp;gmail.com</uri>
+      <updated>2016-06-01</updated>
+    </person>
     <person id="Nasuni_Corporation">
       <org>Nasuni Corporation</org>
       <uri>mailto:it&amp;nasuni.com</uri>
@@ -111895,6 +111940,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Pratik Wadher</name>
       <uri>mailto:pratik&amp;datadomain.com</uri>
       <updated>2007-05</updated>
+    </person>
+    <person id="Pravala_Networks_ULC">
+      <org>Pravala Networks ULC</org>
+      <uri>mailto:admin&amp;pravala.com</uri>
+      <updated>2016-06-01</updated>
     </person>
     <person id="Predrag_Filipovic">
       <name>Predrag Filipovic</name>
@@ -114296,6 +114346,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>SEVENSTAX GmbH</name>
       <uri>mailto:info&amp;sevenstax.de</uri>
       <updated>2015-11-05</updated>
+    </person>
+    <person id="Severn_Tsui">
+      <name>Severn Tsui</name>
+      <uri>mailto:severn&amp;pravala.com</uri>
+      <updated>2016-06-01</updated>
     </person>
     <person id="Shahriar_Pourazin">
       <name>Shahriar Pourazin</name>

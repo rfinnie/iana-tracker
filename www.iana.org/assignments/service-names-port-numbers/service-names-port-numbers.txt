@@ -17391,6 +17391,10 @@ maestro                               Maestro Music Sharing        [Luke_Steffen
                                       Service
 magicdice                             Magic Dice Game Protocol     [Mike_Yenco]                                          [Mike_Yenco]                                                                                                                                Defined TXT keys: None
 mandos                                Mandos Password Server       [Mandos_Maintainers]                                  [Mandos_Maintainers]                                                                                                                        Defined TXT keys: None
+mas                            tcp    Pravala Mobility and         [Pravala_Networks_ULC]                                [Severn_Tsui]                                             2016-06-01                                                                        Defined TXT keys: None
+                                      Aggregation Service
+mas                            udp    Pravala Mobility and         [Pravala_Networks_ULC]                                [Severn_Tsui]                                             2016-06-01                                                                        Defined TXT keys: None
+                                      Aggregation Service
 matrix                                MATRIX Remote AV Switching   [Ken_Jibiki]                                          [Ken_Jibiki]                                                                                                                                Defined TXT keys: None
 mavlink                        tcp    MAVLink Micro Air Vehicle    [Roderick_Mann]                                       [Roderick_Mann]                                           2011-10-20                                                                        Defined TXT keys: 0
                                       Communication Protocol
@@ -18021,6 +18025,12 @@ ttp4daemon                            TechTool Pro 4 Anti-Piracy   [Micromat]   
 tunage                                Tunage Media Control Service [Matt_Patenaude]                                      [Matt_Patenaude]                                                                                                                            Defined TXT keys: None
 tuneranger                            TuneRanger                   [Acertant]                                            [Acertant]                                                                                                                                  Defined TXT keys: None
 twinlevel                      tcp    detect sanitary product      [Oblamatik_AG]                                        [Simon_Ensslen]                                           2012-09-05                                                                        Defined TXT keys: None
+                                      Service to enable
+twosnakes                      tcp    multiplayer game called two  [Narendra_Kumar_Reddy_Thummaluru]                     [Narendra_Kumar_Reddy_Thummaluru]                         2016-06-01                                                                        Defined TXT keys: None
+                                      snakes.
+                                      Service to enable
+twosnakes                     sctp    multiplayer game called two  [Narendra_Kumar_Reddy_Thummaluru]                     [Narendra_Kumar_Reddy_Thummaluru]                         2016-06-01                                                                        Defined TXT keys: None
+                                      snakes.
                                       TZ-Software remote procedure
 tzrpc                          tcp    call based synchronization   [Thomas_Zwick]                                        [Thomas_Zwick]                                            2011-10-12                                                                        Defined TXT keys: Proprietary
                                       protocol
@@ -21667,6 +21677,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Narain_Jagathesan]                                       Narain Jagathesan                               mailto:narain.jagathesan&oracle.com                           2003-11
 [Narasimha_Rao_N]                                         Narasimha Rao N.                                mailto:nnarasimharao&novell.com
 [Narayanan_Raju]                                          Narayanan Raju                                  mailto:narayanan.raju&hp.com                                  2009-02-05
+[Narendra_Kumar_Reddy_Thummaluru]                         Narendra Kumar Reddy                            mailto:narendrakumar.narribits&gmail.com                      2016-06-01
+                                                          Thummaluru
 [Nasuni_Corporation]                                                                Nasuni Corporation    mailto:it&nasuni.com                                          2016-01-22
 [Natarajan_Balasundar]                                    Natarajan Balasundara                           mailto:rajan&ipanoramii.com
 [Nate_Rivard]                                             Nate Rivard                                     mailto:nrivard&cc.gatech.edu
@@ -22115,6 +22127,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Prateek_Sharma]                                          Prateek Sharma                                  mailto:pratshar&microsoft.com                                 2011-08-04
 [Prathibha_Nagvar]                                        Prathibha Nagvar
 [Pratik_Wadher]                                           Pratik Wadher                                   mailto:pratik&datadomain.com                                  2007-05
+[Pravala_Networks_ULC]                                                              Pravala Networks ULC  mailto:admin&pravala.com                                      2016-06-01
 [Predrag_Filipovic]                                       Predrag Filipovic                               mailto:pfilipovic&digital5.com                                2002-11
 [Prem_Tirilok]                                            Prem Tirilok                                    mailto:Prem.Tirilok&tellabs.com
 [PreSonus_Audio_Electronics_Inc]                                                    PreSonus Audio        mailto:mjuwan&presonus.com                                    2013-07-12
@@ -22668,6 +22681,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Service_Desk_Product]                                    Service Desk Product                            mailto:info&hp.com                                            2006-05
                                                           Manager
 [SEVENSTAX_GmbH]                                          SEVENSTAX GmbH                                  mailto:info&sevenstax.de                                      2015-11-05
+[Severn_Tsui]                                             Severn Tsui                                     mailto:severn&pravala.com                                     2016-06-01
 [Shahriar_Pourazin]                                       Shahriar Pourazin                               mailto:pourazin&sepehrs.com                                   2008-12-02
 [Shai_Herzog]                                             Shai Herzog                                     mailto:herzog&iphighway.com
 [Shailesh_S_Bavadeka]                                     Shailesh S. Bavadekar                           mailto:shailesh.bavadekar&sun.com                             2002-04
