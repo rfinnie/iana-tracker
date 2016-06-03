@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-06-01
+           2016-06-02
 
    Expert(s)
 
@@ -16126,7 +16126,10 @@ iracinghelper      32034       udp    iRacing helper service       [Randy_Cassid
                 32035-32248           Unassigned
 t1distproc60       32249       tcp    T1 Distributed Processor     [Peter_Beahan]                                        [Peter_Beahan]                                            2004-11
 t1distproc60       32249       udp    T1 Distributed Processor     [Peter_Beahan]                                        [Peter_Beahan]                                            2004-11
-                32250-32482           Unassigned
+                32250-32399           Unassigned
+plex               32400       tcp    Plex multimedia              [Plex_Inc.]                                           [Sasha_Hilton]                                            2016-06-02
+                   32400       udp    Reserved
+                32401-32482           Unassigned
 apm-link           32483       tcp    Access Point Manager Link    [Tony_Diodato]                                        [Tony_Diodato]                                            2005-08
 apm-link           32483       udp    Access Point Manager Link    [Tony_Diodato]                                        [Tony_Diodato]                                            2005-08
                 32484-32634           Unassigned
@@ -22114,6 +22117,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Pisharath_Krishnan]                                      Pisharath Krishnan                              mailto:krishnan&axis-inc.com
 [Pit_Vetterick]                                           Pit Vetterick                                   mailto:pit&3dgo.com                                           2002-05
 [PLASA]                                                                             PLASA                 mailto:standards.na&plasa.org                                 2012-06-01
+[Plex_Inc.]                                               Plex Inc.                                       mailto:sashahilton00&gmail.com                                2016-06-02
 [Portnoy_Boxman]                                          Portnoy Boxman                                  mailto:portnoy_boxman&bmc.com                                 2005-01
 [Portnoy_Boxman_2]                                        Portnoy Boxman                                  mailto:Portnoy_Boxman&bmc.com                                 2006-09
 [PowerSysLab]                                                                       PowerSysLab           mailto:info&powersyslab.com                                   2015-07-20
@@ -22606,6 +22610,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sarah_Thompson]                                          Sarah Thompson                                  mailto:sarah&telergy.com
 [Sarene_Caiazza]                                          Sarene Caiazza                                  mailto:scaiazza&proquesys.com                                 2010-04-27
 [Sascha_Kuemmel]                                          Sascha Kuemmel                                  mailto:kuemmel&vidsoft.de
+[Sasha_Hilton]                                            Sasha Hilton                                    mailto:sashahilton00&gmail.com                                2016-06-02
 [Satoshi_Matsumoto]                                       Satoshi Matsumoto                               mailto:satoshi&artman21.co.jp
 [Saugata_Guha]                                            Saugata Guha                                    mailto:sguha&veritas.com                                      2004-05
 [ScaleFT_Inc]                                             ScaleFT, Inc                                    mailto:notices&scaleft.com                                    2016-04-07
