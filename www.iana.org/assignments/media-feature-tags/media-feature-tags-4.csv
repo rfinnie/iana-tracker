@@ -133,6 +133,6 @@ feature tag when used in a Contact header field of a SIP request
 or a SIP response indicates that the entity sending the SIP
 message supports the package ""uui-isdn"".",[RFC7434]
 27,sip.src,"This feature tag indicates that the UA is a Session 
-Recording Client for the purpose of an RS.",[RFC-ietf-siprec-protocol-18]
+Recording Client for the purpose of an RS.",[RFC7866]
 28,sip.srs,"This feature tag indicates that the UA is a Session Recording 
-Server for the purpose of an RS.",[RFC-ietf-siprec-protocol-18]
+Server for the purpose of an RS.",[RFC7866]
