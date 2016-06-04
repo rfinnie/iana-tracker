@@ -152,7 +152,7 @@ recipient-list-subscribe,"This option tag is used to ensure
 record-aware,"This option tag is to indicate the ability of the UA to
 receive recording indicators in media-level or session-level SDP.
 When present in a Supported header, it indicates that the UA can
-receive recording indicators in media-level or session-level SDP.",[RFC-ietf-siprec-protocol-18]
+receive recording indicators in media-level or session-level SDP.",[RFC7866]
 replaces,"This option tag indicates support for the   
 SIP Replaces header.",[RFC3891]
 resource-priority,"Indicates or requests support for the    
@@ -178,7 +178,7 @@ siprec,"This option tag is for identifying that the SIP
 session is for the purpose of an RS.  This is
 typically not used in a Supported header.  When present in a
 Require header in a request, it indicates that the UA is either an
-SRC or SRS capable of handling a recording session.",[RFC-ietf-siprec-protocol-18]
+SRC or SRS capable of handling a recording session.",[RFC7866]
 tdialog,"This option tag is used to identify the target
 dialog header field extension.  When used in
 a Require header field, it implies that the
