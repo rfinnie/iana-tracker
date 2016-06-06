@@ -20,7 +20,7 @@ RCODE,Name,Description,Reference
 20,BADNAME,Duplicate key name,[RFC2930]
 21,BADALG,Algorithm not supported,[RFC2930]
 22,BADTRUNC,Bad Truncation,[RFC4635]
-23,BADCOOKIE,Bad/missing Server Cookie,[RFC-ietf-dnsop-cookies-10]
+23,BADCOOKIE,Bad/missing Server Cookie,[RFC7873]
 24-3840,Unassigned,,
 3841-4095,Reserved for Private Use,,[RFC6895]
 4096-65534,Unassigned,,

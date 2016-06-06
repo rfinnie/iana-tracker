@@ -1,7 +1,7 @@
 Value,Description,Reference
-0,Reserved,[RFC-warden-appsawg-vnc-scheme-10]
-1,MD5,[RFC-warden-appsawg-vnc-scheme-10]
-2,SHA1,[RFC-warden-appsawg-vnc-scheme-10]
+0,Reserved,[RFC7869]
+1,MD5,[RFC7869]
+2,SHA1,[RFC7869]
 3,Unassigned,
-4,SHA256,[RFC-warden-appsawg-vnc-scheme-10]
+4,SHA256,[RFC7869]
 5-2147483647,Unassigned,

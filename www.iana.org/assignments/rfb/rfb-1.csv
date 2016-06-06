@@ -10,8 +10,8 @@ Value,Name,Reference
 20,GTK-VNC SASL,historic assignment
 21,MD5 hash authentication,historic assignment
 22,Colin Dean xvp,historic assignment
-23,Secure Tunnel,[RFC-warden-appsawg-vnc-scheme-10]
-24,Integrated SSH,[RFC-warden-appsawg-vnc-scheme-10]
+23,Secure Tunnel,[RFC7869]
+24,Integrated SSH,[RFC7869]
 25-29,Unassigned,
 30-35,Apple Inc.,[Michael_Stein]
 36-127,Unassigned,
