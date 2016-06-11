@@ -1,9 +1,9 @@
 Type,Description,Reference
-0,Administratively closed,[RFC-ietf-grow-bmp-17]
-1,Unspecified reason,[RFC-ietf-grow-bmp-17]
-2,Out of resources,[RFC-ietf-grow-bmp-17]
-3,Redundant connection,[RFC-ietf-grow-bmp-17]
-4,Permanently administratively closed,[RFC-ietf-grow-bmp-17]
+0,Administratively closed,[RFC7854]
+1,Unspecified reason,[RFC7854]
+2,Out of resources,[RFC7854]
+3,Redundant connection,[RFC7854]
+4,Permanently administratively closed,[RFC7854]
 5-65530,Unassigned,
-65531-65534,Experimental,[RFC-ietf-grow-bmp-17]
-65535,Reserved,[RFC-ietf-grow-bmp-17]
+65531-65534,Experimental,[RFC7854]
+65535,Reserved,[RFC7854]
