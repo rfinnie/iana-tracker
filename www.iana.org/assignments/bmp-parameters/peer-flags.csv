@@ -1,5 +1,5 @@
 Flag,Description,Reference
-0,V flag,[RFC-ietf-grow-bmp-17]
-1,L flag,[RFC-ietf-grow-bmp-17]
-2,A flag,[RFC-ietf-grow-bmp-17]
+0,V flag,[RFC7854]
+1,L flag,[RFC7854]
+2,A flag,[RFC7854]
 3-7,Unassigned,
