@@ -1,6 +1,6 @@
 Type,Description,Reference
-0,BGP Message,[RFC-ietf-grow-bmp-17]
-1,Information,[RFC-ietf-grow-bmp-17]
+0,BGP Message,[RFC7854]
+1,Information,[RFC7854]
 2-65530,Unassigned,
-65531-65534,Experimental,[RFC-ietf-grow-bmp-17]
-65535,Reserved,[RFC-ietf-grow-bmp-17]
+65531-65534,Experimental,[RFC7854]
+65535,Reserved,[RFC7854]
