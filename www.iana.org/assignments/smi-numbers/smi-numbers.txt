@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2016-05-27
+           2016-06-10
 
    Note
 
@@ -469,7 +469,7 @@ SMI Network Management MGMT Codes
      210   g9983MIB                    G9983-MIB                               [RFC6766]
      211   gBondMIB                    GBOND-MIB                               [RFC6765]
      212   psampMIB                    PSAMP-MIB                               [RFC6727]
-     213   nhdpMIB                     NHDP-MIB                                [RFC6779]
+     213   nhdpMIB                     NHDP-MIB                                [RFC-ietf-manet-rfc6779bis-07]
      214   rbridgeMIB                  RBRIDGE-MIB                             [RFC6850]
      215   ianaGBondTcMIB              IANA-GBOND-TC-MIB                       [RFC6765]
      216   ianaEntityMIB               IANA-ENTITY-MIB                         [RFC6933]
@@ -496,7 +496,7 @@ SMI Network Management MGMT Codes
      237   ianaStorageMediaTypeMIB     IANA-STORAGE-MEDIA-TYPE-MIB             [RFC7666]
      238   trillOamMIB                 TRILL-OAM-MIB                           [RFC7784]
      239   swmMIB                      SOFTWIRE-MESH-MIB                       [RFC7856]
-     240   dsLiteMIB                   DSLite-MIB                              [RFC-ietf-softwire-dslite-mib-15]
+     240   dsliteMIB                   DSLite-MIB                              [RFC-ietf-softwire-dslite-mib-15]
 
   Prefix: iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType
 
@@ -875,6 +875,7 @@ Decimal             Name                           Description                  
   279   gfast                         G.fast port                           [ITU-T G.9701]
   280   sdci                          SDCI (IO-Link)                        [IEC 61131-9 Edition 1.0 2013-09][Markus_Rentschler]
   281   xboxWireless                  Xbox wireless                         [Brandon_Jiang]
+  282   fastdsl                       FastDSL                               [BBF TR-355][William_Lupton]
 
   Internet-standard MIB - mib-2.interface.ifTable.ifEntry.ifType.tunnelType
 
@@ -941,7 +942,7 @@ Decimal             Name                           Description                  
      15    ipHttps      IPHTTPS              [Sean_Siler][http://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation,
                                              "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification"]
      16    softwireMesh softwire mesh tunnel [RFC7856]
-     17    dsLite       dslite tunnel        [RFC-ietf-softwire-dslite-mib-15]
+     17    dsLite       DS-Lite tunnel       [RFC-ietf-softwire-dslite-mib-15]
 
 Internet-standard MIB - Transmission Group
 
@@ -1040,7 +1041,7 @@ Internet-standard MIB - Transmission Group
      274   VPLS-GENERIC-MIB VPLS-GENERIC-MIB                      [RFC7257]
      275   VPLS-LDP-MIB     VPLS-LDP-MIB                          [RFC7257]
      276   VPLS-BGP-MIB MIB VPLS-BGP-MIB                          [RFC7257]
-   277-281 Reserved         Reserved
+   277-282 Reserved         Reserved
 
   MIB Transmission Group - Point-to-Point Protocol
 
@@ -1909,7 +1910,7 @@ SMI Security Codes
            [IMG]
            CSV
 
-   Decimal            Description                         References
+   Decimal            Description                   References
       1    id-aa-receiptRequest               [RFC2634]
       2    id-aa-securityLabel                [RFC2634]
       3    id-aa-mlExpandHistory              [RFC2634]
@@ -1965,9 +1966,9 @@ SMI Security Codes
      53    id-aa-setKeyInformation            [draft-herzog-setkey]
      54    id-aa-asymmDecryptKeyID            [RFC7030]
      55    id-aa-secureHeaderFieldsIdentifier [RFC7508]
-     56    id-aa-otpChallenge                 [RFC-wallace-est-alt-challenge-08]
-     57    id-aa-revocationChallenge          [RFC-wallace-est-alt-challenge-08]
-     58    id-aa-estIdentityLinking           [RFC-wallace-est-alt-challenge-08]
+     56    id-aa-otpChallenge                 [RFC7894]
+     57    id-aa-revocationChallenge          [RFC7894]
+     58    id-aa-estIdentityLinking           [RFC7894]
 
   SMI Security for S/MIME Algorithms (1.2.840.113549.1.9.16.3)
 
@@ -2451,7 +2452,7 @@ SMI Security Codes
      84    id-mod-bgpsec-eku              [draft-ietf-sidr-bgpsec-pki-profiles]
      85    id-mod-nai-realm-08            [RFC7585]
      86    id-mod-tls-feature-2015        [RFC7633]
-     87    id-mod-EST-Alt-Challenge       [RFC-wallace-est-alt-challenge-08]
+     87    id-mod-EST-Alt-Challenge       [RFC7894]
 
   SMI Security for PKIX Certificate Extension
 
@@ -4683,6 +4684,7 @@ SMI Features
    [Tracy_Cox]            Tracy Cox
    [Trevor_Warwick]       Trevor Warwick                      mailto:twarwick&madge.com                         1996-02
    [Vinod_B_C]            Vinod B.C.                          mailto:vinodbc&cisco.com                          2000-03
+   [William_Lupton]       William Lupton                      mailto:wlupton&broadband-forum.org                2016-06-09
    [Xiaohua_Ma]           Xiaohua Ma                          mailto:xiaohua.a.ma&alcatel-sbell.com.cn          2008-08-12
    [Yuzo_Watanabe]        Yuzo Watanabe                       mailto:ywatanabe&zhone.com                        2001-12
    [Zvika_Zilberman]      Zvika Zilberman                     mailto:Zvika&ensemble.co.il                       2000-09
