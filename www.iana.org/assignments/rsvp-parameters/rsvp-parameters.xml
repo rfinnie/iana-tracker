@@ -1339,19 +1339,19 @@ Specification", PKT-SP-DQOS-O01-991201, date unknown.</xref>
         <record date="2016-01-04">
           <value>5</value>
           <description>4-byte AS number</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record date="2016-01-04">
           <value>6</value>
           <description>OSPF Area ID</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record date="2016-01-04">
           <value>7</value>
           <description>IS-IS Area ID</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record>
@@ -2428,19 +2428,19 @@ length defined by the vendor</description>
         <record date="2016-01-04">
           <value>5</value>
           <description>4-byte AS number</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record date="2016-01-04">
           <value>6</value>
           <description>OSPF Area ID</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record date="2016-01-04">
           <value>7</value>
           <description>IS-IS Area ID</description>
-          <xref type="draft" data="RFC-ietf-teas-rsvp-te-domain-subobjects-05"/>
+          <xref type="rfc" data="rfc7898"/>
           <xref type="rfc" data="rfc7897"/>
         </record>
         <record>
