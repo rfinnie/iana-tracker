@@ -3,9 +3,9 @@ Value,Description,Reference
 2,IPv6 prefix,[RFC3209]
 3,Label,[RFC3473]
 4,Unnumbered Interface ID,[RFC3477]
-5,4-byte AS number,[RFC-ietf-teas-rsvp-te-domain-subobjects-05][RFC-ietf-pce-pcep-domain-sequence-12]
-6,OSPF Area ID,[RFC-ietf-teas-rsvp-te-domain-subobjects-05][RFC-ietf-pce-pcep-domain-sequence-12]
-7,IS-IS Area ID,[RFC-ietf-teas-rsvp-te-domain-subobjects-05][RFC-ietf-pce-pcep-domain-sequence-12]
+5,4-byte AS number,[RFC7898][RFC7897]
+6,OSPF Area ID,[RFC7898][RFC7897]
+7,IS-IS Area ID,[RFC7898][RFC7897]
 8-31,Unassigned (For explicit resource identification),
 32,Autonomous system number,[RFC3209]
 33,Explicit Exclusion Route subobject (EXRS),[RFC4874]
