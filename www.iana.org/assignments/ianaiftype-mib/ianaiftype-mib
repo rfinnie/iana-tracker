@@ -629,7 +629,7 @@
                    docsOfdmaUpstream (278), -- CATV Upstream OFDMA interface
                    gfast (279), -- G.fast port
                    sdci (280), -- SDCI (IO-Link)
-                   xboxWireless, (281) -- Xbox wireless
+                   xboxWireless (281), -- Xbox wireless
                    fastdsl (282) -- FastDSL
                    }
 
