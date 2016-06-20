@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-06-06
+           2016-06-19
 
    Expert(s)
 
@@ -16004,7 +16004,12 @@ voxelstorm         28200       udp    VoxelStorm game server       [VoxelStorm] 
                 28201-28239           Unassigned
 siemensgsm         28240       tcp    Siemens GSM                  [David_Anuszewski]                                    [David_Anuszewski]                                        2004-11
 siemensgsm         28240       udp    Siemens GSM                  [David_Anuszewski]                                    [David_Anuszewski]                                        2004-11
-                28241-29117           Unassigned
+                28241-28588           Unassigned
+                                      Building operating system
+bosswave           28589       tcp    services wide area verified  [University_of_California_Berkeley]                   [Michael_Andersen]                                        2016-06-13
+                                      exchange
+                   28589       udp    Reserved
+                28590-29117           Unassigned
                    29118       tcp    Reserved
                    29118       udp    Reserved
 sgsap              29118      sctp    SGsAP in 3GPP                [GPP_Specifications]                                  [GPP_Specifications]                                      2009-06-11
@@ -17057,6 +17062,7 @@ eyetvsn                               EyeTV Sharing                [Elgato]     
 facespan                              FaceSpan                     [Kerry_Hazelgren]                                     [Kerry_Hazelgren]                                                                                                                           Defined TXT keys: None
 faxstfx                               FAXstf                       [Smith_Micro]                                         [Smith_Micro]                                                                                                                               Defined TXT keys: None
 feed-sharing                          NetNewsWire 2.0              [Ranchero_Software]                                   [Ranchero_Software]                                                                                                                         Defined TXT keys: None
+feldwesen                      tcp    proprietary                  [Kiel_University_of_Applied_Sciences]                 [Matthias-Christian_Ott]                                  2016-06-19                                                                        Defined TXT keys: None
 firetask                              Firetask task sharing and    [Gerald_Aquila]                                       [Gerald_Aquila]                                                                                                                             Defined TXT keys: None
                                       synchronization protocol
 fish                                  Fish                         [Oriol_Ferrer_Mesia]                                  [Oriol_Ferrer_Mesia]                                                                                                                        Defined TXT keys: None
@@ -20941,6 +20947,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [KeyTicket_Solutions]                                                               KeyTicket Solutions   mailto:amang&keyticket.eu                                     2014-04-04
 [Khelben_Blackstaff]                                      Khelben Blackstaff                              mailto:khelben&gmx.at
 [Khiem_Tran]                                              Khiem Tran                                      mailto:Khiem.Tran&andrew.com                                  2007-11-06
+[Kiel_University_of_Applied_Sciences]                                               Kiel University of    mailto:info&fh-kiel.de                                        2016-06-19
+                                                                                    Applied Sciences
 [Kim_Alan_Waggoner]                                       Kim Alan Waggoner                               mailto:kimw&weatherbank.com                                   2006-11
 [Kim_Berthelsen]                                          Kim Berthelsen            JVL Industri          mailto:kb&jvl.dk                                              2012-12-21
                                                                                     Elektronik
@@ -21395,6 +21403,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Matthew_Whited]                                          Matthew Whited                                  mailto:matt&thedotnetfactory.com                              2008-01-16
 [Matthew_Williams]                                        Matthew Williams                                mailto:SPCsd_MWDD&hotmail.com
 [Matthias_Burghardt]                                      Matthias Burghardt                              mailto:m.burghardt&x-on.de
+[Matthias-Christian_Ott]                                  Matthias-Christian Ott                          mailto:matthias-christian.ott&fh-kiel.de                      2016-06-19
 [Matthias_Juwan]                                          Matthias Juwan            PreSonus Audio        mailto:mjuwan&presonus.com                                    2013-07-12
                                                                                     Electronics, Inc
 [Matthias_Merkel]                                         Matthias Merkel                                 mailto:moritz30&moritz30.de                                   2015-12-07
@@ -21439,6 +21448,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Micha_Ben_Efraim_4]                                      Micha Ben-Efraim                                mailto:micha&metalix.net                                      2012-11-27
 [Michael_Agishtein]                                       Michael Agishtein                               mailto:misha&unx.dec.com
 [Michael_Alyn_Miller]                                     Michael Alyn Miller                             mailto:iana&aeolon.com
+[Michael_Andersen]                                        Michael Andersen                                mailto:michael&steelcode.com                                  2016-06-13
 [Michael_Andre]                                           Michael Andre                                   mailto:mandre&gts-tkts.com
 [Michael_Andre_2]                                         Michael Andre                                   mailto:mandre&gatewayticketing.com                            2007-10-04
 [Michael_Battilana]                                       Michael Battilana                               mailto:mcb-iana&cloanto.net                                   2010-04-30
@@ -23318,6 +23328,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                     The University
 [University_Corporation_for_Atmospheric_Research2]                                  Corporation for       mailto:support-ldm&unidata.ucar.edu                           2012-05-18
                                                                                     Atmospheric Research
+[University_of_California_Berkeley]                       University of California,                       mailto:m.andersen&cs.berkeley.edu                             2016-06-13
+                                                          Berkeley
 [UofK]                                                                              University of         mailto:cody&uky.edu                                           2014-11-21
                                                                                     Kentucky
 [UpdateLogic_Inc]                                                                   UpdateLogic, Inc.     mailto:it&updatelogic.com                                     2014-10-27

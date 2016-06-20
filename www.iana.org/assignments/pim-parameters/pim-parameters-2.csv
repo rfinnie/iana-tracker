@@ -3,5 +3,5 @@ Value,Name,Reference
 1,MVPN Join Attribute,[RFC6513]
 2,MT-ID Join Attribute,[RFC6420]
 3,Pop-Count,[RFC6807]
-4,Explicit RPF Vector,[RFC-ietf-pim-explicit-rpf-vector-09]
+4,Explicit RPF Vector,[RFC7891]
 5-63,Unassigned,

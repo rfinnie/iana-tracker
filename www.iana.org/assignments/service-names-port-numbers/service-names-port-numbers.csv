@@ -13185,7 +13185,10 @@ voxelstorm,28200,udp,VoxelStorm game server,[VoxelStorm],[Eugene_Hopkinson],2012
 ,28201-28239,,Unassigned,,,,,,,,
 siemensgsm,28240,tcp,Siemens GSM,[David_Anuszewski],[David_Anuszewski],2004-11,,,,,
 siemensgsm,28240,udp,Siemens GSM,[David_Anuszewski],[David_Anuszewski],2004-11,,,,,
-,28241-29117,,Unassigned,,,,,,,,
+,28241-28588,,Unassigned,,,,,,,,
+bosswave,28589,tcp,Building operating system services wide area verified exchange,[University_of_California_Berkeley],[Michael_Andersen],2016-06-13,,,,,
+,28589,udp,Reserved,,,,,,,,
+,28590-29117,,Unassigned,,,,,,,,
 ,29118,tcp,Reserved,,,,,,,,
 ,29118,udp,Reserved,,,,,,,,
 sgsap,29118,sctp,SGsAP in 3GPP,[GPP_Specifications],[GPP_Specifications],2009-06-11,,,,,
@@ -13978,6 +13981,7 @@ eyetvsn,,,EyeTV Sharing,[Elgato],[Elgato],,,,,,"Defined TXT keys: txtvers=1, key
 facespan,,,FaceSpan,[Kerry_Hazelgren],[Kerry_Hazelgren],,,,,,Defined TXT keys: None
 faxstfx,,,FAXstf,[Smith_Micro],[Smith_Micro],,,,,,Defined TXT keys: None
 feed-sharing,,,NetNewsWire 2.0,[Ranchero_Software],[Ranchero_Software],,,,,,Defined TXT keys: None
+feldwesen,,tcp,proprietary,[Kiel_University_of_Applied_Sciences],[Matthias-Christian_Ott],2016-06-19,,,,,Defined TXT keys: None
 firetask,,,Firetask task sharing and synchronization protocol,[Gerald_Aquila],[Gerald_Aquila],,,,,,Defined TXT keys: None
 fish,,,Fish,[Oriol_Ferrer_Mesia],[Oriol_Ferrer_Mesia],,,,,,Defined TXT keys: None
 fix,,,Financial Information Exchange (FIX) Protocol,[Joakim_Johansson],[Joakim_Johansson],,,,,,"Defined TXT keys:   Currently valid enumerated values:
