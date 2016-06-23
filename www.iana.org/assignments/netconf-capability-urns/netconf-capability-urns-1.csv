@@ -16,3 +16,4 @@ Capability,Capability Identifier,Reference
 :base:1.0,urn:ietf:params:netconf:base:1.0,[RFC4741][RFC6241]
 :base:1.1,urn:ietf:params:netconf:base:1.1,[RFC6241]
 :time:1.0,urn:ietf:params:netconf:capability:time:1.0,[RFC7758]
+:yang-library,urn:ietf:params:netconf:capability:yang-library:1.0,[RFC-ietf-netmod-rfc6020bis-14]
