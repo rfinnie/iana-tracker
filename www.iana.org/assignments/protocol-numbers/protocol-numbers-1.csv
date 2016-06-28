@@ -127,7 +127,7 @@ University of California at Berkeley, June 1986.][Bruce Willins]"
 100,GMTP,GMTP,,[[RXB5]]
 101,IFMP,Ipsilon Flow Management Protocol,,"[Bob_Hinden][November 1995, 1997.]"
 102,PNNI,PNNI over IP,,[Ross_Callon]
-103,PIM,Protocol Independent Multicast,,[RFC-ietf-pim-rfc4601bis-06][Dino_Farinacci]
+103,PIM,Protocol Independent Multicast,,[RFC7761][Dino_Farinacci]
 104,ARIS,ARIS,,[Nancy_Feldman]
 105,SCPS,SCPS,,[Robert_Durst]
 106,QNX,QNX,,[Michael_Hunter]

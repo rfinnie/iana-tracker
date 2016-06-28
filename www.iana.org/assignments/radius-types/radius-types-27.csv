@@ -4,8 +4,7 @@ Decimal,Message,Reference
 3,Access-Reject,[RFC2865]
 4,Accounting-Request,[RFC2865]
 5,Accounting-Response,[RFC2865]
-6,"Accounting-Status                        
-(now Interim Accounting)",[RFC3575]
+6,Accounting-Status (now Interim Accounting),[RFC3575]
 7,Password-Request,[RFC3575]
 8,Password-Ack,[RFC3575]
 9,Password-Reject,[RFC3575]
@@ -37,7 +36,8 @@ Decimal,Message,Reference
 46-49,Unassigned,
 50,IP-Address-Allocate,[RFC3575]
 51,IP-Address-Release,[RFC3575]
-52-249,Unassigned,
+52,Protocol-Error,[RFC-ietf-radext-bigger-packets-07]
+53-249,Unassigned,
 250-253,Experimental Use,[RFC3575]
 254,Reserved,[RFC3575]
 255,Reserved,[RFC3575]
