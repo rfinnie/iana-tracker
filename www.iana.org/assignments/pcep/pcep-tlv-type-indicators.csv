@@ -8,7 +8,7 @@ Value,Description,Reference
 6,P2MP capable,[RFC6006]
 7,VENDOR-INFORMATION-TLV,[RFC7470]
 8-25,Unassigned,
-26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
+26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
-28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-lsp-setup-type]
+28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 29-65535,Unassigned,
