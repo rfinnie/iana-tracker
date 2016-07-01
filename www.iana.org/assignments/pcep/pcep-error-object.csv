@@ -42,16 +42,16 @@ Error-Type,Meaning,Error-value,Reference
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
 10,Reception of an invalid object,0: Unassigned,[RFC5440]
 ,,1: reception of an object with P flag not set although the P-flag must be set according to this specification.,[RFC5440]
-,,"2: Bad label value (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"3: Unsupported number of Segment ERO subobjects (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"4: Bad label format (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
+,,"2: Bad label value (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"3: Unsupported number of Segment ERO subobjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"4: Bad label format (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,8: Unassigned,
-,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
-,,"11: Malformed object (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
+,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,12-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -81,8 +81,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,1: Fragmented request failure,[RFC6006]
 ,,2-255: Unassigned,
 19-20,Unassigned,0-255: Unassigned,
-21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
-,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-lsp-setup-type]
-,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-lsp-setup-type]
+21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
+,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
+,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,3-255: Unassigned,
 22-255,Unassigned,0-255: Unassigned,
