@@ -1,11 +1,8 @@
 Media Type,Organization,Contact
 application/dicom+json,DICOM Standards Committee,[David_Clunie][James_F_Philbin]
-application/dicom+rle,DICOM Standards Committee,[David_Clunie]
 application/dicom+xml,DICOM Standards Committee,[David_Clunie][James_F_Philbin]
-image/jls,DICOM Standards Committee,[David_Clunie]
 application/passport,IETF,[draft-ietf-stir-passport]
 image/jxr,ISO/IEC JTC 1,[Gary_J._Sullivan][Touradj_Ebrahimi]
-model/gltf+json,The Khronos Group,[Uli_Klumpp]
 application/akn+xml,OASIS,[Robin_Cover]
 application/xliff+xml,OASIS,[Robin_Cover]
 text/nfo,Seantek,[Sean_Leonard]
