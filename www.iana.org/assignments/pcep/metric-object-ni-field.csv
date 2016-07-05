@@ -10,5 +10,5 @@ Value,Description,Reference
 8,P2MP IGP metric,[RFC6006]
 9,P2MP TE metric,[RFC6006]
 10,P2MP hop count metric,[RFC6006]
-11,"Segment-ID (SID) Depth. (TEMPORARY - registered 2015-08-14, expires 2016-08-14)",[draft-ietf-pce-segment-routing]
+11,"Segment-ID (SID) Depth. (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 12-255,Unassigned,

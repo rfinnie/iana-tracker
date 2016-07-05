@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-06-22
+           2016-06-28
 
    Expert(s)
 
@@ -10209,7 +10209,9 @@ scaleft            4421        tcp    Management for Cloud         [ScaleFT_Inc]
 tsepisp            4422        tcp    TSEP Installation Service    [Technical_Software_Engineering_Plazotta]             [Peter_Plazotta]                                          2016-06-22
                                       Protocol
                    4422        udp    Reserved
-                 4423-4424            Unassigned
+thingkit           4423        tcp    thingkit secure mesh         [thingkit_inc.]                                       [Chris_Bell]                                              2016-06-27
+                   4423        udp    Reserved
+                   4424               Unassigned
 netrockey6         4425        tcp    NetROCKEY6 SMART Plus        [Feitian_Technologies]                                [Feitian_Technologies]                                    2010-09-15
                                       Service
 netrockey6         4425        udp    NetROCKEY6 SMART Plus        [Feitian_Technologies]                                [Feitian_Technologies]                                    2010-09-15
@@ -14172,10 +14174,10 @@ sunwebadmins       8989        tcp    Sun Web Server SSL Admin     [Jyri_J_Virkk
                                       Service
 sunwebadmins       8989        udp    Sun Web Server SSL Admin     [Jyri_J_Virkki]                                       [Jyri_J_Virkki]                                           2005-12
                                       Service
-http-wmap          8990        tcp    webmail HTTP service         [Fred_Batty]                                          [Fred_Batty]                                              2007-12-03
-http-wmap          8990        udp    webmail HTTP service         [Fred_Batty]                                          [Fred_Batty]                                              2007-12-03
-https-wmap         8991        tcp    webmail HTTPS service        [Fred_Batty]                                          [Fred_Batty]                                              2007-12-03
-https-wmap         8991        udp    webmail HTTPS service        [Fred_Batty]                                          [Fred_Batty]                                              2007-12-03
+http-wmap          8990        tcp    webmail HTTP service         [Chris_Newman]                                        [Chris_Newman]                                            2007-12-03
+http-wmap          8990        udp    webmail HTTP service         [Chris_Newman]                                        [Chris_Newman]                                            2007-12-03
+https-wmap         8991        tcp    webmail HTTPS service        [Chris_Newman]                                        [Chris_Newman]                                            2007-12-03
+https-wmap         8991        udp    webmail HTTPS service        [Chris_Newman]                                        [Chris_Newman]                                            2007-12-03
                  8992-8996            Unassigned
 oracle-ms-ens      8997        tcp    Oracle Messaging Server      [Oracle_6]                                            [Hubert_Vijay_Arokiasamy]                                 2014-10-28
                                       Event Notification Service
@@ -18939,6 +18941,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Chris_Adamson]                                           Chris Adamson                                   mailto:invalidname&gmail.com
 [Chris_Adkins]                                            Chris Adkins                                    mailto:cadkins&filenet.com                                    2006-10
 [Chris_Anderson]                                          Chris Anderson            Daegis, Inc.          mailto:ianaportmaster&daegis.com                              2012-07-31
+[Chris_Bell]                                              Chris Bell                                      mailto:cb&thingkit.co                                         2016-06-27
 [Chris_Bertin]                                            Chris Bertin                                    mailto:chris.bertin&hp.com                                    2009-05-19
 [Chris_Brown]                                             Chris Brown                                     mailto:chrisb&chancery.com
 [Chris_Chiotasso]                                         Chris Chiotasso                                 mailto:cchiotasso&infolibria.com
@@ -18972,7 +18975,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Chris_MacDonald]                                         Chris MacDonald                                 mailto:chris&viscount.com                                     2011-03-16
 [Chris_Megede]                                            Chris Megede                                    mailto:chris.megede&tac.com
 [Chris_Michaelson]                                        Chris Michaelson                                mailto:chris&codegreennetworks.com                            2005-08
-[Chris_Newman]                                            Chris Newman                                    mailto:chris.newman&oracle.com                                2010-10-15
+[Chris_Newman]                                            Chris Newman                                    mailto:chris.newman&oracle.com                                2016-06-28
 [Chris_Nigbur]                                            Chris Nigbur              UpdateLogic, Inc.     mailto:chris.nigbur&updatelogic.com                           2014-10-27
 [Chris_Peel]                                              Chris Peel                                      mailto:chrispeel.gsi&googlemail.com                           2011-03-09
 [Chris_Peel_2]                                            Chris Peel                                      mailto:chris.gsi&fullphat.net                                 2014-05-16
@@ -19829,7 +19832,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Frans_S_C_Witte]                                         Frans S.C. Witte                                mailto:fscwitte&dicgroep.nl
 [Franz_Josef_Leuders]                                     Franz-Josef Leuders                             mailto:development&tobit.com
 [Fraxion_Software]                                                                  Fraxion Software      mailto:info&fraxion.biz                                       2012-03-21
-[Fred_Batty]                                              Fred Batty                                      mailto:fredb&sun.com                                          2007-12-03
 [Fred_Cohen]                                              Fred Cohen                                      mailto:fc&all.net
 [Fred_Fierling]                                           Fred Fierling                                   mailto:fff&exegin.com                                         2006-02
 [Fred_Klassen]                                            Fred Klassen                                    mailto:fklassen&jaalam.com                                    2002-02
@@ -23091,6 +23093,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Thermo-Calc_Software]                                                              Thermo-Calc Software  mailto:thomasr&thermocalc.se                                  2012-06-28
                                                                                     AB
 [Thierry_Turletti]                                        Thierry Turletti                                mailto:Thierry.Turletti&sophia.inria.fr
+[thingkit_inc.]                                           thingkit, inc.                                  mailto:cb&thingkit.co                                         2016-06-27
 [Thom_McGrath]                                            Thom McGrath                                    mailto:thom&thezaz.com
 [Thomas_Boerkel]                                          Thomas Boerkel                                  mailto:tbo&ap-ag.com                                          2008-06-06
 [Thomas_Boje]                                             Thomas Boje                                     mailto:thomas.boje&gmx.de                                     2014-03-27

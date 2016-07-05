@@ -27,7 +27,8 @@ Type,Description,22,23,141,222,223,Reference
 28,MTU,y,y,n,y,y,[RFC7176]
 29,SPB-Metric,y,y,n,y,y,[RFC6329]
 30,SPB-A-OALG,y,y,n,y,y,[RFC6329]
-31-32,Unassigned,,,,,,
+31,"Adjacency Segment Identifier (TEMPORARY - registered 2016-06-29, expires 2017-06-29)",y,y,y,y,y,[draft-ietf-isis-segment-routing-extensions]
+32,"LAN Adjacency Segment Identifier (TEMPORARY - registered 2016-06-29, expires 2017-06-29)",y,y,y,y,y,[draft-ietf-isis-segment-routing-extensions]
 33,Unidirectional Link Delay,y,y,y,y,y,[RFC7810]
 34,Min/Max Unidirectional Link Delay,y,y,y,y,y,[RFC7810]
 35,Unidirectional Delay Variation,y,y,y,y,y,[RFC7810]
