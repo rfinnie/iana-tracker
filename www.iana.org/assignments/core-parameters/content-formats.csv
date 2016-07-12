@@ -10,5 +10,7 @@ Unassigned,,48-49,
 application/json,,50,[RFC4627]
 Unassigned,,51-59,
 application/cbor,,60,[RFC7049]
-Unassigned,,61-64999,
+Unassigned,,61-255,
+application/coap-group+json,UTF-8,256,[RFC7390]
+Unassigned,,257-64999,
 Reserved for Experimental Use,,65000-65535,[RFC7252]
