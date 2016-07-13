@@ -9,7 +9,14 @@ Type,Name,Reference
 7,TENANT-GWMAC-LABEL,[RFC-ietf-trill-irb-14]
 8,IPV4-PREFIX,[RFC-ietf-trill-irb-14]
 9,IPV6-PREFIX,[RFC-ietf-trill-irb-14]
-10-251,Unassigned,
+10,IA,[RFC-ietf-trill-ia-appsubtlv-09]
+11,Tree and VLANs,[RFC-ietf-trill-tree-selection-05]
+12,Tree and VLANs Used,[RFC-ietf-trill-tree-selection-05]
+13,Tree and FGLs,[RFC-ietf-trill-tree-selection-05]
+14,Tree and FGLs Used,[RFC-ietf-trill-tree-selection-05]
+15,Tree and Groups,[RFC-ietf-trill-tree-selection-05]
+16,Tree and Groups Used,[RFC-ietf-trill-tree-selection-05]
+17-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC7782]
 253,AA-LAALP-GROUP-MAC,[RFC7782]
 254,EXTENDED-RBRIDGE-CAP,[RFC7782]
