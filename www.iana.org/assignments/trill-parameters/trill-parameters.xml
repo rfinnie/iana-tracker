@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trill-parameters">
   <title>Transparent Interconnection of Lots of Links (TRILL) Parameters</title>
   <created>2010-03-26</created>
-  <updated>2016-07-12</updated>
+  <updated>2016-07-13</updated>
   
   
   <registry id="trill-parameters-1">
@@ -626,8 +626,9 @@ a type larger than one byte, such as extended TLVs <xref type="rfc" data="rfc735
       <description>Reserved</description>
       <xref type="rfc" data="rfc7357"/>
     </record>
-  </registry>
+    
 
+    
   <registry id="nickflags-bits">
     <title>NickFlags Bits</title>
     <xref type="rfc" data="rfc7780"/>
@@ -724,6 +725,8 @@ a type larger than one byte, such as extended TLVs <xref type="rfc" data="rfc735
       <description>Unassigned</description>
     </record>
   </registry>
+    
+  </registry> 
 
   <registry id="trill-oam-return-codes">
     <title>TRILL OAM Return Codes</title>
@@ -743,6 +746,7 @@ a type larger than one byte, such as extended TLVs <xref type="rfc" data="rfc735
       <value>2-255</value>
       <description>Unassigned</description>
     </record>
+    
     
 
   <registry id="trill-oam-return-sub-code-0">
