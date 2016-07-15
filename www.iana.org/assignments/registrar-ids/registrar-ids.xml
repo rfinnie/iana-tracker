@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   <title>Registrar IDs</title>
-  <updated>2016-07-08</updated>
+  <updated>2016-07-14</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -12843,6 +12843,11 @@
       <status>Accredited</status>
     </record>
 
+    <record date="2016-07-14">
+      <value>4000001</value>
+      <name>Reserved for Historic use by mTLD Registry Operator acting as Registrar</name>
+      <status>Reserved</status>
+    </record>
     <record date="2014-12-16">
       <value>8888888</value>
       <name>Reserved for historic use by Registry Operator acting as Registrar</name>
