@@ -164,3 +164,4 @@ att-field (media level only),T38ModemType,"[ITU-T Recommendation T.38 Annex D, '
 att-field (media level only),cs-correlation,[RFC7195]
 att-field (media level only),rtcp-idms,[RFC7272]
 att-field (media level only),predefined_ROI,[3GPP TS 26.114 v13.1.0][_3GPP_Specifications_Manager]
+att-field (media level only),msid,[RFC-ietf-mmusic-msid-15]
