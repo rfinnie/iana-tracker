@@ -195,7 +195,7 @@ Control Message Attribute Value Pairs
          99       TDM Pseudowire AVP                                                         [RFC5611]
         100       RTP AVP                                                                    [RFC5611]
         101       PW Switching Point AVP                                                     [RFC6073]
-        102       S-BFD Target Discriminator ID                                              [RFC-ietf-l2tpext-sbfd-discriminator-05]
+        102       S-BFD Target Discriminator ID                                              [RFC7886]
      103-65535    Unassigned
 
 Message Type AVP (Attribute Type 0) Values

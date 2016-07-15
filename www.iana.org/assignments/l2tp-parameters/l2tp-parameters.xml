@@ -543,7 +543,7 @@ Also, see ATM Alarm Status AVP Values below</description>
     <record date="2016-05-13">
       <value>102</value>
       <description>S-BFD Target Discriminator ID</description>
-      <xref type="draft" data="RFC-ietf-l2tpext-sbfd-discriminator-05"/>
+      <xref type="rfc" data="rfc7886"/>
     </record>
     <record>
       <value>103-65535</value>
