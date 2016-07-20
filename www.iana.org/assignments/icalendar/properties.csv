@@ -49,3 +49,4 @@ REQUEST-STATUS,Current,[RFC5545] Section 3.8.8.3
 XML,Current,[RFC6321] Section 4.2
 TZUNTIL,Current,[RFC7808] Section 7.1
 TZID-ALIAS-OF,Current,[RFC7808] Section 7.2
+BUSYTYPE,Current,[RFC-ietf-calext-availability-04] Section 3.2
