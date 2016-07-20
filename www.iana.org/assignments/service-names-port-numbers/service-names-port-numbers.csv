@@ -13964,6 +13964,7 @@ ecms,,,Northrup Grumman/Mission Systems/ESL Data Flow Protocol,[Dan_Goff],[Dan_G
 ebreg,,,ebXML Registry,[Matthew_MacKenzie],[Matthew_MacKenzie],,,,,,Defined TXT keys: HttpBinding=</path/to/registry/http/binding>
 ecbyesfsgksc,,,Net Monitor Anti-Piracy Service,[Guy_Meyer],[Guy_Meyer],,,,,,Defined TXT keys: None
 edcp,,udp,LaCie Ethernet Disk Configuration Protocol,[Nicolas_Bouilleaud],[Nicolas_Bouilleaud],,,,,,"Defined TXT keys: ip, mac, dhcp, mask, gtwy, wins, name, version"
+edsservice,,tcp,Provides resolution of EDS services available on a given network,[Morpho_Detection_LLC],[Natarajan_Subramanian],2016-07-19,,,,,Defined TXT keys: None
 eeg,,tcp,EEG System Discovery across local and wide area networks,[Shifted_Current],[Joel_Aaron_Clipperton],2012-09-11,,,,,Defined TXT keys:  Type
 efkon-elite,,tcp,EFKON Lightweight Interface to Traffic Events,[EFKON_AG],[Thomas_Kemmer],2011-10-20,,,,,"Defined TXT keys: txtvers, protovers, model, serial, scheme, path"
 egistix,,,Egistix Auto-Discovery,[Dave_Lindquist_2],[Dave_Lindquist_2],,,,,,Defined TXT keys: None
