@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   <title>Registrar IDs</title>
-  <updated>2016-07-19</updated>
+  <updated>2016-07-20</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -1458,9 +1458,9 @@
       <name>eNom635, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2016-07-20">
       <value>636</value>
-      <name>BRANDON GRAY INTERNET SERVICES INC. (dba NameJuice.com)</name>
+      <name>BRANDON GRAY INTERNET SERVICES INC. (dba "NameJuice.com”)</name>
       <status>Accredited</status>
     </record>
     <record>
