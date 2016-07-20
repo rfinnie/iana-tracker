@@ -31,9 +31,9 @@ based on subscriber billing or service location
 information",[RFC4119],
 MPL,Measured Path Loss,[James_Winterbottom],2007-10-18
 NEAD-BLE,"Civic Address representing the provisioned location of a 
-        Wi-Fi Access Point to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12
-NEAD-WiFi,"Civic Address representing the provisioned location of a 
         Bluetooth beacon to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12
+NEAD-WiFi,"Civic Address representing the provisioned location of a 
+        Wi-Fi Access Point to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12
 NMR,Network Measurement Reports,[James_Winterbottom],
 OTDOA,Observed Time Difference of Arrival,[James_Winterbottom],
 RFID,"Proximity to a Radio Frequency Identification        

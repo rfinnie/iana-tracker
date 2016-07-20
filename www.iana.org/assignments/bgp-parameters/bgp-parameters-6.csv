@@ -1,5 +1,6 @@
 Value,Name,Reference
-0,Reserved,
+0,Unspecific,"[RFC Errata 
+          4493]"
 1,Unsupported Version Number,[RFC4271]
 2,Bad Peer AS,[RFC4271]
 3,Bad BGP Identifier,[RFC4271]

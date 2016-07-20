@@ -10,7 +10,7 @@ Value,TLV Name,Reference
 8,"SR-Algorithm TLV (TEMPORARY - registered 2014-06-26, expires 2016-06-26)",[draft-ietf-ospf-segment-routing-extensions]
 9,"SID/Label Range TLV (TEMPORARY - registered 2014-06-26, expires 2016-06-26)",[draft-ietf-ospf-segment-routing-extensions]
 10,Node Admin Tag TLV,[RFC7777]
-11,S-BFD Discriminator,[RFC-ietf-ospf-sbfd-discriminator-06]
+11,S-BFD Discriminator,[RFC7884]
 12-32767,Unassigned,
 32768-32777,Experimentation,[RFC7770]
 32778-65535,Reserved,[RFC7770]
