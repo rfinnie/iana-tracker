@@ -1,7 +1,8 @@
 Value,Description,Reference,Notes/Registration Date
 0x0000,Reserved,,
 0x0001,Sequence Number TLV,[RFC7769],2015-11-17
-0x0002-0x00FF,Unassigned,,
+0x0002,PSN Tunnel Binding TLV,[RFC-ietf-pals-mpls-tp-pw-over-bidir-lsp-09],2016-07-22
+0x0003-0x00FF,Unassigned,,
 0x0100,FEC,[RFC5036],
 0x0101,Address List,[RFC5036],
 0x0102,Unassigned,,
