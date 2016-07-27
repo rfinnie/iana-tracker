@@ -59,7 +59,9 @@ Range/Value,E,Description,Reference
 0x00000038,0,Resources Unavailable,[RFC7267]
 0x00000039,0,AII Unreachable,[RFC7267]
 0x0000003A,0,PW Loop Detected,[RFC6073]
-0x0000003B-0x0000003F,,Unassigned,
+0x0000003B,1,Reject - unable to use the suggested tunnel/LSPs,[RFC-ietf-pals-mpls-tp-pw-over-bidir-lsp-09]
+0x0000003C,1,The C-bit or S-bit unknown,[RFC-ietf-pals-mpls-tp-pw-over-bidir-lsp-09]
+0x0000003D-0x0000003F,,Unassigned,
 0x00000040,0,LDP MP status,[RFC6388]
 0x00000041-0x00000049,,Unassigned,
 0x0000004A,0,IP Address Type Mismatch,[RFC6575]
