@@ -40,5 +40,6 @@ TR-8.5 Formulating Group, <cja015&motorola.com>, June 2004]"
 37,HFI,[Tseng-Hui_Lin]
 38-255,Unassigned,
 256,HW_EXP2,[RFC5494]
-257-65534,Unassigned,
+257,AEthernet,[Geoffroy_Gramaize]
+258-65534,Unassigned,
 65535,Reserved,[RFC5494]
