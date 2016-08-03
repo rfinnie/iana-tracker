@@ -13884,6 +13884,7 @@ carddavs,,tcp,vCard Extensions to WebDAV (CardDAV) - over TLS,[IESG],[IETF_Chair
 cardsend,,,Card Send Protocol,[Jeff_Grossman],[Jeff_Grossman],,,,,,Defined TXT keys: Proprietary
 carousel,,tcp,Carousel Player Protocol,[Tightrope_Media_Systems],[Scott_Jann],2011-10-17,,,,,Defined TXT keys: None
 cctv,,,IP and Closed-Circuit Television for Securitiy applications,[Frank_Rottmann],[Frank_Rottmann],,,,,,"Defined TXT keys: u=<username>, p=<password>, path=<path to XML file>"
+certificates,,tcp,Server for S/MIME and PGP certificates,[IESG],[John_Levine],2016-07-26,,[draft-bhjl-x509-srv-01],,,Defined TXT keys: None
 cheat,,,The Cheat,[Chaz_McGarvey],[Chaz_McGarvey],,,,,,Defined TXT keys: None
 chess,,,Project Gridlock,,,,,,,,Defined TXT keys: None
 chfts,,,Fluid Theme Server,,,,,,,,Defined TXT keys: None
@@ -14491,6 +14492,7 @@ slpda,,udp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
 smartenergy,,,Smart Energy Profile,[Robby_Simpson],[Robby_Simpson],,,,,,Defined TXT keys: See http://www.zigbee.org/SmartEnergy
 smartsocket,,tcp,home control,[Robert_Diamond],[Robert_Diamond],2012-07-06,,,,,Defined TXT keys: None
 smb,,,Server Message Block over TCP/IP,,,,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
+smimeca,,tcp,Domain signing certificate for S/MIME keys,[IESG],[John_Levine],2016-07-26,,[draft-bhjl-x509-srv-01],,,Defined TXT keys: None
 sms,,,Short Text Message Sending and Delivery Status Service,[Christian_Flintrup],[Christian_Flintrup],,,,,,Defined TXT keys: Proprietary
 smsync,,,Syncellence file synchronization protocol,[Dialectro_Software],[Gord_Peters],2011-10-20,,,,,"Defined TXT keys: device=<device type>
       protocol=<version number>

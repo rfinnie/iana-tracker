@@ -8,6 +8,6 @@ Code,Description,Reference
 128,Padding - do not copy in response,[RFC6374]
 129,Destination Address,[RFC6374]
 130,Source Address,[RFC6374]
-131,UDP Return,[RFC-ietf-mpls-rfc6374-udp-return-path-05]
+131,UDP Return,[RFC7876]
 132-254,Unassigned,
 255,Experimental use,[RFC6374]

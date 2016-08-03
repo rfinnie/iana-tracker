@@ -1,6 +1,6 @@
 Token,Data About,Reference
-ProviderInfo,The Call,[RFC-ietf-ecrit-additional-data-38]
-ServiceInfo,The Call,[RFC-ietf-ecrit-additional-data-38]
-DeviceInfo,The Call,[RFC-ietf-ecrit-additional-data-38]
-SubscriberInfo,The Call,[RFC-ietf-ecrit-additional-data-38]
-Comment,The Call,[RFC-ietf-ecrit-additional-data-38]
+ProviderInfo,The Call,[RFC7852]
+ServiceInfo,The Call,[RFC7852]
+DeviceInfo,The Call,[RFC7852]
+SubscriberInfo,The Call,[RFC7852]
+Comment,The Call,[RFC7852]
