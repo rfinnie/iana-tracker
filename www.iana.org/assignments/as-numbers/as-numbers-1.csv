@@ -2270,7 +2270,7 @@ Number,Description,WHOIS,RDAP,Reference,"Registration
 64099-64197,Assigned by LACNIC,whois.lacnic.net,https://rdap.lacnic.net/rdap/,,2014-09-05
 64198-64296,Assigned by ARIN,whois.arin.net,https://rdap.arin.net/registryhttp://rdap.arin.net/registry,,2015-04-29
 64297-64395,Assigned by APNIC,whois.apnic.net,https://rdap.apnic.net/,,2016-05-25
-64396-64495,Unallocated,,,,
+64396-64495,Assigned by RIPE NCC,whois.ripe.net,https://rdap.db.ripe.net/,,2016-07-29
 64496-64511,Reserved for use in documentation and sample code,,,[RFC5398],2008-12-03
 64512-65534,Reserved for Private Use,,,[RFC6996],
 65535,Reserved,,,[RFC7300],
