@@ -4,7 +4,7 @@
            2001-06-15
 
    Last Updated
-           2016-07-13
+           2016-08-09
 
    Available Formats
            [IMG]
@@ -665,7 +665,7 @@ Semantics for the "group" SDP Attribute
            [IMG]
            CSV
 
-                 Semantics               Token           Reference
+                 Semantics               Token                  Reference
    Lip Synchronization                   LS     [RFC5888]
    Flow Identification                   FID    [RFC5888]
    Single Reservation flow               SRF    [RFC3524]
@@ -675,6 +675,7 @@ Semantics for the "group" SDP Attribute
    Composite Session                     CS     [RFC-mehta-rmt-flute-sdp-05]
    Decoding Dependency                   DDP    [RFC5583]
    Duplication                           DUP    [RFC7104]
+   Splice                                SPLICE [RFC-ietf-avtext-splicing-notification-09]
 
 "rtcp-fb" Attribute Values
 
