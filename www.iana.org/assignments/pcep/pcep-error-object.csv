@@ -36,22 +36,27 @@ Error-Type,Meaning,Error-value,Reference
 ,,2: RRO missing for a reoptimization request (R bit of the RP object set),[RFC5440]
 ,,3: END-POINTS object missing,[RFC5440]
 ,,4: MONITORING object missing,[RFC5886]
-,,5-255: Unassigned,
+,,5-7: Unassigned,
+,,"8: LSP Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"9: ERO Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"10: SRP Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"11: LSP-IDENTIFIERS TLV missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,12-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
 10,Reception of an invalid object,0: Unassigned,[RFC5440]
 ,,1: reception of an object with P flag not set although the P-flag must be set according to this specification.,[RFC5440]
-,,"2: Bad label value (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"3: Unsupported number of Segment ERO subobjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"4: Bad label format (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,8: Unassigned,
-,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"2: Bad label value (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"3: Unsupported number of Segment ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"4: Bad label format (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"8: SYMBOLIC-PATH-NAME TLV missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,12-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -80,9 +85,45 @@ Error-Type,Meaning,Error-value,Reference
 18,P2MP Fragmentation Error,0: Unassigned,[RFC6006]
 ,,1: Fragmented request failure,[RFC6006]
 ,,2-255: Unassigned,
-19-20,Unassigned,0-255: Unassigned,
-21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
-,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
-,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
+19,"Invalid Operation (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"1: Attempted LSP Update Request for a non-delegated LSP. 
+        The PCEP-ERROR Object is followed by the LSP Object that identifies the 
+        LSP. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"2: Attempted LSP Update Request if the stateful PCE 
+        capability was not advertised. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"3: Attempted LSP Update Request for an LSP identified 
+        by an unknown PLSP-ID. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,4: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"5: Attempted LSP State Report if active 
+        stateful PCE capability was not advertised. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,"6: PCE-initiated LSP limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"7: Delegation for PCE-initiated LSP cannot be revoked (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"8: Non-zero PLSP-ID in LSP initiation request (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"9: LSP is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"10: PCE-initiated operation-frequency limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,11-255: Unassigned,[draft-ietf-pce-stateful-pce]
+20,"LSP State synchronization error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"1: A PCE indicates to a PCC that it can
+        not process (an otherwise valid) LSP
+        State Report.  The PCEP-ERROR Object is
+        followed by the LSP Object that
+        identifies the LSP. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,2-4: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"5: A PCC indicates to a PCE that it can
+        not complete the state synchronization (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,6-255: Unassigned,[draft-ietf-pce-stateful-pce]
+21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
+,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
+,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,3-255: Unassigned,
 22-255,Unassigned,0-255: Unassigned,
+23,"Bad parameter value (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+,,"1: SYMBOLIC-PATH-NAME in use (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"2: Speaker identity included for an LSP that is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,3-255: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+24,"LSP instantiation error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+,,"1: Unacceptable instantiation parameters (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"2: Internal error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"3: Signaling error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,4-255: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+25-255,Unassigned,0-255: Unassigned,
