@@ -33,6 +33,6 @@ BT,Name,Reference
 31,CSB (Concealed Seconds Metrics Block),"[RFC7294, Section 4.1]"
 32,MPEG2 Transport Stream PSI Decodability Statistics Metrics Block,[RFC7380]
 33,Post-Repair Loss Count Metrics Report Block,[RFC7509]
-34,Video Loss Concealment Metric Report Block,[RFC-ietf-xrblock-rtcp-xr-video-lc-06]
+34,Video Loss Concealment Metric Report Block,[RFC7867]
 35-254,Unassigned,
 255,Reserved for future extensions,[RFC3611]
