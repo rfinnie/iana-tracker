@@ -15,7 +15,7 @@ Value,Description,Reference
 20,"LSP-ERROR-CODE (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
 21,"RSVP-ERROR-SPEC (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
 22-25,Unassigned,
-26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
-28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extended 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
+28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 29-65535,Unassigned,

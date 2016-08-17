@@ -68,7 +68,12 @@ Object-Class Value,Name,Object-Type,Reference
 31,Branch Node Capability Object,1: Branch node list,[RFC6006]
 ,,2: Non-branch node list,[RFC6006]
 ,,3-15: Unassigned,
-32-33,Unassigned,1-15: Unassigned,
+32,"LSP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"1: LSP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,2-15: Unassigned,[draft-ietf-pce-stateful-pce]
+33,"SRP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+,,"1: SRP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,2-15: Unassigned,[draft-ietf-pce-stateful-pce]
 34,VENDOR-INFORMATION,0: Unassigned,
 ,,1: Vendor-Specific Constraints,[RFC7470]
 ,,2-15: Unassigned,
