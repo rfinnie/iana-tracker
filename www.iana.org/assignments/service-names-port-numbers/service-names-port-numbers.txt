@@ -17872,6 +17872,8 @@ skillscapture                  udp    transfer database records    [Legentis_Ltd
                                       Mac OS X computer
 skype                                 Skype                                                                                                                                                                                                                          Defined TXT keys: platform, status, auth, rversion, version
 sleep-proxy                    udp    Sleep Proxy Server           [Stuart_Cheshire_5][Marc_Krochmal]                    [Stuart_Cheshire_5][Marc_Krochmal]                                                                                                          Defined TXT keys: None
+sleeptracker                   tcp    Sleeptracker(R) The loT      [Fullpower_Technologies_Inc]                          [Corporate_Compliance_Officer]                            2016-08-17                                                                        Defined TXT keys: serial=<serial> hostname=<host> osVer=<ver>
+                                      Smartbed Platform                                                                                                                                                                                                              appVer=<ver> unit=<name> environment=<env>
 slimcli                               SliMP3 Server Command-Line   [Dean_Blackketter_2]                                  [Dean_Blackketter_2]                                                                                                                        Defined TXT keys: None
                                       Interface
 slimhttp                              SliMP3 Server Web Interface  [Dean_Blackketter_2]                                  [Dean_Blackketter_2]                                                                                                                        Defined TXT keys: None
@@ -19148,6 +19150,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Corey_Corrick]                                           Corey Corrick                                   mailto:corey.corrick&flamenconetworks.com
 [Corey_Leong]                                             Corey Leong                                     mailto:cleong&gr8c.org                                        2010-10-11
 [Cormac_Long]                                             Cormac Long                                     mailto:webmaster&smsforum.net                                 2002-07
+[Corporate_Compliance_Officer]                            Corporate Compliance                            mailto:compliance&fullpower.com                               2016-08-17
+                                                          Officer
 [Corpus_Collusion]                                                                  Corpus Collusion      mailto:developer&corpuscollusion.com                          2011-08-23
 [Craig_Calef]                                             Craig Calef                                     mailto:craig&katmango.com
 [Craig_Ching]                                             Craig Ching                                     mailto:cching&mqsoftware.com
@@ -19864,6 +19868,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Friedman_Wagner_Dobl]                                    Friedman Wagner-Dobler                          mailto:Friedman.Wagner-Dobler&gdc4s.com                       2005-09
 [Frode_Randers]                                           Frode Randers                                   mailto:Frode.Randers&tietoenator.com                          2006-01
 [Frontrow_Calypso_LLC]                                    Frontrow Calypso, LLC                           mailto:eng&gofrontrow.com                                     2016-04-13
+[Fullpower_Technologies_Inc]                              Fullpower Technologies,                         mailto:info&fullpower.com                                     2016-08-17
+                                                          Inc.
 [GPP_Specifications]                                      John M Meredith           3GPP Specifications   mailto:john.meredith&etsi.org                                 2009-06-11
                                                                                     Manager
 [G_E_Ozz_Nixon_Jr]                                        G.E. Ozz Nixon Jr.                              mailto:ozznixon&gmail.com                                     2009-01-13

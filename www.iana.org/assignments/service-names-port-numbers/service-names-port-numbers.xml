@@ -93531,6 +93531,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <xref type="person" data="Stuart_Cheshire_5"/>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
+  <record date="2016-08-17">
+    <name>sleeptracker</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Fullpower_Technologies_Inc"/>
+    </assignee>
+    <description>Sleeptracker(R) The loT Smartbed Platform</description>
+    <note>Defined TXT keys: serial=&lt;serial&gt; hostname=&lt;host&gt; osVer=&lt;ver&gt; appVer=&lt;ver&gt; unit=&lt;name&gt; environment=&lt;env&gt;</note>
+    <xref type="person" data="Corporate_Compliance_Officer"/>
+  </record>
   <record>
     <name>slimcli</name>
     <description>SliMP3 Server Command-Line Interface</description>
@@ -98998,6 +99008,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:webmaster&amp;smsforum.net</uri>
       <updated>2002-07</updated>
     </person>
+    <person id="Corporate_Compliance_Officer">
+      <name>Corporate Compliance Officer</name>
+      <uri>mailto:compliance&amp;fullpower.com</uri>
+      <updated>2016-08-17</updated>
+    </person>
     <person id="Corpus_Collusion">
       <org>Corpus Collusion</org>
       <uri>mailto:developer&amp;corpuscollusion.com</uri>
@@ -102133,6 +102148,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Frontrow Calypso, LLC</name>
       <uri>mailto:eng&amp;gofrontrow.com</uri>
       <updated>2016-04-13</updated>
+    </person>
+    <person id="Fullpower_Technologies_Inc">
+      <name>Fullpower Technologies, Inc.</name>
+      <uri>mailto:info&amp;fullpower.com</uri>
+      <updated>2016-08-17</updated>
     </person>
     <person id="GPP_Specifications">
       <name>John M Meredith</name>

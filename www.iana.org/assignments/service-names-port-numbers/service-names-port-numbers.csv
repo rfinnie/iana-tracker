@@ -14485,6 +14485,7 @@ skillscapture,,tcp,The protocol is used to transfer database records between an 
 skillscapture,,udp,The protocol is used to transfer database records between an iOS device to a Mac OS X computer,[Legentis_Ltd],[David_Elliman],2013-07-01,,,,,Defined TXT keys: None
 skype,,,Skype,,,,,,,,"Defined TXT keys: platform, status, auth, rversion, version"
 sleep-proxy,,udp,Sleep Proxy Server,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Defined TXT keys: None
+sleeptracker,,tcp,Sleeptracker(R) The loT Smartbed Platform,[Fullpower_Technologies_Inc],[Corporate_Compliance_Officer],2016-08-17,,,,,Defined TXT keys: serial=<serial> hostname=<host> osVer=<ver> appVer=<ver> unit=<name> environment=<env>
 slimcli,,,SliMP3 Server Command-Line Interface,[Dean_Blackketter_2],[Dean_Blackketter_2],,,,,,Defined TXT keys: None
 slimhttp,,,SliMP3 Server Web Interface,[Dean_Blackketter_2],[Dean_Blackketter_2],,,,,,Defined TXT keys: None
 slpda,,tcp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
