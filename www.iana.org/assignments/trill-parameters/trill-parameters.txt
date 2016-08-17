@@ -4,7 +4,7 @@
            2010-03-26
 
    Last Updated
-           2016-07-13
+           2016-08-17
 
    Available Formats
            [IMG]
@@ -28,7 +28,7 @@
      * TRILL APPsub-TLV Types under IS-IS TLV 251 Application Identifier 1
 
           * NickFlags Bits
-          * Interface Addresses APPsub-TLV Sub-Sub-TLVs
+          * Interface Addresses APPsub-TLV Sub-sub-TLVs
           * Extended RBridge Capabilities
 
      * TRILL OAM Return Codes
@@ -162,6 +162,7 @@ RBridge Channel Error Codes
  Value 15 is intended to be allocated by Standards Action for an error
  code expansion feature when it appears likely that all other
  available error codes are being allocated.
+
 
    Available Formats
            [IMG]
@@ -320,6 +321,7 @@ TRILL APPsub-TLV Types under IS-IS TLV 251 Application Identifier 1
 
  Also see [Application Identifiers for TLV 251]
 
+
    Available Formats
            [IMG]
            CSV
@@ -368,7 +370,7 @@ TRILL APPsub-TLV Types under IS-IS TLV 251 Application Identifier 1
     1   SE       Inter-Subnet Egress [RFC-ietf-trill-irb-14]
    2-15          Unassigned
 
-  Interface Addresses APPsub-TLV Sub-Sub-TLVs
+  Interface Addresses APPsub-TLV Sub-sub-TLVs
 
    Registration Procedure(s)
 
@@ -380,6 +382,11 @@ TRILL APPsub-TLV Types under IS-IS TLV 251 Application Identifier 1
 
    Reference
            [RFC-ietf-trill-ia-appsubtlv-09]
+
+   Note
+
+ Types greater than 255 are not usable in some contexts.
+
 
    Available Formats
            [IMG]

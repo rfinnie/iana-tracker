@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trill-parameters">
   <title>Transparent Interconnection of Lots of Links (TRILL) Parameters</title>
   <created>2010-03-26</created>
-  <updated>2016-07-13</updated>
+  <updated>2016-08-17</updated>
   
   
   <registry id="trill-parameters-1">
@@ -237,7 +237,8 @@
     <registration_rule>Standards Action</registration_rule>
     <note>Value 15 is intended to be allocated by Standards Action for an error
 code expansion feature when it appears likely that all other
-available error codes are being allocated.</note>
+available error codes are being allocated.
+    </note>
     <record>
       <value>0</value>
       <description>No error</description>
@@ -507,7 +508,7 @@ Section 7.2 of <xref type="rfc" data="rfc7357"/>.</registration_rule>
 a type larger than one byte, such as extended TLVs <xref type="rfc" data="rfc7356"/>.
     </note>
     <note>Also see <xref type="registry" data="isis-tlv-codepoints">Application Identifiers for TLV 251</xref>
-</note>
+    </note>
     <record>
       <value>0</value>
       <description>Reserved</description>
@@ -653,10 +654,12 @@ a type larger than one byte, such as extended TLVs <xref type="rfc" data="rfc735
   </registry>
 
   <registry id="ia-appsub-tlv-sub-sub-tlvs">
-    <title>Interface Addresses APPsub-TLV Sub-Sub-TLVs</title>
+    <title>Interface Addresses APPsub-TLV Sub-sub-TLVs</title>
     <xref type="draft" data="RFC-ietf-trill-ia-appsubtlv-09"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Unassigned</expert>
+    <note>Types greater than 255 are not usable in some contexts.
+    </note>
     <record date="2016-07-12">
       <value>0</value>
       <description>Reserved</description>
