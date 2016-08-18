@@ -4,7 +4,7 @@
            2007-12-07
 
    Last Updated
-           2016-08-11
+           2016-08-17
 
    Available Formats
            [IMG]
@@ -142,13 +142,13 @@ Parameter Types
      833-896   Unassigned
        897     ECHO_REQUEST_SIGNED      variable [RFC7401]
      898-929   Unassigned
-       930     REG_INFO                 variable [RFC5203]
+       930     REG_INFO                 variable [RFC-ietf-hip-rfc5203-bis-11]
        931     Unassigned
-       932     REG_REQUEST              variable [RFC5203]
+       932     REG_REQUEST              variable [RFC-ietf-hip-rfc5203-bis-11]
        933     Unassigned
-       934     REG_RESPONSE             variable [RFC5203]
+       934     REG_RESPONSE             variable [RFC-ietf-hip-rfc5203-bis-11]
        935     Unassigned
-       936     REG_FAILED               variable [RFC5203]
+       936     REG_FAILED               variable [RFC-ietf-hip-rfc5203-bis-11]
      937-949   Unassigned
        950     REG_FROM                 20       [RFC5770]
      951-960   Unassigned
@@ -323,7 +323,7 @@ Notify Message Types
    16384-40959 Specification Required   status types
    40960-65535 Reserved for Private Use status types
 
-      Value             Notify Message Type          Reference
+      Value             Notify Message Type                    Reference
         0      Reserved                              [RFC7401]
         1      UNSUPPORTED_CRITICAL_PARAMETER_TYPE   [RFC7401]
        2-6     Unassigned
@@ -356,7 +356,7 @@ Notify Message Types
        48      CREDENTIALS_REQUIRED                  [RFC6253]
        49      Unassigned
        50      INVALID_CERTIFICATE                   [RFC6253]
-       51      REG_REQUIRED                          [RFC5203]
+       51      REG_REQUIRED                          [RFC-ietf-hip-rfc5203-bis-11]
       52-59    Unassigned
        60      NO_VALID_NAT_TRAVERSAL_MODE_PARAMETER [RFC5770]
        61      CONNECTIVITY_CHECKS_FAILED            [RFC5770]
@@ -376,7 +376,7 @@ Notify Message Types
 Registration Types
 
    Reference
-           [RFC5203]
+           [RFC-ietf-hip-rfc5203-bis-11]
 
    Available Formats
            [IMG]
@@ -391,12 +391,12 @@ Registration Types
       1    RENDEZVOUS               [RFC-ietf-hip-rfc5204-bis-08]
       2    RELAY_UDP_HIP            [RFC5770]
     3-200  Unassigned
-   201-255 Reserved for Private Use [RFC5203]
+   201-255 Reserved for Private Use [RFC-ietf-hip-rfc5203-bis-11]
 
 Registration Failure Types
 
    Reference
-           [RFC5203]
+           [RFC-ietf-hip-rfc5203-bis-11]
 
    Available Formats
            [IMG]
@@ -406,11 +406,18 @@ Registration Failure Types
     0-200  IETF Review
    201-255 Reserved for Private Use
 
-    Value           Registration Failure Type           Reference
-      0    Registration requires additional credentials [RFC5203]
-      1    Registration type unavailable                [RFC5203]
-    2-200  Unassigned
-   201-255 Reserved for Private Use                     [RFC5203]
+    Value           Registration Failure Type                     Reference
+      0    Registration requires additional credentials [RFC-ietf-hip-rfc5203-bis-11]
+      1    Registration type unavailable                [RFC-ietf-hip-rfc5203-bis-11]
+      2    Insufficient resources                       [RFC-ietf-hip-rfc5203-bis-11]
+      3    Invalid certificate                          [RFC-ietf-hip-rfc5203-bis-11]
+      4    Bad certificate                              [RFC-ietf-hip-rfc5203-bis-11]
+      5    Unsupported certificate                      [RFC-ietf-hip-rfc5203-bis-11]
+      6    Certificate expired                          [RFC-ietf-hip-rfc5203-bis-11]
+      7    Certificate other                            [RFC-ietf-hip-rfc5203-bis-11]
+      8    Unknown CA                                   [RFC-ietf-hip-rfc5203-bis-11]
+    9-200  Unassigned
+   201-255 Reserved for Private Use                     [RFC-ietf-hip-rfc5203-bis-11]
 
 HIP NAT Traversal Modes
 
