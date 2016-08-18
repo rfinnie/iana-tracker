@@ -4,7 +4,7 @@
            2002-07-15
 
    Last Updated
-           2016-08-17
+           2016-08-18
 
    Available Formats
            [IMG]
@@ -7313,20 +7313,20 @@ Attribute Group Tags
 
  The range of Attribute Group Tags is 0x00 to 0x0F.  Tag values are allocated
  using an Expert Review that requires a review with a mailing list according to
- [RFC2911] section 6.7.  See [RFC2910] section 3.5.2.  The tag values are
+ [RFC2911] section 6.7.  See [RFC-sweet-rfc2910bis-09] section 3.5.1.  The tag values are
  listed in numeric order.
 
    Available Formats
            [IMG]
            CSV
 
-     Value                  Name                  Reference
+     Value                  Name                         Reference
    0x00      Unassigned
-   0x01      "operation-attributes-tag"          [RFC2910]
-   0x02      "job-attributes-tag"                [RFC2910]
-   0x03      "end-of-attributes-tag"             [RFC2910]
-   0x04      "printer-attributes-tag"            [RFC2910]
-   0x05      "unsupported-attributes-tag"        [RFC2910]
+   0x01      "operation-attributes-tag"          [RFC-sweet-rfc2910bis-09]
+   0x02      "job-attributes-tag"                [RFC-sweet-rfc2910bis-09]
+   0x03      "end-of-attributes-tag"             [RFC-sweet-rfc2910bis-09]
+   0x04      "printer-attributes-tag"            [RFC-sweet-rfc2910bis-09]
+   0x05      "unsupported-attributes-tag"        [RFC-sweet-rfc2910bis-09]
    0x06      "subscription-attributes-tag"       [RFC3995]
    0x07      "event-notification-attributes-tag" [RFC3995]
    0x08      Reserved (ipp-get-resources)
@@ -7352,18 +7352,18 @@ Out-of-Band Attribute Value Tags
 
  The range of out-of-band tags is 0x10 to 0x1F.  Tag values are allocated
  using an Expert Review that requires a review with a mailing list according to
- [RFC2911] section 6.7.  See [RFC2910] section 3.5.2.  The tag values are
+ [RFC2911] section 6.7.  See [RFC-sweet-rfc2910bis-09] section 3.5.2.  The tag values are
  listed in numeric order.
 
    Available Formats
            [IMG]
            CSV
 
-     Value             Name            Reference
-   0x10      Unsupported               [RFC2910]
+     Value             Name                    Reference
+   0x10      Unsupported               [RFC-sweet-rfc2910bis-09]
    0x11      Unassigned
-   0x12      unknown                   [RFC2910]
-   0x13      no-value                  [RFC2910]
+   0x12      unknown                   [RFC-sweet-rfc2910bis-09]
+   0x13      no-value                  [RFC-sweet-rfc2910bis-09]
    0x14      Reserved (ipp-col)
    0x15      not-settable              [RFC3380]
    0x16      delete-attribute          [RFC3380]
@@ -7393,7 +7393,7 @@ Attribute Syntaxes
  using an Expert Review that requires a review with a mailing list according to
  [RFC2911] section 6.3.  Use of the 0x7F value permits additional values up to
  0x3FFFFFFF for Expert Review action and 0x40000000 to 0x7FFFFFFF for vendor
- extensions.  See [RFC2910] section 3.5.2.  The tag values are listed in
+ extensions.  See [RFC-sweet-rfc2910bis-09] section 3.5.2.  The tag values are listed in
  numeric order.
 
  0x20 is reserved for "generic integer" if it should ever be needed.
@@ -7405,35 +7405,35 @@ Attribute Syntaxes
            [IMG]
            CSV
 
-     Value                                                 Name                                                Reference
+     Value                                                 Name                                                        Reference
    0x20      Unassigned
-   0x21      integer                                                                                           [RFC2910]
-   0x22      boolean                                                                                           [RFC2910]
-   0x23      enum                                                                                              [RFC2910]
-   0x24-0x2F Unassigned - to be for integer data types                                                         [RFC2910]
-   0x30      octetString with an unspecified format                                                            [RFC2910]
-   0x31      dateTime                                                                                          [RFC2910]
-   0x32      resolution                                                                                        [RFC2910]
-   0x33      rangeOfInteger                                                                                    [RFC2910]
+   0x21      integer                                                                                           [RFC-sweet-rfc2910bis-09]
+   0x22      boolean                                                                                           [RFC-sweet-rfc2910bis-09]
+   0x23      enum                                                                                              [RFC-sweet-rfc2910bis-09]
+   0x24-0x2F Unassigned - to be for integer data types                                                         [RFC-sweet-rfc2910bis-09]
+   0x30      octetString with an unspecified format                                                            [RFC-sweet-rfc2910bis-09]
+   0x31      dateTime                                                                                          [RFC-sweet-rfc2910bis-09]
+   0x32      resolution                                                                                        [RFC-sweet-rfc2910bis-09]
+   0x33      rangeOfInteger                                                                                    [RFC-sweet-rfc2910bis-09]
    0x34      begCollection                                                                                     [RFC3382]
-   0x35      textWithLanguage                                                                                  [RFC2910]
-   0x36      nameWithLanguage                                                                                  [RFC2910]
+   0x35      textWithLanguage                                                                                  [RFC-sweet-rfc2910bis-09]
+   0x36      nameWithLanguage                                                                                  [RFC-sweet-rfc2910bis-09]
    0x37      endCollection                                                                                     [RFC3382]
-   0x38-0x3F Unassigned - to be for octetString data types                                                     [RFC2910]
+   0x38-0x3F Unassigned - to be for octetString data types                                                     [RFC-sweet-rfc2910bis-09]
    0x40      Unassigned
-   0x41      textWithoutLanguage                                                                               [RFC2910]
-   0x42      nameWithoutLanguage                                                                               [RFC2910]
-   0x43      Reserved for future IANA Registration after an Expert Review as defined in [RFC2911] section 6.3. [RFC2910]
-   0x44      keyword                                                                                           [RFC2910]
-   0x45      uri                                                                                               [RFC2910]
-   0x46      uriScheme                                                                                         [RFC2910]
-   0x47      charset                                                                                           [RFC2910]
-   0x48      naturalLanguage                                                                                   [RFC2910]
-   0x49      mimeMediaType                                                                                     [RFC2910]
+   0x41      textWithoutLanguage                                                                               [RFC-sweet-rfc2910bis-09]
+   0x42      nameWithoutLanguage                                                                               [RFC-sweet-rfc2910bis-09]
+   0x43      Reserved for future IANA Registration after an Expert Review as defined in [RFC2911] section 6.3. [RFC-sweet-rfc2910bis-09]
+   0x44      keyword                                                                                           [RFC-sweet-rfc2910bis-09]
+   0x45      uri                                                                                               [RFC-sweet-rfc2910bis-09]
+   0x46      uriScheme                                                                                         [RFC-sweet-rfc2910bis-09]
+   0x47      charset                                                                                           [RFC-sweet-rfc2910bis-09]
+   0x48      naturalLanguage                                                                                   [RFC-sweet-rfc2910bis-09]
+   0x49      mimeMediaType                                                                                     [RFC-sweet-rfc2910bis-09]
    0x4A      memberAttrName                                                                                    [RFC3382]
-   0x4B-0x5F Unassigned - to be for character-string data types                                                [RFC2910]
+   0x4B-0x5F Unassigned - to be for character-string data types                                                [RFC-sweet-rfc2910bis-09]
    0x60-0x7E Unassigned
-   0x7F      For extension using the next 4 octets - see Note above.                                           [RFC2910]
+   0x7F      For extension using the next 4 octets - see Note above.                                           [RFC-sweet-rfc2910bis-09]
    0x80-0xFF Unassigned
 
 Operations

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ipp-registrations">
   <title>Internet Printing Protocol (IPP) Registrations</title>
   <created>2002-07-15</created>
-  <updated>2016-08-17</updated>
+  <updated>2016-08-18</updated>
   <registry id="ipp-registrations-1">
     <title>Objects</title>
     <xref type="rfc" data="rfc2911"/>
@@ -25086,7 +25086,7 @@ Template attributes are Printer object attributes.† See <xref type="rfc" data=
 
 The range of Attribute Group Tags is 0x00 to 0x0F.  Tag values are allocated
 using an Expert Review that requires a review with a mailing list according to
-<xref type="rfc" data="rfc2911"/> section 6.7.  See <xref type="rfc" data="rfc2910"/> section 3.5.2.  The tag values are
+<xref type="rfc" data="rfc2911"/> section 6.7.  See <xref type="draft" data="RFC-sweet-rfc2910bis-09"/> section 3.5.1.  The tag values are
 listed in numeric order.</note>
     <record>
       <value>0x00</value>
@@ -25095,27 +25095,27 @@ listed in numeric order.</note>
     <record>
       <value>0x01</value>
       <name>"operation-attributes-tag"</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x02</value>
       <name>"job-attributes-tag"</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x03</value>
       <name>"end-of-attributes-tag"</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x04</value>
       <name>"printer-attributes-tag"</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x05</value>
       <name>"unsupported-attributes-tag"</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x06</value>
@@ -25150,12 +25150,12 @@ listed in numeric order.</note>
 
 The range of out-of-band tags is 0x10 to 0x1F.  Tag values are allocated
 using an Expert Review that requires a review with a mailing list according to
-<xref type="rfc" data="rfc2911"/> section 6.7.  See <xref type="rfc" data="rfc2910"/> section 3.5.2.  The tag values are
+<xref type="rfc" data="rfc2911"/> section 6.7.  See <xref type="draft" data="RFC-sweet-rfc2910bis-09"/> section 3.5.2.  The tag values are
 listed in numeric order.</note>
     <record>
       <value>0x10</value>
       <name>Unsupported</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x11</value>
@@ -25164,12 +25164,12 @@ listed in numeric order.</note>
     <record>
       <value>0x12</value>
       <name>unknown</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x13</value>
       <name>no-value</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x14</value>
@@ -25214,7 +25214,7 @@ The range of attribute syntaxes is 0x20 to 0xFF.  Unassigned Tag values are allo
 using an Expert Review that requires a review with a mailing list according to
 <xref type="rfc" data="rfc2911"/> section 6.3.  Use of the 0x7F value permits additional values up to
 0x3FFFFFFF for Expert Review action and 0x40000000 to 0x7FFFFFFF for vendor
-extensions.  See <xref type="rfc" data="rfc2910"/> section 3.5.2.  The tag values are listed in
+extensions.  See <xref type="draft" data="RFC-sweet-rfc2910bis-09"/> section 3.5.2.  The tag values are listed in
 numeric order.
 
 0x20 is reserved for "generic integer" if it should ever be needed.
@@ -25228,42 +25228,42 @@ needed.</note>
     <record>
       <value>0x21</value>
       <name>integer</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x22</value>
       <name>boolean</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x23</value>
       <name>enum</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x24-0x2F</value>
       <name>Unassigned - to be for integer data types</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x30</value>
       <name>octetString with an unspecified format</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x31</value>
       <name>dateTime</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x32</value>
       <name>resolution</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x33</value>
       <name>rangeOfInteger</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x34</value>
@@ -25273,12 +25273,12 @@ needed.</note>
     <record>
       <value>0x35</value>
       <name>textWithLanguage</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x36</value>
       <name>nameWithLanguage</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x37</value>
@@ -25288,7 +25288,7 @@ needed.</note>
     <record>
       <value>0x38-0x3F</value>
       <name>Unassigned - to be for octetString data types</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x40</value>
@@ -25297,49 +25297,49 @@ needed.</note>
     <record>
       <value>0x41</value>
       <name>textWithoutLanguage</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x42</value>
       <name>nameWithoutLanguage</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x43</value>
       <name>Reserved for future IANA Registration after
 an Expert Review as defined
 in [RFC2911] section 6.3.</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x44</value>
       <name>keyword</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x45</value>
       <name>uri</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x46</value>
       <name>uriScheme</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x47</value>
       <name>charset</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x48</value>
       <name>naturalLanguage</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x49</value>
       <name>mimeMediaType</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x4A</value>
@@ -25350,7 +25350,7 @@ in [RFC2911] section 6.3.</name>
       <value>0x4B-0x5F</value>
       <name>Unassigned - to be for character-string data
 types</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x60-0x7E</value>
@@ -25360,7 +25360,7 @@ types</name>
       <value>0x7F</value>
       <name>For extension using the next 4 octets - see
 Note above.</name>
-      <xref type="rfc" data="rfc2910"/>
+      <xref type="draft" data="RFC-sweet-rfc2910bis-09"/>
     </record>
     <record>
       <value>0x80-0xFF</value>

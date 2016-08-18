@@ -1,8 +1,8 @@
 Value,Name,Reference
-0x10,Unsupported,[RFC2910]
+0x10,Unsupported,[RFC-sweet-rfc2910bis-09]
 0x11,Unassigned,
-0x12,unknown,[RFC2910]
-0x13,no-value,[RFC2910]
+0x12,unknown,[RFC-sweet-rfc2910bis-09]
+0x13,no-value,[RFC-sweet-rfc2910bis-09]
 0x14,Reserved (ipp-col),
 0x15,not-settable,[RFC3380]
 0x16,delete-attribute,[RFC3380]
