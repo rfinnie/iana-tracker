@@ -12,5 +12,5 @@ Bit No,Name,Attribute Flags Path,Attribute Flags Resv,RRO,ERO,Reference
 10,OAM MEP entities desired,Yes,Yes,Yes,No,[RFC7260][RFC7570]
 11,OAM MIP entities desired,Yes,Yes,Yes,No,[RFC7260][RFC7570]
 12,"SRLG collection Flag (TEMPORARY - registered 2014-09-11, extension 
-        registered 2015-08-27, expires 2016-09-11)",Yes,Yes,Yes,No,[draft-ietf-teas-rsvp-te-srlg-collect][RFC7570]
+        registered 2016-08-18, expires 2017-09-11)",Yes,Yes,Yes,No,[draft-ietf-teas-rsvp-te-srlg-collect][RFC7570]
 13,Loopback,Yes,No,Yes,Yes,[RFC7571]
