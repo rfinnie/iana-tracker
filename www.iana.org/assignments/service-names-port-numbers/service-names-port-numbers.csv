@@ -13825,6 +13825,7 @@ aquamon,,,AquaMon,,,,,,,,Defined TXT keys: None
 arcnet,,udp,Arcturus Networks Inc. Hardware Services,[Arcturus_Networks_Inc],[Michael_Durrant],2011-10-20,,,,,Defined TXT keys: None
 arn,,tcp,Active Registry Network for distribution of values and streams,[Mictron],[Michael_Wiklund],2013-10-17,,,,,Defined TXT keys: None
 aroundsound,,,AroundSound's information sharing protocol,[Winzig_LLC],[Around_Sound],2011-10-20,,,,,Defined TXT keys: Proprietary
+aseba,,tcp,protocol for an event-based architecture for distributed control of mobile robots,[Mobsya_Association],[S_Magnenat],2016-08-18,,,,,"Defined TXT keys: txtvers, type, protovers, ids, pids"
 astnotify,,udp,Asterisk Caller-ID Notification Service,[Sven_Slezak],[Sven_Slezak],,,,,,"Defined TXT keys: prefix=<country code prefix> (numeric, additionally '+')"
 astralite,,,Astralite,[Tongji_University],[Tongji_University],,,,,,Defined TXT keys: None
 async,,,address-o-sync,[Markus_Brand],[Markus_Brand],,,,,,Defined TXT keys: None

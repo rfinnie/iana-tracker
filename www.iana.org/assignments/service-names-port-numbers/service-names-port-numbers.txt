@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-08-04
+           2016-08-18
 
    Expert(s)
 
@@ -16824,6 +16824,9 @@ arn                            tcp    distribution of values and   [Mictron]    
                                       streams
 aroundsound                           AroundSound's information    [Winzig_LLC]                                          [Around_Sound]                                            2011-10-20                                                                        Defined TXT keys: Proprietary
                                       sharing protocol
+                                      protocol for an event-based
+aseba                          tcp    architecture for distributed [Mobsya_Association]                                  [S_Magnenat]                                              2016-08-18                                                                        Defined TXT keys: txtvers, type, protovers, ids, pids
+                                      control of mobile robots
 astnotify                      udp    Asterisk Caller-ID           [Sven_Slezak]                                         [Sven_Slezak]                                                                                                                               Defined TXT keys: prefix=<country code prefix> (numeric,
                                       Notification Service                                                                                                                                                                                                           additionally '+')
 astralite                             Astralite                    [Tongji_University]                                   [Tongji_University]                                                                                                                         Defined TXT keys: None
@@ -21679,6 +21682,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Mitsuo_Kodama]                                           Mitsuo Kodama                                   mailto:kodama&jbmia.or.jp                                     2005-06
 [Miva_Corporation]                                        Miva Corporation                                mailto:jwoods&miva.com.au
 [MJA_Technology_LLC]                                                                MJA Technology LLC    mailto:markapp&roadrunner.com                                 2014-04-23
+[Mobsya_Association]                                                                Mobsya Association    mailto:stephane.magnenat&mobsya.org                           2016-08-18
 [modbus.org]                                                                        modbus.org            mailto:rbelliardi&modbus.org                                  2014-06-10
 [Mogeneti]                                                                          Mogeneti              mailto:serveradmin&mogeneti.com                               2012-09-26
 [Mohsen_Banan]                                            Mohsen Banan                                    mailto:mohsen&rostam.neda.com
@@ -22879,6 +22883,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stephane_Beaulieu]                                       Stephane Beaulieu                               mailto:stephane&cisco.com                                     2002-02
 [Stephane_Bourque]                                        Stephane Bourque                                mailto:stephb&incognito.com
 [Stephane_Bourque_2]                                      Stephane Bourque                                mailto:sbourque&arilia.com
+[S_Magnenat]                                              Stéphane Magnenat                              mailto:stephane.magnenat&mobsya.org                           2016-08-18
 [Stephane_MONS]                                           Stéphane MONS                                  mailto:stephane.mons&free.fr                                  2005-09
 [Stephane_Touizer]                                        Stephane Touizer                                mailto:touizer&microcaptrade.com                              2006-05
 [Stephen_Aikins]                                          Stephen Aikins                                  mailto:stephen.aikins&embarcadero.com
