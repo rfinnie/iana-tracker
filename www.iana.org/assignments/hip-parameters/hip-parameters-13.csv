@@ -1,5 +1,12 @@
 Value,Registration Failure Type,Reference
-0,Registration requires additional credentials,[RFC5203]
-1,Registration type unavailable,[RFC5203]
-2-200,Unassigned,
-201-255,Reserved for Private Use,[RFC5203]
+0,Registration requires additional credentials,[RFC-ietf-hip-rfc5203-bis-11]
+1,Registration type unavailable,[RFC-ietf-hip-rfc5203-bis-11]
+2,Insufficient resources,[RFC-ietf-hip-rfc5203-bis-11]
+3,Invalid certificate,[RFC-ietf-hip-rfc5203-bis-11]
+4,Bad certificate,[RFC-ietf-hip-rfc5203-bis-11]
+5,Unsupported certificate,[RFC-ietf-hip-rfc5203-bis-11]
+6,Certificate expired,[RFC-ietf-hip-rfc5203-bis-11]
+7,Certificate other,[RFC-ietf-hip-rfc5203-bis-11]
+8,Unknown CA,[RFC-ietf-hip-rfc5203-bis-11]
+9-200,Unassigned,
+201-255,Reserved for Private Use,[RFC-ietf-hip-rfc5203-bis-11]
