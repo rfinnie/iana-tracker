@@ -28,7 +28,7 @@ syntax",[RFC2750]
 18,Reservation Style was rejected,[RFC2750]
 19,FlowSpec was rejected (too large),[RFC2750]
 20,Hard Pre-empted,[RFC4872]
-21,"SRLG Recording Rejected (TEMPORARY - registered 2014-09-11, extension registered 2015-08-27, expires 2016-09-11)",[draft-ietf-teas-rsvp-te-srlg-collect]
+21,"SRLG Recording Rejected (TEMPORARY - registered 2014-09-11, extension registered 2016-08-18, expires 2017-09-11)",[draft-ietf-teas-rsvp-te-srlg-collect]
 22-99,Unassigned,
 100,Unauthorized sender,[RFC3476]
 101,Unauthorized receiver,[RFC3476]
