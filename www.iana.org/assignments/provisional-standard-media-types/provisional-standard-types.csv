@@ -1,4 +1,5 @@
 Media Type,Organization,Contact
+application/route-s-tsid+xml,Advanced Television Systems Committee (ATSC),[Mike_Dolan][ATSC_Editor]
 application/dicom+json,DICOM Standards Committee,[David_Clunie][James_F_Philbin]
 application/dicom+xml,DICOM Standards Committee,[David_Clunie][James_F_Philbin]
 application/passport,IETF,[draft-ietf-stir-passport]
