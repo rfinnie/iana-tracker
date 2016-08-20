@@ -3,4 +3,4 @@ Value,Registration Type,Reference
 1,RENDEZVOUS,[RFC-ietf-hip-rfc5204-bis-08]
 2,RELAY_UDP_HIP,[RFC5770]
 3-200,Unassigned,
-201-255,Reserved for Private Use,[RFC5203]
+201-255,Reserved for Private Use,[RFC-ietf-hip-rfc5203-bis-11]
