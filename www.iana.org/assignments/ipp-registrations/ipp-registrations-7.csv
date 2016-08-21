@@ -1,10 +1,10 @@
 Value,Name,Reference
 0x00,Unassigned,
-0x01,"""operation-attributes-tag""",[RFC2910]
-0x02,"""job-attributes-tag""",[RFC2910]
-0x03,"""end-of-attributes-tag""",[RFC2910]
-0x04,"""printer-attributes-tag""",[RFC2910]
-0x05,"""unsupported-attributes-tag""",[RFC2910]
+0x01,"""operation-attributes-tag""",[RFC-sweet-rfc2910bis-09]
+0x02,"""job-attributes-tag""",[RFC-sweet-rfc2910bis-09]
+0x03,"""end-of-attributes-tag""",[RFC-sweet-rfc2910bis-09]
+0x04,"""printer-attributes-tag""",[RFC-sweet-rfc2910bis-09]
+0x05,"""unsupported-attributes-tag""",[RFC-sweet-rfc2910bis-09]
 0x06,"""subscription-attributes-tag""",[RFC3995]
 0x07,"""event-notification-attributes-tag""",[RFC3995]
 0x08,Reserved (ipp-get-resources),
