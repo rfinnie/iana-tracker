@@ -3,6 +3,7 @@ Protocol,Description,Reference
 0x001,RBridge Channel Error,[RFC7178]
 0x002,BFD Control,[RFC7175]
 0x003,BFD Echo,[RFC7175]
-0x004-0xFF7,Unassigned,
+0x004,RBridge Channel Extension,[RFC-ietf-trill-channel-tunnel-11]
+0x005-0xFF7,Unassigned,
 0xFF8-0xFFE,Reserved for Private Use,[RFC7178]
 0xFFF,Reserved,[RFC7178]
