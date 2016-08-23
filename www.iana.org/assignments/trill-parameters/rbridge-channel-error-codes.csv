@@ -5,5 +5,8 @@ Value,RBridge Channel Error Code Meaning,Reference
 3,Unimplemented value of CHV,[RFC7178]
 4,Wrong value of NA flag,[RFC7178]
 5,Channel Protocol is reserved or unimplemented,[RFC7178]
-6-14,Unassigned,
+6,Unknown or unsupported field value,[RFC-ietf-trill-channel-tunnel-11]
+7,Authentication failure,[RFC-ietf-trill-channel-tunnel-11]
+8,Error in nested RBridge Channel message,[RFC-ietf-trill-channel-tunnel-11]
+9-14,Unassigned,
 15,Reserved (see Note),[RFC7178]
