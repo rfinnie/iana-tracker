@@ -1,5 +1,3 @@
 Use Member Value,Use Description,Change Controller,Reference
-sig,Digital Signature or MAC,[IESG],"[
-        RFC7517, Section 4.2]"
-enc,Encryption,[IESG],"[
-        RFC7517, Section 4.2]"
+sig,Digital Signature or MAC,[IESG],"[RFC7517, Section 4.2]"
+enc,Encryption,[IESG],"[RFC7517, Section 4.2]"
