@@ -36,7 +36,7 @@ Decimal,Message,Reference
 46-49,Unassigned,
 50,IP-Address-Allocate,[RFC3575]
 51,IP-Address-Release,[RFC3575]
-52,Protocol-Error,[RFC-ietf-radext-bigger-packets-07]
+52,Protocol-Error,[RFC7930]
 53-249,Unassigned,
 250-253,Experimental Use,[RFC3575]
 254,Reserved,[RFC3575]

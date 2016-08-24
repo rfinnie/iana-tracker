@@ -1,7 +1,8 @@
 Curve Name,Curve Description,JOSE Implementation Requirements,Change Controller,Reference
-P-256,P-256 Curve,Recommended+,[IESG],"[
-        RFC7518, Section 6.2.1.1]"
-P-384,P-384 Curve,Optional,[IESG],"[
-        RFC7518, Section 6.2.1.1]"
-P-521,P-521 Curve,Optional,[IESG],"[
-        RFC7518, Section 6.2.1.1]"
+P-256,P-256 Curve,Recommended+,[IESG],"[RFC7518, Section 6.2.1.1]"
+P-384,P-384 Curve,Optional,[IESG],"[RFC7518, Section 6.2.1.1]"
+P-521,P-521 Curve,Optional,[IESG],"[RFC7518, Section 6.2.1.1]"
+Ed25519,Ed25519 signature algorithm keypairs,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3]"
+Ed448,Ed448 signature algorithm keypairs,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3]"
+X25519,X25519 function keypairs,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3.2]"
+X448,X448 function keypairs,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3.2]"

@@ -52,7 +52,8 @@ Range/Value,E,Description,Reference
 0x00000032,1,Transport Connection Mismatch,[RFC7552]
 0x00000033,1,Dual-Stack Noncompliance,[RFC7552]
 0x00000034,0,"MRT Capability negotiated without MT Capability 
-        (TEMPORARY - registered 2015-10-01, expires 2016-10-01)",[draft-ietf-mpls-ldp-mrt]
+        (TEMPORARY - registered 2015-10-01, 
+        extension registered 2016-08-18, expires 2017-10-01)",[draft-ietf-mpls-ldp-mrt]
 0x00000035,0,VCCV Type Error,[RFC7708]
 0x00000036,,Unassigned,
 0x00000037,0,Bandwidth resources unavailable,[RFC7267]

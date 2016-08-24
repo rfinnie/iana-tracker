@@ -17,4 +17,4 @@ Value,Description,Reference
 507,Request Initiated,[RFC5176]
 508,Multiple Session Selection Unsupported,[RFC5176]
 509,Location-Info-Required,[RFC5580]
-601,Response Too Big,[RFC-ietf-radext-bigger-packets-07]
+601,Response Too Big,[RFC7930]

@@ -1,7 +1,7 @@
                                                    Resource Reservation Protocol (RSVP) Parameters
 
    Last Updated
-           2016-08-09
+           2016-08-18
 
    Note
 
@@ -756,8 +756,8 @@ Class Names, Class Numbers, and Class Types
      4   Unnumbered Interface ID                                                                             [RFC3477]
      5   RRO Attributes                                                                                      [RFC5420]
    6-33  Unassigned
-    34   SRLG sub-object (TEMPORARY - registered 2014-09-11, extension registered 2015-08-27, expires        [draft-ietf-teas-rsvp-te-srlg-collect]
-         2016-09-11)
+    34   SRLG sub-object (TEMPORARY - registered 2014-09-11, extension registered 2016-08-18, expires        [draft-ietf-teas-rsvp-te-srlg-collect]
+         2017-09-11)
     35   Hop Attributes                                                                                      [RFC7570]
     36   SR-RRO (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)     [draft-ietf-pce-segment-routing]
     37   Reserved                                                                                            [RFC4873]
@@ -1870,8 +1870,8 @@ Error Codes and Globally-Defined Error Value Sub-Codes
     18   Reservation Style was rejected                                                                      [RFC2750]
     19   FlowSpec was rejected (too large)                                                                   [RFC2750]
     20   Hard Pre-empted                                                                                     [RFC4872]
-    21   SRLG Recording Rejected (TEMPORARY - registered 2014-09-11, extension registered 2015-08-27,        [draft-ietf-teas-rsvp-te-srlg-collect]
-         expires 2016-09-11)
+    21   SRLG Recording Rejected (TEMPORARY - registered 2014-09-11, extension registered 2016-08-18,        [draft-ietf-teas-rsvp-te-srlg-collect]
+         expires 2017-09-11)
    22-99 Unassigned
     100  Unauthorized sender                                                                                 [RFC3476]
     101  Unauthorized receiver                                                                               [RFC3476]
