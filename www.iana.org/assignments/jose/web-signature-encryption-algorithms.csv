@@ -1,73 +1,38 @@
 Algorithm Name,Algorithm Description,Algorithm Usage Location(s),JOSE Implementation Requirements,Change Controller,Reference,Algorithm Analysis Document(s)
-HS256,HMAC using SHA-256,alg,Required,[IESG],"[
-        RFC7518, Section 3.2]",n/a
-HS384,HMAC using SHA-384,alg,Optional,[IESG],"[
-        RFC7518, Section 3.2]",n/a
-HS512,HMAC using SHA-512,alg,Optional,[IESG],"[
-        RFC7518, Section 3.2]",n/a
-RS256,RSASSA-PKCS1-v1_5 using SHA-256,alg,Recommended,[IESG],"[
-        RFC7518, Section 3.3]",n/a
-RS384,RSASSA-PKCS1-v1_5 using SHA-384,alg,Optional,[IESG],"[
-        RFC7518, Section 3.3]",n/a
-RS512,RSASSA-PKCS1-v1_5 using SHA-512,alg,Optional,[IESG],"[
-        RFC7518, Section 3.3]",n/a
-ES256,ECDSA using P-256 and SHA-256,alg,Recommended+,[IESG],"[
-        RFC7518, Section 3.4]",n/a
-ES384,ECDSA using P-384 and SHA-384,alg,Optional,[IESG],"[
-        RFC7518, Section 3.4]",n/a
-ES512,ECDSA using P-521 and SHA-512,alg,Optional,[IESG],"[
-        RFC7518, Section 3.4]",n/a
-PS256,RSASSA-PSS using SHA-256 and MGF1 with SHA-256,alg,Optional,[IESG],"[
-        RFC7518, Section 3.5]",n/a
-PS384,RSASSA-PSS using SHA-384 and MGF1 with SHA-384,alg,Optional,[IESG],"[
-        RFC7518, Section 3.5]",n/a
-PS512,RSASSA-PSS using SHA-512 and MGF1 with SHA-512,alg,Optional,[IESG],"[
-        RFC7518, Section 3.5]",n/a
-none,No digital signature or MAC performed,alg,Optional,[IESG],"[
-        RFC7518, Section 3.6]",n/a
-RSA1_5,RSAES-PKCS1-v1_5,alg,Recommended-,[IESG],"[
-        RFC7518, Section 4.2]",n/a
-RSA-OAEP,RSAES OAEP using default parameters,alg,Recommended+,[IESG],"[
-        RFC7518, Section 4.3]",n/a
-RSA-OAEP-256,RSAES OAEP using SHA-256 and MGF1 with SHA-256,alg,Optional,[IESG],"[
-        RFC7518, Section 4.3]",n/a
-A128KW,AES Key Wrap using 128-bit key,alg,Recommended,[IESG],"[
-        RFC7518, Section 4.4]",n/a
-A192KW,AES Key Wrap using 192-bit key,alg,Optional,[IESG],"[
-        RFC7518, Section 4.4]",n/a
-A256KW,AES Key Wrap using 256-bit key,alg,Recommended,[IESG],"[
-        RFC7518, Section 4.4]",n/a
-dir,Direct use of a shared symmetric key,alg,Recommended,[IESG],"[
-        RFC7518, Section 4.5]",n/a
-ECDH-ES,ECDH-ES using Concat KDF,alg,Recommended+,[IESG],"[
-        RFC7518, Section 4.6]",n/a
-ECDH-ES+A128KW,"ECDH-ES using Concat KDF and ""A128KW"" wrapping",alg,Recommended,[IESG],"[
-        RFC7518, Section 4.6]",n/a
-ECDH-ES+A192KW,"ECDH-ES using Concat KDF and ""A192KW"" wrapping",alg,Optional,[IESG],"[
-        RFC7518, Section 4.6]",n/a
-ECDH-ES+A256KW,"ECDH-ES using Concat KDF and ""A256KW"" wrapping",alg,Recommended,[IESG],"[
-        RFC7518, Section 4.6]",n/a
-A128GCMKW,Key wrapping with AES GCM using 128-bit key,alg,Optional,[IESG],"[
-        RFC7518, Section 4.7]",n/a
-A192GCMKW,Key wrapping with AES GCM using 192-bit key,alg,Optional,[IESG],"[
-        RFC7518, Section 4.7]",n/a
-A256GCMKW,Key wrapping with AES GCM using 256-bit key,alg,Optional,[IESG],"[
-        RFC7518, Section 4.7]",n/a
-PBES2-HS256+A128KW,"PBES2 with HMAC SHA-256 and ""A128KW"" wrapping",alg,Optional,[IESG],"[
-        RFC7518, Section 4.8]",n/a
-PBES2-HS384+A192KW,"PBES2 with HMAC SHA-384 and ""A192KW"" wrapping",alg,Optional,[IESG],"[
-        RFC7518, Section 4.8]",n/a
-PBES2-HS512+A256KW,"PBES2 with HMAC SHA-512 and ""A256KW"" wrapping",alg,Optional,[IESG],"[
-        RFC7518, Section 4.8]",n/a
-A128CBC-HS256,AES_128_CBC_HMAC_SHA_256 authenticated encryption algorithm,enc,Required,[IESG],"[
-        RFC7518, Section 5.2.3]",n/a
-A192CBC-HS384,AES_192_CBC_HMAC_SHA_384 authenticated encryption algorithm,enc,Optional,[IESG],"[
-        RFC7518, Section 5.2.4]",n/a
-A256CBC-HS512,AES_256_CBC_HMAC_SHA_512 authenticated encryption algorithm,enc,Required,[IESG],"[
-        RFC7518, Section 5.2.5]",n/a
-A128GCM,AES GCM using 128-bit key,enc,Recommended,[IESG],"[
-        RFC7518, Section 5.3]",n/a
-A192GCM,AES GCM using 192-bit key,enc,Optional,[IESG],"[
-        RFC7518, Section 5.3]",n/a
-A256GCM,AES GCM using 256-bit key,enc,Recommended,[IESG],"[
-        RFC7518, Section 5.3]",n/a
+HS256,HMAC using SHA-256,alg,Required,[IESG],"[RFC7518, Section 3.2]",n/a
+HS384,HMAC using SHA-384,alg,Optional,[IESG],"[RFC7518, Section 3.2]",n/a
+HS512,HMAC using SHA-512,alg,Optional,[IESG],"[RFC7518, Section 3.2]",n/a
+RS256,RSASSA-PKCS1-v1_5 using SHA-256,alg,Recommended,[IESG],"[RFC7518, Section 3.3]",n/a
+RS384,RSASSA-PKCS1-v1_5 using SHA-384,alg,Optional,[IESG],"[RFC7518, Section 3.3]",n/a
+RS512,RSASSA-PKCS1-v1_5 using SHA-512,alg,Optional,[IESG],"[RFC7518, Section 3.3]",n/a
+ES256,ECDSA using P-256 and SHA-256,alg,Recommended+,[IESG],"[RFC7518, Section 3.4]",n/a
+ES384,ECDSA using P-384 and SHA-384,alg,Optional,[IESG],"[RFC7518, Section 3.4]",n/a
+ES512,ECDSA using P-521 and SHA-512,alg,Optional,[IESG],"[RFC7518, Section 3.4]",n/a
+PS256,RSASSA-PSS using SHA-256 and MGF1 with SHA-256,alg,Optional,[IESG],"[RFC7518, Section 3.5]",n/a
+PS384,RSASSA-PSS using SHA-384 and MGF1 with SHA-384,alg,Optional,[IESG],"[RFC7518, Section 3.5]",n/a
+PS512,RSASSA-PSS using SHA-512 and MGF1 with SHA-512,alg,Optional,[IESG],"[RFC7518, Section 3.5]",n/a
+none,No digital signature or MAC performed,alg,Optional,[IESG],"[RFC7518, Section 3.6]",n/a
+RSA1_5,RSAES-PKCS1-v1_5,alg,Recommended-,[IESG],"[RFC7518, Section 4.2]",n/a
+RSA-OAEP,RSAES OAEP using default parameters,alg,Recommended+,[IESG],"[RFC7518, Section 4.3]",n/a
+RSA-OAEP-256,RSAES OAEP using SHA-256 and MGF1 with SHA-256,alg,Optional,[IESG],"[RFC7518, Section 4.3]",n/a
+A128KW,AES Key Wrap using 128-bit key,alg,Recommended,[IESG],"[RFC7518, Section 4.4]",n/a
+A192KW,AES Key Wrap using 192-bit key,alg,Optional,[IESG],"[RFC7518, Section 4.4]",n/a
+A256KW,AES Key Wrap using 256-bit key,alg,Recommended,[IESG],"[RFC7518, Section 4.4]",n/a
+dir,Direct use of a shared symmetric key,alg,Recommended,[IESG],"[RFC7518, Section 4.5]",n/a
+ECDH-ES,ECDH-ES using Concat KDF,alg,Recommended+,[IESG],"[RFC7518, Section 4.6]",n/a
+ECDH-ES+A128KW,"ECDH-ES using Concat KDF and ""A128KW"" wrapping",alg,Recommended,[IESG],"[RFC7518, Section 4.6]",n/a
+ECDH-ES+A192KW,"ECDH-ES using Concat KDF and ""A192KW"" wrapping",alg,Optional,[IESG],"[RFC7518, Section 4.6]",n/a
+ECDH-ES+A256KW,"ECDH-ES using Concat KDF and ""A256KW"" wrapping",alg,Recommended,[IESG],"[RFC7518, Section 4.6]",n/a
+A128GCMKW,Key wrapping with AES GCM using 128-bit key,alg,Optional,[IESG],"[RFC7518, Section 4.7]",n/a
+A192GCMKW,Key wrapping with AES GCM using 192-bit key,alg,Optional,[IESG],"[RFC7518, Section 4.7]",n/a
+A256GCMKW,Key wrapping with AES GCM using 256-bit key,alg,Optional,[IESG],"[RFC7518, Section 4.7]",n/a
+PBES2-HS256+A128KW,"PBES2 with HMAC SHA-256 and ""A128KW"" wrapping",alg,Optional,[IESG],"[RFC7518, Section 4.8]",n/a
+PBES2-HS384+A192KW,"PBES2 with HMAC SHA-384 and ""A192KW"" wrapping",alg,Optional,[IESG],"[RFC7518, Section 4.8]",n/a
+PBES2-HS512+A256KW,"PBES2 with HMAC SHA-512 and ""A256KW"" wrapping",alg,Optional,[IESG],"[RFC7518, Section 4.8]",n/a
+A128CBC-HS256,AES_128_CBC_HMAC_SHA_256 authenticated encryption algorithm,enc,Required,[IESG],"[RFC7518, Section 5.2.3]",n/a
+A192CBC-HS384,AES_192_CBC_HMAC_SHA_384 authenticated encryption algorithm,enc,Optional,[IESG],"[RFC7518, Section 5.2.4]",n/a
+A256CBC-HS512,AES_256_CBC_HMAC_SHA_512 authenticated encryption algorithm,enc,Required,[IESG],"[RFC7518, Section 5.2.5]",n/a
+A128GCM,AES GCM using 128-bit key,enc,Recommended,[IESG],"[RFC7518, Section 5.3]",n/a
+A192GCM,AES GCM using 192-bit key,enc,Optional,[IESG],"[RFC7518, Section 5.3]",n/a
+A256GCM,AES GCM using 256-bit key,enc,Recommended,[IESG],"[RFC7518, Section 5.3]",n/a
+EdDSA,EdDSA signature algorithms,alg,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3.1]",[draft-irtf-cfrg-eddsa]
