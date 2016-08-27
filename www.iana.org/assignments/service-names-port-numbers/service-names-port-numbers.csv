@@ -14068,7 +14068,8 @@ homeauto,,,iDo Technology Home Automation Protocol,[Tony_de_Rijk],[Tony_de_Rijk]
 homeconnect,,tcp,Home Connect Protocol,[BSH_Bosch_und_Siemens_Hausgeraete_GmbH],[Jens_Clauss],2013-06-11,,,,,Defined TXT keys: txtvers + Proprietary
 honeywell-vid,,udp,Honeywell Video Systems,[Shankar_Prasad],[Shankar_Prasad],,,,,,Defined TXT keys: None
 hotwayd,,,Hotwayd,,,,,,,,Defined TXT keys: None
-howdy,,,Howdy messaging and notification protocol,[Ozate_Inc],[Joseph_Sickel],,2011-10-12,,,,Defined TXT keys: None
+howdy,,,Howdy messaging and notification protocol,[Ozate_Inc],[Joseph_Sickel],,2011-10-12,,,,Defined TXT keys: vers
+hpdeviceinfo,,tcp,The service provides information about connected HP devices,[HP_Inc],[Sanjay_Kumar],2016-08-26,,,,,Defined TXT keys: vers=<version>
 hpr-bldlnx,,,HP Remote Build System for Linux-based Systems,[Jeffrey_J_Walls],[Jeffrey_J_Walls],,,,,,"Defined TXT keys: rh73, rhel3, rhel4, deb31, suse102"
 hpr-bldwin,,,HP Remote Build System for Microsoft Windows Systems,[Jeffrey_J_Walls],[Jeffrey_J_Walls],,,,,,"Defined TXT keys: xp, vista"
 hpr-db,,,Identifies systems that house databases for the Remote Build System and Remote Test System,[Jeffrey_J_Walls],[Jeffrey_J_Walls],,,,,,"Defined TXT keys: bld, tst, mstr"
