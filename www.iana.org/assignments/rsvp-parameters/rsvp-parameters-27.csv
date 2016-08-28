@@ -5,7 +5,7 @@ Value,Description,Reference
 4,Unnumbered Interface ID,[RFC3477]
 5,RRO Attributes,[RFC5420]
 6-33,Unassigned,
-34,"SRLG sub-object (TEMPORARY - registered 2014-09-11, extension registered 2016-08-18, expires 2017-09-11)",[draft-ietf-teas-rsvp-te-srlg-collect]
+34,SRLG sub-object,[RFC-ietf-teas-rsvp-te-srlg-collect-08]
 35,Hop Attributes,[RFC7570]
 36,"SR-RRO (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 37,Reserved,[RFC4873]
