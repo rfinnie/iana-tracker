@@ -13,5 +13,5 @@ for the sent video, see clause 6.2.3.4",[Specifications_Manager_3GPP],"[3GPP TS 
 urn:3gpp:predefined-roi-sent,"Signalling of the predefined region-of-interest (ROI) information
 for the sent video, see clause 6.2.3.4",[Specifications_Manager_3GPP],"[3GPP TS 26.114, version 13.1.0]"
 urn:ietf:params:rtp-hdrext:sdes,"Reserved as base URN for RTCP SDES items that are also 
-        defined as RTP Compact header extensions.",Authors of [RFC-ietf-avtext-sdes-hdr-ext-07],[RFC-ietf-avtext-sdes-hdr-ext-07]
+        defined as RTP compact header extensions.",Authors of [RFC-ietf-avtext-sdes-hdr-ext-07],[RFC-ietf-avtext-sdes-hdr-ext-07]
 urn:ietf:params:rtp-hdrext:splicing-interval,Splicing Interval,[Jinwei_Xia],[RFC-ietf-avtext-splicing-notification-09]
