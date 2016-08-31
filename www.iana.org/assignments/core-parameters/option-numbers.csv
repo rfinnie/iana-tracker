@@ -19,10 +19,10 @@ Number,Name,Reference
 18-19,Unassigned,
 20,Location-Query,[RFC7252]
 21-22,Unassigned,
-23,Block2,[RFC-ietf-core-block-21]
+23,Block2,[RFC7959]
 24-26,Unassigned,
-27,Block1,[RFC-ietf-core-block-21]
-28,Size2,[RFC-ietf-core-block-21]
+27,Block1,[RFC7959]
+28,Size2,[RFC7959]
 29-34,Unassigned,
 35,Proxy-Uri,[RFC7252]
 36-38,Unassigned,
