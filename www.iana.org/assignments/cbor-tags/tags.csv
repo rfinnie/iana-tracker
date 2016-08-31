@@ -35,4 +35,6 @@ Tag,Data Item,Semantics,Reference
 22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann]
 22099-55798,Unassigned,,
 55799,multiple,Self-describe CBOR; see Section 2.4.5,[RFC7049]
-55800-18446744073709551615,Unassigned,,
+55800-15309735,Unassigned,,
+15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell]
+15309737-18446744073709551615,Unassigned,,

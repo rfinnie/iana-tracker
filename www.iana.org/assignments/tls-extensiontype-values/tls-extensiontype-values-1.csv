@@ -9,7 +9,7 @@ Value,Extension name,Reference
 7,client_authz,[RFC5878]
 8,server_authz,[RFC5878]
 9,cert_type,[RFC6091]
-10,"supported_groups (renamed from ""elliptic_curves"")",[RFC4492][RFC-ietf-tls-negotiated-ff-dhe-10]
+10,"supported_groups (renamed from ""elliptic_curves"")",[RFC4492][RFC7919]
 11,ec_point_formats,[RFC4492]
 12,srp,[RFC5054]
 13,signature_algorithms,[RFC5246]

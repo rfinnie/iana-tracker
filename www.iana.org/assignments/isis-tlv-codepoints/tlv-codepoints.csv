@@ -106,7 +106,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 238-239,Unassigned,,,,,
 240,P2P 3-Way Adj. State,y,n,n,n,[RFC5303]
 241,Unassigned,,,,,
-242,IS-IS Router CAPABILITY TLV,n,y,n,n,[RFC4971]
+242,IS-IS Router CAPABILITY TLV,n,y,n,n,[RFC-ietf-isis-rfc4971bis-04]
 243,Scope Flooding Support,y,n,n,n,[RFC7356]
 244-250,Unassigned,,,,,
 251,Generic Information,n,y,n,n,[RFC6823]

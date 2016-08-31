@@ -9,7 +9,7 @@ Type,Name,Reference
 7,TENANT-GWMAC-LABEL,[RFC-ietf-trill-irb-14]
 8,IPV4-PREFIX,[RFC-ietf-trill-irb-14]
 9,IPV6-PREFIX,[RFC-ietf-trill-irb-14]
-10,IA,[RFC-ietf-trill-ia-appsubtlv-09]
+10,IA,[RFC7961]
 11,Tree and VLANs,[RFC-ietf-trill-tree-selection-05]
 12,Tree and VLANs Used,[RFC-ietf-trill-tree-selection-05]
 13,Tree and FGLs,[RFC-ietf-trill-tree-selection-05]
