@@ -15,4 +15,5 @@ Sub-Type Value,Name,Reference,Date
 0x10,Cisco VPN-Distinguisher,[Eric_Rosen],2012-04-10
 0x11,Unassigned,,
 0x12,Inter-Area P2MP Segmented Next-Hop,[RFC7524],2014-01-08
-0x13-0xff,Unassigned,,
+0x13,Route-Target Record,[draft-ietf-bess-service-chaining],2016-08-29
+0x14-0xff,Unassigned,,
