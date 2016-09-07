@@ -1,5 +1,6 @@
 "ID",URI,Filename,Reference
 basic-location-profiles,urn:ietf:params:xml:schema:basic-location-profiles,schema/basic-location-profiles.xsd,[RFC6772]
+clue-info,urn:ietf:params:xml:schema:clue-info,schema/clue-info.xsd,[RFC-ietf-clue-data-model-schema-17]
 common-policy,urn:ietf:params:xml:ns:common-policy,schema/common-policy.xsd,[RFC4745]
 conference-info,urn:ietf:params:xml:schema:conference-info,schema/conference-info.xsd,[RFC4575]
 consent-rules,urn:ietf:params:xml:schema:consent-rules,schema/consent-rules.xsd,[RFC5361]
