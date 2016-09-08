@@ -33,7 +33,7 @@ Value,Parameter Type,Length,Reference
 706-714,Unassigned,,
 715,HIT_SUITE_LIST,variable,[RFC7401]
 716-767,Unassigned,,
-768,CERT,variable,[RFC7401][RFC6253]
+768,CERT,variable,[RFC7401][RFC-ietf-hip-rfc6253-bis-09]
 769-831,Unassigned,,
 832,NOTIFICATION,variable,[RFC7401]
 833-896,Unassigned,,

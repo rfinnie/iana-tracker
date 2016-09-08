@@ -6,7 +6,7 @@ Code,Description,Reference
 2.04,Changed,[RFC7252]
 2.05,Content,[RFC7252]
 2.06-2.30,Unassigned,
-2.31,Continue,[RFC-ietf-core-block-21]
+2.31,Continue,[RFC7959]
 3.00-3.31,Reserved,[RFC7252]
 4.00,Bad Request,[RFC7252]
 4.01,Unauthorized,[RFC7252]
@@ -16,7 +16,7 @@ Code,Description,Reference
 4.05,Method Not Allowed,[RFC7252]
 4.06,Not Acceptable,[RFC7252]
 4.07,Unassigned,
-4.08,Request Entity Incomplete,[RFC-ietf-core-block-21]
+4.08,Request Entity Incomplete,[RFC7959]
 4.09-4.11,Unassigned,
 4.12,Precondition Failed,[RFC7252]
 4.13,Request Entity Too Large,[RFC7252]

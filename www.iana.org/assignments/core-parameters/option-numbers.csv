@@ -38,6 +38,6 @@ Number,Name,Reference
 137-139,Unassigned,
 140,Reserved,[RFC7252]
 141-257,Unassigned,
-258,No-Response,[RFC-tcs-coap-no-response-option-17]
+258,No-Response,[RFC7967]
 259-64999,Unassigned,
 65000-65535,Reserved for Experimental Use,[RFC7252]

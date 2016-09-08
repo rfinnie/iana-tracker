@@ -1,3 +1,3 @@
 Schedule Force Send,Status,Reference
-REQUEST,Current,[RFC6638] Section 7.2
-REPLY,Current,[RFC6638] Section 7.2
+REQUEST,Current,"[RFC6638], Section 7.2"
+REPLY,Current,"[RFC6638], Section 7.2"

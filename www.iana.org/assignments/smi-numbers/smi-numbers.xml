@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2016-07-18</updated>
+  <updated>2016-09-02</updated>
   
  
   
@@ -1380,7 +1380,7 @@ The network management object identifiers are under the iso (1), org
         <value>213</value>
         <name>nhdpMIB</name>
         <description>NHDP-MIB</description>
-        <xref type="draft" data="RFC-ietf-manet-rfc6779bis-07"/>
+        <xref type="rfc" data="rfc7939"/>
       </record>
       <record>
         <value>214</value>
@@ -7532,7 +7532,7 @@ Access Beyond web</description>
       <record updated="2016-07-18">
         <value>70</value>
         <description>id-mod-dns-resource-record</description>
-        <xref type="draft" data="RFC-jabley-dnssec-trust-anchor-16"/>
+        <xref type="rfc" data="rfc7958"/>
       </record>
       <record>
         <value>71</value>
@@ -10603,6 +10603,14 @@ TESTING.
     <registration_rule>Not Defined ?</registration_rule>
     <description>iso.org.dod.internet.features (1.3.6.1.8)</description>
     <note>See <xref type="registry" data="media-feature-tags"/></note>
+  </registry>
+  <registry id="private-enterprise-numbers">
+    <title>SMI Network Management Private Enterprise Codes (PEN)</title>
+    <xref type="rfc" data="rfc1157"/>
+    <xref type="rfc" data="rfc1213"/>
+    <description>iso.org.dod.internet.private.enterprise (1.3.6.1.4.1)</description>
+    <note>Registry List: <xref type="uri" data="http://www.iana.org/assignments/enterprise-numbers"/></note>
+    <registration_rule>First Come First Served</registration_rule>
   </registry>
   <people>
     <person id="Andrew_Lunn">
