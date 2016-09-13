@@ -11639,8 +11639,8 @@ openqueue,8764,tcp,OPENQUEUE,[Matt_Jensen],[Matt_Jensen],,,,,,
 openqueue,8764,udp,OPENQUEUE,[Matt_Jensen],[Matt_Jensen],,,,,,
 ultraseek-http,8765,tcp,Ultraseek HTTP,[Walter_Underwood],[Walter_Underwood],,,,,,
 ultraseek-http,8765,udp,Ultraseek HTTP,[Walter_Underwood],[Walter_Underwood],,,,,,
-amcs,8766,tcp,Agilent Connectivity Service,[Agilent_Technologies_Inc],[Tom_Fay],2013-01-16,,,,,
-amcs,8766,udp,Agilent Connectivity Service,[Agilent_Technologies_Inc],[Tom_Fay],2013-01-16,,,,,
+amcs,8766,tcp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
+amcs,8766,udp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
 ,8767-8769,,Unassigned,,,,,,,,
 dpap,8770,tcp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 dpap,8770,udp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
