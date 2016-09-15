@@ -1,4 +1,4 @@
 Bit,Mnemonic,Description,Reference
 0,IN,Used as ingress,[RFC7780]
-1,SE,Inter-Subnet Egress,[RFC-ietf-trill-irb-14]
+1,SE,Inter-Subnet Egress,[RFC7956]
 2-15,,Unassigned,
