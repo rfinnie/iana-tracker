@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-09-13
+           2016-09-15
 
    Expert(s)
 
@@ -12884,8 +12884,9 @@ smc-admin          6787        tcp    Sun Web Console Admin        [Bill_Edwards
 smc-admin          6787        udp    Sun Web Console Admin        [Bill_Edwards]                                        [Bill_Edwards]                                            2005-08
 smc-http           6788        tcp    SMC-HTTP                     [Ratnadeep_Bhattachar]                                [Ratnadeep_Bhattachar]                                    2002-11
 smc-http           6788        udp    SMC-HTTP                     [Ratnadeep_Bhattachar]                                [Ratnadeep_Bhattachar]                                    2002-11
-smc-https          6789        tcp    SMC-HTTPS                    [Ratnadeep_Bhattachar]                                [Ratnadeep_Bhattachar]                                    2002-08
-smc-https          6789        udp    SMC-HTTPS                    [Ratnadeep_Bhattachar]                                [Ratnadeep_Bhattachar]                                    2002-08
+radg               6789        tcp    GSS-API for the Oracle       [Oracle_9]                                            [Shawn_Emery]                                             2002-08      2016-09-15
+                                      Remote Administration Daemon
+                   6789        udp    Reserved                                                                                                                                     2002-08      2016-09-15
 hnmp               6790        tcp    HNMP                         [Jude_George]                                         [Jude_George]
 hnmp               6790        udp    HNMP                         [Jude_George]                                         [Jude_George]
 hnm                6791        tcp    Halcyon Network Manager      [Richard_Harriss]                                     [Richard_Harriss]                                         2005-05
@@ -21908,6 +21909,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Oracle_6]                                                                          Oracle Corp.          mailto:hubert.vijay.arokiasamy&oracle.com                     2014-10-28
 [Oracle_7]                                                                          Oracle Corp           mailto:sowmini.varadhan&oracle.com                            2015-04-30
 [Oracle_8]                                                                          Oracle Corp           mailto:omer.barnir&oracle.com                                 2015-08-06
+[Oracle_9]                                                                          Oracle                mailto:shawn.emery&oracle.com                                 2016-09-15
 [Oran_Davis]                                              Oran Davis                                      mailto:oran&8x8.com
 [Orazio_Granato]                                          Orazio Granato                                  mailto:og&wsbgrd01.italy.hp.com
 [Oren_Hurvitz]                                            Oren Hurvitz                                    mailto:oren&omnisky.com
@@ -22770,6 +22772,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Shaun_Byrne]                                             Shaun Byrne                                     mailto:s_byrne&tunstall.co.uk                                 2009-08-18
 [Shaun_Wexler]                                            Shaun Wexler                                    mailto:dev&macfoh.com
 [Shawn_Casey]                                             Shawn Casey                                     mailto:Shawn.Casey&matrixone.com
+[Shawn_Emery]                                             Shawn Emery                                     mailto:shawn.emery&oracle.com                                 2016-09-15
 [Sheila_Devins]                                           Sheila Devins                                   mailto:sheila_devins&vnet.ibm.com
 [Shekar_Pasumarthi]                                       Shekar Pasumarthi                               mailto:shekarp&firstfloor.com
 [Shifted_Current]                                                                   Shifted Current LLC   mailto:ask&shiftedcurrent.com                                 2012-09-11
