@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-09-15
+           2016-09-16
 
    Expert(s)
 
@@ -10636,7 +10636,10 @@ simon              4753        tcp    Simple Invocation of Methods [Alexander_Ch
                                       Simple Invocation of Methods
 simon-disc         4753        udp    Over Network (SIMON)         [Alexander_Christian]                                 [Alexander_Christian]                                     2012-04-19
                                       Discovery
-                 4754-4783            Unassigned
+                 4754-4773            Unassigned
+converge           4774        tcp    Converge RPC                 [Asteris_LLC]                                         [Steven_Borrelli]                                         2016-09-16
+                   4774        udp    Reserved
+                 4775-4783            Unassigned
 bfd-multi-ctl      4784        tcp    BFD Multihop Control         [Dave_Katz][Dave_Ward]                                [Dave_Katz][Dave_Ward]                                    2006-02
 bfd-multi-ctl      4784        udp    BFD Multihop Control         [Dave_Katz][Dave_Ward]                                [Dave_Katz][Dave_Ward]                                    2006-02
                    4785        tcp    Reserved
@@ -18581,6 +18584,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ashvin_Sanghvi]                                          Ashvin Sanghvi                                  mailto:AshvinS&microsoft.com
 [Ashwani_Singhal]                                         Ashwani Singhal                                 mailto:Ashwani.Singhal&netscout.com                           2010-04-07
 [ASSIA_Inc]                                                                         ASSIA Inc.            mailto:info&assia-inc.com                                     2016-08-29
+[Asteris_LLC]                                                                       Asteris, LLC          mailto:info&aster.is                                          2016-09-16
 [Atomix_Productions]                                                                Atomix Productions    mailto:corporate&atomixproductions.com                        2011-10-12
 [Atsushi_Nakamura]                                        Atsushi Nakamura                                mailto:nakamura.atsushi318&canon.co.jp                        2003-11
 [ATT]                                                                               AT&T                  mailto:ds978v&att.com                                         2014-08-21
@@ -22982,6 +22986,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Steve_Van_Duser]                                         Steve Van Duser                                 mailto:steve.vanduser&bestpower.gensig.com
 [Steve_Zellers]                                           Steve Zellers                                   mailto:zellers&apple.com
 [Steven_B_Cliff]                                          Steven B. Cliff                                 mailto:scliff&remotec-andros.com                              2003-07
+[Steven_Borrelli]                                         Steven Borrelli                                 mailto:steve&aster.is                                         2016-09-16
                                                                                     The University
 [Steven_Emmerson]                                         Steven Emmerson           Corporation for       mailto:emmerson&ucar.edu                                      2012-05-07
                                                                                     Atmospheric Research
