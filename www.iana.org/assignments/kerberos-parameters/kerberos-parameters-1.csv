@@ -18,7 +18,9 @@ etype,encryption type,Reference
 16,des3-cbc-sha1-kd,[RFC3961]
 17,aes128-cts-hmac-sha1-96,[RFC3962]
 18,aes256-cts-hmac-sha1-96,[RFC3962]
-19-22,Unassigned,
+19,aes128-cts-hmac-sha256-128,[RFC-ietf-kitten-aes-cts-hmac-sha2-11]
+20,aes256-cts-hmac-sha384-192,[RFC-ietf-kitten-aes-cts-hmac-sha2-11]
+21-22,Unassigned,
 23,rc4-hmac,[RFC4757]
 24,rc4-hmac-exp,[RFC4757]
 25,camellia128-cts-cmac,[RFC6803]
