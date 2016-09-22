@@ -18,6 +18,8 @@ sumtype value,Checksum type,checksum size,Reference
 16,hmac-sha1-96-aes256,20,[RFC3962]
 17,cmac-camellia128,16,[RFC6803]
 18,cmac-camellia256,16,[RFC6803]
-19-32770,Unassigned,,
+19,hmac-sha256-128-aes128,16,[RFC-ietf-kitten-aes-cts-hmac-sha2-11]
+20,hmac-sha384-192-aes256,24,[RFC-ietf-kitten-aes-cts-hmac-sha2-11]
+21-32770,Unassigned,,
 32771,Reserved,,[RFC1964]
 32772-2147483647,Unassigned,,
