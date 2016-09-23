@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="stun-parameters">
   <title>Session Traversal Utilities for NAT (STUN) Parameters</title>
   <created>2008-08-01</created>
-  <updated>2016-09-22</updated>
+  <updated>2016-09-23</updated>
 
 
   <registry id="stun-parameters-2">
@@ -340,7 +340,7 @@
     <record date="2016-08-25">
       <value>0x8025</value>
       <description>TRANSACTION_TRANSMIT_COUNTER</description>
-      <xref type="draft" data="RFC-ietf-tram-stun-path-data-05"/>
+      <xref type="rfc" data="rfc7982"/>
     </record>
     <record>
       <value>0x8026</value>
