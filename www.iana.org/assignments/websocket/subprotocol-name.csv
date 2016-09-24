@@ -29,5 +29,5 @@ mielecloudconnect,Miele Cloud Connect Protocol,"This protocol is used to securel
         communication network in order to enable remote services. The 
         specification is not published yet.",[Nils_Langhammer]
 v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp],[Masoud_Aghadavoodi_Jolfaei]
-msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC-pd-dispatch-msrp-websocket-15],[RFC-pd-dispatch-msrp-websocket-15]
+msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977]
 v1.saltyrtc.org,SaltyRTC 1.0,[https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md],[Lennart_Grahl]
