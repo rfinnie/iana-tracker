@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2016-07-07</updated>
+  <updated>2016-09-27</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -2474,8 +2474,13 @@ allocated by hosts when needed <xref type="rfc" data="rfc4607"/></note>
       <description>blizznet-tv-services</description>
       <xref type="person" data="Paul_Wallner"/>
     </record>
+    <record date="2016-09-27">
+      <addr>233.252.14.0-233.252.17.255</addr>
+      <description>BVMF_MKT_DATA_2</description>
+      <xref type="person" data="Guilherme_Longanezi"/>
+    </record>
     <record>
-      <addr>233.252.124.0-233.255.255.255</addr>
+      <addr>233.252.18.0-233.255.255.255</addr>
       <description>Unassigned</description>
       <xref type="person" data="IANA"/>
     </record>
@@ -3070,6 +3075,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <name>Guido Petronio</name>
       <uri>mailto:guido.petronio&amp;moneyline.com</uri>
       <updated>2004-01-01</updated>
+    </person>
+    <person id="Guilherme_Longanezi">
+      <name>Guilherme Longanezi</name>
+      <uri>mailto:glonganezi&amp;bvmf.com.br</uri>
+      <updated>2016-09-27</updated>
     </person>
     <person id="Guy_Whitehouse">
       <name>Guy Whitehouse</name>
