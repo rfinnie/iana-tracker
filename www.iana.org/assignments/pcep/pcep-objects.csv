@@ -77,4 +77,7 @@ Object-Class Value,Name,Object-Type,Reference
 34,VENDOR-INFORMATION,0: Unassigned,
 ,,1: Vendor-Specific Constraints,[RFC7470]
 ,,2-15: Unassigned,
-35-255,Unassigned,1-15: Unassigned,
+35,BU,0: Unassigned,
+,,1: BU,[RFC-ietf-pce-pcep-service-aware-13]
+,,2-15: Unassigned,
+36-255,Unassigned,1-15: Unassigned,
