@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2016-09-27</updated>
+  <updated>2016-09-29</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -1935,8 +1935,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</note>
       <description>M2S</description>
       <xref type="person" data="Itamar_Gilad"/>
     </record>
+    <record date="2016-09-29">
+      <addr>224.0.36.0-224.0.36.255</addr>
+      <description>DigiPlay</description>
+      <xref type="person" data="Robert_Taylor"/>
+    </record>
     <record>
-      <addr>224.0.36.0-224.0.38.255</addr>
+      <addr>224.0.37.0-224.0.38.255</addr>
       <description>Unassigned</description>
     </record>
     <record date="2007-09-12">
@@ -3649,6 +3654,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <name>Robert Sliwinski</name>
       <uri>mailto:sliwinre&amp;mail1st.com</uri>
       <updated>2000-02-01</updated>
+    </person>
+    <person id="Robert_Taylor">
+      <name>Robert Taylor</name>
+      <uri>mailto:rtaylor&amp;digicelgroup.com</uri>
+      <updated>2016-09-29</updated>
     </person>
     <person id="Roberto_Costa_Simoes">
       <name>Roberto Costa Simoes</name>
