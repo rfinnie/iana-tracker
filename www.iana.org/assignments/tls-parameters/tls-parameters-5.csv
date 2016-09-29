@@ -1,5 +1,5 @@
 Value,Description,DTLS-OK,Reference
-0-19,"Unassigned (Requires coordination, see 
+0-19,"Unassigned (Requires coordination; see 
         [RFC-ietf-avtcore-rfc5764-mux-fixes-11])",,[RFC5764][RFC-ietf-avtcore-rfc5764-mux-fixes-11]
 20,change_cipher_spec,Y,[RFC5246]
 21,alert,Y,[RFC5246]
@@ -7,5 +7,5 @@ Value,Description,DTLS-OK,Reference
 23,application_data,Y,[RFC5246]
 24,heartbeat,Y,[RFC6520]
 25-63,Unassigned,,
-64-255,"Unassigned (Requires coordination, see 
+64-255,"Unassigned (Requires coordination; see 
         [RFC-ietf-avtcore-rfc5764-mux-fixes-11])",,[RFC5764][RFC-ietf-avtcore-rfc5764-mux-fixes-11]
