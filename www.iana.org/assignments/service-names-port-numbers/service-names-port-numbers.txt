@@ -13425,7 +13425,10 @@ pando-pub          7680        udp    Pando Media Public           [Laird_Popkin
                  7681-7682            Unassigned
 dmt                7683        tcp    Cleondris DMT                [Cleondris_GmbH]                                      [Christian_Plattner]                                      2015-03-31
                    7683        udp    Reserved
-                 7684-7688            Unassigned
+                 7684-7686            Unassigned
+bolt               7687        tcp    Bolt database connection     [Neo_Technology_Inc]                                  [Julian_Simpson]                                          2016-09-29
+                   7687        udp    Reserved
+                   7688               Unassigned
 collaber           7689        tcp    Collaber Network Service     [Rajesh_Akkineni]                                     [Rajesh_Akkineni]                                         2007-01
 collaber           7689        udp    Collaber Network Service     [Rajesh_Akkineni]                                     [Rajesh_Akkineni]                                         2007-01
                  7690-7696            Unassigned
@@ -20836,7 +20839,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Juho_Herttua]                                            Juho Vähä-Herttua                             mailto:juhovh&iki.fi                                          2009-04-14
 [Julian_Biddle]                                           Julian Biddle                                   mailto:julian_biddle&technologyonecorp.com
 [Julian_Mehnle]                                           Julian Mehnle                                   mailto:julian&mehnle.net
-[Julian_Simpson]                                          Julian Simpson            Neo Technology, Inc   mailto:julian.simpson&neotechnology.com                       2013-02-08
+[Julian_Simpson]                                          Julian Simpson            Neo Technology, Inc   mailto:julian.simpson&neotechnology.com                       2016-09-29
 [Julian_Smith]                                            Julian Smith                                    mailto:jsmith&undo-software.com                               2010-04-19
 [Juliana_Hsu]                                             Juliana Hsu                                     mailto:jhsu&ca.ibm.com
 [Julien_Danjou]                                           Julien Danjou                                   mailto:acid&debian.org                                        2006-07
@@ -21780,7 +21783,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [NEGU_Soft]                                                                         NEGU Soft             mailto:info&negusoft.com                                      2012-09-10
 [Neil_Coggins]                                            Neil Coggins                                    mailto:neil.coggins&6thsight.com                              2006-07
 [Neil_Salter]                                             Neil Salter                                     mailto:neil&indigo2.mvel.demon.co.uk
-[Neo_Technology_Inc]                                                                Neo Technology, Inc   mailto:admins&neotechnology.com                               2013-02-08
+[Neo_Technology_Inc]                                                                Neo Technology, Inc   mailto:admins&neotechnology.com                               2016-09-29
 [Nest_Labs_Inc]                                                                     Nest Labs, Inc.       mailto:grant&nestlabs.com                                     2014-01-16
 [Nestor_A_Diaz]                                           Nestor A. Diaz                                  mailto:nestor&tiendalinux.com                                 2009-05-12
 [NetApp]                                                                            NetApp, Inc.          mailto:mswarch&netapp.com                                     2014-07-18
