@@ -14,5 +14,5 @@ Value,Name,Reference
 0x00C,ConnectionAttempt,[RFC6062]
 0x00D-0x0FF,Unassigned,
 0x100-0xFFF,"Reserved (For DTLS-SRTP multiplexing collision avoidance, see 
-        [RFC-ietf-avtcore-rfc5764-mux-fixes-11]. 
-        Cannot be made available for assignment without IETF Review.)",[RFC-ietf-avtcore-rfc5764-mux-fixes-11]
+        [RFC7983]. 
+        Cannot be made available for assignment without IETF Review.)",[RFC7983]
