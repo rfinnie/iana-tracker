@@ -2,4 +2,4 @@ Value,Name,Reference
 0x0000-0x3FFF,Reserved,[RFC5766]
 0x4000-0x4FFF,Used by TURN,[RFC5766]
 0x5000-0xFFFF,"Reserved (For DTLS-SRTP multiplexing collision avoidance, see 
-        [RFC-ietf-avtcore-rfc5764-mux-fixes-11])",[RFC-ietf-avtcore-rfc5764-mux-fixes-11]
+        [RFC7983])",[RFC7983]
