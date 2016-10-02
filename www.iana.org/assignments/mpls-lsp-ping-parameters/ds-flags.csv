@@ -1,4 +1,6 @@
 Bit Number,Name,Reference
 7,N: Treat as a Non-IP Packet,[RFC4379]
 6,I: Interface and Label Stack Object Request,[RFC4379]
-5-0,Unassigned,
+5,E: ELI/EL push indicator,[RFC-ietf-mpls-entropy-lsp-ping-05]
+4,L: Label-based load balance indicator,[RFC-ietf-mpls-entropy-lsp-ping-05]
+3-0,Unassigned,
