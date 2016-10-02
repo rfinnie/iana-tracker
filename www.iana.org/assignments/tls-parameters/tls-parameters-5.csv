@@ -1,6 +1,6 @@
 Value,Description,DTLS-OK,Reference
 0-19,"Unassigned (Requires coordination; see 
-        [RFC-ietf-avtcore-rfc5764-mux-fixes-11])",,[RFC5764][RFC-ietf-avtcore-rfc5764-mux-fixes-11]
+        [RFC7983])",,[RFC5764][RFC7983]
 20,change_cipher_spec,Y,[RFC5246]
 21,alert,Y,[RFC5246]
 22,handshake,Y,[RFC5246]
@@ -8,4 +8,4 @@ Value,Description,DTLS-OK,Reference
 24,heartbeat,Y,[RFC6520]
 25-63,Unassigned,,
 64-255,"Unassigned (Requires coordination; see 
-        [RFC-ietf-avtcore-rfc5764-mux-fixes-11])",,[RFC5764][RFC-ietf-avtcore-rfc5764-mux-fixes-11]
+        [RFC7983])",,[RFC5764][RFC7983]
