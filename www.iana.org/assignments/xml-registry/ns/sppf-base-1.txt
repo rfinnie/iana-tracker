@@ -30,7 +30,7 @@
 					<li><a href="/domains">Domains</a></li>
 					<li><a href="/numbers">Numbers</a></li>
 					<li><a href="/protocols">Protocols</a></li>
-					<li><a href="/about">About IANA</a></li>
+					<li><a href="/about">About Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -66,11 +66,6 @@
 					<td class="section"><a href="/numbers">Number&nbsp;Resources</a></td>
 					<td class="subsection">
 						<ul>
-							<!--
-							<li><a href="/numbers/ipv4">IPv4 Registry</a></li>
-							<li><a href="/numbers/ipv6">IPv6 Registry</a></li>
-							<li><a href="/numbers/as-numbers">ASN Registry</a></li>
-							-->
 							<li><a href="/abuse">Abuse Information</a></li>
 						</ul>
 					</td>
@@ -85,7 +80,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="section"><a href="/about">About&nbsp;IANA</a></td>
+					<td class="section"><a href="/about">About&nbsp;Us</a></td>
 					<td class="subsection">
 						<ul>
 							<li><a href="/about/presentations">Presentations</a></li>
@@ -93,16 +88,17 @@
                             <li><a href="/performance">Performance</a></li>
 							<li><a href="/reviews">Reviews</a></li>
                             <li><a href="/about/excellence">Excellence</a></li>
-							<li><a href="/contact">Contact IANA</a></li>
+							<li><a href="/contact">Contact Us</a></li>
 						</ul>
 					</td>
 				</tr>
 			</table>
 
-			<div id="custodian">
-				<img src="/_img/2013.1/icann-logo.svg" width="57" height="48" id="icann-logo">
-				<p>IANA is responsible for coordinating the Internet’s globally unique identifiers, and is operated by the <a href="http://www.icann.org/">Internet Corporation for Assigned Names and Numbers</a> (ICANN).</p>
-			</div>
+            <div id="custodian">
+                <p>The IANA functions coordinate the Internet’s globally unique identifiers, and
+                    are provided by <a href="http://pti.icann.org">Public Technical Identifiers</a>, an affiliate of
+                    <a href="http://www.icann.org/">ICANN</a>.</p>
+            </div>
 
 		</div>
 	</footer>
