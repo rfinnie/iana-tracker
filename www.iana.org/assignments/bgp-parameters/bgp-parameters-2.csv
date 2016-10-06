@@ -30,7 +30,8 @@ Work in progress, March 1996.][RFC6938]"
 27,PE Distinguisher Labels,[RFC6514]
 28,BGP Entropy Label Capability Attribute (deprecated),[RFC6790][RFC7447]
 29,BGP-LS Attribute,[RFC7752]
-30-39,Unassigned,
+30,"LARGE_COMMUNITY (TEMPORARY - registered 2016-09-29, expires 2017-09-29)",[draft-ietf-idr-large-community]
+31-39,Unassigned,
 40,"BGP Prefix-SID (TEMPORARY - registered 2015-09-30, extension 
         registered 2016-08-18, expires 2017-09-30)",[draft-ietf-idr-bgp-prefix-sid]
 41-127,Unassigned,

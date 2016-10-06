@@ -21,7 +21,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,2: Not supported object Type,[RFC5440]
 ,,3: Unassigned,
 ,,4: Unsupported parameter,[RFC5441]
-,,5-255: Unassigned,
+,,5: Unsupported network performance constraint,[RFC-ietf-pce-pcep-service-aware-13]
+,,6-255: Unassigned,
 5,Policy violation,0: Unassigned,[RFC5440]
 ,,1: C bit of the METRIC object set (request rejected),[RFC5440]
 ,,2: O bit of the RP object cleared (request rejected),[RFC5440]
@@ -30,7 +31,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,5: Global concurrent optimization not allowed,[RFC5557]
 ,,6: Monitoring message supported but rejected due to policy violation,[RFC5886]
 ,,7: P2MP Path computation is not allowed,[RFC6006]
-,,8-255: Unassigned,
+,,8: Not allowed network performance constraint,[RFC-ietf-pce-pcep-service-aware-13]
+,,9-255: Unassigned,
 6,Mandatory Object missing,0: Unassigned,[RFC5440]
 ,,1: RP object missing,[RFC5440]
 ,,2: RRO missing for a reoptimization request (R bit of the RP object set),[RFC5440]

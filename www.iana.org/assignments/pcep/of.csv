@@ -8,5 +8,8 @@ Code Point,Name,Reference
 6,MCC,[RFC5541]
 7,SPT,[RFC6006]
 8,MCT,[RFC6006]
-9-32767,Unassigned,
+9,Minimum Packet Loss Path (MPLP),[RFC-ietf-pce-pcep-service-aware-13]
+10,Maximum Under-Utilized Path (MUP),[RFC-ietf-pce-pcep-service-aware-13]
+11,Maximum Reserved Under-Utilized Path (MRUP),[RFC-ietf-pce-pcep-service-aware-13]
+12-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5541]
