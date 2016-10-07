@@ -76903,7 +76903,7 @@ common service discovery mechanisms.</note>
     <number>9060</number>
     <xref type="person" data="David_Wyatt"/>
   </record>
-  <record>
+  <record date="2016-10-07">
     <name>CardWeb-RT</name>
     <protocol>udp</protocol>
     <assignee>
