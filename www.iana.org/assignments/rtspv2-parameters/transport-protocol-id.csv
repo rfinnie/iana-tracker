@@ -1,6 +1,7 @@
 ID String,Reference
 RTP/AVP,[RFC-ietf-mmusic-rfc2326bis-40]
 RTP/AVP/UDP,[RFC-ietf-mmusic-rfc2326bis-40]
+RTP/AVPF,[RFC-ietf-mmusic-rfc2326bis-40]
 RTP/AVPF/UDP,[RFC-ietf-mmusic-rfc2326bis-40]
 RTP/SAVP,[RFC-ietf-mmusic-rfc2326bis-40]
 RTP/SAVP/UDP,[RFC-ietf-mmusic-rfc2326bis-40]
