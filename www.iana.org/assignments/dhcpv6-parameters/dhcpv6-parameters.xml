@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="dhcpv6-parameters">
   <title>Dynamic Host Configuration Protocol for IPv6 (DHCPv6)</title>
   <created>2003-11-03</created>
-  <updated>2016-06-16</updated>
+  <updated>2016-10-10</updated>
   <note>For the Civic Address Types Registry <xref type="rfc" data="rfc4776"/>, please see:
 http://www.iana.org/assignments/civic-address-types-registry</note>
 
@@ -696,8 +696,13 @@ http://www.iana.org/assignments/civic-address-types-registry</note>
       <description>OPTION_ANI_OPERATOR_REALM</description>
       <xref type="rfc" data="rfc7839"/>
     </record>
+    <record date="2016-10-06">
+      <value>111</value>
+      <description>OPTION_S46_PRIORITY</description>
+      <xref type="draft" data="RFC-ietf-softwire-unified-cpe-08"/>
+    </record>
     <record>
-      <value>111-142</value>
+      <value>112-142</value>
       <description>Unassigned</description>
     </record>
     <record date="2014-04-17">
@@ -1124,6 +1129,7 @@ http://www.iana.org/assignments/civic-address-types-registry</note>
       </record>
   </registry>
 
+  
   <registry id="radius-option-attributes">
     <title>RADIUS Attributes Permitted in DHCPv6 RADIUS Option</title>
     <xref type="rfc" data="rfc7037"/>
@@ -1165,7 +1171,38 @@ http://www.iana.org/assignments/civic-address-types-registry</note>
       <xref type="rfc" data="rfc6911"/>
     </record>
   </registry>
-  
+ 
+  <registry id="option-codes-s46-priority-option">
+    <title>Option Codes Permitted in the S46 Priority Option</title>
+    <xref type="draft" data="RFC-ietf-softwire-unified-cpe-08"/>
+    <registration_rule>IETF Review</registration_rule>
+    <record date="2016-10-07">
+      <value>64</value>
+      <description>DS-Lite</description>
+      <xref type="rfc" data="rfc6334"/>
+    </record>
+    <record date="2016-10-07">
+      <value>88</value>
+      <description>DHCPv4 over DHCPv6</description>
+      <xref type="rfc" data="rfc7341"/>
+    </record>
+    <record date="2016-10-07">
+      <value>94</value>
+      <description>MAP-E</description>
+      <xref type="rfc" data="rfc7598"/>
+    </record>
+    <record date="2016-10-07">
+      <value>95</value>
+      <description>MAP-T</description>
+      <xref type="rfc" data="rfc7598"/>
+    </record>
+    <record date="2016-10-07">
+      <value>96</value>
+      <description>Lightweight 4over6</description>
+      <xref type="rfc" data="rfc7598"/>
+    </record>
+  </registry>
+
   <people>
     <person id="Dong_Wei">
       <name>Dong Wei</name>

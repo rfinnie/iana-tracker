@@ -5,4 +5,5 @@ Address(es),Description,References,Date Registered,Last Reviewed
 233.252.2.0-233.252.7.255,Tradition,[Tradition_Network_Operations_and_Command_Center],2010-08-12,
 233.252.8.0-233.252.11.255,BVMF_MKT_DATA,[Roberto_Costa_Simoes],2010-08-12,
 233.252.12.0-233.252.13.255,blizznet-tv-services,[Paul_Wallner],2010-09-14,
-233.252.124.0-233.255.255.255,Unassigned,[IANA],,
+233.252.14.0-233.252.17.255,BVMF_MKT_DATA_2,[Guilherme_Longanezi],2016-09-27,
+233.252.18.0-233.255.255.255,Unassigned,[IANA],,
