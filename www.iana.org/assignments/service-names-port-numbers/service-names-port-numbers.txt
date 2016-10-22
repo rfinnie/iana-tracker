@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-10-07
+           2016-10-20
 
    Expert(s)
 
@@ -10641,7 +10641,9 @@ gre-in-udp         4754        udp    GRE-in-UDP Encapsulation     [IESG]       
                    4755        tcp    Reserved
 gre-udp-dtls       4755        udp    GRE-in-UDP Encapsulation     [IESG]                                                [IETF_Chair]                                              2016-10-05                [RFC-ietf-tsvwg-gre-in-udp-encap-19]
                                       with DTLS
-                 4756-4773            Unassigned
+RDCenter           4756        tcp    Reticle Decision Center      [KLA_Tencor]                                          [George_Hwa]                                              2016-10-17
+                   4756        udp    Reserved
+                 4757-4773            Unassigned
 converge           4774        tcp    Converge RPC                 [Asteris_LLC]                                         [Steven_Borrelli]                                         2016-09-16
                    4774        udp    Reserved
                  4775-4783            Unassigned
@@ -16250,7 +16252,6 @@ p-net-remote       34379       tcp    P-Net on IP remote           [Kurt_Nissen]
 p-net-remote       34379       udp    P-Net on IP remote           [Kurt_Nissen]                                         [Kurt_Nissen]                                             2004-02
                 34380-34566           Unassigned
 dhanalakshmi       34567       tcp    dhanalakshmi.org EDI Service [Girish_Gopalakrishna]                                [Girish_Gopalakrishna]                                    2010-04-20
-                   34567       udp    Reserved
                 34568-34961           Unassigned
 profinet-rt        34962       tcp    PROFInet RT Unicast          [Peter_Wenzel]                                        [Peter_Wenzel]                                            2004-11
 profinet-rt        34962       udp    PROFInet RT Unicast          [Peter_Wenzel]                                        [Peter_Wenzel]                                            2004-11
@@ -19980,7 +19981,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [George_Gianelos]                                         George Gianelos                                 mailto:Georgegi&attachmate.com
 [George_Gianelos_2]                                       George Gianelos                                 mailto:GeorgeGi&attachmate.com                                2003-03
 [George_Hartz]                                            George Hartz                                    mailto:george.hartz&sentillion.com
-[George_Hwa]                                              George Hwa                                      mailto:ghwa&luminescent.com                                   2007-03
+[George_Hwa]                                              George Hwa                                      mailto:george.hwa&kla-tencor.com                              2016-10-17
 [George_Kajos]                                            George Kajos                                    mailto:gkajos&mail1.videoserver.com
 [George_Moromisato]                                       George Moromisato                               mailto:gpm&neurohack.com                                      2004-11
 [George_Nachman]                                          George Nachman
@@ -21033,6 +21034,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kit_Haskins]                                             Kit Haskins                                     mailto:kit&ka0wuc.org
 [Kit_Smithers]                                            Kit Smithers                                    mailto:ksmithers&argogroup.com
 [Kit_Sturgeon]                                            Kit Sturgeon                                    mailto:Kit&remotecontrolsextoys.com
+[KLA_Tencor]                                                                        KLA Tencor/RAPID      mailto:george.hwa&kla-tencor.com                              2016-10-17
 [Klas_Malmborg]                                           Klas Malmborg             FLIR Systems AB       mailto:Klas.Malmborg&flir.se                                  2011-10-20
 [Klaus_Fellner]                                           Klaus Fellner                                   mailto:webmaster&segue.com
                                                                                                           mailto:kfellner&segue.com
