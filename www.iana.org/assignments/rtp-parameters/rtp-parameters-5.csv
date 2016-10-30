@@ -11,4 +11,6 @@ Value,Abbrev.,Name,Reference
 9,H323-CADDR,H.323 callable address,[Vineet_Kumar]
 10,APSI,Application Specific Identifier,[RFC6776]
 11,RGRP,Reporting Group Identifier,[RFC-ietf-avtcore-rtp-multi-stream-optimisation-12]
-12-255,,Unassigned,
+12,RtpStreamId,RTP Stream Identifier,[RFC-ietf-avtext-rid-09]
+13,RepairedRtpStreamId,Repaired RTP Stream Identifier,[RFC-ietf-avtext-rid-09]
+14-255,,Unassigned,
