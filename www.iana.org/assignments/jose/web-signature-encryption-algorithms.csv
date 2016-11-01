@@ -35,4 +35,4 @@ A256CBC-HS512,AES_256_CBC_HMAC_SHA_512 authenticated encryption algorithm,enc,Re
 A128GCM,AES GCM using 128-bit key,enc,Recommended,[IESG],"[RFC7518, Section 5.3]",n/a
 A192GCM,AES GCM using 192-bit key,enc,Optional,[IESG],"[RFC7518, Section 5.3]",n/a
 A256GCM,AES GCM using 256-bit key,enc,Recommended,[IESG],"[RFC7518, Section 5.3]",n/a
-EdDSA,EdDSA signature algorithms,alg,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3.1]",[draft-irtf-cfrg-eddsa]
+EdDSA,EdDSA signature algorithms,alg,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 3.1]",[RFC-irtf-cfrg-eddsa-08]
