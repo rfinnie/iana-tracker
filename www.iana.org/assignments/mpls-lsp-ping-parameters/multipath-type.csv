@@ -1,13 +1,13 @@
 Value,Meaning,Reference
-0,no multipath,[RFC4379]
+0,no multipath,[RFC-ietf-mpls-rfc4379bis-09]
 1,Unassigned,
-2,IP address,[RFC4379]
+2,IP address,[RFC-ietf-mpls-rfc4379bis-09]
 3,Unassigned,
-4,IP address range,[RFC4379]
+4,IP address range,[RFC-ietf-mpls-rfc4379bis-09]
 5-7,Unassigned,
-8,Bit-masked IP address set,[RFC4379]
-9,Bit-masked label set,[RFC4379]
+8,Bit-masked IP address set,[RFC-ietf-mpls-rfc4379bis-09]
+9,Bit-masked label set,[RFC-ietf-mpls-rfc4379bis-09]
 10,IP and label set,[RFC8012]
 11-250,Unassigned,
-251-254,Reserved for Experimental Use,[RFC7537]
-255,Reserved,[RFC7537]
+251-254,Reserved for Experimental Use,[RFC-ietf-mpls-rfc4379bis-09]
+255,Reserved,[RFC-ietf-mpls-rfc4379bis-09]

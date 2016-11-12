@@ -4,6 +4,6 @@ Sub-Type,Sub-TLV Name,Reference,Comment
 3,IPv4 Node Address P2MP Responder,[RFC6425],
 4,IPv6 Node Address P2MP Responder,[RFC6425],
 5-31743,Unassigned,,
-31744-32767,Reserved for Vendor or Private Use,[RFC4379],
+31744-32767,Reserved for Vendor or Private Use,[RFC-ietf-mpls-rfc4379bis-09],
 32768-64511,Unassigned,,
-64512-65535,Reserved for Vendor or Private Use,[RFC4379],
+64512-65535,Reserved for Vendor or Private Use,[RFC-ietf-mpls-rfc4379bis-09],
