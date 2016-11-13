@@ -5,7 +5,7 @@ Value,Parameter Type,Length,Reference
 128,R1_Counter (v1 only),12,[RFC5201]
 129,R1_COUNTER,12,[RFC7401]
 130-192,Unassigned,,
-193,LOCATOR,variable,[RFC5206]
+193,LOCATOR_SET,variable,[RFC-ietf-hip-rfc5206-bis-14]
 194-256,Unassigned,,
 257,PUZZLE,12,[RFC7401]
 258-320,Unassigned,,
