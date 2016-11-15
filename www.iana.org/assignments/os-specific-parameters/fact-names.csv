@@ -26,3 +26,5 @@ Unix,Unix.atime,"""time-val"" from [RFC3659]","From IEEE Std 1003.1-2004 XBD 4.7
         For performance reasons, some platforms allow operations to delay or 
         suppress updates to st_atime.  FTP servers on such platforms MAY refrain 
         from publishing the Unix.atime fact.",[Paul_Millar]
+Unix,Unix.ownername,"""1*RCHAR"" from [RFC3659]","File owner name, as mapped from the numeric owner ID, by the operating system.",[TJ_Saunders]
+Unix,Unix.groupname,"""1*RCHAR"" from [RFC3659]","File group name, as mapped from the numeric group ID, by the operating system.",[TJ_Saunders]
