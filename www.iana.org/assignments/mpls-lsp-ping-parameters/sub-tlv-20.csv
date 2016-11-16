@@ -1,7 +1,7 @@
 Sub-Type,Sub-TLV Name,Reference,Comment
-1,Multipath data,[RFC6424],
-2,Label stack,[RFC6424],
-3,FEC stack change,[RFC6424],
+1,Multipath data,[RFC-ietf-mpls-rfc4379bis-09],
+2,Label stack,[RFC-ietf-mpls-rfc4379bis-09],
+3,FEC stack change,[RFC-ietf-mpls-rfc4379bis-09],
 4-31743,Unassigned,,
 31744-32767,Reserved for Vendor Private Use,[RFC-ietf-mpls-rfc4379bis-09],
 32768-64511,Unassigned,,

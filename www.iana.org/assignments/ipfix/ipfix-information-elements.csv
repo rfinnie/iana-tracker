@@ -3570,5 +3570,25 @@ to REQ-4 of [RFC6888].  Limiting the
 number of ports assigned to each user ensures fairness among 
 users and mitigates the denial-of-service attack that a user 
 could launch against other users through the address sharing 
-device in order to grab more ports.",ports,1-65535,,[RFC-ietf-radext-ip-port-radius-ext-16],0,2016-11-10
+device in order to grab more ports.",ports,1-65535,,[RFC-ietf-radext-ip-port-radius-ext-17],0,2016-11-10
+459,httpRequestMethod,string,,current,"The HTTP request method, as defined in section 4 of
+[RFC7231], associated with a 
+flow. String with up to 8 UTF-8 characters.",,,,[Felix_Erlacher],0,2016-11-15
+460,httpRequestHost,string,,current,"The HTTP request host, as defined in section 5.4 of
+[RFC7230] or, in the case of 
+HTTP/2, the content of the :authority pseudo-header 
+field as defined in section 8.1.2.3 of 
+[RFC7240]. Encoded in UTF-8.",,,,[Felix_Erlacher],0,2016-11-15
+461,httpRequestTarget,string,,current,"The HTTP request target, as defined in section 2 of
+[RFC7231] and in section 5.3 of 
+[RFC7230], associated with a flow.
+Or the HTTP/2 "":path"" pseudo-header field as defined in 
+section 8.1.2.3 of [RFC7240]. 
+Encoded in UTF-8.",,,,[Felix_Erlacher],0,2016-11-15
+462,httpMessageVersion,string,,current,"The version of an HTTP/1.1 message as indicated by the
+HTTP-version field, defined in section 2.6 of 
+[RFC7230], or the version
+identification of an HTTP/2 frame as defined in 
+[RFC7240] section 3.1. The length 
+of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0,2016-11-15
 459-32767,Unassigned,,,,,,,,,,
