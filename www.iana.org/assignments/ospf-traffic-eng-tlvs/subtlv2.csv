@@ -34,6 +34,7 @@ Value,Sub-TLV,Reference
 32,Unidirectional Available Bandwidth,[RFC7471]
 33,Unidirectional Utilized Bandwidth,[RFC7471]
 34,Port Label Restrictions,[RFC7580]
-35-32767,Unassigned,
+35,Network-to-Router TE Metric Sub-TLV,[RFC-ietf-ospf-two-part-metric-10]
+36-32767,Unassigned,
 32768-32777,Reserved for Experimental Use,[RFC3630]
 32778-65535,Reserved,[RFC3630]
