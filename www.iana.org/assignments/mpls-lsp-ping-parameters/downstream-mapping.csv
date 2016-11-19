@@ -1,9 +1,9 @@
 Type #,Address Type,K Octets,Reference
 0,Unassigned,,
-1,IPv4 Numbered,16,[RFC4379]
-2,IPv4 Unnumbered,16,[RFC4379]
-3,IPv6 Numbered,40,[RFC4379]
-4,IPv6 Unnumbered,28,[RFC4379]
+1,IPv4 Numbered,16,[RFC-ietf-mpls-rfc4379bis-09]
+2,IPv4 Unnumbered,16,[RFC-ietf-mpls-rfc4379bis-09]
+3,IPv6 Numbered,40,[RFC-ietf-mpls-rfc4379bis-09]
+4,IPv6 Unnumbered,28,[RFC-ietf-mpls-rfc4379bis-09]
 5,Non IP,12,[RFC6426]
 6,Reserved,,[RFC7555]
 7,Reserved,,[RFC7555]
