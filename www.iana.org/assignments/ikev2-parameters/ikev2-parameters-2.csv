@@ -22,6 +22,6 @@ Value,Next Payload Type,Notation,Reference
 51,Group Security Association,GSA,[draft-yeung-g-ikev2]
 52,Key Download,KD,[draft-yeung-g-ikev2]
 53,Encrypted and Authenticated Fragment,SKF,[RFC7383]
-54,Puzzle Solution,PS,[RFC-ietf-ipsecme-ddos-protection-10]
+54,Puzzle Solution,PS,[RFC8019]
 55-127,Unassigned,,
 128-255,Private use,,[RFC7296]

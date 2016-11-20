@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2016-11-01</updated>
+  <updated>2016-11-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -45401,14 +45401,14 @@ common service discovery mechanisms.</note>
   <record>
     <name>lsp-ping</name>
     <protocol>tcp</protocol>
-    <xref type="rfc" data="rfc4379"/>
+    <xref type="draft" data="RFC-ietf-mpls-rfc4379bis-09"/>
     <description>MPLS LSP-echo Port</description>
     <number>3503</number>
   </record>
   <record>
     <name>lsp-ping</name>
     <protocol>udp</protocol>
-    <xref type="rfc" data="rfc4379"/>
+    <xref type="draft" data="RFC-ietf-mpls-rfc4379bis-09"/>
     <description>MPLS LSP-echo Port</description>
     <number>3503</number>
   </record>
@@ -58720,8 +58720,19 @@ Further keys may be added in the future.</note>
     <number>4745</number>
   </record>
   <record>
-    <description>Unassigned</description>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
     <number>4746</number>
+  </record>
+  <record date="2016-11-18">
+    <name>intelliadm-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IntelliAdmin_LLC"/>
+    </assignee>
+    <description>IntelliAdmin Discovery</description>
+    <number>4746</number>
+    <xref type="person" data="Steve_Wiseman"/>
   </record>
   <record date="2013-01-14">
     <name>buschtrommel</name>
@@ -71952,7 +71963,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7475-7490</number>
+    <number>7475-7477</number>
+  </record>
+  <record date="2016-11-17">
+    <name>openit</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="OpeniT_Inc"/>
+    </assignee>
+    <description>IT Asset Management</description>
+    <number>7478</number>
+    <xref type="person" data="Monette_Maano"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7478</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>7479-7490</number>
   </record>
   <record>
     <name>telops-lmd</name>
@@ -83625,7 +83655,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>19195-19282</number>
+    <number>19195-19219</number>
+  </record>
+  <record date="2016-11-10">
+    <name>cora</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Softvise_GmbH"/>
+    </assignee>
+    <description>Client Connection Management and Data Exchange Service</description>
+    <number>19220</number>
+    <xref type="person" data="Ronny_Krüger"/>
+  </record>
+  <record date="2016-11-10">
+    <name>cora-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Softvise_GmbH"/>
+    </assignee>
+    <description>Discovery for Client Connection Management and Data Exchange Service</description>
+    <number>19220</number>
+    <xref type="person" data="Ronny_Krüger"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>19221-19282</number>
   </record>
   <record>
     <name>keysrvr</name>
@@ -104218,6 +104272,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:joshua.boelter&amp;intel.com</uri>
       <updated>2011-10-18</updated>
     </person>
+    <person id="IntelliAdmin_LLC">
+      <org>IntelliAdmin, LLC</org>
+      <uri>mailto:support&amp;intelliadmin.com</uri>
+      <updated>2016-11-18</updated>
+    </person>
     <person id="IOSPIRIT_GmbH">
       <org>IOSPIRIT GmbH</org>
       <uri>mailto:info&amp;iospirit.com</uri>
@@ -110359,6 +110418,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Moises E. Hernandez</name>
       <uri>mailto:moises&amp;accugraph.com</uri>
     </person>
+    <person id="Monette_Maano">
+      <name>Monette Maano</name>
+      <uri>mailto:mmaano&amp;openit.com</uri>
+      <updated>2016-11-17</updated>
+    </person>
     <person id="Montgomery_Zukowski">
       <name>Montgomery Zukowski</name>
       <uri>mailto:monty&amp;nextnorth.acs.ohio-state.edu</uri>
@@ -111127,6 +111191,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="One_Laptop_per_Child">
       <org>One Laptop per Child/Collabora Ltd.</org>
       <uri>mailto:devel&amp;lists.laptop.org</uri>
+    </person>
+    <person id="OpeniT_Inc">
+      <org>OpeniT Inc.</org>
+      <uri>mailto:mmaano&amp;openit.com</uri>
+      <updated>2016-11-17</updated>
     </person>
     <person id="Open_Lighting_Project">
       <org>Open Lighting Project</org>
@@ -114077,6 +114146,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Roni Moshitzky</name>
       <uri>mailto:rmosh&amp;checkpoint.com</uri>
     </person>
+    <person id="Ronny_Krüger">
+      <name>Ronny Krüger</name>
+      <uri>mailto:from-iana&amp;softvise.de</uri>
+      <updated>2016-11-10</updated>
+    </person>
     <person id="Ronnie_De_Giorgio">
       <name>Ronnie De Giorgio</name>
       <org>Silverstring Ltd.</org>
@@ -115313,6 +115387,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:technical&amp;softthere.com</uri>
       <updated>2011-10-17</updated>
     </person>
+    <person id="Softvise_GmbH">
+      <org>Softvise GmbH</org>
+      <uri>mailto:from-iana&amp;softvise.de</uri>
+      <updated>2016-11-10</updated>
+    </person>
     <person id="Software_Horizons_In">
       <org>Software Horizons Inc.</org>
       <uri>mailto:oi2000&amp;shorizons.com</uri>
@@ -115866,6 +115945,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Steve_Van_Duser">
       <name>Steve Van Duser</name>
       <uri>mailto:steve.vanduser&amp;bestpower.gensig.com</uri>
+    </person>
+    <person id="Steve_Wiseman">
+      <name>Steve Wiseman</name>
+      <uri>mailto:steve.wiseman&amp;intelliadmin.com</uri>
+      <updated>2016-11-18</updated>
     </person>
     <person id="Steve_Zellers">
       <name>Steve Zellers</name>

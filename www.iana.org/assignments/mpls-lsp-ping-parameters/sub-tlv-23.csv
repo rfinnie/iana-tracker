@@ -2,6 +2,6 @@ Sub-Type,Sub-TLV Name,Reference,Comment
 0,Reserved,[RFC7555],
 1,Next Hop,[RFC7555],
 2-31743,Unassigned,,
-31744-32767,Reserved for Vendor or Private Use,[RFC-ietf-mpls-rfc4379bis-09],
+31744-32767,Reserved for Vendor Private Use,[RFC-ietf-mpls-rfc4379bis-09],
 32768-64511,Unassigned,,
-64512-65535,Reserved for Vendor or Private Use,[RFC-ietf-mpls-rfc4379bis-09],
+64512-65535,Reserved for Vendor Private Use,[RFC-ietf-mpls-rfc4379bis-09],
