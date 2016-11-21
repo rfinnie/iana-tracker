@@ -24,6 +24,7 @@ Archived-At,,mail,standard,[RFC5064]
 Archived-At,,netnews,standard,[RFC5064]
 Article-Names,,netnews,obsoleted,[RFC1849][RFC5536]
 Article-Updates,,netnews,obsoleted,[RFC1849][RFC5536]
+Authentication-Control,,http,experimental,"[RFC-ietf-httpauth-extension-09, Section 4]"
 Authentication-Info,,http,standard,"[RFC7615, Section 3]"
 Authentication-Results,,mail,standard,[RFC7601]
 Authorization,,http,standard,"[RFC7235, Section 4.2]"
@@ -202,6 +203,7 @@ NNTP-Posting-Date,,netnews,obsoleted,[RFC5536]
 NNTP-Posting-Host,,netnews,obsoleted,[RFC2980][RFC5536]
 Obsoletes,,mail,,[RFC4021]
 Opt,,http,,[RFC4229]
+Optional-WWW-Authenticate,,http,experimental,"[RFC-ietf-httpauth-extension-09, Section 3]"
 Ordering-Type,,http,standard,[RFC4229]
 Organization,,mail,informational,[RFC7681]
 Organization,,netnews,standard,[RFC5536]
