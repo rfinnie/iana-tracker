@@ -7,7 +7,7 @@ Value,Name,Reference
 402,Unassigned,
 403,Forbidden,[RFC5766]
 404,Unassigned,
-405,Mobility Forbidden,[RFC-ietf-tram-turn-mobility-09]
+405,Mobility Forbidden,[RFC8016]
 406-419,Unassigned,
 420,Unknown Attribute,[RFC5389]
 421-436,Unassigned,

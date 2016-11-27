@@ -1,11 +1,13 @@
 Profile URI,Common Name,Description,Reference
 urn:example:profile-uri,Exemplary Profile,"A profile to be used in examples, in accordance with [RFC6963].",[RFC7284]
 http://dublincore.org/documents/2008/08/04/dc-html/,Dublin Core HTML meta data profile,"A set of conventions by which a Dublin Core metadata
-      description set can be can be represented within an (X)HTML Web
-      page using (X)HTML elements and attributes.",[http://dublincore.org/documents/2008/08/04/dc-html/]
+        description set can be can be represented within an (X)HTML Web
+        page using (X)HTML elements and attributes.",[http://dublincore.org/documents/2008/08/04/dc-html/]
 http://www.w3.org/ns/json-ld#expanded,Expanded JSON-LD,"A profile URI to request or signal expanded JSON-LD
-      document form.",[http://www.w3.org/TR/json-ld/]
+        document form.",[http://www.w3.org/TR/json-ld/]
 http://www.w3.org/ns/json-ld#compacted,Compacted JSON-LD,"A profile URI to request or signal compacted JSON-LD
-      document form.",[http://www.w3.org/TR/json-ld/]
+        document form.",[http://www.w3.org/TR/json-ld/]
 http://www.w3.org/ns/json-ld#flattened,Flattened JSON-LD,"A profile URI to request or signal flattened JSON-LD
-      document form.",[http://www.w3.org/TR/json-ld/]
+        document form.",[http://www.w3.org/TR/json-ld/]
+http://www.w3.org/ns/anno.jsonld,Web Annotation,"A profile URI to request or signal the document is in the 
+        Web Annotation JSON format.",[https://www.w3.org/TR/annotation-protocol/]
