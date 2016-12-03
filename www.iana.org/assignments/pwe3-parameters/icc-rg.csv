@@ -42,8 +42,8 @@ Type,Description,Reference
 0x200A,STP Synchronization Request TLV,[RFC7727]
 0x200B,STP Synchronization Data TLV,[RFC7727]
 0x200C,STP Disconnect Cause TLV,[RFC7727]
-0x200D,PON Connect TLV,[RFC-ietf-pals-mc-pon-05]
-0x200E,PON Disconnect TLV,[RFC-ietf-pals-mc-pon-05]
-0x200F,PON Configuration TLV,[RFC-ietf-pals-mc-pon-05]
-0x2010,PON State TLV,[RFC-ietf-pals-mc-pon-05]
+0x200D,PON Connect TLV,[RFC8024]
+0x200E,PON Disconnect TLV,[RFC8024]
+0x200F,PON Configuration TLV,[RFC8024]
+0x2010,PON State TLV,[RFC8024]
 0x2011-0x3FFF,Unassigned,
