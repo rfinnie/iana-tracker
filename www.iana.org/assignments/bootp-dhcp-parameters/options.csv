@@ -179,7 +179,8 @@ applications",,,
 159,OPTION_V4_PORTPARAMS,4,"This option is used to configure a set of ports bound to a 
       shared IPv4 address.",[RFC7618]
 160,DHCP Captive-Portal,N,DHCP Captive-Portal,[RFC7710]
-161-174,Unassigned,,,[RFC3942]
+161,"OPTION_MUD_URL_V4 (TEMPORARY - registered 2016-11-17, expires 2017-11-17)",N (variable),Manufacturer Usage Descriptions,[draft-ietf-opsawg-mud]
+162-174,Unassigned,,,[RFC3942]
 175,"Etherboot (Tentatively Assigned -
 2005-06-23)",,,
 176,"IP Telephone (Tentatively Assigned -
