@@ -1,5 +1,5 @@
 Value,Name,Reference
-0x00,Unassigned,
+0x00,Reserved,[RFC-sweet-rfc2910bis-09]
 0x01,"""operation-attributes-tag""",[RFC-sweet-rfc2910bis-09]
 0x02,"""job-attributes-tag""",[RFC-sweet-rfc2910bis-09]
 0x03,"""end-of-attributes-tag""",[RFC-sweet-rfc2910bis-09]
