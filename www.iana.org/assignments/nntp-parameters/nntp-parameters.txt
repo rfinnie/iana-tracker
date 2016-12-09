@@ -4,7 +4,7 @@
            2005-07-12
 
    Last Updated
-           2010-11-22
+           2016-12-06
 
    Available Formats
            [IMG]
@@ -12,15 +12,17 @@
            HTML [IMG]
            Plain text
 
-   Registry included below
+   Registries included below
 
-     * NNTP capability labels
+     * NNTP Capability Labels
+     * NNTP Compression Algorithms
 
-NNTP capability labels
+NNTP Capability Labels
 
    Registration Procedure(s)
 
- Labels beginning with X are reserved for private use. All others: Standards Track RFC or an IESG-approved experimental protocol
+ Labels beginning with X are reserved for private use.
+ All others: Standards Track RFC or an IESG-approved experimental protocol.
 
    Reference
            [RFC3977]
@@ -32,12 +34,14 @@ NNTP capability labels
  MUST begin with a letter other than X.  They MUST be at least
  three characters.
 
+
    Available Formats
            [IMG]
            CSV
 
-       Label                              Meaning                             Reference
+       Label                              Meaning                                    Reference
    AUTHINFO       Authentication                                          [RFC4643]
+   COMPRESS       Supported compression algorithms                        [RFC-murchison-nntp-compress-06]
    HDR            Batched header retrieval                                [RFC3977]
    IHAVE          IHAVE command available                                 [RFC3977]
    IMPLEMENTATION Server implementation-specific information              [RFC3977]
@@ -51,3 +55,26 @@ NNTP capability labels
    STARTTLS       Transport layer security                                [RFC4642]
    STREAMING      Streaming feeds                                         [RFC4644]
    VERSION        Supported NNTP versions                                 [RFC3977]
+
+NNTP Compression Algorithms
+
+   Registration Procedure(s)
+
+ First Come First Served
+
+   Reference
+           [RFC-murchison-nntp-compress-06]
+
+   Note
+
+ NNTP compression algorithms are named by strings from 1 to 20
+ characters in length consisting of upper-case letters, digits,
+ hyphens, and/or underscores.
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Algorithm Name Intended Usage        Comment         Change Controller            Reference
+   DEFLATE        COMMON         Mandatory to implement IESG              [RFC-murchison-nntp-compress-06]

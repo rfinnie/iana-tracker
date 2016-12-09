@@ -16,9 +16,8 @@ Value,Name,Reference
 0x40,Unassigned,
 0x41,textWithoutLanguage,[RFC-sweet-rfc2910bis-09]
 0x42,nameWithoutLanguage,[RFC-sweet-rfc2910bis-09]
-0x43,"Reserved for future IANA Registration after
-an Expert Review as defined
-in [RFC2911] section 6.3.",[RFC-sweet-rfc2910bis-09]
+0x43,"Reserved for future IANA registration after an 
+        Expert Review as defined in Section 7.7 of [RFC8011].",[RFC-sweet-rfc2910bis-09]
 0x44,keyword,[RFC-sweet-rfc2910bis-09]
 0x45,uri,[RFC-sweet-rfc2910bis-09]
 0x46,uriScheme,[RFC-sweet-rfc2910bis-09]

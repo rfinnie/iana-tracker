@@ -1,7 +1,7 @@
 Sub-Type Value,Name,Reference,Date
-0x00,Unassigned (DEPRECATED),,2007-02-20
+0x00,Unassigned (deprecated),,2007-02-20
 0x01,Cost Community,[draft-ietf-idr-custom-decision],2014-07-15
-0x02,Unassigned (DEPRECATED),,2007-02-20
+0x02,Unassigned (deprecated),,2007-02-20
 0x03,CP-ORF,[RFC7543],2014-09-24
 0x04,Extranet Source Extended Community,[RFC7900],2016-04-28
 0x05,Extranet Separation Extended Community,[RFC7900],2016-04-28

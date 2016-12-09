@@ -1639,7 +1639,7 @@ MEF16 (Ethernet Local Management Interface)",[ipfix-iana_at_cisco.com],1,2014-02
 service provided by an EVC.",,,"MEF 10.1 (Ethernet Services Attributes Phase 2)  
 MEF16 (Ethernet Local Management Interface)",[ipfix-iana_at_cisco.com],0,2013-02-18
 249,pseudoWireId,unsigned32,identifier,current,"A 32-bit non-zero connection identifier, which together with the 
-pseudoWireType, identifies the Pseudo Wire (PW) as defined in [RFC4447].",,,See [RFC4447] for pseudowire definitions.,[ipfix-iana_at_cisco.com],0,2013-02-18
+pseudoWireType, identifies the Pseudo Wire (PW) as defined in [RFC-ietf-pals-rfc4447bis].",,,See [RFC-ietf-pals-rfc4447bis] for pseudowire definitions.,[ipfix-iana_at_cisco.com],0,2013-02-18
 250,pseudoWireType,unsigned16,identifier,current,"The value of this information element identifies the type of MPLS 
 Pseudo Wire (PW) as defined in [RFC4446].",,,"See [RFC4446] for the pseudowire type definition, and 
 http://www.iana.org/assignments/pwe3-parameters for the IANA 
