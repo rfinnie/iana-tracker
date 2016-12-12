@@ -25,3 +25,4 @@ k,Key Value,oct,Private,[IESG],"[RFC7518, Section 6.4.1]"
 crv,The subtype of keypair,OKP,Public,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 2]"
 d,The private key,OKP,Private,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 2]"
 x,The public key,OKP,Public,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 2]"
+ext,Extractable,*,Public,[W3C_Web_Cryptography_Working_Group],[https://www.w3.org/TR/WebCryptoAPI]

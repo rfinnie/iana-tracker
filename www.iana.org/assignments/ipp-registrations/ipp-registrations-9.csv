@@ -8,24 +8,23 @@ Value,Name,Reference
 0x31,dateTime,[RFC-sweet-rfc2910bis-09]
 0x32,resolution,[RFC-sweet-rfc2910bis-09]
 0x33,rangeOfInteger,[RFC-sweet-rfc2910bis-09]
-0x34,begCollection,[RFC3382]
+0x34,begCollection,[RFC8010]
 0x35,textWithLanguage,[RFC-sweet-rfc2910bis-09]
 0x36,nameWithLanguage,[RFC-sweet-rfc2910bis-09]
-0x37,endCollection,[RFC3382]
+0x37,endCollection,[RFC8010]
 0x38-0x3F,Unassigned - to be for octetString data types,[RFC-sweet-rfc2910bis-09]
 0x40,Unassigned,
 0x41,textWithoutLanguage,[RFC-sweet-rfc2910bis-09]
 0x42,nameWithoutLanguage,[RFC-sweet-rfc2910bis-09]
-0x43,"Reserved for future IANA Registration after
-an Expert Review as defined
-in [RFC2911] section 6.3.",[RFC-sweet-rfc2910bis-09]
+0x43,"Reserved for future IANA registration after an 
+        Expert Review as defined in Section 7.7 of [RFC8011].",[RFC-sweet-rfc2910bis-09]
 0x44,keyword,[RFC-sweet-rfc2910bis-09]
 0x45,uri,[RFC-sweet-rfc2910bis-09]
 0x46,uriScheme,[RFC-sweet-rfc2910bis-09]
 0x47,charset,[RFC-sweet-rfc2910bis-09]
 0x48,naturalLanguage,[RFC-sweet-rfc2910bis-09]
 0x49,mimeMediaType,[RFC-sweet-rfc2910bis-09]
-0x4A,memberAttrName,[RFC3382]
+0x4A,memberAttrName,[RFC8010]
 0x4B-0x5F,"Unassigned - to be for character-string data
 types",[RFC-sweet-rfc2910bis-09]
 0x60-0x7E,Unassigned,
