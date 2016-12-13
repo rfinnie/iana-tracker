@@ -24,3 +24,4 @@ Related Domain Extension for the Extensible Provisioning Protocol (EPP),Informat
 .SE extension,Informational,[https://www.iis.se/docs/iis-1.2.txt],[Internet_Infrastructure_Foundation],.se  .nu,None,Active,[Manual for the extension]
 DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmaster/epp-service-specification],[DK_Hostmaster_AS],.dk,None,Active,"This extension includes a number of domain and contact object 
         extension elements for use with the dk ccTLD."
+Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC-ietf-eppext-keyrelay-12],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None
