@@ -22,7 +22,7 @@ Number,Name,Recipient Tests,Reference
 28,brainpoolP256r1,"[RFC6989], Sec. 2.3",[RFC6954]
 29,brainpoolP384r1,"[RFC6989], Sec. 2.3",[RFC6954]
 30,brainpoolP512r1,"[RFC6989], Sec. 2.3",[RFC6954]
-31,Curve25519,"[RFC-ietf-ipsecme-safecurves-05], Sec. 3.2",[RFC-ietf-ipsecme-safecurves-05]
-32,Curve448,"[RFC-ietf-ipsecme-safecurves-05], Sec. 3.2",[RFC-ietf-ipsecme-safecurves-05]
+31,Curve25519,"[RFC8031], Sec. 3.2",[RFC8031]
+32,Curve448,"[RFC8031], Sec. 3.2",[RFC8031]
 33-1023,Unassigned,,
 1024-65535,Reserved for Private Use,,[RFC7296]

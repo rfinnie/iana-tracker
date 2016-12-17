@@ -45,4 +45,5 @@ Value,Name,Reference
 0x48323634,VA H.264,[David_Verbeiren]
 0x574d5600 to 0x574d56ff,VMWare,historic assignment
 0xc0a1e5ce to 0xc0a1e5cf,Possibly used in UltraVNC,historic assignment
+0xfffe0000 to 0xfffe00ff,Used in LibVNCServer,LibVNCServer
 0xffff0000 to 0xffff8003,Possibly used in UltraVNC,historic assignment
