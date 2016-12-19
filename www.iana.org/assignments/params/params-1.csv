@@ -12,6 +12,6 @@ geopriv,[RFC7035],[http://www.iana.org/assignments/geopriv-identifiers]
 scim,[RFC7643],[http://www.iana.org/assignments/scim]
 tzdist,[RFC7808],[http://www.iana.org/assignments/tzdist-identifiers]
 abfab,[RFC7833],[http://www.iana.org/assignments/abfab-parameters]
-push,[RFC-ietf-webpush-protocol-12],[http://www.iana.org/assignments/webpush-parameters]
+push,[RFC8030],[http://www.iana.org/assignments/webpush-parameters]
 restconf,[RFC-ietf-netconf-restconf-18],[http://www.iana.org/assignments/restconf-capability-urns]
 "mud (TEMPORARY - registered 2016-12-06, expires 2017-12-06)",[draft-ietf-opsawg-mud],

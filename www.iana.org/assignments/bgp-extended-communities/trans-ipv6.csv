@@ -2,7 +2,7 @@ Type Value,Name,Reference,Date
 0x0000-0x0001,Unassigned,,
 0x0002,Route Target,[RFC5701],
 0x0003,Route Origin,[RFC5701],
-0x0004,OSPFv3 Route Attributes (DEPRECATED),[RFC6565],
+0x0004,OSPFv3 Route Attributes (deprecated),[RFC6565],
 0x0005-0x000a,Unassigned,,
 0x000b,VRF Route Import,[RFC6515][RFC6514],
 0x000c,Flow-spec Redirect to IPv6,[draft-ietf-idr-flowspec-redirect-ip],2016-03-22

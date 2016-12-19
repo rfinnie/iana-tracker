@@ -19,7 +19,7 @@ Code,Description,Reference
 4.08,Request Entity Incomplete,[RFC7959]
 4.09-4.11,Unassigned,
 4.12,Precondition Failed,[RFC7252]
-4.13,Request Entity Too Large,[RFC7252]
+4.13,Request Entity Too Large,[RFC7252][RFC7959]
 4.14,Unassigned,
 4.15,Unsupported Content-Format,[RFC7252]
 4.16-4.31,Unassigned,

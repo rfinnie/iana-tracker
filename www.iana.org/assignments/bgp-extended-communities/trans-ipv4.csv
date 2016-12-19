@@ -1,5 +1,5 @@
 Sub-Type Value,Name,Reference,Date
-0x00,Unassigned (DEPRECATED),,2014-01-08
+0x00,Unassigned (deprecated),,2014-01-08
 0x01,Unassigned,,
 0x02,Route Target,[RFC4360],
 0x03,Route Origin,[RFC4360],

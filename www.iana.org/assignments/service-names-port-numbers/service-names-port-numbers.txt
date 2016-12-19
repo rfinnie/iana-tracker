@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2016-12-09
+           2016-12-14
 
    Expert(s)
 
@@ -2099,7 +2099,7 @@ puprouter           999        tcp
 puprouter           999        udp
 cadlock2           1000        tcp
 cadlock2           1000        udp
-webpush            1001        tcp    HTTP Web Push                [IESG]                                                [IETF_Chair]                                              2016-11-01                [RFC-ietf-webpush-protocol-12]
+webpush            1001        tcp    HTTP Web Push                [IESG]                                                [IETF_Chair]                                              2016-11-01                [RFC8030]
                    1001        udp    Reserved
                  1002-1007            Unassigned
                    1008        udp    Possibly used by Sun
@@ -12941,7 +12941,9 @@ acctopus-st        6868        udp    Acctopus Status              [Stefan_Auwei
                  6869-6887            Unassigned
 muse               6888        tcp    MUSE                         [Muse_Communications]                                 [Muse_Communications]
 muse               6888        udp    MUSE                         [Muse_Communications]                                 [Muse_Communications]
-                 6889-6900            Unassigned
+                   6889               Unassigned
+rtimeviewer        6900        tcp    R*TIME Viewer Data Interface [Curtiss-Wright_Corporation]                          [Robert_Ammon]                                            2016-12-14
+                   6900        udp    Reserved
 jetstream          6901        tcp    Novell Jetstream messaging   [Anil_Tyagi]                                          [Anil_Tyagi]                                              2010-06-11
                                       protocol
                    6901        udp    Reserved
@@ -16119,7 +16121,13 @@ samsung-disc       30832       udp    Samsung Convergence          [Samsung_2]  
                 30833-30998           Unassigned
 ovobs              30999       tcp    OpenView Service Desk Client [Service_Desk_Product]                                [Service_Desk_Product]                                    2006-05
 ovobs              30999       udp    OpenView Service Desk Client [Service_Desk_Product]                                [Service_Desk_Product]                                    2006-05
-                31000-31019           Unassigned
+                31000-31015           Unassigned
+                                      Kollective Agent Secure
+ka-sddp            31016       tcp    Distributed Delivery         [Kollective_Technology_Inc]                           [John_Wainwright]                                         2016-12-11
+                                      Protocol
+ka-kdp             31016       udp    Kollective Agent Kollective  [Kollective_Technology_Inc]                           [John_Wainwright]                                         2016-12-11
+                                      Delivery Protocol
+                31017-31019           Unassigned
 autotrac-acp       31020       tcp    Autotrac ACP 245             [Roberto_Jorge_Dino]                                  [Roberto_Jorge_Dino]
                    31020       udp    Reserved
                 31021-31028           Unassigned
@@ -17339,6 +17347,8 @@ idata                                 Generic Data Acquisition and [Carson_Fenim
                                       Control Protocol
 idcws                                 Intermec Device              [Thaddeus_Ternes]                                     [Thaddeus_Ternes]                                                                                                                                Defined TXT keys: version=<x.xx>
                                       Configuration Web Services
+ideaquest                      tcp    IDEAQUEST Safety Monitoring  [IDEAQUEST_Inc.]                                      [Kimitaka_KAWAGUCHI]                                      2016-12-12                                                                             Defined TXT keys: none
+                                      System
 idsync                                SplashID Synchronization     [Justin_Cepelak]                                      [Justin_Cepelak]                                                                                                                                 Defined TXT keys: Proprietary
                                       Service
                                       iFFL Bonjour service for
@@ -19258,6 +19268,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Curtis_Bray]                                             Curtis Bray                                     mailto:CurtisB&creativedesign.com
 [Curtis_Smith]                                            Curtis Smith                                    mailto:curtis.smith&vsin.com
 [Curtiss_Howard]                                          Curtiss Howard                                  mailto:cjhoward&unity.ncsu.edu                                2004-11
+[Curtiss-Wright_Corporation]                                                        Curtiss-Wright        mailto:rammon&curtisswright.com                               2016-12-14
+                                                                                    Corporation
 [CX5_SOFTWARE]                                                                      CX5 SOFTWARE          mailto:contact&cx5software.com                                2013-02-04
 [DARcorp]                                                                                                 mailto:DARcorp&aol.com
 [d_b_audiotechnik]                                                                  d&b audiotechnik      mailto:software.support&dbaudio.com                           2011-10-06
@@ -20327,6 +20339,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ico_Doornekamp]                                          Ico Doornekamp                                  mailto:ico&saedra.nl
 [iConstruct_Aus_Pty_Ltd]                                                            iConstruct (Aus) Pty  mailto:jafari&pdcwa.com.au                                    2012-12-21
                                                                                     Ltd
+[IDEAQUEST_Inc.]                                                                    IDEAQUEST Inc.        mailto:engineering&ideaquest4u.com                            2016-12-12
 [Ido_Ben_David]                                           Ido Ben-David                                   mailto:dgntcom&netvision.net.il
 [IEC_Central_Office]                                                                IEC Central Office    mailto:cj&iec.ch                                              2015-07-24
 [Ieuan_Friend]                                            Ieuan Friend                                    mailto:ieuan.friend&dip.co.uk                                 2006-03
@@ -20796,6 +20809,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [John_Tintor]                                             John Tintor                                     mailto:jt&yo.net
 [John_Tokash]                                             John Tokash                                     mailto:jtokash&homestead.com
 [John_Trudeau]                                            John Trudeau                                    mailto:jtrudeau&cup.hp.com
+[John_Wainwright]                                         John Wainwright                                 mailto:jwainwright&kollective.com                             2016-12-11
 [John_Wallace]                                            John Wallace                                    mailto:john&nowsoftware.com
 [John_Wason]                                              John Wason                Wason Technology, LLC mailto:wason&wasontech.com                                    2014-01-27
 [John_Wendt]                                              John Wendt                                      tel:+1-614-261-2000
@@ -21060,6 +21074,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kim_Moraros]                                             Kim Moraros                                     mailto:moraros&via.enet.dec.com
 [Kim_Scott]                                               Kim Scott                                       mailto:kims&cup.hp.com
 [Kimberly_Gibbs]                                          Kimberly Gibbs                                  mailto:kimgib&ccgate-ut.axent.com
+[Kimitaka_KAWAGUCHI]                                      Kimitaka KAWAGUCHI        IDEAQUEST Inc.        mailto:engineering&ideaquest4u.com                            2016-12-12
 [Kimmo_Kymalainen]                                        Kimmo Kymalainen                                mailto:kimmo.kymalainen&etsi.org                              2010-06-04
 [Kin_Chan]                                                Kin Chan                                        mailto:kchan&shiva.com
 [Kin_Chan_2]                                              Kin Chan                                        mailto:kchan&net2net.com
@@ -21082,6 +21097,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Klaus_Wolf]                                              Klaus Wolf                                      mailto:wolf&cobrow.com
 [Koen_Schoofs]                                            Koen Schoofs                                    mailto:schoofs_koen&emc.com                                   2003-01
 [Koich_Nakamura]                                          Koich Nakamura                                  mailto:naka&case.nm.fujitsu.co.jp
+[Kollective_Technology_Inc]                                                         Kollective Technology mailto:info&kollective.com                                    2016-12-11
+                                                                                    Inc.
 [Konstantin_Iavid]                                        Konstantin Iavid                                mailto:kiavid&highcriteria.com
 [Konstantin_Schauweck]                                    Konstantin Schauwecker                          mailto:hi&konstantin-schauwecker.de                           2007-02
 [Konstantin_V_Vyazni]                                     Konstantin V. Vyaznikov                         mailto:kv&ssm6000.samsung.ru
@@ -22494,6 +22511,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Robby_Simpson]                                           Robby Simpson, PhD                              mailto:rsimpson&gmail.com
 [Robby_Walker]                                            Robby Walker                                    mailto:webmaster&cd-lab.com
 [Robert_A_Kukura]                                         Robert A. Kukura                                mailto:kukura&apollo.hp.com
+[Robert_Ammon]                                            Robert Ammon                                    mailto:rammon&curtisswright.com                               2016-12-14
 [Robert_Armes]                                            Robert Armes                                    mailto:rarmes&axarte.com
 [Robert_Armington]                                        Robert Armington                                mailto:rarmington&lipsinc.com
 [Robert_Baldwin]                                          Robert Baldwin                                  mailto:baldwin&plusfive.com                                   2004-11

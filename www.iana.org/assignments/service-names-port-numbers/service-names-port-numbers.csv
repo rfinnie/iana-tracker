@@ -1644,7 +1644,7 @@ puprouter,999,tcp,,,,,,,,,
 puprouter,999,udp,,,,,,,,,
 cadlock2,1000,tcp,,,,,,,,,
 cadlock2,1000,udp,,,,,,,,,
-webpush,1001,tcp,HTTP Web Push,[IESG],[IETF_Chair],2016-11-01,,[RFC-ietf-webpush-protocol-12],,,
+webpush,1001,tcp,HTTP Web Push,[IESG],[IETF_Chair],2016-11-01,,[RFC8030],,,
 ,1001,udp,Reserved,,,,,,,,
 ,1002-1007,,Unassigned,,,,,,,,
 ,1008,udp,Possibly used by Sun Solaris????,,,,,,,,
@@ -10750,7 +10750,9 @@ acctopus-st,6868,udp,Acctopus Status,[Stefan_Auweiler],[Stefan_Auweiler],2009-11
 ,6869-6887,,Unassigned,,,,,,,,
 muse,6888,tcp,MUSE,[Muse_Communications],[Muse_Communications],,,,,,
 muse,6888,udp,MUSE,[Muse_Communications],[Muse_Communications],,,,,,
-,6889-6900,,Unassigned,,,,,,,,
+,6889,,Unassigned,,,,,,,,
+rtimeviewer,6900,tcp,R*TIME Viewer Data Interface,[Curtiss-Wright_Corporation],[Robert_Ammon],2016-12-14,,,,,
+,6900,udp,Reserved,,,,,,,,
 jetstream,6901,tcp,Novell Jetstream messaging protocol,[Anil_Tyagi],[Anil_Tyagi],2010-06-11,,,,,
 ,6901,udp,Reserved,,,,,,,,
 ,6902-6934,,Unassigned,,,,,,,,
@@ -13270,7 +13272,10 @@ samsung-disc,30832,udp,Samsung Convergence Discovery Protocol,[Samsung_2],[Young
 ,30833-30998,,Unassigned,,,,,,,,
 ovobs,30999,tcp,OpenView Service Desk Client,[Service_Desk_Product],[Service_Desk_Product],2006-05,,,,,
 ovobs,30999,udp,OpenView Service Desk Client,[Service_Desk_Product],[Service_Desk_Product],2006-05,,,,,
-,31000-31019,,Unassigned,,,,,,,,
+,31000-31015,,Unassigned,,,,,,,,
+ka-sddp,31016,tcp,Kollective Agent Secure Distributed Delivery Protocol,[Kollective_Technology_Inc],[John_Wainwright],2016-12-11,,,,,
+ka-kdp,31016,udp,Kollective Agent Kollective Delivery Protocol,[Kollective_Technology_Inc],[John_Wainwright],2016-12-11,,,,,
+,31017-31019,,Unassigned,,,,,,,,
 autotrac-acp,31020,tcp,Autotrac ACP 245,[Roberto_Jorge_Dino],[Roberto_Jorge_Dino],,,,,,
 ,31020,udp,Reserved,,,,,,,,
 ,31021-31028,,Unassigned,,,,,,,,
@@ -14155,6 +14160,7 @@ iconquer,,,iConquer,[Andrew_Zamler_Carhar],[Andrew_Zamler_Carhar],,,,,,Defined T
 icontrolbox,,tcp,A Remote Control Application service used to control Computers on a Local Area Network,[Umair_Cheema],[Umair_Cheema],2013-07-08,,,,,Defined TXT keys: None
 idata,,,Generic Data Acquisition and Control Protocol,[Carson_Fenimore],[Carson_Fenimore],,,,,,Defined TXT keys: None
 idcws,,,Intermec Device Configuration Web Services,[Thaddeus_Ternes],[Thaddeus_Ternes],,,,,,Defined TXT keys: version=<x.xx>
+ideaquest,,tcp,IDEAQUEST Safety Monitoring System,[IDEAQUEST_Inc.],[Kimitaka_KAWAGUCHI],2016-12-12,,,,,Defined TXT keys: none
 idsync,,,SplashID Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
 iffl,,,iFFL Bonjour service for communication between client and server applications.,[Kevin_Gregory],[Kevin_Gregory],2016-03-20,,,,,Defined TXT keys: None
 ifolder,,,Published iFolder,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=?
