@@ -1,8 +1,8 @@
-Name,Long Name,Reference
-ntp,Network Time Protocol,"[RFC7273, section 4]"
-ptp,Precision Time Protocol,"[RFC7273, section 4]"
-gps,Global Positioning System,"[RFC7273, section 4]"
-gal,Galileo,"[RFC7273, section 4]"
-glonass,Global Navigation Satellite System,"[RFC7273, section 4]"
-local,Local Clock,"[RFC7273, section 4]"
-private,Private Clock,"[RFC7273, section 4]"
+Name,Long Name,Mux Category,Reference
+ntp,Network Time Protocol,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+ptp,Precision Time Protocol,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+gps,Global Positioning System,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+gal,Galileo,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+glonass,Global Navigation Satellite System,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+local,Local Clock,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+private,Private Clock,NORMAL,"[RFC7273, section 4][RFC-ietf-mmusic-sdp-mux-attributes-16]"

@@ -1,3 +1,3 @@
-Token,Semantics,Reference
-lay,Layered decoding dependency,[RFC5583]
-mdc,Multi descriptive decoding dependency,[RFC5583]
+Token,Semantics,Mux Category,Reference
+lay,Layered decoding dependency,IDENTICAL-PER-PT,[RFC5583][RFC-ietf-mmusic-sdp-mux-attributes-16]
+mdc,Multi descriptive decoding dependency,IDENTICAL-PER-PT,[RFC5583][RFC-ietf-mmusic-sdp-mux-attributes-16]
