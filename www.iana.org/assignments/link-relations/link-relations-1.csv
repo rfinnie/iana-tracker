@@ -15,7 +15,7 @@ contents,Refers to a table of contents.,[http://www.w3.org/TR/1999/REC-html401-1
 convertedFrom,"The document linked to was later converted to the
       document that contains this link relation.  For example, an RFC can
       have a link to the Internet-Draft that became the RFC; in that case,
-      the link relation would be ""convertedFrom"".",[RFC-iab-xml2rfc-04],"This relation is different than ""predecessor-version"" in that
+      the link relation would be ""convertedFrom"".",[RFC7991],"This relation is different than ""predecessor-version"" in that
       ""predecessor-version"" is for items in a version control system.  It
       is also different than ""previous"" in that this relation is used for
       converted resources, not those that are part of a sequence of

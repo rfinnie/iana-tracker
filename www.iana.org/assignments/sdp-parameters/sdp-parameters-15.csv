@@ -1,9 +1,9 @@
-Value Name,Long Name,Usable with,Reference
-sli,Slice Loss Indication,nack,[RFC4585]
-pli,Picture Loss Indication,nack,[RFC4585]
-rpsi,Reference Picture Selection Indication,"ack, nack",[RFC4585]
-app,Application layer feedback,"ack, nack",[RFC4585]
-rai,Rapid Acquisition Indication,nack,[RFC6285]
-tllei,Transport-Layer Third-Party Loss Early Indication,nack,[RFC6642]
-pslei,Payload-Specific Third-Party Loss Early Indication,nack,[RFC6642]
-ecn,Explicit Congestion Notification,nack,[RFC6679]
+Value Name,Long Name,Usable with,Mux,Reference
+sli,Slice Loss Indication,nack,IDENTICAL-PER-PT,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
+pli,Picture Loss Indication,nack,IDENTICAL-PER-PT,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
+rpsi,Reference Picture Selection Indication,"ack, nack",IDENTICAL-PER-PT,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
+app,Application layer feedback,"ack, nack",SPECIAL,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
+rai,Rapid Acquisition Indication,nack,IDENTICAL-PER-PT,[RFC6285][RFC-ietf-mmusic-sdp-mux-attributes-16]
+tllei,Transport-Layer Third-Party Loss Early Indication,nack,IDENTICAL-PER-PT,[RFC6642][RFC-ietf-mmusic-sdp-mux-attributes-16]
+pslei,Payload-Specific Third-Party Loss Early Indication,nack,IDENTICAL-PER-PT,[RFC6642][RFC-ietf-mmusic-sdp-mux-attributes-16]
+ecn,Explicit Congestion Notification,nack,IDENTICAL,[RFC6679][RFC-ietf-mmusic-sdp-mux-attributes-16]

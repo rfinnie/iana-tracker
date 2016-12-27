@@ -4,4 +4,6 @@ Value,Name,Reference
 2,MT-ID Join Attribute,[RFC6420]
 3,Pop-Count,[RFC6807]
 4,Explicit RPF Vector,[RFC7891]
-5-63,Unassigned,
+5,Transport Attribute,[RFC-ietf-pim-join-attributes-for-lisp-06]
+6,Receiver RLOC Attribute,[RFC-ietf-pim-join-attributes-for-lisp-06]
+7-63,Unassigned,

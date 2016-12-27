@@ -1,6 +1,6 @@
-Value Name,Long Name,Usable with,Reference
-fir,Full Intra Request Command,ccm,[RFC5104]
-tmmbr,Temporary Maximum Media Stream Bit Rate,ccm,[RFC5104]
-tstr,Temporal-Spatial Trade-off,ccm,[RFC5104]
-vbcm,H.271 video back channel messages,ccm,[RFC5104]
-pause,Media Pause/Resume,ccm,[RFC7728]
+Value Name,Long Name,Usable with,Mux,Reference
+fir,Full Intra Request Command,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-16]
+tmmbr,Temporary Maximum Media Stream Bit Rate,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-16]
+tstr,Temporal-Spatial Trade-off,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-16]
+vbcm,H.271 video back channel messages,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-16]
+pause,Media Pause/Resume,ccm,TBD,[RFC7728]

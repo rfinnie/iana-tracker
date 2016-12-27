@@ -1,5 +1,5 @@
-Token,Semantics,Reference
-FID,Flow Identification,[RFC5576]
-FEC,Forward Error Correction,[RFC5576]
-FEC-FR,Forward Error Correction FR,[RFC5956]
-DUP,Duplication,[RFC7104]
+Token,Semantics,Mux Category,Reference
+FID,Flow Identification,NORMAL,[RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+FEC,Forward Error Correction,NORMAL,[RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+FEC-FR,Forward Error Correction FR,NORMAL,[RFC5956][RFC-ietf-mmusic-sdp-mux-attributes-16]
+DUP,Duplication,NORMAL,[RFC7104][RFC-ietf-mmusic-sdp-mux-attributes-16]

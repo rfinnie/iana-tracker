@@ -1,6 +1,6 @@
-Type,SDP Name,Description,Reference
-content,slides,Presentation slides,[RFC4796]
-content,speaker,Image from the speaker,[RFC4796]
-content,sl,Sign language,[RFC4796]
-content,main,Main media stream,[RFC4796]
-content,alt,Alternative media stream,[RFC4796]
+Type,SDP Name,Description,Mux Category,Reference
+content,slides,Presentation slides,NORMAL,[RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
+content,speaker,Image from the speaker,NORMAL,[RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
+content,sl,Sign language,NORMAL,[RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
+content,main,Main media stream,NORMAL,[RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
+content,alt,Alternative media stream,NORMAL,[RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
