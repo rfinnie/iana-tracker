@@ -52,9 +52,9 @@ att-field (both session and media level),3gpp_sync_info,NORMAL,"[3GPP TS 26.114 
 att-field (both session and media level),3gpp_MaxRecvSDUSize,NORMAL,"[3GPP TS 26.114 Release 12, version 12.2.0, 2013-06][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (both session and media level),etag,CAUTION,[RFC2326][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),duplication-delay,NORMAL,[RFC7197][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (both session and media level),range,CAUTION,[RFC2326][RFC-ietf-mmusic-rfc2326bis-40][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (both session and media level),control,CAUTION,[RFC2326][RFC-ietf-mmusic-rfc2326bis-40][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (both session and media level),mtag,CAUTION,[RFC-ietf-mmusic-rfc2326bis-40][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (both session and media level),range,CAUTION,[RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (both session and media level),control,CAUTION,[RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (both session and media level),mtag,CAUTION,[RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),ts-refclk,NORMAL,[RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),mediaclk,NORMAL,[RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),calgextmap,NORMAL,[RFC7266][RFC-ietf-mmusic-sdp-mux-attributes-16]

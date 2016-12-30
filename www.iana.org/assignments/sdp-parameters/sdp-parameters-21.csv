@@ -1,6 +1,6 @@
-Option Tag,Reference
-cap-v0,[RFC5939]
-med-v0,[RFC6871]
-bcap-v0,[RFC7006]
-ccap-v0,[RFC7006]
-icap-v0,[RFC7006]
+Option Tag,Mux Category,Reference
+cap-v0,NORMAL,[RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
+med-v0,NORMAL,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+bcap-v0,NORMAL,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
+ccap-v0,NORMAL,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
+icap-v0,NORMAL,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]

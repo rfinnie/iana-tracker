@@ -32,4 +32,4 @@ att-field (session level),bc_service_package,NORMAL,"[Sonia_Compans][TS 183 063 
 ""Telecommunications and Internet converged Services and Protocols for
 Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (session level),sescap,CAUTION,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (session level),rtsp-ice-d-m,TBD,[RFC-ietf-mmusic-rtsp-nat-22][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (session level),rtsp-ice-d-m,TBD,[RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
