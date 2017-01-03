@@ -5,5 +5,5 @@ Bit Number,Capability Name,Reference
 3,OSPF Traffic Engineering support,[RFC3630]
 4,OSPF point-to-point over LAN,[RFC5309]
 5,OSPF Experimental TE,[RFC4973]
-6,Two-Part Metric support,[RFC-ietf-ospf-two-part-metric-10]
+6,Two-Part Metric support,[RFC8042]
 7-31,Unassigned,

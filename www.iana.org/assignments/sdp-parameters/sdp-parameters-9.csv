@@ -163,7 +163,7 @@ att-field (media level only),T38FaxUdpFECMaxSpan,TBD,"[ITU-T Recommendation T.38
 att-field (media level only),T38ModemType,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (media level only),cs-correlation,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtcp-idms,NORMAL,[RFC7272][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (media level only),predefined_ROI,TBD,[3GPP TS 26.114 v13.1.0][_3GPP_Specifications_Manager]
-att-field (media level only),msid,TBD,[RFC-ietf-mmusic-msid-15]
-att-field (media level only),rtcp-mux-only,TBD,[RFC-ietf-mmusic-mux-exclusive-10]
-att-field (media level only),ebuacip,TBD,[EBU Tech 3368 - Audio Contribution over IP – Profiles][Felix_Poulin]
+att-field (media level only),predefined_ROI,TBD,[3GPP TS 26.114 v13.1.0][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (media level only),msid,TBD,[RFC-ietf-mmusic-msid-15][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (media level only),rtcp-mux-only,TBD,[RFC-ietf-mmusic-mux-exclusive-10][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (media level only),ebuacip,TBD,[EBU Tech 3368 - Audio Contribution over IP – Profiles][Felix_Poulin][RFC-ietf-mmusic-sdp-mux-attributes-16]

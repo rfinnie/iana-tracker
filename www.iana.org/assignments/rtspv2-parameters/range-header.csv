@@ -1,6 +1,6 @@
 Identifier,Name,Reference
-npt,Normal Play Time,[RFC-ietf-mmusic-rfc2326bis-40]
-clock,UTC Absolute Time format,[RFC-ietf-mmusic-rfc2326bis-40]
-smpte,SMPTE Timestamps,[RFC-ietf-mmusic-rfc2326bis-40]
-smpte-30-drop,SMPTE Timestamps 29.97 Frames/sec (30 Hz with Drop),[RFC-ietf-mmusic-rfc2326bis-40]
-smpte-25,SMPTE Timestamps 25 Frames/sec,[RFC-ietf-mmusic-rfc2326bis-40]
+npt,Normal Play Time,[RFC7826]
+clock,UTC Absolute Time format,[RFC7826]
+smpte,SMPTE Timestamps,[RFC7826]
+smpte-30-drop,SMPTE Timestamps 29.97 Frames/sec (30 Hz with Drop),[RFC7826]
+smpte-25,SMPTE Timestamps 25 Frames/sec,[RFC7826]
