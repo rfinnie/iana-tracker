@@ -44,7 +44,7 @@ att-field (both session and media level),rmcap,IDENTICAL-PER-PT,[RFC6871][RFC-ie
 att-field (both session and media level),omcap,NORMAL,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),mfcap,IDENTICAL-PER-PT,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),mscap,INHERIT,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (both session and media level),3gpp.iut.replication,TBD,[Frederic_Firmin][3GPP TS 24.337 10.7.0][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (both session and media level),3gpp.iut.replication,TBD,[3GPP TS 24.337 10.7.0][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),bcap,INHERIT,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),ccap,IDENTICAL,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),icap,NORMAL,[RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]

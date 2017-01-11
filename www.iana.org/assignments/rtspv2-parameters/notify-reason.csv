@@ -1,11 +1,11 @@
 Name,Description,Reference
 end-of-stream,"This Notify-Reason value indicates the end of a media
-      stream.",[RFC-ietf-mmusic-rfc2326bis-40]
+      stream.",[RFC7826]
 media-properties-update,"This Notify-Reason value allows the server
       to indicate that the properties of the media have changed during
-      the playout.",[RFC-ietf-mmusic-rfc2326bis-40]
+      the playout.",[RFC7826]
 scale-change,"This Notify-Reason value allows the server to notify
-      the client about a change in the Scale of the media.",[RFC-ietf-mmusic-rfc2326bis-40]
+      the client about a change in the Scale of the media.",[RFC7826]
 ice-restart,"This Notify-Reason value allows the server to notify
       the client about the need for an ICE restart. See Section 4.6 of 
-      [RFC-ietf-mmusic-rtsp-nat-22].",[RFC-ietf-mmusic-rtsp-nat-22]
+      [RFC7825].",[RFC7825]

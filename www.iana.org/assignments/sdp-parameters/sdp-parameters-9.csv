@@ -167,3 +167,4 @@ att-field (media level only),predefined_ROI,TBD,[3GPP TS 26.114 v13.1.0][_3GPP_S
 att-field (media level only),msid,TBD,[RFC-ietf-mmusic-msid-15][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtcp-mux-only,TBD,[RFC-ietf-mmusic-mux-exclusive-10][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),ebuacip,TBD,[EBU Tech 3368 - Audio Contribution over IP – Profiles][Felix_Poulin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (media level only),3ge2ae,IDENTICAL,[3GPP TS 24.229 12.14.0][Frederic_Firmin]
