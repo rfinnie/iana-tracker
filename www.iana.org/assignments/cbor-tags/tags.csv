@@ -5,7 +5,11 @@ Tag,Data Item,Semantics,Reference
 3,byte string,Negative bignum; see Section 2.4.2,[RFC7049]
 4,array,Decimal fraction; see Section 2.4.3,[RFC7049]
 5,array,Bigfloat; see Section 2.4.3,[RFC7049]
-6-20,Unassigned,,
+6-15,Unassigned,,
+16,COSE_Encrypt0,COSE Single Recipient Encrypted Data Object,[RFC-ietf-cose-msg-24]
+17,COSE_Mac0,COSE Mac w/o Recipients Object,[RFC-ietf-cose-msg-24]
+18,COSE_Sign1,COSE Single Signer Data Object,[RFC-ietf-cose-msg-24]
+19-20,Unassigned,,
 21,multiple,Expected conversion to base64url encoding; see Section 2.4.4.2,[RFC7049]
 22,multiple,Expected conversion to base64 encoding; see Section 2.4.4.2,[RFC7049]
 23,multiple,Expected conversion to base16 encoding; see Section 2.4.4.2,[RFC7049]
@@ -25,7 +29,11 @@ Tag,Data Item,Semantics,Reference
 37,byte string,Binary UUID ([RFC4122] section 4.1.2),[https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
 38,byte string,Language-tagged string,[http://peteroupc.github.io/CBOR/langtags.html][Peter_Occil]
 39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
-40-255,Unassigned,,
+40-95,Unassigned,,
+96,COSE_Encrypt,COSE Encrypted Data Object,[RFC-ietf-cose-msg-24]
+97,COSE_Mac,COSE Mac-ed Data Object,[RFC-ietf-cose-msg-24]
+98,COSE_Sign,COSE Signed Data Object,[RFC-ietf-cose-msg-24]
+99-255,Unassigned,,
 256,multiple,mark value as having string references,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann]
 257,byte string,Binary MIME message,[http://peteroupc.github.io/CBOR/binarymime.html][Peter_Occil]
 258-263,Unassigned,,
