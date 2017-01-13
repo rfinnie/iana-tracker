@@ -14306,6 +14306,7 @@ mercurydock,,tcp,Mercury Dock Assistant,[Spider_Electronics],[Kenny_Millar],2014
 mesamis,,,Mes Amis,[David_Priest],[David_Priest],,,,,,Defined TXT keys: None
 mi-raysat,,,Mental Ray for Maya,[Autodesk],[Autodesk],,,,,,Defined TXT keys: None
 mieleathome,,tcp,Miele@home Protocol,[Miele_Cie_KG],[Nils_Langhammer],2014-03-13,,,,,Defined TXT keys: txtvers and proprietary keys
+mist,,tcp,"A Medical Interoperability Service Type, used to identify medical devices providing network interfaces.",[Jon_Griffeth],[Jon_Griffeth],2017-01-12,,,,,Defined TXT keys: https://www.praesentia.com/medkit/mist-service-type (dn dt md mf pr sn vn)
 mmm,,tcp,"Provides a client with access to the Mathematical Mesh, a 
       user-focused PKI.",[Phillip_Hallam-Baker],[Phillip_Hallam-Baker],2015-11-18,,,,,Defined TXT keys: None
 mn-passage,,tcp,A Remote Control Application service used to control Computers on a Local Area Network,[Midnight_Oil_Enterprises_LLC],[Dan_Corkill],2013-07-09,,,,,Defined TXT keys: inherited from bonjour/iOS multipeer connectivity
@@ -14682,6 +14683,12 @@ uddi-sub,,,"Universal Description, Discovery and Integration Subscription",[Paul
 uddi-sec,,,"Universal Description, Discovery and Integration Security",[Paul_Denning],[Paul_Denning],,,,,,Defined TXT keys: TBD
 upnp,,,Universal Plug and Play,[Andrew_Donoho],[Andrew_Donoho],,,,,,Defined TXT keys: None
 urlbookmark,,,URL Advertising,[Sven_S_Porst],[Sven_S_Porst],,,,,,"Defined TXT keys: URL=<URL that is advertised>, name=<Name of the bookmark>"
+usp-agt-coap,,udp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-agt-http,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-agt-stomp,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-ctr-coap,,udp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-ctr-http,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-ctr-stomp,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 uswi,,,Universal Switching Corporation products,[Roger_Lemberg],[Roger_Lemberg],,,,,,Defined TXT keys: None
 utest,,,uTest,[Gregory_Power],[Gregory_Power],,,,,,Defined TXT keys: None
 uwsgi,,,Unbit Web Server Gateway Interface,[Roberto_De_Ioris],[Roberto_De_Ioris],,,,,,Defined TXT keys: None
