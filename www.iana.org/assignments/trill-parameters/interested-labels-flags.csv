@@ -1,4 +1,4 @@
-Bit,Menemonic,Description,Reference
+Bit,Mnemonic,Description,Reference
 0,M4,IPv4 Multicast Router Attached,[RFC7176]
 1,M6,IPv6 Multicast Router Attached,[RFC7176]
 2,BM,Bit Map,[RFC7176]
