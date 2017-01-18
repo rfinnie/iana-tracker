@@ -28,4 +28,4 @@ Decimal,Description,References
 27,id-kp-cmcCA,[RFC6402]
 28,id-kp-cmcRA,[RFC6402]
 29,id-kp-cmcArchive,[RFC6402]
-30,id-kp-bgpsec-router,[draft-ietf-sidr-bgpsec-pki-profiles]
+30,id-kp-bgpsec-router,[RFC-ietf-sidr-bgpsec-pki-profiles-21]

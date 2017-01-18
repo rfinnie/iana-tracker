@@ -86,12 +86,18 @@ Refer-Sub,,[RFC4488]
 Refer-To,r,[RFC3515]
 Referred-By,b,[RFC3892]
 Reject-Contact,j,[RFC3841]
+Relayed-Charge,,"[3GPP TS 24.229 v12.14.0]
+        [Frederic_Firmin]"
 Replaces,,[RFC3891]
 Reply-To,,[RFC3261]
 Request-Disposition,d,[RFC3841]
 Require,,[RFC3261]
 Resource-Priority,,[RFC4412]
+Resource-Share,,"[3GPP TS 24.229 v13.7.0]
+        [Frederic_Firmin]"
 Response-Key (Deprecated),,[RFC3261]
+Restoration-Info,,"[3GPP TS 24.229 v12.14.0]
+        [Frederic_Firmin]"
 Retry-After,,[RFC3261]
 Route,,[RFC3261]
 RSeq,,[RFC3262]
