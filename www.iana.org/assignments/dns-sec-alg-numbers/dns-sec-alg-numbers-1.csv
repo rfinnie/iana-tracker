@@ -1,5 +1,5 @@
 Number,Description,Mnemonic,ZoneSigning,Trans.Sec.,Reference
-0,Reserved,,,,[RFC4034][RFC4398]
+0,Delete DS,DELETE,N,N,[RFC4034][RFC4398][RFC-ietf-dnsop-maintain-ds-04]
 1,"RSA/MD5 (deprecated, see 5)",RSAMD5,N,Y,[RFC3110][RFC4034]
 2,Diffie-Hellman,DH,N,Y,[RFC2539][proposed standard]
 3,DSA/SHA1,DSA,Y,Y,"[RFC3755][proposed standard][RFC2536][proposed standard][Federal Information Processing Standards Publication (FIPS PUB) 186,
@@ -17,7 +17,9 @@ Secure Hash Standard, 17 April 1995.
 12,GOST R 34.10-2001,ECC-GOST,Y,*,[RFC5933][standards track]
 13,ECDSA Curve P-256 with SHA-256,ECDSAP256SHA256,Y,*,[RFC6605][standards track]
 14,ECDSA Curve P-384 with SHA-384,ECDSAP384SHA384,Y,*,[RFC6605][standards track]
-15-122,Unassigned,,,,
+15,Ed25519,ED25519,Y,*,[RFC-ietf-curdle-dnskey-eddsa-03][standards track]
+16,Ed448,ED448,Y,*,[RFC-ietf-curdle-dnskey-eddsa-03][standards track]
+17-122,Unassigned,,,,
 123-251,Reserved,,,,[RFC4034][RFC6014]
 252,Reserved for Indirect Keys,INDIRECT,N,N,[RFC4034][proposed standard]
 253,private algorithm,PRIVATEDNS,Y,Y,[RFC4034]
