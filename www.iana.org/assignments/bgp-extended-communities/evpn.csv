@@ -7,4 +7,5 @@ Sub-Type Value,Name,Reference,Date
 0x05,E-TREE Extended Community,[draft-ietf-bess-evpn-etree],2016-05-11
 0x06,DF Election Extended Community,[draft-ietf-bess-evpn-df-election],2016-05-11
 0x07,I-SID Extended Community,[draft-sajassi-bess-evpn-virtual-eth-segment],2016-05-11
-0x08-0xff,Unassigned,,
+0x08,ND Extended Community,[draft-snr-bess-evpn-na-flags],2017-01-10
+0x09-0xff,Unassigned,,

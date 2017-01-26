@@ -79,84 +79,84 @@ add period,status,"This grace period is provided after the initial
         during this period, the server provides a credit to the client for
         the cost of the registration.  This maps to the Domain Registry Grace
         Period Mapping for the Extensible Provisioning Protocol (EPP)
-        [RFC3915] 'addPeriod' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        [RFC3915] 'addPeriod' status.",[IESG],[RFC8056]
 auto renew period,status,"This grace period is provided after an object
         registration period expires and is extended (renewed) automatically
         by the server.  If the object is deleted by the client during this
         period, the server provides a credit to the client for the cost of
         the auto renewal.  This maps to the Domain Registry Grace Period
         Mapping for the Extensible Provisioning Protocol (EPP) [RFC3915] 
-        'autoRenewPeriod' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'autoRenewPeriod' status.",[IESG],[RFC8056]
 client delete prohibited,status,"The client requested that requests to delete the object
         MUST be rejected.  This maps to the Extensible Provisioning Protocol
         (EPP) Domain Name Mapping [RFC5731], Extensible Provisioning Protocol
         (EPP) Host Mapping [RFC5732], and Extensible Provisioning Protocol
-        (EPP) Contact Mapping [RFC5733] 'clientDeleteProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        (EPP) Contact Mapping [RFC5733] 'clientDeleteProhibited' status.",[IESG],[RFC8056]
 client hold,status,"The client requested that the DNS delegation information
         MUST NOT be published for the object.  This maps to the Extensible
         Provisioning Protocol (EPP) Domain Name Mapping [RFC5731]
-        'clientHold' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'clientHold' status.",[IESG],[RFC8056]
 client renew prohibited,status,"The client requested that requests to renew the object
         MUST be rejected.  This maps to the Extensible Provisioning Protocol
-        (EPP) Domain Name Mapping [RFC5731] 'clientRenewProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        (EPP) Domain Name Mapping [RFC5731] 'clientRenewProhibited' status.",[IESG],[RFC8056]
 client transfer prohibited,status,"The client requested that requests to transfer the
         object MUST be rejected.  This maps to the Extensible Provisioning
         Protocol (EPP) Domain Name Mapping [RFC5731] and Extensible
         Provisioning Protocol (EPP) Contact Mapping [RFC5733]
-        'clientTransferProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'clientTransferProhibited' status.",[IESG],[RFC8056]
 client update prohibited,status,"The client requested that requests to update the object
         (other than to remove this status) MUST be rejected.  This maps to
         the Extensible Provisioning Protocol (EPP) Domain Name Mapping
         [RFC5731], Extensible Provisioning Protocol (EPP) Host Mapping
         [RFC5732], and Extensible Provisioning Protocol (EPP) Contact Mapping
-        [RFC5733] 'clientUpdateProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        [RFC5733] 'clientUpdateProhibited' status.",[IESG],[RFC8056]
 pending restore,status,"An object is in the process of being restored after
         being in the redemption period state.  This maps to the Domain
         Registry Grace Period Mapping for the Extensible Provisioning
-        Protocol (EPP) [RFC3915] 'pendingRestore' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        Protocol (EPP) [RFC3915] 'pendingRestore' status.",[IESG],[RFC8056]
 redemption period,status,"A delete has been received, but the object has not yet
         been purged because an opportunity exists to restore the object and
         abort the deletion process.  This maps to the Domain Registry Grace
         Period Mapping for the Extensible Provisioning Protocol (EPP)
-        [RFC3915] 'redemptionPeriod' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        [RFC3915] 'redemptionPeriod' status.",[IESG],[RFC8056]
 renew period,status,"This grace period is provided after an object
         registration period is explicitly extended (renewed) by the client.
         If the object is deleted by the client during this period, the server
         provides a credit to the client for the cost of the renewal.  This
         maps to the Domain Registry Grace Period Mapping for the Extensible
-        Provisioning Protocol (EPP) [RFC3915] 'renewPeriod' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        Provisioning Protocol (EPP) [RFC3915] 'renewPeriod' status.",[IESG],[RFC8056]
 server delete prohibited,status,"The server set the status so that requests to delete the
         object MUST be rejected.  This maps to the Extensible Provisioning
         Protocol (EPP) Domain Name Mapping [RFC5731], Extensible Provisioning
         Protocol (EPP) Host Mapping [RFC5732], and Extensible Provisioning
         Protocol (EPP) Contact Mapping [RFC5733] 'serverDeleteProhibited'
-        status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        status.",[IESG],[RFC8056]
 server renew prohibited,status,"The server set the status so that requests to renew the
         object MUST be rejected.  This maps to the Extensible Provisioning
         Protocol (EPP) Domain Name Mapping [RFC5731] 'serverRenewProhibited'
-        status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        status.",[IESG],[RFC8056]
 server transfer prohibited,status,"The server set the status so that requests to transfer
         the object MUST be rejected.  This maps to the Extensible
         Provisioning Protocol (EPP) Domain Name Mapping [RFC5731] and
         Extensible Provisioning Protocol (EPP) Contact Mapping [RFC5733]
-        'serverTransferProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'serverTransferProhibited' status.",[IESG],[RFC8056]
 server update prohibited,status,"The server set the status so that requests to update the
         object (other than to remove this status) MUST be rejected.  This
         maps to the Extensible Provisioning Protocol (EPP) Domain Name
         Mapping [RFC5731], Extensible Provisioning Protocol (EPP) Host
         Mapping [RFC5732], and Extensible Provisioning Protocol (EPP) Contact
-        Mapping [RFC5733] 'serverUpdateProhibited' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        Mapping [RFC5733] 'serverUpdateProhibited' status.",[IESG],[RFC8056]
 server hold,status,"The server set the status so that DNS delegation
         information MUST NOT be published for the object.  This maps to the
         Extensible Provisioning Protocol (EPP) Domain Name Mapping [RFC5731]
-        'serverHold' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'serverHold' status.",[IESG],[RFC8056]
 transfer period,status,"This grace period is provided after the successful
         transfer of object registration sponsorship from one client to
         another client.  If the object is deleted by the client during this
         period, the server provides a credit to the client for the cost of
         the transfer.  This maps to the Domain Registry Grace Period Mapping
         for the Extensible Provisioning Protocol (EPP) [RFC3915]
-        'transferPeriod' status.",[IESG],[RFC-ietf-regext-epp-rdap-status-mapping-04]
+        'transferPeriod' status.",[IESG],[RFC8056]
 registration,event action,The object instance was initially registered.,[IESG],[RFC7483]
 reregistration,event action,"The object instance was registered subsequently
           to initial registration.",[IESG],[RFC7483]

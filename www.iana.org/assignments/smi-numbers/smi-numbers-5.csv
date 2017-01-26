@@ -320,3 +320,4 @@ is allocated according to the following reference.",[RFC7257]
 286,docsCableScte55d2UsOob,Cable SCTE 55-2 OOB Upstream Channel,[http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
 287,docsCableNdf,Cable Narrowband Digital Forward,[http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
 288,docsCableNdr,Cable Narrowband Digital Return,[http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
+289,ptm,Packet Transfer Mode,"[ITU-T G.993.1, Annex H][ITU-T G.993.2][ITU-T G.9701][William_Lupton]"

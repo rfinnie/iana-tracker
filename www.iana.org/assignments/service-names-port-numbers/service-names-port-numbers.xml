@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-01-12</updated>
+  <updated>2017-01-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -9975,7 +9975,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>849-852</number>
   </record>
-  <record date="2015-10-08" updated="2016-05-18">
+  <record date="2015-10-08" updated="2017-01-23">
     <name>domain-s</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -9983,11 +9983,12 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
+    <xref type="draft" data="RFC-ietf-dprive-dnsodtls-15"/>
     <description>DNS query-response protocol run over TLS/DTLS</description>
     <number>853</number>
     <note/>
   </record>
-  <record date="2015-10-08" updated="2016-05-18">
+  <record date="2015-10-08" updated="2017-01-23">
     <name>domain-s</name>
     <protocol>udp</protocol>
     <assignee>
@@ -9995,6 +9996,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
+    <xref type="draft" data="RFC-ietf-dprive-dnsodtls-15"/>
     <description>DNS query-response protocol run over TLS/DTLS</description>
     <number>853</number>
     <note/>
@@ -51272,19 +51274,25 @@ common service discovery mechanisms.</note>
     <description>PacketCableMultimediaCOPS</description>
     <number>3918</number>
   </record>
-  <record date="2003-11">
+  <record date="2003-11" updated="2017-01-25">
     <name>hyperip</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dave_Reiland"/>
+    <assignee>
+      <xref type="person" data="Network_Executive_Software_Inc"/>
+    </assignee>
     <description>HyperIP</description>
     <number>3919</number>
+    <xref type="person" data="Nancy_Golio"/>
   </record>
-  <record date="2003-11">
+  <record date="2003-11" updated="2017-01-25">
     <name>hyperip</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dave_Reiland"/>
+    <assignee>
+      <xref type="person" data="Network_Executive_Software_Inc"/>
+    </assignee>
     <description>HyperIP</description>
     <number>3919</number>
+    <xref type="person" data="Nancy_Golio"/>
   </record>
   <record date="2003-11">
     <name>exasoftport1</name>
@@ -72830,8 +72838,28 @@ common service discovery mechanisms.</note>
     <number>7700</number>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>7701</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7701</number>
+  </record>
+  <record date="2017-01-24">
+    <name>nfapi</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="Small_Cell_Forum"/>
+    </assignee>
+    <description>SCF nFAPI defining MAC/PHY split</description>
+    <number>7701</number>
+    <xref type="person" data="Richard_Kennedy"/>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>7701-7706</number>
+    <number>7702-7706</number>
   </record>
   <record date="2004-11">
     <name>sync-em7</name>
@@ -100266,11 +100294,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dave Porter</name>
       <uri>mailto:porter&amp;mango.com</uri>
     </person>
-    <person id="Dave_Reiland">
-      <name>Dave Reiland</name>
-      <uri>mailto:dave.reiland&amp;netex.com</uri>
-      <updated>2003-11</updated>
-    </person>
     <person id="Dave_Robin">
       <name>Dave Robin</name>
       <uri>mailto:iana_ports&amp;daverobin.com</uri>
@@ -110884,6 +110907,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Nancy Davoust</name>
       <uri>mailto:n.davoust&amp;cablelabs.com</uri>
     </person>
+    <person id="Nancy_Golio">
+      <name>Nancy Golio</name>
+      <uri>mailto:nancy.golio&amp;netex.com</uri>
+      <updated>2017-01-25</updated>
+    </person>
     <person id="Nand_Kumar">
       <name>Nand Kumar</name>
       <uri>mailto:nkumar&amp;triquest-da.com</uri>
@@ -111060,6 +111088,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>netperf.org </org>
       <uri>mailto:netperf-feedback&amp;netperf.org</uri>
       <updated>2013-04-05</updated>
+    </person>
+    <person id="Network_Executive_Software_Inc">
+      <org>Network Executive Software, Inc.</org>
+      <uri>mailto:support&amp;netex.com</uri>
+      <updated>2017-01-25</updated>
     </person>
     <person id="Nevil_Brownlee">
       <name>Nevil Brownlee</name>
@@ -113580,6 +113613,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:richard_jones1&amp;symantec.com</uri>
       <updated>2009-05-26</updated>
     </person>
+    <person id="Richard_Kennedy">
+      <name>Richard Kennedy</name>
+      <uri>mailto:Richard&amp;smallcellforum.org</uri>
+      <updated>2017-01-24</updated>
+    </person>
     <person id="Richard_Lamb">
       <name>Richard Lamb</name>
       <uri>mailto:rlamb&amp;microsoft.com</uri>
@@ -115705,12 +115743,17 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Slawomir Krzesinski</name>
       <uri>mailto:slavek&amp;optiwave.com</uri>
     </person>
+    <person id="Small_Cell_Forum">
+      <org>Small Cell Forum</org>
+      <uri>mailto:Richard&amp;smallcellforum.org</uri>
+      <updated>2017-01-24</updated>
+    </person>
     <person id="SmarDTV">
       <org>SmarDTV</org>
       <uri>mailto:vincent.demortier&amp;smardtv.com</uri>
       <updated>2015-03-04</updated>
     </person>
-    <person id="Smart_Apps_LTD">
+    <person id="Small_Apps_LTD">
       <org>Smart Apps LTD</org>
       <uri>mailto:info&amp;smartapps.co</uri>
       <updated>2011-10-11</updated>
