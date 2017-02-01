@@ -16,3 +16,4 @@ Decimal,Description,References
 15,id-alg-authEnc-128,[RFC6476]
 16,id-alg-authEnc-256,[RFC6476]
 17,id-alg-mts-hashsig,[draft-housley-cms-mts-hash-sig]
+18,id-alg-AEADChaCha20Poly1305,[RFC-ietf-curdle-cms-chacha20-poly1305-06]
