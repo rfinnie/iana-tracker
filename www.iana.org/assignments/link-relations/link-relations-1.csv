@@ -25,7 +25,6 @@ copyright,"Refers to a copyright statement that applies to the
 create-form,The target IRI points to a resource where a submission form can be obtained.,[RFC6861],
 current,"Refers to a resource containing the most recent
       item(s) in a collection of resources.",[RFC5005],
-derivedfrom,The target IRI points to a resource from which this material was derived.,[draft-hoffman-xml2rfc],
 describedby,"Refers to a resource providing information about the
       link's context.",[http://www.w3.org/TR/powder-dr/#assoc-linking],
 describes,"The relationship A 'describes' B asserts that

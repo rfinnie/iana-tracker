@@ -33,7 +33,8 @@ Work in progress, March 1996.][RFC6938]"
 30,Deprecated,[RFC-ietf-idr-deprecate-30-31-129-02]
 31,Deprecated,[RFC-ietf-idr-deprecate-30-31-129-02]
 32,LARGE_COMMUNITY,[RFC-ietf-idr-large-community-12]
-33-39,Unassigned,
+33,BGPsec_Path,[RFC-ietf-sidr-bgpsec-protocol-22]
+34-39,Unassigned,
 40,"BGP Prefix-SID (TEMPORARY - registered 2015-09-30, extension 
         registered 2016-08-18, expires 2017-09-30)",[draft-ietf-idr-bgp-prefix-sid]
 41-127,Unassigned,

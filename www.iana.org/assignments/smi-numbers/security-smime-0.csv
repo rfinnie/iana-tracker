@@ -66,3 +66,4 @@ Decimal,Description,References
 63,id-mod-keyPkgReceiptAndErrV2,[RFC7191]
 64,id-mod-mts-hashsig-2013,[draft-housley-cms-mts-hash-sig]
 65,mod-sMimeSecureHeadersV1,[RFC7508]
+66,id-mod-CMS-AEADChaCha20Poly1305,[RFC-ietf-curdle-cms-chacha20-poly1305-06]

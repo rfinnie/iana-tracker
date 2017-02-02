@@ -1,6 +1,6 @@
 Label,Meaning,Reference
 AUTHINFO,Authentication,[RFC4643]
-COMPRESS,Supported compression algorithms,[RFC-murchison-nntp-compress-06]
+COMPRESS,Supported compression algorithms,[RFC8054]
 HDR,Batched header retrieval,[RFC3977]
 IHAVE,IHAVE command available,[RFC3977]
 IMPLEMENTATION,Server implementation-specific information,[RFC3977]
