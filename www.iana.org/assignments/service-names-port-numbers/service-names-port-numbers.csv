@@ -14489,6 +14489,8 @@ riousbprint,,,Remote I/O USB Printer Protocol,[Rob_Newberry],[Rob_Newberry],,,,,
 roambot,,tcp,Roambot communication,[Roambotics_Inc],[Scott_Menor],2013-10-18,,,,,Defined TXT keys: None
 robustirc,,tcp,"Like ircu (RFC1459), but failure tolerant due to strong consistency among n>=3 servers",[Michael_Stapelberg],[Michael_Stapelberg],2015-01-07,,,,,Defined TXT keys: None
 roku-rcp,,,Roku Control Protocol,[Don_Woodward],[Don_Woodward],,,,,,Defined TXT keys: txtvers=1
+roomcast-capi,,tcp,RoomCast Control Protocol,[Colin_Corby],[Colin_Corby],2017-02-01,,,,,"Defined TXT keys: protocolVersion, uuid"
+roomcast-mapi,,tcp,RoomCast Management Protocol,[Colin_Corby],[Colin_Corby],2017-02-01,,,,,"Defined TXT keys: protocolVersion, uuid"
 rql,,,RemoteQuickLaunch,[Daniel_Heffernan],[Daniel_Heffernan],,,,,,Defined TXT keys: None
 rr-disc,,,Robot Raconteur discovery,[Wason_Technology_LLC],[John_Wason],2014-01-27,,,,,Defined TXT keys: None
 rradict,,tcp,"Ruckus Radio Access Device, Installation, Commissioning and Troubleshooting service.",[Dave_Stephenson],[Dave_Stephenson],2016-03-09,,,,,"Defined TXT keys: txtvers=<version>, serial=<serial number>, 
