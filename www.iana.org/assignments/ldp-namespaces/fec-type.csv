@@ -11,8 +11,8 @@ Value,Hex,Name,Label Advertisement Discipline,Reference,Notes/Registration Date
 9,0x09,HSMP-upstream,DU,[RFC7140][RFC7358],2014-01-09
 10,0x0A,HSMP-downstream,"DU, Upstream",[RFC7140][RFC7358],2014-01-09
 11-127,,Unassigned,,,
-128,0x80,PWid FEC Element,DU,[RFC-ietf-pals-rfc4447bis-05][RFC7358],
-129,0x81,Generalized PWid FEC Element,DU,[RFC-ietf-pals-rfc4447bis-05][RFC7358],
+128,0x80,PWid FEC Element,DU,[RFC8077][RFC7358],
+129,0x81,Generalized PWid FEC Element,DU,[RFC8077][RFC7358],
 130,0x82,P2MP PW Upstream FEC Element,Upstream,[draft-ietf-pwe3-p2mp-pw][RFC7358],2009-06-03
 131,0x83,Protection FEC Element,DU,[draft-ietf-pwe3-endpoint-fast-protection][RFC7358],2010-02-26
 132,0x84,P2MP PW Downstream FEC Element,DU,[draft-ietf-pwe3-p2mp-pw][RFC7358],2014-04-04
