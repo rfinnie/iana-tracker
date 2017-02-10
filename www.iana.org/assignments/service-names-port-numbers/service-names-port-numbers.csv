@@ -14362,6 +14362,8 @@ ntlx-arch,,,American Dynamics Intellex Archive Management Service,[Gary_Sands],[
 ntlx-ent,,,American Dynamics Intellex Enterprise Management Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial"
 ntlx-video,,,American Dynamics Intellex Video Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, control, event"
 ntx,,udp,Tenasys,[Carl_Ellis],[Carl_Ellis],,,,,,Defined TXT keys: None
+oak,,tcp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
+oak,,udp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 obf,,,Observations Framework,[Matthew_Baker],[Matthew_Baker],,,,,,Defined TXT keys: version=<value>
 objective,,,Means for clients to locate servers in an Objective (http://www.objective.com) instance.,[Marc_Bailey],[Marc_Bailey],,,,,,"Defined TXT keys:   txtvers='1'
   type={'production'|'standby'|'test'|'demo'}
