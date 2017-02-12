@@ -115,6 +115,7 @@ Value,Description,Reference,Notes/Registration Date
 0x0971,Queue Request TLV,[RFC7032],
 0x0972,MP Node Protection Capability,[RFC7715],
 0x0973,PSN Tunnel Binding TLV,[RFC7965],2016-07-22
-0x0974-0x3DFF,Unassigned,,
+0x0974,Egress Protection Capability,[RFC-ietf-pals-endpoint-fast-protection-05],2017-02-08
+0x0975-0x3DFF,Unassigned,,
 0x3E00-0x3EFF,Reserved for Vendor-Private Extensions,[RFC5036],
 0x3F00-0x3FFF,Reserved for Experimental Extensions,[RFC5036],

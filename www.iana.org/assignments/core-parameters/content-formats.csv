@@ -12,7 +12,9 @@ Unassigned,,43-46,
 application/exi,,47,"[""Efficient XML Interchange (EXI) Format 1.0 (Second Edition)"", February 2014]"
 Unassigned,,48-49,
 application/json,,50,[RFC4627]
-Unassigned,,51-59,
+"application/json-patch+json""",,51,[RFC6902]
+"application/merge-patch+json""",,52,[RFC7396]
+Unassigned,,53-59,
 application/cbor,,60,[RFC7049]
 Unassigned,,61-95,
 "application/cose; cose-type=""cose-encrypt""",,96,[RFC-ietf-cose-msg-24]
