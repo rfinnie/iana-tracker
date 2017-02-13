@@ -7,6 +7,7 @@ HOBA,"[RFC7486, Section 3]","The HOBA scheme can be used with either HTTP
    Authentication Required indication, the appropriate proxy
    authentication header fields are used instead, as with any other HTTP
    authentication scheme."
+Mutual,[RFC-ietf-httpauth-mutual-11],
 Negotiate,"[RFC4559, Section 3]","This authentication scheme violates both HTTP semantics (being connection-oriented) and syntax 
       (use of syntax incompatible with the WWW-Authenticate and Authorization header field syntax)."
 OAuth,"[RFC5849, Section 3.5.1]",
