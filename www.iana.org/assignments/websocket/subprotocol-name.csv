@@ -32,3 +32,4 @@ v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connec
 msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977]
 v1.saltyrtc.org,SaltyRTC 1.0,[https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md],[Lennart_Grahl]
 TLCP-2.0.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.0.0],[Alessandro_Alinone]
+bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC-ietf-bfcpbis-bfcp-websocket-15],[RFC-ietf-bfcpbis-bfcp-websocket-15]
