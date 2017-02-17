@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   
   <title>Registrar IDs</title>
-  <updated>2017-02-03</updated>
+  <updated>2017-02-14</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -2935,10 +2935,10 @@
       <name>SaveMoreNames.com Inc.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2017-02-13">
       <value>953</value>
       <name>Nanjing Imperiosus Technology Co. Ltd.</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record updated="2015-08-06">
       <value>954</value>
@@ -14318,7 +14318,11 @@
       <name>DOMAIN ORIENTAL LIMITED</name>
       <status>Accredited</status>
     </record>
-    
+    <record date="2016-09-15" updated="2017-02-13">
+      <value>3253</value>
+      <name>DigitalCandy, Inc.</name>
+      <status>Accredited</status>
+    </record>
     <record date="2016-09-15" updated="2017-01-27">
       <value>3254</value>
       <name>CNOBIN INFORMATION TECHNOLOGY LIMITED</name>
@@ -16827,6 +16831,11 @@
     <record date="2017-01-31">
       <value>3755</value>
       <name>Tencent Cloud Computing (Beijing) Limited Liability Company</name>
+      <status>Accredited</status>
+    </record>
+    <record date="2017-02-14">
+      <value>3756</value>
+      <name>Shanghai, People's Republic of China Corporation</name>
       <status>Accredited</status>
     </record>
     <record>

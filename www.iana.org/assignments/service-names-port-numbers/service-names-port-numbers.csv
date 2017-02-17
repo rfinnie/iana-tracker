@@ -1622,8 +1622,8 @@ ftps-data,989,tcp,"ftp protocol, data, over TLS/SSL",,,,,,,,
 ftps-data,989,udp,"ftp protocol, data, over TLS/SSL",,,,,,,,
 ftps,990,tcp,"ftp protocol, control, over TLS/SSL",[Christopher_Allen],[Christopher_Allen],,,,,,
 ftps,990,udp,"ftp protocol, control, over TLS/SSL",[Christopher_Allen],[Christopher_Allen],,,,,,
-nas,991,tcp,Netnews Administration System,[Vera_Heinau][Heiko_Schlichting],[Vera_Heinau][Heiko_Schlichting],,,,,,
-nas,991,udp,Netnews Administration System,[Vera_Heinau][Heiko_Schlichting],[Vera_Heinau][Heiko_Schlichting],,,,,,
+nas,991,tcp,Netnews Administration System,[Vera_Heinau][Heiko_Schlichting],[Vera_Heinau][Heiko_Schlichting],,2017-02-10,[RFC4707],,,
+nas,991,udp,Netnews Administration System,[Vera_Heinau][Heiko_Schlichting],[Vera_Heinau][Heiko_Schlichting],,2017-02-10,[RFC4707],,,
 telnets,992,tcp,telnet protocol over TLS/SSL,,,,,,,,
 telnets,992,udp,telnet protocol over TLS/SSL,,,,,,,,
 imaps,993,tcp,imap4 protocol over TLS/SSL,,,,,,,,
@@ -11381,7 +11381,10 @@ toad-bi-appsrvr,8066,tcp,Toad BI Application Server,[Quest_Software_2],[Greg_Cot
 ,8066,udp,Reserved,,,,,,,,
 infi-async,8067,tcp,Infinidat async replication,[INFINIDAT],[Eldar_Kleiner],2015-05-01,,,,,
 ,8067,udp,Reserved,,,,,,,,
-,8068-8073,,Unassigned,,,,,,,,
+,8068-8069,,Unassigned,,,,,,,,
+ucs-isc,8070,tcp,Oracle Unified Communication Suite's Indexed Search Converter,[Oracle_Corp],[Bharathi_Sivaramakrishnan],2017-02-10,,,,,
+,8070,udp,Reserved,,,,,,,,
+,8071-8073,,Unassigned,,,,,,,,
 gadugadu,8074,tcp,Gadu-Gadu,[Marcin_Gozdalik],[Marcin_Gozdalik],2006-05,,,,,
 gadugadu,8074,udp,Gadu-Gadu,[Marcin_Gozdalik],[Marcin_Gozdalik],2006-05,,,,,
 ,8075-8079,,Unassigned,,,,,,,,
@@ -11400,7 +11403,9 @@ simplifymedia,8087,tcp,Simplify Media SPP Protocol,[Emmanuel_Saint_Loube],[Emman
 simplifymedia,8087,udp,Simplify Media SPP Protocol,[Emmanuel_Saint_Loube],[Emmanuel_Saint_Loube],2008-08-08,,,,,
 radan-http,8088,tcp,Radan HTTP,[Steve_Hay],[Steve_Hay],2008-06-13,,,,,
 radan-http,8088,udp,Radan HTTP,[Steve_Hay],[Steve_Hay],2008-06-13,,,,,
-,8089-8090,,Unassigned,,,,,,,,
+,8089,,Unassigned,,,,,,,,
+opsmessaging,8090,tcp,Vehicle to station messaging,[LAN-ACES_Inc],[Robert_Ripberger],2017-02-08,,,,,
+,8090,udp,Reserved,,,,,,,,
 jamlink,8091,tcp,Jam Link Framework,[Evgeniy_Filatov],[Evgeniy_Filatov],2009-11-25,,,,,
 ,8091,udp,Reserved,,,,,,,,
 ,8092-8096,,Unassigned,,,,,,,,
@@ -14360,6 +14365,8 @@ ntlx-arch,,,American Dynamics Intellex Archive Management Service,[Gary_Sands],[
 ntlx-ent,,,American Dynamics Intellex Enterprise Management Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial"
 ntlx-video,,,American Dynamics Intellex Video Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, control, event"
 ntx,,udp,Tenasys,[Carl_Ellis],[Carl_Ellis],,,,,,Defined TXT keys: None
+oak,,tcp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
+oak,,udp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 obf,,,Observations Framework,[Matthew_Baker],[Matthew_Baker],,,,,,Defined TXT keys: version=<value>
 objective,,,Means for clients to locate servers in an Objective (http://www.objective.com) instance.,[Marc_Bailey],[Marc_Bailey],,,,,,"Defined TXT keys:   txtvers='1'
   type={'production'|'standby'|'test'|'demo'}

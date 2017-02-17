@@ -1,54 +1,17 @@
-Value,Description,Reference,Registration Date
-0,Async,[RFC2865],
-1,Sync,[RFC2865],
-2,ISDN Sync,[RFC2865],
-3,ISDN Async V.120,[RFC2865],
-4,ISDN Async V.110,[RFC2865],
-5,Virtual,[RFC2865],
-6,PIAFS,[RFC2865],
-7,HDLC Clear Channel,[RFC2865],
-8,X.25,[RFC2865],
-9,X.75,[RFC2865],
-10,G.3 Fax,[RFC2865],
-11,SDSL - Symmetric DSL,[RFC2865],
-12,"ADSL-CAP - Asymmetric DSL, Carrierless Amplitude Phase Modulation",[RFC2865],
-13,"ADSL-DMT - Asymmetric DSL, Discrete Multi-Tone",[RFC2865],
-14,IDSL - ISDN Digital Subscriber Line,[RFC2865],
-15,Ethernet,[RFC2865],
-16,xDSL - Digital Subscriber Line of unknown type,[RFC2865],
-17,Cable,[RFC2865],
-18,Wireless - Other,[RFC2865],
-19,Wireless - IEEE 802.11,[RFC2865],
-20,Token-Ring,[RFC3580],
-21,FDDI,[RFC3580],
-22,Wireless - CDMA2000,[Pete_McCann],
-23,Wireless - UMTS,[Pete_McCann],
-24,Wireless - 1X-EV,[Pete_McCann],
-25,IAPP,"[""IEEE Trial-Use Recommended Practice for Multi-Vendor
-Access Point Interoperability via an Inter-Access Point
-Protocol Across Distribution Systems Supporting
-IEEE 802.11 Operation"", IEEE 802.11F, June 2003.][Stuart_Kerry]",
-26,FTTP - Fiber to the Premises,[Tim_Nyce],
-27,Wireless - IEEE 802.16,"[""IEEE Standard for Local and metropolitan area networks,
-Part 16: Air Interface for Fixed and Mobile Broadband
-Wireless Access Systems, Amendment2: Physical and Medium
-Access Control Layers for Combined Fixed and Mobile
-Operation in Licensed Bands"", IEEE 802.16, February 2006.]",2006-12-12
-28,Wireless - IEEE 802.20,"[Mobile Broadband Wireless Access (MBWA), IEEE Standard,
-IEEE 802.20, Work in Progress.]",2006-12-12
-29,Wireless - IEEE 802.22,"[Wireless Regional Area Networks (WRAN), IEEE Standard,
-IEEE 802.22, Work in Progress.]",2006-12-12
-30,PPPoA - PPP over ATM,[RFC4603],
-31,PPPoEoA - PPP over Ethernet over ATM,[RFC4603],
-32,PPPoEoE - PPP over Ethernet over Ethernet,[RFC4603],
-33,PPPoEoVLAN - PPP over Ethernet over VLAN,[RFC4603],
-34,PPPoEoQinQ - PPP over Ethernet over IEEE 802.1QinQ,[RFC4603],
-35,xPON - Passive Optical Network,[Christian_Hublet][Renxiang_Yan],2007-06-19
-36,Wireless - XGP,[Tomohiro_Ichida],2008-08-12
-37,WiMAX Pre-Release 8 IWK Function,[WMF-T37-008-R016v01_PreRelease8-3GPP-IWK][Avi_Lior],2011-09-06
-38,WIMAX-WIFI-IWK: WiMAX WIFI Interworking,[WMF-T37-010-R016v01_WiFi-WiMAX-IWK][Avi_Lior],2011-09-06
-39,WIMAX-SFF: Signaling Forwarding Function for LTE/3GPP2,[WMF-T37-004-R015v02_3GPP2-Interworking][Avi_Lior],2011-09-06
-40,WIMAX-HA-LMA: WiMAX HA and or LMA function,[WMF-T33-001-R015 Network Stage 3][Avi_Lior],2011-09-06
-41,WIMAX-DHCP: WIMAX DCHP service,[WMF-T33-001-R015 Network Stage 3][Avi_Lior],2011-09-06
-42,WIMAX-LBS: WiMAX location based service,[WMF-T33-110-R015v01_LBS][Avi_Lior],2011-09-06
-43,WIMAX-WVS: WiMAX voice service,[WMF-T33-121-R020 WiMAX voice service][Avi_Lior],2011-09-06
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>503 Service Unavailable</title>
+  </head>
+  <body>
+    <h1>Error 503 Service Unavailable</h1>
+    <p>Service Unavailable</p>
+    <h3>Guru Meditation:</h3>
+    <p>XID: 758676287</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
