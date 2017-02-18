@@ -307,7 +307,7 @@ Type Length Value,+tlv,"[“Lightweight Machine to Machine Technical Specificati
         and should take appropriate measures to guard against buffer
         overflows and stack overruns in particular and malicious content
         in general.",[John_Mudge],[Open_Mobile_Naming_Authority] (OMNA),2016-06-19,
-JSON Text Sequence,+json-seq,[RFC7464][RFC-wilde-json-seq-suffix-03],See [RFC7464] Section 2.2,n/a,"The syntax and semantics of
+JSON Text Sequence,+json-seq,[RFC7464][RFC8091],See [RFC7464] Section 2.2,n/a,"The syntax and semantics of
         fragment identifiers specified for +json-seq SHOULD be as
         specified for ""application/json-seq"".  (At publication of this
         document, there is no fragment identification syntax defined for
