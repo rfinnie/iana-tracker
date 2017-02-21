@@ -68,3 +68,4 @@ enterprise unique global ID for the layer 7
 applications. The Selector ID has a global
 significance for all devices from the same
 enterprise.",3,[RFC6759]
+21,The Selector ID contains an application ID from the Qosmos ixEngine.,4,[Paul_Aitken][Qosmos]
