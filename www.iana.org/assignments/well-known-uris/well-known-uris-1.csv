@@ -5,7 +5,7 @@ assetlinks.json,[Google_Inc.],[https://github.com/google/digitalassetlinks/blob/
 caldav,IETF,[RFC6764],see also [RFC4791],,
 carddav,IETF,[RFC6764],see also [RFC6352],,
 core,IETF,[RFC6690],,,
-csvm,W3C,[http://www.w3.org/TR/2015/CR-tabular-data-model-20150716],,2015-09-28,
+csvm,W3C,[https://www.w3.org/TR/tabular-data-model/#default-locations-and-site-wide-location-configuration],,2015-09-28,
 dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-resource],"Includes all resources identified with the path prefix ""/.well-known/dnt/""",2015-08-19,
 dnt-policy.txt,Electronic Frontier Foundation,[https://www.eff.org/dnt-policy],,2015-08-19,
 est,IETF,[RFC7030],,2013-08-16,

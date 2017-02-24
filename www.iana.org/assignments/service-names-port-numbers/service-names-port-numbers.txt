@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-02-10
+           2017-02-22
 
    Expert(s)
 
@@ -9924,7 +9924,10 @@ azeti              4192        tcp    Azeti Agent Service          [Uwe_Holz]   
 azeti-bd           4192        udp    azeti blinddate              [Michael_Werski]                                      [Michael_Werski]                                          2010-02-18
 pvxplusio          4193        tcp    PxPlus remote file srvr      [Mike_King]                                           [Mike_King]                                               2009-11-09
                    4193        udp    Reserved
-                 4194-4198            Unassigned
+                 4194-4196            Unassigned
+hctl               4197        tcp    Harman HControl Protocol     [Harman_International_Industries_Inc]                 [Darin_Smith]                                             2017-02-16
+hctl               4197        udp    Harman HControl Protocol     [Harman_International_Industries_Inc]                 [Darin_Smith]                                             2017-02-16
+                   4198               Unassigned
 eims-admin         4199        tcp    EIMS ADMIN                   [Glenn_Anderson]                                      [Glenn_Anderson]
 eims-admin         4199        udp    EIMS ADMIN                   [Glenn_Anderson]                                      [Glenn_Anderson]
 vrml-multi-use   4200-4299            VRML Multi User Systems      [Mitra]                                               [Mitra]
@@ -13184,7 +13187,19 @@ fodms              7200        tcp    FODMS FLIP                   [David_Anthon
 fodms              7200        udp    FODMS FLIP                   [David_Anthony]                                       [David_Anthony]
 dlip               7201        tcp    DLIP                         [Albert_Manfredi]                                     [Albert_Manfredi]
 dlip               7201        udp    DLIP                         [Albert_Manfredi]                                     [Albert_Manfredi]
-                 7202-7214            Unassigned
+                                                                                                                                                                                                             [TR352][Inter-Channel-Termination protocol
+                                                                                                                                                                                                             (ICTP) is a peer-to-peer protocol with a
+                                                                                                                                                                                                             binary message format that is used by a set
+                                      Inter-Channel Termination                                                                                                                                              of optical line terminal (OLT) channel
+                                      Protocol (ICTP) for                                                                                                                                                    terminations (CT) comprising a
+pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum_2]                                   [William_Lupton]                                          2017-02-22                40-Gigabit-capable next-generation passive
+                                      (Passive Optical Network)                                                                                                                                              optical network (NG-PON2) system to exchange
+                                      systems                                                                                                                                                                channel profile configuration and status
+                                                                                                                                                                                                             information and to coordinate the operation
+                                                                                                                                                                                                             of tunable optical network units (ONUs) in a
+                                                                                                                                                                                                             multi-wavelength channel environment.]
+                   7702        udp    Reserved
+                 7203-7214            Unassigned
 PS-Server          7215        tcp    Communication ports for      [PFU_Systems_Inc.]                                    [Hari_Asuri]                                              2016-02-26
                                       PaperStream Server services
                    7215        udp    Reserved
@@ -18954,6 +18969,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Bridgeworks]                                                                       Bridgeworks              mailto:paul.burgess&4bridgeworks.com                          2014-09-26
 [Brigitte_Gagne]                                          Brigitte Gagne                                     mailto:bgagne&trigence.com                                    2006-08
 [Broadband_Forum]                                         Broadband Forum                                    mailto:info&broadband-forum.org                               2017-01-12
+[Broadband_Forum_2]                                                                 Broadband Forum          mailto:help&broadband-forum.org                               2017-02-22
 [Brocade_Communications_Systems]                          Brocade Communications                             mailto:ncarter&brocade.com                                    2015-11-17
                                                           Systems
 [Brooks_Bell]                                             Brooks Bell               Layered Logic, Inc.      mailto:brooks&layeredlogic.com                                2012-01-04
@@ -19387,6 +19403,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dario_S_Tonesi]                                          Dario S. Tonesi                                    mailto:dario.tonesi&nsn.com                                   2011-02-07
 [Dark_Horse_GmbH_Co_KG]                                                             Dark Horse GmbH & Co KG  mailto:l.kannicht&thedarkhorse.de                             2015-06-02
 [Darrell_Schiebel]                                        Darrell Schiebel                                   mailto:dschieb&cv.nrao.edu
+[Darin_Smith]                                             Darin Smith                                        mailto:darin.smith&harman.com                                 2017-02-16
 [Darrin_Smart]                                            Darrin Smart                                       mailto:dns-sd&filmlight.ltd.uk
 [Darshan_Shah]                                            Darshan Shah                                       mailto:darshan.shah&ni.com
 [Darwin_Ammala]                                           Darwin Ammala                                      mailto:dammala&harris.com                                     2007-03
@@ -20215,6 +20232,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Hari_Asuri]                                              Hari Asuri                                         mailto:hasuri.pfu&us.fujitsu.com                              2016-02-26
 [Harinder_Bhasin]                                         Harinder Bhasin                                    mailto:Harinder.Bhasin&sun.com
 [Harish_Kuttan]                                           Harish Kuttan                                      mailto:harish.k&hp.com                                        2010-03-22
+[Harman_International_Industries_Inc]                                               Harman International     darin.smith@harman.com                                        2017-02-16
+                                                                                    Industries Inc.
 [Harold_Froehling]                                        Harold Froehling                                   mailto:hrf&cup.hp.com
 [Harris_Corporation]                                                                Harris, Corporation      mailto:dsomerfi&harris.com                                    2011-08-05
 [Harry_Courtice]                                          Harry Courtice                                     mailto:harry.courtice&elprotech.com                           2008-04-14
@@ -23609,6 +23628,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [William_Fisher]                                          William Fisher                                     mailto:william.w.fisher&intermapper.com                       2011-05-09
 [William_Lai]                                             William Lai                                        mailto:wlai&microsoft.com
 [William_LePera]                                          William LePera                                     mailto:lepera&us.ibm.com                                      2008-06-18
+[William_Lupton]                                          William Lupton                                     mailto:wlupton&broadband-forum.org                            2017-02-22
 [William_McDonald]                                        William McDonald                                   mailto:billmc&atc.boeing.com
 [William_Mullaney]                                        William Mullaney                                   mailto:mullanwi&usa.net
 [William_Oldwin]                                          William Oldwin                                     mailto:william&ultrahypertech.xyz                             2016-05-03
