@@ -2,4 +2,4 @@
 EC,Elliptic Curve,Recommended+,[IESG],"[RFC7518, Section 6.2]"
 RSA,RSA,Required,[IESG],"[RFC7518, Section 6.3]"
 oct,Octet sequence,Required,[IESG],"[RFC7518, Section 6.4]"
-OKP,Octet string key pairs,Optional,[IESG],"[RFC-ietf-jose-cfrg-curves-06, Section 2]"
+OKP,Octet string key pairs,Optional,[IESG],"[RFC8037, Section 2]"

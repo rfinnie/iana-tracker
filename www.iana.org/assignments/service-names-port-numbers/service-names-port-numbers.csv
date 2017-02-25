@@ -11397,7 +11397,12 @@ ucs-isc,8070,tcp,Oracle Unified Communication Suite's Indexed Search Converter,[
 ,8071-8073,,Unassigned,,,,,,,,
 gadugadu,8074,tcp,Gadu-Gadu,[Marcin_Gozdalik],[Marcin_Gozdalik],2006-05,,,,,
 gadugadu,8074,udp,Gadu-Gadu,[Marcin_Gozdalik],[Marcin_Gozdalik],2006-05,,,,,
-,8075-8079,,Unassigned,,,,,,,,
+,8075-8076,,Unassigned,,,,,,,,
+mles,8077,tcp,"Mles is a client-server data distribution protocol 
+      targeted to serve as a lightweight and reliable distributed 
+      publish/subscribe database service.",[Juhamatti_Kuusisaari],[Juhamatti_Kuusisaari],2017-02-24,,,,,
+,8077,udp,Reserved,,,,,,,,
+,8078-8079,,Unassigned,,,,,,,,
 http-alt,8080,tcp,HTTP Alternate (see port 80),[Stephen_Casner],[Stephen_Casner],,,,,,
 http-alt,8080,udp,HTTP Alternate (see port 80),[Stephen_Casner],[Stephen_Casner],,,,,,
 sunproxyadmin,8081,tcp,Sun Proxy Admin Service,[Arvind_Srinivasan],[Arvind_Srinivasan],2005-08,,,,,
