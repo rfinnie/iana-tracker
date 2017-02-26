@@ -25,7 +25,9 @@ Bit Pattern,Page,Header Type,Reference
 01 1xxxxx,2-14,Unassigned,
 01 1xxxxx,15,Reserved for Experimental Use,[RFC8025]
 10 xxxxxx,0,MESH - Mesh header,[RFC4944][RFC8025]
-10 xxxxxx,1-14,Unassigned,
+10 0xxxxx,1,for Critical 6LoWPAN Routing Headers,[RFC-ietf-roll-routing-dispatch-05]
+10 1xxxxx,1,for Elective 6LoWPAN Routing Headers,[RFC-ietf-roll-routing-dispatch-05]
+10 xxxxxx,2-14,Unassigned,
 10 xxxxxx,15,Reserved for Experimental Use,[RFC8025]
 11 000xxx,0,FRAG1 -- Fragmentation Header (first),[RFC4944][RFC8025]
 11 000xxx,1-14,Unassigned,

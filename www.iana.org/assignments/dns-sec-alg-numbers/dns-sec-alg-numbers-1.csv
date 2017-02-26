@@ -17,8 +17,8 @@ Secure Hash Standard, 17 April 1995.
 12,GOST R 34.10-2001,ECC-GOST,Y,*,[RFC5933][standards track]
 13,ECDSA Curve P-256 with SHA-256,ECDSAP256SHA256,Y,*,[RFC6605][standards track]
 14,ECDSA Curve P-384 with SHA-384,ECDSAP384SHA384,Y,*,[RFC6605][standards track]
-15,Ed25519,ED25519,Y,*,[RFC-ietf-curdle-dnskey-eddsa-03][standards track]
-16,Ed448,ED448,Y,*,[RFC-ietf-curdle-dnskey-eddsa-03][standards track]
+15,Ed25519,ED25519,Y,*,[RFC8080][standards track]
+16,Ed448,ED448,Y,*,[RFC8080][standards track]
 17-122,Unassigned,,,,
 123-251,Reserved,,,,[RFC4034][RFC6014]
 252,Reserved for Indirect Keys,INDIRECT,N,N,[RFC4034][proposed standard]
