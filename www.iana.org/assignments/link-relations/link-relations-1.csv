@@ -144,9 +144,9 @@ identifiers, and thus clients SHOULD NOT indiscriminately access
 profile URIs."
 related,Identifies a related resource.,[RFC4287],
 restconf,"Identifies the root of RESTCONF API as configured on this HTTP server.
-      The ""restconf"" relation defines the root of the API defined in RFC-ietf-netconf-restconf-18.
+      The ""restconf"" relation defines the root of the API defined in RFC8040.
       Subsequent revisions of RESTCONF will use alternate relation values to support 
-      protocol versioning.",[RFC-ietf-netconf-restconf-18],
+      protocol versioning.",[RFC8040],
 replies,"Identifies a resource that is a reply to the context
       of the link.",[RFC4685],
 search,"Refers to a resource that can be used to search through
