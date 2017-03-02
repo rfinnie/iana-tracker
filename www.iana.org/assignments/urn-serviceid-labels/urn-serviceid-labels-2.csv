@@ -1,6 +1,9 @@
 Service,Description,Reference
 sos.ambulance,Ambulance service,[RFC5031]
 sos.animal-control,Animal control,[RFC5031]
+sos.ecall,Vehicle-initiated emergency calls,[RFC-ietf-ecrit-ecall-27]
+sos.ecall.automatic,Automatic vehicle-initiated emergency calls,[RFC-ietf-ecrit-ecall-27]
+sos.ecall.manual,Manual vehicle-initiated emergency calls,[RFC-ietf-ecrit-ecall-27]
 sos.fire,Fire service,[RFC5031]
 sos.gas,Gas leaks and gas emergencies,[RFC5031]
 sos.marine,Maritime search and rescue,[RFC5031]

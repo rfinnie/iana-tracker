@@ -10423,7 +10423,12 @@ skip-cert-recv,6455,tcp,SKIP Certificate Receive,[Tom_Markson],[Tom_Markson],,,,
 skip-cert-recv,6455,udp,SKIP Certificate Receive,[Tom_Markson],[Tom_Markson],,,,,,
 skip-cert-send,6456,tcp,SKIP Certificate Send,[Tom_Markson],[Tom_Markson],,,,,,
 skip-cert-send,6456,udp,SKIP Certificate Send,[Tom_Markson],[Tom_Markson],,,,,,
-,6457-6470,,Unassigned,,,,,,,,
+,6457-6463,,Unassigned,,,,,,,,
+ieee11073-20701,6464,tcp,"Port assignment for medical device communication in 
+    accordance to IEEE 11073-20701",[David_Gregorczyk],[David_Gregorczyk],2017-03-02,,,,,
+ieee11073-20701,6464,udp,"Port assignment for medical device communication in 
+    accordance to IEEE 11073-20701",[David_Gregorczyk],[David_Gregorczyk],2017-03-02,,,,,
+,6465-6470,,Unassigned,,,,,,,,
 lvision-lm,6471,tcp,LVision License Manager,[Brian_McKinnon],[Brian_McKinnon],,,,,,
 lvision-lm,6471,udp,LVision License Manager,[Brian_McKinnon],[Brian_McKinnon],,,,,,
 ,6472-6479,,Unassigned,,,,,,,,
