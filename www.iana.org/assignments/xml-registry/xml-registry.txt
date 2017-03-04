@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2017-02-19
+           2017-02-24
 
    Note
 
@@ -111,6 +111,7 @@ e164val-1.0                           urn:ietf:params:xml:ns:e164val-1.0        
 e164valex-1.1                         urn:ietf:params:xml:ns:e164valex-1.1                         ns/e164valex-1.1.txt                         [RFC5076]
 EmergencyCallData                     urn:ietf:params:xml:ns:EmergencyCallData                     ns/EmergencyCallData.txt                     [RFC7852]
 EmergencyCallData:Comment             urn:ietf:params:xml:ns:EmergencyCallData:Comment             ns/EmergencyCallData/Comment.txt             [RFC7852]
+EmergencyCallData:Control             urn:ietf:params:xml:ns:EmergencyCallData:Control             ns/EmergencyCallData/Control.txt             [RFC-ietf-ecrit-ecall-27]
 EmergencyCallData:DeviceInfo          urn:ietf:params:xml:ns:EmergencyCallData:DeviceInfo          ns/EmergencyCallData/DeviceInfo.txt          [RFC7852]
 EmergencyCallData:ProviderInfo        urn:ietf:params:xml:ns:EmergencyCallData:ProviderInfo        ns/EmergencyCallData/ProviderInfo.txt        [RFC7852]
 EmergencyCallData:ServiceInfo         urn:ietf:params:xml:ns:EmergencyCallData:ServiceInfo         ns/EmergencyCallData/ServiceInfo.txt         [RFC7852]
@@ -165,7 +166,7 @@ keyprov:dskpp:skpc-key-container      urn:ietf:params:xml:ns:keyprov:dskpp:skpc-
 keyprov:pskc                          urn:ietf:params:xml:ns:keyprov:pskc                          ns/keyprov/pskc.txt                          [RFC6030]
 keyprov:pskc:hotp                     urn:ietf:params:xml:ns:keyprov:pskc:hotp                     ns/keyprov/pskc/hotp.txt                     [RFC6030]
 keyprov:pskc:pin                      urn:ietf:params:xml:ns:keyprov:pskc:pin                      ns/keyprov/pskc/pin.txt                      [RFC6030]
-keyrelay-1.0                          urn:ietf:params:xml:ns:keyrelay-1.0                          ns/keyrelay-1.0.txt                          [RFC-ietf-eppext-keyrelay-12]
+keyrelay-1.0                          urn:ietf:params:xml:ns:keyrelay-1.0                          ns/keyrelay-1.0.txt                          [RFC8063]
 kpml-request                          urn:ietf:params:xml:ns:kpml-request                          ns/kpml-request.txt                          [RFC4730]
 kpml-response                         urn:ietf:params:xml:ns:kpml-response                         ns/kpml-response.txt                         [RFC4730]
 lgr-1.0                               urn:ietf:params:xml:ns:lgr-1.0                               ns/lgr-1.0.txt                               [RFC7940]
@@ -275,8 +276,8 @@ yang:ietf-netconf-monitoring          urn:ietf:params:xml:ns:yang:ietf-netconf-m
 yang:ietf-netconf-notifications       urn:ietf:params:xml:ns:yang:ietf-netconf-notifications       ns/yang/ietf-netconf-notifications.txt       [RFC6470]
 yang:ietf-netconf-time                urn:ietf:params:xml:ns:yang:ietf-netconf-time                ns/yang/ietf-netconf-time.txt                [RFC7758]
 yang:ietf-netconf-with-defaults       urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults       ns/yang/ietf-netconf-with-defaults.txt       [RFC6243]
-yang:ietf-restconf                    urn:ietf:params:xml:ns:yang:ietf-restconf                    ns/yang/ietf-restconf.txt                    [RFC-ietf-netconf-restconf-18]
-yang:ietf-restconf-monitoring         urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring         ns/yang/ietf-restconf-monitoring.txt         [RFC-ietf-netconf-restconf-18]
+yang:ietf-restconf                    urn:ietf:params:xml:ns:yang:ietf-restconf                    ns/yang/ietf-restconf.txt                    [RFC8040]
+yang:ietf-restconf-monitoring         urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring         ns/yang/ietf-restconf-monitoring.txt         [RFC8040]
 yang:ietf-routing                     urn:ietf:params:xml:ns:yang:ietf-routing                     ns/yang/ietf-routing.txt                     [RFC8022]
 yang:ietf-snmp                        urn:ietf:params:xml:ns:yang:ietf-snmp                        ns/yang/ietf-snmp.txt                        [RFC7407]
 yang:ietf-system                      urn:ietf:params:xml:ns:yang:ietf-system                      ns/yang/ietf-system.txt                      [RFC7317]
@@ -284,7 +285,7 @@ yang:ietf-template                    urn:ietf:params:xml:ns:yang:ietf-template 
 yang:ietf-x509-cert-to-name           urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name           ns/yang/ietf-x509-cert-to-name.txt           [RFC7407]
 yang:ietf-yang-library                urn:ietf:params:xml:ns:yang:ietf-yang-library                ns/yang/ietf-yang-library.txt                [RFC7895]
 yang:ietf-yang-metadata               urn:ietf:params:xml:ns:yang:ietf-yang-metadata               ns/yang/ietf-yang-metadata.txt               [RFC7952]
-yang:ietf-yang-patch                  urn:ietf:params:xml:ns:yang:ietf-yang-patch                  ns/yang/ietf-yang-patch.txt                  [RFC-ietf-netconf-yang-patch-14]
+yang:ietf-yang-patch                  urn:ietf:params:xml:ns:yang:ietf-yang-patch                  ns/yang/ietf-yang-patch.txt                  [RFC8072]
 yang:ietf-yang-smiv2                  urn:ietf:params:xml:ns:yang:ietf-yang-smiv2                  ns/yang/ietf-yang-smiv2.txt                  [RFC6643]
 yang:ietf-yang-types                  urn:ietf:params:xml:ns:yang:ietf-yang-types                  ns/yang/ietf-yang-types.txt                  [RFC6991]
 yang:smiv2                            urn:ietf:params:xml:ns:yang:smiv2                            ns/yang/ietf-yang-smiv2.txt                  [RFC6643]
@@ -387,7 +388,7 @@ ipfix (DEPRECATED)               urn:ietf:params:xml:schema:ipfix-info (DEPRECAT
 iris1                            urn:ietf:params:xml:schema:iris1                            schema/iris1.xsd                            [RFC3981]
 keyprov:dskpp                    urn:ietf:params:xml:schema:keyprov:dskpp                    schema/keyprov/dskpp.xsd                    [RFC6063]
 keyprov:pskc                     urn:ietf:params:xml:schema:keyprov:pskc                     schema/keyprov/pskc.xsd                     [RFC6030]
-keyrelay-1.0                     urn:ietf:params:xml:schema:keyrelay-1.0                     schema/keyrelay-1.0.xsd                     [RFC-ietf-eppext-keyrelay-12]
+keyrelay-1.0                     urn:ietf:params:xml:schema:keyrelay-1.0                     schema/keyrelay-1.0.xsd                     [RFC8063]
 kpml-request                     urn:ietf:params:xml:schema:kpml-request                     schema/kpml-request.xsd                     [RFC4730]
 kpml-response                    urn:ietf:params:xml:schema:kpml-response                    schema/kpml-response.xsd                    [RFC4730]
 load-control                     urn:ietf:params:xml:schema:load-control                     schema/load-control.xsd                     [RFC7200]

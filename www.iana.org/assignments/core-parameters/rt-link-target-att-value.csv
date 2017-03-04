@@ -1,7 +1,7 @@
 Value,Description,Reference,Notes
 core.gp,"Group Configuration resource.  This resource is used to
    query/manage the group membership of a CoAP server.","[RFC7390, Section 2.6.2]",
-core.hc,HTTP to CoAP mapping base resource.,"[RFC-ietf-core-http-mapping-17, Section 5.5]",
+core.hc,HTTP-to-CoAP mapping base resource.,"[RFC-ietf-core-http-mapping-17, Section 5.5]",
 oic.d.airconditioner,Air Conditioner device,[OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1],
 oic.d.airpurifier,Air Purifier device,[OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1],
 oic.d.blind,Blind device,[OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1],

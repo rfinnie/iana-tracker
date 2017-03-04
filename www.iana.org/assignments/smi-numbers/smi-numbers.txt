@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2017-02-19
+           2017-03-01
 
    Note
 
@@ -1092,7 +1092,7 @@ Internet-standard MIB - Transmission Group
            [IMG]
            CSV
 
-   Decimal             Name             References
+   Decimal             Name                             References
       1    MPLS-TC-STD-MIB              [RFC3811]
       2    MPLS-LSR-STD-MIB             [RFC3813]
       3    MPLS-TE-STD-MIB              [RFC3812]
@@ -1114,6 +1114,7 @@ Internet-standard MIB - Transmission Group
      19    MPLS-LSR-EXT-STD-MIB         [RFC7453]
      20    MPLS-TE-EXT-STD-MIB          [RFC7453]
      21    MPLS-OAM-ID-STD-MIB          [RFC7697]
+     22    MPLS-LPS-MIB                 [RFC-ietf-mpls-tp-linear-protection-mib-12]
 
 MIB - Remote Network Monitoring
 
@@ -1779,7 +1780,7 @@ SMI Security Codes
            [IMG]
            CSV
 
-   Decimal              Description                               References
+   Decimal              Description                          References
       1    id-mod-cms                             [RFC2630]
       2    id-mod-ess                             [RFC2634]
       3    id-mod-oid                             [Reserved and Obsolete]
@@ -1845,7 +1846,7 @@ SMI Security Codes
      63    id-mod-keyPkgReceiptAndErrV2           [RFC7191]
      64    id-mod-mts-hashsig-2013                [draft-housley-cms-mts-hash-sig]
      65    mod-sMimeSecureHeadersV1               [RFC7508]
-     66    id-mod-CMS-AEADChaCha20Poly1305        [RFC-ietf-curdle-cms-chacha20-poly1305-06]
+     66    id-mod-CMS-AEADChaCha20Poly1305        [RFC8103]
 
   SMI Security for S/MIME CMS Content Type (1.2.840.113549.1.9.16.1)
 
@@ -2002,7 +2003,7 @@ SMI Security Codes
            [IMG]
            CSV
 
-   Decimal         Description                         References
+   Decimal         Description                    References
       1    id-alg-ESDHwith3DES         [Reserved and Obsolete]
       2    id-alg-ESDHwithRC2          [Reserved and Obsolete]
       3    id-alg-3DESwrap             [Reserved and Obsolete]
@@ -2020,7 +2021,7 @@ SMI Security Codes
      15    id-alg-authEnc-128          [RFC6476]
      16    id-alg-authEnc-256          [RFC6476]
      17    id-alg-mts-hashsig          [draft-housley-cms-mts-hash-sig]
-     18    id-alg-AEADChaCha20Poly1305 [RFC-ietf-curdle-cms-chacha20-poly1305-06]
+     18    id-alg-AEADChaCha20Poly1305 [RFC8103]
 
   SMI Security for S/MIME Certificate Distribution Mechanisms (1.2.840.113549.1.9.16.4)
 
@@ -2572,7 +2573,7 @@ SMI Security Codes
       6    id-kp-ipsecTunnel          [Reserved and Obsolete]
       7    id-kp-ipsecUser            [Reserved and Obsolete]
       8    id-kp-timeStamping         [RFC2459]
-      9    id-kp-OCSPSigning          [RFC2460]
+      9    id-kp-OCSPSigning          [RFC2560]
      10    id-kp-dvcs                 [RFC3029]
      11    id-kp-sbgpCertAAServerAuth [Reserved and Obsolete]
      12    id-kp-scvp-responder       [Reserved and Obsolete]

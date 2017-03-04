@@ -7,6 +7,7 @@ Address Block,Name,RFC,Allocation Date,Termination Date,Source,Destination,Forwa
 2001::/23,IETF Protocol Assignments,[RFC2928],2000-09,N/A,False[1],False[1],False[1],False[1],False
 2001::/32,TEREDO,[RFC4380],2006-01,N/A,True,True,True,False,False
 2001:1::1/128,Port Control Protocol Anycast,[RFC7723],2015-10,N/A,True,True,True,True,False
+2001:1::2/128,Traversal Using Relays around NAT Anycast,[RFC-ietf-tram-turn-server-discovery-12],2017-02,N/A,True,True,True,True,False
 2001:2::/48,Benchmarking,[RFC5180],2008-04,N/A,True,True,True,False,False
 2001:3::/32,AMT,[RFC7450],2014-12,N/A,True,True,True,True,False
 2001:4:112::/48,AS112-v6,[RFC7535],2014-12,N/A,True,True,True,True,False

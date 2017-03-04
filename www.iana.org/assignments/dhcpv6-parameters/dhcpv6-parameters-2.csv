@@ -112,6 +112,7 @@ Value,Description,Reference
 110,OPTION_ANI_OPERATOR_REALM,[RFC7839]
 111,OPTION_S46_PRIORITY,[RFC8026]
 112,"OPTION_MUD_URL_V6 (TEMPORARY - registered 2016-12-06, expires 2017-12-06)",[draft-ietf-opsawg-mud]
-113-142,Unassigned,
+113,OPTION_V6_PREFIX64,[RFC-ietf-softwire-multicast-prefix-option-15]
+114-142,Unassigned,
 143,OPTION-IPv6_ADDRESS-ANDSF,[RFC6153]
 144-65535,Unassigned,

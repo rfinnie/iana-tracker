@@ -68,8 +68,8 @@ amr,Authentication Methods References,[OpenID_Foundation_Artifact_Binding_Workin
 sub_jwk,Public key used to check the signature of an ID Token,[OpenID_Foundation_Artifact_Binding_Working_Group],"[
         OpenID Connect Core 1.0, Section 7.4]"
 cnf,Confirmation,[IESG],"[RFC7800, Section 3.1]"
-sip_from_tag,SIP From tag header field parameter value,[IESG],[RFC-holmberg-dispatch-received-realm-12][RFC3261]
-sip_date,SIP Date header field value,[IESG],[RFC-holmberg-dispatch-received-realm-12][RFC3261]
-sip_callid,SIP Call-Id header field value,[IESG],[RFC-holmberg-dispatch-received-realm-12][RFC3261]
-sip_cseq_num,SIP CSeq numeric header field parameter value,[IESG],[RFC-holmberg-dispatch-received-realm-12][RFC3261]
-sip_via_branch,SIP Via branch header field parameter value,[IESG],[RFC-holmberg-dispatch-received-realm-12][RFC3261]
+sip_from_tag,SIP From tag header field parameter value,[IESG],[RFC8055][RFC3261]
+sip_date,SIP Date header field value,[IESG],[RFC8055][RFC3261]
+sip_callid,SIP Call-Id header field value,[IESG],[RFC8055][RFC3261]
+sip_cseq_num,SIP CSeq numeric header field parameter value,[IESG],[RFC8055][RFC3261]
+sip_via_branch,SIP Via branch header field parameter value,[IESG],[RFC8055][RFC3261]
