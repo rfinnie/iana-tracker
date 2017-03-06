@@ -15,4 +15,11 @@ Code,Name,Reference
 13,CatchUpComplete,[RFC7653]
 14,NotSupported,[RFC7653]
 15,TLSConnectionRefused,[RFC7653]
-16-255,Unassigned,
+16,AddressInUse,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+17,ConfigurationConflict,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+18,MissingBindingInformation,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+19,OutdatedBindingInformation,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+20,ServerShuttingDown,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+21,DNSUpdateNotSupported,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+22,ExcessiveTimeSkew,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+23-255,Unassigned,
