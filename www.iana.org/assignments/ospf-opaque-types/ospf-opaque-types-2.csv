@@ -7,6 +7,6 @@ Value,Opaque Type,Reference
 6,Inter-AS-TE-v2 LSA,[RFC5392]
 7,OSPFv2 Extended Prefix Opaque LSA,[RFC7684]
 8,OSPFv2 Extended Link Opaque LSA,[RFC7684]
-9,TTZ LSA,[RFC-ietf-ospf-ttz-06]
+9,TTZ LSA,[RFC8099]
 10-127,Unassigned,
 128-255,Reserved for private use,[RFC5250]

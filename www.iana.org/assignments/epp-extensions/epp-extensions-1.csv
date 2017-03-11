@@ -26,4 +26,4 @@ DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmas
         object extension elements for use with the dk ccTLD. The extensions 
         to the host objects was included with the revision 2.0 of the XSD 
         implemented by the dk registry."
-Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC-ietf-eppext-keyrelay-12],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None
+Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC8063],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None

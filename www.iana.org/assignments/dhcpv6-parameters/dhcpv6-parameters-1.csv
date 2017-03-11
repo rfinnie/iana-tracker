@@ -23,4 +23,16 @@ Value,Description,Reference
 21,DHCPV4-RESPONSE,[RFC7341]
 22,ACTIVELEASEQUERY,[RFC7653]
 23,STARTTLS,[RFC7653]
-24-255,Unassigned,
+24,BNDUPD,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+25,BNDREPLY,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+26,POOLREQ,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+27,POOLRESP,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+28,UPDREQ,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+29,UPDREQALL,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+30,UPDDONE,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+31,CONNECT,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+32,CONNECTREPLY,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+33,DISCONNECT,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+34,STATE,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+35,CONTACT,[RFC-ietf-dhc-dhcpv6-failover-protocol-06]
+36-255,Unassigned,
