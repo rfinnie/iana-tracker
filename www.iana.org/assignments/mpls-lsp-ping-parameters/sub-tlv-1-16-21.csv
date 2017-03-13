@@ -1,8 +1,8 @@
 Sub-Type,Sub-TLV Name,Reference,Comment
 1,LDP IPv4 prefix,[RFC-ietf-mpls-rfc4379bis-09],
 2,LDP IPv6 prefix,[RFC-ietf-mpls-rfc4379bis-09],
-3,RSVP IPv4 prefix,[RFC-ietf-mpls-rfc4379bis-09],
-4,RSVP IPv6 prefix,[RFC-ietf-mpls-rfc4379bis-09],
+3,RSVP IPv4 LSP,[RFC-ietf-mpls-rfc4379bis-09],
+4,RSVP IPv6 LSP,[RFC-ietf-mpls-rfc4379bis-09],
 5,Unassigned,,
 6,VPN IPv4 prefix,[RFC-ietf-mpls-rfc4379bis-09],
 7,VPN IPv6 prefix,[RFC-ietf-mpls-rfc4379bis-09],
