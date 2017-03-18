@@ -4,6 +4,7 @@ Protocol,Description,Reference
 0x002,BFD Control,[RFC7175]
 0x003,BFD Echo,[RFC7175]
 0x004,RBridge Channel Extension,[RFC7978]
-0x005-0xFF7,Unassigned,
+0x005,Pull Directory Services,[RFC-ietf-trill-directory-assist-mechanisms-12]
+0x006-0xFF7,Unassigned,
 0xFF8-0xFFE,Reserved for Private Use,[RFC7178]
 0xFFF,Reserved,[RFC7178]
