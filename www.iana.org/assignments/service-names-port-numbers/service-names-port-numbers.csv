@@ -8990,9 +8990,9 @@ snap,4752,udp,Simple Network Audio Protocol,[Dameon_Wagner],[Dameon_Wagner],2002
 simon,4753,tcp,Simple Invocation of Methods Over Network (SIMON),[Alexander_Christian],[Alexander_Christian],2012-04-19,,,,,
 simon-disc,4753,udp,Simple Invocation of Methods Over Network (SIMON) Discovery,[Alexander_Christian],[Alexander_Christian],2012-04-19,,,,,
 ,4754,tcp,Reserved,,,,,,,,
-gre-in-udp,4754,udp,GRE-in-UDP Encapsulation,[IESG],[IETF_Chair],2016-10-05,,[RFC-ietf-tsvwg-gre-in-udp-encap-19],,,
+gre-in-udp,4754,udp,GRE-in-UDP Encapsulation,[IESG],[IETF_Chair],2016-10-05,,[RFC8086],,,
 ,4755,tcp,Reserved,,,,,,,,
-gre-udp-dtls,4755,udp,GRE-in-UDP Encapsulation with DTLS,[IESG],[IETF_Chair],2016-10-05,,[RFC-ietf-tsvwg-gre-in-udp-encap-19],,,
+gre-udp-dtls,4755,udp,GRE-in-UDP Encapsulation with DTLS,[IESG],[IETF_Chair],2016-10-05,,[RFC8086],,,
 RDCenter,4756,tcp,Reticle Decision Center,[KLA_Tencor],[George_Hwa],2016-10-17,,,,,
 ,4756,udp,Reserved,,,,,,,,
 ,4757-4773,,Unassigned,,,,,,,,
@@ -12982,7 +12982,10 @@ irtrans,21000,udp,IRTrans Control,[Marcus_Mueller],[Marcus_Mueller],2004-11,,,,,
 ,21001-21009,,Unassigned,,,,,,,,
 notezilla-lan,21010,tcp,Notezilla.Lan Server,[Conceptworld_Corporation],[Gautam_Jain],2013-08-20,,,,,
 ,21010,udp,Reserved,,,,,,,,
-,21011-21552,,Unassigned,,,,,,,,
+,21011-21220,,Unassigned,,,,,,,,
+aigairserver,21221,tcp,Services for Air Server,[AIG_S.L.],[Edelmiro_Gonzalez_Martinez],2017-03-16,,,,,
+,21221,udp,Reserved,,,,,,,,
+,21222-21552,,Unassigned,,,,,,,,
 rdm-tfs,21553,tcp,Raima RDM TFS,[Paul_Johnson],[Paul_Johnson],2011-05-02,,,,,
 ,21553,udp,Reserved,,,,,,,,
 dfserver,21554,tcp,MineScape Design File Server,[Michael_Purser],[Michael_Purser],2006-06,,,,,
@@ -14033,6 +14036,7 @@ devonsync,,tcp,DEVONthink synchronization protocol,[DEVONtechnologies_LLC],[Rob_
 dictation,,,Use of a dictation service by a hand-held device,[Nuance_Communications_Inc],[Mark_Jackson],2011-10-27,,,,,"Defined TXT keys: ver, name"
 difi,,,EyeHome,[Elgato],[Elgato],,,,,,Defined TXT keys: None
 disconnect,,,DisConnect Peer to Peer Game Protocol,[Michael_S_Bogovich],[Michael_S_Bogovich],,,,,,Defined TXT keys: None
+displaysrc,,tcp,Wi-Fi Alliance Display Source service,[Wi-Fi_Alliance_3],[Gaurav_Jain],2017-03-14,,,,,Defined TXT keys: None
 dist-opencl,,,Distributed OpenCL discovery protocol,[William_Dillon],[William_Dillon],,2013-04-10,,,,"Defined TXT keys:  TCPendpoint, UDPendpoint, UUID"
 ditrios,,,Ditrios SOA Framework Protocol,[Mark_Schmatz],[Mark_Schmatz],,,,,,Defined TXT keys: http://www.ditrios.org/index.php?link=tutorial/index#zeroconf
 divelogsync,,,Dive Log Data Sharing and Synchronization Protocol,[Greg_McLaughlin],[Greg_McLaughlin],,,,,,Defined TXT keys: None
@@ -14773,6 +14777,8 @@ wkgrpsvr,,,Workgroup Server Discovery,[Forest_Hill],[Forest_Hill],,,,,,Defined T
 workstation,,,Workgroup Manager,[Kevin_Arnold],[Kevin_Arnold],,,,,,Defined TXT keys: None
 wormhole,,,Roku Cascade Wormhole Protocol,[Don_Woodward],[Don_Woodward],,,,,,Defined TXT keys: txtvers=1
 workgroup,,,Novell collaboration workgroup,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=? description=?
+wpl-ers-http,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
+wpl-ers-zmq,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
 writietalkie,,,Writie Talkie Data Sharing,[Yin_Ki_Lau],[Yin_Ki_Lau],,,,,,Defined TXT keys: None
 ws,,,Web Services,[Andrew_Donoho],[Andrew_Donoho],,,,,,Defined TXT keys: None
 wtc-heleos,,,Wyatt Technology Corporation HELEOS,[Brent_Fulgham],[Brent_Fulgham],,,,,,Defined TXT keys: None

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-03</updated>
+  <updated>2017-03-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -58923,7 +58923,7 @@ Further keys may be added in the future.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>GRE-in-UDP Encapsulation</description>
-    <xref type="draft" data="RFC-ietf-tsvwg-gre-in-udp-encap-19"/>
+    <xref type="rfc" data="rfc8086"/>
     <number>4754</number>
   </record>
   <record>
@@ -58937,7 +58937,7 @@ Further keys may be added in the future.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>GRE-in-UDP Encapsulation with DTLS</description>
-    <xref type="draft" data="RFC-ietf-tsvwg-gre-in-udp-encap-19"/>
+    <xref type="rfc" data="rfc8086"/>
     <number>4755</number>
   </record>
   <record date="2016-10-17">
@@ -84572,7 +84572,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>21011-21552</number>
+    <number>21011-21220</number>
+  </record>
+  <record date="2017-03-16">
+    <name>aigairserver</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="AIG_S.L."/>
+    </assignee>
+    <description>Services for Air Server</description>
+    <number>21221</number>
+    <xref type="person" data="Edelmiro_Gonzalez_Martinez"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>21221</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>21222-21552</number>
   </record>
   <record date="2011-05-02">
     <name>rdm-tfs</name>
@@ -90978,6 +90997,16 @@ fwver=&lt;firmware version&gt;</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Michael_S_Bogovich"/>
   </record>
+  <record date="2017-03-14">
+    <name>displaysrc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Wi-Fi_Alliance_3"/>
+    </assignee>
+    <description>Wi-Fi Alliance Display Source service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Gaurav_Jain"/>
+  </record>
   <record updated="2013-04-10">
     <name>dist-opencl</name>
     <description>Distributed OpenCL discovery protocol</description>
@@ -95357,6 +95386,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: version=? description=?</note>
     <xref type="person" data="Brady_Anderson"/>
   </record>
+  <record date="2017-03-17">
+    <name>wpl-ers-http</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming repository server</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
+  <record date="2017-03-17">
+    <name>wpl-ers-zmq</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming repository server</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
   <record>
     <name>writietalkie</name>
     <description>Writie Talkie Data Sharing</description>
@@ -95832,6 +95881,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ahti Heinla</name>
       <uri>mailto:ahti&amp;ahti.bluemoon.ee</uri>
       <updated>2002-06</updated>
+    </person>
+    <person id="AIG_S.L.">
+      <org>AIG S.L.</org>
+      <uri>mailto:pitin&amp;aigclassic.com</uri>
+      <updated>2017-03-16</updated>
     </person>
     <person id="Aivi_Lie">
       <name>Aivi Lie</name>
@@ -102032,6 +102086,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ed Vincent</name>
       <uri>mailto:edv&amp;concomp.com</uri>
     </person>
+    <person id="Edelmiro_Gonzalez_Martinez">
+      <name>Edelmiro_Gonzalez_Martinez</name>
+      <org>AIG S.L.</org>
+      <uri>mailto:pitin&amp;aigclassic.com</uri>
+      <updated>2017-03-16</updated>
+    </person>
     <person id="Eddie_Borjas">
       <name>Eddie Borjas</name>
       <org>Beats Electronics LLC.</org>
@@ -103231,6 +103291,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Conceptworld Corporation</org>
       <uri>mailto:admin&amp;conceptworld.com</uri>
       <updated>2013-08-20</updated>
+    </person>
+    <person id="Gaurav_Jain">
+      <name>Gaurav Jain</name>
+      <org>Wi-Fi Alliance</org>
+      <uri>mailto:gjain&amp;wifi.org</uri>
+      <updated>2017-03-14</updated>
     </person>
     <person id="Gavin_Hutchinson">
       <name>Gavin Hutchinson</name>
@@ -117465,6 +117531,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Thomas Obermair</name>
       <uri>mailto:tommy&amp;inlab.m.eunet.de</uri>
     </person>
+    <person id="Thomas_Quarendon">
+      <name>Thomas Quarendon</name>
+      <org>World Programming Limited</org>
+      <uri>mailto:tom.quarendon&amp;worldprogramming.com</uri>
+      <updated>2017-03-17</updated>
+    </person>
     <person id="Thomas_Revesz">
       <name>Thomas Revesz</name>
       <org>Thermo-Calc Software AB</org>
@@ -118897,6 +118969,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mconley&amp;wi-fi.org</uri>
       <updated>2013-12-31</updated>
     </person>
+    <person id="Wi-Fi_Alliance_3">
+      <org>Wi-Fi Alliance</org>
+      <uri>mailto:gjain&amp;wi-fi.org</uri>
+      <updated>2017-03-14</updated>
+    </person>
     <person id="Wi-SUN_Alliance">
       <org>Wi-SUN Alliance</org>
       <uri>mailto:admin&amp;wi-sun.org</uri>
@@ -119110,6 +119187,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="World_DAB">
       <name>World DAB</name>
       <uri>mailto:worlddab_irc&amp;worlddab.org</uri>
+    </person>
+    <person id="World_Programming_Limited">
+      <org>World Programming Limited</org>
+      <uri>mailto:support&amp;worldprogramming.com</uri>
+      <updated>2017-03-17</updated>
     </person>
     <person id="World_Fusion">
       <name>World Fusion</name>

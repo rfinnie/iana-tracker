@@ -1,5 +1,5 @@
 Number,Description,Mnemonic,ZoneSigning,Trans.Sec.,Reference
-0,Delete DS,DELETE,N,N,[RFC4034][RFC4398][RFC-ietf-dnsop-maintain-ds-04]
+0,Delete DS,DELETE,N,N,[RFC4034][RFC4398][RFC8078]
 1,"RSA/MD5 (deprecated, see 5)",RSAMD5,N,Y,[RFC3110][RFC4034]
 2,Diffie-Hellman,DH,N,Y,[RFC2539][proposed standard]
 3,DSA/SHA1,DSA,Y,Y,"[RFC3755][proposed standard][RFC2536][proposed standard][Federal Information Processing Standards Publication (FIPS PUB) 186,

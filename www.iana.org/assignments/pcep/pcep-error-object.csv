@@ -118,7 +118,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,3-255: Unassigned,
-22-255,Unassigned,0-255: Unassigned,
+22,Unassigned,0-255: Unassigned,
 23,"Bad parameter value (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
 ,,"1: SYMBOLIC-PATH-NAME in use (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"2: Speaker identity included for an LSP that is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]

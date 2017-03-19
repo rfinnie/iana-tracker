@@ -5,4 +5,5 @@ Address,Description,Reference
 01-80-C2-00-00-43 to 01-80-C2-00-00-44,Unassigned,
 01-80-C2-00-00-45,TRILL-End-Stations,[RFC7178]
 01-80-C2-00-00-46,All-Edge-RBridges,[RFC7178]
-01-80-C2-00-00-47 to 01-80-C2-00-00-4F,Unassigned,
+01-80-C2-00-00-47,TRILL-ES-IS,[RFC-ietf-trill-directory-assist-mechanisms-12]
+01-80-C2-00-00-48 to 01-80-C2-00-00-4F,Unassigned,
