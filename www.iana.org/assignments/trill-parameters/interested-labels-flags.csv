@@ -4,4 +4,6 @@ Bit,Mnemonic,Description,Reference
 2,BM,Bit Map,[RFC7176]
 3,ES,ESADI Participation,[RFC7357]
 4,AA,FGLs for Active-Active,[RFC7782]
-5-7,,Unassigned,
+5,,Unassigned,
+6,PUL,Pull Directory,[RFC-ietf-trill-directory-assist-mechanisms-12]
+7,NOD,No Data,[RFC-ietf-trill-directory-assist-mechanisms-12]
