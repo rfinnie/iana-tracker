@@ -147,6 +147,18 @@ Object-Class Value,Name,Object-Type,Reference
           4956]"
 ,,1: BU,[RFC-ietf-pce-pcep-service-aware-13]
 ,,2-15: Unassigned,
-36-255,Unassigned,0: Reserved,"[RFC Errata 
+36,INTER-LAYER,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
+,,1: Inter-layer,[RFC-ietf-pce-inter-layer-ext-12]
+,,2-15: Unassigned,
+37,SWITCH-LAYER,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
+,,1: Switch-layer,[RFC-ietf-pce-inter-layer-ext-12]
+,,2-15: Unassigned,
+38,REQ-ADAP-CAP,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
+,,1: Req-Adap-Cap,[RFC-ietf-pce-inter-layer-ext-12]
+,,2-15: Unassigned,
+39,SERVER-INDICATION,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
+,,1: Server-indication,[RFC-ietf-pce-inter-layer-ext-12]
+,,2-15: Unassigned,
+40-255,Unassigned,0: Reserved,"[RFC Errata 
           4956]"
 ,,1-15: Unassigned,
