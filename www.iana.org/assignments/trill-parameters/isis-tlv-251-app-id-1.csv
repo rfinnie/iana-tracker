@@ -1,6 +1,6 @@
 Type,Name,Reference
 0,Reserved,[RFC7357]
-1,ESADI-PARAM,[RFC7357]
+1,ESADI-PARAM,[RFC7357][RFC-ietf-trill-directory-assist-mechanisms-12]
 2,PN-LAALP-Membership,[RFC7781]
 3,PN-RBv,[RFC7781]
 4,PN-MAC-RI-LAALP-INFO-START,[RFC7781]
@@ -16,7 +16,11 @@ Type,Name,Reference
 14,Tree and FGLs Used,[RFC7968]
 15,Tree and Groups,[RFC7968]
 16,Tree and Groups Used,[RFC7968]
-17-251,Unassigned,
+17,AppointmentBitmap,[RFC-ietf-trill-rfc6439bis-05]
+18,AppointmentList,[RFC-ietf-trill-rfc6439bis-05]
+19,FGL-VLAN-Bitmap,[RFC-ietf-trill-rfc6439bis-05]
+20,FGL-VLAN-Pairs,[RFC-ietf-trill-rfc6439bis-05]
+21-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC7782]
 253,AA-LAALP-GROUP-MAC,[RFC7782]
 254,EXTENDED-RBRIDGE-CAP,[RFC7782]
