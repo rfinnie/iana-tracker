@@ -1,5 +1,5 @@
 Value,Meaning,Reference
-0,No return code,[RFC-ietf-mpls-rfc4379bis-09]
+0,No Return Code,[RFC-ietf-mpls-rfc4379bis-09]
 1,Malformed echo request received,[RFC-ietf-mpls-rfc4379bis-09]
 2,One or more of the TLVs was not understood,[RFC-ietf-mpls-rfc4379bis-09]
 3,Replying router is an egress for the FEC at stack-depth <RSC>,[RFC-ietf-mpls-rfc4379bis-09]
@@ -14,7 +14,7 @@ Value,Meaning,Reference
 12,Protocol not associated with interface at FEC stack-depth <RSC>,[RFC-ietf-mpls-rfc4379bis-09]
 13,"Premature termination of ping due to label stack             
 shrinking to a single label",[RFC-ietf-mpls-rfc4379bis-09]
-14,See DDM TLV for meaning of Return Code and Return SubCode,[RFC-ietf-mpls-rfc4379bis-09]
+14,See DDM TLV for meaning of Return Code and Return Subcode,[RFC-ietf-mpls-rfc4379bis-09]
 15,Label switched with FEC change,[RFC-ietf-mpls-rfc4379bis-09]
 16,Proxy Ping not authorized,[RFC7555]
 17,Proxy Ping parameters need to be modified,[RFC7555]

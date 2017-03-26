@@ -15,7 +15,7 @@ Community Sub-Types"" registry)",[RFC7153],
 0x05,CoS Capability,[Thomas_Martin_Knoll],2009-05-18
 0x06,"EVPN (Sub-Types are defined in the ""EVPN Extended 
 Community Sub-Types"" registry)",[RFC7153],
-0x07,Unassigned,,
+0x07,FlowSpec Transitive Extended Communities,[draft-ietf-idr-flowspec-interfaceset],2017-03-16
 0x08,Flow spec redirect/mirror to IP next-hop,[draft-simpson-idr-flowspec-redirect],2012-09-28
 0x09-0x7f,Unassigned,,
 0x80,"Generic Transitive Experimental Use Extended Community       

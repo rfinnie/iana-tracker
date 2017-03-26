@@ -17,4 +17,6 @@ Value,Description,Reference
 15,P2MP Path Delay metric,[RFC-ietf-pce-pcep-service-aware-13]
 16,P2MP Path Delay variation metric,[RFC-ietf-pce-pcep-service-aware-13]
 17,P2MP Path Loss metric,[RFC-ietf-pce-pcep-service-aware-13]
-18-255,Unassigned,
+18,Number of adaptations on a path,[RFC-ietf-pce-inter-layer-ext-12]
+19,Number of layers on a path,[RFC-ietf-pce-inter-layer-ext-12]
+20-255,Unassigned,

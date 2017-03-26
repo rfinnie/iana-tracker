@@ -14,7 +14,7 @@ Value,Hex,Name,Label Advertisement Discipline,Reference,Notes/Registration Date
 128,0x80,PWid FEC Element,DU,[RFC8077][RFC7358],
 129,0x81,Generalized PWid FEC Element,DU,[RFC8077][RFC7358],
 130,0x82,P2MP PW Upstream FEC Element,Upstream,[draft-ietf-pwe3-p2mp-pw][RFC7358],2009-06-03
-131,0x83,Protection FEC Element,DU,[RFC-ietf-pals-endpoint-fast-protection-05][RFC7358],2010-02-26
+131,0x83,Protection FEC Element,DU,[RFC8104][RFC7358],2010-02-26
 132,0x84,P2MP PW Downstream FEC Element,DU,[draft-ietf-pwe3-p2mp-pw][RFC7358],2014-04-04
 133-191,,Unassigned,,,
 192-255,,Reserved for Private Use,,,
