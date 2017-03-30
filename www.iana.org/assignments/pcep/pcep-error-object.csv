@@ -43,7 +43,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"9: ERO Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
 ,,"10: SRP Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
 ,,"11: LSP-IDENTIFIERS TLV missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,12: LSP-DB-VERSION TLV missing,[RFC5440][RFC-ietf-pce-stateful-sync-optimizations-10]
+,,12: LSP-DB-VERSION TLV missing,[RFC-ietf-pce-stateful-sync-optimizations-10]
 ,,13-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
