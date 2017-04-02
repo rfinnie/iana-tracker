@@ -1479,7 +1479,7 @@ event.  This IE identifies the type of a NAT event.  Examples of NAT
 events include but not limited to, creation or deletion of a NAT
 translation entry, a threshold reached or exceeded etc.  Values for
 this Information Element are listed in the NAT Event Type registry. 
-See [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]",,1-2,"See [RFC3022] for the definition of NAT.  See 
+See [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC-ietf-behave-ipfix-nat-logging-13] 
 for the definitions of values 4-16.",[RFC-ietf-behave-ipfix-nat-logging-13],2,2017-03-15
@@ -3604,14 +3604,14 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
 466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT
         quota exceeded event.  Values for this Information Element are listed
         in the NAT Quota Exceeded Event Type registry. 
-        See [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-quota-exceeded-event].",,,"See [RFC791] for the definition of the IPv4 
+        See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event].",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
 467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT
         threshold event.  Values for this Information Element are listed in
         the NAT Threshhold Event Type registry.  
-        See [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-threshold-event].",,,"See [RFC791] for the definition of the IPv4 
+        See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event].",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15

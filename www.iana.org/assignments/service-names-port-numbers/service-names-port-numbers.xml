@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-17</updated>
+  <updated>2017-03-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -21,11 +21,11 @@ documented in <xref type="rfc" data="rfc6335"/>.
 Port numbers are assigned in various ways, based on three ranges: System
 Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
 Ports (49152-65535); the difference uses of these ranges is described in
-<xref type="rfc" data="rfc6335"/>. System Ports are assigned by IETF
-process for standards-track protocols, as per <xref type="rfc" data="rfc6335"/>.  User Ports
-are assigned by IANA using the "IETF Review" process, the "IESG 
-Approval" process, or the "Expert Review" process, as per
-<xref type="rfc" data="rfc6335"/>.  Dynamic Ports are not assigned.
+<xref type="rfc" data="rfc6335"/>. According to Section 8.1.2 of <xref type="rfc" data="rfc6335"/>, System Ports are 
+assigned by the "IETF Review" or "IESG Approval" procedures described in 
+<xref type="rfc" data="rfc5226"/>. User Ports are assigned by IANA using the "IETF Review" process, 
+the "IESG Approval" process, or the "Expert Review" process, as per 
+<xref type="rfc" data="rfc6335"/>. Dynamic Ports are not assigned.
 
 The registration procedures for service names and port numbers are
 described in <xref type="rfc" data="rfc6335"/>.
@@ -70768,9 +70768,29 @@ common service discovery mechanisms.</note>
     <description>Talon Webserver</description>
     <number>7015</number>
   </record>
+  <record date="2017-03-27">
+    <name>spg</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="SPG_Controls_Ltd"/>
+    </assignee>
+    <description>SPG Controls Carrier</description>
+    <number>7016</number>
+    <xref type="person" data="Steve_Barton_2"/>
+  </record>
+  <record date="2017-03-27">
+    <name>spg</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="SPG_Controls_Ltd"/>
+    </assignee>
+    <description>SPG Controls Carrier</description>
+    <number>7016</number>
+    <xref type="person" data="Steve_Barton_2"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>7016-7017</number>
+    <number>7017</number>
   </record>
   <record date="2011-05-19">
     <name>fisa-svc</name>
@@ -75748,7 +75768,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8418-8441</number>
+    <number>8418-8422</number>
+  </record>
+  <record date="2017-03-30">
+    <name>aritts</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Aristech_GmbH"/>
+    </assignee>
+    <description>Aristech text-to-speech server</description>
+    <number>8423</number>
+    <xref type="person" data="Mirko_Hering"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8423</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>8424-8441</number>
   </record>
   <record date="2007-05">
     <name>cybro-a-bus</name>
@@ -80012,7 +80051,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>10011-10049</number>
+    <number>10011-10019</number>
+  </record>
+  <record date="2017-03-28">
+    <name>abb-hw</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ABB"/>
+    </assignee>
+    <description>Hardware configuration and maintenance</description>
+    <number>10020</number>
+    <xref type="person" data="Adam_Norén"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>10020</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>10021-10049</number>
   </record>
   <record date="2006-02">
     <name>zabbix-agent</name>
@@ -95715,6 +95773,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Aaron Stein</name>
       <uri>mailto:aaron.stein&amp;ca.com</uri>
     </person>
+    <person id="ABB">
+      <org>ABB</org>
+      <uri>mailto:adam.noren&amp;se.abb.com</uri>
+      <updated>2017-03-28</updated>
+    </person>
     <person id="Abdullah_Obeid">
       <name>Abdullah Obeid</name>
       <uri>mailto:a.obeid&amp;contamac.nl</uri>
@@ -95788,6 +95851,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Adam_Maxwell">
       <name>Adam Maxwell</name>
       <uri>mailto:amaxwell&amp;mac.com</uri>
+    </person>
+    <person id="Adam_Norén">
+      <name>Adam Norén</name>
+      <org>ABB</org>
+      <uri>mailto:adam.noren&amp;se.abb.com</uri>
+      <updated>2017-03-28</updated>
     </person>
     <person id="Adam_Robinson">
       <name>Adam Robinson</name>
@@ -97156,6 +97225,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ari_Valtanen">
       <name>Ari Valtanen</name>
       <uri>mailto:ari.valtanen&amp;solidtech.com</uri>
+    </person>
+    <person id="Aristech_GmbH">
+      <org>Aristech GmbH</org>
+      <uri>mailto:mirko.hering&amp;aristech.de</uri>
+      <updated>2017-03-30</updated>
     </person>
     <person id="Arjen_Lentz">
       <name>Arjen Lentz</name>
@@ -111030,6 +111104,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Miriam Wohlgelernter</name>
       <uri>mailto:miriamw&amp;adirtech.com</uri>
     </person>
+    <person id="Mirko_Hering">
+      <name>Mirko Hering</name>
+      <org>Aristech GmbH</org>
+      <uri>mailto:mirko.hering&amp;aristech.de</uri>
+      <updated>2017-03-30</updated>
+    </person>
     <person id="Mitch_Kaufman">
       <name>Mitch Kaufman</name>
       <uri>mailto:mk&amp;weconnectyou.com</uri>
@@ -116198,6 +116278,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:steran&amp;ars.com</uri>
       <updated>2004-11</updated>
     </person>
+    <person id="SPG_Controls_Ltd">
+      <org>SPG Controls Ltd</org>
+      <uri>mailto:steveb&amp;spgcontrols.com</uri>
+      <updated>2017-03-27</updated>
+    </person>
     <person id="Sphera_Software">
       <name>Sphera Software</name>
       <uri>mailto:contact&amp;sphera-soft.com</uri>
@@ -116506,6 +116591,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steve Barton</name>
       <uri>mailto:steveb&amp;pacom.com</uri>
       <updated>2002-03</updated>
+    </person>
+    <person id="Steve_Barton_2">
+      <name>Steve Barton</name>
+      <org>SPG Controls Ltd</org>
+      <uri>mailto:steveb&amp;spgcontrols.com</uri>
+      <updated>2017-03-27</updated>
     </person>
     <person id="Steve_Beigel">
       <name>Steve Beigel</name>
