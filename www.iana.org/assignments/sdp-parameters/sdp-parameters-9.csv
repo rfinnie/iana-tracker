@@ -10,15 +10,15 @@ att-field (media level only),rtpmap,IDENTICAL-PER-PT,[RFC4566][RFC-ietf-mmusic-s
 att-field (media level only),fmtp,IDENTICAL-PER-PT,[RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtpred1,CAUTION,[2][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtpred2,CAUTION,[2][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (media level only),T38FaxVersion,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38MaxBitRate,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxFillBitRemoval,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxTranscodingMMR,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxTranscodingJBIG,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxRateManagement,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxMaxBuffer,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxMaxDatagram,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxUdpEC,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxVersion,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38MaxBitRate,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxFillBitRemoval,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxTranscodingMMR,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxTranscodingJBIG,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxRateManagement,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxMaxBuffer,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxMaxDatagram,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxUdpEC,TBD,"[ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (media level only),maxptime,IDENTICAL-PER-PT,[RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),des,CAUTION,[RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),curr,CAUTION,[RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
@@ -157,10 +157,10 @@ att-field (media level only),loopback-source,NORMAL,[RFC6849][RFC-ietf-mmusic-sd
 att-field (media level only),loopback-mirror,NORMAL,[RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),chatroom,TBD,[RFC7701][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),altc,TRANSPORT,[RFC6947][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (media level only),T38FaxMaxIFP,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxUdpECDepth,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38FaxUdpFECMaxSpan,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),T38ModemType,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010.][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxMaxIFP,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxUdpECDepth,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38FaxUdpFECMaxSpan,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+att-field (media level only),T38ModemType,TBD,"[ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September 2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (media level only),cs-correlation,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtcp-idms,NORMAL,[RFC7272][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),predefined_ROI,TBD,[3GPP TS 26.114 v13.1.0][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
@@ -171,3 +171,6 @@ att-field (media level only),3ge2ae,IDENTICAL,[3GPP TS 24.229 12.14.0][Frederic_
 att-field (media level only),websocket-uri,CAUTION,[RFC8124]
 att-field (media level only),sctp-port,CAUTION,[RFC-ietf-mmusic-sctp-sdp-25]
 att-field (media level only),max-message-size,CAUTION,[RFC-ietf-mmusic-sctp-sdp-25]
+att-field (media level only),vbd,TBD,"[ITU-T Recommendation V.152 ""Procedures for supporting voice-band data over IP networks"", September 2010][Simao_Campos-Neto]"
+att-field (media level only),maxmptime,TBD,"[ITU-T Recommendation V.152 ""Procedures for supporting voice-band data over IP networks"", September 2010][Simao_Campos-Neto]"
+att-field (media level only),pmft,TBD,"[ITU-T Recommendation V.152 ""Procedures for supporting voice-band data over IP networks"", September 2010][Simao_Campos-Neto]"
