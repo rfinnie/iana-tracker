@@ -13943,6 +13943,7 @@ atlassianapp,,,"Atlassian Application (JIRA, Confluence, Fisheye, Crucible, Crow
 attero-ad,,tcp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
 attero-ad,,udp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
 audirvana-ap,,tcp,Audirvana Remote Access Protocol,[Audirvana_SCS],[Damien_Plisson],2015-07-21,,,,,"Defined TXT keys: txtvers, protovers"
+autosendimages,,tcp,automatic sending Image data protocol,[Canon_Inc_2],[Kazuo_Moritomo],2017-04-17,,,,,
 autotargets-ap,,tcp,Access Point for AutoTargets system,[Automated_Target_Solutions_Inc.],[Nathan_Walker],2015-12-28,,,,,Defined TXT keys: none
 av,,,Allen Vanguard Hardware Service,[Mike_Bush],[Mike_Bush],,,,,,Defined TXT keys: Proprietary
 avatars,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
