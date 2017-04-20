@@ -3617,4 +3617,8 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
-468-32767,Unassigned,,,,,,,,,,
+468,httpUserAgent,string,default,current,"The HTTP User-Agent header field as defined in section 5.5.3 of  
+        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+469,httpContentType,string,default,current,"The HTTP Content-Type header field as defined in section 3.1.1.5 of 
+        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+470-32767,Unassigned,,,,,,,,,,

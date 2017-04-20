@@ -13771,7 +13771,9 @@ robotraconteur,48653,udp,Robot Raconteur transport,[Wason_Technology_LLC],[John_
 ,48654-48999,,Unassigned,,,,,,,,
 matahari,49000,tcp,Matahari Broker,[Matahari_Project],[Zane_Bitter],2011-08-31,,,,,
 ,49000,udp,Reserved,,,,,,,,
-,49001-49150,,Unassigned,,,,,,,,
+nusrp,49001,tcp,Nuance Unity Service Request Protocol,[Nuance_Communications_Inc3],[Andrew_Andrews],2017-04-20,,,,,
+nusdp-disc,49001,udp,Nuance Unity Service Discovery Protocol,[Nuance_Communications_Inc3],[Andrew_Andrews],2017-04-20,,,,,
+,49002-49150,,Unassigned,,,,,,,,
 ,49151,,IANA Reserved,,,,,,,,
 argus,,,ARGUS Protocol,,,,,,,,
 arp,,,Address Resolution Protocol,,,,,,,,
@@ -14408,6 +14410,7 @@ ntlx-arch,,,American Dynamics Intellex Archive Management Service,[Gary_Sands],[
 ntlx-ent,,,American Dynamics Intellex Enterprise Management Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial"
 ntlx-video,,,American Dynamics Intellex Video Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, control, event"
 ntx,,udp,Tenasys,[Carl_Ellis],[Carl_Ellis],,,,,,Defined TXT keys: None
+nusdp,,tcp,Nuance Unity Service Discovery Protocol,[Nuance_Communications_Inc],[Andrew_Andrews],2017-04-20,,,,,Defined TXT keys: None
 oak,,tcp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 oak,,udp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 obf,,,Observations Framework,[Matthew_Baker],[Matthew_Baker],,,,,,Defined TXT keys: version=<value>
