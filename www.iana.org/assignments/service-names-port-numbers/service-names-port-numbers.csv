@@ -13955,6 +13955,8 @@ avatars-sec,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[
 axis-video,,,Axis Video Cameras,[Kristina_Sten],[Kristina_Sten],,,,,,Defined TXT keys: None
 b3d-convince,,,3M Unitek Digital Orthodontic System,[Rajiv_Aaron_Manglani],[Rajiv_Aaron_Manglani],,,,,,"Defined TXT keys: txtvers=1, protovers=<api version>, guid=<32 hex digits>"
 babyphone,,,BabyPhone,[Johan_Kool],[Johan_Kool],,,,,,Defined TXT keys: None
+bandhelper-rc,,tcp,Remote Control for BandHelper app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
+bandhelper-ss,,tcp,Screen sharing for BandHelper app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
 barroomcomedy,,tcp,Peer to peer file sharing for a media player application,[Fred_Zimmerman],[Fred_Zimmerman],2013-11-05,,,,,Defined TXT keys: None
 bcloud-server,,tcp,Buddycloud Server Delegation,[buddycloud],[Simon_Tennant_2],2014-06-19,,,,,"Defined TXT keys: v, host"
 bdsk,,,BibDesk Sharing,[Adam_Maxwell],[Adam_Maxwell],,,,,,"Defined TXT keys: txtvers, authenticate"
@@ -14587,6 +14589,8 @@ servereye,,,ServerEye AgentContainer Communication Protocol,[Andreas_Behr],[Andr
 servermgr,,,Mac OS X Server Admin,[Jeff_Albouze],[Jeff_Albouze],,,,,,Defined TXT keys: None
 services,,,DNS Service Discovery,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD meta queries.
 sessionfs,,,Session File Sharing,[Anthony_Williams],[Anthony_Williams],,,,,,"Defined TXT keys: Text keys are the file extensions of any file the user plans to share, i.e. pdf, doc, mp3."
+setlistmaker-rc,,tcp,Remote Control for Set List Maker app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
+setlistmaker-ss,,tcp,Screen sharing for Set List Maker app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
 sftp-ssh,,,Secure File Transfer Protocol over SSH,[Bryan_Cole],[Bryan_Cole],,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
 sge-exec,,,Sun Grid Engine (Execution Host),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
 sge-qmaster,,,Sun Grid Engine (Master),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None

@@ -8,4 +8,5 @@ Bit Position,Description,Semantics Definition,Reference
 6,Symmetrical Size Sender Test Packet Format,,[RFC6038]
 7,IKEv2Derived Mode Capability,Section 5,[RFC7717]
 8,DSCP and ECN Monitoring Capability,Section 2,[RFC7750]
-9-31,Unassigned,,
+9,PTPv2 Timestamp Capability,Section 2,[RFC-ietf-ippm-twamp-time-format-06]
+10-31,Unassigned,,
