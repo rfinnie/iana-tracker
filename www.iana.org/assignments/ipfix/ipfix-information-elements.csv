@@ -3453,7 +3453,7 @@ objects for an indexed columnar MIB object.  Each bit represents
 an Information Element in the Data Record, with the n-th least
 significant bit representing the n-th Information Element.  A bit
 set to 1 indicates that the corresponding Information Element is
-an index of the columnar object represented by the mibFieldValue.
+an index of the columnar object represented by the mibObjectValue.
 A bit set to 0 indicates that this is not the case.
 
             
@@ -3484,7 +3484,7 @@ Process or Exporting Process retrieving the value (i.e., the data
 is already stale) and it is important to know the exact sampling
 time, then an additional observationTime* element should be paired
 with the OID using IPFIX Structured Data [RFC6313].  Similarly, if
-different MIB capture times apply to different mibObject elements
+different MIB capture times apply to different mibObjectValue elements
 within the Data Record, then individual mibCaptureTimeSemantics
 Information Elements should be paired with each OID using IPFIX
 Structured Data.
@@ -3617,4 +3617,8 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
-468-32767,Unassigned,,,,,,,,,,
+468,httpUserAgent,string,default,current,"The HTTP User-Agent header field as defined in section 5.5.3 of  
+        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+469,httpContentType,string,default,current,"The HTTP Content-Type header field as defined in section 3.1.1.5 of 
+        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+470-32767,Unassigned,,,,,,,,,,

@@ -12224,6 +12224,8 @@ odnsp,9966,udp,OKI Data Network Setting Protocol,[Masato_Sato],[Masato_Sato],200
 xybrid-rt,9978,tcp,XYBRID RT Server,[Rx_Networks_Inc],[Drew_Davies],2013-01-24,,,,,
 ,9978,udp,Reserved,,,,,,,,
 ,9979-9986,,Unassigned,,,,,,,,
+pumpkindb,9981,tcp,Event sourcing database engine with a built-in programming language,[Eventsourcing_Inc],[Yurii_Rashkovskii],2017-04-18,,,,,
+,9981,udp,Reserved,,,,,,,,
 dsm-scm-target,9987,tcp,DSM/SCM Target Interface,[Mike_Dyslin],[Mike_Dyslin],2006-08,,,,,
 dsm-scm-target,9987,udp,DSM/SCM Target Interface,[Mike_Dyslin],[Mike_Dyslin],2006-08,,,,,
 nsesrvr,9988,tcp,Software Essentials Secure HTTP server,[Narayanan_Raju],[Narayanan_Raju],2009-02-05,,,,,
@@ -13769,7 +13771,9 @@ robotraconteur,48653,udp,Robot Raconteur transport,[Wason_Technology_LLC],[John_
 ,48654-48999,,Unassigned,,,,,,,,
 matahari,49000,tcp,Matahari Broker,[Matahari_Project],[Zane_Bitter],2011-08-31,,,,,
 ,49000,udp,Reserved,,,,,,,,
-,49001-49150,,Unassigned,,,,,,,,
+nusrp,49001,tcp,Nuance Unity Service Request Protocol,[Nuance_Communications_Inc3],[Andrew_Andrews],2017-04-20,,,,,
+nusdp-disc,49001,udp,Nuance Unity Service Discovery Protocol,[Nuance_Communications_Inc3],[Andrew_Andrews],2017-04-20,,,,,
+,49002-49150,,Unassigned,,,,,,,,
 ,49151,,IANA Reserved,,,,,,,,
 argus,,,ARGUS Protocol,,,,,,,,
 arp,,,Address Resolution Protocol,,,,,,,,
@@ -13943,6 +13947,7 @@ atlassianapp,,,"Atlassian Application (JIRA, Confluence, Fisheye, Crucible, Crow
 attero-ad,,tcp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
 attero-ad,,udp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
 audirvana-ap,,tcp,Audirvana Remote Access Protocol,[Audirvana_SCS],[Damien_Plisson],2015-07-21,,,,,"Defined TXT keys: txtvers, protovers"
+autosendimages,,tcp,automatic sending Image data protocol,[Canon_Inc_2],[Kazuo_Moritomo],2017-04-17,,,,,
 autotargets-ap,,tcp,Access Point for AutoTargets system,[Automated_Target_Solutions_Inc.],[Nathan_Walker],2015-12-28,,,,,Defined TXT keys: none
 av,,,Allen Vanguard Hardware Service,[Mike_Bush],[Mike_Bush],,,,,,Defined TXT keys: Proprietary
 avatars,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
@@ -13950,6 +13955,8 @@ avatars-sec,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[
 axis-video,,,Axis Video Cameras,[Kristina_Sten],[Kristina_Sten],,,,,,Defined TXT keys: None
 b3d-convince,,,3M Unitek Digital Orthodontic System,[Rajiv_Aaron_Manglani],[Rajiv_Aaron_Manglani],,,,,,"Defined TXT keys: txtvers=1, protovers=<api version>, guid=<32 hex digits>"
 babyphone,,,BabyPhone,[Johan_Kool],[Johan_Kool],,,,,,Defined TXT keys: None
+bandhelper-rc,,tcp,Remote Control for BandHelper app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
+bandhelper-ss,,tcp,Screen sharing for BandHelper app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
 barroomcomedy,,tcp,Peer to peer file sharing for a media player application,[Fred_Zimmerman],[Fred_Zimmerman],2013-11-05,,,,,Defined TXT keys: None
 bcloud-server,,tcp,Buddycloud Server Delegation,[buddycloud],[Simon_Tennant_2],2014-06-19,,,,,"Defined TXT keys: v, host"
 bdsk,,,BibDesk Sharing,[Adam_Maxwell],[Adam_Maxwell],,,,,,"Defined TXT keys: txtvers, authenticate"
@@ -14396,6 +14403,7 @@ netrestore,,,NetRestore,[Mike_Bombich],[Mike_Bombich],,,,,,"Defined TXT keys: me
 netvu-video,,tcp,AD Group NetVu Connected Video,[AD_Holdings],[Kelvin_Lawson],2011-10-11,,,,,Defined TXT keys: none
 nextcap,,tcp,Proprietary communication protocol for NextCap capture solution,[NextDay_Aps],[Claus_Broch],2012-04-24,,,,,Defined TXT keys: Proprietary
 nextcap,,udp,Proprietary communication protocol for NextCap capture solution,[NextDay_Aps],[Claus_Broch],2012-04-24,,,,,Defined TXT keys: Proprietary
+ngr-keydist,,tcp,NGR Key Distribution,[nyantec],[Mikael_Voss],2017-04-18,,,,,Defined TXT keys: None
 ni,,tcp,National Instruments Network Device,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo, Status, ImgPath, Comment"
 ni-rt,,tcp,National Instruments Real-Time Target,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, OS, OSVer, ProcArch"
 ni-sysapi,,tcp,National Instruments System API Service,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, Experts, Version"
@@ -14404,6 +14412,7 @@ ntlx-arch,,,American Dynamics Intellex Archive Management Service,[Gary_Sands],[
 ntlx-ent,,,American Dynamics Intellex Enterprise Management Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial"
 ntlx-video,,,American Dynamics Intellex Video Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, control, event"
 ntx,,udp,Tenasys,[Carl_Ellis],[Carl_Ellis],,,,,,Defined TXT keys: None
+nusdp,,tcp,Nuance Unity Service Discovery Protocol,[Nuance_Communications_Inc],[Andrew_Andrews],2017-04-20,,,,,Defined TXT keys: None
 oak,,tcp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 oak,,udp,Oak Device Services,[Oak_Labs_Inc.],[Flynn_Joffray],2017-02-09,,,,,Defined TXT keys: None
 obf,,,Observations Framework,[Matthew_Baker],[Matthew_Baker],,,,,,Defined TXT keys: version=<value>
@@ -14580,6 +14589,8 @@ servereye,,,ServerEye AgentContainer Communication Protocol,[Andreas_Behr],[Andr
 servermgr,,,Mac OS X Server Admin,[Jeff_Albouze],[Jeff_Albouze],,,,,,Defined TXT keys: None
 services,,,DNS Service Discovery,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD meta queries.
 sessionfs,,,Session File Sharing,[Anthony_Williams],[Anthony_Williams],,,,,,"Defined TXT keys: Text keys are the file extensions of any file the user plans to share, i.e. pdf, doc, mp3."
+setlistmaker-rc,,tcp,Remote Control for Set List Maker app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
+setlistmaker-ss,,tcp,Screen sharing for Set List Maker app,[Arlo_Leach],[Arlo_Leach],2017-04-21,,,,,Defined TXT keys: None
 sftp-ssh,,,Secure File Transfer Protocol over SSH,[Bryan_Cole],[Bryan_Cole],,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
 sge-exec,,,Sun Grid Engine (Execution Host),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None
 sge-qmaster,,,Sun Grid Engine (Master),[Bill_Van_Etten],[Bill_Van_Etten],,,,,,Defined TXT keys: None

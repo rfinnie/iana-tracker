@@ -45,7 +45,7 @@ lowercase.",[RFC4254],Section 8
 40,IXOFF,Enable input flow control.,[RFC4254],Section 8
 41,IMAXBEL,Ring bell on input queue full.,[RFC4254],Section 8
 42,IUTF8,"Terminal input and output is assumed to be
-      encoded in UTF-8.",[RFC-sgtatham-secsh-iutf8-06],
+      encoded in UTF-8.",[RFC8160],
 43-49,Unassigned,,,
 50,ISIG,"Enable signals INTR, QUIT, [D]SUSP.",[RFC4254],Section 8
 51,ICANON,Canonicalize input lines.,[RFC4254],Section 8

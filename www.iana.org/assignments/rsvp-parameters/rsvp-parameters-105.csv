@@ -11,4 +11,4 @@ Value,Description,Reference
 10,LSP Recovered,[RFC4872]
 11,LSP Locally Failed,[RFC4872]
 12,No OOB mapping received,[RFC6511]
-13,Preferable P2MP-TE Tree Exists,[RFC-ietf-teas-p2mp-loose-path-reopt-09]
+13,Preferable P2MP-TE Tree Exists,[RFC8149]

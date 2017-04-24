@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-04-04
+           2017-04-21
 
    Expert(s)
 
@@ -14809,6 +14809,10 @@ odnsp              9966        udp    OKI Data Network Setting     [Masato_Sato]
 xybrid-rt          9978        tcp    XYBRID RT Server             [Rx_Networks_Inc]                                     [Drew_Davies]                                             2013-01-24
                    9978        udp    Reserved
                  9979-9986            Unassigned
+                                      Event sourcing database
+pumpkindb          9981        tcp    engine with a built-in       [Eventsourcing_Inc]                                   [Yurii_Rashkovskii]                                       2017-04-18
+                                      programming language
+                   9981        udp    Reserved
 dsm-scm-target     9987        tcp    DSM/SCM Target Interface     [Mike_Dyslin]                                         [Mike_Dyslin]                                             2006-08
 dsm-scm-target     9987        udp    DSM/SCM Target Interface     [Mike_Dyslin]                                         [Mike_Dyslin]                                             2006-08
 nsesrvr            9988        tcp    Software Essentials Secure   [Narayanan_Raju]                                      [Narayanan_Raju]                                          2009-02-05
@@ -16754,7 +16758,11 @@ robotraconteur     48653       udp    Robot Raconteur transport    [Wason_Techno
                 48654-48999           Unassigned
 matahari           49000       tcp    Matahari Broker              [Matahari_Project]                                    [Zane_Bitter]                                             2011-08-31
                    49000       udp    Reserved
-                49001-49150           Unassigned
+nusrp              49001       tcp    Nuance Unity Service Request [Nuance_Communications_Inc3]                          [Andrew_Andrews]                                          2017-04-20
+                                      Protocol
+nusdp-disc         49001       udp    Nuance Unity Service         [Nuance_Communications_Inc3]                          [Andrew_Andrews]                                          2017-04-20
+                                      Discovery Protocol
+                49002-49150           Unassigned
                    49151              IANA Reserved
 argus                                 ARGUS Protocol
 arp                                   Address Resolution Protocol
@@ -16998,6 +17006,8 @@ attero-ad                      tcp    Attero Tech Audio Device     [Attero_Tech_
 attero-ad                      udp    Attero Tech Audio Device     [Attero_Tech_LLC]                                     [David_Vaughn]                                            2015-09-24                                                                                     Defined TXT keys: txtvers, protovers, CtrlType, Model
 audirvana-ap                   tcp    Audirvana Remote Access      [Audirvana_SCS]                                       [Damien_Plisson]                                          2015-07-21                                                                                     Defined TXT keys: txtvers, protovers
                                       Protocol
+autosendimages                 tcp    automatic sending Image data [Canon_Inc_2]                                         [Kazuo_Moritomo]                                          2017-04-17
+                                      protocol
 autotargets-ap                 tcp    Access Point for AutoTargets [Automated_Target_Solutions_Inc.]                     [Nathan_Walker]                                           2015-12-28                                                                                     Defined TXT keys: none
                                       system
 av                                    Allen Vanguard Hardware      [Mike_Bush]                                           [Mike_Bush]                                                                                                                                              Defined TXT keys: Proprietary
@@ -17010,6 +17020,10 @@ axis-video                            Axis Video Cameras           [Kristina_Ste
 b3d-convince                          3M Unitek Digital            [Rajiv_Aaron_Manglani]                                [Rajiv_Aaron_Manglani]                                                                                                                                   Defined TXT keys: txtvers=1, protovers=<api version>,
                                       Orthodontic System                                                                                                                                                                                                                          guid=<32 hex digits>
 babyphone                             BabyPhone                    [Johan_Kool]                                          [Johan_Kool]                                                                                                                                             Defined TXT keys: None
+bandhelper-rc                  tcp    Remote Control for           [Arlo_Leach]                                          [Arlo_Leach]                                              2017-04-21                                                                                     Defined TXT keys: None
+                                      BandHelper app
+bandhelper-ss                  tcp    Screen sharing for           [Arlo_Leach]                                          [Arlo_Leach]                                              2017-04-21                                                                                     Defined TXT keys: None
+                                      BandHelper app
                                       Peer to peer file sharing
 barroomcomedy                  tcp    for a media player           [Fred_Zimmerman]                                      [Fred_Zimmerman]                                          2013-11-05                                                                                     Defined TXT keys: None
                                       application
@@ -17693,6 +17707,7 @@ nextcap                        tcp    protocol for NextCap capture [NextDay_Aps]
                                       Proprietary communication
 nextcap                        udp    protocol for NextCap capture [NextDay_Aps]                                         [Claus_Broch]                                             2012-04-24                                                                                     Defined TXT keys: Proprietary
                                       solution
+ngr-keydist                    tcp    NGR Key Distribution         [nyantec]                                             [Mikael_Voss]                                             2017-04-18                                                                                     Defined TXT keys: None
 ni                             tcp    National Instruments Network [National_Instruments]                                [Joshua_Prewitt]                                          2011-10-24                                                                                     Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo,
                                       Device                                                                                                                                                                                                                                      Status, ImgPath, Comment
 ni-rt                          tcp    National Instruments         [National_Instruments]                                [Joshua_Prewitt]                                          2011-10-24                                                                                     Defined TXT keys: MAC, OS, OSVer, ProcArch
@@ -17710,6 +17725,8 @@ ntlx-ent                              Enterprise Management        [Gary_Sands] 
 ntlx-video                            American Dynamics Intellex   [Gary_Sands]                                          [Gary_Sands]                                                                                                                                             Defined TXT keys: txtvers, macaddress, protovers, model,
                                       Video Service                                                                                                                                                                                                                               serial, control, event
 ntx                            udp    Tenasys                      [Carl_Ellis]                                          [Carl_Ellis]                                                                                                                                             Defined TXT keys: None
+nusdp                          tcp    Nuance Unity Service         [Nuance_Communications_Inc]                           [Andrew_Andrews]                                          2017-04-20                                                                                     Defined TXT keys: None
+                                      Discovery Protocol
 oak                            tcp    Oak Device Services          [Oak_Labs_Inc.]                                       [Flynn_Joffray]                                           2017-02-09                                                                                     Defined TXT keys: None
 oak                            udp    Oak Device Services          [Oak_Labs_Inc.]                                       [Flynn_Joffray]                                           2017-02-09                                                                                     Defined TXT keys: None
 obf                                   Observations Framework       [Matthew_Baker]                                       [Matthew_Baker]                                                                                                                                          Defined TXT keys: version=<value>
@@ -18008,6 +18025,10 @@ services                              DNS Service Discovery        [Stuart_Chesh
                                                                                                                                                                                                                                                                                   queries.
 sessionfs                             Session File Sharing         [Anthony_Williams]                                    [Anthony_Williams]                                                                                                                                       Defined TXT keys: Text keys are the file extensions of any
                                                                                                                                                                                                                                                                                   file the user plans to share, i.e. pdf, doc, mp3.
+setlistmaker-rc                tcp    Remote Control for Set List  [Arlo_Leach]                                          [Arlo_Leach]                                              2017-04-21                                                                                     Defined TXT keys: None
+                                      Maker app
+setlistmaker-ss                tcp    Screen sharing for Set List  [Arlo_Leach]                                          [Arlo_Leach]                                              2017-04-21                                                                                     Defined TXT keys: None
+                                      Maker app
 sftp-ssh                              Secure File Transfer         [Bryan_Cole]                                          [Bryan_Cole]                                                                                                                                             Defined TXT keys: u=<username> p=<password> path=<path>
                                       Protocol over SSH
 sge-exec                              Sun Grid Engine (Execution   [Bill_Van_Etten]                                      [Bill_Van_Etten]                                                                                                                                         Defined TXT keys: None
@@ -18618,7 +18639,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Andrei_Vilkotski]                                        Andrei Vilkotski                                    mailto:andreiv&sgi.com                                        2003-06
 [Andres_Seco_Hernande]                                    Andres Seco Hernandez                               mailto:AndresSH&alamin.org
 [Andrew_Aksyonoff]                                        Andrew Aksyonoff                                    mailto:shodan&sphinxsearch.com                                2009-10-20
-[Andrew_Andrews]                                          Andrew Andrews                                      mailto:Andrew.Andrews&nsius.com                               2011-09-01
+[Andrew_Andrews]                                          Andrew Andrews                                      mailto:Andrew.Andrews&Nuance.com                              2017-04-20
 [Andrew_Beekhof ]                                         Andrew Beekhof                                      mailto:andrew&beekhof.net                                     2013-03-15
 [Andrew_Blyler]                                           Andrew Blyler              Barracuda Networks       mailto:ablyler&barracuda.com                                  2013-04-05
 [Andrew_Borisov]                                          Andrew Borisov                                      mailto:hdr&chat.ru
@@ -18721,6 +18742,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ari_Valtanen]                                            Ari Valtanen                                        mailto:ari.valtanen&solidtech.com
 [Aristech_GmbH]                                                                      Aristech GmbH            mailto:mirko.hering&aristech.de                               2017-03-30
 [Arjen_Lentz]                                             Arjen Lentz                                         mailto:arjen&mysql.com                                        2004-11
+[Arlo_Leach]                                              Arlo Leach                                          mailto:arlo&arlomedia.com                                     2017-04-21
 [Arman_Bedonian]                                          Arman Bedonian                                      mailto:Arman.Bedonian&asg.com                                 2009-07-15
 [Armin_Liebchen]                                          Armin Liebchen                                      mailto:armin&anteradesign.com                                 2007-06
 [Armin_Sawusch]                                           Armin Sawusch                                       mailto:armin&esd1.esd.de
@@ -19073,7 +19095,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Canfield_Scientific_Inc]                                                            Canfield Scientific,     mailto:jim.crismale&canfieldsci.com                           2013-07-02
                                                                                      Inc.
 [Canon_Inc]                                                                          Canon Inc.               mailto:fujii.ken-ichi149&canon.co.jp                          2011-10-10
-[Canon_Inc_2]                                                                        Canon Inc                mailto:fujii.ken-ichi149&canon.co.jp                          2013-03-28
+[Canon_Inc_2]                                                                        Canon Inc                mailto:fujii.ken-ichi149&canon.co.jp                          2017-04-17
 [Canon_Inc_3]                                                                        Canon Inc.               mailto:fujii.ken-ichi149&canon.co.jp                          2014-09-03
 [Canto]                                                                              Canto                    mailto:tschleu&canto.com                                      2014-02-26
 [Caprice_Productions]                                                                Caprice Productions      mailto:ldrake&caprice.com                                     2012-07-05
@@ -19961,6 +19983,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Eugeny_Gladkih]                                          Eugeny Gladkih                                      mailto:john&drweb.com                                         2008-01-31
 [Evan_Caves]                                              Evan Caves                                          mailto:evan&acc.com
 [Evan_Rosen]                                              Evan Rosen                                          mailto:evan&robix.com                                         2005-11
+[Eventsourcing_Inc]                                                                  Eventsourcing, Inc.      mailto:accounts&eventsourcing.com                             2017-04-18
 [Evgeniy_Filatov]                                         Evgeniy Filatov                                     mailto:evgeniyfilatov&yandex.ru                               2009-11-25
 [Ewan_McNab]                                              Ewan McNab                                          mailto:ewan&qsc.co.uk                                         2004-11
 [ExoMachina]                                                                         ExoMachina               mailto:hello&exomachina.com                                   2011-12-06
@@ -21052,7 +21075,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kaz_Ozawa]                                               Kaz Ozawa                                           mailto:k.ozawa&cablelabs.com
 [Kazuhiro_Koide]                                          Kazuhiro Koide                                      mailto:kaz&pfu.co.jp
 [Kazuhito_Gassho]                                         Kazuhito Gassho                                     mailto:Gassho.Kasuhito&exc.epson.co.jp
-[Kazuo_Moritomo]                                          Kazuo Moritomo             Canon Inc                mailto:moritomo.kazuo&canon.co.jp                             2013-03-28
+[Kazuo_Moritomo]                                          Kazuo Moritomo             Canon Inc                mailto:moritomo.kazuo&canon.co.jp                             2017-04-17
 [Kazuya_Ogata]                                            Kazuya Ogata                                        mailto:info&sepv.jp
 [Kedar_Mhaswade]                                          Kedar Mhaswade                                      mailto:kedar.Mhaswade&sun.com                                 2004-11
 [Keiji_Michine]                                           Keiji Michine                                       mailto:michine&net.paso.fujitsu.co.jp
@@ -21839,7 +21862,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Mikhail_Belov]                                           Mikhail Belov                                       mailto:mikhail&imrgold.com                                    2002-02
 [Mikhail_Fedotov]                                         Mikhail Fedotov                                     mailto:anyremote&mail.ru                                      2014-12-10
 [Mikhail_Kruk]                                            Mikhail Kruk                                        mailto:mkruk&biscom.com
-[Mikael_Voss]                                             Mikael Voss                                         mailto:mvs&nyantec.com                                        2016-09-13
+[Mikael_Voss]                                             Mikael Voss                                         mailto:mvs&nyantec.com                                        2017-04-18
 [Milton_E_Sagen]                                          Milton E. Sagen                                     mailto:msagen&extensis.com
 [Milton_Pulis]                                            Milton Pulis                                        mailto:toothpic&fastq.com
 [Milton_Sagen]                                            Milton Sagen                                        mailto:msagen&extensis.com
@@ -22015,8 +22038,10 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Nuance_Communications_Inc]                                                          Nuance Communications,   mailto:Mark.Jackson&nuance.com                                2011-10-27
                                                                                      Inc.
 [Nuance_Communications_Inc2]                                                         Nuance Communications    mailto:NOD_SolutionsArchitecture&nuance.com                   2012-10-05
+[Nuance_Communications_Inc3]                                                         Nuance Communications,   mailto:Andrew.Andrews&Nuance.com                              2017-04-20
+                                                                                     Inc.
 [NVM_Express_Workgroup]                                   NVM Express Workgroup                               mailto:membership&nvmexpress.org                              2016-03-31
-[nyantec]                                                                            nyantec                  mailto:info&nyantec.com                                       2016-09-13
+[nyantec]                                                                            nyantec                  mailto:info&nyantec.com                                       2017-04-18
 [Oak_Labs_Inc.]                                                                      Oak Labs, Inc.           mailto:ops&oaklabs.is                                         2017-02-09
 [OASIS]                                                                              OASIS                    mailto:robin&oasis-open.org                                   2015-02-10
 [OASIS_KMIP_Technical_Committee]                                                     OASIS KMIP Technical     mailto:robin&oasis-open.org                                   2011-07-25
@@ -23783,6 +23808,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Yuri_Machkasov]                                          Yuri Machkasov                                      mailto:yuri&ptc.com
 [Yuri_Machkasov_2]                                        Yuri Machkasov                                      mailto:ymachkasov&servigistics.com                            2006-08
 [Yuri_Myakotin]                                           Yuri Myakotin                                       mailto:yuri&ym-com.net                                        2014-01-07
+[Yurii_Rashkovskii]                                       Yurii Rashkovskii                                   mailto:yrashk&eventsourcing.com                               2017-04-18
 [Yusuke_Asai]                                             Yusuke Asai                                         mailto:yasai&nw1.file.fc.nec.co.jp
 [Yutaka_Ono]                                              Yutaka Ono                                          mailto:ono&saint.nm.fujitsu.co.jp
 [Yuval_Boger]                                             Yuval Boger                Sensics                  mailto:vrpn&sensics.com                                       2015-05-04
