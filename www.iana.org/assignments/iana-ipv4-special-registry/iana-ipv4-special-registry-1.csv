@@ -9,7 +9,7 @@ Address Block,Name,RFC,Allocation Date,Termination Date,Source,Destination,Forwa
 192.0.0.0/29,IPv4 Service Continuity Prefix,[RFC7335],2011-06,N/A,True,True,True,False,False
 192.0.0.8/32,IPv4 dummy address,[RFC7600],2015-03,N/A,True,False,False,False,False
 192.0.0.9/32,Port Control Protocol Anycast,[RFC7723],2015-10,N/A,True,True,True,True,False
-192.0.0.10/32,Traversal Using Relays around NAT Anycast,[RFC-ietf-tram-turn-server-discovery-12],2017-02,N/A,True,True,True,True,False
+192.0.0.10/32,Traversal Using Relays around NAT Anycast,[RFC8155],2017-02,N/A,True,True,True,True,False
 "192.0.0.170/32, 192.0.0.171/32",NAT64/DNS64 Discovery,"[RFC7050], section 2.2",2013-02,N/A,False,False,False,False,True
 192.0.2.0/24,Documentation (TEST-NET-1),[RFC5737],2010-01,N/A,False,False,False,False,False
 192.31.196.0/24,AS112-v4,[RFC7535],2014-12,N/A,True,True,True,True,False
