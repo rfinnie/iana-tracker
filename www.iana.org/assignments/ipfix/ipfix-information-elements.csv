@@ -3347,14 +3347,14 @@ this Observation Point.",frames,,,[ipfix-iana_at_cisco.com],0,2014-05-02
 433,ignoredLayer2FrameTotalCount,unsigned64,totalCounter,current,"The total number of observed layer 2 frames that the Metering Process 
 did not process since the (re-)initialization of the Metering Process.
 This Information Element is the layer 2 version of ignoredPacketTotalCount (ElementId #164).",frames,,,[ipfix-iana_at_cisco.com],0,2014-06-27
-434,mibObjectValueInteger,signed32,identifier,current,"An IPFIX Information Element that denotes that the
+434,mibObjectValueInteger,signed32,quantity,current,"An IPFIX Information Element that denotes that the
 integer value of a MIB object will be exported.  The MIB Object
 Identifier (""mibObjectIdentifier"") for this field MUST be exported
 in a MIB Field Option or via another means.  This Information
 Element is used for MIB objects with the Base syntax of Integer32
 and INTEGER with IPFIX reduced-size encoding used as required.
 The value is encoded as per the standard IPFIX Abstract Data Type
-of signed32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
+of signed32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],1,2017-04-30
 435,mibObjectValueOctetString,octetArray,default,current,"An IPFIX Information Element that denotes that an
 Octet String or Opaque value of a MIB object will be exported.
 The MIB Object Identifier (""mibObjectIdentifier"") for this field
@@ -3406,30 +3406,30 @@ The value is encoded as per the standard IPFIX Abstract Data Type
 of unsigned32.  This value represents a non-negative integer that
 may increase or decrease but that shall never exceed a maximum
 value or fall below a minimum value.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
-441,mibObjectValueTimeTicks,unsigned32,default,current,"An IPFIX Information Element that denotes that the
+441,mibObjectValueTimeTicks,unsigned32,quantity,current,"An IPFIX Information Element that denotes that the
 TimeTicks value of a MIB object will be exported.  The MIB Object
 Identifier (""mibObjectIdentifier"") for this field MUST be exported
 in a MIB Field Option or via another means.  This Information
 Element is used for MIB objects with the Base syntax of TimeTicks.
 The value is encoded as per the standard IPFIX Abstract Data Type
-of unsigned32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
-442,mibObjectValueUnsigned,unsigned32,identifier,current,"An IPFIX Information Element that denotes that an
+of unsigned32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],1,2017-04-30
+442,mibObjectValueUnsigned,unsigned32,quantity,current,"An IPFIX Information Element that denotes that an
 unsigned integer value of a MIB object will be exported.  The MIB
 Object Identifier (""mibObjectIdentifier"") for this field MUST be
 exported in a MIB Field Option or via another means.  This
 Information Element is used for MIB objects with the Base syntax
 of unsigned32 with IPFIX reduced-size encoding used as required.
 The value is encoded as per the standard IPFIX Abstract Data Type
-of unsigned32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
+of unsigned32.",,,,[RFC-ietf-ipfix-mib-variable-export-10],1,2017-04-30
 443,mibObjectValueTable,subTemplateList,list,current,"An IPFIX Information Element that denotes that a
 complete or partial conceptual table will be exported.  The MIB
 Object Identifier (""mibObjectIdentifier"") for this field MUST be
 exported in a MIB Field Option or via another means.  This
 Information Element is used for MIB objects with a syntax of
-SEQUENCE.  This is encoded as a subTemplateList of mibObjectValue
+SEQUENCE OF.  This is encoded as a subTemplateList of mibObjectValue
 Information Elements.  The Template specified in the
 subTemplateList MUST be an Options Template and MUST include all
-the objects listed in the INDEX clause as Scope Fields.",,,,[RFC-ietf-ipfix-mib-variable-export-10],0,2015-12-13
+the objects listed in the INDEX clause as Scope Fields.",,,,[RFC-ietf-ipfix-mib-variable-export-10],1,2017-04-30
 444,mibObjectValueRow,subTemplateList,list,current,"An IPFIX Information Element that denotes that a
 single row of a conceptual table will be exported.  The MIB Object
 Identifier (""mibObjectIdentifier"") for this field MUST be exported
