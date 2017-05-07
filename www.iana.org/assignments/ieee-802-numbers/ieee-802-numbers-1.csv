@@ -218,11 +218,10 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 36866,9002,-,-,3Com(Bridge) TCP-IP Sys,[Neil_Sembower]
 36867,9003,-,-,3Com(Bridge) loop detect,[Neil_Sembower]
 41197,A0ED,-,-,LoWPAN encapsulation,[RFC7973]
-47082,B7EA,-,-,"The Ethertype will be used to identify a 
-        ""Channel"" in which control messages are encapsulated as 
-        payload of GRE packets. When a GRE packet tagged with the 
-        EtherType is received, the payload will be handed to the 
-        network processor for processing.",[RFC-zhang-gre-tunnel-bonding-05]
+47082,B7EA,-,-,"The Ethertype will be used to identify a ""Channel"" 
+        in which control messages are encapsulated as payload of GRE packets. 
+        When a GRE packet tagged with the Ethertype is received, the payload 
+        will be handed to the network processor for processing.",[RFC-zhang-gre-tunnel-bonding-05]
 65280,FF00,-,-,BBN VITAL-LanBridge cache,[Neil_Sembower]
 ,FF00-FF0F,,,ISC Bunker Ramo,[Neil_Sembower]
 65535,FFFF,-,-,Reserved,[RFC1701]
