@@ -221,7 +221,7 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 47082,B7EA,-,-,"The Ethertype will be used to identify a ""Channel"" 
         in which control messages are encapsulated as payload of GRE packets. 
         When a GRE packet tagged with the Ethertype is received, the payload 
-        will be handed to the network processor for processing.",[RFC-zhang-gre-tunnel-bonding-05]
+        will be handed to the network processor for processing.",[RFC8157]
 65280,FF00,-,-,BBN VITAL-LanBridge cache,[Neil_Sembower]
 ,FF00-FF0F,,,ISC Bunker Ramo,[Neil_Sembower]
 65535,FFFF,-,-,Reserved,[RFC1701]
