@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ipfix">
 <title>IP Flow Information Export (IPFIX) Entities</title>
 <created>2007-05-10</created>
-<updated>2017-04-19</updated>
+<updated>2017-05-05</updated>
 
 <note><xref type="rfc" data="rfc7012"/> has obsoleted <xref type="rfc" data="rfc5102"/>. However, references to <xref type="rfc" data="rfc5102"/>
 remain as part of the historical record.</note>
@@ -10493,7 +10493,7 @@ This Information Element is the layer 2 version of ignoredPacketTotalCount (Elem
 <record date="2015-12-13">
 <name>mibObjectValueInteger</name>
 <dataType>signed32</dataType>
-<dataTypeSemantics>identifier</dataTypeSemantics>
+<dataTypeSemantics>quantity</dataTypeSemantics>
 <elementId>434</elementId>
 <status>current</status>
 <description>
@@ -10509,9 +10509,9 @@ of signed32.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
-<revision>0</revision>
-<date>2015-12-13</date>
+<xref type="rfc" data="rfc8038"/>
+<revision>1</revision>
+<date>2017-04-30</date>
 </record>
 
 <record date="2015-12-13">
@@ -10532,7 +10532,7 @@ standard IPFIX Abstract Data Type of octetArray.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10558,7 +10558,7 @@ encoded as ASN.1/BER [X.690] in an octetArray.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10584,7 +10584,7 @@ at the end of the octetArray MUST be set to 0.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10607,7 +10607,7 @@ Abstract Data Type of ipv4Address.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10631,7 +10631,7 @@ of unsigned64.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10656,7 +10656,7 @@ value or fall below a minimum value.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10664,7 +10664,7 @@ value or fall below a minimum value.
 <record date="2015-12-13">
 <name>mibObjectValueTimeTicks</name>
 <dataType>unsigned32</dataType>
-<dataTypeSemantics>default</dataTypeSemantics>
+<dataTypeSemantics>quantity</dataTypeSemantics>
 <elementId>441</elementId>
 <status>current</status>
 <description>
@@ -10679,15 +10679,15 @@ of unsigned32.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
-<revision>0</revision>
-<date>2015-12-13</date>
+<xref type="rfc" data="rfc8038"/>
+<revision>1</revision>
+<date>2017-04-30</date>
 </record>
 
 <record date="2015-12-13">
 <name>mibObjectValueUnsigned</name>
 <dataType>unsigned32</dataType>
-<dataTypeSemantics>identifier</dataTypeSemantics>
+  <dataTypeSemantics>quantity</dataTypeSemantics>
 <elementId>442</elementId>
 <status>current</status>
 <description>
@@ -10703,9 +10703,9 @@ of unsigned32.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
-<revision>0</revision>
-<date>2015-12-13</date>
+<xref type="rfc" data="rfc8038"/>
+<revision>1</revision>
+<date>2017-04-30</date>
 </record>
 
 <record date="2015-12-13">
@@ -10721,16 +10721,16 @@ complete or partial conceptual table will be exported.  The MIB
 Object Identifier ("mibObjectIdentifier") for this field MUST be
 exported in a MIB Field Option or via another means.  This
 Information Element is used for MIB objects with a syntax of
-SEQUENCE.  This is encoded as a subTemplateList of mibObjectValue
+SEQUENCE OF.  This is encoded as a subTemplateList of mibObjectValue
 Information Elements.  The Template specified in the
 subTemplateList MUST be an Options Template and MUST include all
 the objects listed in the INDEX clause as Scope Fields.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
-<revision>0</revision>
-<date>2015-12-13</date>
+<xref type="rfc" data="rfc8038"/>
+<revision>1</revision>
+<date>2017-04-30</date>
 </record>
 
 <record date="2015-12-13">
@@ -10755,7 +10755,7 @@ Fields.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10776,7 +10776,7 @@ encoded as ASN.1/BER [X.690].
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10793,7 +10793,7 @@ A non-negative sub-identifier of an Object Identifier (OID).
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10828,7 +10828,7 @@ IPFIX reduced-size encoding.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10885,7 +10885,7 @@ Flow
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10904,7 +10904,7 @@ ID for a MIB field being exported over IPFIX.  Definition as per
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10923,7 +10923,7 @@ IPFIX.  Reference <xref type="rfc" data="rfc3411"/>, Section 3.3.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10941,7 +10941,7 @@ of an object type definition.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10959,7 +10959,7 @@ type definition.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10978,7 +10978,7 @@ See <xref type="rfc" data="rfc2578"/>.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -10996,7 +10996,7 @@ object.
 </paragraph>
 </description>
 <units/>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 <revision>0</revision>
 <date>2015-12-13</date>
 </record>
@@ -12242,13 +12242,13 @@ hashSelectedRangeMax, hashOutputRangeMin, hashOutputRangeMax</parameters>
 <record date="2015-12-13">
 <value>7</value>
 <description>snmpCounter</description>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 </record>
 
 <record date="2015-12-13">
 <value>8</value>
 <description>snmpGauge</description>
-<xref type="draft" data="RFC-ietf-ipfix-mib-variable-export-10"/>
+<xref type="rfc" data="rfc8038"/>
 </record>
 
 <record>
