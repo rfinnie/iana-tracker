@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-05-08
+           2017-05-12
 
    Expert(s)
 
@@ -9953,9 +9953,9 @@ batman             4305        udp    better approach to mobile    [Simon_Wunder
                                       ad-hoc networking
 pinghgl            4306        tcp    Hellgate London              [David_Berk]                                          [David_Berk]                                              2007-08-30
 pinghgl            4306        udp    Hellgate London              [David_Berk]                                          [David_Berk]                                              2007-08-30
-visicron-vs        4307        tcp    Visicron Videoconference     [Alexey_Vlaskin]                                      [Alexey_Vlaskin]                                          2007-10-22
+trueconf           4307        tcp    TrueConf Videoconference     [Dmitry_Odintsov]                                     [Lev_Yakupov]                                             2007-10-22   2017-05-12
                                       Service
-visicron-vs        4307        udp    Visicron Videoconference     [Alexey_Vlaskin]                                      [Alexey_Vlaskin]                                          2007-10-22
+trueconf           4307        udp    TrueConf Videoconference     [Dmitry_Odintsov]                                     [Lev_Yakupov]                                             2007-10-22   2017-05-12
                                       Service
 compx-lockview     4308        tcp    CompX-LockView               [John_Payson]                                         [John_Payson]                                             2007-10-22
 compx-lockview     4308        udp    CompX-LockView               [John_Payson]                                         [John_Payson]                                             2007-10-22
@@ -14818,11 +14818,15 @@ odnsp              9966        udp    OKI Data Network Setting     [Masato_Sato]
                  9967-9977            Unassigned
 xybrid-rt          9978        tcp    XYBRID RT Server             [Rx_Networks_Inc]                                     [Drew_Davies]                                             2013-01-24
                    9978        udp    Reserved
-                 9979-9986            Unassigned
+visweather         9979        tcp    Valley Information Systems   [Valley_Information_Systems_Inc]                      [Michael_Walsh_2]                                         2017-05-12
+                                      Weather station data
+                   9979        udp    Reserved
+                   9980               Unassigned
                                       Event sourcing database
 pumpkindb          9981        tcp    engine with a built-in       [Eventsourcing_Inc]                                   [Yurii_Rashkovskii]                                       2017-04-18
                                       programming language
                    9981        udp    Reserved
+                 9982-9986            Unassigned
 dsm-scm-target     9987        tcp    DSM/SCM Target Interface     [Mike_Dyslin]                                         [Mike_Dyslin]                                             2006-08
 dsm-scm-target     9987        udp    DSM/SCM Target Interface     [Mike_Dyslin]                                         [Mike_Dyslin]                                             2006-08
 nsesrvr            9988        tcp    Software Essentials Secure   [Narayanan_Raju]                                      [Narayanan_Raju]                                          2009-02-05
@@ -16524,7 +16528,7 @@ safetynetp         40000       tcp    SafetyNET p                  [Roland_Rupp]
 safetynetp         40000       udp    SafetyNET p                  [Roland_Rupp]                                         [Roland_Rupp]                                             2006-11
                 40001-40022           Unassigned
                    40023       tcp    Reserved
-k-patentssensor    40023       udp    K-PatentsSensorInformation   [K-Patents_Oy]                                        [Arttu_Leinonen]                                          2015-12-02
+k-patentssensor    40023       udp    K-PatentsSensorInformation   [K-Patents_Oy]                                        [Saku_Lahteenmaki]                                        2015-12-02   2017-05-12
                 40024-40403           Unassigned
 sptx               40404       tcp    Simplify Printing TX         [Tricerat]                                            [Eric_Musgrave]                                           2013-12-09
                    40404       udp    Reserved
@@ -19768,6 +19772,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dmitry_Isakbayev]                                        Dmitry Isakbayev                                    mailto:dmitry&transnexus.com                                  2010-03-05
 [Dmitry_Krasnonosenki]                                    Dmitry Krasnonosenkikh                              mailto:Dmitry_Krasnonosenkih&nmss.com
 [Dmitry_Obuvalin]                                         Dmitry Obuvalin                                     mailto:pulse.cc&mail.ru                                       2006-02
+[Dmitry_Odintsov]                                         Dmitry Odintsov                                     mailto:dimodin&trueconf.com                                   2017-05-12
 [DOCKER]                                                                             DOCKER                   mailto:iana&cdl.asgaard.org                                   2014-04-17
 [Docker_Inc]                                                                         Docker, Inc.             mailto:info&docker.com                                        2016-12-23
 [Dolores_Scott]                                           Dolores Scott                                       mailto:Dolores.Scott&l-3security.com
@@ -21327,6 +21332,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                      ZigBee Alliance's
 [Leslie_Mulder]                                           Leslie Mulder              Network Device working   mailto:ljm&exegin.com                                         2013-05-28
                                                                                      group
+[Lev_Yakupov]                                             Lev Yakupov                                         mailto:lyakupov&trueconf.com                                  2017-05-12
 [Lewis_Donzis]                                            Lewis Donzis                                        mailto:ldonzis&nortelnetworks.com
 [Lewis_Wolfgang]                                          Lewis Wolfgang                                      mailto:wolfgang&kencast.com                                   2006-05
 [Liam_Merwick]                                            Liam Merwick                                        mailto:ldoms-iana-ports&sun.com                               2009-01-16
@@ -21776,6 +21782,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michael_Toth]                                            Michael Toth                                        mailto:iana&spiralcraft.com                                   2002-03
 [Michael_Ubell]                                           Michael Ubell                                       mailto:michael&montage.com
 [Michael_Walsh]                                           Michael Walsh                                       mailto:mww&warwick.net
+[Michael_Walsh_2]                                         Michael Walsh                                       mailto:michael.walsh&valleyinfosys.com                        2017-05-12
 [Michael_Werski]                                          Michael Werski                                      mailto:michael.werski&azeti.net                               2010-02-18
 [Michael_Whiteley]                                        Michael Whiteley                                    mailto:michael&whiteley.com                                   2003-04
 [Michael_Wiklund]                                         Michael Wiklund            Mictron                  mailto:iana&wiklunden.se                                      2013-10-17
@@ -22854,6 +22861,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sagara_Wijetunga]                                        Sagara Wijetunga           Tomahawk Holdings Ltd    mailto:sagara&tomahawk.lk                                     2013-05-01
 [Sage_Weil]                                               Sage Weil                                           mailto:sage&newdream.net                                      2015-06-29
 [Sailalong_Software]                                      Sailalong Software                                  mailto:CustomerService&sailalong.com
+[Saku_Lahteenmaki]                                        Saku Lähteenmäki                                  mailto:saku.lahteenmaki&kpatents.com                          2017-05-12
 [Salvo_Nassisi]                                           Salvo Nassisi                                       mailto:sdtech&tin.it
 [Sam_Borman]                                              Sam Borman                                          mailto:sam_borman&uk.ibm.com
 [Sam_Bretheim]                                            Sam Bretheim                                        mailto:info&opensigint.org                                    2009-01-08
@@ -23610,6 +23618,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Valassis]                                                                           Valassis                 mailto:eckertj&valassis.com                                   2015-05-05
 [Valentino_Giudice]                                                                                           mailto:valentino.giudice&vallauri.edu                         2015-08-18
 [Valery_Fremaux]                                          Valery Fremaux                                      mailto:vf&eisti.fr
+[Valley_Information_Systems_Inc]                                                     Valley Information       mailto:info@valleyinfosys.com>                                2017-05-12
+                                                                                     Systems, Inc.
 [Van_Doren_MES]                                                                      Van Doren MES            mailto:mes&vandoren.nl                                        2016-10-31
 [Van_Jacobson]                                            Van Jacobson                                        mailto:van&ee.lbl.gov
 [Van_Jacobson_2]                                          Van Jacobson                                        mailto:van&parc.com                                           2009-09-29
