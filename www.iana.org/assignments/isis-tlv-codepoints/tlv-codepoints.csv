@@ -84,8 +84,8 @@ Network Service (ISO 8473)"", International Standard 10589:
 146,Unassigned,,,,,
 147,MAC-RI TLV,n,y,n,n,[RFC6165]
 148,BFD-Enabled TLV,y,n,n,n,[RFC6213]
-149,"Segment Identifier / Label Binding (TEMPORARY - registered 2016-06-29, expires 2017-06-29)",n,y,n,n,[draft-ietf-isis-segment-routing-extensions]
-150,"Multi-Topology Segment Identifier / Label Binding (TEMPORARY - registered 2016-06-29, expires 2017-06-29)",n,y,n,n,[draft-ietf-isis-segment-routing-extensions]
+149,"Segment Identifier / Label Binding (TEMPORARY - registered 2016-06-29, extension registered 2017-05-12, expires 2018-06-29)",n,y,n,n,[draft-ietf-isis-segment-routing-extensions]
+150,"Multi-Topology Segment Identifier / Label Binding (TEMPORARY - registered 2016-06-29, extension registered 2017-05-12, expires 2018-06-29)",n,y,n,n,[draft-ietf-isis-segment-routing-extensions]
 151-175,Unassigned,,,,,
 176,Nortel Proprietary,n,y,n,n,
 177,Nortel Proprietary,n,y,n,n,
