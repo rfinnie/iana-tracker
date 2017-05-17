@@ -99,3 +99,8 @@ ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
         MESSAGE request.",[3GPP TS 24.341 v12.6.0][Frederic_Firmin]
 26,g.3gpp.nw-init-ussi,"This feature-tag indicates support of user equipment 
         procedures for the network initiated USSD over IMS.",[3GPP TS 24.390 v12.6.0][Frederic_Firmin]
+27,g.3gpp.registration-token,"This media feature tag, when included in a third party SIP REGISTER request, 
+        indicates the support of using a token to identify the registration used for the request. 
+        The mediafeature tag is assigned a value that can be used by the receiving AS to later 
+        identify the used registration for initial requests from an originating user or dialog 
+        forming responses from a terminating user.",[3GPP TS 24.229 v12.16.0][Frederic_Firmin]
