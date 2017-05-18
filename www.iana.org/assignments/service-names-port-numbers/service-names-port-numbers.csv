@@ -100,8 +100,8 @@ mpm,45,tcp,Message Processing Module [recv],,,,,,,,
 mpm,45,udp,Message Processing Module [recv],,,,,,,,
 mpm-snd,46,tcp,MPM [default send],[Jon_Postel],[Jon_Postel],,,,,,
 mpm-snd,46,udp,MPM [default send],[Jon_Postel],[Jon_Postel],,,,,,
-ni-ftp,47,tcp,NI FTP,[Steve_Kille],[Steve_Kille],,,,,,
-ni-ftp,47,udp,NI FTP,[Steve_Kille],[Steve_Kille],,,,,,
+,47,tcp,Reserved,,,,2017-05-18,,,,This entry has been removed on 2017-05-18.
+,47,udp,Reserved,,,,2017-05-18,,,,This entry has been removed on 2017-05-18.
 auditd,48,tcp,Digital Audit Daemon,[Larry_Scott],[Larry_Scott],,,,,,
 auditd,48,udp,Digital Audit Daemon,[Larry_Scott],[Larry_Scott],,,,,,
 tacacs,49,tcp,Login Host Protocol (TACACS),[Pieter_Ditmars],[Pieter_Ditmars],,,,,,
@@ -127,8 +127,8 @@ xns-mail,58,udp,XNS Mail,[Susie_Armstrong],[Susie_Armstrong],,,,,,
 ,59,udp,any private file service,[Jon_Postel],[Jon_Postel],,,,,,
 ,60,tcp,Unassigned,,,,,,,,
 ,60,udp,Unassigned,,,,,,,,
-ni-mail,61,tcp,NI MAIL,[Steve_Kille],[Steve_Kille],,,,,,
-ni-mail,61,udp,NI MAIL,[Steve_Kille],[Steve_Kille],,,,,,
+,61,tcp,Reserved,,,,2017-05-18,,,,This entry has been removed on 2017-05-18.
+,61,udp,Reserved,,,,2017-05-18,,,,This entry has been removed on 2017-05-18.
 acas,62,tcp,ACA Services,[E_Wald],[E_Wald],,,,,,
 acas,62,udp,ACA Services,[E_Wald],[E_Wald],,,,,,
 whoispp,63,tcp,"whois++
@@ -13572,7 +13572,15 @@ fairview,38202,tcp,Fairview Message Service,[Jim_Lyle],[Jim_Lyle],2005-11,,,,,"D
 fairview,38202,udp,Fairview Message Service,[Jim_Lyle],[Jim_Lyle],2005-11,,,,,"Defined TXT keys: DevID=<device id>, DevType=<device type>, DevStat=<device status>"
 agpolicy,38203,tcp,AppGate Policy Server,[Martin_Forssen],[Martin_Forssen],2004-11,,,,,
 agpolicy,38203,udp,AppGate Policy Server,[Martin_Forssen],[Martin_Forssen],2004-11,,,,,
-,38204-38799,,Unassigned,,,,,,,,
+,38204-38411,,Unassigned,,,,,,,,
+,38412,tcp,Reserved,,,,,,,,
+,38412,udp,Reserved,,,,,,,,
+ng-control,38412,sctp,3GPP NG application Protocol,[Luis_Lopes],[Luis_Lopes],2017-05-18,,,,,
+,38413-38421,,Unassigned,,,,,,,,
+,38422,tcp,Reserved,,,,,,,,
+,38422,udp,Reserved,,,,,,,,
+xn-control,38422,sctp,3GPP Xn application Protocol,[Luis_Lopes],[Luis_Lopes],2017-05-18,,,,,
+,38423-38799,,Unassigned,,,,,,,,
 sruth,38800,tcp,"Sruth is a service for the distribution of routinely-
       generated but arbitrary files based on a publish/subscribe
       distribution model and implemented using a peer-to-peer transport
@@ -14413,6 +14421,10 @@ nextcap,,tcp,Proprietary communication protocol for NextCap capture solution,[Ne
 nextcap,,udp,Proprietary communication protocol for NextCap capture solution,[NextDay_Aps],[Claus_Broch],2012-04-24,,,,,Defined TXT keys: Proprietary
 ngr-keydist,,tcp,NGR Key Distribution,[nyantec],[Mikael_Voss],2017-04-18,,,,,Defined TXT keys: None
 ni,,tcp,National Instruments Network Device,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo, Status, ImgPath, Comment"
+ni-ftp,,tcp,NI FTP,[Steve_Kille],[Steve_Kille],2017-05-18,,,,,Defined TXT keys: None
+ni-ftp,,udp,NI FTP,[Steve_Kille],[Steve_Kille],2017-05-18,,,,,Defined TXT keys: None
+ni-mail,,tcp,NI MAIL,[Steve_Kille],[Steve_Kille],2017-05-18,,,,,Defined TXT keys: None
+ni-mail,,udp,NI MAIL,[Steve_Kille],[Steve_Kille],2017-05-18,,,,,Defined TXT keys: None
 ni-rt,,tcp,National Instruments Real-Time Target,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, OS, OSVer, ProcArch"
 ni-sysapi,,tcp,National Instruments System API Service,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, Experts, Version"
 nodel,,tcp,Lightweight event based control protocol utilising JavaScript Object Notation,[Lumicom],[Michael_Cartmel],2013-02-07,,,,,Defined TXT keys: None
