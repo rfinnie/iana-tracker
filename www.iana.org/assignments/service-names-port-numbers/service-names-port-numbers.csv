@@ -13575,11 +13575,11 @@ agpolicy,38203,udp,AppGate Policy Server,[Martin_Forssen],[Martin_Forssen],2004-
 ,38204-38411,,Unassigned,,,,,,,,
 ,38412,tcp,Reserved,,,,,,,,
 ,38412,udp,Reserved,,,,,,,,
-ng-control,38412,sctp,3GPP NG application Protocol,[Luis_Lopes],[Luis_Lopes],2017-05-18,,,,,
+ng-control,38412,sctp,NG Control Plane (3GPP),[Luis_Lopes],[Luis_Lopes],2017-05-18,2017-05-19,,,,
 ,38413-38421,,Unassigned,,,,,,,,
 ,38422,tcp,Reserved,,,,,,,,
 ,38422,udp,Reserved,,,,,,,,
-xn-control,38422,sctp,3GPP Xn application Protocol,[Luis_Lopes],[Luis_Lopes],2017-05-18,,,,,
+xn-control,38422,sctp,Xn Control Plane (3GPP),[Luis_Lopes],[Luis_Lopes],2017-05-18,2017-05-19,,,,
 ,38423-38799,,Unassigned,,,,,,,,
 sruth,38800,tcp,"Sruth is a service for the distribution of routinely-
       generated but arbitrary files based on a publish/subscribe
@@ -14036,6 +14036,8 @@ com-ocs-es-mcc,,,ElectraStar media centre control protocol,[OC],[OC],,,,,,Define
 contactserver,,,Now Contact,,,,,,,,Defined TXT keys: None
 coolanetaudio,,tcp,Coolatoola Network Audio,[Coolatoola.com],[Tim_Hewett],2014-01-03,,,,,Defined TXT keys: None
 corroboree,,,Corroboree Server,[Heath_Raftery],[Heath_Raftery],,,,,,Defined TXT keys: None
+coviot,,tcp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
+coviot,,udp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
 cpnotebook2,,,NoteBook 2,[Circus_Ponies_Suppor],[Circus_Ponies_Suppor],,,,,,Defined TXT keys: None
 csi-mmws,,tcp,Canfield Scientific Inc - Mirror Mobile Web Services,[Canfield_Scientific_Inc],[James_Crismale],2013-07-02,,,,,Defined TXT keys:  path
 cw-codetap,,,CodeWarrior HTI Xscale PowerTAP,[Ted_Woodward],[Ted_Woodward],,,,,,Defined TXT keys: None
@@ -14444,6 +14446,7 @@ oca,,tcp,"Insecure OCP.1 protocol, which is the insecure TCP/IP implementation o
 oca,,udp,"Insecure OCP.1 protocol, which is the insecure TCP/IP implementation of the Object Control Architecture",[OCA_Alliance],[Stephan_van_Tienen],2012-10-11,,,,,Defined TXT keys: txtvers=1 protovers=x
 ocasec,,tcp,"Secure OCP.1 protocol, which is the secure TCP/IP implementation of the Object Control Architecture",[OCA_Alliance],[Stephan_van_Tienen],2012-10-11,,,,,Defined TXT keys: txtvers=1 protovers=x
 ocasec,,udp,"Secure OCP.1 protocol, which is the secure TCP/IP implementation of the Object Control Architecture",[OCA_Alliance],[Stephan_van_Tienen],2012-10-11,,,,,Defined TXT keys: txtvers=1 protovers=x
+ocaws,,tcp,Insecure OCP.1 hosted on a WebSocket,[OCA_Alliance],[Stephan_van_Tienen],2017-05-19,,,,,Defined TXT keys: txtvers protovers path
 oce,,,Oce Common Exchange Protocol,[Dion_Slijp],[Dion_Slijp],,,,,,"Defined TXT keys: type, version"
 od-master,,,OpenDirectory Master,[Jason_Thorpe],[Jason_Thorpe],,,,,,Defined TXT keys: None
 odabsharing,,,OD4Contact,[Objective_Decision],[Objective_Decision],,,,,,Defined TXT keys: None

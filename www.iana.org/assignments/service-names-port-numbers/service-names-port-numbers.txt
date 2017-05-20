@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-05-18
+           2017-05-19
 
    Expert(s)
 
@@ -16507,11 +16507,11 @@ agpolicy           38203       udp    AppGate Policy Server        [Martin_Forss
                 38204-38411           Unassigned
                    38412       tcp    Reserved
                    38412       udp    Reserved
-ng-control         38412      sctp    3GPP NG application Protocol [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18
+ng-control         38412      sctp    NG Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18   2017-05-19
                 38413-38421           Unassigned
                    38422       tcp    Reserved
                    38422       udp    Reserved
-xn-control         38422      sctp    3GPP Xn application Protocol [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18
+xn-control         38422      sctp    Xn Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18   2017-05-19
                 38423-38799           Unassigned
                                       Sruth is a service for the
                                       distribution of routinely-
@@ -17142,6 +17142,10 @@ com-ocs-es-mcc                        ElectraStar media centre     [OC]         
 contactserver                         Now Contact                                                                                                                                                                                                                                 Defined TXT keys: None
 coolanetaudio                  tcp    Coolatoola Network Audio     [Coolatoola.com]                                      [Tim_Hewett]                                              2014-01-03                                                                                     Defined TXT keys: None
 corroboree                            Corroboree Server            [Heath_Raftery]                                       [Heath_Raftery]                                                                                                                                          Defined TXT keys: None
+coviot                         tcp    Service for coviot branded   [Coviot]                                              [Adnan_Senyurt]                                           2017-05-19                                                                                     Defined TXT keys: FW_VERSION, PROTOCOL_VERSION,
+                                      devices                                                                                                                                                                                                                                     SERVICE_DESCRIPTION
+coviot                         udp    Service for coviot branded   [Coviot]                                              [Adnan_Senyurt]                                           2017-05-19                                                                                     Defined TXT keys: FW_VERSION, PROTOCOL_VERSION,
+                                      devices                                                                                                                                                                                                                                     SERVICE_DESCRIPTION
 cpnotebook2                           NoteBook 2                   [Circus_Ponies_Suppor]                                [Circus_Ponies_Suppor]                                                                                                                                   Defined TXT keys: None
 csi-mmws                       tcp    Canfield Scientific Inc -    [Canfield_Scientific_Inc]                             [James_Crismale]                                          2013-07-02                                                                                     Defined TXT keys: path
                                       Mirror Mobile Web Services
@@ -17776,6 +17780,8 @@ ocasec                         tcp    is the secure TCP/IP         [OCA_Alliance
 ocasec                         udp    is the secure TCP/IP         [OCA_Alliance]                                        [Stephan_van_Tienen]                                      2012-10-11                                                                                     Defined TXT keys: txtvers=1 protovers=x
                                       implementation of the Object
                                       Control Architecture
+ocaws                          tcp    Insecure OCP.1 hosted on a   [OCA_Alliance]                                        [Stephan_van_Tienen]                                      2017-05-19                                                                                     Defined TXT keys: txtvers protovers path
+                                      WebSocket
 oce                                   Oce Common Exchange Protocol [Dion_Slijp]                                          [Dion_Slijp]                                                                                                                                             Defined TXT keys: type, version
 od-master                             OpenDirectory Master         [Jason_Thorpe]                                        [Jason_Thorpe]                                                                                                                                           Defined TXT keys: None
 odabsharing                           OD4Contact                   [Objective_Decision]                                  [Objective_Decision]                                                                                                                                     Defined TXT keys: None
@@ -18468,6 +18474,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [AddressBookServer]                                                                  AddressBookServer.com    mailto:iana&addressbookserver.com                             2011-10-18
 [Adi_Ruppin]                                              Adi Ruppin                                          mailto:adi.ruppin&data-pod.com                                2005-08
 [Administrator]                                           Administrator                                       mailto:admin&ipcore.co.za                                     2005-12
+[Adnan_Senyurt]                                           Adnan Senyurt              Coviot                   mailto:adnansenyurt&coviot.com                                2017-05-19
 [Adobe_Systems]                                                                      Adobe Systems Inc.       mailto:mikeharr&adobe.com                                     2012-04-17
 [Adrian_Hornby]                                           Adrian Hornby                                       mailto:Adrian.Hornby&aran.co.uk
 [Adrian_Hungate]                                          Adrian Hungate                                      mailto:adrian&tlspu.com                                       2014-07-11
@@ -19390,6 +19397,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Corporate_Compliance_Officer]                            Corporate Compliance                                mailto:compliance&fullpower.com                               2016-08-17
                                                           Officer
 [Corpus_Collusion]                                                                   Corpus Collusion         mailto:developer&corpuscollusion.com                          2011-08-23
+[Coviot]                                                                             Coviot                   mailto:tubainci&coviot.com                                    2017-05-19
 [Craig_Calef]                                             Craig Calef                                         mailto:craig&katmango.com
 [Craig_Ching]                                             Craig Ching                                         mailto:cching&mqsoftware.com
 [Craig_Dowell]                                            Craig Dowell               Qualcomm Innovation      mailto:cdowell&quicinc.com                                    2011-12-21
@@ -22082,7 +22090,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Oblamatik_AG]                                                                       Oblamatik AG             mailto:info&oblamatik.ch                                      2012-09-05
 [Observium]                                                                          Observium                mailto:adama&observium.org                                    2013-05-10
 [OC]                                                                                 OC                       mailto:ocs&ocs.cz
-[OCA_Alliance]                                                                       OCA Alliance             mailto:tina.lipscomb&oca-alliance.com                         2012-10-11
+[OCA_Alliance]                                                                       OCA Alliance             mailto:tina.lipscomb&oca-alliance.com                         2017-05-19
 [Odo_Maletzki]                                            Odo Maletzki                                        mailto:Odo.Maletzki&ioag.de
 [ODVA_Inc]                                                                           ODVA, Inc.               mailto:babatke&ra.rockwell.com                                2015-05-28
 [Oishi_Toshiaki]                                          Oishi Toshiaki             SEIKO EPSON Corporation  mailto:Oishi.Toshiaki&exc.epson.co.jp                         2002-02
@@ -23159,7 +23167,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stephen_Reid]                                            Stephen Reid                                        mailto:sreid&ti.com
 [Stephen_Tsun]                                            Stephen Tsun                                        mailto:stsun&jetstream.com
 [Stephen_Tsun_2]                                          Stephen Tsun                                        mailto:stsun&calient.net                                      2002-02
-[Stephan_van_Tienen]                                      Stephan van Tienen         OCA Alliance             mailto:stephan.vantienen&bosch.com                            2012-10-11
+[Stephan_van_Tienen]                                      Stephan van Tienen         OCA Alliance             mailto:stephan.vantienen&bosch.com                            2017-05-19
 [Steve_Bannister]                                         Steve Bannister                                     mailto:sbannister&stratacache.com
 [Steve_Barton]                                            Steve Barton                                        mailto:steveb&pacom.com                                       2002-03
 [Steve_Barton_2]                                          Steve Barton               SPG Controls Ltd         mailto:steveb&spgcontrols.com                                 2017-03-27
@@ -23501,7 +23509,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tom_Hawkins]                                             Tom Hawkins                                         mailto:tom1&launchbird.com                                    2003-04
 [Tom_Hawkins_2]                                           Tom Hawkins                                         mailto:tomahawkins&gmail.com                                  2006-02
 [Tom_Hennessy]                                            Tom Hennessy                                        mailto:thenn&novadigm.com
-[Tom_Herbert]                                             Tom Herbert                                         mailto:therbert&google.com                                    2015-03-05
+[Tom_Herbert]                                             Tom Herbert                                         mailto:tom&herbertland.com                                    2017-05-19
 [Tom_Kee]                                                 Tom Kee                                             mailto:t.kee&f5.com
 [Tom_Lake]                                                Tom Lake                                            mailto:tlake&m-ware.com
 [Tom_Lane]                                                Tom Lane                                            mailto:tgl&sss.pgh.pa.us
