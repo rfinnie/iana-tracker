@@ -3,5 +3,8 @@ Value,Description,DTLS-OK,Reference
 1,rsa,Y,[RFC5246]
 2,dsa,Y,[RFC5246]
 3,ecdsa,Y,[RFC5246]
-4-223,Unassigned,,
+4-6,Unassigned,,
+7,ed25519,Y,[RFC-ietf-tls-rfc4492bis-17]
+8,ed448,Y,[RFC-ietf-tls-rfc4492bis-17]
+9-223,Unassigned,,
 224-255,Reserved for Private Use,,[RFC5246]
