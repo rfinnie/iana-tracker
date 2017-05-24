@@ -35,3 +35,5 @@ TLCP-2.0.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://w
 bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC-ietf-bfcpbis-bfcp-websocket-15],[RFC-ietf-bfcpbis-bfcp-websocket-15]
 sldp.softvelum.com,Softvelum Low Delay Protocol,"SLDP is a low latency live streaming protocol for delivering media from
         servers to MSE-based browsers and WebSocket-enabled applications.",[Yury_Udovichenko]
+opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
+opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]

@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-05-12
+           2017-05-23
 
    Expert(s)
 
@@ -169,8 +169,8 @@ mpm                 45         udp    Message Processing Module
                                       [recv]
 mpm-snd             46         tcp    MPM [default send]           [Jon_Postel]                                          [Jon_Postel]
 mpm-snd             46         udp    MPM [default send]           [Jon_Postel]                                          [Jon_Postel]
-ni-ftp              47         tcp    NI FTP                       [Steve_Kille]                                         [Steve_Kille]
-ni-ftp              47         udp    NI FTP                       [Steve_Kille]                                         [Steve_Kille]
+                    47         tcp    Reserved                                                                                                                                                  2017-05-18                                                                        This entry has been removed on 2017-05-18.
+                    47         udp    Reserved                                                                                                                                                  2017-05-18                                                                        This entry has been removed on 2017-05-18.
 auditd              48         tcp    Digital Audit Daemon         [Larry_Scott]                                         [Larry_Scott]
 auditd              48         udp    Digital Audit Daemon         [Larry_Scott]                                         [Larry_Scott]
 tacacs              49         tcp    Login Host Protocol (TACACS) [Pieter_Ditmars]                                      [Pieter_Ditmars]
@@ -198,8 +198,8 @@ xns-mail            58         udp    XNS Mail                     [Susie_Armstr
                     59         udp    any private file service     [Jon_Postel]                                          [Jon_Postel]
                     60         tcp    Unassigned
                     60         udp    Unassigned
-ni-mail             61         tcp    NI MAIL                      [Steve_Kille]                                         [Steve_Kille]
-ni-mail             61         udp    NI MAIL                      [Steve_Kille]                                         [Steve_Kille]
+                    61         tcp    Reserved                                                                                                                                                  2017-05-18                                                                        This entry has been removed on 2017-05-18.
+                    61         udp    Reserved                                                                                                                                                  2017-05-18                                                                        This entry has been removed on 2017-05-18.
 acas                62         tcp    ACA Services                 [E_Wald]                                              [E_Wald]
 acas                62         udp    ACA Services                 [E_Wald]                                              [E_Wald]
                                       whois++
@@ -10718,19 +10718,19 @@ varadero-1         4838        tcp    Varadero-1
 varadero-1         4838        udp    Varadero-1
 varadero-2         4839        tcp    Varadero-2                   [Carlos_Arteaga]                                      [Carlos_Arteaga]
 varadero-2         4839        udp    Varadero-2                   [Carlos_Arteaga]                                      [Carlos_Arteaga]
-opcua-tcp          4840        tcp    OPC UA TCP Protocol
-opcua-udp          4840        udp    OPC UA TCP Protocol          [Randy_Armstrong]                                     [Randy_Armstrong]                                         2006-09
+opcua-tcp          4840        tcp    OPC UA TCP Protocol          [OPC_Foundation]                                      [Randy_Armstrong]                                                      2017-05-23
+opcua-udp          4840        udp    OPC UA TCP Protocol          [OPC_Foundation]                                      [Randy_Armstrong]                                         2006-09      2017-05-23
 quosa              4841        tcp    QUOSA Virtual Library        [Uri_Blank]                                           [Uri_Blank]                                               2006-09
                                       Service
 quosa              4841        udp    QUOSA Virtual Library        [Uri_Blank]                                           [Uri_Blank]                                               2006-09
                                       Service
 gw-asv             4842        tcp    nCode ICE-flow Library       [Ross_Swithenbank]                                    [Ross_Swithenbank]                                        2006-09
                                       AppServer
-gw-asv             4842        udp    nCode ICE-flow Library       [Ross_Swithenbank]                                    [Ross_Swithenbank]                                        2006-09
+gw-asv             4842        udp    nCode ICE-flow Library       [Ross_Swithenbank]                                    [Ross_Swithenbank]                                        2006-09      2017-05-23
                                       AppServer
-opcua-tls          4843        tcp    OPC UA TCP Protocol over     [Randy_Armstrong]                                     [Randy_Armstrong]                                         2006-09
+opcua-tls          4843        tcp    OPC UA TCP Protocol over     [OPC_Foundation]                                      [Randy_Armstrong]                                         2006-09      2017-05-23
                                       TLS/SSL
-opcua-tls          4843        udp    OPC UA TCP Protocol over     [Randy_Armstrong]                                     [Randy_Armstrong]                                         2006-09
+opcua-tls          4843        udp    OPC UA TCP Protocol over     [OPC_Foundation]                                      [Randy_Armstrong]                                         2006-09
                                       TLS/SSL
 gw-log             4844        tcp    nCode ICE-flow Library       [Ross_Swithenbank]                                    [Ross_Swithenbank]                                        2006-09
                                       LogServer
@@ -13212,7 +13212,7 @@ fodms              7200        tcp    FODMS FLIP                   [David_Anthon
 fodms              7200        udp    FODMS FLIP                   [David_Anthony]                                       [David_Anthony]
 dlip               7201        tcp    DLIP                         [Albert_Manfredi]                                     [Albert_Manfredi]
 dlip               7201        udp    DLIP                         [Albert_Manfredi]                                     [Albert_Manfredi]
-                                                                                                                                                                                                             [TR352][Inter-Channel-Termination protocol
+                                                                                                                                                                                                             [TR-352][Inter-Channel-Termination protocol
                                                                                                                                                                                                              (ICTP) is a peer-to-peer protocol with a
                                                                                                                                                                                                              binary message format that is used by a set
                                       Inter-Channel Termination                                                                                                                                              of optical line terminal (OLT) channel
@@ -16504,7 +16504,15 @@ fairview           38202       udp    Fairview Message Service     [Jim_Lyle]   
                                                                                                                                                                                                                                                                                   DevStat=<device status>
 agpolicy           38203       tcp    AppGate Policy Server        [Martin_Forssen]                                      [Martin_Forssen]                                          2004-11
 agpolicy           38203       udp    AppGate Policy Server        [Martin_Forssen]                                      [Martin_Forssen]                                          2004-11
-                38204-38799           Unassigned
+                38204-38411           Unassigned
+                   38412       tcp    Reserved
+                   38412       udp    Reserved
+ng-control         38412      sctp    NG Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18   2017-05-19
+                38413-38421           Unassigned
+                   38422       tcp    Reserved
+                   38422       udp    Reserved
+xn-control         38422      sctp    Xn Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18   2017-05-19
+                38423-38799           Unassigned
                                       Sruth is a service for the
                                       distribution of routinely-
                                       generated but arbitrary
@@ -17134,6 +17142,10 @@ com-ocs-es-mcc                        ElectraStar media centre     [OC]         
 contactserver                         Now Contact                                                                                                                                                                                                                                 Defined TXT keys: None
 coolanetaudio                  tcp    Coolatoola Network Audio     [Coolatoola.com]                                      [Tim_Hewett]                                              2014-01-03                                                                                     Defined TXT keys: None
 corroboree                            Corroboree Server            [Heath_Raftery]                                       [Heath_Raftery]                                                                                                                                          Defined TXT keys: None
+coviot                         tcp    Service for coviot branded   [Coviot]                                              [Adnan_Senyurt]                                           2017-05-19                                                                                     Defined TXT keys: FW_VERSION, PROTOCOL_VERSION,
+                                      devices                                                                                                                                                                                                                                     SERVICE_DESCRIPTION
+coviot                         udp    Service for coviot branded   [Coviot]                                              [Adnan_Senyurt]                                           2017-05-19                                                                                     Defined TXT keys: FW_VERSION, PROTOCOL_VERSION,
+                                      devices                                                                                                                                                                                                                                     SERVICE_DESCRIPTION
 cpnotebook2                           NoteBook 2                   [Circus_Ponies_Suppor]                                [Circus_Ponies_Suppor]                                                                                                                                   Defined TXT keys: None
 csi-mmws                       tcp    Canfield Scientific Inc -    [Canfield_Scientific_Inc]                             [James_Crismale]                                          2013-07-02                                                                                     Defined TXT keys: path
                                       Mirror Mobile Web Services
@@ -17724,6 +17736,10 @@ nextcap                        udp    protocol for NextCap capture [NextDay_Aps]
 ngr-keydist                    tcp    NGR Key Distribution         [nyantec]                                             [Mikael_Voss]                                             2017-04-18                                                                                     Defined TXT keys: None
 ni                             tcp    National Instruments Network [National_Instruments]                                [Joshua_Prewitt]                                          2011-10-24                                                                                     Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo,
                                       Device                                                                                                                                                                                                                                      Status, ImgPath, Comment
+ni-ftp                         tcp    NI FTP                       [Steve_Kille]                                         [Steve_Kille]                                             2017-05-18                                                                                     Defined TXT keys: None
+ni-ftp                         udp    NI FTP                       [Steve_Kille]                                         [Steve_Kille]                                             2017-05-18                                                                                     Defined TXT keys: None
+ni-mail                        tcp    NI MAIL                      [Steve_Kille]                                         [Steve_Kille]                                             2017-05-18                                                                                     Defined TXT keys: None
+ni-mail                        udp    NI MAIL                      [Steve_Kille]                                         [Steve_Kille]                                             2017-05-18                                                                                     Defined TXT keys: None
 ni-rt                          tcp    National Instruments         [National_Instruments]                                [Joshua_Prewitt]                                          2011-10-24                                                                                     Defined TXT keys: MAC, OS, OSVer, ProcArch
                                       Real-Time Target
 ni-sysapi                      tcp    National Instruments System  [National_Instruments]                                [Joshua_Prewitt]                                          2011-10-24                                                                                     Defined TXT keys: MAC, Experts, Version
@@ -17764,6 +17780,8 @@ ocasec                         tcp    is the secure TCP/IP         [OCA_Alliance
 ocasec                         udp    is the secure TCP/IP         [OCA_Alliance]                                        [Stephan_van_Tienen]                                      2012-10-11                                                                                     Defined TXT keys: txtvers=1 protovers=x
                                       implementation of the Object
                                       Control Architecture
+ocaws                          tcp    Insecure OCP.1 hosted on a   [OCA_Alliance]                                        [Stephan_van_Tienen]                                      2017-05-19                                                                                     Defined TXT keys: txtvers protovers path
+                                      WebSocket
 oce                                   Oce Common Exchange Protocol [Dion_Slijp]                                          [Dion_Slijp]                                                                                                                                             Defined TXT keys: type, version
 od-master                             OpenDirectory Master         [Jason_Thorpe]                                        [Jason_Thorpe]                                                                                                                                           Defined TXT keys: None
 odabsharing                           OD4Contact                   [Objective_Decision]                                  [Objective_Decision]                                                                                                                                     Defined TXT keys: None
@@ -18456,6 +18474,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [AddressBookServer]                                                                  AddressBookServer.com    mailto:iana&addressbookserver.com                             2011-10-18
 [Adi_Ruppin]                                              Adi Ruppin                                          mailto:adi.ruppin&data-pod.com                                2005-08
 [Administrator]                                           Administrator                                       mailto:admin&ipcore.co.za                                     2005-12
+[Adnan_Senyurt]                                           Adnan Senyurt              Coviot                   mailto:adnansenyurt&coviot.com                                2017-05-19
 [Adobe_Systems]                                                                      Adobe Systems Inc.       mailto:mikeharr&adobe.com                                     2012-04-17
 [Adrian_Hornby]                                           Adrian Hornby                                       mailto:Adrian.Hornby&aran.co.uk
 [Adrian_Hungate]                                          Adrian Hungate                                      mailto:adrian&tlspu.com                                       2014-07-11
@@ -19378,6 +19397,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Corporate_Compliance_Officer]                            Corporate Compliance                                mailto:compliance&fullpower.com                               2016-08-17
                                                           Officer
 [Corpus_Collusion]                                                                   Corpus Collusion         mailto:developer&corpuscollusion.com                          2011-08-23
+[Coviot]                                                                             Coviot                   mailto:tubainci&coviot.com                                    2017-05-19
 [Craig_Calef]                                             Craig Calef                                         mailto:craig&katmango.com
 [Craig_Ching]                                             Craig Ching                                         mailto:cching&mqsoftware.com
 [Craig_Dowell]                                            Craig Dowell               Qualcomm Innovation      mailto:cdowell&quicinc.com                                    2011-12-21
@@ -21369,6 +21389,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Lucas_Alonso]                                            Lucas Alonso                                        mailto:luke&demiurgestudios.com                               2002-02
 [Lucas_Lorensi]                                           Lucas Lorensi                                       mailto:lucas.lorensi&powersyslab.com                          2015-07-20
 [Ludwig_Kannicht]                                         Ludwig Kannicht            Dark Horse GmbH & Co KG  mailto:l.kannicht&thedarkhorse.de                             2015-06-02
+[Luis_Lopes]                                              Luis Lopes                                          mailto:llopes&qti.qualcomm.com                                2017-05-18
 [Luis_Zugasti]                                            Luis Zugasti                                        mailto:lzugasti&fagorautomation.es                            2003-11
 [Luke_Bowen]                                              Luke Bowen                                          mailto:leb&tfn.com
 [Luke_Dion]                                               Luke Dion                                           mailto:ldion&tapeware.com                                     2004-04
@@ -22069,7 +22090,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Oblamatik_AG]                                                                       Oblamatik AG             mailto:info&oblamatik.ch                                      2012-09-05
 [Observium]                                                                          Observium                mailto:adama&observium.org                                    2013-05-10
 [OC]                                                                                 OC                       mailto:ocs&ocs.cz
-[OCA_Alliance]                                                                       OCA Alliance             mailto:tina.lipscomb&oca-alliance.com                         2012-10-11
+[OCA_Alliance]                                                                       OCA Alliance             mailto:tina.lipscomb&oca-alliance.com                         2017-05-19
 [Odo_Maletzki]                                            Odo Maletzki                                        mailto:Odo.Maletzki&ioag.de
 [ODVA_Inc]                                                                           ODVA, Inc.               mailto:babatke&ra.rockwell.com                                2015-05-28
 [Oishi_Toshiaki]                                          Oishi Toshiaki             SEIKO EPSON Corporation  mailto:Oishi.Toshiaki&exc.epson.co.jp                         2002-02
@@ -22094,6 +22115,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Omer_BarNir]                                             Omer BarNir                                         mailto:omer.barnir&oracle.com
 [One_Laptop_per_Child]                                                               One Laptop per           mailto:devel&lists.laptop.org
                                                                                      Child/Collabora Ltd.
+[OPC_Foundation]                                                                     OPC Foundation           mailto:tcb&opcfoundation.org                                  2017-05-23
 [OpeniT_Inc]                                                                         OpeniT Inc.              mailto:mmaano&openit.com                                      2016-11-17
 [Open_Lighting_Project]                                                              Open Lighting Project    mailto:simon&nomis52.net                                      2013-12-09
 [Open_Mobile_Alliance]                                                               Open Mobile Alliance     mailto:Technical-Comments&mail.openmobilealliance.org         2011-08-19
@@ -22485,7 +22507,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Randall_Gellens]                                         Randall Gellens                                     mailto:randy&qualcomm.com
 [Randall_Stewart]                                         Randall Stewart            IETF TSVWG               mailto:rrs&lakerest.net
 [Randall_Stewart_2]                                       Randall Stewart                                     mailto:rrs&lakerest.net                                       2011-10-24
-[Randy_Armstrong]                                         Randy Armstrong                                     mailto:randy.armstrong&opcfoundation.org                      2006-09
+[Randy_Armstrong]                                         Randy Armstrong                                     mailto:tcb&opcfoundation.org                                  2017-05-23
 [Randy_Cassidy]                                           Randy Cassidy                                       mailto:randy.cassidy&iracing.com                              2007-08-30
 [Randy_Davenport]                                         Randy Davenport                                     mailto:rdaven69&gmail.com                                     2014-03-04
 [Randy_Epstein]                                           Randy Epstein                                       mailto:repstein&hostleasing.net
@@ -23146,7 +23168,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stephen_Reid]                                            Stephen Reid                                        mailto:sreid&ti.com
 [Stephen_Tsun]                                            Stephen Tsun                                        mailto:stsun&jetstream.com
 [Stephen_Tsun_2]                                          Stephen Tsun                                        mailto:stsun&calient.net                                      2002-02
-[Stephan_van_Tienen]                                      Stephan van Tienen         OCA Alliance             mailto:stephan.vantienen&bosch.com                            2012-10-11
+[Stephan_van_Tienen]                                      Stephan van Tienen         OCA Alliance             mailto:stephan.vantienen&bosch.com                            2017-05-19
 [Steve_Bannister]                                         Steve Bannister                                     mailto:sbannister&stratacache.com
 [Steve_Barton]                                            Steve Barton                                        mailto:steveb&pacom.com                                       2002-03
 [Steve_Barton_2]                                          Steve Barton               SPG Controls Ltd         mailto:steveb&spgcontrols.com                                 2017-03-27
@@ -23170,7 +23192,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Steve_Hodgson]                                           Steve Hodgson              Pure Storage             mailto:steve&purestorage.com                                  2013-08-13
 [Steve_Husak]                                             Steve Husak                                         mailto:portmaster&cruisetech.com
 [Steve_Kellogg]                                           Steve Kellogg                                       mailto:stevekellogg&mezzogmr.com
-[Steve_Kille]                                             Steve Kille                                         mailto:S.Kille&isode.com
+[Steve_Kille]                                             Steve Kille                                         mailto:steve.kille&isode.com                                  2017-05-18
 [Steve_Kirsch]                                            Steve Kirsch                                        mailto:stk&infoseek.com
 [Steve_Kneizys]                                           Steve Kneizys                                       mailto:skneizys&erpdata.com                                   2006-11
 [Steve_Laitinen]                                          Steve Laitinen                                      mailto:laitinen&brutus.aa.ab.com
@@ -23488,7 +23510,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tom_Hawkins]                                             Tom Hawkins                                         mailto:tom1&launchbird.com                                    2003-04
 [Tom_Hawkins_2]                                           Tom Hawkins                                         mailto:tomahawkins&gmail.com                                  2006-02
 [Tom_Hennessy]                                            Tom Hennessy                                        mailto:thenn&novadigm.com
-[Tom_Herbert]                                             Tom Herbert                                         mailto:therbert&google.com                                    2015-03-05
+[Tom_Herbert]                                             Tom Herbert                                         mailto:tom&herbertland.com                                    2017-05-19
 [Tom_Kee]                                                 Tom Kee                                             mailto:t.kee&f5.com
 [Tom_Lake]                                                Tom Lake                                            mailto:tlake&m-ware.com
 [Tom_Lane]                                                Tom Lane                                            mailto:tgl&sss.pgh.pa.us
