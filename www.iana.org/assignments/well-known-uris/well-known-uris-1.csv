@@ -32,6 +32,7 @@ posh,IETF,[RFC7711],"The suffix ""posh"" is expected to be followed by
       application protocols.",2015-09-20,
 reload-config,IETF,[RFC6940],,,
 repute-template,IETF,[RFC7072],,2013-09-30,
+resourcesync,[NISO],[http://www.openarchives.org/rs/resourcesync],,2017-05-26,
 stun-key,IETF,[RFC7635],,2015-06-12,
 time,[Poul-Henning_Kamp],[http://phk.freebsd.dk/time/20151129.html],,2015-12-09,
 timezone,IESG,[RFC7808],,2015-08-03,
