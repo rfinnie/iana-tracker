@@ -29,6 +29,7 @@ Protocol for Media Endpoint Devices"", ANSI/TIA-1057, April 2006.][Peter_Blather
 Manual,"Entered manually by an operator or user, e.g.,       
 based on subscriber billing or service location
 information",[RFC4119],
+MBS,Metropolitan Beacon System,[NextNav],2017-05-25
 MPL,Measured Path Loss,[James_Winterbottom],2007-10-18
 NEAD-BLE,"Civic Address representing the provisioned location of a 
         Bluetooth beacon to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12

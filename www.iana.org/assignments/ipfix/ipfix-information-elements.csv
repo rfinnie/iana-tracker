@@ -21,13 +21,13 @@ Protocol field.  In Internet Protocol version 6 (IPv6), this
 is carried in the Next Header field in the last extension
 header of the packet.",,,"See [RFC791] for the specification of the IPv4
 protocol field.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 protocol field.
 See the list of protocol numbers assigned by IANA at [IANA registry protocol-numbers].",[RFC5102],0,2013-02-18
 5,ipClassOfService,unsigned8,identifier,current,"For IPv4 packets, this is the value of the TOS field in
 the IPv4 packet header.  For IPv6 packets, this is the
 value of the Traffic Class field in the IPv6 packet header.",,,"See [RFC1812] (Section 5.3.2) and [RFC791] for the definition of the IPv4 TOS field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Traffic Class field.",[RFC5102],0,2013-02-18
 6,tcpControlBits,unsigned16,flags,current,"TCP control bits observed for the packets of this Flow.
 This information is encoded as a bit field; for each TCP control
@@ -217,7 +217,7 @@ function after the packet passed the Observation Point.",packets,,,[RFC5102],0,2
 The packet length includes the IP header(s) length and
 the IP payload length.",octets,,"See [RFC791] for the specification of the IPv4
 total length.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 payload length.
 See [RFC2675] for the specification of the
 IPv6 jumbo payload length.",[RFC5102],0,2013-02-18
@@ -225,19 +225,19 @@ IPv6 jumbo payload length.",[RFC5102],0,2013-02-18
 The packet length includes the IP header(s) length and
 the IP payload length.",octets,,"See [RFC791] for the specification of the IPv4
 total length.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 payload length.
 See [RFC2675] for the specification of the
 IPv6 jumbo payload length.",[RFC5102],0,2013-02-18
-27,sourceIPv6Address,ipv6Address,default,current,The IPv6 source address in the IP packet header.,,,"See [RFC2460] for the definition of the Source
+27,sourceIPv6Address,ipv6Address,default,current,The IPv6 source address in the IP packet header.,,,"See [RFC-ietf-6man-rfc2460bis-13] for the definition of the Source
 Address field in the IPv6 header.",[RFC5102],1,2014-02-03
-28,destinationIPv6Address,ipv6Address,default,current,The IPv6 destination address in the IP packet header.,,,"See [RFC2460] for the definition of the
+28,destinationIPv6Address,ipv6Address,default,current,The IPv6 destination address in the IP packet header.,,,"See [RFC-ietf-6man-rfc2460bis-13] for the definition of the
 Destination Address field in the IPv6 header.",[RFC5102],1,2014-02-03
 29,sourceIPv6PrefixLength,unsigned8,,current,"The number of contiguous bits that are relevant in the
 sourceIPv6Prefix Information Element.",bits,0-128,,[RFC5102],0,2013-02-18
 30,destinationIPv6PrefixLength,unsigned8,,current,"The number of contiguous bits that are relevant in the
 destinationIPv6Prefix Information Element.",bits,0-128,,[RFC5102],0,2013-02-18
-31,flowLabelIPv6,unsigned32,identifier,current,The value of the IPv6 Flow Label field in the IP packet header.,,0-0xFFFFF,"See [RFC2460] for the definition of the
+31,flowLabelIPv6,unsigned32,identifier,current,The value of the IPv6 Flow Label field in the IP packet header.,,0-0xFFFFF,"See [RFC-ietf-6man-rfc2460bis-13] for the definition of the
 Flow Label field in the IPv6 packet header.",[RFC5102],1,2014-08-13
 32,icmpTypeCodeIPv4,unsigned16,identifier,current,"Type and Code of the IPv4 ICMP message.  The combination of
 both values is reported as (ICMP type * 256) + ICMP code.",,,"See [RFC792] for the definition of the IPv4
@@ -339,18 +339,18 @@ connection with the samplerMode 0x02 (random sampling) value.",,,,[RFC7270],0,20
 class, i.e., QoS treatment.",,,,[RFC7270],0,2014-04-04
 52,minimumTTL,unsigned8,,current,Minimum TTL value observed for any packet in this Flow.,hops,,"See [RFC791] for the definition of the IPv4
 Time to Live field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Hop Limit field.",[RFC5102],0,2013-02-18
 53,maximumTTL,unsigned8,,current,Maximum TTL value observed for any packet in this Flow.,hops,,"See [RFC791] for the definition of the IPv4
 Time to Live field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Hop Limit field.",[RFC5102],0,2013-02-18
 54,fragmentIdentification,unsigned32,identifier,current,"The value of the Identification field
 in the IPv4 packet header or in the IPv6 Fragment header,
 respectively.  The value is 0 for IPv6 if there is
 no fragment header.",,,"See [RFC791] for the definition of the IPv4
 Identification field.
-See [RFC2460] for the definition of the
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the
 Identification field in the IPv6 Fragment header.",[RFC5102],0,2013-02-18
 55,postIpClassOfService,unsigned8,identifier,current,"The definition of this Information Element is identical
 to the definition of Information Element
@@ -358,7 +358,7 @@ to the definition of Information Element
 potentially modified value caused by a middlebox
 function after the packet passed the Observation Point.",,,"See [RFC791] for the definition of the IPv4
 TOS field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Traffic Class field.
 See [RFC3234] for the definition of
 middleboxes.",[RFC5102],0,2013-02-18
@@ -373,7 +373,7 @@ dot1qVlanId.",,,See IEEE.802-1Q.2003.,[RFC5102],0,2013-02-18
 59,postVlanId,unsigned16,identifier,current,"Virtual LAN identifier associated with egress interface. For postdot1q vlans, see 254, postDot1qVlanId.",,,See IEEE.802-1Q.2003.,[RFC5102],0,2013-02-18
 60,ipVersion,unsigned8,identifier,current,The IP version field in the IP packet header.,,,"See [RFC791] for the definition of the version
 field in the IPv4 packet header.
-See [RFC2460] for the definition of the
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the
 version field in the IPv6 packet header.
 Additional information on defined version numbers can be found at
 [IANA registry version-numbers].",[RFC5102],0,2013-02-18
@@ -431,7 +431,7 @@ Bit    IPv6 Option   Description
 13, ESP      50       Encrypted security payload
 14, AH       51       Authentication Header
 15, PAY     108       Payload compression header
-16 to 31              Reserved",,,"See [RFC2460] for the general definition of
+16 to 31              Reserved",,,"See [RFC-ietf-6man-rfc2460bis-13] for the general definition of
 IPv6 extension headers and for the specification of the hop-by-hop
 options header, the routing header, the fragment header, and the
 destination options header.
@@ -569,7 +569,7 @@ IPv4 packet header or the IPv6 Fragment header,
 respectively.  The value is 0 for IPv6 if there is
 no fragment header.",,0-0x1FFF,"See [RFC791] for the specification of the
 fragment offset in the IPv4 header.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 fragment offset in the IPv6 Fragment header.",[RFC5102],1,2014-08-13
 89,forwardingStatus,unsigned32,identifier,current,"This Information Element describes the forwarding status of the
 flow and any attached reasons.  The reduced-size encoding rules as
@@ -672,7 +672,7 @@ middlebox function after the packet passed the Observation
 Point.",,0-63,"See [RFC3260] for the definition of the Differentiated 
 Services Field.  See section 5.3.2 of [RFC1812] and 
 [RFC791] for the definition of the IPv4 TOS field.  See 
-[RFC2460] for the definition of the IPv6 Traffic Class 
+[RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6 Traffic Class 
 field.  See the IPFIX Information Model [RFC5102] for the 
 'ipDiffServCodePoint' specification.",[ipfix-iana_at_cisco.com],0,2013-02-18
 99,multicastReplicationFactor,unsigned32,quantity,current,"The amount of multicast replication that's applied to a traffic 
@@ -985,7 +985,7 @@ header.",[RFC5102],0,2013-02-18
 189,ipHeaderLength,unsigned8,,current,"The length of the IP header.  For IPv6, the value of this
 Information Element is 40.",octets,,"See [RFC791] for the definition of the IPv4
 header.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 header.",[RFC5102],0,2013-02-18
 190,totalLengthIPv4,unsigned16,,current,The total length of the IPv4 packet.,octets,,"See [RFC791] for the specification of the IPv4
 total length.",[RFC5102],0,2013-02-18
@@ -994,7 +994,7 @@ Length field in the IPv6 header.  Note that IPv6 extension
 headers belong to the payload.  Also note that in case of a
 jumbo payload option the value of the Payload Length field in
 the IPv6 header is zero and so will be the value reported
-by this Information Element.",octets,,"See [RFC2460] for the specification of the IPv6
+by this Information Element.",octets,,"See [RFC-ietf-6man-rfc2460bis-13] for the specification of the IPv6
 payload length.
 See [RFC2675] for the specification of the IPv6
 jumbo payload option.",[RFC5102],0,2013-02-18
@@ -1010,7 +1010,7 @@ Hop Limit field.",[RFC5102],0,2013-02-18
 The value identifies the type of the following IPv6
 extension header or of the following IP payload.
 Valid values are defined in the IANA
-Protocol Numbers registry.",,,"See [RFC2460] for the definition of the IPv6
+Protocol Numbers registry.",,,"See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Next Header field.
 See the list of protocol numbers assigned by IANA at [IANA registry protocol-numbers].",[RFC5102],0,2013-02-18
 194,mplsPayloadLength,unsigned32,,current,The size of the MPLS packet without the label stack.,octets,,"See [RFC3031] for the specification of MPLS
@@ -1031,7 +1031,7 @@ Differentiated Services field.  Therefore, its value may
 range from 0 to 63.",,0-63,"See [RFC3260] for the definition of the
 Differentiated Services field.
 See [RFC1812] (Section 5.3.2) and [RFC791] for the definition of the IPv4 TOS field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Traffic Class field.",[RFC5102],0,2013-02-18
 196,ipPrecedence,unsigned8,identifier,current,"The value of the IP Precedence.  The IP Precedence value
 is encoded in the first 3 bits of the IPv4 TOS field
@@ -1043,7 +1043,7 @@ or the IPv6 Traffic Class field, respectively.
 This Information Element encodes only these 3 bits.
 Therefore, its value may range from 0 to 7.",,0-7,"See [RFC1812] (Section 5.3.3) and [RFC791] for the definition of the IP Precedence.
 See [RFC1812] (Section 5.3.2) and [RFC791] for the definition of the IPv4 TOS field.
-See [RFC2460] for the definition of the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the IPv6
 Traffic Class field.",[RFC5102],0,2013-02-18
 197,fragmentFlags,unsigned8,flags,current,"Fragmentation properties indicated by flags in the IPv4
 packet header or the IPv6 Fragment header, respectively.
@@ -1072,7 +1072,7 @@ The values of these bits are irrelevant.
 | S | F | F | C | C | C | C | C |
 +---+---+---+---+---+---+---+---+",,,"See [RFC791] for the specification of the IPv4
 fragment flags.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 Fragment header.",[RFC5102],0,2013-02-18
 198,octetDeltaSumOfSquares,unsigned64,,current,"The sum of the squared numbers of octets per incoming
 packet since the previous report (if any) for this
@@ -1125,7 +1125,7 @@ jumbo payload option.  In this case, the value of the
 Jumbo Payload Length field in the jumbo payload option
 is reported.",octets,,"See [RFC791] for the specification of IPv4
 packets.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 payload length.
 See [RFC2675] for the specification of the
 IPv6 jumbo payload length.",[RFC5102],0,2013-02-18
@@ -1359,7 +1359,7 @@ Protocol field.  In Internet Protocol version 6 (IPv6), this
 is carried in the Next Header field in the last extension
 header of the packet.",,,"See [RFC791] for the specification of the IPv4
 protocol field.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 protocol field.
 See the list of protocol numbers assigned by IANA at [IANA registry protocol-numbers].",[RFC5102],0,2013-02-18
 216,collectorTransportPort,unsigned16,identifier,current,"The destination port identifier to which the Exporting
@@ -1414,7 +1414,7 @@ TCP ""Urgent Pointer field significant"" (URG) flag set.",packets,,"See [RFC793]
 flag.",[RFC5102],0,2013-02-18
 224,ipTotalLength,unsigned64,,current,The total length of the IP packet.,octets,,"See [RFC791] for the specification of the IPv4
 total length.
-See [RFC2460] for the specification of the
+See [RFC-ietf-6man-rfc2460bis-13] for the specification of the
 IPv6 payload length.
 See [RFC2675] for the specification of the
 IPv6 jumbo payload length.",[RFC5102],0,2013-02-18
@@ -1479,7 +1479,10 @@ Public:  2",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.c
   include, but are not limited to, NAT translation create, NAT
   translation delete, Threshold Reached, or Threshold Exceeded, etc.
   Values for this Information Element are listed in the NAT Event Type
-  registry, see [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type].",,,"See [RFC3022] for the definition of NAT.  See 
+  registry, see [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
+  New assignments of values will be administered by IANA and are subject to
+  Expert Review [RFC5226]. Experts need to check definitions of new
+  values for completeness, accuracy, and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC-ietf-behave-ipfix-nat-logging-13] 
 for the definitions of values 4-16.",[RFC-ietf-behave-ipfix-nat-logging-13],2,2017-03-15
@@ -1660,7 +1663,7 @@ function after the packet passed the Observation Point.",,0-7,"See [RFC1812] (Se
 IP Precedence. See [RFC1812] 
 (Section 5.3.2) and [RFC791] for the
 definition of the IPv4 TOS field. See 
-[RFC2460] for the definition of the 
+[RFC-ietf-6man-rfc2460bis-13] for the definition of the 
 IPv6 Traffic Class field.",[ipfix-iana_at_cisco.com],0,2013-02-18
 258,collectionTimeMilliseconds,dateTimeMilliseconds,default,current,"The absolute timestamp at which the data within the
 scope containing this Information Element was received by a
@@ -1843,7 +1846,7 @@ the definition of Information Element 'sourceIPv6Address', except that
 it reports a modified value caused by a NAT64 middlebox function after
 the packet passed the Observation Point.
 
-See [RFC2460] for the definition of the Source Address field in the IPv6
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the Source Address field in the IPv6
 header. See [RFC3234] for the definition of middleboxes. See
 [RFC6146] for nat64 specification.",,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 282,postNATDestinationIPv6Address,ipv6Address,default,current,"The definition of this Information Element is identical to
@@ -1851,7 +1854,7 @@ the definition of Information Element 'destinationIPv6Address', except
 that it reports a modified value caused by a NAT64 middlebox function
 after the packet passed the Observation Point.
 
-See [RFC2460] for the definition of the Destination Address field in the
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of the Destination Address field in the
 IPv6 header. See [RFC3234] for the definition of middleboxes. See
 [RFC6146] for nat64 specification.",,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 283,natPoolId,unsigned32,identifier,current,Locally unique identifier of a NAT pool.,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
@@ -2111,7 +2114,7 @@ See [RFC6144] for the definition of NAT64.
 See [RFC6146] for the definition of NAT46.
 See [RFC6296] for the definition of NAT66.
 See [RFC791] for the definition of IPv4.
-See [RFC2460] for the definition of IPv6.",[ipfix-iana_at_cisco.com],0,2013-02-18
+See [RFC-ietf-6man-rfc2460bis-13] for the definition of IPv6.",[ipfix-iana_at_cisco.com],0,2013-02-18
 298,initiatorPackets,unsigned64,deltaCounter,current,"The total number of layer 4 packets in a flow from the
 initiator. The initiator is the device which triggered the
 session creation, and remains the same for the life of the
@@ -2333,7 +2336,7 @@ Appendix A.
               
 The IPv6 payload is the rest of the packet following the 40-octet
 IPv6 header.  Note that any extension headers present are
-considered part of the payload.  See [RFC2460] for the IPv6
+considered part of the payload.  See [RFC-ietf-6man-rfc2460bis-13] for the IPv6
 specification.
 
             
@@ -2357,7 +2360,7 @@ Information Element does not exist, this Information Element
 SHOULD have a variable length and MUST NOT be padded.  In this
 case, the size of the exported section may be constrained due to
 limitations in the IPFIX protocol.",,,"[RFC791]
-[RFC2460]",[RFC5477][RFC7133],1,2014-01-11
+[RFC-ietf-6man-rfc2460bis-13]",[RFC5477][RFC7133],1,2014-01-11
 315,dataLinkFrameSection,octetArray,default,current,"This Information Element carries n octets from the data link frame
 of a selected frame, starting sectionOffset octets into the frame.
 

@@ -57,7 +57,8 @@ Network Service (ISO 8473)"", International Standard 10589:
 22,Extended IS reachability,n,y,n,n,[RFC5305]
 23,IS Neighbor Attribute,n,y,n,n,[RFC5311]
 24,IS Alias ID,n,y,n,n,[RFC5311]
-25-41,Unassigned,,,,,
+25,L2 Bundle Member Attributes,n,y,n,n,[RFC-ietf-isis-l2bundles-07]
+26-41,Unassigned,,,,,
 42,DECnet Phase IV,y,n,n,n,DEC (ancient)
 43-65,Unassigned,,,,,
 66,Lucent Proprietary,n,y,n,n,

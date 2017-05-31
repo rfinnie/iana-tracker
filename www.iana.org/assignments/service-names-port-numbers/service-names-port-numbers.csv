@@ -10569,11 +10569,11 @@ sane-port,6566,tcp,SANE Control Port,[Henning_Meier_Geinit],[Henning_Meier_Geini
 sane-port,6566,udp,SANE Control Port,[Henning_Meier_Geinit],[Henning_Meier_Geinit],2002-10,,,,,
 ,6567,,Reserved,,,2007-01,2011-08-26,,,,This entry has been removed on 2011-08-26.
 canit-store,6568,tcp,"CanIt Storage Manager
-IANA assigned this well-formed service name as a replacement for ""canit_store"".",[David_F_Skoll],[David_F_Skoll],2009-04-22,,,,,
-canit_store,6568,tcp,CanIt Storage Manager,[David_F_Skoll],[David_F_Skoll],2009-04-22,,,,,"This entry is an alias to ""canit-store"".
+IANA assigned this well-formed service name as a replacement for ""canit_store"".",[Dianne_Skoll],[Dianne_Skoll],2009-04-22,2017-05-25,,,,
+canit_store,6568,tcp,CanIt Storage Manager,[Dianne_Skoll],[Dianne_Skoll],2009-04-22,2017-05-25,,,,"This entry is an alias to ""canit-store"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
-rp-reputation,6568,udp,Roaring Penguin IP Address Reputation Collection,[David_F_Skoll],[David_F_Skoll],2010-02-05,,,,,
+rp-reputation,6568,udp,Roaring Penguin IP Address Reputation Collection,[Dianne_Skoll],[Dianne_Skoll],2010-02-05,2017-05-25,,,,
 ,6569-6578,,Unassigned,,,,,,,,
 affiliate,6579,tcp,Affiliate,[David_Catmull],[David_Catmull],2006-01,,,,,
 affiliate,6579,udp,Affiliate,[David_Catmull],[David_Catmull],2006-01,,,,,

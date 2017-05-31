@@ -7,3 +7,5 @@ Value,Profile,Reference
 "{0x00, 0x06}",SRTP_NULL_HMAC_SHA1_32,[RFC5764]
 "{0x00, 0x07}",SRTP_AEAD_AES_128_GCM,[RFC7714]
 "{0x00, 0x08}",SRTP_AEAD_AES_256_GCM,[RFC7714]
+"{0x00, 0x09}","DOUBLE_AEAD_AES_128_GCM_AEAD_AES_128_GCM (TEMPORARY - registered 2017-05-22, expires 2018-05-22)",[draft-ietf-perc-double]
+"{0x00, 0x0A}","DOUBLE_AEAD_AES_256_GCM_AEAD_AES_256_GCM (TEMPORARY - registered 2017-05-22, expires 2018-05-22)",[draft-ietf-perc-double]
