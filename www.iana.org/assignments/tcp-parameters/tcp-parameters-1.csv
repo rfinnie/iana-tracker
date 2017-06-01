@@ -34,7 +34,7 @@ Kind,Length,Meaning,Reference
 32,,Reserved (known unauthorized use without proper IANA assignment) [**],
 33,,Reserved (known unauthorized use without proper IANA assignment) [**],
 34,variable,TCP Fast Open Cookie,[RFC7413]
-35-75,,Reserved,
+35-68,,Reserved,
 69,,Reserved (known unauthorized use without proper IANA assignment) [**],
 70,,Reserved (known unauthorized use without proper IANA assignment) [**],
 71-75,,Reserved,
