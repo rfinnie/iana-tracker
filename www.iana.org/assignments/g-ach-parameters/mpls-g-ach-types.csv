@@ -11,7 +11,7 @@ Value,Description,Reference
 0x000C,MPLS Delay Measurement (DM),[RFC6374]
 0x000D,MPLS Direct Loss and Delay Measurement (DLM+DM),[RFC6374]
 0x000E,MPLS Inferred Loss and Delay Measurement (ILM+DM),[RFC6374]
-0x000F,Residence Time Measurement,[RFC-ietf-mpls-residence-time-15]
+0x000F,Residence Time Measurement,[RFC8169]
 0x0010-0x0020,Unassigned,
 0x0021,Associated Channel carries an IPv4 packet,[RFC4385]
 0x0022,MPLS-TP CC message,[RFC6428]

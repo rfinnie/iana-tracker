@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2017-05-30</updated>
+  <updated>2017-06-02</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc5226"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -217,8 +217,19 @@ with the Protocol for Providing the Connectionless-mode
 Network Service (ISO 8473)", International Standard 10589:
 2002, Second Edition, 2002.</xref></status>
     </record>
+    <record date="2017-06-02">
+      <value>15</value>
+      <name>Router-Fingerprint</name>
+      <IIH>y</IIH>
+      <LSP>y</LSP>
+      <SNP>n</SNP>
+      <purge>y</purge>
+      <status>
+        <xref type="draft" data="RFC-ietf-isis-auto-conf-05"/>
+      </status>
+    </record>
     <record>
-      <value>15-21</value>
+      <value>16-21</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -1203,7 +1214,7 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_141>n</TLV_141>
       <TLV_222>y</TLV_222>
       <TLV_223>y</TLV_223>
-      <xref type="draft" data="RFC-ietf-mpls-residence-time-15"/>
+      <xref type="rfc" data="rfc8169"/>
     </record>
     <record date="2017-05-26" updated="2017-05-30">
       <value>41</value>
