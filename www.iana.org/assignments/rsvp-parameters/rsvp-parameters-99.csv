@@ -35,8 +35,8 @@ Error Code,Meaning,Reference
 38,LSP Hierarchy Issue,[RFC6107]
 39,VCAT Call Management,[RFC6344]
 40,OAM Problem,[RFC7260]
-41,Duplicate TLV,[RFC-ietf-mpls-residence-time-15]
-42,Duplicate sub-TLV,[RFC-ietf-mpls-residence-time-15]
-43,RTM_SET TLV Absent,[RFC-ietf-mpls-residence-time-15]
+41,Duplicate TLV,[RFC8169]
+42,Duplicate sub-TLV,[RFC8169]
+43,RTM_SET TLV Absent,[RFC8169]
 44-251,Unassigned,
 252-255,Reserved for Private Use,[RFC2205]
