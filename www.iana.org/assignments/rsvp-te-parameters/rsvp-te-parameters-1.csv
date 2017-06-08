@@ -3,4 +3,4 @@ Type,Name,Allowed on LSP_ATTRIBUTES,Allowed on LSP_REQUIRED_ATTRIBUTES,Allowed o
 2,Service ID TLV,Yes,No,No,[RFC6060][RFC7570]
 3,OAM Configuration TLV,Yes,Yes,No,[RFC7260][RFC7570]
 4,WSON Processing Hop Attribute TLV,No,No,Yes,[RFC7689]
-5,RTM_SET sub-object,Yes,No,No,[RFC-ietf-mpls-residence-time-15]
+5,RTM_SET sub-object,Yes,No,No,[RFC8169]
