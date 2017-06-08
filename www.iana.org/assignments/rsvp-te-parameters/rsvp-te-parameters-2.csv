@@ -14,4 +14,4 @@ Bit No,Name,Attribute Flags Path,Attribute Flags Resv,RRO,ERO,Reference
 12,SRLG Collection Flag,Yes,No,Yes,No,[RFC8001][RFC7570]
 13,Loopback,Yes,No,Yes,Yes,[RFC7571]
 14,P2MP-TE Tree Re-evaluation Request,Yes,No,No,No,[RFC8149]
-15,RTM_SET,Yes,Yes,No,No,[RFC-ietf-mpls-residence-time-15]
+15,RTM_SET,Yes,Yes,No,No,[RFC8169]

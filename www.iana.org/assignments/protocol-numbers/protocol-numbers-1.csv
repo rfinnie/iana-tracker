@@ -1,5 +1,5 @@
 Decimal,Keyword,Protocol,IPv6 Extension Header,Reference
-0,HOPOPT,IPv6 Hop-by-Hop Option,Y,[RFC2460]
+0,HOPOPT,IPv6 Hop-by-Hop Option,Y,[RFC-ietf-6man-rfc2460bis-13]
 1,ICMP,Internet Control Message,,[RFC792]
 2,IGMP,Internet Group Management,,[RFC1112]
 3,GGP,Gateway-to-Gateway,,[RFC823]
@@ -76,9 +76,9 @@ Livermore, California, June 1977.][Barry_Howard]"
 56,TLSP,"Transport Layer Security Protocol        
 using Kryptonet key management",,[Christer_Oberg]
 57,SKIP,SKIP,,[Tom_Markson]
-58,IPv6-ICMP,ICMP for IPv6,,[RFC2460]
-59,IPv6-NoNxt,No Next Header for IPv6,,[RFC2460]
-60,IPv6-Opts,Destination Options for IPv6,Y,[RFC2460]
+58,IPv6-ICMP,ICMP for IPv6,,[RFC-ietf-6man-rfc2460bis-13]
+59,IPv6-NoNxt,No Next Header for IPv6,,[RFC-ietf-6man-rfc2460bis-13]
+60,IPv6-Opts,Destination Options for IPv6,Y,[RFC-ietf-6man-rfc2460bis-13]
 61,,any host internal protocol,,[Internet_Assigned_Numbers_Authority]
 62,CFTP,CFTP,,"[Forsdick, H., ""CFTP"", Network Message, Bolt Beranek and
 Newman, January 1982.][Harry_Forsdick]"
