@@ -53,7 +53,8 @@ Domain Routeing Exchange Protocol for use in Conjunction
 with the Protocol for Providing the Connectionless-mode
 Network Service (ISO 8473)"", International Standard 10589:
 2002, Second Edition, 2002.]"
-15-21,Unassigned,,,,,
+15,Router-Fingerprint,y,y,n,y,[RFC-ietf-isis-auto-conf-05]
+16-21,Unassigned,,,,,
 22,Extended IS reachability,n,y,n,n,[RFC5305]
 23,IS Neighbor Attribute,n,y,n,n,[RFC5311]
 24,IS Alias ID,n,y,n,n,[RFC5311]
