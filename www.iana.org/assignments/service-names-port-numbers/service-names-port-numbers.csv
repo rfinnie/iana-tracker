@@ -11111,7 +11111,7 @@ nls-tl,7549,tcp,Network Layer Signaling Transport Layer,[Melinda_Shore],[Melinda
 nls-tl,7549,udp,Network Layer Signaling Transport Layer,[Melinda_Shore],[Melinda_Shore],2006-05,,,,,
 ,7550,tcp,Reserved,,,,,,,,
 cloudsignaling,7550,udp,Cloud Signaling Service,[Scott_Dawson],[Scott_Dawson],2011-07-01,,,,,
-controlone-con,7551,tcp,ControlONE Console signaling,[SIMB_Tecnologia],[Diego_Dias],2014-11-07,,,,,
+controlone-con,7551,tcp,ControlONE Console signaling,[BYNE],[Andre_Nazario],2014-11-07,2017-06-13,,,,
 ,7551,udp,Reserved,,,,,,,,
 ,7552-7559,,Unassigned,,,,,,,,
 sncp,7560,tcp,Sniffer Command Protocol,[Dominick_Cafarelli],[Dominick_Cafarelli],2005-08,,,,,
