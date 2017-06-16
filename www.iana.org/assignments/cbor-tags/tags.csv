@@ -39,7 +39,11 @@ Tag,Data Item,Semantics,Reference
 258-263,Unassigned,,
 264,array,Decimal fraction with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
 265,array,Bigfloat with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
-266-22097,Unassigned,,
+266-1000,Unassigned,,
+1001,map,extended time,[draft-bormann-cbor-time-tag-01]
+1002,map,duration,[draft-bormann-cbor-time-tag-01]
+1003,map,period,[draft-bormann-cbor-time-tag-01]
+1004-22097,Unassigned,,
 22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann]
 22099-55798,Unassigned,,
 55799,multiple,Self-describe CBOR; see Section 2.4.5,[RFC7049]
