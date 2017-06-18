@@ -1,0 +1,9 @@
+Value,Description,Reference
+bytes,The element content is of type HEXBIN.,[RFC7970]
+integer,The element content is of type INTEGER.,[RFC7970]
+real,The element content is of type REAL.,[RFC7970]
+string,The element content is of type STRING.,[RFC7970]
+xml,The element content is XML.  See Section 5.2 of [RFC7970].,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

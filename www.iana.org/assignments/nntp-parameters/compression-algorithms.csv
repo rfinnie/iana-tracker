@@ -1,0 +1,2 @@
+Algorithm Name,Intended Usage,Comment,Change Controller,Reference
+DEFLATE,COMMON,Mandatory to implement,IESG,[RFC8054]

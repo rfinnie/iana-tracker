@@ -1,0 +1,10 @@
+Type,Description,Reference
+0,Reserved,[RFC7961]
+1,AFN Size,[RFC7961]
+2,Fixed Address,[RFC7961]
+3,Data Label,[RFC7961]
+4,Topology,[RFC7961]
+5-254,Unassigned,
+255,Reserved,[RFC7961]
+256-65534,Unassigned,
+65535,Reserved,[RFC7961]

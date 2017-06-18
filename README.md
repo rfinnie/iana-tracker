@@ -15,7 +15,7 @@ Recently-modified documents receive higher priority, up to daily.
 
 The crawl script only checks known existing files.
 In the future, full crawls may be scheduled every few months to look for new documents.
-The last full crawl was performed on 2016-05-22.
+The last full crawl was performed on 2017-06-18.
 
 ## License
 

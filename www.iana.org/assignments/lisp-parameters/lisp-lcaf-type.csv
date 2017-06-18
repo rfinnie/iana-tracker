@@ -1,0 +1,16 @@
+Value,LISP LCAF Type Name,Reference
+0,Null Body,"[RFC8060, Section 3]"
+1,AFI List,"[RFC8060, Section 3]"
+2,Instance ID,"[RFC8060, Section 3]"
+3,AS Number,"[RFC8060, Section 3]"
+4,Unassigned,
+5,Geo-Coordinates,"[RFC8060, Section 3]"
+6,Unassigned,
+7,NAT-Traversal,"[RFC8060, Section 3]"
+8,Unassigned,
+9,Multicast Info,"[RFC8060, Section 3]"
+10,Explicit Locator Path,"[RFC8060, Section 3]"
+11,Security Key,"[RFC8060, Section 3]"
+12,Source/Dest Key,"[RFC8060, Section 3]"
+13,Replication List Entry,"[RFC8060, Section 3]"
+14-255,Unassigned,

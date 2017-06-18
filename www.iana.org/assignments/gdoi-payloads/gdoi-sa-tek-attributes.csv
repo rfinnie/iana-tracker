@@ -1,0 +1,6 @@
+Value,Attribute,Type,Reference
+0,Reserved,,[RFC8052]
+1,SA_ATD,V,[RFC8052]
+2,SA_KDA,B,[RFC8052]
+3-28671,Unassigned,,
+28672-32767,Reserved for Private Use,,[RFC8052]

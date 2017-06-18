@@ -1,0 +1,23 @@
+Value,Description,Reference,Notes
+oic.if.baseline,"The baseline Interface defines a view into all Properties of a 
+        Resource including the Meta Properties. This Interface is used to operate 
+        on the full Representation of a Resource.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.ll,"The 'links list' Interface provides a view into Links in a 
+        Collection (Resource).
+        Since Links represent relationships to other Resources, the links list 
+        interfaces may be used to discover Resources with respect to a context. 
+        The discovery is done by retrieving Links to these Resources.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.b,"The batch Interface is used to interact with a collection of 
+        Resources at the same time. This also removes the need for the Client to 
+        first discover the Resources it is manipulating - the Server forwards the 
+        requests and aggregates the responses.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.r,"The read-only Interface exposes the Properties of a Resource 
+        that may be 'read'. This Interface does not provide methods to update 
+        Properties or a Resource and so can only be used to 'read' Property Values.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.rw,"The read-write Interface exposes only those Properties that 
+        may be both 'read' and 'written' and provides methods to read and write 
+        the Properties of a Resource.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.a,"The actuator Interface is used to read or write the Properties 
+        of an actuator Resource.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
+oic.if.s,"The sensor Interface is used to read the Properties of a 
+        sensor Resource.",[OIC_Core_Specification_v1.1.0 section 7.5.3],

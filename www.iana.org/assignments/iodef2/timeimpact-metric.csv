@@ -1,0 +1,10 @@
+Value,Description,Reference
+labor,"Total staff time to recovery from the activity (e.g.,
+        2 employees working 4 hours each would be 8 hours).",[RFC7970]
+elapsed,"Elapsed time from the beginning of the recovery to
+        its completion (i.e., wall-clock time).",[RFC7970]
+downtime,"Duration of time for which some provided service(s)
+        was not available.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

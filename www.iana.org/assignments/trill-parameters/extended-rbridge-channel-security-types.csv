@@ -1,0 +1,7 @@
+SType,Description,Reference
+0,None,"[RFC7978, Section 4.2]"
+1,IS-IS CRYPTO_AUTH-Based Authentication,"[RFC7978, Section 4.3]"
+2,DTLS Pairwise Security,"[RFC7978, Section 4.4]"
+3,Composite Security,"[RFC7978, Section 4.5]"
+4-14,Unassigned,
+15,Reserved,[RFC7978]

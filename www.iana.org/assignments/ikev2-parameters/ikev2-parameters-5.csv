@@ -1,1 +1,32 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Number,Name,ESP Reference,IKEv2 Reference
+0,Reserved,[RFC7296],-
+1,ENCR_DES_IV64,UNSPECIFIED,-
+2,ENCR_DES,[RFC2405],[RFC7296]
+3,ENCR_3DES,[RFC2451],[RFC7296]
+4,ENCR_RC5,[RFC2451],[RFC7296]
+5,ENCR_IDEA,[RFC2451],[RFC7296]
+6,ENCR_CAST,[RFC2451],[RFC7296]
+7,ENCR_BLOWFISH,[RFC2451],[RFC7296]
+8,ENCR_3IDEA,UNSPECIFIED,[RFC7296]
+9,ENCR_DES_IV32,UNSPECIFIED,-
+10,Reserved,[RFC7296],-
+11,ENCR_NULL,[RFC2410],Not allowed
+12,ENCR_AES_CBC,[RFC3602],[RFC7296]
+13,ENCR_AES_CTR,[RFC3686],[RFC5930]
+14,ENCR_AES_CCM_8,[RFC4309],[RFC5282]
+15,ENCR_AES_CCM_12,[RFC4309],[RFC5282]
+16,ENCR_AES_CCM_16,[RFC4309],[RFC5282]
+17,Unassigned,,
+18,AES-GCM with a 8 octet ICV,[RFC4106],[RFC5282]
+19,AES-GCM with a 12 octet ICV,[RFC4106],[RFC5282]
+20,AES-GCM with a 16 octet ICV,[RFC4106],[RFC5282]
+21,ENCR_NULL_AUTH_AES_GMAC,[RFC4543],Not allowed
+22,Reserved for IEEE P1619 XTS-AES,[Matt_Ball],-
+23,ENCR_CAMELLIA_CBC,[RFC5529],[RFC7296]
+24,ENCR_CAMELLIA_CTR,[RFC5529],-
+25,ENCR_CAMELLIA_CCM with an 8-octet ICV,[RFC5529],-
+26,ENCR_CAMELLIA_CCM with a 12-octet ICV,[RFC5529],-
+27,ENCR_CAMELLIA_CCM with a 16-octet ICV,[RFC5529],-
+28,ENCR_CHACHA20_POLY1305,[RFC7634],[RFC7634]
+29-1023,Unassigned,,
+1024-65535,Private use,[RFC7296],[RFC7296]

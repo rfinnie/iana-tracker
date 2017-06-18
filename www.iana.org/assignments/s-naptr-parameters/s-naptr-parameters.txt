@@ -1,1 +1,113 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+                                                      Straightforward-NAPTR (S-NAPTR) Parameters
+
+   Created
+           2004-10-10
+
+   Last Updated
+           2015-10-19
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * S-NAPTR Application Service Tags
+     * S-NAPTR Application Protocol Tags
+
+S-NAPTR Application Service Tags
+
+   Registration Procedure(s)
+
+ Specification Required in form of an RFC
+
+   Expert(s)
+
+ Jouni Korhonen
+
+   Reference
+           [RFC3958][RFC4848]
+
+   Available Formats
+           [IMG]
+           CSV
+
+         Tag        Reference
+   aaa              [RFC6408]
+   aaa+acct         [RFC7585]
+   aaa+ap1          [RFC6408]
+   aaa+ap2          [RFC6408]
+   aaa+ap3          [RFC6408]
+   aaa+ap4          [RFC6408]
+   aaa+ap5          [RFC6408]
+   aaa+ap6          [RFC6408]
+   aaa+ap7          [RFC6408]
+   aaa+ap8          [RFC6408]
+   aaa+ap9          [RFC6408]
+   aaa+ap16777250   [RFC6408]
+   aaa+ap16777251   [RFC6408]
+   aaa+ap16777264   [RFC6408]
+   aaa+ap16777267   [RFC6408]
+   aaa+ap16777281   [RFC6408]
+   aaa+ap16777282   [RFC6408]
+   aaa+ap16777283   [RFC6408]
+   aaa+ap16777284   [RFC6408]
+   aaa+ap16777285   [RFC6408]
+   aaa+ap16777286   [RFC6408]
+   aaa+ap16777287   [RFC6408]
+   aaa+ap16777288   [RFC6408]
+   aaa+ap16777289   [RFC6408]
+   aaa+ap16777290   [RFC6408]
+   aaa+ap4294967295 [RFC6408]
+   aaa+auth         [RFC7585]
+   aaa+dynauth      [RFC7585]
+   ALTO             [RFC7286]
+   AREG1            [RFC4698]
+   DCHK1            [RFC5144]
+   DREG1            [RFC3982]
+   EREG1            [RFC4414]
+   LIS              [RFC5986]
+   LoST             [RFC5222]
+   no-solicit       [RFC4095]
+   RELAY            [RFC5928]
+   SFUA.CFG         [RFC6011]
+   XCON             [RFC6503]
+
+S-NAPTR Application Protocol Tags
+
+   Registration Procedure(s)
+
+ Specification Required in form of an RFC
+
+   Expert(s)
+
+ Jouni Korhonen
+
+   Reference
+           [RFC3958][RFC4848]
+
+   Available Formats
+           [IMG]
+           CSV
+
+          Tag             Reference
+   CCMP               [RFC6503]
+   diameter.dtls.sctp [RFC6733]
+   diameter.sctp      [RFC6408]
+   diameter.tcp       [RFC6408]
+   diameter.tls.tcp   [RFC6408]
+   HELD               [RFC5986]
+   http               [RFC2616][RFC5222]
+   https              [RFC2818][RFC5222]
+   iris.beep          [RFC3983]
+   iris.lwz           [RFC4993]
+   iris.xpc           [RFC4992]
+   iris.xpcs          [RFC4992]
+   radius.dtls.udp    [RFC7585]
+   radius.tls.tcp     [RFC7585]
+   turn.dtls          [RFC7350]
+   turn.tcp           [RFC5928]
+   turn.tls           [RFC5928]
+   turn.udp           [RFC5928]

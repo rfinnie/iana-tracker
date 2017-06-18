@@ -1,0 +1,31 @@
+Value,Description,Reference
+creator,The entity that generates the document.,[RFC7970]
+reporter,The entity that reported the information.,[RFC7970]
+admin,"An administrative contact or business owner for an
+        asset or organization.",[RFC7970]
+tech,"An entity responsible for the day-to-day management of
+        technical issues for an asset or organization.",[RFC7970]
+provider,An external hosting provider for an asset.,[RFC7970]
+user,An end-user of an asset or part of an organization.,[RFC7970]
+billing,"An entity responsible for billing issues for an
+        asset or organization.",[RFC7970]
+legal,"An entity responsible for legal issues related to an
+        asset or organization.",[RFC7970]
+irt,"An entity responsible for handling security issues for
+        an asset or organization.",[RFC7970]
+abuse,"An entity responsible for handling abuse originating
+        from an asset or organization.",[RFC7970]
+cc,"An entity that is to be kept informed about the events
+        related to an asset or organization.",[RFC7970]
+cc-irt,"A CSIRT or information-sharing organization
+        coordinating activity related to an asset or organization.",[RFC7970]
+leo,"A law enforcement organization supporting the
+        investigation of activity affecting an asset or organization.",[RFC7970]
+vendor,The vendor that produces an asset.,[RFC7970]
+vendor-support,A vendor that provides services.,[RFC7970]
+victim,A victim in the incident.,[RFC7970]
+victim-notified,"A victim in the incident who has been
+        notified.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

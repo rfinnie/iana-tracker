@@ -1,0 +1,4 @@
+Value,Description,Reference
+0,multicast,[RFC8059]
+1,unicast,[RFC8059]
+2-255,Unassigned,

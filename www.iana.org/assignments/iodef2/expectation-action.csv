@@ -1,0 +1,47 @@
+Value,Description,Reference
+nothing,"No action is requested.  Do nothing with the
+        information.",[RFC7970]
+contact-source-site,"Contact the site(s) identified as the
+        source of the activity.",[RFC7970]
+contact-target-site,"Contact the site(s) identified as the
+        target of the activity.",[RFC7970]
+contact-sender,Contact the originator of the document.,[RFC7970]
+investigate,Investigate the system(s) listed in the event.,[RFC7970]
+block-host,"Block traffic from the machine(s) listed as
+        sources in the event.",[RFC7970]
+block-network,"Block traffic from the network(s) lists as
+        sources in the event.",[RFC7970]
+block-port,Block the port listed as sources in the event.,[RFC7970]
+rate-limit-host,"Rate-limit the traffic from the machine(s)
+        listed as sources in the event.",[RFC7970]
+rate-limit-network,"Rate-limit the traffic from the
+        network(s) listed as sources in the event.",[RFC7970]
+rate-limit-port,"Rate-limit the port(s) listed as sources in
+        the event.",[RFC7970]
+redirect-traffic,"Redirect traffic from the intended
+        recipient for further analysis.",[RFC7970]
+honeypot,"Redirect traffic from systems listed in the event
+        to a honeypot for further analysis.",[RFC7970]
+upgrade-software,"Upgrade or patch the software or firmware
+        on an asset listed in the event.",[RFC7970]
+rebuild-asset,"Reinstall the operating system or
+        applications on an asset listed in the event.",[RFC7970]
+harden-asset,"Change the configuration of an asset listed in
+        the event to reduce the attack surface.",[RFC7970]
+remediate-other,"Remediate the activity in a way other than
+        by rate limiting or blocking.",[RFC7970]
+status-triage,"Confirm receipt and begin triaging the
+        incident.",[RFC7970]
+status-new-info,"Notify the sender when new information is
+        received for this incident.",[RFC7970]
+watch-and-report,"Watch for the described activity or
+        indicators, and notify the sender when seen.",[RFC7970]
+training,"Train user to identify or mitigate the described
+        threat.",[RFC7970]
+defined-coa,"Perform a predefined course of action (COA).
+        The COA is named in the DefinedCOA class.",[RFC7970]
+other,"Perform a custom action described in the Description
+        class.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

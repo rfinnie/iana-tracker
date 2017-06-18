@@ -1,0 +1,13 @@
+Value,Description,Reference
+new,"The incident is newly reported, and no action has
+        been taken.",[RFC7970]
+in-progress,"The contents of this incident are under
+        investigation.",[RFC7970]
+forwarded,"The incident has been forwarded to another party
+        for handling.",[RFC7970]
+resolved,"The investigation into the activity in this
+        incident has concluded.",[RFC7970]
+future,The described activity has not yet been detected.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

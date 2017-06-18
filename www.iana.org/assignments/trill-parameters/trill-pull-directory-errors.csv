@@ -1,0 +1,15 @@
+Err,Level,Meaning,Reference
+0,,No Error,[RFC-ietf-trill-directory-assist-mechanisms-12]
+1,Message,Unknown or reserved Query Message field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+2,Message,Request Message/data too short,[RFC-ietf-trill-directory-assist-mechanisms-12]
+3,Message,Unknown or reserved Update Message field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+4,Message,Update Message/data too short,[RFC-ietf-trill-directory-assist-mechanisms-12]
+5-126,Message,Unassigned,
+127,,Reserved,[RFC-ietf-trill-directory-assist-mechanisms-12]
+128,Record,Unknown or reserved QUERY Record field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+129,Record,QUERY Record truncated,[RFC-ietf-trill-directory-assist-mechanisms-12]
+130,Record,Address not found,[RFC-ietf-trill-directory-assist-mechanisms-12]
+131,Record,Unknown or reserved RESPONSE Record field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+132,Record,RESPONSE Record truncated,[RFC-ietf-trill-directory-assist-mechanisms-12]
+133-254,Record,Unassigned,
+255,,Reserved,[RFC-ietf-trill-directory-assist-mechanisms-12]

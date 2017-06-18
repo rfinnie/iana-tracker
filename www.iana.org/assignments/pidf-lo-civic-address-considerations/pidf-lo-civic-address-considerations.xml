@@ -1,1 +1,79 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="pidf-lo-civic-address-considerations.xsl"?>
+<?oxygen RNGSchema="pidf-lo-civic-address-considerations.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="pidf-lo-civic-address-considerations">
+  <title>PIDF-LO Civic Address Considerations Registry</title>
+  <category>Geopriv Location Object Registries</category>
+  <created>2009-12-08</created>
+  <updated>2010-03-04</updated>
+  <registry id="pidf-lo-civic-address-considerations-1">
+    <title>PIDF-LO Civic Address Considerations Registry</title>
+    <xref type="rfc" data="rfc5774"/>
+    <registration_rule>Expert Review</registration_rule>
+    
+    <record>
+      <country>CA</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc4776"/>
+      <xref type="person" data="Henning_Schulzrinne"/>
+      <status>obsolete</status>
+    </record>
+    <record>
+      <country>DE</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc4776"/>
+      <xref type="person" data="Henning_Schulzrinne"/>
+      <status>obsolete</status>
+    </record>
+    <record>
+      <country>JP</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc4776"/>
+      <xref type="person" data="Henning_Schulzrinne"/>
+      <status>obsolete</status>
+    </record>
+    <record>
+      <country>KR</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc4776"/>
+      <xref type="person" data="Henning_Schulzrinne"/>
+      <status>obsolete</status>
+    </record>
+    <record>
+      <country>US</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc4776"/>
+      <xref type="person" data="Henning_Schulzrinne"/>
+      <status>obsolete</status>
+    </record>
+    <record>
+      <country>AT</country>
+      <serial>0</serial>
+      <xref type="rfc" data="rfc5774"/>
+      <xref type="person" data="Alexander_Mayrhofer"/>
+      <xref type="person" data="Karl_Heinz_Wolf"/>
+      <status>active</status>
+    </record>
+  </registry>
+  
+  <people>
+    <person id="Alexander_Mayrhofer">
+      <name>Alexander Mayrhofer</name>
+      <org>nic.at GmbH</org>
+      <uri>mailto:alexander.mayrhofer&amp;nic.at</uri>
+      <updated>2009-01-09</updated>
+    </person>
+    <person id="Karl_Heinz_Wolf">
+      <name>Karl Heinz Wolf</name>
+      <org>nic.at GmbH</org>
+      <uri>mailto:karlheinz.wolf&amp;nic.at</uri>
+      <updated>2009-01-09</updated>
+    </person>
+    <person id="Henning_Schulzrinne">
+      <name>Henning Schulzrinne</name>
+      <org>Columbia University</org>
+      <uri>mailto:hgs+geopriv&amp;cs.columbia.edu</uri>
+      <updated>2009-01-09</updated>
+    </person>
+  </people>
+</registry>

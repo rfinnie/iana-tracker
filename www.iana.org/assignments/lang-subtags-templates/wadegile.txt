@@ -1,1 +1,44 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+(last updated 2008-10-07)
+
+LANGUAGE SUBTAG REGISTRATION FORM
+
+1. Name of requester:
+
+Mark Davis
+
+2. E-mail address of requester:
+
+markdavis&google.com
+
+3. Record Requested:
+
+Type: variant
+Subtag: wadegile
+Description: Wade-Giles romanization
+Prefix: zh-Latn
+
+4. Intended meaning of the subtag:
+
+To be used to indicate transcriptions, typically of Mandarin Chinese,
+in the romanization developed by Thomas Wade in the mid-19th century,
+and reached settled form with Herbert Giles' Chinese-English
+dictionary of 1892.
+
+5. Reference to published description of the language (book or article):
+
+Krieger, Larry S.; Kenneth Neill, Dr. Edward Reynolds (1997). "Chapter
+4", in World History; Perspectives on the Past (in English). Illinois:
+D.C. Heath and Company, p. 82. ISBN 0-669-40533-7.
+
+Giles, Herbert. 1892. A Chinese-English Dictionary (Hua-Ying Zidian).
+Shanghai. (Also London 1912).
+
+See also the Library of Congress page for the relation between Hanyu
+Pinyin and Wade-Giles: http://www.loc.gov/catdir/pinyin/romcover.html
+
+See also the Wikipedia articles http://en.wikipedia.org/wiki/Wade-
+Giles and http://en.wikipedia.org/wiki/Comparison_of_Chinese_romanization_systems
+
+6. Any other relevant information:
+
+(file created 2008-10-07)

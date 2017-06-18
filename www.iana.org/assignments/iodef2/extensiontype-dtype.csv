@@ -1,0 +1,32 @@
+Value,Description,Reference
+boolean,The element content is of type BOOLEAN.,[RFC7970]
+byte,The element content is of type BYTE.,[RFC7970]
+bytes,The element content is of type HEXBIN.,[RFC7970]
+character,The element content is of type CHARACTER.,[RFC7970]
+date-time,The element content is of type DATETIME.,[RFC7970]
+ntp-stamp,Same as date-time.,[RFC7970]
+integer,The element content is of type INTEGER.,[RFC7970]
+portlist,The element content is of type PORTLIST.,[RFC7970]
+real,The element content is of type REAL.,[RFC7970]
+string,The element content is of type STRING.,[RFC7970]
+file,"The element content is a base64-encoded binary file
+        encoded as a BYTE[] type.",[RFC7970]
+path,"The element content is a file-system path encoded as a
+        STRING type.",[RFC7970]
+frame,"The element content is a Layer 2 frame encoded as a
+        HEXBIN type.",[RFC7970]
+packet,"The element content is a Layer 3 packet encoded as a
+        HEXBIN type.",[RFC7970]
+ipv4-packet,"The element content is an IPv4 packet encoded
+        as a HEXBIN type.",[RFC7970]
+ipv6-packet,"The element content is an IPv6 packet encoded
+        as a HEXBIN type.",[RFC7970]
+url,The element content is of type URL.,[RFC7970]
+csv,"The element content is a comma-separated value (CSV)
+        list per Section 2 of [RFC4180] encoded as a STRING type.",[RFC7970]
+winreg,"The element content is a Microsoft Windows registry key
+        encoded as a STRING type.",[RFC7970]
+xml,The element content is XML.  See Section 5.2 of [RFC7970].,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

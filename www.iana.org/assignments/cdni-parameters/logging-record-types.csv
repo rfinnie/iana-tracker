@@ -1,0 +1,2 @@
+record-types,Description,Reference
+cdni_http_request_v1,CDNI Logging Record version 1 for content delivery using HTTP,[RFC7937]

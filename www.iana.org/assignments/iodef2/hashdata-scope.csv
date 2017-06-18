@@ -1,0 +1,33 @@
+Value,Description,Reference
+file-contents,"A hash computed over the entire contents of a
+        file.",[RFC7970]
+file-pe-section,"A hash computed on a given section of a
+        Windows Portable Executable (PE) file.  If set to this value,
+        the HashTargetID class MUST identify the section being hashed.
+        A section is identified by an ordinal number (starting at 1)
+        corresponding to the order in which the given section
+        header was defined in the Section Table of the PE file header.",[RFC7970]
+file-pe-iat,"A hash computed on the Import Address
+        Table (IAT) of a PE file.  As IAT hashes are often tool
+        dependent, if this value is set, the Application class of
+        either the Hash or FuzzyHash classes MUST specify the tool
+        used to generate the hash.",[RFC7970]
+file-pe-resource,"A hash computed on a given resource in a PE
+        file.  If set to this value, the HashTargetID class MUST
+        identify the resource being hashed.  A resource is identified
+        by an ordinal number (starting at 1) corresponding to the
+        order in which the given resource is declared in the Resource
+        Directory of the Data Dictionary in the PE file header.",[RFC7970]
+file-pdf-object,"A hash computed on a given object in a
+        Portable Document Format (PDF) file.  If set to this value,
+        the HashTargetID class MUST identify the object being hashed.
+        This object is identified by its offset in the PDF file.",[RFC7970]
+email-hash,"A hash computed over the headers and body of an
+        email message.",[RFC7970]
+email-headers-hash,"A hash computed over all of the headers
+        of an email message.",[RFC7970]
+email-body-hash,"A hash computed over the body of an email
+        message.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

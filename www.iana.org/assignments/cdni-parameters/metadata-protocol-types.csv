@@ -1,0 +1,3 @@
+Protocol Type,Description,Type Specification,Protocol Specification
+http/1.1,Hypertext Transfer Protocol -- HTTP/1.1,[RFC8006],[RFC7230]
+https/1.1,HTTP/1.1 over TLS,[RFC8006],[RFC7230][RFC2818]

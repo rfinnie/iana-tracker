@@ -1,0 +1,7 @@
+Value,OSPFv2 TTZ LSA TLV Name,Reference
+0,Reserved,[RFC8099]
+1,TTZ ID TLV,"[RFC8099, Section 6.2]"
+2,TTZ Router TLV,"[RFC8099, Section 6.3]"
+3,TTZ Options TLV,"[RFC8099, Section 6.4]"
+4-32767,Unassigned,
+32768-65535,Reserved,[RFC8099]

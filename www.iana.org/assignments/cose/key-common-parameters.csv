@@ -1,0 +1,10 @@
+Name,Label,CBOR Type,Value Registry,Description,Reference
+Reserved for Private Use,less than -65536,,,,[RFC-ietf-cose-msg-24]
+"used for key parameters specific to a single algorithm
+        delegated to the COSE Key Type Parameters registry",-65536 to -1,,,,[RFC-ietf-cose-msg-24]
+Reserved,0,,,,[RFC-ietf-cose-msg-24]
+kty,1,tstr / int,COSE Key Common Parameters,Identification of the key type,[RFC-ietf-cose-msg-24]
+kid,2,bstr,,Key identification value - match to kid in message,[RFC-ietf-cose-msg-24]
+alg,3,tstr / int,COSE Algorithms,Key usage restriction to this algorithm,[RFC-ietf-cose-msg-24]
+key_ops,4,[+ (tstr/int)],,Restrict set of permissible operations,[RFC-ietf-cose-msg-24]
+Base IV,5,bstr,,Base IV to be xor-ed with Partial IVs,[RFC-ietf-cose-msg-24]

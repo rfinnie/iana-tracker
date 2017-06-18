@@ -1,0 +1,10 @@
+Value,Description,Reference
+add-key,Registry key added.,[RFC7970]
+add-value,Value added to a registry key.,[RFC7970]
+delete-key,Registry key deleted.,[RFC7970]
+delete-value,Value deleted from a registry key.,[RFC7970]
+modify-key,Registry key modified.,[RFC7970]
+modify-value,Value modified in a registry key.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

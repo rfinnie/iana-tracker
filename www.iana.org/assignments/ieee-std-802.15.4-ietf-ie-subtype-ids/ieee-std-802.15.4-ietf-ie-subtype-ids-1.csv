@@ -1,0 +1,4 @@
+Value,Subtype ID,Reference
+0,Reserved,[RFC8137]
+1-200,Unassigned,
+201-255,Reserved for Experimental Use,[RFC8137]
