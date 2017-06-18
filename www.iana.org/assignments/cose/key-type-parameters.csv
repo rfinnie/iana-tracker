@@ -1,0 +1,9 @@
+Key Type,Name,Label,CBOR Type,Description,Reference
+1,crv,-1,int / tstr,EC Curve identifier - Taken from the COSE Elliptic Curve registry,[RFC-ietf-cose-msg-24]
+2,crv,-1,int / tstr,EC Curve identifier - Taken from the COSE Elliptic Curve registry,[RFC-ietf-cose-msg-24]
+4,k,-1,bstr,Key Value,[RFC-ietf-cose-msg-24]
+1,x,-2,bstr,X Coordinate,[RFC-ietf-cose-msg-24]
+2,x,-2,bstr,X Coordinate,[RFC-ietf-cose-msg-24]
+2,y,-3,bstr / bool,Y Coordinate,[RFC-ietf-cose-msg-24]
+1,d,-4,bstr,Private key,[RFC-ietf-cose-msg-24]
+2,d,-4,bstr,Private key,[RFC-ietf-cose-msg-24]

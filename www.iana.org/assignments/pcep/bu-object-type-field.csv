@@ -1,0 +1,5 @@
+Type,Name,Reference
+0,Reserved,[RFC-ietf-pce-pcep-service-aware-13]
+1,LBU (Link Bandwidth Utilization),[RFC-ietf-pce-pcep-service-aware-13]
+2,LRBU (Link Residual Bandwidth Utilization),[RFC-ietf-pce-pcep-service-aware-13]
+3-255,Unassigned,

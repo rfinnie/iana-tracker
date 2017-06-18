@@ -1,0 +1,7 @@
+PType,Description,Reference
+0,Reserved,[RFC7978]
+1,Null,"[RFC7978, Section 3.1]"
+2,Ethertyped Payload,"[RFC7978, Section 3.2]"
+3,Ethernet Frame,"[RFC7978, Section 3.3]"
+4-14,Unassigned,
+15,Reserved,[RFC7978]

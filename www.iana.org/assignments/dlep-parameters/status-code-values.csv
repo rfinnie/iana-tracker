@@ -1,0 +1,15 @@
+Status Code,Failure Mode,Description,Reference
+0,Continue,Success,[RFC-ietf-manet-dlep-29]
+1,Continue,Not Interested,[RFC-ietf-manet-dlep-29]
+2,Continue,Request Denied,[RFC-ietf-manet-dlep-29]
+3,Continue,Inconsistent Data,[RFC-ietf-manet-dlep-29]
+4-111,Continue,Unassigned,
+112-127,Continue,Reserved for Private Use,[RFC-ietf-manet-dlep-29]
+128,Terminate,Unknown Message,[RFC-ietf-manet-dlep-29]
+129,Terminate,Unexpected Message,[RFC-ietf-manet-dlep-29]
+130,Terminate,Invalid Data,[RFC-ietf-manet-dlep-29]
+131,Terminate,Invalid Destination,[RFC-ietf-manet-dlep-29]
+132,Terminate,Timed Out,[RFC-ietf-manet-dlep-29]
+133-239,Terminate,Unassigned,
+240-254,Terminate,Reserved for Private Use,[RFC-ietf-manet-dlep-29]
+255,Terminate,Shutting Down,[RFC-ietf-manet-dlep-29]

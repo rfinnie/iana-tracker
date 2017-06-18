@@ -1,0 +1,18 @@
+Value,Description,Reference
+reservedDelegation,The domain is permanently inactive.,[RFC7970]
+assignedAndActive,The domain is in a normal state.,[RFC7970]
+assignedAndInactive,"The domain has an assigned registration, 
+        but the delegation is inactive.",[RFC7970]
+assignedAndOnHold,The domain is in dispute.,[RFC7970]
+revoked,"The domain is in the process of being purged from
+        the database.",[RFC7970]
+transferPending,"The domain is pending a change in
+        authority.",[RFC7970]
+registryLock,The domain is on hold by the registry.,[RFC7970]
+registrarLock,"Same as ""registryLock"".",[RFC7970]
+other,"The domain has a known status, but it is not one of
+        the redefined enumerated values.",[RFC7970]
+unknown,The domain has an unknown status.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

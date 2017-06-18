@@ -1,0 +1,10 @@
+Value,Description,Reference
+0,Reserved,[RFC8169]
+1,No payload,[RFC8169]
+2,"PTPv2, Ethernet encapsulation",[RFC8169]
+3,"PTPv2, IPv4 encapsulation",[RFC8169]
+4,"PTPv2, IPv6 encapsulation",[RFC8169]
+5,NTP,[RFC8169]
+6-191,Unassigned,
+192-254,Reserved for Private Use,[RFC8169]
+255,Reserved,[RFC8169]

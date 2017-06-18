@@ -1,0 +1,42 @@
+Value,Description,Reference
+takeover-account,Control was taken of a given account.,[RFC7970]
+takeover-service,Control was taken of a given service.,[RFC7970]
+takeover-system,Control was taken of a given system.,[RFC7970]
+cps-manipulation,A cyber-physical system was manipulated.,[RFC7970]
+cps-damage,A cyber-physical system was damaged.,[RFC7970]
+availability-data,"Access to particular data was degraded or
+        denied.",[RFC7970]
+availability-account,"Access to an account was degraded or
+        denied.",[RFC7970]
+availability-service,"Access to a service was degraded or
+        denied.",[RFC7970]
+availability-system,"Access to a system was degraded or
+        denied.",[RFC7970]
+damaged-system,"Hardware on a system was irreparably
+        damaged.",[RFC7970]
+damaged-data,Data on a system was deleted.,[RFC7970]
+breach-propietary,"Sensitive or proprietary information was
+        accessed or exfiltrated.",[RFC7970]
+breach-privacy,"Personally identifiable information was
+        accessed or exfiltrated.",[RFC7970]
+breach-credential,"Credential information was accessed or
+        exfiltrated.",[RFC7970]
+breach-configuration,"System configuration or data inventory
+        was access or exfiltrated.",[RFC7970]
+integrity-data,Data on the system was modified.,[RFC7970]
+integrity-configuration,"Application or system configuration
+        was modified.",[RFC7970]
+integrity-hardware,"Firmware of a hardware component was
+        modified.",[RFC7970]
+traffic-redirection,"Network traffic on the system was
+        redirected.",[RFC7970]
+monitoring-traffic,"Network traffic emerging from a host or
+        enclave was monitored.",[RFC7970]
+monitoring-host,"System activity (e.g., running processes,
+        keystrokes) were monitored.",[RFC7970]
+policy,"Activity violated the system owner's acceptable use
+        policy.",[RFC7970]
+unknown,The impact is unknown.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

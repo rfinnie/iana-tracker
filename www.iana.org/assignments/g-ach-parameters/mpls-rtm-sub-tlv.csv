@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC8169]
+1,PTP,[RFC8169]
+2-191,Unassigned,
+192-254,Reserved for Private Use,[RFC8169]
+255,Reserved,[RFC8169]

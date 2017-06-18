@@ -1,0 +1,7 @@
+URN,Description,Contact,Index Value,Reference
+urn:ietf:params:push,"This link relation type is used to identify a resource
+        for sending push messages.",The WEBPUSH WG of the IETF (webpush@ietf.org),N/A,[RFC8030]
+urn:ietf:params:push:set,"This link relation type is used to identify a
+        collection of push message subscriptions.",The WEBPUSH WG of the IETF (webpush@ietf.org),N/A,[RFC8030]
+urn:ietf:params:push:receipt,"This link relation type is used to identify a resource
+        for receiving delivery confirmations for push messages.",The WEBPUSH WG of the IETF (webpush@ietf.org),N/A,[RFC8030]

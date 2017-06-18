@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Reserved,[RFC8066]
+1-31,Used by ITU-T G.9903 G.9905 Command IDs,[ITU-T G.9903][ITU-T G.9905]
+32-254,Unassigned,
+255,Reserved,[RFC8066]

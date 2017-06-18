@@ -1,0 +1,5 @@
+Bit,Flag,Multi-Layer Path Property,Reference
+0-28,,Unassigned,
+29,T,Triggered Signalling Allowed,[RFC-ietf-pce-inter-layer-ext-12]
+30,M,Multi-Layer Requested,[RFC-ietf-pce-inter-layer-ext-12]
+31,I,Inter-Layer Allowed,[RFC-ietf-pce-inter-layer-ext-12]

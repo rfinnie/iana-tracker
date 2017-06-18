@@ -1,0 +1,5 @@
+Code,Description,Reference
+0,Reserved,[RFC-ietf-manet-dlep-29]
+1-65519,Unassigned,
+65520-65534,Reserved for Private Use,[RFC-ietf-manet-dlep-29]
+65535,Reserved,[RFC-ietf-manet-dlep-29]

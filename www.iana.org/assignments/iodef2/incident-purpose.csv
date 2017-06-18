@@ -1,0 +1,13 @@
+Value,Description,Reference
+traceback,The incident was sent for trace-back purposes.,[RFC7970]
+mitigation,"The incident was sent to request aid in
+        mitigating the described activity.",[RFC7970]
+reporting,"The incident was sent to comply with reporting
+        requirements.",[RFC7970]
+watch,"The incident was sent to convey indicators that should
+        be monitored.",[RFC7970]
+other,"The incident was sent for purposes specified in the
+        Expectation class.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

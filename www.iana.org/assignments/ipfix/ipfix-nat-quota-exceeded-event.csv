@@ -1,0 +1,7 @@
+Value,Quota Exceeded Event Name,Reference
+0,Reserved,[RFC-ietf-behave-ipfix-nat-logging-13]
+1,Maximum session entries,[RFC-ietf-behave-ipfix-nat-logging-13]
+2,Maximum BIB entries,[RFC-ietf-behave-ipfix-nat-logging-13]
+3,Maximum entries per user,[RFC-ietf-behave-ipfix-nat-logging-13]
+4,Maximum active hosts or subscribers,[RFC-ietf-behave-ipfix-nat-logging-13]
+5,Maximum fragments pending reassembly,[RFC-ietf-behave-ipfix-nat-logging-13]

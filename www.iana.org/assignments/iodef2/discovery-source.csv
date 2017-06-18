@@ -1,0 +1,31 @@
+Value,Description,Reference
+nidps,Network Intrusion Detection or Prevention System.,[RFC7970]
+hips,Host-based Intrusion Prevention System.,[RFC7970]
+siem,Security Information and Event Management System.,[RFC7970]
+av,Antivirus or antispam software.,[RFC7970]
+third-party-monitoring,"Contracted third-party monitoring
+        service.",[RFC7970]
+incident,"The activity was discovered while investigating an
+        unrelated incident.",[RFC7970]
+os-log,Operating system logs.,[RFC7970]
+application-log,Application logs.,[RFC7970]
+device-log,Network device logs.,[RFC7970]
+network-flow,Network flow analysis.,[RFC7970]
+passive-dns,Passive DNS analysis.,[RFC7970]
+investigation,"Manual investigation initiated based on
+        notification of a new vulnerability or exploit.",[RFC7970]
+audit,Security audit.,[RFC7970]
+internal-notification,"A party within the organization
+        reported the activity.",[RFC7970]
+external-notification,"A party outside of the organization
+        reported the activity.",[RFC7970]
+leo,"A law enforcement organization notified the victim
+        organization.",[RFC7970]
+partner,"A customer or business partner reported the
+        activity to the victim organization.",[RFC7970]
+actor,"The threat actor directly or indirectly reported this
+        activity to the victim organization.",[RFC7970]
+unknown,Unknown detection approach.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

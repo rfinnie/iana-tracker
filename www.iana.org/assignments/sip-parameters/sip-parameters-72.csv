@@ -1,0 +1,5 @@
+Name,Description,Reference
+sip.607,"This feature-capability indicator, when included in a
+        Feature-Caps header field of a REGISTER response, indicates that
+        the server supports, and will process, the 607 (Unwanted) response
+        code.",[RFC-ietf-sipcore-status-unwanted-06]

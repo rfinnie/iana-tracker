@@ -1,0 +1,15 @@
+Disposition,Description,Change Controller,Contact,Reference
+invalid,"The resulting string is not a valid label. This disposition
+        may be assigned implicitly; see Section 7.5 of [RFC7940].  No variant labels
+        should be generated from a variant mapping with this type.",IESG,,[RFC7940]
+blocked,"The resulting string is a valid label but should be blocked
+        from registration. This would typically apply for a derived
+        variant that is undesirable due to having no practical use or
+        being confusingly similar to some other label.",IESG,,[RFC7940]
+allocatable,"The resulting string should be reserved for use by the
+        same operator of the origin string but not automatically
+        allocated for use.",IESG,,[RFC7940]
+activated,"The resulting string should be activated for use. (This
+        is the same as a Preferred Variant [RFC3743].)",IESG,,[RFC7940]
+valid,"The resultant string is a valid label.  (This is the typical
+        default action if no dispositions are defined.)",IESG,,[RFC7940]

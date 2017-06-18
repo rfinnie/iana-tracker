@@ -1,0 +1,4 @@
+Value,Description,Reference
+0-5,Unassigned,
+6,IP-in-IP-6LoRH,[RFC8138]
+7-255,Unassigned,

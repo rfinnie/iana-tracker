@@ -1,0 +1,11 @@
+Value,Description,Reference
+spoofed,This domain was spoofed.,[RFC7970]
+fraudulent,"This domain was operated with fraudulent
+        intentions.",[RFC7970]
+innocent-hacked,"This domain was compromised by a third
+        party.",[RFC7970]
+innocent-hijacked,This domain was deliberately hijacked.,[RFC7970]
+unknown,No categorization for this domain known.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

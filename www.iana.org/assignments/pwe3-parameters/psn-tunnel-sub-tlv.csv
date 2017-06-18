@@ -1,0 +1,6 @@
+Value,Description,Reference
+0,Reserved,[RFC7965]
+1,IPv4 PSN Tunnel sub-TLV,[RFC7965]
+2,IPv6 PSN Tunnel sub-TLV,[RFC7965]
+3-254,Unassigned,
+255,Reserved,[RFC7965]

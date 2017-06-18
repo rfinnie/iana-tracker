@@ -1,0 +1,5 @@
+Footprint Type,Description,Reference
+ipv4cidr,IPv4 CIDR address block,[RFC8006]
+ipv6cidr,IPv6 CIDR address block,[RFC8006]
+asn,Autonomous System Number (ASN),[RFC8006]
+countrycode,ISO 3166-1 alpha-2 code,[RFC8006]

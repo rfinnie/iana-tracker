@@ -1,0 +1,10 @@
+SubErr,Field with Error,Reference
+0,Unspecified,[RFC-ietf-trill-directory-assist-mechanisms-12]
+1,Unknown AFN field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+2,Unknown or Reserved QTYPE field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+3,Invalid or inconsistent SIZE field value,[RFC-ietf-trill-directory-assist-mechanisms-12]
+4,Invalid frame for QTYPE 2 (other than SEND),[RFC-ietf-trill-directory-assist-mechanisms-12]
+5,SEND frame sent as QTYPE 2,[RFC-ietf-trill-directory-assist-mechanisms-12]
+6,Invalid frame for QTYPE 5 (such as multicast MacDA),[RFC-ietf-trill-directory-assist-mechanisms-12]
+7-254,Unassigned,
+255,Reserved,[RFC-ietf-trill-directory-assist-mechanisms-12]

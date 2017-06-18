@@ -1,0 +1,5 @@
+Redirection Mode,Description,Reference
+DNS-I,Iterative DNS-based Redirection,[RFC8008]
+DNS-R,Recursive DNS-based Redirection,[RFC8008]
+HTTP-I,Iterative HTTP-based Redirection,[RFC8008]
+HTTP-R,Recursive HTTP-based Redirection,[RFC8008]

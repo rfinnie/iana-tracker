@@ -1,0 +1,6 @@
+Value,Description,Reference
+street,An address describing a physical location.,[RFC7970]
+mailing,An address to which correspondence should be sent.,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

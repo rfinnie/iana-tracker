@@ -1,0 +1,6 @@
+Name,Reference,Contact
+EXPE,[RFC7861],
+PRIV,[RFC7861],
+copy_to_auth,[RFC7862],[WA_Adamson]
+copy_from_auth,[RFC7862],[WA_Adamson]
+copy_confirm_auth,[RFC7862],[WA_Adamson]

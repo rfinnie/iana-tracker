@@ -1,0 +1,39 @@
+                                                        IEEE Std 802.15.4 IETF IE Subtype IDs
+
+   Created
+           2017-03-09
+
+   Last Updated
+           2017-05-30
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registry included below
+
+     * IEEE Std 802.15.4 IETF IE Subtype IDs
+
+IEEE Std 802.15.4 IETF IE Subtype IDs
+
+   Registration Procedure(s)
+
+ Expert Review
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC8137]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Value           Subtype ID           Reference
+   0       Reserved                      [RFC8137]
+   1-200   Unassigned
+   201-255 Reserved for Experimental Use [RFC8137]

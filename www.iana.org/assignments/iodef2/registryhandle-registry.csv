@@ -1,0 +1,11 @@
+Value,Description,Reference
+internic,Internet Network Information Center,[RFC7970]
+apnic,Asia Pacific Network Information Center,[RFC7970]
+arin,American Registry for Internet Numbers,[RFC7970]
+lacnic,Latin-American and Caribbean Internet Addresses Registry,[RFC7970]
+ripe,Reseaux IP Europeens,[RFC7970]
+afrinic,African Network Information Center,[RFC7970]
+local,A database local to the CSIRT,[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

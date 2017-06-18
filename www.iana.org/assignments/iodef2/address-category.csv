@@ -1,0 +1,28 @@
+Value,Description,Reference
+asn,Autonomous System Number.,[RFC7970]
+atm,Asynchronous Transfer Mode (ATM) address.,[RFC7970]
+e-mail,"Email address, per the EMAIL data type.",[RFC7970]
+ipv4-addr,"IPv4 host address in dotted-decimal notation
+        (i.e., a.b.c.d).",[RFC7970]
+ipv4-net,"IPv4 network address in dotted-decimal notation,
+        slash, significant bits (i.e., a.b.c.d/nn).",[RFC7970]
+ipv4-net-masked,"A sanitized IPv4 address with significant
+        bits per ""ipv4-net"" but with the character 'x' replacing any
+        digit(s) in the address or prefix.",[RFC7970]
+ipv4-net-mask,"IPv4 network address in dotted-decimal
+        notation, slash, network mask in dotted-decimal notation
+        (i.e., a.b.c.d/w.x.y.z).",[RFC7970]
+ipv6-addr,IPv6 host address per Section 4 of [RFC5952].,[RFC7970]
+ipv6-net,"IPv6 network address, slash, prefix per
+        Section 2.3 of [RFC4291].",[RFC7970]
+ipv6-net-masked,"A sanitized IPv6 address and prefix per
+        ""ipv6-net"" but with the character 'x' replacing any
+        hexadecimal digit(s) in the address or digit(s) in the
+        prefix.",[RFC7970]
+mac,"Media Access Control (MAC) address (i.e.,
+        aa:bb:cc:dd:ee:ff).",[RFC7970]
+site-uri,"A URL or URI for a resource, per the URL data
+        type.",[RFC7970]
+ext-value,"A value used to indicate that this attribute is
+        extended and the actual value is provided using the
+        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]
