@@ -1,8 +1,8 @@
 QTYPE,Description,Reference
-0,Reserved,[RFC-ietf-trill-directory-assist-mechanisms-12]
-1,Address query,[RFC-ietf-trill-directory-assist-mechanisms-12]
-2,Frame query,[RFC-ietf-trill-directory-assist-mechanisms-12]
+0,Reserved,[RFC8171]
+1,Address query,[RFC8171]
+2,Frame query,[RFC8171]
 3-4,Unassigned,
-5,Unknown unicast MAC query frame,[RFC-ietf-trill-directory-assist-mechanisms-12]
+5,Unknown unicast MAC query frame,[RFC8171]
 6-14,Unassigned,
-15,Reserved,[RFC-ietf-trill-directory-assist-mechanisms-12]
+15,Reserved,[RFC8171]
