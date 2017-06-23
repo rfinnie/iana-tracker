@@ -3,8 +3,8 @@ Addresses,Usage,Reference
 80-00-00 to 8F-FF-FF,MPLS Multicast,[RFC5332]
 90-00-00,MPLS-TP p2p,[RFC7213]
 90-00-01,Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces,[RFC7130]
-90-00-02,AllL1MI-ISs,[RFC-ietf-isis-mi-bis-03]
-90-00-03,AllL2MI-ISs,[RFC-ietf-isis-mi-bis-03]
+90-00-02,AllL1MI-ISs,[RFC8202]
+90-00-03,AllL2MI-ISs,[RFC8202]
 90-00-04 to 90-00-FF,Unassigned (small allocations),
 90-01-00,TRILL OAM,[RFC7455]
 90-01-01 to 90-01-FF,Unassigned (small allocations requiring both unicast and multicast),
