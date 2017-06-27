@@ -131,14 +131,14 @@ Object-Class Value,Name,Object-Type,Reference
 ,,1: Branch node list,[RFC6006]
 ,,2: Non-branch node list,[RFC6006]
 ,,3-15: Unassigned,
-32,"LSP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Reserved,"[draft-ietf-pce-stateful-pce][RFC Errata 
+32,LSP,0: Reserved,"[RFC-ietf-pce-stateful-pce-21][RFC Errata 
           4956]"
-,,"1: LSP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,2-15: Unassigned,[draft-ietf-pce-stateful-pce]
-33,"SRP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Reserved,"[draft-ietf-pce-stateful-pce][RFC Errata 
+,,1: LSP,[RFC-ietf-pce-stateful-pce-21]
+,,2-15: Unassigned,
+33,SRP,0: Reserved,"[RFC-ietf-pce-stateful-pce-21][RFC Errata 
           4956]"
-,,"1: SRP (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,2-15: Unassigned,[draft-ietf-pce-stateful-pce]
+,,1: SRP,[RFC-ietf-pce-stateful-pce-21]
+,,2-15: Unassigned,
 34,VENDOR-INFORMATION,0: Reserved,"[RFC7470][RFC Errata 
           4956]"
 ,,1: Vendor-Specific Constraints,[RFC7470]
