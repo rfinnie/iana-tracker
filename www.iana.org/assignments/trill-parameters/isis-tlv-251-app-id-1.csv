@@ -1,6 +1,6 @@
 Type,Name,Reference
 0,Reserved,[RFC7357]
-1,ESADI-PARAM,[RFC7357][RFC-ietf-trill-directory-assist-mechanisms-12]
+1,ESADI-PARAM,[RFC7357][RFC8171]
 2,PN-LAALP-Membership,[RFC7781]
 3,PN-RBv,[RFC7781]
 4,PN-MAC-RI-LAALP-INFO-START,[RFC7781]

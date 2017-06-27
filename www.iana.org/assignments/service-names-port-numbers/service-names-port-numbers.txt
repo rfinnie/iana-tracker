@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2017-06-13
+           2017-06-23
 
    Expert(s)
 
@@ -27,7 +27,7 @@
  Ports (49152-65535); the difference uses of these ranges is described in
  [RFC6335]. According to Section 8.1.2 of [RFC6335], System Ports are
  assigned by the "IETF Review" or "IESG Approval" procedures described in
- [RFC5226]. User Ports are assigned by IANA using the "IETF Review" process,
+ [RFC8126]. User Ports are assigned by IANA using the "IETF Review" process,
  the "IESG Approval" process, or the "Expert Review" process, as per
  [RFC6335]. Dynamic Ports are not assigned.
 
@@ -2007,9 +2007,9 @@ domain-s            853        tcp    DNS query-response protocol  [IESG]       
                                       run over TLS/DTLS
 domain-s            853        udp    DNS query-response protocol  [IESG]                                                [IETF_Chair]                                              2015-10-08   2017-01-23   [RFC7858][RFC8094]
                                       run over TLS/DTLS
-dlep                854        tcp    Dynamic Link Exchange        [IESG]                                                [IETF_Chair]                                              2017-04-03                [RFC-ietf-manet-dlep-29]
+dlep                854        tcp    Dynamic Link Exchange        [IESG]                                                [IETF_Chair]                                              2017-04-03                [RFC8175]
                                       Protocol (DLEP)
-dlep                854        udp    Dynamic Link Exchange        [IESG]                                                [IETF_Chair]                                              2017-04-03                [RFC-ietf-manet-dlep-29]
+dlep                854        udp    Dynamic Link Exchange        [IESG]                                                [IETF_Chair]                                              2017-04-03                [RFC8175]
                                       Protocol (DLEP)
                   855-859             Unassigned
 iscsi               860        tcp    iSCSI                        [IESG]                                                [IETF_Chair]                                                           2013-08-27   [RFC7143]
@@ -10348,8 +10348,8 @@ awacs-ice          4488        udp    Apple Wide Area Connectivity [Rory_McGuire
                  4489-4499            Unassigned                                                                                                                                                                                                                     USE: Ports
                                                                                                                                                                                                                                                                      4490 and
                                                                                                                                                                                                                                                                      4491
-ipsec-nat-t        4500        tcp    IPsec NAT-Traversal                                                                                                                                                    [RFC3947]
-ipsec-nat-t        4500        udp    IPsec NAT-Traversal                                                                                                                                                    [RFC3947]
+ipsec-nat-t        4500        tcp    IPsec NAT-Traversal                                                                                                                                       2017-06-19   [RFC-ietf-ipsecme-tcp-encaps-10]
+ipsec-nat-t        4500        udp    IPsec NAT-Traversal                                                                                                                                       2017-06-19   [RFC-ietf-ipsecme-tcp-encaps-10]
                    4501               Unassigned                   [IANA]                                                [IANA]                                                                                                                                                   De-registered 08 June 2001
 a25-fap-fgw        4502       sctp    A25 (FAP-FGW)                [ThreeGPP_2]                                          [Zhiming_Li]                                              2012-01-11
                  4503-4533            Unassigned
@@ -16516,7 +16516,11 @@ ng-control         38412      sctp    NG Control Plane (3GPP)      [Luis_Lopes] 
                    38422       tcp    Reserved
                    38422       udp    Reserved
 xn-control         38422      sctp    Xn Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-05-18   2017-05-19
-                38423-38799           Unassigned
+                38423-38471           Unassigned
+                   38472       tcp    Reserved
+                   38472       udp    Reserved
+f1-control         38472      sctp    F1 Control Plane (3GPP)      [Luis_Lopes]                                          [Luis_Lopes]                                              2017-06-23
+                38473-38799           Unassigned
                                       Sruth is a service for the
                                       distribution of routinely-
                                       generated but arbitrary
@@ -21397,7 +21401,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Lucas_Alonso]                                            Lucas Alonso                                        mailto:luke&demiurgestudios.com                               2002-02
 [Lucas_Lorensi]                                           Lucas Lorensi                                       mailto:lucas.lorensi&powersyslab.com                          2015-07-20
 [Ludwig_Kannicht]                                         Ludwig Kannicht            Dark Horse GmbH & Co KG  mailto:l.kannicht&thedarkhorse.de                             2015-06-02
-[Luis_Lopes]                                              Luis Lopes                                          mailto:llopes&qti.qualcomm.com                                2017-05-18
+[Luis_Lopes]                                              Luis Lopes                                          mailto:llopes&qti.qualcomm.com                                2017-06-23
 [Luis_Zugasti]                                            Luis Zugasti                                        mailto:lzugasti&fagorautomation.es                            2003-11
 [Luke_Bowen]                                              Luke Bowen                                          mailto:leb&tfn.com
 [Luke_Dion]                                               Luke Dion                                           mailto:ldion&tapeware.com                                     2004-04

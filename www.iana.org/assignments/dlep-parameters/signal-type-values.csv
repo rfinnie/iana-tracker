@@ -1,7 +1,7 @@
 Type Code,Description,Reference
-0,Reserved,[RFC-ietf-manet-dlep-29]
-1,Peer Discovery Signal,[RFC-ietf-manet-dlep-29]
-2,Peer Offer Signal,[RFC-ietf-manet-dlep-29]
+0,Reserved,[RFC8175]
+1,Peer Discovery Signal,[RFC8175]
+2,Peer Offer Signal,[RFC8175]
 3-65519,Unassigned,
-65520-65534,Reserved for Private Use,[RFC-ietf-manet-dlep-29]
-65535,Reserved,[RFC-ietf-manet-dlep-29]
+65520-65534,Reserved for Private Use,[RFC8175]
+65535,Reserved,[RFC8175]

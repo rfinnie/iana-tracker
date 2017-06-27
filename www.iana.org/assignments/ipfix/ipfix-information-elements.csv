@@ -1481,7 +1481,7 @@ Public:  2",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.c
   Values for this Information Element are listed in the NAT Event Type
   registry, see [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
   New assignments of values will be administered by IANA and are subject to
-  Expert Review [RFC5226]. Experts need to check definitions of new
+  Expert Review [RFC8126]. Experts need to check definitions of new
   values for completeness, accuracy, and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC-ietf-behave-ipfix-nat-logging-13] 
@@ -2165,7 +2165,7 @@ their parameters.
               
 The selectorAlgorithm registry is maintained by IANA.  New
 assignments for the registry will be administered by IANA, and
-are subject to Expert Review [RFC5226].
+are subject to Expert Review [RFC8126].
 
             
             
@@ -2711,7 +2711,7 @@ These types are registered in the IANA IPFIX Information Element
 Data Type subregistry.  This subregistry is intended to assign
 numbers for type names, not to provide a mechanism for adding data
 types to the IPFIX Protocol, and as such requires a Standards
-Action [RFC5226] to modify.",,,,[RFC5610],0,2013-02-18
+Action [RFC8126] to modify.",,,,[RFC5610],0,2013-02-18
 340,informationElementDescription,string,default,current,"A UTF-8 [RFC3629] encoded Unicode string containing a
 human-readable description of an Information Element.  The content
 of the informationElementDescription MAY be annotated with one or
@@ -2748,7 +2748,7 @@ These semantics are registered in the IANA IPFIX Information
 Element Semantics subregistry.  This subregistry is intended to
 assign numbers for semantics names, not to provide a mechanism for
 adding semantics to the IPFIX Protocol, and as such requires a
-Standards Action [RFC5226] to modify.",,,,[RFC5610],0,2013-02-18
+Standards Action [RFC8126] to modify.",,,,[RFC5610],0,2013-02-18
 345,informationElementUnits,unsigned16,,current,"A description of the units of an IPFIX Information
 Element.  These correspond to the units implicitly defined in the
 Information Element definitions in section 5 of the IPFIX
@@ -2762,7 +2762,7 @@ the field is unitless.
               
 These types are registered in the IANA IPFIX Information Element
 Units subregistry; new types may be added on a First Come First
-Served [RFC5226] basis.",,,,[RFC5610],0,2013-02-18
+Served [RFC8126] basis.",,,,[RFC5610],0,2013-02-18
 346,privateEnterpriseNumber,unsigned32,identifier,current,"A private enterprise number, as assigned by IANA.
 Within the context of an Information Element Type record, this
 element can be used along with the informationElementId element to
@@ -3037,7 +3037,7 @@ flowSelectorAlgorithm registry.  It might be necessary to define new Information
 to specify their parameters.  The flowSelectorAlgorithm registry
 is maintained by IANA.  New assignments for the registry will be
 administered by IANA, on a First Come First Served basis
-[RFC5226], subject to Expert Review [RFC5226].  Please note that
+[RFC8126], subject to Expert Review [RFC8126].  Please note that
 the purpose of the flow selection techniques described in this
 document is the improvement of measurement functions as defined in
 the Scope (Section 1).  Before adding new flow selector algorithms
@@ -3611,7 +3611,7 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         Quota Exceeded event. Values for this Information Element are listed
         in the NAT Quota Exceeded Event Type registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event]. 
         New assignments of values will be administered by IANA and are subject to
-        Expert Review [RFC5226]. Experts need to check definitions of new
+        Expert Review [RFC8126]. Experts need to check definitions of new
         values for completeness, accuracy, and redundancy.",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
@@ -3621,7 +3621,7 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         the NAT Threshold Event Type registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event]. 
         New
         assignments of values will be administered by IANA and are subject to
-        Expert Review [RFC5226]. Experts need to check definitions of new
+        Expert Review [RFC8126]. Experts need to check definitions of new
         values for completeness, accuracy, and redundancy.",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
@@ -3630,4 +3630,6 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
 469,httpContentType,string,default,current,"The HTTP Content-Type header field as defined in section 3.1.1.5 of 
         [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
-470-32767,Unassigned,,,,,,,,,,
+470,httpReasonPhrase,string,default,current,"The HTTP reason phrase as defined in section 6.1 of of 
+        [RFC7231].",,,[RFC7231],[Felix_Erlacher],0,2017-06-19
+471-32767,Unassigned,,,,,,,,,,

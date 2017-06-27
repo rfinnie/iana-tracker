@@ -10,6 +10,6 @@ Bit,Capability Description,Reference
 8,Support for multiple requests per message,[RFC5088]
 9,Global Concurrent Optimization (GCO),[RFC5557]
 10,P2MP path computation,[RFC6006]
-11,"Active Stateful PCE capability (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-12,"Passive Stateful PCE capability (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+11,Active Stateful PCE capability,[RFC-ietf-pce-stateful-pce-21]
+12,Passive Stateful PCE capability,[RFC-ietf-pce-stateful-pce-21]
 13-31,Unassigned,
