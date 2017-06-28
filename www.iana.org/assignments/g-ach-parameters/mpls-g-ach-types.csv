@@ -5,7 +5,7 @@ Value,Description,Reference
 0x0003-0x0006,Unassigned,
 0x0007,"BFD Control, PW-ACH encapsulation (without IP/UDP Headers)",[RFC5885]
 0x0008,"S-BFD Control, PW-ACH/L2SS encapsulation (without IP/UDP Headers)",[RFC7885]
-0x0009,MPLS-TP Dual-Homing Coordination message,[RFC-ietf-pals-mpls-tp-dual-homing-coordination-06]
+0x0009,MPLS-TP Dual-Homing Coordination message,[RFC8185]
 0x000A,MPLS Direct Loss Measurement (DLM),[RFC6374]
 0x000B,MPLS Inferred Loss Measurement (ILM),[RFC6374]
 0x000C,MPLS Delay Measurement (DM),[RFC6374]
