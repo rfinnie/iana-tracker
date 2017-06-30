@@ -8,3 +8,4 @@ Value,Description,Reference
 0xACCE,AccECN Experimental Option,[draft-kuehlewind-tcpm-accurate-ecn]
 0xE2D4C3D9,Shared Memory communications over RMDA protocol,[RFC7609]
 0xF989,Fast Open,[RFC7413]
+0xF990,Low Latency,[draft-wang-tcpm-low-latency-opt]
