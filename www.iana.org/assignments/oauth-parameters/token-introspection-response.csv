@@ -11,4 +11,4 @@ sub,Subject of the token,IESG,"[RFC7662, Section 2.2]"
 aud,Audience of the token,IESG,"[RFC7662, Section 2.2]"
 iss,Issuer of the token,IESG,"[RFC7662, Section 2.2]"
 jti,Unique identifier of the token,IESG,"[RFC7662, Section 2.2]"
-permissions,"array of objects, each describing a scoped, time-limitable permission for a resource",[Kantara_Initiative_User-Managed_Access_Work_Group],[https://docs.kantarainitiative.org/uma/wg/oauth-uma-federated-authz-2.0-05.html#rfc.section.5.1.1]
+permissions,"array of objects, each describing a scoped, time-limitable permission for a resource",[Kantara_UMA_WG],"[Federated Authorization for UMA 2.0, Section 5.1.1]"
