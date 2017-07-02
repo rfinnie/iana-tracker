@@ -3,12 +3,12 @@ Reserved for Private Use,less than -65536,,[RFC-ietf-cose-msg-24],No
 Unassigned,-65536 to -37,,,
 ES512,-36,ECDSA w/ SHA-512,[RFC-ietf-cose-msg-24],Yes
 ES384,-35,ECDSA w/ SHA-384,[RFC-ietf-cose-msg-24],Yes
-ECDH-SS + A256KW,-34,ECDH SS w/ Concat KDF and AES Key wrap w/ 256 bit key,[RFC-ietf-cose-msg-24],Yes
-ECDH-SS + A192KW,-33,ECDH SS w/ Concat KDF and AES Key wrap w/ 192 bit key,[RFC-ietf-cose-msg-24],Yes
-ECDH-SS + A128KW,-32,ECDH SS w/ Concat KDF and AES Key wrap w/ 128 bit key,[RFC-ietf-cose-msg-24],Yes
-ECDH-ES + A256KW,-31,ECDH ES w/ Concat KDF and AES Key wrap w/ 256 bit key,[RFC-ietf-cose-msg-24],Yes
-ECDH-ES + A192KW,-30,ECDH ES w/ Concat KDF and AES Key wrap w/ 192 bit key,[RFC-ietf-cose-msg-24],Yes
-ECDH-ES + A128KW,-29,ECDH ES w/ Concat KDF and AES Key wrap w/ 128 bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-SS + A256KW,-34,ECDH SS w/ Concat KDF and AES Key Wrap w/ 256-bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-SS + A192KW,-33,ECDH SS w/ Concat KDF and AES Key Wrap w/ 192-bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-SS + A128KW,-32,ECDH SS w/ Concat KDF and AES Key Wrap w/ 128-bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-ES + A256KW,-31,ECDH ES w/ Concat KDF and AES Key Wrap w/ 256-bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-ES + A192KW,-30,ECDH ES w/ Concat KDF and AES Key Wrap w/ 192-bit key,[RFC-ietf-cose-msg-24],Yes
+ECDH-ES + A128KW,-29,ECDH ES w/ Concat KDF and AES Key Wrap w/ 128-bit key,[RFC-ietf-cose-msg-24],Yes
 ECDH-SS + HKDF-512,-28,ECDH SS w/ HKDF - generate key directly,[RFC-ietf-cose-msg-24],Yes
 ECDH-SS + HKDF-256,-27,ECDH SS w/ HKDF - generate key directly,[RFC-ietf-cose-msg-24],Yes
 ECDH-ES + HKDF-512,-26,ECDH ES w/ HKDF - generate key directly,[RFC-ietf-cose-msg-24],Yes
@@ -39,12 +39,12 @@ AES-CCM-16-64-128,10,"AES-CCM mode 128-bit key, 64-bit tag, 13-byte nonce",[RFC-
 AES-CCM-16-64-256,11,"AES-CCM mode 256-bit key, 64-bit tag, 13-byte nonce",[RFC-ietf-cose-msg-24],Yes
 AES-CCM-64-64-128,12,"AES-CCM mode 128-bit key, 64-bit tag, 7-byte nonce",[RFC-ietf-cose-msg-24],Yes
 AES-CCM-64-64-256,13,"AES-CCM mode 256-bit key, 64-bit tag, 7-byte nonce",[RFC-ietf-cose-msg-24],Yes
-AES-MAC 128/64,14,"AES-MAC 128 bit key, 64-bit tag",[RFC-ietf-cose-msg-24],Yes
-AES-MAC 256/64,15,"AES-MAC 256 bit key, 64-bit tag",[RFC-ietf-cose-msg-24],Yes
+AES-MAC 128/64,14,"AES-MAC 128-bit key, 64-bit tag",[RFC-ietf-cose-msg-24],Yes
+AES-MAC 256/64,15,"AES-MAC 256-bit key, 64-bit tag",[RFC-ietf-cose-msg-24],Yes
 Unassigned,16-23,,,
 ChaCha20/Poly1305,24,"ChaCha20/Poly1305 w/ 256-bit key, 128-bit tag",[RFC-ietf-cose-msg-24],Yes
-AES-MAC 128/128,25,"AES-MAC 128 bit key, 128-bit tag",[RFC-ietf-cose-msg-24],Yes
-AES-MAC 256/128,26,"AES-MAC 256 bit key, 128-bit tag",[RFC-ietf-cose-msg-24],Yes
+AES-MAC 128/128,25,"AES-MAC 128-bit key, 128-bit tag",[RFC-ietf-cose-msg-24],Yes
+AES-MAC 256/128,26,"AES-MAC 256-bit key, 128-bit tag",[RFC-ietf-cose-msg-24],Yes
 Unassigned,27-29,,,
 AES-CCM-16-128-128,30,"AES-CCM mode 128-bit key, 128-bit tag, 13-byte nonce",[RFC-ietf-cose-msg-24],Yes
 AES-CCM-16-128-256,31,"AES-CCM mode 256-bit key, 128-bit tag, 13-byte nonce",[RFC-ietf-cose-msg-24],Yes

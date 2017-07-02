@@ -9,6 +9,6 @@ content type,3,tstr / uint,"[COAP Content-Formats]
 kid,4,bstr,,Key identifier,[RFC-ietf-cose-msg-24]
 IV,5,bstr,,Full Initialization Vector,[RFC-ietf-cose-msg-24]
 Partial IV,6,bstr,,Partial Initialization Vector,[RFC-ietf-cose-msg-24]
-counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR encoded signature structure,[RFC-ietf-cose-msg-24]
+counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature structure,[RFC-ietf-cose-msg-24]
 Unassigned,8,,,,
 CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC-ietf-cose-msg-24]
