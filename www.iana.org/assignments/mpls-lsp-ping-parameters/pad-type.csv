@@ -1,7 +1,7 @@
 Value,Meaning,Reference
-0,Reserved,[RFC-ietf-mpls-rfc4379bis-09]
-1,Drop Pad TLV from reply,[RFC-ietf-mpls-rfc4379bis-09]
-2,Copy Pad TLV to reply,[RFC-ietf-mpls-rfc4379bis-09]
+0,Reserved,[RFC8029]
+1,Drop Pad TLV from reply,[RFC8029]
+2,Copy Pad TLV to reply,[RFC8029]
 3-250,Unassigned,
-251-254,Reserved for Experimental Use,[RFC-ietf-mpls-rfc4379bis-09]
-255,Reserved,[RFC-ietf-mpls-rfc4379bis-09]
+251-254,Reserved for Experimental Use,[RFC8029]
+255,Reserved,[RFC8029]
