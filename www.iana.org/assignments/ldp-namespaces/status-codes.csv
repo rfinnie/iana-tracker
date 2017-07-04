@@ -67,7 +67,8 @@ Range/Value,E,Description,Reference
 0x00000041-0x00000049,,Unassigned,
 0x0000004A,0,IP Address Type Mismatch,[RFC6575]
 0x0000004B,0,Wrong IP Address Type,[RFC6575]
-0x0000004C-0x00010000,,Unassigned,
+0x0000004C,1,Session Rejected/Targeted Application Capability Mis-Match,[RFC-ietf-mpls-app-aware-tldp-09]
+0x0000004D-0x00010000,,Unassigned,
 0x00010001,0,Unknown ICCP RG,[RFC7275]
 0x00010002,0,ICCP Connection Count Exceeded,[RFC7275]
 0x00010003,0,ICCP Application Connection Count Exceeded,[RFC7275]

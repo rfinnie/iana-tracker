@@ -5,13 +5,15 @@
   <title>IANA IPv6 Special-Purpose Address Registry</title>
   <category>Internet Protocol version 6 (IPv6) Global Unicast Allocations</category>
   <created>2006-01-10</created>
-  <updated>2017-05-31</updated>
+  <updated>2017-06-28</updated>
   
   
   
   <registry id="iana-ipv6-special-registry-1">
     <title>IANA IPv6 Special-Purpose Address Registry</title>
-    <xref type="rfc" data="rfc4773"/><xref type="rfc" data="rfc6890"/>
+    <xref type="rfc" data="rfc4773"/>
+    <xref type="rfc" data="rfc6890"/>
+    <xref type="rfc" data="rfc8190"/>
     <registration_rule>IETF Review</registration_rule>
     <note>Address prefixes listed in the Special-Purpose Address Registry are
 not guaranteed routability in any particular local or global context.
@@ -48,10 +50,10 @@ information regarding each entry:
       allocated special-purpose address block between external
       interfaces.
 
-   o  Global - A boolean value indicating whether an IP datagram whose
-      destination address is drawn from the allocated special-purpose
-      address block is forwardable beyond a specified administrative
-      domain.
+   o  Globally Reachable - A boolean value indicating whether an IP 
+      datagram whose destination address is drawn from the allocated 
+      special-purpose address block is forwardable beyond a specified 
+      administrative domain.
 
    o  Reserved-by-Protocol - A boolean value indicating whether the
       special-purpose address block is reserved by IP, itself.  This
@@ -61,8 +63,7 @@ information regarding each entry:
       addresses contained by the address block.
 
 If the value of "Destination" is FALSE, the values of "Forwardable" and 
-"Global" must also be false.
-
+"Globally Reachable" must also be false.
 
 </note>
 
@@ -113,6 +114,18 @@ If the value of "Destination" is FALSE, the values of "Forwardable" and
       <global>True</global>
       <reserved>False</reserved>
     </record>
+    
+    <record>
+      <address>64:ff9b:1::/48</address>
+      <name>IPv4-IPv6 Translat.</name>
+      <spec><xref type="draft" data="RFC-ietf-v6ops-v4v6-xlat-prefix-02"/></spec>
+      <allocation>2017-06</allocation>
+      <source>True</source>
+      <destination>True</destination>
+      <forwardable>True</forwardable>
+      <global>False</global>
+      <reserved>False</reserved>
+    </record>
  
      <record>
       <address>100::/64</address>
@@ -142,7 +155,7 @@ If the value of "Destination" is FALSE, the values of "Forwardable" and
       <address>2001::/32</address>
       <name>TEREDO</name>
       <spec><xref type="rfc" data="rfc4380"/>
-        <xref type="draft" data="RFC-bchv-rfc6890bis-07"/></spec>
+        <xref type="rfc" data="rfc8190"/></spec>
       <allocation>2006-01</allocation>
       <source>True</source>
       <destination>True</destination>
@@ -289,7 +302,7 @@ If the value of "Destination" is FALSE, the values of "Forwardable" and
       <address>fc00::/7</address>
       <name>Unique-Local</name>
       <spec><xref type="rfc" data="rfc4193"/>
-        <xref type="draft" data="RFC-bchv-rfc6890bis-07"/></spec>
+        <xref type="rfc" data="rfc8190"/></spec>
       <allocation>2005-10</allocation>
       <source>True</source>
       <destination>True</destination>
@@ -300,7 +313,7 @@ If the value of "Destination" is FALSE, the values of "Forwardable" and
     
     <record>
       <address>fe80::/10</address>
-      <name>Linked-Scoped Unicast</name>
+      <name>Link-Local Unicast</name>
       <spec><xref type="rfc" data="rfc4291"/></spec>
       <allocation>2006-02</allocation>
       <source>True</source>
@@ -313,7 +326,7 @@ If the value of "Destination" is FALSE, the values of "Forwardable" and
   </registry>
 
   
-
+  
   <footnote anchor="1">Unless allowed by a more specific allocation.</footnote>
   <footnote anchor="2">See Section 5 of <xref type="rfc" data="rfc4380"/> for details.</footnote>
   <footnote anchor="3">According to the 3+3 Plan outlined in <xref type="rfc" data="rfc7954"/>, the termination date can be postponed to September 2022.</footnote>

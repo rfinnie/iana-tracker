@@ -31,7 +31,7 @@ Tag,Data Item,Semantics,Reference
 39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
 40-95,Unassigned,,
 96,COSE_Encrypt,COSE Encrypted Data Object,[RFC-ietf-cose-msg-24]
-97,COSE_Mac,COSE Mac-ed Data Object,[RFC-ietf-cose-msg-24]
+97,COSE_Mac,COSE MACed Data Object,[RFC-ietf-cose-msg-24]
 98,COSE_Sign,COSE Signed Data Object,[RFC-ietf-cose-msg-24]
 99-255,Unassigned,,
 256,multiple,mark value as having string references,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann]

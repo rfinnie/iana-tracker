@@ -8,12 +8,12 @@ Value,Description,Reference
 6,P2MP capable,[RFC6006]
 7,VENDOR-INFORMATION-TLV,[RFC7470]
 8-15,Unassigned,
-16,"STATEFUL-PCE-CAPABILITY (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-17,"SYMBOLIC-PATH-NAME (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-18,"IPV4-LSP-IDENTIFIERS (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-19,"IPV6-LSP-IDENTIFIERS (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-20,"LSP-ERROR-CODE (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-21,"RSVP-ERROR-SPEC (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+16,STATEFUL-PCE-CAPABILITY,[RFC-ietf-pce-stateful-pce-21]
+17,SYMBOLIC-PATH-NAME,[RFC-ietf-pce-stateful-pce-21]
+18,IPV4-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-21]
+19,IPV6-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-21]
+20,LSP-ERROR-CODE,[RFC-ietf-pce-stateful-pce-21]
+21,RSVP-ERROR-SPEC,[RFC-ietf-pce-stateful-pce-21]
 22,Unassigned,
 23,LSP-DB-VERSION,[RFC-ietf-pce-stateful-sync-optimizations-10]
 24,SPEAKER-ENTITY-ID,[RFC-ietf-pce-stateful-sync-optimizations-10]

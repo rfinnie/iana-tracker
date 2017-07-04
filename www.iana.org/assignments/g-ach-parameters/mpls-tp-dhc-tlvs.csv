@@ -1,5 +1,5 @@
 Type,Description,Length,Reference
-0x0000,Reserved,,[RFC-ietf-pals-mpls-tp-dual-homing-coordination-06]
-0x0001,PW Status,20 bytes,[RFC-ietf-pals-mpls-tp-dual-homing-coordination-06]
-0x0002,Dual-Node Switching,16 bytes,[RFC-ietf-pals-mpls-tp-dual-homing-coordination-06]
+0x0000,Reserved,,[RFC8185]
+0x0001,PW Status,20 bytes,[RFC8185]
+0x0002,Dual-Node Switching,16 bytes,[RFC8185]
 0x0003-0xFFFF,Unassigned,,

@@ -39,10 +39,10 @@ Error-Type,Meaning,Error-value,Reference
 ,,3: END-POINTS object missing,[RFC5440]
 ,,4: MONITORING object missing,[RFC5886]
 ,,5-7: Unassigned,
-,,"8: LSP Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,"9: ERO Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,"10: SRP Object missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,"11: LSP-IDENTIFIERS TLV missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+,,8: LSP Object missing,[RFC-ietf-pce-stateful-pce-21]
+,,9: ERO Object missing,[RFC-ietf-pce-stateful-pce-21]
+,,10: SRP Object missing,[RFC-ietf-pce-stateful-pce-21]
+,,11: LSP-IDENTIFIERS TLV missing,[RFC-ietf-pce-stateful-pce-21]
 ,,12: LSP-DB-VERSION TLV missing,[RFC-ietf-pce-stateful-sync-optimizations-10]
 ,,13-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
@@ -88,29 +88,29 @@ Error-Type,Meaning,Error-value,Reference
 18,P2MP Fragmentation Error,0: Unassigned,[RFC6006]
 ,,1: Fragmented request failure,[RFC6006]
 ,,2-255: Unassigned,
-19,"Invalid Operation (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+19,Invalid Operation,0: Unassigned,
 ,,"1: Attempted LSP Update Request for a non-delegated LSP. 
         The PCEP-ERROR Object is followed by the LSP Object that identifies the 
-        LSP. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+        LSP.",[RFC-ietf-pce-stateful-pce-21]
 ,,"2: Attempted LSP Update Request if the stateful PCE 
-        capability was not advertised. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+        capability was not advertised.",[RFC-ietf-pce-stateful-pce-21]
 ,,"3: Attempted LSP Update Request for an LSP identified 
-        by an unknown PLSP-ID. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,4: Unassigned,[draft-ietf-pce-stateful-pce]
+        by an unknown PLSP-ID.",[RFC-ietf-pce-stateful-pce-21]
+,,4: Unassigned,
 ,,"5: Attempted LSP State Report if active 
-        stateful PCE capability was not advertised. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+        stateful PCE capability was not advertised.",[RFC-ietf-pce-stateful-pce-21]
 ,,"6: PCE-initiated LSP limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"7: Delegation for PCE-initiated LSP cannot be revoked (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"8: Non-zero PLSP-ID in LSP initiation request (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"9: LSP is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"10: PCE-initiated operation-frequency limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,11-255: Unassigned,[draft-ietf-pce-stateful-pce]
-20,"LSP State synchronization error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
+,,11-255: Unassigned,
+20,LSP State synchronization error,0: Unassigned,
 ,,"1: A PCE indicates to a PCC that it can
         not process (an otherwise valid) LSP
         State Report.  The PCEP-ERROR Object is
         followed by the LSP Object that
-        identifies the LSP. (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+        identifies the LSP.",[RFC-ietf-pce-stateful-pce-21]
 ,,2: LSP Database version mismatch.,[RFC-ietf-pce-stateful-sync-optimizations-10]
 ,,"3: Attempt to trigger
         synchronization before PCE
@@ -121,12 +121,12 @@ Error-Type,Meaning,Error-value,Reference
         capability has not been
         advertised.",[RFC-ietf-pce-stateful-sync-optimizations-10]
 ,,"5: A PCC indicates to a PCE that it can
-        not complete the state synchronization (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+        not complete the state synchronization",[RFC-ietf-pce-stateful-pce-21]
 ,,"6: Received an invalid
         LSP DB Version Number.",[RFC-ietf-pce-stateful-sync-optimizations-10]
 ,,"7: Received an invalid
         Speaker Entity Identifier.",[RFC-ietf-pce-stateful-sync-optimizations-10]
-,,8-255: Unassigned,[draft-ietf-pce-stateful-pce]
+,,8-255: Unassigned,
 21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
 ,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]

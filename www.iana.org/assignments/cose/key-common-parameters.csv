@@ -7,4 +7,4 @@ kty,1,tstr / int,COSE Key Common Parameters,Identification of the key type,[RFC-
 kid,2,bstr,,Key identification value - match to kid in message,[RFC-ietf-cose-msg-24]
 alg,3,tstr / int,COSE Algorithms,Key usage restriction to this algorithm,[RFC-ietf-cose-msg-24]
 key_ops,4,[+ (tstr/int)],,Restrict set of permissible operations,[RFC-ietf-cose-msg-24]
-Base IV,5,bstr,,Base IV to be xor-ed with Partial IVs,[RFC-ietf-cose-msg-24]
+Base IV,5,bstr,,Base IV to be XORed with Partial IVs,[RFC-ietf-cose-msg-24]

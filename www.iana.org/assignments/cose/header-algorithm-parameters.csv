@@ -11,7 +11,7 @@ PartyV nonce,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, direct+HKDF-AES-128,
 PartyV identity,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, direct+HKDF-AES-128, 
         direct+HKDF-AES-256, ECDH-ES+HKDF-256, ECDH-ES+HKDF-512, 
         ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, ECDH-ES+A128KW, ECDH-ES+A192KW, 
-        ECDH-ES+A256KW, ECDH-SS+A128KW, ECDH-SS+A192KW, ECDH-SS+A256KW",-24,bstr,Party V identity Information,[RFC-ietf-cose-msg-24]
+        ECDH-ES+A256KW, ECDH-SS+A128KW, ECDH-SS+A192KW, ECDH-SS+A256KW",-24,bstr,Party V identity information,[RFC-ietf-cose-msg-24]
 PartyU other,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, direct+HKDF-AES-128, 
         direct+HKDF-AES-256, ECDH-ES+HKDF-256, ECDH-ES+HKDF-512, 
         ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, ECDH-ES+A128KW, ECDH-ES+A192KW, 
@@ -23,16 +23,16 @@ PartyU nonce,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, direct+HKDF-AES-128,
 PartyU identity,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, direct+HKDF-AES-128, 
         direct+HKDF-AES-256, ECDH-ES+HKDF-256, ECDH-ES+HKDF-512, 
         ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, ECDH-ES+A128KW, ECDH-ES+A192KW, 
-        ECDH-ES+A256KW, ECDH-SS+A128KW, ECDH-SS+A192KW, ECDH-SS+A256KW",-21,bstr,Party U identity Information,[RFC-ietf-cose-msg-24]
-salt,"direct+HKDF-SHA-256, direct +HKDF-SHA-512, 
+        ECDH-ES+A256KW, ECDH-SS+A128KW, ECDH-SS+A192KW, ECDH-SS+A256KW",-21,bstr,Party U identity information,[RFC-ietf-cose-msg-24]
+salt,"direct+HKDF-SHA-256, direct+HKDF-SHA-512, 
         direct+HKDF-AES-128, direct+HKDF-AES-256, ECDH-ES+HKDF-256, 
         ECDH-ES+HKDF-512, ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, 
         ECDH-ES+A128KW, ECDH-ES+A192KW, ECDH-ES+A256KW, 
         ECDH-SS+A128KW, ECDH-SS+A192KW, ECDH-SS+A256KW",-20,bstr,Random salt,[RFC-ietf-cose-msg-24]
 Unassigned,,-19 to -4,,,
 static key id,"ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, ECDH-SS+A128KW, 
-        ECDH-SS+A192KW, ECDH-SS+A256KW",-3,bstr,Static Public key identifier for the sender,[RFC-ietf-cose-msg-24]
+        ECDH-SS+A192KW, ECDH-SS+A256KW",-3,bstr,Static public key identifier for the sender,[RFC-ietf-cose-msg-24]
 static key,"ECDH-SS+HKDF-256, ECDH-SS+HKDF-512, ECDH-SS+A128KW, 
-        ECDH-SS+A192KW, ECDH-SS+A256KW",-2,COSE_Key,Static Public key for the sender,[RFC-ietf-cose-msg-24]
+        ECDH-SS+A192KW, ECDH-SS+A256KW",-2,COSE_Key,Static public key for the sender,[RFC-ietf-cose-msg-24]
 ephemeral key,"ECDH-ES+HKDF-256, ECDH-ES+HKDF-512, ECDH-ES+A128KW, 
-        ECDH-ES+A192KW, ECDH-ES+A256KW",-1,COSE_Key,Ephemeral Public key for the sender,[RFC-ietf-cose-msg-24]
+        ECDH-ES+A192KW, ECDH-ES+A256KW",-1,COSE_Key,Ephemeral public key for the sender,[RFC-ietf-cose-msg-24]
