@@ -17,7 +17,7 @@ att-field (both session and media level),connection,TRANSPORT,[RFC4145][RFC-ietf
 att-field (both session and media level),key-mgmt,IDENTICAL,[RFC4567][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),source-filter,IDENTICAL,[RFC4570][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),inactive,NORMAL,[RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (both session and media level),fingerprint,TRANSPORT,[RFC-ietf-mmusic-4572-update-13][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (both session and media level),fingerprint,TRANSPORT,[RFC8122][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),flute-tsi,TBD,[RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),flute-ch,TBD,[RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),FEC-declaration,TBD,[RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]

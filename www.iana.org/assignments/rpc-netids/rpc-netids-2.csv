@@ -1,6 +1,6 @@
 Netid,Constant Name,RFC(s) and Description (if needed),Point of Contact,Cross Reference to Uaddr Format Registry
-"""rdma""",NC_RDMA,[RFC-ietf-nfsv4-rfc5666bis-11][RFC791],[IESG],2
-"""rdma6""",NC_RDMA6,[RFC-ietf-nfsv4-rfc5666bis-11][RFC-ietf-6man-rfc2460bis-13],[IESG],3
+"""rdma""",NC_RDMA,[RFC8166][RFC791],[IESG],2
+"""rdma6""",NC_RDMA6,[RFC8166][RFC-ietf-6man-rfc2460bis-13],[IESG],3
 """sctp""",NC_SCTP,"[RFC4960][RFC791] 
         Section 2 of [RFC5665]",[IESG],2
 """sctp6""",NC_SCTP6,"[RFC4960][RFC-ietf-6man-rfc2460bis-13] 
