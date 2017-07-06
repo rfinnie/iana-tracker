@@ -9,7 +9,7 @@ Value,Description,Reference
 7,Close,[RFC5440]
 8,Path Computation Monitoring Request (PCMonReq),[RFC5886]
 9,Path Computation Monitoring Reply (PCMonRep),[RFC5886]
-10,"Report (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-11,"Update (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
+10,Report,[RFC-ietf-pce-stateful-pce-21]
+11,Update,[RFC-ietf-pce-stateful-pce-21]
 12,"Initiate (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 13-255,Unassigned,
