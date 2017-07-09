@@ -1,9 +1,9 @@
 Value,Meaning,Reference
-0,Reserved,[RFC-ietf-mpls-rfc4379bis-09]
-1,IPv4 Numbered,[RFC-ietf-mpls-rfc4379bis-09]
-2,IPv4 Unnumbered,[RFC-ietf-mpls-rfc4379bis-09]
-3,IPv6 Numbered,[RFC-ietf-mpls-rfc4379bis-09]
-4,IPv6 Unnumbered,[RFC-ietf-mpls-rfc4379bis-09]
+0,Reserved,[RFC8029]
+1,IPv4 Numbered,[RFC8029]
+2,IPv4 Unnumbered,[RFC8029]
+3,IPv6 Numbered,[RFC8029]
+4,IPv6 Unnumbered,[RFC8029]
 5-250,Unassigned,
-251-254,Reserved for Experimental Use,[RFC-ietf-mpls-rfc4379bis-09]
-255,Reserved,[RFC-ietf-mpls-rfc4379bis-09]
+251-254,Reserved for Experimental Use,[RFC8029]
+255,Reserved,[RFC8029]
