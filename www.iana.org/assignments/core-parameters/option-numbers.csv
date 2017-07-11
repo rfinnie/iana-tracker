@@ -39,5 +39,9 @@ Number,Name,Reference
 140,Reserved,[RFC7252]
 141-257,Unassigned,
 258,No-Response,[RFC7967]
-259-64999,Unassigned,
+259-2048,Unassigned,
+2049,OCF-Accept-Content-Format-Version,[Michael_Koster]
+2050-2052,Unassigned,
+2053,OCF-Content-Format-Version,[Michael_Koster]
+2054-64999,Unassigned,
 65000-65535,Reserved for Experimental Use,[RFC7252]

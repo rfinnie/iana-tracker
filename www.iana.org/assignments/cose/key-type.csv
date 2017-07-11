@@ -1,6 +1,6 @@
 Name,Value,Description,Reference
-Reserved,0,This value is reserved,[RFC-ietf-cose-msg-24]
-OKP,1,Octet Key Pair,[RFC-ietf-cose-msg-24]
-EC2,2,Elliptic Curve Keys w/ x- and y-coordinate pair,[RFC-ietf-cose-msg-24]
+Reserved,0,This value is reserved,[RFC8152]
+OKP,1,Octet Key Pair,[RFC8152]
+EC2,2,Elliptic Curve Keys w/ x- and y-coordinate pair,[RFC8152]
 Unassigned,3,,
-Symmetric,4,Symmetric Keys,[RFC-ietf-cose-msg-24]
+Symmetric,4,Symmetric Keys,[RFC8152]

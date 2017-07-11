@@ -1,8 +1,8 @@
 Value,Meaning,Reference
-1,MPLS Echo Request,[RFC-ietf-mpls-rfc4379bis-09]
-2,MPLS Echo Reply,[RFC-ietf-mpls-rfc4379bis-09]
+1,MPLS Echo Request,[RFC8029]
+2,MPLS Echo Reply,[RFC8029]
 3,MPLS Proxy Ping Request,[RFC7555]
 4,MPLS Proxy Ping Reply,[RFC7555]
 5,MPLS Relayed Echo Reply,[RFC7743]
 6-251,Unassigned,
-252-255,Reserved for Vendor Private Use,[RFC-ietf-mpls-rfc4379bis-09]
+252-255,Reserved for Vendor Private Use,[RFC8029]

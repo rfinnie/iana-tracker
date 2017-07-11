@@ -7,8 +7,8 @@ Notification-type,Name,Notification-value,Reference
 ,,2: PCE no longer in congested state,[RFC5440]
 ,,3-255: Unassigned,
 3,Unassigned,1-255: Unassigned,
-4,"Stateful PCE resource limit exceeded (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-stateful-pce]
-,,"1: Entering resource limit exceeded state (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,"2: Exiting resource limit exceeded state (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-stateful-pce]
-,,3-255: Unassigned,[draft-ietf-pce-stateful-pce]
+4,Stateful PCE resource limit exceeded,0: Unassigned,
+,,1: Entering resource limit exceeded state,[RFC-ietf-pce-stateful-pce-21]
+,,2: Deprecated,[RFC-ietf-pce-stateful-pce-21]
+,,3-255: Unassigned,
 5-255,Unassigned,1-255: Unassigned,
