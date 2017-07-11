@@ -8,7 +8,8 @@ Value,Name,Long Name,Reference
 7,VBCM,Video Back Channel Message,[RFC5104]
 8,PSLEI,Payload-Specific Third-Party Loss Early Indication,[RFC6642]
 9,ROI,Video region-of-interest (ROI),[3GPP TS 26.114 v13.1.0][Ozgur_Oyman]
-10-14,,Unassigned,
+10,LRR,Layer Refresh Request Command,[RFC-ietf-avtext-lrr-07]
+11-14,,Unassigned,
 15,AFB,Application Layer Feedback,[RFC4585]
 16-30,,Unassigned,
 31,Extension,Reserved for future extensions,[RFC4585]
