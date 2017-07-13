@@ -37,3 +37,4 @@ sldp.softvelum.com,Softvelum Low Delay Protocol,"SLDP is a low latency live stre
         servers to MSE-based browsers and WebSocket-enabled applications.",[Yury_Udovichenko]
 opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
 opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
+v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swindon-rs.github.io/swindon/swindon-lattice/],[Paul_Colomiets]
