@@ -56,7 +56,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
-,,"8: SYMBOLIC-PATH-NAME TLV missing (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"8: SYMBOLIC-PATH-NAME TLV missing (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
 ,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
@@ -99,11 +99,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unassigned,
 ,,"5: Attempted LSP State Report if active 
         stateful PCE capability was not advertised.",[RFC-ietf-pce-stateful-pce-21]
-,,"6: PCE-initiated LSP limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"7: Delegation for PCE-initiated LSP cannot be revoked (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"8: Non-zero PLSP-ID in LSP initiation request (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"9: LSP is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"10: PCE-initiated operation-frequency limit reached (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"6: PCE-initiated LSP limit reached (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"7: Delegation for PCE-initiated LSP cannot be revoked (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"8: Non-zero PLSP-ID in LSP initiation request (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"9: LSP is not PCE-initiated (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"10: PCE-initiated operation-frequency limit reached (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,11-255: Unassigned,
 20,LSP State synchronization error,0: Unassigned,
 ,,"1: A PCE indicates to a PCC that it can
@@ -130,15 +130,15 @@ Error-Type,Meaning,Error-value,Reference
 21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
 ,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
 ,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
-,,3-255: Unassigned,
+,,3-255: Unassigned,[draft-ietf-pce-lsp-setup-type]
 22,Unassigned,0-255: Unassigned,
-23,"Bad parameter value (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
-,,"1: SYMBOLIC-PATH-NAME in use (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"2: Speaker identity included for an LSP that is not PCE-initiated (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+23,"Bad parameter value (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+,,"1: SYMBOLIC-PATH-NAME in use (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"2: Speaker identity included for an LSP that is not PCE-initiated (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,3-255: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
-24,"LSP instantiation error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
-,,"1: Unacceptable instantiation parameters (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"2: Internal error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-,,"3: Signaling error (TEMPORARY - registered 2016-07-27, expires 2017-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+24,"LSP instantiation error (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",0: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
+,,"1: Unacceptable instantiation parameters (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"2: Internal error (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
+,,"3: Signaling error (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,4-255: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
 25-255,Unassigned,0-255: Unassigned,
