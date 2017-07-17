@@ -1,6 +1,12 @@
 Name,Value,Description,Reference,Recommended
 Reserved for Private Use,less than -65536,,[RFC8152],No
-Unassigned,-65536 to -37,,,
+Unassigned,-65536 to -43,,,
+RSAES-OAEP w/ SHA-512,-42,RSAES-OAEP w/ SHA-512,[RFC-jones-cose-rsa-05],Yes
+RSAES-OAEP w/ SHA-256,-41,RSAES-OAEP w/ SHA-256,[RFC-jones-cose-rsa-05],Yes
+RSAES-OAEP w/ [RFC8017] default parameters,-40,RSAES-OAEP w/ SHA-1,[RFC-jones-cose-rsa-05],Yes
+PS512,-39,RSASSA-PSS w/ SHA-512,[RFC-jones-cose-rsa-05],Yes
+PS384,-38,RSASSA-PSS w/ SHA-384,[RFC-jones-cose-rsa-05],Yes
+PS256,-37,RSASSA-PSS w/ SHA-256,[RFC-jones-cose-rsa-05],Yes
 ES512,-36,ECDSA w/ SHA-512,[RFC8152],Yes
 ES384,-35,ECDSA w/ SHA-384,[RFC8152],Yes
 ECDH-SS + A256KW,-34,ECDH SS w/ Concat KDF and AES Key Wrap w/ 256-bit key,[RFC8152],Yes
