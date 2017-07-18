@@ -10753,8 +10753,8 @@ hnmp,6790,udp,HNMP,[Jude_George],[Jude_George],,,,,,
 hnm,6791,tcp,Halcyon Network Manager,[Richard_Harriss],[Richard_Harriss],2005-05,,,,,
 hnm,6791,udp,Halcyon Network Manager,[Richard_Harriss],[Richard_Harriss],2005-05,,,,,
 ,6792-6800,,Unassigned,,,,,,,,
-acnet,6801,tcp,ACNET Control System Protocol,[Rich_Neswold],[Rich_Neswold],2007-02,,,,,
-acnet,6801,udp,ACNET Control System Protocol,[Rich_Neswold],[Rich_Neswold],2007-02,,,,,
+acnet,6801,tcp,ACNET Control System Protocol,[Fermilab],[Rich_Neswold],2007-02,2017-07-13,,,,
+acnet,6801,udp,ACNET Control System Protocol,[Fermilab],[Rich_Neswold],2007-02,2017-07-13,,,,
 ,6802-6816,,Unassigned,,,,,,,,
 pentbox-sim,6817,tcp,PenTBox Secure IM Protocol,[Alberto_Ortega_Llama],[Alberto_Ortega_Llama],2009-11-04,,,,,
 ,6817,udp,Reserved,,,,,,,,
@@ -14599,7 +14599,7 @@ schlog,,tcp,logging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-12-05,,
 schmpp,,tcp,Schindler maintenance portal protocol,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-04-30,,,,,Defined TXT keys: None
 schoms,,tcp,schindler object messaging system,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-05-12,,,,,Defined TXT keys: None
 schsap,,tcp,Schindler service authentication portal,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-04-30,,,,,Defined TXT keys: None
-schsrmp,,tcp,Schindler internal messaging service,[Arno_Odermatt],[Arno_Odermatt],2017-07-07,,,,,Defined TXT keys: None
+schsrmp,,tcp,Schindler internal messaging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2017-07-07,2017-07-10,,,,Defined TXT keys: None
 scone,,,Scone,[James_Moore],[James_Moore],,,,,,Defined TXT keys: None
 scoop-sftp,,tcp,"The service name is used by the SFTP protocol to 
       upload log files from vehicles to road side units in a securely 
