@@ -2,5 +2,5 @@ Name,Value,Description,Reference
 Reserved,0,This value is reserved,[RFC8152]
 OKP,1,Octet Key Pair,[RFC8152]
 EC2,2,Elliptic Curve Keys w/ x- and y-coordinate pair,[RFC8152]
-Unassigned,3,,
+RSA,3,RSA Key,[RFC-jones-cose-rsa-05]
 Symmetric,4,Symmetric Keys,[RFC8152]

@@ -22,7 +22,8 @@ Value,Description,Reference
 0x0027,PW OAM Message,[RFC6478]
 0x0028,MAC Withdraw OAM Message,[RFC7769]
 0x0029,PW Status Refresh Reduction,[RFC-ietf-pals-status-reduction-05]
-0x002A-0x0056,Unassigned,
+0x002A,Ring Protection Switching Protocol (RPS),[RFC-ietf-mpls-tp-shared-ring-protection-06]
+0x002B-0x0056,Unassigned,
 0x0057,Associated Channel carries an IPv6 packet,[RFC4385]
 0x0058,Fault OAM,[RFC6427]
 0x0059,G-ACh Advertisement Protocol,[RFC7212]

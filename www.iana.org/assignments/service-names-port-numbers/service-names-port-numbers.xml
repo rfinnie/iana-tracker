@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-13</updated>
+  <updated>2017-07-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70869,29 +70869,27 @@ common service discovery mechanisms.</note>
     <number>7016</number>
     <xref type="person" data="Steve_Barton_2"/>
   </record>
-  <record date="2017-04-28">
+  <record date="2017-04-28" updated="2017-07-20">
     <name>grasp</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <description>GeneRic Autonomic Signaling Protocol 
-    (TEMPORARY - registered 2017-04-28, expires 2018-04-28)</description>
+    <description>GeneRic Autonomic Signaling Protocol</description>
     <number>7017</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="draft-ietf-anima-grasp"/>
+    <xref type="draft" data="RFC-ietf-anima-grasp-15"/>
   </record>
-  <record date="2017-04-28">
+  <record date="2017-04-28" updated="2017-07-20">
     <name>grasp</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <description>GeneRic Autonomic Signaling Protocol 
-    (TEMPORARY - registered 2017-04-28, expires 2018-04-28)</description>
+    <description>GeneRic Autonomic Signaling Protocol</description>
     <number>7017</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="draft-ietf-anima-grasp"/>
+    <xref type="draft" data="RFC-ietf-anima-grasp-15"/>
   </record>
   <record date="2011-05-19">
     <name>fisa-svc</name>
@@ -74127,9 +74125,25 @@ common service discovery mechanisms.</note>
     <number>8006</number>
     <xref type="person" data="Thomas_Quarendon"/>
   </record>
-  <record>
-    <description>Unassigned</description>
+  <record date="2017-07-19">
+    <name>warppipe</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="MirrorWeb_LTD"/>
+    </assignee>
+    <description>I/O oriented cluster computing software</description>
     <number>8007</number>
+    <xref type="person" data="Jonathan_Kingsley"/>
+  </record>
+  <record date="2017-07-19">
+    <name>warppipe</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="MirrorWeb_LTD"/>
+    </assignee>
+    <description>I/O oriented cluster computing software</description>
+    <number>8007</number>
+    <xref type="person" data="Jonathan_Kingsley"/>
   </record>
   <record>
     <name>http-alt</name>
@@ -104730,7 +104744,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <updated>2013-03-21</updated>
     </person>
     <person id="Heikki_E">
-      <name>Heikki Ellil√§</name>
+      <name>Heikki Ellilä</name>
       <uri>mailto:heikki.ellila&amp;western.fi</uri>
       <updated>2009-06-18</updated>
     </person>
@@ -107536,6 +107550,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Jonathan_Downes">
       <name>Jonathan Downes</name>
       <uri>mailto:jonno&amp;activ.net.au</uri>
+    </person>
+    <person id="Jonathan_Kingsley">
+      <name>Jonathan Kingsley</name>
+      <uri>mailto:jon&amp;mirrorweb.com</uri>
+      <updated>2017-07-19</updated>
     </person>
     <person id="Jonathan_Leffler">
       <name>Jonathan Leffler</name>
@@ -111599,6 +111618,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Aristech GmbH</org>
       <uri>mailto:mirko.hering&amp;aristech.de</uri>
       <updated>2017-03-30</updated>
+    </person>
+    <person id="MirrorWeb_LTD">
+      <org>MirrorWeb LTD</org>
+      <uri>mailto:jon&amp;mirrorweb.com</uri>
+      <updated>2017-07-19</updated>
     </person>
     <person id="Mitch_Kaufman">
       <name>Mitch Kaufman</name>
