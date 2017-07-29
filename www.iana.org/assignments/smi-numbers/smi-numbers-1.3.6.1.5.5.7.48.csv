@@ -11,5 +11,5 @@ Decimal,Description,References
 10,id-ad-rpkiManifest,[RFC6487]
 11,id-ad-signedObject,[RFC6487]
 12,id-ad-cmc,[RFC6402]
-13,id-ad-rpkiNotify,[RFC-ietf-sidr-delta-protocol-08]
+13,id-ad-rpkiNotify,[RFC8182]
 14,id-ad-stirTNList,[RFC-ietf-stir-certificates-14]

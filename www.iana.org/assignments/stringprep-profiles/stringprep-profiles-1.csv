@@ -4,5 +4,5 @@ Version,Status,Profile Name,Reference
 1,Not Current,Nodeprep,[RFC6122][RFC7622]
 1,Current,Policy MIB Stringprep,[RFC4011]
 1,Not Current,Resourceprep,[RFC6122][RFC7622]
-1,Not Current,SASLprep,[RFC4013][RFC7613]
+1,Not Current,SASLprep,[RFC4013][RFC-ietf-precis-7613bis-11]
 1,Current,trace,[RFC4505]
