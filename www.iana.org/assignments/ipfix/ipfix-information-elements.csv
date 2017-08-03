@@ -909,8 +909,9 @@ potentially modified value caused by a middlebox
 function after the packet passed the Observation Point.",packets,,,[RFC5102],0,2013-02-18
 173,flowKeyIndicator,unsigned64,flags,current,"This set of bit fields is used for marking the Information
 Elements of a Data Record that serve as Flow Key.  Each bit
-represents an Information Element in the Data Record with
-the n-th bit representing the n-th Information Element.
+represents an Information Element in the Data Record, with 
+the n-th least significant bit representing the n-th Information 
+Element.
 A bit set to value 1 indicates that the corresponding
 Information Element is a Flow Key of the reported Flow.
 A bit set to value 0 indicates that this is not the case.
@@ -924,7 +925,8 @@ Flow Keys are among the first 64 Information Elements, because
 the flowKeyIndicator only contains 64 bits.  If the Data Record
 contains less than 64 Information Elements, then the bits in
 the flowKeyIndicator for which no corresponding Information
-Element exists MUST have the value 0.",,,,[RFC5102],0,2013-02-18
+Element exists MUST have the value 0.",,,,"[RFC5102][RFC Errata 
+          4984]",1,2017-08-01
 174,postMCastPacketTotalCount,unsigned64,totalCounter,current,"The total number of outgoing multicast packets sent for
 packets of this Flow by a multicast daemon within the
 Observation Domain since the Metering Process
@@ -3552,7 +3554,7 @@ section 6 of [RFC7231],
 associated with a flow. Implies that the flow 
 record represents a flow containing an HTTP 
 Response.",,0-999,[RFC7231],[Andrew_Feren],0,2016-04-28
-458,sourceTransportPortsLimit,unsigned16,totalCounter,current,"This Information Element contains the maximum
+458,sourceTransportPortsLimit,unsigned16,quantity,current,"This Information Element contains the maximum
 number of IP source transport ports that can be used by an end
 user when sending IP packets; each user is associated with one
 or more (source) IPv4 or IPv6 addresses. This Information
@@ -3561,7 +3563,8 @@ that adhere to REQ-4 of [RFC6888]. Limiting the number of
 ports assigned to each user ensures fairness among users and
 mitigates the denial-of-service attack that a user could launch
 against other users through the address-sharing device in order
-to grab more ports.",ports,1-65535,,[RFC8045],0,2016-11-10
+to grab more ports.",ports,1-65535,,"[RFC8045][RFC Errata 
+          5009]",1,2017-08-01
 459,httpRequestMethod,string,,current,"The HTTP request method, as defined in section 4 of
 [RFC7231], associated with a 
 flow. String with up to 8 UTF-8 characters.",,,,[Felix_Erlacher],0,2016-11-15

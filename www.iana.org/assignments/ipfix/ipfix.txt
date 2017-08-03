@@ -4,7 +4,7 @@
            2007-05-10
 
    Last Updated
-           2017-07-11
+           2017-08-01
 
    Note
 
@@ -713,10 +713,11 @@ ElementID                 Name                   Abstract Data Type   Data Type 
                                                                                              Observation Point.
                                                                                              This set of bit fields is used for marking the Information Elements of a Data
                                                                                              Record that serve as Flow Key. Each bit represents an Information Element in the
-                                                                                             Data Record with the n-th bit representing the n-th Information Element. A bit set
-                                                                                             to value 1 indicates that the corresponding Information Element is a Flow Key of
-                                                                                             the reported Flow. A bit set to value 0 indicates that this is not the case.
-   173    flowKeyIndicator                      unsigned64           flags        current                                                                                                                                                                     [RFC5102]                              0        2013-02-18
+                                                                                             Data Record, with the n-th least significant bit representing the n-th Information
+                                                                                             Element. A bit set to value 1 indicates that the corresponding Information Element
+                                                                                             is a Flow Key of the reported Flow. A bit set to value 0 indicates that this is not
+                                                                                             the case.
+   173    flowKeyIndicator                      unsigned64           flags        current                                                                                                                                                                     [RFC5102][RFC Errata 4984]             1        2017-08-01
                                                                                              If the Data Record contains more than 64 Information Elements, the corresponding
                                                                                              Template SHOULD be designed such that all Flow Keys are among the first 64
                                                                                              Information Elements, because the flowKeyIndicator only contains 64 bits. If the
@@ -2494,7 +2495,7 @@ ElementID                 Name                   Abstract Data Type   Data Type 
                                                                                              This Information Element contains the maximum number of IP source transport ports
                                                                                              that can be used by an end user when sending IP packets; each user is associated
                                                                                              with one or more (source) IPv4 or IPv6 addresses. This Information Element is
-   458    sourceTransportPortsLimit             unsigned16           totalCounter current    particularly useful in address-sharing deployments that adhere to REQ-4 of          ports        1-65535                                                         [RFC8045]                              0        2016-11-10
+   458    sourceTransportPortsLimit             unsigned16           quantity     current    particularly useful in address-sharing deployments that adhere to REQ-4 of          ports        1-65535                                                         [RFC8045][RFC Errata 5009]             1        2017-08-01
                                                                                              [RFC6888]. Limiting the number of ports assigned to each user ensures fairness
                                                                                              among users and mitigates the denial-of-service attack that a user could launch
                                                                                              against other users through the address-sharing device in order to grab more ports.

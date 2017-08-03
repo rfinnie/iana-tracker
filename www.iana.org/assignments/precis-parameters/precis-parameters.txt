@@ -4,7 +4,7 @@
            2015-03-06
 
    Last Updated
-           2015-12-17
+           2017-07-31
 
    Available Formats
            [IMG]
@@ -24,16 +24,17 @@ PRECIS Base Classes
  RFC Required
 
    Reference
-           [RFC7564]
+           [RFC-ietf-precis-7564bis-10]
 
    Available Formats
            [IMG]
            CSV
 
-   Base Class      Description                                                                                               Reference
-   FreeformClass   A sequence of letters, numbers, symbols, spaces, and other code points that is used for free-form         [RFC7564, Section 4.3]
-                   strings.
-   IdentifierClass A sequence of letters, numbers, and symbols that is used to identify or address a network entity.         [RFC7564, Section 4.2]
+   Base Class      Description                                                                            Reference
+   FreeformClass   A sequence of letters, numbers, symbols, spaces, and other code points that is used    [RFC-ietf-precis-7564bis-10, Section 4.3]
+                   for free-form strings.
+   IdentifierClass A sequence of letters, numbers, and symbols that is used to identify or address a      [RFC-ietf-precis-7564bis-10, Section 4.2]
+                   network entity.
 
 PRECIS Profiles
 
@@ -46,14 +47,17 @@ PRECIS Profiles
  Peter Saint-Andre (primary), Pete Resnick (secondary), Andrew Sullivan (backup)
 
    Reference
-           [RFC7564]
+           [RFC-ietf-precis-7564bis-10]
 
    Available Formats
            [IMG]
            CSV
 
-   Name                  Base Class      Replaces                           Template                           Reference
-   UsernameCaseMapped    IdentifierClass The SASLprep profile of stringprep profiles/UsernameCaseMapped.txt    [RFC7613, Section 3.2]
-   UsernameCasePreserved IdentifierClass The SASLprep profile of stringprep profiles/UsernameCasePreserved.txt [RFC7613, Section 3.3]
-   OpaqueString          FreeformClass   The SASLprep profile of stringprep profiles/OpaqueString.txt          [RFC7613, Section 4.2]
-   Nickname              FreeformClass   None                               profiles/Nickname.txt              [RFC7700]
+   Name                  Base Class      Replaces                      Template                           Reference
+   UsernameCaseMapped    IdentifierClass The SASLprep profile of       profiles/UsernameCaseMapped.txt    [RFC-ietf-precis-7613bis-11, Section 3.2]
+                                         stringprep
+   UsernameCasePreserved IdentifierClass The SASLprep profile of       profiles/UsernameCasePreserved.txt [RFC-ietf-precis-7613bis-11, Section 3.3]
+                                         stringprep
+   OpaqueString          FreeformClass   The SASLprep profile of       profiles/OpaqueString.txt          [RFC-ietf-precis-7613bis-11, Section 4.2]
+                                         stringprep
+   Nickname              FreeformClass   None                          profiles/Nickname.txt              [RFC-ietf-precis-7700bis-10]
