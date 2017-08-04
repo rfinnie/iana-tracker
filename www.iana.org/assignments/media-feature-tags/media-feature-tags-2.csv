@@ -104,3 +104,6 @@ ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
         The mediafeature tag is assigned a value that can be used by the receiving AS to later 
         identify the used registration for initial requests from an originating user or dialog 
         forming responses from a terminating user.",[3GPP TS 24.229 v12.16.0][Frederic_Firmin]
+28,g.3gpp.mcptt,"This media feature tag when used in a SIP request or a SIP response 
+        indicates that the function sending the SIP message supports Mission Critical 
+        Push To Talk (MCPTT) communication.",[3GPP TS 24.379 v13.5.0][Frederic_Firmin]
