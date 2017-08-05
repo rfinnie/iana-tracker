@@ -18,7 +18,7 @@ Value,Description,Reference
 23,LSP-DB-VERSION,[RFC-ietf-pce-stateful-sync-optimizations-10]
 24,SPEAKER-ENTITY-ID,[RFC-ietf-pce-stateful-sync-optimizations-10]
 25,Unassigned,
-26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-segment-routing]
+26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
-28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extension registered 2016-06-29, expires 2017-08-14)",[draft-ietf-pce-lsp-setup-type]
+28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
 29-65535,Unassigned,
