@@ -1,4 +1,4 @@
-UsernameCaseMapped,IdentifierClass,The SASLprep profile of stringprep,profiles/UsernameCaseMapped.txt,"[RFC7613, Section 3.2]"
-UsernameCasePreserved,IdentifierClass,The SASLprep profile of stringprep,profiles/UsernameCasePreserved.txt,"[RFC7613, Section 3.3]"
-OpaqueString,FreeformClass,The SASLprep profile of stringprep,profiles/OpaqueString.txt,"[RFC7613, Section 4.2]"
-Nickname,FreeformClass,None,profiles/Nickname.txt,[RFC7700]
+UsernameCaseMapped,IdentifierClass,The SASLprep profile of stringprep,profiles/UsernameCaseMapped.txt,"[RFC-ietf-precis-7613bis-11, Section 3.2]"
+UsernameCasePreserved,IdentifierClass,The SASLprep profile of stringprep,profiles/UsernameCasePreserved.txt,"[RFC-ietf-precis-7613bis-11, Section 3.3]"
+OpaqueString,FreeformClass,The SASLprep profile of stringprep,profiles/OpaqueString.txt,"[RFC-ietf-precis-7613bis-11, Section 4.2]"
+Nickname,FreeformClass,None,profiles/Nickname.txt,[RFC-ietf-precis-7700bis-10]

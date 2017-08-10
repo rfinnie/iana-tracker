@@ -4,12 +4,16 @@
 <registry xmlns="http://www.iana.org/assignments" id="http-cache-directives">
   <title>Hypertext Transfer Protocol (HTTP) Cache Directive Registry</title>
   <created>2014-02-17</created>
-  <updated>2014-06-11</updated>
+  <updated>2017-08-07</updated>
   
   <registry id="cache-directives">
     <title>HTTP Cache Directive Registry</title>
     <xref type="rfc" data="rfc7234"/>
     <registration_rule>IETF Review</registration_rule>
+    <record date="2017-08-07">
+      <value>immutable</value>
+      <xref type="draft" data="RFC-ietf-httpbis-immutable-03"/>
+    </record>
     <record>
       <value>max-age</value>
       <xref type="rfc" data="rfc7234">RFC7234, Section 5.2.1.1, 5.2.2.8</xref>

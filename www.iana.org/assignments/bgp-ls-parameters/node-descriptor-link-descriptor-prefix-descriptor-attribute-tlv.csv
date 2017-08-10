@@ -26,7 +26,12 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1029,IPv6 Router-ID of Local Node,140/---,"[RFC6119, Section 4.1]"
 1030,IPv4 Router-ID of Remote Node,134/---,"[RFC5305, Section 4.3]"
 1031,IPv6 Router-ID of Remote Node,140/---,"[RFC6119, Section 4.1]"
-1032-1087,Unassigned,,
+1032-1033,Unassigned,,
+1034,SR Capabilities,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1035,SR Algorithm,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1036,SR Local Block,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1037,SRMS Preference,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1038-1087,Unassigned,,
 1088,Administrative group (color),22/3,"[RFC5305, Section 3.1]"
 1089,Maximum link bandwidth,22/9,"[RFC5305, Section 3.4]"
 1090,Max. reservable link bandwidth,22/10,"[RFC5305, Section 3.5]"
@@ -38,7 +43,8 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1096,Shared Risk Link Group,,"[RFC7752, Section 3.3.2.5]"
 1097,Opaque Link Attribute,,"[RFC7752, Section 3.3.2.6]"
 1098,Link Name,,"[RFC7752, Section 3.3.2.7]"
-1099-1100,Unassigned,,
+1099,Adjacency Segment Identifier (Adj-SID) TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1100,LAN Adjacency Segment Identifier (Adj-SID) TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1101,Peer-Node-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
 1102,Peer-Adj-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
 1103,Peer-Set-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
@@ -51,4 +57,12 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1155,Prefix Metric,,[RFC5305]
 1156,OSPF Forwarding Address,,[RFC2328]
 1157,Opaque Prefix Attribute,,"[RFC7752, Section 3.3.3.6]"
-1158-65535,Unassigned,,
+1158,Prefix SID,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1159,Range,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1160,Unassigned,,
+1161,SID/Label TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1162-1169,Unassigned,,
+1170,IGP Prefix Attributes,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1171,Source Router-ID,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1172,L2 Bundle Member TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
+1173-65535,Unassigned,,
