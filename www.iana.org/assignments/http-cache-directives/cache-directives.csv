@@ -1,4 +1,5 @@
 Cache Directive,Reference
+immutable,[RFC-ietf-httpbis-immutable-03]
 max-age,"[RFC7234, Section 5.2.1.1, 5.2.2.8]"
 max-stale,"[RFC7234, Section 5.2.1.2]"
 min-fresh,"[RFC7234, Section 5.2.1.3]"
