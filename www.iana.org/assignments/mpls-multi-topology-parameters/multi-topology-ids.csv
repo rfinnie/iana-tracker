@@ -6,12 +6,9 @@ Value,Purpose,Reference
 4,IPv6 multicast topology,[RFC7307]
 5,IPv6 in-band management,[RFC7307]
 6-3944,Unassigned (for future IGP topologies),
-3945,"Rainbow MRT MPLS MT-ID (TEMPORARY - registered 2015-10-01, 
-        extension registered 2016-08-18, expires 2017-10-01)",[draft-ietf-mpls-ldp-mrt]
-3946,"Default Profile MRT-Red MPLS MT-ID (TEMPORARY - registered 2015-10-01, 
-        extension registered 2016-08-18, expires 2017-10-01)",[draft-ietf-mpls-ldp-mrt]
-3947,"Default Profile MRT-Blue MPLS MT-ID (TEMPORARY - registered 2015-10-01, 
-        extension registered 2016-08-18, expires 2017-10-01)",[draft-ietf-mpls-ldp-mrt]
+3945,"Rainbow MRT MPLS MT-ID (TEMPORARY - registered 2015-10-01, extension registered 2017-08-17, expires 2018-10-01)",[draft-ietf-mpls-ldp-mrt]
+3946,"Default Profile MRT-Red MPLS MT-ID (TEMPORARY - registered 2015-10-01, extension registered 2017-08-17, expires 2018-10-01)",[draft-ietf-mpls-ldp-mrt]
+3947,"Default Profile MRT-Blue MPLS MT-ID (TEMPORARY - registered 2015-10-01, extension registered 2017-08-17, expires 2018-10-01)",[draft-ietf-mpls-ldp-mrt]
 3948-3995,Unassigned (for future IGP topologies),
 3996-4095,Reserved for Experimental Use,[RFC7307]
 4096-65534,Unassigned (for MPLS topologies),

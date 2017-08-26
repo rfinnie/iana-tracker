@@ -64,12 +64,9 @@ Decimal,Name,Description,References
 247-250,Reserved,Reserved,
 251,vdsl2MIB,VDSL2-LINE-MIB,[RFC5650]
 252-262,Reserved,Reserved,
-263,Reserved,Reserved,"[RFC6768][RFC Errata 
-          3591]"
-264,Reserved,Reserved,"[RFC6767][RFC Errata 
-          3589]"
-265,Reserved,Reserved,"[RFC6766][RFC Errata 
-          3588]"
+263,Reserved,Reserved,[RFC6768][RFC Errata 3591]
+264,Reserved,Reserved,[RFC6767][RFC Errata 3589]
+265,Reserved,Reserved,[RFC6766][RFC Errata 3588]
 266-272,Reserved,Reserved,
 273,TED-MIB,TED-MIB,[RFC6825]
 274,VPLS-GENERIC-MIB,VPLS-GENERIC-MIB,[RFC7257]

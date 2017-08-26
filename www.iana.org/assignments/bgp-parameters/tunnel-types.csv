@@ -16,4 +16,5 @@ Value,Name,Reference
           4350]"
 14,IPv6 Tunnel,[Martin_Djernaes]
 15,SR TE Policy Type,[draft-previdi-idr-segment-routing-te-policy]
-16-65535,Unassigned,
+16,Bare,[Nischal_Sheth]
+17-65535,Unassigned,

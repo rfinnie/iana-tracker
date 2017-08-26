@@ -163,7 +163,7 @@ Language,,mail,,[RFC4021]
 Last-Modified,,http,standard,"[RFC7232, Section 2.2]"
 Latest-Delivery-Time,,mail,,[RFC4021]
 Lines,,netnews,deprecated,[RFC5536][RFC3977]
-Link,,http,,[RFC5988]
+Link,,http,standard,[RFC-nottingham-rfc5988bis-08]
 List-Archive,,mail,,[RFC4021]
 List-Help,,mail,,[RFC4021]
 List-ID,,mail,,[RFC4021]
