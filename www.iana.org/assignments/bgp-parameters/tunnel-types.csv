@@ -12,8 +12,7 @@ Value,Name,Reference
 10,MPLS Encapsulation,[draft-sd-l2vpn-evpn-overlay]
 11,MPLS in GRE Encapsulation,[draft-sd-l2vpn-evpn-overlay]
 12,VxLAN GPE Encapsulation,[draft-sd-l2vpn-evpn-overlay]
-13,MPLS in UDP Encapsulation,"[RFC7510][RFC Errata 
-          4350]"
+13,MPLS in UDP Encapsulation,[RFC7510][RFC Errata 4350]
 14,IPv6 Tunnel,[Martin_Djernaes]
 15,SR TE Policy Type,[draft-previdi-idr-segment-routing-te-policy]
 16,Bare,[Nischal_Sheth]

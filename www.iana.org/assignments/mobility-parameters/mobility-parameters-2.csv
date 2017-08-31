@@ -61,4 +61,4 @@ Value,Description,Reference
 59,LMA User-Plane Address,[RFC7389]
 60,Multicast Mobility Option,[RFC7411]
 61,Multicast Acknowledgement Option,[RFC7411]
-62,LMA Controlled MAG Parameters,[RFC-ietf-dmm-lma-controlled-mag-params-05]
+62,LMA-Controlled MAG Parameters,[RFC8127]
