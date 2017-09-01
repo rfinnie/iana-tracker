@@ -9,6 +9,6 @@ Type Extension,Name,Description,Reference
 1,MPR_TYPES,"The link metric types supported on this OLSRv2 interface of 
       this router (one octet each)",[RFC7722]
 2,SOURCE_ROUTE,"Indicates that the originator of the message supports source
-      route forwarding. No value.",[RFC-ietf-manet-olsrv2-multipath-15]
+      route forwarding. No value.",[RFC8218]
 3-223,,Unassigned,
 224-255,,Reserved for Experimental Use,[RFC7181]
