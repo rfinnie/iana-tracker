@@ -1,5 +1,5 @@
 Value,Description,Reference
-0,Reserved,[RFC-ietf-dmm-lma-controlled-mag-params-05]
-1,Binding Re-registration Control Sub-Option,[RFC-ietf-dmm-lma-controlled-mag-params-05]
-2,Heartbeat Control Sub-Option,[RFC-ietf-dmm-lma-controlled-mag-params-05]
+0,Reserved,[RFC8127]
+1,Binding Re-registration Control Sub-Option,[RFC8127]
+2,Heartbeat Control Sub-Option,[RFC8127]
 3-255,Unassigned,

@@ -71,6 +71,7 @@ Content-Return,,mail,,[RFC4021]
 Content-Script-Type,,http,,[RFC4229]
 Content-Style-Type,,http,,[RFC4229]
 Content-Transfer-Encoding,,MIME,,[RFC4021]
+Content-Translation-Type,,MIME,standard,[RFC-ietf-slim-multilangcontent-14]
 Content-Type,,http,standard,"[RFC7231, Section 3.1.1.5]"
 Content-Type,,MIME,,[RFC4021]
 Content-Version,,http,,[RFC4229]

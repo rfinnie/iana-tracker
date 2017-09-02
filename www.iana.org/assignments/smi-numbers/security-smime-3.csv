@@ -17,3 +17,6 @@ Decimal,Description,References
 16,id-alg-authEnc-256,[RFC6476]
 17,id-alg-mts-hashsig,[draft-housley-cms-mts-hash-sig]
 18,id-alg-AEADChaCha20Poly1305,[RFC8103]
+19,dhSinglePass-stdDH-hkdf-sha256-scheme,[RFC-ietf-curdle-cms-ecdh-new-curves-09]
+20,dhSinglePass-stdDH-hkdf-sha384-scheme,[RFC-ietf-curdle-cms-ecdh-new-curves-09]
+21,dhSinglePass-stdDH-hkdf-sha512-scheme,[RFC-ietf-curdle-cms-ecdh-new-curves-09]

@@ -56,7 +56,7 @@ edit-media,"Refers to a resource that can be used to edit media
 enclosure,"Identifies a related resource that is potentially
       large and might require special handling.",[RFC4287],
 first,"An IRI that refers to the furthest preceding resource
-    in a series of resources.",[RFC5988],"This relation type registration did not indicate a
+    in a series of resources.",[RFC-nottingham-rfc5988bis-08],"This relation type registration did not indicate a
       reference.  Originally requested by Mark Nottingham in December
       2004."
 glossary,Refers to a glossary of terms.,[http://www.w3.org/TR/1999/REC-html401-19991224],
@@ -71,7 +71,7 @@ icon,Refers to an icon representing the link's context.,[http://www.w3.org/TR/ht
 index,Refers to an index.,[http://www.w3.org/TR/1999/REC-html401-19991224],
 item,The target IRI points to a resource that is a member of the collection represented by the context IRI.,[RFC6573],
 last,"An IRI that refers to the furthest following resource
-      in a series of resources.",[RFC5988],"This relation type registration did not indicate a
+      in a series of resources.",[RFC-nottingham-rfc5988bis-08],"This relation type registration did not indicate a
       reference. Originally requested by Mark Nottingham in December
       2004."
 latest-version,"Points to a resource containing the latest (e.g.,
@@ -98,7 +98,7 @@ noreferrer,Indicates that no referrer information is to be leaked when following
 original,The Target IRI points to an Original Resource.,[RFC7089],"An Original Resource is a resource that exists or used to
       exist, and for which access to one of its prior states may be
       required."
-payment,Indicates a resource where payment is accepted.,[RFC5988],"This relation type registration did not indicate a
+payment,Indicates a resource where payment is accepted.,[RFC-nottingham-rfc5988bis-08],"This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus
       this specification makes no assumptions on the type of payment or
@@ -174,7 +174,7 @@ timemap,The Target IRI points to a TimeMap for an Original Resource.,[RFC7089],"
       a list of URIs of Mementos of the Original Resource is available."
 type,Refers to a resource identifying the abstract semantic type of which the link's context is considered to be an instance.,"[RFC6903], section 6",
 up,"Refers to a parent document in a hierarchy of
-      documents.",[RFC5988],"This relation type registration did not indicate a
+      documents.",[RFC-nottingham-rfc5988bis-08],"This relation type registration did not indicate a
       reference.  Requested by Noah Slater."
 version-history,"Points to a resource containing the version history
       for the context.",[RFC5829],
