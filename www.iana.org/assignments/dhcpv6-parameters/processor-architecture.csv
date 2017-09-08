@@ -30,4 +30,6 @@ Type,Architecture Name,Reference
 0x00 0x1c,RISC-V 64-bit UEFI boot from http,[Dong_Wei]
 0x00 0x1d,RISC-V 128-bit UEFI,[Dong_Wei]
 0x00 0x1e,RISC-V 128-bit UEFI boot from http,[Dong_Wei]
-0x00 0x1f-0xff 0xff,Unassigned,
+0x00 0x1f,s390 Basic,[Viktor_Mihajlovski]
+0x00 0x20,s390 Extended,[Viktor_Mihajlovski]
+0x00 0x21-0xff 0xff,Unassigned,
