@@ -1,4 +1,4 @@
 Sub-Type Value,Name,Reference,Date
-P,Advertising PE is the Primary PE.,[RFC-ietf-bess-evpn-vpws-14],2017-06-15
-B,Advertising PE is the Backup PE.,[RFC-ietf-bess-evpn-vpws-14],2017-06-15
-C,Control word [RFC4448] MUST be present.,[RFC-ietf-bess-evpn-vpws-14],2017-06-15
+P,Advertising PE is the primary PE.,[RFC8214],2017-06-15
+B,Advertising PE is the backup PE.,[RFC8214],2017-06-15
+C,Control word [RFC4448] MUST be present.,[RFC8214],2017-06-15

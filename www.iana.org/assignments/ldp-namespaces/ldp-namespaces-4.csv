@@ -47,7 +47,7 @@ Value,Description,Reference,Notes/Registration Date
 0x050C,Multi-Topology Capability,[RFC7307],
 0x050D,State Advertisement Control Capability,[RFC7473],
 0x050E,"MRT Capability TLV (TEMPORARY - registered 2015-10-01, extension registered 2017-08-17, expires 2018-10-01)",[draft-ietf-mpls-ldp-mrt],
-0x050F,Targeted Application Capability,[RFC-ietf-mpls-app-aware-tldp-09],
+0x050F,Targeted Application Capability,[RFC8223],
 0x0510-0x05FF,Unassigned,,
 0x0600,Label Request Message ID,[RFC5036],
 0x0601,MTU TLV,[RFC3988],

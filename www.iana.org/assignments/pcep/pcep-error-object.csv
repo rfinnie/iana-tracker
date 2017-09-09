@@ -141,4 +141,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,"2: Internal error (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"3: Signaling error (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,4-255: Unassigned,[draft-ietf-pce-pce-initiated-lsp]
-25-255,Unassigned,0-255: Unassigned,
+25,PCEP StartTLS failure,0: Unassigned,
+,,1: Reception of StartTLS after any PCEP exchange,[RFC-ietf-pce-pceps-18]
+,,"2: Reception of any other message apart from StartTLS, Open or PCErr",[RFC-ietf-pce-pceps-18]
+,,"3: Failure, connection without TLS is not possible",[RFC-ietf-pce-pceps-18]
+,,"4: Failure, connection without TLS is possible",[RFC-ietf-pce-pceps-18]
+,,5: No StartTLS message (nor PCErr/Open) before StartTLSWait timer expiry,[RFC-ietf-pce-pceps-18]
+,,6-255: Unassigned,
+26-255,Unassigned,0-255: Unassigned,

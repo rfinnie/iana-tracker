@@ -8,6 +8,7 @@ Number,Description,Reference
 6,06,Secure Sockets Layer,[Marc_VanHeyningen]
 7,07,NDS Authentication,[Vijay_Talati]
 8,08,Multi-Authentication Framework,[Dan_Fritch]
-9-127,09-7F,Unassigned,
+9,09,JSON Parameter Block,[Brandon_Wiley]
+10-127,0A-7F,Unassigned,
 128-255,80-FE,Reserved for Private Methods,[RFC1928]
 255,FF,No Acceptable Methods,[RFC1928]
