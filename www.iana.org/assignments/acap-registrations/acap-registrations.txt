@@ -11,16 +11,20 @@
 
    Registries included below
 
-     * ACAP Capabilities
-     * ACAP Response Codes
-     * Dataset Classes
-     * Vendor Subtrees
+     * ACAP Capabilities
+     * ACAP Response Codes
+     * Dataset Classes
+     * Vendor Subtrees
 
 ACAP Capabilities
 
    Registration Procedure(s)
 
  Specification Required
+
+   Expert(s)
+
+ Unassigned
 
    Reference
            [RFC2244]
@@ -41,7 +45,7 @@ ACAP Response Codes
 
    Registration Procedure(s)
 
- First Come, First Served
+ First Come First Served
 
    Reference
            [RFC2244]
@@ -76,7 +80,7 @@ Dataset Classes
 
    Registration Procedure(s)
 
- Standards-Track or IESG-Approved Experimental RFC
+ Standards Action or IESG-Approved Experimental RFC
 
    Reference
            [RFC2244]
@@ -137,4 +141,4 @@ Vendor Subtrees
    [Thomas_D_Esh]     Thomas D. Esh    mailto:tom.esh&alcatel-lucent.com        2010-10-27
    [Timo_Sirainen]    Timo Sirainen    mailto:timo.sirainen&dovecot.fi          2013-02-12
    [Troy_Rollo]       Troy Rollo       mailto:troy&corvu.com.au                 2001-06
-   [Volker_Dörr]     Volker Dörr     mailto:vd&naica.net                      2016-01-22
+   [Volker_Dörr]      Volker Dörr      mailto:vd&naica.net                      2016-01-22
