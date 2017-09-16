@@ -29,7 +29,9 @@ Tag,Data Item,Semantics,Reference
 37,byte string,Binary UUID ([RFC4122] section 4.1.2),[https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
 38,array,Language-tagged string,[http://peteroupc.github.io/CBOR/langtags.html][Peter_Occil]
 39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
-40-95,Unassigned,,
+40-60,Unassigned,,
+61,CBOR Web Token (CWT),CBOR Web Token (CWT),[draft-ietf-ace-cbor-web-token]
+62-95,Unassigned,,
 96,COSE_Encrypt,COSE Encrypted Data Object,[RFC8152]
 97,COSE_Mac,COSE MACed Data Object,[RFC8152]
 98,COSE_Sign,COSE Signed Data Object,[RFC8152]
