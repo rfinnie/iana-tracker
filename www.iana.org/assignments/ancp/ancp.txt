@@ -14,14 +14,14 @@
 
    Registries included below
 
-     * ANCP Message Types
-     * ANCP Result Codes
-     * ANCP Port Management Functions
-     * ANCP Technology Types
-     * ANCP Command Codes
-     * ANCP TLV Types
-     * ANCP Capability Types
-     * Joint GSMP / ANCP Version Registry
+     * ANCP Message Types
+     * ANCP Result Codes
+     * ANCP Port Management Functions
+     * ANCP Technology Types
+     * ANCP Command Codes
+     * ANCP TLV Types
+     * ANCP Capability Types
+     * Joint GSMP / ANCP Version Registry
 
 ANCP Message Types
 
@@ -34,7 +34,8 @@ ANCP Message Types
 
    Note
 
-  The values for Message Type MAY range from 0 to 255, but new Message Types SHOULD be assigned values sequentially from 90 onwards.
+  The values for Message Type MAY range from 0 to 255, but new Message Types SHOULD be
+ assigned values sequentially from 90 onwards.
 
    Available Formats
            [IMG]
@@ -65,6 +66,10 @@ ANCP Message Types
    151-255 Unassigned
 
 ANCP Result Codes
+
+   Expert(s)
+
+ Unassigned
 
    Reference
            [RFC6320]
@@ -176,6 +181,10 @@ ANCP Command Codes
    7-255 Unassigned
 
 ANCP TLV Types
+
+   Expert(s)
+
+ Unassigned
 
    Reference
            [RFC6320]

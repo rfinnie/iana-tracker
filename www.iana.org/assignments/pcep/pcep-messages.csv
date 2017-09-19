@@ -12,4 +12,5 @@ Value,Description,Reference
 10,Report,[RFC-ietf-pce-stateful-pce-21]
 11,Update,[RFC-ietf-pce-stateful-pce-21]
 12,"Initiate (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-13-255,Unassigned,
+13,The Start TLS Message (StartTLS),[RFC-ietf-pce-pceps-18]
+14-255,Unassigned,
