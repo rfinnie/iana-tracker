@@ -1,4 +1,4 @@
-Value,Name,Reference
+Value,Phase,Reference
 0,Reserved,[RFC8052]
 1,NONE,[RFC8052]
 2,HMAC-SHA256-128,[RFC8052]
