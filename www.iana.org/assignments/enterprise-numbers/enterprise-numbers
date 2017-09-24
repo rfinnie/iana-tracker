@@ -1,6 +1,6 @@
 PRIVATE ENTERPRISE NUMBERS
 
-(last updated 2017-09-19)
+(last updated 2017-09-22)
 
 SMI Network Management Private Enterprise Codes:
 
@@ -1686,9 +1686,9 @@ Decimal
     Michael A. Petonic
       petonic&hal.com
 418
-  Lawrence Berkeley Laboratory
-    Russ Wright
-      wright&lbl.gov
+  Lawrence Berkeley National Laboratory
+    Greg Haverkamp
+      gahaverkamp&lbl.gov
 419
   Dale Computer Corporation
     Dean Craven
@@ -50547,8 +50547,8 @@ Decimal
       ayotte&teamsoft.com
 12748
   Telenor ASA
-    Heming Harnæs
-      group-infrastructure&telenor.com
+    Ørjan Nordvik
+      orjan.nordvik&telenor.com
 12749
   UTA Telekom AG
     Heinz Ekker
@@ -86273,8 +86273,8 @@ Information Security of Pr
       pavesi&screen.it
 21679
   Bundesagentur für Arbeit
-    Peter Neuhauser
-      IT-Systemhaus.zertifizierungsdienst&arbeitsagentur.de
+    Holger Scheetz
+      it-systemhaus.vertrauensdienste&arbeitsagentur.de
 21680
   MeadWestvaco Intelligent Systems
     Susan Grauel
@@ -110550,9 +110550,9 @@ Decentralization / Helenic Public Administra
     Greg Ball
       gball&flyinghorsestudios.com
 27743
-  Shaney
+  Daftano (formerly 'Shaney')
     Davide Fiorentino
-      davide.fiorentino&shaney.net
+      email&daftano.com
 27744
   Majik Networks Inc.
     Taylor Dondich
@@ -133160,7 +133160,7 @@ Decentralization / Helenic Public Administra
       naoki&miolab.com
 33395
   Washington State Consolidated Technology Services
-    Internal Certificate Authority Administrator
+    Jeff Oster
       CTSDLPKIAdmin&watech.wa.gov
 33396
   Ferpa Consultoria e Sistemas Ltda.
@@ -202491,6 +202491,70 @@ Decentralization / Helenic Public Administra
   Civil Aviation University of China
     刘中 (Liu Zhong)
       liuzhong_18&163.com
+50728
+  Nemon
+    HongJe Kim
+      support&nemon.co.kr
+50729
+  Stichting Groningen Groningen Declaration Network
+    Herman de Leeuw
+      gdn&groningendeclaration.org
+50730
+  TELCAT MULTICOM GmbH
+    Efstratios Daskalopoulos
+      efstratios.daskalopoulos&telcat.de
+50731
+  NAES Corporation
+    Mike Leinweber
+      mike.leinweber&naes.com
+50732
+  HIAG Data
+    Thomas Maurer
+      thomas.maurer&itnetx.ch
+50733
+  bluebyteIT Sven Treiber
+    Sven Treiber
+      sven.treiber&bluebyte-it.de
+50734
+  HHGL Limited
+    Jason Hampton 
+      Jason.Hampton&homebase.co.uk
+50735
+  Vricon Systems
+    Anders Rönnbrant
+      anders.ronnbrant&vricon.com
+50736
+  Axcella, LLC
+    Nick Avgerinos
+      nicka&axcella.com
+50737
+  Chaitin Tech
+    yang.li
+      yang.li&chaitin.com
+50738
+  HomeLABs
+    Ivan Kotiv
+      zlojkota&gmail.com
+50739
+  lmu 
+    david planner
+      david.planner&iaag.geo.uni-muenchen.de
+50740
+  AIRSYS GmbH
+    Ronny Bunke
+      ronny.bunke&bertelsmann.de
+50741
+  Dust Devil Hosting, LLP
+    Emily Heginbotham
+      admin&cheetahdesigns.org
+50742
+  Optus Yes Lab
+    Guillaume Poulet-Mathis
+      yeslab&optus.com.au
+50743
+  nihon communication solutions
+    ANGURU SURESH
+      suresh.anguru&ncs-in.com
 
 
 End of Document
