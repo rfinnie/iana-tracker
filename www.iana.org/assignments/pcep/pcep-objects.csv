@@ -99,17 +99,17 @@ Object-Class Value,Name,Object-Type,Reference
 ,,1: Branch node list,[RFC6006]
 ,,2: Non-branch node list,[RFC6006]
 ,,3-15: Unassigned,
-32,LSP,0: Reserved,[RFC-ietf-pce-stateful-pce-21]
-,,1: LSP,[RFC-ietf-pce-stateful-pce-21]
+32,LSP,0: Reserved,[RFC8231]
+,,1: LSP,[RFC8231]
 ,,2-15: Unassigned,
-33,SRP,0: Reserved,[RFC-ietf-pce-stateful-pce-21]
-,,1: SRP,[RFC-ietf-pce-stateful-pce-21]
+33,SRP,0: Reserved,[RFC8231]
+,,1: SRP,[RFC8231]
 ,,2-15: Unassigned,
 34,VENDOR-INFORMATION,0: Reserved,[RFC7470][RFC Errata 4956]
 ,,1: Vendor-Specific Constraints,[RFC7470]
 ,,2-15: Unassigned,
-35,BU,0: Reserved,[RFC-ietf-pce-pcep-service-aware-13][RFC Errata 4956]
-,,1: BU,[RFC-ietf-pce-pcep-service-aware-13]
+35,BU,0: Reserved,[RFC8233][RFC Errata 4956]
+,,1: BU,[RFC8233]
 ,,2-15: Unassigned,
 36,INTER-LAYER,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
 ,,1: Inter-layer,[RFC-ietf-pce-inter-layer-ext-12]
