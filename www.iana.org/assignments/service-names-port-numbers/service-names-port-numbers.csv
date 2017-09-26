@@ -14083,6 +14083,8 @@ dell-soo-ds,,tcp,Spotlight on Oracle Diagnostic Server,[Dell_2],[Rob_Griffin_3],
 dell-soo-ds,,udp,Spotlight on Oracle Diagnostic Server,[Dell_2],[Rob_Griffin_3],2013-10-03,,,,,Defined TXT keys: None
 dell-soss-ds-w,,tcp,Spotlight on SQL Server Diagnostic Server HTTP,[Dell_2],[Rob_Griffin_3],2013-10-03,,,,,Defined TXT keys: None
 dell-ssms-ds,,tcp,Spotlight SSMS Plugin Diagnostic Server,[Dell_2],[Rob_Griffin_3],2013-10-03,,,,,Defined TXT keys: None
+demoncamremote,,tcp,Peer-to-peer real-time video streaming,[James_Alan_Bush],[James_Alan_Bush],2017-09-26,,,,,Defined TXT keys: None
+demoncamremote,,udp,Peer-to-peer real-time video streaming,[James_Alan_Bush],[James_Alan_Bush],2017-09-26,,,,,Defined TXT keys: None
 device-info,,,Device Info,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD device info.
 devonsync,,tcp,DEVONthink synchronization protocol,[DEVONtechnologies_LLC],[Rob_Rix][Eric_Boehnisch-Volkmann],2011-10-18,,,,,Defined TXT keys: None at present
 dictation,,,Use of a dictation service by a hand-held device,[Nuance_Communications_Inc],[Mark_Jackson],2011-10-27,,,,,"Defined TXT keys: ver, name"

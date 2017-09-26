@@ -8,15 +8,15 @@ Value,Description,Reference
 6,P2MP capable,[RFC6006]
 7,VENDOR-INFORMATION-TLV,[RFC7470]
 8-15,Unassigned,
-16,STATEFUL-PCE-CAPABILITY,[RFC-ietf-pce-stateful-pce-21]
-17,SYMBOLIC-PATH-NAME,[RFC-ietf-pce-stateful-pce-21]
-18,IPV4-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-21]
-19,IPV6-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-21]
-20,LSP-ERROR-CODE,[RFC-ietf-pce-stateful-pce-21]
-21,RSVP-ERROR-SPEC,[RFC-ietf-pce-stateful-pce-21]
+16,STATEFUL-PCE-CAPABILITY,[RFC8231]
+17,SYMBOLIC-PATH-NAME,[RFC8231]
+18,IPV4-LSP-IDENTIFIERS,[RFC8231]
+19,IPV6-LSP-IDENTIFIERS,[RFC8231]
+20,LSP-ERROR-CODE,[RFC8231]
+21,RSVP-ERROR-SPEC,[RFC8231]
 22,Unassigned,
-23,LSP-DB-VERSION,[RFC-ietf-pce-stateful-sync-optimizations-10]
-24,SPEAKER-ENTITY-ID,[RFC-ietf-pce-stateful-sync-optimizations-10]
+23,LSP-DB-VERSION,[RFC8232]
+24,SPEAKER-ENTITY-ID,[RFC8232]
 25,Unassigned,
 26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
