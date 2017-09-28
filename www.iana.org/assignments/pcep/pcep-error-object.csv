@@ -21,7 +21,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,2: Not supported object Type,[RFC5440]
 ,,3: Unassigned,
 ,,4: Unsupported parameter,[RFC5441]
-,,5: Unsupported network performance constraint,[RFC-ietf-pce-pcep-service-aware-13]
+,,5: Unsupported network performance constraint,[RFC8233]
 ,,6-255: Unassigned,
 5,Policy violation,0: Unassigned,[RFC5440]
 ,,1: C bit of the METRIC object set (request rejected),[RFC5440]
@@ -31,7 +31,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,5: Global concurrent optimization not allowed,[RFC5557]
 ,,6: Monitoring message supported but rejected due to policy violation,[RFC5886]
 ,,7: P2MP Path computation is not allowed,[RFC6006]
-,,8: Not allowed network performance constraint,[RFC-ietf-pce-pcep-service-aware-13]
+,,8: Not allowed network performance constraint,[RFC8233]
 ,,9-255: Unassigned,
 6,Mandatory Object missing,0: Unassigned,[RFC5440]
 ,,1: RP object missing,[RFC5440]
@@ -39,11 +39,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,3: END-POINTS object missing,[RFC5440]
 ,,4: MONITORING object missing,[RFC5886]
 ,,5-7: Unassigned,
-,,8: LSP object missing,[RFC-ietf-pce-stateful-pce-21]
-,,9: ERO object missing,[RFC-ietf-pce-stateful-pce-21]
-,,10: SRP object missing,[RFC-ietf-pce-stateful-pce-21]
-,,11: LSP-IDENTIFIERS TLV missing,[RFC-ietf-pce-stateful-pce-21]
-,,12: LSP-DB-VERSION TLV missing,[RFC-ietf-pce-stateful-sync-optimizations-10]
+,,8: LSP object missing,[RFC8231]
+,,9: ERO object missing,[RFC8231]
+,,10: SRP object missing,[RFC8231]
+,,11: LSP-IDENTIFIERS TLV missing,[RFC8231]
+,,12: LSP-DB-VERSION TLV missing,[RFC8232]
 ,,13-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
@@ -91,14 +91,14 @@ Error-Type,Meaning,Error-value,Reference
 19,Invalid Operation,0: Unassigned,
 ,,"1: Attempted LSP Update Request for a non-delegated
         LSP. The PCEP-ERROR object is followed by the LSP
-        object that identifies the LSP.",[RFC-ietf-pce-stateful-pce-21]
+        object that identifies the LSP.",[RFC8231]
 ,,"2: Attempted LSP Update Request if the stateful PCE 
-        capability was not advertised.",[RFC-ietf-pce-stateful-pce-21]
+        capability was not advertised.",[RFC8231]
 ,,"3: Attempted LSP Update Request for an LSP identified 
-        by an unknown PLSP-ID.",[RFC-ietf-pce-stateful-pce-21]
+        by an unknown PLSP-ID.",[RFC8231]
 ,,4: Unassigned,
 ,,"5: Attempted LSP State Report if active 
-        stateful PCE capability was not advertised.",[RFC-ietf-pce-stateful-pce-21]
+        stateful PCE capability was not advertised.",[RFC8231]
 ,,"6: PCE-initiated LSP limit reached (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"7: Delegation for PCE-initiated LSP cannot be revoked (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
 ,,"8: Non-zero PLSP-ID in LSP initiation request (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
@@ -109,20 +109,20 @@ Error-Type,Meaning,Error-value,Reference
 ,,"1: A PCE indicates to a PCC that it cannot process
         (an otherwise valid) LSP State Report. The PCEP-
         ERROR object is followed by the LSP object
-        that identifies the LSP.",[RFC-ietf-pce-stateful-pce-21]
-,,2: LSP-DB version mismatch.,[RFC-ietf-pce-stateful-sync-optimizations-10]
+        that identifies the LSP.",[RFC8231]
+,,2: LSP-DB version mismatch.,[RFC8232]
 ,,"3: Attempt to trigger
         synchronization before PCE
-        trigger.",[RFC-ietf-pce-stateful-sync-optimizations-10]
+        trigger.",[RFC8232]
 ,,"4: Attempt to trigger a
         synchronization when the
         PCE triggered synchronization
         capability has not been
-        advertised.",[RFC-ietf-pce-stateful-sync-optimizations-10]
+        advertised.",[RFC8232]
 ,,"5: A PCC indicates to a PCE that it cannot complete
-        the State Synchronization.",[RFC-ietf-pce-stateful-pce-21]
-,,6: Received an invalid LSP-DB Version Number.,[RFC-ietf-pce-stateful-sync-optimizations-10]
-,,7: Received an invalid Speaker Entity Identifier.,[RFC-ietf-pce-stateful-sync-optimizations-10]
+        the State Synchronization.",[RFC8231]
+,,6: Received an invalid LSP-DB Version Number.,[RFC8232]
+,,7: Received an invalid Speaker Entity Identifier.,[RFC8232]
 ,,8-255: Unassigned,
 21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
 ,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
