@@ -8230,7 +8230,8 @@ netscript,4118,tcp,Netadmin Systems NETscript service,[Goran_Runfeldt],[Goran_Ru
 netscript,4118,udp,Netadmin Systems NETscript service,[Goran_Runfeldt],[Goran_Runfeldt],2006-12,,,,,
 assuria-slm,4119,tcp,Assuria Log Manager,[Nick_Connor],[Nick_Connor],2006-12,,,,,
 assuria-slm,4119,udp,Assuria Log Manager,[Nick_Connor],[Nick_Connor],2006-12,,,,,
-,4120,,Unassigned,,,,2007-02-01,,,,
+minirem,4120,tcp,MiniRem Remote Telemetry and Control,[MobilePro_Systems],[Sean_Solberg],2017-09-28,,,,,
+,4120,udp,Reserved,,,,,,,,
 e-builder,4121,tcp,e-Builder Application Communication,[James_Caza],[James_Caza],2006-12,,,,,
 e-builder,4121,udp,e-Builder Application Communication,[James_Caza],[James_Caza],2006-12,,,,,
 fprams,4122,tcp,Fiber Patrol Alarm Service,[Zhizhong_Zhuang],[Zhizhong_Zhuang],2006-12,,,,,
@@ -14793,9 +14794,11 @@ urlbookmark,,,URL Advertising,[Sven_S_Porst],[Sven_S_Porst],,,,,,"Defined TXT ke
 usp-agt-coap,,udp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 usp-agt-http,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 usp-agt-stomp,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-agt-ws,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-09-28,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-coap,,udp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-http,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-stomp,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-01-12,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
+usp-ctr-ws,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-09-28,,[http://www.broadband-forum.org/assignments],,,Defined TXT keys: see www.broadband-forum.org/assignments
 uswi,,,Universal Switching Corporation products,[Roger_Lemberg],[Roger_Lemberg],,,,,,Defined TXT keys: None
 utest,,,uTest,[Gregory_Power],[Gregory_Power],,,,,,Defined TXT keys: None
 uwsgi,,,Unbit Web Server Gateway Interface,[Roberto_De_Ioris],[Roberto_De_Ioris],,,,,,Defined TXT keys: None
