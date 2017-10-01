@@ -33,7 +33,7 @@ Work in progress, March 1996.][RFC6938]"
 30,Deprecated,[RFC8093]
 31,Deprecated,[RFC8093]
 32,LARGE_COMMUNITY,[RFC8092]
-33,BGPsec_Path,[RFC-ietf-sidr-bgpsec-protocol-22]
+33,BGPsec_Path,[RFC8205]
 34,"BGP Community Container Attribute (TEMPORARY - registered 2017-07-28, expires 2018-07-28)",[draft-ietf-idr-wide-bgp-communities]
 35-39,Unassigned,
 40,"BGP Prefix-SID (TEMPORARY - registered 2015-09-30, extension registered 2017-08-31, expires 2018-09-30)",[draft-ietf-idr-bgp-prefix-sid]

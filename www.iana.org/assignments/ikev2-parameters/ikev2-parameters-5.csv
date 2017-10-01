@@ -18,24 +18,24 @@ Number,Name,ESP Reference,IKEv2 Reference
 16,ENCR_AES_CCM_16,[RFC4309],[RFC5282]
 17,Unassigned,,
 18,ENCR_AES_GCM_8,"[RFC4106]
-          [RFC-ietf-ipsecme-rfc4307bis-18]","[RFC5282]
-          [RFC-ietf-ipsecme-rfc4307bis-18]"
+          [RFC8247]","[RFC5282]
+          [RFC8247]"
 19,ENCR_AES_GCM_12,"[RFC4106]
-          [RFC-ietf-ipsecme-rfc4307bis-18]","[RFC5282]
-          [RFC-ietf-ipsecme-rfc4307bis-18]"
+          [RFC8247]","[RFC5282]
+          [RFC8247]"
 20,ENCR_AES_GCM_16,"[RFC4106]
-          [RFC-ietf-ipsecme-rfc4307bis-18]","[RFC5282]
-          [RFC-ietf-ipsecme-rfc4307bis-18]"
+          [RFC8247]","[RFC5282]
+          [RFC8247]"
 21,ENCR_NULL_AUTH_AES_GMAC,[RFC4543],Not allowed
 22,Reserved for IEEE P1619 XTS-AES,[Matt_Ball],-
 23,ENCR_CAMELLIA_CBC,[RFC5529],[RFC7296]
 24,ENCR_CAMELLIA_CTR,[RFC5529],-
 25,ENCR_CAMELLIA_CCM_8,"[RFC5529]
-          [RFC-ietf-ipsecme-rfc4307bis-18]",-
+          [RFC8247]",-
 26,ENCR_CAMELLIA_CCM_12,"[RFC5529]
-          [RFC-ietf-ipsecme-rfc4307bis-18]",-
+          [RFC8247]",-
 27,ENCR_CAMELLIA_CCM_16,"[RFC5529]
-          [RFC-ietf-ipsecme-rfc4307bis-18]",-
+          [RFC8247]",-
 28,ENCR_CHACHA20_POLY1305,[RFC7634],[RFC7634]
 29-1023,Unassigned,,
 1024-65535,Private use,[RFC7296],[RFC7296]

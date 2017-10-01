@@ -11,3 +11,12 @@ S1AP-MISC,Miscellaneous cause value in decimal representation,[3GPP TS 36.413 
 S1AP-PROT,S1 Protocol cause value in decimal representation,[3GPP TS 36.413 subclause 9.2.1.3][4][_3GPP]
 DIAMETER,"Cause for protocol failure of GTP-C supporting WLAN, as a representation in decimal digits of the received binary value.",[3GPP TS 29.274 subclause 8.103][5][_3GPP]
 IKEV2,"Cause for protocol failure of IKEV2 supporting untrusted WLAN, as a representation in decimal digits of the received binary value.",[3GPP TS 29.274 subclause 8.103][6][_3GPP]
+RELEASE_CAUSE,"cause value 1: User ends call
+        cause value 2: RTP/RTCP time-out
+        cause value 3: Media bearer loss
+        cause value 4: SIP timeout - no ACK
+        cause value 5: SIP response time-out
+        cause value 6: Call-setup time-out",[3GPP TS 24.229 v14.4.0][Frederic_Firmin]
+FAILURE_CAUSE,"cause value 1: Media bearer or QoS lost
+        cause value 2: Release of signalling bearer
+        cause value 3: Indication of failed resources allocation",[3GPP TS 24.229 v14.4.0][Frederic_Firmin]

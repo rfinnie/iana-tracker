@@ -4,7 +4,7 @@
            2011-09-08
 
    Last Updated
-           2017-03-16
+           2017-09-29
 
    Available Formats
            [IMG]
@@ -14,13 +14,13 @@
 
    Registries included below
 
-     * RPKI Signed Objects
-     * RPKI Repository Name Schemes
-     * rpki-rtr-pdu
-     * rpki-rtr-error
-     * BGPsec Capability
-     * BGPsec_Path Flags
-     * BGPsec Algorithm Suite Registry
+     * RPKI Signed Objects
+     * RPKI Repository Name Schemes
+     * rpki-rtr-pdu
+     * rpki-rtr-error
+     * BGPsec Capability
+     * BGPsec_Path Flags
+     * BGPsec Algorithm Suite Registry
 
 RPKI Signed Objects
 
@@ -73,21 +73,21 @@ rpki-rtr-pdu
            [IMG]
            CSV
 
-   Protocol Version PDU Type  Description                      Reference
-   0-1              0        Serial Notify  [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              1        Serial Query   [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              2        Reset Query    [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              3        Cache Response [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              4        IPv4 Prefix    [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
+   Protocol Version PDU Type  Description       Reference
+   0-1              0        Serial Notify  [RFC6810][RFC8210]
+   0-1              1        Serial Query   [RFC6810][RFC8210]
+   0-1              2        Reset Query    [RFC6810][RFC8210]
+   0-1              3        Cache Response [RFC6810][RFC8210]
+   0-1              4        IPv4 Prefix    [RFC6810][RFC8210]
    0-1              5        Unassigned
-   0-1              6        IPv6 Prefix    [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              7        End of Data    [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              8        Cache Reset    [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0                9        Reserved       [RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   1                9        Router Key     [RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
-   0-1              10       Error Report   [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
+   0-1              6        IPv6 Prefix    [RFC6810][RFC8210]
+   0-1              7        End of Data    [RFC6810][RFC8210]
+   0-1              8        Cache Reset    [RFC6810][RFC8210]
+   0                9        Reserved       [RFC8210]
+   1                9        Router Key     [RFC8210]
+   0-1              10       Error Report   [RFC6810][RFC8210]
    0-1              11-254   Unassigned
-   0-1              255      Reserved       [RFC6810][RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
+   0-1              255      Reserved       [RFC6810][RFC8210]
 
 rpki-rtr-error
 
@@ -106,7 +106,7 @@ rpki-rtr-error
            [IMG]
            CSV
 
-   Error Code           Description                          Reference
+   Error Code           Description           Reference
    0          Corrupt Data                    [RFC6810]
    1          Internal Error                  [RFC6810]
    2          No Data Available               [RFC6810]
@@ -115,7 +115,7 @@ rpki-rtr-error
    5          Unsupported PDU Type            [RFC6810]
    6          Withdrawal of Unknown Record    [RFC6810]
    7          Duplicate Announcement Received [RFC6810]
-   8          Unexpected Protocol Version     [RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
+   8          Unexpected Protocol Version     [RFC8210]
    9-254      Unassigned
    255        Reserved                        [RFC6810]
 
@@ -126,18 +126,18 @@ BGPsec Capability
  Standards Action
 
    Reference
-           [RFC-ietf-sidr-bgpsec-protocol-22]
+           [RFC8205]
 
    Available Formats
            [IMG]
            CSV
 
-   Bits                                          Field                                                       Reference
-   0-3  Version                                                                                  [RFC-ietf-sidr-bgpsec-protocol-22]
+   Bits                              Field                              Reference
+   0-3  Version                                                         [RFC8205]
         Value = 0x0
-   4    Direction                                                                                [RFC-ietf-sidr-bgpsec-protocol-22]
-        (Both possible values 0 and 1 are fully specified by [RFC-ietf-sidr-bgpsec-protocol-22])
-   5-7  Unassigned                                                                               [RFC-ietf-sidr-bgpsec-protocol-22]
+   4    Direction                                                       [RFC8205]
+        (Both possible values 0 and 1 are fully specified by [RFC8205])
+   5-7  Unassigned                                                      [RFC8205]
         Value = 000 (in binary)
 
 BGPsec_Path Flags
@@ -147,17 +147,17 @@ BGPsec_Path Flags
  Standards Action
 
    Reference
-           [RFC-ietf-sidr-bgpsec-protocol-22]
+           [RFC8205]
 
    Available Formats
            [IMG]
            CSV
 
-   Flag                       Description                                   Reference
+   Flag                       Description                       Reference
         Confed_Segment
-   0    Bit value = 1 means Flag set (indicates Confed_Segment) [RFC-ietf-sidr-bgpsec-protocol-22]
+   0    Bit value = 1 means Flag set (indicates Confed_Segment) [RFC8205]
         Bit value = 0 is default
-   1-7  Unassigned                                              [RFC-ietf-sidr-bgpsec-protocol-22]
+   1-7  Unassigned                                              [RFC8205]
         Value: All 7 bits set to zero
 
 BGPsec Algorithm Suite Registry
@@ -167,18 +167,18 @@ BGPsec Algorithm Suite Registry
  Standards Action
 
    Reference
-           [RFC-ietf-sidr-bgpsec-algs-17]
+           [RFC8208]
 
    Available Formats
            [IMG]
            CSV
 
-   Algorithm Suite Digest Algorithm Signature Algorithm                                          Reference
-     Identifier
-   0x0             Reserved         Reserved            [RFC-ietf-sidr-bgpsec-algs-17]
-                                                        [National Institute of Standards and Technology (NIST), U.S. Department of Commerce,
-   0x1             SHA-256          ECDSA P-256         "Digital Signature Standard", FIPS Publication 186-4, July 2013.][National Institute of
-                                                        Standards and Technology (NIST), U.S. Department of Commerce, "Secure Hash Standard", FIPS
-                                                        Publication 180-4, August 2015.][RFC6090][RFC-ietf-sidr-bgpsec-algs-17]
-   0x2-0xEF        Unassigned       Unassigned
-   0xFF            Reserved         Reserved            [RFC-ietf-sidr-bgpsec-algs-17]
+   Algorithm Suite Identifier Digest Algorithm Signature Algorithm                                    Reference
+   0x0                        Reserved         Reserved            [RFC8208]
+                                                                   [National Institute of Standards and Technology (NIST), U.S. Department of
+                                                                   Commerce, "Digital Signature Standard", FIPS Publication 186-4, July
+   0x1                        SHA-256          ECDSA P-256         2013.][National Institute of Standards and Technology (NIST), U.S. Department of
+                                                                   Commerce, "Secure Hash Standard", FIPS Publication 180-4, August
+                                                                   2015.][RFC6090][RFC8208]
+   0x2-0xEF                   Unassigned       Unassigned
+   0xFF                       Reserved         Reserved            [RFC8208]

@@ -8,7 +8,7 @@ Notification-type,Name,Notification-value,Reference
 ,,3-255: Unassigned,
 3,Unassigned,1-255: Unassigned,
 4,Stateful PCE resource limit exceeded,0: Unassigned,
-,,1: Entering resource limit exceeded state,[RFC-ietf-pce-stateful-pce-21]
-,,2: Deprecated,[RFC-ietf-pce-stateful-pce-21]
+,,1: Entering resource limit exceeded state,[RFC8231]
+,,2: Deprecated,[RFC8231]
 ,,3-255: Unassigned,
 5-255,Unassigned,1-255: Unassigned,

@@ -7,6 +7,6 @@ Error Code,Description,Reference
 5,Unsupported PDU Type,[RFC6810]
 6,Withdrawal of Unknown Record,[RFC6810]
 7,Duplicate Announcement Received,[RFC6810]
-8,Unexpected Protocol Version,[RFC-ietf-sidr-rpki-rtr-rfc6810-bis-09]
+8,Unexpected Protocol Version,[RFC8210]
 9-254,Unassigned,
 255,Reserved,[RFC6810]
