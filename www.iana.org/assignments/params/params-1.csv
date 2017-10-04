@@ -14,4 +14,4 @@ tzdist,[RFC7808],[http://www.iana.org/assignments/tzdist-identifiers]
 abfab,[RFC7833],[http://www.iana.org/assignments/abfab-parameters]
 push,[RFC8030],[http://www.iana.org/assignments/webpush-parameters]
 restconf,[RFC8040],[http://www.iana.org/assignments/restconf-capability-urns]
-"mud (TEMPORARY - registered 2016-12-06, expires 2017-12-06)",[draft-ietf-opsawg-mud],
+"mud (TEMPORARY - registered 2016-12-06, extension registered 2017-10-02, expires 2018-12-06)",[draft-ietf-opsawg-mud],
