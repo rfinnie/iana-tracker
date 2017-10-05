@@ -5,8 +5,7 @@ Hex Value,Binary Value,Description,Reference
 0x63,01,1,00011,RPL Option,[RFC6553]
 0x04,00,0,00100,Tunnel Encapsulation Limit,[RFC2473]
 0x05,00,0,00101,Router Alert,[RFC2711]
-0x26,00,1,00110,Quick-Start,"[RFC4782][RFC Errata 
-          2034]"
+0x26,00,1,00110,Quick-Start,[RFC4782][RFC Errata 2034]
 0x07,00,0,00111,CALIPSO,[RFC5570]
 0x08,00,0,01000,SMF_DPD,[RFC6621]
 0xC9,11,0,01001,Home Address,[RFC6275]
@@ -16,7 +15,7 @@ Hex Value,Binary Value,Description,Reference
 0x4D,01,0,01101,Deprecated,[RFC7731]
 0x6D,01,1,01101,MPL Option,[RFC7731]
 0xEE,11,1,01110,IP_DFF,[RFC6971]
-0x0F,00,0,01111,Performance and Diagnostic Metrics (PDM),[RFC-ietf-ippm-6man-pdm-option-13]
+0x0F,00,0,01111,Performance and Diagnostic Metrics (PDM),[RFC8250]
 ,,,10000-11101,Unassigned,
 0x1E,00,0,11110,RFC3692-style Experiment [1],[RFC4727]
 0x3E,00,1,11110,RFC3692-style Experiment [1],[RFC4727]
