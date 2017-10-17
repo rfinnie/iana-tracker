@@ -9,7 +9,7 @@ Bit,Capability Description,Reference
 7,Support for request prioritization,[RFC5088]
 8,Support for multiple requests per message,[RFC5088]
 9,Global Concurrent Optimization (GCO),[RFC5557]
-10,P2MP path computation,[RFC6006]
+10,P2MP path computation,[RFC-ietf-pce-rfc6006bis-04]
 11,Active stateful PCE capability,[RFC8231]
 12,Passive stateful PCE capability,[RFC8231]
 13-31,Unassigned,
