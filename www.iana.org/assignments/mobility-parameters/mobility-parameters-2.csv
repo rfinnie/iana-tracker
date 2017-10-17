@@ -62,3 +62,5 @@ Value,Description,Reference
 60,Multicast Mobility Option,[RFC7411]
 61,Multicast Acknowledgement Option,[RFC7411]
 62,LMA-Controlled MAG Parameters,[RFC8127]
+63,MAG Multipath-Binding,[RFC-ietf-dmm-mag-multihoming-07]
+64,MAG Identifier,[RFC-ietf-dmm-mag-multihoming-07]

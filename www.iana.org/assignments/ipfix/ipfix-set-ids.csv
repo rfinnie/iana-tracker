@@ -1,7 +1,6 @@
 Value,Set Identifier,Reference
 0-1,Not used (historic),[RFC3954]
 2,Template Set,[RFC7011]
-3,Options Template Set,"[RFC7011][RFC Errata 
-          1818]"
+3,Options Template Set,[RFC7011][RFC Errata 1818]
 4-255,Unassigned,
 256-65535,Reserved for Data Sets,[RFC7011]

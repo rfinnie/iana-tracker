@@ -22,3 +22,4 @@ Decimal,Name,Description,Reference
 20,entryDN,LDAP entryDN Operational Attribute,[RFC5020]
 21,txn,LDAP Transactions,[RFC5805]
 22,dontUseCopy,LDAP Don't Use Copy Control,[RFC6171]
+23,xmpp,LDAP schema for XMPP,[RFC-kille-ldap-xmpp-schema-09]

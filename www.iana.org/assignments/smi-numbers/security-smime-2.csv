@@ -26,8 +26,7 @@ Decimal,Description,References
 25,id-aa-ets-escTimeStamp,[RFC3126]
 26,id-aa-ets-certCRLTimestamp,[RFC3126]
 27,id-aa-ets-archiveTimeStamp,[RFC3126]
-28,id-aa-signatureType,"[RFC Errata 
-          3757]"
+28,id-aa-signatureType,[RFC Errata 3757]
 29,id-aa-dvcs-dvc,[RFC3029]
 30,id-aa-CEKReference,[RFC3185]
 31,id-aa-CEKMaxDecrypts,[RFC3185]

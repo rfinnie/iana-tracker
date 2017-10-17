@@ -38,5 +38,6 @@ Error Code,Meaning,Reference
 41,Duplicate TLV,[RFC8169]
 42,Duplicate sub-TLV,[RFC8169]
 43,RTM_SET TLV Absent,[RFC8169]
-44-251,Unassigned,
+44,FRR Bypass Assignment Error,[RFC-ietf-teas-gmpls-lsp-fastreroute-12]
+45-251,Unassigned,
 252-255,Reserved for Private Use,[RFC2205]

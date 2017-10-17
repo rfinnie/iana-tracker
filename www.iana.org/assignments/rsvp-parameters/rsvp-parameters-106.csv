@@ -3,5 +3,4 @@ Value,Description,Reference
 2,Unsupported PHB,[RFC3270]
 3,Invalid EXP<-->PHB mapping,[RFC3270]
 4,Unsupported PSC,[RFC3270]
-5,"Per-LSP context allocation            
-failure",[RFC3270]
+5,Per-LSP context allocation failure,[RFC3270]
