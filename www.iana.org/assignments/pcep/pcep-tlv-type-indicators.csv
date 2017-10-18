@@ -5,7 +5,7 @@ Value,Description,Reference
 3,REQ-MISSING TLV,[RFC5440]
 4,OF-List,[RFC5541]
 5,Order TLV,[RFC5557]
-6,P2MP capable,[RFC6006]
+6,P2MP capable,[RFC-ietf-pce-rfc6006bis-04]
 7,VENDOR-INFORMATION-TLV,[RFC7470]
 8-15,Unassigned,
 16,STATEFUL-PCE-CAPABILITY,[RFC8231]
@@ -21,4 +21,7 @@ Value,Description,Reference
 26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
 28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
-29-65535,Unassigned,
+29,"Operator-configured Association Range (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
+30,"Global Association Source (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
+31,"Extended Association Id (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
+32-65535,Unassigned,

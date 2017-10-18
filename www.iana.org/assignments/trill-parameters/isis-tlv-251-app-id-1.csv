@@ -20,7 +20,7 @@ Type,Name,Reference
 18,AppointmentList,[RFC8139]
 19,FGL-VLAN-Bitmap,[RFC8139]
 20,FGL-VLAN-Pairs,[RFC8139]
-21,originatingSNPBufferSize,[RFC-ietf-trill-mtu-negotiation-08]
+21,originatingSNPBufferSize,[RFC8249]
 22-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC7782]
 253,AA-LAALP-GROUP-MAC,[RFC7782]

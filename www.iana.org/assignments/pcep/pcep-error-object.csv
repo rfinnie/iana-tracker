@@ -30,7 +30,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: OF bit of the RP object set (request rejected),[RFC5541]
 ,,5: Global concurrent optimization not allowed,[RFC5557]
 ,,6: Monitoring message supported but rejected due to policy violation,[RFC5886]
-,,7: P2MP Path computation is not allowed,[RFC6006]
+,,7: P2MP Path computation is not allowed,[RFC-ietf-pce-rfc6006bis-04]
 ,,8: Not allowed network performance constraint,[RFC8233]
 ,,9-255: Unassigned,
 6,Mandatory Object missing,0: Unassigned,[RFC5440]
@@ -75,18 +75,18 @@ Error-Type,Meaning,Error-value,Reference
 ,,1: Insufficient memory,[RFC5557]
 ,,2: Global concurrent optimization not supported,[RFC5557]
 ,,3-255: Unassigned,
-16,P2MP Capability Error,0: Unassigned,[RFC6006]
-,,1: The PCE cannot satisfy the request due to insufficient memory,[RFC6006]
-,,2: The PCE is not capable of P2MP computation,[RFC6006]
+16,P2MP Capability Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
+,,1: The PCE cannot satisfy the request due to insufficient memory,[RFC-ietf-pce-rfc6006bis-04]
+,,2: The PCE is not capable of P2MP computation,[RFC-ietf-pce-rfc6006bis-04]
 ,,3-255: Unassigned,
-17,P2MP END-POINTS Error,0: Unassigned,[RFC6006]
-,,1: The PCE cannot satisfy the request due to no END-POINTS with leaf type 2,[RFC6006]
-,,2: The PCE cannot satisfy the request due to no END-POINTS with leaf type 3,[RFC6006]
-,,3: The PCE cannot satisfy the request due to no END-POINTS with leaf type 4,[RFC6006]
-,,4: The PCE cannot satisfy the request due to inconsistent END-POINTS,[RFC6006]
+17,P2MP END-POINTS Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
+,,1: The PCE cannot satisfy the request due to no END-POINTS with leaf type 2,[RFC-ietf-pce-rfc6006bis-04]
+,,2: The PCE cannot satisfy the request due to no END-POINTS with leaf type 3,[RFC-ietf-pce-rfc6006bis-04]
+,,3: The PCE cannot satisfy the request due to no END-POINTS with leaf type 4,[RFC-ietf-pce-rfc6006bis-04]
+,,4: The PCE cannot satisfy the request due to inconsistent END-POINTS,[RFC-ietf-pce-rfc6006bis-04]
 ,,5-255: Unassigned,
-18,P2MP Fragmentation Error,0: Unassigned,[RFC6006]
-,,1: Fragmented request failure,[RFC6006]
+18,P2MP Fragmentation Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
+,,1: Fragmented request failure,[RFC-ietf-pce-rfc6006bis-04]
 ,,2-255: Unassigned,
 19,Invalid Operation,0: Unassigned,
 ,,"1: Attempted LSP Update Request for a non-delegated
@@ -145,4 +145,13 @@ Error-Type,Meaning,Error-value,Reference
 ,,"4: Failure, connection without TLS is possible",[RFC-ietf-pce-pceps-18]
 ,,5: No StartTLS message (nor PCErr/Open) before StartTLSWait timer expiry,[RFC-ietf-pce-pceps-18]
 ,,6-255: Unassigned,
-26-255,Unassigned,0-255: Unassigned,
+26,"Association Error (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",0: Unassigned,[draft-ietf-pce-association-group]
+,,1: Association-type is not supported,[draft-ietf-pce-association-group]
+,,2: Too many LSPs in the association group,[draft-ietf-pce-association-group]
+,,3: Too many association groups,[draft-ietf-pce-association-group]
+,,4: Association unknown,[draft-ietf-pce-association-group]
+,,5: Operator-configured association information mismatch,[draft-ietf-pce-association-group]
+,,6: Association information mismatch,[draft-ietf-pce-association-group]
+,,7: Cannot join the association group,[draft-ietf-pce-association-group]
+,,8-255: Unassigned,[draft-ietf-pce-association-group]
+27-255,Unassigned,0-255: Unassigned,
