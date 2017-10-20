@@ -5,7 +5,7 @@ Code Point,Use,Reference
 0x81,ISO CLNP (Connectionless Network Protocol),[RFC6328]
 0x82,ISO ES-IS,[RFC6328]
 0x83,IS-IS,[RFC1195]
-0x8E,IPv6,[RFC-ietf-6man-rfc2460bis-13]
+0x8E,IPv6,[RFC8200]
 0xB0,FRF.9,[RFC2427]
 0xB1,FRF.12,[RFC2427]
 0xC0,TRILL,[RFC6325]

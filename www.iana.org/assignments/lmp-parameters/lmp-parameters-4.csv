@@ -18,6 +18,5 @@ Value,Description,Reference
 20,ERROR_CODE,[RFC4204]
 21,TRACE,[RFC4207]
 22,TRACE REQ,[RFC4207]
-23-127,Unassigned (Standards Action),
-128-247,Unassigned (Expert review),
-248-255,Private Use,
+23-247,Unassigned,
+248-255,Private Use,[RFC4204]
