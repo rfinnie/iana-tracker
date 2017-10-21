@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="pcep">
   <title>Path Computation Element Protocol (PCEP) Numbers</title>
   <created>2008-12-19</created>
-  <updated>2017-10-18</updated>
+  <updated>2017-10-19</updated>
   
   <registry id="pcep-messages">
     <title>PCEP Messages</title>
@@ -77,7 +77,7 @@
     </record>
     <record date="2017-09-07">
       <value>13</value>
-      <description>The Start TLS Message (StartTLS)</description>
+      <description>StartTLS</description>
       <xref type="draft" data="RFC-ietf-pce-pceps-18"/>
     </record>
     <record>
@@ -2347,7 +2347,7 @@
       <type-value>25</type-value>
       <type-description>PCEP StartTLS failure</type-description>
       <value-value>2</value-value>
-      <value-description>Reception of any other message apart from StartTLS, Open or PCErr</value-description>
+      <value-description>Reception of any other message apart from StartTLS, Open, or PCErr</value-description>
       <xref type="draft" data="RFC-ietf-pce-pceps-18"/>
     </record>
     <record date="2017-09-07">
@@ -3090,9 +3090,9 @@
         <description>TRIGGERED-RESYNC</description>
         <xref type="rfc" data="rfc8232"/>
       </record>
-      <record date="2017-10-18">
+      <record date="2017-10-18" updated="2017-10-19">
         <value>29</value>
-        <description>I (LSP-INSTANTIATION-CAPABILITY)</description>
+        <description>LSP-INSTANTIATION-CAPABILITY (I)</description>
         <xref type="draft" data="RFC-ietf-pce-pce-initiated-lsp-11"/>
       </record>
       <record date="2017-06-29">

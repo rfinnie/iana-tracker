@@ -35,5 +35,6 @@ shrinking to a single label",[RFC8029]
 32,OAM Problem/Fault management signaling unsupported,[RFC7759]
 33,OAM Problem/Unable to create fault management association,[RFC7759]
 34,OAM Problem/PM Configuration Error,[RFC7759]
-35-251,Unassigned,
+35,Mapping for this FEC is not associated with the incoming interface,"[RFC-ietf-mpls-spring-lsp-ping-13, Section 7.4]"
+36-251,Unassigned,
 252-255,Reserved for Vendor Private Use,[RFC8029]
