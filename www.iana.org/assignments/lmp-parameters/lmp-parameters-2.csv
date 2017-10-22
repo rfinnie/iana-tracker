@@ -34,6 +34,5 @@ Value,Description,Reference
 32,ConfirmDataChannelStatus,[RFC5818]
 33,ConfirmDataChannelStatusAck,[RFC5818]
 34,ConfirmDataChannelStatusNack,[RFC5818]
-35-127,Unassigned (via Standards Action),
-128-247,Unassigned (via expert review),
-248-255,Private Use,
+35-247,Unassigned,
+248-255,Private Use,[RFC4204]

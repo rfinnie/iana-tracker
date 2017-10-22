@@ -1,6 +1,6 @@
 Value,SRTP PRF,Reference
 0,AES-CM,[RFC3830]
 1,SEED-CTR,[RFC5748]
-2,ARIA-CTR,[RFC-ietf-avtcore-aria-srtp-11]
+2,ARIA-CTR,[RFC8269]
 3-240,Unassigned,
 241-255,Reserved for Private Use,
