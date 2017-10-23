@@ -3,6 +3,5 @@ C-Type,Description,Reference
 1,HELLO_CONFIG,[RFC4204]
 2,LMP-WDM_CONFIG,[RFC4209]
 3,BehaviorConfig,[RFC6898]
-4-111,Unassigned (Standards Action),
-112-119,Unassigned (Expert Review),
-120-127,Private Use,
+4-119,Unassigned,
+120-127,Private Use,[RFC4204]
