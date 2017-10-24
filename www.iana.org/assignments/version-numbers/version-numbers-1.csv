@@ -3,7 +3,7 @@ Decimal,Keyword,Version,Reference
 2-3,,Unassigned,[Jon_Postel]
 4,IP,Internet Protocol,[RFC791][Jon_Postel]
 5,ST,ST Datagram Mode,[RFC1819][Jim_Forgie]
-6,IPv6,Internet Protocol version 6,[RFC-ietf-6man-rfc2460bis-13]
+6,IPv6,Internet Protocol version 6,[RFC8200]
 7,TP/IX,TP/IX: The Next Internet,[RFC6814]
 8,PIP,The P Internet Protocol,[RFC1621]
 9,TUBA,TUBA,[RFC1347]

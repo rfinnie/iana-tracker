@@ -11,6 +11,6 @@ Value,Description,Reference
 9,Path Computation Monitoring Reply (PCMonRep),[RFC5886]
 10,Report,[RFC8231]
 11,Update,[RFC8231]
-12,"Initiate (TEMPORARY - registered 2016-07-27, extension registered 2017-07-11, expires 2018-07-27)",[draft-ietf-pce-pce-initiated-lsp]
-13,The Start TLS Message (StartTLS),[RFC-ietf-pce-pceps-18]
+12,LSP Initiate Request,[RFC-ietf-pce-pce-initiated-lsp-11]
+13,StartTLS,[RFC-ietf-pce-pceps-18]
 14-255,Unassigned,

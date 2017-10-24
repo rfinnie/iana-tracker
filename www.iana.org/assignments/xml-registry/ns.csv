@@ -116,6 +116,7 @@ p2p:config-diagnostics,urn:ietf:params:xml:ns:p2p:config-diagnostics,ns/p2p/conf
 p2p:redir,urn:ietf:params:xml:ns:p2p:redir,ns/p2p/redir.txt,[RFC7374]
 p2p:route-mode,urn:ietf:params:xml:ns:p2p:route-mode,ns/p2p/route-mode.txt,[RFC7263]
 p2p:self-tuning,urn:ietf:params:xml:ns:p2p:self-tuning,ns/p2p/self-tuning.txt,[RFC7363]
+pal,urn:ietf:params:xml:ns:pal,ns/pal.txt,[RFC-turner-est-extensions-11]
 patch-ops-error,urn:ietf:params:xml:ns:patch-ops-error,ns/patch-ops-error.txt,[RFC5261]
 pidf,urn:ietf:params:xml:ns:pidf,ns/pidf.txt,[RFC3863]
 pidf:caps,urn:ietf:params:xml:ns:pidf:caps,ns/pidf/caps.txt,[RFC5196]

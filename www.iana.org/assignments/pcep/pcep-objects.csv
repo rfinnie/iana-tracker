@@ -12,8 +12,8 @@ Object-Class Value,Name,Object-Type,Reference
 4,END-POINTS,0: Reserved,[RFC5440][RFC Errata 4956]
 ,,1: IPv4 addresses,[RFC5440]
 ,,2: IPv6 addresses,[RFC5440]
-,,3: IPv4,[RFC6006]
-,,4: IPv6,[RFC6006]
+,,3: IPv4,[RFC-ietf-pce-rfc6006bis-04]
+,,4: IPv6,[RFC-ietf-pce-rfc6006bis-04]
 ,,5-15: Unassigned,
 5,BANDWIDTH,0: Reserved,[RFC5440][RFC Errata 4956]
 ,,1: Requested bandwidth,[RFC5440]
@@ -85,19 +85,19 @@ Object-Class Value,Name,Object-Type,Reference
 27,OVERLOAD,0: Reserved,[RFC5886][RFC Errata 4956]
 ,,1: overload,[RFC5886]
 ,,2-15: Unassigned,
-28,UNREACH-DESTINATION,0: Reserved,[RFC6006][RFC Errata 4956]
-,,1: IPv4,[RFC6006]
-,,2: IPv6,[RFC6006]
+28,UNREACH-DESTINATION,0: Reserved,[RFC-ietf-pce-rfc6006bis-04]
+,,1: IPv4,[RFC-ietf-pce-rfc6006bis-04]
+,,2: IPv6,[RFC-ietf-pce-rfc6006bis-04]
 ,,3-15: Unassigned,
-29,SERO,0: Reserved,[RFC6006][RFC Errata 4956]
-,,1: SERO,[RFC6006]
+29,SERO,0: Reserved,[RFC-ietf-pce-rfc6006bis-04]
+,,1: SERO,[RFC-ietf-pce-rfc6006bis-04]
 ,,2-15: Unassigned,
-30,SRRO,0: Reserved,[RFC6006][RFC Errata 4956]
-,,1: SRRO,[RFC6006]
+30,SRRO,0: Reserved,[RFC-ietf-pce-rfc6006bis-04]
+,,1: SRRO,[RFC-ietf-pce-rfc6006bis-04]
 ,,2-15: Unassigned,
-31,Branch Node Capability Object,0: Reserved,[RFC6006][RFC Errata 4956]
-,,1: Branch node list,[RFC6006]
-,,2: Non-branch node list,[RFC6006]
+31,Branch Node Capability Object,0: Reserved,[RFC-ietf-pce-rfc6006bis-04]
+,,1: Branch node list,[RFC-ietf-pce-rfc6006bis-04]
+,,2: Non-branch node list,[RFC-ietf-pce-rfc6006bis-04]
 ,,3-15: Unassigned,
 32,LSP,0: Reserved,[RFC8231]
 ,,1: LSP,[RFC8231]
@@ -123,5 +123,9 @@ Object-Class Value,Name,Object-Type,Reference
 39,SERVER-INDICATION,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
 ,,1: Server-indication,[RFC-ietf-pce-inter-layer-ext-12]
 ,,2-15: Unassigned,
-40-255,Unassigned,0: Reserved,[RFC Errata 4956]
+40,"ASSOCIATION (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",0: Reserved,[draft-ietf-pce-association-group]
+,,1: IPv4,[draft-ietf-pce-association-group]
+,,2: IPv6,[draft-ietf-pce-association-group]
+,,3-15: Unassigned,
+41-255,Unassigned,0: Reserved,[RFC Errata 4956]
 ,,1-15: Unassigned,
