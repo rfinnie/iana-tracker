@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="rtp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="rtp-parameters">
   <title>Real-Time Transport Protocol (RTP) Parameters</title>
-  <updated>2017-08-08</updated>
+  <updated>2017-10-27</updated>
   
   <registry id="rtp-parameters-1">
     <title>RTP Payload types (PT) for standard audio and video encodings - Closed</title>
@@ -278,7 +278,7 @@ list maintains and extends that list.</note>
   <registry id="rtp-parameters-2">
     <title>RTP Payload Format media types</title>
     <xref type="rfc" data="rfc4855"/>
-    <registration_rule>Standards Action Process or expert approval</registration_rule>
+    <registration_rule>Standards Action or Expert Review</registration_rule>
     <expert>Steve Casner</expert>
     <note>In addition to the RTP payload formats (encodings) listed in the RTP
 Payload Types table, there are additional payload formats that do not
@@ -1189,7 +1189,7 @@ Applications in Local Area Networks." Work in progress.</xref>
       <value>213</value>
       <abbrev>SNM</abbrev>
       <name>Splicing Notification Message</name>
-      <xref type="draft" data="RFC-ietf-ietf-avtext-splicing-notification-09"/>
+      <xref type="rfc" data="rfc8286"/>
     </record>
     <record>
       <value>214-254</value>
@@ -1351,7 +1351,7 @@ SDES control packet.  This list maintains and extends that list.</note>
   <registry id="rtp-parameters-7">
     <title>RTP Profile Names</title>
     <xref type="rfc" data="rfc3550"/>
-    <registration_rule>Standards Action Process or expert approval</registration_rule>
+    <registration_rule>Standards Action or Expert Review</registration_rule>
     <expert>Steve Casner</expert>
     <record>
       <name>RTP/AVP</name>
@@ -1534,7 +1534,7 @@ SDES control packet.  This list maintains and extends that list.</note>
   
   <registry id="rtp-parameters-10">
     <title>RTP Compact Header Extensions</title>
-    <xref type="draft" data="RFC-ietf-avtcore-rfc5285-bis-14"/>
+    <xref type="rfc" data="rfc8285"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Magnus Westerlund, Stephen Casner</expert>
     <note>For extensions defined in RFCs, the URI is recommended to be of the
@@ -1622,7 +1622,7 @@ for the sent video, see clause 6.2.3.4</description>
       <name>urn:ietf:params:rtp-hdrext:splicing-interval</name>
       <description>Splicing Interval</description>
       <contact><xref type="person" data="Jinwei_Xia"/></contact>
-      <xref type="draft" data="RFC-ietf-avtext-splicing-notification-09"/>
+      <xref type="rfc" data="rfc8286"/>
     </record>
   </registry>
   
@@ -1664,6 +1664,7 @@ for the sent video, see clause 6.2.3.4</description>
     <title>Sub-Report Block Type (SRBT) Values for the RSI Packet</title>
     <xref type="rfc" data="rfc5760"/>
     <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
     <record>
       <value>0</value>
       <name>IPv4 Address</name>
@@ -1750,6 +1751,7 @@ for the sent video, see clause 6.2.3.4</description>
     <title>SFMT Values for RAMS Messages</title>
     <xref type="rfc" data="rfc6285"/>
     <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
     <record>
       <value>0</value>
       <name>Reserved</name>
@@ -1787,6 +1789,7 @@ for the sent video, see clause 6.2.3.4</description>
     <title>RAMS TLV Space Registry</title>
     <xref type="rfc" data="rfc6285"/>
     <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
     <record>
       <value>0</value>
       <name>Reserved</name>
@@ -1882,6 +1885,7 @@ for the sent video, see clause 6.2.3.4</description>
     <title>RAMS Response Code Space Registry</title>
     <xref type="rfc" data="rfc6285"/>
     <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
     <note>New response codes should be classified following the guidelines below:</note>
     <range>
       <value>1xx</value>

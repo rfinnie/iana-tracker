@@ -12,5 +12,5 @@ Value,Description,Reference
 10,Report,[RFC8231]
 11,Update,[RFC8231]
 12,LSP Initiate Request,[RFC-ietf-pce-pce-initiated-lsp-11]
-13,StartTLS,[RFC-ietf-pce-pceps-18]
+13,StartTLS,[RFC8253]
 14-255,Unassigned,

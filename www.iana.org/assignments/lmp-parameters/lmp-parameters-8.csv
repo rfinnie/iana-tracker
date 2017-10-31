@@ -6,6 +6,5 @@ C-Type,Description,Reference
 4,IPv6 REMOTE_INTERFACE_ID,[RFC4204]
 5,Unnumbered LOCAL_INTERFACE_ID,[RFC4204]
 6,Unnumbered REMOTE_INTERFACE_ID,[RFC4204]
-7-111,Unassigned (Standards Action),
-12-119,Unassigned (Expert Review),
-20-127,Private Use,
+7-119,Unassigned,
+120-127,Private Use,[RFC4204]

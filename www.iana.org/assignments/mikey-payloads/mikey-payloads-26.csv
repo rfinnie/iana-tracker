@@ -6,7 +6,7 @@ Value,SRTP encr alg,Reference
 4,SEED-CCM,[RFC5748]
 5,SEED-GCM,[RFC5748]
 6,AES-GCM,[RFC7714]
-7,ARIA-CTR,[RFC-ietf-avtcore-aria-srtp-11]
-8,ARIA-GCM,[RFC-ietf-avtcore-aria-srtp-11]
+7,ARIA-CTR,[RFC8269]
+8,ARIA-GCM,[RFC8269]
 9-240,Unassigned,
 241-255,Reserved for Private Use,

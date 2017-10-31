@@ -8,4 +8,4 @@ Forward Error Correction FR,FEC-FR,NORMAL,[RFC5956][RFC-ietf-mmusic-sdp-mux-attr
 Composite Session,CS,NORMAL,[RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
 Decoding Dependency,DDP,NORMAL,[RFC5583][RFC-ietf-mmusic-sdp-mux-attributes-16]
 Duplication,DUP,NORMAL,[RFC7104][RFC-ietf-mmusic-sdp-mux-attributes-16]
-Splice,SPLICE,TBD,[RFC-ietf-avtext-splicing-notification-09][RFC-ietf-mmusic-sdp-mux-attributes-16]
+Splice,SPLICE,TBD,[RFC8286][RFC-ietf-mmusic-sdp-mux-attributes-16]

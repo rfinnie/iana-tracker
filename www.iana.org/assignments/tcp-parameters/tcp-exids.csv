@@ -7,5 +7,5 @@ Value,Description,Reference
 0x75ECFFEE,Timestamp Interval,[draft-trammell-tcpm-timestamp-interval]
 0xACCE,AccECN Experimental Option,[draft-kuehlewind-tcpm-accurate-ecn]
 0xE2D4C3D9,Shared Memory communications over RMDA protocol,[RFC7609]
-0xF989,Fast Open,[RFC7413]
+0xF989,Fast Open (current and new implementations SHOULD use option 34),[RFC7413]
 0xF990,Low Latency,[draft-wang-tcpm-low-latency-opt]
