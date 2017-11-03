@@ -9,4 +9,6 @@ Sub-Type Value,Name,Reference,Date
 0x09,Flow spec traffic-remarking,[RFC5575],
 0x0a,Layer2 Info Extended Community,[RFC4761],
 0x0b,E-Tree Info,[RFC7796],2014-11-24
-0x0c-0xff,Unassigned,,
+0x0c-0x83,Unassigned,,
+0x84,Tag,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#tag],2017-10-30
+0x85-0xff,Unassigned,,
