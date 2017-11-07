@@ -9,6 +9,5 @@ C-Type,Description,Reference
 7,Total_Span_Length,[RFC4209]
 8,Administrative_Group,[RFC4209]
 9,Data Channel Status,[RFC5818]
-10-127,Unassigned (Standards Action),
-128-247,Unassigned (Expert Review),
-248-255,Private Use.,
+10-247,Unassigned,
+248-255,Private Use,[RFC4204]
