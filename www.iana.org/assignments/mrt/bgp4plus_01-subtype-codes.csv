@@ -1,7 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>301 Moved Permanently</title>
-</head><body>
-<h1>Moved Permanently</h1>
-<p>The document has moved <a href="https://sle-dashboard.iana.org/assignments/mrt/bgp4plus_01-subtype-codes.csv">here</a>.</p>
-</body></html>
+Value,Name,Reference
+0,BGP_NULL,[RFC6396]
+1,BGP_UPDATE,[RFC6396]
+2,BGP_PREF_UPDATE,[RFC6396]
+3,BGP_STATE_CHANGE,[RFC6396]
+4,BGP_SYNC,[RFC6396]
+5,BGP_OPEN,[RFC6396]
+6,BGP_NOTIFY,[RFC6396]
+7,BGP_KEEPALIVE,[RFC6396]
+8-65534,Unassigned,
+65535,Reserved,[RFC6396]
