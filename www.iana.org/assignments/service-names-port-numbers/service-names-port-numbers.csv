@@ -6973,7 +6973,6 @@ galileolog,3520,tcp,Netvion Galileo Log Port,[Ray_Caruso],[Ray_Caruso],2002-06,,
 galileolog,3520,udp,Netvion Galileo Log Port,[Ray_Caruso],[Ray_Caruso],2002-06,,,,,
 mc3ss,3521,tcp,Telequip Labs MC3SS,[Michael_Sparks],[Michael_Sparks],2002-06,,,,,
 mc3ss,3521,udp,Telequip Labs MC3SS,[Michael_Sparks],[Michael_Sparks],2002-06,,,,,
-nfs-domainroot,,tcp,"NFS service for the domain root, the root of an organization's published file namespace.",[IESG],[IETF_Chair],2012-04-24,,[RFC6641],,,Defined TXT keys: None
 nssocketport,3522,tcp,DO over NSSocketPort,[Douglas_Davidson],[Douglas_Davidson],2002-06,,,,,
 nssocketport,3522,udp,DO over NSSocketPort,[Douglas_Davidson],[Douglas_Davidson],2002-06,,,,,
 odeumservlink,3523,tcp,Odeum Serverlink,[Mads_Peter_Back],[Mads_Peter_Back],2002-06,,,,,
@@ -14445,6 +14444,7 @@ netrestore,,,NetRestore,[Mike_Bombich],[Mike_Bombich],,,,,,"Defined TXT keys: me
 netvu-video,,tcp,AD Group NetVu Connected Video,[AD_Holdings],[Kelvin_Lawson],2011-10-11,,,,,Defined TXT keys: none
 nextcap,,tcp,Proprietary communication protocol for NextCap capture solution,[NextDay_Aps],[Claus_Broch],2012-04-24,,,,,Defined TXT keys: Proprietary
 nextcap,,udp,Proprietary communication protocol for NextCap capture solution,[NextDay_Aps],[Claus_Broch],2012-04-24,,,,,Defined TXT keys: Proprietary
+nfs-domainroot,,tcp,"NFS service for the domain root, the root of an organization's published file namespace.",[IESG],[IETF_Chair],2012-04-24,,[RFC6641],,,Defined TXT keys: None
 ngr-keydist,,tcp,NGR Key Distribution,[nyantec],[Mikael_Voss],2017-04-18,,,,,Defined TXT keys: None
 ni,,tcp,National Instruments Network Device,[National_Instruments],[Joshua_Prewitt],2011-10-24,,,,,"Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo, Status, ImgPath, Comment"
 ni-ftp,,tcp,NI FTP,[Steve_Kille],[Steve_Kille],2017-05-18,,,,,Defined TXT keys: None
