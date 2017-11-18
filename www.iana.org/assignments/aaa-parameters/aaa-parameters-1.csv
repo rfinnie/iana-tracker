@@ -345,4 +345,4 @@ AVP Code,Attribute Name,Reference
 650,Load,[RFC-ietf-dime-load-09]
 651,Load-Type,[RFC-ietf-dime-load-09]
 652,Load-Value,[RFC-ietf-dime-load-09]
-653-0xffffff,Unassigned,
+653-16777215,Unassigned,
