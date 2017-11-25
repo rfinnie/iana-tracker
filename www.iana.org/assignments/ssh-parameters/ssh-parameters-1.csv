@@ -5,7 +5,9 @@ Value,Message ID,Reference
 4,SSH_MSG_DEBUG,[RFC4253]
 5,SSH_MSG_SERVICE_REQUEST,[RFC4253]
 6,SSH_MSG_SERVICE_ACCEPT,[RFC4253]
-7-19,Unassigned (Transport layer generic),
+7,SSH_MSG_EXT_INFO,[RFC-ietf-curdle-ssh-ext-info-15]
+8,SSH_MSG_NEWCOMPRESS,[RFC-ietf-curdle-ssh-ext-info-15]
+9-19,Unassigned (Transport layer generic),
 20,SSH_MSG_KEXINIT,[RFC4253]
 21,SSH_MSG_NEWKEYS,[RFC4253]
 22-29,Unassigned (Algorithm negotiation),
