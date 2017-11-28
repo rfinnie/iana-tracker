@@ -52,3 +52,6 @@ directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
 and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
 ietf-netconf-partial-lock,ietf-netconf-partial-lock@2009-10-19.yang,N,urn:ietf:params:xml:ns:netconf:partial-lock:1.0,pl,,[RFC5717],
+ietf-lime-time-types,,N,urn:ietf:params:xml:ns:yang:ietf-lime-time-types,lime,,[RFC-ietf-lime-yang-connectionless-oam-18],
+ietf-connectionless-oam,,N,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam,cl-oam,,[RFC-ietf-lime-yang-connectionless-oam-18],
+ietf-connectionless-oam-methods,,N,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam-methods,cloam-methods,,[RFC-ietf-lime-yang-connectionless-oam-methods-13],
