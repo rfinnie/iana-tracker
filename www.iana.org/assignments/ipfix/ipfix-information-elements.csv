@@ -3627,4 +3627,41 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
 470,httpReasonPhrase,string,default,current,"The HTTP reason phrase as defined in section 6.1 of of 
         [RFC7231].",,,[RFC7231],[Felix_Erlacher],0,2017-06-19
-471-32767,Unassigned,,,,,,,,,,
+471,maxSessionEntries,unsigned32,identifier,current,"This element represents the maximum session entries that
+        can be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+472,maxBIBEntries,unsigned32,identifier,current,"This element represents the maximum BIB entries that can
+        be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+473,maxEntriesPerUser,unsigned32,identifier,current,"This element represents the maximum NAT entries that can
+        be created per user by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+474,maxSubscribers,unsigned32,identifier,current,"This element represents the maximum subscribers or
+        maximum hosts that are allowed by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+475,maxFragmentsPendingReassembly,unsigned32,identifier,current,"This element represents the maximum fragments that the
+        NAT device can store for reassembling the packet.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+476,addressPoolHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
+        number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+477,addressPoolLowThreshold,unsigned32,identifier,current,"This element represents the low threshold value of the
+        number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+478,addressPortMappingHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
+        number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+479,addressPortMappingLowThreshold,unsigned32,identifier,current,"This element represents the low threshold value of the
+        number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+480,addressPortMappingPerUserHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
+        number of address and port mappings that a single user is allowed to
+        create on a NAT device.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+481,globalAddressMappingHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
+        number of address and port mappings that a single user is allowed to
+        create on a NAT device in a paired address pooling behavior.",,,"See [RFC3022] for the definition of NAT.  
+        See [RFC3234] for the definition of middleboxes.
+        See [RFC4787] for the definition of paired 
+        address pooling behavior.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-12-01
+482-32767,Unassigned,,,,,,,,,,
