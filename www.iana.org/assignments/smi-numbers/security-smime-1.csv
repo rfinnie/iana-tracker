@@ -36,3 +36,4 @@ Decimal,Description,References
 34,id-ct-trustAnchorList,[RFC5914]
 35,id-ct-rpkiGhostbusters,[RFC6493]
 36,id-ct-resourceTaggedAttest,[Reserved and Obsolete]
+37,id-ct-utf8TextWithCRLF,[draft-housley-id-sig-update]
