@@ -5,7 +5,7 @@ Value,Description,Reference
 3,REQ-MISSING TLV,[RFC5440]
 4,OF-List,[RFC5541]
 5,Order TLV,[RFC5557]
-6,P2MP capable,[RFC-ietf-pce-rfc6006bis-04]
+6,P2MP capable,[RFC8306]
 7,VENDOR-INFORMATION-TLV,[RFC7470]
 8-15,Unassigned,
 16,STATEFUL-PCE-CAPABILITY,[RFC8231]
