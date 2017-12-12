@@ -1,7 +1,7 @@
 Bit,Description,Reference
 0-18,Unassigned,
-19,Partial Path Diverse,[RFC-ietf-pce-rfc6006bis-04]
-20,Link Direction Diverse,[RFC-ietf-pce-rfc6006bis-04]
+19,Partial Path Diverse,[RFC8306]
+20,Link Direction Diverse,[RFC8306]
 21,SRLG Diverse,[RFC5440]
 22,Node Diverse,[RFC5440]
 23,Link Diverse,[RFC5440]

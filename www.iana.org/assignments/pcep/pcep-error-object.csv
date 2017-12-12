@@ -30,7 +30,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: OF bit of the RP object set (request rejected),[RFC5541]
 ,,5: Global concurrent optimization not allowed,[RFC5557]
 ,,6: Monitoring message supported but rejected due to policy violation,[RFC5886]
-,,7: P2MP Path computation is not allowed,[RFC-ietf-pce-rfc6006bis-04]
+,,7: P2MP Path computation is not allowed,[RFC8306]
 ,,8: Not allowed network performance constraint,[RFC8233]
 ,,9-255: Unassigned,
 6,Mandatory Object missing,0: Unassigned,[RFC5440]
@@ -75,18 +75,18 @@ Error-Type,Meaning,Error-value,Reference
 ,,1: Insufficient memory,[RFC5557]
 ,,2: Global concurrent optimization not supported,[RFC5557]
 ,,3-255: Unassigned,
-16,P2MP Capability Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
-,,1: The PCE cannot satisfy the request due to insufficient memory,[RFC-ietf-pce-rfc6006bis-04]
-,,2: The PCE is not capable of P2MP computation,[RFC-ietf-pce-rfc6006bis-04]
+16,P2MP Capability Error,0: Unassigned,[RFC8306]
+,,1: The PCE cannot satisfy the request due to insufficient memory,[RFC8306]
+,,2: The PCE is not capable of P2MP computation,[RFC8306]
 ,,3-255: Unassigned,
-17,P2MP END-POINTS Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
-,,1: The PCE cannot satisfy the request due to no END-POINTS with leaf type 2,[RFC-ietf-pce-rfc6006bis-04]
-,,2: The PCE cannot satisfy the request due to no END-POINTS with leaf type 3,[RFC-ietf-pce-rfc6006bis-04]
-,,3: The PCE cannot satisfy the request due to no END-POINTS with leaf type 4,[RFC-ietf-pce-rfc6006bis-04]
-,,4: The PCE cannot satisfy the request due to inconsistent END-POINTS,[RFC-ietf-pce-rfc6006bis-04]
+17,P2MP END-POINTS Error,0: Unassigned,[RFC8306]
+,,1: The PCE cannot satisfy the request due to no END-POINTS with leaf type 2,[RFC8306]
+,,2: The PCE cannot satisfy the request due to no END-POINTS with leaf type 3,[RFC8306]
+,,3: The PCE cannot satisfy the request due to no END-POINTS with leaf type 4,[RFC8306]
+,,4: The PCE cannot satisfy the request due to inconsistent END-POINTS,[RFC8306]
 ,,5-255: Unassigned,
-18,P2MP Fragmentation Error,0: Unassigned,[RFC-ietf-pce-rfc6006bis-04]
-,,1: Fragmented request failure,[RFC-ietf-pce-rfc6006bis-04]
+18,P2MP Fragmentation Error,0: Unassigned,[RFC8306]
+,,1: Fragmented request failure,[RFC8306]
 ,,2-255: Unassigned,
 19,Invalid Operation,0: Unassigned,
 ,,"1: Attempted LSP Update Request for a non-delegated
@@ -101,7 +101,7 @@ Error-Type,Meaning,Error-value,Reference
         stateful PCE capability was not advertised.",[RFC8231]
 ,,6: PCE-initiated LSP limit reached,[RFC-ietf-pce-pce-initiated-lsp-11]
 ,,7: Delegation for PCE-initiated LSP cannot be revoked,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,8: Non-zero PLSP-ID in LSP initiation request,[RFC-ietf-pce-pce-initiated-lsp-11]
+,,8: Non-zero PLSP-ID in LSP Initiate Request,[RFC-ietf-pce-pce-initiated-lsp-11]
 ,,9: LSP is not PCE initiated,[RFC-ietf-pce-pce-initiated-lsp-11]
 ,,10: PCE-initiated operation-frequency limit reached,[RFC-ietf-pce-pce-initiated-lsp-11]
 ,,11-255: Unassigned,
