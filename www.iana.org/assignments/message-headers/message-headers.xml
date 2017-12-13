@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="message-headers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="message-headers">
   <title>Message Headers</title>
-  <updated>2017-12-07</updated>
+  <updated>2017-12-12</updated>
   
   
   
@@ -270,6 +270,18 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <protocol>http</protocol>
       <status>standard</status>
       <xref type="rfc" data="rfc7809">RFC7809, Section 7.1</xref>
+    </record>
+    <record date="2016-10-25" updated="2017-12-12">
+      <value>Cancel-Key</value>
+      <protocol>netnews</protocol>
+      <status>standard</status>
+      <xref type="draft" data="RFC-baeuerle-netnews-cancel-lock-09"/>
+    </record>
+    <record date="2016-10-25" updated="2017-12-12">
+      <value>Cancel-Lock</value>
+      <protocol>netnews</protocol>
+      <status>standard</status>
+      <xref type="draft" data="RFC-baeuerle-netnews-cancel-lock-09"/>
     </record>
     <record>
       <value>Cc</value>
@@ -2003,18 +2015,6 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <protocol>mail</protocol>
       <xref type="draft" data="draft-ietf-dmarc-arc-protocol"/>
     </record>
-    <record date="2016-10-25">
-      <file type="template">prov/cancel-key</file>
-      <value>Cancel-Key</value>
-      <protocol>netnews</protocol>
-      <xref type="draft" data="draft-ietf-usefor-cancel-lock"/>
-    </record>
-    <record date="2016-10-25">
-      <file type="template">prov/cancel-lock</file>
-      <value>Cancel-Lock</value>
-      <protocol>netnews</protocol>
-      <xref type="draft" data="draft-ietf-usefor-cancel-lock"/>
-    </record>
     <record>
       <value>Compliance</value>
       <protocol>http</protocol>
@@ -2266,7 +2266,7 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
     <title>Content-Translation-Type Header Field Values</title>
     <xref type="rfc" data="rfc8255"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Nathaniel Borenstein, Nik Tomkinson</expert>
     <record date="2017-08-30">
       <value>original</value>
       <description>Content in the original language</description>
