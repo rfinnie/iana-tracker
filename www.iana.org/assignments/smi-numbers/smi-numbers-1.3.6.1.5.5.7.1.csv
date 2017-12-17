@@ -24,5 +24,5 @@ Decimal,Description,References
 23,id-pe-nsa,[RFC7169]
 24,id-pe-tlsfeature,[RFC7633]
 25,"id-pe-mud-url (TEMPORARY - registered 2016-12-06, extension registered 2017-10-02, expires 2018-12-06)",[draft-ietf-opsawg-mud]
-26,id-pe-TNAuthList,[RFC-ietf-stir-certificates-14]
-27,id-pe-JWTClaimConstraints,[RFC-ietf-stir-certificates-14]
+26,id-pe-TNAuthList,[RFC-ietf-stir-certificates-17]
+27,id-pe-JWTClaimConstraints,[RFC-ietf-stir-certificates-17]

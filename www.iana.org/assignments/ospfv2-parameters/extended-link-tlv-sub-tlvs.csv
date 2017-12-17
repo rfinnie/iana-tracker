@@ -5,6 +5,7 @@ Value,Description,Reference
 3,"LAN Adj-SID/Label Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)",[draft-ietf-ospf-segment-routing-extensions]
 4,Network-to-Router Metric Sub-TLV,[RFC8042]
 5,RTM Capability,[RFC8169]
-6-32767,Unassigned,
+6,"Link MSD sub-TLV (TEMPORARY - registered 2017-06-01, expires 2018-06-01)",[draft-ietf-ospf-segment-routing-msd]
+7-32767,Unassigned,
 32768-33023,Reserved for Experimental Use,[RFC7684]
 33024-65535,Reserved,[RFC7684]
