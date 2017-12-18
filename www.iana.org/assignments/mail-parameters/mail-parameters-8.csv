@@ -1,6 +1,14 @@
 Clause Name,Description,Syntax Summary,Reference
 PRIORITY,"Records the value of the MT-PRIORITY  
 parameter specified in the MAIL FROM
-command",See Section 7 of RFC,[RFC6710]
+command",See Section 7 of RFC [RFC6710],[RFC6710]
 state,"Indicates entry into a special        
 queue state",state <state-name>,[RFC6729]
+tls,Indicating the TLS cipher used,"tls-cipher = tls-cipher-name / tls-cipher-hex
+          
+          tls-cipher-name = ALPHA *(ALPHA / DIGIT / ""_"")
+          ; as registered in IANA cipher suite registry
+          
+          tls-cipher-hex = ""0x"" 4HEXDIG",[RFC-ietf-uta-email-deep-12]
+group,Indicating the Diffie-Hellman group used with the TLS cipher,"dh-group = ALPHA *(ALPHA / DIGIT / ""_"" / ""-"")
+          ; as registered in IANA TLS Supported Groups Registry",[RFC-ietf-uta-email-deep-12]
