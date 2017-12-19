@@ -1,6 +1,6 @@
 RA Option Bit,Description,Reference
-0,M - Managed Address Configuration Flag,[RFC2461]
-1,O - Other Configuration Flag,[RFC2461]
+0,M - Managed Address Configuration Flag,[RFC4861]
+1,O - Other Configuration Flag,[RFC4861]
 2,H - Mobile IPv6 Home Agent Flag,[RFC3775]
 3,Prf - Router Selection Preferences,[RFC4191]
 4,Prf - Router Selection Preferences,[RFC4191]
