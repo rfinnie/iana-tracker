@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv2-parameters">
   <title>Open Shortest Path First v2 (OSPFv2) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2017-12-04</updated>
+  <updated>2017-12-18</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-authentication-codes"/>
     <xref type="uri" data="http://www.iana.org/assignments/bandwidth-constraints-model-ids"/>
@@ -454,8 +454,8 @@
     </record>
     <record date="2015-10-22">
       <value>2</value>
-      <description>OSPF Extended Prefix Range TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>OSPF Extended Prefix Range TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
     <record>
       <value>3-32767</value>
@@ -484,44 +484,19 @@
     </record>
     <record date="2015-10-22">
       <value>1</value>
-      <description>SID/Label Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>SID/Label Sub-TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
     <record date="2015-10-22">
       <value>2</value>
-      <description>Prefix SID Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>Prefix SID Sub-TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
-    <record date="2015-10-22">
-      <value>3</value>
-      <description>SID/Label Binding Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+    <record>
+      <value>3-8</value>
+      <description>Unassigned</description>
     </record>
-    <record date="2015-10-22">
-      <value>4</value>
-      <description>IPv4 ERO Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
-    </record>
-    <record date="2015-10-22">
-      <value>5</value>
-      <description>Unnumbered Interface ID ERO Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
-    </record>
-    <record date="2015-10-22">
-      <value>6</value>
-      <description>IPv4 Backup ERO Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
-    </record>
-    <record date="2015-10-22">
-      <value>7</value>
-      <description>Unnumbered Interface ID Backup ERO Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
-    </record>
-    <record date="2015-10-22">
-      <value>8</value>
-      <description>ERO Metric Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
-    </record>
+    
     <record date="2017-06-29">
       <value>9</value>
       <description>BIER Sub-TLV (TEMPORARY - registered 2017-06-29, expires 2018-06-29)</description>
@@ -584,17 +559,7 @@
       <xref type="rfc" data="rfc7684"/>
     </record>
     <record>
-      <value>2-5</value>
-      <description>Unassigned</description>
-    </record>
-    <record date="2017-06-01">
-      <value>6</value>
-      <description>LINK MSD sub-TLV (TEMPORARY - registered 
-        2017-06-01, expires 2018-06-01)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-msd"/>
-    </record>
-    <record>
-      <value>7-32767</value>
+      <value>2-32767</value>
       <description>Unassigned</description>
     </record>
     <record date="2015-09-02">
@@ -620,18 +585,18 @@
     </record>
     <record date="2015-10-22">
       <value>1</value>
-      <description>SID/Label Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>SID/Label Sub-TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
     <record date="2015-10-22">
       <value>2</value>
-      <description>Adj-SID Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>Adj-SID Sub-TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
     <record date="2015-10-22">
       <value>3</value>
-      <description>LAN Adj-SID/Label Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)</description>
-      <xref type="draft" data="draft-ietf-ospf-segment-routing-extensions"/>
+      <description>LAN Adj-SID/Label Sub-TLV</description>
+      <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
     <record date="2016-11-10">
       <value>4</value>
@@ -643,8 +608,28 @@
       <description>RTM Capability</description>
       <xref type="rfc" data="rfc8169"/>
     </record>
+    <record date="2017-06-01" updated="2017-12-15">
+      <value>6</value>
+      <description>Link MSD sub-TLV (TEMPORARY - registered 2017-06-01, expires 2018-06-01)</description>
+      <xref type="draft" data="draft-ietf-ospf-segment-routing-msd"/>
+    </record>
+    <record date="2017-12-18">
+      <value>7</value>
+      <description>Link-Overload Sub-TLV (TEMPORARY - registered 2017-12-18, expires 2018-12-18)</description>
+      <xref type="draft" data="draft-ietf-ospf-link-overload"/>
+    </record>
+    <record date="2017-12-18">
+      <value>8</value>
+      <description>Remote IPv4 Address Sub-TLV (TEMPORARY - registered 2017-12-18, expires 2018-12-18)</description>
+      <xref type="draft" data="draft-ietf-ospf-link-overload"/>
+    </record>
+    <record date="2017-12-18">
+      <value>9</value>
+      <description>Local/Remote Interface ID Sub-TLV (TEMPORARY - registered 2017-12-18, expires 2018-12-18)</description>
+      <xref type="draft" data="draft-ietf-ospf-link-overload"/>
+    </record>
     <record>
-      <value>6-32767</value>
+      <value>10-32767</value>
       <description>Unassigned</description>
     </record>
     <record date="2015-09-02">

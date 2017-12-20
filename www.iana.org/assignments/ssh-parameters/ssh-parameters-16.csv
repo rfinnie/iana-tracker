@@ -3,11 +3,11 @@ diffie-hellman-group-exchange-sha1,[RFC4419],Section 4.1
 diffie-hellman-group-exchange-sha256,[RFC4419],Section 4.2
 diffie-hellman-group1-sha1,[RFC4253],Section 8.1
 diffie-hellman-group14-sha1,[RFC4253],Section 8.2
-diffie-hellman-group14-sha256,[RFC-ietf-curdle-ssh-modp-dh-sha2-09],
-diffie-hellman-group15-sha512,[RFC-ietf-curdle-ssh-modp-dh-sha2-09],
-diffie-hellman-group16-sha512,[RFC-ietf-curdle-ssh-modp-dh-sha2-09],
-diffie-hellman-group17-sha512,[RFC-ietf-curdle-ssh-modp-dh-sha2-09],
-diffie-hellman-group18-sha512,[RFC-ietf-curdle-ssh-modp-dh-sha2-09],
+diffie-hellman-group14-sha256,[RFC8268],
+diffie-hellman-group15-sha512,[RFC8268],
+diffie-hellman-group16-sha512,[RFC8268],
+diffie-hellman-group17-sha512,[RFC8268],
+diffie-hellman-group18-sha512,[RFC8268],
 ecdh-sha2-*,[RFC5656],
 ecmqv-sha2,[RFC5656],
 gss-group1-sha1-*,[RFC4462],Section 2.3

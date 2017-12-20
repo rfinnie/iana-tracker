@@ -1471,15 +1471,16 @@ Private: 1
             
               
 Public:  2",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.com],1,2014-08-13
-230,natEvent,unsigned8,identifier,current,"This Information Element identifies a NAT event. This
-  IE identifies the type of a NAT event. Examples of NAT events
-  include, but are not limited to, NAT translation create, NAT
-  translation delete, Threshold Reached, or Threshold Exceeded, etc.
-  Values for this Information Element are listed in the NAT Event Type
-  registry, see [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
-  New assignments of values will be administered by IANA and are subject to
-  Expert Review [RFC8126]. Experts need to check definitions of new
-  values for completeness, accuracy, and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
+230,natEvent,unsigned8,identifier,current,"This Information Element identifies a NAT event. This IE identifies 
+  the type of a NAT event. Examples of NAT events include, but are not 
+  limited to, NAT translation create, NAT translation delete, Threshold 
+  Reached, or Threshold Exceeded, etc. Values for this Information 
+  Element are listed in the ""NAT Event Type"" registry, see 
+  [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
+  New assignments of values will be administered by IANA and are 
+  subject to Expert Review [RFC8126]. Experts 
+  need to check definitions of new values for completeness, accuracy, 
+  and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC-ietf-behave-ipfix-nat-logging-13] 
 for the definitions of values 4-16.",[RFC-ietf-behave-ipfix-nat-logging-13],2,2017-03-15
@@ -3577,21 +3578,20 @@ HTTP-version field, defined in section 2.6 of
 identification of an HTTP/2 frame as defined in 
 [RFC7240] section 3.1. The length 
 of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0,2016-11-15
-463,natInstanceID,unsigned32,identifier,current,"This Information Element uniquely identifies an Instance
-        of the NAT that runs on a NAT middlebox function after the packet
-        passes the Observation Point. natInstanceID is defined in 
-        [RFC7659]",,,"See [RFC791] for the definition of the IPv4 
+463,natInstanceID,unsigned32,identifier,current,"This Information Element uniquely identifies an Instance of the NAT 
+        that runs on a NAT middlebox function after the packet passes the 
+        Observation Point. natInstanceID is defined in 
+        [RFC7659].",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
-464,internalAddressRealm,octetArray,identifier,current,"This Information Element represents the internal address realm where
-        the packet is originated from or destined to. By definition, a NAT
-        mapping can be created from two address realms, one from internal and
-        one from external. Realms are implementation dependent and can
-        represent a Virtual Routing and Forwarding (VRF) ID, a VLAN ID, or
-        some unique identifier. Realms are optional, and when left
-        unspecified, would mean that the external and internal realms are the
-        same.",,,"See [RFC791] for the definition of the IPv4 
+464,internalAddressRealm,octetArray,identifier,current,"This Information Element represents the internal address realm where 
+        the packet is originated from or destined to. By definition, a NAT 
+        mapping can be created from two address realms, one from internal and 
+        one from external. Realms are implementation dependent and can represent 
+        a Virtual Routing and Forwarding (VRF) ID, a VLAN ID, or some unique 
+        identifier. Realms are optional and, when left unspecified, would mean 
+        that the external and internal realms are the same.",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
@@ -3602,22 +3602,25 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
-466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT
-        Quota Exceeded event. Values for this Information Element are listed
-        in the NAT Quota Exceeded Event Type registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event]. 
-        New assignments of values will be administered by IANA and are subject to
-        Expert Review [RFC8126]. Experts need to check definitions of new
-        values for completeness, accuracy, and redundancy.",,,"See [RFC791] for the definition of the IPv4 
+466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT Quota Exceeded 
+        event. Values for this Information Element are listed in the ""NAT 
+        Quota Exceeded Event Type"" registry, see 
+        [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event]. 
+        New assignments of values will be administered by IANA and are subject 
+        to Expert Review [RFC8126]. Experts need to 
+        check definitions of new values for completeness, accuracy, and 
+        redundancy.",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
-467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT
-        Threshold event. Values for this Information Element are listed in
-        the NAT Threshold Event Type registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event]. 
-        New
-        assignments of values will be administered by IANA and are subject to
-        Expert Review [RFC8126]. Experts need to check definitions of new
-        values for completeness, accuracy, and redundancy.",,,"See [RFC791] for the definition of the IPv4 
+467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT Threshold event. 
+        Values for this Information Element are listed in the ""NAT Threshold 
+        Event Type"" registry, see 
+        [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event]. 
+        New assignments of values will be administered by IANA and are 
+        subject to Expert Review [RFC8126]. Experts 
+        need to check definitions of new values for completeness, accuracy, 
+        and redundancy.",,,"See [RFC791] for the definition of the IPv4 
         source address field.  See [RFC3022] 
         for the definition of NAT.  See [RFC3234] 
         for the definition of middleboxes.",[RFC-ietf-behave-ipfix-nat-logging-13],0,2017-03-15
