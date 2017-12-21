@@ -4,6 +4,8 @@ application/atsc-held+xml,Advanced Television Systems Committee (ATSC),[ATSC_Edi
 application/mmt-aei+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
 application/ion,IETF,[Jonathan_Hohle]
 image/jxr,ISO/IEC JTC 1,[Gary_J._Sullivan][Touradj_Ebrahimi]
+image/heif,ISO/IEC JTC 1,[David_Singer]
+image/heic,ISO/IEC JTC 1,[David_Singer]
 application/gltf-buffer,The Khronos Group,[Saurabh_Bhatia]
 application/akn+xml,OASIS,[Robin_Cover]
 application/xliff+xml,OASIS,[Robin_Cover]

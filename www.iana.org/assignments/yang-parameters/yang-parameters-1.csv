@@ -55,5 +55,5 @@ and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
 ietf-lime-time-types,,N,urn:ietf:params:xml:ns:yang:ietf-lime-time-types,lime,,[RFC-ietf-lime-yang-connectionless-oam-18],
 ietf-connectionless-oam,,N,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam,cl-oam,,[RFC-ietf-lime-yang-connectionless-oam-18],
 ietf-connectionless-oam-methods,,N,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam-methods,cloam-methods,,[RFC-ietf-lime-yang-connectionless-oam-methods-13],
-ietf-l3-unicast-topology,,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology,l3t,,[RFC-ietf-lime-yang-connectionless-oam-methods-13],
-ietf-l3-unicast-topology-state,,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state,l3t-s,,[RFC-ietf-lime-yang-connectionless-oam-methods-13],
+ietf-l3-unicast-topology,,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology,l3t,,[RFC-ietf-i2rs-yang-l3-topology-16],
+ietf-l3-unicast-topology-state,,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state,l3t-s,,[RFC-ietf-i2rs-yang-l3-topology-16],
