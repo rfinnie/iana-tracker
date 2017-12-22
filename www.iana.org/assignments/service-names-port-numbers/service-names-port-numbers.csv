@@ -9942,9 +9942,9 @@ ncxcp,5681,tcp,Net-coneX Control Protocol,[Ryan_Werber],[Ryan_Werber],2006-06,,,
 ncxcp,5681,udp,Net-coneX Control Protocol,[Ryan_Werber],[Ryan_Werber],2006-06,,,,,
 ,5682,tcp,Reserved,,,,,,,,
 brightcore,5682,udp,BrightCore control & data transfer exchange,[Marko_Bjelac],[Marko_Bjelac],2010-06-10,,,,,
-,5683,tcp,Reserved,,,,,,,,
+coap,5683,tcp,Constrained Application Protocol (CoAP),[IESG],[IETF_Chair],2017-12-22,,[RFC-ietf-core-coap-tcp-tls-11],,,
 coap,5683,udp,Constrained Application Protocol,[IESG],[IETF_Chair],2011-06-13,2013-07-25,[RFC7252],,,
-,5684,tcp,Reserved,,,,,,,,
+coaps,5684,tcp,Constrained Application Protocol (CoAP),[IESG],[IETF_Chair],2017-12-22,,[RFC7301][RFC-ietf-core-coap-tcp-tls-11],,,
 coaps,5684,udp,DTLS-secured CoAP,[IESG],[IETF_Chair],2013-07-25,,[RFC7252],,,
 ,5685-5686,,Unassigned,,,,,,,,
 gog-multiplayer,5687,udp,GOG multiplayer game protocol,[GOG.com],[Michal_Gruchala],2014-07-31,2014-10-09,,,,
@@ -14033,6 +14033,7 @@ bridgeprotocol,,tcp,JSON RPC Bridge Protocol,[Michel_Stam_2],[Michel_Stam_2],201
 bsqdea,,,Backup Simplicity,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 btp,,tcp,Beats Transfer Protocol allows for the discovery and control of devices,[Beats_Electronics_LLC_2],[Yunho_Huh],2014-02-17,2014-06-27,,,,Defined TXT keys: None
 buddycloud-api,,tcp,buddycloud API,[buddycloud],[Simon_Tennant],2013-05-20,,,,,"Defined TXT keys: v, host, protocol, path, port"
+buzzer,,tcp,Service for opening electric doors,[Mnemo.ai],[Arturo_Falck],2017-12-22,,,,,Defined TXT keys: None
 caldav,,tcp,Calendaring Extensions to WebDAV (CalDAV) - non-TLS,[IESG],[IETF_Chair],2012-02-17,,[RFC6764],,,This is an extension of the http service.  Defined TXT keys: path=<context path>
 caldavs,,tcp,Calendaring Extensions to WebDAV (CalDAV) - over TLS,[IESG],[IETF_Chair],2012-02-17,,[RFC6764],,,This is an extension of the https service.  Defined TXT keys: path=<context path>
 caltalk,,,CalTalk,[Joe_Groff],[Joe_Groff],,,,,,Defined TXT keys: None
