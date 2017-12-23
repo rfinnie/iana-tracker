@@ -1,7 +1,7 @@
 Value,Threshold Exceeded Event Name,Reference
-0,Reserved,[RFC-ietf-behave-ipfix-nat-logging-13]
-1,Address pool high threshold event,[RFC-ietf-behave-ipfix-nat-logging-13]
-2,Address pool low threshold event,[RFC-ietf-behave-ipfix-nat-logging-13]
-3,Address and port mapping high threshold event,[RFC-ietf-behave-ipfix-nat-logging-13]
-4,Address and port mapping per user high threshold event,[RFC-ietf-behave-ipfix-nat-logging-13]
-5,Global Address mapping high threshold event,[RFC-ietf-behave-ipfix-nat-logging-13]
+0,Reserved,[RFC8158]
+1,Address pool high threshold event,[RFC8158]
+2,Address pool low threshold event,[RFC8158]
+3,Address and port mapping high threshold event,[RFC8158]
+4,Address and port mapping per user high threshold event,[RFC8158]
+5,Global Address mapping high threshold event,[RFC8158]
