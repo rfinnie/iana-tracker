@@ -56,7 +56,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 ,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 ,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
-,,8: SYMBOLIC-PATH-NAME TLV missing,[RFC-ietf-pce-pce-initiated-lsp-11]
+,,8: SYMBOLIC-PATH-NAME TLV missing,[RFC8281]
 ,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 ,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 ,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
@@ -99,11 +99,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unassigned,
 ,,"5: Attempted LSP State Report if active 
         stateful PCE capability was not advertised.",[RFC8231]
-,,6: PCE-initiated LSP limit reached,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,7: Delegation for PCE-initiated LSP cannot be revoked,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,8: Non-zero PLSP-ID in LSP Initiate Request,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,9: LSP is not PCE initiated,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,10: PCE-initiated operation-frequency limit reached,[RFC-ietf-pce-pce-initiated-lsp-11]
+,,6: PCE-initiated LSP limit reached,[RFC8281]
+,,7: Delegation for PCE-initiated LSP cannot be revoked,[RFC8281]
+,,8: Non-zero PLSP-ID in LSP Initiate Request,[RFC8281]
+,,9: LSP is not PCE initiated,[RFC8281]
+,,10: PCE-initiated operation-frequency limit reached,[RFC8281]
 ,,11-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,
 ,,"1: A PCE indicates to a PCC that it cannot process
@@ -130,13 +130,13 @@ Error-Type,Meaning,Error-value,Reference
 ,,3-255: Unassigned,[draft-ietf-pce-lsp-setup-type]
 22,Unassigned,0-255: Unassigned,
 23,Bad parameter value,0: Unassigned,
-,,1: SYMBOLIC-PATH-NAME in use,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,2: Speaker identity included for an LSP that is not PCE initiated,[RFC-ietf-pce-pce-initiated-lsp-11]
+,,1: SYMBOLIC-PATH-NAME in use,[RFC8281]
+,,2: Speaker identity included for an LSP that is not PCE initiated,[RFC8281]
 ,,3-255: Unassigned,
 24,LSP instantiation error,0: Unassigned,
-,,1: Unacceptable instantiation parameters,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,2: Internal error,[RFC-ietf-pce-pce-initiated-lsp-11]
-,,3: Signaling error,[RFC-ietf-pce-pce-initiated-lsp-11]
+,,1: Unacceptable instantiation parameters,[RFC8281]
+,,2: Internal error,[RFC8281]
+,,3: Signaling error,[RFC8281]
 ,,4-255: Unassigned,
 25,PCEP StartTLS failure,0: Unassigned,
 ,,1: Reception of StartTLS after any PCEP exchange,[RFC8253]
