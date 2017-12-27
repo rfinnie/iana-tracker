@@ -17,6 +17,6 @@ Value,Description,Reference
 15,P2MP Path Delay metric,[RFC8233]
 16,P2MP Path Delay variation metric,[RFC8233]
 17,P2MP Path Loss metric,[RFC8233]
-18,Number of adaptations on a path,[RFC-ietf-pce-inter-layer-ext-12]
-19,Number of layers on a path,[RFC-ietf-pce-inter-layer-ext-12]
+18,Number of adaptations on a path,[RFC8282]
+19,Number of layers on a path,[RFC8282]
 20-255,Unassigned,
