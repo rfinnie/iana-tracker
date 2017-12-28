@@ -1,7 +1,7 @@
 Value,Description,Reference
 0,Reserved,[RFC7684]
-1,"SID/Label Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)",[draft-ietf-ospf-segment-routing-extensions]
-2,"Prefix SID Sub-TLV (TEMPORARY - registered 2015-10-22, extension registered 2017-06-23, expires 2018-10-22)",[draft-ietf-ospf-segment-routing-extensions]
+1,SID/Label Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+2,Prefix SID Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
 3-8,Unassigned,
 9,"BIER Sub-TLV (TEMPORARY - registered 2017-06-29, expires 2018-06-29)",[draft-ietf-bier-ospf-bier-extensions]
 10,"BIER MPLS Encapsulation Sub-TLV (TEMPORARY - registered 2017-06-29, expires 2018-06-29)",[draft-ietf-bier-ospf-bier-extensions]

@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2017-12-13</updated>
+  <updated>2017-12-21</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -909,6 +909,12 @@ The registration template should cite the specification.
       <xref type="rfc" data="rfc4826"/>
     </record>
     <record>
+      <value>rolie-1.0</value>
+      <name>urn:ietf:params:xml:ns:rolie-1.0</name>
+      <file type="template">ns/rolie-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-mile-rolie-16"/>
+    </record>
+    <record>
       <value>sa-dialog-info</value>
       <name>urn:ietf:params:xml:ns:sa-dialog-info</name>
       <file type="template">ns/sa-dialog-info.txt</file>
@@ -1178,6 +1184,18 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-key-chain.txt</file>
       <xref type="rfc" data="rfc8177"/>
     </record>
+    <record date="2017-12-18">
+      <value>yang:ietf-l3-unicast-topology</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology</name>
+      <file type="template">ns/yang/ietf-l3-unicast-topology.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-l3-topology-16"/>
+    </record>
+    <record date="2017-12-18">
+      <value>yang:ietf-l3-unicast-topology-state</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state</name>
+      <file type="template">ns/yang/ietf-l3-unicast-topology-state.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-l3-topology-16"/>
+    </record>
     <record date="2016-12-02" updated="2017-12-13">
       <value>yang:ietf-l3vpn-svc</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-l3vpn-svc</name>
@@ -1237,6 +1255,30 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults</name>
       <file type="template">ns/yang/ietf-netconf-with-defaults.txt</file>
       <xref type="rfc" data="rfc6243"/>
+    </record>
+    <record date="2017-12-21">
+      <value>yang:ietf-network</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-network</name>
+      <file type="template">ns/yang/ietf-network.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+    </record>
+    <record date="2017-12-21">
+      <value>yang:ietf-network-state</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-network-state</name>
+      <file type="template">ns/yang/ietf-network-state.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+    </record>
+    <record date="2017-12-21">
+      <value>yang:ietf-network-topology</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-network-topology</name>
+      <file type="template">ns/yang/ietf-network-topology.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+    </record>
+    <record date="2017-12-21">
+      <value>yang:ietf-network-topology-state</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-network-topology-state</name>
+      <file type="template">ns/yang/ietf-network-topology-state.txt</file>
+      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
     </record>
     <record date="2017-01-18">
       <value>yang:ietf-restconf</value>
@@ -2000,6 +2042,12 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:rls-services</name>
       <file type="template">schema/rls-services.xsd</file>
       <xref type="rfc" data="rfc4826"/>
+    </record>
+    <record date="2017-12-20">
+      <value>rolie-1.0</value>
+      <name>urn:ietf:params:xml:schema:rolie-1.0</name>
+      <file type="template">schema/rolie-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-mile-rolie-16"/>
     </record>
     <record>
       <value>sa-dialog-info</value>
