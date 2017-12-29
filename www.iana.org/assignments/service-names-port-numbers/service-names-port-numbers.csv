@@ -14097,6 +14097,9 @@ demoncamremote,,tcp,Peer-to-peer real-time video streaming,[James_Alan_Bush],[Ja
 demoncamremote,,udp,Peer-to-peer real-time video streaming,[James_Alan_Bush],[James_Alan_Bush],2017-09-26,,,,,Defined TXT keys: None
 device-info,,,Device Info,[Stuart_Cheshire_5][Marc_Krochmal],[Stuart_Cheshire_5][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD device info.
 devonsync,,tcp,DEVONthink synchronization protocol,[DEVONtechnologies_LLC],[Rob_Rix][Eric_Boehnisch-Volkmann],2011-10-18,,,,,Defined TXT keys: None at present
+dhanda-g,,tcp,DHANDAg is going for a site,[DHANDAg],[Deepam],2017-12-29,,,,,Defined TXT keys: None
+dhanda-g,,udp,DHANDAg is going for a site,[DHANDAg],[Deepam],2017-12-29,,,,,Defined TXT keys: None
+dhanda-g,,sctp,DHANDAg is going for a site,[DHANDAg],[Deepam],2017-12-29,,,,,Defined TXT keys: None
 dictation,,,Use of a dictation service by a hand-held device,[Nuance_Communications_Inc],[Mark_Jackson],2011-10-27,,,,,"Defined TXT keys: ver, name"
 difi,,,EyeHome,[Elgato],[Elgato],,,,,,Defined TXT keys: None
 disconnect,,,DisConnect Peer to Peer Game Protocol,[Michael_S_Bogovich],[Michael_S_Bogovich],,,,,,Defined TXT keys: None
