@@ -11,6 +11,6 @@ Value,Description,Reference
 9,Path Computation Monitoring Reply (PCMonRep),[RFC5886]
 10,Report,[RFC8231]
 11,Update,[RFC8231]
-12,LSP Initiate Request,[RFC-ietf-pce-pce-initiated-lsp-11]
+12,LSP Initiate Request,[RFC8281]
 13,StartTLS,[RFC8253]
 14-255,Unassigned,

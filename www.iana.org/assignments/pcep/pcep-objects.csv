@@ -111,17 +111,17 @@ Object-Class Value,Name,Object-Type,Reference
 35,BU,0: Reserved,[RFC8233][RFC Errata 4956]
 ,,1: BU,[RFC8233]
 ,,2-15: Unassigned,
-36,INTER-LAYER,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
-,,1: Inter-layer,[RFC-ietf-pce-inter-layer-ext-12]
+36,INTER-LAYER,0: Reserved,[RFC8282]
+,,1: Inter-layer,[RFC8282]
 ,,2-15: Unassigned,
-37,SWITCH-LAYER,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
-,,1: Switch-layer,[RFC-ietf-pce-inter-layer-ext-12]
+37,SWITCH-LAYER,0: Reserved,[RFC8282]
+,,1: Switch-layer,[RFC8282]
 ,,2-15: Unassigned,
-38,REQ-ADAP-CAP,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
-,,1: Req-Adap-Cap,[RFC-ietf-pce-inter-layer-ext-12]
+38,REQ-ADAP-CAP,0: Reserved,[RFC8282]
+,,1: Req-Adap-Cap,[RFC8282]
 ,,2-15: Unassigned,
-39,SERVER-INDICATION,0: Reserved,[RFC-ietf-pce-inter-layer-ext-12]
-,,1: Server-indication,[RFC-ietf-pce-inter-layer-ext-12]
+39,SERVER-INDICATION,0: Reserved,[RFC8282]
+,,1: Server-indication,[RFC8282]
 ,,2-15: Unassigned,
 40,"ASSOCIATION (TEMPORARY - registered 2017-10-17, expires 2018-10-17)","0: Reserved (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 ,,"1: IPv4 (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
