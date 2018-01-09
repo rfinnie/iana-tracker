@@ -942,7 +942,7 @@ alpes,463,tcp,alpes,[Alain_Durand],[Alain_Durand],,,,,,
 alpes,463,udp,alpes,[Alain_Durand],[Alain_Durand],,,,,,
 kpasswd,464,tcp,kpasswd,[Theodore_Ts_o],[Theodore_Ts_o],,,,,,
 kpasswd,464,udp,kpasswd,[Theodore_Ts_o],[Theodore_Ts_o],,,,,,
-urd,465,tcp,URL Rendesvous Directory for SSM,[Toerless_Eckert],[Toerless_Eckert],,,,,,
+urd,465,tcp,URL Rendezvous Directory for SSM,[Toerless_Eckert],[Toerless_Eckert],,,,,,
 submissions,465,tcp,Message Submission over TLS protocol,[IESG],[IETF_Chair],2017-12-12,,[RFC-ietf-uta-email-deep-12],,,
 igmpv3lite,465,udp,IGMP over UDP for SSM,[Toerless_Eckert],[Toerless_Eckert],,,,,,
 digital-vrc,466,tcp,digital-vrc,[Peter_Higginson],[Peter_Higginson],,,,,,
@@ -14572,6 +14572,7 @@ radioport,,tcp,RadioPort Message Service,[Bob_Iannucci],[Bob_Iannucci],2011-11-2
 radioport,,udp,RadioPort Message Service,[Bob_Iannucci],[Bob_Iannucci],2011-11-23,,,,,Defined TXT keys: NONE
 radiusdtls,,udp,"Authentication, Accounting, and Dynamic Authorization via the RADIUS protocol. This service name is used to construct the SRV service label ""_radiusdtls"" for discovery of RADIUS/DTLS servers.",[IESG],[IETF_Chair],2015-03-23,2015-10-06,[RFC7585],,,Defined TXT keys: None
 radiustls,,tcp,"Authentication, Accounting, and Dynamic Authorization via the RADIUS protocol. This service name is used to construct the SRV service label ""_radiustls"" for discovery of RADIUS/TLS servers.",[IESG],[IETF_Chair],2015-03-23,2015-10-06,[RFC7585],,,Defined TXT keys: None
+railduino,,tcp,Model Railroad Messaging,[Railduino],[Volker_Wiegand_2],2018-01-08,,,,,Defined TXT keys: role=master
 raop,,,Remote Audio Output Protocol (AirTunes),[BonjourDev],[BonjourDev],,2011-10-14,,,,Defined TXT keys: None
 rbr,,,RBR Instrument Communication,[Greg_Johnson],[Greg_Johnson],,,,,,Defined TXT keys: None
 rce,,,PowerCard,[DeVoeSquared],[DeVoeSquared],,,,,,Defined TXT keys: None
