@@ -27,3 +27,4 @@ DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmas
         to the host objects was included with the revision 2.0 of the XSD 
         implemented by the dk registry."
 Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC8063],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None
+Launch Phase Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC-ietf-regext-launchphase-07],[IESG],Any,None,Active,None
