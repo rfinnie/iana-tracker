@@ -25,6 +25,7 @@ Parameter,ID Length,Description,Reference
 0x18,4,PW Generic Protocol Flags,[RFC6478]
 0x19,variable,VCCV Extended CV Parameter,[RFC7189]
 0x1A,8,E-Tree,[RFC7796]
-0x1B-0xFC,,Unassigned,
+0x1B,variable,Selective Tree Interface Parameter,[RFC-ietf-pals-p2mp-pw-04]
+0x1C-0xFC,,Unassigned,
 0xFD,up to 8,Zte optional Supplier private interface parameters,[Zhu_Wei]
 0xFE-0xFF,,Unassigned,

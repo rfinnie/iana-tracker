@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2017-12-21
+           2018-01-12
 
    Note
 
@@ -169,6 +169,7 @@ keyprov:pskc:pin                      urn:ietf:params:xml:ns:keyprov:pskc:pin   
 keyrelay-1.0                          urn:ietf:params:xml:ns:keyrelay-1.0                          ns/keyrelay-1.0.txt                          [RFC8063]
 kpml-request                          urn:ietf:params:xml:ns:kpml-request                          ns/kpml-request.txt                          [RFC4730]
 kpml-response                         urn:ietf:params:xml:ns:kpml-response                         ns/kpml-response.txt                         [RFC4730]
+launch-1.0                            urn:ietf:params:xml:ns:launch-1.0                            ns/launch-1.0.txt                            [RFC-ietf-regext-launchphase-07]
 lgr-1.0                               urn:ietf:params:xml:ns:lgr-1.0                               ns/lgr-1.0.txt                               [RFC7940]
 load-control                          urn:ietf:params:xml:ns:load-control                          ns/load-control.txt                          [RFC7200]
 location-filter                       urn:ietf:params:xml:ns:location-filter                       ns/location-filter.txt                       [RFC6447]
@@ -270,7 +271,7 @@ yang:ietf-complex-types               urn:ietf:params:xml:ns:yang:ietf-complex-t
 yang:ietf-connectionless-oam          urn:ietf:params:xml:ns:yang:ietf-connectionless-oam          ns/yang/ietf-connectionless-oam.txt          [RFC-ietf-lime-yang-connectionless-oam-18]
 yang:ietf-connectionless-oam-methods  urn:ietf:params:xml:ns:yang:ietf-connectionless-oam-methods  ns/yang/ietf-connectionless-oam-methods.txt  [RFC-ietf-lime-yang-connectionless-oam-methods-13]
 yang:ietf-inet-types                  urn:ietf:params:xml:ns:yang:ietf-inet-types                  ns/yang/ietf-inet-types.txt                  [RFC6991]
-yang:ietf-interfaces                  urn:ietf:params:xml:ns:yang:ietf-interfaces                  ns/yang/ietf-interfaces.txt                  [RFC7223]
+yang:ietf-interfaces                  urn:ietf:params:xml:ns:yang:ietf-interfaces                  ns/yang/ietf-interfaces.txt                  [RFC-ietf-netmod-rfc7223bis-03]
 yang:ietf-ip                          urn:ietf:params:xml:ns:yang:ietf-ip                          ns/yang/ietf-ip.txt                          [RFC7277]
 yang:ietf-ipfix-psamp                 urn:ietf:params:xml:ns:yang:ietf-ipfix-psamp                 ns/yang/ietf-ipfix-psamp.txt                 [RFC6728]
 yang:ietf-ipv4-unicast-routing        urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing        ns/yang/ietf-ipv4-unicast-routing.txt        [RFC8022]
@@ -408,6 +409,7 @@ keyprov:pskc                     urn:ietf:params:xml:schema:keyprov:pskc        
 keyrelay-1.0                     urn:ietf:params:xml:schema:keyrelay-1.0                     schema/keyrelay-1.0.xsd                     [RFC8063]
 kpml-request                     urn:ietf:params:xml:schema:kpml-request                     schema/kpml-request.xsd                     [RFC4730]
 kpml-response                    urn:ietf:params:xml:schema:kpml-response                    schema/kpml-response.xsd                    [RFC4730]
+launch-1.0                       urn:ietf:params:xml:schema:launch-1.0                       schema/launch-1.0.xsd                       [RFC-ietf-regext-launchphase-07]
 load-control                     urn:ietf:params:xml:schema:load-control                     schema/load-control.xsd                     [RFC7200]
 location-filter                  urn:ietf:params:xml:schema:location-filter                  schema/location-filter.xsd                  [RFC6447]
 location-type                    urn:ietf:params:xml:schema:location-type                    schema/location-type.xsd                    [RFC4589]
@@ -451,7 +453,7 @@ resource-lists                   urn:ietf:params:xml:schema:resource-lists      
 resource-lists-diff              urn:ietf:params:xml:schema:resource-lists-diff              schema/resource-lists-diff.xsd              [RFC5362]
 rgp-1.0                          urn:ietf:params:xml:schema:rgp-1.0                          schema/rgp-1.0.xsd                          [RFC3915]
 rls-services                     urn:ietf:params:xml:schema:rls-services                     schema/rls-services.xsd                     [RFC4826]
-rolie-1.0                        urn:ietf:params:xml:schema:rolie-1.0                        schema/rolie-1.0.xsd                        [RFC-ietf-mile-rolie-16]
+rolie-1.0                        urn:ietf:params:xml:schema:rolie-1.0                        schema/rolie-1.0.rnc                        [RFC-ietf-mile-rolie-16]
 sa-dialog-info                   urn:ietf:params:xml:schema:sa-dialog-info                   schema/sa-dialog-info.xsd                   [RFC7463]
 secDNS-1.0                       urn:ietf:params:xml:schema:secDNS-1.0                       schema/secDNS-1.0.xsd                       [RFC4310]
 secDNS-1.1                       urn:ietf:params:xml:schema:secDNS-1.1                       schema/secDNS-1.1.xsd                       [RFC5910]
