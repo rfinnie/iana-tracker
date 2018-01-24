@@ -13,4 +13,5 @@ Value,Description,Reference
 11,Update,[RFC8231]
 12,LSP Initiate Request,[RFC8281]
 13,StartTLS,[RFC8253]
-14-255,Unassigned,
+14-251,Unassigned,
+252-255,Experimental Use,[RFC-ietf-pce-pcep-exp-codepoints-05]
