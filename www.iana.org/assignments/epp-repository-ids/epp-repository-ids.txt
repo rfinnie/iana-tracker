@@ -4,7 +4,7 @@
            2004-10-26
 
    Last Updated
-           2017-11-14
+           2018-01-23
 
    Available Formats
            [IMG]
@@ -383,13 +383,11 @@ EPP Repository Identifiers
    TATEFARM, #x0054 #x0041 #x0054 #x0045 #x0046 #x0041 #x0052 #x004D [NEUSTAR]                    [NEUSTAR]                    2015-12-21
    RCHANNEL, #x0052 #x0043 #x0048 #x0041 #x004E #x004E #x0045 #x004C [NEUSTAR]                    [NEUSTAR]                    2015-12-21
    BABY, #x0042 #x0041 #x0042 #x0059                                 [NEUSTAR]                    [NEUSTAR]                    2015-12-21
-   BB9FBPOB, #x0042 #x0042 #x0039 #x0046 #x0042 #x0050 #x004F #x0042 [NEUSTAR]                    [NEUSTAR]                    2015-12-21
    TUBE, #x0054 #x0055 #x0042 #x0045                                 [NEUSTAR]                    [NEUSTAR]                    2015-12-21
    LOCUS, #x004C #x004F #x0043 #x0055 #x0053                         [NIC_LOCUS]                  [NIC_LOCUS]                  2016-01-04
    TRA, #x0054 #x0052 #x0041                                         [TRA_UAE]                    [TRA_UAE]                    2016-01-07
    AE, #x0041 #x0045                                                 [aeDA]                       [aeDA]                       2016-01-07
    DISCOVER, #x0044 #x0049 #x0053 #x0043 #x004f #x0056 #x0045 #x0052 [NEUSTAR]                    [NEUSTAR]                    2016-01-12
-   CHINTAI, #x0043 #x0048 #x0049 #x004E #x0054 #x0041 #x0049         [NEUSTAR]                    [NEUSTAR]                    2016-01-12
    CHINTAI, #x0043 #x0048 #x0049 #x004E #x0054 #x0041 #x0049         [NEUSTAR]                    [NEUSTAR]                    2016-01-12
    ABLE, #x0041 #x0042 #x004C #x0045                                 [NEUSTAR]                    [NEUSTAR]                    2016-01-19
    AETNA, #x0041 #x0045 #x0054 #x004E #x0041                         [NEUSTAR]                    [NEUSTAR]                    2016-01-19
@@ -526,7 +524,6 @@ EPP Repository Identifiers
    BEER, #x0042 #x0045 #x0045 #x0052                                 [NIC_MMX]                    [NIC_MMX]                    2016-05-25
    FASHION, #x0046 #x0041 #x0053 #x0048 #x0049 #x004F #x004E         [NIC_MMX]                    [NIC_MMX]                    2016-05-25
    FIT, #x0046 #x0049 #x0054                                         [NIC_MMX]                    [NIC_MMX]                    2016-05-25
-   NFL, #x004E #x0046 #x004C                                         [NEUSTAR]                    [NEUSTAR]                    2016-05-26
    WEDDING, #x0057 #x0045 #x0044 #x0044 #x0049 #x004E #x0047         [NIC_MMX]                    [NIC_MMX]                    2016-05-27
    YOGA, #x0059 #x004F #x0047 #x0041                                 [NIC_MMX]                    [NIC_MMX]                    2016-05-27
    GOP, #x0047 #x004F #x0050                                         [NIC_MMX]                    [NIC_MMX]                    2016-05-27
@@ -553,6 +550,7 @@ EPP Repository Identifiers
    DHL, #x0044 #x0048 #x004C                                         [KSregistry_GmbH]            [KSregistry_GmbH]            2017-06-13
    EPOS, #x0045 #x0050 #x004F #x0053                                 [KSregistry_GmbH]            [KSregistry_GmbH]            2017-06-13
    baidu, #x0062 #x0061 #x0069 #x0064 #x0075                         [ZDNS]                       [fengshuo]                   2017-11-14
+   twnic, #x0074 #x0077 #x006E #x0069 #x0063                         [TWNIC]                      [TWNIC]                      2018-01-23
 
                                                                         People
 
@@ -609,6 +607,7 @@ EPP Repository Identifiers
    [TLDAT]                      TLDAT                                                        mailto:domain-admin&univie.ac.at          2015-07-02
    [TLDBOX]                     TLD-BOX Registrydienstleistungen GmbH                        mailto:service&tld-box.at                 2015-06-15
    [TRA_UAE]                    Telecommunication Regulatory Authority of UAE                mailto:gtldsupport&aeda.ae                2016-01-07
+   [TWNIC]                      TWNIC                                                        mailto:tech&twnic.net.tw                  2018-01-23
    [UA_CM_Registry]             UA.CM Registry                                               mailto:hostmaster&ua.cm
    [UNINETT_Norid_AS]           UNINETT Norid AS                                             mailto:info&norid.no
    [Uniregistry_Support]        Uniregistry Support                                          mailto:support&uniregistry.link           2015-08-28

@@ -10,5 +10,7 @@ Code,Frame Type,Reference
 0x8,WINDOW_UPDATE,"[RFC7540, Section 6.9]"
 0x9,CONTINUATION,"[RFC7540, Section 6.10]"
 0xa,ALTSVC,"[RFC7838, Section 4]"
-0xb-0xef,Unassigned,
+0xb,Unassigned,
+0xc,ORIGIN,[RFC-ietf-httpbis-origin-frame-06]
+0xd-0xef,Unassigned,
 0xf0-0xff,Reserved for Experimental Use,[RFC7540]
