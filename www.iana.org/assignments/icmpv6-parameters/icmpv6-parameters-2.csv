@@ -4,6 +4,8 @@ Type,Name,Reference
 2,Packet Too Big,[RFC4443]
 3,Time Exceeded,[RFC4443]
 4,Parameter Problem,[RFC4443]
+5,Extended Echo Reply,[RFC-ietf-intarea-probe-10]
+6-99,Unassigned,
 100,Private experimentation,[RFC4443]
 101,Private experimentation,[RFC4443]
 102-126,Unassigned,
@@ -41,7 +43,8 @@ mobility protocols such as Seamoby",[RFC4065]
 157,Duplicate Address Request,[RFC6775]
 158,Duplicate Address Confirmation,[RFC6775]
 159,MPL Control Message,[RFC7731]
-160-199,Unassigned,
+160,Extended Echo Request,[RFC-ietf-intarea-probe-10]
+161-199,Unassigned,
 200,Private experimentation,[RFC4443]
 201,Private experimentation,[RFC4443]
 255,"Reserved for expansion of ICMPv6 informational   
