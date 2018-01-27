@@ -1,3 +1,4 @@
 Decimal,Description,References
 1,id-cp-sbgpCertificatePolicy,[Reserved and Obsolete]
 2,id-cp-ipAddr-asNumber,[RFC6484]
+3,id-cp-ipAddr-asNumber-v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]

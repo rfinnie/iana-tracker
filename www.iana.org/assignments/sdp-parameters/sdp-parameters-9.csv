@@ -121,8 +121,6 @@ att-field (media level only),rams-updates,CAUTION,[RFC6285][RFC-ietf-mmusic-sdp-
 att-field (media level only),imageattr,IDENTICAL-PER-PT,[RFC6236][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),cfw-id,NORMAL,[RFC6230][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),portmapping-req,CAUTION,[RFC6284][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (media level only),g.3gpp.cat,NORMAL,"[3GPP TS 24.182
-        v9.8.0 annex B][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (media level only),g.3gpp.crs,NORMAL,"[3GPP TS 24.183
         v9.5.0 annex E][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (media level only),ecn-capable-rtp,IDENTICAL,[RFC6679][RFC-ietf-mmusic-sdp-mux-attributes-16]
