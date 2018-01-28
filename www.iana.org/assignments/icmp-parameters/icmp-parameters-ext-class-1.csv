@@ -1,5 +1,5 @@
 C-Type (Value),Description,Reference
 0,Reserved,[RFC4950]
 1,Incoming MPLS Label Stack,[RFC4950]
-0x02-0xF6,Unassigned,[RFC4950]
-0xF7-0xFF,Reserved for private use,[RFC4950]
+2-246,Unassigned,
+247-255,Reserved for private use,[RFC4950]

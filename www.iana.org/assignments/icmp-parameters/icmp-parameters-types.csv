@@ -33,7 +33,9 @@ Type,Name,Reference
 40,Photuris,[RFC2521]
 41,"ICMP messages utilized by experimental
         mobility protocols such as Seamoby",[RFC4065]
-42-252,Unassigned,
+42,Extended Echo Request,[RFC-ietf-intarea-probe-10]
+43,Extended Echo Reply,[RFC-ietf-intarea-probe-10]
+44-252,Unassigned,
 253,RFC3692-style Experiment 1,[RFC4727]
 254,RFC3692-style Experiment 2,[RFC4727]
 255,Reserved,[JBP]
