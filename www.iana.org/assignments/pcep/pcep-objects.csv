@@ -127,5 +127,6 @@ Object-Class Value,Name,Object-Type,Reference
 ,,"1: IPv4 (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 ,,"2: IPv6 (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 ,,3-15: Unassigned,
-41-255,Unassigned,0: Reserved,[RFC Errata 4956]
+41-247,Unassigned,0: Reserved,[RFC Errata 4956]
 ,,1-15: Unassigned,
+248-255,Experimental Use,0-15: Experimental Use,[RFC-ietf-pce-pcep-exp-codepoints-05]

@@ -1,7 +1,7 @@
 Value,Type,Description,Registrant,Reference
 result set truncated due to authorization,notice and remark type,"The list of results does not contain all results
           due to lack of authorization.  This may indicate to some
-          clients that proper authorization will yield a longer result
+          clients thaadt proper authorization will yield a longer result
           set.",[IESG],[RFC7483]
 result set truncated due to excessive load,notice and remark type,"The list of results does not contain all results
           due to excessively heavy load on the server.  This may
@@ -179,7 +179,7 @@ registrant,role,"The entity object instance is the registrant of
            maintainer.",[IESG],[RFC7483]
 technical,role,"The entity object instance is a technical
            contact for the registration.",[IESG],[RFC7483]
-adminstrative,role,"The entity object instance is an administrative
+administrative,role,"The entity object instance is an administrative
            contact for the registration.",[IESG],[RFC7483]
 abuse,role,"The entity object instance handles network abuse
            issues on behalf of the registrant of the registration.",[IESG],[RFC7483]
