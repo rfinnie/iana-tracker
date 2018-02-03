@@ -14805,6 +14805,7 @@ twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_K
 twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 tzrpc,,tcp,TZ-Software remote procedure call based synchronization protocol,[Thomas_Zwick],[Thomas_Zwick],2011-10-12,,,,,Defined TXT keys: Proprietary
 ubertragen,,,Ubertragen,[Widgetschmie_de],[Widgetschmie_de],,,,,,Defined TXT keys: None
+ucdynamics-tuc,,udp,Tactical Unified Communicator,[UC_Dynamics_LLC],[Shaun_Botha],2018-01-31,,,,,Defined TXT keys: None
 uddi,,,"Universal Description, Discovery and Integration",[Paul_Denning],[Paul_Denning],,,,,,Defined TXT keys: TBD
 uddi-inq,,,"Universal Description, Discovery and Integration Inquiry",[Paul_Denning],[Paul_Denning],,,,,,Defined TXT keys: TBD
 uddi-pub,,,"Universal Description, Discovery and Integration Publishing",[Paul_Denning],[Paul_Denning],,,,,,Defined TXT keys: TBD
