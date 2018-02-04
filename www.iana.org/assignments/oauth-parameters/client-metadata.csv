@@ -58,3 +58,4 @@ initiate_login_uri,"URI using the https scheme that a third party can use to
         initiate a login by the RP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 request_uris,"Array of request_uri values that are pre-registered by the 
         RP for use at the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+claims_redirect_uris,claims redirection endpoints,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 2]"
