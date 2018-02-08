@@ -9,6 +9,6 @@ tls,Indicates the TLS cipher used,"tls-cipher = tls-cipher-name / tls-cipher-hex
           tls-cipher-name = ALPHA *(ALPHA / DIGIT / ""_"")
           ; as registered in the IANA TLS Cipher Suite Registry
           
-          tls-cipher-hex = ""0x"" 4HEXDIG",[RFC-ietf-uta-email-deep-12]
+          tls-cipher-hex = ""0x"" 4HEXDIG",[RFC8314]
 group,Indicates the Diffie-Hellman group used with the TLS cipher (if applicable),"dh-group = ALPHA *(ALPHA / DIGIT / ""_"" / ""-"")
-          ; as registered in the IANA TLS Supported Groups Registry",[RFC-ietf-uta-email-deep-12]
+          ; as registered in the IANA TLS Supported Groups Registry",[RFC8314]
