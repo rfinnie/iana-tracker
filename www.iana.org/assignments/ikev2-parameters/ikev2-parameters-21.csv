@@ -25,5 +25,6 @@ Value,Attribute Type,Multi-Valued,Length,Reference
 23,EXTERNAL_SOURCE_IP4_NAT_INFO,NO,0 or 6,[TS 29.139][Kimmo_Kymalainen]
 24,TIMEOUT_PERIOD_FOR_LIVENESS_CHECK,NO,0 or 4 octets,[TS 24.302 13.4.0][Frederic_Firmin]
 25,INTERNAL_DNS_DOMAIN,YES,0 or more,[draft-pauly-ipsecme-split-dns]
-26-16383,Unassigned,,,
+26,INTERNAL_DNSSEC_TA,YES,0 or more,[draft-ietf-ipsecme-split-dns]
+27-16383,Unassigned,,,
 16384-32767,Private Use,,,[RFC7296]

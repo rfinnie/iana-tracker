@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-24</updated>
+  <updated>2018-02-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -5849,7 +5849,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>Message Submission over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>465</number>
   </record>
   <record>
@@ -10405,7 +10405,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>IMAP over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>993</number>
   </record>
   <record>
@@ -10433,7 +10433,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>POP3 over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>995</number>
   </record>
   <record>
@@ -26013,19 +26013,25 @@ common service discovery mechanisms.</note>
     <description>HSL StoRM</description>
     <number>2113</number>
   </record>
-  <record>
-    <name>newheights</name>
+  <record updated="2018-02-05">
+    <name>ariascribe</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Michael_Levy"/>
-    <description>NEWHEIGHTS</description>
+    <assignee>
+      <xref type="person" data="Aria_Scribe_Software_Ltd"/>
+    </assignee>
+    <description>Classical Music Meta-Data Access and Enhancement</description>
     <number>2114</number>
+    <xref type="person" data="Michael_Levy"/>
   </record>
-  <record>
-    <name>newheights</name>
+  <record updated="2018-02-05">
+    <name>ariascribe</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Michael_Levy"/>
-    <description>NEWHEIGHTS</description>
+    <assignee>
+      <xref type="person" data="Aria_Scribe_Software_Ltd"/>
+    </assignee>
+    <description>Classical Music Meta-Data Access and Enhancement</description>
     <number>2114</number>
+    <xref type="person" data="Michael_Levy"/>
   </record>
   <record>
     <name>kdm</name>
@@ -72938,7 +72944,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7649-7671</number>
+    <number>7649-7662</number>
+  </record>
+  <record date="2018-02-07">
+    <name>rome</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="TFOR"/>
+    </assignee>
+    <description>Proprietary immutable distributed data storage</description>
+    <number>7663</number>
+    <xref type="person" data="David_von_Vistauxx"/>
+  </record>
+  <record date="2018-02-07">
+    <name>rome</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="TFOR"/>
+    </assignee>
+    <description>Proprietary immutable distributed data storage</description>
+    <number>7663</number>
+    <xref type="person" data="David_von_Vistauxx"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>7664-7671</number>
   </record>
   <record date="2009-03-10">
     <name>imqstomp</name>
@@ -95846,6 +95876,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Widgetschmie_de"/>
   </record>
+  <record date="2018-01-31">
+    <name>ucdynamics-tuc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="UC_Dynamics_LLC"/>
+    </assignee>
+    <description>Tactical Unified Communicator</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Shaun_Botha"/>
+  </record>
   <record>
     <name>uddi</name>
     <description>Universal Description, Discovery and Integration</description>
@@ -97993,6 +98033,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ari_Valtanen">
       <name>Ari Valtanen</name>
       <uri>mailto:ari.valtanen&amp;solidtech.com</uri>
+    </person>
+    <person id="Aria_Scribe_Software_Ltd">
+      <org>Aria Scribe Software Ltd</org>
+      <uri>mailto:scribe&amp;ariascribe.com</uri>
+      <updated>2018-02-05</updated>
     </person>
     <person id="Aristech_GmbH">
       <org>Aristech GmbH</org>
@@ -102063,6 +102108,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>David Vest</name>
       <uri>mailto:dave&amp;mythicsoft.com</uri>
       <updated>2008-11-19</updated>
+    </person>
+    <person id="David_von_Vistauxx">
+      <name>David von Vistauxx</name>
+      <uri>mailto:vistauxx&amp;tfor.infrastructuresecurity.com</uri>
+      <updated>2018-02-07</updated>
     </person>
     <person id="David_Vossel">
       <name>David Vossel</name>
@@ -116849,6 +116899,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ports&amp;shaperai.com</uri>
       <updated>2012-06-22</updated>
     </person>
+    <person id="Shaun_Botha">
+      <name>Shaun Botha</name>
+      <org>UC Dynamics, LLC</org>
+      <uri>mailto:shaun.botha&amp;ucdynamics.com</uri>
+      <updated>2018-01-31</updated>
+    </person>
     <person id="Shaun_Byrne">
       <name>Shaun Byrne</name>
       <uri>mailto:s_byrne&amp;tunstall.co.uk</uri>
@@ -118424,6 +118480,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tex Hull</name>
       <uri>mailto:tex&amp;spss.com</uri>
     </person>
+    <person id="TFOR">
+      <org>TFOR</org>
+      <uri>mailto:vistauxx&amp;tfor.infrastructuresecurity.com</uri>
+      <updated>2018-02-07</updated>
+    </person>
     <person id="Thaddeus_Perala">
       <name>Thaddeus Perala</name>
       <uri>mailto:trperala&amp;emaden.com</uri>
@@ -119485,9 +119546,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tzvika Chumash</name>
       <uri>mailto:tzvikac&amp;netvision.net.il</uri>
     </person>
-    <person id="UPnP_Forum">
-      <name>UPnP Forum</name>
-      <uri>mailto:upnpadmin&amp;forum.upnp.org</uri>
+    <person id="UC_Dynamics_LLC">
+      <org>UC Dynamics, LLC</org>
+      <uri>mailto:shaun.botha&amp;ucdynamics.com</uri>
+      <updated>2018-01-31</updated>
     </person>
     <person id="Udi_Nir">
       <name>Udi Nir</name>
@@ -119549,6 +119611,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>UpdateLogic, Inc.</org>
       <uri>mailto:it&amp;updatelogic.com</uri>
       <updated>2014-10-27</updated>
+    </person>
+    <person id="UPnP_Forum">
+      <name>UPnP Forum</name>
+      <uri>mailto:upnpadmin&amp;forum.upnp.org</uri>
     </person>
     <person id="Urban_Fosseus">
       <name>Urban Fosseus</name>

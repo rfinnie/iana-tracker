@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2018-01-24
+           2018-02-07
 
    Expert(s)
 
@@ -1248,7 +1248,7 @@ kpasswd             464        tcp    kpasswd                      [Theodore_Ts_
 kpasswd             464        udp    kpasswd                      [Theodore_Ts_o]                                       [Theodore_Ts_o]
 urd                 465        tcp    URL Rendezvous Directory for [Toerless_Eckert]                                     [Toerless_Eckert]
                                       SSM
-submissions         465        tcp    Message Submission over TLS  [IESG]                                                [IETF_Chair]                                              2017-12-12                [RFC-ietf-uta-email-deep-12]
+submissions         465        tcp    Message Submission over TLS  [IESG]                                                [IETF_Chair]                                              2017-12-12                [RFC8314]
                                       protocol
 igmpv3lite          465        udp    IGMP over UDP for SSM        [Toerless_Eckert]                                     [Toerless_Eckert]
 digital-vrc         466        tcp    digital-vrc                  [Peter_Higginson]                                     [Peter_Higginson]
@@ -2091,11 +2091,11 @@ nas                 991        udp    Netnews Administration       [Vera_Heinau]
                                       System
 telnets             992        tcp    telnet protocol over TLS/SSL
 telnets             992        udp    telnet protocol over TLS/SSL
-imaps               993        tcp    IMAP over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC-ietf-uta-email-deep-12]
+imaps               993        tcp    IMAP over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC8314]
 imaps               993        udp    imap4 protocol over TLS/SSL
                     994        tcp    Reserved                                                                                                                                                  2011-08-31                                                                        (previous contact was[Christopher_Allen])
                     994        udp    Reserved
-pop3s               995        tcp    POP3 over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC-ietf-uta-email-deep-12]
+pop3s               995        tcp    POP3 over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC8314]
 pop3s               995        udp    pop3 protocol over TLS/SSL   [Gordon_Mangione]                                     [Gordon_Mangione]
                                       (was spop3)
 vsinet              996        tcp    vsinet                       [Rob_Juergens]                                        [Rob_Juergens]
@@ -4799,8 +4799,10 @@ idonix-metanet     2112        tcp    Idonix MetaNet               [Paul_Harriso
 idonix-metanet     2112        udp    Idonix MetaNet               [Paul_Harrison]                                       [Paul_Harrison]
 hsl-storm          2113        tcp    HSL StoRM                    [Jost_Faganel]                                        [Jost_Faganel]
 hsl-storm          2113        udp    HSL StoRM                    [Jost_Faganel]                                        [Jost_Faganel]
-newheights         2114        tcp    NEWHEIGHTS                   [Michael_Levy]                                        [Michael_Levy]
-newheights         2114        udp    NEWHEIGHTS                   [Michael_Levy]                                        [Michael_Levy]
+ariascribe         2114        tcp    Classical Music Meta-Data    [Aria_Scribe_Software_Ltd]                            [Michael_Levy]                                                         2018-02-05
+                                      Access and Enhancement
+ariascribe         2114        udp    Classical Music Meta-Data    [Aria_Scribe_Software_Ltd]                            [Michael_Levy]                                                         2018-02-05
+                                      Access and Enhancement
 kdm                2115        tcp    Key Distribution Manager     [Mike_Little]                                         [Mike_Little]
 kdm                2115        udp    Key Distribution Manager     [Mike_Little]                                         [Mike_Little]
 ccowcmr            2116        tcp    CCOWCMR                      [Mark_Morwood]                                        [Mark_Morwood]
@@ -13496,7 +13498,12 @@ pmdfmgt            7633        udp    PMDF Management              [Hunter_Goatl
                  7634-7647            Unassigned
 cuseeme            7648        tcp    bonjour-cuseeme              [Marc_Manthey]                                        [Marc_Manthey]                                            2006-07
 cuseeme            7648        udp    bonjour-cuseeme              [Marc_Manthey]                                        [Marc_Manthey]                                            2006-07
-                 7649-7671            Unassigned
+                 7649-7662            Unassigned
+rome               7663        tcp    Proprietary immutable        [TFOR]                                                [David_von_Vistauxx]                                      2018-02-07
+                                      distributed data storage
+rome               7663        udp    Proprietary immutable        [TFOR]                                                [David_von_Vistauxx]                                      2018-02-07
+                                      distributed data storage
+                 7664-7671            Unassigned
 imqstomp           7672        tcp    iMQ STOMP Server             [Amy_Kang]                                            [Amy_Kang]                                                2009-03-10
                    7672        udp    Reserved
 imqstomps          7673        tcp    iMQ STOMP Server over SSL    [Amy_Kang]                                            [Amy_Kang]                                                2009-03-10
@@ -18357,6 +18364,8 @@ twosnakes                     sctp    multiplayer game called two  [Narendra_Kum
 tzrpc                          tcp    call based synchronization   [Thomas_Zwick]                                        [Thomas_Zwick]                                            2011-10-12                                                                                     Defined TXT keys: Proprietary
                                       protocol
 ubertragen                            Ubertragen                   [Widgetschmie_de]                                     [Widgetschmie_de]                                                                                                                                        Defined TXT keys: None
+ucdynamics-tuc                 udp    Tactical Unified             [UC_Dynamics_LLC]                                     [Shaun_Botha]                                             2018-01-31                                                                                     Defined TXT keys: None
+                                      Communicator
 uddi                                  Universal Description,       [Paul_Denning]                                        [Paul_Denning]                                                                                                                                           Defined TXT keys: TBD
                                       Discovery and Integration
                                       Universal Description,
@@ -18839,6 +18848,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ari_Huisken]                                             Ari√´n Huisken                                      mailto:astergate&huisken-systems.nl                           2010-01-04
 [Ari_Keranen]                                             Ari Keränen                                         mailto:ari.keranen&ericsson.com                               2009-12-17
 [Ari_Valtanen]                                            Ari Valtanen                                        mailto:ari.valtanen&solidtech.com
+[Aria_Scribe_Software_Ltd]                                                           Aria Scribe Software Ltd mailto:scribe&ariascribe.com                                  2018-02-05
 [Aristech_GmbH]                                                                      Aristech GmbH            mailto:mirko.hering&aristech.de                               2017-03-30
 [Arjen_Lentz]                                             Arjen Lentz                                         mailto:arjen&mysql.com                                        2004-11
 [Arlo_Leach]                                              Arlo Leach                                          mailto:arlo&arlomedia.com                                     2017-04-21
@@ -19757,6 +19767,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [David_V_Raskin]                                          David V. Raskin                                     mailto:draskin&rimage.com                                     2006-02
 [David_Vaughn]                                            David Vaughn                                        mailto:dvaughn&atterotech.com                                 2015-09-24
 [David_Vest]                                              David Vest                                          mailto:dave&mythicsoft.com                                    2008-11-19
+[David_von_Vistauxx]                                      David von Vistauxx                                  mailto:vistauxx&tfor.infrastructuresecurity.com               2018-02-07
 [David_Vossel]                                            David Vossel                                        mailto:dvossel&redhat.com                                     2013-03-15
 [David_W_Radcliffe]                                       David W. Radcliffe                                  mailto:info&radsolution.co.uk
 [David_Walend]                                            David Walend                                        mailto:david&walend.net
@@ -23103,6 +23114,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Shannon_Yeh]                                             Shannon Yeh                                         mailto:yeh&netix.com
 [Shantonu_Sen]                                            Shantonu Sen                                        mailto:ssen&apple.com
 [Shaper_Automation]                                                                  Shaper Automation Inc.   mailto:ports&shaperai.com                                     2012-06-22
+[Shaun_Botha]                                             Shaun Botha                UC Dynamics, LLC         mailto:shaun.botha&ucdynamics.com                             2018-01-31
 [Shaun_Byrne]                                             Shaun Byrne                                         mailto:s_byrne&tunstall.co.uk                                 2009-08-18
 [Shaun_Wexler]                                            Shaun Wexler                                        mailto:dev&macfoh.com
 [Shawn_Casey]                                             Shawn Casey                                         mailto:Shawn.Casey&matrixone.com
@@ -23464,6 +23476,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tetsuya_Shioda]                                          Tetsuya Shioda                                      mailto:tetsuya&saint.nm.fujitsu.co.jp
 [Teunis_de_Wit]                                           Teunis de Wit              Vestas Wind Systems      mailto:tdwi&vestas.com                                        2013-10-30
 [Tex_Hull]                                                Tex Hull                                            mailto:tex&spss.com
+[TFOR]                                                                               TFOR                     mailto:vistauxx&tfor.infrastructuresecurity.com               2018-02-07
 [Thaddeus_Perala]                                         Thaddeus Perala                                     mailto:trperala&emaden.com
 [Thaddeus_Ternes]                                         Thaddeus Ternes                                     mailto:thaddeus.ternes&intermec.com
 [TheCodingMonkeys]                                        TheCodingMonkeys                                    mailto:monkeys&codingmonkeys.de
@@ -23705,7 +23718,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tuomo_Makinen]                                           Tuomo Makinen                                       mailto:tmakinen&pp.htv.fi                                     2002-02
 [Ty_Ellis]                                                Ty Ellis                                            mailto:tellis&novell.com                                      2006-05
 [Tzvika_Chumash]                                          Tzvika Chumash                                      mailto:tzvikac&netvision.net.il
-[UPnP_Forum]                                              UPnP Forum                                          mailto:upnpadmin&forum.upnp.org
+[UC_Dynamics_LLC]                                                                    UC Dynamics, LLC         mailto:shaun.botha&ucdynamics.com                             2018-01-31
 [Udi_Nir]                                                 Udi Nir                                             mailto:udi_nir&ncc.co.il
 [Uffe_Harksen]                                            Uffe Harksen                                        mailto:uh&uhcommunications.com                                2005-08
 [Ulaganathan_Sriramul]                                    Ulaganathan Sriramulu                               mailto:ulag&effigent.com
@@ -23724,6 +23737,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                           Berkeley
 [UofK]                                                                               University of Kentucky   mailto:cody&uky.edu                                           2014-11-21
 [UpdateLogic_Inc]                                                                    UpdateLogic, Inc.        mailto:it&updatelogic.com                                     2014-10-27
+[UPnP_Forum]                                              UPnP Forum                                          mailto:upnpadmin&forum.upnp.org
 [Urban_Fosseus]                                           Urban Fosseus                                       mailto:urban.fosseus&regin.se                                 2008-12-24
 [Urbis_Net_Ltd]                                           Urbis.Net Ltd                                       mailto:postmaster&urbis.net
 [Uri_Blank]                                               Uri Blank                                           mailto:uri&quosa.com                                          2006-09

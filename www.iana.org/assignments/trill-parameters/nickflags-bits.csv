@@ -1,4 +1,6 @@
 Bit,Mnemonic,Description,Reference
 0,IN,Used as ingress,[RFC7780]
 1,SE,Inter-Subnet Egress,[RFC7956]
-2-15,,Unassigned,
+2,R,Replication Nickname,[RFC-ietf-trill-centralized-replication-13]
+3,C,Special RPF Check,[RFC-ietf-trill-centralized-replication-13]
+4-15,,Unassigned,
