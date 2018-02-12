@@ -4,3 +4,4 @@ Value,Description,Reference
 0x04,Deprecated,[RFC5340]
 0x08,P-bit,[RFC5340]
 0x10,DN-bit,[RFC5340]
+0x20,N-bit,[RFC-ietf-ospf-ospfv3-lsa-extend-23]
