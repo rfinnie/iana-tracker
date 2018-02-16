@@ -53,7 +53,9 @@ CAPWAP Local IPV6 Address,50,[RFC5415]
 CAPWAP Transport Protocol,51,[RFC5415]
 MTU Discovery Padding,52,[RFC5415]
 ECN Support,53,[RFC5415]
-Unassigned,54-1023,
+Supported Alternate Tunnel Encapsulations Type,54,[RFC-ietf-opsawg-capwap-alt-tunnel-12]
+Alternate Tunnel Encapsulations Type,55,[RFC-ietf-opsawg-capwap-alt-tunnel-12]
+Unassigned,56-1023,
 IEEE 802.11 Add WLAN,1024,[RFC5416]
 IEEE 802.11 Antenna,1025,[RFC5416]
 IEEE 802.11 Assigned WTP BSSID,1026,[RFC5416]
@@ -92,4 +94,5 @@ GB15629.11CCK Control,1058,[China_BWIPS]
 GB15629.11WTP OFDM Control,1059,[China_BWIPS]
 IEEE 802.11 Supported MAC Profiles,1060,[RFC7494]
 IEEE 802.11 MAC Profile,1061,[RFC7494]
-Unassigned,1062-65535,
+IEEE 802.11 WTP Alternate Tunnel Failure Indication,1062,[RFC-ietf-opsawg-capwap-alt-tunnel-12]
+Unassigned,1063-65535,

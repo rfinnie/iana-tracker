@@ -65,3 +65,9 @@ ietf-rip,,N,urn:ietf:params:xml:ns:yang:ietf-rip,rip,,[RFC-ietf-rtgwg-yang-rip-0
 ietf-vrrp,,N,urn:ietf:params:xml:ns:yang:ietf-vrrp,vrrp,,[RFC-ietf-rtgwg-yang-vrrp-09],
 ietf-datastores,,N,urn:ietf:params:xml:ns:yang:ietf-datastores,ds,,[RFC-ietf-netmod-revised-datastores-10],
 ietf-origin,,N,urn:ietf:params:xml:ns:yang:ietf-origin,or,,[RFC-ietf-netmod-revised-datastores-10],
+iana-hardware,,Y,urn:ietf:params:xml:ns:yang:iana-hardware,ianahw,,[RFC-ietf-netmod-entity-08],"The ""iana-hardware"" YANG module is intended to reflect the
+        [""IANA-ENTITY-MIB""] MIB module so that if a new enumeration is added to
+        the ""IANAPhysicalClass"" TEXTUAL-CONVENTION, the same class is added
+        as an identity derived from ""ianahw:hardware-class""."
+ietf-hardware,,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC-ietf-netmod-entity-08],
+ietf-hardware-state,,N,urn:ietf:params:xml:ns:yang:ietf-hardware-state,hw-state,,[RFC-ietf-netmod-entity-08],
