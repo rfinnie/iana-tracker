@@ -331,3 +331,42 @@ JSON Text Sequence,+json-seq,[RFC7464][RFC8091],See [RFC7464] Section 2.2,n/a,"T
         For cases not defined in +json-seq, then process as
         specified in ""xxx/yyy+json-seq"".",See [RFC7464] Section 3,"Applications and Real-Time Area Discussion (art@ietf.org), or any IESG-designated successor.","The Applications and Real-Time Area
         Working Group.  IESG has change control over this registration.",2017-01-05,
+SQLite3 database,+sqlite3,[http://www.sqlite.org/fileformat2.html][http://www.sqlite.org/lang.html][Clemens_Ladisch],binary,"Same as for ""application/vnd.sqlite3"".
+        
+        To allow identification of files when the media type name is not
+          available, each individual ""xxx/yyy+sqlite3"" registration should
+          specify an appliction ID value to be set with PRAGMA application_id
+          (http://www.sqlite.org/pragma.html#pragma_application_id), and should
+          specifiy it as a second magic number (file offset 68, see
+          http://www.sqlite.org/fileformat2.html#application_id) in addition to
+          the header string at offset 0. This value should also be added to the
+          magic.txt file in the SQLite repository http://www.sqlite.org/src/artifact?ci=trunk&filename=magic.txt) by
+          submitting a patch to <sqlite-users@mailinglists.sqlite.org>.","The syntax and semantics of fragment identifiers specified for
+          +sqlite3 should be as specified for ""application/vnd.sqlite3"".
+          (At publication of this document, there is no fragment identification
+          syntax defined for ""application/vnd.sqlite3"".)
+        
+        
+          The syntax and semantics of fragment identifiers for a specific
+          ""xxx/yyy+sqlite3"" should be processed as follows:
+        
+        
+          For cases defined in +sqlite3, where the fragment identifier resolves
+          per the +sqlite3 rules, then as specified in +sqlite3.
+        
+        
+          For cases defined in +sqlite3, where the fragment identifier does not
+          resolve per the +sqlite3 rules, then as specified in ""xxx/yyy+sqlite3"".
+        
+        
+          For cases not defined in +sqlite3, then as specified in ""xxx/yyy+sqlite3"".","All the security considerations for ""application/vnd.sqlite3"" apply
+        to any type based on the sqlite3 format.
+      
+      
+        Each individual media type registered with a +sqlite3 suffix can have
+        additional security considerations. For example, if a specific
+        registration requires that certain extension functions are available,
+        or that blob fields contain data to be processed by other libraries or
+        external tools, or if only a single implementation exists to handle
+        a specific registered media type, then this increases the known attack
+        surface available to an attacker.",[SQLite_mailing_list],[Clemens_Ladisch],2018-02-12,
