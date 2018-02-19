@@ -41,3 +41,4 @@ v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swi
 v1.usp,USP (Broadband Forum User Services Platform),[https://github.com/BroadbandForum/usp],[Barbara_Stark]
 mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari]
 coap,Constrained Application Protocol (CoAP),[RFC-ietf-core-coap-tcp-tls-11],[RFC-ietf-core-coap-tcp-tls-11]
+TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli]
