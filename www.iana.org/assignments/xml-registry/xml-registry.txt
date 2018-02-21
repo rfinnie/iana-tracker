@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2018-02-12
+           2018-02-20
 
    Note
 
@@ -231,7 +231,7 @@ resource-lists                        urn:ietf:params:xml:ns:resource-lists     
 rgp-1.0                               urn:ietf:params:xml:ns:rgp-1.0                               ns/rgp-1.0.txt                               [RFC3915]
 rlmi                                  urn:ietf:params:xml:ns:rlmi                                  ns/rlmi.txt                                  [RFC4662]
 rls-services                          urn:ietf:params:xml:ns:rls-services                          ns/rls-services.txt                          [RFC4826]
-rolie-1.0                             urn:ietf:params:xml:ns:rolie-1.0                             ns/rolie-1.0.txt                             [RFC-ietf-mile-rolie-16]
+rolie-1.0                             urn:ietf:params:xml:ns:rolie-1.0                             ns/rolie-1.0.txt                             [RFC8322]
 sa-dialog-info                        urn:ietf:params:xml:ns:sa-dialog-info                        ns/sa-dialog-info.txt                        [RFC7463]
 secDNS-1.0                            urn:ietf:params:xml:ns:secDNS-1.0                            ns/secDNS-1.0.txt                            [RFC4310]
 secDNS-1.1                            urn:ietf:params:xml:ns:secDNS-1.1                            ns/secDNS-1.1.txt                            [RFC5910]
@@ -294,6 +294,7 @@ yang:ietf-netconf-notifications       urn:ietf:params:xml:ns:yang:ietf-netconf-n
 yang:ietf-netconf-time                urn:ietf:params:xml:ns:yang:ietf-netconf-time                ns/yang/ietf-netconf-time.txt                [RFC7758]
 yang:ietf-netconf-with-defaults       urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults       ns/yang/ietf-netconf-with-defaults.txt       [RFC6243]
 yang:ietf-network                     urn:ietf:params:xml:ns:yang:ietf-network                     ns/yang/ietf-network.txt                     [RFC-ietf-i2rs-yang-network-topo-20]
+yang:ietf-network-instance            urn:ietf:params:xml:ns:yang:ietf-network-instance            ns/yang/ietf-network-instance.txt            [RFC-ietf-rtgwg-ni-model-10]
 yang:ietf-network-state               urn:ietf:params:xml:ns:yang:ietf-network-state               ns/yang/ietf-network-state.txt               [RFC-ietf-i2rs-yang-network-topo-20]
 yang:ietf-network-topology            urn:ietf:params:xml:ns:yang:ietf-network-topology            ns/yang/ietf-network-topology.txt            [RFC-ietf-i2rs-yang-network-topo-20]
 yang:ietf-network-topology-state      urn:ietf:params:xml:ns:yang:ietf-network-topology-state      ns/yang/ietf-network-topology-state.txt      [RFC-ietf-i2rs-yang-network-topo-20]
@@ -461,7 +462,7 @@ resource-lists                   urn:ietf:params:xml:schema:resource-lists      
 resource-lists-diff              urn:ietf:params:xml:schema:resource-lists-diff              schema/resource-lists-diff.xsd              [RFC5362]
 rgp-1.0                          urn:ietf:params:xml:schema:rgp-1.0                          schema/rgp-1.0.xsd                          [RFC3915]
 rls-services                     urn:ietf:params:xml:schema:rls-services                     schema/rls-services.xsd                     [RFC4826]
-rolie-1.0                        urn:ietf:params:xml:schema:rolie-1.0                        schema/rolie-1.0.rnc                        [RFC-ietf-mile-rolie-16]
+rolie-1.0                        urn:ietf:params:xml:schema:rolie-1.0                        schema/rolie-1.0.rnc                        [RFC8322]
 sa-dialog-info                   urn:ietf:params:xml:schema:sa-dialog-info                   schema/sa-dialog-info.xsd                   [RFC7463]
 secDNS-1.0                       urn:ietf:params:xml:schema:secDNS-1.0                       schema/secDNS-1.0.xsd                       [RFC4310]
 secDNS-1.1                       urn:ietf:params:xml:schema:secDNS-1.1                       schema/secDNS-1.1.xsd                       [RFC5910]
