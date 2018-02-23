@@ -1,7 +1,7 @@
 Value,Type,Description,Registrant,Reference
 result set truncated due to authorization,notice and remark type,"The list of results does not contain all results
           due to lack of authorization.  This may indicate to some
-          clients thaadt proper authorization will yield a longer result
+          clients that proper authorization will yield a longer result
           set.",[IESG],[RFC7483]
 result set truncated due to excessive load,notice and remark type,"The list of results does not contain all results
           due to excessively heavy load on the server.  This may
