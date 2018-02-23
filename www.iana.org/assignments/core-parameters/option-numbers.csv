@@ -19,9 +19,9 @@ Number,Name,Reference
 18-19,Unassigned,
 20,Location-Query,[RFC7252]
 21-22,Unassigned,
-23,Block2,[RFC7959][RFC-ietf-core-coap-tcp-tls-11]
+23,Block2,[RFC7959][RFC8323]
 24-26,Unassigned,
-27,Block1,[RFC7959][RFC-ietf-core-coap-tcp-tls-11]
+27,Block1,[RFC7959][RFC8323]
 28,Size2,[RFC7959]
 29-34,Unassigned,
 35,Proxy-Uri,[RFC7252]
