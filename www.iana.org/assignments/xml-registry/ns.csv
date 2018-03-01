@@ -181,6 +181,7 @@ yang:iana-if-type,urn:ietf:params:xml:ns:yang:iana-if-type,ns/yang/iana-if-type.
 yang:iana-routing-types,urn:ietf:params:xml:ns:yang:iana-routing-types,ns/yang/iana-routing-types.txt,[RFC-ietf-rtgwg-routing-types-17]
 yang:ietf-complex-type-instance,urn:ietf:params:xml:ns:yang:ietf-complex-type-instance,ns/yang/ietf-complex-type-instance.txt,[RFC6095]
 yang:ietf-complex-types,urn:ietf:params:xml:ns:yang:ietf-complex-types,ns/yang/ietf-complex-types.txt,[RFC6095]
+yang:ietf-connection-oriented-oam,urn:ietf:params:xml:ns:yang:ietf-connection-oriented-oam,ns/yang/ietf-connection-oriented-oam.txt,[RFC-ietf-lime-yang-connection-oriented-oam-model-07]
 yang:ietf-connectionless-oam,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam,ns/yang/ietf-connectionless-oam.txt,[RFC-ietf-lime-yang-connectionless-oam-18]
 yang:ietf-connectionless-oam-methods,urn:ietf:params:xml:ns:yang:ietf-connectionless-oam-methods,ns/yang/ietf-connectionless-oam-methods.txt,[RFC-ietf-lime-yang-connectionless-oam-methods-13]
 yang:ietf-datastores,urn:ietf:params:xml:ns:yang:ietf-datastores,ns/yang/ietf-datastores.txt,[RFC-ietf-netmod-revised-datastores-10]
