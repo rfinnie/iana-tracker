@@ -40,5 +40,5 @@ opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/spe
 v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swindon-rs.github.io/swindon/swindon-lattice/],[Paul_Colomiets]
 v1.usp,USP (Broadband Forum User Services Platform),[https://github.com/BroadbandForum/usp],[Barbara_Stark]
 mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari]
-coap,Constrained Application Protocol (CoAP),[RFC-ietf-core-coap-tcp-tls-11],[RFC-ietf-core-coap-tcp-tls-11]
+coap,Constrained Application Protocol (CoAP),[RFC8323],[RFC8323]
 TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli]

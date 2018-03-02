@@ -172,3 +172,5 @@ att-field (media level only),vbd,TBD,"[ITU-T Recommendation V.152 ""Procedures f
 att-field (media level only),maxmptime,TBD,"[ITU-T Recommendation V.152 ""Procedures for supporting voice-band data over IP networks"", September 2010][Simao_Campos-Neto]"
 att-field (media level only),pmft,TBD,"[ITU-T Recommendation V.152 ""Procedures for supporting voice-band data over IP networks"", September 2010][Simao_Campos-Neto]"
 att-field (media level only),tls-id,IDENTICAL,[RFC-ietf-mmusic-dtls-sdp-32]
+att-field (media level only),hlang-recv,NORMAL,[RFC-ietf-slim-negotiating-human-language-24]
+att-field (media level only),hlang-send,NORMAL,[RFC-ietf-slim-negotiating-human-language-24]

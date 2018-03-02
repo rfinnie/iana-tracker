@@ -23,6 +23,9 @@ supported.",[RFC3261]
 307,"Session description parameter not understood: A      
 parameter other than those listed above was not
 understood.",[RFC3261]
+308,"Incompatible language specification: Requested 
+        languages not supported.  Supported languages and media are: 
+        [list of supported languages and media].",[RFC-ietf-slim-negotiating-human-language-24]
 330,"Multicast not available: The site where the user is  
 located does not support multicast.",[RFC3261]
 331,"Unicast not available: The site where the user is    

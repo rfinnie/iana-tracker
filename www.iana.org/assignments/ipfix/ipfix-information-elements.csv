@@ -252,9 +252,9 @@ algorithm used for sampled NetFlow:
 
             
             
-  
-   1 - Deterministic Sampling,
-   2 - Random Sampling.
+
+1 - Deterministic Sampling,
+2 - Random Sampling.
 
 
             
@@ -272,9 +272,9 @@ specified by this field.",seconds,,,[RFC5102],0,2013-02-18
 
             
             
-   RP = 0,
-   VIP/Line card = 1,
-   PFC/DFC = 2.
+RP = 0,
+VIP/Line card = 1,
+PFC/DFC = 2.
 
             
               
@@ -397,41 +397,43 @@ corresponding bit is 0.
 
             
             
-0     1     2     3     4     5     6     7
-+-----+-----+-----+-----+-----+-----+-----+-----+
-| DST | HOP | Res | UNK |FRA0 | RH  |FRA1 | Res |  ...
-+-----+-----+-----+-----+-----+-----+-----+-----+
+        0     1     2     3     4     5     6     7
+    +-----+-----+-----+-----+-----+-----+-----+-----+
+    | DST | HOP | Res | UNK |FRA0 | RH  |FRA1 | Res |  ...
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
-8     9    10    11    12    13    14    15
-+-----+-----+-----+-----+-----+-----+-----+-----+
+        8     9    10    11    12    13    14    15
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |           Reserved    | MOB | ESP | AH  | PAY | ...
-+-----+-----+-----+-----+-----+-----+-----+-----+
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
-16    17    18    19    20    21    22    23
-+-----+-----+-----+-----+-----+-----+-----+-----+
+       16    17    18    19    20    21    22    23
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |                  Reserved                     | ...
-+-----+-----+-----+-----+-----+-----+-----+-----+
-24    25    26    27    28    29    30    31
-+-----+-----+-----+-----+-----+-----+-----+-----+
+    +-----+-----+-----+-----+-----+-----+-----+-----+
+
+       24    25    26    27    28    29    30    31
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |                  Reserved                     |
-+-----+-----+-----+-----+-----+-----+-----+-----+
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
 Bit    IPv6 Option   Description
+
 0, DST      60       Destination option header
 1, HOP       0       Hop-by-hop option header
 2, Res               Reserved
 3, UNK               Unknown Layer 4 header
-(compressed, encrypted, not supported)
+                     (compressed, encrypted, not supported)
 4, FRA0     44       Fragment header - first fragment
 5, RH       43       Routing header
 6, FRA1     44       Fragmentation header - not first fragment
 7, Res               Reserved
-8 to 11               Reserved
-12, MOB     135       IPv6 mobility [RFC3775]
-13, ESP      50       Encrypted security payload
-14, AH       51       Authentication Header
-15, PAY     108       Payload compression header
-16 to 31              Reserved",,,"See [RFC8200] for the general definition of
+8 to 11              Reserved
+12, MOB     135      IPv6 mobility [RFC3775]
+13, ESP      50      Encrypted security payload
+14, AH       51      Authentication Header
+15, PAY     108      Payload compression header
+16 to 31             Reserved",,,"See [RFC8200] for the general definition of
 IPv6 extension headers and for the specification of the hop-by-hop
 options header, the routing header, the fragment header, and the
 destination options header.
@@ -453,8 +455,8 @@ The size of this Information Element is 3 octets.
 
             
             
-0                   1                   2
-0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3
+ 0                   1                   2
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                Label                  | Exp |S|
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -570,75 +572,38 @@ no fragment header.",,0-0x1FFF,"See [RFC791] for the specification of the
 fragment offset in the IPv4 header.
 See [RFC8200] for the specification of the
 fragment offset in the IPv6 Fragment header.",[RFC5102],1,2014-08-13
-89,forwardingStatus,unsigned32,identifier,current,"This Information Element describes the forwarding status of the
-flow and any attached reasons.  The reduced-size encoding rules as
-per [RFC7011] apply.
+89,forwardingStatus,unsigned8,identifier,current,"This Information Element describes the forwarding status of the
+flow and any attached reasons.
 
             
             
               
-The basic encoding is 8 bits. The future extensions
-could add one or three bytes. The layout of the basic
-encoding is as follows:
+The layout of the encoding is as follows:
 
             
             
-   MSB -   0   1   2   3   4   5   6   7   - LSB
-         +---+---+---+---+---+---+---+---+
-         | Status|  Reason code or flags |
-         +---+---+---+---+---+---+---+---+
+MSB  -  0   1   2   3   4   5   6   7  -  LSB
+      +---+---+---+---+---+---+---+---+
+      | Status|  Reason code or flags |
+      +---+---+---+---+---+---+---+---+
 
-Status:
+            
+              
+See the Forwarding Status sub-registries at [http://www.iana.org/assignments/ipfix/ipfix.xhtml#forwarding-status].
 
-00b = Unknown
-01b = Forwarded
-10b = Dropped
-11b = Consumed
-
-
-Reason Code (status = 01b, Forwarded)
-
-01 000000b = 64 = Unknown
-01 000001b = 65 = Fragmented
-01 000010b = 66 = Not Fragmented
-
-Reason Code (status = 10b, Dropped)
-
-10 000000b = 128 = Unknown
-10 000001b = 129 = ACL deny
-10 000010b = 130 = ACL drop
-10 000011b = 131 = Unroutable
-10 000100b = 132 = Adjacency
-10 000101b = 133 = Fragmentation and DF set
-10 000110b = 134 = Bad header checksum
-10 000111b = 135 = Bad total Length
-10 001000b = 136 = Bad header length
-10 001001b = 137 = bad TTL
-10 001010b = 138 = Policer
-10 001011b = 139 = WRED
-10 001100b = 140 = RPF
-10 001101b = 141 = For us
-10 001110b = 142 = Bad output interface
-10 001111b = 143 = Hardware
-
-Reason Code (status = 11b, Consumed)
-
-11 000000b = 192 = Unknown
-11 000001b = 193 = Punt Adjacency
-11 000010b = 194 = Incomplete Adjacency
-11 000011b = 195 = For us
-
+            
+            
 Examples:
 
-  value : 0x40 = 64
-  binary: 01000000
-  decode: 01        -> Forward
-            000000  -> No further information
+value : 0x40 = 64
+binary: 01000000
+decode: 01        -> Forward
+          000000  -> No further information
 
-  value : 0x89 = 137
-  binary: 10001001
-  decode: 10        -> Drop
-            001001  -> Fragmentation and DF set",,,"See ""NetFlow Version 9 Flow-Record Format"" [CCO-NF9FMT].",[RFC7270],0,2014-04-04
+value : 0x89 = 137
+binary: 10001001
+decode: 10        -> Drop
+          001001  -> Bad TTL",,,"See ""NetFlow Version 9 Flow-Record Format"" [CCO-NF9FMT].",[RFC7270][RFC Errata 5262],2,2018-02-21
 90,mplsVpnRouteDistinguisher,octetArray,default,current,"The value of the VPN route distinguisher of a corresponding
 entry in a VPN routing and forwarding table.  Route
 distinguisher ensures that the same address can be used in
@@ -745,24 +710,28 @@ the following:
             
             
 0x01: idle timeout
-The Flow was terminated because it was considered to be
-idle.
+      The Flow was terminated because it was considered to be
+      idle.
+      
 0x02: active timeout
-The Flow was terminated for reporting purposes while it was
-still active, for example, after the maximum lifetime of
-unreported Flows was reached.
+      The Flow was terminated for reporting purposes while it was
+      still active, for example, after the maximum lifetime of
+      unreported Flows was reached.
+
 0x03: end of Flow detected
-The Flow was terminated because the Metering Process
-detected signals indicating the end of the Flow,
-for example, the TCP FIN flag.
+      The Flow was terminated because the Metering Process
+      detected signals indicating the end of the Flow,
+      for example, the TCP FIN flag.
+
 0x04: forced end
-The Flow was terminated because of some external event,
-for example, a shutdown of the Metering Process initiated
-by a network management application.
+      The Flow was terminated because of some external event,
+      for example, a shutdown of the Metering Process initiated
+      by a network management application.
+
 0x05: lack of resources
-The Flow was terminated because of lack of resources
-available to the Metering Process and/or the Exporting
-Process.",,,,[RFC5102],0,2013-02-18
+      The Flow was terminated because of lack of resources
+      available to the Metering Process and/or the Exporting
+      Process.",,,,[RFC5102],0,2013-02-18
 137,commonPropertiesId,unsigned64,identifier,current,"An identifier of a set of common properties that is
 unique per Observation Domain and Transport Session.
 Typically, this Information Element is used to link to
@@ -1052,25 +1021,28 @@ packet header or the IPv6 Fragment header, respectively.
             
 
 Bit 0:    (RS) Reserved.
-The value of this bit MUST be 0 until specified
-otherwise.
-Bit 1:    (DF) 0 = May Fragment,  1 = Don't Fragment.
-Corresponds to the value of the DF flag in the
-IPv4 header.  Will always be 0 for IPv6 unless
-a ""don't fragment"" feature is introduced to IPv6.
-Bit 2:    (MF) 0 = Last Fragment, 1 = More Fragments.
-Corresponds to the MF flag in the IPv4 header
-or to the M flag in the IPv6 Fragment header,
-respectively.  The value is 0 for IPv6 if there
-is no fragment header.
-Bits 3-7: (DC) Don't Care.
-The values of these bits are irrelevant.
+          The value of this bit MUST be 0 until specified
+          otherwise.
 
-0   1   2   3   4   5   6   7
-+---+---+---+---+---+---+---+---+
-| R | D | M | D | D | D | D | D |
-| S | F | F | C | C | C | C | C |
-+---+---+---+---+---+---+---+---+",,,"See [RFC791] for the specification of the IPv4
+Bit 1:    (DF) 0 = May Fragment,  1 = Don't Fragment.
+          Corresponds to the value of the DF flag in the
+          IPv4 header.  Will always be 0 for IPv6 unless
+          a ""don't fragment"" feature is introduced to IPv6.
+
+Bit 2:    (MF) 0 = Last Fragment, 1 = More Fragments.
+          Corresponds to the MF flag in the IPv4 header
+          or to the M flag in the IPv6 Fragment header,
+          respectively.  The value is 0 for IPv6 if there
+          is no fragment header.
+
+Bits 3-7: (DC) Don't Care.
+          The values of these bits are irrelevant.
+
+     0   1   2   3   4   5   6   7
+   +---+---+---+---+---+---+---+---+
+   | R | D | M | D | D | D | D | D |
+   | S | F | F | C | C | C | C | C |
+   +---+---+---+---+---+---+---+---+",,,"See [RFC791] for the specification of the IPv4
 fragment flags.
 See [RFC8200] for the specification of the
 IPv6 Fragment header.",[RFC5102],0,2013-02-18
@@ -1098,10 +1070,10 @@ i.e., the last label that was pushed.
 Bits 0-4:  Don't Care, value is irrelevant.
 Bits 5-7:  MPLS Exp field.
 
-0   1   2   3   4   5   6   7
-+---+---+---+---+---+---+---+---+
-|     don't care    |    Exp    |
-+---+---+---+---+---+---+---+---+",,,"See [RFC3032] for the specification of the
+     0   1   2   3   4   5   6   7
+   +---+---+---+---+---+---+---+---+
+   |     don't care    |    Exp    |
+   +---+---+---+---+---+---+---+---+",,,"See [RFC3032] for the specification of the
 Exp field.
 See [RFC3270] for usage of the Exp field.",[RFC5102],0,2013-02-18
 204,ipPayloadLength,unsigned32,,current,"The effective length of the IP payload.
@@ -1163,15 +1135,15 @@ multicast address.
 
             
             
-0      1      2      3      4      5      6      7
-+------+------+------+------+------+------+------+------+
-|   IPv6 multicast scope    |  T   | RES. | RES. | MCv4 |
-+------+------+------+------+------+------+------+------+
+      0      1      2      3      4      5      6      7
+   +------+------+------+------+------+------+------+------+
+   |   IPv6 multicast scope    |  T   | RES. | RES. | MCv4 |
+   +------+------+------+------+------+------+------+------+
 
-Bits 0-3:  set to value of multicast scope if IPv6 multicast
-Bit  4:    set to value of T flag, if IPv6 multicast
-Bits 5-6:  reserved for future use
-Bit  7:    set to 1 if IPv4 multicast",,,"See [RFC1112] for the specification of
+   Bits 0-3:  set to value of multicast scope if IPv6 multicast
+   Bit  4:    set to value of T flag, if IPv6 multicast
+   Bits 5-6:  reserved for future use
+   Bit  7:    set to 1 if IPv4 multicast",,,"See [RFC1112] for the specification of
 reserved IPv4 multicast addresses.
 See [RFC4291] for the specification of
 reserved IPv6 multicast addresses and the definition of the T flag and
@@ -1211,61 +1183,61 @@ The mapping is illustrated by the figure below.
 
             
             
-0      1      2      3      4      5      6      7
-+------+------+------+------+------+------+------+------+
+        0      1      2      3      4      5      6      7
+    +------+------+------+------+------+------+------+------+
 ... |  RR  |CIPSO |E-SEC |  TS  | LSR  |  SEC | NOP  | EOOL |
-+------+------+------+------+------+------+------+------+
+    +------+------+------+------+------+------+------+------+
 
-8      9     10     11     12     13     14     15
-+------+------+------+------+------+------+------+------+
+        8      9     10     11     12     13     14     15
+    +------+------+------+------+------+------+------+------+
 ... |ENCODE| VISA | FINN | MTUR | MTUP | ZSU  | SSR  | SID  | ...
-+------+------+------+------+------+------+------+------+
+    +------+------+------+------+------+------+------+------+
 
-16     17     18     19     20     21     22     23
-+------+------+------+------+------+------+------+------+
+       16     17     18     19     20     21     22     23
+    +------+------+------+------+------+------+------+------+
 ... | DPS  |NSAPA | SDB  |RTRALT|ADDEXT|  TR  | EIP  |IMITD | ...
-+------+------+------+------+------+------+------+------+
+    +------+------+------+------+------+------+------+------+
 
-24     25     26     27     28     29     30     31
-+------+------+------+------+------+------+------+------+
-|      | EXP  |   to be assigned by IANA  |  QS  | UMP  | ...
-+------+------+------+------+------+------+------+------+
+       24     25     26     27     28     29     30     31
+    +------+------+------+------+------+------+------+------+
+... |      | EXP  |   to be assigned by IANA  |  QS  | UMP  |
+    +------+------+------+------+------+------+------+------+
 
-Type   Option
-Bit Value  Name    Reference
----+-----+-------+------------------------------------
-0     7   RR      Record Route, RFC 791
-1   134   CIPSO   Commercial Security
-2   133   E-SEC   Extended Security, RFC 1108
-3    68   TS      Time Stamp, RFC 791
-4   131   LSR     Loose Source Route, RFC791
-5   130   SEC     Security, RFC 1108
-6     1   NOP     No Operation, RFC 791
-7     0   EOOL    End of Options List, RFC 791
-8    15   ENCODE
-9   142   VISA    Experimental Access Control
-10   205   FINN    Experimental Flow Control
-11    12   MTUR    (obsoleted) MTU Reply, RFC 1191
-12    11   MTUP    (obsoleted) MTU Probe, RFC 1191
-13    10   ZSU     Experimental Measurement
-14   137   SSR     Strict Source Route, RFC 791
-15   136   SID     Stream ID, RFC 791
-16   151   DPS     Dynamic Packet State
-17   150   NSAPA   NSAP Address
-18   149   SDB     Selective Directed Broadcast
-19   147   ADDEXT  Address Extension
-20   148   RTRALT  Router Alert, RFC 2113
-21    82   TR      Traceroute, RFC 3193
-22   145   EIP     Extended Internet Protocol, RFC 1385
-23   144   IMITD   IMI Traffic Descriptor
-25    30   EXP     RFC3692-style Experiment
-25    94   EXP     RFC3692-style Experiment
-25   158   EXP     RFC3692-style Experiment
-25   222   EXP     RFC3692-style Experiment
-30    25   QS      Quick-Start
-31   152   UMP     Upstream Multicast Pkt.
-...  ...   ...     Further options numbers
-may be assigned by IANA",,,"See [RFC791] for the definition of IPv4
+       Type   Option
+   Bit Value  Name    Reference
+   ---+-----+-------+------------------------------------
+   0      7   RR      Record Route, RFC 791
+   1    134   CIPSO   Commercial Security
+   2    133   E-SEC   Extended Security, RFC 1108
+   3     68   TS      Time Stamp, RFC 791
+   4    131   LSR     Loose Source Route, RFC791
+   5    130   SEC     Security, RFC 1108
+   6      1   NOP     No Operation, RFC 791
+   7      0   EOOL    End of Options List, RFC 791
+   8     15   ENCODE
+   9    142   VISA    Experimental Access Control
+   10   205   FINN    Experimental Flow Control
+   11    12   MTUR    (obsoleted) MTU Reply, RFC 1191
+   12    11   MTUP    (obsoleted) MTU Probe, RFC 1191
+   13    10   ZSU     Experimental Measurement
+   14   137   SSR     Strict Source Route, RFC 791
+   15   136   SID     Stream ID, RFC 791
+   16   151   DPS     Dynamic Packet State
+   17   150   NSAPA   NSAP Address
+   18   149   SDB     Selective Directed Broadcast
+   19   147   ADDEXT  Address Extension
+   20   148   RTRALT  Router Alert, RFC 2113
+   21    82   TR      Traceroute, RFC 3193
+   22   145   EIP     Extended Internet Protocol, RFC 1385
+   23   144   IMITD   IMI Traffic Descriptor
+   25    30   EXP     RFC3692-style Experiment
+   25    94   EXP     RFC3692-style Experiment
+   25   158   EXP     RFC3692-style Experiment
+   25   222   EXP     RFC3692-style Experiment
+   30    25   QS      Quick-Start
+   31   152   UMP     Upstream Multicast Pkt.
+   ...  ...   ...     Further options numbers
+                      may be assigned by IANA",,,"See [RFC791] for the definition of IPv4
 options.
 See the list of IPv4 option numbers assigned by IANA at [IANA registry ip-parameters].
 The diagram provided in [RFC5102] is incorrect.  
@@ -1288,27 +1260,27 @@ TCP option numbers are maintained by IANA.
 
             
             
-0     1     2     3     4     5     6     7
-+-----+-----+-----+-----+-----+-----+-----+-----+
-|   7 |   6 |   5 |   4 |   3 |   2 |   1 |   0 |  ...
-+-----+-----+-----+-----+-----+-----+-----+-----+
+        0     1     2     3     4     5     6     7
+    +-----+-----+-----+-----+-----+-----+-----+-----+
+    |   7 |   6 |   5 |   4 |   3 |   2 |   1 |   0 |  ...
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
-8     9    10    11    12    13    14    15
-+-----+-----+-----+-----+-----+-----+-----+-----+
+        8     9    10    11    12    13    14    15
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |  15 |  14 |  13 |  12 |  11 |  10 |   9 |   8 |...
-+-----+-----+-----+-----+-----+-----+-----+-----+
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
-16    17    18    19    20    21    22    23
-+-----+-----+-----+-----+-----+-----+-----+-----+
+       16    17    18    19    20    21    22    23
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |  23 |  22 |  21 |  20 |  19 |  18 |  17 |  16 |...
-+-----+-----+-----+-----+-----+-----+-----+-----+
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 
-. . .
+                          . . .
 
-56    57    58    59    60    61    62    63
-+-----+-----+-----+-----+-----+-----+-----+-----+
+       56    57    58    59    60    61    62    63
+    +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |  63 |  62 |  61 |  60 |  59 |  58 |  57 |  56 |
-+-----+-----+-----+-----+-----+-----+-----+-----+",,,"See [RFC793] for the definition of TCP
+    +-----+-----+-----+-----+-----+-----+-----+-----+",,,"See [RFC793] for the definition of TCP
 options.
 See the list of TCP option numbers assigned by IANA at [IANA registry tcp-parameters].
 The diagram provided in [RFC5102] is incorrect.  
@@ -1472,15 +1444,15 @@ Private: 1
               
 Public:  2",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.com],1,2014-08-13
 230,natEvent,unsigned8,identifier,current,"This Information Element identifies a NAT event. This IE identifies 
-  the type of a NAT event. Examples of NAT events include, but are not 
-  limited to, NAT translation create, NAT translation delete, Threshold 
-  Reached, or Threshold Exceeded, etc. Values for this Information 
-  Element are listed in the ""NAT Event Type"" registry, see 
-  [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
-  New assignments of values will be administered by IANA and are 
-  subject to Expert Review [RFC8126]. Experts 
-  need to check definitions of new values for completeness, accuracy, 
-  and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
+the type of a NAT event. Examples of NAT events include, but are not 
+limited to, NAT translation create, NAT translation delete, Threshold 
+Reached, or Threshold Exceeded, etc. Values for this Information 
+Element are listed in the ""NAT Event Type"" registry, see 
+[http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
+New assignments of values will be administered by IANA and are 
+subject to Expert Review [RFC8126]. Experts 
+need to check definitions of new values for completeness, accuracy, 
+and redundancy.",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC8158] 
 for the definitions of values 4-16.",[RFC8158],2,2017-03-15
@@ -1489,9 +1461,9 @@ initiator since the previous report. The initiator is the device
 which triggered the session creation, and remains the same for 
 the life of the session.",octets,,"See #298, initiatorPackets.",[ipfix-iana_at_cisco.com],1,2014-08-13
 232,responderOctets,unsigned64,deltaCounter,current,"The total number of layer 4 payload bytes in a flow from the 
- responder since the previous report. The responder is the device 
- which replies to the initiator, and remains the same for the life 
- of the session.",octets,,"See #299, responderPackets.",[ipfix-iana_at_cisco.com],1,2014-08-13
+responder since the previous report. The responder is the device 
+which replies to the initiator, and remains the same for the life 
+of the session.",octets,,"See #299, responderPackets.",[ipfix-iana_at_cisco.com],1,2014-08-13
 233,firewallEvent,unsigned8,,current,"Indicates a firewall event.  The allowed values are: 
 
             
@@ -3022,8 +2994,8 @@ the DEI field of the S-TAG. Note: in earlier versions of 802.1Q the same bit
 field in the incoming packet is occupied by the Canonical Format Indicator 
 (CFI) field, except for S-TAGs.",,,[802.1Q-2011 subclause 9.6],[Yaakov_J_Stein],1,2014-02-03
 389,dot1qCustomerDEI,boolean,default,current,"In case of a QinQ frame, it represents the inner tag's Drop Eligible Indicator 
- (DEI) field and in case of an IEEE 802.1ad frame it represents the DEI field of 
- the C-TAG.",,,[802.1Q-2011 subclause 9.6],[Yaakov_J_Stein],1,2014-02-03
+(DEI) field and in case of an IEEE 802.1ad frame it represents the DEI field of 
+the C-TAG.",,,[802.1Q-2011 subclause 9.6],[Yaakov_J_Stein],1,2014-02-03
 390,flowSelectorAlgorithm,unsigned16,identifier,current,"This Information Element identifies the Intermediate Flow
 Selection Process technique (e.g., Filtering, Sampling) that is
 applied by the Intermediate Flow Selection Process.  Most of these
@@ -3059,8 +3031,8 @@ since the previous report.",octets,,,[RFC7014],1,2014-08-13
 Flows that were selected in the Intermediate Flow Selection
 Process since the previous report.",packets,,,[RFC7014],1,2014-08-13
 393,flowSelectedFlowDeltaCount,unsigned64,deltaCounter,current,"This Information Element specifies the number of Flows that were
- selected in the Intermediate Flow Selection Process since the last
- report.",flows,,,[RFC7014],1,2014-08-13
+selected in the Intermediate Flow Selection Process since the last
+report.",flows,,,[RFC7014],1,2014-08-13
 394,selectorIDTotalFlowsObserved,unsigned64,,current,"This Information Element specifies the total number of Flows
 observed by a Selector, for a specific value of SelectorId.  This
 Information Element should be used in an Options Template scoped
@@ -3581,92 +3553,92 @@ identification of an HTTP/2 frame as defined in
 [RFC7240] section 3.1. The length 
 of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0,2016-11-15
 463,natInstanceID,unsigned32,identifier,current,"This Information Element uniquely identifies an Instance of the NAT 
-        that runs on a NAT middlebox function after the packet passes the 
-        Observation Point. natInstanceID is defined in 
-        [RFC7659].",,,"See [RFC791] for the definition of the IPv4 
-        source address field.  See [RFC3022] 
-        for the definition of NAT.  See [RFC3234] 
-        for the definition of middleboxes.",[RFC8158],0,2017-03-15
+    that runs on a NAT middlebox function after the packet passes the 
+    Observation Point. natInstanceID is defined in 
+    [RFC7659].",,,"See [RFC791] for the definition of the IPv4 
+    source address field.  See [RFC3022] 
+    for the definition of NAT.  See [RFC3234] 
+    for the definition of middleboxes.",[RFC8158],0,2017-03-15
 464,internalAddressRealm,octetArray,identifier,current,"This Information Element represents the internal address realm where 
-        the packet is originated from or destined to. By definition, a NAT 
-        mapping can be created from two address realms, one from internal and 
-        one from external. Realms are implementation dependent and can represent 
-        a Virtual Routing and Forwarding (VRF) ID, a VLAN ID, or some unique 
-        identifier. Realms are optional and, when left unspecified, would mean 
-        that the external and internal realms are the same.",,,"See [RFC791] for the definition of the IPv4 
-        source address field.  See [RFC3022] 
-        for the definition of NAT.  See [RFC3234] 
-        for the definition of middleboxes.",[RFC8158],0,2017-03-15
+    the packet is originated from or destined to. By definition, a NAT 
+    mapping can be created from two address realms, one from internal and 
+    one from external. Realms are implementation dependent and can represent 
+    a Virtual Routing and Forwarding (VRF) ID, a VLAN ID, or some unique 
+    identifier. Realms are optional and, when left unspecified, would mean 
+    that the external and internal realms are the same.",,,"See [RFC791] for the definition of the IPv4 
+    source address field.  See [RFC3022] 
+    for the definition of NAT.  See [RFC3234] 
+    for the definition of middleboxes.",[RFC8158],0,2017-03-15
 465,externalAddressRealm,octetArray,identifier,current,"This Information Element represents the external address
-        realm where the packet is originated from or destined to.  The
-        detailed definition is in the internal address realm as specified
-        above.",,,"See [RFC791] for the definition of the IPv4 
-        source address field.  See [RFC3022] 
-        for the definition of NAT.  See [RFC3234] 
-        for the definition of middleboxes.",[RFC8158],0,2017-03-15
+    realm where the packet is originated from or destined to.  The
+    detailed definition is in the internal address realm as specified
+    above.",,,"See [RFC791] for the definition of the IPv4 
+    source address field.  See [RFC3022] 
+    for the definition of NAT.  See [RFC3234] 
+    for the definition of middleboxes.",[RFC8158],0,2017-03-15
 466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT Quota Exceeded 
-        event. Values for this Information Element are listed in the ""NAT 
-        Quota Exceeded Event Type"" registry, see 
-        [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event]. 
-        New assignments of values will be administered by IANA and are subject 
-        to Expert Review [RFC8126]. Experts need to 
-        check definitions of new values for completeness, accuracy, and 
-        redundancy.",,,"See [RFC791] for the definition of the IPv4 
-        source address field.  See [RFC3022] 
-        for the definition of NAT.  See [RFC3234] 
-        for the definition of middleboxes.",[RFC8158],0,2017-03-15
+    event. Values for this Information Element are listed in the ""NAT 
+    Quota Exceeded Event Type"" registry, see 
+    [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event]. 
+    New assignments of values will be administered by IANA and are subject 
+    to Expert Review [RFC8126]. Experts need to 
+    check definitions of new values for completeness, accuracy, and 
+    redundancy.",,,"See [RFC791] for the definition of the IPv4 
+    source address field.  See [RFC3022] 
+    for the definition of NAT.  See [RFC3234] 
+    for the definition of middleboxes.",[RFC8158],0,2017-03-15
 467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT Threshold event. 
-        Values for this Information Element are listed in the ""NAT Threshold 
-        Event Type"" registry, see 
-        [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event]. 
-        New assignments of values will be administered by IANA and are 
-        subject to Expert Review [RFC8126]. Experts 
-        need to check definitions of new values for completeness, accuracy, 
-        and redundancy.",,,"See [RFC791] for the definition of the IPv4 
-        source address field.  See [RFC3022] 
-        for the definition of NAT.  See [RFC3234] 
-        for the definition of middleboxes.",[RFC8158],0,2017-03-15
+    Values for this Information Element are listed in the ""NAT Threshold 
+    Event Type"" registry, see 
+    [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event]. 
+    New assignments of values will be administered by IANA and are 
+    subject to Expert Review [RFC8126]. Experts 
+    need to check definitions of new values for completeness, accuracy, 
+    and redundancy.",,,"See [RFC791] for the definition of the IPv4 
+    source address field.  See [RFC3022] 
+    for the definition of NAT.  See [RFC3234] 
+    for the definition of middleboxes.",[RFC8158],0,2017-03-15
 468,httpUserAgent,string,default,current,"The HTTP User-Agent header field as defined in section 5.5.3 of  
-        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+    [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
 469,httpContentType,string,default,current,"The HTTP Content-Type header field as defined in section 3.1.1.5 of 
-        [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
+    [RFC7231]. Encoded in UTF-8.",,,[RFC7231],[Andrew_Feren],0,2017-04-19
 470,httpReasonPhrase,string,default,current,"The HTTP reason phrase as defined in section 6.1 of of 
-        [RFC7231].",,,[RFC7231],[Felix_Erlacher],0,2017-06-19
+    [RFC7231].",,,[RFC7231],[Felix_Erlacher],0,2017-06-19
 471,maxSessionEntries,unsigned32,identifier,current,"This element represents the maximum session entries that
-        can be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    can be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 472,maxBIBEntries,unsigned32,identifier,current,"This element represents the maximum BIB entries that can
-        be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    be created by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 473,maxEntriesPerUser,unsigned32,identifier,current,"This element represents the maximum NAT entries that can
-        be created per user by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    be created per user by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 474,maxSubscribers,unsigned32,identifier,current,"This element represents the maximum subscribers or
-        maximum hosts that are allowed by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    maximum hosts that are allowed by the NAT device.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 475,maxFragmentsPendingReassembly,unsigned32,identifier,current,"This element represents the maximum fragments that the
-        NAT device can store for reassembling the packet.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    NAT device can store for reassembling the packet.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 476,addressPoolHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
-        number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 477,addressPoolLowThreshold,unsigned32,identifier,current,"This element represents the low threshold value of the
-        number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    number of public IP addresses in the address pool.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 478,addressPortMappingHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
-        number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 479,addressPortMappingLowThreshold,unsigned32,identifier,current,"This element represents the low threshold value of the
-        number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    number of address and port mappings.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 480,addressPortMappingPerUserHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
-        number of address and port mappings that a single user is allowed to
-        create on a NAT device.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
+    number of address and port mappings that a single user is allowed to
+    create on a NAT device.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.",[RFC8158],0,2017-12-01
 481,globalAddressMappingHighThreshold,unsigned32,identifier,current,"This element represents the high threshold value of the
-        number of address and port mappings that a single user is allowed to
-        create on a NAT device in a paired address pooling behavior.",,,"See [RFC3022] for the definition of NAT.  
-        See [RFC3234] for the definition of middleboxes.
-        See [RFC4787] for the definition of paired 
-        address pooling behavior.",[RFC8158],0,2017-12-01
+    number of address and port mappings that a single user is allowed to
+    create on a NAT device in a paired address pooling behavior.",,,"See [RFC3022] for the definition of NAT.  
+    See [RFC3234] for the definition of middleboxes.
+    See [RFC4787] for the definition of paired 
+    address pooling behavior.",[RFC8158],0,2017-12-01
 482-32767,Unassigned,,,,,,,,,,
