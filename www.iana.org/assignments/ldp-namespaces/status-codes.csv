@@ -51,7 +51,7 @@ Range/Value,E,Description,Reference
 0x00000031,0,Invalid Topology ID,[RFC7307]
 0x00000032,1,Transport Connection Mismatch,[RFC7552]
 0x00000033,1,Dual-Stack Noncompliance,[RFC7552]
-0x00000034,0,MRT Capability negotiated without MT Capability,[RFC-ietf-mpls-ldp-mrt-07]
+0x00000034,0,MRT Capability negotiated without MT Capability,[RFC8320]
 0x00000035,0,VCCV Type Error,[RFC7708]
 0x00000036,,Unassigned,
 0x00000037,0,Bandwidth resources unavailable,[RFC7267]
