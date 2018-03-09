@@ -73,3 +73,4 @@ ietf-hardware,,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC-ietf-netmod-
 ietf-hardware-state,,N,urn:ietf:params:xml:ns:yang:ietf-hardware-state,hw-state,,[RFC-ietf-netmod-entity-08],
 ietf-voucher,,N,urn:ietf:params:xml:ns:yang:ietf-voucher,vch,,[RFC-ietf-anima-voucher-07],
 ietf-network-instance,,N,urn:ietf:params:xml:ns:yang:ietf-network-instance,ni,,[RFC-ietf-rtgwg-ni-model-10],
+ietf-connection-oriented-oam,,N,urn:ietf:params:xml:ns:yang:ietf-connection-oriented-oam,co-oam,,[RFC-ietf-lime-yang-connection-oriented-oam-model-07],

@@ -6,3 +6,5 @@ g.3gpp.state-and-event,[3GPP 24.237 Rel-10][Frederic_Firmin]
 EmergencyCallData.eCall.MSD,[RFC8147]
 EmergencyCallData.VEDS,[RFC8148]
 infoDtmf,[3GPP 24.229 v12.16.0][Frederic_Firmin]
+g.3gpp.mcptt-floor-request,"[3GPP 24.379 v13.7.0, Section J.1.2][Frederic_Firmin]"
+g.3gpp.mcptt-info,"[3GPP 24.379 v13.7.0, Section J.2.2][Frederic_Firmin]"
