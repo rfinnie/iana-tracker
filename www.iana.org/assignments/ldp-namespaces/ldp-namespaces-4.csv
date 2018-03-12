@@ -57,7 +57,7 @@ Value,Description,Reference,Notes/Registration Date
 0x0700,ICCP capability TLV,[RFC7275],
 0x0701,Dual-Stack capability,[RFC7552],
 0x0702,Unassigned,,
-0x0703,P2MP PW Capability TLV,[RFC-ietf-pals-p2mp-pw-04],
+0x0703,P2MP PW Capability TLV,[RFC8338],
 0x0704-0x07FF,Unassigned,,
 0x0800,Explicit Route TLV,[RFC3212],
 0x0801,Ipv4 Prefix ER-Hop TLV,[RFC3212],

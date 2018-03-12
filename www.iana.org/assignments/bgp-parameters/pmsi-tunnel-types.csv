@@ -16,4 +16,4 @@ Value,Meaning,Reference
 0x7F,Reserved,[RFC8317]
 0x80-0xFA,Reserved for Composite Tunnel,[RFC8317]
 0xFB-0xFE,Reserved for Experimental Use,[RFC7385]
-0xFF,wildcard transport tunnel type,[RFC-ietf-pals-p2mp-pw-04]
+0xFF,wildcard transport tunnel type,[RFC8338]
