@@ -1,2 +1,3 @@
-Name,Reference
-rtp+ecn,[RFC6679]
+Name,Description,Contact,Change Controller,Reference
+rtp+ecn,"Indicates that ICE agent has the capability to perform ECN path testing 
+        for RTP-over-UDP flows.",[IESG],[IESG],[RFC6679]
