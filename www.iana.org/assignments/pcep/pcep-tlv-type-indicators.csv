@@ -25,4 +25,4 @@ Value,Description,Reference
 30,"Global Association Source (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 31,"Extended Association Id (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 32-65503,Unassigned,
-65504-65535,Experimental Use,[RFC-ietf-pce-pcep-exp-codepoints-05]
+65504-65535,Experimental Use,[RFC8356]

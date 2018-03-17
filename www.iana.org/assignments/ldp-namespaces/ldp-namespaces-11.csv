@@ -12,7 +12,7 @@ Value,Name,Reference
 10,Transit VPNv6 Bidir TLV type,[RFC7246]
 11,Transit IPv4 Shared Tree TLV,[RFC7442]
 12,Transit IPv6 Shared Tree TLV,[RFC7442]
-13,L2VPN-MCAST application TLV,[RFC-ietf-pals-p2mp-pw-04]
+13,L2VPN-MCAST application TLV,[RFC8338]
 14-249,Unassigned,
 250,Transit VPNv4 Source TLV type,[RFC7246]
 251,Transit VPNv6 Source TLV type,[RFC7246]

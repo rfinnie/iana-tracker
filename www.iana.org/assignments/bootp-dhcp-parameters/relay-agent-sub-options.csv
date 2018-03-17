@@ -21,7 +21,7 @@ seen limited deployment.",[Ralph_Droms]
 16,Access-Point-BSSID Sub-option,[RFC7839]
 17,Operator-Identifier Sub-option,[RFC7839]
 18,Operator-Realm Sub-option,[RFC7839]
-19,DHCPv4 Relay Source Port Sub-Option,[RFC-ietf-dhc-relay-port-10]
+19,DHCPv4 Relay Source Port Sub-Option,[RFC8357]
 20-150,Unassigned,
 151,DHCPv4 Virtual Subnet Selection Sub-Option,[RFC6607]
 152,DHCPv4 Virtual Subnet Selection Control Sub-Option,[RFC6607]

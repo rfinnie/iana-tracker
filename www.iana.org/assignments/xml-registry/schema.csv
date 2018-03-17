@@ -64,7 +64,7 @@ keyprov:pskc,urn:ietf:params:xml:schema:keyprov:pskc,schema/keyprov/pskc.xsd,[RF
 keyrelay-1.0,urn:ietf:params:xml:schema:keyrelay-1.0,schema/keyrelay-1.0.xsd,[RFC8063]
 kpml-request,urn:ietf:params:xml:schema:kpml-request,schema/kpml-request.xsd,[RFC4730]
 kpml-response,urn:ietf:params:xml:schema:kpml-response,schema/kpml-response.xsd,[RFC4730]
-launch-1.0,urn:ietf:params:xml:schema:launch-1.0,schema/launch-1.0.xsd,[RFC-ietf-regext-launchphase-07]
+launch-1.0,urn:ietf:params:xml:schema:launch-1.0,schema/launch-1.0.xsd,[RFC8334]
 load-control,urn:ietf:params:xml:schema:load-control,schema/load-control.xsd,[RFC7200]
 location-filter,urn:ietf:params:xml:schema:location-filter,schema/location-filter.xsd,[RFC6447]
 location-type,urn:ietf:params:xml:schema:location-type,schema/location-type.xsd,[RFC4589]
