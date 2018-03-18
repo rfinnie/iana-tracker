@@ -10,7 +10,7 @@ Value,Meaning,Reference
 0x08,Transport Tunnel,[RFC7524]
 0x09,Unassigned,
 0x0A,"Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2017-06-28, expires 2018-06-30)",[draft-ietf-bess-evpn-optimized-ir]
-0x0B,"BIER (TEMPORARY - registered 2017-06-29, expires 2018-06-29)",[draft-ietf-bier-mvpn]
+0x0B,BIER,[RFC-ietf-bier-mvpn-10]
 0x0C-0x7A,Unassigned,
 0x7B-0x7E,Reserved for Experimental Use,[RFC8317]
 0x7F,Reserved,[RFC8317]
