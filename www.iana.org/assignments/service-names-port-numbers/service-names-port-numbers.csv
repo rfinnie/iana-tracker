@@ -13998,6 +13998,7 @@ aseba,,tcp,protocol for an event-based architecture for distributed control of m
 astnotify,,udp,Asterisk Caller-ID Notification Service,[Sven_Slezak],[Sven_Slezak],,,,,,"Defined TXT keys: prefix=<country code prefix> (numeric, additionally '+')"
 astralite,,,Astralite,[Tongji_University],[Tongji_University],,,,,,Defined TXT keys: None
 async,,,address-o-sync,[Markus_Brand],[Markus_Brand],,,,,,Defined TXT keys: None
+atnet,,udp,AT protocol over IP,[Selectron_BVBA],[Jan_Verschaeve],2018-03-20,,,,,Defined TXT keys: None
 atlassianapp,,,"Atlassian Application (JIRA, Confluence, Fisheye, Crucible, Crowd, Bamboo) discovery service",[Denise_Fernandez],[Denise_Fernandez],,,,,,Defined TXT keys: app.url
 attero-ad,,tcp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
 attero-ad,,udp,Attero Tech Audio Device,[Attero_Tech_LLC],[David_Vaughn],2015-09-24,,,,,"Defined TXT keys: txtvers, protovers, CtrlType, Model"
