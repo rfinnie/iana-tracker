@@ -4,7 +4,8 @@ Bit,Description,Reference
 2,OAM capable,[RFC7455]
 3,Backwards-compatible OAM,[RFC7455]
 4,E-L1FS FS-LSP support,[RFC7780][RFC7356]
-5-13,Unassigned,
+5,Able to handle the NickBlockFlags APPsub-TLV,[RFC-ietf-trill-multilevel-unique-nickname-07]
+6-13,Unassigned,
 14,Extended Hop Count support,[RFC7780]
 15-16,Unassigned,
 17-20,available non-critical reserved flags,[RFC7179]
