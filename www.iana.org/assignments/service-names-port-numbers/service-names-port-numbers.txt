@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2018-02-28
+           2018-03-20
 
    Expert(s)
 
@@ -14375,7 +14375,10 @@ pichat             9009        udp    Pichat Server                [Mark_Seuffer
 sdr                9010        tcp    Secure Data Replicator       [Sufyan_Almajali]                                     [Sufyan_Almajali]                                         2008-06-27
                                       Protocol
                    9010        udp    Reserved
-                 9011-9019            Unassigned
+                   9011        tcp    Reserved
+d-star             9011        udp    D-Star Routing digital       [QuadNet2_USA_IRC_Network]                            [Thomas_A_Early]                                          2018-03-16
+                                      voice+data for amateur radio
+                 9012-9019            Unassigned
 tambora            9020        tcp    TAMBORA                      [Jason_van_Zyl]                                       [Jason_van_Zyl]                                           2002-03
 tambora            9020        udp    TAMBORA                      [Jason_van_Zyl]                                       [Jason_van_Zyl]                                           2002-03
 panagolin-ident    9021        tcp    Pangolin Identification      [William_Benner_2]                                    [William_Benner_2]                                        2002-03
@@ -17072,6 +17075,7 @@ astnotify                      udp    Asterisk Caller-ID           [Sven_Slezak]
                                       Notification Service                                                                                                                                                                                                                        additionally '+')
 astralite                             Astralite                    [Tongji_University]                                   [Tongji_University]                                                                                                                                      Defined TXT keys: None
 async                                 address-o-sync               [Markus_Brand]                                        [Markus_Brand]                                                                                                                                           Defined TXT keys: None
+atnet                          udp    AT protocol over IP          [Selectron_BVBA]                                      [Jan_Verschaeve]                                          2018-03-20                                                                                     Defined TXT keys: None
                                       Atlassian Application (JIRA,
 atlassianapp                          Confluence, Fisheye,         [Denise_Fernandez]                                    [Denise_Fernandez]                                                                                                                                       Defined TXT keys: app.url
                                       Crucible, Crowd, Bamboo)
@@ -20740,6 +20744,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Jan_Dirven]                                              Jan Dirven                                          mailto:jan.dirven&agfa.com                                    2007-12-13
 [Jan_Friedel]                                             Jan Friedel                                         mailto:Jan.Friedel&sun.com                                    2009-05-07
 [Jan_Rutger_Voorhorst]                                    Jan Rutger Voorhorst                                mailto:janrutger&roadware.nl                                  2006-10
+[Jan_Verschaeve]                                          Jan Verschaeve                                      mailto:jv&selectron.be                                        2018-03-20
 [Jan_Vrsinsky]                                            Jan Vrsinsky                                        mailto:jan.vrsinsky&illusionsoftworks.com                     2002-09
 [Jane_Dashevsky]                                          Jane Dashevsky                                      mailto:jane.dashevsky&intel.com
 [Jane_Porter]                                             Jane Porter                                         mailto:janeporter&uk.ibm.com
@@ -22584,6 +22589,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Qentin_Neill]                                            Qentin Neill                                        mailto:quentin&columbiasc.ncr.com
 [Qiang_Zhang]                                             Qiang Zhang                                         mailto:qzhang&iwncomm.com                                     2006-10
 [Qiang_Zhang_2]                                           Qiang Zhang                                         mailto:iad&iwncomm.com                                        2006-10
+[QuadNet2_USA_IRC_Network]                                                           QuadNet2 USA IRC Network mailto:admins&openquad.net                                    2018-03-16
 [Qualcomm_Innovation_Center]                                                         Qualcomm Innovation      mailto:cdowell&quicinc.com                                    2011-12-21
                                                                                      Center, Inc.
 [Quang_Thoi]                                              Quang Thoi                                          mailto:quang_thoi&symantec.com                                2006-11
@@ -23002,6 +23008,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Samsung_2]                                                                          Samsung                  mailto:young.ki.kim&samsung.com                               2013-05-29
 [SEGGER]                                                                             SEGGER Microcontroller   mailto:info&segger.com                                        2009-01-16
                                                                                      GmbH & Co. KG
+[Selectron_BVBA]                                                                     Selectron BVBA           mailto:jv&selectron.be                                        2018-03-20
 [SEIKO_EPSON]                                                                        SEIKO EPSON              mailto:APD.admin&exc.epson.co.jp                              2006-06
 [SEIKO_EPSON_2]                                                                      SEIKO EPSON              mailto:Ishida.Hitoshi&exc.epson.co.jp
 [SEIKO_EPSON_3]                                                                      SEIKO EPSON              mailto:Sato.Minoru3&exc.epson.co.jp                           2002-10
@@ -23523,6 +23530,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Thomas_Clausen]                                          Thomas Clausen                                      mailto:thomas.clausen&inria.fr
 [Thomas_Dannemiller]                                      Thomas Dannemiller                                  mailto:tom.dannemiller&rolls-royce.com                        2003-04
 [Thomas_Driemeyer]                                        Thomas Driemeyer                                    mailto:thomas&bitrot.de
+[Thomas_A_Early]                                          Thomas A Early                                      mailto:tom.n7tae&tearly.net                                   2018-03-16
 [Thomas_E_Ludwig]                                         Thomas E. Ludwig                                    mailto:tom.ludwig&zetera.com                                  2004-02
 [Thomas_Efer]                                             Thomas Efer                                         mailto:mail&thomasefer.de                                     2006-03
 [Thomas_Erskine]                                          Thomas Erskine                                      mailto:erskine&sourceworks.com
