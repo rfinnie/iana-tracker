@@ -12,3 +12,6 @@ Value,Description,Reference
 11,LSP Locally Failed,[RFC4872]
 12,No OOB mapping received,[RFC6511]
 13,Preferable P2MP-TE Tree Exists,[RFC8149]
+14,Route of XRO LSP identifier unknown,[RFC-ietf-teas-lsp-diversity-10]
+15,Failed to satisfy Exclude Route,[RFC-ietf-teas-lsp-diversity-10]
+16,Compliant path exists,[RFC-ietf-teas-lsp-diversity-10]
