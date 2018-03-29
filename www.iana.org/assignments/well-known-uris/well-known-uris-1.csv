@@ -22,6 +22,7 @@ keybase.txt,[The_Keybase_Project],[https://keybase.io/__/keybase_well_known],"Re
         and [API].",2014-04-08,
 mud,IETF,[draft-ietf-opsawg-mud],,2016-11-23,
 ni,IETF,[RFC6920],,,
+oauth-authorization-server,IESG,"[RFC-ietf-oauth-discovery-10, Section 3]",,2018-03-27,
 openid-configuration,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-discovery-1_0.html],,2013-08-27,
 openorg,[cjg_at_ecs.soton.ac.uk],[http://opd.data.ac.uk/],,2015-05-29,
 pki-validation,[CA_Browser_Forum],[Section 3.2.2.4.6 of version 1.3.8 of the CA/Browser Forum’s Baseline Requirements Certificate Policy for the Issuance and Management of Publicly-Trusted Certificates (“Baseline Requirements”)],See also [https://cabforum.org/baseline-requirements-documents/],2017-02-06,
