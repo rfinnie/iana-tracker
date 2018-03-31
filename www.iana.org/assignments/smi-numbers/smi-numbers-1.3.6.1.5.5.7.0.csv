@@ -90,3 +90,4 @@ Decimal,Description,References
 89,id-mod-tn-module,[RFC8226]
 90,id-mod-ip-addr-and-as-ident-v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
 91,id-mod-ip-addr-and-as-ident-2v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
+92,id-mod-lamps-eai-addresses-2016,[RFC-ietf-lamps-eai-addresses-18]

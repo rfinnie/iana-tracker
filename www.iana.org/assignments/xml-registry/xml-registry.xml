@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2018-03-19</updated>
+  <updated>2018-03-29</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -1116,7 +1116,7 @@ The registration template should cite the specification.
       <value>yang:iana-hardware</value>
       <name>urn:ietf:params:xml:ns:yang:iana-hardware</name>
       <file type="template">ns/yang/iana-hardware.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-entity-08"/>
+      <xref type="rfc" data="rfc8348"/>
     </record>
     <record date="2014-01-27">
       <value>yang:iana-if-type</value>
@@ -1164,19 +1164,19 @@ The registration template should cite the specification.
       <value>yang:ietf-datastores</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-datastores</name>
       <file type="template">ns/yang/ietf-datastores.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-revised-datastores-10"/>
+      <xref type="rfc" data="rfc8342"/>
     </record>
     <record date="2018-02-08">
       <value>yang:ietf-hardware</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-hardware</name>
       <file type="template">ns/yang/ietf-hardware.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-entity-08"/>
+      <xref type="rfc" data="rfc8348"/>
     </record>
     <record date="2018-02-08">
       <value>yang:ietf-hardware-state</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-hardware-state</name>
       <file type="template">ns/yang/ietf-hardware-state.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-entity-08"/>
+      <xref type="rfc" data="rfc8348"/>
     </record>
     <record>
       <value>yang:ietf-inet-types</value>
@@ -1188,13 +1188,13 @@ The registration template should cite the specification.
       <value>yang:ietf-interfaces</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-interfaces</name>
       <file type="template">ns/yang/ietf-interfaces.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-rfc7223bis-03"/>
+      <xref type="rfc" data="rfc8343"/>
     </record>
     <record date="2014-04-14" updated="2018-01-18">
       <value>yang:ietf-ip</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ip</name>
       <file type="template">ns/yang/ietf-ip.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-rfc7277bis-03"/>
+      <xref type="rfc" data="rfc8344"/>
     </record>
     <record>
       <value>yang:ietf-ipfix-psamp</value>
@@ -1206,13 +1206,13 @@ The registration template should cite the specification.
       <value>yang:ietf-ipv4-unicast-routing</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing</name>
       <file type="template">ns/yang/ietf-ipv4-unicast-routing.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-rfc8022bis-11"/>
+      <xref type="rfc" data="rfc8349"/>
     </record>
     <record date="2016-11-03" updated="2018-02-02">
       <value>yang:ietf-ipv6-unicast-routing</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing</name>
       <file type="template">ns/yang/ietf-ipv6-unicast-routing.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-rfc8022bis-11"/>
+      <xref type="rfc" data="rfc8349"/>
     </record>
     <record date="2017-05-03">
       <value>yang:ietf-key-chain</value>
@@ -1224,13 +1224,13 @@ The registration template should cite the specification.
       <value>yang:ietf-l3-unicast-topology</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology</name>
       <file type="template">ns/yang/ietf-l3-unicast-topology.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-l3-topology-16"/>
+      <xref type="rfc" data="rfc8346"/>
     </record>
     <record date="2017-12-18">
       <value>yang:ietf-l3-unicast-topology-state</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state</name>
       <file type="template">ns/yang/ietf-l3-unicast-topology-state.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-l3-topology-16"/>
+      <xref type="rfc" data="rfc8346"/>
     </record>
     <record date="2016-12-02" updated="2017-12-13">
       <value>yang:ietf-l3vpn-svc</value>
@@ -1272,7 +1272,7 @@ The registration template should cite the specification.
       <value>yang:ietf-netconf-acm</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-netconf-acm</name>
       <file type="template">ns/yang/ietf-netconf-acm.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-rfc6536bis-09"/>
+      <xref type="rfc" data="rfc8341"/>
     </record>
     <record>
       <value>yang:ietf-netconf-monitoring</value>
@@ -1302,7 +1302,7 @@ The registration template should cite the specification.
       <value>yang:ietf-network</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-network</name>
       <file type="template">ns/yang/ietf-network.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+      <xref type="rfc" data="rfc8345"/>
     </record>
     <record date="2018-02-20">
       <value>yang:ietf-network-instance</value>
@@ -1314,25 +1314,25 @@ The registration template should cite the specification.
       <value>yang:ietf-network-state</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-network-state</name>
       <file type="template">ns/yang/ietf-network-state.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+      <xref type="rfc" data="rfc8345"/>
     </record>
     <record date="2017-12-21">
       <value>yang:ietf-network-topology</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-network-topology</name>
       <file type="template">ns/yang/ietf-network-topology.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+      <xref type="rfc" data="rfc8345"/>
     </record>
     <record date="2017-12-21">
       <value>yang:ietf-network-topology-state</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-network-topology-state</name>
       <file type="template">ns/yang/ietf-network-topology-state.txt</file>
-      <xref type="draft" data="RFC-ietf-i2rs-yang-network-topo-20"/>
+      <xref type="rfc" data="rfc8345"/>
     </record>
     <record date="2018-01-18">
       <value>yang:ietf-origin</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-origin</name>
       <file type="template">ns/yang/ietf-origin.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-revised-datastores-10"/>
+      <xref type="rfc" data="rfc8342"/>
     </record>
     <record date="2017-01-18">
       <value>yang:ietf-restconf</value>
@@ -1356,7 +1356,7 @@ The registration template should cite the specification.
       <value>yang:ietf-routing</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-routing</name>
       <file type="template">ns/yang/ietf-routing.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-rfc8022bis-11"/>
+      <xref type="rfc" data="rfc8349"/>
     </record>
     <record date="2017-10-25">
       <value>yang:ietf-routing-types</value>
@@ -1398,7 +1398,7 @@ The registration template should cite the specification.
       <value>yang:ietf-vrrp</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-vrrp</name>
       <file type="template">ns/yang/ietf-vrrp.txt</file>
-      <xref type="draft" data="RFC-ietf-rtgwg-yang-vrrp-09"/>
+      <xref type="rfc" data="rfc8347"/>
     </record>
     <record date="2014-10-22">
       <value>yang:ietf-x509-cert-to-name</value>

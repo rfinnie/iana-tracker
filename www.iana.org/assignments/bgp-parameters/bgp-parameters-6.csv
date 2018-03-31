@@ -7,4 +7,5 @@ Value,Name,Reference
 5,[Deprecated],[RFC4271]
 6,Unacceptable Hold Time,[RFC4271]
 7,Unsupported Capability,[RFC5492]
-8-255,Unassigned,
+8,"Role Mismatch (TEMPORARY - registered 2018-03-29, expires 2019-03-29)",[draft-ietf-idr-bgp-open-policy]
+9-255,Unassigned,
