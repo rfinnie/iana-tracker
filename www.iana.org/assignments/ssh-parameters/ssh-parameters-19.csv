@@ -1,8 +1,8 @@
 Public Key Algorithm Name,Public Key Format,Reference,Note
 ssh-dss,ssh-dss,[RFC4253],Section 6.6
 ssh-rsa,ssh-rsa,[RFC4253],Section 6.6
-rsa-sha2-256,ssh-rsa,[RFC-ietf-curdle-rsa-sha2-12],Section 3
-rsa-sha2-512,ssh-rsa,[RFC-ietf-curdle-rsa-sha2-12],Section 3
+rsa-sha2-256,ssh-rsa,[RFC8332],Section 3
+rsa-sha2-512,ssh-rsa,[RFC8332],Section 3
 spki-sign-rsa,spki-sign-rsa,[RFC4253],Section 6.6
 spki-sign-dss,spki-sign-dss,[RFC4253],Section 6.6
 pgp-sign-rsa,pgp-sign-rsa,[RFC4253],Section 6.6
