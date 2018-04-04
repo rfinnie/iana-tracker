@@ -16,4 +16,6 @@ Sub-Type Value,Name,Reference,Date
 0x11,Unassigned,,
 0x12,Inter-Area P2MP Segmented Next-Hop,[RFC7524],2014-01-08
 0x13,Route-Target Record,[draft-ietf-bess-service-chaining],2016-08-29
-0x14-0xff,Unassigned,,
+0x14-0x1f,Unassigned,,
+0x20,MVPN SA RP-address Extended Community,[draft-zzhang-bess-mvpn-msdp-sa-interoperation],2018-03-26
+0x21-0xff,Unassigned,,

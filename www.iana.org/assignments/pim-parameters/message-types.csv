@@ -11,6 +11,6 @@ Type,Name,Reference
 9,State Refresh,[RFC3973]
 10,DF Election,[RFC5015]
 11,ECMP Redirect,[RFC6754]
-12,PIM Flooding Mechanism,[RFC-ietf-pim-source-discovery-bsr-12]
+12,PIM Flooding Mechanism,[RFC8364]
 13-14,Unassigned,
 15,Reserved (for extension of type space),[RFC6166]
