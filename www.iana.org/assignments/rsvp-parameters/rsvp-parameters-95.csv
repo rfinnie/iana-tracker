@@ -12,3 +12,6 @@ Value,Description,Reference
  subobject (EXRS)",[RFC4874]
 34,SRLG,[RFC4874]
 35,Switching Capability (SC),[RFC6001]
+36-37,Unassigned,
+38,IPv4 Diversity (for use in XRO and EXRS),[RFC-ietf-teas-lsp-diversity-10]
+39,IPv6 Diversity (for use in XRO and EXRS),[RFC-ietf-teas-lsp-diversity-10]

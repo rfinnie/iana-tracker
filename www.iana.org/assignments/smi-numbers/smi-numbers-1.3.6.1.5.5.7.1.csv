@@ -26,5 +26,5 @@ Decimal,Description,References
 25,"id-pe-mud-url (TEMPORARY - registered 2016-12-06, extension registered 2017-10-02, expires 2018-12-06)",[draft-ietf-opsawg-mud]
 26,id-pe-TNAuthList,[RFC8226]
 27,id-pe-JWTClaimConstraints,[RFC8226]
-28,id-pe-ipAddrBlocks-v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
-29,id-pe-autonomousSysIds-v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
+28,id-pe-ipAddrBlocks-v2,[RFC8360]
+29,id-pe-autonomousSysIds-v2,[RFC8360]
