@@ -1,5 +1,5 @@
 Name,OID/URI,Reference
-rsaEncryption,1.2.840.113549.1.1.1,[RFC3447]
+rsaEncryption,1.2.840.113549.1.1.1,[RFC8017]
 dsa,1.2.840.10040.4.1,[RFC3279]
 md2,1.2.840.113549.2.2,[RFC3279]
 md5,1.2.840.113549.2.5 http://www.w3.org/2001/04/xmldsig-more#md5,[RFC3279][RFC4051]
