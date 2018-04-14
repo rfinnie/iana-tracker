@@ -88,6 +88,6 @@ Decimal,Description,References
 87,id-mod-EST-Alt-Challenge,[RFC7894]
 88,"id-mod-mudURLExtn2016 (TEMPORARY - registered 2016-12-06, extension registered 2017-10-02, expires 2018-12-06)",[draft-ietf-opsawg-mud]
 89,id-mod-tn-module,[RFC8226]
-90,id-mod-ip-addr-and-as-ident-v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
-91,id-mod-ip-addr-and-as-ident-2v2,[RFC-ietf-sidr-rpki-validation-reconsidered-10]
+90,id-mod-ip-addr-and-as-ident-v2,[RFC8360]
+91,id-mod-ip-addr-and-as-ident-2v2,[RFC8360]
 92,id-mod-lamps-eai-addresses-2016,[RFC-ietf-lamps-eai-addresses-18]

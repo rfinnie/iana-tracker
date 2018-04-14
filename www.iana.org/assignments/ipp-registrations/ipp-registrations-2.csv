@@ -1,5 +1,4 @@
 Collection,Name,Member Attribute,Sub-member Attribute,Syntax,Reference
-Document Description,compression,,,type2 keyword,[PWG5100.5]
 Document Description,document-metadata,,,1setOf octetString(MAX),[PWG5100.13]
 Document Description,document-name,,,name(MAX),[PWG5100.5]
 Document Description,impressions,,,integer(0:MAX),[PWG5100.5]
@@ -29,6 +28,7 @@ Document Description,pages-col,full-color,,integer(0:MAX),[APRIL2015F2F]
 Document Description,pages-col,monochrome,,integer(0:MAX),[APRIL2015F2F]
 Document Status,attributes-charset,,,charset,[PWG5100.5]
 Document Status,attributes-natural-language,,,naturalLanguage,[PWG5100.5]
+Document Status,compression,,,type2 keyword,[PWG5100.5]
 Document Status,copies-actual,,,1setOf integer(1:MAX),[PWG5100.5]
 Document Status,cover-back-actual,,,1setOf collection,[PWG5100.5]
 Document Status,cover-back-actual,"<Member attributes are the same as the ""cover-back"" Job Template attribute>",,,[PWG5100.5]
