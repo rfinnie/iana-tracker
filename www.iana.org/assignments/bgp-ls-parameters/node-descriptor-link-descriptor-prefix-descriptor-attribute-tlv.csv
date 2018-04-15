@@ -69,7 +69,8 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
         registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1120,"Unidirectional Bandwidth Utilization (TEMPORARY - 
         registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
-1121-1151,Unassigned,,
+1121,Graceful-Link-Shutdown TLV,,[RFC-ietf-ospf-link-overload-16]
+1122-1151,Unassigned,,
 1152,IGP Flags,,"[RFC7752, Section 3.3.3.1]"
 1153,IGP Route Tag,,[RFC5130]
 1154,IGP Extended Route Tag,,[RFC5130]
@@ -84,4 +85,6 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1170,IGP Prefix Attributes,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1171,Source Router-ID,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1172,L2 Bundle Member TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
-1173-65535,Unassigned,,
+1173,"Extended Administrative Group (TEMPORARY - 
+        registered 2018-04-09, expires 2019-04-09)",22/14,[draft-ietf-idr-eag-distribution][RFC7308]
+1174-65535,Unassigned,,
