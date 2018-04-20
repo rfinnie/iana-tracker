@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-04-05</updated>
+  <updated>2018-04-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -61777,12 +61777,11 @@ common service discovery mechanisms.</note>
     
     <number>5152</number>
   </record>
-  <record date="2009-07-01">
-    <name>toruxserver</name>
+  <record date="2009-07-01" updated="2018-04-19">
     <protocol>tcp</protocol>
-    <xref type="person" data="Josse_van_Dobben_de"/>
-    <description>ToruX Game Server</description>
+    <description>Reserved</description>
     <number>5153</number>
+    <note>Historic usage was toruxserver. De-Assigned on 2018-04-19</note>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -91371,6 +91370,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: u=&lt;username&gt;, p=&lt;password&gt;, path=&lt;path to XML file&gt;</note>
     <xref type="person" data="Frank_Rottmann"/>
   </record>
+  <record date="2018-04-20">
+    <name>cerebra</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Vertex_Technologies_Inc"/>
+    </assignee>
+    <description>Control the Cerebra Aquarium Controller</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Christopher_Schlacta"/>
+  </record>
   <record date="2016-07-26">
     <name>certificates</name>
     <protocol>tcp</protocol>
@@ -93505,13 +93514,43 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Autodesk"/>
   </record>
+  <record date="2018-04-20">
+    <name>mieleacs</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Miele_and_Cie._KG"/>
+    </assignee>
+    <description>Protocol for connected accessories</description>
+    <note>Defined TXT keys: txtvers and proprietary keys</note>
+    <xref type="person" data="Nils_Langhammer"/>
+  </record>
   <record date="2014-03-13">
     <name>mieleathome</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Miele_Cie_KG"/>
+      <xref type="person" data="Miele_and_Cie._KG"/>
     </assignee>
     <description>Miele@home Protocol</description>
+    <note>Defined TXT keys: txtvers and proprietary keys</note>
+    <xref type="person" data="Nils_Langhammer"/>
+  </record>
+  <record date="2018-04-20">
+    <name>mieleprof</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Miele_and_Cie._KG"/>
+    </assignee>
+    <description>Miele protocol for prof. appliances</description>
+    <note>Defined TXT keys: txtvers and proprietary keys</note>
+    <xref type="person" data="Nils_Langhammer"/>
+  </record>
+  <record date="2018-04-20">
+    <name>mielesemiprof</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Miele_and_Cie._KG"/>
+    </assignee>
+    <description>Miele protocol for semi prof. appliances</description>
     <note>Defined TXT keys: txtvers and proprietary keys</note>
     <xref type="person" data="Nils_Langhammer"/>
   </record>
@@ -94818,6 +94857,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>RubyGems GemServer</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Rich_Kilmer"/>
+  </record>
+  <record date="2018-04-20">
+    <name>rxxmiele</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Miele_and_Cie._KG"/>
+    </assignee>
+    <description>Miele protocol robot cleaners</description>
+    <note>Defined TXT keys: txtvers and proprietary keys</note>
+    <xref type="person" data="Nils_Langhammer"/>
   </record>
   <record date="2012-05-24" updated="2012-06-04">
     <name>rym-rrc</name>
@@ -100579,6 +100628,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Phrenetic_Apps_LLC</org>
       <uri>mailto:christopher.s.pow&amp;gmail.com</uri>
       <updated>2016-04-12</updated>
+    </person>
+    <person id="Christopher_Schlacta">
+      <name>Christopher Schlacta</name>
+      <org>Vertex Technologies Inc</org>
+      <uri>mailto:christopher&amp;vertextechnologies.net</uri>
+      <updated>2018-04-20</updated>
     </person>
     <person id="Christopher_Tengi">
       <name>Christopher Tengi</name>
@@ -108335,11 +108390,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jmedved&amp;jmedved.com</uri>
       <updated>2010-10-20</updated>
     </person>
-    <person id="Josse_van_Dobben_de">
-      <name>Josse van Dobben de Bruyn</name>
-      <uri>mailto:jossedobben&amp;hotmail.com</uri>
-      <updated>2009-07-01</updated>
-    </person>
     <person id="Jost_Faganel">
       <name>Jost Faganel</name>
       <uri>mailto:jost.faganel&amp;hermes.si</uri>
@@ -111880,10 +111930,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:corkill&amp;mn-oil.com</uri>
       <updated>2013-07-09</updated>
     </person>
-    <person id="Miele_Cie_KG">
+    <person id="Miele_and_Cie._KG">
       <org>Miele &amp; Cie. KG</org>
         <uri>mailto:nils.langhammer&amp;miele.de</uri>
-        <updated>2014-03-13</updated>
+        <updated>2018-04-20</updated>
     </person>	
     <person id="Miguel_Angel_Fernand">
       <name>Miguel Angel Fernandez</name>
@@ -112847,7 +112897,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dr. Nils Langhammer</name>
       <org>Miele &amp; Cie. KG</org>
         <uri>mailto:nils.langhammer&amp;miele.de</uri>
-        <updated>2014-03-13</updated>
+        <updated>2018-04-20</updated>
     </person>
     
     <person id="Nimrod_Diamant">
@@ -119996,6 +120046,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Versile AS</org>
       <uri>mailto:contact&amp;versile.com</uri>
       <updated>2012-02-01</updated>
+    </person>
+    <person id="Vertex_Technologies_Inc">
+      <org>Vertex Technologies Inc</org>
+      <uri>mailto:info&amp;vertextechnologies.net</uri>
+      <updated>2018-04-20</updated>
     </person>
     <person id="Vestas_Wind_Systems">
       <org>Vestas Wind Systems</org>

@@ -9429,7 +9429,7 @@ This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 sde-discovery,5152,tcp,ESRI SDE Instance Discovery,[Peter_Aronson],[Peter_Aronson],,,,,Unauthorized Use Known on ports 5151 and 5152,
 sde-discovery,5152,udp,ESRI SDE Instance Discovery,[Peter_Aronson],[Peter_Aronson],,,,,Unauthorized Use Known on ports 5151 and 5152,
-toruxserver,5153,tcp,ToruX Game Server,[Josse_van_Dobben_de],[Josse_van_Dobben_de],2009-07-01,,,,,
+,5153,tcp,Reserved,,,2009-07-01,2018-04-19,,,,Historic usage was toruxserver. De-Assigned on 2018-04-19
 ,5153,udp,Reserved,,,,,,,,
 bzflag,5154,tcp,BZFlag game server,[Tim_Riker],[Tim_Riker],2003-07,,,,,
 bzflag,5154,udp,BZFlag game server,[Tim_Riker],[Tim_Riker],2003-07,,,,,
@@ -14061,6 +14061,7 @@ carddavs,,tcp,vCard Extensions to WebDAV (CardDAV) - over TLS,[IESG],[IETF_Chair
 cardsend,,,Card Send Protocol,[Jeff_Grossman],[Jeff_Grossman],,,,,,Defined TXT keys: Proprietary
 carousel,,tcp,Carousel Player Protocol,[Tightrope_Media_Systems],[Scott_Jann],2011-10-17,,,,,Defined TXT keys: None
 cctv,,,IP and Closed-Circuit Television for Securitiy applications,[Frank_Rottmann],[Frank_Rottmann],,,,,,"Defined TXT keys: u=<username>, p=<password>, path=<path to XML file>"
+cerebra,,tcp,Control the Cerebra Aquarium Controller,[Vertex_Technologies_Inc],[Christopher_Schlacta],2018-04-20,,,,,Defined TXT keys: None
 certificates,,tcp,Server for S/MIME and PGP certificates,[IESG],[John_Levine],2016-07-26,,[draft-bhjl-x509-srv-01],,,Defined TXT keys: None
 cheat,,,The Cheat,[Chaz_McGarvey],[Chaz_McGarvey],,,,,,Defined TXT keys: None
 chess,,,Project Gridlock,,,,,,,,Defined TXT keys: None
@@ -14433,7 +14434,10 @@ mediatap,,tcp,Mediatap streaming protocol,[Mediatap_GbR],[Mario_Pörner],2011-10
 mercurydock,,tcp,Mercury Dock Assistant,[Spider_Electronics],[Kenny_Millar],2014-03-10,,,,,"Defined TXT keys:  status, signature, ver"
 mesamis,,,Mes Amis,[David_Priest],[David_Priest],,,,,,Defined TXT keys: None
 mi-raysat,,,Mental Ray for Maya,[Autodesk],[Autodesk],,,,,,Defined TXT keys: None
-mieleathome,,tcp,Miele@home Protocol,[Miele_Cie_KG],[Nils_Langhammer],2014-03-13,,,,,Defined TXT keys: txtvers and proprietary keys
+mieleacs,,tcp,Protocol for connected accessories,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
+mieleathome,,tcp,Miele@home Protocol,[Miele_and_Cie._KG],[Nils_Langhammer],2014-03-13,,,,,Defined TXT keys: txtvers and proprietary keys
+mieleprof,,tcp,Miele protocol for prof. appliances,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
+mielesemiprof,,tcp,Miele protocol for semi prof. appliances,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
 mist,,tcp,"A Medical Interoperability Service Type, used to identify medical devices providing network interfaces.",[Jon_Griffeth],[Jon_Griffeth],2017-01-12,,,,,Defined TXT keys: https://www.praesentia.com/medkit/mist-service-type (dn dt md mf pr sn vn)
 mmm,,tcp,"Provides a client with access to the Mathematical Mesh, a 
       user-focused PKI.",[Phillip_Hallam-Baker],[Phillip_Hallam-Baker],2015-11-18,,,,,Defined TXT keys: None
@@ -14632,6 +14636,7 @@ rradict,,tcp,"Ruckus Radio Access Device, Installation, Commissioning and Troubl
           tx=<transmitter-status>, timing=<timing-status>"
 rsmp-server,,,Remote System Management Protocol (Server Instance),[Geoff_Back_3],[Geoff_Back_3],,,,,,Defined TXT keys: apiver=<major.minor>
 rubygems,,,RubyGems GemServer,[Rich_Kilmer],[Rich_Kilmer],,,,,,Defined TXT keys: None
+rxxmiele,,tcp,Miele protocol robot cleaners,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
 rym-rrc,,tcp,Raymarine remote control protocol,[Raymarine_UK_Limited],[Geoffrey_Beer],2012-05-24,2012-06-04,,,,"Defined TXT keys: raymarine-mfd-rrc-version, raymarine-mfd-model, raymarine-mfd-serial"
 safarimenu,,,Safari Menu,[Jesus_De_Meyer],[Jesus_De_Meyer],,,,,,Defined TXT keys: None
 sallingbridge,,,Salling Clicker Sharing,[Jonas_Salling],[Jonas_Salling],,,,,,Defined TXT keys: None

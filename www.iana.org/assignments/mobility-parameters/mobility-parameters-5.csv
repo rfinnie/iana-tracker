@@ -6,9 +6,6 @@ Value,Description,Reference
 5,EUI-48 address,[RFC-ietf-dmm-4283mnids-08]
 6,EUI-64 address,[RFC-ietf-dmm-4283mnids-08]
 7,GUTI,[RFC-ietf-dmm-4283mnids-08]
-8,DUID-LLT,[RFC-ietf-dmm-4283mnids-08]
-9,DUID-EN,[RFC-ietf-dmm-4283mnids-08]
-10,DUID-LL,[RFC-ietf-dmm-4283mnids-08]
-11,DUID-UUID,[RFC-ietf-dmm-4283mnids-08]
-12-15,Reserved,[RFC-ietf-dmm-4283mnids-08]
+8,DUID,[RFC-ietf-dmm-4283mnids-08]
+9-15,Reserved,[RFC-ietf-dmm-4283mnids-08]
 16-255,Unassigned,
