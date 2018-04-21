@@ -37,5 +37,8 @@ Number,Name,ESP Reference,IKEv2 Reference
 27,ENCR_CAMELLIA_CCM_16,"[RFC5529]
           [RFC8247]",-
 28,ENCR_CHACHA20_POLY1305,[RFC7634],[RFC7634]
-29-1023,Unassigned,,
+29,ENCR_AES_CCM_8_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
+30,ENCR_AES_GCM_16_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
+31,ENCR_CHACHA20_POLY1305_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
+32-1023,Unassigned,,
 1024-65535,Private use,[RFC7296],[RFC7296]
