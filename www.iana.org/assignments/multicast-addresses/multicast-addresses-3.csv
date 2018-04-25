@@ -10,15 +10,15 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.2.9,DATV streams,[Grant_Taylor],,2016-10-04,
 224.0.2.10,swapapp_multicast,[Applykane],,2017-05-19,
 224.0.2.11-224.0.2.63,Unassigned,,,,
-224.0.2.64-224.0.2.95,"Intercontinental Exchange, Inc.",[RIR_Admin],,1996-04,2007-07
+224.0.2.64-224.0.2.95,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1996-04,2007-07
 224.0.2.96-224.0.2.127,BallisterNet,[Tom_Ballister],,1997-07-01,
 224.0.2.128-224.0.2.191,WOZ-Garage,[Douglas_Marquardt],,1997-02-01,
-224.0.2.192-224.0.2.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,1997-02-01,
+224.0.2.192-224.0.2.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1997-02-01,
 224.0.3.0-224.0.3.255,RFE Generic Service,[Daniel_Steinber],,,
 224.0.4.0-224.0.4.255,RFE Individual Conferences,[Daniel_Steinber],,,
 224.0.5.0-224.0.5.127,CDPD Groups,[[Bob Brenner]],,,
-224.0.5.128-224.0.5.191,"Intercontinental Exchange, Inc.",[RIR_Admin],,1998-10-01,
-224.0.5.192-224.0.5.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2001-08-01,
+224.0.5.128-224.0.5.191,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1998-10-01,
+224.0.5.192-224.0.5.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2001-08-01,
 224.0.6.0-224.0.6.127,Cornell ISIS Project,[[Tim Clark]],,,
 224.0.6.128-224.0.6.143,MoeSingh,[Moe_Singh],,2009-09-24,
 224.0.6.144,QDNE,[Architecture_Team],,2018-01-03,
@@ -43,7 +43,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.18.0-224.0.18.255,Dow Jones,[Wenjie_Peng],,1997-01-01,
 224.0.19.0-224.0.19.63,Walt Disney Company,[Scott_Watson],,1997-08-01,
 224.0.19.64-224.0.19.95,Cal Multicast,[Ed_Moran],,1997-10-01,
-224.0.19.96-224.0.19.127,"Intercontinental Exchange, Inc.",[RIR_Admin],,1997-10,2007-07
+224.0.19.96-224.0.19.127,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1997-10,2007-07
 224.0.19.128-224.0.19.191,IIG Multicast,[Wayne_Carr],,1997-12-01,
 224.0.19.192-224.0.19.207,Metropol,[James_Crawford],,1998-05-01,
 224.0.19.208-224.0.19.239,"Xenoscience, Inc.",[Mary_Timm],,1998-07-01,
@@ -84,7 +84,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.23.49,AF_DOB,[Bob_Brzezinski],,2005-10-28,
 224.0.23.50,AF_OPRA_FULL2,[Bob_Brzezinski],,2005-10-28,
 224.0.23.51,Fairview,[Jim_Lyle],,2006-08-07,
-224.0.23.52,"Intercontinental Exchange, Inc.",[RIR_Admin],,2006-08-11,
+224.0.23.52,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2006-08-11,
 224.0.23.53,MCP,[Tim_DeBaillie],,2006-11-30,
 224.0.23.54,ServDiscovery,[Paul_Langille],,2007-01-17,
 224.0.23.55,noaaport1,[Antonio_Querubin],,2008-02-04,
@@ -134,28 +134,28 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.36.0-224.0.36.255,DigiPlay,[Robert_Taylor],,2016-09-29,
 224.0.37.0-224.0.38.255,LME OMD Addressing,[Johnathan_Ryder],,2017-03-24,
 224.0.39.0-224.0.40.255,CDAS,[Oyvind_H_Olsen],,2007-09-12,
-224.0.41.0-224.0.41.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2007-11-28,2011-02-15
+224.0.41.0-224.0.41.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2007-11-28,2011-02-15
 224.0.42.0-224.0.45.255,MEDIAL,[Media_Alliance_JSC],,2008-01-15,
 224.0.46.0-224.0.50.255,Deutsche Boerse,[Jan_Drwal],,2008-01-25,
 224.0.51.0-224.0.51.255,ALCOM-IPTV,[TV_System_Administrators],[Ålands_Telekommunikation_Ab],2008-04-09,2018-02-20
 224.0.52.0-224.0.53.255,Euronext,[Euronext_Admin],,2008-07-23,2014-11-24
 224.0.54.0-224.0.57.255,Get - BCN,[Arne_Hvidsten],,2008-08-20,
-224.0.58.0-224.0.61.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2008-08-27,
+224.0.58.0-224.0.61.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2008-08-27,
 224.0.62.0-224.0.62.255,BATS,[Andrew_Brown],,2008-12-24,
 224.0.63.0-224.0.63.255,BATS Trading,[Tim_Gorsline],,2009-03-13,
 224.0.64.0-224.0.67.255,Euronext,[Euronext_Admin],,2009-03-13,2014-11-24
 224.0.68.0-224.0.69.255,ISE,[ISE-Networks],,2009-05-12,
-224.0.70.0-224.0.71.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2009-06-16,2011-03-01
+224.0.70.0-224.0.71.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2009-06-16,2011-03-01
 224.0.72.0-224.0.72.255,TMX,[Michael_Caravetta][Boris_Garber],,2009-08-28,
 224.0.73.0-224.0.74.255,Direct Edge,[Javier_Landin],,2009-08-28,
 224.0.75.0-224.0.75.255,ISE,[ISE-Networks],,2010-01-22,
-224.0.76.0-224.0.76.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2010-02-26,2011-03-01
-224.0.77.0-224.0.77.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2010-02-26,
+224.0.76.0-224.0.76.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2010-02-26,2011-03-01
+224.0.77.0-224.0.77.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2010-02-26,
 224.0.78.0-224.0.78.255,ALCOM-IPTV,[TV_System_Administrators],[Ålands_Telekommunikation_Ab],2010-03-12,2018-02-20
 224.0.79.0-224.0.81.255,ISE,[ISE-Networks],,2010-08-24,
 224.0.82.0-224.0.85.255,BATS Trading,[BATS_Europe_NOC],,2011-01-31,
-224.0.86.0-224.0.101.255,"Intercontinental Exchange, Inc.",[RIR_Admin],,2011-02-10,
-224.0.102.0-224.0.102.127,"Intercontinental Exchange, Inc.",[RIR_Admin],,2011-04-13,
+224.0.86.0-224.0.101.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2011-02-10,
+224.0.102.0-224.0.102.127,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2011-04-13,
 224.0.102.128-224.0.102.255,MVS-IPTV-2,[Andrew_Hoyos],,2014-06-12,
 224.0.103.0-224.0.104.255,MVS-IPTV,[Adam_DeMinter][Andrew_Hoyos],,2011-04-20,
 224.0.105.0-224.0.105.127,MIAX Multicast,[Ruben_Hernandez],,2011-06-06,
@@ -167,14 +167,14 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.112.0-224.0.112.255,JHB-STOCK-EXCH,[Clem_Verwey],,2011-12-07,
 224.0.113.0-224.0.114.255,Deutsche Boerse,[Jan_Drwal],,2011-12-19,
 224.0.115.0-224.0.115.255,TMX,[Michael_Caravetta][Boris_Garber],,2012-06-12,
-224.0.116.0-224.0.116.255,"Intercontinental Exchange, Inc",[RIR_Admin],,2012-06-19,
+224.0.116.0-224.0.116.255,"Intercontinental Exchange, Inc",[RIR_Admin],[Intercontinental_Exchange_Inc.],2012-06-19,
 224.0.117.0-224.0.119.255,ISE,[ISE-Networks],,2012-07-12,
 224.0.120.0-224.0.120.255,czechbone iptv,[Jan_Vitek],,2013-01-15,
 224.0.121.0-224.0.121.255,AQUIS-EXCHANGE,[Mark_Chester],,2013-05-13,
 224.0.122.0-224.0.123.255,DNS:NET TV,[Marlon_Berlin],,2013-05-25,
 224.0.124.0-224.0.124.255,Boston Options Exchange,[David_Wilson][Michael_Caravetta_2],,2013-05-30,
 224.0.125.0-224.0.125.255,Hanweck Associates,[Gerald_Hanweck],,2013-09-05,
-224.0.126.0-224.0.129.255,ICE market data,[Chad_Myers],,2013-10-31,
+224.0.126.0-224.0.129.255,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],2013-10-31,
 224.0.130.0-224.0.131.255,BATS Trading,[Andrew_Brown],,2014-03-05,
 224.0.132.0-224.0.135.255,Net By Net Holding IPTV,[Lev_V._Cherednikov],,2014-04-12,
 224.0.136.0-224.0.139.255,Aequitas Innovations Inc.,[Zaklina_Petkovic_2],,2014-05-16,
