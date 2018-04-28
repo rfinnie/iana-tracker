@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2018-04-10</updated>
+  <updated>2018-04-27</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -25,6 +25,11 @@ constituencies to the IANA registry process.
     <note>Codepoints greater than 255 can only be used in PDUs designated to 
 support extended TLVs.
     </note>
+    <record>
+      <value>0</value>
+      <name>Reserved</name>
+      
+    </record>
     <record>
       <value>1</value>
       <name>Area Addresses</name>
@@ -682,8 +687,20 @@ Network Service (ISO 8473)", International Standard 10589:
         <xref type="rfc" data="rfc5120"/>
       </status>
     </record>
+    <record date="2018-04-27">
+      <value>238</value>
+      <name>Application Specific SRLG 
+      (TEMPORARY - registered 2018-04-27, expires 2019-04-27)</name>
+      <IIH>n</IIH>
+      <LSP>y</LSP>
+      <SNP>n</SNP>
+      <purge>n</purge>
+      <status>
+        <xref type="draft" data="draft-ietf-isis-te-app"/>
+      </status>
+    </record>
     <record>
-      <value>238-239</value>
+      <value>239</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -960,8 +977,20 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_223>y</TLV_223>
       <xref type="draft" data="draft-ietf-isis-segment-routing-msd"/>
     </record>
+    <record date="2018-04-27">
+      <value>16</value>
+      <description>Application Specific Link Attributes
+        (TEMPORARY - registered 2018-04-27, expires 2019-04-27)</description>
+      <TLV_22>y</TLV_22>
+      <TLV_23>y</TLV_23>
+      <TLV_25>y(s)</TLV_25>
+      <TLV_141>y</TLV_141>
+      <TLV_222>y</TLV_222>
+      <TLV_223>y</TLV_223>
+      <xref type="draft" data="draft-ietf-isis-te-app"/>
+    </record>
     <record>
-      <value>16-17</value>
+      <value>17</value>
       <description>Unassigned</description>
     </record>
     <record>
@@ -1266,6 +1295,7 @@ n - sub-TLV MUST NOT appear in TLV 25
       <value>0x2</value>
       <name>Link Excluded from Local Protection</name>
     </record>
+      
   </registry>
   
   <registry id="isis-tlv-codepoints-135-235-236-237">
@@ -1380,6 +1410,7 @@ by the IESG.
       <description>Node Flag (N-flag)</description>
       <xref type="rfc" data="rfc7794"/>
     </record>
+      
   </registry>
 
   <registry id="tlv-142">
@@ -1629,7 +1660,6 @@ by the IESG.
  
   <registry id="isis-tlv-codepoints-242">
     <title>Sub-TLVs for TLV 242 (IS-IS Router CAPABILITY TLV)</title>
-    <xref type="rfc" data="rfc5305"/>
     <xref type="rfc" data="rfc7981"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
@@ -1637,6 +1667,11 @@ by the IESG.
 the allocated value and approval by the Designated Expert assigned
 by the IESG.
     </note>
+    <record>
+      <value>0</value>
+      <description>Reserved</description>
+      
+    </record>
     <record>
       <value>1</value>
       <description>TE Node Capability Descriptor</description>
