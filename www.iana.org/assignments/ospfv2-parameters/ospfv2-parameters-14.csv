@@ -12,4 +12,10 @@ Bit,Capability Description,Reference
 10,P2MP path computation,[RFC8306]
 11,Active stateful PCE capability,[RFC8231]
 12,Passive stateful PCE capability,[RFC8231]
-13-31,Unassigned,
+13,"Active Stateful PCE with P2MP 
+        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+14,"Passive Stateful PCE with P2MP 
+        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+15,"Stateful PCE Initiation with P2MP 
+        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+16-31,Unassigned,

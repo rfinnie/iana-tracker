@@ -37,3 +37,9 @@ client_assertion_type,token request,IESG,[RFC7521]
 code_verifier,token request,IESG,[RFC7636]
 code_challenge,authorization request,IESG,[RFC7636]
 code_challenge_method,authorization request,IESG,[RFC7636]
+claim_token,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.1]"
+pct,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.1]"
+pct,"authorization server response, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.5]"
+rpt,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.1]"
+ticket,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.1]"
+upgraded,"authorization server response, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.5]"
