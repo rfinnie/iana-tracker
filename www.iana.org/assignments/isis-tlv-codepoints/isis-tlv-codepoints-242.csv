@@ -1,4 +1,5 @@
 Value,Description,Reference
+0,Reserved,
 1,TE Node Capability Descriptor,[RFC5073]
 2,"Segment Routing Capability (TEMPORARY - registered 2016-06-29, extension registered 2017-05-12, expires 2018-06-29)",[draft-ietf-isis-segment-routing-extensions]
 3,TE-MESH-GROUP TLV (IPv4),[RFC4972]
