@@ -111,3 +111,6 @@ g.3gpp.registration-token,"This feature-capability indicator, when included in a
         to identify which registration was used for the response by setting the indicator to the same value 
         as in the +g.3gpp.registration-token media feature tag in the Contact header field of the REGISTER 
         request.",[3GPP TS 24.229 12.16.0][Frederic_Firmin]
+g.3gpp.verstat,"This feature-capability indicator, when included in a Feature-Caps header field as specified in
+        [RFC6809] in a 200 (OK) response to a REGISTER request, indicates that the home network 
+        supports calling party number verification, as described in [RFC8224].",[3GPP TS 24.229 v14.7.0][Frederic_Firmin]
