@@ -12,3 +12,6 @@ invalid_request_object,authorization endpoint,OpenID Connect,[OpenID_Foundation_
 request_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
 request_uri_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
 registration_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
+need_info (and its subsidiary parameters),"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
+request_denied,"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
+request_submitted (and its subsidiary parameters),"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
