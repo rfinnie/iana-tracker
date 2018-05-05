@@ -14008,6 +14008,9 @@ audirvana-ap,,tcp,Audirvana Remote Access Protocol,[Audirvana_SCS],[Damien_Pliss
 autosendimages,,tcp,automatic sending Image data protocol,[Canon_Inc_2],[Kazuo_Moritomo],2017-04-17,,,,,
 autotargets-ap,,tcp,Access Point for AutoTargets system,[Automated_Target_Solutions_Inc.],[Nathan_Walker],2015-12-28,,,,,Defined TXT keys: none
 av,,,Allen Vanguard Hardware Service,[Mike_Bush],[Mike_Bush],,,,,,Defined TXT keys: Proprietary
+av-chat-ring-01,,tcp,TCP SpyChat Stream Message Exchange,[Alexios_Vasileiadis],[Alexios_Vasileiadis],2018-05-03,,,,,"Defined TXT keys: There are two TXT record keys: 1st key: 
+    ""txt-vers"" associated with an 'int' entry. 2nd key: ""conn-stat"" 
+    associated with an 'int' entry."
 avatars,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
 avatars-sec,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
 axis-video,,,Axis Video Cameras,[Kristina_Sten],[Kristina_Sten],,,,,,Defined TXT keys: None
