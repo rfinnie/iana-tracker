@@ -1,4 +1,5 @@
 Value,Name,IIH,LSP,SNP,Purge,Status/Reference
+0,Reserved,,,,,
 1,Area Addresses,y,y,n,n,"[ISO 10589, ""Intermediate System to Intermediate System Intra-
 Domain Routeing Exchange Protocol for use in Conjunction
 with the Protocol for Providing the Connectionless-mode
@@ -105,7 +106,9 @@ Network Service (ISO 8473)"", International Standard 10589:
 235,MT IP. Reach,n,y,n,n,[RFC5120]
 236,IPv6 IP. Reach,n,y,n,n,[RFC5308]
 237,MT IPv6 IP. Reach,n,y,n,n,[RFC5120]
-238-239,Unassigned,,,,,
+238,"Application Specific SRLG 
+      (TEMPORARY - registered 2018-04-27, expires 2019-04-27)",n,y,n,n,[draft-ietf-isis-te-app]
+239,Unassigned,,,,,
 240,P2P 3-Way Adj. State,y,n,n,n,[RFC5303]
 241,Unassigned,,,,,
 242,IS-IS Router CAPABILITY TLV,n,y,n,n,[RFC7981]
