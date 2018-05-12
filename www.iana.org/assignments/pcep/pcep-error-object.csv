@@ -63,7 +63,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,8: SYMBOLIC-PATH-NAME TLV missing,[RFC8281]
 ,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 ,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
-,,"11: Malformed object (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
+,,11: Malformed object,[RFC-ietf-pce-lsp-setup-type-10]
 ,,12-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -144,10 +144,10 @@ Error-Type,Meaning,Error-value,Reference
 ,,6: Received an invalid LSP-DB Version Number.,[RFC8232]
 ,,7: Received an invalid Speaker Entity Identifier.,[RFC8232]
 ,,8-255: Unassigned,
-21,"Invalid traffic engineering path setup type (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",0: Unassigned,[draft-ietf-pce-lsp-setup-type]
-,,"1: Unsupported path setup type (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
-,,"2: Mismatched path setup type (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
-,,3-255: Unassigned,[draft-ietf-pce-lsp-setup-type]
+21,Invalid traffic engineering path setup type,0: Unassigned,[RFC-ietf-pce-lsp-setup-type-10]
+,,1: Unsupported path setup type,[RFC-ietf-pce-lsp-setup-type-10]
+,,2: Mismatched path setup type,[RFC-ietf-pce-lsp-setup-type-10]
+,,3-255: Unassigned,
 22,Unassigned,0-255: Unassigned,
 23,Bad parameter value,0: Unassigned,
 ,,1: SYMBOLIC-PATH-NAME in use,[RFC8281]

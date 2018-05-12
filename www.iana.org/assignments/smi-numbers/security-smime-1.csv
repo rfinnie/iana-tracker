@@ -39,4 +39,4 @@ Decimal,Description,References
 37,id-ct-utf8TextWithCRLF,[RFC8358]
 38,id-ct-htmlWithCRLF,[RFC8358]
 39,id-ct-epub,[RFC8358]
-40,id-ct-animaJSONVoucher,[RFC-ietf-anima-voucher-07]
+40,id-ct-animaJSONVoucher,[RFC8366]
