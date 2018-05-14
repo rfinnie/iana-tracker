@@ -2,6 +2,8 @@ Media Type,Organization,Contact
 application/atsc-dwd+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
 application/atsc-held+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
 application/mmt-aei+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
+application/TETRA_ISI,ETSI,[Miguel_Angel_Reina_Ortega]
+audio/TETRA_ACELP,ETSI,[Miguel_Angel_Reina_Ortega]
 application/ion,IETF,[Jonathan_Hohle]
 image/jxr,ISO/IEC JTC 1,[Gary_J._Sullivan][Touradj_Ebrahimi]
 image/heif,ISO/IEC JTC 1,[David_Singer]
