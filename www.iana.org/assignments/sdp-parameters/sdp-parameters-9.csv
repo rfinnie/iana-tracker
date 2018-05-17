@@ -174,3 +174,4 @@ att-field (media level only),pmft,TBD,"[ITU-T Recommendation V.152 ""Procedures 
 att-field (media level only),tls-id,IDENTICAL,[RFC-ietf-mmusic-dtls-sdp-32]
 att-field (media level only),hlang-recv,NORMAL,[RFC-ietf-slim-negotiating-human-language-24]
 att-field (media level only),hlang-send,NORMAL,[RFC-ietf-slim-negotiating-human-language-24]
+att-field (media level only),rid,SPECIAL,[RFC-ietf-mmusic-rid-15]
