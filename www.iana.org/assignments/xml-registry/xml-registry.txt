@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2018-03-29
+           2018-05-16
 
    Note
 
@@ -276,6 +276,7 @@ yang:ietf-datastores                  urn:ietf:params:xml:ns:yang:ietf-datastore
 yang:ietf-hardware                    urn:ietf:params:xml:ns:yang:ietf-hardware                    ns/yang/ietf-hardware.txt                    [RFC8348]
 yang:ietf-hardware-state              urn:ietf:params:xml:ns:yang:ietf-hardware-state              ns/yang/ietf-hardware-state.txt              [RFC8348]
 yang:ietf-inet-types                  urn:ietf:params:xml:ns:yang:ietf-inet-types                  ns/yang/ietf-inet-types.txt                  [RFC6991]
+yang:ietf-i2rs-rib                    urn:ietf:params:xml:ns:yang:ietf-i2rs-rib                    ns/yang/ietf-i2rs-rib.txt                    [RFC-ietf-i2rs-rib-data-model-15]
 yang:ietf-interfaces                  urn:ietf:params:xml:ns:yang:ietf-interfaces                  ns/yang/ietf-interfaces.txt                  [RFC8343]
 yang:ietf-ip                          urn:ietf:params:xml:ns:yang:ietf-ip                          ns/yang/ietf-ip.txt                          [RFC8344]
 yang:ietf-ipfix-psamp                 urn:ietf:params:xml:ns:yang:ietf-ipfix-psamp                 ns/yang/ietf-ipfix-psamp.txt                 [RFC6728]
@@ -301,6 +302,11 @@ yang:ietf-network-state               urn:ietf:params:xml:ns:yang:ietf-network-s
 yang:ietf-network-topology            urn:ietf:params:xml:ns:yang:ietf-network-topology            ns/yang/ietf-network-topology.txt            [RFC8345]
 yang:ietf-network-topology-state      urn:ietf:params:xml:ns:yang:ietf-network-topology-state      ns/yang/ietf-network-topology-state.txt      [RFC8345]
 yang:ietf-origin                      urn:ietf:params:xml:ns:yang:ietf-origin                      ns/yang/ietf-origin.txt                      [RFC8342]
+yang:ietf-pim-base                    urn:ietf:params:xml:ns:yang:ietf-pim-base                    ns/yang/ietf-pim-base.txt                    [RFC-ietf-pim-yang-16]
+yang:ietf-pim-bidir                   urn:ietf:params:xml:ns:yang:ietf-pim-bidir                   ns/yang/ietf-pim-bidir.txt                   [RFC-ietf-pim-yang-16]
+yang:ietf-pim-dm                      urn:ietf:params:xml:ns:yang:ietf-pim-dm                      ns/yang/ietf-pim-dm.txt                      [RFC-ietf-pim-yang-16]
+yang:ietf-pim-rp                      urn:ietf:params:xml:ns:yang:ietf-pim-rp                      ns/yang/ietf-pim-rp.txt                      [RFC-ietf-pim-yang-16]
+yang:ietf-pim-sm                      urn:ietf:params:xml:ns:yang:ietf-pim-sm                      ns/yang/ietf-pim-sm.txt                      [RFC-ietf-pim-yang-16]
 yang:ietf-restconf                    urn:ietf:params:xml:ns:yang:ietf-restconf                    ns/yang/ietf-restconf.txt                    [RFC8040]
 yang:ietf-restconf-monitoring         urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring         ns/yang/ietf-restconf-monitoring.txt         [RFC8040]
 yang:ietf-rip                         urn:ietf:params:xml:ns:yang:ietf-rip                         ns/yang/ietf-rip.txt                         [RFC-ietf-rtgwg-yang-rip-08]
@@ -310,7 +316,7 @@ yang:ietf-snmp                        urn:ietf:params:xml:ns:yang:ietf-snmp     
 yang:ietf-syslog                      urn:ietf:params:xml:ns:yang:ietf-syslog                      ns/yang/ietf-syslog.txt                      [RFC-ietf-netmod-syslog-model-26]
 yang:ietf-system                      urn:ietf:params:xml:ns:yang:ietf-system                      ns/yang/ietf-system.txt                      [RFC7317]
 yang:ietf-template                    urn:ietf:params:xml:ns:yang:ietf-template                    ns/yang/ietf-template.txt                    [RFC-ietf-netmod-rfc6087bis-20]
-yang:ietf-voucher                     urn:ietf:params:xml:ns:yang:ietf-voucher                     ns/yang/ietf-voucher.txt                     [RFC-ietf-anima-voucher-07]
+yang:ietf-voucher                     urn:ietf:params:xml:ns:yang:ietf-voucher                     ns/yang/ietf-voucher.txt                     [RFC8366]
 yang:ietf-vrrp                        urn:ietf:params:xml:ns:yang:ietf-vrrp                        ns/yang/ietf-vrrp.txt                        [RFC8347]
 yang:ietf-x509-cert-to-name           urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name           ns/yang/ietf-x509-cert-to-name.txt           [RFC7407]
 yang:ietf-yang-library                urn:ietf:params:xml:ns:yang:ietf-yang-library                ns/yang/ietf-yang-library.txt                [RFC7895]

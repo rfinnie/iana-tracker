@@ -20,7 +20,7 @@ Value,Description,Reference
 25,Unassigned,
 26,"SR-PCE-CAPABILITY (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
 27,Unassigned,
-28,"PATH-SETUP-TYPE (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-lsp-setup-type]
+28,PATH-SETUP-TYPE,[RFC-ietf-pce-lsp-setup-type-10]
 29,"Operator-configured Association Range (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 30,"Global Association Source (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
 31,"Extended Association Id (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
@@ -28,5 +28,6 @@ Value,Description,Reference
         (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 33,"P2MP-IPV6-LSP-IDENTIFIERS
         (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
-34-65503,Unassigned,
+34,PATH-SETUP-TYPE-CAPABILITY,[RFC-ietf-pce-lsp-setup-type-10]
+35-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]
