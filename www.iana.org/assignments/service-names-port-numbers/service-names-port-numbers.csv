@@ -13698,7 +13698,7 @@ ciscocsdb,43441,udp,Cisco NetMgmt DB Ports,[Cisco_Systems],[Cisco_Systems],2005-
 ,43442-44122,,Unassigned,,,,,,,,
 z-wave-tunnel,44123,tcp,Z-Wave Secure Tunnel,[Sigma_Designs_Inc],[Anders_Brandt_3],2012-10-12,2015-06-26,,,,
 ,44123,udp,Reserved,,,,,,,,
-,43124-44320,,Unassigned,,,,,,,,
+,44124-44320,,Unassigned,,,,,,,,
 pmcd,44321,tcp,PCP server (pmcd),[Ken_McDonell],[Ken_McDonell],2010-12-20,,,,,
 pmcd,44321,udp,PCP server (pmcd),[Ken_McDonell],[Ken_McDonell],2010-12-20,,,,,
 pmcdproxy,44322,tcp,PCP server (pmcd) proxy,[Ken_McDonell],[Ken_McDonell],2003-07,2010-12-20,,,,
@@ -14013,6 +14013,8 @@ av-chat-ring-01,,tcp,TCP SpyChat Stream Message Exchange,[Alexios_Vasileiadis],[
     associated with an 'int' entry."
 avatars,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
 avatars-sec,,tcp,Libravatar federated avatar hosting service.,[libravatar_org],[Francois_Marier],2011-10-11,,,,,Defined TXT keys: none
+axis-nvr,,tcp,Axis Network Video Recorders,[Axis_Communications_AB],[Erik_Linge],2018-05-24,,,,,Defined TXT keys: None
+axis-nvr,,udp,Axis Network Video Recorders,[Axis_Communications_AB],[Erik_Linge],2018-05-24,,,,,Defined TXT keys: None
 axis-video,,,Axis Video Cameras,[Kristina_Sten],[Kristina_Sten],,,,,,Defined TXT keys: None
 b3d-convince,,,3M Unitek Digital Orthodontic System,[Rajiv_Aaron_Manglani],[Rajiv_Aaron_Manglani],,,,,,"Defined TXT keys: txtvers=1, protovers=<api version>, guid=<32 hex digits>"
 babyphone,,,BabyPhone,[Johan_Kool],[Johan_Kool],,,,,,Defined TXT keys: None
