@@ -100,6 +100,14 @@
                     <a href="http://www.icann.org/">ICANN</a>.</p>
             </div>
 
+            <div id="legalnotice">
+            <ul>
+                <li><a href="https://www.icann.org/privacy/policy">Privacy Policy</a></li>
+                <li><a href="https://www.icann.org/privacy/tos">Terms of Service</a></li>
+                </ul>
+                </p>
+            </div>
+
 		</div>
 	</footer>
 	
