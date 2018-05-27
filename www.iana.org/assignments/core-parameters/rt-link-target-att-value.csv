@@ -93,7 +93,7 @@ oic.r.weight,Weight resource. This resource describes the properties associated 
 oma.lwm2m,"OMA LwM2M Resource. This Resource type indicates that 
         the resource and all of its sub-resources support the OMA Lightweight 
         M2M protocol, i.e. contain OMA LwM2M objects and resources.",[OMA-TS-LightweightM2M-V1_0],
-bbf.usp.endpoint,Endpoint of the Broadband Forum USP protocol,[http://usp.technology/specification/mtp/coap],Reference will be updated after specification is finalized.
+bbf.usp.endpoint,Endpoint of the Broadband Forum USP protocol,[https://usp.technology/specification/mtp/coap/],
 oic.wk.col,Collection resource.,[OCF_Core_Specification_v1.0.0 section D.2],
 oic.wk.con,Device Configuration resource.,[OCF_Core_Specification_v1.0.0 section D.3],
 oic.wk.con.p,Platform Configuration resource.,[OCF_Core_Specification_v1.0.0 section D.4],

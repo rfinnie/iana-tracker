@@ -1,11 +1,11 @@
 Code,Name,Reference
-0,Success,[RFC3315]
-1,UnspecFail,[RFC3315]
-2,NoAddrsAvail,[RFC3315]
-3,NoBinding,[RFC3315]
-4,NotOnLink,[RFC3315]
-5,UseMulticast,[RFC3315]
-6,NoPrefixAvail,[RFC3633]
+0,Success,[RFC-ietf-dhc-rfc3315bis-13]
+1,UnspecFail,[RFC-ietf-dhc-rfc3315bis-13]
+2,NoAddrsAvail,[RFC-ietf-dhc-rfc3315bis-13]
+3,NoBinding,[RFC-ietf-dhc-rfc3315bis-13]
+4,NotOnLink,[RFC-ietf-dhc-rfc3315bis-13]
+5,UseMulticast,[RFC-ietf-dhc-rfc3315bis-13]
+6,NoPrefixAvail,[RFC3633][RFC-ietf-dhc-rfc3315bis-13]
 7,UnknownQueryType,[RFC5007]
 8,MalformedQuery,[RFC5007]
 9,NotConfigured,[RFC5007]
@@ -22,4 +22,4 @@ Code,Name,Reference
 20,ServerShuttingDown,[RFC8156]
 21,DNSUpdateNotSupported,[RFC8156]
 22,ExcessiveTimeSkew,[RFC8156]
-23-255,Unassigned,
+23-65535,Unassigned,

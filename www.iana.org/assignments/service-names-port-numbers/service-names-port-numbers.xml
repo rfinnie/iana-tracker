@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-05-03</updated>
+  <updated>2018-05-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -6976,23 +6976,36 @@ common service discovery mechanisms.</note>
     <description>DHCPv6 Client</description>
     <number>546</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-client</name>
     <protocol>udp</protocol>
     <description>DHCPv6 Client</description>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
     <number>546</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Jim_Bound"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="rfc" data="rfc5460"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Jim_Bound"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
@@ -8363,10 +8376,14 @@ common service discovery mechanisms.</note>
     <description>LDP</description>
     <number>646</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcp-failover</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Bernard_Volz"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="rfc" data="rfc8156"/>
     <description>DHCP Failover</description>
     <number>647</number>
   </record>
@@ -89206,7 +89223,7 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>43124-44320</number>
+    <number>44124-44320</number>
   </record>
   <record date="2010-12-20">
     <name>pmcd</name>
@@ -90993,6 +91010,26 @@ common service discovery mechanisms.</note>
     <description>Libravatar federated avatar hosting service.</description>
     <note>Defined TXT keys: none</note>
     <xref type="person" data="Francois_Marier"/>
+  </record>
+  <record date="2018-05-24">
+    <name>axis-nvr</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Axis_Communications_AB"/>
+    </assignee>
+    <description>Axis Network Video Recorders</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Erik_Linge"/>
+  </record>
+  <record date="2018-05-24">
+    <name>axis-nvr</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Axis_Communications_AB"/>
+    </assignee>
+    <description>Axis Network Video Recorders</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Erik_Linge"/>
   </record>
   <record>
     <name>axis-video</name>
@@ -98561,6 +98598,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:obogush&amp;axiomatic.com</uri>
       <updated>2016-12-09</updated>
     </person>
+    <person id="Axis_Communications_AB">
+      <org>Axis Communications AB</org>
+      <uri>mailto:erik.linge&amp;axis.com</uri>
+      <updated>2018-05-24</updated>
+    </person>
     <person id="Ayoda_GmbH">
       <name>Ayoda GmbH</name>
       <uri>mailto:info&amp;ayoda.net</uri>
@@ -103715,6 +103757,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Erik_Kragh_Jensen">
       <name>Erik Kragh Jensen</name>
       <uri>mailto:kragh&amp;inet.uni2.dk</uri>
+    </person>
+    <person id="Erik_Linge">
+      <name>Erik Linge</name>
+      <uri>mailto:contact-iana&amp;axis.com</uri>
+      <updated>2018-05-24</updated>
     </person>
     <person id="Erik_Mueller">
       <name>Erik Mueller</name>

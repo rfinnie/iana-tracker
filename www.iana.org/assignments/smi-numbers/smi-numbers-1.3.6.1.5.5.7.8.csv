@@ -7,4 +7,4 @@ Decimal,Description,References
 6,id-on-SIM,[RFC4683]
 7,id-on-dnsSRV,[RFC4985]
 8,id-on-naiRealm,[RFC7585]
-9,id-on-SmtpUTF8Mailbox,[RFC-ietf-lamps-eai-addresses-18]
+9,id-on-SmtpUTF8Mailbox,[RFC8398]
