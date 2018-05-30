@@ -1,19 +1,28 @@
-Value,Description,DTLS-OK,Reference
-0,hello_request,Y,[RFC5246]
-1,client_hello,Y,[RFC5246]
-2,server_hello,Y,[RFC5246]
-3,hello_verify_request,Y,[RFC6347]
-4,NewSessionTicket,Y,[RFC4507]
-5-10,Unassigned,,
-11,certificate,Y,[RFC5246]
-12,server_key_exchange,Y,[RFC5246]
-13,certificate_request,Y,[RFC5246]
-14,server_hello_done,Y,[RFC5246]
-15,certificate_verify,Y,[RFC5246]
-16,client_key_exchange,Y,[RFC5246]
-17-19,Unassigned,,
-20,finished,Y,[RFC5246]
-21,certificate_url,Y,[RFC6066]
-22,certificate_status,Y,[RFC6066]
-23,supplemental_data,Y,[RFC4680]
-24-255,Unassigned,,
+Value,Description,DTLS-OK,Reference,Comment
+0,hello_request_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+1,client_hello,Y,[RFC-ietf-tls-tls13-28],
+2,server_hello,Y,[RFC-ietf-tls-tls13-28],
+3,hello_verify_request_RESERVED,Y,[RFC6347][RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+4,new_session_ticket,Y,[RFC4507][RFC-ietf-tls-tls13-28],
+5,end_of_early_data,Y,[RFC-ietf-tls-tls13-28],
+6,hello_retry_request_RESERVED,Y,[RFC-ietf-tls-tls13-28],"Assigned for interim draft, but the functionality was moved to an extension."
+7,Unassigned,,,
+8,encrypted_extensions,Y,[RFC-ietf-tls-tls13-28],
+9-10,Unassigned,,,
+11,certificate,Y,[RFC-ietf-tls-tls13-28],
+12,server_key_exchange_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+13,certificate_request,Y,[RFC-ietf-tls-tls13-28],
+14,server_hello_done_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+15,certificate_verify,Y,[RFC-ietf-tls-tls13-28],
+16,client_key_exchange_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+17-19,Unassigned,,,
+20,finished,Y,[RFC-ietf-tls-tls13-28],
+21,certificate_url_RESERVED,Y,[RFC6066][RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+22,certificate_status_RESERVED,Y,[RFC6066][RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+23,supplemental_data_RESERVED,Y,[RFC4680][RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
+24,key_update,Y,[RFC-ietf-tls-tls13-28],
+25,"compressed_certificate 
+        (TEMPORARY - registered 2018-05-23, expires 2019-05-23)",Y,[draft-ietf-tls-certificate-compression],
+26-253,Unassigned,,,
+254,message_hash,Y,[RFC-ietf-tls-tls13-28],
+255,Unassigned,,,
