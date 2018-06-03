@@ -1,10 +1,10 @@
 Value,Description,DTLS-OK,Reference
 0-19,"Unassigned (Requires coordination; see 
         [RFC7983])",,[RFC5764][RFC7983]
-20,change_cipher_spec,Y,[RFC5246]
-21,alert,Y,[RFC5246]
-22,handshake,Y,[RFC5246]
-23,application_data,Y,[RFC5246]
+20,change_cipher_spec,Y,[RFC-ietf-tls-tls13-28]
+21,alert,Y,[RFC-ietf-tls-tls13-28]
+22,handshake,Y,[RFC-ietf-tls-tls13-28]
+23,application_data,Y,[RFC-ietf-tls-tls13-28]
 24,heartbeat,Y,[RFC6520]
 25-63,Unassigned,,
 64-255,"Unassigned (Requires coordination; see 

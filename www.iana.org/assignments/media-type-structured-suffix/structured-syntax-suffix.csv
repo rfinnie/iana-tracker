@@ -370,3 +370,27 @@ SQLite3 database,+sqlite3,[http://www.sqlite.org/fileformat2.html][http://www.sq
         external tools, or if only a single implementation exists to handle
         a specific registered media type, then this increases the known attack
         surface available to an attacker.",[SQLite_mailing_list],[Clemens_Ladisch],2018-02-12,
+JSON Web Token (JWT),+jwt,"[RFC7519, Section 3][RFC-ietf-secevent-token-13, Section 7.2]","binary; JWT values are encoded as a
+        series of base64url-encoded values (some of which may be the empty
+        string) separated by period ('.') characters.",n/a,"The syntax and semantics of fragment identifiers specified for
+          +jwt SHOULD be as specified for ""application/jwt"".  (At
+          publication of [RFC-ietf-secevent-token-13], there is no fragment identification
+          syntax defined for ""application/jwt"".)
+        
+        
+          The syntax and semantics for fragment identifiers for a specific
+          ""xxx/yyy+jwt"" SHOULD be processed as follows:
+        
+        
+          For cases defined in +jwt, where the fragment identifier resolves
+          per the +jwt rules, then process as specified in +jwt.
+        
+        
+          For cases defined in +jwt, where the fragment identifier does not
+          resolve per the +jwt rules, then process as specified in ""xxx/
+          yyy+jwt"".
+        
+        
+          For cases not defined in +jwt, then process as specified in ""xxx/
+          yyy+jwt"".",See Section 11 of [RFC7519].,[Michael_B._Jones],"Security Events Working Group.
+        The IESG has change control over this registration.",2018-05-15,

@@ -1,6 +1,6 @@
 Value,Description,Reference
-0,Reserved,[RFC7924]
-1,cert,[RFC7924]
-2,cert_req,[RFC7924]
-3-223,Unassigned,
-224-255,Reserved for Private Use,[RFC7924]
+0,Reserved,[RFC7924],
+1,cert,[RFC7924],
+2,cert_req,[RFC7924],
+3-223,Unassigned,,
+224-255,Reserved for Private Use,[RFC7924],

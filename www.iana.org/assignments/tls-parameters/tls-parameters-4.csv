@@ -153,7 +153,15 @@ widely deployed implementations",,[Pasi_Eronen]
 "0x00,0xC5",TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256,Y,[RFC5932]
 "0x00,0xC6-FE",Unassigned,,
 "0x00,0xFF",TLS_EMPTY_RENEGOTIATION_INFO_SCSV,Y,[RFC5746]
-"0x01-55,*",Unassigned,,
+"0x01-12,*",Unassigned,,
+"0x13,0x00",Unassigned,,
+"0x13,0x01",TLS_AES_128_GCM_SHA256,Y,[RFC-ietf-tls-tls13-28]
+"0x13,0x02",TLS_AES_256_GCM_SHA384,Y,[RFC-ietf-tls-tls13-28]
+"0x13,0x03",TLS_CHACHA20_POLY1305_SHA256,Y,[RFC-ietf-tls-tls13-28]
+"0x13,0x04",TLS_AES_128_CCM_SHA256,Y,[RFC-ietf-tls-tls13-28]
+"0x13,0x05",TLS_AES_128_CCM_8_SHA256,Y,[RFC-ietf-tls-tls13-28]
+"0x13,0x06-0xFF",Unassigned,,
+"0x14-55,*",Unassigned,,
 "0x56,0x00",TLS_FALLBACK_SCSV,Y,[RFC7507]
 "0x56,0x01-0xC0,0x00",Unassigned,,
 "0xC0,0x01",TLS_ECDH_ECDSA_WITH_NULL_SHA,Y,[RFC-ietf-tls-rfc4492bis-17]
