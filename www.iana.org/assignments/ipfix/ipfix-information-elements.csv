@@ -1060,7 +1060,7 @@ i.e., the last label that was pushed.",hops,,"See [RFC3032] for the specificatio
 field.",[RFC5102],0,2013-02-18
 201,mplsLabelStackLength,unsigned32,,current,The length of the MPLS label stack in units of octets.,octets,,"See [RFC3032] for the specification of the
 MPLS label stack.",[RFC5102],0,2013-02-18
-202,mplsLabelStackDepth,unsigned32,,current,The number of labels in the MPLS label stack.,label stack entries,,"See [RFC3032] for the specification of the
+202,mplsLabelStackDepth,unsigned32,,current,The number of labels in the MPLS label stack.,entries,,"See [RFC3032] for the specification of the
 MPLS label stack.",[RFC5102],0,2013-02-18
 203,mplsTopLabelExp,unsigned8,flags,current,"The Exp field from the top MPLS label stack entry,
 i.e., the last label that was pushed.
@@ -1154,7 +1154,7 @@ The diagram in this registry is taken from Errata 1736. See [RFC Errata 1736]",[
 the IPv4 header.  It specifies the length of the header
 in units of 4 octets.  Please note that its unit is
 different from most of the other Information Elements
-reporting length values.",4 octets,,"See [RFC791] for the specification of the IPv4
+reporting length values.",4-octet words,,"See [RFC791] for the specification of the IPv4
 header.",[RFC5102],0,2013-02-18
 208,ipv4Options,unsigned32,flags,current,"IPv4 options in packets of this Flow.
 The information is encoded in a set of bit fields.  For
@@ -3176,11 +3176,11 @@ within the Tag Control Information field are defined in
 412,dot1qServiceInstanceId,unsigned32,identifier,current,"The value of the 24-bit Backbone Service Instance Identifier
 (I-SID) portion of the Backbone Service Instance Tag (I-TAG) Tag
 Control Information (TCI) field of an Ethernet frame as described
-in [IEEE802.1Q].",,"The valid range is 0 - 16777215 (i.e., 24 bits).",[IEEE802.1Q],[RFC7133],1,2014-05-02
+in [IEEE802.1Q].",,0-0xFFFFFF,[IEEE802.1Q],[RFC7133],1,2014-05-02
 413,dot1qServiceInstancePriority,unsigned8,identifier,current,"The value of the 3-bit Backbone Service Instance Priority Code
 Point (I-PCP) portion of the Backbone Service Instance Tag (I-TAG)
 Tag Control Information (TCI) field of an Ethernet frame as
-described in [IEEE802.1Q].",,The valid range is 0-7.,[IEEE802.1Q],[RFC7133],1,2014-05-02
+described in [IEEE802.1Q].",,0-7,[IEEE802.1Q],[RFC7133],1,2014-05-02
 414,dot1qCustomerSourceMacAddress,macAddress,default,current,"The value of the Encapsulated Customer Source Address (C-SA)
 portion of the Backbone Service Instance Tag (I-TAG) Tag Control
 Information (TCI) field of an Ethernet frame as described in
