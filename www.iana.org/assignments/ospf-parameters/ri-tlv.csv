@@ -15,6 +15,7 @@ Value,TLV Name,Reference
 13,Tunnel Encapsulations,[RFC-ietf-ospf-encapsulation-cap-09]
 14,SR Local Block TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
 15,SRMS Preference TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
-16-32767,Unassigned,
+16,"Flexible Algorithm Definition TLV (TEMPORARY - registered 2018-06-04, expires 2019-06-04)",[draft-ietf-lsr-flex-algo]
+17-32767,Unassigned,
 32768-32777,Experimentation,[RFC7770]
 32778-65535,Reserved,[RFC7770]

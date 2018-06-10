@@ -23,7 +23,7 @@ Type,Name,Reference
 21,originatingSNPBufferSize,[RFC8249]
 22,Smart-Parameters,[RFC-ietf-trill-smart-endnodes-11]
 23,Smart-MAC,[RFC-ietf-trill-smart-endnodes-11]
-24,NickBlockFlags,[RFC-ietf-trill-multilevel-unique-nickname-07]
+24,NickBlockFlags,[RFC8397]
 25-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC7782]
 253,AA-LAALP-GROUP-MAC,[RFC7782]
