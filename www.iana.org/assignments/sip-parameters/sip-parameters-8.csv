@@ -1,16 +1,1 @@
-Privacy Type,Description,Registrant,Reference
-user,"Request that privacy services           
-provide a user-level privacy function",[Jon_Peterson],[RFC3323]
-header,"Request that privacy services modify    
-headers that cannot be set arbitrarily  
-by the user (Contact/Via).",[Jon_Peterson],[RFC3323]
-session,"Request that privacy services provide   
-privacy for session media",[Jon_Peterson],[RFC3323]
-none,"Privacy services must not perform any   
-privacy function",[Jon_Peterson],[RFC3323]
-critical,"Privacy service must perform the        
-specified services or fail the request",[Jon_Peterson],[RFC3323]
-id,"Privacy requsted for Third-Party        
-Asserted Identity",[Cullen_Jennings],[RFC3325]
-history,"Privacy requested for                   
-History-Info header field(s)",[Mary_Barnes],[RFC7044]
+<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
