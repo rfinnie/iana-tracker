@@ -107,3 +107,9 @@ ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
 28,g.3gpp.mcptt,"This media feature tag when used in a SIP request or a SIP response 
         indicates that the function sending the SIP message supports Mission Critical 
         Push To Talk (MCPTT) communication.",[3GPP TS 24.379 v13.5.0][Frederic_Firmin]
+29,g.3gpp.mcdata.sds,"This media feature tag when used in a SIP request or a SIP response indicates 
+        that the function sending the SIP message supports Mission Critical Data (MCData) 
+        communications Short Data Service (SDS).",[3GPP TS 24.282 14.3.0][Frederic_Firmin]
+30,g.3gpp.mcdata.fd,"This media feature tag when used in a SIP request or a SIP response indicates 
+        that the function sending the SIP message supports Mission Critical Data (MCData) communications 
+        File Distribution (FD).",[3GPP TS 24.282 14.3.0][Frederic_Firmin]
