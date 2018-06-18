@@ -8,5 +8,5 @@ Type,Description,135,235,236,237,Reference
 11,IPv4 Source Router ID,y,y,y,y,[RFC7794]
 12,IPv6 Source Router ID,y,y,y,y,[RFC7794]
 13-31,Unassigned,,,,,
-32,BIER Info,y,y,y,y,[RFC-ietf-bier-isis-extensions-11]
+32,BIER Info,y,y,y,y,[RFC8401]
 33-255,Unassigned,,,,,

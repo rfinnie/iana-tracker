@@ -1,7 +1,7 @@
                                                    Differentiated Services Field Codepoints (DSCP)
 
    Last Updated
-           2018-05-04
+           2018-06-14
 
    Note
 
@@ -13,9 +13,10 @@
  experimental or Local Use (EXP/LU) as defined in [RFC2434], and a pool
  of 16 codepoints (Pool 3) which are initially available for experimental
  or local use, but which should be preferentially utilized for
- standardized assignments if Pool 1 is ever exhausted.  The pools are
- defined in the following table (where 'x' refers to either '0' or
- '1').
+ standardized assignments if Pool 1 is ever exhausted. Pool 3 codepoints
+ are now utilized for standardized assignments and are no longer available
+ for experimental or local use, as specified by [RFC-ietf-tsvwg-iana-dscp-registry-08].
+ The pools are defined in the following table (where 'x' refers to either '0' or '1').
 
 
    Available Formats
@@ -29,22 +30,23 @@
      * Differentiated Services Field Codepoints
 
           * Pool 1 Codepoints
+          * Pool 3 Codepoints
 
      * ECN Field (Bits 6-7)
 
 Differentiated Services Field Codepoints
 
    Reference
-           [RFC2474]
+           [RFC2474][RFC3260, Section 4]
 
    Available Formats
            [IMG]
            CSV
 
-   Pool Codepoint Space  Registration Procedure                                   Note
+   Pool Codepoint Space  Registration Procedure                    Note
    1    xxxxx0          Standards Action
    2    xxxx11          Experimental or Local Use Reserved for experimental or Local Use
-   3    xxxx01          Experimental or Local Use May be utilized for future Standards Action allocations as necessary
+   3    xxxx01          Standards Action
 
   Pool 1 Codepoints
 
@@ -53,7 +55,7 @@ Differentiated Services Field Codepoints
  Standards Action
 
    Reference
-           [RFC2474]
+           [RFC2474][RFC3260, Section 4]
 
    Available Formats
            [IMG]
@@ -82,6 +84,18 @@ Differentiated Services Field Codepoints
    AF43        100110         38              [RFC2597]
    EF          101110         46              [RFC3246]
    VOICE-ADMIT 101100         44              [RFC5865]
+
+  Pool 3 Codepoints
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC2474][RFC3260, Section 4][RFC-ietf-tsvwg-iana-dscp-registry-08]
+
+   Name Value (Binary) Value (Decimal) Reference
+   No registrations at this time.
 
 ECN Field (Bits 6-7)
 

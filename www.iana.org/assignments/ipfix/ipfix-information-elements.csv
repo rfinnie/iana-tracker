@@ -2519,7 +2519,7 @@ and confidenceLevel Information Elements.
               
 This Information Element should be used in an Options Template
 scoped to the observation to which it refers.  See Section 3.4.2.1
-of the IPFIX protocol document [RFC7011].",The units of the Information Element for which the error is specified.,,,[RFC5477],0,2013-02-18
+of the IPFIX protocol document [RFC7011].",inferred,,,[RFC5477],1,2018-06-13
 321,relativeError,float64,quantity,current,"This Information Element specifies the maximum possible positive
 or negative error ratio for the reported value for a given
 Information Element as percentage of the measured value.  The real
