@@ -394,3 +394,31 @@ JSON Web Token (JWT),+jwt,"[RFC7519, Section 3][RFC-ietf-secevent-token-13, Sect
           For cases not defined in +jwt, then process as specified in ""xxx/
           yyy+jwt"".",See Section 11 of [RFC7519].,[Michael_B._Jones],"Security Events Working Group.
         The IESG has change control over this registration.",2018-05-15,
+GZIP file storage and transfer format,+gzip,[RFC1952][RFC6713],GZIP is a binary encoding.,n/a,"The syntax and semantics of
+          fragment identifiers specified for +gzip SHOULD be as specified for
+          ""application/gzip"".  (At publication of [RFC-ietf-uta-smtp-tlsrpt-23], 
+          there is no fragment identification syntax defined for ""application/gzip"".)  
+          The syntax and semantics for fragment identifiers for a specific 
+          ""xxx/yyy+gzip"" SHOULD be processed as follows:
+        
+        
+          For cases defined in +gzip, where the fragment identifier
+          resolves per the +gzip rules, then process as specified in
+          +gzip.
+        
+        
+          For cases defined in +gzip, where the fragment identifier does
+          not resolve per the +gzip rules, then process as specified in
+          ""xxx/yyy+gzip"".
+        
+        
+          For cases not defined in +gzip, then process as specified in
+          ""xxx/yyy+gzip"".","GZIP format doesn't provide confidentiality
+          protection.  Integrity protection is provided by an Adler-32
+          checksum, which is not cryptographically strong.  See also security
+          considerations of [RFC6713].  Each individual media type registered
+          with a +gzip suffix can have additional security considerations.
+          Additionally, GZIP objects can contain multiple files and associated
+          paths.  File paths must be validated when the files are extracted; a
+          malicious file path could otherwise cause the extractor to overwrite
+          application or system files.",art@ietf.org,[IETF],2018-06-14,

@@ -1,14 +1,1 @@
-Value,Name,Reference
-0,Unspecific,[RFC Errata 4493]
-1,Malformed Attribute List,[RFC4271]
-2,Unrecognized Well-known Attribute,[RFC4271]
-3,Missing Well-known Attribute,[RFC4271]
-4,Attribute Flags Error,[RFC4271]
-5,Attribute Length Error,[RFC4271]
-6,Invalid ORIGIN Attribute,[RFC4271]
-7,[Deprecated],[RFC4271]
-8,Invalid NEXT_HOP Attribute,[RFC4271]
-9,Optional Attribute Error,[RFC4271]
-10,Invalid Network Field,[RFC4271]
-11,Malformed AS_PATH,[RFC4271]
-12-255,Unassigned,
+<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
