@@ -3,3 +3,4 @@ urn:ietf:params:rtp-hdrext:sdes:cname,Source Description: Canonical End-Point Id
 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id,RTP Stream Identifier,[Adam_Roach],[RFC-ietf-avtext-rid-09]
 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id,RTP Repaired Stream Identifier,[Adam_Roach],[RFC-ietf-avtext-rid-09]
 urn:ietf:params:rtp-hdrext:sdes:CaptId,CLUE CaptId,[Roni_Even],[RFC-ietf-clue-rtp-mapping-14]
+urn:ietf:params:rtp-hdrext:sdes:mid,Media identification,[IESG],[RFC-ietf-mmusic-sdp-bundle-negotiation-52]
