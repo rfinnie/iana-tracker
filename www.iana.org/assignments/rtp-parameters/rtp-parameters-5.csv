@@ -14,4 +14,5 @@ Value,Abbrev.,Name,Reference
 12,RtpStreamId,RTP Stream Identifier,[RFC-ietf-avtext-rid-09]
 13,RepairedRtpStreamId,Repaired RTP Stream Identifier,[RFC-ietf-avtext-rid-09]
 14,CCID,CLUE CaptId,[RFC-ietf-clue-rtp-mapping-14]
-15-255,,Unassigned,
+15,MID,Media Identification,[RFC-ietf-mmusic-sdp-bundle-negotiation-52]
+16-255,,Unassigned,

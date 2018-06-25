@@ -14474,6 +14474,7 @@ mxs,,,MatrixStore,[Object_Matrix],[Object_Matrix],,,,,,"Defined TXT keys: None
   mxs.system.id=<system id>
   mxs.system.version=<system layer version>
   mxs.cluster.id=<cluster id the system belongs to>"
+naio,,tcp,NetAcquire server input/output protocol,[NetAcquire_Corporation],[David_Hauck],2018-06-20,,,,,"Defined TXT keys: txtvers, fn"
 nasmon,,tcp,Proprietary communication protocol for NAS Monitor,[Infinite_Loop],[Claus_Broch2],2012-10-09,,,,,Defined TXT keys: Proprietary
 nasmon,,udp,Proprietary communication protocol for NAS Monitor,[Infinite_Loop],[Claus_Broch2],2012-10-09,,,,,Defined TXT keys: Proprietary
 nasunifiler,,tcp,This DNS-SD service is used by mobile clients to locate the Nasuni Filer (a storage product) for a given company.,[Nasuni_Corporation],[David_Shaw-Nasuni],2016-01-22,,,,,Defined TXT keys: companyfullname == The name of the company hosting the Nasuni Filer
