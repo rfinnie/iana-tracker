@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2018-06-22</updated>
+  <updated>2018-06-28</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -151,10 +151,10 @@
       <xref type="rfc" data="rfc6643"/>
       <notes/>
     </record>
-    <record date="2014-01-27" updated="2016-06-22">
+    <record date="2014-01-27" updated="2016-06-28">
       <name>iana-if-type</name>
       <iana>Y</iana>
-      <file type="yang">iana-if-type@2018-06-22.yang</file>
+      <file type="yang">iana-if-type@2018-06-28.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-if-type</namespace>
       <prefix>ianaift</prefix>
       <module/>
@@ -848,6 +848,36 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <module/>
       <xref type="draft" data="RFC-ietf-softwire-dslite-yang-17"/>
       <notes><xref type="draft" data="RFC-ietf-softwire-dslite-yang-17"/>'s module file will be posted upon document's publication as RFC.</notes>
+    </record>
+    <record date="2018-06-27">
+      <name>ietf-mud</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-mud</namespace>
+      <prefix>ietf-mud</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+      <notes><xref type="draft" data="RFC-ietf-opsawg-mud-25"/>'s module files will be posted upon document's publication as RFC.</notes>
+    </record>
+    <record date="2018-06-27">
+      <name>ietf-acldns</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-acldns</namespace>
+      <prefix>ietf-acldns</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+      <notes><xref type="draft" data="RFC-ietf-opsawg-mud-25"/>'s module files will be posted upon document's publication as RFC.</notes>
+    </record>
+    <record date="2018-06-27">
+      <name>ietf-l2vpn-svc</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc</namespace>
+      <prefix>l2vpn-svc</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-l2sm-l2vpn-service-model-10"/>
+      <notes><xref type="draft" data="RFC-ietf-l2sm-l2vpn-service-model-10"/>'s module file will be posted upon document's publication as RFC.</notes>
     </record>
   </registry>
   <people/>
