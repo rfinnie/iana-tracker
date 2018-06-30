@@ -1,1 +1,17 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Value,Description,Reference
+1,RRO too large for MTU,[RFC3209]
+2,RRO Notification,[RFC3209]
+3,Tunnel locally repaired,[RFC3209]
+4,Control Channel Active State,[RFC3473]
+5,Control Channel Degraded State,[RFC3473]
+6,Preferable path exists,[RFC4736]
+7,Local link maintenance required,[RFC4736]
+8,Local node maintenance required,[RFC4736]
+9,LSP Failure,[RFC4872]
+10,LSP Recovered,[RFC4872]
+11,LSP Locally Failed,[RFC4872]
+12,No OOB mapping received,[RFC6511]
+13,Preferable P2MP-TE Tree Exists,[RFC8149]
+14,Route of XRO LSP identifier unknown,[RFC-ietf-teas-lsp-diversity-10]
+15,Failed to satisfy Exclude Route,[RFC-ietf-teas-lsp-diversity-10]
+16,Compliant path exists,[RFC-ietf-teas-lsp-diversity-10]
