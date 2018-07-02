@@ -13,7 +13,7 @@ ietf-netconf-acm,ietf-netconf-acm@2012-02-22.yang,N,urn:ietf:params:xml:ns:yang:
 ietf-netconf-acm,ietf-netconf-acm@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-netconf-acm,nacm,,[RFC8341],
 ietf-netconf-notifications,ietf-netconf-notifications@2012-02-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-netconf-notifications,ncn,,[RFC6470],
 ietf-yang-smiv2,ietf-yang-smiv2@2012-06-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-smiv2,smiv2,,[RFC6643],
-iana-if-type,iana-if-type@2018-06-22.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
+iana-if-type,iana-if-type@2018-06-28.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
 module. They must instead be added to the ""ifType definitions"" registry 
 at [IANA registry smi-numbers]."
 ietf-interfaces,ietf-interfaces@2014-05-08.yang,N,urn:ietf:params:xml:ns:yang:ietf-interfaces,if,,[RFC7223],
@@ -90,3 +90,6 @@ ietf-pim-dm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-dm,pim-dm,,[RFC-ietf-pim-yan
 ietf-pim-rp,,N,urn:ietf:params:xml:ns:yang:ietf-pim-rp,pim-rp,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon document's publication as RFC.
 ietf-pim-sm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-sm,pim-sm,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon document's publication as RFC.
 ietf-dslite,,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC-ietf-softwire-dslite-yang-17],[RFC-ietf-softwire-dslite-yang-17]'s module file will be posted upon document's publication as RFC.
+ietf-mud,,N,urn:ietf:params:xml:ns:yang:ietf-mud,ietf-mud,,[RFC-ietf-opsawg-mud-25],[RFC-ietf-opsawg-mud-25]'s module files will be posted upon document's publication as RFC.
+ietf-acldns,,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC-ietf-opsawg-mud-25],[RFC-ietf-opsawg-mud-25]'s module files will be posted upon document's publication as RFC.
+ietf-l2vpn-svc,,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc,l2vpn-svc,,[RFC-ietf-l2sm-l2vpn-service-model-10],[RFC-ietf-l2sm-l2vpn-service-model-10]'s module file will be posted upon document's publication as RFC.

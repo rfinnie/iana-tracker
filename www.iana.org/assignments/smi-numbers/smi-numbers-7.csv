@@ -75,3 +75,5 @@ Decimal,Name,Description,References
 277-290,Reserved,Reserved,
 291,otnOtsi,Optical Tributary Signal,[ITU-T G.959.1][Koteswara_Boyapati]
 292,otnOtuc,OTN OTUCn,[ITU-T G.709/Y.1331][Koteswara_Boyapati]
+293,otnOduc,OTN ODUC,[ITU-T G.709][Koteswara_Boyapati]
+294,otnOtsig,OTN OTUC Signal,[ITU-T G.709][Koteswara_Boyapati]

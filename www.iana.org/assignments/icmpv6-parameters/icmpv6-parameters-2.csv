@@ -19,7 +19,7 @@ Type,Name,Reference
 135,Neighbor Solicitation,[RFC4861]
 136,Neighbor Advertisement,[RFC4861]
 137,Redirect Message,[RFC4861]
-138,Router Renumbering,[Matt_Crawford]
+138,Router Renumbering,[RFC2894]
 139,ICMP Node Information Query,[RFC4620]
 140,ICMP Node Information Response,[RFC4620]
 141,Inverse Neighbor Discovery Solicitation Message,[RFC3122]

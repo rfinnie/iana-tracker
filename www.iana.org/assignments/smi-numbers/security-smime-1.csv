@@ -40,3 +40,4 @@ Decimal,Description,References
 38,id-ct-htmlWithCRLF,[RFC8358]
 39,id-ct-epub,[RFC8358]
 40,id-ct-animaJSONVoucher,[RFC8366]
+41,id-ct-mudtype,[RFC-ietf-opsawg-mud-25]

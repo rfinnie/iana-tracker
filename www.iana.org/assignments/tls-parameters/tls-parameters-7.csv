@@ -3,7 +3,7 @@ Value,Description,DTLS-OK,Reference,Comment
 1,client_hello,Y,[RFC-ietf-tls-tls13-28],
 2,server_hello,Y,[RFC-ietf-tls-tls13-28],
 3,hello_verify_request_RESERVED,Y,[RFC6347][RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
-4,new_session_ticket,Y,[RFC4507][RFC-ietf-tls-tls13-28],
+4,"new_session_ticket (renamed from ""NewSessionTicket"")",Y,[RFC4507][RFC-ietf-tls-tls13-28][RFC-ietf-tls-iana-registry-updates-05],
 5,end_of_early_data,Y,[RFC-ietf-tls-tls13-28],
 6,hello_retry_request_RESERVED,Y,[RFC-ietf-tls-tls13-28],"Assigned for interim draft, but the functionality was moved to an extension."
 7,Unassigned,,,

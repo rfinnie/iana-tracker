@@ -44,5 +44,5 @@ Value,Description,DTLS-OK,Reference,Comment
 115,unknown_psk_identity,Y,[RFC4279],
 116,certificate_required,Y,[RFC-ietf-tls-tls13-28],
 117-119,Unassigned,,,
-120,no_application_protocol,Y,[RFC7301],
+120,no_application_protocol,Y,[RFC7301][RFC-ietf-tls-iana-registry-updates-05],
 121-255,Unassigned,,,
