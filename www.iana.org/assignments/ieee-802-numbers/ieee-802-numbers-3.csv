@@ -1,4 +1,4 @@
-Link Service Access Point (IEEE Binary),Link Service Access Point (Internet Binary ),Link Service Access Point (Decimal),Description,References
+Link Service Access Point (IEEE Binary),Link Service Access Point (Internet Binary ),Link Service Access Point (Decimal),Description,Reference
 00000000,00000000,0,Null LSAP,[IEEE]
 01000000,00000010,2,Indiv LLC Sublayer Mgt,[IEEE]
 11000000,00000011,3,Group LLC Sublayer Mgt,[IEEE]
