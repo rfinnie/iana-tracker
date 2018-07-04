@@ -7,7 +7,7 @@ Value,Description,DTLS-OK,Reference,Comment
 21,decryption_failed_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
 22,record_overflow,Y,[RFC-ietf-tls-tls13-28],
 23-29,Unassigned,,,
-30,decompression_failure_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3
+30,decompression_failure_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in TLS versions prior to 1.3.
 31-39,Unassigned,,,
 40,handshake_failure,Y,[RFC-ietf-tls-tls13-28],
 41,no_certificate_RESERVED,Y,[RFC-ietf-tls-tls13-28],Used in SSLv3 but not in TLS.
