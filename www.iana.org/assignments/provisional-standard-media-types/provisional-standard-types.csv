@@ -1,1 +1,16 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Media Type,Organization,Contact
+application/atsc-dwd+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
+application/atsc-held+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
+application/mmt-aei+xml,Advanced Television Systems Committee (ATSC),[ATSC_Editor]
+application/TETRA_ISI,ETSI,[Miguel_Angel_Reina_Ortega]
+audio/TETRA_ACELP,ETSI,[Miguel_Angel_Reina_Ortega]
+application/ion,IETF,[Jonathan_Hohle]
+image/jxr,ISO/IEC JTC 1,[Gary_J._Sullivan][Touradj_Ebrahimi]
+image/heif,ISO/IEC JTC 1,[David_Singer]
+image/heic,ISO/IEC JTC 1,[David_Singer]
+application/akn+xml,OASIS,[Chet_Ensign]
+application/taxii+json,OASIS,[Chet_Ensign]
+text/nfo,Seantek,[Sean_Leonard]
+application/reports+json,W3C,[Douglas_Creager]
+application/wasm,W3C,[Bradley_Nelson]
+application/won,IETF/W3C/other,[Roy_T._Fielding]
