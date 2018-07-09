@@ -7,6 +7,8 @@ Code,Name,Initial Value,Reference
 0x5,MAX_FRAME_SIZE,16384,"[RFC7540, Section 6.5.2]"
 0x6,MAX_HEADER_LIST_SIZE,(infinite),"[RFC7540, Section 6.5.2]"
 0x7-0xf,Unassigned,,
+0x8,SETTINGS_ENABLE_CONNECT_PROTOCOL,0,[RFC-ietf-httpbis-h2-websockets-07]
+0x9-0xf,Unassigned,,
 0x10,TLS_RENEG_PERMITTED,0x00,[MS-HTTP2E][Mike_Bishop]
 0x11-0xefff,Unassigned,,
 0xf000-0xffff,Reserved for Experimental Use,,[RFC7540]
