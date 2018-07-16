@@ -1,4 +1,4 @@
-Ethertype (decimal),Ethertype (hex),Exp. Ethernet (decimal),Exp. Ethernet (octal),Description,References
+Ethertype (decimal),Ethertype (hex),Exp. Ethernet (decimal),Exp. Ethernet (octal),Description,Reference
 0000,0000-05DC,-,-,IEEE802.3 Length Field,[Neil_Sembower]
 0257,0101-01FF,-,-,Experimental,[Neil_Sembower]
 0512,0200,512,1000,XEROX PUP (see 0A00),"[Boggs, D., J. Shoch, E. Taft, and R. Metcalfe, ""PUP: An

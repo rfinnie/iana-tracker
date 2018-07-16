@@ -3641,4 +3641,6 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
     See [RFC3234] for the definition of middleboxes.
     See [RFC4787] for the definition of paired 
     address pooling behavior.",[RFC8158],0,2017-12-01
-482-32767,Unassigned,,,,,,,,,,
+482,vpnIdentifier,octetArray,default,current,"VPN ID in the format specified by [RFC2685].
+      The size of this Information Element is 7 octets.",,,[RFC2685],[ipfix-iana_at_cisco.com],0,2018-07-10
+483-32767,Unassigned,,,,,,,,,,

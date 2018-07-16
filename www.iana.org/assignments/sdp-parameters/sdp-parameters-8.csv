@@ -69,3 +69,4 @@ att-field (both session and media level),recordpref,TBD,[RFC7866][RFC-ietf-mmusi
 att-field (both session and media level),rtcp-rgrp,TBD,[RFC-ietf-avtcore-rtp-multi-stream-optimisation-12][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),suspended,TBD,[NENA STA-010.2-2016][Brian_Rosen][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),extmap-allow-mixed,IDENTICAL,[RFC8285]
+att-field (both session and media level),end-of-candidates,IDENTICAL,[RFC-ietf-mmusic-trickle-ice-sip-18]

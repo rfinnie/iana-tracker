@@ -14565,6 +14565,9 @@ piesync,,,pieSync Computer to Computer Synchronization,[Timothy_Wayper],[Timothy
 piu,,,Pedestal Interface Unit by RPM-PSI,[James_Nikolai],[James_Nikolai],,,,,,Defined TXT keys: None
 pkixrep,,,Public Key Infrastructure Repository Locator Service,,,,,[RFC4386],,,
 poch,,,Parallel OperatiOn and Control Heuristic (Pooch),[Dean_Dauger],[Dean_Dauger],,,,,,Defined TXT keys: None
+pochi,,tcp,A presenter to audience transfer service,[Ringo_Wathelet],[Ringo_Wathelet],2018-07-11,,,,,"Defined TXT keys: key ""txtvers"" for specification versioning, 
+      and key ""name"" representing the advertising presentation string 
+      value name for the audience application to retrieve and display."
 podcastproxy,,tcp,Protocol for communication between Podcast,[Moritz_Schmale],[Moritz_Schmale],2011-10-07,,,,,Defined TXT keys: None
 pokeeye,,,"Communication channel for ""Poke Eye"" Elgato EyeTV remote controller",[Kristoffer_Lawson],[Kristoffer_Lawson],,,,,,Defined TXT keys: None
 powereasy-erp,,,PowerEasy ERP,[Ulaganathan_Sriramul],[Ulaganathan_Sriramul],,,,,,"Defined TXT keys: ip, port, name, instance, cgi-alias, major-version, minor-version, custom"
