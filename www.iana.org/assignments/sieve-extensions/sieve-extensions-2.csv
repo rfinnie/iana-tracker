@@ -53,7 +53,10 @@ extlists,"Adds the "":list"" match type to certain Sieve tests, and
 extracttext,"adds the ""extracttext"" action for extracting text from a
 MIME body part.",[RFC5703],[Sieve_discussion_list],
 fileinto,"adds the 'fileinto' action for delivering to a
-mailbox other than the default",[RFC5228] (Sieve base spec),[Sieve_discussion_list],
+mailbox other than the default","[RFC5228] (Sieve base spec), 
+        [RFC5490] (:create), 
+        [RFC3894] (:copy),
+        [RFC5232] (:flags)",[Sieve_discussion_list],
 foreverypart,"adds the ""foreverypart"" and ""break"" actions for
 iterating through MIME parts of a message.",[RFC5703],[Sieve_discussion_list],
 ihave,"The ""ihave"" extension provides a means to write
