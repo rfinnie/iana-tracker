@@ -13,5 +13,5 @@ Value,Description,Reference
 34,SRLG,[RFC4874]
 35,Switching Capability (SC),[RFC6001]
 36-37,Unassigned,
-38,IPv4 Diversity,[RFC-ietf-teas-lsp-diversity-10]
-39,IPv6 Diversity,[RFC-ietf-teas-lsp-diversity-10]
+38,IPv4 Diversity,[RFC8390]
+39,IPv6 Diversity,[RFC8390]
