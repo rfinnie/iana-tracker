@@ -12,3 +12,5 @@ identity,"Reserved (synonym for ""no encoding"" in Accept-Encoding)",[RFC7231],S
 pack200-gzip,Network Transfer Format for Java Archives,[JSR 200: Network Transfer Format for Java][Kumar_Srinivasan][John_Rose],
 x-compress,Deprecated (alias for compress),[RFC7230],Section 4.2.1
 x-gzip,Deprecated (alias for gzip),[RFC7230],Section 4.2.3
+zstd,"A stream of bytes compressed using the Zstandard
+        protocol",[RFC-kucherawy-dispatch-zstd-03],
