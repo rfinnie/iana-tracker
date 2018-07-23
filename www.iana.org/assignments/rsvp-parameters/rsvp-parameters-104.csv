@@ -34,7 +34,7 @@ Value,Description,Reference
 33,Unknown Path Key for PKS expansion,[RFC5553]
 34,ERO too large for MTU,[RFC5553]
 35,Unknown Endpoint,[RFC6005]
-36,Unsupported Diversity Identifier Type,[RFC-ietf-teas-lsp-diversity-10]
+36,Unsupported Diversity Identifier Type,[RFC8390]
 37-63,Unassigned,
 64,Unsupported Exclude Route Subobject Type,[RFC4874]
 65,Inconsistent Subobject,[RFC4874]

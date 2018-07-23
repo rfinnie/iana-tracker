@@ -21,8 +21,8 @@ Type,Name,Reference
 19,FGL-VLAN-Bitmap,[RFC8139]
 20,FGL-VLAN-Pairs,[RFC8139]
 21,originatingSNPBufferSize,[RFC8249]
-22,Smart-Parameters,[RFC-ietf-trill-smart-endnodes-11]
-23,Smart-MAC,[RFC-ietf-trill-smart-endnodes-11]
+22,Smart-Parameters,[RFC8384]
+23,Smart-MAC,[RFC8384]
 24,NickBlockFlags,[RFC8397]
 25-251,Unassigned,
 252,AA-LAALP-GROUP-RBRIDGES,[RFC7782]
