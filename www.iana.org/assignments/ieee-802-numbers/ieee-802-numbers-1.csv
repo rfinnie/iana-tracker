@@ -218,6 +218,7 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 36865,9001,-,-,3Com(Bridge) XNS Sys Mgmt,[Neil_Sembower]
 36866,9002,-,-,3Com(Bridge) TCP-IP Sys,[Neil_Sembower]
 36867,9003,-,-,3Com(Bridge) loop detect,[Neil_Sembower]
+39458,9A22,-,-,Multi-Topology,[RFC-ietf-trill-multi-topology-06]
 41197,A0ED,-,-,LoWPAN encapsulation,[RFC7973]
 47082,B7EA,-,-,"The Ethertype will be used to identify a ""Channel"" 
         in which control messages are encapsulated as payload of GRE packets. 
