@@ -23,7 +23,7 @@ Value,Name,Reference
 447,Connection Timeout or Failure,[RFC6062]
 448-485,Unassigned,
 486,Allocation Quota Reached,[RFC5766]
-487,Role Conflict,[RFC-ietf-ice-rfc5245bis-20]
+487,Role Conflict,[RFC8445]
 488-499,Unassigned,
 500,Server Error,[RFC5389]
 501-507,Unassigned,
