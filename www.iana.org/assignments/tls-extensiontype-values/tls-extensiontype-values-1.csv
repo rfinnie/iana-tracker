@@ -23,14 +23,16 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 21,padding,CH,Y,[RFC7685]
 22,encrypt_then_mac,-,Y,[RFC7366]
 23,extended_master_secret,-,Y,[RFC7627]
-24,"token_binding (TEMPORARY - registered 2016-02-04, extension registered 
-        2018-01-02, expires 2019-02-04)",-,Y,[draft-ietf-tokbind-negotiation]
+24,token_binding,-,Y,[RFC-ietf-tokbind-negotiation-14]
 25,cached_info,-,Y,[RFC7924]
 26,Unassigned,,,
 27,"compress_certificate 
         (TEMPORARY - registered 2018-05-23, expires 2019-05-23)","CH, CR",Y,[draft-ietf-tls-certificate-compression]
 28,record_size_limit,"CH, EE",Y,[RFC-ietf-tls-record-limit-03]
-29-34,Unassigned,,,
+29,pwd_protect,CH,N,[RFC-harkins-tls-dragonfly-03]
+30,pwd_clear,CH,N,[RFC-harkins-tls-dragonfly-03]
+31,password_salt,"CH, SH, HRR",N,[RFC-harkins-tls-dragonfly-03]
+32-34,Unassigned,,,
 35,"session_ticket (renamed from ""SessionTicket TLS"")",-,Y,[RFC5077][RFC-ietf-tls-iana-registry-updates-05]
 36-40,Unassigned,,,
 41,pre_shared_key,"CH, SH",Y,[RFC-ietf-tls-tls13-28]

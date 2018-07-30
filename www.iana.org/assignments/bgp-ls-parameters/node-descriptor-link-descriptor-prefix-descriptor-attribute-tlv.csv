@@ -56,19 +56,19 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1105,RTM Capability,22/40,[RFC8169]
 1106-1113,Unassigned,,
 1114,"Unidirectional Link Delay (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1115,"Min/Max Unidirectional Link Delay (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1116,"Unidirectional Delay Variation (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1117,"Unidirectional Packet Loss (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1118,"Unidirectional Residual Bandwidth (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1119,"Unidirectional Available Bandwidth (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1120,"Unidirectional Bandwidth Utilization (TEMPORARY - 
-        registered 2017-08-18, expires 2018-08-18)",,[draft-ietf-idr-te-pm-bgp]
+        registered 2017-08-18, extension registered 2018-07-20, expires 2019-08-18)",,[draft-ietf-idr-te-pm-bgp]
 1121,Graceful-Link-Shutdown TLV,,[RFC8379]
 1122-1151,Unassigned,,
 1152,IGP Flags,,"[RFC7752, Section 3.3.3.1]"
