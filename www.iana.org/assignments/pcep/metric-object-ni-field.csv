@@ -10,7 +10,7 @@ Value,Description,Reference
 8,P2MP IGP metric,[RFC8306]
 9,P2MP TE metric,[RFC8306]
 10,P2MP hop count metric,[RFC8306]
-11,"Segment-ID (SID) Depth. (TEMPORARY - registered 2015-08-14, extension registered 2017-08-04, expires 2018-08-14)",[draft-ietf-pce-segment-routing]
+11,"Segment-ID (SID) Depth. (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
 12,Path Delay metric,[RFC8233]
 13,Path Delay Variation metric,[RFC8233]
 14,Path Loss metric,[RFC8233]

@@ -2,5 +2,5 @@ Bit,Description,Reference
 0,Hello reduction support.,[RFC8139]
 1-2,Unassigned,
 3-13,Hop-by-hop extended flag support.,[RFC7179]
-14-15,Topology labeling support.,[RFC-ietf-trill-multi-topology-06]
+14-15,Topology labeling support.,[RFC8377]
 16-31,Unassigned,
