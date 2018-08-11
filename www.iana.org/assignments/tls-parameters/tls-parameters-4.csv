@@ -155,11 +155,11 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0x00,0xFF",TLS_EMPTY_RENEGOTIATION_INFO_SCSV,Y,N,[RFC5746]
 "0x01-12,*",Unassigned,,,
 "0x13,0x00",Unassigned,,,
-"0x13,0x01",TLS_AES_128_GCM_SHA256,Y,Y,[RFC-ietf-tls-tls13-28]
-"0x13,0x02",TLS_AES_256_GCM_SHA384,Y,Y,[RFC-ietf-tls-tls13-28]
-"0x13,0x03",TLS_CHACHA20_POLY1305_SHA256,Y,Y,[RFC-ietf-tls-tls13-28]
-"0x13,0x04",TLS_AES_128_CCM_SHA256,Y,Y,[RFC-ietf-tls-tls13-28]
-"0x13,0x05",TLS_AES_128_CCM_8_SHA256,Y,N,[RFC-ietf-tls-tls13-28]
+"0x13,0x01",TLS_AES_128_GCM_SHA256,Y,Y,[RFC8446]
+"0x13,0x02",TLS_AES_256_GCM_SHA384,Y,Y,[RFC8446]
+"0x13,0x03",TLS_CHACHA20_POLY1305_SHA256,Y,Y,[RFC8446]
+"0x13,0x04",TLS_AES_128_CCM_SHA256,Y,Y,[RFC8446]
+"0x13,0x05",TLS_AES_128_CCM_8_SHA256,Y,N,[RFC8446]
 "0x13,0x06-0xFF",Unassigned,,,
 "0x14-55,*",Unassigned,,,
 "0x56,0x00",TLS_FALLBACK_SCSV,Y,N,[RFC7507]
@@ -366,4 +366,4 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0xFE,0x00-FD",Unassigned,,,
 "0xFE,0xFE-FF","Reserved to avoid conflicts with
 widely deployed implementations",,,[Pasi_Eronen]
-"0xFF,0x00-FF",Reserved for Private Use,,,[RFC-ietf-tls-tls13-28]
+"0xFF,0x00-FF",Reserved for Private Use,,,[RFC8446]
