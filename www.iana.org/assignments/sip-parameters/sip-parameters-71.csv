@@ -114,3 +114,9 @@ g.3gpp.registration-token,"This feature-capability indicator, when included in a
 g.3gpp.verstat,"This feature-capability indicator, when included in a Feature-Caps header field as specified in
         [RFC6809] in a 200 (OK) response to a REGISTER request, indicates that the home network 
         supports calling party number verification, as described in [RFC8224].",[3GPP TS 24.229 v14.7.0][Frederic_Firmin]
+g.3gpp.mcvideo.ambient-viewing-call-release,"This feature-capability indicator when included in a Feature-Caps header field as specified in IETF
+        [RFC6809] in a SIP INVITE request or a SIP 200 (OK) response to a SIP INVITE request indicates 
+        that the MCVideo server is capable of receiving a SIP BYE from an MCVideo client to release an ambient-viewing call.",[3GPP TS 24.281 Rel-15][Frederic_Firmin]
+g.3gpp.mcptt.ambient-listening-call-release,"This feature-capability indicator when included in a Feature-Caps header field as specified in IETF
+        [RFC6809] in a SIP INVITE request or a SIP 200 (OK) response to a SIP INVITE request 
+        indicates that the MCPTT server is capable of receiving a SIP BYE from an MCPTT client to release an ambient-listening call.",[3GPP TS 24.379 v14.5.0][Frederic_Firmin]
