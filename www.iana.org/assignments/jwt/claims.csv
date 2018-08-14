@@ -80,3 +80,5 @@ events,Security Events,[IESG],"[RFC8417, Section 2.2]"
 toe,Time of Event,[IESG],"[RFC8417, Section 2.2]"
 txn,Transaction Identifier,[IESG],"[RFC8417, Section 2.2]"
 rph,Resource Priority Header Authorization,[IESG],"[RFC-ietf-stir-rph-06, Section 3]"
+sid,Session ID,[OpenID_Foundation_Artifact_Binding_Working_Group],"[
+        OpenID Connect Front-Channel Logout 1.0, Section 3]"

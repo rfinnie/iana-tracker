@@ -42,3 +42,7 @@ v1.usp,USP (Broadband Forum User Services Platform),[https://github.com/Broadban
 mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari]
 coap,Constrained Application Protocol (CoAP),[RFC8323],[RFC8323]
 TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli]
+sqlnet.oracle.com,sqlnet,"This protocol is used for communication between Oracle 
+        database client and database server, and its usage as subprotocol 
+        of websocket is primarly geared towards cloud deployments. sqlnet 
+        supports bi-directional data transfer and is full duplex in nature.",[Feroz_Alam_Khan]

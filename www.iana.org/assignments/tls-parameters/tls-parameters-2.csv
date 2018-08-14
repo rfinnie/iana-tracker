@@ -9,8 +9,8 @@ Value,Description,DTLS-OK,Reference
 7-19,Unassigned,,
 20,fortezza_dms_RESERVED,Y,[RFC5246]
 21-63,Unassigned,,
-64,ecdsa_sign,Y,[RFC-ietf-tls-rfc4492bis-17]
-65,rsa_fixed_ecdh,Y,[RFC-ietf-tls-rfc4492bis-17]
-66,ecdsa_fixed_ecdh,Y,[RFC-ietf-tls-rfc4492bis-17]
+64,ecdsa_sign,Y,[RFC8422]
+65,rsa_fixed_ecdh,Y,[RFC8422]
+66,ecdsa_fixed_ecdh,Y,[RFC8422]
 67-223,Unassigned,,
 224-255,Reserved for Private Use,,[RFC5246]

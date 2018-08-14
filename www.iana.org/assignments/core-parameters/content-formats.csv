@@ -33,7 +33,22 @@ application/senml-exi,,114,[RFC-ietf-core-senml-16]
 application/sensml-exi,,115,[RFC-ietf-core-senml-16]
 Unassigned,,116-255,
 application/coap-group+json,,256,[RFC7390]
-Unassigned,,257-309,
+Unassigned,,257-279,
+"application/pkcs7-mime; smime-type=server-generated-key
+      (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,280,[RFC5751][RFC7030][draft-ietf-ace-coap-est]
+"application/pkcs7-mime; smime-type=certs-only
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,281,[RFC5751][draft-ietf-ace-coap-est]
+"application/pkcs7-mime; smime-type=CMC-Request
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,282,[RFC5751][RFC5273][draft-ietf-ace-coap-est]
+"application/pkcs7-mime; smime-type=CMC-Response
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,283,[RFC5751][RFC5273][draft-ietf-ace-coap-est]
+"application/pkcs8
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,284,[RFC5751][RFC5958][draft-ietf-ace-coap-est]
+"application/csrattrs
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,285,[RFC7030][draft-ietf-ace-coap-est]
+"application/pkcs10
+        (TEMPORARY - registered 2018-08-09, expires 2019-08-09)",,286,[RFC5751][RFC5967][draft-ietf-ace-coap-est]
+Unassigned,,287-309,
 application/senml+xml,,310,[RFC-ietf-core-senml-16]
 application/sensml+xml,,311,[RFC-ietf-core-senml-16]
 Unassigned,,312-1541,
