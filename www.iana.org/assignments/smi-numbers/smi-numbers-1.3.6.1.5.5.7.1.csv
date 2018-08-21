@@ -29,3 +29,4 @@ Decimal,Description,References
 28,id-pe-ipAddrBlocks-v2,[RFC8360]
 29,id-pe-autonomousSysIds-v2,[RFC8360]
 30,id-pe-mudsigner,[RFC-ietf-opsawg-mud-25]
+31,id-pe-acmeIdentifier,[draft-ietf-acme-tls-alpn]

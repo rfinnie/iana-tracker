@@ -13189,7 +13189,9 @@ ild,24321,tcp,Isolv Local Directory,[Mitchell_Bass],[Mitchell_Bass],2005-08,,,,,
 ild,24321,udp,Isolv Local Directory,[Mitchell_Bass],[Mitchell_Bass],2005-08,,,,,
 hid,24322,udp,Transport of Human Interface Device data streams,[Freebox_SAS],[Nicolas_Pouillon],2012-12-14,,,,,
 ,24322,tcp,Reserved,,,,,,,,
-,24323-24385,,Unassigned,,,,,,,,
+vrmg-ip,24323,tcp,Verimag mobile class protocol over TCP,[Verimag_OOO],[Denis_Ionov],2018-08-15,,,,,
+,24323,udp,Reserved,,,,,,,,
+,24324-24385,,Unassigned,,,,,,,,
 intel-rci,24386,tcp,"Intel RCI
 IANA assigned this well-formed service name as a replacement for ""intel_rci"".",[Mark_Lewis_2],[Mark_Lewis_2],,,,,,
 intel_rci,24386,tcp,Intel RCI,[Mark_Lewis_2],[Mark_Lewis_2],,,,,,"This entry is an alias to ""intel-rci"".
@@ -14461,6 +14463,7 @@ mn-passage,,tcp,A Remote Control Application service used to control Computers o
 mn-passage,,udp,A Remote Control Application service used to control Computers on a Local Area Network,[Midnight_Oil_Enterprises_LLC],[Dan_Corkill],2013-07-09,,,,,Defined TXT keys: inherited from bonjour/iOS multipeer connectivity
 modolansrv,,,modo LAN Services,[Matt_Craig],[Matt_Craig],,,,,,Defined TXT keys: None
 mogeneti-auth,,tcp,Authentication service for Mogeneti Software Applications,[Mogeneti],[Bart_Rijpers],2012-09-26,,,,,Defined TXT keys: none
+moncon,,udp,Sonnox MCON monitor controller protocol,[Sonnox_Ltd],[Nicolas_Haynes],2018-08-15,,,,,Defined TXT keys: None
 moneysync,,,SplashMoney Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
 moneyworks,,,MoneyWorks Gold and MoneyWorks Datacentre network service,[Rowan_Daniell],[Rowan_Daniell],,,,,,Defined TXT keys: None
 moodring,,,Bonjour Mood Ring tutorial program,[Daniel_Steinberg],[Daniel_Steinberg],,,,,,Defined TXT keys: txtvers=1 mood=<ascii digit from 0-4>
