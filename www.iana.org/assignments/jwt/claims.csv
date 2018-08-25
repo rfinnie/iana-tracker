@@ -82,3 +82,5 @@ txn,Transaction Identifier,[IESG],"[RFC8417, Section 2.2]"
 rph,Resource Priority Header Authorization,[IESG],"[RFC-ietf-stir-rph-06, Section 3]"
 sid,Session ID,[OpenID_Foundation_Artifact_Binding_Working_Group],"[
         OpenID Connect Front-Channel Logout 1.0, Section 3]"
+vot,Vector of Trust value,[IESG],[RFC-richer-vectors-of-trust-15]
+vtm,Vector of Trust trustmark URL,[IESG],[RFC-richer-vectors-of-trust-15]

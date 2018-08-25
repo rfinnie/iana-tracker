@@ -14849,6 +14849,7 @@ tuneranger,,,TuneRanger,[Acertant],[Acertant],,,,,,Defined TXT keys: None
 twinlevel,,tcp,detect sanitary product,[Oblamatik_AG],[Simon_Ensslen],2012-09-05,,,,,Defined TXT keys: None
 twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
+tyba,,tcp,Tyba control,[Tyba_Design_Limited],[Oz_Andrews],2018-08-24,,,,,"Defined TXT keys: PRID, HWSN, VERS"
 tzrpc,,tcp,TZ-Software remote procedure call based synchronization protocol,[Thomas_Zwick],[Thomas_Zwick],2011-10-12,,,,,Defined TXT keys: Proprietary
 ubertragen,,,Ubertragen,[Widgetschmie_de],[Widgetschmie_de],,,,,,Defined TXT keys: None
 ucdynamics-tuc,,udp,Tactical Unified Communicator,[UC_Dynamics_LLC],[Shaun_Botha],2018-01-31,,,,,Defined TXT keys: None
