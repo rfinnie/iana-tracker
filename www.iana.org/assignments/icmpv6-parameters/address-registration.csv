@@ -2,4 +2,12 @@ Value,Description,Reference
 0,Success,[RFC6775]
 1,Duplicate Address,[RFC6775]
 2,Neighbor Cache Full,[RFC6775]
-3-255,Unassigned,
+3,Moved,[RFC-ietf-6lo-rfc6775-update-21]
+4,Removed,[RFC-ietf-6lo-rfc6775-update-21]
+5,Validation Requested,[RFC-ietf-6lo-rfc6775-update-21]
+6,Duplicate Source Address,[RFC-ietf-6lo-rfc6775-update-21]
+7,Invalid Source Address,[RFC-ietf-6lo-rfc6775-update-21]
+8,Registered Address topologically incorrect,[RFC-ietf-6lo-rfc6775-update-21]
+9,6LBR Registry saturated,[RFC-ietf-6lo-rfc6775-update-21]
+10,Validation Failed,[RFC-ietf-6lo-rfc6775-update-21]
+11-255,Unassigned,

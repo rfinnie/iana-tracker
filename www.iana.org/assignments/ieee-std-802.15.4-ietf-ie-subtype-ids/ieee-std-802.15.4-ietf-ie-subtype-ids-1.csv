@@ -1,4 +1,5 @@
 Value,Subtype ID,Reference
 0,Reserved,[RFC8137]
-1-200,Unassigned,
+1,SUBID_6TOP,[RFC-ietf-6tisch-6top-protocol-12]
+2-200,Unassigned,
 201-255,Reserved for Experimental Use,[RFC8137]

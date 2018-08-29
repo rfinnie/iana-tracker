@@ -4,3 +4,5 @@ cidr0,Various RIRs under the NRO,[https://bitbucket.org/nroecg/nro-rdap-cidr/src
 fred,[CZ.NIC_z._s._p._o.],[https://fred.nic.cz/rdap-extension/],[Jaromir_Talir],"FRED is open source domain registry system that includes RDAP 
         server. This RDAP server provides some extended features defined in 
         specification."
+rdap_objectTag,Any,[RFC-ietf-regext-rdap-object-tag-05],[IESG],"This extension describes a best practice for
+        structuring entity identifiers to enable query bootstrapping."

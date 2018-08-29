@@ -13311,7 +13311,9 @@ exonet,26489,tcp,EXOnet,[Urban_Fosseus],[Urban_Fosseus],2008-12-24,,,,,
 exonet,26489,udp,EXOnet,[Urban_Fosseus],[Urban_Fosseus],2008-12-24,,,,,
 ,26490-26999,,Unassigned,,,,,,,,
 flex-lm,27000-27009,,FLEX LM (1-10),[Flexera_Software],[Paul_Bland],,2018-02-15,,,,
-,27010-27344,,Unassigned,,,,,,,"Unauthorized Use Known on ports 27017, 27018 and 27019",
+flex-lmadmin,27010,tcp,A protocol for managing license services,[Flexera],[Paul_Bland],2018-08-22,,,,,
+,27010,udp,Reserved,,,,,,,,
+,27011-27344,,Unassigned,,,,,,,"Unauthorized Use Known on ports 27017, 27018 and 27019",
 imagepump,27345,tcp,ImagePump,[Richard_Minner],[Richard_Minner],,,,,,
 imagepump,27345,udp,ImagePump,[Richard_Minner],[Richard_Minner],,,,,,
 ,27346-27441,,Unassigned,,,,,,,,
@@ -14847,6 +14849,7 @@ tuneranger,,,TuneRanger,[Acertant],[Acertant],,,,,,Defined TXT keys: None
 twinlevel,,tcp,detect sanitary product,[Oblamatik_AG],[Simon_Ensslen],2012-09-05,,,,,Defined TXT keys: None
 twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
+tyba,,tcp,Tyba control,[Tyba_Design_Limited],[Oz_Andrews],2018-08-24,,,,,"Defined TXT keys: PRID, HWSN, VERS"
 tzrpc,,tcp,TZ-Software remote procedure call based synchronization protocol,[Thomas_Zwick],[Thomas_Zwick],2011-10-12,,,,,Defined TXT keys: Proprietary
 ubertragen,,,Ubertragen,[Widgetschmie_de],[Widgetschmie_de],,,,,,Defined TXT keys: None
 ucdynamics-tuc,,udp,Tactical Unified Communicator,[UC_Dynamics_LLC],[Shaun_Botha],2018-01-31,,,,,Defined TXT keys: None

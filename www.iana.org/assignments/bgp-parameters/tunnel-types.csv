@@ -12,7 +12,8 @@ Value,Name,Reference
 10,MPLS Encapsulation,[RFC8365]
 11,MPLS in GRE Encapsulation,[RFC8365]
 12,VXLAN GPE Encapsulation,[RFC8365]
-13,MPLS in UDP Encapsulation,[RFC7510][RFC Errata 4350]
+13,MPLS in UDP Encapsulation,"[RFC7510][RFC Errata 
+          4350]"
 14,IPv6 Tunnel,[Martin_Djernaes]
 15,SR TE Policy Type,[draft-previdi-idr-segment-routing-te-policy]
 16,Bare,[Nischal_Sheth]
