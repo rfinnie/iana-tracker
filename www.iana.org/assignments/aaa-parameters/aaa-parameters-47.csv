@@ -13,7 +13,7 @@ Code Value,Name,Reference
 268,DER / DEA,[RFC4072]
 269-270,Unassigned,
 271,ACR / ACA,[RFC6733]
-272,CCR / CCA,[RFC4006]
+272,CCR / CCA,[RFC-ietf-dime-rfc4006bis-11]
 273,Unassigned,
 274,ASR / ASA,[RFC6733]
 275,STR / STA,[RFC6733]
