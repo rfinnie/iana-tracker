@@ -3,7 +3,7 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 1,max_fragment_length,"CH, EE",N,[RFC6066][RFC8449]
 2,client_certificate_url,-,Y,[RFC6066]
 3,trusted_ca_keys,-,Y,[RFC6066]
-4,truncated_hmac,-,N,[RFC6066]
+4,truncated_hmac,-,N,[RFC6066][IESG Action 2018-08-16]
 5,status_request,"CH, CR, CT",Y,[RFC6066]
 6,user_mapping,-,Y,[RFC4681]
 7,client_authz,-,N,[RFC5878]
