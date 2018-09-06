@@ -1,4 +1,5 @@
 AVP Value,Attribute Name,Reference
-0,TERMINATE,[RFC4006]
-1,CONTINUE,[RFC4006]
-2,RETRY_AND_TERMINATE,[RFC4006]
+0,TERMINATE,[RFC-ietf-dime-rfc4006bis-11]
+1,CONTINUE,[RFC-ietf-dime-rfc4006bis-11]
+2,RETRY_AND_TERMINATE,[RFC-ietf-dime-rfc4006bis-11]
+3-4294967295,Unassigned,

@@ -1,5 +1,6 @@
 Value,Name,Reference
-0,Unspecific,[RFC Errata 4493]
+0,Unspecific,"[RFC Errata 
+          4493]"
 1,Malformed Attribute List,[RFC4271]
 2,Unrecognized Well-known Attribute,[RFC4271]
 3,Missing Well-known Attribute,[RFC4271]

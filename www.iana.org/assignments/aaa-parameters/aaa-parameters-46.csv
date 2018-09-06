@@ -3,7 +3,7 @@ ID Value,Name,Reference
 1,NASREQ,[RFC7155]
 2,Mobile IPv4,[RFC4004]
 3,Diameter base accounting,[RFC6733]
-4,Diameter Credit Control,[RFC4006]
+4,Diameter Credit Control,[RFC-ietf-dime-rfc4006bis-11]
 5,Diameter EAP,[RFC4072]
 6,Diameter Session Initiation Protocol (SIP) Application,[RFC4740]
 7,Diameter Mobile IPv6 IKE (MIP6I),[RFC5778]
