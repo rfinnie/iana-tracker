@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2018-08-09</updated>
+  <updated>2018-09-05</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -1488,10 +1488,17 @@
       <id>61</id>
       <xref type="rfc" data="rfc8392"/>
     </record>
+    <record date="2018-09-05">
+      <mediatype>application/multipart-core 
+      (TEMPORARY - registered 2018-09-05, expires 2019-09-05)</mediatype>
+      <encoding/>
+      <id>62</id>
+      <xref type="draft" data="draft-ietf-core-multipart-ct"/>
+    </record>
     <record>
       <mediatype>Unassigned</mediatype>
       <encoding/>
-      <id>62-95</id>
+      <id>63-95</id>
     </record>
     <record date="2017-01-11">
       <mediatype>application/cose; cose-type="cose-encrypt"</mediatype>
@@ -1537,37 +1544,37 @@
       <mediatype>application/senml+json</mediatype>
       <encoding/>
       <id>110</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/sensml+json</mediatype>
       <encoding/>
       <id>111</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/senml+cbor</mediatype>
       <encoding/>
       <id>112</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/sensml+cbor</mediatype>
       <encoding/>
       <id>113</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/senml-exi</mediatype>
       <encoding/>
       <id>114</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/sensml-exi</mediatype>
       <encoding/>
       <id>115</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -1590,7 +1597,7 @@
       (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>280</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="rfc" data="rfc7030"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
@@ -1599,7 +1606,7 @@
         (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>281</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
     <record>
@@ -1607,7 +1614,7 @@
         (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>282</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="rfc" data="rfc5273"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
@@ -1616,7 +1623,7 @@
         (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>283</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="rfc" data="rfc5273"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
@@ -1625,7 +1632,7 @@
         (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>284</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="rfc" data="rfc5958"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
@@ -1642,7 +1649,7 @@
         (TEMPORARY - registered 2018-08-09, expires 2019-08-09)</mediatype>
       <encoding/>
       <id>286</id>
-      <xref type="rfc" data="rfc5751"/>
+      <xref type="draft" data="RFC-ietf-lamps-rfc5751-bis-12"/>
       <xref type="rfc" data="rfc5967"/>
       <xref type="draft" data="draft-ietf-ace-coap-est"/>
     </record>
@@ -1655,13 +1662,13 @@
       <mediatype>application/senml+xml</mediatype>
       <encoding/>
       <id>310</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record date="2018-06-01">
       <mediatype>application/sensml+xml</mediatype>
       <encoding/>
       <id>311</id>
-      <xref type="draft" data="RFC-ietf-core-senml-16"/>
+      <xref type="rfc" data="rfc8428"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
