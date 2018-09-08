@@ -356,11 +356,11 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0xCC,0xAF-FF",Unassigned,,,
 "0xCD-CF,*",Unassigned,,,
 "0xD0,0x00",Unassigned,,,
-"0xD0,0x01",TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
-"0xD0,0x02",TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
-"0xD0,0x03",TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256,Y,N,[RFC-ietf-tls-ecdhe-psk-aead-05]
+"0xD0,0x01",TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256,Y,Y,[RFC8442]
+"0xD0,0x02",TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384,Y,Y,[RFC8442]
+"0xD0,0x03",TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256,Y,N,[RFC8442]
 "0xD0,0x04",Unassigned,,,
-"0xD0,0x05",TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
+"0xD0,0x05",TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256,Y,Y,[RFC8442]
 "0xD0,0x06-FF",Unassigned,,,
 "0xD1-FD,*",Unassigned,,,
 "0xFE,0x00-FD",Unassigned,,,
