@@ -73,7 +73,8 @@ Decimal,Description,References
 72,id-mod-ip-addr-and-as-ident-2,[RFC6268]
 73,id-mod-wlan-extns-2,[RFC6268]
 74,id-mod-hmac,[RFC6268]
-75,id-mod-enrollMsgSyntax-2011-88,[RFC6402][RFC Errata 3860]
+75,id-mod-enrollMsgSyntax-2011-88,"[RFC6402][RFC Errata 
+          3860]"
 76,id-mod-enrollMsgSyntax-2011-08,[RFC6402]
 77,id-mod-pubKeySMIMECaps-88,[RFC6664]
 78,id-mod-pubKeySMIMECaps-08,[RFC6664]

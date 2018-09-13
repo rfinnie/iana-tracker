@@ -1,4 +1,4 @@
 AVP Value,Attribute Name,Reference
 0,TERMINATE_OR_BUFFER,[RFC-ietf-dime-rfc4006bis-11]
 1,CONTINUE,[RFC-ietf-dime-rfc4006bis-11]
-2-4294967295,Unassigned,
+2-2147483647,Unassigned,

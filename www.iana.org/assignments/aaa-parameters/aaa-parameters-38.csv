@@ -5,4 +5,4 @@ AVP Value,Attribute Name,Reference
 3,INPUT-OCTETS,[RFC-ietf-dime-rfc4006bis-11]
 4,OUTPUT-OCTETS,[RFC-ietf-dime-rfc4006bis-11]
 5,SERVICE-SPECIFIC-UNITS,[RFC-ietf-dime-rfc4006bis-11]
-6-4294967295,Unassigned,
+6-2147483647,Unassigned,
