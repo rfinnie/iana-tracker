@@ -159,7 +159,7 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0x13,0x02",TLS_AES_256_GCM_SHA384,Y,Y,[RFC8446]
 "0x13,0x03",TLS_CHACHA20_POLY1305_SHA256,Y,Y,[RFC8446]
 "0x13,0x04",TLS_AES_128_CCM_SHA256,Y,Y,[RFC8446]
-"0x13,0x05",TLS_AES_128_CCM_8_SHA256,Y,N,[RFC8446]
+"0x13,0x05",TLS_AES_128_CCM_8_SHA256,Y,N,[RFC8446][IESG Action 2018-08-16]
 "0x13,0x06-0xFF",Unassigned,,,
 "0x14-55,*",Unassigned,,,
 "0x56,0x00",TLS_FALLBACK_SCSV,Y,N,[RFC7507]
@@ -356,11 +356,11 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0xCC,0xAF-FF",Unassigned,,,
 "0xCD-CF,*",Unassigned,,,
 "0xD0,0x00",Unassigned,,,
-"0xD0,0x01",TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
-"0xD0,0x02",TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
-"0xD0,0x03",TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256,Y,N,[RFC-ietf-tls-ecdhe-psk-aead-05]
+"0xD0,0x01",TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256,Y,Y,[RFC8442]
+"0xD0,0x02",TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384,Y,Y,[RFC8442]
+"0xD0,0x03",TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256,Y,N,[RFC8442]
 "0xD0,0x04",Unassigned,,,
-"0xD0,0x05",TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256,Y,Y,[RFC-ietf-tls-ecdhe-psk-aead-05]
+"0xD0,0x05",TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256,Y,Y,[RFC8442]
 "0xD0,0x06-FF",Unassigned,,,
 "0xD1-FD,*",Unassigned,,,
 "0xFE,0x00-FD",Unassigned,,,

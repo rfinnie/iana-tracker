@@ -1,3 +1,4 @@
 AVP Value,Attribute Name,Reference
-0,ENOUGH_CREDIT,[RFC4006]
-1,NO_CREDIT,[RFC4006]
+0,ENOUGH_CREDIT,[RFC-ietf-dime-rfc4006bis-11]
+1,NO_CREDIT,[RFC-ietf-dime-rfc4006bis-11]
+2-4294967295,Unassigned,
