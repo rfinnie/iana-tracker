@@ -1,4 +1,4 @@
 AVP Value,Attribute Name,Reference
 0,FAILOVER_NOT_SUPPORTED,[RFC-ietf-dime-rfc4006bis-11]
 1,FAILOVER_SUPPORTED,[RFC-ietf-dime-rfc4006bis-11]
-2-4294967295,Unassigned,
+2-2147483647,Unassigned,
