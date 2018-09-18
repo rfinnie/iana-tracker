@@ -1,1 +1,84 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="imap-keywords.xsl"?>
+<?oxygen RNGSchema="imap-keywords.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="imap-keywords">
+  <category>Internet Message Access Protocol (IMAP) Capabilities</category>
+  <title>IMAP Keywords</title>
+  <created>2009-12-22</created>
+  <updated>2018-09-17</updated>
+
+<registry id="imap-keywords-1">
+  <title>IMAP Keywords</title>
+  <xref type="rfc" data="rfc5788"/>
+  <registration_rule>Expert Review</registration_rule>
+  <expert>Arnt Gulbrandsen, Barry Leiba</expert>
+    <record>
+      <value>$MDNSent</value>
+      <name>SHARED</name>
+      <usage>COMMON</usage>
+      <comments/>
+      <xref type="rfc" data="rfc3503"/>
+    </record>
+    <record>
+      <value>$Forwarded</value>
+      <name>BOTH</name>
+      <usage>COMMON</usage>
+      <comments/>
+      <xref type="rfc" data="rfc5550"/>
+    </record>
+    <record>
+      <value>$SubmitPending</value>
+      <name>SHARED</name>
+      <usage>COMMON</usage>
+      <comments/>
+      <xref type="rfc" data="rfc5550"/>
+    </record>
+    <record>
+      <value>$Submitted</value>
+      <name>SHARED</name>
+      <usage>COMMON</usage>
+      <comments/>
+      <xref type="rfc" data="rfc5550"/>
+    </record>
+  <record date="2010-08-26">
+    <value><xref type="uri" data="http://www.iana.org/assignments/imap-keywords/junk/junk-template">$Junk</xref></value>
+    <name>BOTH</name>
+    <usage>COMMON</usage>
+    <comments/>
+    <xref type="person" data="Alexey_Melnikov"/>
+  </record>
+  <record date="2010-08-26">
+    <value><xref type="uri" data="http://www.iana.org/assignments/imap-keywords/notjunk/notjunk-template">$NotJunk</xref></value>
+    <name>BOTH</name>
+    <usage>COMMON</usage>
+    <comments/>
+    <xref type="person" data="Alexey_Melnikov"/>
+  </record>
+  <record date="2017-03-31">
+    <value><xref type="uri" data="http://www.iana.org/assignments/imap-keywords/phishing/phishing-template">$Phishing</xref></value>
+    <name>SHARED</name>
+    <usage>COMMON</usage>
+    <comments/>
+    <xref type="person" data="Rob_Mueller"/>
+  </record>
+  <record date="2018-06-14">
+    <value>$Important</value>
+    <name>PRIVATE</name>
+    <usage>COMMON</usage>
+    <comments/>
+    <xref type="rfc" data="rfc8457"/>
+  </record>
+  </registry>
+  <people>
+    <person id="Alexey_Melnikov">
+      <name>Alexey Melnikov</name>
+      <uri>mailto:alexey.melnikov&amp;isode.com</uri>
+      <updated>2010-08-26</updated>
+    </person>
+    <person id="Rob_Mueller">
+      <name>Rob Mueller</name>
+      <uri>mailto:robm&amp;fastmail.com</uri>
+      <updated>2017-04-03</updated>
+    </person>
+  </people>
+</registry>
