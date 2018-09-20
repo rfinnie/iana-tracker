@@ -38,10 +38,9 @@ Extensible Markup Language (XML),+xml,[RFC7303],"Same as [RFC7303], Section 9.1.
       in this category.","See Section 10, [RFC7303].","See Authors' Addresses section, [RFC7303].","The XML specification is a work product of the World Wide Web 
       Consortium's XML Core Working Group. The W3C has change control over 
       [RFC7303].",2012-11-15,2014-04-17
-JavaScript Object Notation (JSON),+json,[RFC4627][RFC6839],"Per [RFC4627], JSON is allowed to be
-        represented using UTF-8, UTF-16, or UTF-32.  When
-        JSON is written in UTF-8, JSON is 8bit compatible ([RFC2045]).  When JSON is written in UTF-16 or
-        UTF-32, JSON is binary ([RFC2045]).",n/a,"The syntax and semantics of fragment
+JavaScript Object Notation (JSON),+json,[RFC4627][RFC6839],"JSON is encoded using UTF-8, and is binary data. See 
+        [RFC8259] section 8.1 for additional 
+        encoding considerations.",n/a,"The syntax and semantics of fragment
         identifiers specified for +json SHOULD be as
         specified for ""application/json"".  (At
         publication of this document, there is no

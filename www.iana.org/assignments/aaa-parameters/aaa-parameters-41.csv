@@ -3,4 +3,4 @@ AVP Value,Attribute Name,Reference
 1,MAC,[RFC-ietf-dime-rfc4006bis-11]
 2,EUI64,[RFC-ietf-dime-rfc4006bis-11]
 3,MODIFIED_EUI64,[RFC-ietf-dime-rfc4006bis-11]
-4-4294967295,Unassigned,
+4-2147483647,Unassigned,

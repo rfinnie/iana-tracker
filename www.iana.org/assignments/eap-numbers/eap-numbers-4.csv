@@ -12,7 +12,7 @@ Value,Description,Reference
 10,DSS Unilateral,[William_Nace]
 11,KEA,[William_Nace]
 12,KEA-VALIDATE,[William_Nace]
-13,EAP-TLS,[[Aboba]]
+13,EAP-TLS,[RFC5216]
 14,Defender Token (AXENT),[Michael_Rosselli]
 15,RSA Security SecurID EAP,[Magnus_Nystrom]
 16,Arcot Systems EAP,[Rob_Jerdonek]

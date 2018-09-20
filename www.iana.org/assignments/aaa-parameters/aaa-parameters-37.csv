@@ -4,4 +4,4 @@ AVP Value,Attribute Name,Reference
 2,END_USER_SIP_URI,[RFC-ietf-dime-rfc4006bis-11]
 3,END_USER_NAI,[RFC-ietf-dime-rfc4006bis-11]
 4,END_USER_PRIVATE,[RFC-ietf-dime-rfc4006bis-11]
-5-4294967295,Unassigned,
+5-2147483647,Unassigned,

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   
   <title>Registrar IDs</title>
-  <updated>2018-09-06</updated>
+  <updated>2018-09-19</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -809,6 +809,11 @@
       <name>Triara.com S.A. de C.V.</name>
       <status>Terminated</status>
     </record>
+    <record date="2018-09-18">
+      <value>365</value>
+      <name>Reserved for historical use (EDUCAUSE)</name>
+      <status>Reserved</status>
+    </record>
     <record updated="2015-08-20">
       <value>376</value>
       <name>RESERVED-Internet Assigned Numbers Authority</name>
@@ -1159,9 +1164,9 @@
       <name>DomainSite, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-01-26">
+    <record updated="2018-09-13">
       <value>467</value>
-      <name>NHN Techorus Corp.</name>
+      <name>NHN JAPAN Corp.</name>
       <status>Accredited</status>
     </record>
     <record>
@@ -2715,10 +2720,10 @@
       <name>DomainHip.com Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2018-09-14">
       <value>909</value>
       <name>DynaNames.com Inc.</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record>
       <value>910</value>
@@ -5671,9 +5676,9 @@
       <name>camPoint AG</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2018-09-13">
       <value>1505</value>
-      <name>Gransy, s.r.o. d/b/a subreg.cz</name>
+      <name>Gransy, s.r.o.</name>
       <status>Accredited</status>
     </record>
     <record>
@@ -5761,10 +5766,10 @@
       <name>home.pl S.A.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-02-08">
+    <record updated="2018-09-19">
       <value>1523</value>
       <name>Tong Ji Ming Lian (Beijing) Technology Corporation Ltd. (Trename)</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record updated="2017-02-23">
       <value>1524</value>

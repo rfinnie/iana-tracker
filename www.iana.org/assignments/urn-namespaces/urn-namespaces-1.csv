@@ -1,6 +1,6 @@
 URN Namespace,Template,Reference
 3gpp,,[RFC5279]
-3gpp2,[3gpp2-template],[RFC-atarius-dispatch-meid-urn-18]
+3gpp2,[3gpp2-template],[RFC8464]
 adid,,[RFC8107]
 alert,,[RFC7462]
 bbf,,[RFC8057]
@@ -60,7 +60,9 @@ smpte,,[RFC5119]
 swift,,[RFC3615]
 tva,,[RFC4195]
 uci,,[RFC4179]
-ucode,,[RFC6588][RFC Errata 3188][RFC Errata 3189]
+ucode,,"[RFC6588][RFC Errata 
+          3188][RFC Errata 
+          3189]"
 uuid,,[RFC4122]
 web3d,,[RFC3541]
 xmlorg,,[RFC3120]

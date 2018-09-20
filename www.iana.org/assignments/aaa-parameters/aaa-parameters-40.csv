@@ -2,4 +2,4 @@ AVP Value,Attribute Name,Reference
 0,UNIT_BEFORE_TARIFF_CHANGE,[RFC-ietf-dime-rfc4006bis-11]
 1,UNIT_AFTER_TARIFF_CHANGE,[RFC-ietf-dime-rfc4006bis-11]
 2,UNIT_INDETERMINATE,[RFC-ietf-dime-rfc4006bis-11]
-3-4294967295,Unassigned,
+3-2147483647,Unassigned,
