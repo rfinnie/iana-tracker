@@ -46,3 +46,6 @@ sqlnet.oracle.com,sqlnet,"This protocol is used for communication between Oracle
         database client and database server, and its usage as subprotocol 
         of websocket is primarly geared towards cloud deployments. sqlnet 
         supports bi-directional data transfer and is full duplex in nature.",[Feroz_Alam_Khan]
+oneM2M.R2.0.json,oneM2M R2.0 JSON,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
+oneM2M.R2.0.xml,oneM2M R2.0 XML,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
+oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
