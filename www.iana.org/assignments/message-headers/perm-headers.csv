@@ -126,7 +126,7 @@ Downgraded-Resent-To,,mail,obsoleted,[RFC5504][RFC6857]
 Downgraded-Return-Path,,mail,obsoleted,[RFC5504][RFC6857]
 Downgraded-Sender,,mail,obsoleted,[RFC5504][RFC6857]
 Downgraded-To,,mail,obsoleted,[RFC5504][RFC6857]
-Early-Data,,http,standard,[RFC-ietf-httpbis-replay-04]
+Early-Data,,http,standard,[RFC8470]
 Encoding,,mail,,[RFC4021]
 Encrypted,,mail,,[RFC4021]
 ETag,,http,standard,"[RFC7232, Section 2.3]"

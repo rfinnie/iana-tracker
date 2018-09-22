@@ -2,5 +2,5 @@ Value,Description,Expected Version Tokens,Reference
 HTTP,Hypertext Transfer Protocol,"any DIGIT.DIGIT (e.g, ""2.0"")","[RFC7230, Section 2.6]"
 TLS,Transport Layer Security,"ANY DIGIT.DIGIT (e.g.. ""1.2"")",[RFC2817]
 WebSocket,The Web Socket Protocol,,[RFC6455]
-websocket,The Web Socket Protocol,,[RFC6455][RFC-ietf-httpbis-h2-websockets-07]
+websocket,The Web Socket Protocol,,[RFC6455][RFC8441]
 h2c,Hypertext Transfer Protocol version 2 (HTTP/2),,"[RFC7540, Section 3.2]"
