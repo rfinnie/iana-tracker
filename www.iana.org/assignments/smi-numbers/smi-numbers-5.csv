@@ -282,9 +282,12 @@ Port",[Michael_Patrick][http://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-I
 261,otnOtu,OTN Optical channel Transport Unit,[Jim_Vance][http://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
 262,ifVfiType,"VPLS Forwarding Instance Interface
 Type",[Manas_Pati]
-263,g9981,G.998.1 bonded interface,[RFC6768][RFC Errata 3591]
-264,g9982,G.998.2 bonded interface,[RFC6767][RFC Errata 3589]
-265,g9983,G.998.3 bonded interface,[RFC6766][RFC Errata 3588]
+263,g9981,G.998.1 bonded interface,"[RFC6768][RFC Errata 
+          3591]"
+264,g9982,G.998.2 bonded interface,"[RFC6767][RFC Errata 
+          3589]"
+265,g9983,G.998.3 bonded interface,"[RFC6766][RFC Errata 
+          3588]"
 266,"aluEpon       
              (E-PON)",Ethernet Passive Optical Networks,[Karel_Meijfroidt]
 267,aluEponOnu,EPON Optical Network Unit,[Karel_Meijfroidt]
