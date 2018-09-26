@@ -54,15 +54,23 @@ Error-Type,Meaning,Error-value,Reference
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
 10,Reception of an invalid object,0: Unassigned,[RFC5440]
 ,,1: reception of an object with P flag not set although the P-flag must be set according to this specification.,[RFC5440]
-,,"2: Bad label value (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"3: Unsupported number of Segment ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"4: Bad label format (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"5: Non-identical ERO subobjects (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"6: Both SID and NAI are absent in ERO subobject (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"7: Both SID and NAI are absent in RRO subobject (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"2: Bad label value 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"3: Unsupported number of Segment ERO subobjects 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"4: Bad label format 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"5: Non-identical ERO subobjects 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"6: Both SID and NAI are absent in ERO subobject 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"7: Both SID and NAI are absent in RRO subobject 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
 ,,8: SYMBOLIC-PATH-NAME TLV missing,[RFC8281]
-,,"9: Default MSD is specified for the PCEP session (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"10: Non-identical RRO subjects (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"9: Default MSD is specified for the PCEP session 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"10: Non-identical RRO subjects 
+        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
 ,,11: Malformed object,[RFC8408]
 ,,12-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
@@ -165,13 +173,21 @@ Error-Type,Meaning,Error-value,Reference
 ,,"4: Failure, connection without TLS is possible",[RFC8253]
 ,,5: No StartTLS message (nor PCErr/Open) before StartTLSWait timer expiry,[RFC8253]
 ,,6-255: Unassigned,
-26,"Association Error (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",0: Unassigned,[draft-ietf-pce-association-group]
-,,"1: Association-type is not supported (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"2: Too many LSPs in the association group (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"3: Too many association groups (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"4: Association unknown (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"5: Operator-configured association information mismatch (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"6: Association information mismatch (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
-,,"7: Cannot join the association group (TEMPORARY - registered 2017-10-17, expires 2018-10-17)",[draft-ietf-pce-association-group]
+26,"Association Error 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",0: Unassigned,[draft-ietf-pce-association-group]
+,,"1: Association-type is not supported 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"2: Too many LSPs in the association group 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"3: Too many association groups 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"4: Association unknown 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"5: Operator-configured association information mismatch 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"6: Association information mismatch 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
+,,"7: Cannot join the association group 
+        (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
 ,,8-255: Unassigned,[draft-ietf-pce-association-group]
 27-255,Unassigned,0-255: Unassigned,
