@@ -23,7 +23,8 @@ Decimal,Description,References
 22,id-mod-cms-firmware-wrap,[RFC4108]
 23,id-mod-cms-camellia,[RFC3657]
 24,id-mod-cms-2004,[RFC3852]
-25,id-mod-cms-seed,[RFC Errata 3865]
+25,id-mod-cms-seed,"[RFC Errata 
+          3865]"
 26,id-mod-contentCollection,[RFC4073]
 27,id-mod-binarySigningTime,[RFC4049]
 28,id-mod-ets-eSignature-explicitSyntax88,[RFC5126]
@@ -47,7 +48,8 @@ Decimal,Description,References
 46,id-mod-cms-ecc-alg-2009-02,[RFC5753]
 47,id-mod-aesKeyWrapWithPad-88,[RFC5649]
 48,id-mod-aesKeyWrapWithPad-02,[RFC5649]
-49,id-mod-MD5-XOR-EXPERIMENT,[RFC Errata 3866]
+49,id-mod-MD5-XOR-EXPERIMENT,"[RFC Errata 
+          3866]"
 50,id-mod-asymmetricKeyPkgV1,[RFC5958]
 51,id-mod-encryptedKeyPkgV1,[RFC6032]
 52,id-mod-cms-algorithmProtect,[RFC6211]

@@ -6,6 +6,7 @@ Access-Control-Allow-Origin,prov/access-control-allow-origin,http,,[W3C Web Appl
 Access-Control-Max-Age,prov/access-control-max-age,http,,[W3C Web Application Formats Working Group]
 Access-Control-Request-Method,prov/access-control-request-method,http,,[W3C Web Application Formats Working Group]
 Access-Control-Request-Headers,prov/access-control-request-headers,http,,[W3C Web Application Formats Working Group]
+AMP-Cache-Transform,,http,,[https://github.com/ampproject/amphtml/blob/master/spec/amp-cache-transform.md]
 Apparently-To,prov/apparently-to,mail,,[RFC2076]
 ARC-Authentication-Results,prov/arc-authentication-results,mail,,[draft-ietf-dmarc-arc-protocol]
 ARC-Message-Signature,prov/arc-message-signature,mail,,[draft-ietf-dmarc-arc-protocol]

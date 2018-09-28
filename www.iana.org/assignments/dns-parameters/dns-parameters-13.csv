@@ -1,3 +1,4 @@
 Bit,Flag,Description,Reference
-Bit 0,DO,DNSSEC answer OK,[RFC4035][RFC3225][RFC6840][RFC Errata 4928]
+Bit 0,DO,DNSSEC answer OK,"[RFC4035][RFC3225][RFC6840][RFC Errata 
+          4928]"
 Bit 1-15,,Reserved,
