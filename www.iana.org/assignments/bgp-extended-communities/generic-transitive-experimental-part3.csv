@@ -1,4 +1,8 @@
 Sub-Type Value,Name,Reference,Date
-0x00-0x07,Unassigned,,
+0x00-0x03,Unassigned,,
+0x04,SecurityGroupAS4,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#security-group],2018-10-01
+0x05-0x07,Unassigned,,
 0x08,Flow spec redirect AS-4byte format,[RFC7674],2015-08-28
-0x09-0xff,Unassigned,,
+0x09-0x83,Unassigned,,
+0x84,Tag4,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#tag],2018-10-01
+0x85-0xff,Unassigned,,

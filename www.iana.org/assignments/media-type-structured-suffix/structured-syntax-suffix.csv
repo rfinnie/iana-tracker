@@ -38,7 +38,7 @@ Extensible Markup Language (XML),+xml,[RFC7303],"Same as [RFC7303], Section 9.1.
       in this category.","See Section 10, [RFC7303].","See Authors' Addresses section, [RFC7303].","The XML specification is a work product of the World Wide Web 
       Consortium's XML Core Working Group. The W3C has change control over 
       [RFC7303].",2012-11-15,2014-04-17
-JavaScript Object Notation (JSON),+json,[RFC4627][RFC6839],"JSON is encoded using UTF-8, and is binary data. See 
+JavaScript Object Notation (JSON),+json,[RFC8259][RFC6839],"JSON is encoded using UTF-8, and is binary data. See 
         [RFC8259] section 8.1 for additional 
         encoding considerations.",n/a,"The syntax and semantics of fragment
         identifiers specified for +json SHOULD be as
@@ -65,7 +65,7 @@ JavaScript Object Notation (JSON),+json,[RFC4627][RFC6839],"JSON is encoded usin
         
         
         For cases not defined in +json, then as
-        specified in ""xxx/yyy+json"".",See [RFC4627].,Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
+        specified in ""xxx/yyy+json"".",See [RFC8259].,Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
         change control over this registration.",2012-11-27,
 Basic Encoding Rules (BER) message transfer syntax,+ber,[ITU.X690.2008][RFC6839],BER is a binary encoding.,n/a,"At publication of this document, there is no
         fragment identification syntax defined for
@@ -395,7 +395,7 @@ JSON Web Token (JWT),+jwt,"[RFC7519, Section 3][RFC8417, Section 7.2]","binary; 
         The IESG has change control over this registration.",2018-05-15,
 gzip file storage and transfer format,+gzip,[RFC1952][RFC6713],gzip is a binary encoding.,n/a,"The syntax and semantics of
           fragment identifiers specified for +gzip SHOULD be as specified for
-          ""application/gzip"".  (At publication of [RFC-ietf-uta-smtp-tlsrpt-23], 
+          ""application/gzip"".  (At publication of [RFC8460], 
           there is no fragment identification syntax defined for ""application/gzip"".)  
           The syntax and semantics for fragment identifiers for a specific 
           ""xxx/yyy+gzip"" SHOULD be processed as follows:

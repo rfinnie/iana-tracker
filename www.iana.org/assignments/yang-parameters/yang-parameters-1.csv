@@ -83,7 +83,7 @@ ietf-network-instance,,N,urn:ietf:params:xml:ns:yang:ietf-network-instance,ni,,[
 ietf-connection-oriented-oam,,N,urn:ietf:params:xml:ns:yang:ietf-connection-oriented-oam,co-oam,,[RFC-ietf-lime-yang-connection-oriented-oam-model-07],[RFC-ietf-lime-yang-connection-oriented-oam-model-07]'s module file will be posted upon document's publication as RFC.
 ietf-logical-network-element,,N,urn:ietf:params:xml:ns:yang:ietf-logical-network-element,lne,,[RFC-ietf-rtgwg-lne-model-09],[RFC-ietf-rtgwg-lne-model-09]'s module file will be posted upon document's publication as RFC.
 ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[RFC-ietf-netmod-syslog-model-26],[RFC-ietf-netmod-syslog-model-26]'s module file will be posted upon document's publication as RFC.
-ietf-i2rs-rib,,N,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,iir,,[RFC-ietf-i2rs-rib-data-model-15],[RFC-ietf-i2rs-rib-data-model-15]'s module file will be posted upon document's publication as RFC.
+ietf-i2rs-rib,ietf-i2rs-rib@2018-09-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,iir,,[RFC8431],
 ietf-pim-base,,N,urn:ietf:params:xml:ns:yang:ietf-pim-base,pim-base,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon document's publication as RFC.
 ietf-pim-bidir,,N,urn:ietf:params:xml:ns:yang:ietf-pim-bidir,pim-bidir,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon document's publication as RFC.
 ietf-pim-dm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-dm,pim-dm,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon document's publication as RFC.
