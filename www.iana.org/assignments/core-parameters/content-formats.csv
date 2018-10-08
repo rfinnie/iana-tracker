@@ -11,7 +11,7 @@ application/octet-stream,,42,[RFC2045][RFC2046]
 Unassigned,,43-46,
 application/exi,,47,"[""Efficient XML Interchange (EXI) Format 1.0 (Second Edition)"", February 2014]"
 Unassigned,,48-49,
-application/json,,50,[RFC4627]
+application/json,,50,[RFC7159]
 application/json-patch+json,,51,[RFC6902]
 application/merge-patch+json,,52,[RFC7396]
 Unassigned,,53-59,
