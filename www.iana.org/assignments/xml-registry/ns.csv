@@ -1,4 +1,5 @@
 "ID",URI,Filename,Reference
+allocationToken-1.0,urn:ietf:params:xml:ns:allocationToken-1.0,ns/allocationToken-1.0.txt,[RFC-ietf-regext-allocation-token-12]
 areg1,urn:ietf:params:xml:ns:areg1,ns/areg1.txt,[RFC4698]
 asnx,urn:ietf:params:xml:ns:asnx,,[RFC4910]
 basic-location-profiles,urn:ietf:params:xml:ns:basic-location-profiles,ns/basic-location-profiles.txt,[RFC6772]
@@ -199,7 +200,7 @@ yang:ietf-dslite,urn:ietf:params:xml:ns:yang:ietf-dslite,ns/yang/ietf-dslite.txt
 yang:ietf-hardware,urn:ietf:params:xml:ns:yang:ietf-hardware,ns/yang/ietf-hardware.txt,[RFC8348]
 yang:ietf-hardware-state,urn:ietf:params:xml:ns:yang:ietf-hardware-state,ns/yang/ietf-hardware-state.txt,[RFC8348]
 yang:ietf-inet-types,urn:ietf:params:xml:ns:yang:ietf-inet-types,ns/yang/ietf-inet-types.txt,[RFC6991]
-yang:ietf-i2rs-rib,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,ns/yang/ietf-i2rs-rib.txt,[RFC-ietf-i2rs-rib-data-model-15]
+yang:ietf-i2rs-rib,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,ns/yang/ietf-i2rs-rib.txt,[RFC8431]
 yang:ietf-interfaces,urn:ietf:params:xml:ns:yang:ietf-interfaces,ns/yang/ietf-interfaces.txt,[RFC8343]
 yang:ietf-ip,urn:ietf:params:xml:ns:yang:ietf-ip,ns/yang/ietf-ip.txt,[RFC8344]
 yang:ietf-ipfix-psamp,urn:ietf:params:xml:ns:yang:ietf-ipfix-psamp,ns/yang/ietf-ipfix-psamp.txt,[RFC6728]
