@@ -1,1 +1,139 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="ospf-lls-tlvs.xsl"?>
+<?oxygen RNGSchema="ospf-lls-tlvs.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="ospf-lls-tlvs">
+  <title>Open Shortest Path First (OSPF) Link Local Signalling (LLS) - Type/Length/Value Identifiers (TLV)</title>
+  <created>2007-01-31</created>
+  <updated>2018-10-15</updated>
+  <registry id="ospf-lls-tlvs-1">
+    <title>Link Local Signalling TLV Identifiers (LLS Types)</title>
+    <xref type="rfc" data="rfc5613"/>
+    <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0</value>
+      <description>Reserved</description>
+      <xref type="rfc" data="rfc5613"/>
+    </record>
+    <record>
+      <value>1</value>
+      <description>Extended Options and Flags</description>
+      <xref type="rfc" data="rfc5613"/>
+    </record>
+    <record>
+      <value>2</value>
+      <description>Cryptographic Authentication</description>
+      <xref type="rfc" data="rfc5613"/>
+    </record>
+    <record>
+      <value>3</value>
+      <description>Flooding-MPR</description>
+      <xref type="rfc" data="rfc5449"/>
+    </record>
+    <record>
+      <value>4</value>
+      <description>Metric-MPR</description>
+      <xref type="rfc" data="rfc5449"/>
+    </record>
+    <record>
+      <value>5</value>
+      <description>Path-MPR</description>
+      <xref type="rfc" data="rfc5449"/>
+    </record>
+    <record>
+      <value>6</value>
+      <description>State Check Sequence TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>7</value>
+      <description>Neighbor Drop TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>8</value>
+      <description>Request From TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>9</value>
+      <description>Full State For TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>10</value>
+      <description>Active Overlapping Relay TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>11</value>
+      <description>Willingness TLV</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>12-13</value>
+      <description>Unassigned</description>
+    </record>
+    <record>
+      <value>14</value>
+      <description>MDR-Hello</description>
+      <xref type="rfc" data="rfc5614"/>
+    </record>
+    <record>
+      <value>15</value>
+      <description>MDR-DD</description>
+      <xref type="rfc" data="rfc5614"/>
+    </record>
+    <record>
+      <value>16</value>
+      <description>MDR-Metric</description>
+      <xref type="rfc" data="rfc5614"/>
+    </record>
+    <record>
+      <value>17</value>
+      <description>IPv6 MTU TLV</description>
+      <xref type="rfc" data="rfc5838"/>
+    </record>
+    <record>
+      <value>18</value>
+      <description>Local Interface Identifier TLV 
+        (TEMPORARY - registered 2017-11-21, extension registered 2018-10-15, expires 2019-11-21)</description>
+      <xref type="draft" data="draft-ietf-ospf-lls-interface-id"/>
+    </record>
+    <record>
+      <value>19-32767</value>
+      <description>Unassigned</description>
+    </record>
+    <record>
+      <value>32768-65535</value>
+      <description>Reserved for Private Use</description>
+      <xref type="rfc" data="rfc5613"/>
+    </record>
+  </registry>
+  <registry id="ospf-lls-tlvs-2">
+    <title>LLS Type 1 Extended Options and Flags</title>
+    <xref type="rfc" data="rfc5613"/>
+    <registration_rule>Expert Review</registration_rule>
+    <expert>Not designated</expert>
+    <record>
+      <value>0x00000001</value>
+      <description>LSDB Resynchronization (LR)</description>
+      <xref type="rfc" data="rfc4811"/>
+    </record>
+    <record>
+      <value>0x00000002</value>
+      <description>Restart Signal (RS-bit)</description>
+      <xref type="rfc" data="rfc4812"/>
+    </record>
+    <record>
+      <value>0x00000004</value>
+      <description>I-bit</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+    <record>
+      <value>0x00000008</value>
+      <description>F-bit</description>
+      <xref type="rfc" data="rfc5820"/>
+    </record>
+  </registry>
+  <people/>
+</registry>
