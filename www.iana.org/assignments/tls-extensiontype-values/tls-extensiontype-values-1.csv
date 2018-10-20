@@ -23,7 +23,7 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 21,padding,CH,Y,[RFC7685]
 22,encrypt_then_mac,-,Y,[RFC7366]
 23,extended_master_secret,-,Y,[RFC7627]
-24,token_binding,-,Y,[RFC-ietf-tokbind-negotiation-14]
+24,token_binding,-,Y,[RFC8472]
 25,cached_info,-,Y,[RFC7924]
 26,tls_lts,-,N,[draft-gutmann-tls-lts]
 27,"compress_certificate 
