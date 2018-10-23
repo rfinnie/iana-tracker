@@ -1,1 +1,36 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Value,Description,Reference
+0,Reserved,[RFC7684]
+1,SID/Label Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+2,Adj-SID Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+3,LAN Adj-SID/Label Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+4,Network-to-Router Metric Sub-TLV,[RFC8042]
+5,RTM Capability,[RFC8169]
+6,OSPFv2 Link MSD,[RFC-ietf-ospf-segment-routing-msd-24]
+7,Graceful-Link-Shutdown Sub-TLV,[RFC8379]
+8,Remote IPv4 Address Sub-TLV,[RFC8379]
+9,Local/Remote Interface ID Sub-TLV,[RFC8379]
+10,"Extended Link Attribute 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+11,"Shared Risk Link Group 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+12,"Unidirectional Link Delay 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+13,"Min/Max Unidirectional Link Delay 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+14,"Unidirectional Delay Variation 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+15,"Unidirectional Link Loss 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+16,"Unidirectional Residual Bandwidth 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+17,"Unidirectional Available Bandwidth 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+18,"Unidirectional Utilized Bandwidth 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+19,"Administrative Group 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+20,"Extended Administrative Group 
+        (TEMPORARY - registered 2018-06-06, expires 2019-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
+21-32767,Unassigned,
+32768-33023,Reserved for Experimental Use,[RFC7684]
+33024-65535,Reserved,[RFC7684]
