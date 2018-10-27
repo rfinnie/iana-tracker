@@ -14777,6 +14777,7 @@ cport= the port for the content HTTP server
 sqp,,tcp,Square Connect Control Protocol,[Square_Connect_Inc],[Mat_Henshall],2011-10-07,,,,,Defined TXT keys: Proprietary
 ss-sign,,tcp,Samsung Smart Interaction for Group Network,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
 ss-sign-disc,,udp,Samsung Smart Interaction for Group Network Discovery,[Samsung],[Lee_HoJun],2013-01-03,,,,,Defined TXT keys: None
+ssd-audio,,tcp,Studio Six Digital Wireless Audio,[Studio_Six_Digital_LLC],[Andrew_Smith],2018-10-26,,,,,Defined TXT keys: None
 ssh,,tcp,SSH Remote Login Protocol,[Tatu_Ylonen],[Tatu_Ylonen],,,,,,Defined TXT keys:  u=<username> p=<password>
 ssscreenshare,,,Screen Sharing,,,,,,,,Defined TXT keys: None
 startrecapp,,tcp,Remote Controlled Multimedia Recorder Network,[Luca_Cipressi],[Luca_Cipressi],2015-03-27,,,,,Defined TXT keys: None

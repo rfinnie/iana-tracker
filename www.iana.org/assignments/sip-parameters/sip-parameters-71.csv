@@ -120,3 +120,11 @@ g.3gpp.mcvideo.ambient-viewing-call-release,"This feature-capability indicator w
 g.3gpp.mcptt.ambient-listening-call-release,"This feature-capability indicator when included in a Feature-Caps header field as specified in IETF
         [RFC6809] in a SIP INVITE request or a SIP 200 (OK) response to a SIP INVITE request 
         indicates that the MCPTT server is capable of receiving a SIP BYE from an MCPTT client to release an ambient-listening call.",[3GPP TS 24.379 v14.5.0][Frederic_Firmin]
+g.3gpp.dynamic-e-stn-drvcc,"This feature-capability indicator, when included in a Feature-Caps header field as specified in IETF
+        [RFC6809] in a SIP response to a SIP INVITE request, indicates support to transfer the 
+        session to the circuit switched (CS) domain using the Emergency Session Transfer Number for DRVCC digit string.",[3GPP TS 24.237][Frederic_Firmin]
+g.3gpp.ps2cs-srvcc-term-pre-alerting,"This feature-capability indicator when used in a Feature-Caps header field of a SIP request or a SIP 
+        response indicates that: 1. the functional entity including the feature-capability indicator in the SIP message 
+        supports the PS to CS SRVCC for terminating calls in pre-alerting phase; and 2. all entities of which the functional 
+        entity including the feature-capability indicator in the SIP message is aware of being requested to support the feature 
+        do support the PS to CS SRVCC for terminating calls in pre-alerting phase.",[3GPP TS 24.237][Frederic_Firmin]
