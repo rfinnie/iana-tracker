@@ -43,7 +43,7 @@ Tag,Data Item,Semantics,Reference
 256,multiple,mark value as having string references,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann]
 257,byte string,Binary MIME message,[http://peteroupc.github.io/CBOR/binarymime.html][Peter_Occil]
 258,array,Mathematical finite set,[https://github.com/input-output-hk/cbor-sets-spec/blob/master/CBOR_SETS.md][Alfredo_Di_Napoli]
-259,Unassigned,,
+259,map,Map datatype with key-value operations (e.g. `.get()/.set()/.delete()`),[https://github.com/shanewholloway/js-cbor-codec/blob/master/docs/CBOR-259-spec--explicit-maps.md][Shane_Holloway]
 260,byte string,Network Address (IPv4 or IPv6 or MAC Address),[http://www.employees.org/~ravir/cbor-network.txt][Ravi_Raju]
 261,map (IPAddress + Mask Length),Network Address Prefix (IPv4 or IPv6 Address + Mask Length),[https://github.com/toravir/CBOR-Tag-Specs/blob/master/networkPrefix.md][Ravi_Raju]
 262,byte string,Embedded JSON Object,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/embeddedJSON.md][Ravi_Raju]
