@@ -50,7 +50,8 @@ Tag,Data Item,Semantics,Reference
 263,byte string,Hexadecimal string,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/hexString.md][Ravi_Raju]
 264,array,Decimal fraction with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
 265,array,Bigfloat with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
-266-1000,Unassigned,,
+266,text string,Internationalized resource identifier (IRI),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil]
+267-1000,Unassigned,,
 1001,map,extended time,[draft-bormann-cbor-time-tag-01]
 1002,map,duration,[draft-bormann-cbor-time-tag-01]
 1003,map,period,[draft-bormann-cbor-time-tag-01]

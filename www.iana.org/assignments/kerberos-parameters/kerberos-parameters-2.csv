@@ -6,13 +6,13 @@ sumtype value,Checksum type,checksum size,Reference
 4,des-mac (deprecated),16,[RFC6649]
 5,des-mac-k (deprecated),8,[RFC6649]
 6,rsa-md4-des-k (deprecated),16,[RFC6649]
-7,rsa-md5 (deprecated),16,[RFC-ietf-curdle-des-des-des-die-die-die-05]
+7,rsa-md5 (deprecated),16,[RFC8429]
 8,rsa-md5-des (deprecated),24,[RFC6649]
 9,rsa-md5-des3,24,
 10,sha1 (unkeyed),20,
 11,Unassigned,,
-12,hmac-sha1-des3-kd (deprecated),20,[RFC-ietf-curdle-des-des-des-die-die-die-05]
-13,hmac-sha1-des3 (deprecated),20,[RFC-ietf-curdle-des-des-des-die-die-die-05]
+12,hmac-sha1-des3-kd (deprecated),20,[RFC8429]
+13,hmac-sha1-des3 (deprecated),20,[RFC8429]
 14,sha1 (unkeyed),20,
 15,hmac-sha1-96-aes128,20,[RFC3962]
 16,hmac-sha1-96-aes256,20,[RFC3962]
