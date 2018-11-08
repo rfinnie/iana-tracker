@@ -115,3 +115,18 @@ ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
         File Distribution (FD).",[3GPP TS 24.282 14.3.0][Frederic_Firmin]
 31,g.3gpp.mcvideo,"This media feature tag when used in a SIP request or a SIP response indicates that the function sending 
         the SIP message supports Mission Critical Video (MCVideo) communication.",[3GPP TS 24.281 Rel-14][Frederic_Firmin]
+32,g.3gpp.dynamic-e-stn-drvcc,"This media feature-tag when used in a Contact header field of a SIP request or a SIP response 
+        indicates that the functional entity sending the SIP message supports the use of dynamic-e-stn-drvcc.",[3GPP TS 24.237][Frederic_Firmin]
+33,g.3gpp.ps2cs-srvcc-mid-call-emergency,"This media feature-tag, when used in a Contact header field of a SIP request or a SIP response, 
+        indicates that the functional entity sending the SIP message supports the PS to CS SRVCC for emergency 
+        session in early dialog state with active speech media component when both the emergency session in early 
+        dialog state with active speech media component and a non-emergency call in confirmed dialog state with 
+        inactive speech media component exists.",[3GPP TS 24.237][Frederic_Firmin]
+34,g.3gpp.ps2cs-srvcc-term-pre-alerting,"This media feature tag when used in a Contact header field of a SIP request or a SIP response 
+        indicates that the functional entity sending the SIP message supports the PS to CS SRVCC for terminating 
+        calls in pre-alerting phase.",[3GPP TS 24.237][Frederic_Firmin]
+35,g.3gpp.ps-data-off,"This media feature tag when included in a Contact header field in a REGISTER request indicates 
+        the status of the 3GPP PS data off for the registration time. This media feature tag, when included in the 
+        Contact header field in a REGISTER request indicates that the UE supports the 3GPP PS data off. 
+        The g.3gpp.ps-data-off media feature tag can take a value that indicates whether the 3GPP PS data off has been 
+        activated or deactivated by the user at the UE.",[3GPP TS 24.29][Frederic_Firmin]
