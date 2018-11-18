@@ -138,5 +138,5 @@ Value,Description,Client ORO,Singleton Option,Reference
 136,"OPTION_V6_ZEROTOUCH_REDIRECT 
         (TEMPORARY - registered 2018-02-08, expires 2019-02-08)",Yes,Yes,[draft-ietf-netconf-zerotouch]
 137-142,Unassigned,,,
-143,OPTION-IPv6_ADDRESS-ANDSF,Yes,Yes,[RFC6153]
+143,OPTION-IPv6_Address-ANDSF,Yes,Yes,[RFC6153]
 144-65535,Unassigned,,,

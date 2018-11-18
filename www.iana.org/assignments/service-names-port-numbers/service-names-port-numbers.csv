@@ -13634,7 +13634,7 @@ xn-control,38422,sctp,Xn Control Plane (3GPP),[Luis_Lopes],[Luis_Lopes],2017-05-
 ,38423-38461,,Unassigned,,,,,,,,
 ,38462,tcp,Reserved,,,,,,,,
 ,38462,udp,Reserved,,,,,,,,
-e1-interface,38462,sctp,E1 signalling transport,[Huawei_Technologies_France],[Yang_Xudong][Issam_Toufik],2018-11-06,,,,,
+e1-interface,38462,sctp,E1 signalling transport (3GPP),[Huawei_Technologies_France],[Yang_Xudong][Issam_Toufik],2018-11-06,2018-11-15,,,,
 ,38463-38471,,Unassigned,,,,,,,,
 ,38472,tcp,Reserved,,,,,,,,
 ,38472,udp,Reserved,,,,,,,,
