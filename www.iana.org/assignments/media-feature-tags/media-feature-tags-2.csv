@@ -129,4 +129,4 @@ ETSI TS 124 341.",[ETSI TS 124 341][John_M_Meredith]
         the status of the 3GPP PS data off for the registration time. This media feature tag, when included in the 
         Contact header field in a REGISTER request indicates that the UE supports the 3GPP PS data off. 
         The g.3gpp.ps-data-off media feature tag can take a value that indicates whether the 3GPP PS data off has been 
-        activated or deactivated by the user at the UE.",[3GPP TS 24.29][Frederic_Firmin]
+        activated or deactivated by the user at the UE.",[3GPP TS 24.229][Frederic_Firmin]
