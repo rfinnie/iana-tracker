@@ -1,5 +1,5 @@
 Type,Description,Reference
-1,DUID-LLT,[RFC-ietf-dhc-rfc3315bis-13]
-2,DUID-EN,[RFC-ietf-dhc-rfc3315bis-13]
-3,DUID-LL,[RFC-ietf-dhc-rfc3315bis-13]
+1,DUID-LLT,[RFC8415]
+2,DUID-EN,[RFC8415]
+3,DUID-LL,[RFC8415]
 4,DUID-UUID,[RFC6355]

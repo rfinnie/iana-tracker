@@ -14396,6 +14396,7 @@ keynoteaccess,,tcp,KeynoteAccess is used for sending remote requests/responses w
 keynotepairing,,tcp,KeynotePairing is used to pair Keynote Remote with Keynote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 kiwin,,tcp,Topology Discovery,[Stephen_kiwin_PALM],[Stephen_kiwin_PALM],2015-06-30,,,,,"Defined TXT keys: kiwin, top"
 ktp,,,Kabira Transaction Platform,[Ramiro_Sarmiento],[Ramiro_Sarmiento],,,,,,Defined TXT keys: None
+kyma,,tcp,Symbolic Sound Kyma Service Discovery,[Symbolic_Sound_Corporation],[Kurt_Hebel],2018-11-28,,,,,Defined TXT keys: None
 la-maint,,,IMP Logical Address Maintenance,,,,2013-05-24,,,,This service name is no longer in use.
 labyrinth,,udp,Labyrinth local multiplayer protocol,[Andreas_Alptun],[Andreas_Alptun],,,,,,Defined TXT keys: None
 lan2p,,,Lan2P Peer-to-Peer Network Protocol,[Ben_Guild],[Ben_Guild],,,,,,Defined TXT keys: None
