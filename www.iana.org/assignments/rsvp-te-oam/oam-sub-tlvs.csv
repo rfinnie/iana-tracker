@@ -5,4 +5,5 @@ Type,Description,Reference
 32,Ethernet OAM Configuration Sub-TLV,[RFC7369]
 33,MPLS OAM Configuration Sub-TLV,[RFC7487]
 34-65533,Unassigned,
-65534-65535,Reserved for Experimental Use,[RFC7260][RFC Errata 4106]
+65534-65535,Reserved for Experimental Use,"[RFC7260][RFC Errata 
+          4106]"

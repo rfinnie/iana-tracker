@@ -14743,6 +14743,7 @@ slimcli,,,SliMP3 Server Command-Line Interface,[Dean_Blackketter_2],[Dean_Blackk
 slimhttp,,,SliMP3 Server Web Interface,[Dean_Blackketter_2],[Dean_Blackketter_2],,,,,,Defined TXT keys: None
 slpda,,tcp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
 slpda,,udp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
+smag,,tcp,terminal access to laundry appliances,[Schulthess_Maschinen_AG],[Michael_Schwetz],2018-11-30,,,,,"Defined TXT keys: mName, tName, lName, Type, Timestamp"
 smartenergy,,,Smart Energy Profile,[Robby_Simpson],[Robby_Simpson],,,,,,Defined TXT keys: See http://www.zigbee.org/SmartEnergy
 smartsocket,,tcp,home control,[Robert_Diamond],[Robert_Diamond],2012-07-06,,,,,Defined TXT keys: None
 smb,,,Server Message Block over TCP/IP,,,,,,,,Defined TXT keys: u=<username> p=<password> path=<path>

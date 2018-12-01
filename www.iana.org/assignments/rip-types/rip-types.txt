@@ -1,1 +1,143 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+                                                    Routing Information Protocol (RIP) Parameters
+
+   Last Updated
+           2018-06-12
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * RIP Commands
+     * RIP Update Headers
+     * RIP Address Family Identifiers
+     * RIP Authentication Type
+     * RIPNG Commands
+     * RIPNG Update Headers
+
+RIP Commands
+
+   Registration Procedure(s)
+
+ Not defined
+
+   Reference
+           [RFC1723]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value         Description        Reference                                                 Notes
+   0      Invalid
+   1      Request                   [RFC1058]
+   2      Response                  [RFC1058]
+   3      TraceOn                   [RFC1058]
+   4      TraceOff                  [RFC1058]
+   5      Reserved                  [RFC1058]
+   6      Triggered Request         [RFC1582] There are widely deployed implementations that don't support Triggered UDP that use value 6 = "Poll
+                                              Entry" (undocumented)
+   7      Triggered Response        [RFC1582]
+   8      Triggered Acknowledgement [RFC1582]
+   9      Update Request            [RFC2091]
+   10     Update Response           [RFC2091]
+   11     Update Acknowledge        [RFC2091]
+   12-254 Unassigned
+
+RIP Update Headers
+
+   Registration Procedure(s)
+
+ Not Defined
+
+   Reference
+           [RFC1058]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value    Description    Reference Notes
+   0     must be discarded [RFC1058]
+   1     version 1         [RFC1058]
+   2     version 2         [RFC2453]
+   3-254 Unassigned
+
+RIP Address Family Identifiers
+
+   Registration Procedure(s)
+
+ Not defined
+
+   Reference
+           [RFC1058]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Value                            Description                           Reference                        Notes
+   0       assigned but, unspecified. Associated full route table exchange [RFC1058]
+   1       Unassigned
+   2       IP                                                              [RFC1058]
+   3-65534 Unassigned
+   65535   Authentication present                                          [RFC1388] This is represented in hex as 0xFFFF in Section 3.1
+
+RIP Authentication Type
+
+   Registration Procedure(s)
+
+ Not defined
+
+   Reference
+           [RFC1388]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Value          Description         Reference                   Notes
+   0       none
+   1       Authentication Trailer      [RFC4822] Only used with Cryptographic Hash Function
+   2       Plain-text password         [RFC1388]
+   3       Cryptographic Hash Function [RFC4822] Requires Authentication Trailer
+   4-65534 Unassigned
+
+RIPNG Commands
+
+   Registration Procedure(s)
+
+ Not defined
+
+   Reference
+           [RFC2080]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value Description Reference Notes
+   1     Request     [RFC2080]
+   2     Response    [RFC2080]
+   3-255 Unassigned
+
+RIPNG Update Headers
+
+   Registration Procedure(s)
+
+ Not defined
+
+   Reference
+           [RFC2080]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value Description Reference       Notes
+   0     Unassigned            Must be discarded
+   1     Version 1   [RFC2080]
+   2-254 Unassigned
