@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2018-11-15
+           2018-11-30
 
    Expert(s)
 
@@ -1460,9 +1460,9 @@ kshell              544        udp    krcmd
 appleqtcsrvr        545        tcp    appleqtcsrvr                 [Murali_Ranganathan]                                  [Murali_Ranganathan]
 appleqtcsrvr        545        udp    appleqtcsrvr                 [Murali_Ranganathan]                                  [Murali_Ranganathan]
 dhcpv6-client       546        tcp    DHCPv6 Client
-dhcpv6-client       546        udp    DHCPv6 Client                [IESG]                                                [IETF_Chair]                                                           2018-05-21   [RFC-ietf-dhc-rfc3315bis-13]
+dhcpv6-client       546        udp    DHCPv6 Client                [IESG]                                                [IETF_Chair]                                                           2018-05-21   [RFC8415]
 dhcpv6-server       547        tcp    DHCPv6 Server                [IESG]                                                [IETF_Chair]                                                           2018-05-21   [RFC5460]
-dhcpv6-server       547        udp    DHCPv6 Server                [IESG]                                                [IETF_Chair]                                                           2018-05-21   [RFC-ietf-dhc-rfc3315bis-13]
+dhcpv6-server       547        udp    DHCPv6 Server                [IESG]                                                [IETF_Chair]                                                           2018-05-21   [RFC8415]
 afpovertcp          548        tcp    AFP over TCP                 [Leland_Wallace]                                      [Leland_Wallace]                                                                                                                                         Defined TXT keys: u=<username> p=<password> path=<path>
 afpovertcp          548        udp    AFP over TCP                 [Leland_Wallace]                                      [Leland_Wallace]                                                                                                                                         Defined TXT keys: u=<username> p=<password> path=<path>
 idfp                549        tcp    IDFP                         [Ramana_Kovi]                                         [Ramana_Kovi]
@@ -10037,9 +10037,9 @@ restconf-ch-tls    4336        tcp    RESTCONF Call Home (TLS)     [IESG]       
                  4337-4339            Unassigned
 gaia               4340        tcp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
 gaia               4340        udp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
-lisp-data          4341        tcp    LISP Data Packets            [Dino_Farinacci]                                      [Dino_Farinacci]                                          2007-11-12
+                   4341        tcp    Reserved                                                                                                                                     2007-11-12   2018-11-30
 lisp-data          4341        udp    LISP Data Packets            [IESG]                                                [IETF_Chair]                                              2007-11-12   2012-04-26   [RFC6830]
-lisp-cons          4342        tcp    LISP-CONS Control
+                   4342        tcp    Reserved                                                                                                                                                  2018-11-30
 lisp-control       4342        udp    LISP Control Packets         [IESG]                                                [IETF_Chair]                                              2007-05      2012-04-26   [RFC6830]
 unicall            4343        tcp    UNICALL                      [James_Powell_2]                                      [James_Powell_2]
 unicall            4343        udp    UNICALL                      [James_Powell_2]                                      [James_Powell_2]
@@ -14026,7 +14026,11 @@ hncp-dtls-port     8232        udp    HNCP over DTLS               [IESG]       
                  8233-8242            Unassigned
 synapse-nhttps     8243        tcp    Synapse Non Blocking HTTPS   [Ruwan_Linton]                                        [Ruwan_Linton]                                            2008-07-10
 synapse-nhttps     8243        udp    Synapse Non Blocking HTTPS   [Ruwan_Linton]                                        [Ruwan_Linton]                                            2008-07-10
-                 8244-8269            Unassigned
+                 8244-8265            Unassigned
+                   8266        tcp    Reserved
+espeasy-p2p        8266        udp    ESPeasy peer-2-peer          [ESPeasy]                                             [Gijs_Noorlander]                                         2018-11-28
+                                      communication
+                 8267-8269            Unassigned
 robot-remote       8270        tcp    Robot Framework Remote       [Robot_Framework_Foundation]                          [Chris_Newman]                                            2017-01-26
                                       Library Interface
                    8270        udp    Reserved
@@ -17680,6 +17684,8 @@ keynotepairing                 tcp    pair Keynote Remote with     [Apple]      
                                       Keynote
 kiwin                          tcp    Topology Discovery           [Stephen_kiwin_PALM]                                  [Stephen_kiwin_PALM]                                      2015-06-30                                                                                     Defined TXT keys: kiwin, top
 ktp                                   Kabira Transaction Platform  [Ramiro_Sarmiento]                                    [Ramiro_Sarmiento]                                                                                                                                       Defined TXT keys: None
+kyma                           tcp    Symbolic Sound Kyma Service  [Symbolic_Sound_Corporation]                          [Kurt_Hebel]                                              2018-11-28                                                                                     Defined TXT keys: None
+                                      Discovery
 la-maint                              IMP Logical Address                                                                                                                                       2013-05-24                                                                        This service name is no longer in use.
                                       Maintenance
 labyrinth                      udp    Labyrinth local multiplayer  [Andreas_Alptun]                                      [Andreas_Alptun]                                                                                                                                         Defined TXT keys: None
@@ -18254,6 +18260,8 @@ slpda                          tcp    Remote Service Discovery in               
                                       the Service Location
 slpda                          udp    Remote Service Discovery in                                                                                                                                            [RFC3832]
                                       the Service Location
+smag                           tcp    terminal access to laundry   [Schulthess_Maschinen_AG]                             [Michael_Schwetz]                                         2018-11-30                                                                                     Defined TXT keys: mName, tName, lName, Type, Timestamp
+                                      appliances
 smartenergy                           Smart Energy Profile         [Robby_Simpson]                                       [Robby_Simpson]                                                                                                                                          Defined TXT keys: See http://www.zigbee.org/SmartEnergy
 smartsocket                    tcp    home control                 [Robert_Diamond]                                      [Robert_Diamond]                                          2012-07-06                                                                                     Defined TXT keys: None
 smb                                   Server Message Block over                                                                                                                                                                                                                   Defined TXT keys: u=<username> p=<password> path=<path>
@@ -20188,6 +20196,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Erwin_Hoffmann]                                          Erwin Hoffmann             FEHCom                   mailto:feh&fehcom.de                                          2015-01-09
 [efsta]                                                                              European Fiscal          mailto:dot&efsta.org                                          2013-08-13
                                                                                      Standards Association
+[ESPeasy]                                                                            ESPeasy                  mailto:gijs.noorlander&gmail.com                              2018-11-28
 [Eugene_Hopkinson]                                        Eugene Hopkinson           VoxelStorm               mailto:slowriot&voxelstorm.com                                2012-11-08
 [Etai_Lev_Ran]                                            Etai Lev-Ran                                        mailto:elevran&cisco.com                                      2005-02
 [Ethan_Fremen]                                            Ethan Fremen                                        mailto:mindlace&digicool.com
@@ -20400,6 +20409,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ghanshyam_Patel]                                         Ghanshyam Patel                                     mailto:gpatel&natinc.com                                      2003-11
 [Gianosvaldo_Fadin]                                       Gianosvaldo Fadin          IEC Central Office       mailto:gianosvaldo.fadin&anie.it                              2015-07-24
 [Gijs_Middelkamp]                                         Gijs Middelkamp                                     mailto:astergate-fax&huisken-systems.nl                       2010-02-03
+[Gijs_Noorlander]                                         Gijs Noorlander                                     mailto:gijs.noorlander&gmail.com                              2018-11-28
 [Gil_Greenbaum]                                           Gil Greenbaum                                       mailto:gcole&nisd.cam.unisys.com
 [Gil_Hecht]                                               Gil Hecht                                           mailto:GilH&aks.com
 [Gil_Shafriri]                                            Gil Shafriri                                        mailto:shafriri&ilccm1.iil.intel.com
@@ -21467,6 +21477,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kristoffer_Nilsson]                                      Kristoffer Nilsson                                  mailto:kristoffer.nilsson&hutchison3g.com                     2002-02
 [Kunihiko_Morota]                                         Kunihiko Morota                                     mailto:morota.kunihiko&jp.panasonic.com                       2005-08
 [Kurt_Haubner]                                            Kurt Haubner                                        mailto:haubner&ibm.net
+[Kurt_Hebel]                                              Kurt Hebel                 Symbolic Sound           mailto:kurt&symbolicsound.com                                 2018-11-28
+                                                                                     Corporation
 [Kurt_Nissen]                                             Kurt Nissen                                         mailto:kn&proces-data.com                                     2004-02
 [Kyle_Lussier]                                            Kyle Lussier                                        mailto:klussier&autonoc.com                                   2005-12
 [Kyle_Unice]                                              Kyle Unice                                          mailto:kyle&midnighttech.com
@@ -21995,6 +22007,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michael_Schmidt]                                         Michael Schmidt                                     mailto:mmaass&us.ibm.com
 [Michael_Schonborn]                                       Michael Schönborn          T-Mobile International   mailto:michael.schoenborn&t-mobile.net                        2009-09-11
                                                                                      AG
+[Michael_Schwetz]                                         Michael Schwetz            Schulthess Maschinen AG  mailto:michael.schwetz&schulthess.ch                          2018-11-30
 [Michael_Settles]                                         Michael Settles                                     mailto:michael.settles&verizon.net                            2002-03
 [Michael_Sharpe]                                          Michael Sharpe                                      mailto:iana-ports&netiq.com                                   2010-09-14
 [Michael_Shearson]                                        Michael Shearson                                    mailto:mshearson&peerglobal.com
@@ -23152,6 +23165,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Saugata_Guha]                                            Saugata Guha                                        mailto:sguha&veritas.com                                      2004-05
 [ScaleFT_Inc]                                             ScaleFT, Inc                                        mailto:notices&scaleft.com                                    2016-04-07
 [Schindler_Aufzuege_ag]                                                              Schindler Aufzuege ag    mailto:arno.odermatt&ch.schindler.com                         2017-07-10
+[Schulthess_Maschinen_AG]                                                            Schulthess Maschinen AG  mailto:iot-admin&schulthess.ch                                2018-11-30
 [SCOOP_at_F_Project]                                                                 SCOOP@F Project          mailto:houda.labiod&telecom-paristech.fr                      2016-02-04
 [Scott_A_Kramer]                                          Scott A. Kramer                                     mailto:sk&tleilaxu.sde.hp.com
 [Scott_Anderson]                                          Scott Anderson                                      mailto:sanderso&workingmachines.com
@@ -23539,6 +23553,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sylvia_Siu_2]                                            Sylvia Siu                                          mailto:ssiu&svnetworks.com
 [Symantec_Corp]                                                                      Symantec Corp            mailto:neel_bhatt&symantec.com                                2012-01-03
 [Symantec_Corp2]                                                                     Symantec                 mailto:info&symantec.com                                      2012-05-07
+[Symbolic_Sound_Corporation]                                                         Symbolic Sound           mailto:symsound&symbolicsound.com                             2018-11-28
+                                                                                     Corporation
 [Synclavier_Digital]                                                                 Synclavier Digital       mailto:admin&synclavier.com                                   2016-01-27
 [System_Administrator]                                    System Administrator                                mailto:sysadmin&silvaco.com                                   2003-06
 [Taber_Buhl]                                              Taber Buhl                                          mailto:taber&tb2.com                                          2015-09-24

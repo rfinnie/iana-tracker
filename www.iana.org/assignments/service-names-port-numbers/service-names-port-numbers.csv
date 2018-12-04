@@ -1107,9 +1107,9 @@ kshell,544,udp,krcmd,,,,,,,,
 appleqtcsrvr,545,tcp,appleqtcsrvr,[Murali_Ranganathan],[Murali_Ranganathan],,,,,,
 appleqtcsrvr,545,udp,appleqtcsrvr,[Murali_Ranganathan],[Murali_Ranganathan],,,,,,
 dhcpv6-client,546,tcp,DHCPv6 Client,,,,,,,,
-dhcpv6-client,546,udp,DHCPv6 Client,[IESG],[IETF_Chair],,2018-05-21,[RFC-ietf-dhc-rfc3315bis-13],,,
+dhcpv6-client,546,udp,DHCPv6 Client,[IESG],[IETF_Chair],,2018-05-21,[RFC8415],,,
 dhcpv6-server,547,tcp,DHCPv6 Server,[IESG],[IETF_Chair],,2018-05-21,[RFC5460],,,
-dhcpv6-server,547,udp,DHCPv6 Server,[IESG],[IETF_Chair],,2018-05-21,[RFC-ietf-dhc-rfc3315bis-13],,,
+dhcpv6-server,547,udp,DHCPv6 Server,[IESG],[IETF_Chair],,2018-05-21,[RFC8415],,,
 afpovertcp,548,tcp,AFP over TCP,[Leland_Wallace],[Leland_Wallace],,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
 afpovertcp,548,udp,AFP over TCP,[Leland_Wallace],[Leland_Wallace],,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
 idfp,549,tcp,IDFP,[Ramana_Kovi],[Ramana_Kovi],,,,,,
@@ -8507,9 +8507,9 @@ restconf-ch-tls,4336,tcp,RESTCONF Call Home (TLS),[IESG],[IETF_Chair],2016-01-12
 ,4337-4339,,Unassigned,,,,,,,,
 gaia,4340,tcp,Gaia Connector Protocol,[Philippe_Detournay],[Philippe_Detournay],2007-11-12,,,,,
 gaia,4340,udp,Gaia Connector Protocol,[Philippe_Detournay],[Philippe_Detournay],2007-11-12,,,,,
-lisp-data,4341,tcp,LISP Data Packets,[Dino_Farinacci],[Dino_Farinacci],2007-11-12,,,,,
+,4341,tcp,Reserved,,,2007-11-12,2018-11-30,,,,
 lisp-data,4341,udp,LISP Data Packets,[IESG],[IETF_Chair],2007-11-12,2012-04-26,[RFC6830],,,
-lisp-cons,4342,tcp,LISP-CONS Control,,,,,,,,
+,4342,tcp,Reserved,,,,2018-11-30,,,,
 lisp-control,4342,udp,LISP Control Packets,[IESG],[IETF_Chair],2007-05,2012-04-26,[RFC6830],,,
 unicall,4343,tcp,UNICALL,[James_Powell_2],[James_Powell_2],,,,,,
 unicall,4343,udp,UNICALL,[James_Powell_2],[James_Powell_2],,,,,,
@@ -11575,7 +11575,10 @@ hncp-dtls-port,8232,udp,HNCP over DTLS,[IESG],[IETF_Chair],2016-01-13,,[RFC7788]
 ,8233-8242,,Unassigned,,,,,,,,
 synapse-nhttps,8243,tcp,Synapse Non Blocking HTTPS,[Ruwan_Linton],[Ruwan_Linton],2008-07-10,,,,,
 synapse-nhttps,8243,udp,Synapse Non Blocking HTTPS,[Ruwan_Linton],[Ruwan_Linton],2008-07-10,,,,,
-,8244-8269,,Unassigned,,,,,,,,
+,8244-8265,,Unassigned,,,,,,,,
+,8266,tcp,Reserved,,,,,,,,
+espeasy-p2p,8266,udp,ESPeasy peer-2-peer communication,[ESPeasy],[Gijs_Noorlander],2018-11-28,,,,,
+,8267-8269,,Unassigned,,,,,,,,
 robot-remote,8270,tcp,Robot Framework Remote Library Interface,[Robot_Framework_Foundation],[Chris_Newman],2017-01-26,,,,,
 ,8270,udp,Reserved,,,,,,,,
 ,8271-8275,,Unassigned,,,,,,,,
@@ -14393,6 +14396,7 @@ keynoteaccess,,tcp,KeynoteAccess is used for sending remote requests/responses w
 keynotepairing,,tcp,KeynotePairing is used to pair Keynote Remote with Keynote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 kiwin,,tcp,Topology Discovery,[Stephen_kiwin_PALM],[Stephen_kiwin_PALM],2015-06-30,,,,,"Defined TXT keys: kiwin, top"
 ktp,,,Kabira Transaction Platform,[Ramiro_Sarmiento],[Ramiro_Sarmiento],,,,,,Defined TXT keys: None
+kyma,,tcp,Symbolic Sound Kyma Service Discovery,[Symbolic_Sound_Corporation],[Kurt_Hebel],2018-11-28,,,,,Defined TXT keys: None
 la-maint,,,IMP Logical Address Maintenance,,,,2013-05-24,,,,This service name is no longer in use.
 labyrinth,,udp,Labyrinth local multiplayer protocol,[Andreas_Alptun],[Andreas_Alptun],,,,,,Defined TXT keys: None
 lan2p,,,Lan2P Peer-to-Peer Network Protocol,[Ben_Guild],[Ben_Guild],,,,,,Defined TXT keys: None
@@ -14739,6 +14743,7 @@ slimcli,,,SliMP3 Server Command-Line Interface,[Dean_Blackketter_2],[Dean_Blackk
 slimhttp,,,SliMP3 Server Web Interface,[Dean_Blackketter_2],[Dean_Blackketter_2],,,,,,Defined TXT keys: None
 slpda,,tcp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
 slpda,,udp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
+smag,,tcp,terminal access to laundry appliances,[Schulthess_Maschinen_AG],[Michael_Schwetz],2018-11-30,,,,,"Defined TXT keys: mName, tName, lName, Type, Timestamp"
 smartenergy,,,Smart Energy Profile,[Robby_Simpson],[Robby_Simpson],,,,,,Defined TXT keys: See http://www.zigbee.org/SmartEnergy
 smartsocket,,tcp,home control,[Robert_Diamond],[Robert_Diamond],2012-07-06,,,,,Defined TXT keys: None
 smb,,,Server Message Block over TCP/IP,,,,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
