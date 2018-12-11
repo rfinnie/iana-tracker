@@ -14903,6 +14903,7 @@ vos,,,Virtual Object System (using VOP/TCP),[Reed_Hedges][Peter_Amstutz],[Reed_H
   type=<Comma-seperated list of object types>
   title=<Short title of service>
   descr=<Short description of service>"
+voxidahmp,,tcp,RTP Mixer/Summation Resource,[Accurate_Always_Inc],[Yousef_Shemisa],2018-12-03,,,,,Defined TXT keys: None
 vrmg-p2p,,tcp,Verimag mobile class protocol over P2P,[Verimag_OOO],[Denis_Ionov],2018-07-20,,,,,"Defined TXT keys: d=<discovery key>, t=<mobile class ID>"
 vue4rendercow,,,VueProRenderCow,,,,,,,,Defined TXT keys: None
 vxi-11,,,VXI-11 TCP/IP Instrument Protocol,[Nick_Barendt_2],[Nick_Barendt_2],,,,,,Defined TXT keys: None
