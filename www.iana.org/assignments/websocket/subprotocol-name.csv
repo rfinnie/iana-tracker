@@ -49,3 +49,4 @@ sqlnet.oracle.com,sqlnet,"This protocol is used for communication between Oracle
 oneM2M.R2.0.json,oneM2M R2.0 JSON,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
 oneM2M.R2.0.xml,oneM2M R2.0 XML,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
 oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
+transit,Transit,[https://github.com/Randy-Buchholz/Transit],[Randy_Buchholz]
