@@ -62,7 +62,8 @@ CDS,59,Child DS,[RFC7344],CDS/cds-completed-template,2011-06-06
 CDNSKEY,60,DNSKEY(s) the Child wants reflected in DS,[RFC7344],,2014-06-16
 OPENPGPKEY,61,OpenPGP Key,[RFC7929],OPENPGPKEY/openpgpkey-completed-template,2014-08-12
 CSYNC,62,Child-To-Parent Synchronization,[RFC7477],,2015-01-27
-Unassigned,63-98,,,,
+ZONEMD,63,message digest for DNS zone,[draft-wessels-dns-zone-digest],ZONEMD/zonemd-completed-template,2018-12-12
+Unassigned,64-98,,,,
 SPF,99,,[RFC7208],,
 UINFO,100,,[IANA-Reserved],,
 UID,101,,[IANA-Reserved],,
