@@ -8,5 +8,5 @@ Value,Name,Reference
 6,Other Configuration Change,[RFC4486]
 7,Connection Collision Resolution,[RFC4486]
 8,Out of Resources,[RFC4486]
-9,"Hard Reset (TEMPORARY - registered 2017-04-21, extension registered 2018-04-13, expires 2019-04-21)",[draft-ietf-idr-bgp-gr-notification]
+9,Hard Reset,[RFC-ietf-idr-bgp-gr-notification-16]
 10-255,Unassigned,

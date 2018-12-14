@@ -2,6 +2,9 @@ Type,Description,Reference
 0,String,[RFC7854]
 1,sysDescr,[RFC7854]
 2,sysName,[RFC7854]
-3-65530,Unassigned,
+3,"VRF/Table Name 
+        (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-local-rib]
+4,"Admin Label (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+5-65530,Unassigned,
 65531-65534,Experimental,[RFC7854]
 65535,Reserved,[RFC7854]
