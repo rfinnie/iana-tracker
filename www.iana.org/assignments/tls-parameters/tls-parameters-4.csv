@@ -343,7 +343,9 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0xC0,0xB1",TLS_ECCPWD_WITH_AES_256_GCM_SHA384,Y,N,[RFC-harkins-tls-dragonfly-03]
 "0xC0,0xB2",TLS_ECCPWD_WITH_AES_128_CCM_SHA256,Y,N,[RFC-harkins-tls-dragonfly-03]
 "0xC0,0xB3",TLS_ECCPWD_WITH_AES_256_CCM_SHA384,Y,N,[RFC-harkins-tls-dragonfly-03]
-"0xC0,0xB4-FF",Unassigned,,,
+"0xC0,0xB4",TLS_SHA256_SHA256,Y,N,[draft-camwinget-tls-ts13-macciphersuites]
+"0xC0,0xB5",TLS_SHA384_SHA384,Y,N,[draft-camwinget-tls-ts13-macciphersuites]
+"0xC0,0xB6-FF",Unassigned,,,
 "0xC1-CB,*",Unassigned,,,
 "0xCC,0x00-A7",Unassigned,,,
 "0xCC,0xA8",TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256,Y,Y,[RFC7905]
