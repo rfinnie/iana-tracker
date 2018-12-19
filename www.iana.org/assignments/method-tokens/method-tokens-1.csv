@@ -1,4 +1,5 @@
 Token,Description,Reference,Registration Date
+A-GNSS,Assisted Global Navigation Satellite Systems,[Brian_Rosen],2018-12-07
 A-GPS,GPS with assistance,[RFC4119],
 AOA,Angle of Arrival,[James_Winterbottom],
 best-guess,"The LIS cannot provide an accurate location. The value is its best guess, but may be very inaccurate.",[Brian_Rosen],2012-01-11
@@ -16,12 +17,19 @@ Device-Based_EOTD,"Enhanced Observed Time Difference, network element
 provides measurements and device computes location",[James_Winterbottom],
 DHCP,"Provided by DHCP (used for wireline access           
 networks, see 802.11 below)",[RFC4119],
+E-CID,Enhanced Cell Identifier,[Brian_Rosen],2018-12-07
+GNSS,Global Navigation Satellite Systems,[Brian_Rosen],2018-12-07
 GPS,Global Positioning System,[RFC4119],
 Handset_AFLT,Advanced Forward Link Trilateration,[James_Winterbottom],
 Handset_EFLT,Enhanced Forward Link Trilateration,[James_Winterbottom],
 Hybrid_A-GPS,"Device provides psuedo-rangesto a network element    
 that computes the location in combination with
 network measurements",[James_Winterbottom],
+hybridAGPS_AFLT,Hybrid of Assisted GPS and Advanced Forward Link Trilateration,[Brian_Rosen],2018-12-07
+hybridCellSector_AGPS,Hybrid of Cell/Sector based and Assisted GPS,[Brian_Rosen],2018-12-07
+hybridTDOA_AOA,Hybrid of Time Difference of Arrival and Angle of Arrival,[Brian_Rosen],2018-12-07
+hybridTDOA_AGPS,Hybrid of Time Difference of Arrival and AGPS,[Brian_Rosen],2018-12-07
+hybridTDOA_AGPS_AOA,"Hybrid of Time Difference of Arrival, Assisted GPS and Angle of Arrival",[Brian_Rosen],2018-12-07
 IPDL,Idle Period Down Link,[James_Winterbottom],
 LLDP-MED,"Provided by Link Layer Discovery Protocol - Media    
 Endpoint Discovery (LLDP-MED)","[Telecommunications Industry Association, ""Link Layer Discovery
@@ -35,6 +43,9 @@ NEAD-BLE,"Civic Address representing the provisioned location of a
         Bluetooth beacon to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12
 NEAD-WiFi,"Civic Address representing the provisioned location of a 
         Wi-Fi Access Point to support the dispatching of emergency services.",[ATIS-0700028][Roger_Marshall],2016-05-12
+networkRFFingerprinting,Network Based RF Fingerprinting,[Brian_Rosen],2018-12-07
+networkTDOA,Network Based Time Difference of Arrival,[Brian_Rosen],2018-12-07
+networkTOA,Network Based Time of Arrival,[Brian_Rosen],2018-12-07
 NMR,Network Measurement Reports,[James_Winterbottom],
 OTDOA,Observed Time Difference of Arrival,[James_Winterbottom],
 RFID,"Proximity to a Radio Frequency Identification        
