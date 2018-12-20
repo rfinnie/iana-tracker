@@ -1580,10 +1580,10 @@ dlep,854,udp,Dynamic Link Exchange Protocol (DLEP),[IESG],[IETF_Chair],2017-04-0
 ,855-859,,Unassigned,,,,,,,,
 iscsi,860,tcp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
 iscsi,860,udp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
-owamp-control,861,tcp,OWAMP-Control,,,,,[RFC4656],,,
-owamp-control,861,udp,OWAMP-Control,,,,,[RFC4656],,,
-twamp-control,862,tcp,Two-way Active Measurement Protocol (TWAMP) Control,,,,,[RFC5357],,,
-twamp-control,862,udp,Two-way Active Measurement Protocol (TWAMP) Control,,,,,[RFC5357],,,
+owamp-control,861,tcp,OWAMP-Control,[IESG],[IETF_Chair],,,[RFC4656],,,
+owamp-test,861,udp,OWAMP-Test,[IESG],[IETF_Chair],,2018-12-21,[RFC-ietf-ippm-port-twamp-test-04],,,
+twamp-control,862,tcp,TWAMP-Control,[IESG],[IETF_Chair],,,[RFC5357],,,
+twamp-test,862,udp,TWAMP-Test Receiver Port,[IESG],[IETF_Chair],,2018-12-21,[RFC-ietf-ippm-port-twamp-test-04],,,
 ,863-872,,Unassigned,,,,,,,,
 rsync,873,tcp,rsync,[Andrew_Tridgell],[Andrew_Tridgell],,,,,,
 rsync,873,udp,rsync,[Andrew_Tridgell],[Andrew_Tridgell],,,,,,
@@ -14684,6 +14684,7 @@ sandvox,,,Sandvox,[Karelia_Software],[Karelia_Software],,,,,,Defined TXT keys: N
 savagesoft,,tcp,Proprietary Client Server Protocol,[Andy_Savage],[Andy_Savage],2012-07-13,,,,,Defined TXT keys: None
 sc-golf,,,StrawberryCat Golf Protocol,[Phil_Willoughby],[Phil_Willoughby],,,,,,Defined TXT keys: None
 scanner,,,Bonjour Scanning,[Baskaran_Subramaniam],[Baskaran_Subramaniam],,,,,,Defined TXT keys: None
+schdca,,tcp,schindler internal messaging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2018-12-19,,,,,Defined TXT keys: None
 schick,,,Schick,[Heiko_Kretschmer],[Heiko_Kretschmer],,,,,,Defined TXT keys: None
 schims,,tcp,schindler internal messaging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-12-05,,,,,Defined TXT keys: None
 schlog,,tcp,logging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-12-05,,,,,Defined TXT keys: None
@@ -14691,6 +14692,7 @@ schmpp,,tcp,Schindler maintenance portal protocol,[Schindler_Aufzuege_ag],[Arno_
 schoms,,tcp,schindler object messaging system,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-05-12,,,,,Defined TXT keys: None
 schsap,,tcp,Schindler service authentication portal,[Schindler_Aufzuege_ag],[Arno_Odermatt],2015-04-30,,,,,Defined TXT keys: None
 schsrmp,,tcp,Schindler internal messaging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2017-07-07,2017-07-10,,,,Defined TXT keys: None
+schvpp,,tcp,schindler internal messaging service,[Schindler_Aufzuege_ag],[Arno_Odermatt],2018-12-19,,,,,Defined TXT keys: None
 scone,,,Scone,[James_Moore],[James_Moore],,,,,,Defined TXT keys: None
 scoop-sftp,,tcp,"The service name is used by the SFTP protocol to 
       upload log files from vehicles to road side units in a securely 
