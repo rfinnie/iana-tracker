@@ -1,4 +1,7 @@
 Auth Method(s),Code,Specification,Status
+arc,fail,[RFC-ietf-dmarc-arc-protocol-23] section 2.2,active
+arc,none,[RFC-ietf-dmarc-arc-protocol-23] section 2.2,active
+arc,pass,[RFC-ietf-dmarc-arc-protocol-23] section 2.2,active
 auth,fail,[RFC7601] section 2.7.4,active
 auth,none,[RFC7601] section 2.7.4,active
 auth,pass,[RFC7601] section 2.7.4,active

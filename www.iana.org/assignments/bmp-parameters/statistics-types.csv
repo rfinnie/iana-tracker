@@ -14,6 +14,10 @@ Stat Type,Description,Reference
 11,Number of updates subjected to treat-as-withdraw,[RFC7854]
 12,Number of prefixes subjected to treat-as-withdraw,[RFC7854]
 13,Number of duplicate update messages received,[RFC7854]
-14-65530,Unassigned,
+14,"Number of routes in Adj-RIBs-Out Pre-Policy (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+15,"Number of routes in Adj-RIBs-Out Post-Policy (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+16,"Number of routes in per-AFI/SAFI Adj-RIB-Out Pre-Policy (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+17,"Number of routes in per-AFI/SAFI Adj-RIB-Out Post-Policy (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+18-65530,Unassigned,
 65531-65534,Experimental,[RFC7854]
 65535,Reserved,[RFC7854]
