@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="message-headers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="message-headers">
   <title>Message Headers</title>
-  <updated>2018-10-11</updated>
+  <updated>2018-12-21</updated>
   
   
   
@@ -142,6 +142,24 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <protocol>netnews</protocol>
       <status>standard</status>
       <xref type="rfc" data="rfc5536"/>
+    </record>
+    <record date="2018-12-21">
+      <value>ARC-Authentication-Results</value>
+      <protocol>mail</protocol>
+      <status>experimental</status>
+      <xref type="draft" data="RFC-ietf-dmarc-arc-protocol-23"/>
+    </record>
+    <record date="2018-12-21">
+      <value>ARC-Message-Signature</value>
+      <protocol>mail</protocol>
+      <status>experimental</status>
+      <xref type="draft" data="RFC-ietf-dmarc-arc-protocol-23"/>
+    </record>
+    <record date="2018-12-21">
+      <value>ARC-Seal</value>
+      <protocol>mail</protocol>
+      <status>experimental</status>
+      <xref type="draft" data="RFC-ietf-dmarc-arc-protocol-23"/>
     </record>
     <record>
       <value>Archive</value>
@@ -791,6 +809,12 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <protocol>http</protocol>
       <status>standard</status>
       <xref type="rfc" data="rfc7231">RFC7231, Section 5.1.1</xref>
+    </record>
+    <record date="2018-12-21">
+      <value>Expect-CT</value>
+      <protocol>http</protocol>
+      <status>experimental</status>
+      <xref type="draft" data="RFC-ietf-httpbis-expect-ct-08"/>
     </record>
     <record>
       <value>Expires</value>
@@ -2032,24 +2056,6 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <protocol>mail</protocol>
       <xref type="rfc" data="rfc2076"/>
     </record>
-    <record date="2017-06-28">
-      <file type="template">prov/arc-authentication-results</file>
-      <value>ARC-Authentication-Results</value>
-      <protocol>mail</protocol>
-      <xref type="draft" data="draft-ietf-dmarc-arc-protocol"/>
-    </record>
-    <record date="2017-06-28">
-      <file type="template">prov/arc-message-signature</file>
-      <value>ARC-Message-Signature</value>
-      <protocol>mail</protocol>
-      <xref type="draft" data="draft-ietf-dmarc-arc-protocol"/>
-    </record>
-    <record date="2017-06-28">
-      <file type="template">prov/arc-seal</file>
-      <value>ARC-Seal</value>
-      <protocol>mail</protocol>
-      <xref type="draft" data="draft-ietf-dmarc-arc-protocol"/>
-    </record>
     <record>
       <value>Compliance</value>
       <protocol>http</protocol>
@@ -2183,6 +2189,18 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <value>Title</value>
       <protocol>http</protocol>
       <xref type="rfc" data="rfc4229"/>
+    </record>
+    <record date="2018-12-20">
+      <file type="template">prov/traceparent</file>
+      <value>Traceparent</value>
+      <protocol>http</protocol>
+      <xref type="uri" data="https://www.w3.org/TR/trace-context/#traceparent-field"/>
+    </record>
+    <record date="2018-12-20">
+      <file type="template">prov/tracestate</file>
+      <value>Tracestate</value>
+      <protocol>http</protocol>
+      <xref type="uri" data="https://www.w3.org/TR/trace-context/#tracestate-field"/>
     </record>
     <record>
       <value>UA-Color</value>
