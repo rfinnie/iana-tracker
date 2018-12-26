@@ -4,4 +4,5 @@ Type,Name,Allowed on LSP_ATTRIBUTES,Allowed on LSP_REQUIRED_ATTRIBUTES,Allowed o
 3,OAM Configuration TLV,Yes,Yes,No,[RFC7260][RFC7570]
 4,WSON Processing Hop Attribute TLV,No,No,Yes,[RFC7689]
 5,RTM_SET sub-object,Yes,No,No,[RFC8169]
-6,"ETLD (TEMPORARY - registered 2018-01-09, expires 2019-01-09)",No,No,Yes,[draft-ietf-mpls-rsvp-shared-labels]
+6,"ETLD 
+        (TEMPORARY - registered 2018-01-09, extension registered 2018-12-04, expires 2020-01-09)",No,No,Yes,[draft-ietf-mpls-rsvp-shared-labels]

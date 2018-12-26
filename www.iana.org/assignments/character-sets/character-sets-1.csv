@@ -334,9 +334,7 @@ csISO102T617bit",
         Note: The current registration authority is IPSJ/ITSCJ, Japan.",[RFC1345][Keld_Simonsen],"T.61
 iso-ir-103
 csISO103T618bit",
-,ECMA-cyrillic,77,"[ISO registry]
-        (formerly [ECMA
-          registry])",,"iso-ir-111
+,ECMA-cyrillic,77,[ISO registry],,"iso-ir-111
 KOI8-E
 csISO111ECMACyrillic",
 ,CSA_Z243.4-1985-1,78,"[ISO-IR: International Register of Escape Sequences]

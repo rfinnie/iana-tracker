@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2018-12-17
+           2018-12-19
 
    Expert(s)
 
@@ -2018,12 +2018,10 @@ dlep                854        udp    Dynamic Link Exchange        [IESG]       
                   855-859             Unassigned
 iscsi               860        tcp    iSCSI                        [IESG]                                                [IETF_Chair]                                                           2013-08-27   [RFC7143]
 iscsi               860        udp    iSCSI                        [IESG]                                                [IETF_Chair]                                                           2013-08-27   [RFC7143]
-owamp-control       861        tcp    OWAMP-Control                                                                                                                                                          [RFC4656]
-owamp-control       861        udp    OWAMP-Control                                                                                                                                                          [RFC4656]
-twamp-control       862        tcp    Two-way Active Measurement                                                                                                                                             [RFC5357]
-                                      Protocol (TWAMP) Control
-twamp-control       862        udp    Two-way Active Measurement                                                                                                                                             [RFC5357]
-                                      Protocol (TWAMP) Control
+owamp-control       861        tcp    OWAMP-Control                [IESG]                                                [IETF_Chair]                                                                        [RFC4656]
+owamp-test          861        udp    OWAMP-Test                   [IESG]                                                [IETF_Chair]                                                           2018-12-21   [RFC-ietf-ippm-port-twamp-test-04]
+twamp-control       862        tcp    TWAMP-Control                [IESG]                                                [IETF_Chair]                                                                        [RFC5357]
+twamp-test          862        udp    TWAMP-Test Receiver Port     [IESG]                                                [IETF_Chair]                                                           2018-12-21   [RFC-ietf-ippm-port-twamp-test-04]
                   863-872             Unassigned
 rsync               873        tcp    rsync                        [Andrew_Tridgell]                                     [Andrew_Tridgell]
 rsync               873        udp    rsync                        [Andrew_Tridgell]                                     [Andrew_Tridgell]
@@ -6309,7 +6307,7 @@ tcim-control       2729        udp    TCIM Control                 [Dean_Skelton
 nec-raidplus       2730        tcp    NEC RaidPlus                 [Yusuke_Asai]                                         [Yusuke_Asai]
 nec-raidplus       2730        udp    NEC RaidPlus                 [Yusuke_Asai]                                         [Yusuke_Asai]
 fyre-messanger     2731        tcp    Fyre Messanger               [Robert_Waters]                                       [Robert_Waters]
-fyre-messanger     2731        udp    Fyre Messagner               [Robert_Waters]                                       [Robert_Waters]
+fyre-messanger     2731        udp    Fyre Messanger               [Robert_Waters]                                       [Robert_Waters]
 g5m                2732        tcp    G5M                          [Graham_Klyne]                                        [Graham_Klyne]
 g5m                2732        udp    G5M                          [Graham_Klyne]                                        [Graham_Klyne]
 signet-ctf         2733        tcp    Signet CTF                   [Greg_Broiles]                                        [Greg_Broiles]
@@ -8590,7 +8588,7 @@ bmc-data-coll      3695        udp    BMC Data Collection          [Portnoy_Boxm
 telnetcpcd         3696        tcp    Telnet Com Port Control      [Thomas_J_Pinkl]                                      [Thomas_J_Pinkl]                                          2003-02
 telnetcpcd         3696        udp    Telnet Com Port Control      [Thomas_J_Pinkl]                                      [Thomas_J_Pinkl]                                          2003-02
 nw-license         3697        tcp    NavisWorks License System    [Tim_Wiegand]                                         [Tim_Wiegand]                                             2003-02
-nw-license         3697        udp    NavisWorks Licnese System    [Tim_Wiegand]                                         [Tim_Wiegand]                                             2003-02
+nw-license         3697        udp    NavisWorks License System    [Tim_Wiegand]                                         [Tim_Wiegand]                                             2003-02
 sagectlpanel       3698        tcp    SAGECTLPANEL                 [Mark_Gamble]                                         [Mark_Gamble]                                             2003-02
 sagectlpanel       3698        udp    SAGECTLPANEL                 [Mark_Gamble]                                         [Mark_Gamble]                                             2003-02
 kpn-icw            3699        tcp    Internet Call Waiting        [B_J_Kortekaas]                                       [B_J_Kortekaas]                                           2003-02
@@ -8648,7 +8646,7 @@ blizwow            3724        udp    World of Warcraft            [Domain_Tech]
 na-er-tip          3725        tcp    Netia NA-ER Port             [Jean_Pierre_Garcia]                                  [Jean_Pierre_Garcia]                                      2003-04
 na-er-tip          3725        udp    Netia NA-ER Port             [Jean_Pierre_Garcia]                                  [Jean_Pierre_Garcia]                                      2003-04
 array-manager      3726        tcp    Xyratex Array Manager        [David_A_Lethe]                                       [David_A_Lethe]                                           2003-04
-array-manager      3726        udp    Xyartex Array Manager        [David_A_Lethe]                                       [David_A_Lethe]                                           2003-04
+array-manager      3726        udp    Xyratex Array Manager        [David_A_Lethe]                                       [David_A_Lethe]                                           2003-04
 e-mdu              3727        tcp    Ericsson Mobile Data Unit
 e-mdu              3727        udp    Ericsson Mobile Data Unit
 e-woa              3728        tcp    Ericsson Web on Air          [Marco_Casole]                                        [Marco_Casole]                                            2003-04
@@ -8698,7 +8696,7 @@ webdata            3748        udp    webData                      [Michael_Whit
 cimtrak            3749        tcp    CimTrak                      [Robert_E_Johnson_II]                                 [Robert_E_Johnson_II]                                     2003-04
 cimtrak            3749        udp    CimTrak                      [Robert_E_Johnson_II]                                 [Robert_E_Johnson_II]                                     2003-04
 cbos-ip-port       3750        tcp    CBOS/IP ncapsalation port    [Thomas_Dannemiller]                                  [Thomas_Dannemiller]                                      2003-04
-cbos-ip-port       3750        udp    CBOS/IP ncapsalatoin port    [Thomas_Dannemiller]                                  [Thomas_Dannemiller]                                      2003-04
+cbos-ip-port       3750        udp    CBOS/IP ncapsalation port    [Thomas_Dannemiller]                                  [Thomas_Dannemiller]                                      2003-04
 gprs-cube          3751        tcp    CommLinx GPRS Cube           [Peter_Johnson]                                       [Peter_Johnson]                                           2003-04
 gprs-cube          3751        udp    CommLinx GPRS Cube           [Peter_Johnson]                                       [Peter_Johnson]                                           2003-04
 vipremoteagent     3752        tcp    Vigil-IP RemoteAgent         [Bryan_Alvord]                                        [Bryan_Alvord]                                            2003-04
@@ -8916,7 +8914,7 @@ msfw-control       3847        udp    MS Firewall Control          [Oren_Trutner
 item               3848        tcp    IT Environmental Monitor     [Keith_Wright]                                        [Keith_Wright]                                            2003-08
 item               3848        udp    IT Environmental Monitor     [Keith_Wright]                                        [Keith_Wright]                                            2003-08
 spw-dnspreload     3849        tcp    SPACEWAY DNS Preload         [Daniel_Friedman]                                     [Daniel_Friedman]                                         2003-08
-spw-dnspreload     3849        udp    SPACEWAY DNS Prelaod         [Daniel_Friedman]                                     [Daniel_Friedman]                                         2003-08
+spw-dnspreload     3849        udp    SPACEWAY DNS Preload         [Daniel_Friedman]                                     [Daniel_Friedman]                                         2003-08
 qtms-bootstrap     3850        tcp    QTMS Bootstrap Protocol      [Phil_Willis]                                         [Phil_Willis]                                             2003-08
 qtms-bootstrap     3850        udp    QTMS Bootstrap Protocol      [Phil_Willis]                                         [Phil_Willis]                                             2003-08
 spectraport        3851        tcp    SpectraTalk Port             [Madhav_Karhade]                                      [Madhav_Karhade]                                          2003-08
@@ -9095,7 +9093,7 @@ agcat              3915        udp    Auto-Graphics Cataloging     [Paul_Cope]  
 wysdmc             3916        tcp    WysDM Controller             [Jim_McDonald_2]                                      [Jim_McDonald_2]                                          2003-11
 wysdmc             3916        udp    WysDM Controller             [Jim_McDonald_2]                                      [Jim_McDonald_2]                                          2003-11
 aftmux             3917        tcp    AFT multiplex port           [Alfred_Schmidt]                                      [Alfred_Schmidt]                                          2003-11
-aftmux             3917        udp    AFT multiples port           [Alfred_Schmidt]                                      [Alfred_Schmidt]                                          2003-11
+aftmux             3917        udp    AFT multiplex port           [Alfred_Schmidt]                                      [Alfred_Schmidt]                                          2003-11
 pktcablemmcops     3918        tcp    PacketCableMultimediaCOPS    [Eric_Rosenfeld]                                      [Eric_Rosenfeld]                                          2003-11
 pktcablemmcops     3918        udp    PacketCableMultimediaCOPS    [Eric_Rosenfeld]                                      [Eric_Rosenfeld]                                          2003-11
 hyperip            3919        tcp    HyperIP                      [Network_Executive_Software_Inc]                      [Nancy_Golio]                                             2003-11      2017-01-25
@@ -9145,14 +9143,14 @@ dbcontrol-agent    3938        tcp    IANA assigned this           [Todd_Guay]  
                                                                                                                                                                                                                                                                                   This entry is an alias to "dbcontrol-agent". This entry is
 dbcontrol_agent    3938        tcp    Oracle dbControl Agent po    [Todd_Guay]                                           [Todd_Guay]                                               2003-11                                                                                        now historic, not usable for use with many common service
                                                                                                                                                                                                                                                                                   discovery mechanisms.
-                                      Oracel dbControl Agent po
+                                      Oracle dbControl Agent po
 
 dbcontrol-agent    3938        udp    IANA assigned this           [Todd_Guay]                                           [Todd_Guay]                                               2003-11
                                       well-formed service name as
                                       a replacement for
                                       "dbcontrol_agent".
                                                                                                                                                                                                                                                                                   This entry is an alias to "dbcontrol-agent". This entry is
-dbcontrol_agent    3938        udp    Oracel dbControl Agent po    [Todd_Guay]                                           [Todd_Guay]                                               2003-11                                                                                        now historic, not usable for use with many common service
+dbcontrol_agent    3938        udp    Oracle dbControl Agent po    [Todd_Guay]                                           [Todd_Guay]                                               2003-11                                                                                        now historic, not usable for use with many common service
                                                                                                                                                                                                                                                                                   discovery mechanisms.
 aamp               3939        tcp    Anti-virus Application       [In_sik_Choi]                                         [In_sik_Choi]                                             2002-02
                                       Management Port
@@ -13256,7 +13254,7 @@ PS-Capture-Pro     7216        tcp    PaperStream Capture          [PFU_Systems_
                    7216        udp    Reserved
                  7217-7226            Unassigned
 ramp               7227        tcp    Registry A & M Protocol      [John_Havard]                                         [John_Havard]                                             2003-11
-ramp               7227        udp    Registry A $ M Protocol      [John_Havard]                                         [John_Havard]                                             2003-11
+ramp               7227        udp    Registry A & M Protocol      [John_Havard]                                         [John_Havard]                                             2003-11
 citrixupp          7228        tcp    Citrix Universal Printing    [Gary_Barton]                                         [Gary_Barton]                                             2011-02-24
                                       Port
                    7228        udp    Reserved
@@ -15260,7 +15258,7 @@ x2e-disc           11877       udp    X2E service discovery        [Hannes_K]   
                                       protocol
                 11878-11966           Unassigned
 sysinfo-sp         11967       tcp    SysInfo Service Protocol     [Mike_Cooper]                                         [Mike_Cooper]                                             2003-03
-sysinfo-sp         11967       udp    SysInfo Sercice Protocol     [Mike_Cooper]                                         [Mike_Cooper]                                             2003-03
+sysinfo-sp         11967       udp    SysInfo Service Protocol     [Mike_Cooper]                                         [Mike_Cooper]                                             2003-03
                 11968-11996           Unassigned
 wmereceiving       11997      sctp    WorldMailExpress             [Greg_Foutz]                                          [Greg_Foutz]                                              2006-03
 wmedistribution    11998      sctp    WorldMailExpress             [Greg_Foutz]                                          [Greg_Foutz]                                              2006-03
@@ -16485,7 +16483,7 @@ profinet-cm        34964       tcp    PROFInet Context Manager     [Peter_Wenzel
 profinet-cm        34964       udp    PROFInet Context Manager     [Peter_Wenzel]                                        [Peter_Wenzel]                                            2004-11
                 34965-34979           Unassigned
 ethercat           34980       tcp    EtherCAT Port                [Martin_Rostan]                                       [Martin_Rostan]                                           2003-11
-ethercat           34980       udp    EhterCAT Port                [Martin_Rostan]                                       [Martin_Rostan]                                           2003-11
+ethercat           34980       udp    EtherCAT Port                [Martin_Rostan]                                       [Martin_Rostan]                                           2003-11
                 34981-34999           Unassigned
 heathview          35000       tcp    HeathView                    [Heathwest_Systems_Limited]                           [Andrew_Porrer]                                           2013-03-21
                    35000       udp    Reserved
@@ -18156,6 +18154,8 @@ savagesoft                     tcp    Proprietary Client Server    [Andy_Savage]
                                       Protocol
 sc-golf                               StrawberryCat Golf Protocol  [Phil_Willoughby]                                     [Phil_Willoughby]                                                                                                                                        Defined TXT keys: None
 scanner                               Bonjour Scanning             [Baskaran_Subramaniam]                                [Baskaran_Subramaniam]                                                                                                                                   Defined TXT keys: None
+schdca                         tcp    schindler internal messaging [Schindler_Aufzuege_ag]                               [Arno_Odermatt]                                           2018-12-19                                                                                     Defined TXT keys: None
+                                      service
 schick                                Schick                       [Heiko_Kretschmer]                                    [Heiko_Kretschmer]                                                                                                                                       Defined TXT keys: None
 schims                         tcp    schindler internal messaging [Schindler_Aufzuege_ag]                               [Arno_Odermatt]                                           2015-12-05                                                                                     Defined TXT keys: None
                                       service
@@ -18167,6 +18167,8 @@ schoms                         tcp    schindler object messaging   [Schindler_Au
 schsap                         tcp    Schindler service            [Schindler_Aufzuege_ag]                               [Arno_Odermatt]                                           2015-04-30                                                                                     Defined TXT keys: None
                                       authentication portal
 schsrmp                        tcp    Schindler internal messaging [Schindler_Aufzuege_ag]                               [Arno_Odermatt]                                           2017-07-07   2017-07-10                                                                        Defined TXT keys: None
+                                      service
+schvpp                         tcp    schindler internal messaging [Schindler_Aufzuege_ag]                               [Arno_Odermatt]                                           2018-12-19                                                                                     Defined TXT keys: None
                                       service
 scone                                 Scone                        [James_Moore]                                         [James_Moore]                                                                                                                                            Defined TXT keys: None
                                       The service name is used by
@@ -23166,7 +23168,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Satoshi_Matsumoto]                                       Satoshi Matsumoto                                   mailto:satoshi&artman21.co.jp
 [Saugata_Guha]                                            Saugata Guha                                        mailto:sguha&veritas.com                                      2004-05
 [ScaleFT_Inc]                                             ScaleFT, Inc                                        mailto:notices&scaleft.com                                    2016-04-07
-[Schindler_Aufzuege_ag]                                                              Schindler Aufzuege ag    mailto:arno.odermatt&ch.schindler.com                         2017-07-10
+[Schindler_Aufzuege_ag]                                                              Schindler Aufzuege ag    mailto:arno.odermatt&schindler.com                            2018-12-19
 [Schulthess_Maschinen_AG]                                                            Schulthess Maschinen AG  mailto:iot-admin&schulthess.ch                                2018-11-30
 [SCOOP_at_F_Project]                                                                 SCOOP@F Project          mailto:houda.labiod&telecom-paristech.fr                      2016-02-04
 [Scott_A_Kramer]                                          Scott A. Kramer                                     mailto:sk&tleilaxu.sde.hp.com

@@ -1,7 +1,7 @@
                                                                    Message Headers
 
    Last Updated
-           2018-10-11
+           2018-12-21
 
    Available Formats
            [IMG]
@@ -65,6 +65,9 @@ Permanent Message Header Field Names
   Alternates                                                     http                   [RFC4229]
   Apply-To-Redirect-Ref                                          http                   [RFC4437]
   Approved                                                       netnews  standard      [RFC5536]
+  ARC-Authentication-Results                                     mail     experimental  [RFC-ietf-dmarc-arc-protocol-23]
+  ARC-Message-Signature                                          mail     experimental  [RFC-ietf-dmarc-arc-protocol-23]
+  ARC-Seal                                                       mail     experimental  [RFC-ietf-dmarc-arc-protocol-23]
   Archive                                                        netnews  standard      [RFC5536]
   Archived-At                                                    mail     standard      [RFC5064]
   Archived-At                                                    netnews  standard      [RFC5064]
@@ -176,6 +179,7 @@ Permanent Message Header Field Names
   Encrypted                                                      mail                   [RFC4021]
   ETag                                                           http     standard      [RFC7232, Section 2.3]
   Expect                                                         http     standard      [RFC7231, Section 5.1.1]
+  Expect-CT                                                      http     experimental  [RFC-ietf-httpbis-expect-ct-08]
   Expires                                                        http     standard      [RFC7234, Section 5.3]
   Expires                                                        mail                   [RFC4021]
   Expires                                                        netnews  standard      [RFC5536]
@@ -412,9 +416,6 @@ Access-Control-Request-Method    prov/access-control-request-method    http     
 Access-Control-Request-Headers   prov/access-control-request-headers   http                [W3C Web Application Formats Working Group]
 AMP-Cache-Transform                                                    http                [https://github.com/ampproject/amphtml/blob/master/spec/amp-cache-transform.md]
 Apparently-To                    prov/apparently-to                    mail                [RFC2076]
-ARC-Authentication-Results       prov/arc-authentication-results       mail                [draft-ietf-dmarc-arc-protocol]
-ARC-Message-Signature            prov/arc-message-signature            mail                [draft-ietf-dmarc-arc-protocol]
-ARC-Seal                         prov/arc-seal                         mail                [draft-ietf-dmarc-arc-protocol]
 Compliance                                                             http                [RFC4229]
 Content-Transfer-Encoding                                              http                [RFC4229]
 Cost                                                                   http                [RFC4229]
@@ -440,6 +441,8 @@ SIO-Label-History                                                      mail     
 SubOK                                                                  http                [RFC4229]
 Subst                                                                  http                [RFC4229]
 Title                                                                  http                [RFC4229]
+Traceparent                      prov/traceparent                      http                [https://www.w3.org/TR/trace-context/#traceparent-field]
+Tracestate                       prov/tracestate                       http                [https://www.w3.org/TR/trace-context/#tracestate-field]
 UA-Color                                                               http                [RFC4229]
 UA-Media                                                               http                [RFC4229]
 UA-Pixels                                                              http                [RFC4229]
