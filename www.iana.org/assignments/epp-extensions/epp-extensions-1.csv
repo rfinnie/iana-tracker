@@ -29,3 +29,5 @@ DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmas
 Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC8063],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None
 Launch Phase Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8334],[IESG],Any,None,Active,None
 Allocation Token Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8495],[IESG],Any,None,Active,None
+Extensible Provisioning Protocol (EPP) Organization Mapping,Standards Track,[RFC-ietf-regext-org-12],[IESG],Any,None,Active,None
+Organization Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC-ietf-regext-org-ext-11],[IESG],Any,None,Active,None
