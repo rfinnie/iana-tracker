@@ -2,4 +2,7 @@ Flag,Description,Reference
 0,V flag,[RFC7854]
 1,L flag,[RFC7854]
 2,A flag,[RFC7854]
-3-7,Unassigned,
+3,"O flag (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-adj-rib-out]
+4,"F flag 
+        (TEMPORARY - registered 2018-12-13, expires 2019-12-13)",[draft-ietf-grow-bmp-local-rib]
+5-7,Unassigned,
