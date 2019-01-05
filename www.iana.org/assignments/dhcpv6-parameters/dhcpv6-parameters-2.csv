@@ -89,7 +89,7 @@ Value,Description,Client ORO,Singleton Option,Reference
 87,OPTION_DHCPV4_MSG,No,Yes,[RFC7341]
 88,OPTION_DHCP4_O_DHCP6_SERVER,Yes,Yes,[RFC7341]
 89,OPTION_S46_RULE,No,No[2],[RFC7598]
-90,OPTION_S46_BR,No,No,[RFC7598]
+90,OPTION_S46_BR,Yes,No,[RFC7598][RFC-ietf-dhc-dhcp4o6-saddr-opt-08]
 91,OPTION_S46_DMR,No,Yes,[RFC7598]
 92,OPTION_S46_V4V6BIND,No,Yes,[RFC7598]
 93,OPTION_S46_PORTPARAMS,No,Yes,[RFC7598]
@@ -137,6 +137,7 @@ Value,Description,Client ORO,Singleton Option,Reference
 135,OPTION_RELAY_PORT,No,Yes,[RFC8357]
 136,"OPTION_V6_ZEROTOUCH_REDIRECT 
         (TEMPORARY - registered 2018-02-08, expires 2019-02-08)",Yes,Yes,[draft-ietf-netconf-zerotouch]
-137-142,Unassigned,,,
+137,OPTION_S46_BIND_IPV6_PREFIX,Yes,Yes,[RFC-ietf-dhc-dhcp4o6-saddr-opt-08]
+138-142,Unassigned,,,
 143,OPTION-IPv6_Address-ANDSF,Yes,Yes,[RFC6153]
 144-65535,Unassigned,,,
