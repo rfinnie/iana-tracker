@@ -1,4 +1,4 @@
-Service Name,Port Number,Transport Protocol,Description,Assignee,Contact,Registration Date,Modification Date,Reference,Service Code,Known Unauthorized Uses,Assignment Notes
+Service Name,Port Number,Transport Protocol,Description,Assignee,Contact,Registration Date,Modification Date,Reference,Service Code,Unauthorized Use Reported,Assignment Notes
 ,0,tcp,Reserved,[Jon_Postel],[Jon_Postel],,,,,,
 ,0,udp,Reserved,[Jon_Postel],[Jon_Postel],,,,,,
 tcpmux,1,tcp,TCP Port Service Multiplexer,[Mark_Lottor],[Mark_Lottor],,,,,,
@@ -11376,7 +11376,9 @@ http-alt,8008,tcp,HTTP Alternate,[James_Gettys],[James_Gettys],,,,,,
 http-alt,8008,udp,HTTP Alternate,[James_Gettys],[James_Gettys],,,,,,
 nvme-disc,8009,tcp,NVMe over Fabrics Discovery Service,[NVM_Express_Inc],[Amber_Huffman],2018-03-27,,,,,
 ,8009,udp,Reserved,,,,,,,,
-,8010-8018,,Unassigned,,,,,,,,
+cfg-cloud,8010,tcp,Configuration Cloud Service,[admin_at_cfg_cloud],[Goksel_Darcan],2019-01-08,,,,,
+,8010,udp,Reserved,,,,,,,,
+,8011-8018,,Unassigned,,,,,,,,
 qbdb,8019,tcp,QB DB Dynamic Port,[Sridhar_Krishnamurth],[Sridhar_Krishnamurth],2008-02-15,,,,,
 qbdb,8019,udp,QB DB Dynamic Port,[Sridhar_Krishnamurth],[Sridhar_Krishnamurth],2008-02-15,,,,,
 intu-ec-svcdisc,8020,tcp,Intuit Entitlement Service and Discovery,[Daniel_C_McGloin],[Daniel_C_McGloin],2005-05,,,,,

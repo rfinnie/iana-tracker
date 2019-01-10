@@ -20,6 +20,9 @@ Alternate-Recipient,,mail,,[RFC4021]
 Alternates,,http,,[RFC4229]
 Apply-To-Redirect-Ref,,http,,[RFC4437]
 Approved,,netnews,standard,[RFC5536]
+ARC-Authentication-Results,,mail,experimental,[RFC-ietf-dmarc-arc-protocol-23]
+ARC-Message-Signature,,mail,experimental,[RFC-ietf-dmarc-arc-protocol-23]
+ARC-Seal,,mail,experimental,[RFC-ietf-dmarc-arc-protocol-23]
 Archive,,netnews,standard,[RFC5536]
 Archived-At,,mail,standard,[RFC5064]
 Archived-At,,netnews,standard,[RFC5064]
@@ -131,6 +134,7 @@ Encoding,,mail,,[RFC4021]
 Encrypted,,mail,,[RFC4021]
 ETag,,http,standard,"[RFC7232, Section 2.3]"
 Expect,,http,standard,"[RFC7231, Section 5.1.1]"
+Expect-CT,,http,experimental,[RFC-ietf-httpbis-expect-ct-08]
 Expires,,http,standard,"[RFC7234, Section 5.3]"
 Expires,,mail,,[RFC4021]
 Expires,,netnews,standard,[RFC5536]
@@ -257,6 +261,7 @@ References,,mail,standard,[RFC5322]
 References,,netnews,standard,[RFC5536][RFC5322]
 Referer,,http,standard,"[RFC7231, Section 5.5.2]"
 Relay-Version,,netnews,obsoleted,[RFC0850][RFC5536]
+Replay-Nonce,,http,standard,"[RFC-ietf-acme-acme-18, Section 6.5.1]"
 Reply-By,,mail,,[RFC4021]
 Reply-To,,mail,standard,[RFC5322]
 Reply-To,,netnews,standard,[RFC5536][RFC5322]
