@@ -3,7 +3,8 @@ Reserved for Private Use,less than -65536,,,,[RFC8152]
 "used for key parameters specific to a single algorithm
         delegated to the COSE Key Type Parameters registry",-65536 to -1,,,,[RFC8152]
 Reserved,0,,,,[RFC8152]
-kty,1,tstr / int,COSE Key Common Parameters,Identification of the key type,[RFC8152]
+kty,1,tstr / int,COSE Key Types,Identification of the key type,"[RFC8152][RFC Errata 
+          5545]"
 kid,2,bstr,,Key identification value - match to kid in message,[RFC8152]
 alg,3,tstr / int,COSE Algorithms,Key usage restriction to this algorithm,[RFC8152]
 key_ops,4,[+ (tstr/int)],,Restrict set of permissible operations,[RFC8152]
