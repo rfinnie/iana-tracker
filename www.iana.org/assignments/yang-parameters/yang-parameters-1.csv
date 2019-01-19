@@ -92,7 +92,7 @@ ietf-pim-bidir,,N,urn:ietf:params:xml:ns:yang:ietf-pim-bidir,pim-bidir,,[RFC-iet
 ietf-pim-dm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-dm,pim-dm,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-pim-rp,,N,urn:ietf:params:xml:ns:yang:ietf-pim-rp,pim-rp,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-pim-sm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-sm,pim-sm,,[RFC-ietf-pim-yang-16],[RFC-ietf-pim-yang-16]'s module file will be posted upon the document's publication as an RFC.
-ietf-dslite,,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC-ietf-softwire-dslite-yang-17],[RFC-ietf-softwire-dslite-yang-17]'s module file will be posted upon the document's publication as an RFC.
+ietf-dslite,ietf-dslite@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC8513],
 ietf-mud,,N,urn:ietf:params:xml:ns:yang:ietf-mud,ietf-mud,,[RFC-ietf-opsawg-mud-25],[RFC-ietf-opsawg-mud-25]'s module files will be posted upon document's publication as RFC.
 ietf-acldns,,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC-ietf-opsawg-mud-25],[RFC-ietf-opsawg-mud-25]'s module files will be posted upon document's publication as RFC.
 ietf-l2vpn-svc,ietf-l2vpn-svc@2018-10-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc,l2vpn-svc,,[RFC8466],
@@ -111,7 +111,7 @@ ietf-bfd-ip-mh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh,bfd-ip-mh,,[RFC-iet
 ietf-bfd-lag,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-lag,bfd-lag,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-mpls,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-mpls,bfd-mpls,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-mpls-te,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-mpls-te,bfd-mpls-te,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
-ietf-nat,,N,urn:ietf:params:xml:ns:yang:ietf-nat,nat,,[RFC-ietf-opsawg-nat-yang-17],[RFC-ietf-opsawg-nat-yang-17]'s module file will be posted upon the document's publication as an RFC.
+ietf-nat,ietf-nat@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nat,nat,,[RFC8512],
 ietf-netconf-nmda,,N,urn:ietf:params:xml:ns:yang:ietf-netconf-nmda,ncds,,[RFC-ietf-netconf-nmda-netconf-08],[RFC-ietf-netconf-nmda-netconf-08]'s module file will be posted upon the document's publication as an RFC.
 ietf-access-control-list,,N,urn:ietf:params:xml:ns:yang:ietf-access-control-list,acl,,[RFC-ietf-netmod-acl-model-21],[RFC-ietf-netmod-acl-model-21]'s module file will be posted upon the document's publication as an RFC.
 ietf-packet-fields,,N,urn:ietf:params:xml:ns:yang:ietf-packet-fields,packet-fields,,[RFC-ietf-netmod-acl-model-21],[RFC-ietf-netmod-acl-model-21]'s module file will be posted upon the document's publication as an RFC.
@@ -120,3 +120,5 @@ ietf-yang-schema-mount,,N,urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount,yan
 ietf-dc-fabric-types,,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-types,fabrictypes,,[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12],[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12]'s module file will be posted upon the document's publication as an RFC.
 ietf-dc-fabric-topology,,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology,fabric,,[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12],[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12]'s module file will be posted upon the document's publication as an RFC.
 ietf-dc-fabric-topology-state,,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology-state,sfabric,,[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12],[RFC-ietf-i2rs-yang-dc-fabric-network-topology-12]'s module file will be posted upon the document's publication as an RFC.
+ietf-sztp-bootstrap-server,,N,urn:urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server,sztp-svr,,[RFC-ietf-netconf-zerotouch-29],[RFC-ietf-netconf-zerotouch-29]'s module file will be posted upon the document's publication as an RFC.
+ietf-sztp-conveyed-info,,N,urn:urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info,sztp-info,,[RFC-ietf-netconf-zerotouch-29],[RFC-ietf-netconf-zerotouch-29]'s module file will be posted upon the document's publication as an RFC.

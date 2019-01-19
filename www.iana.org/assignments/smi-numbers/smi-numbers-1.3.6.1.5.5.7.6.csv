@@ -15,3 +15,4 @@ Decimal,Description,References
 26,id-alg-ecdhPop-static-sha256-hmac-sha256,[RFC6955]
 27,id-alg-ecdhPop-static-sha384-hmac-sha384,[RFC6955]
 28,id-alg-ecdhPop-static-sha512-hmac-sha512,[RFC6955]
+29,id-alg-eccsi-with-sha256,[draft-wang-tls-raw-public-key-with-ibc]
