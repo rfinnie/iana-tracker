@@ -14909,6 +14909,8 @@ visel,,,visel Q-System services,[Lehpaner_Sasa],[Lehpaner_Sasa],,,,,,"Defined TX
   ID=<serviceID>
   SString=<serviceString>
   SString1=<serviceString>"
+voalte2,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
+voalte3,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
 vos,,,Virtual Object System (using VOP/TCP),[Reed_Hedges][Peter_Amstutz],[Reed_Hedges][Peter_Amstutz],,,,,,"Defined TXT keys:   url=<Object URL with full path>
   type=<Comma-seperated list of object types>
   title=<Short title of service>
