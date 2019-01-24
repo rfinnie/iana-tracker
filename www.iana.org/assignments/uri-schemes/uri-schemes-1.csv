@@ -47,6 +47,7 @@ dlna-playcontainer,prov/dlna-playcontainer,dlna-playcontainer,Provisional,[DLNA]
 dlna-playsingle,prov/dlna-playsingle,dlna-playsingle,Provisional,[DLNA],
 dns,,Domain Name System,Permanent,[RFC4501],
 dntp,prov/dntp,dntp,Provisional,[Hans-Dieter_A._Hiep],
+dpp,prov/dpp,dpp,Provisional,[Gaurav_Jain][Wi-Fi_Alliance],
 dtn,,DTNRG research and development,Provisional,[RFC5050],
 dvb,,dvb,Provisional,[draft-mcroberts-uri-dvb],
 ed2k,prov/ed2k,ed2k,Provisional,[Dave_Thaler],
