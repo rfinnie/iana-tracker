@@ -14205,6 +14205,7 @@ eventserver,,,Now Up-to-Date,,,,,,,,Defined TXT keys: None
 evp,,tcp,EvP - Generic EVENT protocol,[Quentin_Glidic],,2013-06-05,,,,,Defined TXT keys: None
 evs-notif,,,EVS Notification Center Protocol,[Eric_Gillet],[Eric_Gillet],,,,,,"Defined TXT keys: ID, Address"
 ewalletsync,,,Synchronization Protocol for Ilium Software's eWallet,[Dan_Amstutz],[Dan_Amstutz],,,,,,Defined TXT keys: name=<friendly device name>
+ewelink,,tcp,eWeLink devices supporting LAN Control,[Shenzhen_CoolKit_Technology_Co._Ltd.],[Michael_Hu],2019-01-17,,,,,"Defined TXT keys: txtvers, id, type, apivers, encrypt, data1, data2, data3, data4, iv"
 example,,,Example Service Type,,,,,,,,"Not a real service type.
 Special 'pretend' service types (""_example._udp"" and ""_example._tcp"")
 reserved for use in illustrative examples in books and other documentation."
@@ -14820,6 +14821,9 @@ syncopation,,,Syncopation Synchronization Protocol by Sonzea,[Sonzea],[Sonzea],,
 syncqdea,,,Synchronize! X Plus 2.0,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 synergy,,,Synergy Peer Discovery,[Karl_Timmermann],[Karl_Timmermann],,,,,,Defined TXT keys: None
 synksharing,,,SynkSharing synchronization protocol,[Benjamin_Rister],[Benjamin_Rister],,,,,,Defined TXT keys: None
+sztp,,tcp,"This service name is used to construct the
+      SRV service label ""_sztp"" for discovering
+      SZTP bootstrap servers.",[IESG],[IETF_Chair],2019-01-17,,[RFC-ietf-netconf-zerotouch-29],,,This protocol uses HTTPS as a substrate.
 taccounting,,,Data Transmission and Synchronization,[John_MacMullin],[John_MacMullin],,,,,,Defined TXT keys: None
 tango,,,Tango Remote Control Protocol,[Tony_Amundson],[Tony_Amundson],,,,,,Defined TXT keys: None
 tapinoma-ecs,,,Tapinoma Easycontact receiver,[Bonjour],[Bonjour],,,,,,Defined TXT keys: None
@@ -14905,6 +14909,8 @@ visel,,,visel Q-System services,[Lehpaner_Sasa],[Lehpaner_Sasa],,,,,,"Defined TX
   ID=<serviceID>
   SString=<serviceString>
   SString1=<serviceString>"
+voalte2,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
+voalte3,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
 vos,,,Virtual Object System (using VOP/TCP),[Reed_Hedges][Peter_Amstutz],[Reed_Hedges][Peter_Amstutz],,,,,,"Defined TXT keys:   url=<Object URL with full path>
   type=<Comma-seperated list of object types>
   title=<Short title of service>

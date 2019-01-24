@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-01-09
+           2019-01-22
 
    Expert(s)
 
@@ -17387,6 +17387,8 @@ evs-notif                             EVS Notification Center      [Eric_Gillet]
                                       Protocol
 ewalletsync                           Synchronization Protocol for [Dan_Amstutz]                                         [Dan_Amstutz]                                                                                                                                            Defined TXT keys: name=<friendly device name>
                                       Ilium Software's eWallet
+ewelink                        tcp    eWeLink devices supporting   [Shenzhen_CoolKit_Technology_Co._Ltd.]                [Michael_Hu]                                              2019-01-17                                                                                     Defined TXT keys: txtvers, id, type, apivers, encrypt, data1,
+                                      LAN Control                                                                                                                                                                                                                                 data2, data3, data4, iv
                                                                                                                                                                                                                                                                                   Not a real service type. Special 'pretend' service types
 example                               Example Service Type                                                                                                                                                                                                                        ("_example._udp" and "_example._tcp") reserved for use in
                                                                                                                                                                                                                                                                                   illustrative examples in books and other documentation.
@@ -18366,6 +18368,11 @@ syncqdea                              Synchronize! X Plus 2.0      [Qdea]       
 synergy                               Synergy Peer Discovery       [Karl_Timmermann]                                     [Karl_Timmermann]                                                                                                                                        Defined TXT keys: None
 synksharing                           SynkSharing synchronization  [Benjamin_Rister]                                     [Benjamin_Rister]                                                                                                                                        Defined TXT keys: None
                                       protocol
+                                      This service name is used to
+                                      construct the SRV service
+sztp                           tcp    label "_sztp" for            [IESG]                                                [IETF_Chair]                                              2019-01-17                [RFC-ietf-netconf-zerotouch-29]                                      This protocol uses HTTPS as a substrate.
+                                      discovering SZTP bootstrap
+                                      servers.
 taccounting                           Data Transmission and        [John_MacMullin]                                      [John_MacMullin]                                                                                                                                         Defined TXT keys: None
                                       Synchronization
 tango                                 Tango Remote Control         [Tony_Amundson]                                       [Tony_Amundson]                                                                                                                                          Defined TXT keys: None
@@ -18501,6 +18508,10 @@ virtualdj                             VirtualDJ Remote Control     [Atomix_Produ
                                                                                                                                                                                                                                                                                   Defined TXT keys: Version=<service version> Type=<service
 visel                                 visel Q-System services      [Lehpaner_Sasa]                                       [Lehpaner_Sasa]                                                                                                                                          type> Name=<service Name> Zone=<service zone> ID=<serviceID>
                                                                                                                                                                                                                                                                                   SString=<serviceString> SString1=<serviceString>
+voalte2                        tcp    Server location via DNS-SD   [Voalte_Inc]                                          [John_Simpson]                                            2019-01-22                                                                                     Defined TXT keys: txtvers, name, (others not publicly
+                                                                                                                                                                                                                                                                                  documented)
+voalte3                        tcp    Server location via DNS-SD   [Voalte_Inc]                                          [John_Simpson]                                            2019-01-22                                                                                     Defined TXT keys: txtvers, name, (others not publicly
+                                                                                                                                                                                                                                                                                  documented)
                                       Virtual Object System (using                                                                                                                                                                                                                Defined TXT keys: url=<Object URL with full path>
 vos                                   VOP/TCP)                     [Reed_Hedges][Peter_Amstutz]                          [Reed_Hedges][Peter_Amstutz]                                                                                                                             type=<Comma-seperated list of object types> title=<Short
                                                                                                                                                                                                                                                                                   title of service> descr=<Short description of service>
@@ -21167,6 +21178,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [John_Ryan]                                               John Ryan                                           mailto:john&cybertrace.com
 [John_Scalo]                                              John Scalo                                          mailto:scalo&apple.com
 [John_Schilling]                                          John Schilling                                      mailto:john&jschilling.net
+[John_Simpson]                                            John Simpson               Voalte, Inc.             mailto:jms1&voalte.com                                        2019-01-22
 [John_Skidmore]                                           John Skidmore                                       mailto:JSkidmore&vicon-cctv.com                               2002-07
 [John_Stephen]                                            John Stephen                                        mailto:iana&mundocani.com                                     2002-07
 [John_Sygulla]                                            John Sygulla               SGI                      mailto:jsygulla&sgi.com                                       2013-01-07
@@ -21977,6 +21989,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michael_Ginn]                                            Michael Ginn                                        mailto:ginn&tyxar.com
 [Michael_Gleicher]                                        Michael Gleicher                                    mailto:mgleicher&comcast.net
 [Michael_Haeuptle]                                        Michael Haeuptle                                    mailto:Michael_Haeuptle&hp.com
+[Michael_Hu]                                              Michael Hu                 Shenzhen CoolKit         mailto:michael.hu&coolkit.cn                                  2019-01-17
+                                                                                     Technology Co., Ltd.
 [Michael_Hunter]                                          Michael Hunter                                      mailto:mphunter&qnx.com
 [Michael_J_Hoy]                                           Michael J Hoy                                       mailto:mhoy&canberra-abq.com
 [Michael_J_Primeaux]                                      Michael J Primeaux                                  mailto:michael.primeaux&renkara.com
@@ -23265,6 +23279,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Shawn_Emery]                                             Shawn Emery                                         mailto:shawn.emery&oracle.com                                 2016-09-15
 [Sheila_Devins]                                           Sheila Devins                                       mailto:sheila_devins&vnet.ibm.com
 [Shekar_Pasumarthi]                                       Shekar Pasumarthi                                   mailto:shekarp&firstfloor.com
+[Shenzhen_CoolKit_Technology_Co._Ltd.]                                               Shenzhen CoolKit         mailto:admin&coolkit.cn                                       2019-01-17
+                                                                                     Technology Co., Ltd.
 [Shifted_Current]                                                                    Shifted Current LLC      mailto:ask&shiftedcurrent.com                                 2012-09-11
 [Shigenaka_Kanemitsu]                                     Shigenaka Kanemitsu                                 mailto:Shigenaka_Kanemitsu&ypd.kyocera.co.jp
 [Shingo_Kimura]                                           Shingo Kimura                                       mailto:Shingo.Kimura&jp.sony.com                              2005-08
@@ -23971,6 +23987,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Volodymyr_Bykov]                                         Volodymyr_Bykov                                     mailto:vbickov&gmail.com                                      2016-11-23
 [Vladimir_Legalov]                                        Vladimir Legalov                                    mailto:legalov&sgi.com
 [Vladimir_Legalov_2]                                      Vladimir Legalov                                    mailto:vlegalov&riverbed.com                                  2007-09-04
+[Voalte_Inc]                                                                         Voalte, Inc.             mailto:engops&voalte.com                                      2019-01-22
 [Voiko_Loukanov]                                          Voiko Loukanov                                      mailto:v.loukanov&dvelectronics.com                           2003-10
 [Volker_Wiegand]                                          Volker Wiegand                                      mailto:volker.wiegand&t-online.de                             2007-07-10
 [Volker_Wiegand_2]                                        Volker Wiegand                                      mailto:volker&railduino.de                                    2018-01-08

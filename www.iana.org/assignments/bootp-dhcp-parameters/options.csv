@@ -159,7 +159,7 @@ applications",,,
 140,OPTION-IPv4_FQDN-MoS,N,a series of suboptions,[RFC5678]
 141,SIP UA Configuration Service Domains,N,List of domain names to search for SIP User Agent Configuration,[RFC6011]
 142,OPTION-IPv4_Address-ANDSF,N,ANDSF IPv4 Address Option for DHCPv4,[RFC6153]
-143,"OPTION_V4_ZEROTOUCH_REDIRECT (TEMPORARY - registered 2018-02-08, expires 2019-02-08)",N,This option provides a list of URIs for zerotouch bootstrap servers,[draft-ietf-netconf-zerotouch]
+143,OPTION_V4_SZTP_REDIRECT,N,This option provides a list of URIs for SZTP bootstrap servers,[RFC-ietf-netconf-zerotouch-29]
 144,GeoLoc,16,Geospatial Location with Uncertainty,[RFC6225]
 145,FORCERENEW_NONCE_CAPABLE,1,Forcerenew Nonce Capable,[RFC6704]
 146,RDNSS Selection,N,Information for selecting RDNSS,[RFC6731]

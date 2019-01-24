@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2018-12-24
+           2019-01-18
 
    Note
 
@@ -1893,7 +1893,7 @@ SMI Security Codes
            [IMG]
            CSV
 
-   Decimal        Description                References
+   Decimal        Description                   References
       0    id-ct-anyContentType       [RFC6010]
       1    id-ct-receipt              [RFC2634]
       2    id-ct-authData             [RFC2630]
@@ -1936,6 +1936,8 @@ SMI Security Codes
      39    id-ct-epub                 [RFC8358]
      40    id-ct-animaJSONVoucher     [RFC8366]
      41    id-ct-mudtype              [RFC-ietf-opsawg-mud-25]
+     42    id-ct-sztpConveyedInfoXML  [RFC-ietf-netconf-zerotouch-29]
+     43    id-ct-sztpConveyedInfoJSON [RFC-ietf-netconf-zerotouch-29]
 
   SMI Security for S/MIME Attributes (1.2.840.113549.1.9.16.2)
 
@@ -2805,7 +2807,7 @@ SMI Security Codes
            [IMG]
            CSV
 
-   Decimal               Description                      References
+   Decimal               Description                               References
       1    id-alg-des40                             [Reserved and Obsolete]
       2    id-alg-noSignature                       [RFC2797]
       3    id-alg-dh-sig-hmac-sha1                  [RFC2875]
@@ -2822,6 +2824,7 @@ SMI Security Codes
      26    id-alg-ecdhPop-static-sha256-hmac-sha256 [RFC6955]
      27    id-alg-ecdhPop-static-sha384-hmac-sha384 [RFC6955]
      28    id-alg-ecdhPop-static-sha512-hmac-sha512 [RFC6955]
+     29    id-alg-eccsi-with-sha256                 [draft-wang-tls-raw-public-key-with-ibc]
 
   SMI Security for PKIX CMC Controls
 

@@ -443,7 +443,8 @@ See [RFC4303] for the specification of the
 encapsulating security payload.
 
 The diagram provided in [RFC5102] is incorrect.  
-The diagram in this registry is taken from Errata 1738. See [RFC Errata 1738]",[RFC5102],0,2013-02-18
+The diagram in this registry is taken from Errata 1738. See [RFC Errata 
+          1738]",[RFC5102],0,2013-02-18
 65-69,Assigned for NetFlow v9 compatibility,,,,,,,[RFC3954],[RFC5102],0,2013-02-18
 70,mplsTopLabelStackSection,octetArray,default,current,"The Label, Exp, and S fields from the top MPLS label
 stack entry, i.e., from the last label that was pushed.
@@ -603,7 +604,8 @@ decode: 01        -> Forward
 value : 0x89 = 137
 binary: 10001001
 decode: 10        -> Drop
-          001001  -> Bad TTL",,,"See ""NetFlow Version 9 Flow-Record Format"" [CCO-NF9FMT].",[RFC7270][RFC Errata 5262],2,2018-02-21
+          001001  -> Bad TTL",,,"See ""NetFlow Version 9 Flow-Record Format"" [CCO-NF9FMT].","[RFC7270][RFC Errata 
+          5262]",2,2018-02-21
 90,mplsVpnRouteDistinguisher,octetArray,default,current,"The value of the VPN route distinguisher of a corresponding
 entry in a VPN routing and forwarding table.  Route
 distinguisher ensures that the same address can be used in
@@ -893,7 +895,8 @@ Flow Keys are among the first 64 Information Elements, because
 the flowKeyIndicator only contains 64 bits.  If the Data Record
 contains less than 64 Information Elements, then the bits in
 the flowKeyIndicator for which no corresponding Information
-Element exists MUST have the value 0.",,,,[RFC5102][RFC Errata 4984],1,2017-08-01
+Element exists MUST have the value 0.",,,,"[RFC5102][RFC Errata 
+          4984]",1,2017-08-01
 174,postMCastPacketTotalCount,unsigned64,totalCounter,current,"The total number of outgoing multicast packets sent for
 packets of this Flow by a multicast daemon within the
 Observation Domain since the Metering Process
@@ -1149,7 +1152,8 @@ See [RFC4291] for the specification of
 reserved IPv6 multicast addresses and the definition of the T flag and
 the IPv6 multicast scope.
 The diagram provided in [RFC5102] is incorrect.  
-The diagram in this registry is taken from Errata 1736. See [RFC Errata 1736]",[RFC5102],0,2013-02-18
+The diagram in this registry is taken from Errata 1736. See [RFC Errata 
+          1736]",[RFC5102],0,2013-02-18
 207,ipv4IHL,unsigned8,,current,"The value of the Internet Header Length (IHL) field in
 the IPv4 header.  It specifies the length of the header
 in units of 4 octets.  Please note that its unit is
@@ -1241,7 +1245,8 @@ The mapping is illustrated by the figure below.
 options.
 See the list of IPv4 option numbers assigned by IANA at [IANA registry ip-parameters].
 The diagram provided in [RFC5102] is incorrect.  
-The diagram in this registry is taken from Errata 1737. See [RFC Errata 1737]",[RFC5102],0,2013-02-18
+The diagram in this registry is taken from Errata 1737. See [RFC Errata 
+          1737]",[RFC5102],0,2013-02-18
 209,tcpOptions,unsigned64,flags,current,"TCP options in packets of this Flow.
 The information is encoded in a set of bit fields.  For
 each TCP option, there is a bit in this set.
@@ -1284,7 +1289,8 @@ TCP option numbers are maintained by IANA.
 options.
 See the list of TCP option numbers assigned by IANA at [IANA registry tcp-parameters].
 The diagram provided in [RFC5102] is incorrect.  
-The diagram in this registry is taken from Errata 1739. See [RFC Errata 1739]",[RFC5102],0,2013-02-18
+The diagram in this registry is taken from Errata 1739. See [RFC Errata 
+          1739]",[RFC5102],0,2013-02-18
 210,paddingOctets,octetArray,default,current,"The value of this Information Element is always a sequence of
 0x00 values.",,,,[RFC5102],0,2013-02-18
 211,collectorIPv4Address,ipv4Address,default,current,"An IPv4 address to which the Exporting Process sends Flow
@@ -1640,7 +1646,8 @@ IPv6 Traffic Class field.",[ipfix-iana_at_cisco.com],0,2013-02-18
 scope containing this Information Element was received by a
 Collecting Process.  This Information Element SHOULD be bound to
 its containing IPFIX Message via IPFIX Options and the
-messageScope Information Element, as defined below.",milliseconds,,,[RFC5655][RFC Errata 3559],1,2013-03-26
+messageScope Information Element, as defined below.",milliseconds,,,"[RFC5655][RFC Errata 
+          3559]",1,2013-03-26
 259,exportSctpStreamId,unsigned16,identifier,current,"The value of the SCTP Stream Identifier used by the
 Exporting Process for exporting IPFIX Message data.  This is
 carried in the Stream Identifier field of the header of the SCTP
@@ -2102,7 +2109,8 @@ specifying the Observation Point and the sequence of Selectors
 through which the packets are selected.",,,,[RFC5477],0,2013-02-18
 302,selectorId,unsigned64,identifier,current,"The Selector ID is the unique ID identifying a Primitive Selector.
 Each Primitive Selector must have a unique ID in the Observation
-Domain.",,,,[RFC5477][RFC Errata 2052],0,2013-02-18
+Domain.",,,,"[RFC5477][RFC Errata 
+          2052]",0,2013-02-18
 303,informationElementId,unsigned16,identifier,current,"This Information Element contains the ID of another Information
 Element.",,,,[RFC5477],0,2013-02-18
 304,selectorAlgorithm,unsigned16,identifier,current,"This Information Element identifies the packet selection methods
@@ -3531,7 +3539,8 @@ that adhere to REQ-4 of [RFC6888]. Limiting the number of
 ports assigned to each user ensures fairness among users and
 mitigates the denial-of-service attack that a user could launch
 against other users through the address-sharing device in order
-to grab more ports.",ports,1-65535,,[RFC8045][RFC Errata 5009],1,2017-08-01
+to grab more ports.",ports,1-65535,,"[RFC8045][RFC Errata 
+          5009]",1,2017-08-01
 459,httpRequestMethod,string,,current,"The HTTP request method, as defined in section 4 of
 [RFC7231], associated with a 
 flow. String with up to 8 UTF-8 characters.",,,,[Felix_Erlacher],0,2016-11-15
@@ -3642,5 +3651,32 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
     See [RFC4787] for the definition of paired 
     address pooling behavior.",[RFC8158],0,2017-12-01
 482,vpnIdentifier,octetArray,default,current,"VPN ID in the format specified by [RFC2685].
-      The size of this Information Element is 7 octets.",,,[RFC2685],[ipfix-iana_at_cisco.com],0,2018-07-10
-483-32767,Unassigned,,,,,,,,,,
+   The size of this Information Element is 7 octets.",,,[RFC2685],[ipfix-iana_at_cisco.com],0,2018-07-10
+483,bgpCommunity,unsigned32,identifier,current,BGP community as defined in [RFC1997],,,[RFC1997],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+484,bgpSourceCommunityList,basicList,list,current,"basicList of zero or more bgpCommunity IEs, containing the BGP 
+    communities corresponding with source IP address of a specific flow",,,"[RFC6313]
+    [RFC1997]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+485,bgpDestinationCommunityList,basicList,list,current,"basicList of zero or more bgpCommunity IEs, containing the BGP 
+    communities corresponding with destination IP address of a specific flow",,,"[RFC6313]
+    [RFC1997]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+486,bgpExtendedCommunity,octetArray,default,current,"BGP Extended Community as defined in [RFC4360]
+    The size of this IE MUST be 8 octets",,,[RFC4360],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+487,bgpSourceExtendedCommunityList,basicList,list,current,"basicList of zero or more bgpExtendedCommunity IEs, 
+    containing the BGP Extended Communities corresponding with source 
+    IP address of a specific flow",,,"[RFC6313]
+    [RFC4360]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+488,bgpDestinationExtendedCommunityList,basicList,list,current,"basicList of zero or more bgpExtendedCommunity IEs, 
+    containing the BGP Extended Communities corresponding 
+    with destination IP address of a specific flow",,,"[RFC6313]
+    [RFC4360]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+489,bgpLargeCommunity,octetArray,default,current,"BGP Large Community as defined in [RFC8092]
+    The size of this IE MUST be 12 octets.",,,[RFC8092],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+490,bgpSourceLargeCommunityList,basicList,list,current,"basicList of zero or more bgpLargeCommunity IEs, 
+    containing the BGP Large Communities corresponding 
+    with source IP address of a specific flow",,,"[RFC6313]
+  [RFC8092]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+491,bgpDestinationLargeCommunityList,basicList,list,current,"basicList of zero or more bgpLargeCommunity IEs, 
+    containing the BGP Large Communities corresponding 
+    with destination IP address of a specific flow",,,"[RFC6313]
+    [RFC8092]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+492-32767,Unassigned,,,,,,,,,,
