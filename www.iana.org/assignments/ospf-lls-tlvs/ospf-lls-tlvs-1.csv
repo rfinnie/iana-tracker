@@ -16,6 +16,6 @@ LLS Type,Name,Reference
 15,MDR-DD,[RFC5614]
 16,MDR-Metric,[RFC5614]
 17,IPv6 MTU TLV,[RFC5838]
-18,Local Interface Identifier TLV,[RFC-ietf-ospf-lls-interface-id-09]
+18,Local Interface ID TLV,[RFC8510]
 19-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5613]
