@@ -12,7 +12,7 @@ Number,Name,Reference
 11,Uri-Path,[RFC7252]
 12,Content-Format,[RFC7252]
 13,Unassigned,
-14,Max-Age,[RFC7252][RFC-ietf-core-too-many-reqs-06]
+14,Max-Age,[RFC7252][RFC8516]
 15,Uri-Query,[RFC7252]
 16,Unassigned,
 17,Accept,[RFC7252]
