@@ -1,3 +1,4 @@
 Flag,Meaning,Reference
 0,Issuer Critical Flag,[RFC6844]
-1-7,Unassigned,[RFC6844][RFC Errata 3532]
+1-7,Unassigned,"[RFC6844][RFC Errata 
+          3532]"
