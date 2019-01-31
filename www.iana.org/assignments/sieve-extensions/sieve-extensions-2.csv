@@ -52,6 +52,8 @@ extlists,"Adds the "":list"" match type to certain Sieve tests, and
         message to email addresses stored in the externally stored list.",[RFC6134],[Sieve_discussion_list],
 extracttext,"adds the ""extracttext"" action for extracting text from a
 MIME body part.",[RFC5703],[Sieve_discussion_list],
+fcc,"Adds the "":fcc"" parameter to Sieve action commands
+that generate additional messages.",[RFC-ietf-extra-sieve-fcc-09],[Sieve_discussion_list],2019-01-29
 fileinto,"adds the 'fileinto' action for delivering to a
 mailbox other than the default","[RFC5228] (Sieve base spec), 
         [RFC5490] (:create), 
@@ -104,6 +106,10 @@ an email message being spam.",[RFC5235],[Sieve_discussion_list],
 spamtestplus,"Provides a test to check for varying likelihood of
 an email message being spam, possibly using a percentage
 range.",[RFC5235],[Sieve_discussion_list],
+special-use,"adds a test for checking whether an IMAP
+special-use attribute is assigned for a particular mailbox 
+or any mailbox, and it adds the ability to file messages into 
+a mailbox identified solely by a special-use attribute.",[RFC-ietf-extra-sieve-special-use-05],[Sieve_discussion_list],2019-01-29
 subaddress,"adds the ':user' and ':detail' address parts
 for use with the address and envelope tests",[RFC5233],[Sieve_discussion_list],
 vacation,"adds an action for generating an auto-reply saying
