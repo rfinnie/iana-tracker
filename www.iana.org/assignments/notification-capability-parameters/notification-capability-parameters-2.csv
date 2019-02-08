@@ -17,3 +17,8 @@ status,"A human-readable description of the user's availability
         name that's defined in Section 4.7.2.2 of RFC 6121.","There is no formal definition for the values this item may
         take.  It is free-form and may be in any language, and is meant
         for human consumption.",The Sieve discussion list sieve@ietf.org,[RFC6132]
+fcc,"Returns whether a copy of the notification message
+        sent using the method identified by the notification-uri parameter
+        to the notify_method_capability test can be filed into a target
+        mailbox.","Can contain one of two values: ""yes"" or ""no"".  Values MUST
+        be in lowercase.",The Sieve discussion list sieve@ietf.org,[RFC-ietf-extra-sieve-fcc-09]

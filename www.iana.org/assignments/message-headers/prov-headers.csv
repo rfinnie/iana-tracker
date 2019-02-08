@@ -1,3 +1,4 @@
+Header Field Name,Template,Protocol,Status,Reference
 Access-Control,prov/access-control,http,deprecated,[W3C Web Application Formats Working Group]
 Access-Control-Allow-Credentials,prov/access-control-allow-credentials,http,,[W3C Web Application Formats Working Group]
 Access-Control-Allow-Headers,prov/access-control-allow-headers,http,,[W3C Web Application Formats Working Group]
