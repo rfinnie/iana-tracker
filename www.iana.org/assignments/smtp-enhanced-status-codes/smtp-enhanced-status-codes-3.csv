@@ -299,7 +299,7 @@ of SPF relative to an arriving message resulted in an error.  Used in place of
 X.7.25,Reverse DNS validation failed,550,"This status code is returned when an SMTP
 client's IP address failed a reverse DNS
 validation check, contrary to local policy
-requirements.",[RFC7372] (Standards Track); [RFC7601] (Standards Track),M. Kucherawy,IESG
+requirements.","[RFC7372], Section 3.3 (Standards Track)",M. Kucherawy,IESG
 X.7.26,Multiple authentication checks failed,550,"This status code is returned when a message
 failed more than one message authentication
 check, contrary to local policy requirements.
