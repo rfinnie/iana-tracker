@@ -1,3 +1,4 @@
+Header Field Name,Template,Protocol,Status,Reference
 A-IM,,http,,[RFC4229]
 Accept,,http,standard,"[RFC7231, Section 5.3.2]"
 Accept-Additions,,http,,[RFC4229]
@@ -30,7 +31,7 @@ Article-Names,,netnews,obsoleted,[RFC1849][RFC5536]
 Article-Updates,,netnews,obsoleted,[RFC1849][RFC5536]
 Authentication-Control,,http,experimental,"[RFC8053, Section 4]"
 Authentication-Info,,http,standard,"[RFC7615, Section 3]"
-Authentication-Results,,mail,standard,[RFC7601]
+Authentication-Results,,mail,standard,[RFC-ietf-dmarc-rfc7601bis-06]
 Authorization,,http,standard,"[RFC7235, Section 4.2]"
 Auto-Submitted,,mail,standard,[RFC3834 section 5]
 Autoforwarded,,mail,,[RFC4021]
@@ -48,6 +49,7 @@ CalDAV-Timezones,,http,standard,"[RFC7809, Section 7.1]"
 Cancel-Key,,netnews,standard,[RFC8315]
 Cancel-Lock,,netnews,standard,[RFC8315]
 Cc,,mail,standard,[RFC5322]
+CDN-Loop,,http,standard,[RFC-ietf-httpbis-cdn-loop-02]
 Close,,http,reserved,"[RFC7230, Section 8.1]"
 Comments,,mail,standard,[RFC5322]
 Comments,,netnews,standard,[RFC5536][RFC5322]
