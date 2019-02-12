@@ -14406,6 +14406,8 @@ la-maint,,,IMP Logical Address Maintenance,,,,2013-05-24,,,,This service name is
 labyrinth,,udp,Labyrinth local multiplayer protocol,[Andreas_Alptun],[Andreas_Alptun],,,,,,Defined TXT keys: None
 lan2p,,,Lan2P Peer-to-Peer Network Protocol,[Ben_Guild],[Ben_Guild],,,,,,Defined TXT keys: None
 lapse,,,Gawker,[Phil_Piwonka],[Phil_Piwonka],,,,,,Defined TXT keys: None
+larvaio-control,,tcp,Larva IP Controller,[larva.io_ltd],[Reijo_Sirila],2019-02-11,,,,,Defined TXT keys: None
+larvaio-control,,udp,Larva IP Controller,[larva.io_ltd],[Reijo_Sirila],2019-02-11,,,,,Defined TXT keys: None
 leaf,,,Lua Embedded Application Framework,[Ico_Doornekamp],[Ico_Doornekamp],,,,,,"Defined TXT keys:   name=<readable name>
   product=<product name/model>
   version=<version number>"
