@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2019-01-28
+           2019-02-12
 
    Available Formats
            [IMG]
@@ -190,6 +190,7 @@ ms-inputapp                          prov/ms-inputapp                          m
 ms-lockscreencomponent-config        prov/ms-lockscreencomponent-config        ms-lockscreencomponent-config        Provisional [urischemeowners_at_microsoft.com]
 ms-media-stream-id                   prov/ms-media-stream-id                   ms-media-stream-id                   Provisional [urischemeowners_at_microsoft.com]
 ms-mixedrealitycapture               prov/ms-mixedrealitycapture               ms-mixedrealitycapture               Provisional [urischemeowners_at_microsoft.com]
+ms-mobileplans                       prov/ms-mobileplans                       ms-mobileplans                       Provisional [urischemeowners_at_microsoft.com]
 ms-officeapp                         prov/ms-officeapp                         ms-officeapp                         Provisional [urischemeowners_at_microsoft.com]
 ms-people                            prov/ms-people                            ms-people                            Provisional [urischemeowners_at_microsoft.com]
 ms-project                           prov/ms-project                           ms-project                           Provisional [urischemeowners_at_microsoft.com]
@@ -236,6 +237,7 @@ msnim                                prov/msnim                                m
 msrp                                                                           Message Session Relay Protocol       Permanent   [RFC4975]
 msrps                                                                          Message Session Relay Protocol       Permanent   [RFC4975]
                                                                                Secure
+mss                                  prov/mss                                  mss                                  Provisional [Jarmo_Miettinen]
 mtqp                                                                           Message Tracking Query Protocol      Permanent   [RFC3887]
 mumble                               prov/mumble                               mumble                               Provisional [Dave_Thaler]
 mupdate                                                                        Mailbox Update (MUPDATE) Protocol    Permanent   [RFC3656]
@@ -373,6 +375,7 @@ z39.50s                                                                        Z
    [Ignacio_Losiggio]                 Ignacio Losiggio                              mailto:iglosiggio&gmail.com                        2017-05-09
    [James_Cramer]                     James Cramer                                  mailto:jcramer&deskviz.com                         2018-07-27
    [Jan_Pokorny]                      Jan Pokorny                                   mailto:jpokorny&redhat.com                         2016-09-20
+   [Jarmo_Miettinen]                  Jarmo_Miettinen                               mailto:jarmo.miettinen&methics.fi                  2019-02-12
    [Joe_Hildebrand]                   Joe Hildebrand                                mailto:jhildebrand&mozilla.com                     2017-01-20
    [Kimmo_Lindholm]                   Kimmo Lindholm                                mailto:kimmo.lindholm&eke.fi                       2018-06-06
    [Manu_Sporny]                      Manu Sporny                                   mailto:msporny&digitalbazaar.com                   2018-05-14
