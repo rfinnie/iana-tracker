@@ -7,6 +7,8 @@ Value,ID Role,Reference
 5,Application (IDRapp),[RFC6043]
 6,Initiator's KMS (IDRkmsi),[RFC6509]
 7,Responder's KMS (IDRkmsr),[RFC6509]
-8-239,Unassigned,
+8,Hashed Initiator (IDRuidi),"[3GPP TS 33.180, Section E.6.7][Tim_Woodward]"
+9,Hashed Responder (IDRuidr),"[3GPP TS 33.180, Section E.6.7][Tim_Woodward]"
+10-239,Unassigned,
 240-254,Reserved for Private Use,[RFC6043]
 255,Reserved,[RFC6043]

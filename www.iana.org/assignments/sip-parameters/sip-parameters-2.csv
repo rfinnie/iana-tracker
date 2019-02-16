@@ -68,7 +68,7 @@ P-Private-Network-Indication,,[RFC7316]
 P-Profile-Key,,[RFC5002]
 P-Refused-URI-List,,[RFC5318]
 P-Served-User,,"[RFC5502]
-        [RFC-ietf-sipcore-originating-cdiv-parameter-08]"
+        [RFC8498]"
 P-User-Database,,[RFC4457]
 P-Visited-Network-ID,,[RFC7315]
 Path,,[RFC3327]
