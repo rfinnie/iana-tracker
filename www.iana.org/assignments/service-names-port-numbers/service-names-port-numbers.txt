@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-02-11
+           2019-02-19
 
    Expert(s)
 
@@ -18528,6 +18528,8 @@ walkietalkie                          Walkie Talkie                [Johan_Kool] 
 wd-2go                         tcp    NAS Service Protocol         [Western_Digital]                                     [Rajesh_Batra]                                            2012-07-11                                                                                     Defined TXT keys: None
 wdp                            tcp    Windows Device Portal        [Microsoft_Corporation_5]                             [Hirsch_Singhal]                                          2016-03-03                                                                                     Defined TXT keys: D (device type), S (https port), A
                                                                                                                                                                                                                                                                                   (architecture), T (tags)
+web-xi                         tcp    HTTP-based protocol for DAQ  [Spectris_plc]                                        [Carsten_Hansen]                                          2019-02-13                                                                                     Defined TXT keys: name, version
+                                      devices
                                       Cisco WebEx serials products
 webex                          tcp    will release Bonjour based   [Mobile_Team]                                         [Aulion_Huang]                                            2018-02-09                                                                                     Defined TXT keys: None
                                       service
@@ -19361,6 +19363,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Carstein_Seeberg]                                        Carstein Seeberg                                    mailto:case&boole.no
 [Carstein_Seeberg_2]                                      Carstein Seeberg                                    mailto:case&nimsoft.no
 [Carsten_Falticska]                                       Carsten Falticska                                   mailto:falticska&freenet.de                                   2003-11
+[Carsten_Hansen]                                          Carsten Hansen             Spectris plc             mailto:Carsten.Hansen&bksv.com                                2019-02-13
 [Carsten_Strotmann]                                       Carsten Strotmann                                   mailto:carsten.strotmann&menandmice.com                       2009-05-20
 [Casey_Harrington]                                        Casey Harrington                                    mailto:charrington&isxinc.com                                 2006-01
 [Casper_Stoel]                                            Casper Stoel                                        mailto:cbs&ascinc.com
@@ -22024,7 +22027,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michael_Padrezas]                                        Michael Padrezas                                    mailto:mpaderzas&bluelance.com
 [Michael_Purser]                                          Michael Purser                                      mailto:mrp&mincom.com                                         2006-06
 [Michael_R_Pizolato]                                      Michael R. Pizolato                                 mailto:michael&afs.com
-[Michael_R_Young]                                         Michael R. Young                                    mailto:michael.young&tor.sunpub.com
+[Michael_R_Young]                                         Michael R. Young                                    mailto:michael.young&streetperfect.com                        2019-02-15
 [Michael_Rathmann]                                        Michael Rathmann                                    mailto:rathmann_ia&milesinfo.com
 [Michael_Richardson]                                      Michael Richardson                                  mailto:mcr&sandelman.ca                                       2011-02-08
 [Michael_S_Amirault]                                      Michael S Amirault                                  mailto:ambi&world.std.com
@@ -22817,7 +22820,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Rehan_Mahmood]                                           Rehan Mahmood                                       mailto:rehan&matrixmultimedia.co.uk                           2009-03-18
 [Reid_B_Ligon]                                            Reid B. Ligon                                       mailto:Reid.Ligon&datalogic.com                               2014-07-31
 [Reid_Ligon]                                              Reid Ligon                                          mailto:reid&connectrf.com
-[Reijo_Sirila]                                            Reijo Sirila                                        mailto:reijo&larva.ioe                                        2019-02-11
+[Reijo_Sirila]                                            Reijo Sirila                                        mailto:reijo&larva.io                                         2019-02-19
 [Reinder_Feenstra]                                        Reinder Feenstra                                    mailto:r.feenstra&tiepie.nl                                   2016-04-01
 [Reinhard_Doelz]                                          Reinhard Doelz                                      mailto:doelz&comp.bioz.unibas.ch
 [Reinhard_Wolf]                                           Reinhard Wolf              Adsoft AG                mailto:adsoft&vtxmail.ch                                      2010-08-19
@@ -23379,6 +23382,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Soren_Weber]                                             Soren Weber                                         mailto:sw&ditec-gmbh.de
 [Soumitra_Sarkar]                                         Soumitra Sarkar                                     mailto:sarkar&vnet.ibm.com
 [Sowmini_Varadhan]                                        Sowmini Varadhan           Oracle Corp              mailto:sowmini.varadhan&oracle.com                            2015-04-30
+[Spectris_plc]                                                                       Spectris plc             mailto:Carsten.Hansen&bksv.com                                2019-02-13
 [Spencer_Teran]                                           Spencer Teran                                       mailto:steran&dotalot.com                                     2005-08
 [Spencer_Teran_2]                                         Spencer Teran                                       mailto:steran&ars.com                                         2004-11
 [SPG_Controls_Ltd]                                                                   SPG Controls Ltd         mailto:steveb&spgcontrols.com                                 2017-03-27
