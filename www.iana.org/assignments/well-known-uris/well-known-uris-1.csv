@@ -20,7 +20,7 @@ HTTPS protocols (using default ports) MUST be identical.",,
 keybase.txt,[The_Keybase_Project],[https://keybase.io/__/keybase_well_known],"Related information: Documentation for the Keybase 
       [command line] 
         and [API].",2014-04-08,
-looking-glass,[M.Stubbig],"[RFC-mst-lgapi-11, Section 2]",,2018-12-07,
+looking-glass,[M._Stubbig],"[RFC8522, Section 2]",,2018-12-07,
 mta-sts.txt,IETF,[RFC8461],,2018-06-21,
 mud (deprecated),,,,2016-11-23,
 ni,IETF,[RFC6920],,,

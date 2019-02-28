@@ -309,5 +309,5 @@ X.7.27,Sender address has null MX,550,"This status code is returned when the ass
 sender address has a null MX, and the SMTP
 receiver is configured to reject mail from such
 sender (e.g., because it could not return a DSN).",[RFC7505] (Standards Track),"J. Levine, M. Delany",IESG
-X.7.28,Mail flood detected,The message appears to be part of a mail flood of similar abusive message.,,[draft-levine-mailbomb-header],J. Levine,standards@taugh.com
+X.7.28,Mail flood detected,.,The message appears to be part of a mail flood of similar abusive messages.,[draft-levine-mailbomb-header],J. Levine,standards@taugh.com
 X.7.29,ARC validation failure,550,This status code may be returned when a message fails ARC validation,[RFC-ietf-dmarc-arc-protocol-23],K. Andersen,IESG

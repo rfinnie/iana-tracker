@@ -30,3 +30,5 @@ Decimal,Description,References
 29,id-pe-autonomousSysIds-v2,[RFC8360]
 30,id-pe-mudsigner,[RFC-ietf-opsawg-mud-25]
 31,id-pe-acmeIdentifier,[draft-ietf-acme-tls-alpn]
+32,"id-pe-masa-url 
+          (TEMPORARY - registered 2019-02-20, expires 2020-02-20)",[draft-ietf-anima-bootstrapping-keyinfra]
