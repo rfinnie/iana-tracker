@@ -1,5 +1,5 @@
 AVP Value,Attribute Name,Reference
-0,TERMINATE,[RFC-ietf-dime-rfc4006bis-11]
-1,REDIRECT,[RFC-ietf-dime-rfc4006bis-11]
-2,RESTRICT_ACCESS,[RFC-ietf-dime-rfc4006bis-11]
+0,TERMINATE,[RFC8506]
+1,REDIRECT,[RFC8506]
+2,RESTRICT_ACCESS,[RFC8506]
 3-2147483647,Unassigned,
