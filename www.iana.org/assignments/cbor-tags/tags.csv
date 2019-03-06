@@ -29,9 +29,36 @@ Tag,Data Item,Semantics,Reference
 37,byte string,Binary UUID ([RFC4122] section 4.1.2),[https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
 38,array,Language-tagged string,[http://peteroupc.github.io/CBOR/langtags.html][Peter_Occil]
 39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
-40-60,Unassigned,,
+40,array of two arrays [1],"Multi-dimensional Array, row-major order",[draft-ietf-cbor-array-tags]
+41,array,Homogeneous Array,[draft-ietf-cbor-array-tags]
+42-60,Unassigned,,
 61,CBOR Web Token (CWT),CBOR Web Token (CWT),[RFC8392][Michael_B._Jones]
-62-95,Unassigned,,
+62-63,Unassigned,,
+64,byte string,uint8 Typed Array,[draft-ietf-cbor-array-tags]
+65,byte string,"uint16, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+66,byte string,"uint32, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+67,byte string,"uint64, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+68,byte string,"uint8 Typed Array, clamped arithmetic",[draft-ietf-cbor-array-tags]
+69,byte string,"uint16, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+70,byte string,"uint32, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+71,byte string,"uint64, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+72,byte string,sint8 Typed Array,[draft-ietf-cbor-array-tags]
+73,byte string,"sint16, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+74,byte string,"sint32, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+75,byte string,"sint64, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+76,byte string,(reserved),[draft-ietf-cbor-array-tags]
+77,byte string,"sint16, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+78,byte string,"sint32, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+79,byte string,"sint64, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+80,byte string,"IEEE 754 binary16, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+81,byte string,"IEEE 754 binary32, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+82,byte string,"IEEE 754 binary64, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+83,byte string,"IEEE 754 binary128, big endian, Typed Array",[draft-ietf-cbor-array-tags]
+84,byte string,"IEEE 754 binary16, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+85,byte string,"IEEE 754 binary32, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+86,byte string,"IEEE 754 binary64, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+87,byte string,"IEEE 754 binary128, little endian, Typed Array",[draft-ietf-cbor-array-tags]
+88-95,Unassigned,,
 96,COSE_Encrypt,COSE Encrypted Data Object,[RFC8152]
 97,COSE_Mac,COSE MACed Data Object,[RFC8152]
 98,COSE_Sign,COSE Signed Data Object,[RFC8152]
@@ -56,7 +83,9 @@ Tag,Data Item,Semantics,Reference
 1001,map,extended time,[draft-bormann-cbor-time-tag-01]
 1002,map,duration,[draft-bormann-cbor-time-tag-01]
 1003,map,period,[draft-bormann-cbor-time-tag-01]
-1004-22097,Unassigned,,
+1004-1039,Unassigned,,
+1040,array of two arrays [1],"Multi-dimensional Array, column-major order",[draft-ietf-cbor-array-tags]
+1041-22097,Unassigned,,
 22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann]
 22099-55798,Unassigned,,
 55799,multiple,Self-describe CBOR; see Section 2.4.5,[RFC7049]

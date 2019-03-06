@@ -1,6 +1,6 @@
 AVP Value,Attribute Name,Reference
-0,IPv4 Address,[RFC-ietf-dime-rfc4006bis-11]
-1,IPv6 Address,[RFC-ietf-dime-rfc4006bis-11]
-2,URL,[RFC-ietf-dime-rfc4006bis-11]
-3,SIP URI,[RFC-ietf-dime-rfc4006bis-11]
+0,IPv4 Address,[RFC8506]
+1,IPv6 Address,[RFC8506]
+2,URL,[RFC8506]
+3,SIP URI,[RFC8506]
 4-2147483647,Unassigned,
