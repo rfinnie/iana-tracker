@@ -8,3 +8,5 @@ path,Reserved,"[RFC6844][RFC Errata
           3547]"
 policy,Reserved,"[RFC6844][RFC Errata 
           3547]"
+contactemail,Authorized e-mail contact for domain validation,[CA/Browser Forum 1.6.3][CA_Browser_Forum]
+contactphone,Authorized phone contact for DNS validation,[CA/Browser Forum Ballot SC14][CA_Browser_Forum]
