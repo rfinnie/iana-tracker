@@ -11,7 +11,7 @@ application/octet-stream,,42,[RFC2045][RFC2046]
 Unassigned,,43-46,
 application/exi,,47,"[""Efficient XML Interchange (EXI) Format 1.0 (Second Edition)"", February 2014]"
 Unassigned,,48-49,
-application/json,,50,[RFC7159]
+application/json,,50,[RFC8259]
 application/json-patch+json,,51,[RFC6902]
 application/merge-patch+json,,52,[RFC7396]
 Unassigned,,53-59,
@@ -57,7 +57,11 @@ Unassigned,,312-1541,
 "Reserved, do not use",,1542-1543,[OMA-TS-LightweightM2M-V1_0]
 Unassigned,,1544-9999,
 application/vnd.ocf+cbor,,10000,[Michael_Koster]
-Unassigned,,10001-11541,
+Unassigned,,10001-11049,
+application/json,deflate,11050,[RFC8259]
+Unassigned,,11051-11059,
+application/cbor,deflate,11060,[RFC7049]
+Unassigned,,11061-11541,
 application/vnd.oma.lwm2m+tlv,,11542,[OMA-TS-LightweightM2M-V1_0]
 application/vnd.oma.lwm2m+json,,11543,[OMA-TS-LightweightM2M-V1_0]
 Unassigned,,11544-64999,

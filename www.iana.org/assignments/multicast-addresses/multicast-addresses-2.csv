@@ -187,4 +187,5 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.1.185,ASAP,[RFC5352],,,
 224.0.1.186,SL-MANET-ROUTERS,[RFC6621],,,
 224.0.1.187,All CoAP Nodes,[RFC7252],,2013-07-25,
-224.0.1.188-224.0.1.255,Unassigned,,,,
+224.0.1.188,BRSDP,[Vanya_Levy],[Semtech_Corporation],2019-02-20,
+224.0.1.189-224.0.1.255,Unassigned,,,,
