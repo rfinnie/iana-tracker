@@ -4,8 +4,7 @@ Decimal,Name,Description,References
 ""Project Athena Technical Plan Section E.2.1: Kerberos
 Authentication and Authorization System"", Project Athena,
 MIT, December 1987.][B_Clifford_Neuman]"
-2,kerberosV5,Kerberos version 5 objects,"[Kohl, J., and B.C. Neuman, ""The Kerberos Network
-Authentication Service (V5)"" work in progress, September 1992][B_Clifford_Neuman]"
+2,kerberosV5,Kerberos version 5 objects,[RFC4120][https://web.mit.edu/kerberos/krb5-oids/krb5-oids.asn][B_Clifford_Neuman][Greg_Hudson]
 3,integrity,integrity algorithms,[IANA]
 4,confide,confidentiality algorithms,[IANA]
 5,mechanisms,security mechanisms,[IANA]
