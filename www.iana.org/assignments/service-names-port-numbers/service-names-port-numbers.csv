@@ -14358,6 +14358,7 @@ imgsync,,tcp,Protocol synchronizing Image data,[Canon_Inc_2],[Kazuo_Moritomo],20
 ims-ni,,tcp,Noise Inspector,[IMS_merilni_sistemi],[Metod_Celestina],2012-08-24,,,,,"Defined TXT keys:  SN (serial number), SVER (software version), HVER (hardware version), PVER (protocol version))"
 indigo-dvr,,,Indigo Security Digital Video Recorders,[Haram_Lee],[Haram_Lee],,,,,,Defined TXT keys: Proprietary
 infboard,,tcp,InfBoard interactive whiteboard protocol,[Eric_Sean_Conner],[Eric_Sean_Conner],2011-10-17,,,,,Defined TXT keys: Proprietary
+informacast,,tcp,Listing Singlewire InformaCast servers,[Singlewire_Software_LLC],[Jerry_Steinhauer],2019-03-11,,,,,Defined TXT keys: None
 innergroup,,tcp,Service for a Communications App,[Santo_Porpiglia],[Santo_Porpiglia],2015-05-28,,,,,Defined TXT keys: None
 inova-ontrack,,,Inova Solutions OnTrack Display Protocol,,,,,,,,Defined TXT keys: None
 iot,,tcp,Internet-of-things (IoT) JSON telegram service,[SEVENSTAX_GmbH],[Ralf_Schwarzer],2015-11-05,,,,,"Defined TXT keys: <type>:application specific kind of protocol; 
