@@ -17,5 +17,5 @@ Capability,Capability Identifier,Reference
 :base:1.1,urn:ietf:params:netconf:base:1.1,[RFC6241]
 :time:1.0,urn:ietf:params:netconf:capability:time:1.0,[RFC7758]
 :yang-library,urn:ietf:params:netconf:capability:yang-library:1.0,[RFC7950]
-:yang-library:1.1,urn:ietf:params:netconf:capability:yang-library:1.1,[RFC-ietf-netconf-nmda-netconf-08]
-:with-operational-defaults,urn:ietf:params:netconf:capability:with-operational-defaults:1.0,[RFC-ietf-netconf-nmda-netconf-08]
+:yang-library:1.1,urn:ietf:params:netconf:capability:yang-library:1.1,[RFC8526]
+:with-operational-defaults,urn:ietf:params:netconf:capability:with-operational-defaults:1.0,[RFC8526]

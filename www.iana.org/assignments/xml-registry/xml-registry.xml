@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2019-02-22</updated>
+  <updated>2019-03-14</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -1170,7 +1170,7 @@ The registration template should cite the specification.
       <value>yang:ietf-access-control-list</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-access-control-list</name>
       <file type="template">ns/yang/ietf-access-control-list.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-acl-model-21"/>
+      <xref type="rfc" data="rfc8519"/>
     </record>
     <record date="2018-06-27">
       <value>yang:ietf-acldns</value>
@@ -1284,7 +1284,7 @@ The registration template should cite the specification.
       <value>yang:ietf-ethertypes</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ethertypes</name>
       <file type="template">ns/yang/ietf-ethertypes.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-acl-model-21"/>
+      <xref type="rfc" data="rfc8519"/>
     </record>
     <record date="2018-02-08">
       <value>yang:ietf-hardware</value>
@@ -1404,7 +1404,7 @@ The registration template should cite the specification.
       <value>yang:ietf-logical-network-element</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-logical-network-element</name>
       <file type="template">ns/yang/ietf-logical-network-element.txt</file>
-      <xref type="draft" data="RFC-ietf-rtgwg-lne-model-09"/>
+      <xref type="rfc" data="rfc8530"/>
     </record>
     <record updated="2019-02-01">
       <value>yang:ietf-microwave-radio-link</value>
@@ -1446,7 +1446,7 @@ The registration template should cite the specification.
       <value>yang:ietf-netconf-nmda</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-netconf-nmda</name>
       <file type="template">ns/yang/ietf-netconf-nmda.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-nmda-netconf-08"/>
+      <xref type="rfc" data="rfc8526"/>
     </record>
     <record>
       <value>yang:ietf-netconf-notifications</value>
@@ -1476,7 +1476,7 @@ The registration template should cite the specification.
       <value>yang:ietf-network-instance</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-network-instance</name>
       <file type="template">ns/yang/ietf-network-instance.txt</file>
-      <xref type="draft" data="RFC-ietf-rtgwg-ni-model-10"/>
+      <xref type="rfc" data="rfc8529"/>
     </record>
     <record date="2017-12-21">
       <value>yang:ietf-network-state</value>
@@ -1506,7 +1506,7 @@ The registration template should cite the specification.
       <value>yang:ietf-packet-fields</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-packet-fields</name>
       <file type="template">ns/yang/ietf-packet-fields.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-acl-model-21"/>
+      <xref type="rfc" data="rfc8519"/>
     </record>
     <record date="2018-05-16">
       <value>yang:ietf-pim-base</value>
@@ -1668,7 +1668,7 @@ The registration template should cite the specification.
       <value>yang:ietf-yang-library</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-yang-library</name>
       <file type="template">ns/yang/ietf-yang-library.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-rfc7895bis-07"/>
+      <xref type="rfc" data="rfc8525"/>
     </record>
     <record date="2016-03-30">
       <value>yang:ietf-yang-metadata</value>
@@ -1686,7 +1686,7 @@ The registration template should cite the specification.
       <value>yang:ietf-yang-schema-mount</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount</name>
       <file type="template">ns/yang/ietf-yang-schema-mount.txt</file>
-      <xref type="draft" data="RFC-ietf-netmod-schema-mount-12"/>
+      <xref type="rfc" data="rfc8528"/>
     </record>
     <record>
       <value>yang:ietf-yang-smiv2</value>

@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-02-20</updated>
+  <updated>2019-03-15</updated>
   
  
   
@@ -5573,13 +5573,14 @@ Authentication and Authorization System", Project Athena,
 MIT, December 1987.</xref>
       <xref type="person" data="B_Clifford_Neuman"/>
     </record>
-    <record>
+    <record updated="2019-03-07">
       <value>2</value>
       <name>kerberosV5</name>
       <description>Kerberos version 5 objects</description>
-      <xref type="text">Kohl, J., and B.C. Neuman, "The Kerberos Network
-Authentication Service (V5)" work in progress, September 1992</xref>
+      <xref type="rfc" data="rfc4120"/>
+      <xref type="uri" data="https://web.mit.edu/kerberos/krb5-oids/krb5-oids.asn"/>
       <xref type="person" data="B_Clifford_Neuman"/>
+      <xref type="person" data="Greg_Hudson"/>
     </record>
     <record date="1995-06">
       <value>3</value>
@@ -6407,7 +6408,7 @@ Access Beyond web</description>
       <record date="2018-06-27">
         <value>41</value>
         <description>id-ct-mudtype</description>
-        <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+        <xref type="rfc" data="rfc8520"/>
       </record>
       <record date="2019-01-17">
         <value>42</value>
@@ -7899,7 +7900,7 @@ Access Beyond web</description>
       <record date="2016-12-06">
         <value>88</value>
         <description>id-mod-mudURLExtn2016</description>
-        <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+        <xref type="rfc" data="rfc8520"/>
       </record>
       <record date="2017-06-02">
         <value>89</value>
@@ -8057,7 +8058,7 @@ Access Beyond web</description>
       <record date="2016-12-06">
         <value>25</value>
         <description>id-pe-mud-url</description>
-        <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+        <xref type="rfc" data="rfc8520"/>
       </record>
       <record date="2017-06-02">
         <value>26</value>
@@ -8082,7 +8083,7 @@ Access Beyond web</description>
       <record date="2018-06-27">
         <value>30</value>
         <description>id-pe-mudsigner</description>
-        <xref type="draft" data="RFC-ietf-opsawg-mud-25"/>
+        <xref type="rfc" data="rfc8520"/>
       </record>
       <record date="2018-08-15">
         <value>31</value>
@@ -11306,6 +11307,11 @@ TESTING.
       <name>Graham Higgins</name>
       <uri>mailto:GHiggins&amp;quantumbridge.com</uri>
       <updated>2001-11</updated>
+    </person>
+    <person id="Greg_Hudson">
+      <name>Greg Hudson</name>
+      <uri>mailto:ghudson&amp;mit.edu</uri>
+      <updated>2019-03-07</updated>
     </person>
     <person id="Greg_Nakanishi">
       <name>Greg Nakanishi</name>

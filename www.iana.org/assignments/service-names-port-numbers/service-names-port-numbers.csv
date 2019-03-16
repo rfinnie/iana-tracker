@@ -1581,9 +1581,9 @@ dlep,854,udp,Dynamic Link Exchange Protocol (DLEP),[IESG],[IETF_Chair],2017-04-0
 iscsi,860,tcp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
 iscsi,860,udp,iSCSI,[IESG],[IETF_Chair],,2013-08-27,[RFC7143],,,
 owamp-control,861,tcp,OWAMP-Control,[IESG],[IETF_Chair],,,[RFC4656],,,
-owamp-test,861,udp,OWAMP-Test,[IESG],[IETF_Chair],,2018-12-21,[RFC-ietf-ippm-port-twamp-test-04],,,
+owamp-test,861,udp,OWAMP-Test,[IESG],[IETF_Chair],,2018-12-21,[RFC8545],,,
 twamp-control,862,tcp,TWAMP-Control,[IESG],[IETF_Chair],,,[RFC5357],,,
-twamp-test,862,udp,TWAMP-Test Receiver Port,[IESG],[IETF_Chair],,2018-12-21,[RFC-ietf-ippm-port-twamp-test-04],,,
+twamp-test,862,udp,TWAMP-Test Receiver Port,[IESG],[IETF_Chair],,2018-12-21,[RFC8545],,,
 ,863-872,,Unassigned,,,,,,,,
 rsync,873,tcp,rsync,[Andrew_Tridgell],[Andrew_Tridgell],,,,,,
 rsync,873,udp,rsync,[Andrew_Tridgell],[Andrew_Tridgell],,,,,,
@@ -13839,7 +13839,7 @@ nimbusdb,48004,tcp,NimbusDB Connector,[Stephen_Harrison],[Stephen_Harrison],2011
 nimbusdbctrl,48005,tcp,NimbusDB Control,[Stephen_Harrison],[Stephen_Harrison],2011-01-24,,,,,
 ,48005,udp,Reserved,,,,,,,,
 ,48006-48047,,Unassigned,,,,,,,,
-juliar,48048,tcp,Juliar Programming Language Protocol,[Juliar],[Andrei_Mak],2018-02-16,,,,,
+juka,48048,tcp,Juliar Programming Language Protocol,[Juliar],[Andrei_Mak],2018-02-16,2019-03-08,,,,
 ,48048,udp,Reserved,,,,,,,,
 3gpp-cbsp,48049,tcp,3GPP Cell Broadcast Service Protocol,[Gert_Thomasen],[Gert_Thomasen],2009-12-07,,,,,
 ,48049,udp,Reserved,,,,,,,,
@@ -14358,6 +14358,7 @@ imgsync,,tcp,Protocol synchronizing Image data,[Canon_Inc_2],[Kazuo_Moritomo],20
 ims-ni,,tcp,Noise Inspector,[IMS_merilni_sistemi],[Metod_Celestina],2012-08-24,,,,,"Defined TXT keys:  SN (serial number), SVER (software version), HVER (hardware version), PVER (protocol version))"
 indigo-dvr,,,Indigo Security Digital Video Recorders,[Haram_Lee],[Haram_Lee],,,,,,Defined TXT keys: Proprietary
 infboard,,tcp,InfBoard interactive whiteboard protocol,[Eric_Sean_Conner],[Eric_Sean_Conner],2011-10-17,,,,,Defined TXT keys: Proprietary
+informacast,,tcp,Listing Singlewire InformaCast servers,[Singlewire_Software_LLC],[Jerry_Steinhauer],2019-03-11,,,,,Defined TXT keys: None
 innergroup,,tcp,Service for a Communications App,[Santo_Porpiglia],[Santo_Porpiglia],2015-05-28,,,,,Defined TXT keys: None
 inova-ontrack,,,Inova Solutions OnTrack Display Protocol,,,,,,,,Defined TXT keys: None
 iot,,tcp,Internet-of-things (IoT) JSON telegram service,[SEVENSTAX_GmbH],[Ralf_Schwarzer],2015-11-05,,,,,"Defined TXT keys: <type>:application specific kind of protocol; 
