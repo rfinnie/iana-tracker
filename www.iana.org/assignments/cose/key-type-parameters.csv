@@ -1,6 +1,7 @@
 Key Type,Name,Label,CBOR Type,Description,Reference
 1,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry",[RFC8152]
-2,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Key Common Parameters"" registry",[RFC8152]
+2,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry","[RFC8152][RFC Errata 
+          5650]"
 4,k,-1,bstr,Key Value,[RFC8152]
 1,x,-2,bstr,x-coordinate,[RFC8152]
 2,x,-2,bstr,x-coordinate,[RFC8152]

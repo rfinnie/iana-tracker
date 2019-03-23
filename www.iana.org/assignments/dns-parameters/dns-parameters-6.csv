@@ -11,7 +11,7 @@ RCODE,Name,Description,Reference
 9,NotAuth,Server Not Authoritative for zone,[RFC2136]
 9,NotAuth,Not Authorized,[RFC2845]
 10,NotZone,Name not contained in zone,[RFC2136]
-11,DSOTYPENI,DSO-TYPE Not Implemented,[RFC-ietf-dnsop-session-signal-20]
+11,DSOTYPENI,DSO-TYPE Not Implemented,[RFC8490]
 12-15,Unassigned,,
 16,BADVERS,Bad OPT Version,[RFC6891]
 16,BADSIG,TSIG Signature Failure,[RFC2845]

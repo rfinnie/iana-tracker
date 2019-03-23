@@ -1,8 +1,11 @@
 Extension Identifier,Registry Operator,Specification,Contact,Intended Usage
 arin_originas0,[ARIN],[https://bitbucket.org/arin-specs/arin-rdap-originas/src/master/arin-rdap-originas.txt],[Andrew_Newton],COMMON
+artRecord,.ART,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/art-records.md],[Gavin_Brown],COMMON
 cidr0,Various RIRs under the NRO,[https://bitbucket.org/nroecg/nro-rdap-cidr/src/master/nro-rdap-cidr.txt],[Andrew_Newton],COMMON
 fred,[CZ.NIC_z._s._p._o.],[https://fred.nic.cz/rdap-extension/],[Jaromir_Talir],"FRED is open source domain registry system that includes RDAP 
         server. This RDAP server provides some extended features defined in 
         specification."
+platformNS,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/platformNS.md],[Gavin_Brown],COMMON
 rdap_objectTag,Any,[RFC8521],[IESG],"This extension describes a best practice for
         structuring entity identifiers to enable query bootstrapping."
+regType,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/regtype.md],[Gavin_Brown],COMMON

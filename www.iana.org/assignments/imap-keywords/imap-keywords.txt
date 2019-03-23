@@ -4,7 +4,7 @@
            2009-12-22
 
    Last Updated
-           2018-09-17
+           2019-03-15
 
    Available Formats
            [IMG]
@@ -14,9 +14,9 @@
 
    Registry included below
 
-     * IMAP Keywords
+     * IMAP and JMAP Keywords
 
-IMAP Keywords
+IMAP and JMAP Keywords
 
    Registration Procedure(s)
 
@@ -33,15 +33,20 @@ IMAP Keywords
            [IMG]
            CSV
 
-      Keyword      Type   Usage  Comments     Reference
-   $MDNSent       SHARED  COMMON          [RFC3503]
-   $Forwarded     BOTH    COMMON          [RFC5550]
-   $SubmitPending SHARED  COMMON          [RFC5550]
-   $Submitted     SHARED  COMMON          [RFC5550]
-   [$Junk]        BOTH    COMMON          [Alexey_Melnikov]
-   [$NotJunk]     BOTH    COMMON          [Alexey_Melnikov]
-   [$Phishing]    SHARED  COMMON          [Rob_Mueller]
-   $Important     PRIVATE COMMON          [RFC8457]
+      Keyword      Type   Usage    Scope   Comments        Reference
+   $MDNSent       SHARED  COMMON BOTH               [RFC3503]
+   $Forwarded     BOTH    COMMON BOTH               [RFC5550]
+   $SubmitPending SHARED  COMMON BOTH               [RFC5550]
+   $Submitted     SHARED  COMMON BOTH               [RFC5550]
+   [$Junk]        BOTH    COMMON BOTH               [Alexey_Melnikov]
+   [$NotJunk]     BOTH    COMMON BOTH               [Alexey_Melnikov]
+   [$Phishing]    SHARED  COMMON BOTH               [Rob_Mueller]
+   $Important     PRIVATE COMMON BOTH               [RFC8457]
+   $draft         BOTH    COMMON JMAP-only          [RFC-ietf-jmap-mail-16]
+   $seen          BOTH    COMMON JMAP-only          [RFC-ietf-jmap-mail-16]
+   $flagged       BOTH    COMMON JMAP-only          [RFC-ietf-jmap-mail-16]
+   $answered      BOTH    COMMON JMAP-only          [RFC-ietf-jmap-mail-16]
+   $recent                       Reserved           [RFC-ietf-jmap-mail-16]
 
                                                                         People
 

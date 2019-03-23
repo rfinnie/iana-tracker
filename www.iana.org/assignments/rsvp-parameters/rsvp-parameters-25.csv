@@ -11,7 +11,7 @@ Value,Description,Reference
 33,Explicit Exclusion Route subobject (EXRS),[RFC4874]
 34,Unassigned,
 35,Hop Attributes,[RFC7570]
-36,"SR-ERO (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+36,SR-ERO,[RFC-ietf-pce-segment-routing-16]
 37,Reserved,[RFC4873]
 38,IPv4 Diversity,[RFC8390]
 39,IPv6 Diversity,[RFC8390]

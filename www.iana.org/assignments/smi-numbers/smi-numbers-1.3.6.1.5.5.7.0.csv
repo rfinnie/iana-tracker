@@ -87,7 +87,7 @@ Decimal,Description,References
 85,id-mod-nai-realm-08,[RFC7585]
 86,id-mod-tls-feature-2015,[RFC7633]
 87,id-mod-EST-Alt-Challenge,[RFC7894]
-88,id-mod-mudURLExtn2016,[RFC-ietf-opsawg-mud-25]
+88,id-mod-mudURLExtn2016,[RFC8520]
 89,id-mod-tn-module,[RFC8226]
 90,id-mod-ip-addr-and-as-ident-v2,[RFC8360]
 91,id-mod-ip-addr-and-as-ident-2v2,[RFC8360]
