@@ -39,7 +39,7 @@ sldp.softvelum.com,Softvelum Low Delay Protocol,"SLDP is a low latency live stre
 opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
 opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
 v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swindon-rs.github.io/swindon/swindon-lattice/],[Paul_Colomiets]
-v1.usp,USP (Broadband Forum User Services Platform),[https://github.com/BroadbandForum/usp],[Barbara_Stark]
+v1.usp,USP (Broadband Forum User Services Platform),[https://usp.technology/specification/mtp/websocket],[Barbara_Stark]
 mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari]
 coap,Constrained Application Protocol (CoAP),[RFC8323],[RFC8323]
 TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli]
