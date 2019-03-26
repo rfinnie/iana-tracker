@@ -194,4 +194,9 @@ Error-Type,Meaning,Error-value,Reference
 ,,"7: Cannot join the association group 
         (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
 ,,8-255: Unassigned,[draft-ietf-pce-association-group]
-27-255,Unassigned,0-255: Unassigned,
+27,WSON RWA Error,0: Unassigned,
+,,1: Insufficient Memory,[RFC-ietf-pce-wson-rwa-ext-17]
+,,2: RWA computation Not supported,[RFC-ietf-pce-wson-rwa-ext-17]
+,,3: Syntactical Encoding error,[RFC-ietf-pce-wson-rwa-ext-17]
+,,4-255: Unassigned,
+28-255,Unassigned,0-255: Unassigned,
