@@ -3659,8 +3659,8 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
 485,bgpDestinationCommunityList,basicList,list,current,"basicList of zero or more bgpCommunity IEs, containing the BGP 
     communities corresponding with destination IP address of a specific flow",,,"[RFC6313]
     [RFC1997]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
-486,bgpExtendedCommunity,octetArray,default,current,"BGP Extended Community as defined in [RFC4360]
-    The size of this IE MUST be 8 octets",,,[RFC4360],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+486,bgpExtendedCommunity,octetArray,default,current,"BGP Extended Community as defined in [RFC4360];
+    the size of this IE MUST be 8 octets",,,[RFC4360],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
 487,bgpSourceExtendedCommunityList,basicList,list,current,"basicList of zero or more bgpExtendedCommunity IEs, 
     containing the BGP Extended Communities corresponding with source 
     IP address of a specific flow",,,"[RFC6313]
@@ -3669,8 +3669,8 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
     containing the BGP Extended Communities corresponding 
     with destination IP address of a specific flow",,,"[RFC6313]
     [RFC4360]",[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
-489,bgpLargeCommunity,octetArray,default,current,"BGP Large Community as defined in [RFC8092]
-    The size of this IE MUST be 12 octets.",,,[RFC8092],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
+489,bgpLargeCommunity,octetArray,default,current,"BGP Large Community as defined in [RFC8092];
+    the size of this IE MUST be 12 octets.",,,[RFC8092],[RFC-ietf-opsawg-ipfix-bgp-community-12],0,2019-01-18
 490,bgpSourceLargeCommunityList,basicList,list,current,"basicList of zero or more bgpLargeCommunity IEs, 
     containing the BGP Large Communities corresponding 
     with source IP address of a specific flow",,,"[RFC6313]
