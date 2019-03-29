@@ -6883,8 +6883,8 @@ nppmp,3476,tcp,NVIDIA Mgmt Protocol,[Gilbert_Yeung],[Gilbert_Yeung],2002-04,,,,,
 nppmp,3476,udp,NVIDIA Mgmt Protocol,[Gilbert_Yeung],[Gilbert_Yeung],2002-04,,,,,
 ecomm,3477,tcp,eComm link port,[Thomas_Soerensen],[Thomas_Soerensen],2002-04,,,,,
 ecomm,3477,udp,eComm link port,[Thomas_Soerensen],[Thomas_Soerensen],2002-04,,,,,
-stun,3478,tcp,Session Traversal Utilities for NAT (STUN) port,,,,,[RFC5389],,,
-stun,3478,udp,Session Traversal Utilities for NAT (STUN) port,,,,,[RFC5389],,,
+stun,3478,tcp,Session Traversal Utilities for NAT (STUN) port,[IESG],[IETF_Chair],,2019-03-28,[RFC-ietf-tram-stunbis-21],,,
+stun,3478,udp,Session Traversal Utilities for NAT (STUN) port,[IESG],[IETF_Chair],,2019-03-28,[RFC-ietf-tram-stunbis-21],,,
 turn,3478,tcp,TURN over TCP,,,,,[RFC5766],,,
 turn,3478,udp,TURN over UDP,,,,,[RFC5766],,,
 stun-behavior,3478,tcp,STUN Behavior Discovery over TCP,,,,,[RFC5780],,,
@@ -9636,7 +9636,7 @@ kfserver,5343,udp,Sculptor Database Server,[Keith_Ashman],[Keith_Ashman],2005-12
 xkotodrcp,5344,tcp,xkoto DRCP,[Jeff_Heisz],[Jeff_Heisz],2006-02,,,,,
 xkotodrcp,5344,udp,xkoto DRCP,[Jeff_Heisz],[Jeff_Heisz],2006-02,,,,,
 ,5345-5348,,Unassigned,,,,,,,,
-stuns,5349,tcp,STUN over TLS,,,,,[RFC5389],,,
+stuns,5349,tcp,Session Traversal Utilities for NAT (STUN) port,[IESG],[IETF_Chair],,2019-03-28,[RFC-ietf-tram-stunbis-21],,,
 stuns,5349,udp,STUN over DTLS,[IESG],[IETF_Chair],,2014-07-03,[RFC7350],,,This service name was initially created by [RFC5389].
 turns,5349,tcp,TURN over TLS,,,,,[RFC5766],,,
 turns,5349,udp,TURN over DTLS,[IESG],[IETF_Chair],,2014-07-03,[RFC7350],,,This service name was initially created by [RFC5766].
@@ -14392,7 +14392,9 @@ iwork,,,iWork Server,[IGG_Software],[IGG_Software],,,,,,Defined TXT keys: None
 jcan,,,Northrup Grumman/TASC/JCAN Protocol,[Laurent_Mihalkovic],[Laurent_Mihalkovic],,,,,,Defined TXT keys: None
 jeditx,,,Jedit X,[Satoshi_Matsumoto],[Satoshi_Matsumoto],,,,,,Defined TXT keys: None
 jini,,,Jini Service Discovery,[Daniel_Steinberg],[Daniel_Steinberg],,,,,,Defined TXT keys: None
-jmap,,tcp,JSON Mail Access Protocol,[JMAP_editor],[Robert_Norris],2016-01-22,,,,,Defined TXT keys: None
+jmap,,tcp,JSON Meta Application Protocol,[IESG],[IETF_Chair],2016-01-22,2019-03-28,[RFC-ietf-jmap-core-17],,,"This service name was previously assigned under the
+    name _JSON Mail Access Protocol_. This will be de-assigned
+    and re-assigned with the approval of the previous assignee."
 jnx-kcsync,,tcp,jollys keychain cloud sync protocol,[Patrick_Stein],[Patrick_Stein],2011-10-24,,,,,"Defined TXT keys: hash=<40hex characters>
       salt=<40hex characters>
       uuid=<40hex characters>

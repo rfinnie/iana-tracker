@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-03-12
+           2019-03-28
 
    Expert(s)
 
@@ -8130,9 +8130,9 @@ nppmp              3476        tcp    NVIDIA Mgmt Protocol         [Gilbert_Yeun
 nppmp              3476        udp    NVIDIA Mgmt Protocol         [Gilbert_Yeung]                                       [Gilbert_Yeung]                                           2002-04
 ecomm              3477        tcp    eComm link port              [Thomas_Soerensen]                                    [Thomas_Soerensen]                                        2002-04
 ecomm              3477        udp    eComm link port              [Thomas_Soerensen]                                    [Thomas_Soerensen]                                        2002-04
-stun               3478        tcp    Session Traversal Utilities                                                                                                                                            [RFC5389]
+stun               3478        tcp    Session Traversal Utilities  [IESG]                                                [IETF_Chair]                                                           2019-03-28   [RFC-ietf-tram-stunbis-21]
                                       for NAT (STUN) port
-stun               3478        udp    Session Traversal Utilities                                                                                                                                            [RFC5389]
+stun               3478        udp    Session Traversal Utilities  [IESG]                                                [IETF_Chair]                                                           2019-03-28   [RFC-ietf-tram-stunbis-21]
                                       for NAT (STUN) port
 turn               3478        tcp    TURN over TCP                                                                                                                                                          [RFC5766]
 turn               3478        udp    TURN over UDP                                                                                                                                                          [RFC5766]
@@ -11455,7 +11455,8 @@ kfserver           5343        udp    Sculptor Database Server     [Keith_Ashman
 xkotodrcp          5344        tcp    xkoto DRCP                   [Jeff_Heisz]                                          [Jeff_Heisz]                                              2006-02
 xkotodrcp          5344        udp    xkoto DRCP                   [Jeff_Heisz]                                          [Jeff_Heisz]                                              2006-02
                  5345-5348            Unassigned
-stuns              5349        tcp    STUN over TLS                                                                                                                                                          [RFC5389]
+stuns              5349        tcp    Session Traversal Utilities  [IESG]                                                [IETF_Chair]                                                           2019-03-28   [RFC-ietf-tram-stunbis-21]
+                                      for NAT (STUN) port
 stuns              5349        udp    STUN over DTLS               [IESG]                                                [IETF_Chair]                                                           2014-07-03   [RFC7350]                                                            This service name was initially created by [RFC5389].
 turns              5349        tcp    TURN over TLS                                                                                                                                                          [RFC5766]
 turns              5349        udp    TURN over DTLS               [IESG]                                                [IETF_Chair]                                                           2014-07-03   [RFC7350]                                                            This service name was initially created by [RFC5766].
@@ -17674,7 +17675,9 @@ jcan                                  Northrup Grumman/TASC/JCAN   [Laurent_Miha
                                       Protocol
 jeditx                                Jedit X                      [Satoshi_Matsumoto]                                   [Satoshi_Matsumoto]                                                                                                                                      Defined TXT keys: None
 jini                                  Jini Service Discovery       [Daniel_Steinberg]                                    [Daniel_Steinberg]                                                                                                                                       Defined TXT keys: None
-jmap                           tcp    JSON Mail Access Protocol    [JMAP_editor]                                         [Robert_Norris]                                           2016-01-22                                                                                     Defined TXT keys: None
+                                      JSON Meta Application                                                                                                                                                                                                                       This service name was previously assigned under the name
+jmap                           tcp    Protocol                     [IESG]                                                [IETF_Chair]                                              2016-01-22   2019-03-28   [RFC-ietf-jmap-core-17]                                              _JSON Mail Access Protocol_. This will be de-assigned and
+                                                                                                                                                                                                                                                                                  re-assigned with the approval of the previous assignee.
                                                                                                                                                                                                                                                                                   Defined TXT keys: hash=<40hex characters> salt=<40hex
                                       jollys keychain cloud sync                                                                                                                                                                                                                  characters> uuid=<40hex characters> Example:
 jnx-kcsync                     tcp    protocol                     [Patrick_Stein]                                       [Patrick_Stein]                                           2011-10-24                                                                                     hash=5e7580598c0d7064d4fc79faaeb42585e1a675f8
