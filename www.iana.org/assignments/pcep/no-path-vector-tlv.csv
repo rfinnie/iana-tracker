@@ -1,5 +1,6 @@
 Bit,Description,Reference
-0-23,Unassigned,
+0-22,Unassigned,
+23,No RWA constraints met,[RFC-ietf-pce-wson-rwa-ext-17]
 24,P2MP Reachability Problem,[RFC8306]
 25,No GCO solution found,[RFC5557]
 26,No GCO migration path found,[RFC5557]

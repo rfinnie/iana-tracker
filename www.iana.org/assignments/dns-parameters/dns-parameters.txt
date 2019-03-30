@@ -1,7 +1,7 @@
                                                          Domain Name System (DNS) Parameters
 
    Last Updated
-           2019-03-19
+           2019-03-26
 
    Available Formats
            [IMG]
@@ -478,7 +478,10 @@ DNS EDNS0 Option Codes (OPT)
        12      Padding                 Standard [RFC7830]
        13      CHAIN                   Standard [RFC7901]
        14      edns-key-tag            Optional [RFC8145]
-    15-26945   Unassigned
+       15      Unassigned
+       16      EDNS-Client-Tag         Optional [draft-bellis-dnsop-edns-tags]
+       17      EDNS-Server-Tag         Optional [draft-bellis-dnsop-edns-tags]
+    18-26945   Unassigned
       26946    DeviceID                Optional [https://docs.umbrella.com/developer/networkdevices-api/identifying-dns-traffic2][Brian_Hartvigsen]
    26947-65000 Unassigned
    65001-65534 Reserved for                     [RFC6891]
@@ -577,14 +580,14 @@ Underscored and Globally Scoped DNS Node Names
  Dave Crocker, Frederico A C Neves
 
    Reference
-           [RFC-ietf-dnsop-attrleaf-16]
+           [RFC8552]
 
    Available Formats
            [IMG]
            CSV
 
-    RR Type     _NODE NAME                    Reference
-   *          _example        [RFC-ietf-dnsop-attrleaf-16, Section 4.5]
+    RR Type     _NODE NAME               Reference
+   *          _example        [RFC8552, Section 4.1.4]
    NULL       _ta-* [2]       [RFC8145]
    OPENPGPKEY _openpgpkey     [RFC7929]
    SMIMEA     _smimecert      [RFC8162]
@@ -691,7 +694,7 @@ DSO Type Codes
        NB      32      NetBIOS general Name Service
        NBSTAT  33      NetBIOS NODE STATUS
 
-   [2] From [RFC-ietf-dnsop-attrleaf-16, Section 4.4]:
+   [2] From [RFC8552, Section 4.1.3 _ta]:
 
        Under the NULL RR, the entry "_ta-*" denotes all node names beginning
        with the string "_ta-*". It does NOT refer to a DNS wildcard

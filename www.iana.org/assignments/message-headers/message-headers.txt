@@ -1,7 +1,7 @@
                                                                    Message Headers
 
    Last Updated
-           2019-03-13
+           2019-03-28
 
    Available Formats
            [IMG]
@@ -89,6 +89,7 @@ Permanent Message Header Field Names
   C-PEP                                                          http                   [RFC4229]
   C-PEP-Info                                                     http                   [RFC4229]
   Cache-Control                                                  http     standard      [RFC7234, Section 5.2]
+  Cal-Managed-ID                                                 http     standard      [RFC-ietf-calext-caldav-attachments-04, Section 5.1]
   CalDAV-Timezones                                               http     standard      [RFC7809, Section 7.1]
   Cancel-Key                                                     netnews  standard      [RFC8315]
   Cancel-Lock                                                    netnews  standard      [RFC8315]
@@ -272,6 +273,7 @@ Permanent Message Header Field Names
   Original-Sender                                                netnews  standard      [RFC5537]
   Originator-Return-Address                                      mail                   [RFC4021]
   Original-Subject                                               mail     standard      [RFC5703]
+  OSCORE                                                         http     standard      [RFC-ietf-core-object-security-16, Section 11.1]
   Overwrite                                                      http     standard      [RFC4918]
   P3P                                                            http                   [RFC4229]
   Path                                                           netnews  standard      [RFC5536]

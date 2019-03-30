@@ -136,3 +136,9 @@ message supports the package ""uui-isdn"".",[RFC7434]
 Recording Client for the purpose of an RS.",[RFC7866]
 28,sip.srs,"This feature tag indicates that the UA is a Session Recording 
 Server for the purpose of an RS.",[RFC7866]
+29,sip.pnsreg,"This
+        media feature tag, when inserted in the Contact header field
+        of a SIP REGISTER request, conveys that the SIP UA
+        associated with the tag is able to send binding-refresh
+        REGISTER requests associated with the registration without
+        being awakened by push notifications.",[RFC-ietf-sipcore-sip-push-29]

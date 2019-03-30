@@ -54,26 +54,30 @@ Error-Type,Meaning,Error-value,Reference
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
 10,Reception of an invalid object,0: Unassigned,[RFC5440]
 ,,1: reception of an object with P flag not set although the P-flag must be set according to this specification.,[RFC5440]
-,,"2: Bad label value 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"3: Unsupported number of Segment ERO subobjects 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"4: Bad label format 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"5: Non-identical ERO subobjects 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"6: Both SID and NAI are absent in ERO subobject 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"7: Both SID and NAI are absent in RRO subobject 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,2: Bad label value,[RFC-ietf-pce-segment-routing-16]
+,,3: Unsupported number of of SR-ERO subobjects,[RFC-ietf-pce-segment-routing-16]
+,,4: Bad label format,[RFC-ietf-pce-segment-routing-16]
+,,5: ERO mixes SR-ERO subobjects with other subobject types,[RFC-ietf-pce-segment-routing-16]
+,,6: Both SID and NAI are absent in SR-ERO subobject,[RFC-ietf-pce-segment-routing-16]
+,,7: Both SID and NAI are absent in SR-RRO subobject,[draft-ietf-pce-segment-routing]
 ,,8: SYMBOLIC-PATH-NAME TLV missing,[RFC8281]
-,,"9: Default MSD is specified for the PCEP session 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
-,,"10: Non-identical RRO subjects 
-        (TEMPORARY - registered 2015-08-14, extension registered 2018-08-02, expires 2019-08-14)",[draft-ietf-pce-segment-routing]
+,,"9: MSD exceeds the
+        default for the PCEP session",[RFC-ietf-pce-segment-routing-16]
+,,"10: RRO mixes SR-RRO
+        subobjects with other subobject types",[RFC-ietf-pce-segment-routing-16]
 ,,11: Malformed object,[RFC8408]
-,,12-255: Unassigned,
-11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
+,,12: Missing PCE-SR-CAPABILITY sub-TLV,[RFC-ietf-pce-segment-routing-16]
+,,13: Unsupported NAI Type in SR-ERO subobject,[RFC-ietf-pce-segment-routing-16]
+,,14: Unknown SID,[RFC-ietf-pce-segment-routing-16]
+,,15: NAI cannot be resolved to a SID,[RFC-ietf-pce-segment-routing-16]
+,,16: Could not find SRGB,[RFC-ietf-pce-segment-routing-16]
+,,17: SID index exceeds SRGB size,[RFC-ietf-pce-segment-routing-16]
+,,18: Could not find SRLB,[RFC-ietf-pce-segment-routing-16]
+,,19: SID index exceeds SRLB size,[RFC-ietf-pce-segment-routing-16]
+,,20: Inconsistent SIDs in SR-ERO / SR-RRO subobjects,[RFC-ietf-pce-segment-routing-16]
+,,21: MSD must be nonzero,[RFC-ietf-pce-segment-routing-16]
+,,22-255: Unassigned,
+11,SID index exceeds SRLB size,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
 ,,1: Unsupported class-type,[RFC5455]
 ,,2: Invalid class-type,[RFC5455]
@@ -190,4 +194,9 @@ Error-Type,Meaning,Error-value,Reference
 ,,"7: Cannot join the association group 
         (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
 ,,8-255: Unassigned,[draft-ietf-pce-association-group]
-27-255,Unassigned,0-255: Unassigned,
+27,WSON RWA Error,0: Unassigned,
+,,1: Insufficient Memory,[RFC-ietf-pce-wson-rwa-ext-17]
+,,2: RWA computation Not supported,[RFC-ietf-pce-wson-rwa-ext-17]
+,,3: Syntactical Encoding error,[RFC-ietf-pce-wson-rwa-ext-17]
+,,4-255: Unassigned,
+28-255,Unassigned,0-255: Unassigned,
