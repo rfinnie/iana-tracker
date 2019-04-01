@@ -14,7 +14,7 @@ Type,Description,22,23,25,141,222,223,Reference
 14,Extended Administrative Group,y,y,y(s),y,y,y,[RFC7308]
 15,Link MSD,y,y,y,y,y,y,[RFC8491]
 16,"Application Specific Link Attributes
-        (TEMPORARY - registered 2018-04-27, expires 2019-04-27)",y,y,y(s),y,y,y,[draft-ietf-isis-te-app]
+        (TEMPORARY - registered 2018-04-27, extension registered 2019-04-01, expires 2020-04-27)",y,y,y(s),y,y,y,[draft-ietf-isis-te-app]
 17,Unassigned,,,,,,,
 18,TE Default metric,y,y,y(s),y,y,y,[RFC5305]
 19,Link-attributes,y,y,y(s),y,y,y,[RFC5029]
