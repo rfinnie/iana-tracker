@@ -180,6 +180,8 @@ subsection,"Refers to a resource serving as a subsection in a
       collection of resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
 successor-version,"Points to a resource containing the successor version
       in the version history.",[RFC5829],
+sunset,"Identifies a resource that provides information about
+      the context's retirement policy.",[RFC-wilde-sunset-header-11],
 tag,"Gives a tag (identified by the given address) that applies to
       the current document.",[http://www.w3.org/TR/html5/links.html#link-type-tag],
 terms-of-service,Refers to the terms of service associated with the link's context.,"[RFC6903], section 5",
