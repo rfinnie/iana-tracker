@@ -105,7 +105,7 @@ Tag,Name,"Data
 101,TCode,N,Reference to the TZ Database,[RFC4833]
 102-107,REMOVED/Unassigned,,,[RFC3679]
 108,REMOVED/Unassigned,,,[RFC3679]
-109,OPTION_DHCP4O6_S46_SADDR,16,DHCPv4 over DHCPv6 Softwire Source Address Option,[RFC-ietf-dhc-dhcp4o6-saddr-opt-08]
+109,OPTION_DHCP4O6_S46_SADDR,16,DHCPv4 over DHCPv6 Softwire Source Address Option,[RFC8539]
 110,REMOVED/Unassigned,,,[RFC3679]
 111,Unassigned,,,[RFC3679]
 112,Netinfo Address,N,NetInfo Parent Server Address,[RFC3679]
@@ -179,7 +179,7 @@ applications",,,
 159,OPTION_V4_PORTPARAMS,4,"This option is used to configure a set of ports bound to a 
       shared IPv4 address.",[RFC7618]
 160,DHCP Captive-Portal,N,DHCP Captive-Portal,[RFC7710]
-161,OPTION_MUD_URL_V4,N (variable),Manufacturer Usage Descriptions,[RFC-ietf-opsawg-mud-25]
+161,OPTION_MUD_URL_V4,N (variable),Manufacturer Usage Descriptions,[RFC8520]
 162-174,Unassigned,,,[RFC3942]
 175,"Etherboot (Tentatively Assigned -
 2005-06-23)",,,
