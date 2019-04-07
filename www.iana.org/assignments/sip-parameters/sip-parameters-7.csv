@@ -65,6 +65,7 @@ Response Code,Description,Reference
 504,Server Time-out,
 505,Version Not Supported,
 513,Message Too Large,
+555,Push Notification Service Not Supported,[RFC-ietf-sipcore-sip-push-29]
 580,Precondition Failure,[RFC3312]
 600,Busy Everywhere,
 603,Decline,

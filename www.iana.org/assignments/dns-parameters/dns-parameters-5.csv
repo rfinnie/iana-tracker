@@ -5,5 +5,5 @@ OpCode,Name,Reference
 3,Unassigned,
 4,Notify,[RFC1996]
 5,Update,[RFC2136]
-6,DNS Stateful Operations (DSO),[RFC-ietf-dnsop-session-signal-20]
+6,DNS Stateful Operations (DSO),[RFC8490]
 7-15,Unassigned,

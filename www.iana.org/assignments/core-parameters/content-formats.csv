@@ -57,7 +57,8 @@ Unassigned,,312-1541,
 "Reserved, do not use",,1542-1543,[OMA-TS-LightweightM2M-V1_0]
 Unassigned,,1544-9999,
 application/vnd.ocf+cbor,,10000,[Michael_Koster]
-Unassigned,,10001-11049,
+application/oscore,,10001,[RFC-ietf-core-object-security-16]
+Unassigned,,10002-11049,
 application/json,deflate,11050,[RFC8259]
 Unassigned,,11051-11059,
 application/cbor,deflate,11060,[RFC7049]

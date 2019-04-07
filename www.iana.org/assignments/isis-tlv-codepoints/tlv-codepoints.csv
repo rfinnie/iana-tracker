@@ -108,7 +108,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 236,IPv6 IP. Reach,n,y,n,n,[RFC5308]
 237,MT IPv6 IP. Reach,n,y,n,n,[RFC5120]
 238,"Application Specific SRLG 
-      (TEMPORARY - registered 2018-04-27, expires 2019-04-27)",n,y,n,n,[draft-ietf-isis-te-app]
+      (TEMPORARY - registered 2018-04-27, extension registered 2019-04-01, expires 2020-04-27)",n,y,n,n,[draft-ietf-isis-te-app]
 239,Unassigned,,,,,
 240,P2P 3-Way Adj. State,y,n,n,n,[RFC5303]
 241,Unassigned,,,,,

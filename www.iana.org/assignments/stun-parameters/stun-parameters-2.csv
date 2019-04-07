@@ -1,7 +1,7 @@
 Value,Name,Reference
-0x000,Reserved,[RFC5389]
-0x001,Binding,[RFC5389]
-0x002,Reserved; was SharedSecret,[RFC5389]
+0x000,Reserved,[RFC-ietf-tram-stunbis-21]
+0x001,Binding,[RFC-ietf-tram-stunbis-21]
+0x002,Reserved; prior to [RFC5389] this was SharedSecret,[RFC-ietf-tram-stunbis-21]
 0x003,Allocate,[RFC5766]
 0x004,Refresh,[RFC5766]
 0x005,Unassigned,
