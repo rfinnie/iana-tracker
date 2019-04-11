@@ -51,3 +51,5 @@ oneM2M.R2.0.json,oneM2M R2.0 JSON,[http://ftp.onem2m.org/Work%20Programme/WI-004
 oneM2M.R2.0.xml,oneM2M R2.0 XML,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
 oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
 transit,Transit,[https://github.com/Randy-Buchholz/Transit],[Randy_Buchholz]
+2016.serverpush.dash.mpeg.org,MPEG-DASH-ServerPush-23009-6-2017,[https://www.iso.org/standard/71072.html],[Imed_Bouazizi]
+2018.mmt.mpeg.org,MPEG-MMT-23008-1-2018,[https://www.iso.org/standard/76386.html],[Imed_Bouazizi]

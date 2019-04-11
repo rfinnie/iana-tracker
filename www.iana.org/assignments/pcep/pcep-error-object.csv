@@ -45,9 +45,9 @@ Error-Type,Meaning,Error-value,Reference
 ,,11: LSP-IDENTIFIERS TLV missing,[RFC8231]
 ,,12: LSP-DB-VERSION TLV missing,[RFC8232]
 ,,"13: S2LS object missing
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,"14: P2MP-LSP-IDENTIFIER TLV missing
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,15-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
@@ -104,11 +104,11 @@ Error-Type,Meaning,Error-value,Reference
 18,P2MP Fragmentation Error,0: Unassigned,[RFC8306]
 ,,1: Fragmented request failure,[RFC8306]
 ,,"2: Fragmented Report failure
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,"3: Fragmented Update failure
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,"4: Fragmented Instantiation failure
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,5-255: Unassigned,
 19,Invalid Operation,0: Unassigned,
 ,,"1: Attempted LSP Update Request for a non-delegated
@@ -128,14 +128,14 @@ Error-Type,Meaning,Error-value,Reference
 ,,10: PCE-initiated operation-frequency limit reached,[RFC8281]
 ,,"11: Attempted LSP State Report
         for P2MP if stateful PCE capability for P2MP was not advertised
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,"12: Attempted LSP Update Request
         for P2MP if active stateful PCE capability for P2MP was not advertised
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,"13: Attempted LSP Instantiation
         Request for P2MP if stateful PCE
         instantiation capability for P2MP was not advertised
-        (TEMPORARY - registered 2018-04-23, expires 2019-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
 ,,14-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,
 ,,"1: A PCE indicates to a PCC that it cannot process
