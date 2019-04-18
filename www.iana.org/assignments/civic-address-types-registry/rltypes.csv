@@ -1,1 +1,25 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+RLtype,Description,Reference
+0-40,RESERVED by CAtypes registry,[RFC4776][RFC7035]
+41-110,Unassigned,
+111,relative location reference,[RFC7035]
+112,Unassigned,
+113,relative location shape 2D point,[RFC7035]
+114,relative location shape 3D point,[RFC7035]
+115,relative location shape circular,[RFC7035]
+116,relative location shape spherical,[RFC7035]
+117,relative location shape elliptical,[RFC7035]
+118,relative location shape ellipsoid,[RFC7035]
+119,relative location shape 2D polygon,[RFC7035]
+120,relative location shape 3D polygon,[RFC7035]
+121,relative location shape prism,[RFC7035]
+122,relative location shape arc-band,[RFC7035]
+123,relative location dynamic orientation,[RFC7035]
+124,relative location dynamic speed,[RFC7035]
+125,relative location dynamic heading,[RFC7035]
+126,relative location map type,[RFC7035]
+127,relative location map URI,[RFC7035]
+128,RESERVED by CAtypes registry,[RFC4776][RFC7035]
+129,relative location map coordinates,[RFC7035]
+130,relative location map angle,[RFC7035]
+131,relative location map scale,[RFC7035]
+132-255,Unassigned,
