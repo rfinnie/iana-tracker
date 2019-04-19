@@ -1,1 +1,172 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+                                                 The Binary Floor Control Protocol (BFCP) Parameters
+
+   Created
+           2006-01-30
+
+   Last Updated
+           2015-12-04
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * Attribute Subregistry
+     * Primitive Subregistry
+     * Request Status Subregistry
+     * Error Code Subregistry
+
+Attribute Subregistry
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+   Note
+
+ Specification must be a standards-track RFC.
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Type         Attribute                    Reference
+    1   BENEFICIARY-ID            [RFC-ietf-bfcpbis-rfc4582bis-16]
+    2   FLOOR-ID                  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    3   FLOOR-REQUEST-ID          [RFC-ietf-bfcpbis-rfc4582bis-16]
+    4   PRIORITY                  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    5   REQUEST-STATUS            [RFC-ietf-bfcpbis-rfc4582bis-16]
+    6   ERROR-CODE                [RFC-ietf-bfcpbis-rfc4582bis-16]
+    7   ERROR-INFO                [RFC-ietf-bfcpbis-rfc4582bis-16]
+    8   PARTICIPANT-PROVIDED-INFO [RFC-ietf-bfcpbis-rfc4582bis-16]
+    9   STATUS-INFO               [RFC-ietf-bfcpbis-rfc4582bis-16]
+    10  SUPPORTED-ATTRIBUTES      [RFC-ietf-bfcpbis-rfc4582bis-16]
+    11  SUPPORTED-PRIMITIVES      [RFC-ietf-bfcpbis-rfc4582bis-16]
+    12  USER-DISPLAY-NAME         [RFC-ietf-bfcpbis-rfc4582bis-16]
+    13  USER-URI                  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    14  BENEFICIARY-INFORMATION   [RFC-ietf-bfcpbis-rfc4582bis-16]
+    15  FLOOR-REQUEST-INFORMATION [RFC-ietf-bfcpbis-rfc4582bis-16]
+    16  REQUESTED-BY-INFORMATION  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    17  FLOOR-REQUEST-STATUS      [RFC-ietf-bfcpbis-rfc4582bis-16]
+    18  OVERALL-REQUEST-STATUS    [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+Primitive Subregistry
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+   Note
+
+ Specification must be a standards-track RFC.
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Type       Primitive                  Reference
+    1   FloorRequest          [RFC-ietf-bfcpbis-rfc4582bis-16]
+    2   FloorRelease          [RFC-ietf-bfcpbis-rfc4582bis-16]
+    3   FloorRequestQuery     [RFC-ietf-bfcpbis-rfc4582bis-16]
+    4   FloorRequestStatus    [RFC-ietf-bfcpbis-rfc4582bis-16]
+    5   UserQuery             [RFC-ietf-bfcpbis-rfc4582bis-16]
+    6   UserStatus            [RFC-ietf-bfcpbis-rfc4582bis-16]
+    7   FloorQuery            [RFC-ietf-bfcpbis-rfc4582bis-16]
+    8   FloorStatus           [RFC-ietf-bfcpbis-rfc4582bis-16]
+    9   ChairAction           [RFC-ietf-bfcpbis-rfc4582bis-16]
+    10  ChairActionAck        [RFC-ietf-bfcpbis-rfc4582bis-16]
+    11  Hello                 [RFC-ietf-bfcpbis-rfc4582bis-16]
+    12  HelloAck              [RFC-ietf-bfcpbis-rfc4582bis-16]
+    13  Error                 [RFC-ietf-bfcpbis-rfc4582bis-16]
+    14  FloorRequestStatusAck [RFC-ietf-bfcpbis-rfc4582bis-16]
+    15  FloorStatusAck        [RFC-ietf-bfcpbis-rfc4582bis-16]
+    16  Goodbye               [RFC-ietf-bfcpbis-rfc4582bis-16]
+    17  GoodbyeAck            [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+Request Status Subregistry
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+   Note
+
+ Specification must be a standards-track RFC.
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Type  Status              Reference
+    1   Pending   [RFC-ietf-bfcpbis-rfc4582bis-16]
+    2   Accepted  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    3   Granted   [RFC-ietf-bfcpbis-rfc4582bis-16]
+    4   Denied    [RFC-ietf-bfcpbis-rfc4582bis-16]
+    5   Cancelled [RFC-ietf-bfcpbis-rfc4582bis-16]
+    6   Released  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    7   Revoked   [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+Error Code Subregistry
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-ietf-bfcpbis-rfc4582bis-16]
+
+   Note
+
+ Specification must be a standards-track RFC.
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Type                                       Meaning                                                   Reference
+    1   Conference does not Exist                                                            [RFC-ietf-bfcpbis-rfc4582bis-16]
+    2   User does not Exist                                                                  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    3   Unknown Primitive                                                                    [RFC-ietf-bfcpbis-rfc4582bis-16]
+    4   Unknown Mandatory Attribute                                                          [RFC-ietf-bfcpbis-rfc4582bis-16]
+    5   Unauthorized Operation                                                               [RFC-ietf-bfcpbis-rfc4582bis-16]
+    6   Invalid Floor ID                                                                     [RFC-ietf-bfcpbis-rfc4582bis-16]
+    7   Floor Request ID Does Not Exist                                                      [RFC-ietf-bfcpbis-rfc4582bis-16]
+    8   You have Already Reached the Maximum Number of Ongoing Floor Requests for this Floor [RFC-ietf-bfcpbis-rfc4582bis-16]
+    9   Use TLS                                                                              [RFC-ietf-bfcpbis-rfc4582bis-16]
+    10  Unable to parse message                                                              [RFC-ietf-bfcpbis-rfc4582bis-16]
+    11  Use DTLS                                                                             [RFC-ietf-bfcpbis-rfc4582bis-16]
+    12  Unsupported Version                                                                  [RFC-ietf-bfcpbis-rfc4582bis-16]
+    13  Incorrect Message Length                                                             [RFC-ietf-bfcpbis-rfc4582bis-16]
+    14  Generic Error                                                                        [RFC-ietf-bfcpbis-rfc4582bis-16]

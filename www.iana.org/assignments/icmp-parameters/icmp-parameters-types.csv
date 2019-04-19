@@ -1,1 +1,41 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Type,Name,Reference
+0,Echo Reply,[RFC792]
+1,Unassigned,
+2,Unassigned,
+3,Destination Unreachable,[RFC792]
+4,Source Quench (Deprecated),[RFC792][RFC6633]
+5,Redirect,[RFC792]
+6,Alternate Host Address (Deprecated),[RFC6918]
+7,Unassigned,
+8,Echo,[RFC792]
+9,Router Advertisement,[RFC1256]
+10,Router Solicitation,[RFC1256]
+11,Time Exceeded,[RFC792]
+12,Parameter Problem,[RFC792]
+13,Timestamp,[RFC792]
+14,Timestamp Reply,[RFC792]
+15,Information Request (Deprecated),[RFC792][RFC6918]
+16,Information Reply (Deprecated),[RFC792][RFC6918]
+17,Address Mask Request (Deprecated),[RFC950][RFC6918]
+18,Address Mask Reply (Deprecated),[RFC950][RFC6918]
+19,Reserved (for Security),[Solo]
+20-29,Reserved (for Robustness Experiment),[ZSu]
+30,Traceroute (Deprecated),[RFC1393][RFC6918]
+31,Datagram Conversion Error (Deprecated),[RFC1475][RFC6918]
+32,Mobile Host Redirect (Deprecated),[David_Johnson][RFC6918]
+33,IPv6 Where-Are-You (Deprecated),[Simpson][RFC6918]
+34,IPv6 I-Am-Here (Deprecated),[Simpson][RFC6918]
+35,Mobile Registration Request (Deprecated),[Simpson][RFC6918]
+36,Mobile Registration Reply (Deprecated),[Simpson][RFC6918]
+37,Domain Name Request (Deprecated),[RFC1788][RFC6918]
+38,Domain Name Reply (Deprecated),[RFC1788][RFC6918]
+39,SKIP (Deprecated),[Markson][RFC6918]
+40,Photuris,[RFC2521]
+41,"ICMP messages utilized by experimental
+        mobility protocols such as Seamoby",[RFC4065]
+42,Extended Echo Request,[RFC8335]
+43,Extended Echo Reply,[RFC8335]
+44-252,Unassigned,
+253,RFC3692-style Experiment 1,[RFC4727]
+254,RFC3692-style Experiment 2,[RFC4727]
+255,Reserved,[JBP]

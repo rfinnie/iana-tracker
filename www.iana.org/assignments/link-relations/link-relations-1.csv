@@ -10,7 +10,7 @@ blocked-by,"Identifies the entity that blocks access to a resource
 bookmark,Gives a permanent link to use for bookmarking purposes.,[http://www.w3.org/TR/html5/links.html#link-type-bookmark],
 canonical,Designates the preferred version of a resource (the IRI and its contents).,[RFC6596],
 chapter,Refers to a chapter in a collection of resources.,[http://www.w3.org/TR/1999/REC-html401-19991224],
-cite-as,Indicates that the link target is preferred over the link context for the purpose of permanent citation.,[RFC-vandesompel-citeas-04],
+cite-as,Indicates that the link target is preferred over the link context for the purpose of permanent citation.,[RFC8574],
 collection,The target IRI points to a resource which represents the collection resource for the context IRI.,[RFC6573],
 contents,Refers to a table of contents.,[http://www.w3.org/TR/1999/REC-html401-19991224],
 convertedFrom,"The document linked to was later converted to the

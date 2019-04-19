@@ -1,1 +1,65 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="msdp-tlv-values.xsl"?>
+<?oxygen RNGSchema="msdp-tlv-values.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="msdp-tlv-values">
+  <title>Multicast Source Discovery Protocol (MSDP) TLV Values Registry</title>
+  <created>2003-09-17</created>
+  <updated>2003-10-31</updated>
+  <registry id="msdp-tlv-values-2">
+    <title>MSDP TLV Values</title>
+    <xref type="rfc" data="rfc3618"/>
+    <range>
+      <value>1-200</value>
+      <registration_rule>IESG Approval or Standards Action Process</registration_rule>
+    </range>
+    <range>
+      <value>201-255</value>
+      <registration_rule>Experimental use</registration_rule>
+    </range>
+    <record>
+      <value>1</value>
+      <description>IPv4 Source-Active</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>2</value>
+      <description>IPv4 Source-Active Request</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>3</value>
+      <description>IPv4 Source-Active Response</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>4</value>
+      <description>KeepAlive</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>5</value>
+      <description>Reserved (Previously: Notification)</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>6</value>
+      <description>MSDP traceroute in progress</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>7</value>
+      <description>MSDP traceroute reply</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+    <record>
+      <value>8-200</value>
+      <description>Unassigned</description>
+    </record>
+    <record>
+      <value>201-255</value>
+      <description>Experimental Use</description>
+      <xref type="rfc" data="rfc3618"/>
+    </record>
+  </registry>
+  <people/>
+</registry>

@@ -7,4 +7,5 @@ KIND,org,"[RFC6350], Section 6.1.4"
 KIND,location,"[RFC6350], Section 6.1.4"
 KIND,application,"[RFC6473], Section 3"
 KIND,device,"[RFC6869], Section 3"
-VERSION,4.0,"[RFC Errata 3000][RFC6350], Section 6.7.9"
+VERSION,4.0,"[RFC Errata 
+          3000][RFC6350], Section 6.7.9"

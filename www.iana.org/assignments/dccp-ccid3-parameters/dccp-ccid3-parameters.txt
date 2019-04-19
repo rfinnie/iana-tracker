@@ -1,1 +1,87 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+                 Profile for Datagram Congestion Control Protocol (DCCP) Congestion Control ID 3: TFRC Congestion Control Parameters
+
+   Created
+           2005-08-26
+
+   Last Updated
+           2011-08-01
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * CCID3-specific Reset codes (128-255)
+     * CCID3-specific Option Types (128-255)
+     * CCID3-specific Feature Numbers (128-255)
+
+CCID3-specific Reset codes (128-255)
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC4342]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Reset Code                   Name                    Reference
+    128-183   Unassigned
+    184-190   Reserved for experimental and testing use [RFC4342]
+    191-247   Unassigned
+    248-254   Reserved for experimental and testing use [RFC4342]
+      255     Reserved                                  [RFC4342]
+
+CCID3-specific Option Types (128-255)
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC4342]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Type              Description/Meaning            Reference
+     128   RTT Estimate                              [RFC6323]
+   129-183 Unassigned
+   184-190 Reserved for experimental and testing use [RFC4342]
+     191   Unassigned
+     192   Loss Event Rate                           [RFC4342]
+     193   Loss Intervals                            [RFC4342]
+     194   Receive Rate                              [RFC4342]
+   195-247 Unassigned
+   248-254 Reserved for experimental and testing use [RFC4342]
+     255   Reserved                                  [RFC4342]
+
+CCID3-specific Feature Numbers (128-255)
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC4342]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Number             Description/Meaning            Reference
+     128   Send RTT Estimate                         [RFC6323]
+   129-183 Unassigned
+   184-190 Reserved for experimental and testing use [RFC4342]
+     191   Unassigned
+     192   Send Loss Event Rate                      [RFC4342]
+   193-247 Unassigned
+   248-254 Reserved for experimental and testing use [RFC4342]
+     255   Reserved                                  [RFC4342]

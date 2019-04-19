@@ -1,1 +1,43 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="geo-uri-parameters.xsl"?>
+<?oxygen RNGSchema="geo-uri-parameters.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="geo-uri-parameters">
+  <title>'geo' URI Parameters</title>
+  <category>Uniform Resource Identifier (URI) Schemes</category>
+  <created>2010-04-20</created>
+  <updated>2010-06-07</updated>
+
+  <registry id="geo-uri-parameters-1">
+    <title>'geo' URI Parameters</title>
+    <xref type="rfc" data="rfc5870"/>
+    <registration_rule>Specification Required</registration_rule>   
+    <expert>Unassigned</expert>
+    <record>
+      <code>crs</code>
+      <profile>Predefined</profile>
+      <xref type="rfc" data="rfc5870"/>
+    </record>
+    <record>
+      <code>u</code>
+      <profile>Constrained</profile>
+      <xref type="rfc" data="rfc5870"/>
+    </record>
+  </registry>
+   
+  <registry id="geo-uri-parameters-2">
+    <title>'geo' URI 'crs' Parameter Values</title>
+    <xref type="rfc" data="rfc5870"/>
+    <registration_rule>IESG Approval with Specification Required</registration_rule>
+    <record>
+      <code>wgs84</code>
+      <algorithm>urn:ogc:def:crs:EPSG::4326</algorithm>
+      <xref type="rfc" data="rfc5870"/>
+    </record>
+    <record>
+      <code>wgs84</code>
+      <algorithm>urn:ogc:def:crs:EPSG::4979</algorithm>
+      <xref type="rfc" data="rfc5870"/>
+    </record>
+  </registry>
+  <people/>
+</registry>
