@@ -9,8 +9,11 @@ Value,Transform ID,References
 8,AH_RIPEMD,[RFC2857]
 9,AH_AES-XCBC-MAC,[RFC3566]
 10,AH_RSA,[RFC4359]
-11,AH_AES-128-GMAC,[RFC4543][RFC Errata 1821]
-12,AH_AES-192-GMAC,[RFC4543][RFC Errata 1821]
-13,AH_AES-256-GMAC,[RFC4543][RFC Errata 1821]
+11,AH_AES-128-GMAC,"[RFC4543][RFC Errata 
+          1821]"
+12,AH_AES-192-GMAC,"[RFC4543][RFC Errata 
+          1821]"
+13,AH_AES-256-GMAC,"[RFC4543][RFC Errata 
+          1821]"
 14-248,Unassigned,
 249-255,Reserved for private use,

@@ -4,5 +4,6 @@ HMAC-MD5.SIG-ALG.REG.INT,[RFC2845]
 hmac-sha1,[RFC4635]
 hmac-sha224,[RFC4635]
 hmac-sha256,[RFC4635]
-hmac-sha384,[RFC4635][RFC Errata 4526]
+hmac-sha384,"[RFC4635][RFC Errata 
+          4526]"
 hmac-sha512,[RFC4635]

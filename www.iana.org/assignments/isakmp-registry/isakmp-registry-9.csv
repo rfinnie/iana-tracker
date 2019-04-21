@@ -22,6 +22,7 @@ Value,Transform ID,References
 20,ESP_AES-GCM_16,[RFC4106][1]
 21,ESP_SEED_CBC,[RFC4196]
 22,ESP_CAMELLIA,[RFC4312]
-23,ESP_NULL_AUTH_AES-GMAC,[RFC4543][RFC Errata 1821]
+23,ESP_NULL_AUTH_AES-GMAC,"[RFC4543][RFC Errata 
+          1821]"
 24-248,Unassigned,
 249-255,Reserved for private use,
