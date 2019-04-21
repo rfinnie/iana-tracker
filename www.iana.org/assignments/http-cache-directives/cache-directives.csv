@@ -1,1 +1,16 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Cache Directive,Reference
+immutable,[RFC8246]
+max-age,"[RFC7234, Section 5.2.1.1, 5.2.2.8]"
+max-stale,"[RFC7234, Section 5.2.1.2]"
+min-fresh,"[RFC7234, Section 5.2.1.3]"
+must-revalidate,"[RFC7234, Section 5.2.2.1]"
+no-cache,"[RFC7234, Section 5.2.1.4, 5.2.2.2]"
+no-store,"[RFC7234, Section 5.2.1.5, 5.2.2.3]"
+no-transform,"[RFC7234, Section 5.2.1.6, 5.2.2.4]"
+only-if-cached,"[RFC7234, Section 5.2.1.7]"
+private,"[RFC7234, Section 5.2.2.6]"
+proxy-revalidate,"[RFC7234, Section 5.2.2.7]"
+public,"[RFC7234, Section 5.2.2.5]"
+s-maxage,"[RFC7234, Section 5.2.2.9]"
+stale-if-error,"[RFC5861, Section 4]"
+stale-while-revalidate,"[RFC5861, Section 3]"

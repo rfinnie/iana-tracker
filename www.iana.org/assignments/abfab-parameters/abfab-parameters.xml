@@ -1,1 +1,41 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="abfab-parameters.xsl"?>
+<?oxygen RNGSchema="abfab-parameters.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="abfab-parameters">
+  <title>Application Bridging for Federated Access Beyond Web (ABFAB) Parameters</title>
+  <created>2016-01-14</created>
+  <updated>2016-05-13</updated>
+
+  <registry id="urn-parameters">
+    <title>ABFAB URN Parameters</title>
+    <xref type="rfc" data="rfc7833"/>
+    <registration_rule>IETF Review or Expert Review</registration_rule>
+    <expert>Unassigned</expert>
+    <record>
+      <value>bindings:radius</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 4</xref>
+    </record>
+    <record>
+      <value>nameid-format:nai</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 5</xref>
+    </record>
+    <record>
+      <value>profiles:authentication</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 7</xref>
+    </record>
+    <record>
+      <value>profiles:query</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 8</xref>
+    </record>
+    <record>
+      <value>cm:user</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 6</xref>
+    </record>
+    <record>
+      <value>cm:machine</value>
+      <xref type="rfc" data="rfc7833">RFC7833, Section 6</xref>
+    </record>   
+  </registry>
+
+  <people/>
+</registry>

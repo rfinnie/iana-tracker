@@ -1,1 +1,59 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="webpush-parameters.xsl"?>
+<?oxygen RNGSchema="webpush-parameters.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="webpush-parameters">
+  <title>Web Push Parameters</title>
+  <created>2016-11-02</created>
+  <updated>2017-12-26</updated>
+
+  <registry id="identifiers">
+    <title>Web Push Identifiers</title>
+    <xref type="rfc" data="rfc8030"/>
+    <registration_rule>IETF Review</registration_rule>
+    <record date="2016-11-02">
+      <value>urn:ietf:params:push</value>
+      <description>This link relation type is used to identify a resource
+        for sending push messages.</description>
+      <contact>The WEBPUSH WG of the IETF (webpush@ietf.org)</contact>
+      <index>N/A</index>
+      <xref type="rfc" data="rfc8030"/>
+    </record>
+    <record date="2016-11-02">
+      <value>urn:ietf:params:push:set</value>
+      <description>This link relation type is used to identify a
+        collection of push message subscriptions.</description>
+      <contact>The WEBPUSH WG of the IETF (webpush@ietf.org)</contact>
+      <index>N/A</index>
+      <xref type="rfc" data="rfc8030"/>
+    </record>
+    <record date="2016-11-02">
+      <value>urn:ietf:params:push:receipt</value>
+      <description>This link relation type is used to identify a resource
+        for receiving delivery confirmations for push messages.</description>
+      <contact>The WEBPUSH WG of the IETF (webpush@ietf.org)</contact>
+      <index>N/A</index>
+      <xref type="rfc" data="rfc8030"/>
+    </record>
+  </registry>
+  
+  <registry id="vapid-authentication-scheme-parameters">
+    <title>VAPID Authentication Scheme Parameters</title>
+    <xref type="rfc" data="rfc8292"/>
+    <registration_rule>Specification Required</registration_rule>
+    <expert>Martin Thomson</expert>
+    <record date="2017-10-19">
+      <value>t</value>
+      <description>JWT authentication token</description>
+      <header>Authorization</header>
+      <xref type="rfc" data="rfc8292">RFC 8292, Section 3.1</xref>
+    </record>
+    <record date="2017-10-19">
+      <value>k</value>
+      <description>signing key</description>
+      <header>Authorization</header>
+      <xref type="rfc" data="rfc8292">RFC 8292, Section 3.2</xref>
+    </record>
+  </registry>
+  
+  <people/>
+</registry>
