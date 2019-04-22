@@ -5,7 +5,8 @@ Hex Value,Binary Value,Description,Reference
 0x63,01,1,00011,RPL Option,[RFC6553]
 0x04,00,0,00100,Tunnel Encapsulation Limit,[RFC2473]
 0x05,00,0,00101,Router Alert,[RFC2711]
-0x26,00,1,00110,Quick-Start,[RFC4782][RFC Errata 2034]
+0x26,00,1,00110,Quick-Start,"[RFC4782][RFC Errata 
+          2034]"
 0x07,00,0,00111,CALIPSO,[RFC5570]
 0x08,00,0,01000,SMF_DPD,[RFC6621]
 0xC9,11,0,01001,Home Address,[RFC6275]
