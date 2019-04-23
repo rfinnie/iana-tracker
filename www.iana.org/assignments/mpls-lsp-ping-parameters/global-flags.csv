@@ -1,5 +1,6 @@
 Bit number,Name,Reference
 15,V Flag,[RFC8029]
 14,T Flag,[RFC6425]
-13,Validate Reverse Path,[RFC6426][RFC Errata 4012]
+13,Validate Reverse Path,"[RFC6426][RFC Errata 
+          4012]"
 12-0,Unassigned,[RFC8029]

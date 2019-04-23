@@ -14121,6 +14121,7 @@ commfort,,tcp,A client-server chat for LAN or Internet with video chat support,[
       local chat, LAN, network, voice chat, video chat, video communication, 
       video conference, file transfer"
 com-ocs-es-mcc,,,ElectraStar media centre control protocol,[OC],[OC],,,,,,Defined TXT keys: None
+conecube,,udp,DNS SRV service for smarthome server,[cone_smart_solution],[Christoph_Bimminger],2019-04-22,,,,,Defined TXT keys: none
 contactserver,,,Now Contact,,,,,,,,Defined TXT keys: None
 coolanetaudio,,tcp,Coolatoola Network Audio,[Coolatoola.com],[Tim_Hewett],2014-01-03,,,,,Defined TXT keys: None
 corroboree,,,Corroboree Server,[Heath_Raftery],[Heath_Raftery],,,,,,Defined TXT keys: None
