@@ -1,1 +1,48 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="sip-clf-parameters.xsl"?>
+<?oxygen RNGSchema="sip-clf-parameters.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="sip-clf-parameters">
+  <title>Session Initiation Protocol (SIP) Common Log Format (CLF) Parameters</title>
+  <created>2013-01-17</created>
+  <updated>2014-09-24</updated>
+  
+  <registry id="version">
+    <title>SIP CLF Version Values</title>
+    <xref type="rfc" data="rfc6873"/>
+    <registration_rule>Standards Action</registration_rule>
+    <record>
+      <value>0x41 ('A')</value>
+      <description>Defined in <xref type="rfc" data="rfc6873"/></description>
+      <xref type="rfc" data="rfc6873"/>
+    </record>
+  </registry>
+  
+  
+  <registry id="transport-flag">
+    <title>SIP CLF Transport Flag Values</title>
+    <xref type="rfc" data="rfc6873"/>
+    <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>U</value>
+      <description>UDP</description>
+      <xref type="rfc" data="rfc6873"/>
+    </record>
+    <record>
+      <value>T</value>
+      <description>TCP</description>
+      <xref type="rfc" data="rfc6873"/>
+    </record>
+    <record>
+      <value>S</value>
+      <description>SCTP</description>
+      <xref type="rfc" data="rfc6873"/>
+    </record>
+    <record date="2014-06-30">
+      <value>W</value>
+      <description>WebSocket</description>
+      <xref type="rfc" data="rfc7118"/>
+      <xref type="rfc" data="rfc7355"/>
+    </record>
+  </registry>
+  <people/>
+</registry>

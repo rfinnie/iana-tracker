@@ -50,8 +50,10 @@ Value,Name,Description,Reference
 0x31,RR DELAY,Max playout delay for received frames in ms,[RFC5457]
 0x32,RR DROPPED,Dropped frames (presumably by jitter buffer),[RFC5457]
 0x33,RR OOO,Frames received Out of Order,[RFC5457]
-0x34,VARIABLE,used to transport variable names and values between endpoints,[Kevin_P._Fleming][RFC Errata 2871]
-0x35,OSPTOKEN,OSP Token Block,[RFC5457][RFC Errata 2871]
+0x34,VARIABLE,used to transport variable names and values between endpoints,"[Kevin_P._Fleming][RFC Errata 
+          2871]"
+0x35,OSPTOKEN,OSP Token Block,"[RFC5457][RFC Errata 
+          2871]"
 0x36,CALLTOKEN,used with the CALLTOKEN IAX control frame,[Kevin_P._Fleming]
 0x37,CAPABILITY2,used for expanded codec negotiation,[Kevin_P._Fleming]
 0x38,FORMAT2,used for expanded codec negotiation,[Kevin_P._Fleming]
