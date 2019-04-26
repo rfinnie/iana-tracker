@@ -5,7 +5,8 @@ AUTH_SHORT,,2,"short hand unix style, RFC 1831",[RFC5531]
 AUTH_DH,dh,3,"des style (encrypted timestamp)/a.k.a. AUTH_DES, see RFC 2695",[RFC5531]
 AUTH_KERB,krb4,4,"kerberos auth, see RFC 2695",[RFC5531]
 AUTH_RSA,,5,RSA authentication,[RFC5531]
-RPCSEC_GSS,,6,"GSS-based RPC security for auth, integrity and privacy, RFC 5403",[RFC5531][RFC Errata 4849]
+RPCSEC_GSS,,6,"GSS-based RPC security for auth, integrity and privacy, RFC 5403","[RFC5531][RFC Errata 
+          4849]"
 ,,7-30000,Unassigned,
 AUTH_NW,,30001,NETWARE,[RFC5531]
 ,,30002-199999,Unassigned,
