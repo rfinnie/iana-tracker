@@ -20,6 +20,10 @@ provides measurements and device computes location",[James_Winterbottom],
 DHCP,"Provided by DHCP (used for wireline access           
 networks, see 802.11 below)",[RFC4119],
 E-CID,Enhanced Cell Identifier,[Brian_Rosen],2018-12-07
+ELS-BLE,"Civic Address representing the associated location of the 
+        UE based upon the Bluetooth beacon from ELS",[ATIS-0700028.v002][Roger_Marshall],2019-04-22
+ELS-WiFi,"Civic Address representing the associated location of the 
+        UE based upon the referenced Wi-Fi Access Point from ELS",[ATIS-0700028.v002][Roger_Marshall],2019-04-22
 GNSS,Global Navigation Satellite Systems,[Brian_Rosen],2018-12-07
 GPS,Global Positioning System,[RFC4119],
 Handset_AFLT,Advanced Forward Link Trilateration,[James_Winterbottom],

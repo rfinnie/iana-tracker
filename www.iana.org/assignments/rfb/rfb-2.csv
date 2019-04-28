@@ -15,7 +15,8 @@ Value,Name,Reference
         [Terminal Mode v1.0]"
 129-149,Unassigned,
 150,TightVNC EnableContinuousUpdates,historic assignment
-151-247,Unassigned,
+151-246,Unassigned,
+247,Dell-EMC,[Rajeshkumar_Patel]
 248,ClientFence,TigerVNC
 249,OLIVE Call Control,historic assignment
 250,Colin Dean xvp,historic assignment

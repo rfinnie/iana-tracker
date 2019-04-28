@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-04-18
+           2019-04-23
 
    Expert(s)
 
@@ -559,8 +559,8 @@ namp                167        tcp    NAMP                         [Marty_Schoff
 namp                167        udp    NAMP                         [Marty_Schoffstahl]                                   [Marty_Schoffstahl]
 rsvd                168        tcp    RSVD                         [Alan_Sandell]                                        [Alan_Sandell]                                                         2008-05-01
 rsvd                168        udp    RSVD                         [Alan_Sandell]                                        [Alan_Sandell]                                                         2008-05-01
-send                169        tcp    SEND                         [William_Oldwin]                                      [William_Oldwin]                                                       2013-06-17
-send                169        udp    SEND                         [William_Oldwin]                                      [William_Oldwin]                                                       2013-06-17
+send                169        tcp    SEND                         [William_Oldwin]                                      [William_Oldwin]                                                       2019-04-22
+send                169        udp    SEND                         [William_Oldwin]                                      [William_Oldwin]                                                       2019-04-22
 print-srv           170        tcp    Network PostScript           [Brian_Reid]                                          [Brian_Reid]
 print-srv           170        udp    Network PostScript           [Brian_Reid]                                          [Brian_Reid]
 multiplex           171        tcp    Network Innovations
@@ -8322,8 +8322,8 @@ dof-eps            3567        tcp    DOF Protocol Stack           [OpenDOF]    
 dof-eps            3567        udp    DOF Protocol Stack           [OpenDOF]                                             [Bryant_Eastham]                                          2002-08      2015-04-23
 dof-tunnel-sec     3568        tcp    DOF Secure Tunnel            [OpenDOF]                                             [Bryant_Eastham]                                          2003-01      2015-04-23
 dof-tunnel-sec     3568        udp    DOF Secure Tunnel            [OpenDOF]                                             [Bryant_Eastham]                                          2003-01      2015-04-23
-mbg-ctrl           3569        tcp    Meinberg Control Service     [Martin_Burnicki]                                     [Martin_Burnicki]                                         2002-08
-mbg-ctrl           3569        udp    Meinberg Control Service     [Martin_Burnicki]                                     [Martin_Burnicki]                                         2002-08
+mbg-ctrl           3569        tcp    Meinberg Control Service     [Meinberg_Funkuhren_GmbH_Co_KG]                       [Meinberg_IANA_Registrations]                             2002-08      2019-04-23
+mbg-ctrl           3569        udp    Meinberg Control Service     [Meinberg_Funkuhren_GmbH_Co_KG]                       [Meinberg_IANA_Registrations]                             2002-08      2019-04-23
 mccwebsvr-port     3570        tcp    MCC Web Server Port
 mccwebsvr-port     3570        udp    MCC Web Server Port
 megardsvr-port     3571        tcp    MegaRAID Server Port
@@ -17256,6 +17256,8 @@ commfort                       tcp    or Internet with video chat  [CommFort_sof
                                       support                                                                                                                                                                                                                                     chat, video communication, video conference, file transfer
 com-ocs-es-mcc                        ElectraStar media centre     [OC]                                                  [OC]                                                                                                                                                     Defined TXT keys: None
                                       control protocol
+conecube                       udp    DNS SRV service for          [cone_smart_solution]                                 [Christoph_Bimminger]                                     2019-04-22                                                                                     Defined TXT keys: none
+                                      smarthome server
 contactserver                         Now Contact                                                                                                                                                                                                                                 Defined TXT keys: None
 coolanetaudio                  tcp    Coolatoola Network Audio     [Coolatoola.com]                                      [Tim_Hewett]                                              2014-01-03                                                                                     Defined TXT keys: None
 corroboree                            Corroboree Server            [Heath_Raftery]                                       [Heath_Raftery]                                                                                                                                          Defined TXT keys: None
@@ -19511,6 +19513,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Christof_J._Reetz_2]                                     Christof J. Reetz          Cruse Spezialmaschinen   mailto:cjr&crusescanner.com                                   2014-08-15
                                                                                      GmbH
 [Christoph_Anton_Mitt]                                    Christoph Anton Mitterer                            mailto:calestyo&scientia.net                                  2009-03-10
+[Christoph_Bimminger]                                     Christoph Bimminger        cone smart solution      mailto:christoph.bimminger&cone.at                            2019-04-22
 [Christoph_Hipp]                                          Christoph Hipp             SOFTPRO GmbH             mailto:christoph.hipp&softpro.de                              2013-08-02
 [Christoph_Kukulies]                                      Christoph Kukulies                                  mailto:info&exapt.de                                          2003-04
 [Christophe_Allie]                                        Christophe Allie                                    mailto:callie&apple.com                                       2006-08
@@ -19609,6 +19612,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Computer_Software_Gm]                                                               Computer Software GmbH   mailto:BrunoRistok&cs-ag.de                                   2002-10
 [Comtech]                                                                            Comtech                  mailto:njeffords&comtechefdata.com                            2014-01-23
 [Conceptworld_Corporation]                                                           Conceptworld Corporation mailto:admin&conceptworld.com                                 2013-08-20
+[cone_smart_solution]                                                                cone smart solution      mailto:office&cone.at                                         2019-04-22
 [Connie_Qiu]                                              Connie Qiu                                          mailto:connie&scdb.com
 [Conny_Larsson]                                           Conny Larsson                                       mailto:cocke&vnet.ibm.com
 [Control_Technology_Inc]                                                             Control Technology Inc.  mailto:ceskew&controltechnology.com                           2011-10-28
@@ -21845,7 +21849,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Martin_Bestmann]                                         Martin Bestmann                                     mailto:martin&datawatch.de
 [Martin_Bestmann_2]                                       Martin Bestmann                                     mailto:martin&no.netopia.com                                  2004-03
 [Martin_Bestmann_3]                                       Martin Bestmann                                     mailto:martin&poleposition-sw.com                             2005-08
-[Martin_Burnicki]                                         Martin Burnicki                                     mailto:martin.burnicki&meinberg.de                            2002-08
 [Martin_Daly]                                             Martin Daly                                         mailto:martin.daly&cadcorp.com                                2006-11
 [Martin_Ellis]                                            Martin Ellis                                        mailto:martin&clanleagues.net                                 2004-11
 [Martin_Forssen]                                          Martin Forssen                                      mailto:maf&appgate.com                                        2004-11
@@ -21967,6 +21970,10 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Megan_Woods]                                             Megan Woods                                         mailto:meganwoods&datafast.net.au
 [Meggie_Garica_Woodru]                                    Meggie Garica-Woodruff                              mailto:ipulse&ericsson.com
 [Mehrdad_Ashtiani]                                        Mehrdad Ashtiani                                    mailto:mashtiani&ieeinc.com                                   2009-10-19
+[Meinberg_Funkuhren_GmbH_Co_KG]                           Meinberg Funkuhren GmbH &                           mailto:martin.burnicki&meinberg.de                            2019-04-23
+                                                          Co. KG
+[Meinberg_IANA_Registrations]                             Meinberg IANA                                       mailto:iana-admin&meinberg.de                                 2019-04-23
+                                                          Registrations
 [Meindert_Sprang]                                         Meindert Sprang                                     mailto:ms&customware.nl                                       2009-02-18
 [Mel_Oyler]                                               Mel Oyler                                           mailto:mel&novell.com
 [Melanie_Kacerek]                                         Melanie Kacerek                                     mailto:melanie.kacerek&quest.com                              2008-12-16
@@ -24087,7 +24094,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [William_Lupton]                                          William Lupton                                      mailto:wlupton&broadband-forum.org                            2017-02-22
 [William_McDonald]                                        William McDonald                                    mailto:billmc&atc.boeing.com
 [William_Mullaney]                                        William Mullaney                                    mailto:mullanwi&usa.net
-[William_Oldwin]                                          William Oldwin                                      mailto:william&ultrahypertech.xyz                             2016-05-03
+[William_Oldwin]                                          William Oldwin                                      mailto:william&patalogic.ie                                   2019-04-22
 [William_Orme]                                            William Orme                                        mailto:bill&repliweb.com
 [William_Phelps]                                          William Phelps                                      mailto:william&meier-phelps.com                               2010-03-22
 [William_Polites]                                         William Polites                                     mailto:wpolites&mitre.org
