@@ -1,1 +1,16 @@
-<!doctype html><html><head><title>IANA</title><meta charset="utf-8" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex"><meta name="description" content="Internet Assigned Numbers Authority"><style type="text/css">body {background-color: #f0f0f2;margin: 0;padding: 0;font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background-image: url('//maintenance.iana.org/iana-503/iana-logo.svg');background-repeat: no-repeat;background-attachment: fixed;background-size: 150%;}div {width: 600px;margin: 2em auto;padding: 50px;background-color: #fff;border-radius: 1em;opacity: 0.97;}a:link, a:visited {color: #38488f;text-decoration: none;}@media (max-width: 700px) {body {background-color: #fff;}div {width: auto;margin: 0 auto;border-radius: 0;padding: 1em;opacity: 0.95;font-size: medium;}}</style></head><body><div><h2>Temporary Maintenance</h2><p>This website is currently undergoing maintenance. Thank you for your patience.</p><h1 align=right><a href="https://www.iana.org/">IANA</a></h1></div><!-- Copyright 2016 Internet Corporation for Assigned Names and Numbers --></body></html>
+Value,ID Type,References
+0,RESERVED,[RFC2407]
+1,ID_IPV4_ADDR,[RFC2407]
+2,ID_FQDN,[RFC2407]
+3,ID_USER_FQDN,[RFC2407]
+4,ID_IPV4_ADDR_SUBNET,[RFC2407]
+5,ID_IPV6_ADDR,[RFC2407]
+6,ID_IPV6_ADDR_SUBNET,[RFC2407]
+7,ID_IPV4_ADDR_RANGE,[RFC2407]
+8,ID_IPV6_ADDR_RANGE,[RFC2407]
+9,ID_DER_ASN1_DN,[RFC2407]
+10,ID_DER_ASN1_GN,[RFC2407]
+11,ID_KEY_ID,[RFC2407]
+12,ID_LIST,[RFC3554]
+13-248,Unassigned,
+249-255,Reserved for private use,
