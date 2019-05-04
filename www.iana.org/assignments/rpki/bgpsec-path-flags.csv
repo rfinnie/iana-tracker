@@ -1,6 +1,9 @@
 Flag,Description,Reference
 0,"Confed_Segment
+
         Bit value = 1 means Flag set (indicates Confed_Segment)
+
         Bit value = 0 is default",[RFC8205]
 1-7,"Unassigned
+
         Value: All 7 bits set to zero",[RFC8205]
