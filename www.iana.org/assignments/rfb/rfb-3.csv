@@ -12,7 +12,8 @@ Value,Name,Reference
 150,TightVNC EndOfContinuousUpdates,historic assignment
 151-172,Unassigned,
 173,ServerState,historic assignment
-174-247,Unassigned,
+174-246,Unassigned,
+247,Dell-EMC,[Rajeshkumar_Patel]
 248,ServerFence,TigerVNC
 249,OLIVE Call Control,historic assignment
 250,Colin Dean xvp,historic assignment
