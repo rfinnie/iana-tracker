@@ -27,7 +27,8 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 25,cached_info,-,Y,[RFC7924]
 26,tls_lts,-,N,[draft-gutmann-tls-lts]
 27,"compress_certificate 
-        (TEMPORARY - registered 2018-05-23, expires 2019-05-23)","CH, CR",Y,[draft-ietf-tls-certificate-compression]
+        (TEMPORARY - registered 2018-05-23, extension registered 2019-04-22, 
+        expires 2020-05-23)","CH, CR",Y,[draft-ietf-tls-certificate-compression]
 28,record_size_limit,"CH, EE",Y,[RFC8449]
 29,pwd_protect,CH,N,[RFC8492]
 30,pwd_clear,CH,N,[RFC8492]
