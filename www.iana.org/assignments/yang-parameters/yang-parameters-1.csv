@@ -125,7 +125,7 @@ ietf-sztp-conveyed-info,ietf-sztp-conveyed-info@2019-04-30.yang,N,urn:ietf:param
 ietf-microwave-radio-link,,N,urn:ietf:params:xml:ns:yang:ietf-microwave-radio-link,mrl,,[RFC-ietf-ccamp-mw-yang-13],[RFC-ietf-ccamp-mw-yang-13]'s module file will be posted upon the document's publication as an RFC.
 ietf-interface-protection,,N,urn:ietf:params:xml:ns:yang:ietf-interface-protection,ifprot,,[RFC-ietf-ccamp-mw-yang-13],[RFC-ietf-ccamp-mw-yang-13]'s module file will be posted upon the document's publication as an RFC.
 ietf-microwave-types,,N,urn:ietf:params:xml:ns:yang:ietf-microwave-types,mw-types,,[RFC-ietf-ccamp-mw-yang-13],[RFC-ietf-ccamp-mw-yang-13]'s module file will be posted upon the document's publication as an RFC.
-ietf-ptp,,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[RFC-ietf-tictoc-1588v2-yang-11],[RFC-ietf-tictoc-1588v2-yang-11]'s module file will be posted upon the document's publication as an RFC.
+ietf-ptp,ietf-ptp@2019-05-07.yang,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[RFC8575],
 ietf-softwire-ce,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-br,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-br,softwire-br,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-common,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
