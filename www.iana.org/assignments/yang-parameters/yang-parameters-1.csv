@@ -129,3 +129,5 @@ ietf-ptp,ietf-ptp@2019-05-07.yang,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[R
 ietf-softwire-ce,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-br,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-br,softwire-br,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-common,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
+ietf-alarms,,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC-ietf-ccamp-alarm-module-09],[RFC-ietf-ccamp-alarm-module-09]'s module file will be posted upon the document's publication as an RFC.
+ietf-alarms-x733,,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC-ietf-ccamp-alarm-module-09],[RFC-ietf-ccamp-alarm-module-09]'s module file will be posted upon the document's publication as an RFC.
