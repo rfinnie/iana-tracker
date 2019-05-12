@@ -41,5 +41,5 @@ Decimal,Description,References
 39,id-ct-epub,[RFC8358]
 40,id-ct-animaJSONVoucher,[RFC8366]
 41,id-ct-mudtype,[RFC8520]
-42,id-ct-sztpConveyedInfoXML,[RFC-ietf-netconf-zerotouch-29]
-43,id-ct-sztpConveyedInfoJSON,[RFC-ietf-netconf-zerotouch-29]
+42,id-ct-sztpConveyedInfoXML,[RFC8572]
+43,id-ct-sztpConveyedInfoJSON,[RFC8572]

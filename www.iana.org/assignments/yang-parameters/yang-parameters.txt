@@ -4,7 +4,7 @@
            2010-06-10
 
    Last Updated
-           2019-04-25
+           2019-05-10
 
    Available Formats
            [IMG]
@@ -212,12 +212,8 @@ ietf-yang-schema-mount          ietf-yang-schema-mount@2019-01-14.yang          
 ietf-dc-fabric-types            ietf-dc-fabric-types@2019-02-25.yang                N      urn:ietf:params:xml:ns:yang:ietf-dc-fabric-types            fabrictypes                               [RFC8542]
 ietf-dc-fabric-topology         ietf-dc-fabric-topology@2019-02-25.yang             N      urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology         fabric                                    [RFC8542]
 ietf-dc-fabric-topology-state   ietf-dc-fabric-topology-state@2019-02-25.yang       N      urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology-state   sfabric                                   [RFC8542]
-                                                                                                                                                                                                                                   [RFC-ietf-netconf-zerotouch-29]'s
-ietf-sztp-bootstrap-server                                                          N      urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server      sztp-svr                                  [RFC-ietf-netconf-zerotouch-29]   module file will be posted upon the
-                                                                                                                                                                                                                                   document's publication as an RFC.
-                                                                                                                                                                                                                                   [RFC-ietf-netconf-zerotouch-29]'s
-ietf-sztp-conveyed-info                                                             N      urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info         sztp-info                                 [RFC-ietf-netconf-zerotouch-29]   module file will be posted upon the
-                                                                                                                                                                                                                                   document's publication as an RFC.
+ietf-sztp-bootstrap-server      ietf-sztp-bootstrap-server@2019-04-30.yang          N      urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server      sztp-svr                                  [RFC8572]
+ietf-sztp-conveyed-info         ietf-sztp-conveyed-info@2019-04-30.yang             N      urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info         sztp-info                                 [RFC8572]
                                                                                                                                                                                                                                    [RFC-ietf-ccamp-mw-yang-13]'s
 ietf-microwave-radio-link                                                           N      urn:ietf:params:xml:ns:yang:ietf-microwave-radio-link       mrl                                       [RFC-ietf-ccamp-mw-yang-13]       module file will be posted upon the
                                                                                                                                                                                                                                    document's publication as an RFC.
@@ -227,9 +223,7 @@ ietf-interface-protection                                                       
                                                                                                                                                                                                                                    [RFC-ietf-ccamp-mw-yang-13]'s
 ietf-microwave-types                                                                N      urn:ietf:params:xml:ns:yang:ietf-microwave-types            mw-types                                  [RFC-ietf-ccamp-mw-yang-13]       module file will be posted upon the
                                                                                                                                                                                                                                    document's publication as an RFC.
-                                                                                                                                                                                                                                   [RFC-ietf-tictoc-1588v2-yang-11]'s
-ietf-ptp                                                                            N      urn:ietf:params:xml:ns:yang:ietf-ptp                        ptp                                       [RFC-ietf-tictoc-1588v2-yang-11]  module file will be posted upon the
-                                                                                                                                                                                                                                   document's publication as an RFC.
+ietf-ptp                        ietf-ptp@2019-05-07.yang                            N      urn:ietf:params:xml:ns:yang:ietf-ptp                        ptp                                       [RFC8575]
                                                                                                                                                                                                                                    [RFC-ietf-softwire-yang-16]'s
 ietf-softwire-ce                                                                    N      urn:ietf:params:xml:ns:yang:ietf-softwire-ce                softwire-ce                               [RFC-ietf-softwire-yang-16]       module file will be posted upon the
                                                                                                                                                                                                                                    document's publication as an RFC.
@@ -238,4 +232,10 @@ ietf-softwire-br                                                                
                                                                                                                                                                                                                                    document's publication as an RFC.
                                                                                                                                                                                                                                    [RFC-ietf-softwire-yang-16]'s
 ietf-softwire-common                                                                N      urn:ietf:params:xml:ns:yang:ietf-softwire-common            softwire-common                           [RFC-ietf-softwire-yang-16]       module file will be posted upon the
+                                                                                                                                                                                                                                   document's publication as an RFC.
+                                                                                                                                                                                                                                   [RFC-ietf-ccamp-alarm-module-09]'s
+ietf-alarms                                                                         N      urn:ietf:params:xml:ns:yang:ietf-alarms                     al                                        [RFC-ietf-ccamp-alarm-module-09]  module file will be posted upon the
+                                                                                                                                                                                                                                   document's publication as an RFC.
+                                                                                                                                                                                                                                   [RFC-ietf-ccamp-alarm-module-09]'s
+ietf-alarms-x733                                                                    N      urn:ietf:params:xml:ns:yang:ietf-alarms-x733                x733                                      [RFC-ietf-ccamp-alarm-module-09]  module file will be posted upon the
                                                                                                                                                                                                                                    document's publication as an RFC.

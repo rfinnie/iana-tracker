@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-04-23</updated>
+  <updated>2019-05-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -63295,17 +63295,19 @@ common service discovery mechanisms.</note>
     <xref type="rfc" data="rfc6887"/>
     <number>5351</number>
   </record>
-  <record date="2005-08">
+  <record date="2005-08" updated="2019-05-04">
     <name>dns-llq</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Kiren_Sekar"/>
+    <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
+    <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
     <number>5352</number>
   </record>
-  <record date="2005-08">
+  <record date="2005-08" updated="2019-05-04">
     <name>dns-llq</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Kiren_Sekar"/>
+    <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
+    <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
     <number>5352</number>
   </record>
@@ -79059,7 +79061,26 @@ any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>9322-9342</number>
+    <number>9322-9338</number>
+  </record>
+  <record date="2019-05-09">
+    <name>gnmi-gnoi</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Google_Netops"/>
+    </assignee>
+    <description>gRPC Network Mgmt/Operations Interface</description>
+    <number>9339</number>
+    <xref type="person" data="gNxi_Maintainers"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>9339</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9340-9342</number>
   </record>
   <record>
     <name>mpidcmgr</name>
@@ -91388,6 +91409,17 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Kristina_Sten"/>
   </record>
+  <record date="2019-05-04">
+    <name>autotunnel</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>IPSEC VPN tunnel over UDP</description>
+    <note>Defined TXT Keys: None</note>
+    <xref type="rfc" data="rfc6281"/>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
   <record>
     <name>b3d-convince</name>
     <description>3M Unitek Digital Orthodontic System</description>
@@ -92097,7 +92129,7 @@ fwver=&lt;firmware version&gt;</note>
     <name>device-info</name>
     <description>Device Info</description>
     <note>Not a service type. Special name reserved for DNS-SD device info.</note>
-    <xref type="person" data="Stuart_Cheshire_5"/>
+    <xref type="person" data="Stuart_Cheshire"/>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
   <record date="2011-10-18">
@@ -92207,22 +92239,73 @@ fwver=&lt;firmware version&gt;</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Geoff_Back_3"/>
   </record>
+  <record date="2019-05-04">
+    <name>dns-llq-tls</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>DNS Long-Lived Queries over TLS</description>
+    <note>Defined TXT Keys: None</note>
+    <xref type="rfc" data="rfc6281"/>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
+  <record date="2019-05-04">
+    <name>dns-query-tls</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>DNS queries to the authoritative server over TLS</description>
+    <note>Defined TXT Keys: None</note>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
   <record>
     <name>dns-sd</name>
     <description>DNS Service Discovery</description>
     <note>Not a service type. Special name reserved for DNS-SD meta queries.</note>
-    <xref type="person" data="Stuart_Cheshire_5"/>
+    <xref type="person" data="Stuart_Cheshire"/>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
-  <record>
+  <record date="2019-05-04">
+    <name>dns-update</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>DNS Dynamic Update Service</description>
+    <note>DNS Dynamic Update Service for a given domain may not necessarily be provided by
+      the principal name servers as advertised by the domain's "NS" records, and may not
+      necessarily always be provided on port 53. The "_dns-update._udp.&lt;domain&gt;." SRV record gives
+      the target host and port where DNS Dynamic Update Service is provided for the named domain.</note>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
+  <record updated="2019-05-04">
     <name>dns-update</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
     <description>DNS Dynamic Update Service</description>
     <note>DNS Dynamic Update Service for a given domain may not necessarily be provided by
 the principal name servers as advertised by the domain's "NS" records, and may not
 necessarily always be provided on port 53. The "_dns-update._udp.&lt;domain&gt;." SRV record gives
 the target host and port where DNS Dynamic Update Service is provided for the named domain.</note>
-    <xref type="person" data="Kiren_Sekar_2"/>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
+  <record date="2019-05-04">
+    <name>dns-update-tls</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>DNS Dynamic Update Service over TLS</description>
+    <note>DNS Dynamic Update Service for a given domain may not necessarily be provided by
+      the principal name servers as advertised by the domain's "NS" records, and may not
+      necessarily always be provided on port 53. The "_dns-update._udp.&lt;domain&gt;." SRV record gives
+      the target host and port where DNS Dynamic Update Service is provided for the named domain.</note>
+    <xref type="rfc" data="rfc6281"/>
+    <xref type="person" data="Stuart_Cheshire"/>
   </record>
   <record>
     <name>dop</name>
@@ -95013,7 +95096,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <name>qttp</name>
     <description>QuickTime Transfer Protocol</description>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt; (Same as for _http._tcp)</note>
-    <xref type="person" data="Stuart_Cheshire_5"/>
+    <xref type="person" data="Stuart_Cheshire"/>
   </record>
   <record date="2011-10-25">
     <name>quad</name>
@@ -95611,7 +95694,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <name>services</name>
     <description>DNS Service Discovery</description>
     <note>Not a service type. Special name reserved for DNS-SD meta queries.</note>
-    <xref type="person" data="Stuart_Cheshire_5"/>
+    <xref type="person" data="Stuart_Cheshire"/>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
   <record>
@@ -95775,7 +95858,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <protocol>udp</protocol>
     <description>Sleep Proxy Server</description>
     <note>Defined TXT keys: None</note>
-    <xref type="person" data="Stuart_Cheshire_5"/>
+    <xref type="person" data="Stuart_Cheshire"/>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
   <record date="2016-08-17">
@@ -96227,7 +96310,7 @@ cport= the port for the content HTTP server
     <description>This service name is used to construct the
       SRV service label "_sztp" for discovering
       SZTP bootstrap servers.</description>
-    <xref type="draft" data="RFC-ietf-netconf-zerotouch-29"/>
+    <xref type="rfc" data="rfc8572"/>
     <note>This protocol uses HTTPS as a substrate.</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
@@ -105533,6 +105616,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Michael.Sample&amp;GlobalRelay.net</uri>
       <updated>2012-11-28</updated>
     </person>
+    <person id="gNxi_Maintainers">
+      <name>gNxi Maintainers</name>
+      <uri>mailto:gnxi-maintainers&amp;google.com</uri>
+      <updated>2019-05-09</updated>
+    </person>
     <person id="Gobby_0x539">
       <org>0x539 dev group</org>
       <uri>http://darcs.0x539.de/trac/obby/cgi-bin/trac.cgi</uri>
@@ -105551,6 +105639,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Google Inc.</org>
       <uri>mailto:numbers&amp;google.com</uri>
       <updated>2015-07-31</updated>
+    </person>
+    <person id="Google_Netops">
+      <org>Google Netops</org>
+      <uri>mailto:gnxi-maintainers&amp;google.com</uri>
+      <updated>2019-05-09</updated>
     </person>
     <person id="Gopikrishna_Sandra">
       <name>Gopikrishna Sandra</name>
@@ -109982,15 +110075,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Kipp_E_B_Hickman_2">
       <name>Kipp E.B. Hickman</name>
       <uri>mailto:kipp&amp;netscape.com</uri>
-    </person>
-    <person id="Kiren_Sekar">
-      <name>Kiren Sekar</name>
-      <uri>mailto:kiren&amp;apple.com</uri>
-      <updated>2005-08</updated>
-    </person>
-    <person id="Kiren_Sekar_2">
-      <name>Kiren Sekar</name>
-      <uri>mailto:kiren&amp;apple.com</uri>
     </person>
     <person id="Kirill_Marinushkin">
       <name>Kirill Marinushkin</name>
@@ -119117,7 +119201,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Stuart_Cheshire">
       <name>Stuart Cheshire</name>
       <uri>mailto:cheshire&amp;apple.com</uri>
-      <updated>2007-12-03</updated>
+      <updated>2019-05-04</updated>
     </person>
     <person id="Stuart_Cheshire_3">
       <name>Stuart Cheshire</name>
@@ -119128,10 +119212,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Stuart Cheshire</name>
       <uri>mailto:pdl-datastream&amp;apple.com</uri>
       <updated>2002-09</updated>
-    </person>
-    <person id="Stuart_Cheshire_5">
-      <name>Stuart Cheshire</name>
-      <uri>mailto:cheshire&amp;apple.com</uri>
     </person>
     <person id="Stuart_J_Kerry">
       <name>Stuart J. Kerry</name>

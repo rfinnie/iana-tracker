@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2019-04-18</updated>
+  <updated>2019-05-10</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -1178,6 +1178,18 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-acldns.txt</file>
       <xref type="rfc" data="rfc8520"/>
     </record>
+    <record date="2019-05-10">
+      <value>yang:ietf-alarms</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-alarms</name>
+      <file type="template">ns/yang/ietf-alarms.txt</file>
+      <xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>
+    </record>
+    <record date="2019-05-10">
+      <value>yang:ietf-alarms-x733</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-alarms-x733</name>
+      <file type="template">ns/yang/ietf-alarms-x733.txt</file>
+      <xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>
+    </record>
     <record date="2018-08-09">
       <value>yang:ietf-bfd</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd</name>
@@ -1542,7 +1554,7 @@ The registration template should cite the specification.
       <value>yang:ietf-ptp</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ptp</name>
       <file type="template">ns/yang/ietf-ptp.txt</file>
-      <xref type="draft" data="RFC-ietf-tictoc-1588v2-yang-11"/>
+      <xref type="rfc" data="rfc8575"/>
     </record>
     <record date="2017-01-18">
       <value>yang:ietf-restconf</value>
@@ -1614,13 +1626,13 @@ The registration template should cite the specification.
       <value>yang:ietf-sztp-bootstrap-server</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server</name>
       <file type="template">ns/yang/ietf-sztp-bootstrap-server.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-zerotouch-29"/>
+      <xref type="rfc" data="rfc8572"/>
     </record>
     <record date="2019-01-17">
       <value>yang:ietf-sztp-conveyed-info</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info</name>
       <file type="template">ns/yang/ietf-sztp-conveyed-info.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-zerotouch-29"/>
+      <xref type="rfc" data="rfc8572"/>
     </record>
     <record updated="2018-07-05">
       <value>yang:ietf-te-topology</value>
