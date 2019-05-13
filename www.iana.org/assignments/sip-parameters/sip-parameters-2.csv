@@ -76,6 +76,8 @@ Permission-Missing,,[RFC5360]
 Policy-Contact,,[RFC6794]
 Policy-ID,,[RFC6794]
 Priority,,[RFC3261]
+Priority-Share,,"[3GPP TS 24.229 v13.16.0]
+      [Frederic_Firmin]"
 Priv-Answer-Mode,,[RFC5373]
 Privacy,,[RFC3323]
 Proxy-Authenticate,,[RFC3261]

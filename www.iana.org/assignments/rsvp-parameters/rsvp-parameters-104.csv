@@ -42,8 +42,8 @@ Value,Description,Reference
 67,Route Blocked by Exclude Route,[RFC4874]
 68,XRO Too Complex,[RFC4874]
 69,EXRS Too Complex,[RFC4874]
-70,TE link label usage failure,[RFC-ietf-mpls-rsvp-shared-labels-09]
-71,Label stack imposition failure,[RFC-ietf-mpls-rsvp-shared-labels-09]
+70,TE link label usage failure,[RFC8577]
+71,Label stack imposition failure,[RFC8577]
 72-99,Unassigned,
 100,Diversity not available,[RFC3476]
 101,Service level not available,[RFC3476]
