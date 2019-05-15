@@ -1,7 +1,7 @@
 "ID",URI,Filename,Reference
 allocationToken-1.0,urn:ietf:params:xml:schema:allocationToken-1.0,schema/allocationToken-1.0.xsd,[RFC8495]
 basic-location-profiles,urn:ietf:params:xml:schema:basic-location-profiles,schema/basic-location-profiles.xsd,[RFC6772]
-changePoll-1.0,urn:ietf:params:xml:schema:changePoll-1.0,schema/changePoll-1.0.xsd,[RFC-ietf-regext-change-poll-12]
+changePoll-1.0,urn:ietf:params:xml:schema:changePoll-1.0,schema/changePoll-1.0.xsd,[RFC8590]
 clue-info,urn:ietf:params:xml:schema:clue-info,schema/clue-info.xsd,[RFC-ietf-clue-data-model-schema-17]
 common-policy,urn:ietf:params:xml:ns:common-policy,schema/common-policy.xsd,[RFC4745]
 conference-info,urn:ietf:params:xml:schema:conference-info,schema/conference-info.xsd,[RFC4575]
