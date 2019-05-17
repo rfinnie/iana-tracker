@@ -84,5 +84,5 @@ sid,Session ID,[OpenID_Foundation_Artifact_Binding_Working_Group],"[
         OpenID Connect Front-Channel Logout 1.0, Section 3]"
 vot,Vector of Trust value,[IESG],[RFC8485]
 vtm,Vector of Trust trustmark URL,[IESG],[RFC8485]
-attest,Attestation level as defined in SHAKEN framework,[IESG],[RFC-ietf-stir-passport-shaken-08]
-origid,Originating Identifier as defined in SHAKEN framework,[IESG],[RFC-ietf-stir-passport-shaken-08]
+attest,Attestation level as defined in SHAKEN framework,[IESG],[RFC8588]
+origid,Originating Identifier as defined in SHAKEN framework,[IESG],[RFC8588]
