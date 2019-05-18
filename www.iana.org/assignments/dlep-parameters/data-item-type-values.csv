@@ -20,6 +20,8 @@ Type Code,Description,Reference
 18,Relative Link Quality (Receive) (RLQR),[RFC8175]
 19,Relative Link Quality (Transmit) (RLQT),[RFC8175]
 20,Maximum Transmission Unit (MTU),[RFC8175]
-21-65407,Unassigned,
+21,Hop Count,[RFC-ietf-manet-dlep-multi-hop-extension-07]
+22,Hop Control,[RFC-ietf-manet-dlep-multi-hop-extension-07]
+23-65407,Unassigned,
 65408-65534,Reserved for Private Use,[RFC8175]
 65535,Reserved,[RFC8175]
