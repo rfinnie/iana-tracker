@@ -43,4 +43,4 @@ Namespace,Property,Reference
 ,INTEREST,"[RFC6715], Section 2.3"
 ,ORG-DIRECTORY,"[RFC6715], Section 2.4 [RFC Errata 
           3341]"
-,CONTACT-URI,"[RFC-hollenbeck-vcarddav-icann-rdap-extensions-01], Section 2.1"
+,CONTACT-URI,"[RFC8605], Section 2.1"
