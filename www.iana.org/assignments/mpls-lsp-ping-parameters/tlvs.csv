@@ -2,9 +2,9 @@ Type,TLV Name,Reference,Sub-TLV Registry
 1,Target FEC Stack,[RFC8029],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
 2,Downstream Mapping (DEPRECATED),[RFC8029][RFC8029],No Sub-TLVs
 3,Pad,[RFC8029],No Sub-TLVs
-4,Unassigned,,
+4,LSR Capability,[RFC-ietf-mpls-lsp-ping-lag-multipath-08],No Sub-TLVs
 5,Vendor Enterprise Number,[RFC8029],No Sub-TLVs
-6,Unassigned,,
+6,Detailed Interface and Label Stack,[RFC-ietf-mpls-lsp-ping-lag-multipath-08],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-6]
 7,Interface and Label Stack,[RFC8029],No Sub-TLVs
 8,Unassigned,,
 9,Errored TLVs,[RFC8029],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-9]

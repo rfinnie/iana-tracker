@@ -15,6 +15,6 @@ Bit No,Name,Attribute Flags Path,Attribute Flags Resv,RRO,ERO,Reference
 13,Loopback,Yes,No,Yes,Yes,[RFC7571]
 14,P2MP-TE Tree Re-evaluation Request,Yes,No,No,No,[RFC8149]
 15,RTM_SET,Yes,Yes,No,No,[RFC8169]
-16,TE Link Label,Yes,No,No,No,"[RFC-ietf-mpls-rsvp-shared-labels-09, Section 9.2]"
-17,LSI-D,Yes,No,No,Yes,"[RFC-ietf-mpls-rsvp-shared-labels-09, Section 9.4]"
-18,LSI-D-S2E,Yes,No,No,No,"[RFC-ietf-mpls-rsvp-shared-labels-09, Section 9.6]"
+16,TE Link Label,Yes,No,No,No,"[RFC8577, Section 9.2]"
+17,LSI-D,Yes,No,No,Yes,"[RFC8577, Section 9.4]"
+18,LSI-D-S2E,Yes,No,No,No,"[RFC8577, Section 9.6]"
