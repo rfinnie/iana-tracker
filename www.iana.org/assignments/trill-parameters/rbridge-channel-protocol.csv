@@ -6,7 +6,7 @@ Protocol,Description,Reference
 0x004,RBridge Channel Extension,[RFC7978]
 0x005,Pull Directory Services,[RFC8171]
 0x006,Port-Shutdown,[RFC8139]
-0x007,P2MP BFD Control,[RFC-ietf-trill-p2mp-bfd-09]
+0x007,P2MP BFD Control,[RFC8564]
 0x008,Vendor-Specific RBridge Channel,[RFC8381]
 0x009,Address Flush,[RFC8383]
 0x00A-0xFF7,Unassigned,

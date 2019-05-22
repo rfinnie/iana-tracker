@@ -1,2 +1,3 @@
 Extension Identifier,Extension Common Name,Extension Definition,Known Incompatible Extensions,Reference
-permessage-deflate,WebSocket Per-Message Deflate,,None,[RFC7692]
+permessage-deflate,WebSocket Per-Message Deflate,[RFC7692],None,[RFC7692]
+bbf-usp-protocol,BBF USP Protocol,[https://usp.technology],None,[Barbara_Stark]
