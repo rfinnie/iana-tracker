@@ -19,8 +19,8 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 513,BGP-LS Identifier,,"[RFC7752, Section 3.2.1.4]"
 514,OSPF Area-ID,,"[RFC7752, Section 3.2.1.4]"
 515,IGP Router-ID,,"[RFC7752, Section 3.2.1.4]"
-516,BGP Router-ID,,[draft-ietf-idr-bgpls-segment-routing-epe]
-517,BGP Confederation Member,,[draft-ietf-idr-bgpls-segment-routing-epe]
+516,BGP Router-ID,,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
+517,BGP Confederation Member,,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
 518-1023,Unassigned,,
 1024,Node Flag Bits,,"[RFC7752, Section 3.3.1.1]"
 1025,Opaque Node Attribute,,"[RFC7752, Section 3.3.1.5]"
@@ -49,9 +49,9 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1098,Link Name,,"[RFC7752, Section 3.3.2.7]"
 1099,Adjacency Segment Identifier (Adj-SID) TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1100,LAN Adjacency Segment Identifier (Adj-SID) TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
-1101,Peer-Node-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
-1102,Peer-Adj-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
-1103,Peer-Set-SID,,[draft-ietf-idr-bgpls-segment-routing-epe]
+1101,PeerNode SID,,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
+1102,PeerAdj SID,,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
+1103,PeerSet SID,,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
 1104,Unassigned,,
 1105,RTM Capability,22/40,[RFC8169]
 1106-1113,Unassigned,,
