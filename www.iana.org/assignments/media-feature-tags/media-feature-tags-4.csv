@@ -141,4 +141,4 @@ Server for the purpose of an RS.",[RFC7866]
         of a SIP REGISTER request, conveys that the SIP UA
         associated with the tag is able to send binding-refresh
         REGISTER requests associated with the registration without
-        being awakened by push notifications.",[RFC-ietf-sipcore-sip-push-29]
+        being awakened by push notifications.",[RFC8599]

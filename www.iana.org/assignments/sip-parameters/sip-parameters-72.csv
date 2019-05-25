@@ -8,7 +8,7 @@ sip.pns,"This feature-capability indicator, when inserted in a
         response to a REGISTER request, denotes that the entity
         associated with the indicator supports the SIP push mechanism
         and the type of push notification service conveyed by the
-        indicator value.",[RFC-ietf-sipcore-sip-push-29]
+        indicator value.",[RFC8599]
 sip.vapid,"This feature-capability indicator, when inserted in a
         SIP 2xx response to a SIP REGISTER request, denotes that the
         entity associated with the indicator supports the Voluntary
@@ -16,7 +16,7 @@ sip.vapid,"This feature-capability indicator, when inserted in a
         entity requests that a push notifications be sent to a SIP UA.
         The indicator value is a public key identifying the entity,
         that can be used by a SIP UA to restrict subscriptions to that
-        entity.",[RFC-ietf-sipcore-sip-push-29]
+        entity.",[RFC8599]
 sip.pnsreg,"This feature-capability indicator, when inserted in a
         SIP 2xx response to a SIP REGISTER request, denotes that the
         entity associated with the indicator expects to receive
@@ -26,11 +26,11 @@ sip.pnsreg,"This feature-capability indicator, when inserted in a
         to the SIP UA in order to trigger the binding-refresh REGISTER
         requests. The indicator value conveys the minimum time
         (given in seconds), prior to the binding expiration when the UA
-        MUST send the REGISTER request.",[RFC-ietf-sipcore-sip-push-29]
+        MUST send the REGISTER request.",[RFC8599]
 sip.pnspurr,"This feature-capability indicator, when inserted in a
         SIP 2xx response to a SIP REGISTER request, conveys that
         the entity associated with the indicator will store information
         that can be used to associate a mid-dialog SIP request with the
         binding information in the REGISTER request. The indicator
         value is an identifier that can be used a key to retrieve the
-        binding information.",[RFC-ietf-sipcore-sip-push-29]
+        binding information.",[RFC8599]
