@@ -77,4 +77,12 @@ On SCTP"", to be published.]",
 64,3GPP E1 Application Protocol (E1AP),"[
         3GPP TS 38.463][Yang_Xudong]",2018-05-07
 65,ELE2 Lawful Interception,[http://ele2.io][Damir_Franusic],2019-03-11
-66-4294967295,Unassigned,,
+66,3GPP NGAP over DTLS over SCTP,"[
+        3GPP TS 38.413][Yang_Xudong]",2019-05-24
+67,3GPP XnAP over DTLS over SCTP,"[
+        3GPP TS 38.423][Yang_Xudong]",2019-05-24
+68,3GPP F1AP over DTLS over SCTP,"[
+        3GPP TS 38.473][Yang_Xudong]",2019-05-24
+69,3GPP E1AP over DTLS over SCTP,"[
+        3GPP TS 38.463][Yang_Xudong]",2019-05-24
+70-4294967295,Unassigned,,
