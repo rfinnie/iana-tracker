@@ -32,10 +32,8 @@ Value,Description,Reference
         (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
 31,"Extended Association Id 
         (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
-32,"P2MP-IPV4-LSP-IDENTIFIERS
-        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
-33,"P2MP-IPV6-LSP-IDENTIFIERS
-        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+32,P2MP-IPV4-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-p2mp-13]
+33,P2MP-IPV6-LSP-IDENTIFIERS,[RFC-ietf-pce-stateful-pce-p2mp-13]
 34,PATH-SETUP-TYPE-CAPABILITY,[RFC8408]
 35-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

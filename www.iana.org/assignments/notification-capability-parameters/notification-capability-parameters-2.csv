@@ -21,4 +21,4 @@ fcc,"Returns whether a copy of the notification message
         sent using the method identified by the notification-uri parameter
         to the notify_method_capability test can be filed into a target
         mailbox.","Can contain one of two values: ""yes"" or ""no"".  Values MUST
-        be in lowercase.",The Sieve discussion list sieve@ietf.org,[RFC-ietf-extra-sieve-fcc-09]
+        be in lowercase.",The Sieve discussion list sieve@ietf.org,[RFC8580]
