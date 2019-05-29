@@ -128,3 +128,5 @@ g.3gpp.ps2cs-srvcc-term-pre-alerting,"This feature-capability indicator when use
         supports the PS to CS SRVCC for terminating calls in pre-alerting phase; and 2. all entities of which the functional 
         entity including the feature-capability indicator in the SIP message is aware of being requested to support the feature 
         do support the PS to CS SRVCC for terminating calls in pre-alerting phase.",[3GPP TS 24.237][Frederic_Firmin]
+g.3gpp.priority-share,"When included in a Feature-Caps header field in SIP requests or SIP 
+        responses, the sender indicates that priority sharing is supported.",[3GPP TS 24.229 13.16.0][Frederic_Firmin]
