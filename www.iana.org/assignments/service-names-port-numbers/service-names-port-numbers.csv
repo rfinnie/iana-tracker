@@ -11851,7 +11851,10 @@ ldoms-migr,8101,tcp,Logical Domains Migration,[Liam_Merwick],[Liam_Merwick],2009
 ,8101,udp,Reserved,,,,,,,,
 kz-migr,8102,tcp,Oracle Kernel zones migration server,[Oracle_4],[John_Levon],2013-12-24,,,,,
 ,8102,udp,Reserved,,,,,,,,
-,8103-8114,,Unassigned,,,,,,,,
+,8103-8110,,Unassigned,,,,,,,,
+,8111,tcp,Reserved,,,,,,,,
+skynetflow,8111,udp,Skynetflow network services,[skynetflow.com],[Dmitrii_Ogarkov],2019-05-28,,,,,
+,8112-8114,,Unassigned,,,,,,,,
 mtl8000-matrix,8115,tcp,MTL8000 Matrix,[David_Pinch],[David_Pinch],2002-04,,,,,
 mtl8000-matrix,8115,udp,MTL8000 Matrix,[David_Pinch],[David_Pinch],2002-04,,,,,
 cp-cluster,8116,tcp,Check Point Clustering,[Roni_Moshitzky],[Roni_Moshitzky],,,,,,
@@ -15270,6 +15273,7 @@ test-ok,,tcp,Test Controller Card,[TEST-OK_BV],[Jeroen_Ommering],2012-09-05,,,,,
 tf-redeye,,,ThinkFlood RedEye IR bridge,[Matt_Eagar],[Matt_Eagar],,,,,,Defined TXT keys: None
 thumbwrestling,,,tinkerbuilt Thumb Wrestling game,[Jamie_Halmick],[Jamie_Halmick],,,,,,Defined TXT keys: None
 ticonnectmgr,,,TI Connect Manager Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
+tic-tac-toe,,tcp,Tic Tac Toe game,[Stuart_Cheshire],[Stuart_Cheshire],2019-05-31,,,,,Defined TXT keys: None
 timezone,,tcp,Time Zone Data Distribution Service - non-TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the http service.  Defined
       TXT keys: path=<context path> (as per Section 6 of [RFC6763])."
 timezones,,tcp,Time Zone Data Distribution Service - over TLS,[IESG],[IETF_Chair],2015-08-03,,[RFC7808],,,"This is an extension of the https service.  Defined

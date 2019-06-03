@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-05-17
+           2019-05-31
 
    Expert(s)
 
@@ -13928,7 +13928,10 @@ ldoms-migr         8101        tcp    Logical Domains Migration    [Liam_Merwick
 kz-migr            8102        tcp    Oracle Kernel zones          [Oracle_4]                                            [John_Levon]                                              2013-12-24
                                       migration server
                    8102        udp    Reserved
-                 8103-8114            Unassigned
+                 8103-8110            Unassigned
+                   8111        tcp    Reserved
+skynetflow         8111        udp    Skynetflow network services  [skynetflow.com]                                      [Dmitrii_Ogarkov]                                         2019-05-28
+                 8112-8114            Unassigned
 mtl8000-matrix     8115        tcp    MTL8000 Matrix               [David_Pinch]                                         [David_Pinch]                                             2002-04
 mtl8000-matrix     8115        udp    MTL8000 Matrix               [David_Pinch]                                         [David_Pinch]                                             2002-04
 cp-cluster         8116        tcp    Check Point Clustering       [Roni_Moshitzky]                                      [Roni_Moshitzky]
@@ -18449,6 +18452,7 @@ thumbwrestling                        tinkerbuilt Thumb Wrestling  [Jamie_Halmic
                                       game
 ticonnectmgr                          TI Connect Manager Discovery [Stephen_Reid]                                        [Stephen_Reid]                                                                                                                                           Defined TXT keys: None
                                       Service
+tic-tac-toe                    tcp    Tic Tac Toe game             [Stuart_Cheshire]                                     [Stuart_Cheshire]                                         2019-05-31                                                                                     Defined TXT keys: None
 timezone                       tcp    Time Zone Data Distribution  [IESG]                                                [IETF_Chair]                                              2015-08-03                [RFC7808]                                                            This is an extension of the http service. Defined TXT keys:
                                       Service - non-TLS                                                                                                                                                                                                                           path=<context path> (as per Section 6 of [RFC6763]).
 timezones                      tcp    Time Zone Data Distribution  [IESG]                                                [IETF_Chair]                                              2015-08-03                [RFC7808]                                                            This is an extension of the https service. Defined TXT keys:
@@ -20049,6 +20053,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dirk_Steinmetz]                                          Dirk Steinmetz                                      mailto:ds&generalsync.com                                     2014-04-17
 [Dirk_Stoop]                                              Dirk Stoop                                          mailto:dirk&madebysofa.com                                    2007-04
 [Dmitri_Znosko]                                           Dmitri Znosko                                       mailto:support&radmin.com                                     2003-03
+[Dmitrii_Ogarkov]                                         Dmitrii Ogarkov                                     mailto:df&skynetflow.com                                      2019-05-28
 [Dmitry_Brant]                                            Dmitry Brant                                        mailto:dmitry_brant&lincolnelectric.com                       2007-03
 [Dmitry_Isakbayev]                                        Dmitry Isakbayev                                    mailto:dmitry&transnexus.com                                  2010-03-05
 [Dmitry_Krasnonosenki]                                    Dmitry Krasnonosenkikh                              mailto:Dmitry_Krasnonosenkih&nmss.com
@@ -23414,6 +23419,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Skip_Levens]                                             Skip Levens                                         mailto:skip&activestoragelabs.com
 [Sky_Schulz]                                              Sky Schulz                                          mailto:sky&edgeofreality.com                                  2011-05-09
 [Skycatch_Inc.]                                                                      Skycatch, Inc.           mailto:dev&skycatch.com                                       2018-02-09
+[skynetflow.com]                                                                     skynetflow.com           mailto:info&skynetflow.com                                    2019-05-28
 [Slava_Monich]                                            Slava Monich                                        mailto:Slava.Monich&nokia.com                                 2003-01
 [Slawomir_Krzesinski]                                     Slawomir Krzesinski                                 mailto:slavek&optiwave.com
 [Small_Cell_Forum]                                                                   Small Cell Forum         mailto:Richard&smallcellforum.org                             2017-01-24
@@ -23599,7 +23605,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stu_Mark]                                                Stu Mark                                            mailto:fordii&j51.com
 [Stuart_Allen]                                            Stuart Allen                                        mailto:stuart&jacl.animats.net                                2002-02
 [Stuart_Button]                                           Stuart Button                                       mailto:button&promis.com
-[Stuart_Cheshire]                                         Stuart Cheshire                                     mailto:cheshire&apple.com                                     2019-05-04
+[Stuart_Cheshire]                                         Stuart Cheshire                                     mailto:cheshire&apple.com                                     2019-05-31
 [Stuart_Cheshire_3]                                       Stuart Cheshire                                     mailto:mdnsresponder-ipc&multicastdns.org                     2004-06
 [Stuart_Cheshire_4]                                       Stuart Cheshire                                     mailto:pdl-datastream&apple.com                               2002-09
 [Stuart_J_Kerry]                                          Stuart J. Kerry            Chair IEEE 802.11 WG     mailto:stuart&ok-brit.com                                     2002-05
