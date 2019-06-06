@@ -45,7 +45,7 @@ C-Opt,,http,,[RFC4229]
 C-PEP,,http,,[RFC4229]
 C-PEP-Info,,http,,[RFC4229]
 Cache-Control,,http,standard,"[RFC7234, Section 5.2]"
-Cal-Managed-ID,,http,standard,"[RFC-ietf-calext-caldav-attachments-04, Section 5.1]"
+Cal-Managed-ID,,http,standard,"[RFC8607, Section 5.1]"
 CalDAV-Timezones,,http,standard,"[RFC7809, Section 7.1]"
 Cancel-Key,,netnews,standard,[RFC8315]
 Cancel-Lock,,netnews,standard,[RFC8315]
