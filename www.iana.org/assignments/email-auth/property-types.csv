@@ -1,5 +1,5 @@
 ptype,Definition,Description
-body,[RFC-ietf-dmarc-rfc7601bis-06] section 2.3,The property being reported was found in the body of the message.
-header,[RFC-ietf-dmarc-rfc7601bis-06] section 2.3,The property being reported was found in a header field of the message.
-policy,[RFC-ietf-dmarc-rfc7601bis-06] section 2.3,The property being reported relates to a locally-defined policy.
-smtp,[RFC-ietf-dmarc-rfc7601bis-06] section 2.3,The property being reported is a parameter to an SMTP command used to relay the message.
+body,[RFC8601] section 2.3,The property being reported was found in the body of the message.
+header,[RFC8601] section 2.3,The property being reported was found in a header field of the message.
+policy,[RFC8601] section 2.3,The property being reported relates to a locally-defined policy.
+smtp,[RFC8601] section 2.3,The property being reported is a parameter to an SMTP command used to relay the message.
