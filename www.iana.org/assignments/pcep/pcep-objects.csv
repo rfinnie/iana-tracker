@@ -161,11 +161,8 @@ Object-Class Value,Name,Object-Type,Reference
 ,,"2: IPv6 
         (TEMPORARY - registered 2017-10-17, extension registered 2018-09-19, expires 2019-10-17)",[draft-ietf-pce-association-group]
 ,,3-15: Unassigned,
-41,"S2LS 
-        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)","0: Reserved 
-        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
-,,"1: S2LS 
-        (TEMPORARY - registered 2018-04-23, extension registered 2019-04-10, expires 2020-04-23)",[draft-ietf-pce-stateful-pce-p2mp]
+41,S2LS,0: Reserved,[RFC-ietf-pce-stateful-pce-p2mp-13]
+,,1: S2LS,[RFC-ietf-pce-stateful-pce-p2mp-13]
 ,,2-15: Unassigned,
 42,WA,0: Reserved,[RFC-ietf-pce-wson-rwa-ext-17]
 ,,1: Wavelength Assignment,[RFC-ietf-pce-wson-rwa-ext-17]

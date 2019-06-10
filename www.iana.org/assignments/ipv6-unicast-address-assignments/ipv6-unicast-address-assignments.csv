@@ -61,6 +61,7 @@ previous allocation."
 2a00:0000::/12,RIPE NCC,2006-10-03,whois.ripe.net,https://rdap.db.ripe.net/,ALLOCATED,"2a00:0000::/21 was originally allocated on 2005-04-19. 2a01:0000::/23 was allocated on 2005-07-14. 
 2a01:0000::/16 (incorporating the 2a01:0000::/23) was allocated on 2005-12-15. The more recent allocation 
 (2006-10-03) incorporates these previous allocations."
+2a10:0000::/12,RIPE NCC,2019-06-05,whois.ripe.net,https://rdap.db.ripe.net/,ALLOCATED,
 2c00:0000::/12,AFRINIC,2006-10-03,whois.afrinic.net,"https://rdap.afrinic.net/rdap/
 http://rdap.afrinic.net/rdap/",ALLOCATED,
 2d00:0000::/8,IANA,1999-07-01,,,RESERVED,
