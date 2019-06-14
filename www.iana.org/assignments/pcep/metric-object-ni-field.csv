@@ -19,4 +19,6 @@ Value,Description,Reference
 17,P2MP Path Loss metric,[RFC8233]
 18,Number of adaptations on a path,[RFC8282]
 19,Number of layers on a path,[RFC8282]
-20-255,Unassigned,
+20,Domain Count metric,[RFC-ietf-pce-hierarchy-extensions-11]
+21,Border Node Count metric,[RFC-ietf-pce-hierarchy-extensions-11]
+22-255,Unassigned,

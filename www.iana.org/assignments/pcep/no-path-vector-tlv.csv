@@ -1,5 +1,9 @@
 Bit,Description,Reference
-0-22,Unassigned,
+0-18,Unassigned,
+19,Destination is not found in the indicated domain,[RFC-ietf-pce-hierarchy-extensions-11]
+20,No available resource in one or more domain,[RFC-ietf-pce-hierarchy-extensions-11]
+21,Unresponsive child PCE(s),[RFC-ietf-pce-hierarchy-extensions-11]
+22,Destination Domain unknown,[RFC-ietf-pce-hierarchy-extensions-11]
 23,No RWA constraints met,[RFC-ietf-pce-wson-rwa-ext-17]
 24,P2MP Reachability Problem,[RFC8306]
 25,No GCO solution found,[RFC5557]
