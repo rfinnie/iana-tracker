@@ -2,7 +2,10 @@ Value,Name,Reference
 0,Unassigned,
 1,Extension,[RFC7902]
 2,Leaf Information Required per-Flow (LIR-pF),[RFC8534]
-3-4,"Assisted-Replication Type (T) (TEMPORARY - registered 2016-06-30, extension registered 2018-06-13, expires 2019-06-30)",[draft-ietf-bess-evpn-optimized-ir]
-5,"Broadcast and Multicast (BM) (TEMPORARY - registered 2016-06-30, extension registered 2018-06-13, expires 2019-06-30)",[draft-ietf-bess-evpn-optimized-ir]
-6,"Unknown (U) (TEMPORARY - registered 2016-06-30, extension registered 2018-06-13, expires 2019-06-30)",[draft-ietf-bess-evpn-optimized-ir]
+3-4,"Assisted-Replication Type (T) 
+        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)",[draft-ietf-bess-evpn-optimized-ir]
+5,"Broadcast and Multicast (BM) 
+        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)",[draft-ietf-bess-evpn-optimized-ir]
+6,"Unknown (U) 
+        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)",[draft-ietf-bess-evpn-optimized-ir]
 7,Leaf Information Required (L),[RFC6514]
