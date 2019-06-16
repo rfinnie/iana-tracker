@@ -9,7 +9,7 @@ Value,Meaning,Reference
 0x07,mLDP MP2MP LSP,[RFC6514]
 0x08,Transport Tunnel,[RFC7524]
 0x09,Unassigned,
-0x0A,"Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2018-06-13, expires 2019-06-30)",[draft-ietf-bess-evpn-optimized-ir]
+0x0A,"Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)",[draft-ietf-bess-evpn-optimized-ir]
 0x0B,BIER,[RFC8556]
 0x0C-0x7A,Unassigned,
 0x7B-0x7E,Reserved for Experimental Use,[RFC8317]
