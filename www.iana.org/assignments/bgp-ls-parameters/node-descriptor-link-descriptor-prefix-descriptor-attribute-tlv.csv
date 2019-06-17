@@ -79,5 +79,5 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1171,Source Router-ID,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1172,L2 Bundle Member TLV,,[draft-ietf-idr-bgp-ls-segment-routing-ext]
 1173,"Extended Administrative Group (TEMPORARY - 
-        registered 2018-04-09, expires 2019-04-09)",22/14,[draft-ietf-idr-eag-distribution][RFC7308]
+        registered 2018-04-09, extension registered 2019-06-13, expires 2020-04-09)",22/14,[draft-ietf-idr-eag-distribution][RFC7308]
 1174-65535,Unassigned,,

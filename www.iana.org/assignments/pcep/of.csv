@@ -11,5 +11,8 @@ Code Point,Name,Reference
 9,Minimum Packet Loss Path (MPLP),[RFC8233]
 10,Maximum Under-Utilized Path (MUP),[RFC8233]
 11,Maximum Reserved Under-Utilized Path (MRUP),[RFC8233]
-12-32767,Unassigned,
+12,Minimize number of Transit Domains (MTD),[RFC-ietf-pce-hierarchy-extensions-11]
+13,Minimize number of Border Nodes (MBN),[RFC-ietf-pce-hierarchy-extensions-11]
+14,Minimize the number of Common Transit Domains (MCTD),[RFC-ietf-pce-hierarchy-extensions-11]
+15-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5541]

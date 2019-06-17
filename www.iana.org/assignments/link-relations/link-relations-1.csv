@@ -173,15 +173,23 @@ service,"Indicates a URI that can be used to retrieve a
       service document.",[RFC5023],"When used in an Atom document, this relation type specifies
       Atom Publishing Protocol service documents by default.  Requested
       by James Snell."
+service-desc,"Identifies service description for the context that
+      is primarily intended for consumption by machines.",[RFC-wilde-service-link-rel-10],
+service-doc,"Identifies service documentation for the context that
+      is primarily intended for human consumption.",[RFC-wilde-service-link-rel-10],
+service-meta,"Identifies general metadata for the context that is
+      primarily intended for consumption by machines.",[RFC-wilde-service-link-rel-10],
 start,"Refers to the first resource in a collection of
       resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
+status,"Identifies a resource that represents the context's
+      status.",[RFC-wilde-service-link-rel-10],
 stylesheet,Refers to a stylesheet.,[http://www.w3.org/TR/html5/links.html#link-type-stylesheet],
 subsection,"Refers to a resource serving as a subsection in a
       collection of resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
 successor-version,"Points to a resource containing the successor version
       in the version history.",[RFC5829],
 sunset,"Identifies a resource that provides information about
-      the context's retirement policy.",[RFC-wilde-sunset-header-11],
+      the context's retirement policy.",[RFC8594],
 tag,"Gives a tag (identified by the given address) that applies to
       the current document.",[http://www.w3.org/TR/html5/links.html#link-type-tag],
 terms-of-service,Refers to the terms of service associated with the link's context.,"[RFC6903], section 5",

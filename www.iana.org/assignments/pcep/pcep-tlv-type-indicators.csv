@@ -12,7 +12,9 @@ Value,Description,Reference
 10,Wavelength Allocation,[RFC-ietf-pce-wson-rwa-ext-17]
 11,Optical Interface Class List,[RFC-ietf-pce-wson-rwa-ext-17]
 12,Client Signal Information,[RFC-ietf-pce-wson-rwa-ext-17]
-13-15,Unassigned,
+13,H-PCE-CAPABILITY,[RFC-ietf-pce-hierarchy-extensions-11]
+14,Domain-ID,[RFC-ietf-pce-hierarchy-extensions-11]
+15,H-PCE-FLAG,[RFC-ietf-pce-hierarchy-extensions-11]
 16,STATEFUL-PCE-CAPABILITY,[RFC8231]
 17,SYMBOLIC-PATH-NAME,[RFC8231]
 18,IPV4-LSP-IDENTIFIERS,[RFC8231]
