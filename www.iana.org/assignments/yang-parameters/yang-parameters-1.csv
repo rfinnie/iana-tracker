@@ -133,3 +133,4 @@ ietf-alarms,,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC-ietf-ccamp-alarm
 ietf-alarms-x733,,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC-ietf-ccamp-alarm-module-09],[RFC-ietf-ccamp-alarm-module-09]'s module file will be posted upon the document's publication as an RFC.
 ietf-subscribed-notifications,,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC-ietf-netconf-subscribed-notifications-26],[RFC-ietf-netconf-subscribed-notifications-26]'s module file will be posted upon the document's publication as an RFC.
 ietf-yang-push,,N,urn:ietf:params:xml:ns:yang:ietf-yang-push,yp,,[RFC-ietf-netconf-yang-push-25],[RFC-ietf-netconf-yang-push-25]'s module file will be posted upon the document's publication as an RFC.
+ietf-igmp-mld,,N,urn:ietf:params:xml:ns:yang:ietf-igmp-mld,igmp-mld,,[RFC-ietf-pim-igmp-mld-yang-15],[RFC-ietf-pim-igmp-mld-yang-15]'s module file will be posted upon the document's publication as an RFC.

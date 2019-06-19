@@ -316,7 +316,7 @@ shortcut when performing MultiLayer Switching.",,,[CCO-MLS] describes MultiLayer
 46,mplsTopLabelType,unsigned8,identifier,current,"This field identifies the control protocol that allocated the
 top-of-stack label.  Values for this field are listed in the 
 MPLS label type registry. See 
-[http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-mpls-label-type]",,,"See [RFC3031] for the MPLS label structure.
+[http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-mpls-label-type]",,,"See [RFC3031] for the MPLS label structure.
 See [RFC4364] for the association of MPLS
 labels with Virtual Private Networks (VPNs).
 See [RFC4271] for BGP and BGP routing.
@@ -658,7 +658,7 @@ application assignments.
               
 Values for this field are listed in the Classification
 Engine IDs registry. See 
-[http://www.iana.org/assignments/ipfix/ipfix.xml#classification-engine-ids]",,,,[RFC6759],0,2013-02-18
+[http://www.iana.org/assignments/ipfix/ipfix.xhtml#classification-engine-ids]",,,,[RFC6759],0,2013-02-18
 102,layer2packetSectionOffset,unsigned16,quantity,deprecated,"Deprecated in favor of 409 sectionOffset.  Layer 2 packet
 section offset.  Potentially a generic packet section offset.",,,,[RFC7270],0,2014-04-04
 103,layer2packetSectionSize,unsigned16,quantity,deprecated,"Deprecated in favor of 312 dataLinkFrameSize.  Layer 2 packet
@@ -1454,7 +1454,7 @@ the type of a NAT event. Examples of NAT events include, but are not
 limited to, NAT translation create, NAT translation delete, Threshold 
 Reached, or Threshold Exceeded, etc. Values for this Information 
 Element are listed in the ""NAT Event Type"" registry, see 
-[http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-nat-event-type]. 
+[http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-event-type]. 
 New assignments of values will be administered by IANA and are 
 subject to Expert Review [RFC8126]. Experts 
 need to check definitions of new values for completeness, accuracy, 
@@ -3031,7 +3031,7 @@ Information Elements for completeness, accuracy, and redundancy.
 Those experts will initially be drawn from the Working Group
 Chairs and document editors of the IPFIX and PSAMP Working Groups.
 The Intermediate Flow Selection Process Techniques
-identifiers are defined at [http://www.iana.org/assignments/ipfix/ipfix.xml#ipfix-flowselectoralgorithm].",,,,[RFC7014],0,2013-06-07
+identifiers are defined at [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-flowselectoralgorithm].",,,,[RFC7014],0,2013-06-07
 391,flowSelectedOctetDeltaCount,unsigned64,deltaCounter,current,"This Information Element specifies the volume in octets of all
 Flows that are selected in the Intermediate Flow Selection Process
 since the previous report.",octets,,,[RFC7014],1,2014-08-13
