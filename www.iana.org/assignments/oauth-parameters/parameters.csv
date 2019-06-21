@@ -45,3 +45,19 @@ ticket,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAu
 upgraded,"authorization server response, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.5]"
 vtr,"authorization request, token request",IESG,[RFC8485]
 device_code,token request,IESG,"[RFC-ietf-oauth-device-flow-15, Section 3.1]"
+"resource 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"audience 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"requested_token_type 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"subject_token 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"subject_token_type 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"actor_token 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"actor_token_type 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
+"issued_token_type 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token response,IESG,[draft-ietf-oauth-token-exchange]
