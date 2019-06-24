@@ -14,5 +14,5 @@ jti,Unique identifier of the token,IESG,"[RFC7662, Section 2.2]"
 permissions,"array of objects, each describing a scoped, time-limitable permission for a resource",[Kantara_UMA_WG],"[Federated Authorization for UMA 2.0, Section 5.1.1]"
 vot,Vector of Trust value,IESG,[RFC8485]
 vtm,Vector of Trust trustmark URL,IESG,[RFC8485]
-act,"Actor (TEMPORARY - registered 2019-02-05, expires 2020-02-05)",IESG,[draft-ietf-oauth-token-exchange]
-may_act,"May Act For (TEMPORARY - registered 2019-02-05, expires 2020-02-05)",IESG,[draft-ietf-oauth-token-exchange]
+"act (TEMPORARY - registered 2019-02-05, expires 2020-02-05)",Actor,IESG,[draft-ietf-oauth-token-exchange]
+"may_act (TEMPORARY - registered 2019-02-05, expires 2020-02-05)",May Act For,IESG,[draft-ietf-oauth-token-exchange]

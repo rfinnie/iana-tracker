@@ -19,3 +19,5 @@ authorization_pending,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IE
 access_denied,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
 slow_down,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
 expired_token,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
+"invalid_target 
+        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token error response,OAuth 2.0 Token Exchange,IETF,[draft-ietf-oauth-token-exchange]

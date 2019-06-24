@@ -4,7 +4,7 @@
            2012-07-27
 
    Last Updated
-           2019-06-07
+           2019-06-17
 
    Available Formats
            [IMG]
@@ -43,8 +43,11 @@ OAuth Access Token Types
            [IMG]
            CSV
 
-    Name  Additional Endpoint Response Parameters HTTP Authentication Scheme(s) Change Controller Reference
-   Bearer                                         Bearer                        IETF              [RFC6750]
+                           Name                         Additional Endpoint HTTP Authentication Change Controller             Reference
+                                                        Response Parameters      Scheme(s)
+   Bearer                                                                   Bearer              IETF              [RFC6750]
+   N_A (TEMPORARY - registered 2019-06-17, expires                                              IESG              [draft-ietf-oauth-token-exchange]
+   2020-06-17)
 
 OAuth Authorization Endpoint Response Types
 
@@ -150,6 +153,9 @@ slow_down                  endpoint      [RFC-ietf-oauth-device-flow-15] IETF   
                            Token
 expired_token              endpoint      [RFC-ietf-oauth-device-flow-15] IETF                                               [RFC-ietf-oauth-device-flow-15, Section 3.5]
                            response
+invalid_target (TEMPORARY  token error
+- registered 2019-06-17,   response      OAuth 2.0 Token Exchange        IETF                                               [draft-ietf-oauth-token-exchange]
+expires 2020-06-17)
 
 OAuth Parameters
 
@@ -298,6 +304,44 @@ OAuth Parameters
    vtr                   request,      IESG                                               [RFC8485]
                          token request
    device_code           token request IESG                                               [RFC-ietf-oauth-device-flow-15, Section 3.1]
+   resource (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   audience (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   requested_token_type
+   (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   subject_token
+   (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   subject_token_type
+   (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   actor_token
+   (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   actor_token_type
+   (TEMPORARY -
+   registered            token request IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
+   issued_token_type
+   (TEMPORARY -          token
+   registered            response      IESG                                               [draft-ietf-oauth-token-exchange]
+   2019-06-17, expires
+   2020-06-17)
 
 OAuth Token Type Hints
 
@@ -356,6 +400,27 @@ OAuth URI
    urn:ietf:params:oauth:token-type:jwt                     JSON Web Token (JWT) Token Type      IESG       [RFC7519]
    urn:ietf:params:oauth:grant-type:device_code             Device flow grant type for OAuth 2.0 IESG       [RFC-ietf-oauth-device-flow-15, Section
                                                                                                             3.1]
+                                                            Token exchange grant type for OAuth
+   urn:ietf:params:oauth:grant-type:token-exchange          2.0 (TEMPORARY - registered          IESG       [draft-ietf-oauth-token-exchange]
+                                                            2019-06-17, expires 2020-06-17)
+                                                            Token type URI for an OAuth 2.0
+   urn:ietf:params:oauth:token-type:access_token            access token (TEMPORARY - registered IESG       [draft-ietf-oauth-token-exchange]
+                                                            2019-06-17, expires 2020-06-17)
+                                                            Token type URI for an OAuth 2.0
+   urn:ietf:params:oauth:token-type:refresh_token           refresh token (TEMPORARY -           IESG       [draft-ietf-oauth-token-exchange]
+                                                            registered 2019-06-17, expires
+                                                            2020-06-17)
+                                                            Token type URI for an ID Token
+   urn:ietf:params:oauth:token-type:id_token                (TEMPORARY - registered 2019-06-17,  IESG       [draft-ietf-oauth-token-exchange]
+                                                            expires 2020-06-17)
+                                                            Token type URI for a
+   urn:ietf:params:oauth:token-type:saml1                   base64url-encoded SAML 1.1 assertion IESG       [draft-ietf-oauth-token-exchange]
+                                                            (TEMPORARY - registered 2019-06-17,
+                                                            expires 2020-06-17)
+                                                            Token type URI for a
+   urn:ietf:params:oauth:token-type:saml2                   base64url-encoded SAML 2.0 assertion IESG       [draft-ietf-oauth-token-exchange]
+                                                            (TEMPORARY - registered 2019-06-17,
+                                                            expires 2020-06-17)
 
 OAuth Dynamic Client Registration Metadata
 
@@ -571,26 +636,29 @@ OAuth Token Introspection Response
            [IMG]
            CSV
 
-      Name                              Description                          Change Controller                      Reference
-   active      Token active status                                           IESG              [RFC7662, Section 2.2]
-   username    User identifier of the resource owner                         IESG              [RFC7662, Section 2.2]
-   client_id   Client identifier of the client                               IESG              [RFC7662, Section 2.2]
-   scope       Authorized scopes of the token                                IESG              [RFC7662, Section 2.2]
-   token_type  Type of the token                                             IESG              [RFC7662, Section 2.2]
-   exp         Expiration timestamp of the token                             IESG              [RFC7662, Section 2.2]
-   iat         Issuance timestamp of the token                               IESG              [RFC7662, Section 2.2]
-   nbf         Timestamp which the token is not valid before                 IESG              [RFC7662, Section 2.2]
-   sub         Subject of the token                                          IESG              [RFC7662, Section 2.2]
-   aud         Audience of the token                                         IESG              [RFC7662, Section 2.2]
-   iss         Issuer of the token                                           IESG              [RFC7662, Section 2.2]
-   jti         Unique identifier of the token                                IESG              [RFC7662, Section 2.2]
-   permissions array of objects, each describing a scoped, time-limitable    [Kantara_UMA_WG]  [Federated Authorization for UMA 2.0, Section 5.1.1]
-               permission for a resource
-   vot         Vector of Trust value                                         IESG              [RFC8485]
-   vtm         Vector of Trust trustmark URL                                 IESG              [RFC8485]
-   act         Actor (TEMPORARY - registered 2019-02-05, expires 2020-02-05) IESG              [draft-ietf-oauth-token-exchange]
-   may_act     May Act For (TEMPORARY - registered 2019-02-05, expires       IESG              [draft-ietf-oauth-token-exchange]
-               2020-02-05)
+                Name                              Description                Change Controller                      Reference
+   active                          Token active status                       IESG              [RFC7662, Section 2.2]
+   username                        User identifier of the resource owner     IESG              [RFC7662, Section 2.2]
+   client_id                       Client identifier of the client           IESG              [RFC7662, Section 2.2]
+   scope                           Authorized scopes of the token            IESG              [RFC7662, Section 2.2]
+   token_type                      Type of the token                         IESG              [RFC7662, Section 2.2]
+   exp                             Expiration timestamp of the token         IESG              [RFC7662, Section 2.2]
+   iat                             Issuance timestamp of the token           IESG              [RFC7662, Section 2.2]
+   nbf                             Timestamp which the token is not valid    IESG              [RFC7662, Section 2.2]
+                                   before
+   sub                             Subject of the token                      IESG              [RFC7662, Section 2.2]
+   aud                             Audience of the token                     IESG              [RFC7662, Section 2.2]
+   iss                             Issuer of the token                       IESG              [RFC7662, Section 2.2]
+   jti                             Unique identifier of the token            IESG              [RFC7662, Section 2.2]
+                                   array of objects, each describing a
+   permissions                     scoped, time-limitable permission for a   [Kantara_UMA_WG]  [Federated Authorization for UMA 2.0, Section 5.1.1]
+                                   resource
+   vot                             Vector of Trust value                     IESG              [RFC8485]
+   vtm                             Vector of Trust trustmark URL             IESG              [RFC8485]
+   act (TEMPORARY - registered     Actor                                     IESG              [draft-ietf-oauth-token-exchange]
+   2019-02-05, expires 2020-02-05)
+   may_act (TEMPORARY - registered May Act For                               IESG              [draft-ietf-oauth-token-exchange]
+   2019-02-05, expires 2020-02-05)
 
 OAuth Authorization Server Metadata
 
