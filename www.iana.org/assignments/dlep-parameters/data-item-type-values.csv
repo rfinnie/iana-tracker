@@ -22,6 +22,9 @@ Type Code,Description,Reference
 20,Maximum Transmission Unit (MTU),[RFC8175]
 21,Hop Count,[RFC-ietf-manet-dlep-multi-hop-extension-07]
 22,Hop Control,[RFC-ietf-manet-dlep-multi-hop-extension-07]
-23-65407,Unassigned,
+23,Queue Parameters,[RFC-ietf-manet-dlep-pause-extension-08]
+24,Pause,[RFC-ietf-manet-dlep-pause-extension-08]
+25,Restart,[RFC-ietf-manet-dlep-pause-extension-08]
+26-65407,Unassigned,
 65408-65534,Reserved for Private Use,[RFC8175]
 65535,Reserved,[RFC8175]
