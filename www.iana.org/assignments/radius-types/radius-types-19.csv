@@ -4,5 +4,6 @@ Identifier,Token,Contact,Reference
 0x31,REALM,IETF O&M Area Directors (ops-ads at ietf.org),[RFC5580]
 0x32,E212,ITU Director (tsbdir at itu.int),[RFC5580]
 0x33,ICC,ITU Director (tsbdir at itu.int),[RFC5580]
-0x34-0xFE,Unassigned,,
+0x34,WBAID,WBA Director (pmo@wballiance.com),[WBA][Bruno_Tomas]
+0x35-0xFE,Unassigned,,
 0xFF,Reserved,,[RFC5580]
