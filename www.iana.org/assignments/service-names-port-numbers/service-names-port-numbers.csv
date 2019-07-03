@@ -10647,8 +10647,8 @@ bmc_ctd_ldap,6301,udp,BMC CONTROL-D LDAP SERVER,[Portnoy_Boxman_2],[Portnoy_Boxm
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 ,6302-6305,,Unassigned,,,,,,,,
-ufmp,6306,tcp,Unified Fabric Management Protocol,[Albert_Berlovitch],[Albert_Berlovitch],2009-12-17,,,,,
-ufmp,6306,udp,Unified Fabric Management Protocol,[Albert_Berlovitch],[Albert_Berlovitch],2009-12-17,,,,,
+ufmp,6306,tcp,Unified Fabric Management Protocol,[Mellanox],[Shachar_Dor],2009-12-17,2019-07-02,,,,
+ufmp,6306,udp,Unified Fabric Management Protocol,[Mellanox],[Shachar_Dor],2009-12-17,2019-07-02,,,,
 ,6307-6314,,Unassigned,,,,,,,,
 scup,6315,tcp,Sensor Control Unit Protocol,[Sven_Kopacz],[Sven_Kopacz],2010-09-01,,,,,
 scup-disc,6315,udp,Sensor Control Unit Protocol Discovery Protocol,[Sven_Kopacz],[Sven_Kopacz],2010-09-01,,,,,

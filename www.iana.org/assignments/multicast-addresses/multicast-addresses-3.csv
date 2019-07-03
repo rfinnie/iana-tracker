@@ -120,7 +120,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.23.169,MNET discovery,[Andy_Crick],,2008-01-14,
 224.0.23.170,CCNx (not for global routing),[Simon_Barber],,2009-09-24,
 224.0.23.171,LLAFP,[Michael_Lyle],,2009-11-11,
-224.0.23.172,UFMP,[Albert_Berlovitch],,2010-02-04,
+224.0.23.172,UFMP,[Shachar_Dor],[Mellanox],2010-02-04,
 224.0.23.173,PHILIPS-HEALTH,[Mike_King],[Philips_Healthcare],2010-02-26,
 224.0.23.174,PHILIPS-HEALTH,[Mike_King],[Philips_Healthcare],2010-02-26,
 224.0.23.175,QDP,[Kevin_Gross],,2010-03-12,
