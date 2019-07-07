@@ -1,6 +1,6 @@
 Method,Definition,ptype,Property,Value,Status,Version
 arc,"[RFC-ietf-dmarc-arc-protocol-23, Section 6]",smtp,remote-ip,IP address (v4 or v6) of originating SMTP connection,active,1
-arc,"[RFC-ietf-dmarc-arc-protocol-23, Section 6]",header,oldest-pass,"The instance id of the oldest validating AMS, or 0 if they
+arc,"[RFC-ietf-dmarc-arc-protocol-23, Section 6]",header,oldest-pass,"The instance id of the oldest validating AMS or 0 if they
         all pass (see [RFC-ietf-dmarc-arc-protocol-23, Section 5.2])",active,1
 auth,[RFC8601],smtp,auth,identity confirmed by the AUTH command,active,1
 auth,[RFC8601],smtp,mailfrom,AUTH parameter of the SMTP MAIL command,active,1
