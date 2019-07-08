@@ -4261,8 +4261,8 @@ onehome-remote,2198,tcp,OneHome Remote Access,,,,,,,,
 onehome-remote,2198,udp,OneHome Remote Access,,,,,,,,
 onehome-help,2199,tcp,OneHome Service Port,[Jim_Herman],[Jim_Herman],2005-08,,,,,
 onehome-help,2199,udp,OneHome Service Port,[Jim_Herman],[Jim_Herman],2005-08,,,,,
-ici,2200,tcp,ICI,[Brent_Hines],[Brent_Hines],,,,,,
-ici,2200,udp,ICI,[Brent_Hines],[Brent_Hines],,,,,,
+,2200,tcp,Reserved,,,,,,,,This entry has been removed on 2019-07-05.
+,2200,udp,Reserved,,,,,,,,This entry has been removed on 2019-07-05.
 ats,2201,tcp,Advanced Training System Program,,,,,,,,
 ats,2201,udp,Advanced Training System Program,,,,,,,,
 imtc-map,2202,tcp,Int. Multimedia Teleconferencing Cosortium,[Pat_Galvin],[Pat_Galvin],,,,,,
@@ -10647,8 +10647,8 @@ bmc_ctd_ldap,6301,udp,BMC CONTROL-D LDAP SERVER,[Portnoy_Boxman_2],[Portnoy_Boxm
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 ,6302-6305,,Unassigned,,,,,,,,
-ufmp,6306,tcp,Unified Fabric Management Protocol,[Albert_Berlovitch],[Albert_Berlovitch],2009-12-17,,,,,
-ufmp,6306,udp,Unified Fabric Management Protocol,[Albert_Berlovitch],[Albert_Berlovitch],2009-12-17,,,,,
+ufmp,6306,tcp,Unified Fabric Management Protocol,[Mellanox],[Shachar_Dor],2009-12-17,2019-07-02,,,,
+ufmp,6306,udp,Unified Fabric Management Protocol,[Mellanox],[Shachar_Dor],2009-12-17,2019-07-02,,,,
 ,6307-6314,,Unassigned,,,,,,,,
 scup,6315,tcp,Sensor Control Unit Protocol,[Sven_Kopacz],[Sven_Kopacz],2010-09-01,,,,,
 scup-disc,6315,udp,Sensor Control Unit Protocol Discovery Protocol,[Sven_Kopacz],[Sven_Kopacz],2010-09-01,,,,,
@@ -14759,6 +14759,7 @@ ica-networking,,,Image Capture Networking,[Baskaran_Subramaniam],[Baskaran_Subra
 ican,,,Northrup Grumman/TASC/ICAN Protocol,[Laurent_Mihalkovic],[Laurent_Mihalkovic],,,,,,Defined TXT keys: None
 ichalkboard,,,iChalk,[Math_Game_House_Soft],[Math_Game_House_Soft],,,,,,Defined TXT keys: None
 ichat,,,iChat 1.0,[Jens_Alfke],[Jens_Alfke],,,,,,Defined TXT keys: Proprietary
+ici,,,ICI,[Brent_Hines],[Brent_Hines],,,,,,
 iconquer,,,iConquer,[Andrew_Zamler_Carhar],[Andrew_Zamler_Carhar],,,,,,Defined TXT keys: None
 icontrolbox,,tcp,A Remote Control Application service used to control Computers on a Local Area Network,[Umair_Cheema],[Umair_Cheema],2013-07-08,,,,,Defined TXT keys: None
 idata,,,Generic Data Acquisition and Control Protocol,[Carson_Fenimore],[Carson_Fenimore],,,,,,Defined TXT keys: None
