@@ -2,11 +2,8 @@ Tag,Meaning,Reference
 issue,Authorization Entry by Domain,[RFC-ietf-lamps-rfc6844bis-07]
 issuewild,Authorization Entry by Wildcard Domain,[RFC-ietf-lamps-rfc6844bis-07]
 iodef,Report incident by IODEF report,[RFC-ietf-lamps-rfc6844bis-07]
-auth,Reserved,"[RFC-ietf-lamps-rfc6844bis-07][RFC Errata 
-          3547]"
-path,Reserved,"[RFC-ietf-lamps-rfc6844bis-07][RFC Errata 
-          3547]"
-policy,Reserved,"[RFC-ietf-lamps-rfc6844bis-07][RFC Errata 
-          3547]"
+auth,Reserved,[RFC-ietf-lamps-rfc6844bis-07]
+path,Reserved,[RFC-ietf-lamps-rfc6844bis-07]
+policy,Reserved,[RFC-ietf-lamps-rfc6844bis-07]
 contactemail,Authorized e-mail contact for domain validation,[CA/Browser Forum 1.6.3][CA_Browser_Forum]
 contactphone,Authorized phone contact for DNS validation,[CA/Browser Forum Ballot SC14][CA_Browser_Forum]
