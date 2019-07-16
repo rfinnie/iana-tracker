@@ -12,4 +12,4 @@ Partial IV,6,bstr,,Partial Initialization Vector,[RFC8152]
 counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature structure,[RFC8152]
 Unassigned,8,,,,
 CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC8152]
-kid context,10,bstr,,Identifies the context for the key identifier,"[RFC-ietf-core-object-security-16, Section 5.1]"
+kid context,10,bstr,,Identifies the context for the key identifier,"[RFC8613, Section 5.1]"
