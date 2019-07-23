@@ -82,3 +82,4 @@ Decimal,Name,Description,References
 294,otnOtsig,OTN OTUC Signal,[ITU-T G.709][Koteswara_Boyapati]
 295,Reserved,Reserved,[RFC8561]
 296,Reserved,Reserved,[RFC8561]
+297,ieee8021axDrni,IEEE 802.1AX Distributed Resilient Network Interface,[IEEE 802.1AX-Rev-d2-0][John_Messenger]

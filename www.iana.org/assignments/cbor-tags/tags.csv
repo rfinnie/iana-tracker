@@ -84,7 +84,10 @@ Tag,Data Item,Semantics,Reference
 265,array,Bigfloat with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
 266,text string,Internationalized resource identifier (IRI),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil]
 267,text string,Internationalized resource identifier reference (IRI reference),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil]
-268-1000,Unassigned,,
+268,array,Extended decimal fraction,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
+269,array,Extended bigfloat,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
+270,array,Extended rational number,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
+271-1000,Unassigned,,
 1001,map,extended time,[draft-bormann-cbor-time-tag-01]
 1002,map,duration,[draft-bormann-cbor-time-tag-01]
 1003,map,period,[draft-bormann-cbor-time-tag-01]

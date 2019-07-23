@@ -1,2 +1,3 @@
 Bit Number,Capability Description,Reference
 0,External (E),[RFC6550]
+1,Invalidate previous route (I),[RFC-ietf-roll-efficient-npdao-15]
