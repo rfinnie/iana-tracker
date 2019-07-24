@@ -12131,7 +12131,9 @@ ultraseek-http,8765,tcp,Ultraseek HTTP,[Walter_Underwood],[Walter_Underwood],,,,
 ultraseek-http,8765,udp,Ultraseek HTTP,[Walter_Underwood],[Walter_Underwood],,,,,,
 amcs,8766,tcp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
 amcs,8766,udp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
-,8767-8769,,Unassigned,,,,,,,,
+core-of-source,8767,tcp,Online mobile multiplayer game,[Alt_Solve_Sdn_Bhd],[Almaz_Hong],2019-07-24,,,,,
+,8767,udp,Reserved,,,,,,,,
+,8768-8769,,Unassigned,,,,,,,,
 dpap,8770,tcp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 dpap,8770,udp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 ,8771-8777,,Unassigned,,,,,,,,
@@ -14814,7 +14816,7 @@ iwork,,,iWork Server,[IGG_Software],[IGG_Software],,,,,,Defined TXT keys: None
 jcan,,,Northrup Grumman/TASC/JCAN Protocol,[Laurent_Mihalkovic],[Laurent_Mihalkovic],,,,,,Defined TXT keys: None
 jeditx,,,Jedit X,[Satoshi_Matsumoto],[Satoshi_Matsumoto],,,,,,Defined TXT keys: None
 jini,,,Jini Service Discovery,[Daniel_Steinberg],[Daniel_Steinberg],,,,,,Defined TXT keys: None
-jmap,,tcp,JSON Meta Application Protocol,[IESG],[IETF_Chair],2016-01-22,2019-07-16,[RFC-ietf-jmap-core-17],,,"This service name was previously assigned under the
+jmap,,tcp,JSON Meta Application Protocol,[IESG],[IETF_Chair],2016-01-22,2019-07-16,[RFC8620],,,"This service name was previously assigned under the
       name ""JSON Mail Access Protocol"". This has been de-assigned and
       re-assigned with the approval of the previous assignee."
 jnx-kcsync,,tcp,jollys keychain cloud sync protocol,[Patrick_Stein],[Patrick_Stein],2011-10-24,,,,,"Defined TXT keys: hash=<40hex characters>
