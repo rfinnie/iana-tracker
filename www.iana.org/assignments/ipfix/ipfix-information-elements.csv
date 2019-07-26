@@ -39,7 +39,7 @@ set to 1.  The bit is cleared to 0 otherwise.
             
               
 The values of each bit are shown below, per the definition of the
-bits in the TCP header [RFC793][RFC3168][RFC3540]:
+bits in the TCP header [RFC793][RFC3168]:
 
             
             
@@ -115,7 +115,7 @@ zero, even if observed.  Collectors should therefore not assume
 that a value of zero for these bits in this Information Element
 indicates the bits were never set in the observed traffic,
 especially if these bits are zero in every Flow Record sent by a
-given exporter.",,,[RFC793][RFC3168][RFC3540],[RFC7125],1,2014-01-03
+given exporter.",,,[RFC793][RFC3168],[RFC7125],1,2014-01-03
 7,sourceTransportPort,unsigned16,identifier,current,"The source port identifier in the transport header.
 For the transport protocols UDP, TCP, and SCTP, this is the
 source port number given in the respective header.  This

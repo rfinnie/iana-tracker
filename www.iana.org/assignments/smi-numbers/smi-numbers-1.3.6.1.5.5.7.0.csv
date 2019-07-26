@@ -93,3 +93,4 @@ Decimal,Description,References
 91,id-mod-ip-addr-and-as-ident-2v2,[RFC8360]
 92,id-mod-lamps-eai-addresses-2016,[RFC8398]
 93,id-mod-safecurves-pkix,[RFC8410]
+94,id-mod-pkix1-shakes-2019,[RFC-ietf-lamps-pkix-shake-15]
