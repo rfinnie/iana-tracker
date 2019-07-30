@@ -1,6 +1,6 @@
 PRIVATE ENTERPRISE NUMBERS
 
-(last updated 2019-07-27)
+(last updated 2019-07-29)
 
 SMI Network Management Private Enterprise Codes:
 
@@ -42770,9 +42770,9 @@ Decimal
     ATnet C/Team
       c&atnet.at
 10704
-  Barracuda Networks AG (formerly 'phion Information Technologies')
-    Femboeck Monika
-      mfemboeck&barracuda.com
+  Barracuda Networks AG (previous was 'phion Information Technologies')
+    Patsch Bernhard
+      bpatsch&barracuda.com
 10705
   VOGT electronic AG
     Volker Timper
@@ -184728,7 +184728,7 @@ Decimal
 46294
   inView GmbH
     Caspar Fromelt
-      cf.iana.pen&inview.de
+      cf.iana.pen2&inview.de
 46295
   City of Huntsville
     Chris Davis
@@ -216158,9 +216158,9 @@ Decimal
     Jaroslaw Marcin Iwanski
       jiwanski&microsystem.cl
 54152
-  SSC-ICT
-    Danny Emmerik
-      certadmins&minbzk.nl
+  Unassigned
+    Returned 2019-07-29
+      --none--
 54153
   SecureMFA
     Juventas Vijeikis
@@ -216897,6 +216897,26 @@ Decimal
   rowspace
     Victor Bilyk
       v&rowspace.net
+54337
+  OpenPOWER Foundation
+    Jeff Scheel
+      tsc-chair&openpowerfoundation.org
+54338
+  Certsys Tecnologia da Informação LTDA
+    Felipe Cespedes
+      felipe.cespedes&certsys.com.br
+54339
+  Yunnan Tobacco Company
+    Jonny Yang
+      63300503&qq.com
+54340
+  Next Stride AG
+    Chris Streubel
+      chris.streubel&nextstride.com
+54341
+  Enabled Energy
+    Joe Staib
+      Info&enabledenergy.net
 
 
 End of Document

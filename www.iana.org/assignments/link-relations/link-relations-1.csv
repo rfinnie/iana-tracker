@@ -67,7 +67,7 @@ hosts,"Refers to a resource hosted by the server indicated by
       ""/.well-known/core"" resource representation, and is the default
       relation type in the CoRE Link Format."
 hub,"Refers to a hub that enables registration for
-    notification of updates to the context.",[http://pubsubhubbub.googlecode.com],This relation type was requested by Brett Slatkin.
+    notification of updates to the context.",[https://www.w3.org/TR/websub/],This relation type was requested by Brett Slatkin.
 icon,Refers to an icon representing the link's context.,[http://www.w3.org/TR/html5/links.html#link-type-icon],
 index,Refers to an index.,[http://www.w3.org/TR/1999/REC-html401-19991224],
 intervalAfter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalAfter] section 4.2.21,

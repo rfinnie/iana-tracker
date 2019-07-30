@@ -16,21 +16,21 @@ expires_in,"authorization response, token response",IETF,[RFC6749]
 username,token request,IETF,[RFC6749]
 password,token request,IETF,[RFC6749]
 refresh_token,"token request, token response",IETF,[RFC6749]
-nonce,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-display,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-prompt,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-max_age,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-ui_locales,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-claims_locales,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-id_token_hint,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-login_hint,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-acr_values,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-claims,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-registration,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-request,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-request_uri,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-id_token,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-session_state,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-session-1_0.html]
+nonce,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+display,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+prompt,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+max_age,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+ui_locales,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+claims_locales,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+id_token_hint,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+login_hint,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+acr_values,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+claims,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+registration,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+request,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+request_uri,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+id_token,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+session_state,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Session Management 1.0]
 assertion,token request,IESG,[RFC7521]
 client_assertion,token request,IESG,[RFC7521]
 client_assertion_type,token request,IESG,[RFC7521]
@@ -45,19 +45,12 @@ ticket,"client request, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAu
 upgraded,"authorization server response, token endpoint",[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.5]"
 vtr,"authorization request, token request",IESG,[RFC8485]
 device_code,token request,IESG,"[RFC-ietf-oauth-device-flow-15, Section 3.1]"
-"resource 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"audience 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"requested_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"subject_token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"subject_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"actor_token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"actor_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token request,IESG,[draft-ietf-oauth-token-exchange]
-"issued_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token response,IESG,[draft-ietf-oauth-token-exchange]
+resource,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+audience,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+requested_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+subject_token,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+subject_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+actor_token,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+actor_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+issued_token_type,token response,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.2.1]"
+response_mode,Authorization Request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OAuth 2.0 Multiple Response Type Encoding Practices]
