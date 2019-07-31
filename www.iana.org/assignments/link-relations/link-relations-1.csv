@@ -67,7 +67,7 @@ hosts,"Refers to a resource hosted by the server indicated by
       ""/.well-known/core"" resource representation, and is the default
       relation type in the CoRE Link Format."
 hub,"Refers to a hub that enables registration for
-    notification of updates to the context.",[http://pubsubhubbub.googlecode.com],This relation type was requested by Brett Slatkin.
+    notification of updates to the context.",[https://www.w3.org/TR/websub/],This relation type was requested by Brett Slatkin.
 icon,Refers to an icon representing the link's context.,[http://www.w3.org/TR/html5/links.html#link-type-icon],
 index,Refers to an index.,[http://www.w3.org/TR/1999/REC-html401-19991224],
 intervalAfter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalAfter] section 4.2.21,
@@ -80,7 +80,7 @@ intervalFinishedBy,"refers to a resource associated with a time interval that be
 intervalFinishes,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalFinishes] section 4.2.28,
 intervalIn,"refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalIn] section 4.2.29,
 intervalMeets,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalMeets] section 4.2.30,
-intervalMetBy,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalMetBy] section 4.2.31,
+intervalMetBy,refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalMetBy] section 4.2.31,
 intervalOverlappedBy,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy] section 4.2.32,
 intervalOverlaps,"refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalOverlaps] section 4.2.33,
 intervalStartedBy,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalStartedBy] section 4.2.34,
@@ -174,15 +174,15 @@ service,"Indicates a URI that can be used to retrieve a
       Atom Publishing Protocol service documents by default.  Requested
       by James Snell."
 service-desc,"Identifies service description for the context that
-      is primarily intended for consumption by machines.",[RFC-wilde-service-link-rel-10],
+      is primarily intended for consumption by machines.",[RFC8631],
 service-doc,"Identifies service documentation for the context that
-      is primarily intended for human consumption.",[RFC-wilde-service-link-rel-10],
+      is primarily intended for human consumption.",[RFC8631],
 service-meta,"Identifies general metadata for the context that is
-      primarily intended for consumption by machines.",[RFC-wilde-service-link-rel-10],
+      primarily intended for consumption by machines.",[RFC8631],
 start,"Refers to the first resource in a collection of
       resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
 status,"Identifies a resource that represents the context's
-      status.",[RFC-wilde-service-link-rel-10],
+      status.",[RFC8631],
 stylesheet,Refers to a stylesheet.,[http://www.w3.org/TR/html5/links.html#link-type-stylesheet],
 subsection,"Refers to a resource serving as a subsection in a
       collection of resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],

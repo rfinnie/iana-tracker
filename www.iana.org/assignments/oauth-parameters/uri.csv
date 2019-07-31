@@ -5,15 +5,9 @@ urn:ietf:params:oauth:grant-type:saml2-bearer,SAML 2.0 Bearer Assertion Grant Ty
 urn:ietf:params:oauth:client-assertion-type:saml2-bearer,SAML 2.0 Bearer Assertion Profile for OAuth 2.0 Client Authentication,IESG,[RFC7522]
 urn:ietf:params:oauth:token-type:jwt,JSON Web Token (JWT) Token Type,IESG,[RFC7519]
 urn:ietf:params:oauth:grant-type:device_code,Device flow grant type for OAuth 2.0,IESG,"[RFC-ietf-oauth-device-flow-15, Section 3.1]"
-urn:ietf:params:oauth:grant-type:token-exchange,"Token exchange grant type for OAuth 2.0 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
-urn:ietf:params:oauth:token-type:access_token,"Token type URI for an OAuth 2.0 access token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
-urn:ietf:params:oauth:token-type:refresh_token,"Token type URI for an OAuth 2.0 refresh token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
-urn:ietf:params:oauth:token-type:id_token,"Token type URI for an ID Token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
-urn:ietf:params:oauth:token-type:saml1,"Token type URI for a base64url-encoded SAML 1.1 assertion 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
-urn:ietf:params:oauth:token-type:saml2,"Token type URI for a base64url-encoded SAML 2.0 assertion 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",IESG,[draft-ietf-oauth-token-exchange]
+urn:ietf:params:oauth:grant-type:token-exchange,Token exchange grant type for OAuth 2.0,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
+urn:ietf:params:oauth:token-type:access_token,Token type URI for an OAuth 2.0 access token,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 3]"
+urn:ietf:params:oauth:token-type:refresh_token,Token type URI for an OAuth 2.0 refresh token,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 3]"
+urn:ietf:params:oauth:token-type:id_token,Token type URI for an ID Token,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 3]"
+urn:ietf:params:oauth:token-type:saml1,Token type URI for a base64url-encoded SAML 1.1 assertion,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 3]"
+urn:ietf:params:oauth:token-type:saml2,Token type URI for a base64url-encoded SAML 2.0 assertion,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 3]"

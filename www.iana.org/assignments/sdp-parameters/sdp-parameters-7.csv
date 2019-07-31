@@ -34,3 +34,4 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification""][RFC-ietf-m
 att-field (session level),sescap,CAUTION,[RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (session level),rtsp-ice-d-m,TBD,[RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (session level),ccc_list,N/A,[3GPP TS 26.114 version 13.4.0][_3GPP_Specifications_Manager]
+att-field (session level),identity,NORMAL,[RFC-ietf-rtcweb-security-arch-20]

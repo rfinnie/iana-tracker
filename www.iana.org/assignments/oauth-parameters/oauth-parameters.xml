@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2019-07-19</updated>
+  <updated>2019-07-24</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -19,12 +19,12 @@
       <controller>IETF</controller>
       <xref type="rfc" data="rfc6750"/>
     </record>
-    <record date="2019-06-17">
-      <name>N_A (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>N_A</name>
       <additional/>
       <http/>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.2.1</xref>
     </record>
   </registry>
   
@@ -220,13 +220,12 @@
       <controller>IETF</controller>
       <xref type="draft" data="RFC-ietf-oauth-device-flow-15">RFC-ietf-oauth-device-flow-15, Section 3.5</xref>
     </record>
-    <record date="2019-06-17">
-      <name>invalid_target 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>invalid_target</name>
       <usage>token error response</usage>
       <protocol>OAuth 2.0 Token Exchange</protocol>
       <controller>IETF</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.2.2</xref>
     </record>  
   </registry>
   
@@ -512,61 +511,53 @@
       <controller>IESG</controller>
       <xref type="draft" data="RFC-ietf-oauth-device-flow-15">RFC-ietf-oauth-device-flow-15, Section 3.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>resource 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>resource</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>audience 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>audience</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>requested_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>requested_token_type</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>subject_token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>subject_token</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>subject_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>subject_token_type</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>actor_token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>actor_token</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>actor_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>actor_token_type</name>
       <usage>token request</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
-      <name>issued_token_type 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+    <record date="2019-06-17" updated="2019-07-24">
+      <name>issued_token_type</name>
       <usage>token response</usage>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.2.1</xref>
     </record>
     <record date="2019-07-19">
       <name>response_mode</name>
@@ -641,47 +632,41 @@
       <controller>IESG</controller>
       <xref type="draft" data="RFC-ietf-oauth-device-flow-15">RFC-ietf-oauth-device-flow-15, Section 3.1</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:grant-type:token-exchange</urn>
-      <name>Token exchange grant type for OAuth 2.0 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token exchange grant type for OAuth 2.0</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 2.1</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:token-type:access_token</urn>
-      <name>Token type URI for an OAuth 2.0 access token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token type URI for an OAuth 2.0 access token</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 3</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:token-type:refresh_token</urn>
-      <name>Token type URI for an OAuth 2.0 refresh token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token type URI for an OAuth 2.0 refresh token</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 3</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:token-type:id_token</urn>
-      <name>Token type URI for an ID Token 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token type URI for an ID Token</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 3</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:token-type:saml1</urn>
-      <name>Token type URI for a base64url-encoded SAML 1.1 assertion 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token type URI for a base64url-encoded SAML 1.1 assertion</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 3</xref>
     </record>
-    <record date="2019-06-17">
+    <record date="2019-06-17" updated="2019-07-24">
       <urn>urn:ietf:params:oauth:token-type:saml2</urn>
-      <name>Token type URI for a base64url-encoded SAML 2.0 assertion 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)</name>
+      <name>Token type URI for a base64url-encoded SAML 2.0 assertion</name>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 3</xref>
     </record>
   </registry>
 
@@ -952,6 +937,24 @@
       <controller><xref type="person" data="Kantara_UMA_WG"/></controller>
       <xref type="uri" data="https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html#as-config">UMA 2.0 Grant for OAuth 2.0, Section 2</xref>
     </record>
+    <record date="2019-07-22">
+      <value>nfv_token_signed_response_alg</value>
+      <description>JWS alg algorithm required for signing the nfv Token issued to this Client</description>
+      <controller><xref type="person" data="ETSI"/></controller>
+      <xref type="uri" data="https://docbox.etsi.org/ISG/NFV/Open/Drafts/SEC022_API_Access_Token_Spec/NFV-SEC022v010.zip">NFV Release 2: Access Token specification for API Access</xref>
+    </record>
+    <record date="2019-07-22">
+      <value>nfv_token_encrypted_response_alg</value>
+      <description>JWE alg algorithm required for encrypting the nfv Token issued to this Client</description>
+      <controller><xref type="person" data="ETSI"/></controller>
+      <xref type="uri" data="https://docbox.etsi.org/ISG/NFV/Open/Drafts/SEC022_API_Access_Token_Spec/NFV-SEC022v010.zip">NFV Release 2: Access Token specification for API Access</xref>
+    </record>
+    <record date="2019-07-22">
+      <value>nfv_token_encrypted_response_enc</value>
+      <description>JWE enc algorithm required for encrypting the nfv Token issued to this Client</description>
+      <controller><xref type="person" data="ETSI"/></controller>
+      <xref type="uri" data="https://docbox.etsi.org/ISG/NFV/Open/Drafts/SEC022_API_Access_Token_Spec/NFV-SEC022v010.zip">NFV Release 2: Access Token specification for API Access</xref>
+    </record>
   </registry>
 
   <registry id="token-endpoint-auth-method">
@@ -1101,17 +1104,18 @@
       <controller>IESG</controller>
       <xref type="rfc" data="rfc8485"/>
     </record>
-    <record date="2019-02-05">
-      <value>act (TEMPORARY - registered 2019-02-05, expires 2020-02-05)</value>
+    <record date="2019-02-05" updated="2019-07-24">
+      <value>act</value>
       <description>Actor</description>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 4.1</xref>
     </record>
-    <record date="2019-02-05">
-      <value>may_act (TEMPORARY - registered 2019-02-05, expires 2020-02-05)</value>
-      <description>May Act For</description>
+    <record date="2019-02-05" updated="2019-07-24">
+      <value>may_act</value>
+      <description>Authorized Actor - the party that is authorized
+        to become the actor</description>
       <controller>IESG</controller>
-      <xref type="draft" data="draft-ietf-oauth-token-exchange"/>
+      <xref type="draft" data="RFC-ietf-oauth-token-exchange-19">RFC-ietf-oauth-token-exchange-19, Section 4.4</xref>
     </record>
   </registry>
 
@@ -1275,6 +1279,11 @@
   </registry>
   
   <people>
+    <person id="ETSI">
+      <name>ETSI</name>
+      <uri>mailto:pnns&amp;etsi.org</uri>
+      <updated>2019-07-22</updated>
+    </person>  
     <person id="Kantara_UMA_WG">
       <name>Kantara Initiative User-Managed Access Work Group</name>
       <uri>mailto:staff&amp;kantarainitiative.org</uri>

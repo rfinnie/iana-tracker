@@ -86,7 +86,9 @@ vot,Vector of Trust value,[IESG],[RFC8485]
 vtm,Vector of Trust trustmark URL,[IESG],[RFC8485]
 attest,Attestation level as defined in SHAKEN framework,[IESG],[RFC8588]
 origid,Originating Identifier as defined in SHAKEN framework,[IESG],[RFC8588]
-"act (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",Actor,[IESG],[draft-ietf-oauth-token-exchange]
-"scope (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",Scope Values,[IESG],[draft-ietf-oauth-token-exchange]
-"client_id (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",Client Identifier,[IESG],[draft-ietf-oauth-token-exchange]
-"may_act (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",May Act For,[IESG],[draft-ietf-oauth-token-exchange]
+act,Actor,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.1]"
+scope,Scope Values,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.2]"
+client_id,Client Identifier,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.3]"
+may_act,"Authorized Actor - the party that is authorized
+        to become the actor",[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.4]"
+jcard,jCard data,[IESG],[RFC-ietf-sipcore-rejected-09][RFC7095]

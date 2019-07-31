@@ -3,15 +3,15 @@ invalid_request,resource access error response,bearer access token type,IETF,[RF
 invalid_token,resource access error response,bearer access token type,IETF,[RFC6750]
 insufficient_scope,resource access error response,bearer access token type,IETF,[RFC6750]
 unsupported_token_type,revocation endpoint error response,token revocation endpoint,IETF,[RFC7009]
-interaction_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-login_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-session_selection_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-consent_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-invalid_request_uri,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-invalid_request_object,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-request_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-request_uri_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
-registration_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[http://openid.net/specs/openid-connect-core-1_0.html]
+interaction_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+login_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+session_selection_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+consent_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+invalid_request_uri,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+invalid_request_object,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+request_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+request_uri_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+registration_not_supported,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 need_info (and its subsidiary parameters),"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
 request_denied,"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
 request_submitted (and its subsidiary parameters),"authorization server response, token endpoint",Kantara UMA,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 3.3.6]"
@@ -19,5 +19,4 @@ authorization_pending,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IE
 access_denied,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
 slow_down,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
 expired_token,Token endpoint response,[RFC-ietf-oauth-device-flow-15],IETF,"[RFC-ietf-oauth-device-flow-15, Section 3.5]"
-"invalid_target 
-        (TEMPORARY - registered 2019-06-17, expires 2020-06-17)",token error response,OAuth 2.0 Token Exchange,IETF,[draft-ietf-oauth-token-exchange]
+invalid_target,token error response,OAuth 2.0 Token Exchange,IETF,"[RFC-ietf-oauth-token-exchange-19, Section 2.2.2]"
