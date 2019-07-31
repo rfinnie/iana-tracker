@@ -14749,6 +14749,7 @@ https,,tcp,HTTP over SSL/TLS,[Tim_Berners_Lee],[Tim_Berners_Lee],,,,,,"Web brows
       content-type negotiation today) rather than being an entirely separate thing."
 htvncconf,,udp,HomeTouch Vnc Configuration,[Yuval_Rakavy],[Yuval_Rakavy],2012-07-10,,,,,Defined TXT keys: None
 hue,,tcp,Philips hue protocol,[Philips_Lighting],[Walter_Slegers],2017-11-01,,,,,"Defined TXT keys: bridgeid, modelid"
+huesync,,tcp,Philips Hue Sync control protocol,[Signify],[Twan_Kamp],2019-07-31,,,,,"Defined TXT keys: name, devicetype, uniqueid, path"
 hyperstream,,,Atempo HyperStream deduplication server,[Laurent_Charmet],[Laurent_Charmet],,,,,,"Defined TXT keys:   version=x.y.z.w
   uuid=<36 bytes UUID string>
   host=<real host name>"
