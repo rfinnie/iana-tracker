@@ -6,7 +6,7 @@ Code,Name,Initial Value,Reference
 0x4,INITIAL_WINDOW_SIZE,65535,"[RFC7540, Section 6.5.2]"
 0x5,MAX_FRAME_SIZE,16384,"[RFC7540, Section 6.5.2]"
 0x6,MAX_HEADER_LIST_SIZE,(infinite),"[RFC7540, Section 6.5.2]"
-0x7-0xf,Unassigned,,
+0x7,Unassigned,,
 0x8,SETTINGS_ENABLE_CONNECT_PROTOCOL,0,[RFC8441]
 0x9-0xf,Unassigned,,
 0x10,TLS_RENEG_PERMITTED,0x00,[MS-HTTP2E][Gabriel_Montenegro]

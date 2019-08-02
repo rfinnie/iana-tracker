@@ -1,5 +1,6 @@
 Flag Bit,Meaning,Reference
-A,Checksum required,"[RFC6824], Section 3.1"
-B,Extensibility,"[RFC6824], Section 3.2"
-C-G,Unassigned,
-H,HMAC-SHA1,"[RFC6824], Section 3.2"
+A,Checksum required,"[RFC-ietf-mptcp-rfc6824bis-18, Section 3.1]"
+B,Extensibility,"[RFC-ietf-mptcp-rfc6824bis-18, Section 3.1]"
+C,Do not attempt to establish new subflows to the source address.,"[RFC-ietf-mptcp-rfc6824bis-18, Section 3.1]"
+D-G,Unassigned,
+H,HMAC-SHA256,"[RFC-ietf-mptcp-rfc6824bis-18, Section 3.2]"
