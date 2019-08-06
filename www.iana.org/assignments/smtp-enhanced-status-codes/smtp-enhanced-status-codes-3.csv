@@ -311,3 +311,9 @@ receiver is configured to reject mail from such
 sender (e.g., because it could not return a DSN).",[RFC7505] (Standards Track),"J. Levine, M. Delany",IESG
 X.7.28,Mail flood detected,.,The message appears to be part of a mail flood of similar abusive messages.,[draft-levine-mailbomb-header],J. Levine,standards@taugh.com
 X.7.29,ARC validation failure,550,This status code may be returned when a message fails ARC validation.,[RFC8617],K. Andersen,IESG
+X.7.30,REQUIRETLS support required,550,"This indicates that the message was not
+        able to be forwarded because it was
+        received with a REQUIRETLS requirement
+        and none of the SMTP servers to which
+        the message should be forwarded provide
+        this support.",[RFC-ietf-uta-smtp-require-tls-09],J. Fenton,IESG
