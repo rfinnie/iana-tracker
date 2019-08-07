@@ -31,6 +31,8 @@ Value,Description,Reference
         (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
 20,"Extended Administrative Group 
         (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)",[draft-ietf-ospf-te-link-attr-reuse]
-21-32767,Unassigned,
+21,"OSPFv2 Link Attributes Bits Sub-TLV 
+        (TEMPORARY - registered 2019-07-31, expires 2020-07-31)",[draft-ietf-lsr-dynamic-flooding]
+22-32767,Unassigned,
 32768-33023,Reserved for Experimental Use,[RFC7684]
 33024-65535,Reserved,[RFC7684]

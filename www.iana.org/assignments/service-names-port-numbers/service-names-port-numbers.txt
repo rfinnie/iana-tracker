@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-07-24
+           2019-08-02
 
    Expert(s)
 
@@ -8134,8 +8134,8 @@ stun               3478        tcp    Session Traversal Utilities  [IESG]       
                                       for NAT (STUN) port
 stun               3478        udp    Session Traversal Utilities  [IESG]                                                [IETF_Chair]                                                           2019-03-28   [RFC-ietf-tram-stunbis-21]
                                       for NAT (STUN) port
-turn               3478        tcp    TURN over TCP                                                                                                                                                          [RFC5766]
-turn               3478        udp    TURN over UDP                                                                                                                                                          [RFC5766]
+turn               3478        tcp    TURN over TCP                                                                                                                                             2019-08-02   [RFC-ietf-tram-turnbis-29]
+turn               3478        udp    TURN over UDP                                                                                                                                             2019-08-02   [RFC-ietf-tram-turnbis-29]
 stun-behavior      3478        tcp    STUN Behavior Discovery over                                                                                                                                           [RFC5780]
                                       TCP
 stun-behavior      3478        udp    STUN Behavior Discovery over                                                                                                                                           [RFC5780]
@@ -11459,8 +11459,9 @@ xkotodrcp          5344        udp    xkoto DRCP                   [Jeff_Heisz] 
 stuns              5349        tcp    Session Traversal Utilities  [IESG]                                                [IETF_Chair]                                                           2019-03-28   [RFC-ietf-tram-stunbis-21]
                                       for NAT (STUN) port
 stuns              5349        udp    STUN over DTLS               [IESG]                                                [IETF_Chair]                                                           2014-07-03   [RFC7350]                                                            This service name was initially created by [RFC5389].
-turns              5349        tcp    TURN over TLS                                                                                                                                                          [RFC5766]
-turns              5349        udp    TURN over DTLS               [IESG]                                                [IETF_Chair]                                                           2014-07-03   [RFC7350]                                                            This service name was initially created by [RFC5766].
+turns              5349        tcp    TURN over TLS                                                                                                                                             2019-08-02   [RFC-ietf-tram-turnbis-29]
+turns              5349        udp    TURN over DTLS               [IESG]                                                [IETF_Chair]                                                           2019-08-02   [RFC7350]                                                            This service name was initially created by
+                                                                                                                                                                                                                                                                                  [RFC-ietf-tram-turnbis-29].
 stun-behaviors     5349        tcp    STUN Behavior Discovery over                                                                                                                                           [RFC5780]
                                       TLS
 stun-behaviors     5349        udp    Reserved for a future                                                                                                                                                  [RFC5780]
@@ -15903,7 +15904,9 @@ notezilla-lan      21010       tcp    Notezilla.Lan Server         [Conceptworld
 trinket-agent      21212       tcp    Distributed artificial       [Holvonix_LLC]                                        [Advay_Mengle]                                            2017-11-29
                                       intelligence
                    21212       udp    Reserved
-                21213-21220           Unassigned
+cohesity-agent     21213       tcp    Cohesity backup agents       [Cohesity_Inc]                                        [Sashi_Madduri]                                           2019-08-01
+                   21213       udp    Reserved
+                21214-21220           Unassigned
 aigairserver       21221       tcp    Services for Air Server      [AIG_S.L.]                                            [Edelmiro_Gonzalez_Martinez]                              2017-03-16
                    21221       udp    Reserved
                 21222-21552           Unassigned
@@ -17624,6 +17627,8 @@ https                          tcp    HTTP over SSL/TLS            [Tim_Berners_
                                                                                                                                                                                                                                                                                   rather than being an entirely separate thing.
 htvncconf                      udp    HomeTouch Vnc Configuration  [Yuval_Rakavy]                                        [Yuval_Rakavy]                                            2012-07-10                                                                                     Defined TXT keys: None
 hue                            tcp    Philips hue protocol         [Philips_Lighting]                                    [Walter_Slegers]                                          2017-11-01                                                                                     Defined TXT keys: bridgeid, modelid
+huesync                        tcp    Philips Hue Sync control     [Signify]                                             [Twan_Kamp]                                               2019-07-31                                                                                     Defined TXT keys: name, devicetype, uniqueid, path
+                                      protocol
 hyperstream                           Atempo HyperStream           [Laurent_Charmet]                                     [Laurent_Charmet]                                                                                                                                        Defined TXT keys: version=x.y.z.w uuid=<36 bytes UUID string>
                                       deduplication server                                                                                                                                                                                                                        host=<real host name>
 iad1                                  BBN IAD                                                                                                                                                   2013-05-24                                                                        This service name is no longer in use.
@@ -19632,6 +19637,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Cockroach_Labs_Inc]                                                                 Cockroach Labs, Inc.     mailto:iana-contact&cockroachlabs.com                         2015-09-29
 [Cody_Bumgardner]                                         Cody Bumgardner            University of Kentucky   mailto:cody&uky.edu                                           2014-11-21
 [Cognex]                                                                             Cognex Corporation       mailto:contactus&cognex.com                                   2012-08-28
+[Cohesity_Inc]                                                                       Cohesity Inc             mailto:support&cohesity.com                                   2019-08-01
 [Coleman_Brumley]                                         Coleman Brumley                                     mailto:cbrumley&polarsoft.biz                                 2011-02-10
 [Colin_Barry]                                             Colin Barry                                         mailto:cbarry&gbahn.com
 [Colin_Buchanan]                                          Colin Buchanan             Epipole Limited          mailto:colin&epipole.com                                      2014-11-13
@@ -23268,6 +23274,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sarene_Caiazza]                                          Sarene Caiazza                                      mailto:scaiazza&proquesys.com                                 2010-04-27
 [Sascha_Kuemmel]                                          Sascha Kuemmel                                      mailto:kuemmel&vidsoft.de
 [Sasha_Hilton]                                            Sasha Hilton                                        mailto:sashahilton00&gmail.com                                2016-06-02
+[Sashi_Madduri]                                           Sashi Madduri                                       mailto:sashi&cohesity.com                                     2019-08-01
 [Satoshi_Matsumoto]                                       Satoshi Matsumoto                                   mailto:satoshi&artman21.co.jp
 [Saugata_Guha]                                            Saugata Guha                                        mailto:sguha&veritas.com                                      2004-05
 [ScaleFT_Inc]                                             ScaleFT, Inc                                        mailto:notices&scaleft.com                                    2016-04-07
@@ -23390,6 +23397,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sigma_Designs_Inc]                                                                  Sigma Designs, Inc.      mailto:anders_brandt&sigmadesigns.com                         2011-10-03
 [Sigma_Designs_Inc_2]                                                                Sigma Designs, Inc.      mailto:pr&sdesigns.com                                        2012-11-08
 [Sigma_Designs_3]                                                                    Sigma Designs            mailto:anders_brandt&sigmadesigns.com                         2015-06-26
+[Signify]                                                                            Signify                  mailto:twan.kamp&signify.com                                  2019-07-31
 [Signwave_Networking]                                     Signwave Networking                                 mailto:mail&signwave.co.uk
                                                           Development Team
 [Silvano_Maffeis]                                         Silvano Maffeis                                     mailto:maffeis&softwired.ch
@@ -23974,6 +23982,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tunstall_Healthcare_UK_Ltd]                                                         Tunstall Healthcare (UK) mailto:robert.moore&tunstall.com                              2014-12-10
                                                                                      Ltd.
 [Tuomo_Makinen]                                           Tuomo Makinen                                       mailto:tmakinen&pp.htv.fi                                     2002-02
+[Twan_Kamp]                                               Twan Kamp                                           mailto:twan.kamp&signify.com                                  2019-07-31
 [Ty_Ellis]                                                Ty Ellis                                            mailto:tellis&novell.com                                      2006-05
 [Tyba_Design_Limited]                                                                Tyba Design Limited      mailto:info&tyba.co.ik                                        2018-08-24
 [Tzvika_Chumash]                                          Tzvika Chumash                                      mailto:tzvikac&netvision.net.il

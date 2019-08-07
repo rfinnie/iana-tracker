@@ -70,3 +70,4 @@ att-field (both session and media level),rtcp-rgrp,TBD,[RFC-ietf-avtcore-rtp-mul
 att-field (both session and media level),suspended,TBD,[NENA STA-010.2-2016][Brian_Rosen][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (both session and media level),extmap-allow-mixed,IDENTICAL,[RFC8285]
 att-field (both session and media level),end-of-candidates,IDENTICAL,[RFC-ietf-mmusic-trickle-ice-sip-18]
+att-field (both session and media level),vndpar,TBD,[ITU-T Rec. V.150.1][ITU-T Rec. V.152][Simao_Campos-Neto]
