@@ -27,4 +27,8 @@ Value,Description,Reference
 25,Unassigned,
 26,"Flexible Algorithm Definition 
         (TEMPORARY - registered 2018-06-04, extension registered 2019-06-03, expires 2020-06-04)",[draft-ietf-lsr-flex-algo]
-27-255,Unassigned,
+27,"IS-IS Area Leader Sub-TLV 
+        (TEMPORARY - registered 2019-08-08, expires 2020-08-08)",[draft-ietf-lsr-dynamic-flooding]
+28,"IS-IS Dynamic Flooding Sub-TLV
+        (TEMPORARY - registered 2019-08-08, expires 2020-08-08)",[draft-ietf-lsr-dynamic-flooding]
+29-255,Unassigned,
