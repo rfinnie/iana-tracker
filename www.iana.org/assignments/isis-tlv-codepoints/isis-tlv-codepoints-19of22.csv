@@ -1,3 +1,4 @@
-Value,Name
-0x1,Local Protection Available
-0x2,Link Excluded from Local Protection
+Value,Name,Reference
+0x1,Local Protection Available,[RFC5029]
+0x2,Link Excluded from Local Protection,[RFC5029]
+0x4,"Local Edge Enabled for Flooding (LEEF) (TEMPORARY - registered 2019-07-31, expires 2020-07-31)",[draft-ietf-lsr-dynamic-flooding]
