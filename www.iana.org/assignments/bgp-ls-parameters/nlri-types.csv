@@ -4,6 +4,9 @@ Type,NLRI Type,Reference
 2,Link NLRI,[RFC7752]
 3,IPv4 Topology Prefix NLRI,[RFC7752]
 4,IPv6 Topology Prefix NLRI,[RFC7752]
-5-1100,Unassigned,
+5,Unassigned,
+6,"SRv6 SID (TEMPORARY - 
+		  registered 2019-08-06, expires 2020-08-06)",[draft-ietf-idr-bgpls-srv6-ext]
+7-1100,Unassigned,
 1101,Not to be allocated,
 1102-65535,Unassigned,

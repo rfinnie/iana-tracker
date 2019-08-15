@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-08-02
+           2019-08-13
 
    Expert(s)
 
@@ -5706,8 +5706,8 @@ rapido-ip          2457        tcp    Rapido_IP                    [Man_Shuen_Ch
 rapido-ip          2457        udp    Rapido_IP                    [Man_Shuen_Cheung]                                    [Man_Shuen_Cheung]
 griffin            2458        tcp    griffin                      [Tom_Taylor]                                          [Tom_Taylor]
 griffin            2458        udp    griffin                      [Tom_Taylor]                                          [Tom_Taylor]
-community          2459        tcp    Community                    [David_Schwartz]                                      [David_Schwartz]
-community          2459        udp    Community                    [David_Schwartz]                                      [David_Schwartz]
+xrpl               2459        tcp    Community                    [David_Schwartz]                                      [David_Schwartz]                                                       2019-08-09
+xrpl               2459        udp    Community                    [David_Schwartz]                                      [David_Schwartz]                                                       2019-08-09
 ms-theater         2460        tcp    ms-theater                   [Anton_Kucer]                                         [Anton_Kucer]
 ms-theater         2460        udp    ms-theater                   [Anton_Kucer]                                         [Anton_Kucer]
 qadmifoper         2461        tcp    qadmifoper
@@ -13904,7 +13904,10 @@ us-cli             8082        tcp    Utilistor (Client)           [Andy_Brewert
 us-cli             8082        udp    Utilistor (Client)           [Andy_Brewerton]                                      [Andy_Brewerton]                                          2005-08
 us-srv             8083        tcp    Utilistor (Server)           [Andy_Brewerton]                                      [Andy_Brewerton]                                          2005-08
 us-srv             8083        udp    Utilistor (Server)           [Andy_Brewerton]                                      [Andy_Brewerton]                                          2005-08
-                 8084-8085            Unassigned
+websnp             8084        tcp    Snarl Network Protocol over  [full_phat_products]                                  [Chris_Peel_2]                                            2019-08-08
+                                      HTTP
+                   8084        udp    Reserved
+                   8085               Unassigned
 d-s-n              8086        tcp    Distributed SCADA Networking [Gary_Hampton]                                        [Gary_Hampton]                                            2008-02-27
                                       Rendezvous Port
 d-s-n              8086        udp    Distributed SCADA Networking [Gary_Hampton]                                        [Gary_Hampton]                                            2008-02-27
@@ -16486,8 +16489,14 @@ speedtrace-disc    33334       udp    SpeedTrace TraceAgent        [Holger_Heinr
 traceroute         33434       tcp    traceroute use               [IANA]                                                [IANA]
 traceroute         33434       udp    traceroute use               [IANA]                                                [IANA]
                    33435       tcp    Reserved
-mtrace             33435       udp    IP Multicast Traceroute      [IESG]                                                [IETF_Chair]                                              2017-12-13   2018-07-31   [RFC8487]
-                33436-33655           Unassigned
+                                                                                                                                                                                                                                                                     Known
+mtrace             33435       udp    IP Multicast Traceroute      [IESG]                                                [IETF_Chair]                                              2017-12-13   2019-08-09   [RFC8487]                                               Unauthorized
+                                                                                                                                                                                                                                                                     Use on port
+                                                                                                                                                                                                                                                                     33435
+                                                                                                                                                                                                                                                                     Known
+                33436-33655           Unassigned                                                                                                                                                                                                                     Unauthorized
+                                                                                                                                                                                                                                                                     Use on ports
+                                                                                                                                                                                                                                                                     33436-33534
 snip-slave         33656       tcp    SNIP Slave                   [Dr_Chris_Tucker]                                     [Dr_Chris_Tucker]                                         2005-08
 snip-slave         33656       udp    SNIP Slave                   [Dr_Chris_Tucker]                                     [Dr_Chris_Tucker]                                         2005-08
                 33657-34248           Unassigned
@@ -17626,7 +17635,7 @@ https                          tcp    HTTP over SSL/TLS            [Tim_Berners_
                                                                                                                                                                                                                                                                                   per-connection basis (like content-type negotiation today)
                                                                                                                                                                                                                                                                                   rather than being an entirely separate thing.
 htvncconf                      udp    HomeTouch Vnc Configuration  [Yuval_Rakavy]                                        [Yuval_Rakavy]                                            2012-07-10                                                                                     Defined TXT keys: None
-hue                            tcp    Philips hue protocol         [Philips_Lighting]                                    [Walter_Slegers]                                          2017-11-01                                                                                     Defined TXT keys: bridgeid, modelid
+hue                            tcp    Philips hue protocol         [Signify]                                             [Walter_Slegers]                                          2017-11-01   2019-08-09                                                                        Defined TXT keys: bridgeid, modelid
 huesync                        tcp    Philips Hue Sync control     [Signify]                                             [Twan_Kamp]                                               2019-07-31                                                                                     Defined TXT keys: name, devicetype, uniqueid, path
                                       protocol
 hyperstream                           Atempo HyperStream           [Laurent_Charmet]                                     [Laurent_Charmet]                                                                                                                                        Defined TXT keys: version=x.y.z.w uuid=<36 bytes UUID string>
@@ -18636,6 +18645,8 @@ wtc-viscostar                         Wyatt Technology Corporation [Roy_Reapor] 
 wtc-wpr                               Wyatt Technology Corporation [Brent_Fulgham]                                       [Brent_Fulgham]                                                                                                                                          Defined TXT keys: None
                                       DynaPro Plate Reader
 wwdcpic                               PictureSharing sample code   [Marc_Krochmal]                                       [Marc_Krochmal]                                                                                                                                          Defined TXT keys: None
+x510                           tcp    Security service to          [ITU-T_Study_Group_17]                                [Erik_Andersen]                                           2019-08-13                                                                                     Defined TXT keys: None
+                                      protocols
 x-on                                  x-on services                [Matthias_Burghardt]                                  [Matthias_Burghardt]                                                                                                                                     Defined TXT keys: Proprietary
                                       synchronisation protocol
 x-plane9                       udp    x-plane9                     [Austin_Meyer]                                        [Austin_Meyer]                                                                                                                                           Defined TXT keys: None
@@ -19936,7 +19947,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [David_Riggle]                                            David Riggle                                        mailto:dave&busymac.com                                       2008-01-07
 [David_Roberts]                                           David Roberts                                       mailto:David.Roberts&ca.com                                   2005-05
 [David_Rouchet]                                           David Rouchet                                       mailto:david.rouchet&medialon.com                             2007-05
-[David_Schwartz]                                          David Schwartz                                      mailto:davids&webmaster.com
+[David_Schwartz]                                          David Schwartz                                      mailto:davidjoelschwartz&gmail.com                            2019-08-09
 [David_Schwartz_2]                                        David Schwartz                                      mailto:david.schwartz&marathontechnologies.com                2009-06-18
 [David_Sechrest]                                          David Sechrest                                      mailto:david.sechrest&oracle.com                              2010-09-22
 [David_Shaw]                                              David Shaw                                          mailto:dshaw&jabberwocky.com                                  2003-05
@@ -20275,6 +20286,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Erica_Liu]                                               Erica Liu                                           mailto:liue&isolation.com
 [Ericko_Shimada]                                          Ericko Shimada                                      mailto:eriko&kel.fujitsu.co.jp
 [Ericsson]                                                                           Ericsson                 mailto:erik.hugne&ericsson.com                                2012-09-05
+[Erik_Andersen]                                           Erik Andersen                                       mailto:era&x500.eu                                            2019-08-13
 [Erik_Blume]                                              Erik Blume                                          mailto:erikb&caciasl.com
 [Erik_Hugne]                                              Erik Hugne                 Ericsson                 mailto:erik.hugne&ericsson.com                                2012-09-05
 [Erik_Kragh_Jensen]                                       Erik Kragh Jensen                                   mailto:kragh&inet.uni2.dk
@@ -20397,6 +20409,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Friedman_Wagner_Dobl]                                    Friedman Wagner-Dobler                              mailto:Friedman.Wagner-Dobler&gdc4s.com                       2005-09
 [Frode_Randers]                                           Frode Randers                                       mailto:Frode.Randers&tietoenator.com                          2006-01
 [Frontrow_Calypso_LLC]                                    Frontrow Calypso, LLC                               mailto:eng&gofrontrow.com                                     2016-04-13
+[full_phat_products]                                      full phat products                                  mailto:chris.gsi&fullphat.net                                 2019-08-08
 [Fullpower_Technologies_Inc]                              Fullpower Technologies,                             mailto:domains&fullpower.com                                  2016-08-22
                                                           Inc.
 [G2_Metric]                                                                          G2 Metric                mailto:contact&g2metric.com                                   2019-06-13
@@ -20845,6 +20858,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                      France
 [Itai_Greenberg]                                          Itai Greenberg                                      mailto:itaig&microsoft.com                                    2004-11
 [Itaru_Kimura]                                            Itaru Kimura                                        mailto:kimura&kel.fujitsu.co.jp
+[ITU-T_Study_Group_17]                                                               ITU-T Study Group 17     mailto:era&x500.eu                                            2019-08-13
 [Ivan_Berardinelli]                                       Ivan Berardinelli                                   mailto:ivan&gestweb.com
 [Ivana_Cuozzo]                                            Ivana Cuozzo                                        mailto:Ivana.Cuozzo&tivoli.com
 [Ivo_Timmermans]                                          Ivo Timmermans                                      mailto:itimmermans&bigfoot.com
@@ -22732,7 +22746,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Philip_Budne]                                            Philip Budne                                        mailto:budne&auroratech.com
 [Philip_N_Bergstress]                                     Philip N. Bergstresser                              mailto:phil&bergstresser.org
 [Philip_Stephenson]                                       Philip Stephenson                                   mailto:Philip.stephenson&oracle.com                           2005-08
-[Philips_Lighting]                                                                   Philips Lighting         mailto:leon.bouwmeester&lighting.com                          2017-11-01
 [Philipp_Dreiss]                                          Philipp Dreiss                                      mailto:dreiss&isparx.de
 [Philipp_Marcel_Albre]                                    Philipp Marcel Albrecht                             mailto:phipi&gmx.ch                                           2009-07-06
 [Philippe_Binet]                                          Philippe Binet                                      mailto:phbinet&vnet.ibm.com
@@ -23397,7 +23410,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Sigma_Designs_Inc]                                                                  Sigma Designs, Inc.      mailto:anders_brandt&sigmadesigns.com                         2011-10-03
 [Sigma_Designs_Inc_2]                                                                Sigma Designs, Inc.      mailto:pr&sdesigns.com                                        2012-11-08
 [Sigma_Designs_3]                                                                    Sigma Designs            mailto:anders_brandt&sigmadesigns.com                         2015-06-26
-[Signify]                                                                            Signify                  mailto:twan.kamp&signify.com                                  2019-07-31
+[Signify]                                                                            Signify                  mailto:leon.bouwmeester&signify.com                           2019-08-09
 [Signwave_Networking]                                     Signwave Networking                                 mailto:mail&signwave.co.uk
                                                           Development Team
 [Silvano_Maffeis]                                         Silvano Maffeis                                     mailto:maffeis&softwired.ch
@@ -24105,7 +24118,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Walter_Goodwin]                                          Walter Goodwin                                      mailto:wpgoodwin&asna.com
 [Walter_K_Eichelburg]                                     Walter K. Eichelburg                                mailto:walter.eichelburg&sat-automation.com
 [Walter_Poxon]                                            Walter Poxon                                        mailto:wdp&ironwood.cray.com
-[Walter_Slegers]                                          Walter Slegers                                      mailto:Walter.Slegers&philips.com                             2017-11-01
+[Walter_Slegers]                                          Walter Slegers                                      mailto:walter.slegers&signify.com                             2019-08-09
 [Walter_Underwood]                                        Walter Underwood                                    mailto:wunder&infoseek.com
 [Warren_Alexander]                                        Warren Alexander                                    mailto:warren&chameleon-creative.co.uk
 [Wason_Technology_LLC]                                                               Wason Technology, LLC    mailto:wason&wasontech.com                                    2014-01-27
