@@ -98,6 +98,7 @@ ietf-pim-sm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-sm,pim-sm,,[RFC-ietf-pim-yan
 ietf-ptp,ietf-ptp@2019-05-07.yang,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[RFC8575],
 ietf-restconf,ietf-restconf@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf,rc,,[RFC8040],
 ietf-restconf-monitoring,ietf-restconf-monitoring@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring,rcmon,,[RFC8040],
+ietf-restconf-subscribed-notifications,,N,urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications,rsn,,[RFC-ietf-netconf-restconf-notif-15],[RFC-ietf-netconf-restconf-notif-15]'s module file will be posted upon the document's publication as an RFC.
 ietf-rip,,N,urn:ietf:params:xml:ns:yang:ietf-rip,rip,,[RFC-ietf-rtgwg-yang-rip-08],[RFC-ietf-rtgwg-yang-rip-08]'s module file will be posted upon the document's publication as an RFC.
 ietf-routing,ietf-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8022],
 ietf-routing,ietf-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8349],

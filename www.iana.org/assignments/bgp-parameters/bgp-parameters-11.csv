@@ -2,4 +2,5 @@ Value,Name,Reference
 0,Reserved,[RFC5492]
 1,Authentication (deprecated),[RFC4271][RFC5492]
 2,Capabilities,[RFC5492]
-3-255,Unassigned,
+3-254,Unassigned,
+255,"Extended Length (TEMPORARY - registered 2019-08-13, expires 2020-08-13)",[draft-ietf-idr-ext-opt-param]

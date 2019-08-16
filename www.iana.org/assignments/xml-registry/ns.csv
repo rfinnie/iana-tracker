@@ -254,6 +254,7 @@ yang:ietf-pim-sm,urn:ietf:params:xml:ns:yang:ietf-pim-sm,ns/yang/ietf-pim-sm.txt
 yang:ietf-ptp,urn:ietf:params:xml:ns:yang:ietf-ptp,ns/yang/ietf-ptp.txt,[RFC8575]
 yang:ietf-restconf,urn:ietf:params:xml:ns:yang:ietf-restconf,ns/yang/ietf-restconf.txt,[RFC8040]
 yang:ietf-restconf-monitoring,urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring,ns/yang/ietf-restconf-monitoring.txt,[RFC8040]
+yang:ietf-restconf-subscribed-notifications,urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications,ns/yang/ietf-restconf-subscribed-notifications.txt,[RFC-ietf-netconf-restconf-notif-15]
 yang:ietf-rip,urn:ietf:params:xml:ns:yang:ietf-rip,ns/yang/ietf-rip.txt,[RFC-ietf-rtgwg-yang-rip-08]
 yang:ietf-routing,urn:ietf:params:xml:ns:yang:ietf-routing,ns/yang/ietf-routing.txt,[RFC8349]
 yang:ietf-routing-types,urn:ietf:params:xml:ns:yang:ietf-routing-types,ns/yang/ietf-routing-types.txt,[RFC8294]
