@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="cbor-tags">
   <title>Concise Binary Object Representation (CBOR) Tags</title>
   <created>2013-09-19</created>
-  <updated>2019-07-18</updated>
+  <updated>2019-08-19</updated>
   <category>Concise Binary Object Representation (CBOR)</category>
   
   <registry id="tags">
@@ -224,12 +224,11 @@
       <semantics>Homogeneous Array</semantics>
       <xref type="draft" data="draft-ietf-cbor-array-tags"/>
     </record>
-    <record date="2019-04-11">
+    <record>
       <value>42</value>
-      <description>unsigned integer</description>
-      <semantics>YANG Schema Item iDentifier (sid); see Section 3.2.</semantics>
-      <xref type="draft" data="draft-ietf-core-yang-cbor"/>
-    </record>
+      <description>Unassigned</description>
+      <semantics/>
+    </record>   
     <record date="2019-04-11">
       <value>43</value>
       <description>byte string</description>
@@ -254,8 +253,14 @@
       <semantics>YANG instance-identifier datatype; see Section 6.13.</semantics>
       <xref type="draft" data="draft-ietf-core-yang-cbor"/>
     </record>
+    <record date="2019-08-19">
+      <value>47</value>
+      <description>unsigned integer</description>
+      <semantics>YANG Schema Item iDentifier (sid); see Section 3.2.</semantics>
+      <xref type="draft" data="draft-ietf-core-yang-cbor"/>
+    </record>
     <record>
-      <value>47-60</value>
+      <value>48-60</value>
       <description>Unassigned</description>
       <semantics/>
     </record>

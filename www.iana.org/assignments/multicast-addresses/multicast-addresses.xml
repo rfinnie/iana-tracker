@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2019-07-01</updated>
+  <updated>2019-08-19</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -1404,8 +1404,14 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</note>
       <xref type="person" data="Rami_Chalhoub"/>
       <controller><xref type="person" data="BSE"/></controller>
     </record>
+    <record date="2019-08-19">
+      <addr>224.0.2.14</addr>
+      <description>OPC Discovery</description>
+      <xref type="person" data="OPC_Foundation"/>
+      <controller><xref type="person" data="OPC_Foundation"/></controller>
+    </record>
     <record>
-      <addr>224.0.2.14-224.0.2.63</addr>
+      <addr>224.0.2.15-224.0.2.63</addr>
       <description>Unassigned</description>
     </record>
     <record date="1996-04" updated="2018-04-20">
@@ -3877,6 +3883,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <name>Oliver Lewis</name>
       <uri>mailto:o.lewis&amp;icerobotics.co.uk</uri>
       <updated>2006-07-11</updated>
+    </person>
+    <person id="OPC_Foundation">
+      <name>OPC Foundation</name>
+      <uri>mailto:sysadmin&amp;opcfoundation.org</uri>
+      <updated>2019-08-19</updated>
     </person>
     <person id="OSPF_WG_Chairs">
       <name>OSPF WG Chairs</name>

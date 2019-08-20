@@ -4,7 +4,7 @@
            2013-09-19
 
    Last Updated
-           2019-07-18
+           2019-08-19
 
    Available Formats
            [IMG]
@@ -102,9 +102,7 @@ CBOR Tags
 40                            array of two  Multi-dimensional Array,   [draft-ietf-cbor-array-tags]
                               arrays [1]    row-major order
 41                            array         Homogeneous Array          [draft-ietf-cbor-array-tags]
-                              unsigned      YANG Schema Item
-42                            integer       iDentifier (sid); see      [draft-ietf-core-yang-cbor]
-                                            Section 3.2.
+42                            Unassigned
 43                            byte string   YANG bits datatype; see    [draft-ietf-core-yang-cbor]
                                             Section 6.7.
 44                            unsigned      YANG enumeration datatype; [draft-ietf-core-yang-cbor]
@@ -116,7 +114,10 @@ CBOR Tags
 46                            integer or    datatype; see Section      [draft-ietf-core-yang-cbor]
                               text string   6.13.
                               or array
-47-60                         Unassigned
+                              unsigned      YANG Schema Item
+47                            integer       iDentifier (sid); see      [draft-ietf-core-yang-cbor]
+                                            Section 3.2.
+48-60                         Unassigned
 61                            CBOR Web      CBOR Web Token (CWT)       [RFC8392][Michael_B._Jones]
                               Token (CWT)
 62-63                         Unassigned
