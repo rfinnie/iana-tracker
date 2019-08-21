@@ -84,10 +84,10 @@ att-field (media level only),max-size,TBD,[RFC4975][RFC-ietf-mmusic-sdp-mux-attr
 att-field (media level only),path,TBD,[RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),dccp-service-code,CAUTION,[RFC5762][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtcp-mux,IDENTICAL,[RFC5761][RFC8035][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (media level only),candidate,TRANSPORT,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (media level only),candidate,TRANSPORT,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
 att-field (media level only),ice-mismatch,NORMAL,"[RFC5245][RFC Errata 
-          3149][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-att-field (media level only),remote-candidates,TRANSPORT,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+          3149][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]"
+att-field (media level only),remote-candidates,TRANSPORT,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
 att-field (media level only),SRTPAuthentication,TBD,[RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),SRTPROCTxRate,TBD,[RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (media level only),rtcp-rsize,IDENTICAL,[RFC5506][RFC-ietf-mmusic-sdp-mux-attributes-16]

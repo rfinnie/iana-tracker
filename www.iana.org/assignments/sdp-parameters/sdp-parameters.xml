@@ -5,7 +5,7 @@
   <title>Session Description Protocol (SDP) Parameters</title>
   <category>Session Description Protocol (SDP) Parameters</category>
   <created>2001-06-15</created>
-  <updated>2019-07-30</updated>
+  <updated>2019-08-21</updated>
 
   
   <registry id="sdp-parameters-1">
@@ -543,6 +543,7 @@ protocol" (07/2001)</xref>
       <mux>NORMAL</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (session level)</type>
@@ -550,6 +551,7 @@ protocol" (07/2001)</xref>
       <mux>NORMAL</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (session level)</type>
@@ -645,6 +647,12 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <name>identity</name>
       <mux>NORMAL</mux>
       <xref type="draft" data="RFC-ietf-rtcweb-security-arch-20"/>
+    </record>
+    <record date="2019-08-21">
+      <type>att-field (session level)</type>
+      <name>ice-pacing</name>
+      <mux>NORMAL</mux>
+      <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
   </registry>
   
@@ -829,6 +837,7 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <mux>TRANSPORT</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (both session and media level)</type>
@@ -836,6 +845,7 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <mux>TRANSPORT</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (both session and media level)</type>
@@ -1767,6 +1777,7 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <mux>TRANSPORT</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (media level only)</type>
@@ -1775,6 +1786,7 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <xref type="rfc" data="rfc5245"/>
       <xref type="rfc-errata" data="3149"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (media level only)</type>
@@ -1782,6 +1794,7 @@ Advanced Networking (TISPAN); IMS-based IPTV stage 3 specification"</xref>
       <mux>TRANSPORT</mux>
       <xref type="rfc" data="rfc5245"/>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-mux-attributes-16"/>
+	  <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
     </record>
     <record>
       <type>att-field (media level only)</type>
@@ -3199,6 +3212,13 @@ attribute and RTSP header "keymgmt".
       <value>depend</value>
       <xref type="draft" data="RFC-ietf-mmusic-rid-15"/>
     </record>
+  </registry>
+  
+  <registry id="candidate-attribute-extensions">
+    <title>Candidate Attribute Extensions</title>
+    <xref type="draft" data="RFC-ietf-mmusic-ice-sip-sdp-39"/>
+    <registration_rule>Specification Required</registration_rule>
+	<expert>Unassigned</expert>
   </registry>
  
   <people>

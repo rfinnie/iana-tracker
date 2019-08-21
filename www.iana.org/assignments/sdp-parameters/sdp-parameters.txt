@@ -4,7 +4,7 @@
            2001-06-15
 
    Last Updated
-           2019-07-30
+           2019-08-21
 
    Available Formats
            [IMG]
@@ -42,6 +42,7 @@
      * Multiplexing Categories
      * association-usage Name Registry
      * RID Attribute Parameters
+     * Candidate Attribute Extensions
 
 media
 
@@ -226,65 +227,67 @@ att-field (session level)
            [IMG]
            CSV
 
-          Type             SDP Name      Mux Category                                           Reference
-   att-field (session cat                NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session keywds             NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type               NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type:broadcast     NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type:H332          NORMAL       [ITU Recommendation H.332][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type:meeting       NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type:moderated     NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session type:test          NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session charset            NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session charset:iso8895-1  NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session tool               NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session ipbcp              SPECIAL      [ITU-T Recommendation Q.1970, "BICC IP bearer control protocol"
-   level)                                             (07/2001)][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   att-field (session group              NORMAL       [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session ice-lite           NORMAL       [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session ice-options        NORMAL       [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session bcastversion       NORMAL       [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session 3GPP-Integrity-Key CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session 3GPP-SDP-Auth      CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session alt-group          CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session                                 [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-   level)             PSCid              NORMAL       "Telecommunications and Internet converged Services and Protocols for Advanced Networking
-                                                      (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   att-field (session                                 [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-   level)             bc_service         NORMAL       "Telecommunications and Internet converged Services and Protocols for Advanced Networking
-                                                      (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   att-field (session                                 [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-   level)             bc_program         NORMAL       "Telecommunications and Internet converged Services and Protocols for Advanced Networking
-                                                      (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   att-field (session                                 [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-   level)             bc_service_package NORMAL       "Telecommunications and Internet converged Services and Protocols for Advanced Networking
-                                                      (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   att-field (session sescap             CAUTION      [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session rtsp-ice-d-m       TBD          [RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   level)
-   att-field (session ccc_list           N/A          [3GPP TS 26.114 version 13.4.0][_3GPP_Specifications_Manager]
-   level)
-   att-field (session identity           NORMAL       [RFC-ietf-rtcweb-security-arch-20]
-   level)
+        Type            SDP Name      Mux Category                                            Reference
+   att-field       cat                NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       keywds             NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type               NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type:broadcast     NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type:H332          NORMAL       [ITU Recommendation H.332][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type:meeting       NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type:moderated     NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       type:test          NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       charset            NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       charset:iso8895-1  NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       tool               NORMAL       [RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       ipbcp              SPECIAL      [ITU-T Recommendation Q.1970, "BICC IP bearer control protocol"
+   (session level)                                 (07/2001)][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   att-field       group              NORMAL       [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       ice-lite           NORMAL       [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
+   (session level)
+   att-field       ice-options        NORMAL       [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
+   (session level)
+   att-field       bcastversion       NORMAL       [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       3GPP-Integrity-Key CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       3GPP-SDP-Auth      CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       alt-group          CAUTION      [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field                                       [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063 "Telecommunications
+   (session level) PSCid              NORMAL       and Internet converged Services and Protocols for Advanced Networking (TISPAN); IMS-based IPTV
+                                                   stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   att-field                                       [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063 "Telecommunications
+   (session level) bc_service         NORMAL       and Internet converged Services and Protocols for Advanced Networking (TISPAN); IMS-based IPTV
+                                                   stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   att-field                                       [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063 "Telecommunications
+   (session level) bc_program         NORMAL       and Internet converged Services and Protocols for Advanced Networking (TISPAN); IMS-based IPTV
+                                                   stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   att-field                                       [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063 "Telecommunications
+   (session level) bc_service_package NORMAL       and Internet converged Services and Protocols for Advanced Networking (TISPAN); IMS-based IPTV
+                                                   stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   att-field       sescap             CAUTION      [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       rtsp-ice-d-m       TBD          [RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (session level)
+   att-field       ccc_list           N/A          [3GPP TS 26.114 version 13.4.0][_3GPP_Specifications_Manager]
+   (session level)
+   att-field       identity           NORMAL       [RFC-ietf-rtcweb-security-arch-20]
+   (session level)
+   att-field       ice-pacing         NORMAL       [RFC-ietf-mmusic-ice-sip-sdp-39]
+   (session level)
 
 att-field (both session and media level)
 
@@ -426,12 +429,12 @@ att-field (both session and media level)
    level)
    att-field
    (both
-   session and ice-pwd                TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   session and ice-pwd                TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
    media
    level)
    att-field
    (both
-   session and ice-ufrag              TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   session and ice-ufrag              TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
    media
    level)
    att-field
@@ -936,13 +939,13 @@ att-field (media level only)
    (media level rtcp-mux                 IDENTICAL        [RFC5761][RFC8035][RFC-ietf-mmusic-sdp-mux-attributes-16]
    only)
    att-field
-   (media level candidate                TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (media level candidate                TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
+   only)
+   att-field                                              [RFC5245][RFC Errata
+   (media level ice-mismatch             NORMAL           3149][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
    only)
    att-field
-   (media level ice-mismatch             NORMAL           [RFC5245][RFC Errata 3149][RFC-ietf-mmusic-sdp-mux-attributes-16]
-   only)
-   att-field
-   (media level remote-candidates        TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+   (media level remote-candidates        TRANSPORT        [RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
    only)
    att-field
    (media level SRTPAuthentication       TBD              [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
@@ -1633,6 +1636,22 @@ RID Attribute Parameters
    max-pps            [RFC-ietf-mmusic-rid-15]
    max-bpp            [RFC-ietf-mmusic-rid-15]
    depend             [RFC-ietf-mmusic-rid-15]
+
+Candidate Attribute Extensions
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-ietf-mmusic-ice-sip-sdp-39]
+
+   Name Description Change Controller Reference
+   No registrations at this time.
 
                                                                         People
 

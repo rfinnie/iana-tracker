@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="bgp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="bgp-parameters">
   <title>Border Gateway Protocol (BGP) Parameters</title>
-  <updated>2019-08-13</updated>
+  <updated>2019-08-21</updated>
 
 
   <registry id="bgp-parameters-1">
@@ -801,8 +801,13 @@ Work in progress, March 1996.</xref>
       <name>Bare</name>
       <xref type="person" data="Nischal_Sheth"/>
     </record>
+    <record date="2019-08-21">
+      <value>17</value>
+      <name>SR Tunnel</name>
+      <xref type="draft" data="draft-ietf-bess-datacenter-gateway"/>
+    </record>
     <record>
-      <value>17-65535</value>
+      <value>18-65535</value>
       <name>Unassigned</name>
     </record>
   </registry>  
