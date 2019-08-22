@@ -1,5 +1,5 @@
 AVP Value,Attribute Name,Reference
 0,HOST_REPORT,[RFC7683]
 1,REALM_REPORT,[RFC7683]
-2,PEER_REPORT,[RFC-ietf-dime-agent-overload-11]
+2,PEER_REPORT,[RFC8581]
 3-4294967295,Unassigned,

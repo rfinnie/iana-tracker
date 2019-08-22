@@ -40,6 +40,7 @@ ietf-datastores,ietf-datastores@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ie
 ietf-dc-fabric-topology,ietf-dc-fabric-topology@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology,fabric,,[RFC8542],
 ietf-dc-fabric-topology-state,ietf-dc-fabric-topology-state@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology-state,sfabric,,[RFC8542],
 ietf-dc-fabric-types,ietf-dc-fabric-types@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-types,fabrictypes,,[RFC8542],
+ietf-dots-data-channel,,N,urn:ietf:params:xml:ns:yang:ietf-dots-data-channel,data-channel,,[RFC-ietf-dots-data-channel-31],[RFC-ietf-dots-data-channel-31]'s module file will be posted upon the document's publication as an RFC.
 ietf-dslite,ietf-dslite@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC8513],
 ietf-ethertypes,ietf-ethertypes@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-ethertypes,ethertypes,,[RFC8519],
 ietf-hardware,ietf-hardware@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC8348],
@@ -98,6 +99,7 @@ ietf-pim-sm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-sm,pim-sm,,[RFC-ietf-pim-yan
 ietf-ptp,ietf-ptp@2019-05-07.yang,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[RFC8575],
 ietf-restconf,ietf-restconf@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf,rc,,[RFC8040],
 ietf-restconf-monitoring,ietf-restconf-monitoring@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring,rcmon,,[RFC8040],
+ietf-restconf-subscribed-notifications,,N,urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications,rsn,,[RFC-ietf-netconf-restconf-notif-15],[RFC-ietf-netconf-restconf-notif-15]'s module file will be posted upon the document's publication as an RFC.
 ietf-rip,,N,urn:ietf:params:xml:ns:yang:ietf-rip,rip,,[RFC-ietf-rtgwg-yang-rip-08],[RFC-ietf-rtgwg-yang-rip-08]'s module file will be posted upon the document's publication as an RFC.
 ietf-routing,ietf-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8022],
 ietf-routing,ietf-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8349],

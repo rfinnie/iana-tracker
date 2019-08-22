@@ -1,7 +1,7 @@
                                                         IPv4 Multicast Address Space Registry
 
    Last Updated
-           2019-07-01
+           2019-08-19
 
    Expert(s)
 
@@ -372,7 +372,8 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
    224.0.2.11                  LDA Discovery Service     [Juan_Ayas]                         [LDA_Audio_Tech]                 2018-10-17
    224.0.2.12                  CNP-HD-PLC                [Ernst_EDER]                        [LonMark_International]          2018-11-15
    224.0.2.13                  BSE                       [Rami_Chalhoub]                     [BSE]                            2019-01-17
-   224.0.2.14-224.0.2.63       Unassigned
+   224.0.2.14                  OPC Discovery             [OPC_Foundation]                    [OPC_Foundation]                 2019-08-19
+   224.0.2.15-224.0.2.63       Unassigned
    224.0.2.64-224.0.2.95       Intercontinental          [RIR_Admin]                         [Intercontinental_Exchange_Inc.] 1996-04    2007-07
                                Exchange, Inc.
    224.0.2.96-224.0.2.127      BallisterNet              [Tom_Ballister]                                                      1997-07-01
@@ -1035,6 +1036,7 @@ Relative Addresses used with Scoped Multicast Addresses
 [Nick_Barendt]                                    Nick Barendt                                mailto:nbarendt&vxitech.com                        2005-11-01
 [Nigel_Thompson]                                  Nigel Thompson                              mailto:nigelt&tribal.com                           1999-01-01
 [Oliver_Lewis]                                    Oliver Lewis                                mailto:o.lewis&icerobotics.co.uk                   2006-07-11
+[OPC_Foundation]                                  OPC Foundation                              mailto:sysadmin&opcfoundation.org                  2019-08-19
 [OSPF_WG_Chairs]                                  OSPF WG Chairs                              mailto:ospf-chairs&ietf.org
 [Oyvind_H_Olsen]                                  Oyvind H. Olsen                             mailto:oyvind-hollup.olsen&canaldigital.com        2007-09-12
 [Paolo_Strazzera]                                 Paolo Strazzera                             mailto:p.strazzera&telematica.it                   1999-06-01

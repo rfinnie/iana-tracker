@@ -33,7 +33,8 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 29,pwd_protect,CH,N,[RFC8492]
 30,pwd_clear,CH,N,[RFC8492]
 31,password_salt,"CH, SH, HRR",N,[RFC8492]
-32-34,Unassigned,,,
+32,ticket_pinning,"CH, EE",N,[RFC-sheffer-tls-pinning-ticket-12]
+33-34,Unassigned,,,
 35,"session_ticket (renamed from ""SessionTicket TLS"")",-,Y,[RFC5077][RFC8447]
 36-40,Unassigned,,,
 41,pre_shared_key,"CH, SH",Y,[RFC8446]
@@ -50,7 +51,10 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 52,transparency_info,"CH, CR, CT",Y,[draft-ietf-trans-rfc6962-bis]
 53,"connection_id 
         (TEMPORARY - registered 2019-07-02, expires 2020-07-02)",-,Y,[draft-ietf-tls-dtls-connection-id]
-54-65279,Unassigned,,,
+54,Unassigned,,,
+55,external_id_hash,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
+56,external_session_id,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
+57-65279,Unassigned,,,
 65280,Reserved for Private Use,,,[RFC8446]
 65281,renegotiation_info,-,Y,[RFC5746]
 65282-65535,Reserved for Private Use,,,[RFC8446]
