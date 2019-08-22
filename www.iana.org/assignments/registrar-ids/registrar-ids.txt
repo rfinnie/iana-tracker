@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2019-08-15
+           2019-08-22
 
    Available Formats
            [IMG]
@@ -77,10 +77,10 @@ Registrar IDs
      70    Group NBT plc aka NetNames                                            Terminated
      71    Jiva Online Pty Ltd.                                                  Terminated
      72    Dotster, Inc.                                                         Terminated
-     73    Ports Group AB                                                        Accredited
+     73    Ports Group AB                                                        Accredited https://rdap.ports.domains/
      74    Online SAS                                                            Accredited https://rdap.bookmyname.com/
      75    Tech Electro Industries, Inc.                                         Terminated
-     76    Nominalia Internet S.L.                                               Accredited
+     76    Nominalia Internet S.L.                                               Accredited https://rdap-nominalia.info/
      78    PSI-Japan, Inc.                                                       Accredited
      79    Easyspace Limited                                                     Accredited
      80    Virtualis Systems Inc.                                                Terminated
@@ -109,7 +109,7 @@ Registrar IDs
      110   Shaver Communications, Inc.                                           Terminated
      111   Secura GmbH                                                           Accredited
      112   Catalog.com                                                           Accredited
-     113   CSL Computer Service Langenbach GmbH d/b/a joker.com                  Accredited
+     113   CSL Computer Service Langenbach GmbH d/b/a joker.com                  Accredited https://rdap.joker.com/
      119   Reserved for Internal Registry Use                                    Reserved
      120   Xin Net Technology Corporation                                        Accredited
      121   Dotregistrar, LLC                                                     Terminated
@@ -138,11 +138,11 @@ Registrar IDs
      152   FullWeb, Inc. d/b/a FullNic                                           Terminated
      166   7Ways                                                                 Terminated
      167   DEXT Co., Ltd.                                                        Terminated
-     168   Register SPA                                                          Accredited
+     168   Register SPA                                                          Accredited https://rdap-register.info/
      186   NameScout Corp.                                                       Accredited
      206   Antelecom, Inc. f/k/a Hughes Electronic Commerce, Inc.                Terminated
      226   Deutsche Telekom AG                                                   Accredited https://rdap.telekom-registrar.de/rdap/
-     228   Moniker Online Services LLC                                           Accredited
+     228   Moniker Online Services LLC                                           Accredited https://rdap.rrpproxy.net/
      230   Centergate Research Group, LLC                                        Terminated
      232   Datasource Network Australia Limited                                  Terminated
      239   7DC, Inc.                                                             Terminated
@@ -160,7 +160,7 @@ Registrar IDs
      257   GlobalHosting, Inc. d/b/a SiteRegister                                Terminated
      258   Marksonline, Inc.                                                     Terminated
      268   pAsia, Inc.                                                           Terminated
-     269   Key-Systems GmbH                                                      Accredited
+     269   Key-Systems GmbH                                                      Accredited https://rdap.rrpproxy.net/
      270   Address Creation, LLC                                                 Accredited
      274   American Domain Name Registry                                         Terminated
      275   Alice's Registry, Inc.                                                Accredited
@@ -266,7 +266,7 @@ Registrar IDs
      471   Bizcn.com, Inc.                                                       Accredited
      472   Dynadot, LLC                                                          Accredited
      473   Best Registration Services, Inc. dba BestRegistrar.com                Terminated
-     474   IDC Frontier Inc.                                                     Accredited
+     474   IDC Frontier Inc.                                                     Accredited https://rdap.do-reg.net/rdap/
      475   R. Lee Chambers Company LLC dba DomainsToBeSeen.com                   Terminated
      600   Rebel Ltd                                                             Accredited
      601   French Connexion SARL dba Domaine.fr                                  Accredited
@@ -453,7 +453,7 @@ Registrar IDs
      787   GoName-TN.com, Inc.                                                   Terminated
      788   Name.cc Inc                                                           Accredited
      789   Notablenames.ca Inc.                                                  Terminated
-     790   Premierename.ca Inc.                                                  Accredited
+     790   Premierename.ca Inc.                                                  Terminated
      791   PrimeRegistrar.ca Inc.                                                Terminated
      792   NamePal.com #8019, LLC                                                Accredited https://rdap.networksolutions.com/rdap/
      793   Redomainder Internet Services Corporation                             Terminated
@@ -501,7 +501,7 @@ Registrar IDs
      836   Bottle Domains, Inc.                                                  Accredited
      837   Freeparking Domain Registrars, Inc.                                   Accredited
      838   BatDomains.com Ltd.                                                   Terminated
-     839   Realtime Register B.V.                                                Accredited
+     839   Realtime Register B.V.                                                Accredited https://rdap.yoursrs.com/
      840   Nicco Ltd.                                                            Accredited
      841   Tiger Technologies LLC                                                Accredited
      842   SoftLayer Technologies, Inc.                                          Accredited
@@ -628,11 +628,11 @@ Registrar IDs
      963   Nom d'un Net ! Sarl                                                   Terminated
      965   Domain Central Australia Pty Ltd.                                     Accredited
      966   Web Business, LLC                                                     Terminated
-     967   ! #1 Host Australia, Inc.                                             Accredited https://rdap.networksolutions.com/rdap/
-     968   ! #1 Host Germany, Inc.                                               Accredited https://rdap.networksolutions.com/rdap/
+     967   ! #1 Host Australia, LLC                                              Accredited https://rdap.networksolutions.com/rdap/
+     968   ! #1 Host Germany, LLC                                                Accredited https://rdap.networksolutions.com/rdap/
      969   ! #1 Host Brazil, Inc.                                                Terminated
-     970   ! #1 Host China, Inc.                                                 Accredited https://rdap.networksolutions.com/rdap/
-     971   ! #1 Host Canada, Inc.                                                Accredited https://rdap.networksolutions.com/rdap/
+     970   ! #1 Host China, LLC                                                  Accredited https://rdap.networksolutions.com/rdap/
+     971   ! #1 Host Canada, LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
      972   TPP Domains Pty Ltd. dba TPP Internet                                 Accredited
      973   Haveaname, LLC                                                        Accredited
      974   Netestate, LLC                                                        Accredited
@@ -641,8 +641,8 @@ Registrar IDs
      977   Broadspire Inc.                                                       Terminated
      978   ! #1 Host Israel, Inc.                                                Accredited
      979   ! #1 Host United Kingdom, Inc.                                        Terminated
-     980   ! #1 Host Japan, Inc.                                                 Accredited https://rdap.networksolutions.com/rdap/
-     981   ! #1 Host Korea, Inc.                                                 Accredited https://rdap.networksolutions.com/rdap/
+     980   ! #1 Host Japan, LLC                                                  Accredited https://rdap.networksolutions.com/rdap/
+     981   ! #1 Host Korea, LLC                                                  Accredited https://rdap.networksolutions.com/rdap/
      982   ! #1 Host Kuwait, Inc.                                                Terminated
      983   ! #1 Host Malaysia, Inc.                                              Terminated
      984   ID Genesis, LLC                                                       Terminated
@@ -662,7 +662,7 @@ Registrar IDs
      998   Tzolkin Corporation dba: TZO.COM                                      Terminated
      999   Mobiline USA dba domainbonus.com                                      Terminated
     1000   ******nondotcom, Inc.                                                 Terminated
-    1001   Domeneshop AS dba domainnameshop.com                                  Accredited
+    1001   Domeneshop AS dba domainnameshop.com                                  Accredited https://rdap.domeneshop.no/
     1002   Maxim Internet, Inc.                                                  Terminated
     1003   Ekados, Inc., d/b/a groundregistry.com                                Accredited
     1004   Netlynx Inc.                                                          Terminated
@@ -747,12 +747,12 @@ Registrar IDs
     1083   Curious Net, LLC                                                      Accredited
     1084   AsiaRegister, Inc.                                                    Accredited
     1085   Click Registrar, LLC dba publicdomainregistry.com                     Accredited
-    1086   Marcaria.com International, Inc.                                      Accredited
+    1086   Marcaria.com International, Inc.                                      Accredited https://rdapserver.net/
     1087   MOOZOOY MEDIA INC.                                                    Terminated
     1088   Globe Hosting, Inc.                                                   Terminated
     1089   Blue Gravity Communications, Inc.                                     Terminated
     1090   Active Registrar, Inc.                                                Terminated
-    1091   IHS Telekom, Inc.                                                     Accredited
+    1091   IHS Telekom, Inc.                                                     Accredited https://rdapserver.net/
     1092   Best Bulk Register, Inc.                                              Terminated
     1093   Cool Ocean, LLC                                                       Accredited
     1094   HooYoo (US) Inc.                                                      Terminated
@@ -923,7 +923,7 @@ Registrar IDs
     1259   SBNames Ltd.                                                          Terminated
     1260   ISPREG LTD                                                            Terminated
     1261   ABSYSTEMS INC dba yournamemonkey.com                                  Terminated
-    1262   Dinahosting s.l.                                                      Accredited
+    1262   Dinahosting s.l.                                                      Accredited https://rdap.dinahosting.com/
     1263   SNAPNAMES 21, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1264   SNAPNAMES 22, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1265   SNAPNAMES 23, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
@@ -951,7 +951,7 @@ Registrar IDs
     1287   SNAPNAMES 60, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1288   SNAPNAMES 61, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1289   SNAPNAMES 62, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
-    1290   SafeBrands SAS                                                        Accredited
+    1290   SafeBrands SAS                                                        Accredited https://rdap.safebrands.com/
     1291   Dreamscape Networks International Pte Ltd                             Accredited
     1292   SNAPNAMES 45, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1293   SNAPNAMES 49, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
@@ -1007,7 +1007,7 @@ Registrar IDs
     1342   Namevolcano.com LLC                                                   Accredited https://rdap.networksolutions.com/rdap/
     1343   Namesalacarte.com LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
     1344   Namepanther.com LLC                                                   Accredited https://rdap.networksolutions.com/rdap/
-    1345   Key-Systems, LLC                                                      Accredited
+    1345   Key-Systems, LLC                                                      Accredited https://rdap.rrpproxy.net/
     1346   Sitefrenzy.com LLC                                                    Accredited https://rdap.networksolutions.com/rdap/
     1347   Silverbackdomains.com LLC                                             Accredited https://rdap.networksolutions.com/rdap/
     1348   Savethename.com LLC                                                   Accredited https://rdap.networksolutions.com/rdap/
@@ -1065,7 +1065,7 @@ Registrar IDs
     1399   Clertech.com Inc.                                                     Terminated
     1401   domainfactory GmbH                                                    Terminated
     1402   Hu Yi Global Information Resources (Holding) Company                  Terminated
-    1403   10dencehispahard, S.L.                                                Accredited
+    1403   10dencehispahard, S.L.                                                Accredited https://rdap.cdmon.com/
     1404   Web Site Source, Inc.                                                 Terminated
     1405   Internet NAYANA Inc.                                                  Terminated
     1406   Thought Convergence, Inc.                                             Terminated
@@ -1104,7 +1104,7 @@ Registrar IDs
     1441   TurnCommerce, Inc. DBA NameBright.com                                 Accredited
     1442   Internet Networks S.A. De C.V.                                        Terminated
     1443   Vautron Rechenzentrum AG                                              Accredited
-    1444   TWT S.p.A.                                                            Accredited
+    1444   TWT S.p.A.                                                            Accredited https://rdap.1api.net/
     1445   VocalSpace, LLC dba DesktopDomainer.com                               Terminated
     1446   Larsen Data ApS                                                       Accredited
     1447   World Biz Domains, LLC                                                Accredited
@@ -1126,7 +1126,7 @@ Registrar IDs
     1463   Global Domains International, Inc. DBA DomainCostClub.com             Accredited https://rdap.domaincostclub.com/
     1464   NameWeb BVBA                                                          Accredited
     1465   Hangzhou AiMing Network Co., Ltd.                                     Accredited
-    1466   Lexsynergy Limited                                                    Accredited
+    1466   Lexsynergy Limited                                                    Accredited https://rdap.lexsynergy.com/
     1467   Register NV dba Register.eu                                           Accredited
     1468   Virtucom Networks S.A.                                                Terminated
     1469   Jiangsu Bangning Science & technology Co. Ltd.                        Accredited
@@ -1184,9 +1184,9 @@ Registrar IDs
     1522   home.pl S.A.                                                          Terminated
     1523   Tong Ji Ming Lian (Beijing) Technology Corporation Ltd. (Trename)     Terminated
     1524   Networking4all B.V.                                                   Terminated
-    1525   Guangdong JinWanBang Technology Investment Co., Ltd.                  Accredited
+    1525   Guangdong JinWanBang Technology Investment Co., Ltd.                  Accredited https://rdap.gzidc.com/server/
     1526   Hogan Lovells International LLP                                       Accredited
-    1527   DOMAIN NAME NETWORK PTY LTD                                           Accredited
+    1527   DOMAIN NAME NETWORK PTY LTD                                           Accredited https://rdap.auswhois.com/rdap/
     1528   Groupe MIT SARL                                                       Terminated
     1529   DomainLocal LLC                                                       Accredited
     1530   Pacific Online Inc.                                                   Terminated
@@ -1360,7 +1360,7 @@ Registrar IDs
     1702   Alexander the Great, LLC                                              Terminated
     1703   Cyrus the Great, LLC                                                  Terminated
     1704   Julius Caesar, LLC                                                    Terminated
-    1705   Network Information Center, S. A. de C. V.                            Accredited
+    1705   Network Information Center, S. A. de C. V.                            Accredited https://rdap.akky.mx/
     1708   Nominet Registrar Services Limited                                    Accredited
     1710   Nhan Hoa Software Company Ltd.                                        Accredited
     1712   Number One Web Hosting Limited                                        Accredited
@@ -1371,7 +1371,7 @@ Registrar IDs
     1718   Dynadot6 LLC                                                          Accredited
     1719   Dynadot7 LLC                                                          Accredited
     1720   Dynadot8 LLC                                                          Accredited
-    1721   JPRS Registrar Co., Ltd.                                              Accredited
+    1721   JPRS Registrar Co., Ltd.                                              Accredited https://rdap.registrar.jprs/rdap/
     1722   Tianjin Zhuiri Science and Technology Development Co Ltd.             Accredited
     1723   Internet Domain Name System Beijing Engineering Research Center LLC   Accredited
            (ZDNS)
@@ -2131,7 +2131,7 @@ Registrar IDs
     2480   Akamai Technologies, Inc.                                             Accredited
     2481   Blue Hi Interconnect (Beijing) Technology Limited Company             Terminated
     2482   Stichting Registrar of Last Resort Foundation                         Accredited
-    2483   NameCamp Limited                                                      Accredited
+    2483   NameCamp Limited                                                      Accredited https://rdap.namecamp.com/
     2484   Domain Research, LLC                                                  Accredited
     2485   EIMS (Shenzhen) Culture & Technology Co., Ltd                         Accredited
     2486   Ednit Software Private Limited                                        Accredited
@@ -2562,7 +2562,7 @@ Registrar IDs
     2915   Xiamen Xin click Network Polytron Technologies Inc                    Accredited
     2916   Hangzhou Midaizi Network Co., Ltd.                                    Accredited
     2917   Aiming Limited                                                        Accredited
-    2918   NetZone AG                                                            Accredited
+    2918   NetZone AG                                                            Accredited https://rdap.netzone.ch/
     2919   Camelot 1, LLC                                                        Terminated
     2920   Camelot 2, LLC                                                        Terminated
     2921   Camelot 3, LLC                                                        Terminated
@@ -3426,7 +3426,7 @@ Registrar IDs
     3781   Beijing Aidi Tong Lian Technology, LLC                                Terminated
     3782   HONG KONG HUBU INTERNATIONAL INVESTMENT AND DEVELOPMENT COMPANY       Terminated
            LIMITED
-    3783   ZYSM Technologies Limited                                             Accredited
+    3783   ZYSM Technologies Limited                                             Accredited https://rdap.zysm.wang/
     3784   Wolfe Domain, LLC dba Dot Brand Registrar Services                    Accredited
     3785   AC Webconnecting N.V.                                                 Accredited
     3786   Brandsight, Inc.                                                      Accredited
@@ -3479,6 +3479,7 @@ Registrar IDs
     3841   VIAWEB Inc.                                                           Accredited
     3844   AppCroNix Infotech Private Limited, d/b/a VEBONIX.com                 Accredited
     3846   DomainsBot S.R.L.                                                     Accredited
+    3847   Beijing Jingkewang Technology Company Ltd.                            Accredited
     3848   Shandong Huaimi Network Technology Co., Ltd                           Accredited
     9995   Reserved for Pre-Delegation Testing transactions #1 reporting         Reserved
     9996   Reserved for Pre-Delegation Testing transactions #2 reporting         Reserved

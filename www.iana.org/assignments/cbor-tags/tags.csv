@@ -31,12 +31,13 @@ Tag,Data Item,Semantics,Reference
 39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
 40,array of two arrays [1],"Multi-dimensional Array, row-major order",[draft-ietf-cbor-array-tags]
 41,array,Homogeneous Array,[draft-ietf-cbor-array-tags]
-42,unsigned integer,YANG Schema Item iDentifier (sid); see Section 3.2.,[draft-ietf-core-yang-cbor]
+42,Unassigned,,
 43,byte string,YANG bits datatype; see Section 6.7.,[draft-ietf-core-yang-cbor]
 44,unsigned integer,YANG enumeration datatype; see Section 6.6.,[draft-ietf-core-yang-cbor]
 45,unsigned integer or text string,YANG identityref datatype; see Section 6.10.,[draft-ietf-core-yang-cbor]
 46,unsigned integer or text string or array,YANG instance-identifier datatype; see Section 6.13.,[draft-ietf-core-yang-cbor]
-47-60,Unassigned,,
+47,unsigned integer,YANG Schema Item iDentifier (sid); see Section 3.2.,[draft-ietf-core-yang-cbor]
+48-60,Unassigned,,
 61,CBOR Web Token (CWT),CBOR Web Token (CWT),[RFC8392][Michael_B._Jones]
 62-63,Unassigned,,
 64,byte string,uint8 Typed Array,[draft-ietf-cbor-array-tags]
