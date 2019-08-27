@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   
   <title>Registrar IDs</title>
-  <updated>2019-08-22</updated>
+  <updated>2019-08-26</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -18778,10 +18778,10 @@
       <name>Hangzhou MarkSmile Technology Co., Ltd</name>
       <status>Accredited</status>
     </record>
-    <record date="2017-11-09">
+    <record date="2017-11-09" updated="2019-08-26">
       <value>3778</value>
       <name>Nanjing EDNS Technology Limited</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record date="2017-08-14">
       <value>3779</value>
