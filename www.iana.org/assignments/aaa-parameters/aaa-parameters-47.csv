@@ -176,6 +176,8 @@ Code Value,Name,Reference
 8388734,MT-Data-Request/Answer (TDR/TDA),[3GPP TS 29.128][Kimmo_Kymalainen]
 8388735,Event-Configuration-Request/Answer (ECR/ECA),[3GPP TS 29.154][Kimmo_Kymalainen]
 8388736,Event-Reporting-Request/Answer (ERR/ERA),[3GPP TS 29.154][Kimmo_Kymalainen]
-8388737-16777213,Unassigned,
+8388737,DESS-DTLS-Handshake-Client-Request/Response,[GSMA PRD FS.19][Wayne_Cutler]
+8388738,DESS-DTLS-Handshake-Server-Request/Response,[GSMA PRD FS.19][Wayne_Cutler]
+8388739-16777213,Unassigned,
 16777214,Experimental code,[RFC6733]
 16777215,Experimental code,[RFC6733]

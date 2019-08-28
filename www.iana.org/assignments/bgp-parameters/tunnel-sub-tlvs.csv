@@ -12,10 +12,10 @@ Value,Name,Reference
 10,"MPLS Label Stack (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)",[draft-ietf-idr-tunnel-encaps]
 11,"Prefix SID (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)",[draft-ietf-idr-tunnel-encaps]
 12,"Preference sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2018-08-27, expires 2019-10-12)",[draft-ietf-idr-segment-routing-te-policy]
+        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)",[draft-ietf-idr-segment-routing-te-policy]
 13,"Binding SID sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2018-08-27, expires 2019-10-12)",[draft-ietf-idr-segment-routing-te-policy]
+        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)",[draft-ietf-idr-segment-routing-te-policy]
 14-127,Unassigned,
 128,"Segment List sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2018-08-27, expires 2019-10-12)",[draft-ietf-idr-segment-routing-te-policy]
+        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)",[draft-ietf-idr-segment-routing-te-policy]
 129-255,Unassigned,
