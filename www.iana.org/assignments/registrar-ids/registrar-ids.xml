@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
   
   <title>Registrar IDs</title>
-  <updated>2019-08-15</updated>
+  <updated>2019-08-26</updated>
   <registry id="registrar-ids-1">
     <title>Registrar IDs</title>
     <xref type="text">Not defined by an RFC</xref>
@@ -268,10 +268,13 @@
       <name>Dotster, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-10-27">
+    <record updated="2019-08-20">
       <value>73</value>
       <name>Ports Group AB</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.ports.domains/</server>
+      </rdapurl>
     </record>
     <record updated="2019-07-11">
       <value>74</value>
@@ -286,10 +289,13 @@
       <name>Tech Electro Industries, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>76</value>
       <name>Nominalia Internet S.L.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap-nominalia.info/</server>
+      </rdapurl>
     </record>
     <record>
       <value>78</value>
@@ -319,15 +325,21 @@
       <name>OnlineNIC, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record updated="2019-03-29">
+    <record updated="2019-08-22">
       <value>83</value>
       <name>1&amp;1 IONOS SE</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.ionos.com/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>84</value>
       <name>UK-2 Limited</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>85</value>
@@ -432,10 +444,13 @@
       <name>Catalog.com</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>113</value>
       <name>CSL Computer Service Langenbach GmbH d/b/a joker.com</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.joker.com/</server>
+      </rdapurl>
     </record>
     <record date="2015-08-20">
       <value>119</value>
@@ -583,10 +598,13 @@
       <name>DEXT Co., Ltd.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2019-07-03">
+    <record updated="2019-08-20">
       <value>168</value>
       <name>Register SPA</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap-register.info/</server>
+      </rdapurl>
     </record>
     <record>
       <value>186</value>
@@ -606,10 +624,13 @@
         <server>https://rdap.telekom-registrar.de/rdap/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>228</value>
       <name>Moniker Online Services LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.rrpproxy.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>230</value>
@@ -696,10 +717,13 @@
       <name>pAsia, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>269</value>
       <name>Key-Systems GmbH</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.rrpproxy.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>270</value>
@@ -789,10 +813,13 @@
       <name>000domains, LLC</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>303</value>
       <name>PDR Ltd. d/b/a PublicDomainRegistry.com</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>304</value>
@@ -862,10 +889,13 @@
       <name>2030138 Ontario Inc. dba NamesBeyond.com and dba GoodLuckDomain.com</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>379</value>
       <name>Arsys Internet, S.L. dba NICLINE.COM</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.domainconnection.info/</server>
+      </rdapurl>
     </record>
     <record updated="2016-07-19">
       <value>380</value>
@@ -1032,10 +1062,13 @@
       <name>Nobel Networks</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>433</value>
       <name>OVH sas</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.ovh.com/</server>
+      </rdapurl>
     </record>
     <record>
       <value>434</value>
@@ -1168,10 +1201,13 @@
       <name>Domain Monkeys, LLC</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>460</value>
       <name>Web Commerce Communications Limited dba WebNic.cc</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.webnic.cc/</server>
+      </rdapurl>
     </record>
     <record>
       <value>461</value>
@@ -1238,10 +1274,13 @@
       <name>Best Registration Services, Inc. dba BestRegistrar.com</name>
       <status>Terminated</status>
     </record>
-    <record updated="2019-08-15">
+    <record updated="2019-08-20">
       <value>474</value>
       <name>IDC Frontier Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.do-reg.net/rdap/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>475</value>
@@ -1283,10 +1322,13 @@
       <name>Namezero, LLC</name>
       <status>Accredited</status>
     </record>
-    <record updated="2014-10-21">
+    <record updated="2019-08-22">
       <value>607</value>
       <name>Annulet LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.annulet.com/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>608</value>
@@ -2306,10 +2348,10 @@
       <name>Notablenames.ca Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>790</value>
       <name>Premierename.ca Inc.</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record updated="2015-07-22">
       <value>791</value>
@@ -2399,10 +2441,13 @@
       <name>Registrar Company, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>809</value>
       <name>Ledl.net GmbH</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.ledl.net/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>810</value>
@@ -2449,12 +2494,12 @@
       <name>Interdominios, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record updated="2019-08-01">
+    <record updated="2019-08-22">
       <value>819</value>
       <name>Reg2C.com Inc.</name>
       <status>Accredited</status>
       <rdapurl>
-        <server>https://rdap.myorderbox.com/</server>
+        <server>https://rdapserver.net/</server>
       </rdapurl>
     </record>
     <record updated="2018-10-18">
@@ -2497,20 +2542,26 @@
       <name>Hetzner Online GmbH</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>829</value>
       <name>Anytime Sites, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>830</value>
       <name>IPNIC, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>831</value>
       <name>Crisp Names, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>832</value>
@@ -2547,10 +2598,13 @@
       <name>BatDomains.com Ltd.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>839</value>
       <name>Realtime Register B.V.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.yoursrs.com/</server>
+      </rdapurl>
     </record>
     <record>
       <value>840</value>
@@ -3081,20 +3135,26 @@
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>935</value>
       <name>Commerce Island, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2017-10-04">
       <value>936</value>
       <name>Ground Internet, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>937</value>
       <name>Blue Fractal, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2019-08-15">
       <value>938</value>
@@ -3104,10 +3164,13 @@
         <server>https://rdapserver.net/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>939</value>
       <name>Desert Devil, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>940</value>
@@ -3196,20 +3259,26 @@
       <name>INDOM SAS</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-22">
       <value>955</value>
       <name>Launchpad.com Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>956</value>
       <name>Hosting365 Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>957</value>
       <name>Titanic Hosting, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2017-11-06">
       <value>958</value>
@@ -3226,10 +3295,13 @@
       <name>WebZero, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>961</value>
       <name>Rank USA, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>962</value>
@@ -3251,17 +3323,17 @@
       <name>Web Business, LLC</name>
       <status>Terminated</status>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>967</value>
-      <name>! #1 Host Australia, Inc.</name>
+      <name>! #1 Host Australia, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>968</value>
-      <name>! #1 Host Germany, Inc.</name>
+      <name>! #1 Host Germany, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
@@ -3272,17 +3344,17 @@
       <name>!  #1 Host Brazil, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>970</value>
-      <name>! #1 Host China, Inc.</name>
+      <name>! #1 Host China, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>971</value>
-      <name>! #1 Host Canada, Inc.</name>
+      <name>! #1 Host Canada, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
@@ -3331,17 +3403,17 @@
       <name>!  #1 Host United Kingdom, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>980</value>
-      <name>! #1 Host Japan, Inc.</name>
+      <name>! #1 Host Japan, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record updated="2019-08-08">
+    <record updated="2019-08-22">
       <value>981</value>
-      <name>! #1 Host Korea, Inc.</name>
+      <name>! #1 Host Korea, LLC</name>
       <status>Accredited</status>
       <rdapurl>
         <server>https://rdap.networksolutions.com/rdap/</server>
@@ -3367,10 +3439,13 @@
       <name>Own Identity, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>986</value>
       <name>Mighty Bay, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2019-08-08">
       <value>987</value>
@@ -3420,10 +3495,13 @@
       <name>Europe Domains LLC</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>996</value>
       <name>DomainAdministration.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.domainadministration.com/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-02-01">
       <value>997</value>
@@ -3445,10 +3523,13 @@
       <name>******nondotcom, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-20">
       <value>1001</value>
       <name>Domeneshop AS dba domainnameshop.com</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.domeneshop.no/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1002</value>
@@ -3921,10 +4002,13 @@
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1068</value>
       <name>NameCheap, Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.namecheap.com/</server>
+      </rdapurl>
     </record>
     <record updated="2019-08-15">
       <value>1069</value>
@@ -4017,25 +4101,34 @@
       <name>Register4Less, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1083</value>
       <name>Curious Net, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1084</value>
       <name>AsiaRegister, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1085</value>
       <name>Click Registrar, LLC dba publicdomainregistry.com</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1086</value>
       <name>Marcaria.com International, Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1087</value>
@@ -4057,20 +4150,26 @@
       <name>Active Registrar, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1091</value>
       <name>IHS Telekom, Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1092</value>
       <name>Best Bulk Register, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1093</value>
       <name>Cool Ocean, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1094</value>
@@ -4082,75 +4181,111 @@
       <name>European NIC Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1096</value>
       <name>Find Good Domains, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>1097</value>
       <name>Nettica Domains, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1098</value>
       <name>Domain Mantra, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1099</value>
       <name>Domain Band, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1100</value>
       <name>Net Juggler, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1101</value>
       <name>Power Carrier, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1102</value>
       <name>Network Savior, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>1103</value>
       <name>Name For Name, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1104</value>
       <name>Name To Fame, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1105</value>
       <name>Unpower, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1106</value>
       <name>Unified Servers, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1107</value>
       <name>Tech Tyrants, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1108</value>
       <name>Ultra Registrar, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1109</value>
       <name>Trade Starter, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1110</value>
@@ -4162,100 +4297,151 @@
       <name>DomainContext, Inc.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1112</value>
       <name>Internet Invest, Ltd. dba Imena.ua</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1113</value>
       <name>Instinct Solutions, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1114</value>
       <name>Media Elite Holdings Limited</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1115</value>
       <name>Visual Monster, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2018-05-02">
       <value>1116</value>
       <name>Domerati, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1117</value>
       <name>Platinum Registrar, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1118</value>
       <name>Crystal Coal, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1119</value>
       <name>Extremely Wild, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1120</value>
       <name>Game For Names, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1121</value>
       <name>Go Full House, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1122</value>
       <name>Key Registrar, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1123</value>
       <name>Magic Friday, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1124</value>
       <name>Need Servers, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1125</value>
       <name>Name Perfections, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1126</value>
       <name>Yellow Start, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1127</value>
       <name>Zone Casting, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1128</value>
       <name>Power Namers, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1129</value>
       <name>Extend Names, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1130</value>
       <name>Ever Ready Names, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-09-24">
       <value>1131</value>
@@ -4317,35 +4503,50 @@
       <name>Genuine Names, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1143</value>
       <name>Your Domain King, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1144</value>
       <name>The Registrar Service, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1145</value>
       <name>Big Domain Shop, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1146</value>
       <name>Western United Domains, Inc.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1147</value>
       <name>Super Name World, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1148</value>
       <name>Jumbo Name, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1149</value>
@@ -4372,10 +4573,13 @@
       <name>Go France Domains, LLC</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1154</value>
       <name>FastDomain Inc.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.fastdomain.com/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>1155</value>
@@ -5146,10 +5350,13 @@
       <name>ABSYSTEMS INC dba yournamemonkey.com</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1262</value>
       <name>Dinahosting s.l.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.dinahosting.com/</server>
+      </rdapurl>
     </record>
     <record updated="2019-08-15">
       <value>1263</value>
@@ -5367,10 +5574,13 @@
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record updated="2015-09-29">
+    <record updated="2019-08-20">
       <value>1290</value>
       <name>SafeBrands SAS</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.safebrands.com/</server>
+      </rdapurl>
     </record>
     <record updated="2019-07-25">
       <value>1291</value>
@@ -5576,10 +5786,13 @@
       <name>documentdata Anstalt</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-07-08">
+    <record updated="2019-08-22">
       <value>1318</value>
       <name>Kaunas University of Technology, Department of Information Technologies dba Domreg.lt</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.domains.lt/</server>
+      </rdapurl>
     </record>
     <record updated="2016-07-28">
       <value>1319</value>
@@ -5726,10 +5939,13 @@
         <server>https://rdap.networksolutions.com/rdap/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1345</value>
       <name>Key-Systems, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.rrpproxy.net/</server>
+      </rdapurl>
     </record>
     <record updated="2019-08-15">
       <value>1346</value>
@@ -5904,10 +6120,13 @@
       <name>Internet Viennaweb Service GmbH</name>
       <status>Terminated</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-22">
       <value>1371</value>
       <name>AB Name ISP</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.namesrs.com/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1372</value>
@@ -6007,15 +6226,21 @@
       <name>Mesh Digital Limited</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-22">
       <value>1391</value>
       <name>Azdomainz, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.azdomainz.com/domain/</server>
+      </rdapurl>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-22">
       <value>1392</value>
       <name>Azprivatez, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.azdomainz.com/domain/</server>
+      </rdapurl>
     </record>
     <record date="2018-02-01">
       <value>1393</value>
@@ -6062,10 +6287,13 @@
       <name>Hu Yi Global Information Resources (Holding) Company</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1403</value>
       <name>10dencehispahard, S.L.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.cdmon.com/</server>
+      </rdapurl>
     </record>
     <record updated="2017-01-03">
       <value>1404</value>
@@ -6260,10 +6488,13 @@
       <name>Vautron Rechenzentrum AG</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1444</value>
       <name>TWT S.p.A.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.1api.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1445</value>
@@ -6367,20 +6598,26 @@
         <server>https://rdap.domaincostclub.com/</server>
       </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1464</value>
       <name>NameWeb BVBA</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap-nameweb.biz/</server>
+      </rdapurl>
     </record>
     <record updated="2016-08-18">
       <value>1465</value>
       <name>Hangzhou AiMing Network Co., Ltd.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1466</value>
       <name>Lexsynergy Limited</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.lexsynergy.com/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1467</value>
@@ -6517,10 +6754,13 @@
       <name>Beijing Guoxu Network Technology Co., Ltd.</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1495</value>
       <name>BigRock Solutions Ltd.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2019-02-08">
       <value>1496</value>
@@ -6667,20 +6907,26 @@
       <name>Networking4all B.V.</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1525</value>
       <name>Guangdong JinWanBang Technology Investment Co., Ltd.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.gzidc.com/server/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1526</value>
       <name>Hogan Lovells International LLP</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-20">
       <value>1527</value>
       <name>DOMAIN NAME NETWORK PTY LTD</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.auswhois.com/rdap/</server>
+      </rdapurl>
     </record>
     <record updated="2015-08-06">
       <value>1528</value>
@@ -7362,35 +7608,50 @@
       <name>Uniregistrar Corp</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1660</value>
       <name>Domainshype.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1661</value>
       <name>Domdrill.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2019-05-01">
       <value>1662</value>
       <name>Enset</name>
       <status>Terminated</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1663</value>
       <name>Hotdomaintrade.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1664</value>
       <name>Namware.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1665</value>
       <name>Vertex names.com, LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1666</value>
@@ -7602,10 +7863,13 @@
       <name>Julius Caesar, LLC</name>
       <status>Terminated</status>
     </record>
-    <record updated="2017-10-02">
+    <record updated="2019-08-20">
       <value>1705</value>
       <name>Network Information Center, S. A. de C. V.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.akky.mx/</server>
+      </rdapurl>
     </record>
 
     <record>
@@ -7644,10 +7908,13 @@
       <name>EU Technology (HK) Limited</name>
       <status>Accredited</status>
     </record>
-    <record>
+    <record updated="2019-08-22">
       <value>1717</value>
       <name>Netzadresse.at Domain Service GmbH</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.ispcomfort.net/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1718</value>
@@ -7664,10 +7931,13 @@
       <name>Dynadot8 LLC</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-20">
       <value>1721</value>
       <name>JPRS Registrar Co., Ltd.</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.registrar.jprs/rdap/</server>
+      </rdapurl>
     </record>
     <record>
       <value>1722</value>
@@ -7787,10 +8057,13 @@
       <name>Domain Vault Limited</name>
       <status>Accredited</status>
     </record>
-    <record updated="2016-07-19">
+    <record updated="2019-08-22">
       <value>1745</value>
       <name>LogicBoxes Naming Services Ltd</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdapserver.net/domain/</server>
+      </rdapurl>
     </record>
     <record updated="2018-09-27">
       <value>1746</value>
@@ -11720,10 +11993,13 @@
     <name>Stichting Registrar of Last Resort Foundation</name>
     <status>Accredited</status>
     </record>
-    <record date="2015-05-14" updated="2016-06-30">
+    <record date="2015-05-14" updated="2019-08-20">
     <value>2483</value>
     <name>NameCamp Limited</name>
     <status>Accredited</status>
+    <rdapurl>
+      <server>https://rdap.namecamp.com/</server>
+    </rdapurl>
     </record>
     <record date="2015-05-14" updated="2015-10-13">
     <value>2484</value>
@@ -14191,12 +14467,15 @@
     <name>Aiming Limited</name>
     <status>Accredited</status>
     </record>    
-    <record date="2015-12-16" updated="2016-04-13">
+    <record date="2015-12-16" updated="2019-08-20">
     <value>2918</value>
     <name>NetZone AG</name>
     <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.netzone.ch/</server>
+      </rdapurl>
     </record>
-        <record date="2016-01-26">
+    <record date="2016-01-26">
       <value>2919</value>
       <name>Camelot 1, LLC</name>
       <status>Terminated</status>
@@ -18499,10 +18778,10 @@
       <name>Hangzhou MarkSmile Technology Co., Ltd</name>
       <status>Accredited</status>
     </record>
-    <record date="2017-11-09">
+    <record date="2017-11-09" updated="2019-08-26">
       <value>3778</value>
       <name>Nanjing EDNS Technology Limited</name>
-      <status>Accredited</status>
+      <status>Terminated</status>
     </record>
     <record date="2017-08-14">
       <value>3779</value>
@@ -18524,10 +18803,13 @@
       <name>HONG KONG HUBU INTERNATIONAL INVESTMENT AND DEVELOPMENT COMPANY LIMITED</name>
       <status>Terminated</status>
     </record>
-    <record date="2017-08-03">
+    <record date="2017-08-03" updated="2019-08-20">
       <value>3783</value>
       <name>ZYSM Technologies Limited</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.zysm.wang/</server>
+      </rdapurl>
     </record>
     <record date="2017-07-18">
       <value>3784</value>
@@ -18757,10 +19039,13 @@
       <name>İsimtescil Bilişim A.Ş.</name>
       <status>Accredited</status>
     </record>
-    <record date="2018-10-25">
+    <record updated="2019-08-22">
       <value>3827</value>
       <name>Squarespace Domains LLC</name>
       <status>Accredited</status>
+      <rdapurl>
+        <server>https://rdap.squarespace.domains/</server>
+      </rdapurl>
     </record>
     <record date="2019-03-07">
       <value>3830</value>
@@ -18820,6 +19105,11 @@
     <record date="2019-08-01">
       <value>3846</value>
       <name>DomainsBot S.R.L.</name>
+      <status>Accredited</status>
+    </record>
+    <record date="2019-08-22">
+      <value>3847</value>
+      <name>Beijing Jingkewang Technology Company Ltd.</name>
       <status>Accredited</status>
     </record>
     <record date="2019-07-03">

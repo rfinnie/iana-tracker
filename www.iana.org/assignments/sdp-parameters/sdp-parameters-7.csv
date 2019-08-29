@@ -13,8 +13,8 @@ att-field (session level),tool,NORMAL,[RFC4566][RFC-ietf-mmusic-sdp-mux-attribut
 att-field (session level),ipbcp,SPECIAL,"[ITU-T Recommendation Q.1970, ""BICC IP bearer control
 protocol"" (07/2001)][RFC-ietf-mmusic-sdp-mux-attributes-16]"
 att-field (session level),group,NORMAL,[RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (session level),ice-lite,NORMAL,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (session level),ice-options,NORMAL,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16]
+att-field (session level),ice-lite,NORMAL,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
+att-field (session level),ice-options,NORMAL,[RFC5245][RFC-ietf-mmusic-sdp-mux-attributes-16][RFC-ietf-mmusic-ice-sip-sdp-39]
 att-field (session level),bcastversion,NORMAL,[RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (session level),3GPP-Integrity-Key,CAUTION,[RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (session level),3GPP-SDP-Auth,CAUTION,[RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
@@ -35,3 +35,4 @@ att-field (session level),sescap,CAUTION,[RFC6871][RFC-ietf-mmusic-sdp-mux-attri
 att-field (session level),rtsp-ice-d-m,TBD,[RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
 att-field (session level),ccc_list,N/A,[3GPP TS 26.114 version 13.4.0][_3GPP_Specifications_Manager]
 att-field (session level),identity,NORMAL,[RFC-ietf-rtcweb-security-arch-20]
+att-field (session level),ice-pacing,NORMAL,[RFC-ietf-mmusic-ice-sip-sdp-39]

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospf-lls-tlvs">
   <title>Open Shortest Path First (OSPF) Link Local Signalling (LLS) - Type/Length/Value Identifiers (TLV)</title>
   <created>2007-01-31</created>
-  <updated>2019-01-25</updated>
+  <updated>2019-08-23</updated>
   <registry id="ospf-lls-tlvs-1">
     <title>Link Local Signalling TLV Identifiers (LLS Types)</title>
     <xref type="rfc" data="rfc5613"/>
@@ -112,7 +112,7 @@
     <title>LLS Type 1 Extended Options and Flags</title>
     <xref type="rfc" data="rfc5613"/>
     <registration_rule>Expert Review</registration_rule>
-    <expert>Not designated</expert>
+    <expert>Gunter Van De Velde, Peter Psenak</expert>
     <record>
       <value>0x00000001</value>
       <description>LSDB Resynchronization (LR)</description>
