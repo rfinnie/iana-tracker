@@ -1,6 +1,6 @@
 Type,SDP Name,Mux Category,Reference
-bwtype,CT,NORMAL,[RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
-bwtype,AS,SUM,[RFC4566][RFC-ietf-mmusic-sdp-mux-attributes-16]
+bwtype,CT,NORMAL,[RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+bwtype,AS,SUM,[RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
 bwtype,RS,SUM,[RFC3556][RFC-ietf-mmusic-sdp-mux-attributes-16]
 bwtype,RR,SUM,[RFC3556][RFC-ietf-mmusic-sdp-mux-attributes-16]
 bwtype,TIAS,SPECIAL,[RFC3890][RFC-ietf-mmusic-sdp-mux-attributes-16]
