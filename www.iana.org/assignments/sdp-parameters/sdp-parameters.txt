@@ -4,7 +4,7 @@
            2001-06-15
 
    Last Updated
-           2019-08-29
+           2019-08-30
 
    Available Formats
            [IMG]
@@ -16,7 +16,7 @@
 
      * media
      * proto
-     * SDP bwtype
+     * bwtype
      * nettype
      * addrtype
      * enckey
@@ -133,7 +133,7 @@ proto
    proto UDP/BFCP              [RFC-ietf-bfcpbis-rfc4583bis-27]
    proto UDP/TLS/BFCP          [RFC-ietf-bfcpbis-rfc4583bis-27]
 
-SDP bwtype
+bwtype
 
    Registration Procedure(s)
 
@@ -230,384 +230,384 @@ att-field
 
   Type            SDP Name          Usage     Mux Category                                           Reference
                                     Level
-attribute cat                      session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute keywds                   session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type                     session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type:broadcast           session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type:H332                session  NORMAL           [ITU Recommendation H.332][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type:meeting             session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type:moderated           session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute type:test                session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute charset                  session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute charset:iso8895-1        session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute tool                     session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ipbcp                    session  SPECIAL          [ITU-T Recommendation Q.1970, "BICC IP bearer control protocol"
-                                                             (07/2001)][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute group                    session  NORMAL           [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ice-lite                 session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ice-options              session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute bcastversion             session  NORMAL           [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3ge2ae                   media    IDENTICAL        [3GPP TS 24.229 12.14.0][Frederic_Firmin]
+attribute 3gpp_MaxRecvSDUSize      session, NORMAL           [3GPP TS 26.114 Release 12, version 12.2.0,
+                                   media                     2013-06][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3gpp_sync_info           session, NORMAL           [3GPP TS 26.114 Release 12, version 12.2.0,
+                                   media                     2013-06][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3GPP-Adaptation-Support  media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3GPP-Asset-Information   session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
 attribute 3GPP-Integrity-Key       session  CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3GPP-QoE-Metrics         session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
 attribute 3GPP-SDP-Auth            session  CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3GPP-SRTP-Config         media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3gpp-videopostdecbufsize media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute 3gpp.iut.replication     session, TBD              [3GPP TS 24.337 10.7.0][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute aal2CPS                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aal2CPSSDUrate           media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aal2sscs3661assured      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aal2sscs3661unassured    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aal2sscs3662             media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aal5sscop                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aalApp                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute aalType                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute abrParms                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute abrSetup                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute acap                     session, INHERIT          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute accept-types             media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute accept-wrapped-types     media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute acfg                     media    SPECIAL          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute alt                      media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute alt-default-id           media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute alt-group                session  CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute altc                     media    TRANSPORT        [RFC6947][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute anycast                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute atmmap                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute atmQOSparms              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute atmTrfcDesc              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                                              [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-attribute PSCid                    session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
+attribute bc_program               session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
                                                              (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                                              [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
 attribute bc_service               session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
                                                              (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                                              [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
-attribute bc_program               session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
-                                                             (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                                             [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
 attribute bc_service_package       session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
                                                              (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute sescap                   session  CAUTION          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtsp-ice-d-m             session  TBD              [RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute bcap                     session, INHERIT          [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute bcastversion             session  NORMAL           [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute bcob                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute bearerSigIE              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute bearerType               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute bfcpver                  media    TBD              [RFC-ietf-bfcpbis-rfc4583bis-27]
+attribute bundle-only              media    NORMAL           [RFC-ietf-mmusic-sdp-bundle-negotiation-52]
+attribute cache                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute calgextmap               session, NORMAL           [RFC7266][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute candidate                media    TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute capability               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cat                      session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cbrRate                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ccap                     session, IDENTICAL        [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
 attribute ccc_list                 session  N/A              [3GPP TS 26.114 version 13.4.0][_3GPP_Specifications_Manager]
-attribute identity                 session  NORMAL           [RFC-ietf-rtcweb-security-arch-20]
-attribute ice-pacing               session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39]
-attribute recvonly                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute sendrecv                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute sendonly                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute sdplang                  session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute lang                     session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute h248item                 session, SPECIAL          [ITU-T H.248.15][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute sqn                      session, NORMAL           [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
 attribute cdsc                     session, NORMAL           [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute cfw-id                   media    NORMAL           [RFC6230][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute chain                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute channel                  media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute charset                  session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute charset:iso8895-1        session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute chatroom                 media    TBD              [RFC7701][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute clir                     session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute clkrec                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cmid                     media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cname                    source   NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute codecconfig              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute conf                     media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute confid                   media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute connection               session, TRANSPORT        [RFC4145][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute content                  media    NORMAL           [RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute content-desc             session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute control                  session, CAUTION          [RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute cpar                     session, INHERIT          [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute cparmin                  session, SPECIAL          [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
 attribute cparmax                  session, SPECIAL          [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute rtcp-xr                  session, NORMAL           [RFC3611][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cparmin                  session, SPECIAL          [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute maxprate                 session, SPECIAL          [RFC3890][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cpsSDUsize               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute creq                     session, NORMAL           [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-                                   session,
-                                   media,
-attribute setup                    dcsa,    TRANSPORT        [RFC4145][RFC-ietf-mmusic-sdp-mux-attributes-16][draft-mmusic-msrp-usage-data-channel]
-                                   dcsa
-                                   (msrp)
-attribute connection               session, TRANSPORT        [RFC4145][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute crypto                   media    TRANSPORT        [RFC4568][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute cs-correlation           media    TBD              [RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute csup                     session, NORMAL           [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute key-mgmt                 session, IDENTICAL        [RFC4567][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute curr                     media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute dccp-port                media    CAUTION          [RFC6773][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute dccp-service-code        media    CAUTION          [RFC5762][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute dcmap                    media    SPECIAL          [RFC-ietf-mmusic-data-channel-sdpneg-28]
+attribute dcsa                     media    SPECIAL          [RFC-ietf-mmusic-data-channel-sdpneg-28]
+attribute depend                   media    IDENTICAL-PER-PT [RFC5583][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute des                      media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute dsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute duplication-delay        session, NORMAL           [RFC7197][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute source-filter            session, IDENTICAL        [RFC4570][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ebuacip                  media    TBD              [EBU Tech 3368 - Audio Contribution over IP –
+                                                             Profiles][Felix_Poulin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ecan                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ecn-capable-rtp          media    IDENTICAL        [RFC6679][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute eecid                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute end-of-candidates        session, IDENTICAL        [RFC-ietf-mmusic-trickle-ice-sip-18]
                                    media
-attribute inactive                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute etag                     session, CAUTION          [RFC2326][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute fingerprint              session, TRANSPORT        [RFC8122][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute extmap                   session, SPECIAL          [RFC8285][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute flute-tsi                session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute extmap-allow-mixed       session, IDENTICAL        [RFC8285]
                                    media
-attribute flute-ch                          TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute fec                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute FEC                      media    NORMAL           [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute FEC-declaration          session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute FEC-OTI-extension        session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute content-desc             session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute fec-repair-flow          media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute fec-source-flow          media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-date                media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-disposition         media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-icon                media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-range               media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-selector            media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute file-transfer-id         media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute fingerprint              session, TRANSPORT        [RFC8122][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
+attribute floorctrl                media    TBD              [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute floorid                  media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute flute-ch                 session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute flute-tsi                session, TBD              [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute fmtp                     media,   IDENTICAL-PER-PT [RFC5576][RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   source
+attribute framerate                media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute framesize                media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute fsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute g.3gpp.crs               media    NORMAL           [3GPP TS 24.183 v9.5.0 annex E][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute gc                       media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute gpmd                     media    TBD              [ITU-T Rec. V.150.1][ITU-T Rec. V.152][Simao_Campos-Neto]
+attribute group                    session  NORMAL           [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute h248item                 session, SPECIAL          [ITU-T H.248.15][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute hlang-recv               media    NORMAL           [RFC8373]
+attribute hlang-send               media    NORMAL           [RFC8373]
+attribute icap                     session, NORMAL           [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute ice-lite                 session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ice-mismatch             media    NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ice-options              session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ice-pacing               session  NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39]
 attribute ice-pwd                  session, TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute ice-ufrag                session, TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute stkmstream               session, NORMAL           [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute identity                 session  NORMAL           [RFC-ietf-rtcweb-security-arch-20]
+attribute ike-setup                session, IDENTICAL        [RFC6193][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute extmap                   session, SPECIAL          [RFC8285][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute imageattr                media    IDENTICAL-PER-PT [RFC6236][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute inactive                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute qos-mech-send            session, TRANSPORT        [RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ipbcp                    session  SPECIAL          [ITU-T Recommendation Q.1970, "BICC IP bearer control protocol"
+                                                             (07/2001)][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute isup_usi                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute key-mgmt                 session, IDENTICAL        [RFC4567][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute qos-mech-recv            session, TRANSPORT        [RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute keywds                   session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute label                    media    NORMAL           [RFC4574][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute lang                     session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute csup                     session, NORMAL           [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute lcfg                     media    SPECIAL          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute lij                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute loopback                 media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute loopback-mirror          media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute loopback-source          media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute max-message-size         media    CAUTION          [RFC-ietf-mmusic-sctp-sdp-25]
+attribute max-size                 media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute maxmptime                media    TBD              [ITU-T Recommendation V.152 "Procedures for supporting voice-band data over IP networks",
+                                                             September 2010][Simao_Campos-Neto]
+attribute maxprate                 session, SPECIAL          [RFC3890][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute creq                     session, NORMAL           [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute acap                     session, INHERIT          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute tcap                     session, INHERIT          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute 3GPP-QoE-Metrics         session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute 3GPP-Asset-Information   session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
+attribute maxptime                 media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute mbms-flowid              media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute mbms-mode                session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute mbms-repair              session, CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute ike-setup                session, IDENTICAL        [RFC6193][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   session,
+attribute mediaclk                 media,   NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   source
+attribute mfcap                    session, IDENTICAL-PER-PT [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute psk-fingerprint          session, IDENTICAL        [RFC6193][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute mid                      media    NORMAL           [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute mscap                    session, INHERIT          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute msid                     media    TBD              [RFC-ietf-mmusic-msid-15][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute msrp-cema                media    TBD              [RFC6714][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute mtag                     session, CAUTION          [RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute multicast-rtcp           session, IDENTICAL        [RFC6128][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute rmcap                    session, IDENTICAL-PER-PT [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
 attribute omcap                    session, NORMAL           [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute mfcap                    session, IDENTICAL-PER-PT [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute mscap                    session, INHERIT          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute 3gpp.iut.replication     session, TBD              [3GPP TS 24.337 10.7.0][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute bcap                     session, INHERIT          [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute ccap                     session, IDENTICAL        [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute icap                     session, NORMAL           [RFC7006][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute 3gpp_sync_info           session, NORMAL           [3GPP TS 26.114 Release 12, version 12.2.0,
-                                   media                     2013-06][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute 3gpp_MaxRecvSDUSize      session, NORMAL           [3GPP TS 26.114 Release 12, version 12.2.0,
-                                   media                     2013-06][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute etag                     session, CAUTION          [RFC2326][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute duplication-delay        session, NORMAL           [RFC7197][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute range                    session, CAUTION          [RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute control                  session, CAUTION          [RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute mtag                     session, CAUTION          [RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute ts-refclk                session, NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute mediaclk                 session, NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
-attribute calgextmap               session, NORMAL           [RFC7266][RFC-ietf-mmusic-sdp-mux-attributes-16]
-                                   media
+attribute omr-codecs               media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-m-att                media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-m-bw                 media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-m-cksum              media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-s-att                media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-s-bw                 media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute omr-s-cksum              media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute onewaySel                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute orient                   media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute orient:landscape         media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute orient:portrait          media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute orient:seascape          media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute path                     media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute pcfg                     media    SPECIAL          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute phone-context            session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute clir                     session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute pmft                     media    TBD              [ITU-T Recommendation V.152 "Procedures for supporting voice-band data over IP networks",
+                                                             September 2010][Simao_Campos-Neto]
+attribute portmapping-req          media    CAUTION          [RFC6284][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute predefined_ROI           media    TBD              [3GPP TS 26.114
+                                                             v13.1.0][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute previous-ssrc            source   NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute profileDesc              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute prtfl                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                                             [Sonia_Compans][TS 183 063 R3 ETSI TISPAN Technical Specification TS 183 063
+attribute PSCid                    session  NORMAL           "Telecommunications and Internet converged Services and Protocols for Advanced Networking
+                                                             (TISPAN); IMS-based IPTV stage 3 specification"][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute psk-fingerprint          session, IDENTICAL        [RFC6193][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute ptime                    media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute Q763-INN                 session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute Q763-nature              session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute Q763-plan                session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute Q763-INN                 session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute qos-mech-recv            session, TRANSPORT        [RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute require                  session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute qos-mech-send            session, TRANSPORT        [RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute qosClass                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute quality                  media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rams-updates             media    CAUTION          [RFC6285][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute range                    session, CAUTION          [RFC2326][RFC7826][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute record                   session, TBD              [RFC7866][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
 attribute recordpref               session, TBD              [RFC7866][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
+attribute recvonly                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute remote-candidates        media    TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute repair-window            media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute require                  session, TBD              [RFC2848][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute resource                 media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rid                      media    SPECIAL          [RFC-ietf-mmusic-rid-15]
+attribute rmcap                    session, IDENTICAL-PER-PT [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute rtcp                     media    TRANSPORT        [RFC3605][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-fb                  media    IDENTICAL-PER-PT [RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-idms                media    NORMAL           [RFC7272][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-mux                 media    IDENTICAL        [RFC5761][RFC8035][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-mux-only            media    TBD              [RFC-ietf-mmusic-mux-exclusive-10][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute rtcp-rgrp                session, TBD              [RFC-ietf-avtcore-rtp-multi-stream-optimisation-12][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute suspended                session, TBD              [NENA STA-010.2-2016][Brian_Rosen][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-rsize               media    IDENTICAL        [RFC5506][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-unicast             media    IDENTICAL        [RFC5760][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtcp-xr                  session, NORMAL           [RFC3611][RFC-ietf-mmusic-sdp-mux-attributes-16]
                                    media
-attribute extmap-allow-mixed       session, IDENTICAL        [RFC8285]
-                                   media
-attribute end-of-candidates        session, IDENTICAL        [RFC-ietf-mmusic-trickle-ice-sip-18]
-                                   media
-attribute vndpar                   session, TBD              [ITU-T Rec. V.150.1][ITU-T Rec. V.152][Simao_Campos-Neto]
-                                   media
-attribute ptime                    media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute orient                   media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute orient:portrait          media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute orient:landscape         media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute orient:seascape          media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute framerate                media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute quality                  media    NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute rtpmap                   media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fmtp                     media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute rtpred1                  media    CAUTION          [2][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute rtpred2                  media    CAUTION          [2][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38FaxVersion            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38MaxBitRate            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute rtsp-ice-d-m             session  TBD              [RFC7825][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute sbc                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute sctp-port                media    CAUTION          [RFC-ietf-mmusic-sctp-sdp-25]
+attribute sdplang                  session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute secondary-realm          media    TRANSPORT        [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute sendonly                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute sendrecv                 session, NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute sescap                   session  CAUTION          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   session,
+attribute setup                    media,   TRANSPORT        [RFC4145][RFC-ietf-mmusic-sdp-mux-attributes-16][draft-mmusic-msrp-usage-data-channel]
+                                   dcsa
+                                   (msrp)
+attribute silenceSupp              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute simulcast                media    NORMAL           [RFC-ietf-mmusic-sdp-simulcast-13]
+attribute source-filter            session, IDENTICAL        [RFC4570][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute sqn                      session, NORMAL           [RFC3407][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute SRTPAuthentication       media    TBD              [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute SRTPROCTxRate            media    TBD              [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ssrc                     media    NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute ssrc-group               media    NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute stc                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute stkmstream               session, NORMAL           [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute structure                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute suspended                session, TBD              [NENA STA-010.2-2016][Brian_Rosen][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
 attribute T38FaxFillBitRemoval     media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38FaxTranscodingMMR     media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38FaxTranscodingJBIG    media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38FaxRateManagement     media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
                                                              September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38FaxMaxBuffer          media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
                                                              September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38FaxMaxDatagram        media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
                                                              September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38FaxUdpEC              media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute maxptime                 media    IDENTICAL-PER-PT [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute des                      media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute curr                     media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute conf                     media    CAUTION          [RFC3312][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute mid                      media    NORMAL           [RFC5888][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp                     media    TRANSPORT        [RFC3605][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-fb                  media    IDENTICAL-PER-PT [RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute label                    media    NORMAL           [RFC4574][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute T38VendorInfo            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
-                                                             February 2000, July 2005.][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute crypto                   media    TRANSPORT        [RFC4568][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute eecid                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aalType                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute capability               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute qosClass                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute bcob                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute stc                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute upcc                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute atmQOSparms              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute atmTrfcDesc              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute abrParms                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute abrSetup                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute bearerType               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute lij                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute anycast                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cache                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute bearerSigIE              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aalApp                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cbrRate                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute sbc                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute clkrec                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fec                      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute prtfl                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute structure                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cpsSDUsize               media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal2CPS                  media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal2CPSSDUrate           media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal2sscs3661unassured    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal2sscs3661assured      media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal2sscs3662             media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute aal5sscop                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute atmmap                   media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute silenceSupp              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ecan                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute gc                       media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute profileDesc              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute vsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute dsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute onewaySel                media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute codecconfig              media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute isup_usi                 media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute uiLayer1_Prot            media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute chain                    media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute floorctrl                media    TBD              [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute confid                   media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute userid                   media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute floorid                  media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute FEC                      media    NORMAL           [RFC-mehta-rmt-flute-sdp-05][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute accept-types             media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute accept-wrapped-types     media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute max-size                 media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute path                     media    TBD              [RFC4975][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute dccp-service-code        media    CAUTION          [RFC5762][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-mux                 media    IDENTICAL        [RFC5761][RFC8035][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute candidate                media    TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ice-mismatch             media    NORMAL           [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute remote-candidates        media    TRANSPORT        [RFC-ietf-mmusic-ice-sip-sdp-39][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute SRTPAuthentication       media    TBD              [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute SRTPROCTxRate            media    TBD              [RFC5159][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-rsize               media    IDENTICAL        [RFC5506][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-selector            media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-transfer-id         media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-disposition         media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-date                media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-icon                media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute file-range               media    TBD              [RFC5547][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute depend                   media    IDENTICAL-PER-PT [RFC5583][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ssrc                     media    NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ssrc-group               media    NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-unicast             media    IDENTICAL        [RFC5760][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute pcfg                     media    SPECIAL          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute acfg                     media    SPECIAL          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute zrtp-hash                media    TRANSPORT        [RFC6189][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute X-predecbufsize          media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute X-initpredecbufperiod    media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute X-initpostdecbufperiod   media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute X-decbyterate            media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute 3gpp-videopostdecbufsize media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute framesize                media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute 3GPP-SRTP-Config         media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute alt                      media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute alt-default-id           media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute 3GPP-Adaptation-Support  media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute mbms-flowid              media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fec-source-flow          media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fec-repair-flow          media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute repair-window            media    SPECIAL          [RFC6364][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rams-updates             media    CAUTION          [RFC6285][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute imageattr                media    IDENTICAL-PER-PT [RFC6236][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cfw-id                   media    NORMAL           [RFC6230][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute portmapping-req          media    CAUTION          [RFC6284][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute g.3gpp.crs               media    NORMAL           [3GPP TS 24.183 v9.5.0 annex E][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ecn-capable-rtp          media    IDENTICAL        [RFC6679][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute visited-realm            media    TRANSPORT        [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute secondary-realm          media    TRANSPORT        [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-s-cksum              media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-m-cksum              media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-codecs               media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-m-att                media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-s-att                media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-m-bw                 media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute omr-s-bw                 media    NORMAL           [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute msrp-cema                media    TBD              [RFC6714][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute dccp-port                media    CAUTION          [RFC6773][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute resource                 media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute channel                  media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cmid                     media    NORMAL           [RFC6787][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute content                  media    NORMAL           [RFC4796][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute lcfg                     media    SPECIAL          [RFC6871][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute loopback                 media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute loopback-source          media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute loopback-mirror          media    NORMAL           [RFC6849][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute chatroom                 media    TBD              [RFC7701][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute altc                     media    TRANSPORT        [RFC6947][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38FaxMaxIFP             media    TBD              [ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September
                                                              2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38FaxRateManagement     media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38FaxTranscodingJBIG    media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38FaxTranscodingMMR     media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38FaxUdpEC              media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38FaxUdpECDepth         media    TBD              [ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September
                                                              2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38FaxUdpFECMaxSpan      media    TBD              [ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September
                                                              2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38FaxVersion            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute T38MaxBitRate            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             September 2010][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute T38ModemType             media    TBD              [ITU-T Recommendation T.38 Annex D, 'SIP/SDP Call Establishment Procedures', September
                                                              2010][Simao_Campos-Neto][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute cs-correlation           media    TBD              [RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-idms                media    NORMAL           [RFC7272][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute predefined_ROI           media    TBD              [3GPP TS 26.114
-                                                             v13.1.0][_3GPP_Specifications_Manager][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute msid                     media    TBD              [RFC-ietf-mmusic-msid-15][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute rtcp-mux-only            media    TBD              [RFC-ietf-mmusic-mux-exclusive-10][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ebuacip                  media    TBD              [EBU Tech 3368 - Audio Contribution over IP –
-                                                             Profiles][Felix_Poulin][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute 3ge2ae                   media    IDENTICAL        [3GPP TS 24.229 12.14.0][Frederic_Firmin]
-attribute websocket-uri                     CAUTION          [RFC8124]
-attribute sctp-port                media    CAUTION          [RFC-ietf-mmusic-sctp-sdp-25]
-attribute max-message-size         media    CAUTION          [RFC-ietf-mmusic-sctp-sdp-25]
+attribute T38VendorInfo            media    TBD              [ITU-T Recommendation T.38 Amendment 2 Annex D, 'SIP/SDP Call Establishment Procedures',
+                                                             February 2000, July 2005.][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute tcap                     session, INHERIT          [RFC5939][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   media
+attribute tls-id                   media    IDENTICAL        [RFC-ietf-mmusic-dtls-sdp-32]
+attribute tool                     session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   session,
+attribute ts-refclk                media,   NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
+                                   source
+attribute type                     session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute type:H332                session  NORMAL           [ITU Recommendation H.332][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute type:broadcast           session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute type:meeting             session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute type:moderated           session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute type:test                session  NORMAL           [RFC-ietf-mmusic-rfc4566bis-37][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute uiLayer1_Prot            media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute upcc                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute userid                   media    NORMAL           [RFC4583][RFC-ietf-mmusic-sdp-mux-attributes-16]
 attribute vbd (OBSOLETE)           media    TBD              [ITU-T Recommendation V.152 "Procedures for supporting voice-band data over IP networks",
                                                              September 2010][Simao_Campos-Neto]
-attribute maxmptime                media    TBD              [ITU-T Recommendation V.152 "Procedures for supporting voice-band data over IP networks",
-                                                             September 2010][Simao_Campos-Neto]
-attribute pmft                     media    TBD              [ITU-T Recommendation V.152 "Procedures for supporting voice-band data over IP networks",
-                                                             September 2010][Simao_Campos-Neto]
-attribute tls-id                   media    IDENTICAL        [RFC-ietf-mmusic-dtls-sdp-32]
-attribute hlang-recv               media    NORMAL           [RFC8373]
-attribute hlang-send               media    NORMAL           [RFC8373]
-attribute rid                      media    SPECIAL          [RFC-ietf-mmusic-rid-15]
-attribute bundle-only              media    NORMAL           [RFC-ietf-mmusic-sdp-bundle-negotiation-52]
-attribute simulcast                media    NORMAL           [RFC-ietf-mmusic-sdp-simulcast-13]
-attribute bfcpver                  media    TBD              [RFC-ietf-bfcpbis-rfc4583bis-27]
-attribute dcmap                    media    SPECIAL          [RFC-ietf-mmusic-data-channel-sdpneg-28]
-attribute dcsa                     media    SPECIAL          [RFC-ietf-mmusic-data-channel-sdpneg-28]
-attribute gpmd                     media    TBD              [ITU-T Rec. V.150.1][ITU-T Rec. V.152][Simao_Campos-Neto]
-attribute cname                    source   NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute previous-ssrc            source   NORMAL           [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute fmtp                     source   IDENTICAL-PER-PT [RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute ts-refclk                source   NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
-attribute mediaclk                 source   NORMAL           [RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute visited-realm            media    TRANSPORT        [TS 24.229 v10.7.0 table 7.5.2][Frederic_Firmin][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute vndpar                   session, TBD              [ITU-T Rec. V.150.1][ITU-T Rec. V.152][Simao_Campos-Neto]
+                                   media
+attribute vsel                     media    CAUTION          [RFC3108][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute websocket-uri            media    CAUTION          [RFC8124]
+attribute X-decbyterate            media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute X-initpostdecbufperiod   media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute X-initpredecbufperiod    media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute X-predecbufsize          media    CAUTION          [RFC6064][RFC-ietf-mmusic-sdp-mux-attributes-16]
+attribute zrtp-hash                media    TRANSPORT        [RFC6189][RFC-ietf-mmusic-sdp-mux-attributes-16]
 
 content SDP Parameters
 

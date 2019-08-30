@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-08-28</updated>
+    <updated>2019-08-30</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -159,10 +159,13 @@
                 <server>https://enom.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-08-30">
             <value>49</value>
             <name>GMO Internet, Inc. d/b/a Onamae.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gmo-onamae.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>50</value>
@@ -194,10 +197,13 @@
             <name>Inquent Technologies, Inc. f/k/a WebHosting.com, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>57</value>
             <name>Advanced Internet Technologies, Inc. (AIT)</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ait.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>58</value>
@@ -605,12 +611,12 @@
             <name>I.net</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-08-30">
             <value>151</value>
             <name>PSI-USA, Inc. dba Domain Robot</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.psi-usa.info/domain/</server>
+                <server>https://rdap.psi-usa.info/</server>
             </rdapurl>
         </record>
         <record>
@@ -1577,10 +1583,13 @@
             <name>Aim High!, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-06-22">
+        <record updated="2019-08-30">
             <value>645</value>
             <name>GMO-Z.com Pte. Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gmo-onamae.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-08">
             <value>646</value>
@@ -2692,10 +2701,13 @@
             <name>Nicco Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>841</value>
             <name>Tiger Technologies LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://www.tigertech.net/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>842</value>
@@ -2935,10 +2947,13 @@
             <name>Pheenix, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>889</value>
             <name>Domainclip Domains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2017-07-19">
             <value>890</value>
@@ -3483,10 +3498,10 @@
             <name>Broadspire Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-08-30">
             <value>978</value>
             <name>! #1 Host Israel, Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record>
             <value>979</value>
@@ -5678,10 +5693,13 @@
                 <server>https://rdap.safebrands.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-07-25">
+        <record updated="2019-08-30">
             <value>1291</value>
             <name>Dreamscape Networks International Pte Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dreamscapenetworks.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-15">
             <value>1292</value>
@@ -6787,12 +6805,12 @@
             <name>April Sea Information Technology Company Limited</name>
             <status>Accredited</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-08-30">
             <value>1476</value>
             <name>World4You Internet Services GmbH</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.world4you.biz/domain/</server>
+                <server>https://rdap.world4you.biz/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-28">
@@ -6816,12 +6834,12 @@
                 <server>https://www.namesilo.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-08-30">
             <value>1480</value>
             <name>The Registrar Company B.V.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.theregistrarcompany.com/domain/</server>
+                <server>https://rdap.theregistrarcompany.com/</server>
             </rdapurl>
         </record>
         <record>
@@ -6834,10 +6852,13 @@
             <name>SARL VIADUC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>1483</value>
             <name>Neubox Internet S.A. de C.V.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2017-10-20">
             <value>1484</value>
@@ -7839,10 +7860,13 @@
             <name>Vigson, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>1647</value>
             <name>Hosting Concepts B.V. d/b/a Openprovider</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.registrar.eu/</server>
+            </rdapurl>
         </record>
         
         <record>
@@ -8348,10 +8372,13 @@
             <name>Hostnet bv</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-08-30">
             <value>1733</value>
             <name>Beijing Zihai Technology Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.thinkpro.cn/</server>
+            </rdapurl>
         </record>
         <record updated="2016-07-19">
             <value>1734</value>
@@ -18461,15 +18488,21 @@
             <name>Sksa Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-07-06" updated="2016-08-18">
+        <record date="2016-07-06" updated="2019-08-30">
             <value>3223</value>
             <name>Xiamen Niucha Technology Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.micang.com/</server>
+            </rdapurl>
         </record>
-        <record date="2016-07-06" updated="2016-09-01">
+        <record date="2016-07-06" updated="2019-08-30">
             <value>3224</value>
             <name>Registrator Domenov LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.mastername.ru/</server>
+            </rdapurl>
         </record>
         <record date="2016-07-06" updated="2016-08-04">
             <value>3225</value>
@@ -18511,7 +18544,7 @@
             <name>Xiamen Yuwang Technology Co., LTD</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-04-19" updated="2017-02-23">
+        <record date="2016-04-19">
             <value>3233</value>
             <name>Beijing Baidu Netcom Science Technology Co., Ltd.</name>
             <status>Accredited</status>
@@ -22749,10 +22782,13 @@
             <name>Nanjing EDNS Technology Limited</name>
             <status>Terminated</status>
         </record>
-        <record date="2017-08-14">
+        <record date="2017-08-14" updated="2019-08-30">
             <value>3779</value>
             <name>Knipp Medien und Kommunikation GmbH</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.knipp.de/</server>
+            </rdapurl>
         </record>
         <record date="2017-09-20" updated="2019-04-23">
             <value>3780</value>
