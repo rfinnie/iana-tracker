@@ -1,6 +1,6 @@
 Type,SDP Name,Reference
-proto,RTP/AVP,[RFC4566]
-proto,udp,[RFC4566]
+proto,RTP/AVP,[RFC-ietf-mmusic-rfc4566bis-37]
+proto,udp,[RFC-ietf-mmusic-rfc4566bis-37]
 proto,vat,[1]
 proto,rtp,[1]
 proto,udptl,"[ITU-T Recommendation T.38, 'Procedures for real-time

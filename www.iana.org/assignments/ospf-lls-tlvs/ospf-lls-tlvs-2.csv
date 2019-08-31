@@ -3,3 +3,4 @@ Extended Options Bit,Name,Reference
 0x00000002,Restart Signal (RS-bit),[RFC4812]
 0x00000004,I-bit,[RFC5820]
 0x00000008,F-bit,[RFC5820]
+0x00000010,"Flooding Request bit (TEMPORARY - registered 2019-08-30, expires 2020-08-30)",[draft-ietf-lsr-dynamic-flooding]
