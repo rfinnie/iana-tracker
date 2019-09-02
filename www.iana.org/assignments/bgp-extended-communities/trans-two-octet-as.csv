@@ -12,6 +12,7 @@ Sub-Type Value,Name,Reference,Date
 0x10,Cisco VPN-Distinguisher,[Eric_Rosen],2012-04-10
 0x11-0x12,Unassigned,,
 0x13,Route-Target Record,[draft-ietf-bess-service-chaining],2016-08-29
-0x14-0x7f,Unassigned,,
+0x14,Origin sub-cluster,[Richard_Roberts][https://github.com/robric/wiki-contrail-controller/blob/master/BGP-Extended-Communities.md],2019-09-02
+0x15-0x7f,Unassigned,,
 0x80,Virtual-Network Identifier Extended Community,[Manju_Ramesh],2019-06-19
 0x81-0xff,Unassigned,,
