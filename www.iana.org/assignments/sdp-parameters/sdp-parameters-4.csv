@@ -1,5 +1,5 @@
-Type,SDP Name,Reference
-nettype,IN,[RFC4566]
-nettype,TN,[RFC2848]
-nettype,ATM,[RFC3108]
-nettype,PSTN,[RFC7195]
+Type,SDP Name,Usable addrtype Values,Reference
+nettype,IN,"IP4, IP6",[RFC-ietf-mmusic-rfc4566bis-37]
+nettype,TN,[RFC2543],[RFC2848]
+nettype,ATM,"NSAP, GWID, E164",[RFC3108]
+nettype,PSTN,E164,[RFC7195]

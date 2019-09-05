@@ -12,3 +12,4 @@ Decimal,Description,References
 10,Encoded information types,[RFC7107]
 11,S/MIME capabilities,[RFC7107]
 12,PSKC attributes,[RFC7107]
+13,id-ori,[RFC-ietf-lamps-cms-mix-with-psk-07]

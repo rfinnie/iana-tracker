@@ -5,4 +5,5 @@ Sub-Type Value,Name,Reference,Date
 0x08,Flow spec redirect AS-4byte format,[RFC7674],2015-08-28
 0x09-0x83,Unassigned,,
 0x84,Tag4,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#tag],2018-10-01
-0x85-0xff,Unassigned,,
+0x85,Origin Sub-Cluster4,[Richard_Roberts][https://github.com/robric/wiki-contrail-controller/blob/master/BGP-Extended-Communities.md],2019-09-03
+0x86-0xff,Unassigned,,

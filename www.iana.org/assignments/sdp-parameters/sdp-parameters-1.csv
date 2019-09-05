@@ -1,7 +1,7 @@
 Type,SDP Name,Reference
-media,audio,[RFC4566]
-media,video,[RFC4566]
-media,text,[RFC4566]
-media,application,[RFC4566]
-media,message,[RFC4566]
+media,audio,[RFC-ietf-mmusic-rfc4566bis-37]
+media,video,[RFC-ietf-mmusic-rfc4566bis-37]
+media,text,[RFC-ietf-mmusic-rfc4566bis-37]
+media,application,[RFC-ietf-mmusic-rfc4566bis-37]
+media,message,[RFC-ietf-mmusic-rfc4566bis-37]
 media,image,[RFC6466]
