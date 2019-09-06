@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="http-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="http-parameters">
   <title>Hypertext Transfer Protocol (HTTP) Parameters</title>
-  <updated>2018-10-05</updated>
+  <updated>2019-09-04</updated>
 
   <registry id="content-coding">
     <title>HTTP Content Coding Registry</title>
@@ -215,7 +215,14 @@ validation and error handling to the processing of the request.</description>
         header field. Furthermore, this preference only applies when the 
         Depth header field has a value of "1" or "infinity" (either 
         implicitly or explicitly).</description>
-      <spec><xref type="rfc" data="rfc8144"/>, Section 4</spec>
+      http-parameters
+    </record>
+    <record date="2019-09-04">
+      <name>safe</name>
+      <value/>
+      <description>Indicates that "safe" / "unobjectionable" content is
+      preferred.</description>
+	  <spec><xref type="draft" data="RFC-nottingham-safe-hint-11"/></spec>
     </record>
   </registry>
   
