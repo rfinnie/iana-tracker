@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-05</updated>
+    <updated>2019-09-06</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -6026,12 +6026,12 @@
             <name>Volusion, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-09-06">
             <value>1336</value>
             <name>Net-Chinese Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.net-chinese.com/domain/</server>
+                <server>https://rdap.net-chinese.com/</server>
             </rdapurl>
         </record>
         <record>
