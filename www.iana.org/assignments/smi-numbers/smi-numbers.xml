@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-08-29</updated>
+  <updated>2019-09-10</updated>
   
  
   
@@ -6223,6 +6223,11 @@ Access Beyond web</description>
         <value>69</value>
         <description>id-mod-cms-ori-psk-2019</description>
         <xref type="draft" data="RFC-ietf-lamps-cms-mix-with-psk-07"/>
+      </record>
+      <record date="2019-09-10">
+        <value>70</value>
+        <description>CMSAlgsForSHAKE-2019</description>
+        <xref type="draft" data="RFC-ietf-lamps-cms-shakes-17"/>
       </record>
     </registry>
     
