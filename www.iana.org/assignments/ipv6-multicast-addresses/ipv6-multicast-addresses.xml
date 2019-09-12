@@ -3,10 +3,10 @@
 <?oxygen RNGSchema="ipv6-multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="ipv6-multicast-addresses">
   <title>IPv6 Multicast Address Space Registry</title>
-  <updated>2019-07-01</updated>
+  <updated>2019-09-06</updated>
   <expert>Stig Venaas</expert>
   <note>IPv6 multicast addresses are defined in "IP Version 6 Addressing
-Architecture" <xref type="rfc" data="rfc4291"/>.  This defines fixed scope and variable scope
+Architecture" <xref type="rfc" data="rfc4291"/>. This defines fixed scope and variable scope
 multicast addresses.
 
 IPv6 multicast addresses are distinguished from unicast addresses by the
@@ -698,14 +698,14 @@ in scope represent different groups.  Nodes must join each group individually.
       <description>microsoft-ds</description>
       <xref type="person" data="Arnold_M"/>
     </record>
-    <record>
+    <record updated="2019-09-06">
       <addr>FF0X:0:0:0:0:0:0:119</addr>
-      <description>nbc-pro</description>
+      <description>pro</description>
       <xref type="person" data="Bloomer"/>
     </record>
-    <record>
+    <record updated="2019-09-06">
       <addr>FF0X:0:0:0:0:0:0:11A</addr>
-      <description>nbc-pfn</description>
+      <description>pfn</description>
       <xref type="person" data="Bloomer"/>
     </record>
     <record date="1994-11-01">

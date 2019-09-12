@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-08-30</updated>
+    <updated>2019-09-06</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -601,10 +601,13 @@
             <name>Siteleader, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>146</value>
             <name>GoDaddy.com, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.godaddy.com/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>148</value>
@@ -951,10 +954,13 @@
             <name>@Com Technology, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>401</value>
             <name>Misk.com, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.misk.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>402</value>
@@ -1142,10 +1148,13 @@
             <name>USA Webhost, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>440</value>
             <name>Wild West Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.secureserver.net/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2015-03-05">
             <value>441</value>
@@ -1314,12 +1323,12 @@
                 <server>https://easydns.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-09-05">
             <value>470</value>
             <name>Nom-iq Ltd. dba COM LAUDE</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.comlaude.com/</server>
+                <server>https://rdap.comlaude.com/rdap/</server>
             </rdapurl>
         </record>
         <record>
@@ -1422,10 +1431,13 @@
             <name>Inter China Network Software (Beijing) Co., Ltd. (aka 3721)</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>612</value>
             <name>Blue Razor Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.bluerazor.com/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>614</value>
@@ -4659,30 +4671,45 @@
                 <server>https://rdapserver.net/domain/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1149</value>
             <name>Go China Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gochinadomains.com/v1/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1150</value>
             <name>Go Canada Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gocanadadomains.com/v1/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1151</value>
             <name>Go Australia Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.goaustraliadomains.com/v1/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1152</value>
             <name>Go Montenegro Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gomontenegrodomains.com/v1/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1153</value>
             <name>Go France Domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gofrancedomains.com/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-22">
             <value>1154</value>
@@ -5953,10 +5980,13 @@
             <name>Vitalwerks Internet Solutions, LLC DBA No-IP</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1328</value>
             <name>RegistryGate GmbH</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.registrygate.com/domain/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1329</value>
@@ -5996,12 +6026,12 @@
             <name>Volusion, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-09-06">
             <value>1336</value>
             <name>Net-Chinese Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.net-chinese.com/domain/</server>
+                <server>https://rdap.net-chinese.com/</server>
             </rdapurl>
         </record>
         <record>
@@ -6250,10 +6280,13 @@
             <name>Sedo.com LLC</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1373</value>
             <name>DotArai Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dotarai.com/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1374</value>
@@ -6344,10 +6377,13 @@
             <name>Universo Online S/A (UOL)</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1390</value>
             <name>Mesh Digital Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.meshdigital.com/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-22">
             <value>1391</value>
@@ -6705,10 +6741,13 @@
             <name>Telefonica Brasil S.A.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1459</value>
             <name>Domainmonster.com, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.meshdigital.com/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1460</value>
@@ -7031,10 +7070,13 @@
                 <server>https://namerdap.systems/</server>
             </rdapurl>
         </record>
-        <record updated="2016-01-26">
+        <record updated="2019-09-05">
             <value>1515</value>
             <name>123-Reg Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.123-reg.co.uk/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2018-01-11">
             <value>1516</value>
@@ -7737,15 +7779,21 @@
                 <server>https://rdds.lemarit.net/rdap/info/domain/lemarit.info/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1626</value>
             <name>Domainbox Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.meshdigital.com/v1/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-05">
             <value>1627</value>
             <name>Domainmonster Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.meshdigital.com/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2018-04-05">
             <value>1628</value>
@@ -7860,12 +7908,12 @@
             <name>Vigson, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-30">
+        <record updated="2019-09-05">
             <value>1647</value>
             <name>Hosting Concepts B.V. d/b/a Openprovider</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.registrar.eu/</server>
+                <server>https://rdap.registrar.eu/v1/</server>
             </rdapurl>
         </record>
         

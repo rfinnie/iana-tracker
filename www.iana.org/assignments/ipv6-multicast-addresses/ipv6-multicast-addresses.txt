@@ -1,7 +1,7 @@
                                                         IPv6 Multicast Address Space Registry
 
    Last Updated
-           2019-07-01
+           2019-09-06
 
    Expert(s)
 
@@ -10,7 +10,7 @@
    Note
 
  IPv6 multicast addresses are defined in "IP Version 6 Addressing
- Architecture" [RFC4291].  This defines fixed scope and variable scope
+ Architecture" [RFC4291]. This defines fixed scope and variable scope
  multicast addresses.
 
  IPv6 multicast addresses are distinguished from unicast addresses by the
@@ -294,8 +294,8 @@ FF0X:0:0:0:0:0:0:115                        DVMRP on MOSPF       [John_Moy]
 FF0X:0:0:0:0:0:0:116                        SVRLOC               [Erik_Guttman]                                                  2001-05-01
 FF0X:0:0:0:0:0:0:117                        XINGTV               [<hgxing&aol.com>]
 FF0X:0:0:0:0:0:0:118                        microsoft-ds         [Arnold_M]
-FF0X:0:0:0:0:0:0:119                        nbc-pro              [Bloomer]
-FF0X:0:0:0:0:0:0:11A                        nbc-pfn              [Bloomer]
+FF0X:0:0:0:0:0:0:119                        pro                  [Bloomer]
+FF0X:0:0:0:0:0:0:11A                        pfn                  [Bloomer]
 FF0X:0:0:0:0:0:0:11B                        lmsc-calren-1        [Yea_Uang]                                                      1994-11-01
 FF0X:0:0:0:0:0:0:11C                        lmsc-calren-2        [Yea_Uang]                                                      1994-11-01
 FF0X:0:0:0:0:0:0:11D                        lmsc-calren-3        [Yea_Uang]                                                      1994-11-01

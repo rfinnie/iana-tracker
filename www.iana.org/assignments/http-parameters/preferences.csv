@@ -21,4 +21,6 @@ depth-noroot,,"The ""depth-noroot"" preference indicates that the client
         provide support for the Depth [RFC4918] 
         header field. Furthermore, this preference only applies when the 
         Depth header field has a value of ""1"" or ""infinity"" (either 
-        implicitly or explicitly).","[RFC8144], Section 4"
+        implicitly or explicitly).",
+safe,,"Indicates that ""safe"" / ""unobjectionable"" content is
+      preferred.",[RFC-nottingham-safe-hint-11]

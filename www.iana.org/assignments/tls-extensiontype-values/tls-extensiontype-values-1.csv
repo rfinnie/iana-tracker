@@ -54,7 +54,39 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 54,Unassigned,,,
 55,external_id_hash,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
 56,external_session_id,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
-57-65279,Unassigned,,,
+57-2569,Unassigned,,,
+2570,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+2571-6681,Unassigned,,,
+6682,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+6683-10793,Unassigned,,,
+10794,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+10795-14905,Unassigned,,,
+14906,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+14907-19017,Unassigned,,,
+19018,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+19019-23129,Unassigned,,,
+23130,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+23131-27241,Unassigned,,,
+27242,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+27243-31353,Unassigned,,,
+31354,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+31355-35465,Unassigned,,,
+35466,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+35467-39577,Unassigned,,,
+39578,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+39579-43689,Unassigned,,,
+43690,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+43691-47801,Unassigned,,,
+47802,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+47803-51913,Unassigned,,,
+51914,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+51915-56025,Unassigned,,,
+56026,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+56027-60137,Unassigned,,,
+60138,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+60139-64249,Unassigned,,,
+64250,Reserved,"CH, CR, NST",N,[RFC-ietf-tls-grease-04]
+64251-65279,Unassigned,,,
 65280,Reserved for Private Use,,,[RFC8446]
 65281,renegotiation_info,-,Y,[RFC5746]
 65282-65535,Reserved for Private Use,,,[RFC8446]
