@@ -4,7 +4,7 @@
            2005-06-02
 
    Last Updated
-           2019-08-09
+           2019-09-12
 
    Available Formats
            [IMG]
@@ -465,6 +465,8 @@ Key Exchange Method Names
    gss-nistp521-sha512-*                [RFC-ietf-curdle-gss-keyex-sha2-10]
    gss-curve25519-sha256-*              [RFC-ietf-curdle-gss-keyex-sha2-10]
    gss-curve448-sha512-*                [RFC-ietf-curdle-gss-keyex-sha2-10]
+   curve25519-sha256                    [RFC-ietf-curdle-ssh-curves-12]
+   curve448-sha512                      [RFC-ietf-curdle-ssh-curves-12]
 
 Encryption Algorithm Names
 
