@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2019-08-29</updated>
+  <updated>2019-09-13</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -115,22 +115,22 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-05-10">
       <name>ietf-alarms</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-alarms@2019-09-11.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-alarms</namespace>
       <prefix>al</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>
-      <notes><xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8632"/>
+      <notes/>
     </record>
     <record date="2019-05-10">
       <name>ietf-alarms-x733</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-alarms-x733@2019-09-11.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-alarms-x733</namespace>
       <prefix>x733</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>
-      <notes><xref type="draft" data="RFC-ietf-ccamp-alarm-module-09"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8632"/>
+      <notes/>
     </record>
     <record date="2018-08-09">
       <name>ietf-bfd</name>
@@ -1085,12 +1085,12 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-05-30">
       <name>ietf-subscribed-notifications</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-subscribed-notifications@2019-09-09.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications</namespace>
       <prefix>sn</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-netconf-subscribed-notifications-26"/>
-      <notes><xref type="draft" data="RFC-ietf-netconf-subscribed-notifications-26"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8639"/>
+      <notes/>
     </record>
     <record date="2018-03-19">
       <name>ietf-syslog</name>
@@ -1255,12 +1255,12 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-06-04">
       <name>ietf-yang-push</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-yang-push@2019-09-09.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-yang-push</namespace>
       <prefix>yp</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-netconf-yang-push-25"/>
-      <notes><xref type="draft" data="RFC-ietf-netconf-yang-push-25"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8641"/>
+      <notes/>
     </record>
     <record date="2018-11-08">
       <name>ietf-yang-schema-mount</name>

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-11</updated>
+    <updated>2019-09-12</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -490,10 +490,13 @@
             <name>Reserved for Internal Registry Use</name>
             <status>Reserved</status>
         </record>
-        <record>
+        <record updated="2019-09-12">
             <value>120</value>
             <name>Xin Net Technology Corporation</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.xinnet.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-07-23">
             <value>121</value>
@@ -1563,7 +1566,7 @@
             <name>Dot Holding Inc.</name>
             <status>Accredited</status>
         </record>
-        <record update="2019-09-11">
+        <record updated="2019-09-11">
             <value>638</value>
             <name>Nordreg AB</name>
             <status>Accredited</status>
@@ -6728,10 +6731,13 @@
             <name>Directi Web Services Pvt. Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2018-04-26">
+        <record updated="2019-09-12">
             <value>1454</value>
             <name>Nics Telekomunikasyon A.S.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nicproxy.com/</server>
+            </rdapurl>
         </record>
         <record updated="2017-08-21">
             <value>1455</value>
@@ -8379,10 +8385,13 @@
             <name>Tianjin Zhuiri Science and Technology Development Co Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-09-12">
             <value>1723</value>
             <name>Internet Domain Name System Beijing Engineering Research Center LLC (ZDNS)</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.zdns.cn/</server>
+            </rdapurl>
         </record>
         <record updated="2015-03-31">
             <value>1724</value>
@@ -23124,10 +23133,13 @@
                 <server>https://rdap.squarespace.domains/</server>
             </rdapurl>
         </record>
-        <record date="2019-03-07">
+        <record date="2019-03-07" updated="2019-09-12">
             <value>3830</value>
             <name>Chunghwa Telecom Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.hinet.net/</server>
+            </rdapurl>
         </record>
         <record date="2019-02-08">
             <value>3831</value>

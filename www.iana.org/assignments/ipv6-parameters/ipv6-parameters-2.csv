@@ -18,7 +18,9 @@ Hex Value,Binary Value,Description,Reference
 0x6D,01,1,01101,MPL Option,[RFC7731]
 0xEE,11,1,01110,IP_DFF,[RFC6971]
 0x0F,00,0,01111,Performance and Diagnostic Metrics (PDM),[RFC8250]
-,,,10000-11101,Unassigned,
+0x30,00,1,10000,"Path MTU Record Option 
+      (TEMPORARY - registered 2019-09-03, expires 2020-09-03)",[draft-ietf-6man-mtu-option]
+,,,10001-11101,Unassigned,
 0x1E,00,0,11110,RFC3692-style Experiment [1],[RFC4727]
 0x3E,00,1,11110,RFC3692-style Experiment [1],[RFC4727]
 0x5E,01,0,11110,RFC3692-style Experiment [1],[RFC4727]
