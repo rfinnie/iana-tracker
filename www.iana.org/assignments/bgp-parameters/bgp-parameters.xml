@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="bgp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="bgp-parameters">
   <title>Border Gateway Protocol (BGP) Parameters</title>
-  <updated>2019-08-29</updated>
+  <updated>2019-09-16</updated>
 
 
   <registry id="bgp-parameters-1">
@@ -794,7 +794,7 @@ Work in progress, March 1996.</xref>
     <record date="2016-12-20">
       <value>15</value>
       <name>SR TE Policy Type</name>
-      <xref type="draft" data="draft-previdi-idr-segment-routing-te-policy"/>
+      <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record date="2017-08-16">
       <value>16</value>
