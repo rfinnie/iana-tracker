@@ -4,7 +4,8 @@ Type,NLRI Type,Reference
 2,Link NLRI,[RFC7752]
 3,IPv4 Topology Prefix NLRI,[RFC7752]
 4,IPv6 Topology Prefix NLRI,[RFC7752]
-5,Unassigned,
+5,"TE Policy NLRI type (TEMPORARY - 
+		  registered 2019-09-17, expires 2020-09-17)",[draft-ietf-idr-te-lsp-distribution]
 6,"SRv6 SID (TEMPORARY - 
 		  registered 2019-08-06, expires 2020-08-06)",[draft-ietf-idr-bgpls-srv6-ext]
 7-1100,Unassigned,
