@@ -15,7 +15,7 @@ Value,Name,Reference
 13,MPLS in UDP Encapsulation,"[RFC7510][RFC Errata 
           4350]"
 14,IPv6 Tunnel,[Martin_Djernaes]
-15,SR TE Policy Type,[draft-previdi-idr-segment-routing-te-policy]
+15,SR TE Policy Type,[draft-ietf-idr-segment-routing-te-policy]
 16,Bare,[Nischal_Sheth]
 17,SR Tunnel,[draft-ietf-bess-datacenter-gateway]
 18-65535,Unassigned,

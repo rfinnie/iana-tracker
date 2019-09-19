@@ -4,3 +4,5 @@ Value,Description,Reference
 2,DSA,[RFC4255]
 3,ECDSA,[RFC6594]
 4,Ed25519,[RFC7479]
+5,Unassigned,
+6,Ed448,[RFC-ietf-curdle-ssh-ed25519-ed448-11]

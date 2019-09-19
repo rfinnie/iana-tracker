@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv3-parameters">
   <title>Open Shortest Path First v3 (OSPFv3) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2019-08-26</updated>
+  <updated>2019-09-18</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-dd-packet-flags/ospf-dd-packet-flags.xml"/>
     <xref type="uri" data="http://www.iana.org/assignments/ospf-lls-tlvs"/>
@@ -697,9 +697,9 @@ applications other than the support of multiple address families.</note>
       <description>Local Interface IPv6 Address Sub-TLV (TEMPORARY - registered 2019-08-21, expires 2020-08-21)</description>
       <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
     </record>
-    <record date="2019-08-21">
+    <record date="2019-08-21" updated="2019-09-18">
       <value>25</value>
-      <description>Local Interface IPv6 Address Sub-TLV (TEMPORARY - registered 2019-08-21, expires 2020-08-21)</description>
+      <description>Remote Interface IPv6 Address Sub-TLV (TEMPORARY - registered 2019-08-21, expires 2020-08-21)</description>
       <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
     </record>
     <record>
