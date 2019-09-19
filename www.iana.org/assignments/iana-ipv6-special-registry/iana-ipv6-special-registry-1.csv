@@ -14,12 +14,11 @@ Address Block,Name,RFC,Allocation Date,Termination Date,Source,Destination,Forwa
           1752]",2008-04,N/A,True,True,True,False,False
 2001:3::/32,AMT,[RFC7450],2014-12,N/A,True,True,True,True,False
 2001:4:112::/48,AS112-v6,[RFC7535],2014-12,N/A,True,True,True,True,False
-2001:5::/32,EID Space for LISP (Managed by RIPE NCC),[RFC7954],2016-09,2019-09 [3],True [4],True,True,True,True [5]
 2001:10::/28,Deprecated (previously ORCHID),[RFC4843],2007-03,2014-03,,,,,
 2001:20::/28,ORCHIDv2,[RFC7343],2014-07,N/A,True,True,True,True,False
 2001:db8::/32,Documentation,[RFC3849],2004-07,N/A,False,False,False,False,False
-2002::/16 [6],6to4,[RFC3056],2001-02,N/A,True,True,True,N/A [6],False
+2002::/16 [3],6to4,[RFC3056],2001-02,N/A,True,True,True,N/A [3],False
 2620:4f:8000::/48,Direct Delegation AS112 Service,[RFC7534],2011-05,N/A,True,True,True,True,False
 fc00::/7,Unique-Local,"[RFC4193]
-        [RFC8190]",2005-10,N/A,True,True,True,False [7],False
+        [RFC8190]",2005-10,N/A,True,True,True,False [4],False
 fe80::/10,Link-Local Unicast,[RFC4291],2006-02,N/A,True,True,False,False,True

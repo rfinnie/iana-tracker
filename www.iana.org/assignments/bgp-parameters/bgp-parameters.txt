@@ -1,7 +1,7 @@
                                                        Border Gateway Protocol (BGP) Parameters
 
    Last Updated
-           2019-08-29
+           2019-09-16
 
    Available Formats
            [IMG]
@@ -396,7 +396,7 @@ BGP Tunnel Encapsulation Attribute Tunnel Types
            [IMG]
            CSV
 
-    Value                      Name                                       Reference
+    Value                      Name                                     Reference
       0     Reserved                                    [RFC5512]
       1     L2TPv3 over IP                              [RFC5512]
       2     GRE                                         [RFC5512]
@@ -412,7 +412,7 @@ BGP Tunnel Encapsulation Attribute Tunnel Types
       12    VXLAN GPE Encapsulation                     [RFC8365]
       13    MPLS in UDP Encapsulation                   [RFC7510][RFC Errata 4350]
       14    IPv6 Tunnel                                 [Martin_Djernaes]
-      15    SR TE Policy Type                           [draft-previdi-idr-segment-routing-te-policy]
+      15    SR TE Policy Type                           [draft-ietf-idr-segment-routing-te-policy]
       16    Bare                                        [Nischal_Sheth]
       17    SR Tunnel                                   [draft-ietf-bess-datacenter-gateway]
    18-65535 Unassigned

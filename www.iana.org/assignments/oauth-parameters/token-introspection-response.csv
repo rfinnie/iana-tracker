@@ -17,3 +17,4 @@ vtm,Vector of Trust trustmark URL,IESG,[RFC8485]
 act,Actor,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 4.1]"
 may_act,"Authorized Actor - the party that is authorized
         to become the actor",IESG,"[RFC-ietf-oauth-token-exchange-19, Section 4.4]"
+cnf,Confirmation,IESG,[RFC7800][RFC-ietf-oauth-mtls-17]

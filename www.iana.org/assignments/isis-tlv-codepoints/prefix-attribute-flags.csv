@@ -2,3 +2,5 @@ Bit #,Name,Reference
 0,External Prefix Flag (X-flag),[RFC7794]
 1,Re-advertisement Flag (R-flag),[RFC7794]
 2,Node Flag (N-flag),[RFC7794]
+3,"E-bit 
+        (TEMPORARY - registered 2019-08-30, expires 2020-08-30)",[draft-ietf-isis-mpls-elc]

@@ -23,8 +23,8 @@ iana-tunnel-type,,Y,urn:ietf:params:xml:ns:yang:iana-tunnel-type,iana-tunnel-typ
         [RFC-ietf-softwire-iftunnel-07]'s module file will be posted upon the document's publication as an RFC."
 ietf-access-control-list,ietf-access-control-list@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-access-control-list,acl,,[RFC8519],
 ietf-acldns,ietf-acldns@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC8520],
-ietf-alarms,,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC-ietf-ccamp-alarm-module-09],[RFC-ietf-ccamp-alarm-module-09]'s module file will be posted upon the document's publication as an RFC.
-ietf-alarms-x733,,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC-ietf-ccamp-alarm-module-09],[RFC-ietf-ccamp-alarm-module-09]'s module file will be posted upon the document's publication as an RFC.
+ietf-alarms,ietf-alarms@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC8632],
+ietf-alarms-x733,ietf-alarms-x733@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC8632],
 ietf-bfd,,N,urn:ietf:params:xml:ns:yang:ietf-bfd,bfd,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-ip-mh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh,bfd-ip-mh,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-ip-sh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh,bfd-ip-sh,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
@@ -120,7 +120,7 @@ ietf-snmp-vacm,ietf-snmp-vacm@2014-12-10.yang,N,,,ietf-snmp,[RFC7407],
 ietf-softwire-br,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-br,softwire-br,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-ce,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
 ietf-softwire-common,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
-ietf-subscribed-notifications,,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC-ietf-netconf-subscribed-notifications-26],[RFC-ietf-netconf-subscribed-notifications-26]'s module file will be posted upon the document's publication as an RFC.
+ietf-subscribed-notifications,ietf-subscribed-notifications@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC8639],
 ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[RFC-ietf-netmod-syslog-model-26],[RFC-ietf-netmod-syslog-model-26]'s module file will be posted upon the document's publication as an RFC.
 ietf-system,ietf-system@2014-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-system,sys,,[RFC7317],
 ietf-sztp-bootstrap-server,ietf-sztp-bootstrap-server@2019-04-30.yang,N,urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server,sztp-svr,,[RFC8572],
@@ -137,7 +137,7 @@ ietf-yang-library,ietf-yang-library@2016-06-21.yang,N,urn:ietf:params:xml:ns:yan
 ietf-yang-library,ietf-yang-library@2019-01-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC8525],
 ietf-yang-metadata,ietf-yang-metadata@2016-08-05.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-metadata,md,,[RFC7952],
 ietf-yang-patch,ietf-yang-patch@2017-02-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-patch,ypatch,,[RFC8072],
-ietf-yang-push,,N,urn:ietf:params:xml:ns:yang:ietf-yang-push,yp,,[RFC-ietf-netconf-yang-push-25],[RFC-ietf-netconf-yang-push-25]'s module file will be posted upon the document's publication as an RFC.
+ietf-yang-push,ietf-yang-push@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-push,yp,,[RFC8641],
 ietf-yang-schema-mount,ietf-yang-schema-mount@2019-01-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount,yangmnt,,[RFC8528],
 ietf-yang-smiv2,ietf-yang-smiv2@2012-06-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-smiv2,smiv2,,[RFC6643],
 ietf-yang-types,ietf-yang-types@2010-09-24.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-types,yang,,[RFC6021],

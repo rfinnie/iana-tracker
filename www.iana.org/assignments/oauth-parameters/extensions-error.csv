@@ -19,4 +19,4 @@ authorization_pending,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 
 access_denied,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
 slow_down,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
 expired_token,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
-invalid_target,token error response,OAuth 2.0 Token Exchange,IETF,"[RFC-ietf-oauth-token-exchange-19, Section 2.2.2]"
+invalid_target,"implicit grant error response, token error response",resource parameter,IESG,[RFC-ietf-oauth-resource-indicators-08]

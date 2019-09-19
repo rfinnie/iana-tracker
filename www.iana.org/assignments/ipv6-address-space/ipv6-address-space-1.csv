@@ -25,8 +25,7 @@ in [IANA registry ipv6-unicast-address-assignments].
       [12]
       [13]
       [14]
-      [15]
-      [16]"
+      [15]"
 4000::/3,Reserved by IETF,[RFC3513][RFC4291],
 6000::/3,Reserved by IETF,[RFC3513][RFC4291],
 8000::/3,Reserved by IETF,[RFC3513][RFC4291],
