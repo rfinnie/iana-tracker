@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-18</updated>
+    <updated>2019-09-20</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -159,12 +159,12 @@
                 <server>https://enom.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-30">
+        <record updated="2019-09-20">
             <value>49</value>
             <name>GMO Internet, Inc. d/b/a Onamae.com</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gmo-onamae.com/</server>
+                <server>https://rdap.gmo-onamae.com/rdap/v1/</server>
             </rdapurl>
         </record>
         <record>
@@ -1604,12 +1604,12 @@
             <name>Aim High!, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-30">
+        <record updated="2019-09-20">
             <value>645</value>
             <name>GMO-Z.com Pte. Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gmo-onamae.com/</server>
+                <server>https://rdap.gmo-onamae.com/rdap/v1/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-08">
@@ -6601,10 +6601,10 @@
             <name>Hebei Guoji Maoyi (Shanghai) LTD dba HebeiDomains.com</name>
             <status>Terminated</status>
         </record>
-        <record updated="2015-11-04">
+        <record updated="2019-09-20">
             <value>1430</value>
             <name>Purenic Japan Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2015-08-06">
             <value>1431</value>
@@ -23011,10 +23011,13 @@
             <name>Buzinessware FZCO</name>
             <status>Accredited</status>
         </record>
-        <record date="2018-01-11">
+        <record date="2018-01-11" updated="2019-09-20">
             <value>3802</value>
             <name>Ubilibet S.L.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ubilibet.com/</server>
+            </rdapurl>
         </record>
         <record date="2018-04-05">
             <value>3803</value>
@@ -23091,10 +23094,13 @@
             <name>Zunyi Brandma Network Technology Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2018-07-26">
+        <record date="2018-07-26" updated="2019-09-20">
             <value>3817</value>
             <name>Wix.com Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://www.wix.com/_api/whois/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record date="2019-01-10">
             <value>3818</value>

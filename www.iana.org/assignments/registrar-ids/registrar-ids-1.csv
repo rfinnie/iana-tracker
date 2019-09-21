@@ -26,7 +26,7 @@
 45,RCN Corporation,Terminated,
 47,REACTO.com Limited,Terminated,
 48,"eNom, LLC",Accredited,https://enom.rdap.tucows.com/
-49,"GMO Internet, Inc. d/b/a Onamae.com",Accredited,https://rdap.gmo-onamae.com/
+49,"GMO Internet, Inc. d/b/a Onamae.com",Accredited,https://rdap.gmo-onamae.com/rdap/v1/
 50,Telepartner A/S,Terminated,
 51,"Verio, Inc.",Terminated,
 52,"Deluxe Small Business Sales, Inc. d/b/a Aplus.net",Accredited,
@@ -282,7 +282,7 @@
 642,Ladas Domains LLC d/b/a Principium Strategies,Accredited,
 643,DNS:NET Internet Service GmbH,Terminated,
 644,"Aim High!, Inc.",Terminated,
-645,GMO-Z.com Pte. Ltd.,Accredited,https://rdap.gmo-onamae.com/
+645,GMO-Z.com Pte. Ltd.,Accredited,https://rdap.gmo-onamae.com/rdap/v1/
 646,"SNAPNAMES 73, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 647,"SNAPNAMES 74, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 648,Webagentur.at Internet Services GmbH d/b/a domainname.at,Accredited,https://rdap.inname.net/
@@ -1058,7 +1058,7 @@
 1427,"Zog Media, Inc. DBA Zog Names",Terminated,
 1428,Homestead Limited dba Namevault.com,Terminated,
 1429,Hebei Guoji Maoyi (Shanghai) LTD dba HebeiDomains.com,Terminated,
-1430,Purenic Japan Inc.,Accredited,
+1430,Purenic Japan Inc.,Terminated,
 1431,GLOBIX Kft.,Terminated,
 1432,Alpine Domains Inc.,Accredited,
 1433,Digitrad France SAS,Terminated,
@@ -3410,7 +3410,7 @@
 3799,Adriatic Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3800,Aegean Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3801,Buzinessware FZCO,Accredited,
-3802,Ubilibet S.L.,Accredited,
+3802,Ubilibet S.L.,Accredited,https://rdap.ubilibet.com/
 3803,Zoho Corporation Private Limited,Accredited,
 3804,Edomains LLC,Accredited,
 3805,Topnets Group Limited,Accredited,
@@ -3423,7 +3423,7 @@
 3812,Innovadeus Pvt. Ltd.,Accredited,
 3813,"ShangYu Global Technology Co., Ltd.",Accredited,
 3814,Zunyi Brandma Network Technology Ltd.,Accredited,
-3817,Wix.com Ltd.,Accredited,
+3817,Wix.com Ltd.,Accredited,https://www.wix.com/_api/whois/rdap/domain/
 3818,Baidu Europe B.V.,Accredited,
 3819,Alibaba Cloud US LLC,Accredited,
 3820,"Qinghai Yunnet Electronics Technology Co., Ltd",Accredited,
