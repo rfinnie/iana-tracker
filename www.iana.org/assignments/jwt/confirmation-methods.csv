@@ -1,9 +1,6 @@
 Confirmation Method Value,Confirmation Method Description,Change Controller,Reference
-jwk,JSON Web Key Representing Public Key,[IESG],"[
-        RFC7800, Section 3.2]"
-jwe,Encrypted JSON Web Key,[IESG],"[
-        RFC7800, Section 3.3]"
-kid,Key Identifier,[IESG],"[
-        RFC7800, Section 3.4]"
-jku,JWK Set URL,[IESG],"[
-        RFC7800, Section 3.5]"
+jwk,JSON Web Key Representing Public Key,[IESG],"[RFC7800, Section 3.2]"
+jwe,Encrypted JSON Web Key,[IESG],"[RFC7800, Section 3.3]"
+kid,Key Identifier,[IESG],"[RFC7800, Section 3.4]"
+jku,JWK Set URL,[IESG],"[RFC7800, Section 3.5]"
+x5t#S256,X.509 Certificate SHA-256 Thumbprint,[IESG],"[RFC-ietf-oauth-mtls-17, Section 3.1]"

@@ -1,29 +1,69 @@
-FOR ARCHIVING: Registration form for 'frp'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Bad Gateway!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: rgba(223, 227, 230, 0.2);
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
 
----
+<body>
+<div>
+    <h1>Bad Gateway!</h1>
+    <p>
 
-LANGUAGE SUBTAG REGISTRATION FORM
 
-1. Name of requester: Doug Ewell
-2. E-mail address of requester: doug at ewellic.org
-3. Record Requested:
+    The proxy server received an invalid
+    response from an upstream server.
 
-   Type: language
-   Subtag: frp
-   Description: Arpitan
-   Description: Francoprovençal
+  
+    </p>
+<p>
 
-4. Intended meaning of the subtag:
+    The proxy server could not handle the request<p>Reason: <strong>Error reading from remote server</strong></p>
+  
+    
+</p>
 
-5. Reference to published description
-   of the language (book or article):
+<h2>Error 502</h2>
+</body>
+</html>
 
-6. Any other relevant information:
+    <p align=right><a href="https://www.iana.org/">IANA</a></p>
+</div>
+</body>
+</html>
 
-   This registration tracks a change made to ISO 639-3 effective
-   2010-01-20, changing the reference name for 'frp' from
-   "Franco-Provençal" to "Arpitan" and adding the additional name
-   "Francoprovençal".
-
-   For more information on the ISO 639-3 change, refer to
-   http://www.sil.org/iso639-3/cr_files/639-3_ChangeRequests_2009_Summary.pdf .
