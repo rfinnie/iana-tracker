@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="bgp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="bgp-parameters">
   <title>Border Gateway Protocol (BGP) Parameters</title>
-  <updated>2019-09-16</updated>
+  <updated>2019-09-24</updated>
 
 
   <registry id="bgp-parameters-1">
@@ -1188,9 +1188,28 @@ Work in progress, March 1996.</xref>
 
   <registry id="pmsi-tunnel-types">
     <title>P-Multicast Service Interface Tunnel (PMSI Tunnel) Tunnel Types</title>
-    <registration_rule>IETF Review</registration_rule>
     <xref type="rfc" data="rfc7385"/>
     <xref type="rfc" data="rfc8317"/>
+    <range>
+      <value>0x00-0x7A</value>
+      <registration_rule>IETF Review</registration_rule>
+    </range>
+    <range>
+      <value>0x7B-0x7E</value>
+      <registration_rule>Experimental Use</registration_rule>
+    </range>
+    <range>
+      <value>0x80-0xFA</value>
+      <registration_rule>Composite Tunnel</registration_rule>
+    </range>
+    <range>
+      <value>0xFB-0xFE</value>
+      <registration_rule>Experimental Use</registration_rule>
+    </range>
+    <range>
+      <value>0xFF</value>
+      <registration_rule>Standards Action</registration_rule>
+    </range>
    <note>The status of value 0xFF may only be changed through Standards Action <xref type="rfc" data="rfc8126"/>.
    </note>
     <record>

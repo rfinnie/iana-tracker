@@ -1,7 +1,7 @@
                                                        Border Gateway Protocol (BGP) Parameters
 
    Last Updated
-           2019-09-16
+           2019-09-24
 
    Available Formats
            [IMG]
@@ -569,10 +569,6 @@ BGP Route Refresh Subcodes
 
 P-Multicast Service Interface Tunnel (PMSI Tunnel) Tunnel Types
 
-   Registration Procedure(s)
-
- IETF Review
-
    Reference
            [RFC7385][RFC8317]
 
@@ -584,6 +580,13 @@ P-Multicast Service Interface Tunnel (PMSI Tunnel) Tunnel Types
    Available Formats
            [IMG]
            CSV
+
+     Range   Registration Procedures
+   0x00-0x7A IETF Review
+   0x7B-0x7E Experimental Use
+   0x80-0xFA Composite Tunnel
+   0xFB-0xFE Experimental Use
+   0xFF      Standards Action
 
      Value                                                Meaning                                                            Reference
      0x00    no tunnel information present                                                                      [RFC6514]
