@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ssh-parameters">
   <title>Secure Shell (SSH) Protocol Parameters</title>
   <created>2005-06-02</created>
-  <updated>2019-09-18</updated>
+  <updated>2019-09-25</updated>
 
   <registry id="ssh-parameters-1">
     <title>Message Numbers</title>
@@ -1328,10 +1328,14 @@ bits per second.</description>
     <record>
       <value>arcfour128</value>
       <xref type="rfc" data="rfc4345"/>
+      <xref type="uri" data="https://datatracker.ietf.org/doc/status-change-ssh-arcfour-to-historic/">status-change-ssh-arcfour-to-historic</xref>
+      <note>HISTORIC</note>
     </record>
     <record>
       <value>arcfour256</value>
       <xref type="rfc" data="rfc4345"/>
+      <xref type="uri" data="https://datatracker.ietf.org/doc/status-change-ssh-arcfour-to-historic/">status-change-ssh-arcfour-to-historic</xref>
+      <note>HISTORIC</note>
     </record>
     <record>
       <value>aes128-ctr</value>
