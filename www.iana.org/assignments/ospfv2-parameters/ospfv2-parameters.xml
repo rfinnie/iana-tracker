@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv2-parameters">
   <title>Open Shortest Path First v2 (OSPFv2) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2019-08-26</updated>
+  <updated>2019-09-20</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-authentication-codes"/>
     <xref type="uri" data="http://www.iana.org/assignments/bandwidth-constraints-model-ids"/>
@@ -716,8 +716,20 @@
         (TEMPORARY - registered 2019-07-31, expires 2020-07-31)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
+    <record date="2019-09-20">
+      <value>22</value>
+      <description>Traffic Engineering Metric 
+        (TEMPORARY - registered 2019-09-20, expires 2020-09-20)</description>
+      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+    </record>
+	<record date="2019-09-20">
+      <value>23</value>
+      <description>Maximum Link Bandwidth 
+      (TEMPORARY - registered 2019-09-20, expires 2020-09-20)</description>
+      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+    </record>
     <record>
-      <value>22-32767</value>
+      <value>24-32767</value>
       <description>Unassigned</description>
     </record>
     <record date="2015-09-02">
