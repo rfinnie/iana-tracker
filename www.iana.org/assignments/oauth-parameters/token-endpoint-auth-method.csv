@@ -4,3 +4,5 @@ client_secret_post,IESG,[RFC7591]
 client_secret_basic,IESG,[RFC7591]
 client_secret_jwt,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 private_key_jwt,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+tls_client_auth,IESG,"[RFC-ietf-oauth-mtls-17, Section 2.1.1]"
+self_signed_tls_client_auth,IESG,"[RFC-ietf-oauth-mtls-17, Section 2.2.1]"

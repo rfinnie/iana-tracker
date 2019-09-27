@@ -97,7 +97,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 176,Nortel Proprietary,n,y,n,n,
 177,Nortel Proprietary,n,y,n,n,
 178-210,Unassigned,,,,,
-211,Restart TLV,y,n,n,n,[RFC5306]
+211,Restart TLV,y,n,n,n,[RFC-ietf-lsr-isis-rfc5306bis-09]
 212-221,Unassigned,,,,,
 222,MT-ISN,n,y,n,n,[RFC5120]
 223,MT IS Neighbor Attribute,n,y,n,n,[RFC5311]

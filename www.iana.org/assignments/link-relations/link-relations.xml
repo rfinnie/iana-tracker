@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2019-07-29</updated>
+  <updated>2019-09-25</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
@@ -31,6 +31,18 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <value>appendix</value>
     <description>Refers to an appendix.</description>
     <spec><xref type="uri" data="http://www.w3.org/TR/1999/REC-html401-19991224"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>apple-touch-icon</value>
+    <description>Refers to an icon for the context. Synonym for icon.</description>
+    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>apple-touch-startup-image</value>
+    <description>Refers to a launch screen for the context.</description>
+    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"/></spec>
   </record>
   
   <record date="2010-11-09">
@@ -199,6 +211,12 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <description>Identifies a related resource that is potentially
       large and might require special handling.</description>
     <spec><xref type="rfc" data="rfc4287"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>external</value>
+    <description>Refers to a resource that is not part of the same site as the current context.</description>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-external"/></spec>
   </record>
   
   <record>
@@ -388,6 +406,18 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
       MAY have others.</description>
     <spec><xref type="rfc" data="rfc6415"/></spec>
   </record>
+  
+  <record date="2019-09-25">
+    <value>manifest</value>
+    <description>Links to a manifest file for the context.</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest"/></spec>
+  </record>
+  
+  <record date="2019-09-26">
+    <value>mask-icon</value>
+    <description>Refers to a mask that can be applied to the icon for the context.</description>
+    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1"/></spec>
+  </record>
 
   <record date="2013-11-01">
     <value>memento</value>
@@ -395,6 +425,18 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <spec><xref type="rfc" data="rfc7089"/></spec>
     <note>A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource.</note>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>micropub</value>
+    <description>Links to the context's Micropub endpoint.</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/micropub/#endpoint-discovery-p-1"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>modulepreload</value>
+    <description>Refers to a module that the user agent is to preemptively fetch and store for use in the current context.</description>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload"/></spec>
   </record>
 
   <record>
@@ -431,10 +473,34 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-nofollow"/></spec>
   </record>
   
+  <record date="2019-09-25">
+    <value>noopener</value>
+    <description>Indicates that any newly created top-level browsing context which results from following the link will not be an auxiliary browsing context.</description>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-noopener"/></spec>
+  </record>
+  
   <record date="2010-11-09">
     <value>noreferrer</value>
     <description>Indicates that no referrer information is to be leaked when following the link.</description>    
     <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-noreferrer"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>opener</value>
+    <description>Indicates that any newly created top-level browsing context which results from following the link will be an auxiliary browsing context.</description>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-opener"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>openid2.local_id</value>
+    <description>Refers to an OpenID Authentication server on which the context relies for an assertion that the end user controls an Identifier.</description>
+    <spec><xref type="uri" data="https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3"/></spec>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>openid2.provider</value>
+    <description>Refers to a resource which accepts OpenID Authentication protocol messages for the context.</description>
+    <spec><xref type="uri" data="https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3"/></spec>
   </record>
   
   <record date="2013-11-01">
@@ -445,6 +511,12 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
       exist, and for which access to one of its prior states may be
       required.
     </note>
+  </record>
+  
+  <record date="2019-09-25">
+    <value>P3Pv1</value>
+    <description>Refers to a P3P privacy policy for the context.</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/P3P/#syntax_link"/></spec>
   </record>
   
   <record>

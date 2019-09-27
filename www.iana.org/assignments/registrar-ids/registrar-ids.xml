@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-20</updated>
+    <updated>2019-09-25</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1236,10 +1236,13 @@
                 <server>https://www.allglobalnames.com/es/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-25">
             <value>455</value>
             <name>EnCirca, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.encirca.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-06-21">
             <value>456</value>
@@ -1313,12 +1316,12 @@
             <name>NHN JAPAN Corp.</name>
             <status>Accredited</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2019-09-25">
             <value>468</value>
             <name>Amazon Registrar, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://registrar.amazon.com/rdap/</server>
+                <server>https://rdap.registrar.amazon.com/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-28">
@@ -1755,10 +1758,13 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-09-25">
             <value>667</value>
             <name>Name Share, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nameshare.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>668</value>
@@ -6956,10 +6962,13 @@
             <name>dm3 Digital Media Marketing and Monitoring FZ-LLC</name>
             <status>Terminated</status>
         </record>
-        <record updated="2018-04-26">
+        <record updated="2019-09-25">
             <value>1491</value>
             <name>Koreacenter co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ssandomain.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-01-28">
             <value>1492</value>
