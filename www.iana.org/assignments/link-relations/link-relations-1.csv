@@ -2,6 +2,8 @@ Relation Name,Description,Reference,Notes
 about,Refers to a resource that is the subject of the link's context.,"[RFC6903], section 2",
 alternate,Refers to a substitute for this context,[http://www.w3.org/TR/html5/links.html#link-type-alternate],
 appendix,Refers to an appendix.,[http://www.w3.org/TR/1999/REC-html401-19991224],
+apple-touch-icon,Refers to an icon for the context. Synonym for icon.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3],
+apple-touch-startup-image,Refers to a launch screen for the context.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3],
 archives,"Refers to a collection of records, documents, or other
       materials of historical interest.",[http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives],
 author,Refers to the context's author.,[http://www.w3.org/TR/html5/links.html#link-type-author],
@@ -56,6 +58,7 @@ edit-media,"Refers to a resource that can be used to edit media
       associated with the link's context.",[RFC5023],
 enclosure,"Identifies a related resource that is potentially
       large and might require special handling.",[RFC4287],
+external,Refers to a resource that is not part of the same site as the current context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-external],
 first,"An IRI that refers to the furthest preceding resource
     in a series of resources.",[RFC8288],"This relation type registration did not indicate a
       reference.  Originally requested by Mark Nottingham in December
@@ -102,18 +105,27 @@ lrdd,"Refers to further information about the link's context,
       Multiple instances indicate additional LRDD resources. LRDD
       resources MUST have an ""application/xrd+xml"" representation, and
       MAY have others.",[RFC6415],
+manifest,Links to a manifest file for the context.,[https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest],
+mask-icon,Refers to a mask that can be applied to the icon for the context.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1],
 memento,"The Target IRI points to a Memento, a fixed resource that will not change state anymore.",[RFC7089],"A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource."
+micropub,Links to the context's Micropub endpoint.,[https://www.w3.org/TR/micropub/#endpoint-discovery-p-1],
+modulepreload,Refers to a module that the user agent is to preemptively fetch and store for use in the current context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload],
 monitor,Refers to a resource that can be used to monitor changes in an HTTP resource.,[RFC5989],
 monitor-group,Refers to a resource that can be used to monitor changes in a specified group of HTTP resources.,[RFC5989],
 next,"Indicates that the link's context is a part of a series, and
       that the next in the series is the link target.",[http://www.w3.org/TR/html5/links.html#link-type-next],
 next-archive,Refers to the immediately following archive resource.,[RFC5005],
 nofollow,Indicates that the context’s original author or publisher does not endorse the link target.,[http://www.w3.org/TR/html5/links.html#link-type-nofollow],
+noopener,Indicates that any newly created top-level browsing context which results from following the link will not be an auxiliary browsing context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-noopener],
 noreferrer,Indicates that no referrer information is to be leaked when following the link.,[http://www.w3.org/TR/html5/links.html#link-type-noreferrer],
+opener,Indicates that any newly created top-level browsing context which results from following the link will be an auxiliary browsing context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-opener],
+openid2.local_id,Refers to an OpenID Authentication server on which the context relies for an assertion that the end user controls an Identifier.,[https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3],
+openid2.provider,Refers to a resource which accepts OpenID Authentication protocol messages for the context.,[https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3],
 original,The Target IRI points to an Original Resource.,[RFC7089],"An Original Resource is a resource that exists or used to
       exist, and for which access to one of its prior states may be
       required."
+P3Pv1,Refers to a P3P privacy policy for the context.,[https://www.w3.org/TR/P3P/#syntax_link],
 payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus

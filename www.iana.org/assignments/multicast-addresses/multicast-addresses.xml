@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2019-09-12</updated>
+  <updated>2019-09-27</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -3416,8 +3416,8 @@ low-order bits of the IP Multicast address are placed in the low-order
     </person>
     <person id="Henrik_Lans">
       <name>Henrik Lans</name>
-      <uri>mailto:henrik.lans&amp;get.no</uri>
-      <updated>2019-08-28</updated>
+      <uri>mailto:henrik.lans&amp;telia.no</uri>
+      <updated>2019-09-27</updated>
     </person>
     <person id="Hiroshi_Okubo">
       <name>Hiroshi Okubo</name>

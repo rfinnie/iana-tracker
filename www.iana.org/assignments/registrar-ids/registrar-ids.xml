@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-25</updated>
+    <updated>2019-09-27</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -17044,9 +17044,9 @@
             </rdapurl>
         </record>
         
-        <record date="2015-12-16" updated="2016-08-18">
+        <record date="2015-12-16" updated="2019-09-27">
             <value>2915</value>
-            <name>Xiamen Xin click Network Polytron Technologies Inc</name>
+            <name>Xiamen Xin click Network Group Co.,Ltd</name>
             <status>Accredited</status>
         </record>
         <record date="2015-12-16" updated="2016-11-03">
@@ -22803,10 +22803,10 @@
             <name>Fuzhou Zhongxu Network Technology Co., Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2017-08-03">
+        <record date="2017-08-03" updated="2019-09-27">
             <value>3764</value>
             <name>Xiamen Digital Engine Network Technology Co., Ltd</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2017-06-12" updated="2019-08-15">
             <value>3765</value>
@@ -23208,6 +23208,11 @@
         <record date="2019-08-15">
             <value>3841</value>
             <name>VIAWEB Inc.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2019-09-27">
+            <value>3842</value>
+            <name>Shenzhen Ping An Communication Technology Co., Ltd.</name>
             <status>Accredited</status>
         </record>
         <record date="2019-07-03">

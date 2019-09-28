@@ -752,9 +752,8 @@ CoAP Content-Formats
    2020-08-09)
    application/pkcs7-mime; smime-type=certs-only (TEMPORARY - registered           281         [RFC8551][draft-ietf-ace-coap-est]
    2018-08-09, extension registered 2019-06-14, expires 2020-08-09)
-   application/pkcs7-mime; smime-type=CMC-Request ((TEMPORARY -
-   registered 2018-08-09, extension registered 2019-06-14, expires                 282         [RFC8551][RFC5273][draft-ietf-ace-coap-est]
-   2020-08-09)
+   application/pkcs7-mime; smime-type=CMC-Request (TEMPORARY - registered          282         [RFC8551][RFC5273][draft-ietf-ace-coap-est]
+   2018-08-09, extension registered 2019-06-14, expires 2020-08-09)
    application/pkcs7-mime; smime-type=CMC-Response (TEMPORARY -
    registered 2018-08-09, extension registered 2019-06-14, expires                 283         [RFC8551][RFC5273][draft-ietf-ace-coap-est]
    2020-08-09)
