@@ -4,7 +4,7 @@
            2017-04-03
 
    Last Updated
-           2019-07-24
+           2019-09-25
 
    Available Formats
            [IMG]
@@ -27,7 +27,7 @@
      * IPv4 Attached Subnet Flags
      * IPv6 Attached Subnet Flags
      * Hop Control Actions Values
-     * Queue Parameters Sub Data Item Type Values
+     * Queue Parameter Sub-Data Item Type Values
 
 Signal Type Values
 
@@ -137,7 +137,9 @@ Data Item Type Values
    23          Queue Parameters                        [RFC-ietf-manet-dlep-pause-extension-08]
    24          Pause                                   [RFC-ietf-manet-dlep-pause-extension-08]
    25          Restart                                 [RFC-ietf-manet-dlep-pause-extension-08]
-   26-65407    Unassigned
+   26          Link Identifier Length                  [RFC-ietf-manet-dlep-lid-extension-06]
+   27          Link Identifier                         [RFC-ietf-manet-dlep-lid-extension-06]
+   28-65407    Unassigned
    65408-65534 Reserved for Private Use                [RFC8175]
    65535       Reserved                                [RFC8175]
 
@@ -196,8 +198,9 @@ Extension Type Values
       Code            Description                       Reference
    0           Reserved                  [RFC8175]
    1           Multi-Hop Forwarding      [RFC8629]
-   2           Control Plane Based Pause [RFC-ietf-manet-dlep-pause-extension-08]
-   3-65519     Unassigned
+   2           Control-Plane-Based Pause [RFC-ietf-manet-dlep-pause-extension-08]
+   3           Link Identifiers          [RFC-ietf-manet-dlep-lid-extension-06]
+   4-65519     Unassigned
    65520-65534 Reserved for Private Use  [RFC8175]
    65535       Reserved                  [RFC8175]
 
@@ -374,7 +377,7 @@ Hop Control Actions Values
    65520-65534 Reserved for Private Use [RFC8629]
    65535       Reserved                 [RFC8629]
 
-Queue Parameters Sub Data Item Type Values
+Queue Parameter Sub-Data Item Type Values
 
    Expert(s)
 
