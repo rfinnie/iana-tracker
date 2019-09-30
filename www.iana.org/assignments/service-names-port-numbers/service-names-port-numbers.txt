@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-08-26
+           2019-09-30
 
    Expert(s)
 
@@ -8408,8 +8408,8 @@ echonet            3610        tcp    ECHONET                      [Takeshi_Sait
 echonet            3610        udp    ECHONET                      [Takeshi_Saito]                                       [Takeshi_Saito]                                           2002-09
 six-degrees        3611        tcp    Six Degrees Port             [Zach_Nies]                                           [Zach_Nies]                                               2002-09
 six-degrees        3611        udp    Six Degrees Port             [Zach_Nies]                                           [Zach_Nies]                                               2002-09
-hp-dataprotect     3612        tcp    HP Data Protector            [Hewlett_Packard_2]                                   [Oliver_Breyel]                                           2002-09      2013-02-07
-hp-dataprotect     3612        udp    HP Data Protector            [Hewlett_Packard_2]                                   [Oliver_Breyel]                                           2002-09      2013-02-07
+dataprotector      3612        tcp    Micro Focus Data Protector   [Micro_Focus]                                         [Shishir_Misra]                                           2002-09      2019-09-30
+dataprotector      3612        udp    Micro Focus Data Protector   [Micro_Focus]                                         [Shishir_Misra]                                           2002-09      2019-09-30
 alaris-disc        3613        tcp    Alaris Device Discovery      [Chris_Dern]                                          [Chris_Dern]                                              2004-06
 alaris-disc        3613        udp    Alaris Device Discovery      [Chris_Dern]                                          [Chris_Dern]                                              2004-06
 sigma-port         3614        tcp    Satchwell Sigma              [Dave_Chapman]                                        [Dave_Chapman]                                            2011-06-06
@@ -14843,7 +14843,8 @@ davsrcs            9802        udp    WebDAV Source TLS/SSL        [Rob_Isaac]  
 sapv1              9875        tcp    Session Announcement v1                                                                                                                                                [RFC2974]
 sapv1              9875        udp    Session Announcement v1                                                                                                                                                [RFC2974]
 sd                 9876        tcp    Session Director             [Van_Jacobson]                                        [Van_Jacobson]
-                   9877               Unassigned
+x510               9877        tcp    The X.510 wrapper protocol   [ITU/TSB_(ITU-T_Study_Group_17)]                      [Erik_Andersen]                                           2019-09-30                [ITU-T X.510 / ISO/IEC 9584-11]
+                   9877        udp    Reserved
                                       The KX509 Kerberized                                                                                                                                                                                                                        Historically, this service has been referred to as
 kca-service        9878        udp    Certificate Issuance         [IESG]                                                [IETF_Chair]                                              2012-07-12                [RFC6717]                                                            "kca_service", but this service name does not meet the
                                       Protocol in Use in 2012                                                                                                                                                                                                                     registry requirements.
@@ -20700,7 +20701,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [heroicrobotics.com]                                                                 heroicrobotics.com       mailto:jasmine&heroicrobotics.com                             2014-06-24
 [Hesham_Soliman]                                          Hesham Soliman                                      mailto:H.Soliman&flarion.com                                  2005-11
 [Hewlett_Packard]                                                                    Hewlett Packard
-[Hewlett_Packard_2]                                                                  Hewlett Packard          mailto:oliver.breyel&hp.com                                   2013-02-07
 [Hewlett_Packard_Enterprise]                                                         Hewlett Packard                                                                        2016-04-14
                                                                                      Enterprise
 [Hewlett_Packard_Enterprise_2]                                                       Hewlett Packard          mailto:rda-port&hpe.com                                       2018-11-02
@@ -20860,6 +20860,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Itai_Greenberg]                                          Itai Greenberg                                      mailto:itaig&microsoft.com                                    2004-11
 [Itaru_Kimura]                                            Itaru Kimura                                        mailto:kimura&kel.fujitsu.co.jp
 [ITU-T_Study_Group_17]                                                               ITU-T Study Group 17     mailto:era&x500.eu                                            2019-08-13
+[ITU/TSB_(ITU-T_Study_Group_17)]                                                     ITU/TSB (ITU-T Study     mailto:tsbsg17&itu.int                                        2019-09-30
+                                                                                     Group 17)
 [Ivan_Berardinelli]                                       Ivan Berardinelli                                   mailto:ivan&gestweb.com
 [Ivana_Cuozzo]                                            Ivana Cuozzo                                        mailto:Ivana.Cuozzo&tivoli.com
 [Ivo_Timmermans]                                          Ivo Timmermans                                      mailto:itimmermans&bigfoot.com
@@ -22165,6 +22167,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michel_Stam_2]                                           Michel Stam                                         mailto:michel.iana&reverze.net                                2012-11-20
 [Michiel_Terpstra]                                        Michiel Terpstra                                    mailto:terpstra.m&interactionnext.nl                          2013-11-13
 [Mick_Conley]                                             Mick Conley                Wi-Fi Alliance           mailto:mconley&wi-fi.org                                      2013-12-31
+[Micro_Focus]                                                                        Micro Focus              mailto:swpdl.dp.rd&microfocus.com                             2019-09-30
 [Micromat]                                                Micromat                                            mailto:support&micromat.com
 [Microlite_Corporation]                                   Microlite Corporation                               mailto:tom&microlite.com                                      2015-11-04
 [Microsoft_Corporation]                                                              Microsoft Corporation    mailto:pratshar&microsoft.com                                 2011-08-04
@@ -22457,7 +22460,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Oleksandr_Zakharchuk]                                    Oleksandr Zakharchuk                                mailto:zakharchuk&dialogtech.com
 [Oliver_Anan]                                             Oliver Anan                                         mailto:oliver&ananit.de                                       2010-09-02
 [Oliver_Bailey]                                           Oliver Bailey                                       mailto:zzf66jjlm&time-lines.com                               2003-01
-[Oliver_Breyel]                                           Oliver Breyel                                       mailto:oliver.breyel&hp.com                                   2013-02-07
 [Oliver_Heinz]                                            Oliver Heinz                                        mailto:heinz&arago.de                                         2005-08
 [Oliver_Korfmacher]                                       Oliver Korfmacher                                   mailto:okorf&netcs.com
 [Oliver_Lewis]                                            Oliver Lewis                                        mailto:o.lewis&icerobotics.co.uk                              2006-08
@@ -23393,6 +23395,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Shinji_Yamanaka]                                         Shinji Yamanaka                                     mailto:syamanaka&jci.co.jp
 [Shinya_Abe]                                              Shinya Abe                                          mailto:abeabe&pfu.co.jp
 [Shiro_Tamoto]                                            Shiro Tamoto                                        mailto:tamoto.shiro&jp.panasonic.com                          2003-10
+[Shishir_Misra]                                           Shishir Misra                                       mailto:shishir.misra&microfocus.com                           2019-09-30
 [Shivakumar_S_Govind]                                     Shivakumar S.                                       mailto:shivak&eng.sun.com
                                                           Govindarajapuram
 [Shivaun_Albright]                                        Shivaun Albright                                    mailto:shivaun_albright&hp.com                                2002-04

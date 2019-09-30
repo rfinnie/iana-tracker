@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trip-parameters">
     <title>Telephony Routing over IP (TRIP) Parameters</title>
     <created>2001-12-18</created>
-    <updated>2019-09-16</updated>
+    <updated>2019-09-30</updated>
 
     <registry id="trip-parameters-1">
         <title>TRIP Capabilities</title>
@@ -12366,6 +12366,13 @@
             </description>
             <xref type="person" data="Keaton_Alexander_Guger_Lair"/>
         </record>
+        <record date="2019-09-30">
+            <value>1985</value>
+            <description>AA+ Travelz HeRe Ink
+                
+            </description>
+            <xref type="person" data="Trisha_Lynn_Miller"/>
+        </record>
     </registry>
 
     <people>
@@ -19899,6 +19906,11 @@
             <name>Trevor Hammonds</name>
             <uri>mailto:trevor&amp;concipient.com</uri>
             <updated>2009-01-14</updated>
+        </person>
+        <person id="Trisha_Lynn_Miller">
+            <name>Trisha Lynn Miller</name>
+            <uri>mailto:eaten1967&amp;gmail.com</uri>
+            <updated>2019-09-30</updated>
         </person>
         <person id="Troy_Davis">
             <name>Troy Davis</name>
