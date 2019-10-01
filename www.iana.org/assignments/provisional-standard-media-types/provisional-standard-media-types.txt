@@ -4,7 +4,7 @@
            2012-07-20
 
    Last Updated
-           2019-09-26
+           2019-09-30
 
    Available Formats
            [IMG]
@@ -38,16 +38,20 @@ Provisional Standard Media Type Registry
            [IMG]
            CSV
 
-          Media Type         Organization            Contact
-   application/odm+json     CDISC          [Sam_Hume]
-   audio/TETRA_ACELP_BB     ETSI           [Miguel_Angel_Reina_Ortega]
-   application/ion          IETF           [Jonathan_Hohle]
-   application/akn+xml      OASIS          [Chet_Ensign]
-   text/nfo                 Seantek        [Sean_Leonard]
-   application/reports+json W3C            [Douglas_Creager]
-   application/wasm         W3C            [Bradley_Nelson]
-   text/vtt                 W3C            [Silvia_Pfeiffer]
-   application/won          IETF/W3C/other [Roy_T._Fielding]
+           Media Type           Organization                    Contact
+   application/odm+json        CDISC          [Sam_Hume]
+   audio/TETRA_ACELP_BB        ETSI           [Miguel_Angel_Reina_Ortega]
+   application/cert-chain+cbor IETF           [draft-yasskin-http-origin-signed-responses]
+   application/ion             IETF           [Jonathan_Hohle]
+   application/pkix-keyinfo    IETF           [draft-hallambaker-mesh-udf]
+   application/signed-exchange IETF           [draft-yasskin-http-origin-signed-responses]
+   application/webbundle       IETF           [draft-yasskin-wpack-bundled-exchanges]
+   application/akn+xml         OASIS          [Chet_Ensign]
+   text/nfo                    Seantek        [Sean_Leonard]
+   application/reports+json    W3C            [Douglas_Creager]
+   application/wasm            W3C            [Bradley_Nelson]
+   text/vtt                    W3C            [Silvia_Pfeiffer]
+   application/won             IETF/W3C/other [Roy_T._Fielding]
 
                                                                         People
 
