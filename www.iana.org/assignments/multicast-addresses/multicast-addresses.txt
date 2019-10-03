@@ -1,7 +1,7 @@
                                                         IPv4 Multicast Address Space Registry
 
    Last Updated
-           2019-09-12
+           2019-10-01
 
    Expert(s)
 
@@ -552,7 +552,7 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
    224.0.106.0-224.0.106.255   TMX                       [Michael_Caravetta][Boris_Garber]                                    2011-06-16
    224.0.107.0-224.0.108.255   Alpha Group               [Zaklina_Petkovic]                                                   2011-07-13
    224.0.109.0-224.0.110.255   Zaklina_Petkovic          [David_Brett]                                                        2011-10-25
-   224.0.111.0-224.0.111.255   VoleraDataFeed            [Gerald_Hanweck]                                                     2011-10-25
+   224.0.111.0-224.0.111.255   VoleraDataFeed            [Gerald_Hanweck]                    [Hanweck_Associates]             2011-10-25
    224.0.112.0-224.0.112.255   JHB-STOCK-EXCH            [Clem_Verwey]                                                        2011-12-07
    224.0.113.0-224.0.114.255   Deutsche Boerse           [Jan_Drwal]                                                          2011-12-19
    224.0.115.0-224.0.115.255   TMX                       [Michael_Caravetta][Boris_Garber]                                    2012-06-12
@@ -563,7 +563,7 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
    224.0.121.0-224.0.121.255   AQUIS-EXCHANGE            [Paul_Roberts]                      [Aquis_Exchange_PLC]             2013-05-13
    224.0.122.0-224.0.123.255   DNS:NET TV                [Marlon_Berlin]                                                      2013-05-25
    224.0.124.0-224.0.124.255   Boston Options Exchange   [David_Wilson][Michael_Caravetta_2]                                  2013-05-30
-   224.0.125.0-224.0.125.255   Hanweck Associates        [Gerald_Hanweck]                                                     2013-09-05
+   224.0.125.0-224.0.125.255   Hanweck Associates        [Gerald_Hanweck]                    [Hanweck_Associates]             2013-09-05
    224.0.126.0-224.0.129.255   Intercontinental          [RIR_Admin]                         [Intercontinental_Exchange_Inc.] 2013-10-31
                                Exchange, Inc.
    224.0.130.0-224.0.131.255   BATS Trading              [Andrew_Brown]                                                       2014-03-05
@@ -589,7 +589,7 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
    224.0.180.0-224.0.181.255   CBOE Europe               [Jason_Ives]                        [CBOE_Europe]                    2019-02-13
    224.0.182.0-224.0.183.255   ALCOM-TV                  [TV_System_Administrators]          [Ålands_Telekommunikation_Ab]    2019-02-28
    224.0.184.0-224.0.184.255   AQUIS-EXCHANGE            [Paul_Roberts]                      [Aquis_Exchange_PLC]             2019-08-28
-   224.0.185.0-224.0.185.255   Hanweck Associates        [Svetlana_Kachintseva]                                               2019-09-12
+   224.0.185.0-224.0.185.255   Hanweck Associates        [Svetlana_Kachintseva]              [Hanweck_Associates]             2019-09-12
    224.0.186.0-224.0.249.255   Unassigned
    224.0.250.0-224.0.251.255   KPN Broadcast Services    [Ad_C_Spelt][KPN_IP_Office]                                          2009-09-01
    224.0.252.0-224.0.252.255   KPN Broadcast Services    [Ad_C_Spelt][KPN_IP_Office]                                          2005-08-01
@@ -932,10 +932,11 @@ Relative Addresses used with Scoped Multicast Addresses
 [Guido_Petronio]                                  Guido Petronio                              mailto:guido.petronio&moneyline.com                2004-01-01
 [Guilherme_Longanezi]                             Guilherme Longanezi                         mailto:glonganezi&bvmf.com.br                      2016-09-27
 [Guy_Whitehouse]                                  Guy Whitehouse                              mailto:gwhitehouse&londonstockexchange.com         2006-03-31
+[Hanweck_Associates]                              Hanweck Associates                          mailto:iana-change-controller&hanweckassoc.com     2019-10-01
 [Hatice_Unal]                                     Hatice Unal                                 mailto:CAN-Tech-Network&itg.com                    2019-01-25
 [Heiko_Rupp]                                      Heiko Rupp                                  mailto:hwr&xlink.net                               1997-01-01
 [Henri_Moelard]                                   Henri Moelard                               mailto:HMOELARD&wcnd.nl.lucent.com                 1998-03
-[Henrik_Lans]                                     Henrik Lans                                 mailto:henrik.lans&get.no                          2019-08-28
+[Henrik_Lans]                                     Henrik Lans                                 mailto:henrik.lans&telia.no                        2019-09-27
 [Hiroshi_Okubo]                                   Hiroshi Okubo                               mailto:okubo.hiroshi&canon.co.jp                   2014-08-01
 [Howard_Gordon]                                   Howard Gordon                               mailto:hgordon&xingtech.com
 [IANA]                                            IANA                                        mailto:iana&iana.org

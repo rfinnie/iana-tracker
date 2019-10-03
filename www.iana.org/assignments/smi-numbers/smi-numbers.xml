@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-09-10</updated>
+  <updated>2019-09-27</updated>
   
  
   
@@ -6194,10 +6194,10 @@ Access Beyond web</description>
         <description>id-mod-keyPkgReceiptAndErrV2</description>
         <xref type="rfc" data="rfc7191"/>
       </record>
-      <record>
+      <record updated="2019-09-27">
         <value>64</value>
         <description>id-mod-mts-hashsig-2013</description>
-        <xref type="draft" data="draft-housley-cms-mts-hash-sig"/>
+        <xref type="draft" data="RFC-ietf-lamps-cms-hash-sig-10"/>
       </record>
       <record date="2015-03-19">
         <value>65</value>
@@ -6762,6 +6762,9 @@ Access Beyond web</description>
       <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
       <note>Value 14, "id-alg-rsa-kem," is also referred to as "id-rsa-kem."
       </note>
+      <note>Value 17, "id-alg-hss-lms-hashsig", is also referred to as 
+"id-alg-mts-hashsig".
+      </note>
       <record>
         <value>1</value>
         <description>id-alg-ESDHwith3DES</description>
@@ -6842,10 +6845,10 @@ Access Beyond web</description>
         <description>id-alg-authEnc-256</description>
         <xref type="rfc" data="rfc6476"/>
       </record>
-      <record>
+      <record updated="2019-09-27">
         <value>17</value>
-        <description>id-alg-mts-hashsig</description>
-        <xref type="draft" data="draft-housley-cms-mts-hash-sig"/>
+        <description>id-alg-hss-lms-hashsig</description>
+        <xref type="draft" data="RFC-ietf-lamps-cms-hash-sig-10"/>
       </record>
       <record date="2017-01-24">
         <value>18</value>

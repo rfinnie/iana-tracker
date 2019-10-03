@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-09-10
+           2019-09-27
 
    Note
 
@@ -1883,7 +1883,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      61    id-mod-rpkiROA                         [RFC6482]
      62    id-mod-setKeyAttributeV1               [draft-herzog-setkey]
      63    id-mod-keyPkgReceiptAndErrV2           [RFC7191]
-     64    id-mod-mts-hashsig-2013                [draft-housley-cms-mts-hash-sig]
+     64    id-mod-mts-hashsig-2013                [RFC-ietf-lamps-cms-hash-sig-10]
      65    mod-sMimeSecureHeadersV1               [RFC7508]
      66    id-mod-CMS-AEADChaCha20Poly1305        [RFC8103]
      67    id-mod-cms-ecdh-alg-2017               [RFC8418]
@@ -2049,6 +2049,12 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
  Value 14, "id-alg-rsa-kem," is also referred to as "id-rsa-kem."
 
 
+   Note
+
+ Value 17, "id-alg-hss-lms-hashsig", is also referred to as
+ "id-alg-mts-hashsig".
+
+
    Available Formats
            [IMG]
            CSV
@@ -2070,7 +2076,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      14    id-alg-rsa-kem                        [RFC5990]
      15    id-alg-authEnc-128                    [RFC6476]
      16    id-alg-authEnc-256                    [RFC6476]
-     17    id-alg-mts-hashsig                    [draft-housley-cms-mts-hash-sig]
+     17    id-alg-hss-lms-hashsig                [RFC-ietf-lamps-cms-hash-sig-10]
      18    id-alg-AEADChaCha20Poly1305           [RFC8103]
      19    dhSinglePass-stdDH-hkdf-sha256-scheme [RFC8418]
      20    dhSinglePass-stdDH-hkdf-sha384-scheme [RFC8418]

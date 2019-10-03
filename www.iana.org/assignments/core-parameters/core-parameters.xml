@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2019-09-17</updated>
+  <updated>2019-09-26</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -2273,13 +2273,11 @@
       <id>61</id>
       <xref type="rfc" data="rfc8392"/>
     </record>
-    <record date="2018-09-05" updated="2019-08-01">
-      <mediatype>application/multipart-core 
-        (TEMPORARY - registered 2018-09-05, extension registered 2019-08-01, 
-        expires 2020-03-05)</mediatype>
+    <record date="2018-09-05" updated="2019-09-26">
+      <mediatype>application/multipart-core</mediatype>
       <encoding/>
       <id>62</id>
-      <xref type="draft" data="draft-ietf-core-multipart-ct"/>
+      <xref type="draft" data="RFC-ietf-core-multipart-ct-04"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -2397,7 +2395,7 @@
     </record>
     <record>
       <mediatype>application/pkcs7-mime; smime-type=CMC-Request
-        ((TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)</mediatype>
+        (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)</mediatype>
       <encoding/>
       <id>282</id>
       <xref type="rfc" data="rfc8551"/>

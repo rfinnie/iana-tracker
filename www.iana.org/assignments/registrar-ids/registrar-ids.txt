@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2019-09-20
+           2019-09-27
 
    Available Formats
            [IMG]
@@ -247,7 +247,7 @@ Registrar IDs
      451   AAAQ.COM, Inc.                                                        Terminated
      452   Name105, Inc.                                                         Accredited https://namerdap.systems/
      453   AllGlobalNames, S.A. dba Cyberegistro.com                             Accredited https://www.allglobalnames.com/es/
-     455   EnCirca, Inc.                                                         Accredited
+     455   EnCirca, Inc.                                                         Accredited https://rdap.encirca.com/
      456   Webnames.ca Inc.                                                      Accredited https://www.webnames.ca/rdap/
      457   Cydentity, Inc. dba Cypack.com                                        Terminated
      458   #1 Accredited Registrar                                               Terminated
@@ -260,7 +260,7 @@ Registrar IDs
      465   Domains.coop Limited                                                  Accredited
      466   DomainSite, Inc.                                                      Accredited https://namerdap.systems/
      467   NHN JAPAN Corp.                                                       Accredited
-     468   Amazon Registrar, Inc.                                                Accredited https://registrar.amazon.com/rdap/
+     468   Amazon Registrar, Inc.                                                Accredited https://rdap.registrar.amazon.com/rdap/
      469   easyDNS Technologies Inc.                                             Accredited https://easydns.rdap.tucows.com/
      470   Nom-iq Ltd. dba COM LAUDE                                             Accredited https://rdap.comlaude.com/rdap/
      471   Bizcn.com, Inc.                                                       Accredited
@@ -332,7 +332,7 @@ Registrar IDs
      664   Web4Africa Inc.                                                       Accredited
      665   iRegistry Corp.                                                       Terminated
      666   SNAPNAMES 84, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
-     667   Name Share, Inc.                                                      Accredited
+     667   Name Share, Inc.                                                      Accredited https://rdap.nameshare.com/
      668   Lead Networks Domains Pvt. Ltd.                                       Terminated
      669   ResellerSRS Inc dba ResellerSRS.com                                   Terminated
      670   $$$ Private Label Internet Service Kiosk, Inc. (dba "PLISK.com")      Accredited
@@ -1150,7 +1150,7 @@ Registrar IDs
     1488   Demys Limited                                                         Accredited https://rdap.comlaude.com/rdap/
     1489   Megazone Corp., dba HOSTING.KR                                        Accredited
     1490   dm3 Digital Media Marketing and Monitoring FZ-LLC                     Terminated
-    1491   Koreacenter co., Ltd.                                                 Accredited
+    1491   Koreacenter co., Ltd.                                                 Accredited https://rdap.ssandomain.com/
     1492   NEEN S.p.A.                                                           Accredited
     1493   Ilait AB                                                              Accredited
     1494   Beijing Guoxu Network Technology Co., Ltd.                            Accredited
@@ -2559,7 +2559,7 @@ Registrar IDs
     2910   Beijing Brandma International Networking Technology Ltd.              Accredited
     2911   Nakazawa Trading Co.,Ltd.                                             Accredited
     2913   Dominion Domains, LLC                                                 Accredited https://rdap.myorderbox.com/
-    2915   Xiamen Xin click Network Polytron Technologies Inc                    Accredited
+    2915   Xiamen Xin click Network Group Co.,Ltd                                Accredited
     2916   Hangzhou Midaizi Network Co., Ltd.                                    Accredited
     2917   Aiming Limited                                                        Accredited
     2918   NetZone AG                                                            Accredited https://rdap.netzone.ch/
@@ -3406,7 +3406,7 @@ Registrar IDs
     3761   WangJu Brands Management Co., Ltd.                                    Accredited
     3762   Hainan Universal Technology Co., Ltd                                  Accredited
     3763   Fuzhou Zhongxu Network Technology Co., Ltd.                           Accredited
-    3764   Xiamen Digital Engine Network Technology Co., Ltd                     Accredited
+    3764   Xiamen Digital Engine Network Technology Co., Ltd                     Terminated
     3765   NICENIC INTERNATIONAL GROUP CO., LIMITED                              Accredited https://rdap.iisp.com/
     3766   SHENZHEN DOMAINSTAR TECHNOLOGY CO., LIMITED                           Terminated
     3767   JIANGSU CHENGFUTONG NETWORK TECHNOLOGY CO., LTD.                      Terminated
@@ -3477,6 +3477,7 @@ Registrar IDs
     3839   Nerd Origins Ltd                                                      Accredited
     3840   Tool Domains Ltd                                                      Accredited
     3841   VIAWEB Inc.                                                           Accredited
+    3842   Shenzhen Ping An Communication Technology Co., Ltd.                   Accredited
     3844   AppCroNix Infotech Private Limited, d/b/a VEBONIX.com                 Accredited
     3846   DomainsBot S.R.L.                                                     Accredited
     3847   Beijing Jingkewang Technology Company Ltd.                            Accredited

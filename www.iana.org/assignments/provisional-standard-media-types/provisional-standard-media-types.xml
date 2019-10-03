@@ -5,7 +5,7 @@
   <title>Provisional Standard Media Type Registry</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-07-20</created>
-  <updated>2019-09-03</updated>
+  <updated>2019-09-30</updated>
 
   <registry id="provisional-standard-types">
     <title>Provisional Standard Media Type Registry</title>
@@ -30,15 +30,30 @@ use for development and test purposes only.
       <xref type="person" data="Miguel_Angel_Reina_Ortega"/>
     </record>
     
+    <record date="2019-09-30">
+      <name>application/cert-chain+cbor</name>
+      <org>IETF</org>
+      <xref type="draft" data="draft-yasskin-http-origin-signed-responses"/>
+    </record>
     <record date="2017-06-28">
       <name>application/ion</name>
       <org>IETF</org>
       <xref type="person" data="Jonathan_Hohle"/>
     </record>
-    <record date="2018-09-05">
-      <name>application/multipart-core</name>
+    <record date="2019-09-30">
+      <name>application/pkix-keyinfo</name>
       <org>IETF</org>
-      <xref type="draft" data="draft-ietf-core-multipart-ct"/>
+      <xref type="draft" data="draft-hallambaker-mesh-udf"/>
+    </record>
+    <record date="2019-09-30">
+      <name>application/signed-exchange</name>
+      <org>IETF</org>
+      <xref type="draft" data="draft-yasskin-http-origin-signed-responses"/>
+    </record>
+    <record date="2019-09-30">
+      <name>application/webbundle</name>
+      <org>IETF</org>
+      <xref type="draft" data="draft-yasskin-wpack-bundled-exchanges"/>
     </record>
     
     <record date="2014-10-02" updated="2014-12-12">
