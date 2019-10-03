@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv2-parameters">
   <title>Open Shortest Path First v2 (OSPFv2) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2019-09-20</updated>
+  <updated>2019-10-03</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-authentication-codes"/>
     <xref type="uri" data="http://www.iana.org/assignments/bandwidth-constraints-model-ids"/>
@@ -507,8 +507,14 @@
       <description>Prefix SID Sub-TLV</description>
       <xref type="draft" data="RFC-ietf-ospf-segment-routing-extensions-24"/>
     </record>
+    <record date="2019-10-03">
+      <value>3</value>
+      <description>Flex-Algorithm Prefix Metric 
+      (TEMPORARY - registered 2019-10-03, expires 2020-10-03)</description>
+      <xref type="draft" data="draft-ietf-lsr-flex-algo"/>
+    </record>
     <record>
-      <value>3-8</value>
+      <value>4-8</value>
       <description>Unassigned</description>
     </record>
     

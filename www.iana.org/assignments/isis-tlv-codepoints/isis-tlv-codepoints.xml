@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2019-09-25</updated>
+  <updated>2019-10-02</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -1426,7 +1426,21 @@ by the IESG.
       <xref type="rfc" data="rfc7794"/>
     </record>
     <record>
-      <value>5-10</value>
+      <value>5</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2019-10-02">
+      <value>6</value>
+      <description>Flex-Algorithm Prefix Metric 
+      (TEMPORARY - registered 2019-10-02, expires 2020-10-02)</description>
+      <TLV_135>y</TLV_135>
+      <TLV_235>y</TLV_235>
+      <TLV_236>y</TLV_236>
+      <TLV_237>y</TLV_237>
+      <xref type="draft" data="draft-ietf-lsr-flex-algo"/>
+    </record>
+    <record>
+      <value>7-10</value>
       <description>Unassigned</description>
     </record>
     <record date="2015-07-16" updated="2016-01-14">
