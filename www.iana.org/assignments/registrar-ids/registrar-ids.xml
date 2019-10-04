@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-09-27</updated>
+    <updated>2019-10-03</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -251,10 +251,13 @@
                 <server>https://domainpeople.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>66</value>
             <name>Enameco, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>67</value>
@@ -386,10 +389,13 @@
             <name>HANGANG Systems, Inc. dba Doregi.com</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>88</value>
             <name>Namebay SAM</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.namebay.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>89</value>
@@ -543,10 +549,13 @@
             <name>Netpia.com, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-03">
             <value>131</value>
             <name>Total Web Solutions Limited trading as TotalRegistrations</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.totalregistrations.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>132</value>
@@ -597,10 +606,13 @@
                 <server>https://rdap.omnis.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>144</value>
             <name>Alldomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>145</value>
@@ -773,10 +785,13 @@
                 <server>https://rdap.rrpproxy.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>270</value>
             <name>Address Creation, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>274</value>
@@ -1013,10 +1028,13 @@
             <name>Domain-It!, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>413</value>
             <name>Domain Pro, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>414</value>
@@ -1197,10 +1215,13 @@
             <name>SafeNames Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>448</value>
             <name>Universal Registration Services, Inc. dba NewDentity.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-07-29">
             <value>449</value>
@@ -1407,10 +1428,13 @@
             <name>rockenstein AG</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>606</value>
             <name>Namezero, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-22">
             <value>607</value>
@@ -1473,10 +1497,13 @@
             <name>Enetica Pty Ltd</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>619</value>
             <name>Domainducks, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>620</value>
@@ -1697,10 +1724,13 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>658</value>
             <name>Register Names, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-08">
             <value>659</value>
@@ -2757,210 +2787,315 @@
             <name>Minds and Machines Registrar UK Limited</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>845</value>
             <name>1800-website, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>846</value>
             <name>123domainrenewals, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-03">
             <value>847</value>
             <name>Hostlane, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-03">
             <value>848</value>
             <name>PrivacyPost, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-07-23">
             <value>849</value>
             <name>Allindomains, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>850</value>
             <name>Allaccessdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>851</value>
             <name>Addressontheweb, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>852</value>
             <name>Atozdomainsmarket, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>853</value>
             <name>Austriadomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>854</value>
             <name>995discountdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>855</value>
             <name>24x7domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>856</value>
             <name>1st-for-domain-names, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>857</value>
             <name>Capitoldomains, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>858</value>
             <name>Chinesedomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-03">
             <value>859</value>
             <name>Cocosislandsdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>860</value>
             <name>Belgiumdomains, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>861</value>
             <name>Bidfordomainnames, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>862</value>
             <name>Capitaldomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>863</value>
             <name>Deutchdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>864</value>
             <name>Domaincamping, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>865</value>
             <name>Domaindoorman, LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>866</value>
             <name>Domainhostingweb, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>867</value>
             <name>Domaininternetname, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>868</value>
             <name>Domainnamebidder, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>869</value>
             <name>Domainnamelookup, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>870</value>
             <name>Niuedomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>871</value>
             <name>Samoandomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>872</value>
             <name>Tuvaludomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>873</value>
             <name>Unitedkingdomdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-03">
             <value>874</value>
             <name>Chocolatecovereddomains,LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>875</value>
             <name>Claimeddomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>876</value>
             <name>Department-of-domains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>877</value>
             <name>Decentdomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>878</value>
             <name>Columbiadomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>879</value>
             <name>Domainbusinessnames, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>880</value>
             <name>Domainclub.com, LLC</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>881</value>
             <name>Domainbulkregistration, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>882</value>
             <name>Domain-A-Go-Go, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>883</value>
             <name>Discountdomainservices, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>884</value>
             <name>Diggitydot, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>885</value>
             <name>Austriandomains, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://EIG.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>886</value>
@@ -5460,10 +5595,13 @@
             <name>OwnRegistrar, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-10-03">
             <value>1251</value>
             <name>Nameshield SAS</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nameshield.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1252</value>
