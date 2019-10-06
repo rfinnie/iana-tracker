@@ -25,6 +25,8 @@ Type Code,Description,Reference
 23,Queue Parameters,[RFC-ietf-manet-dlep-pause-extension-08]
 24,Pause,[RFC-ietf-manet-dlep-pause-extension-08]
 25,Restart,[RFC-ietf-manet-dlep-pause-extension-08]
-26-65407,Unassigned,
+26,Link Identifier Length,[RFC-ietf-manet-dlep-lid-extension-06]
+27,Link Identifier,[RFC-ietf-manet-dlep-lid-extension-06]
+28-65407,Unassigned,
 65408-65534,Reserved for Private Use,[RFC8175]
 65535,Reserved,[RFC8175]
