@@ -4,7 +4,7 @@
            2005-08-23
 
    Last Updated
-           2019-09-26
+           2019-10-08
 
    Available Formats
            [IMG]
@@ -396,7 +396,7 @@ TLS Cipher Suites
    0xBA,0x00-B9 Unassigned
     0xBA,0xBA   Reserved                                                     Y       N           [RFC-ietf-tls-grease-04]
    0xBA,0xBB-FF Unassigned
-    0x8B-BF,*   Unassigned
+    0xBB-BF,*   Unassigned
     0xC0,0x00   Unassigned
     0xC0,0x01   TLS_ECDH_ECDSA_WITH_NULL_SHA                                 Y       N           [RFC8422]
     0xC0,0x02   TLS_ECDH_ECDSA_WITH_RC4_128_SHA                              N       N           [RFC8422][RFC6347]

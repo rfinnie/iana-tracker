@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Parameters</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-08-23</created>
-  <updated>2019-09-26</updated>
+  <updated>2019-10-08</updated>
 
 
   <registry id="tls-parameters-2">
@@ -1535,7 +1535,7 @@ widely deployed implementations</description>
       <description>Unassigned</description>
     </record>
     <record>
-      <value>0x8B-BF,*</value>
+      <value>0xBB-BF,*</value>
       <description>Unassigned</description>
     </record>
     <record>
