@@ -10147,7 +10147,7 @@ freeciv,5556,udp,Freeciv gameplay,[Reinier_Post_and_Pau],[Reinier_Post_and_Pau],
 farenet,5557,tcp,Sandlab FARENET,[Kay_T_Labinsky],[Kay_T_Labinsky],2010-05-03,,,,,
 ,5557,udp,Reserved,,,,,,,,
 ,5558-5564,,Unassigned,,,,,,,,
-hpe-dp-bura,5565,tcp,HPE Advanced BURA,[Hewlett_Packard_Enterprise],[Silvia_Veronese],2016-01-13,,,,,
+dp-bura,5565,tcp,Data Protector BURA,[Micro_Focus],[Shishir_Misra],2016-01-13,2019-10-04,,,,
 ,5565,udp,Reserved,,,,,,,,
 westec-connect,5566,tcp,Westec Connect,[Jon_Bolen],[Jon_Bolen],2009-03-18,,,,,
 ,5566,udp,Reserved,,,,,,,,
@@ -15282,6 +15282,8 @@ tera-fsmgr,,,Terascala Filesystem Manager Protocol,[Mike_Nuss],[Mike_Nuss],,,,,,
 tera-mp,,,Terascala Maintenance Protocol,[Mike_Nuss],[Mike_Nuss],,,,,,Defined TXT keys: Proprietary
 test-ok,,tcp,Test Controller Card,[TEST-OK_BV],[Jeroen_Ommering],2012-09-05,,,,,Defined TXT keys: TEST-OK Test Controller Card TCCxxxx
 tf-redeye,,,ThinkFlood RedEye IR bridge,[Matt_Eagar],[Matt_Eagar],,,,,,Defined TXT keys: None
+thing,,tcp,Internet of things service discovery,[Aaltronav],[ICT_Manager],2019-10-02,,,,,"Defined TXT keys: version, url, location, privacy, support, vendor, about"
+thing,,udp,Internet of things service discovery,[Aaltronav],[ICT_Manager],2019-10-02,,,,,"Defined TXT keys: version, url, location, privacy, support, vendor, about"
 thumbwrestling,,,tinkerbuilt Thumb Wrestling game,[Jamie_Halmick],[Jamie_Halmick],,,,,,Defined TXT keys: None
 ticonnectmgr,,,TI Connect Manager Discovery Service,[Stephen_Reid],[Stephen_Reid],,,,,,Defined TXT keys: None
 tic-tac-toe,,tcp,Tic Tac Toe game,[Stuart_Cheshire],[Stuart_Cheshire],2019-05-31,,,,,Defined TXT keys: None

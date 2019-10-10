@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-09-30
+           2019-10-04
 
    Expert(s)
 
@@ -11696,7 +11696,7 @@ freeciv            5556        udp    Freeciv gameplay             [Reinier_Post
 farenet            5557        tcp    Sandlab FARENET              [Kay_T_Labinsky]                                      [Kay_T_Labinsky]                                          2010-05-03
                    5557        udp    Reserved
                  5558-5564            Unassigned
-hpe-dp-bura        5565        tcp    HPE Advanced BURA            [Hewlett_Packard_Enterprise]                          [Silvia_Veronese]                                         2016-01-13
+dp-bura            5565        tcp    Data Protector BURA          [Micro_Focus]                                         [Shishir_Misra]                                           2016-01-13   2019-10-04
                    5565        udp    Reserved
 westec-connect     5566        tcp    Westec Connect               [Jon_Bolen]                                           [Jon_Bolen]                                               2009-03-18
                    5566        udp    Reserved
@@ -18470,6 +18470,10 @@ tera-mp                               Terascala Maintenance        [Mike_Nuss]  
                                       Protocol
 test-ok                        tcp    Test Controller Card         [TEST-OK_BV]                                          [Jeroen_Ommering]                                         2012-09-05                                                                                     Defined TXT keys: TEST-OK Test Controller Card TCCxxxx
 tf-redeye                             ThinkFlood RedEye IR bridge  [Matt_Eagar]                                          [Matt_Eagar]                                                                                                                                             Defined TXT keys: None
+thing                          tcp    Internet of things service   [Aaltronav]                                           [ICT_Manager]                                             2019-10-02                                                                                     Defined TXT keys: version, url, location, privacy, support,
+                                      discovery                                                                                                                                                                                                                                   vendor, about
+thing                          udp    Internet of things service   [Aaltronav]                                           [ICT_Manager]                                             2019-10-02                                                                                     Defined TXT keys: version, url, location, privacy, support,
+                                      discovery                                                                                                                                                                                                                                   vendor, about
 thumbwrestling                        tinkerbuilt Thumb Wrestling  [Jamie_Halmick]                                       [Jamie_Halmick]                                                                                                                                          Defined TXT keys: None
                                       game
 ticonnectmgr                          TI Connect Manager Discovery [Stephen_Reid]                                        [Stephen_Reid]                                                                                                                                           Defined TXT keys: None
@@ -18699,6 +18703,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [A_Blake_Cooper]                                          A. Blake Cooper                                     mailto:blake&cluebie.net                                      2003-06
 [A_Boninn]                                                A. Boninn                                           mailto:aboninn&hotmail.com
 [A_P_Hobson]                                              A.P. Hobson                                         mailto:A.P.Hobson&bra0112.wins.icl.co.uk
+[Aaltronav]                                                                          Aaltronav                mailto:hostmaster&aaltronav.eu                                2019-10-02
 [Aaron_Ballman]                                           Aaron Ballman                                       mailto:aaron&realsoftware.com                                 2004-11
 [Aaron_Bilbrey]                                           Aaron Bilbrey                                       mailto:abilbrey&commvault.com
 [Aaron_Brick]                                             Aaron Brick                                         mailto:aa&lithic.org
@@ -20804,6 +20809,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ibtsam_Mahfouz]                                          Ibtsam Mahfouz                                      mailto:imahfouz&cisco.com
 [Ico_Doornekamp]                                          Ico Doornekamp                                      mailto:ico&saedra.nl
 [iConstruct_Aus_Pty_Ltd]                                                             iConstruct (Aus) Pty Ltd mailto:jafari&pdcwa.com.au                                    2012-12-21
+[ICT_Manager]                                             ICT Manager                Aaltronav                mailto:hostmaster&aaltronav.eu                                2019-10-02
 [IDEAQUEST_Inc.]                                                                     IDEAQUEST Inc.           mailto:engineering&ideaquest4u.com                            2016-12-12
 [Ido_Ben_David]                                           Ido Ben-David                                       mailto:dgntcom&netvision.net.il
 [IEC_Central_Office]                                                                 IEC Central Office       mailto:cj&iec.ch                                              2015-07-24

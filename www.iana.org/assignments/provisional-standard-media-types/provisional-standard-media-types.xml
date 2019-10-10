@@ -5,7 +5,7 @@
   <title>Provisional Standard Media Type Registry</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-07-20</created>
-  <updated>2019-09-30</updated>
+  <updated>2019-10-04</updated>
 
   <registry id="provisional-standard-types">
     <title>Provisional Standard Media Type Registry</title>
@@ -22,6 +22,12 @@ use for development and test purposes only.
       <name>application/odm+json</name>
       <org>CDISC</org>
       <xref type="person" data="Sam_Hume"/>
+    </record>
+    
+    <record date="2019-10-04">
+      <name>application/dlmscosem</name>
+      <org>DLMS User Association, International Electrotechnical Commission (IEC)</org>
+      <xref type="person" data="Michael_Buss"/>
     </record>
     
     <record date="2019-08-21">
@@ -115,6 +121,11 @@ use for development and test purposes only.
       <name>Jonathan Hohle</name>
       <uri>mailto:jonhohle&amp;gmail.com</uri>
       <updated>2017-06-28</updated>
+    </person>
+    <person id="Michael_Buss">
+      <name>Michael Buss</name>
+      <uri>mailto:technical&amp;dlms.com</uri>
+      <updated>2019-10-04</updated>
     </person>
     <person id="Miguel_Angel_Reina_Ortega">
       <name>Miguel Angel Reina Ortega</name>

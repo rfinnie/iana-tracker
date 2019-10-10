@@ -4,7 +4,7 @@
            2017-04-03
 
    Last Updated
-           2019-09-25
+           2019-10-09
 
    Available Formats
            [IMG]
@@ -110,7 +110,7 @@ Data Item Type Values
    26-65407    Specification Required
    65408-65534 Private Use
 
-    Type Code                Description                              Reference
+    Type Code                Description                             Reference
    0           Reserved                                [RFC8175]
    1           Status                                  [RFC8175]
    2           IPv4 Connection Point                   [RFC8175]
@@ -134,9 +134,9 @@ Data Item Type Values
    20          Maximum Transmission Unit (MTU)         [RFC8175]
    21          Hop Count                               [RFC8629]
    22          Hop Control                             [RFC8629]
-   23          Queue Parameters                        [RFC-ietf-manet-dlep-pause-extension-08]
-   24          Pause                                   [RFC-ietf-manet-dlep-pause-extension-08]
-   25          Restart                                 [RFC-ietf-manet-dlep-pause-extension-08]
+   23          Queue Parameters                        [RFC8651]
+   24          Pause                                   [RFC8651]
+   25          Restart                                 [RFC8651]
    26          Link Identifier Length                  [RFC-ietf-manet-dlep-lid-extension-06]
    27          Link Identifier                         [RFC-ietf-manet-dlep-lid-extension-06]
    28-65407    Unassigned
@@ -195,10 +195,10 @@ Extension Type Values
    2-65519     Specification Required
    65520-65534 Private Use
 
-      Code            Description                       Reference
+      Code            Description                      Reference
    0           Reserved                  [RFC8175]
    1           Multi-Hop Forwarding      [RFC8629]
-   2           Control-Plane-Based Pause [RFC-ietf-manet-dlep-pause-extension-08]
+   2           Control-Plane-Based Pause [RFC8651]
    3           Link Identifiers          [RFC-ietf-manet-dlep-lid-extension-06]
    4-65519     Unassigned
    65520-65534 Reserved for Private Use  [RFC8175]
@@ -384,7 +384,7 @@ Queue Parameter Sub-Data Item Type Values
  Unassigned
 
    Reference
-           [RFC-ietf-manet-dlep-pause-extension-08]
+           [RFC8651]
 
    Available Formats
            [IMG]
@@ -394,9 +394,9 @@ Queue Parameter Sub-Data Item Type Values
    2-65407     Specification Required
    65408-65534 Private Use
 
-    Type Code     Description/Policy                   Reference
-   0           Reserved                 [RFC-ietf-manet-dlep-pause-extension-08]
-   1           Queue Parameter          [RFC-ietf-manet-dlep-pause-extension-08]
+    Type Code     Description/Policy    Reference
+   0           Reserved                 [RFC8651]
+   1           Queue Parameter          [RFC8651]
    2-65407     Unassigned
-   65408-65534 Reserved for Private Use [RFC-ietf-manet-dlep-pause-extension-08]
-   65535       Reserved                 [RFC-ietf-manet-dlep-pause-extension-08]
+   65408-65534 Reserved for Private Use [RFC8651]
+   65535       Reserved                 [RFC8651]

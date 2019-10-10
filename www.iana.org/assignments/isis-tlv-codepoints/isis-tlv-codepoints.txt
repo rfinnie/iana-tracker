@@ -4,7 +4,7 @@
            2003-05-06
 
    Last Updated
-           2019-09-25
+           2019-10-02
 
    Note
 
@@ -371,17 +371,20 @@ Sub-TLVs for TLVs 135, 235, 236, and 237 (Extended IP reachability, MT IP. Reach
            [IMG]
            CSV
 
-    Type             Description            135 235 236 237                   Reference
+    Type                                  Description                                 135 235 236 237                   Reference
    0      Unassigned
-   1      32-bit Administrative Tag Sub-TLV y   y   y   y   [RFC5130]
-   2      64-bit Administrative Tag Sub-TLV y   y   y   y   [RFC5130]
-   3      Prefix Segment Identifier         y   y   y   y   [RFC-ietf-isis-segment-routing-extensions-25]
-   4      Prefix Attribute Flags            y   y   y   y   [RFC7794]
-   5-10   Unassigned
-   11     IPv4 Source Router ID             y   y   y   y   [RFC7794]
-   12     IPv6 Source Router ID             y   y   y   y   [RFC7794]
+   1      32-bit Administrative Tag Sub-TLV                                           y   y   y   y   [RFC5130]
+   2      64-bit Administrative Tag Sub-TLV                                           y   y   y   y   [RFC5130]
+   3      Prefix Segment Identifier                                                   y   y   y   y   [RFC-ietf-isis-segment-routing-extensions-25]
+   4      Prefix Attribute Flags                                                      y   y   y   y   [RFC7794]
+   5      Unassigned
+   6      Flex-Algorithm Prefix Metric (TEMPORARY - registered 2019-10-02, expires    y   y   y   y   [draft-ietf-lsr-flex-algo]
+          2020-10-02)
+   7-10   Unassigned
+   11     IPv4 Source Router ID                                                       y   y   y   y   [RFC7794]
+   12     IPv6 Source Router ID                                                       y   y   y   y   [RFC7794]
    13-31  Unassigned
-   32     BIER Info                         y   y   y   y   [RFC8401]
+   32     BIER Info                                                                   y   y   y   y   [RFC8401]
    33-255 Unassigned
 
 Bit Values for Prefix Attribute Flags Sub-TLV

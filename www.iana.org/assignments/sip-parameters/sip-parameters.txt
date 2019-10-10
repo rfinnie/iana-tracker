@@ -4,7 +4,7 @@
            2002-01
 
    Last Updated
-           2019-07-18
+           2019-10-03
 
    Available Formats
            [IMG]
@@ -311,11 +311,11 @@ Option Tags
    Note
 
  Option tags are used in header fields such as Require,
-   Supported, Proxy-Require, and Unsupported in support of
-   SIP compatibility mechanisms for extensions. The option
-   tag itself is a string that is associated with a particular
-   SIP option (that is, an extension).
-   It identifies the option to SIP endpoints.
+ Supported, Proxy-Require, and Unsupported in support of SIP
+ compatibility mechanisms for extensions. The option tag
+ itself is a string that is associated with a particular SIP
+ option (that is, an extension). It identifies the option to
+ SIP endpoints.
 
 
    Available Formats
@@ -642,8 +642,12 @@ SIP Privacy Header Field Values
 
 Security Mechanism Names
 
+   Registration Procedure(s)
+
+ IETF Review
+
    Reference
-           [RFC3329 Section 6]
+           [RFC3329]
 
    Available Formats
            [IMG]
@@ -658,8 +662,12 @@ Security Mechanism Names
 
 Compression Schemes
 
+   Registration Procedure(s)
+
+ Standards Action
+
    Reference
-           [RFC3486 Section 11]
+           [RFC3486]
 
    Available Formats
            [IMG]
@@ -2200,7 +2208,7 @@ Reason Codes
 
    Registration Procedure(s)
 
- RFC Required
+ Standards Action
 
    Reference
            [RFC6665]

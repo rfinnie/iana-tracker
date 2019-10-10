@@ -1,5 +1,6 @@
 Media Type,Organization,Contact
 application/odm+json,CDISC,[Sam_Hume]
+application/dlmscosem,"DLMS User Association, International Electrotechnical Commission (IEC)",[Michael_Buss]
 audio/TETRA_ACELP_BB,ETSI,[Miguel_Angel_Reina_Ortega]
 application/cert-chain+cbor,IETF,[draft-yasskin-http-origin-signed-responses]
 application/ion,IETF,[Jonathan_Hohle]
