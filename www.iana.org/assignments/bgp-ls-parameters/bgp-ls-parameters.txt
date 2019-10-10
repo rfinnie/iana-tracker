@@ -4,7 +4,7 @@
            2015-11-03
 
    Last Updated
-           2019-09-17
+           2019-10-09
 
    Available Formats
            [IMG]
@@ -130,11 +130,11 @@ BGP-LS Node Descriptor, Link Descriptor, Prefix Descriptor, and Attribute TLVs
         264       OSPF Route Type                                                              [RFC7752, Section 3.2.3]
         265       IP Reachability Information                                                  [RFC7752, Section 3.2.3]
                   Node MSD (TEMPORARY - registered 2017-11-02,
-        266       extension registered 2018-09-07, expires           242/23                    [draft-ietf-idr-bgp-ls-segment-routing-msd]
-                  2019-11-02)
+        266       extension registered 2019-10-09, expires           242/23                    [draft-ietf-idr-bgp-ls-segment-routing-msd]
+                  2020-11-02)
                   Link MSD (TEMPORARY - registered 2017-11-02,
-        267       extension registered 2018-09-07, expires           (22,23,25,141,222,223)/15 [draft-ietf-idr-bgp-ls-segment-routing-msd]
-                  2019-11-02)
+        267       extension registered 2019-10-09, expires           (22,23,25,141,222,223)/15 [draft-ietf-idr-bgp-ls-segment-routing-msd]
+                  2020-11-02)
       268-511     Unassigned
         512       Autonomous System                                                            [RFC7752, Section 3.2.1.4]
         513       BGP-LS Identifier                                                            [RFC7752, Section 3.2.1.4]
