@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-10-03</updated>
+    <updated>2019-10-10</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -3138,10 +3138,10 @@
             <name>Netfirms, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-10">
             <value>893</value>
             <name>NetraCorp LLC dba Global Internet</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record>
             <value>894</value>
@@ -17157,10 +17157,10 @@
                 <server>https://rdap.rntd.cn/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2015-09-29" updated="2016-02-25">
+        <record date="2015-09-29" updated="2019-10-10">
             <value>2909</value>
             <name>PierX, Inc</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2015-09-29" updated="2016-07-19">
             <value>2910</value>

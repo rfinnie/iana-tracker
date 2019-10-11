@@ -4,7 +4,7 @@
            2012-06-08
 
    Last Updated
-           2019-09-26
+           2019-10-10
 
    Available Formats
            [IMG]
@@ -730,7 +730,8 @@ CoAP Content-Formats
    application/cbor                                                                60          [RFC7049]
    application/cwt                                                                 61          [RFC8392]
    application/multipart-core                                                      62          [RFC-ietf-core-multipart-ct-04]
-   Unassigned                                                                      63-95
+   application/cbor-seq                                                            63          [RFC-ietf-cbor-sequence-02]
+   Unassigned                                                                      64-95
    application/cose; cose-type="cose-encrypt"                                      96          [RFC8152]
    application/cose; cose-type="cose-mac"                                          97          [RFC8152]
    application/cose; cose-type="cose-sign"                                         98          [RFC8152]
