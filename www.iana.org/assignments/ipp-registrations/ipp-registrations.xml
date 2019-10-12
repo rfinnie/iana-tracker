@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ipp-registrations">
   <title>Internet Printing Protocol (IPP) Registrations</title>
   <created>2002-07-15</created>
-  <updated>2019-08-22</updated>
+  <updated>2019-10-11</updated>
   <registry id="ipp-registrations-1">
     <title>Objects</title>
     <xref type="rfc" data="rfc8011"/>
@@ -1233,7 +1233,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Template</collection>
       <name>page-order-received(obsolete)</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Document Template</collection>
@@ -1621,7 +1621,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Description</collection>
       <name>current-page-order(obsolete)</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Job Description</collection>
@@ -2539,7 +2539,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>page-order-received-actual(obsolete)</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2636,7 +2636,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>sheet-collate-actual(deprecated)</name>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018517.html" type="uri">APPLE20150505-1</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-rfc3381-deprecated-20150505.txt" type="uri">APPLE20150505-1</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -3463,12 +3463,6 @@ Section 5.2 Subscription Template Attributes.
     </record>
     <record>
       <collection>Job Template</collection>
-      <name>job-finishigns-col(obsolete)</name>
-      <syntax>1setOf collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf" type="uri">PWG5100.7</xref>
-    </record>
-    <record>
-      <collection>Job Template</collection>
       <name>job-finishings</name>
       <syntax>1setOf type2 enum</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf">PWG5100.5</xref>
@@ -3491,6 +3485,12 @@ Section 5.2 Subscription Template Attributes.
       <member_attribute>&lt;Member attributes are the same as the "finishings-col" Job Template attribute&gt;</member_attribute>
       <syntax/>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf">PWG5100.5</xref>
+    </record>
+    <record>
+      <collection>Job Template</collection>
+      <name>job-finishings-col(obsolete)</name>
+      <syntax>1setOf collection</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf" type="uri">PWG5100.7</xref>
     </record>
     <record>
       <collection>Job Template</collection>
@@ -4034,7 +4034,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Template</collection>
       <name>page-order-received(obsolete)</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Job Template</collection>
@@ -4052,7 +4052,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Template</collection>
       <name>pages-per-subset(deprecated)</name>
       <syntax>1setOf integer(1:MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020085.html" type="uri">IPP20190509A</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-pages-per-subset-deprecated-20190509.txt" type="uri">IPP20190509A</xref>
     </record>
     <record>
       <collection>Job Template</collection>
@@ -4481,7 +4481,7 @@ Section 5.2 Subscription Template Attributes.
       <name>destination-accesses</name>
       <member_attribute>access-x509-certificate(obsolete)</member_attribute>
       <syntax>1setOf octetString(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019634.html" type="uri">IPPWG20180620</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-access-x509-certificate-obsolete-20180620.txt" type="uri">IPPWG20180620</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -4535,7 +4535,7 @@ Section 5.2 Subscription Template Attributes.
       <name>document-access</name>
       <member_attribute>access-x509-certificate(obsolete)</member_attribute>
       <syntax>1setOf octetString(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019634.html" type="uri">IPPWG20180620</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-access-x509-certificate-obsolete-20180620.txt" type="uri">IPPWG20180620</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -6467,7 +6467,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>jpeg-features-supported</name>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -6599,7 +6599,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>max-page-ranges-supported</name>
       <syntax>integer(1:MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2019/020172.html" type="uri">IPP20190711</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-max-page-ranges-supported-20190711.txt" type="uri">IPP20190711</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -6986,7 +6986,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>oauth-authorization-scope</name>
       <syntax>1setOf name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020107.html" type="uri">IPP20190521</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-oauth-authorization-scope-20190521.txt" type="uri">IPP20190521</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7082,7 +7082,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>page-order-received-default(obsolete)</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7094,7 +7094,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>page-order-received-supported(obsolete)</name>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020083.html" type="uri">IPP20190509B</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-page-order-received-obsolete-20190509.txt" type="uri">IPP20190509B</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7112,7 +7112,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>pages-per-subset-supported(deprecated)</name>
       <syntax>boolean</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2019/020085.html" type="uri">IPP20190509A</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-pages-per-subset-deprecated-20190509.txt" type="uri">IPP20190509A</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7209,7 +7209,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>pdl-override-guaranteed-supported</name>
       <syntax>1setOf keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2015/018629.html" type="uri">IPPWG20151019</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-pdl-override-guaranteed-supported-20151019.txt" type="uri">IPPWG20151019</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7221,7 +7221,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>platform-shape</name>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019246.html" type="uri">APPLE20170629</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-platform-shape-20170629.txt" type="uri">APPLE20170629</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -8846,87 +8846,6 @@ by IESG-designated experts.
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
-      <attribute>cover-back-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <value>cover-type</value>
-      <attribute>cover-back-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <value>media</value>
-      <attribute>cover-back-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <value>media-col</value>
-      <attribute>cover-back-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <attribute>cover-front-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <value>&lt;Any "cover-back-supported" value&gt;</value>
-      <attribute>cover-front-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
-    </record>
-    <record>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>date-time</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>from-name</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>logo</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>message</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>organization</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>subject</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
-      <value>to-name</value>
-      <attribute>cover-sheet-info-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfaxout10-20131115-5100.15.pdf" type="uri">PWG5100.15</xref>
-    </record>
-    <record>
       <attribute>cover-type</attribute>
       <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippprodprint10-20010212-5100.3.pdf">PWG5100.3</xref>
@@ -9060,59 +8979,6 @@ by IESG-designated experts.
     <record>
       <value>&lt;Any "document-digital-signature" value&gt;</value>
       <attribute>document-digital-signature-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-format</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-format-device-id</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-format-version</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-natural-language</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-source-application-name</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-source-application-version</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-source-os-name</value>
-      <attribute>document-format-details-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>document-source-os-version</value>
-      <attribute>document-format-details-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
     </record>
@@ -11234,49 +11100,49 @@ by IESG-designated experts.
     <record>
       <value>day-time</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>evening</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>indefinite</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>night</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>no-hold</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>second-shift</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>third-shift</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>weekend</value>
       <attribute>job-hold-until</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
@@ -11300,12 +11166,6 @@ by IESG-designated experts.
       <attribute>job-hold-until-supported</attribute>
       <syntax>1setOf (type2 keyword | name(MAX))</syntax>
       <xref type="rfc" data="rfc8011"/>
-    </record>
-    <record>
-      <value>&lt;Any Job Template attribute keyword name&gt;</value>
-      <attribute>job-mandatory-attributes</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <attribute>job-password-encryption</attribute>
@@ -11315,7 +11175,7 @@ by IESG-designated experts.
     <record>
       <value>md2</value>
       <attribute>job-password-encryption</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
@@ -11327,7 +11187,7 @@ by IESG-designated experts.
     <record>
       <value>md4</value>
       <attribute>job-password-encryption</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
@@ -11339,7 +11199,7 @@ by IESG-designated experts.
     <record>
       <value>md5</value>
       <attribute>job-password-encryption</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
@@ -11351,13 +11211,13 @@ by IESG-designated experts.
     <record>
       <value>none</value>
       <attribute>job-password-encryption</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
       <value>sha</value>
       <attribute>job-password-encryption</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
@@ -11370,37 +11230,37 @@ by IESG-designated experts.
       <value>sha2-224</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2014/018054.html" type="uri">IPPWG20140616</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20140616.txt" type="uri">IPPWG20140616</xref>
     </record>
     <record>
       <value>sha2-256</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2014/018054.html" type="uri">IPPWG20140616</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20140616.txt" type="uri">IPPWG20140616</xref>
     </record>
     <record>
       <value>sha2-384</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2014/018054.html" type="uri">IPPWG20140616</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20140616.txt" type="uri">IPPWG20140616</xref>
     </record>
     <record>
       <value>sha2-512</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2014/018054.html" type="uri">IPPWG20140616</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20140616.txt" type="uri">IPPWG20140616</xref>
     </record>
     <record>
       <value>sha2-512_224</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018630.html" type="uri">IPPWG20151009</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20151009.txt" type="uri">IPPWG20151009</xref>
     </record>
     <record>
       <value>sha2-512_256</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2014/018054.html" type="uri">IPPWG20140616</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20140616.txt" type="uri">IPPWG20140616</xref>
     </record>
     <record>
       <value>sha3-224</value>
@@ -11430,7 +11290,7 @@ by IESG-designated experts.
       <value>sha3-512_224</value>
       <attribute>job-password-encryption</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018630.html" type="uri">IPPWG20151009</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-job-password-encryption-20151009.txt" type="uri">IPPWG20151009</xref>
     </record>
     <record>
       <value>sha3-512_256</value>
@@ -11458,7 +11318,7 @@ by IESG-designated experts.
     <record>
       <value>&lt;Any "job-password-encryption" value&gt;</value>
       <attribute>job-password-encryption-supported</attribute>
-      <syntax>1setOf (type2 keyword | name(MAX))</syntax>
+      <syntax>1setOf type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
@@ -11695,13 +11555,13 @@ by IESG-designated experts.
     <record>
       <value>none</value>
       <attribute>job-sheets</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
       <value>standard</value>
       <attribute>job-sheets</attribute>
-      <syntax>(type2 keyword | name(MAX))</syntax>
+      <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
@@ -12195,55 +12055,55 @@ by IESG-designated experts.
     <record>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>arithmetic</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>cmyk</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>deep</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>hierarchical</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>icc</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>lossless</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>none</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <value>progressive</value>
       <attribute>jpeg-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018634.html" type="uri">APPLE20151021</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jpeg-features-supported-20151021.txt" type="uri">APPLE20151021</xref>
     </record>
     <record>
       <attribute>laminating-sides</attribute>
@@ -14727,14 +14587,14 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2018/019542.html" type="uri">CANON20180329</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-20180329.txt" type="uri">CANON20180329</xref>
     </record>
     <record>
       <value>iso_id-3_88x125mm</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2018/019542.html" type="uri">CANON20180329</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-20180329.txt" type="uri">CANON20180329</xref>
     </record>
     <record>
       <value>iso_ra0_860x1220mm</value>
@@ -15189,7 +15049,7 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019352.html" type="uri">APPLE20171002</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-kaku1-20171002.txt" type="uri">APPLE20171002</xref>
     </record>
     <record>
       <value>jpn_kaku2_240x332mm</value>
@@ -15623,14 +15483,14 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>na_arch-e3_27x39in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>na_arch-e_36x48in</value>
@@ -15903,49 +15763,49 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_14x17_14x17in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_18x22_18x22in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_a2plus_17x24in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_business-card_2x3.5in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>oe_photo-10r_10x12in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_photo-20r_20x24in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_photo-l_3.5x5in</value>
@@ -15959,21 +15819,21 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018729.html" type="uri">IPPWG20160229-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-media-size-20160229.txt" type="uri">IPPWG20160229-2</xref>
     </record>
     <record>
       <value>oe_square-photo_4x4in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>oe_square-photo_5x5in</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>om_16k_184x260mm</value>
@@ -15994,21 +15854,21 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>om_business-card_55x91mm</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>om_card_54x86mm</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2018/019542.html" type="uri">CANON20180329</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-20180329.txt" type="uri">CANON20180329</xref>
     </record>
     <record>
       <value>om_dai-pa-kai_275x395mm</value>
@@ -16022,7 +15882,7 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2018/019542.html" type="uri">CANON20180329</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-20180329.txt" type="uri">CANON20180329</xref>
     </record>
     <record>
       <value>om_folio-sp_215x315mm</value>
@@ -16099,7 +15959,7 @@ by IESG-designated experts.
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/archives/ipp/2018/019625.html" type="uri">CANON20180618</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/canon-media-square-20180618.txt" type="uri">CANON20180618</xref>
     </record>
     <record>
       <value>om_wide-photo_100x200mm</value>
@@ -19133,19 +18993,19 @@ by IESG-designated experts.
     <record>
       <attribute>platform-shape</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019246.html" type="uri">APPLE20170629</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-platform-shape-20170629.txt" type="uri">APPLE20170629</xref>
     </record>
     <record>
       <value>ellipse</value>
       <attribute>platform-shape</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019246.html" type="uri">APPLE20170629</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-platform-shape-20170629.txt" type="uri">APPLE20170629</xref>
     </record>
     <record>
       <value>rectangle</value>
       <attribute>platform-shape</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019246.html" type="uri">APPLE20170629</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-platform-shape-20170629.txt" type="uri">APPLE20170629</xref>
     </record>
     <record>
       <attribute>presentation-direction-number-up</attribute>
@@ -19305,7 +19165,7 @@ by IESG-designated experts.
       <value>auto-monochrome</value>
       <attribute>print-color-mode</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2017/019392.html" type="uri">APPLE20171101</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-auto-monochrome-20171101.txt" type="uri">APPLE20171101</xref>
     </record>
     <record>
       <value>bi-level</value>
@@ -19380,12 +19240,6 @@ by IESG-designated experts.
       <value>graphic</value>
       <attribute>print-content-optimize</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>graphics</value>
-      <attribute>print-content-optimize</attribute>
-      <syntax>type2 keyword</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf" type="uri">PWG5100.7</xref>
     </record>
     <record>
@@ -19402,12 +19256,6 @@ by IESG-designated experts.
     </record>
     <record>
       <value>text-and-graphic</value>
-      <attribute>print-content-optimize</attribute>
-      <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext10-20031031-5100.7.pdf">PWG5100.7</xref>
-    </record>
-    <record>
-      <value>text-and-graphics</value>
       <attribute>print-content-optimize</attribute>
       <syntax>type2 keyword</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf" type="uri">PWG5100.7</xref>
@@ -20865,6 +20713,12 @@ by IESG-designated experts.
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
+      <value>hibernate</value>
+      <attribute>printer-state-reasons</attribute>
+      <syntax>1setOf type2 keyword</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-wimspower10-20110214-5106.4.pdf" type="uri">PWG5106.4</xref>
+    </record>
+    <record>
       <value>hold-new-jobs</value>
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
@@ -22063,7 +21917,7 @@ by IESG-designated experts.
       <value>media-drying</value>
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="http://www.pwg.org/pipermail/ipp/2018/019848.html" type="uri">HP20181213</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/hp-media-drying-20181213.txt" type="uri">HP20181213</xref>
     </record>
     <record>
       <value>media-empty</value>
@@ -22851,6 +22705,12 @@ by IESG-designated experts.
     </record>
     <record>
       <value>scan-media-path-failure</value>
+      <attribute>printer-state-reasons</attribute>
+      <syntax>1setOf type2 keyword</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmfdalerts11-20190412-5107.3.pdf" type="uri">PWG5107.3</xref>
+    </record>
+    <record>
+      <value>scan-media-path-input-empty</value>
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmfdalerts11-20190412-5107.3.pdf" type="uri">PWG5107.3</xref>
@@ -24008,6 +23868,12 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippstate10-20090731-5100.9.pdf">PWG5100.9</xref>
     </record>
     <record>
+      <value>standby</value>
+      <attribute>printer-state-reasons</attribute>
+      <syntax>1setOf type2 keyword</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-wimspower10-20110214-5106.4.pdf" type="uri">PWG5106.4</xref>
+    </record>
+    <record>
       <value>stapler-added</value>
       <section>6.1.1</section>
       <attribute>printer-state-reasons</attribute>
@@ -24562,7 +24428,7 @@ by IESG-designated experts.
       <value>subunit-cooling-down</value>
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2018/019504.html" type="uri">HPINC20180215</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/hp-cooling-down-20181213.txt" type="uri">HPINC20180215</xref>
     </record>
     <record>
       <value>subunit-empty</value>
@@ -24738,6 +24604,12 @@ by IESG-designated experts.
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippstate10-20090731-5100.9.pdf">PWG5100.9</xref>
+    </record>
+    <record>
+      <value>suspend</value>
+      <attribute>printer-state-reasons</attribute>
+      <syntax>1setOf type2 keyword</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-wimspower10-20110214-5106.4.pdf" type="uri">PWG5106.4</xref>
     </record>
     <record>
       <value>timed-out</value>
@@ -25267,29 +25139,6 @@ by IESG-designated experts.
       <attribute>printer-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippstate10-20090731-5100.9.pdf">PWG5100.9</xref>
-    </record>
-    <record>
-      <attribute>proof-print-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
-    </record>
-    <record>
-      <value>media</value>
-      <attribute>proof-print-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
-    </record>
-    <record>
-      <value>media-col</value>
-      <attribute>proof-print-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
-    </record>
-    <record>
-      <value>proof-print-copies</value>
-      <attribute>proof-print-supported</attribute>
-      <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
     </record>
     <record>
       <attribute>punching-reference-edge</attribute>
@@ -26052,7 +25901,7 @@ by IESG-designated experts.
       <value>draw-line</value>
       <attribute>trimming-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2016/018744.html" type="uri">IPPWG20160325</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/ippwg-trimming-type-20160325.txt" type="uri">IPPWG20160325</xref>
     </record>
     <record>
       <value>full</value>
@@ -27298,7 +27147,7 @@ by IESG-designated experts.
       <name>Restart-Job(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <value>0x000F</value>
@@ -27332,7 +27181,7 @@ by IESG-designated experts.
       <name>Purge-Jobs(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <value>0x0013</value>
@@ -27481,7 +27330,7 @@ by IESG-designated experts.
       <name>Deactivate-Printer(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018518.html" type="uri">APPLE20150505-3</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-rfc3998-deprecated-20150505.txt" type="uri">APPLE20150505-3</xref>
     </record>
     <record>
       <value>0x0028</value>
@@ -27495,7 +27344,7 @@ by IESG-designated experts.
       <name>Activate-Printer(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018518.html" type="uri">APPLE20150505-3</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-rfc3998-deprecated-20150505.txt" type="uri">APPLE20150505-3</xref>
     </record>
     <record>
       <value>0x0029</value>
@@ -27530,7 +27379,7 @@ by IESG-designated experts.
       <name>Reprocess-Job(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <value>0x002D</value>
@@ -27600,7 +27449,7 @@ by IESG-designated experts.
       <name>Delete-Document(deprecated)</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <value>0x0037</value>
@@ -28280,7 +28129,7 @@ after the name.
     </record>
     <record>
       <name>Activate-Printer(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018518.html" type="uri">APPLE20150505-3</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-rfc3998-deprecated-20150505.txt" type="uri">APPLE20150505-3</xref>
     </record>
     <record>
       <name>Add-Document-Images</name>
@@ -28380,7 +28229,7 @@ after the name.
     </record>
     <record>
       <name>Deactivate-Printer(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018518.html" type="uri">APPLE20150505-3</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-rfc3998-deprecated-20150505.txt" type="uri">APPLE20150505-3</xref>
     </record>
     <record>
       <name>Delete-Document</name>
@@ -28388,7 +28237,7 @@ after the name.
     </record>
     <record>
       <name>Delete-Document(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <name>Delete-Document(obsolete)</name>
@@ -28612,7 +28461,7 @@ after the name.
     </record>
     <record>
       <name>Purge-Jobs(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <name>Purge-Jobs(extension)</name>
@@ -28648,7 +28497,7 @@ after the name.
     </record>
     <record>
       <name>Reprocess-Job(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <name>Reprocess-Job(extension)</name>
@@ -28660,7 +28509,7 @@ after the name.
     </record>
     <record>
       <name>Restart-Job(deprecated)</name>
-      <xref data="https://www.pwg.org/pipermail/ipp/2015/018516.html" type="uri">APPLE20150505-2</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-jobops-deprecated-20150505.txt" type="uri">APPLE20150505-2</xref>
     </record>
     <record>
       <name>Restart-Job(extension)</name>

@@ -421,3 +421,26 @@ gzip file storage and transfer format,+gzip,[RFC1952][RFC6713],gzip is a binary 
           paths.  File paths must be validated when the files are extracted; a
           malicious file path could otherwise cause the extractor to overwrite
           application or system files.",art@ietf.org,[IETF],2018-06-14,
+CBOR Sequence,+cbor-seq,[RFC-ietf-cbor-sequence-02],binary,n/a,"The syntax and semantics of
+		  fragment identifiers specified for +cbor-seq SHOULD be as
+		  specified for ""application/cbor-seq"".  (At publication of this
+		  document, there is no fragment identification syntax defined for
+		  ""application/cbor-seq"".)  
+		
+        
+		  The syntax and semantics for fragment identifiers for a
+		  specific ""xxx/yyy+cbor-seq"" SHOULD be processed as follows:
+        
+        
+		  For cases defined in +cbor-seq, where the fragment
+		  identifier resolves per the +cbor-seq rules, then process as
+		  specified in +cbor-seq.
+        
+        
+		  For cases defined in +cbor-seq, where the fragment
+		  identifier does not resolve per the +cbor-seq rules, then
+		  process as specified in ""xxx/yyy+cbor-seq"".
+        
+        
+		  For cases not defined in +cbor-seq, then process as
+		  specified in ""xxx/yyy+cbor-seq"".","See [RFC-ietf-cbor-sequence-02], Section 5",[CBOR_WG_mailing_list],[IETF],2019-10-10,
