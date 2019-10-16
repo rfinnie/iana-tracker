@@ -11,4 +11,8 @@ Notification-type,Name,Notification-value,Reference
 ,,1: Entering resource limit exceeded state,[RFC8231]
 ,,2: Deprecated,[RFC8231]
 ,,3-255: Unassigned,
-5-255,Unassigned,1-255: Unassigned,
+5,Auto-Bandwidth Overwhelm State,0: Unassigned,
+,,1: Entering Auto-Bandwidth overwhelm state,[RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
+,,2: Clearing Auto-Bandwidth overwhelm state,[RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
+,,3-255: Unassigned,
+6-255,Unassigned,1-255: Unassigned,
