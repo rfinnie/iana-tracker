@@ -11,9 +11,9 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 264,OSPF Route Type,,"[RFC7752, Section 3.2.3]"
 265,IP Reachability Information,,"[RFC7752, Section 3.2.3]"
 266,"Node MSD 
-        (TEMPORARY - registered 2017-11-02, extension registered 2018-09-07, expires 2019-11-02)",242/23,[draft-ietf-idr-bgp-ls-segment-routing-msd]
+        (TEMPORARY - registered 2017-11-02, extension registered 2019-10-09, expires 2020-11-02)",242/23,[draft-ietf-idr-bgp-ls-segment-routing-msd]
 267,"Link MSD 
-        (TEMPORARY - registered 2017-11-02, extension registered 2018-09-07, expires 2019-11-02)","(22,23,25,141,222,223)/15",[draft-ietf-idr-bgp-ls-segment-routing-msd]
+        (TEMPORARY - registered 2017-11-02, extension registered 2019-10-09, expires 2020-11-02)","(22,23,25,141,222,223)/15",[draft-ietf-idr-bgp-ls-segment-routing-msd]
 268-511,Unassigned,,
 512,Autonomous System,,"[RFC7752, Section 3.2.1.4]"
 513,BGP-LS Identifier,,"[RFC7752, Section 3.2.1.4]"

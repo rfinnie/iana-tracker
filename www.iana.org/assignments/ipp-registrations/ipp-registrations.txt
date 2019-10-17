@@ -4,7 +4,7 @@
            2002-07-15
 
    Last Updated
-           2019-08-22
+           2019-10-11
 
    Available Formats
            [IMG]
@@ -937,13 +937,13 @@ Job Template  job-error-sheet                                media-col          
                                                                                                      <Member attributes are the
 Job Template  job-error-sheet                                media-col                               same as the "media-col" Job                               [PWG5100.3]
                                                                                                      Template attribute>
-Job Template  job-finishigns-col(obsolete)                                                                                         1setOf collection           [PWG5100.7]
 Job Template  job-finishings                                                                                                       1setOf type2 enum           [PWG5100.5]
 Job Template  job-finishings(obsolete)                                                                                             1setOf type2 enum           [PWG5100.7]
 Job Template  job-finishings-col                                                                                                   collection                  [PWG5100.5]
                                                              <Member attributes are the same as the
 Job Template  job-finishings-col                             "finishings-col" Job Template                                                                     [PWG5100.5]
                                                              attribute>
+Job Template  job-finishings-col(obsolete)                                                                                         1setOf collection           [PWG5100.7]
 Job Template  job-hold-until                                                                                                       type2 keyword | name(MAX)   [RFC8011]
 Job Template  job-hold-until-time                                                                                                  dateTime                    [PWG5100.11]
 Job Template  job-message-to-operator                                                                                              text(MAX)                   [PWG5100.3]
@@ -2424,34 +2424,6 @@ Keyword Attribute Values
                                                                                                       keyword
    compression-supported                      <Any "compression" value>                               1setOf type2               [RFC8011]
                                                                                                       keyword
-   cover-back-supported                                                                               1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-back-supported                       cover-type                                              1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-back-supported                       media                                                   1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-back-supported                       media-col                                               1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-front-supported                                                                              1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-front-supported                      <Any "cover-back-supported" value>                      1setOf type2               [PWG5100.3]
-                                                                                                      keyword
-   cover-sheet-info-supported                                                                         1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 date-time                                               1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 from-name                                               1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 logo                                                    1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 message                                                 1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 organization                                            1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 subject                                                 1setOf type2               [PWG5100.15]
-                                                                                                      keyword
-   cover-sheet-info-supported                 to-name                                                 1setOf type2               [PWG5100.15]
-                                                                                                      keyword
    cover-type                                                                                         type2 keyword              [PWG5100.3]
    cover-type                                 no-cover                                                type2 keyword              [PWG5100.3]
    cover-type                                 print-back                                              type2 keyword              [PWG5100.3]
@@ -2485,24 +2457,6 @@ Keyword Attribute Values
    document-digital-signature-supported                                                               1setOf type2               [PWG5100.7]
                                                                                                       keyword
    document-digital-signature-supported       <Any "document-digital-signature" value>                1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported                                                                  1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-format                                         1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-format-device-id                               1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-format-version                                 1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-natural-language                               1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-source-application-name                        1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-source-application-version                     1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-source-os-name                                 1setOf type2               [PWG5100.7]
-                                                                                                      keyword
-   document-format-details-supported          document-source-os-version                              1setOf type2               [PWG5100.7]
                                                                                                       keyword
    document-format-varying-attributes                                                                 1setOf type2               [RFC3380]
                                                                                                       keyword
@@ -3160,22 +3114,22 @@ Keyword Attribute Values
    job-error-sheet-when                       on-error                                                type2 keyword              [PWG5100.3]
    job-hold-until                                                                                     type2 keyword |            [RFC8011]
                                                                                                       name(MAX)
-   job-hold-until                             day-time                                                (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             evening                                                 (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             indefinite                                              (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             night                                                   (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             no-hold                                                 (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             second-shift                                            (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             third-shift                                             (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-hold-until                             weekend                                                 (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
+   job-hold-until                             day-time                                                type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             evening                                                 type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             indefinite                                              type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             night                                                   type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             no-hold                                                 type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             second-shift                                            type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             third-shift                                             type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-hold-until                             weekend                                                 type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
    job-hold-until-default                                                                             type2 keyword |            [RFC8011]
                                                                                                       name(MAX)
    job-hold-until-default                     <Any "job-hold-until" value>                            type2 keyword |            [RFC8011]
@@ -3186,22 +3140,15 @@ Keyword Attribute Values
                                                                                                       1setOf (type2
    job-hold-until-supported                   <Any "job-hold-until" value>                            keyword |                  [RFC8011]
                                                                                                       name(MAX))
-   job-mandatory-attributes                   <Any Job Template attribute keyword name>               1setOf type2               [PWG5100.7]
-                                                                                                      keyword
    job-password-encryption                                                                            type2 keyword              [PWG5100.11]
-   job-password-encryption                    md2                                                     (type2 keyword             [PWG5100.11]
-                                                                                                      | name(MAX))
+   job-password-encryption                    md2                                                     type2 keyword              [PWG5100.11]
    job-password-encryption                    md2(deprecated)                                         type2 keyword              [IPPWG20160229-1]
-   job-password-encryption                    md4                                                     (type2 keyword             [PWG5100.11]
-                                                                                                      | name(MAX))
+   job-password-encryption                    md4                                                     type2 keyword              [PWG5100.11]
    job-password-encryption                    md4(deprecated)                                         type2 keyword              [IPPWG20160229-1]
-   job-password-encryption                    md5                                                     (type2 keyword             [PWG5100.11]
-                                                                                                      | name(MAX))
+   job-password-encryption                    md5                                                     type2 keyword              [PWG5100.11]
    job-password-encryption                    md5(deprecated)                                         type2 keyword              [IPPWG20160229-1]
-   job-password-encryption                    none                                                    (type2 keyword             [PWG5100.11]
-                                                                                                      | name(MAX))
-   job-password-encryption                    sha                                                     (type2 keyword             [PWG5100.11]
-                                                                                                      | name(MAX))
+   job-password-encryption                    none                                                    type2 keyword              [PWG5100.11]
+   job-password-encryption                    sha                                                     type2 keyword              [PWG5100.11]
    job-password-encryption                    sha(deprecated)                                         type2 keyword              [IPPWG20160229-1]
    job-password-encryption                    sha2-224                                                type2 keyword              [IPPWG20140616]
    job-password-encryption                    sha2-256                                                type2 keyword              [IPPWG20140616]
@@ -3219,9 +3166,8 @@ Keyword Attribute Values
    job-password-encryption                    shake-256                                               type2 keyword              [IPPWG20151009]
    job-password-encryption-supported                                                                  1setOf type2               [PWG5100.11]
                                                                                                       keyword
-                                                                                                      1setOf (type2
-   job-password-encryption-supported          <Any "job-password-encryption" value>                   keyword |                  [PWG5100.11]
-                                                                                                      name(MAX))
+   job-password-encryption-supported          <Any "job-password-encryption" value>                   1setOf type2               [PWG5100.11]
+                                                                                                      keyword
    job-password-repertoire-configured                                                                 type2 keyword |            [IPPWG20160229-1]
                                                                                                       name(MAX)
    job-password-repertoire-configured         <Any "job-password-repertoire-supported" value>         type2 keyword |            [IPPWG20160229-1]
@@ -3307,10 +3253,10 @@ Keyword Attribute Values
                                                                                                       name(MAX)
    job-sheets                                 job-start-sheet                                         type2 keyword |            [PWG5100.3]
                                                                                                       name(MAX)
-   job-sheets                                 none                                                    (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
-   job-sheets                                 standard                                                (type2 keyword             [RFC8011]
-                                                                                                      | name(MAX))
+   job-sheets                                 none                                                    type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
+   job-sheets                                 standard                                                type2 keyword |            [RFC8011]
+                                                                                                      name(MAX)
    job-sheets-default                                                                                 type2 keyword |            [RFC8011]
                                                                                                       name(MAX)
    job-sheets-default                         <Any "job-sheets" value>                                type2 keyword |            [RFC8011]
@@ -5612,11 +5558,9 @@ Keyword Attribute Values
    print-content-optimize                                                                             type2 keyword              [PWG5100.7]
    print-content-optimize                     auto                                                    type2 keyword              [PWG5100.13]
    print-content-optimize                     graphic                                                 type2 keyword              [PWG5100.7]
-   print-content-optimize                     graphics                                                type2 keyword              [PWG5100.7]
    print-content-optimize                     photo                                                   type2 keyword              [PWG5100.7]
    print-content-optimize                     text                                                    type2 keyword              [PWG5100.7]
    print-content-optimize                     text-and-graphic                                        type2 keyword              [PWG5100.7]
-   print-content-optimize                     text-and-graphics                                       type2 keyword              [PWG5100.7]
    print-content-optimize-actual                                                                      1setOf type2               [PWG5100.7]
                                                                                                       keyword
    print-content-optimize-actual              <Any "print-content-optimize" value>                    1setOf type2               [PWG5100.7]
@@ -6043,6 +5987,8 @@ Keyword Attribute Values
    printer-state-reasons                      fuser-over-temp                                         1setOf type2               [RFC8011]
                                                                                                       keyword
    printer-state-reasons                      fuser-under-temp                                        1setOf type2               [RFC8011]
+                                                                                                      keyword
+   printer-state-reasons                      hibernate                                               1setOf type2               [PWG5106.4]
                                                                                                       keyword
    printer-state-reasons                      hold-new-jobs                                           1setOf type2               [RFC3998]
                                                                                                       keyword
@@ -6634,6 +6580,8 @@ Keyword Attribute Values
                                                                                                       keyword
    printer-state-reasons                      scan-media-path-failure                                 1setOf type2               [PWG5107.3]
                                                                                                       keyword
+   printer-state-reasons                      scan-media-path-input-empty                             1setOf type2               [PWG5107.3]
+                                                                                                      keyword
    printer-state-reasons                      scan-media-path-input-feed-error                        1setOf type2               [PWG5107.3]
                                                                                                       keyword
    printer-state-reasons                      scan-media-path-input-jam                               1setOf type2               [PWG5107.3]
@@ -6970,6 +6918,8 @@ Keyword Attribute Values
                                                                                                       keyword
    printer-state-reasons                      stacker-warming-up                                      1setOf type2               [PWG5100.9]
                                                                                                       keyword
+   printer-state-reasons                      standby                                                 1setOf type2               [PWG5106.4]
+                                                                                                      keyword
    printer-state-reasons                      stapler-added                                           1setOf type2               [PWG5100.9]
                                                                                                       keyword
    printer-state-reasons                      stapler-almost-empty                                    1setOf type2               [PWG5100.9]
@@ -7180,6 +7130,8 @@ Keyword Attribute Values
                                                                                                       keyword
    printer-state-reasons                      subunit-warming-up                                      1setOf type2               [PWG5100.9]
                                                                                                       keyword
+   printer-state-reasons                      suspend                                                 1setOf type2               [PWG5106.4]
+                                                                                                      keyword
    printer-state-reasons                      timed-out                                               1setOf type2               [RFC8011]
                                                                                                       keyword
    printer-state-reasons                      toner-empty                                             1setOf type2               [RFC8011]
@@ -7331,14 +7283,6 @@ Keyword Attribute Values
    printer-state-reasons                      wrapper-unrecoverable-storage-error                     1setOf type2               [PWG5100.9]
                                                                                                       keyword
    printer-state-reasons                      wrapper-warming-up                                      1setOf type2               [PWG5100.9]
-                                                                                                      keyword
-   proof-print-supported                                                                              1setOf type2               [PWG5100.11]
-                                                                                                      keyword
-   proof-print-supported                      media                                                   1setOf type2               [PWG5100.11]
-                                                                                                      keyword
-   proof-print-supported                      media-col                                               1setOf type2               [PWG5100.11]
-                                                                                                      keyword
-   proof-print-supported                      proof-print-copies                                      1setOf type2               [PWG5100.11]
                                                                                                       keyword
    punching-reference-edge                                                                            type1 keyword              [PWG5100.1]
    punching-reference-edge                    bottom                                                  type1 keyword              [PWG5100.1]

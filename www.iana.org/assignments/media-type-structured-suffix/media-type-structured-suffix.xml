@@ -5,7 +5,7 @@
   <title>Structured Syntax Suffix Registry</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-07-20</created>
-  <updated>2018-10-02</updated>
+  <updated>2019-10-10</updated>
 
   <registry id="structured-syntax-suffix">
     <title>Structured Syntax Suffix Registry</title>
@@ -681,9 +681,58 @@
       <mod-dates/>
     </record>
     
+    <record date="2019-10-10">
+      <name>CBOR Sequence</name>
+      <suffix>+cbor-seq</suffix>
+      <xref type="draft" data="RFC-ietf-cbor-sequence-02"/>
+      <encoding>binary</encoding>
+      <interop>
+        <paragraph>n/a</paragraph>
+      </interop>
+      <fragment>
+        <paragraph>
+		  The syntax and semantics of
+		  fragment identifiers specified for +cbor-seq SHOULD be as
+		  specified for "application/cbor-seq".  (At publication of this
+		  document, there is no fragment identification syntax defined for
+		  "application/cbor-seq".)  
+		</paragraph>
+        <paragraph>
+		  The syntax and semantics for fragment identifiers for a
+		  specific "xxx/yyy+cbor-seq" SHOULD be processed as follows:
+        </paragraph>
+        <paragraph>
+		  For cases defined in +cbor-seq, where the fragment
+		  identifier resolves per the +cbor-seq rules, then process as
+		  specified in +cbor-seq.
+        </paragraph>
+        <paragraph>
+		  For cases defined in +cbor-seq, where the fragment
+		  identifier does not resolve per the +cbor-seq rules, then
+		  process as specified in "xxx/yyy+cbor-seq".
+        </paragraph>
+        <paragraph>
+		  For cases not defined in +cbor-seq, then process as
+		  specified in "xxx/yyy+cbor-seq".
+        </paragraph>
+      </fragment>
+      <security>
+        <paragraph>
+          See <xref type="draft" data="RFC-ietf-cbor-sequence-02"/>, Section 5
+        </paragraph>
+      </security>
+      <contact><xref type="person" data="CBOR_WG_mailing_list"/></contact>
+      <controller><xref type="person" data="IETF"/></controller>
+      <mod-dates/>
+    </record>
   </registry>
   
   <people>
+    <person id="CBOR_WG_mailing_list">
+      <name>CBOR WG mailing list</name>
+      <uri>mailto:cbor&amp;ietf.org</uri>
+      <updated>2019-10-10</updated>
+    </person>
     <person id="Clemens_Ladisch">
       <name>Clemens Ladisch</name>
       <uri>mailto:clemens&amp;ladisch.de</uri>

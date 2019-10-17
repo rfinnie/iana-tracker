@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-10-03</updated>
+    <updated>2019-10-11</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -73,10 +73,13 @@
                 <server>https://arq.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-08">
+        <record updated="2019-10-11">
             <value>14</value>
             <name>ORANGE</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.oleane.net/rdap-webapp/</server>
+            </rdapurl>
         </record>
         <record updated="2016-07-19">
             <value>15</value>
@@ -1773,6 +1776,9 @@
             <value>664</value>
             <name>Web4Africa Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>665</value>
@@ -2640,6 +2646,9 @@
             <value>818</value>
             <name>Interdominios, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-22">
             <value>819</value>
@@ -2786,6 +2795,9 @@
             <value>844</value>
             <name>Minds and Machines Registrar UK Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-03">
             <value>845</value>
@@ -3138,10 +3150,10 @@
             <name>Netfirms, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-10">
             <value>893</value>
             <name>NetraCorp LLC dba Global Internet</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record>
             <value>894</value>
@@ -6759,6 +6771,9 @@
             <value>1432</value>
             <name>Alpine Domains Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1433</value>
@@ -7340,6 +7355,9 @@
             <value>1531</value>
             <name>Automattic Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.sawbuck.com/</server>
+            </rdapurl>
         </record>
         <record updated="2018-04-18">
             <value>1532</value>
@@ -9829,6 +9847,9 @@
             <value>1913</value>
             <name>DOTSERVE INC.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2014-12-17">
             <value>1914</value>
@@ -17157,10 +17178,10 @@
                 <server>https://rdap.rntd.cn/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2015-09-29" updated="2016-02-25">
+        <record date="2015-09-29" updated="2019-10-10">
             <value>2909</value>
             <name>PierX, Inc</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2015-09-29" updated="2016-07-19">
             <value>2910</value>

@@ -6,6 +6,8 @@ Number,Name,Reference
 4,Reserved,[RFC1994]
 5,CHAP with MD5,[RFC1994]
 6,SHA-1,[David_L_Black]
-7-127,Unassigned,
+7,CHAP with SHA-256,[David_Black]
+8,CHAP with SHA3-256,[David_Black]
+9-127,Unassigned,
 128,MS-CHAP,[RFC2433]
 129,MS-CHAP-2,[RFC2759]

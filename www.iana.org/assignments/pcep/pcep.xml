@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="pcep">
   <title>Path Computation Element Protocol (PCEP) Numbers</title>
   <created>2008-12-19</created>
-  <updated>2019-08-05</updated>
+  <updated>2019-10-09</updated>
   
   <registry id="pcep-messages">
     <title>PCEP Messages</title>
@@ -1546,7 +1546,33 @@
       <value-description>Unassigned</value-description>
     </record>
     <record>
-      <type-value>5-255</type-value>
+      <type-value>5</type-value>
+      <type-description>Auto-Bandwidth Overwhelm State</type-description>
+      <value-value>0</value-value>
+      <value-description>Unassigned</value-description>
+    </record>
+    <record date="2019-10-08">
+      <type-value>5</type-value>
+      <type-description>Auto-Bandwidth Overwhelm State</type-description>
+      <value-value>1</value-value>
+      <value-description>Entering Auto-Bandwidth overwhelm state</value-description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <type-value>5</type-value>
+      <type-description>Auto-Bandwidth Overwhelm State</type-description>
+      <value-value>2</value-value>
+      <value-description>Clearing Auto-Bandwidth overwhelm state</value-description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record>
+      <type-value>5</type-value>
+      <type-description>Auto-Bandwidth Overwhelm State</type-description>
+      <value-value>3-255</value-value>
+      <value-description>Unassigned</value-description>
+    </record>
+    <record>
+      <type-value>6-255</type-value>
       <type-description>Unassigned</type-description>
       <value-value>1-255</value-value>
       <value-description>Unassigned</value-description>
@@ -2397,10 +2423,18 @@
         instantiation capability for P2MP was not advertised</value-description>
       <xref type="rfc" data="rfc8623"/>
     </record>
+    <record date="2019-10-08">
+      <type-value>19</type-value>
+      <type-description>Invalid Operation</type-description>
+      <value-value>14</value-value>
+      <value-description>Auto-Bandwidth Capability
+        was not Advertised</value-description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
     <record date="2016-07-27" updated="2017-06-26">
       <type-value>19</type-value>
       <type-description>Invalid Operation</type-description>
-      <value-value>14-255</value-value>
+      <value-value>15-255</value-value>
       <value-description>Unassigned</value-description>
     </record>
     <record date="2016-07-27">
@@ -3240,8 +3274,18 @@
       <description>ASSOC-Type-List</description>
       <xref type="draft" data="RFC-ietf-pce-association-group-10"/>
     </record>
+    <record date="2019-10-08">
+      <value>36</value>
+      <description>AUTO-BANDWIDTH-CAPABILITY</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>37</value>
+      <description>AUTO-BANDWIDTH-ATTRIBUTES</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
     <record>
-      <value>36-65503</value>
+      <value>38-65503</value>
       <description>Unassigned</description>
     </record>
     <record>
@@ -3922,6 +3966,108 @@
     <title>ASSOCIATION Type Field</title>
     <xref type="draft" data="RFC-ietf-pce-association-group-10"/>
     <registration_rule>Standards Action</registration_rule>
+  </registry>
+  
+  <registry id="auto-bandwidth-capability-tlv-flag-field">
+    <title>AUTO-BANDWIDTH-CAPABILITY TLV Flag Field</title>
+    <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    <registration_rule>Standards Action</registration_rule>
+    <record>
+      <value>0-31</value>
+      <description>Unassigned</description>
+    </record>
+  </registry>
+  
+  <registry id="auto-bandwidth-attributes-sub-tlv">
+    <title>AUTO-BANDWIDTH-ATTRIBUTES Sub-TLV Types</title>
+    <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    <range>
+      <value>0-65503</value>
+      <registration_rule>IETF Review</registration_rule>
+    </range>
+    <range>
+      <value>65504-65535</value>
+      <registration_rule>Experimental Use</registration_rule>
+    </range>
+    <record date="2019-10-08">
+      <value>0</value>
+      <description>Reserved</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>1</value>
+      <description>Sample-Interval</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>2</value>
+      <description>Adjustment-Interval</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>3</value>
+      <description>Down-Adjustment-Interval</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>4</value>
+      <description>Adjustment-Threshold</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>5</value>
+      <description>Adjustment-Threshold-Percentage</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>6</value>
+      <description>Down-Adjustment-Threshold</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>7</value>
+      <description>Down-Adjustment-Threshold-Percentage</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>8</value>
+      <description>Minimum-Bandwidth</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>9</value>
+      <description>Maximum-Bandwidth</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>10</value>
+      <description>Overflow-Threshold</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>11</value>
+      <description>Overflow-Threshold-Percentage</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>12</value>
+      <description>Underflow-Threshold</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record date="2019-10-08">
+      <value>13</value>
+      <description>Underflow-Threshold-Percentage</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
+    <record>
+      <value>14-65503</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2019-10-08">
+      <value>65504-65535</value>
+      <description>Experimental Use</description>
+      <xref type="draft" data="RFC-ietf-pce-stateful-pce-auto-bandwidth-12"/>
+    </record>
   </registry>
 
   <people/>
