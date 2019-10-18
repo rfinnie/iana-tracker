@@ -83,3 +83,4 @@ Decimal,Name,Description,References
 295,Reserved,Reserved,[RFC8561]
 296,Reserved,Reserved,[RFC8561]
 297,ieee8021axDrni,IEEE 802.1AX Distributed Resilient Network Interface,[IEEE 802.1AX-Rev-d2-0][John_Messenger]
+298,ax25,AX.25 network interfaces,[AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
