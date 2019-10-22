@@ -1,58 +1,69 @@
-                                                         IPSECKEY Resource Record Parameters
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Bad Gateway!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: rgba(223, 227, 230, 0.2);
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
 
-   Created
-           2004-12-20
+<body>
+<div>
+    <h1>Bad Gateway!</h1>
+    <p>
 
-   Last Updated
-           2016-10-18
 
-   Available Formats
-           [IMG]
-           XML [IMG]
-           HTML [IMG]
-           Plain text
+    The proxy server received an invalid
+    response from an upstream server.
 
-   Registries included below
+  
+    </p>
+<p>
 
-     * Algorithm Type Field
-     * Gateway Type Field
+    The proxy server could not handle the request<p>Reason: <strong>Error reading from remote server</strong></p>
+  
+    
+</p>
 
-Algorithm Type Field
+<h2>Error 502</h2>
+</body>
+</html>
 
-   Registration Procedure(s)
+    <p align=right><a href="https://www.iana.org/">IANA</a></p>
+</div>
+</body>
+</html>
 
- IETF Review
-
-   Reference
-           [RFC4025]
-
-   Available Formats
-           [IMG]
-           CSV
-
-   Value                         Description                         Reference
-     0   No key is present                                           [RFC4025]
-     1   A DSA key is present, in the format defined in [RFC2536]    [RFC4025]
-     2   A RSA key is present, in the format defined in [RFC3110]    [RFC4025]
-     3   An ECDSA key is present, in the format defined in [RFC6605] [RFC8005]
-   4-255 Unassigned
-
-Gateway Type Field
-
-   Registration Procedure(s)
-
- Standards Action
-
-   Reference
-           [RFC4025]
-
-   Available Formats
-           [IMG]
-           CSV
-
-   Value              Description              Reference
-     0   No gateway is present                 [RFC4025]
-     1   A 4-byte IPv4 address is present      [RFC4025]
-     2   A 16-byte IPv6 address is present     [RFC4025]
-     3   A wire-encoded domain name is present [RFC4025]
-   4-255 Unassigned
