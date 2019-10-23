@@ -11,7 +11,7 @@
 12,"Bazillion, Inc.",Terminated,
 13,Arq Group Limited DBA Melbourne IT,Accredited,https://arq.rdap.tucows.com/
 14,ORANGE,Accredited,https://rdap.oleane.net/rdap-webapp/
-15,"COREhub, S.R.L.",Accredited,
+15,"COREhub, S.R.L.",Accredited,https://rdap.corenic.net/
 16,AOL LLC,Terminated,
 18,CADVision Development Corporation dba GetDomain.com,Terminated,
 19,"CommuniTech.Net, Inc.",Terminated,
@@ -79,7 +79,7 @@
 109,"MS Intergate, Inc.",Terminated,
 110,"Shaver Communications, Inc.",Terminated,
 111,Secura GmbH,Accredited,https://rdap.domainregistry.de/domain/
-112,Catalog.com,Accredited,
+112,Catalog.com,Accredited,https://rdapserver.net/
 113,CSL Computer Service Langenbach GmbH d/b/a joker.com,Accredited,https://rdap.joker.com/
 119,Reserved for Internal Registry Use,Reserved,
 120,Xin Net Technology Corporation,Accredited,https://rdap.xinnet.com/
@@ -642,14 +642,14 @@
 1008,"SNAPNAMES 7, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1009,"SNAPNAMES 8, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1010,"SNAPNAMES 9, LLC",Accredited,https://rdap.networksolutions.com/rdap/
-1011,101domain GRS Limited,Accredited,
+1011,101domain GRS Limited,Accredited,https://rdap.101domain.com/v1/
 1012,"SNAPNAMES 10, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1013,"SNAPNAMES 11, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1014,"SNAPNAMES 12, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1015,MOBILE.CO DOMAINS CORP.,Terminated,
 1016,"Gee Whiz Domains, Inc.",Terminated,
 1017,"Black Ice Domains, Inc.",Terminated,
-1018,"Backslap Domains, Inc.",Accredited,
+1018,"Backslap Domains, Inc.",Terminated,
 1019,"Threadagent.com, Inc.",Accredited,
 1020,"Threadwalker.com, Inc.",Terminated,
 1021,"Threadwatch.com, Inc.",Terminated,
@@ -1093,7 +1093,7 @@
 1462,One.com A/S,Accredited,
 1463,"Global Domains International, Inc. DBA DomainCostClub.com",Accredited,https://rdap.domaincostclub.com/
 1464,NameWeb BVBA,Accredited,https://rdap-nameweb.biz/
-1465,"Hangzhou AiMing Network Co., Ltd.",Accredited,
+1465,"Hangzhou AiMing Network Co., Ltd.",Accredited,https://rdap.22.cn/
 1466,Lexsynergy Limited,Accredited,https://rdap.lexsynergy.com/
 1467,Register NV dba Register.eu,Accredited,
 1468,Virtucom Networks S.A.,Terminated,
@@ -1146,7 +1146,7 @@
 1516,"Zhengzhou Yi Fang Electronics Co., Ltd.",Accredited,
 1517,HOAPDI INC.,Accredited,
 1518,"Shanghai Best Oray Information S&T Co., Ltd.",Accredited,
-1519,NETIM SARL,Accredited,
+1519,NETIM SARL,Accredited,https://netim.rdap.services/
 1520,"Adknowledge, Inc.",Terminated,
 1521,Yexa.com Pty Ltd.,Terminated,
 1522,home.pl S.A.,Terminated,
@@ -1182,7 +1182,7 @@
 1552,"Name106, Inc.",Accredited,https://namerdap.systems/
 1553,"Small World Communications, Inc.",Accredited,
 1554,"DomainSnap, LLC",Terminated,
-1555,"22net, Inc.",Accredited,
+1555,"22net, Inc.",Accredited,https://rdap.22.cn/
 1556,"Chengdu West Dimension Digital Technology Co., Ltd.",Accredited,https://rdap.west.cn/
 1557,"Netowl, Inc.",Accredited,
 1558,SiliconHouse.Net Pvt Ltd.,Terminated,
@@ -1191,7 +1191,7 @@
 1561,Purity Names Incorporated,Accredited,
 1562,Badger Inc.,Terminated,
 1563,"Foshan YiDong Network Co., LTD",Accredited,
-1564,TLD Registrar Solutions Ltd.,Accredited,
+1564,TLD Registrar Solutions Ltd.,Accredited,https://rdap.tldregistrarsolutions.com/
 1565,DreamScape Networks FZ-LLC,Terminated,
 1566,NameSector LLC,Accredited,https://rdap.namebright.com/rdap/
 1567,NameSay LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -1213,7 +1213,7 @@
 1583,Umbrellar Limited,Accredited,
 1584,"Tsukaerunet Co., Ltd.",Terminated,
 1586,MAT BAO CORPORATION,Accredited,
-1587,Mijn InternetOplossing B.V.,Accredited,
+1587,Mijn InternetOplossing B.V.,Accredited,https://rdap.mijninternetoplossing.nl/
 1588,"Beijing Sanfront Information Technology Co., Ltd",Accredited,https://rdap.sfn.cn/rdap/
 1589,XYZ.COM LLC,Terminated,
 1590,"ChinaNet Technology (SuZhou) CO., LTD",Accredited,
@@ -1225,14 +1225,14 @@
 1597,"GreenZoneDomains, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1598,EastNames Inc.,Accredited,
 1599,Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn),Accredited,
-1600,"Tecnocrática Centro de Datos, S.L.",Accredited,
+1600,"Tecnocrática Centro de Datos, S.L.",Accredited,https://rdapserver.net/
 1601,Atak Domain Hosting Internet ve Bilgi Teknolojileri Limited Sirketi d/b/a Atak Teknoloji,Accredited,
 1603,TransIP B.V.,Accredited,
 1604,DanDomain A/S,Terminated,
 1605,"Chengdu Fly-Digital Technology Co., Ltd.",Accredited,
 1606,Registrar of Domain Names REG.RU LLC,Accredited,
 1607,CCI REG S.A.,Accredited,
-1608,Good Name Network Technology Ltd.,Accredited,
+1608,Good Name Network Technology Ltd.,Accredited,https://rdap.22.cn/
 1609,Synergy Wholesale Pty Ltd,Accredited,https://rdap.synergywholesale.com/
 1610,NamesHere LLC,Accredited,https://rdap.namebright.com/rdap/
 1611,DomainGetter LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -1276,7 +1276,7 @@
 1651,Dynadot3 LLC,Accredited,
 1652,Dynadot4 LLC,Accredited,
 1653,Dynadot5 LLC,Accredited,
-1654,Ourdomains Limited,Accredited,
+1654,Ourdomains Limited,Accredited,https://rdap.ourdomains.com/
 1655,"Xiamen Nawang Technology Co., Ltd",Accredited,
 1656,Kagoya Japan Inc.,Accredited,
 1657,"WHT Co., Ltd",Terminated,
@@ -1329,7 +1329,7 @@
 1704,"Julius Caesar, LLC",Terminated,
 1705,"Network Information Center, S. A. de C. V.",Accredited,https://rdap.akky.mx/
 1708,Nominet Registrar Services Limited,Accredited,
-1710,Nhan Hoa Software Company Ltd.,Accredited,
+1710,Nhan Hoa Software Company Ltd.,Accredited,https://rdapserver.net/
 1712,Number One Web Hosting Limited,Accredited,
 1714,Only Domains Limited,Accredited,
 1715,"DevilDogDomains.com, LLC",Accredited,https://rdap.networksolutions.com/rdap/
@@ -1356,9 +1356,9 @@
 1736,101domain Discovery Limited,Terminated,
 1737,"JARHEADDOMAINS.COM, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1738,Emirates Telecommunications Corporation - Etisalat,Accredited,
-1739,"Hangzhou Dianshang Internet Technology Co., LTD.",Accredited,
+1739,"Hangzhou Dianshang Internet Technology Co., LTD.",Accredited,https://rdap.22.cn/
 1740,Henan Weichuang Network Technology Co. Ltd.,Accredited,
-1741,Shinjiru Technology Sdn Bhd,Accredited,
+1741,Shinjiru Technology Sdn Bhd,Accredited,https://rdapserver.net/
 1742,"Zhengzhou Zitian Network Technology Co., Ltd.",Accredited,
 1743,"Aahwed, Inc.",Accredited,
 1744,Domain Vault Limited,Accredited,
@@ -1366,7 +1366,7 @@
 1746,REG.BG OOD,Terminated,
 1747,PANASIA INFORMATION LIMITED,Terminated,
 1748,Registrar Services LLC,Terminated,
-1749,Upperlink Limited,Accredited,
+1749,Upperlink Limited,Accredited,https://rdapserver.net/
 1750,Authentic Web Inc.,Accredited,https://authenticweb.rdap.tucows.com/
 1751,"SQUIDSAILERDOMAINS.COM, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1752,SALENAMES LTD,Accredited,
@@ -2101,20 +2101,20 @@
 2484,"Domain Research, LLC",Accredited,
 2485,"EIMS (Shenzhen) Culture & Technology Co., Ltd",Accredited,
 2486,Ednit Software Private Limited,Accredited,
-2487,Internet Domain Service BS Corp,Accredited,
+2487,Internet Domain Service BS Corp,Accredited,https://rdap.internet.bs/
 2489,C T CORPORATION SYSTEM DBA Corsearch,Accredited,
-2490,"Cloud Bamboo, LLC",Accredited,
-2491,"Cloud Beauty, LLC",Accredited,
-2492,"Cloud Boom, LLC",Accredited,
-2493,"Cloud City, LLC",Accredited,
-2494,"Cloud Diamond, LLC",Accredited,
-2495,"Cloud Orchid, LLC",Accredited,
-2496,"Cloud Plum, LLC",Accredited,
-2497,"Cloud Seed, LLC",Accredited,
-2498,"Cloud Shark, LLC",Accredited,
-2499,"Cloud Sun, LLC",Accredited,
-2500,"Cloud Super, LLC",Accredited,
-2501,"Cloud System, LLC",Accredited,
+2490,"Cloud Bamboo, LLC",Accredited,https://rdap.22.cn/
+2491,"Cloud Beauty, LLC",Accredited,https://rdap.22.cn/
+2492,"Cloud Boom, LLC",Accredited,https://rdap.22.cn/
+2493,"Cloud City, LLC",Accredited,https://rdap.22.cn/
+2494,"Cloud Diamond, LLC",Accredited,https://rdap.22.cn/
+2495,"Cloud Orchid, LLC",Accredited,https://rdap.22.cn/
+2496,"Cloud Plum, LLC",Accredited,https://rdap.22.cn/
+2497,"Cloud Seed, LLC",Accredited,https://rdap.22.cn/
+2498,"Cloud Shark, LLC",Accredited,https://rdap.22.cn/
+2499,"Cloud Sun, LLC",Accredited,https://rdap.22.cn/
+2500,"Cloud Super, LLC",Accredited,https://rdap.22.cn/
+2501,"Cloud System, LLC",Accredited,https://rdap.22.cn/
 2502,Online Data Services Joint Stock Company,Terminated,
 2504,"HongKong Di En Si International Co., Limited",Accredited,
 2505,DropCatch.com 746 LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -2527,7 +2527,7 @@
 2913,"Dominion Domains, LLC",Accredited,https://rdap.myorderbox.com/
 2915,"Xiamen Xin click Network Group Co.,Ltd",Accredited,
 2916,"Hangzhou Midaizi Network Co., Ltd.",Accredited,
-2917,Aiming Limited,Accredited,
+2917,Aiming Limited,Accredited,https://rdap.22.cn/
 2918,NetZone AG,Accredited,https://rdap.netzone.ch/
 2919,"Camelot 1, LLC",Terminated,
 2920,"Camelot 2, LLC",Terminated,
@@ -3365,7 +3365,7 @@
 3754,DropCatch.com 1545 LLC,Accredited,https://rdap.namebright.com/rdap/
 3755,Tencent Cloud Computing (Beijing) Limited Liability Company,Accredited,
 3756,"SHANGHAI XIAOLAN NETWORK TECHNOLOGY CO., LTD.",Terminated,
-3757,Digivity B.V.,Accredited,
+3757,Digivity B.V.,Accredited,https://rdapserver.net/
 3758,"Hefei Juming Network Technology Co., Ltd",Accredited,
 3759,Mfro Inc.,Accredited,https://rdap.quicca.com/rdap/
 3760,Ten Network Technology Limited,Terminated,
@@ -3376,7 +3376,7 @@
 3765,"NICENIC INTERNATIONAL GROUP CO., LIMITED",Accredited,https://rdap.iisp.com/
 3766,"SHENZHEN DOMAINSTAR TECHNOLOGY CO., LIMITED",Terminated,
 3767,"JIANGSU CHENGFUTONG NETWORK TECHNOLOGY CO., LTD.",Terminated,
-3768,First Alliance Group Ltd T/A Netclues Inc,Accredited,
+3768,First Alliance Group Ltd T/A Netclues Inc,Accredited,https://rdapserver.net/
 3769,"Shanghai UCloud Information Technology Co., Ltd.",Accredited,
 3770,"SUPER DATA CO., LTD",Accredited,
 3771,"Hangzhou Best Domain Technology Co., LTD",Accredited,
@@ -3414,7 +3414,7 @@
 3803,Zoho Corporation Private Limited,Accredited,
 3804,Edomains LLC,Accredited,
 3805,Topnets Group Limited,Accredited,
-3806,Beget LLC,Accredited,
+3806,Beget LLC,Accredited,https://rdapserver.net/
 3807,Alboran Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3808,Alpha Beta Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3809,Annapurna Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/

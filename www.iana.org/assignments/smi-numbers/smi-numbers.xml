@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-10-16</updated>
+  <updated>2019-10-23</updated>
   
  
   
@@ -8178,7 +8178,7 @@ Access Beyond web</description>
       <record date="2018-08-15">
         <value>31</value>
         <description>id-pe-acmeIdentifier</description>
-        <xref type="draft" data="draft-ietf-acme-tls-alpn"/>
+        <xref type="draft" data="RFC-ietf-acme-tls-alpn-07"/>
       </record>
       <record date="2019-02-20">
         <value>32</value>

@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-10-16
+           2019-10-23
 
    Note
 
@@ -2616,7 +2616,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      28    id-pe-ipAddrBlocks-v2                                                  [RFC8360]
      29    id-pe-autonomousSysIds-v2                                              [RFC8360]
      30    id-pe-mudsigner                                                        [RFC8520]
-     31    id-pe-acmeIdentifier                                                   [draft-ietf-acme-tls-alpn]
+     31    id-pe-acmeIdentifier                                                   [RFC-ietf-acme-tls-alpn-07]
      32    id-pe-masa-url (TEMPORARY - registered 2019-02-20, expires 2020-02-20) [draft-ietf-anima-bootstrapping-keyinfra]
 
   SMI Security for PKIX Policy Qualifier
