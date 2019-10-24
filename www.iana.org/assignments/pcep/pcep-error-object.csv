@@ -182,7 +182,12 @@ Error-Type,Meaning,Error-value,Reference
 ,,6: Association information mismatch,[RFC-ietf-pce-association-group-10]
 ,,7: Cannot join the association group,[RFC-ietf-pce-association-group-10]
 ,,8: Association identifier not in range,[RFC-ietf-pce-association-group-10]
-,,9-255: Unassigned,
+,,"9: Tunnel ID or End points mismatch for
+        Path Protection Association",[RFC-ietf-pce-stateful-path-protection-11]
+,,"10: Attempt to add another working/protection LSP 
+        for Path Protection Association",[RFC-ietf-pce-stateful-path-protection-11]
+,,11: Protection type is not supported,[RFC-ietf-pce-stateful-path-protection-11]
+,,12-255: Unassigned,
 27,WSON RWA Error,0: Unassigned,
 ,,1: Insufficient Memory,[RFC-ietf-pce-wson-rwa-ext-17]
 ,,2: RWA computation Not supported,[RFC-ietf-pce-wson-rwa-ext-17]
