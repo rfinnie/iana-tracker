@@ -1348,7 +1348,7 @@ which identifies the FCS used.  These are assigned as follows.
     <title>PPP Multilink Endpoint Discriminator Class</title>
     <xref type="rfc" data="rfc1990"/>
     <xref type="rfc" data="rfc3818"/>
-    <registration_rule>IETF REview</registration_rule>
+    <registration_rule>IETF Review</registration_rule>
     <note>The Point-to-Point Protocol (PPP) Link Control Protocol (LCP)
 Multilink Endpoint Discriminator Option includes a Class field which
 identifies the address class.

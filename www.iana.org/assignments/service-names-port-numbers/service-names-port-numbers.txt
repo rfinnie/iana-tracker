@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-10-04
+           2019-10-17
 
    Expert(s)
 
@@ -16686,13 +16686,13 @@ tentacle           41121       tcp    Tentacle Server              [Sancho_Leren
 z-wave-s           41230       tcp    Z-Wave Protocol over SSL/TLS [Sigma_Designs_3]                                     [Anders_Brandt_4]                                         2015-06-26
 z-wave-s           41230       udp    Z-Wave Protocol over DTLS    [Sigma_Designs_3]                                     [Anders_Brandt_4]                                         2015-06-26
                 41231-41793           Unassigned
-crestron-cip       41794       tcp    Crestron Control Port        [Ed_Ranney]                                           [Ed_Ranney]                                               2003-01
-crestron-cip       41794       udp    Crestron Control Port        [Ed_Ranney]                                           [Ed_Ranney]                                               2003-01
-crestron-ctp       41795       tcp    Crestron Terminal Port       [Ed_Ranney]                                           [Ed_Ranney]                                               2003-01
-crestron-ctp       41795       udp    Crestron Terminal Port       [Ed_Ranney]                                           [Ed_Ranney]                                               2003-01
-crestron-cips      41796       tcp    Crestron Secure Control Port [Crestron_Electronics]                                [Manish_Talreja]                                          2012-06-27
+crestron-cip       41794       tcp    Crestron Control Port        [Crestron_Electronics]                                [John_Pavlik]                                             2003-01      2019-10-17
+crestron-cip       41794       udp    Crestron Control Port        [Crestron_Electronics]                                [John_Pavlik]                                             2003-01      2019-10-17
+crestron-ctp       41795       tcp    Crestron Terminal Port       [Crestron_Electronics]                                [John_Pavlik]                                             2003-01      2019-10-17
+crestron-ctp       41795       udp    Crestron Terminal Port       [Crestron_Electronics]                                [John_Pavlik]                                             2003-01      2019-10-17
+crestron-cips      41796       tcp    Crestron Secure Control Port [Crestron_Electronics]                                [John_Pavlik]                                             2012-06-27   2019-10-17
                    41796       udp    Reserved
-crestron-ctps      41797       tcp    Crestron Secure Terminal     [Crestron_Electronics]                                [Manish_Talreja]                                          2012-06-27
+crestron-ctps      41797       tcp    Crestron Secure Terminal     [Crestron_Electronics]                                [John_Pavlik]                                             2012-06-27   2019-10-17
                                       Port
                    41797       udp    Reserved
                                                                                                                                                                                                                                                                      Unauthorized
@@ -19704,7 +19704,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Craig_Rogers]                                            Craig Rogers                                        mailto:Rogers&isi.edu
 [Craig_Steffen]                                           Craig Steffen                                       mailto:csteffen&ncsa.uiuc.edu                                 2005-08
 [Craig_Weeks]                                             Craig Weeks                                         mailto:cweeks&syspace.co.uk
-[Crestron_Electronics]                                                               Crestron Electronics,    mailto:mtalreja&crestron.com                                  2012-06-27
+[Crestron_Electronics]                                                               Crestron Electronics,    mailto:jpavlik&crestron.com                                   2019-10-17
                                                                                      Inc.
 [Cristi_Fati]                                             Cristi Fati                                         mailto:cristi.fati&hpe.com                                    2016-04-13
 [Cristian_Petculescu]                                     Cristian Petculescu                                 mailto:cristp&microsoft.com
@@ -20190,7 +20190,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ed_Kress]                                                Ed Kress                                            mailto:eskress&thinknet.com
 [Ed_Metcalf]                                              Ed Metcalf                                          mailto:emetcalf&tripwiresecurity.com
 [Ed_Odjaghian]                                            Ed Odjaghian                                        mailto:edo&datacap.com
-[Ed_Ranney]                                               Ed Ranney                                           mailto:eranney&crestron.com                                   2003-01
 [Ed_Vincent]                                              Ed Vincent                                          mailto:edv&concomp.com
 [Edelmiro_Gonzalez_Martinez]                              Edelmiro_Gonzalez_Martinez AIG S.L.                 mailto:pitin&aigclassic.com                                   2017-03-16
 [Eddie_Borjas]                                            Eddie Borjas               Beats Electronics LLC.   mailto:eddie&beatsbydre.com                                   2013-06-03
@@ -21267,6 +21266,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [John_Muth]                                               John Muth                                           mailto:muth&parascale.com                                     2010-01-21
 [John_Myers]                                              John Myers                                          mailto:jgm+&cmu.edu
 [John_Parello]                                            John Parello                                        mailto:jparello&cisco.com                                     2009-05-19
+[John_Pavlik]                                             John Pavlik                                         mailto:jpavlik&crestron.com                                   2019-10-17
 [John_Payne]                                              John Payne                                          mailto:jpayne&lotus.com
 [John_Payson]                                             John Payson                                         mailto:john&circad.com                                        2007-10-22
 [John_R_Chawner]                                          John R. Chawner                                     tel:+1-817-354-1004
@@ -21774,8 +21774,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [MANG_Ioan-Alexandru]                                     MANG Ioan-Alexandru        KeyTicket Solutions      mailto:amang&keyticket.eu                                     2014-04-04
 [Manickam_R_Sridhar]                                      Manickam R.Sridhar                                  mailto:msridhar&sitaranetworks.com
 [Manish_Surolia]                                          Manish Surolia                                      mailto:masurolia@cisco.com>                                   2017-10-27
-[Manish_Talreja]                                          Manish Talreja             Crestron Electronics,    mailto:mtalreja@crestron.com>                                 2012-06-27
-                                                                                     Inc.
 [Manuel_Moos]                                                                        Manuel Moos              mailto:z-man&users.sf.net                                     2012-11-02
 [Marat_Khalili]                                           Marat Khalili                                       mailto:qm2k&yandex.ru                                         2017-08-23
 [Marazzi]                                                 Marazzi                                             mailto:fmarazzi&ideetique.com

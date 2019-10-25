@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-09-27
+           2019-10-23
 
    Note
 
@@ -896,6 +896,7 @@ Decimal             Name                           Description                  
                                       several aggregated microwave carriers
   297   ieee8021axDrni                IEEE 802.1AX Distributed Resilient    [IEEE 802.1AX-Rev-d2-0][John_Messenger]
                                       Network Interface
+  298   ax25                          AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
 
   Internet-standard MIB - mib-2.interface.ifTable.ifEntry.ifType.tunnelType
 
@@ -1078,6 +1079,7 @@ Internet-standard MIB - Transmission Group
      296   Reserved         Reserved                              [RFC8561]
      297   ieee8021axDrni   IEEE 802.1AX Distributed Resilient    [IEEE 802.1AX-Rev-d2-0][John_Messenger]
                             Network Interface
+     298   ax25             AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
 
   MIB Transmission Group - Point-to-Point Protocol
 
@@ -2614,7 +2616,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      28    id-pe-ipAddrBlocks-v2                                                  [RFC8360]
      29    id-pe-autonomousSysIds-v2                                              [RFC8360]
      30    id-pe-mudsigner                                                        [RFC8520]
-     31    id-pe-acmeIdentifier                                                   [draft-ietf-acme-tls-alpn]
+     31    id-pe-acmeIdentifier                                                   [RFC-ietf-acme-tls-alpn-07]
      32    id-pe-masa-url (TEMPORARY - registered 2019-02-20, expires 2020-02-20) [draft-ietf-anima-bootstrapping-keyinfra]
 
   SMI Security for PKIX Policy Qualifier
@@ -4766,6 +4768,7 @@ SMI Security for Cryptographic Algorithms
    [Hing_Kam_Lam]         Hing-Kam Lam                        mailto:hklam&lucent.com                           2002-10
    [Hongchi_Shih]         Hongchi Shih                        mailto:hshih&cisco.com                            1998-06
    [Hyeri_Koh]            Hyeri Koh                           mailto:hkoh&occamnetworks.com                     2008-10-09
+   [Iain_Learmonth]       Iain Learmonth                      mailto:irl&fsfe.org                               2019-10-16
    [IANA]                 Internet Assigned Numbers Authority mailto:iana&iana.org                              1995-06
    [IESG]                 Internet Engineering Steering Group http://www.ietf.org/iesg/                         2011-02-08
    [Italo_Busi]           Italo Busi                          mailto:Italo.Busi&alcatel.it                      2003-03

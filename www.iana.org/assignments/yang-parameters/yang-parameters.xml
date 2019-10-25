@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2019-09-13</updated>
+  <updated>2019-10-18</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -53,10 +53,10 @@ FTP (ftp://ftp.iana.org/assignments/yang-parameters/).
         <xref type="uri" data="https://www.iana.org/assignments/ianaentity-mib/ianaentity-mib.xhtml">"IANA-ENTITY-MIB"</xref> MIB module so that if a new enumeration is added to
         the "IANAPhysicalClass" textual convention, the same class is added as an identity derived from "ianahw:hardware-class".</notes>
     </record>
-    <record date="2014-01-27" updated="2019-07-16">
+    <record date="2014-01-27" updated="2019-10-16">
       <name>iana-if-type</name>
       <iana>Y</iana>
-      <file type="yang">iana-if-type@2019-07-16.yang</file>
+      <file type="yang">iana-if-type@2019-10-16.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-if-type</namespace>
       <prefix>ianaift</prefix>
       <module/>
@@ -491,6 +491,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <module/>
       <xref type="rfc" data="rfc8349"/>
       <notes/>
+    </record>
+    <record date="2019-10-18">
+      <name>ietf-isis</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-isis</namespace>
+      <prefix>isis</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-isis-yang-isis-cfg-42"/>
+      <notes><xref type="draft" data="RFC-ietf-isis-yang-isis-cfg-42"/>'s module file will be posted upon the document's publication as an RFC.</notes>
     </record>
     <record date="2017-05-03">
       <name>ietf-key-chain</name>
