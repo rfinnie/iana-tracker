@@ -1,4 +1,5 @@
 Value,Description,Reference
 0-5,Unassigned,
 6,IP-in-IP-6LoRH,[RFC8138]
-7-255,Unassigned,
+7,Deadline-6LoRHE,[RFC-ietf-6lo-deadline-time-05]
+8-255,Unassigned,
