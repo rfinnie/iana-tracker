@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-10-23</updated>
+    <updated>2019-10-25</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -2664,10 +2664,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2018-10-18">
+        <record updated="2019-10-25">
             <value>820</value>
             <name>CTS Computers and Telecommunications Systems DBA MAGIC ONLINE</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>821</value>
@@ -2746,10 +2749,13 @@
             <name>Domain Jingles, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-10-25">
             <value>835</value>
             <name>KuwaitNET General Trading Co.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>836</value>
@@ -3184,10 +3190,13 @@
             <name>21Company, Inc. dba 21-domain.com</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-25">
             <value>898</value>
             <name>Alantron Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>899</value>
@@ -5606,10 +5615,13 @@
             <name>GoName-TX.com, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-25">
             <value>1249</value>
             <name>DotAlliance Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dotalliance.com/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1250</value>
@@ -6220,10 +6232,13 @@
                 <server>https://rdap.net-chinese.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-10-25">
             <value>1337</value>
             <name>Web Werks India Pvt. Ltd d/b/a ZenRegistry.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.zenregistry.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1338</value>
@@ -7178,10 +7193,13 @@
             <name>Ghana Dot Com Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-10-25">
             <value>1500</value>
             <name>Tirupati Domains and Hosting Pvt Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1501</value>
@@ -23210,10 +23228,13 @@
             <name>SINO PROFIT (HONG KONG) LIMITED</name>
             <status>Accredited</status>
         </record>
-        <record date="2017-11-09">
+        <record date="2017-11-09" updated="2019-10-25">
             <value>3792</value>
             <name>Global Domain Name Trading Center Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gdntcl.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2018-01-11">
             <value>3793</value>

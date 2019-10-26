@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-10-23
+           2019-10-25
 
    Note
 
@@ -917,7 +917,7 @@ Decimal             Name                           Description                  
 
    Note
 
- When this registry is modified, the YANG module iana-tunnel-type
+ When this registry is modified, the YANG module [iana-tunnel-type]
  must be updated as defined in [RFC-ietf-softwire-iftunnel-07].
 
 
