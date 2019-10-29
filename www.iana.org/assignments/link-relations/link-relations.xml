@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2019-09-25</updated>
+  <updated>2019-10-29</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
@@ -36,13 +36,13 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2019-09-25">
     <value>apple-touch-icon</value>
     <description>Refers to an icon for the context. Synonym for icon.</description>
-    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"/></spec>
+    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3">Configuring Web Applications</xref></spec>
   </record>
   
   <record date="2019-09-25">
     <value>apple-touch-startup-image</value>
     <description>Refers to a launch screen for the context.</description>
-    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3"/></spec>
+    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3">Configuring Web Applications</xref></spec>
   </record>
   
   <record date="2010-11-09">
@@ -416,7 +416,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2019-09-26">
     <value>mask-icon</value>
     <description>Refers to a mask that can be applied to the icon for the context.</description>
-    <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1"/></spec>
+	 <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1">Creating Pinned Tab Icons</xref></spec>
   </record>
 
   <record date="2013-11-01">

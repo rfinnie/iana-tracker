@@ -4,7 +4,7 @@
            2008-12-19
 
    Last Updated
-           2019-10-23
+           2019-10-28
 
    Available Formats
            [IMG]
@@ -1261,9 +1261,10 @@ SRP Object Flag Field
            [IMG]
            CSV
 
-   Value Description Reference
-   0-30  Unassigned  [RFC8281]
-    31   LSP-Remove  [RFC8281]
+   Value       Description                      Reference
+   0-29  Unassigned               [RFC8281]
+    30   LSP-Control Request Flag [RFC-ietf-pce-lsp-control-request-11]
+    31   LSP-Remove               [RFC8281]
 
 PCEP Path Setup Types
 
