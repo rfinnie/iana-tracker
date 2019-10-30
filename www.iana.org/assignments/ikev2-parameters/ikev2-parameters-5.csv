@@ -40,5 +40,9 @@ Number,Name,ESP Reference,IKEv2 Reference
 29,ENCR_AES_CCM_8_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
 30,ENCR_AES_GCM_16_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
 31,ENCR_CHACHA20_POLY1305_IIV,[draft-ietf-ipsecme-implicit-iv],Not allowed
-32-1023,Unassigned,,
+32,ENCR_KUZNYECHIK_MGM_KTREE,[draft-smyslov-esp-gost],[draft-smyslov-esp-gost]
+33,ENCR_MAGMA_MGM_KTREE,[draft-smyslov-esp-gost],[draft-smyslov-esp-gost]
+34,ENCR_KUZNYECHIK_MGM_MAC_KTREE,[draft-smyslov-esp-gost],Not allowed
+35,ENCR_MAGMA_MGM_MAC_KTREE,[draft-smyslov-esp-gost],Not allowed
+36-1023,Unassigned,,
 1024-65535,Private use,[RFC7296],[RFC7296]
