@@ -2,8 +2,8 @@ Relation Name,Description,Reference,Notes
 about,Refers to a resource that is the subject of the link's context.,"[RFC6903], section 2",
 alternate,Refers to a substitute for this context,[http://www.w3.org/TR/html5/links.html#link-type-alternate],
 appendix,Refers to an appendix.,[http://www.w3.org/TR/1999/REC-html401-19991224],
-apple-touch-icon,Refers to an icon for the context. Synonym for icon.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3],
-apple-touch-startup-image,Refers to a launch screen for the context.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW3],
+apple-touch-icon,Refers to an icon for the context. Synonym for icon.,[Configuring Web Applications],
+apple-touch-startup-image,Refers to a launch screen for the context.,[Configuring Web Applications],
 archives,"Refers to a collection of records, documents, or other
       materials of historical interest.",[http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives],
 author,Refers to the context's author.,[http://www.w3.org/TR/html5/links.html#link-type-author],
@@ -106,7 +106,7 @@ lrdd,"Refers to further information about the link's context,
       resources MUST have an ""application/xrd+xml"" representation, and
       MAY have others.",[RFC6415],
 manifest,Links to a manifest file for the context.,[https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest],
-mask-icon,Refers to a mask that can be applied to the icon for the context.,[https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1],
+mask-icon,Refers to a mask that can be applied to the icon for the context.,[Creating Pinned Tab Icons],
 memento,"The Target IRI points to a Memento, a fixed resource that will not change state anymore.",[RFC7089],"A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource."
 micropub,Links to the context's Micropub endpoint.,[https://www.w3.org/TR/micropub/#endpoint-discovery-p-1],

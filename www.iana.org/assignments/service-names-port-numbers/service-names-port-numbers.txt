@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-10-17
+           2019-10-30
 
    Expert(s)
 
@@ -2781,10 +2781,10 @@ h323hostcallsc     1300        tcp    H.323 Secure Call Control    [ITU-T]      
                                       Signalling
 h323hostcallsc     1300        udp    H.323 Secure Call Control    [ITU-T]                                               [ITU-T_TSB]                                                            2013-01-31
                                       Signalling
-ci3-software-1     1301        tcp    CI3-Software-1
-ci3-software-1     1301        udp    CI3-Software-1
-ci3-software-2     1302        tcp    CI3-Software-2               [Kelli_Watson]                                        [Kelli_Watson]
-ci3-software-2     1302        udp    CI3-Software-2               [Kelli_Watson]                                        [Kelli_Watson]
+                   1301        tcp    Reserved                                                                                                                                                  2019-10-30
+                   1301        udp    Reserved                                                                                                                                                  2019-10-30
+                   1302        tcp    Reserved                                                                                                                                                  2019-10-30
+                   1302        udp    Reserved                                                                                                                                                  2019-10-30
 sftsrv             1303        tcp    sftsrv                       [Robert_Frazier]                                      [Robert_Frazier]
 sftsrv             1303        udp    sftsrv                       [Robert_Frazier]                                      [Robert_Frazier]
 boomerang          1304        tcp    Boomerang                    [Bruce_Lueckenhoff]                                   [Bruce_Lueckenhoff]
@@ -21471,7 +21471,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Keith_Wood]                                              Keith Wood                                          mailto:keith.wood&epid.eurotherm.co.uk
 [Keith_Wright]                                            Keith Wright                                        mailto:kwright&sensatronics.com                               2003-08
 [Keith_Yarbrough]                                         Keith Yarbrough                                     mailto:kyarbro&windtraveller.com
-[Kelli_Watson]                                            Kelli Watson                                        mailto:kwatson&ci3software.com
 [Kelly_Green]                                             Kelly Green                                         mailto:green&compaq.com
 [Kelly_Sims]                                              Kelly Sims                                          mailto:kellys&garnet.wv.tek.com
 [Kelvin_Lawson]                                           Kelvin Lawson              AD Holdings              mailto:klawson&ad-holdings.co.uk                              2011-10-11
