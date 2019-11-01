@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2019-10-02</updated>
+  <updated>2019-10-30</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -1981,7 +1981,7 @@ by the IESG.
     </record>
     <record date="2019-06-10">
       <value>3</value>
-      <description>Prefix SID</description>
+      <description>Prefix Segment Identifier</description>
       <xref type="draft" data="RFC-ietf-isis-segment-routing-extensions-25"/>
     </record>
     <record>

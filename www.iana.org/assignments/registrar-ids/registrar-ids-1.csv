@@ -71,7 +71,7 @@
 97,"DomainZoo.com, Inc.",Terminated,
 98,EnetRegistry.com Corporation,Terminated,
 99,"pair Networks, Inc. d/b/a pair Domains",Accredited,
-100,"Whois Networks Co., Ltd.",Accredited,
+100,Whois Corp.,Accredited,
 101,"#1 Domain Names International, Inc. dba 1dni.com",Terminated,
 103,PacNames Ltd,Terminated,
 105,"MyDomain, Inc.",Terminated,
@@ -453,7 +453,7 @@
 817,MAFF Inc.,Accredited,
 818,"Interdominios, Inc.",Accredited,https://rdapserver.net/
 819,Reg2C.com Inc.,Accredited,https://rdapserver.net/
-820,CTS Computers and Telecommunications Systems DBA MAGIC ONLINE,Accredited,
+820,CTS Computers and Telecommunications Systems DBA MAGIC ONLINE,Accredited,https://rdapserver.net/
 821,"RegisterFly.com, Inc.",Terminated,
 822,"Registrar Label, Inc.",Terminated,
 823,"Internet Service Registrar, Inc.",Terminated,
@@ -467,7 +467,7 @@
 832,"EstDomains, Inc.",Terminated,
 833,"Dotted Ventures, Inc.",Terminated,
 834,"Domain Jingles, Inc.",Terminated,
-835,KuwaitNET General Trading Co.,Accredited,
+835,KuwaitNET General Trading Co.,Accredited,https://rdapserver.net/
 836,"Bottle Domains, Inc.",Accredited,
 837,"Freeparking Domain Registrars, Inc.",Accredited,
 838,BatDomains.com Ltd.,Terminated,
@@ -530,7 +530,7 @@
 895,Google LLC,Accredited,https://domainsrdap.googleapis.com/v1/
 896,Aruba SpA,Accredited,
 897,"21Company, Inc. dba 21-domain.com",Terminated,
-898,Alantron Inc.,Accredited,
+898,Alantron Inc.,Accredited,https://rdapserver.net/
 899,Naugus Limited LLC,Accredited,
 900,TPP Wholesale Pty Ltd,Accredited,
 901,AirNames.com Inc.,Terminated,
@@ -880,7 +880,7 @@
 1246,Dontaskwhy.ca Inc.,Terminated,
 1247,"Intersolved-FL.com, Inc.",Terminated,
 1248,"GoName-TX.com, Inc.",Terminated,
-1249,DotAlliance Inc.,Accredited,
+1249,DotAlliance Inc.,Accredited,https://rdap.dotalliance.com/rdap/
 1250,"OwnRegistrar, Inc.",Accredited,
 1251,Nameshield SAS,Accredited,https://rdap.nameshield.net/
 1252,OPENNAME LLC,Accredited,
@@ -968,7 +968,7 @@
 1334,"#1 Internet Services International, Inc. dba 1ISI",Terminated,
 1335,"Volusion, Inc.",Terminated,
 1336,"Net-Chinese Co., Ltd.",Accredited,https://rdap.net-chinese.com/
-1337,Web Werks India Pvt. Ltd d/b/a ZenRegistry.com,Accredited,
+1337,Web Werks India Pvt. Ltd d/b/a ZenRegistry.com,Accredited,https://rdap.zenregistry.com/
 1338,"UltraRPM, Inc. dba metapredict.com",Terminated,
 1339,M. G. Infocom Pvt. Ltd. dba MindGenies,Terminated,
 1340,"Arctic Names, Inc.",Accredited,
@@ -1127,7 +1127,7 @@
 1497,ELSERVER SRL,Terminated,
 1498,NetBulk NV,Terminated,
 1499,Ghana Dot Com Ltd.,Accredited,
-1500,Tirupati Domains and Hosting Pvt Ltd.,Accredited,
+1500,Tirupati Domains and Hosting Pvt Ltd.,Accredited,https://rdapserver.net/
 1501,DotRoll Kft.,Accredited,
 1502,Gabia C&S,Accredited,
 1503,PT Ardh Global Indonesia,Accredited,
@@ -3400,7 +3400,7 @@
 3789,"RegistrarSecure, LLC",Accredited,
 3790,"Shenzhen Domain Protection Technology Co., Ltd.",Accredited,
 3791,SINO PROFIT (HONG KONG) LIMITED,Accredited,
-3792,Global Domain Name Trading Center Ltd,Accredited,
+3792,Global Domain Name Trading Center Ltd,Accredited,https://rdap.gdntcl.com/rdap/
 3793,"Guangzhou Tencent Technology Co., Ltd.",Accredited,
 3794,AF Proxy Services Ltd,Accredited,
 3795,"Hangzhou Newdun Network Technology Co., Ltd.",Terminated,

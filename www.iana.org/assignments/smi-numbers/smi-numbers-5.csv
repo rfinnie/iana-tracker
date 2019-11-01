@@ -288,8 +288,7 @@ Type",[Manas_Pati]
           3589]"
 265,g9983,G.998.3 bonded interface,"[RFC6766][RFC Errata 
           3588]"
-266,"aluEpon       
-             (E-PON)",Ethernet Passive Optical Networks,[Karel_Meijfroidt]
+266,aluEpon (E-PON),Ethernet Passive Optical Networks,[Karel_Meijfroidt]
 267,aluEponOnu,EPON Optical Network Unit,[Karel_Meijfroidt]
 268,aluEponPhysicalUni,"EPON physical User to Network
 interface",[Karel_Meijfroidt]

@@ -37,5 +37,6 @@ Value,Description,Reference
 35,ASSOC-Type-List,[RFC-ietf-pce-association-group-10]
 36,AUTO-BANDWIDTH-CAPABILITY,[RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
 37,AUTO-BANDWIDTH-ATTRIBUTES,[RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
-38-65503,Unassigned,
+38,Path Protection Association Group TLV,[RFC-ietf-pce-stateful-path-protection-11]
+39-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

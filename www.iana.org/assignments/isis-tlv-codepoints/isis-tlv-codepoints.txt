@@ -4,7 +4,7 @@
            2003-05-06
 
    Last Updated
-           2019-10-02
+           2019-10-30
 
    Note
 
@@ -631,9 +631,9 @@ sub-TLVs for TLVs 149 and 150
            [IMG]
            CSV
 
-   Type  Description                   Reference
-   0     Reserved    [RFC-ietf-isis-segment-routing-extensions-25]
-   1     SID/Label   [RFC-ietf-isis-segment-routing-extensions-25]
+   Type         Description                          Reference
+   0     Reserved                  [RFC-ietf-isis-segment-routing-extensions-25]
+   1     SID/Label                 [RFC-ietf-isis-segment-routing-extensions-25]
    2     Unassigned
-   3     Prefix SID  [RFC-ietf-isis-segment-routing-extensions-25]
+   3     Prefix Segment Identifier [RFC-ietf-isis-segment-routing-extensions-25]
    4-255 Unassigned

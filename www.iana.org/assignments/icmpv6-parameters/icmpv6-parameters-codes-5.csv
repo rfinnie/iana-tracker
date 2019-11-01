@@ -3,3 +3,4 @@ Code,Name,Reference
 1,unrecognized Next Header type encountered,
 2,unrecognized IPv6 option encountered,
 3,IPv6 First Fragment has incomplete IPv6 Header Chain,[RFC7112]
+4,SR Upper-layer Header Error,[RFC-ietf-6man-segment-routing-header-26]

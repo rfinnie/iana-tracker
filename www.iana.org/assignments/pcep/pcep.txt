@@ -4,7 +4,7 @@
            2008-12-19
 
    Last Updated
-           2019-10-09
+           2019-10-28
 
    Available Formats
            [IMG]
@@ -64,6 +64,7 @@
      * ASSOCIATION Type Field
      * AUTO-BANDWIDTH-CAPABILITY TLV Flag Field
      * AUTO-BANDWIDTH-ATTRIBUTES Sub-TLV Types
+     * Path Protection Association Group TLV Flag Field
 
 PCEP Messages
 
@@ -767,7 +768,12 @@ PCEP-ERROR Object Error Types and Values
                                                6: Association information mismatch                    [RFC-ietf-pce-association-group-10]
                                                7: Cannot join the association group                   [RFC-ietf-pce-association-group-10]
                                                8: Association identifier not in range                 [RFC-ietf-pce-association-group-10]
-                                               9-255: Unassigned
+                                               9: Tunnel ID or End points mismatch for Path           [RFC-ietf-pce-stateful-path-protection-11]
+                                               Protection Association
+                                               10: Attempt to add another working/protection LSP for  [RFC-ietf-pce-stateful-path-protection-11]
+                                               Path Protection Association
+                                               11: Protection type is not supported                   [RFC-ietf-pce-stateful-path-protection-11]
+                                               12-255: Unassigned
        27     WSON RWA Error                   0: Unassigned
                                                1: Insufficient Memory                                 [RFC-ietf-pce-wson-rwa-ext-17]
                                                2: RWA computation Not supported                       [RFC-ietf-pce-wson-rwa-ext-17]
@@ -1018,7 +1024,8 @@ PCEP TLV Type Indicators
        35      ASSOC-Type-List                       [RFC-ietf-pce-association-group-10]
        36      AUTO-BANDWIDTH-CAPABILITY             [RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
        37      AUTO-BANDWIDTH-ATTRIBUTES             [RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
-    38-65503   Unassigned
+       38      Path Protection Association Group TLV [RFC-ietf-pce-stateful-path-protection-11]
+    39-65503   Unassigned
    65504-65535 Experimental Use                      [RFC8356]
 
 NO-PATH-VECTOR TLV Flag Field
@@ -1254,9 +1261,10 @@ SRP Object Flag Field
            [IMG]
            CSV
 
-   Value Description Reference
-   0-30  Unassigned  [RFC8281]
-    31   LSP-Remove  [RFC8281]
+   Value       Description                      Reference
+   0-29  Unassigned               [RFC8281]
+    30   LSP-Control Request Flag [RFC-ietf-pce-lsp-control-request-11]
+    31   LSP-Remove               [RFC8281]
 
 PCEP Path Setup Types
 
@@ -1507,8 +1515,14 @@ ASSOCIATION Type Field
    Reference
            [RFC-ietf-pce-association-group-10]
 
-     Type     Name    Reference
-   No registrations at this time.
+   Available Formats
+           [IMG]
+           CSV
+
+    Type              Name                             Reference
+      0    Reserved                    [RFC-ietf-pce-association-group-10]
+      1    Path Protection Association [RFC-ietf-pce-stateful-path-protection-11]
+   2-65535 Unassigned
 
 AUTO-BANDWIDTH-CAPABILITY TLV Flag Field
 
@@ -1556,3 +1570,22 @@ AUTO-BANDWIDTH-ATTRIBUTES Sub-TLV Types
        13      Underflow-Threshold-Percentage       [RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
     14-65503   Unassigned
    65504-65535 Experimental Use                     [RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
+
+Path Protection Association Group TLV Flag Field
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC-ietf-pce-stateful-path-protection-11]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit          Name                          Reference
+    31  P - PROTECTION-LSP    [RFC-ietf-pce-stateful-path-protection-11]
+    30  S - SECONDARY-LSP     [RFC-ietf-pce-stateful-path-protection-11]
+   6-29 Unassigned
+   0-5  Protection Type Flags [RFC-ietf-pce-stateful-path-protection-11]

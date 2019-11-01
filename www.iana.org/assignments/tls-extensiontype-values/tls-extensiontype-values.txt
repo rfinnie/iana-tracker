@@ -4,7 +4,7 @@
            2005-11-15
 
    Last Updated
-           2019-09-06
+           2019-10-23
 
    Available Formats
            [IMG]
@@ -257,6 +257,22 @@ TLS Application-Layer Protocol Negotiation (ALPN) Protocol IDs
            CSV
 
              Protocol                        Identification Sequence                                          Reference
+   Reserved                      0x0A 0x0A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x1A 0x1A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x2A 0x2A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x3A 0x3A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x4A 0x4A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x5A 0x5A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x6A 0x6A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x7A 0x7A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x8A 0x8A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0x9A 0x9A                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xAA 0xAA                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xBA 0xBA                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xCA 0xCA                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xDA 0xDA                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xEA 0xEA                                        [RFC-ietf-tls-grease-04]
+   Reserved                      0xFA 0xFA                                        [RFC-ietf-tls-grease-04]
    HTTP/0.9                      0x68 0x74 0x74 0x70 0x2f 0x30 0x2e 0x39          [RFC1945]
                                  ("http/0.9")
    HTTP/1.0                      0x68 0x74 0x74 0x70 0x2f 0x31 0x2e 0x30          [RFC1945]
@@ -286,22 +302,10 @@ TLS Application-Layer Protocol Negotiation (ALPN) Protocol IDs
                                  0x6e 0x74 ("xmpp-client")
    XMPP jabber:server namespace  0x78 0x6d 0x70 0x70 0x2d 0x73 0x65 0x72 0x76     [https://xmpp.org/extensions/xep-0368.html]
                                  0x65 0x72 ("xmpp-server")
-   Reserved                      0x0A 0x0A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x1A 0x1A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x2A 0x2A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x3A 0x3A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x4A 0x4A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x5A 0x5A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x6A 0x6A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x7A 0x7A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x8A 0x8A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0x9A 0x9A                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xAA 0xAA                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xBA 0xBA                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xCA 0xCA                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xDA 0xDA                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xEA 0xEA                                        [RFC-ietf-tls-grease-04]
-   Reserved                      0xFA 0xFA                                        [RFC-ietf-tls-grease-04]
+   acme-tls/1                    0x61 0x63 0x6d 0x65 0x2d 0x74 0x6c 0x73 0x2f     [RFC-ietf-acme-tls-alpn-07]
+                                 0x31 ("acme-tls/1")
+   OASIS Message Queuing         0x6d 0x71 0x74 0x74 (“mqtt”)                     [http://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html]
+   Telemetry Transport (MQTT)
 
 TLS CachedInformationType Values
 
