@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-10-25</updated>
+  <updated>2019-10-31</updated>
   
  
   
@@ -2964,7 +2964,7 @@ Interface</description>
 M-CMTS Operations Support System Interface Specification,
 CM-SP-M-OSSI-I01-050805", DOCSIS, August 2005.</xref>
       <xref type="uri" data="http://www.cablemodem.com/specifications"/>
-      <xref type="uri" data="http://www.cablelabs.com/specifications/archives/docsis.html"/>
+      <xref type="uri" data="https://www.cablelabs.com/specifications/archives/docsis.html"/>
     </record>
     <record>
       <value>230</value>
@@ -2996,7 +2996,7 @@ BY 238)</description>
       <value>234</value>
       <name>atmbond</name>
       <description>atmbond</description>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.998.1-200501-I/en"/>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.998.1-200501-I/en"/>
     </record>
     <record date="2006-06-14">
       <value>235</value>
@@ -3062,7 +3062,7 @@ variants</description>
       <name>wwanPP</name>
       <description>3GPP WWAN</description>
       <xref type="person" data="Gabriel_Montenegro"/>
-      <xref type="uri" data="http://www.3gpp.org/ftp/specs/archive/23_series/23.060/23060-740.zip"/>
+      <xref type="uri" data="https://www.3gpp.org/ftp/specs/archive/23_series/23.060/23060-740.zip"/>
     </record>
     <record date="2007-09-13">
       <value>244</value>
@@ -3151,7 +3151,7 @@ G.993.2)</description>
       <description>DOCSIS CATV Upstream RF
 Port</description>
       <xref type="person" data="Michael_Patrick"/>
-      <xref type="uri" data="http://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-I01-081209.pdf"/>
+      <xref type="uri" data="https://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-I01-081209.pdf"/>
     </record>
     <record date="2010-09-21">
       <value>257</value>
@@ -3177,14 +3177,14 @@ Port</description>
       <name>otnOdu</name>
       <description>OTN Optical Data Unit</description>
       <xref type="person" data="Jim_Vance"/>
-      <xref type="uri" data="http://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf"/>
+      <xref type="uri" data="https://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf"/>
     </record>
     <record date="2011-09-07">
       <value>261</value>
       <name>otnOtu</name>
       <description>OTN Optical channel Transport Unit</description>
       <xref type="person" data="Jim_Vance"/>
-      <xref type="uri" data="http://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf"/>
+      <xref type="uri" data="https://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf"/>
     </record>
     <record date="2011-10-26">
       <value>262</value>
@@ -3242,7 +3242,7 @@ link over the EPON layer</description>
       <name>aluGponOnu</name>
       <description>GPON Optical Network Unit</description>
       <xref type="person" data="Karel_Meijfroidt"/>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.984.2/en"/>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.984.2/en"/>
     </record>
     <record date="2012-01-11">
       <value>271</value>
@@ -3250,14 +3250,14 @@ link over the EPON layer</description>
       <description>GPON physical User to Network
 interface</description>
       <xref type="person" data="Karel_Meijfroidt"/>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.984.2/en"/>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.984.2/en"/>
     </record>
     <record date="2012-05-17">
       <value>272</value>
       <name>vmwareNicTeam</name>
       <description>VMware NIC Team</description>
       <xref type="person" data="Michael_MacFaden"/>
-      <xref type="uri" data="http://www.vmware.com/pdf/esx2_NIC_Teaming.pdf"/>
+      <xref type="uri" data="https://www.vmware.com/pdf/esx2_NIC_Teaming.pdf"/>
     </record>
     <record>
       <value>273</value>
@@ -3292,14 +3292,14 @@ is allocated according to the following reference.</description>
       <value>277</value>
       <name>docsOfdmDownstream</name>
       <description>CATV Downstream OFDM interface</description>
-      <xref type="uri" data="http://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification"/>    
+      <xref type="uri" data="https://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification"/>    
       <xref type="person" data="Miguel_O_Alvarez"/>
     </record>
     <record date="2014-07-03">
       <value>278</value>
       <name>docsOfdmaUpstream</name>
       <description>CATV Upstream OFDMA interface</description>
-      <xref type="uri" data="http://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification"/>    
+      <xref type="uri" data="https://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification"/>    
       <xref type="person" data="Miguel_O_Alvarez"/>
     </record>
     <record date="2014-09-19">
@@ -3374,16 +3374,16 @@ is allocated according to the following reference.</description>
       <value>289</value>
       <name>ptm</name>
       <description>Packet Transfer Mode</description>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.993.1">ITU-T G.993.1, Annex H</xref>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.993.2">ITU-T G.993.2</xref>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.9701">ITU-T G.9701</xref>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.993.1">ITU-T G.993.1, Annex H</xref>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.993.2">ITU-T G.993.2</xref>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.9701">ITU-T G.9701</xref>
       <xref type="person" data="William_Lupton"/>
     </record>
     <record date="2017-03-30">
       <value>290</value>
       <name>ghn</name>
       <description>G.hn port</description>
-      <xref type="uri" data="http://www.itu.int/rec/T-REC-G.9961">ITU-T G.9961</xref>
+      <xref type="uri" data="https://www.itu.int/rec/T-REC-G.9961">ITU-T G.9961</xref>
       <xref type="person" data="William_Lupton"/>
     </record>
     <record date="2018-06-11" updated="2018-06-21">
@@ -3404,7 +3404,7 @@ is allocated according to the following reference.</description>
       <value>293</value>
       <name>otnOduc</name>
       <description>OTN ODUC</description>
-      <xref type="uri" data="http://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
+      <xref type="uri" data="https://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
       <xref type="person" data="Koteswara_Boyapati"/>
     </record>
     <record date="2018-06-28">

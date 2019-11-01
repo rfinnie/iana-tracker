@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-10-25
+           2019-10-31
 
    Note
 
@@ -801,14 +801,14 @@ Decimal             Name                           Description                  
                                       VectaStar
                                       CATV Modular CMTS Downstream          [Eduardo_Cardona]["Data-Over-Cable Service Interface Specifications: M-CMTS Operations Support System Interface
   229   docsCableMCmtsDownstream      Interface                             Specification, CM-SP-M-OSSI-I01-050805", DOCSIS, August
-                                                                            2005.][http://www.cablemodem.com/specifications][http://www.cablelabs.com/specifications/archives/docsis.html]
+                                                                            2005.][http://www.cablemodem.com/specifications][https://www.cablelabs.com/specifications/archives/docsis.html]
                                       Asymmetric Digital Subscriber Loop
   230   adsl2                         Version 2 (DEPRECATED - REPLACED BY   [RFC4706]
                                       238)
   231   macSecControlledIF            MACSecControlled                      [Paul_Congdon]
   232   macSecUncontrolledIF          MACSecUncontrolled                    [Paul_Congdon]
   233   aviciOpticalEther             Avici Optical Ethernet Aggregate      [Somen_Bhattacharya]
-  234   atmbond                       atmbond                               [http://www.itu.int/rec/T-REC-G.998.1-200501-I/en]
+  234   atmbond                       atmbond                               [https://www.itu.int/rec/T-REC-G.998.1-200501-I/en]
   235   voiceFGDOS                    voice FGD Operator Services           [Lizzie_Cheung]
   236   mocaVersion1                  MultiMedia over Coax Alliance         [Ladd_Wardani]
   237   ieee80216WMAN                 IEEE 802.16 WMAN interface            [http://standards.ieee.org/getieee802/802.16.html]
@@ -819,7 +819,7 @@ Decimal             Name                           Description                  
   240   dvbTdm                        DVB Satellite TDM                     [RFC5728][ETSI EN 300 421][ETSI EN 302 307][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
   241   dvbRcsTdma                    DVB-RCS TDMA                          [RFC5728][ETSI EN 301 790][ETSI EN 300 421][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
   242   x86Laps                       LAPS based on ITU-T X.86/Y.1323       [Orly_Nicklass][http://grouper.ieee.org/groups/802/3/ad_hoc/etholaps/public/docs/opening_report_0301.pdf]
-  243   wwanPP                        3GPP WWAN                             [Gabriel_Montenegro][http://www.3gpp.org/ftp/specs/archive/23_series/23.060/23060-740.zip]
+  243   wwanPP                        3GPP WWAN                             [Gabriel_Montenegro][https://www.3gpp.org/ftp/specs/archive/23_series/23.060/23060-740.zip]
   244   wwanPP2                       3GPP2 WWAN                            [Gabriel_Montenegro][http://www.3gpp2.org/Public_html/specs/C.S0017-005-A_v1.0_040617.pdf]
   245   voiceEBS                      voice P-phone EBS physical interface  [Tom_Chou]
   246   ifPwType                      Pseudowire interface type             [RFC5601]
@@ -838,12 +838,12 @@ Decimal             Name                           Description                  
   253   capwapDot11Bss                WLAN BSS Interface                    [RFC5834]
   254   capwapWtpVirtualRadio         WTP Virtual Radio Interface           [RFC5833]
   255   bits                          bitsport                              [Du_Feng]
-  256   docsCableUpstreamRfPort       DOCSIS CATV Upstream RF Port          [Michael_Patrick][http://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-I01-081209.pdf]
+  256   docsCableUpstreamRfPort       DOCSIS CATV Upstream RF Port          [Michael_Patrick][https://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-I01-081209.pdf]
   257   cableDownstreamRfPort         CATV downstream RF port               [Michael_Patrick]
   258   vmwareVirtualNic              VMware Virtual Network Interface      [Mike_MacFaden]
   259   ieee802154                    IEEE 802.15.4 WPAN interface          [Juergen_Schoenwaelde]["IEEE Std. 802.15.4-2006", October 2006.]
-  260   otnOdu                        OTN Optical Data Unit                 [Jim_Vance][http://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
-  261   otnOtu                        OTN Optical channel Transport Unit    [Jim_Vance][http://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
+  260   otnOdu                        OTN Optical Data Unit                 [Jim_Vance][https://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
+  261   otnOtu                        OTN Optical channel Transport Unit    [Jim_Vance][https://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
   262   ifVfiType                     VPLS Forwarding Instance Interface    [Manas_Pati]
                                       Type
   263   g9981                         G.998.1 bonded interface              [RFC6768][RFC Errata 3591]
@@ -855,10 +855,10 @@ Decimal             Name                           Description                  
                                       interface
   269   aluEponLogicalLink            The emulation of a point-to-point     [Karel_Meijfroidt]
                                       link over the EPON layer
-  270   aluGponOnu                    GPON Optical Network Unit             [Karel_Meijfroidt][http://www.itu.int/rec/T-REC-G.984.2/en]
-  271   aluGponPhysicalUni            GPON physical User to Network         [Karel_Meijfroidt][http://www.itu.int/rec/T-REC-G.984.2/en]
+  270   aluGponOnu                    GPON Optical Network Unit             [Karel_Meijfroidt][https://www.itu.int/rec/T-REC-G.984.2/en]
+  271   aluGponPhysicalUni            GPON physical User to Network         [Karel_Meijfroidt][https://www.itu.int/rec/T-REC-G.984.2/en]
                                       interface
-  272   vmwareNicTeam                 VMware NIC Team                       [Michael_MacFaden][http://www.vmware.com/pdf/esx2_NIC_Teaming.pdf]
+  272   vmwareNicTeam                 VMware NIC Team                       [Michael_MacFaden][https://www.vmware.com/pdf/esx2_NIC_Teaming.pdf]
                                       The corresponding transmission value
   273   Reserved                      is allocated according to the         [RFC6825]
                                       following reference.
@@ -871,8 +871,8 @@ Decimal             Name                           Description                  
                                       The corresponding transmission value
   276   Reserved                      is allocated according to the         [RFC7257]
                                       following reference.
-  277   docsOfdmDownstream            CATV Downstream OFDM interface        [http://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification][Miguel_O_Alvarez]
-  278   docsOfdmaUpstream             CATV Upstream OFDMA interface         [http://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification][Miguel_O_Alvarez]
+  277   docsOfdmDownstream            CATV Downstream OFDM interface        [https://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification][Miguel_O_Alvarez]
+  278   docsOfdmaUpstream             CATV Upstream OFDMA interface         [https://www.cablelabs.com/specification/cable-modem-operations-support-system-interface-specification][Miguel_O_Alvarez]
   279   gfast                         G.fast port                           [ITU-T G.9701]
   280   sdci                          SDCI (IO-Link)                        [IEC 61131-9 Edition 1.0 2013-09][Markus_Rentschler]
   281   xboxWireless                  Xbox wireless                         [Brandon_Jiang]
