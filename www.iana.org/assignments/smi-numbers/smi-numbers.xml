@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-10-31</updated>
+  <updated>2019-11-01</updated>
   
  
   
@@ -3568,7 +3568,7 @@ must be updated as defined in <xref type="draft" data="RFC-ietf-softwire-iftunne
         <name>ipHttps</name>
         <description>IPHTTPS</description>
         <xref type="person" data="Sean_Siler"/>
-        <xref type="uri" data="http://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx"/>
+        <xref type="uri" data="https://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx"/>
         <xref type="text">Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification"</xref>
       </record>
       <record date="2016-04-29">
@@ -4048,14 +4048,14 @@ ifType value should be registered or marked "Reserved."
       <value>293</value>
       <name>otnOduc</name>
       <description>OTN ODUC</description>
-      <xref type="uri" data="http://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
+      <xref type="uri" data="https://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
       <xref type="person" data="Koteswara_Boyapati"/>
     </record>
     <record date="2018-06-28">
       <value>294</value>
       <name>otnOtsig</name>
       <description>OTN OTUC Signal</description>
-      <xref type="uri" data="http://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
+      <xref type="uri" data="https://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
       <xref type="person" data="Koteswara_Boyapati"/>
     </record>
     <record date="2019-01-31">

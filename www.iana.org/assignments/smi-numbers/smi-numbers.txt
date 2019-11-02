@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-10-31
+           2019-11-01
 
    Note
 
@@ -967,7 +967,7 @@ Decimal             Name                           Description                  
      12    sixOverFour  6over4 encapsulation [RFC2529]
      13    isatap       ISATAP encapsulation [RFC5214]
      14    teredo       Teredo encapsulation [RFC4380]
-     15    ipHttps      IPHTTPS              [Sean_Siler][http://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation,
+     15    ipHttps      IPHTTPS              [Sean_Siler][https://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation,
                                              "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification"]
      16    softwireMesh softwire mesh tunnel [RFC5565]
      17    dsLite       DS-Lite tunnel       [RFC6333]
