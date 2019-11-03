@@ -1,69 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>Bad Gateway!</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
-    body {
-        background-color: rgba(223, 227, 230, 0.2);
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-    }
-    div {
-        width: 600px;
-        margin: 5em auto;
-        padding: 50px;
-        background-color: #fff;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-    }
-    a:link, a:visited {
-        color: #38488f;
-        text-decoration: none;
-    }
-    @media (max-width: 700px) {
-        body {
-            background-color: #fff;
-        }
-        div {
-            width: auto;
-            margin: 0 auto;
-            border-radius: 0;
-            padding: 1em;
-        }
-    }
-    </style>    
-</head>
-
-<body>
-<div>
-    <h1>Bad Gateway!</h1>
-    <p>
-
-
-    The proxy server received an invalid
-    response from an upstream server.
-
-  
-    </p>
-<p>
-
-    The proxy server could not handle the request<p>Reason: <strong>DNS lookup failure for: maintenance-iana-org.icann-production-a</strong></p>
-  
-    
-</p>
-
-<h2>Error 502</h2>
-</body>
-</html>
-
-    <p align=right><a href="https://www.iana.org/">IANA</a></p>
-</div>
-</body>
-</html>
-
+Value (Hex),Result Codes for Added field,Reference
+00,Name successfully added.,[RFC2097]
+0D,Duplicate name in local name table.,[RFC2097]
+0E,Name table full.,[RFC2097]
+15,"Name not found or cannot specify ""*"" or null.",[RFC2097]
+16,Name in use on remote NetBIOS.,[RFC2097]
+19,Name conflict detected.,[RFC2097]
+30,Name defined by another environment.,[RFC2097]
+35,Required system resources exhausted.,[RFC2097]
+36-FF,Undefined,
