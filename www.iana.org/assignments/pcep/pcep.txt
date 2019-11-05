@@ -4,7 +4,7 @@
            2008-12-19
 
    Last Updated
-           2019-10-28
+           2019-11-01
 
    Available Formats
            [IMG]
@@ -629,19 +629,20 @@ PCEP-ERROR Object Error Types and Values
                                                the P-flag must be set according to this               [RFC5440]
                                                specification.
                                                2: Bad label value                                     [RFC-ietf-pce-segment-routing-16]
-                                               3: Unsupported number of of SR-ERO subobjects          [RFC-ietf-pce-segment-routing-16]
+                                               3: Unsupported number of SR-ERO subobjects             [RFC-ietf-pce-segment-routing-16]
                                                4: Bad label format                                    [RFC-ietf-pce-segment-routing-16]
                                                5: ERO mixes SR-ERO subobjects with other subobject    [RFC-ietf-pce-segment-routing-16]
                                                types
-                                               6: Both SID and NAI are absent in SR-ERO subobject     [RFC-ietf-pce-segment-routing-16]
-                                               7: Both SID and NAI are absent in SR-RRO subobject     [draft-ietf-pce-segment-routing]
+                                               6: Both SID and NAI are absent in the SR-ERO subobject [RFC-ietf-pce-segment-routing-16]
+                                               7: Both SID and NAI are absent in the SR-RRO subobject [draft-ietf-pce-segment-routing]
                                                8: SYMBOLIC-PATH-NAME TLV missing                      [RFC8281]
                                                9: MSD exceeds the default for the PCEP session        [RFC-ietf-pce-segment-routing-16]
                                                10: RRO mixes SR-RRO subobjects with other subobject   [RFC-ietf-pce-segment-routing-16]
                                                types
                                                11: Malformed object                                   [RFC8408]
                                                12: Missing PCE-SR-CAPABILITY sub-TLV                  [RFC-ietf-pce-segment-routing-16]
-                                               13: Unsupported NAI Type in SR-ERO subobject           [RFC-ietf-pce-segment-routing-16]
+                                               13: Unsupported NAI Type in the SR-ERO/SR-RRO          [RFC-ietf-pce-segment-routing-16]
+                                               subobject
                                                14: Unknown SID                                        [RFC-ietf-pce-segment-routing-16]
                                                15: NAI cannot be resolved to a SID                    [RFC-ietf-pce-segment-routing-16]
                                                16: Could not find SRGB                                [RFC-ietf-pce-segment-routing-16]
@@ -1281,7 +1282,7 @@ PCEP Path Setup Types
 
    Value                        Description                                    Reference
      0   Path is set up using the RSVP-TE signaling protocol       [RFC8408]
-     1   Traffic engineering path is set up using Segment Routing. [RFC-ietf-pce-segment-routing-16]
+     1   Traffic-engineering path is set up using Segment Routing. [RFC-ietf-pce-segment-routing-16]
    2-255 Unassigned
 
 PCEP SR-ERO NAI Types
@@ -1320,12 +1321,12 @@ SR-ERO Flag Field
            [IMG]
            CSV
 
-   Bit                         Description                                      Reference
+   Bit                          Description                                      Reference
    0-7 Unassigned
-    8  NAI is absent (F)                                            [RFC-ietf-pce-segment-routing-16]
-    9  SID is absent (S)                                            [RFC-ietf-pce-segment-routing-16]
-   10  SID specifies TC, S and TTL in addition to an MPLS label (C) [RFC-ietf-pce-segment-routing-16]
-   11  SID specifies an MPLS label (M)                              [RFC-ietf-pce-segment-routing-16]
+    8  NAI is absent (F)                                             [RFC-ietf-pce-segment-routing-16]
+    9  SID is absent (S)                                             [RFC-ietf-pce-segment-routing-16]
+   10  SID specifies TC, S, and TTL in addition to an MPLS label (C) [RFC-ietf-pce-segment-routing-16]
+   11  SID specifies an MPLS label (M)                               [RFC-ietf-pce-segment-routing-16]
 
 PATH-SETUP-TYPE-CAPABILITY Sub-TLV Type Indicators
 
