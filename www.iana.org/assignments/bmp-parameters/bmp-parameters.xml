@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="bmp-parameters">
   <title>BGP Monitoring Protocol (BMP) Parameters</title>
   <created>2016-04-14</created>
-  <updated>2019-11-04</updated>
+  <updated>2019-11-07</updated>
   
   <registry id="message-types">
     <title>BMP Message Types</title>
@@ -140,7 +140,7 @@
     <record date="2018-12-13">
       <value>3</value>
       <description>O flag</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+      <xref type="rfc" data="rfc8671"/>
     </record>
     <record date="2018-12-13">
       <value>4</value>
@@ -240,22 +240,22 @@
     <record date="2018-12-13" updated="2019-11-04">
       <value>14</value>
       <description>Number of routes in pre-policy Adj-RIB-Out</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+      <xref type="rfc" data="rfc8671"/>
     </record>
     <record date="2018-12-13" updated="2019-11-04">
       <value>15</value>
       <description>Number of routes in post-policy Adj-RIB-Outy</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+      <xref type="rfc" data="rfc8671"/>
     </record>
     <record date="2018-12-13" updated="2019-11-04">
       <value>16</value>
       <description>Number of routes in per-AFI/SAFI pre-policy Adj-RIB-Out</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+      <xref type="rfc" data="rfc8671"/>
     </record>
     <record date="2018-12-13" updated="2019-11-04">
       <value>17</value>
       <description>Number of routes in per-AFI/SAFI post-policy Adj-RIB-Out</description>
-     <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+     <xref type="rfc" data="rfc8671"/>
     </record>
     <record>
       <value>18-65530</value>
@@ -309,7 +309,7 @@
     <record date="2018-12-13">
       <value>4</value>
       <description>Admin Label</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-adj-rib-out-07"/>
+      <xref type="rfc" data="rfc8671"/>
     </record>
     <record>
       <value>5-65530</value>

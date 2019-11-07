@@ -1,7 +1,7 @@
                                                        IPv6 Global Unicast Address Assignments
 
    Last Updated
-           2019-09-13
+           2019-11-06
 
    Registration Procedure(s)
 
@@ -102,6 +102,8 @@
    2610:0000::/23 ARIN        2005-11-17 whois.arin.net    https://rdap.arin.net/registry ALLOCATED
                                                            http://rdap.arin.net/registry
    2620:0000::/23 ARIN        2006-09-12 whois.arin.net    https://rdap.arin.net/registry ALLOCATED
+                                                           http://rdap.arin.net/registry
+   2630:0000::/12 ARIN        2019-11-06 whois.arin.net    https://rdap.arin.net/registry ALLOCATED
                                                            http://rdap.arin.net/registry
                                                                                                     2800:0000::/23 was allocated on 2005-11-17. The
    2800:0000::/12 LACNIC      2006-10-03 whois.lacnic.net  https://rdap.lacnic.net/rdap/  ALLOCATED more recent allocation (2006-10-03)
