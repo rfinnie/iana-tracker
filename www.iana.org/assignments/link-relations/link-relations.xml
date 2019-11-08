@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2019-10-29</updated>
+  <updated>2019-11-07</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
@@ -712,6 +712,14 @@ profile URIs.</note>
     <note/>
   </record>
   
+  <record date="2019-11-07">
+    <value>sponsored</value>
+    <description>Refers to a resource that is within a context that is 
+		sponsored (such as advertising or another compensation agreement).</description>
+    <spec><xref type="uri" data="https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html">Google Blog post 09-2019</xref></spec>
+    <note/>
+  </record>
+  
   <record>
     <value>start</value>
     <description>Refers to the first resource in a collection of
@@ -793,6 +801,14 @@ profile URIs.</note>
     <value>type</value>
     <description>Refers to a resource identifying the abstract semantic type of which the link's context is considered to be an instance.</description>
     <spec><xref type="rfc" data="rfc6903"/>, section 6</spec>
+  </record>
+  
+  <record date="2019-11-07">
+    <value>ugc</value>
+    <description>Refers to a resource that is within a context that is User Generated Content.
+    </description>
+    <spec><xref type="uri" data="https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html">Google Blog post 09-2019</xref></spec>
+	<note/>
   </record>
   
   <record>

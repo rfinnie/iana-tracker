@@ -4,7 +4,7 @@
            2005-08-26
 
    Last Updated
-           2019-10-29
+           2019-11-07
 
    Available Formats
            [IMG]
@@ -652,6 +652,13 @@ service-meta              context that is       [RFC8631]
                           primarily intended
                           for consumption by
                           machines.
+                          Refers to a resource
+                          that is within a
+                          context that is
+sponsored                 sponsored (such as    [Google Blog post 09-2019]
+                          advertising or
+                          another compensation
+                          agreement).
                           Refers to the first
 start                     resource in a         [http://www.w3.org/TR/1999/REC-html401-19991224]
                           collection of
@@ -697,6 +704,10 @@ type                      type of which the     [RFC6903], section 6
                           link's context is
                           considered to be an
                           instance.
+                          Refers to a resource
+ugc                       that is within a      [Google Blog post 09-2019]
+                          context that is User
+                          Generated Content.
                           Refers to a parent
 up                        document in a         [RFC8288]                                                                       This relation type registration did not indicate a
                           hierarchy of                                                                                          reference. Requested by Noah Slater.

@@ -15,4 +15,10 @@ Value,Name,Reference
 25-29,Unassigned,
 30-35,Apple Inc.,[Michael_Stein]
 36-127,Unassigned,
-128-255,RealVNC,historic assignment
+128,RealVNC,historic assignment
+129,RealVNC,historic assignment
+129,Tight Unix Login Authentication,[Samuel_Mannehed]
+130-134,RealVNC,historic assignment
+135-191,Unassigned,
+192,RealVNC,historic assignment
+193-255,Unassigned,
