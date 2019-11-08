@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2019-10-23</updated>
+  <updated>2019-10-31</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -271,7 +271,7 @@ limited applicability, or is intended only for specific use cases.
       <name>ticket_pinning</name>
       <tls13>CH, EE</tls13>
       <rec>N</rec>
-      <xref type="draft" data="RFC-sheffer-tls-pinning-ticket-12"/>
+      <xref type="rfc" data="rfc8672"/>
     </record>
     <record>
       <value>33-34</value>

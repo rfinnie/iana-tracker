@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     
     <title>Registrar IDs</title>
-    <updated>2019-10-30</updated>
+    <updated>2019-11-01</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -6739,10 +6739,13 @@
             <name>Bharti Airtel Services Limited</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-11-24">
+        <record updated="2019-11-01">
             <value>1420</value>
             <name>INWX GmbH &amp; Co. KG</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.domrobot.com/domain/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1421</value>
@@ -6759,10 +6762,13 @@
             <name>Uber Australia E1 Pty Ltd</name>
             <status>Terminated</status>
         </record>
-        <record updated="2015-12-16">
+        <record updated="2019-11-01">
             <value>1424</value>
             <name>Wingu Networks, S.A. de C.V.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://interplanet.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>1426</value>
@@ -6901,10 +6907,13 @@
                 <server>https://rdap.blacknight.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-11-01">
             <value>1449</value>
             <name>URL Solutions, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.pananames.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1450</value>
@@ -7053,10 +7062,13 @@
             <name>Jungbonet Co., Ltd</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-11-01">
             <value>1474</value>
             <name>WIXI Incorporated</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dnpilot.com</server>
+            </rdapurl>
         </record>
         <record updated="2016-07-19">
             <value>1475</value>
@@ -7159,10 +7171,13 @@
                 <server>https://rdap.ssandomain.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-01-28">
+        <record updated="2019-11-01">
             <value>1492</value>
             <name>NEEN S.p.A.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net</server>
+            </rdapurl>
         </record>
         <record>
             <value>1493</value>
@@ -8096,10 +8111,13 @@
             <name>Beijing Midwest Taian Technology Services Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-11-01">
             <value>1636</value>
             <name>Hostinger, UAB</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1637</value>
@@ -9658,10 +9676,13 @@
             <name>Namemaster RC GmbH</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-11-01">
             <value>1860</value>
             <name>Paragon Internet Group Ltd t/a Paragon Names</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://paragon.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-01">
             <value>1861</value>
@@ -9902,10 +9923,13 @@
             <name>DomainName Path, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record date="2014-06-19" updated="2015-01-22">
+        <record date="2014-06-19" updated="2019-11-01">
             <value>1908</value>
             <name>BRS, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://brs.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-02-10">
             <value>1909</value>
@@ -18997,10 +19021,13 @@
             <name>Dai Nippon Joho System Co., Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-06-30" updated="2016-09-27">
+        <record date="2016-06-30" updated="2019-11-01">
             <value>3245</value>
             <name>Arcanes Technologies</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net</server>
+            </rdapurl>
         </record>
         <record date="2016-06-30" updated="2019-10-30">
             <value>3246</value>
@@ -23539,6 +23566,16 @@
         <record date="2019-07-03">
             <value>3848</value>
             <name>Shandong Huaimi Network Technology Co., Ltd</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2019-10-31">
+            <value>3852</value>
+            <name>Xiamen Zhongtuo Internet Technology Co., Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2019-10-31">
+            <value>3853</value>
+            <name>Grupo Loading Systems S.L.</name>
             <status>Accredited</status>
         </record>
         <record>

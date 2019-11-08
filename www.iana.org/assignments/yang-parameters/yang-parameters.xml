@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2019-10-18</updated>
+  <updated>2019-11-07</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -65,10 +65,10 @@ FTP (ftp://ftp.iana.org/assignments/yang-parameters/).
 module. They must instead be added to the "ifType definitions" registry 
 at <xref type="registry" data="smi-numbers"/>.</notes>
     </record>
-    <record date="2017-10-25" updated="2018-10-29">
+    <record date="2017-10-25" updated="2019-11-04">
       <name>iana-routing-types</name>
       <iana>Y</iana>
-      <file type="yang">iana-routing-types@2018-10-29.yang</file>
+      <file type="yang">iana-routing-types@2019-11-04.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-routing-types</namespace>
       <prefix>iana-rt-types</prefix>
       <module/>
@@ -345,12 +345,12 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-06-17">
       <name>ietf-igmp-mld</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-igmp-mld@2019-11-01.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-igmp-mld</namespace>
       <prefix>igmp-mld</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-pim-igmp-mld-yang-15"/>
-      <notes><xref type="draft" data="RFC-ietf-pim-igmp-mld-yang-15"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8652"/>
+      <notes/>
     </record>
     <record>
       <name>ietf-inet-types</name>

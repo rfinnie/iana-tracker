@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-10-30
+           2019-10-31
 
    Expert(s)
 
@@ -2781,10 +2781,10 @@ h323hostcallsc     1300        tcp    H.323 Secure Call Control    [ITU-T]      
                                       Signalling
 h323hostcallsc     1300        udp    H.323 Secure Call Control    [ITU-T]                                               [ITU-T_TSB]                                                            2013-01-31
                                       Signalling
-                   1301        tcp    Reserved                                                                                                                                                  2019-10-30
-                   1301        udp    Reserved                                                                                                                                                  2019-10-30
-                   1302        tcp    Reserved                                                                                                                                                  2019-10-30
-                   1302        udp    Reserved                                                                                                                                                  2019-10-30
+                   1301        tcp    Reserved                                                                                                                                                  2019-10-30                                                                        De-Assigned on 2019-10-30
+                   1301        udp    Reserved                                                                                                                                                  2019-10-30                                                                        De-Assigned on 2019-10-30
+                   1302        tcp    Reserved                                                                                                                                                  2019-10-30                                                                        De-Assigned on 2019-10-30
+                   1302        udp    Reserved                                                                                                                                                  2019-10-30                                                                        De-Assigned on 2019-10-30
 sftsrv             1303        tcp    sftsrv                       [Robert_Frazier]                                      [Robert_Frazier]
 sftsrv             1303        udp    sftsrv                       [Robert_Frazier]                                      [Robert_Frazier]
 boomerang          1304        tcp    Boomerang                    [Bruce_Lueckenhoff]                                   [Bruce_Lueckenhoff]

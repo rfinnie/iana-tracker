@@ -55,6 +55,8 @@ recent allocation (2006-10-03) incorporates all these previous allocations."
 http://rdap.arin.net/registry",ALLOCATED,
 2620:0000::/23,ARIN,2006-09-12,whois.arin.net,"https://rdap.arin.net/registry
 http://rdap.arin.net/registry",ALLOCATED,
+2630:0000::/12,ARIN,2019-11-06,whois.arin.net,"https://rdap.arin.net/registry
+http://rdap.arin.net/registry",ALLOCATED,
 2800:0000::/12,LACNIC,2006-10-03,whois.lacnic.net,https://rdap.lacnic.net/rdap/,ALLOCATED,"2800:0000::/23 was allocated on 2005-11-17. The more recent allocation (2006-10-03) incorporates the 
 previous allocation."
 2a00:0000::/12,RIPE NCC,2006-10-03,whois.ripe.net,https://rdap.db.ripe.net/,ALLOCATED,"2a00:0000::/21 was originally allocated on 2005-04-19. 2a01:0000::/23 was allocated on 2005-07-14. 

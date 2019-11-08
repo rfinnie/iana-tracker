@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="dns-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="dns-parameters">
   <title>Domain Name System (DNS) Parameters</title>
-  <updated>2019-08-26</updated>
+  <updated>2019-11-04</updated>
 
 
   <registry id="dns-parameters-2">
@@ -766,10 +766,11 @@ be allocated for ordinary use.</registration_rule>
         Deploying DNSSEC Without a Signed Root.  Technical Report 1999-19,
 Information Networking Institute, Carnegie Mellon University, April 2004.</xref>
     </record>
-    <record>
+    <record updated="2019-11-04">
       <type>DLV</type>
       <value>32769</value>
-      <description>DNSSEC Lookaside Validation</description>
+      <description>DNSSEC Lookaside Validation (OBSOLETE)</description>
+      <xref type="draft" data="RFC-ietf-dnsop-obsolete-dlv-02"/>
       <xref type="rfc" data="rfc4431"/>
     </record>
     <record>

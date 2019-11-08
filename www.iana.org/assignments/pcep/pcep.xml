@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="pcep">
   <title>Path Computation Element Protocol (PCEP) Numbers</title>
   <created>2008-12-19</created>
-  <updated>2019-10-28</updated>
+  <updated>2019-11-01</updated>
   
   <registry id="pcep-messages">
     <title>PCEP Messages</title>
@@ -1963,7 +1963,7 @@
       <type-value>10</type-value>
       <type-description>Reception of an invalid object</type-description>
       <value-value>3</value-value>
-      <value-description>Unsupported number of of SR-ERO subobjects</value-description>
+      <value-description>Unsupported number of SR-ERO subobjects</value-description>
       <xref type="draft" data="RFC-ietf-pce-segment-routing-16"/>
     </record>
     <record date="2015-08-14" updated="2019-03-15">
@@ -1984,14 +1984,14 @@
       <type-value>10</type-value>
       <type-description>Reception of an invalid object</type-description>
       <value-value>6</value-value>
-      <value-description>Both SID and NAI are absent in SR-ERO subobject</value-description>
+      <value-description>Both SID and NAI are absent in the SR-ERO subobject</value-description>
       <xref type="draft" data="RFC-ietf-pce-segment-routing-16"/>
     </record>
     <record date="2015-08-14" updated="2019-03-15">
       <type-value>10</type-value>
       <type-description>Reception of an invalid object</type-description>
       <value-value>7</value-value>
-      <value-description>Both SID and NAI are absent in SR-RRO subobject</value-description>
+      <value-description>Both SID and NAI are absent in the SR-RRO subobject</value-description>
       <xref type="draft" data="draft-ietf-pce-segment-routing"/>
     </record>
     <record date="2016-07-27" updated="2017-10-18">
@@ -2035,7 +2035,7 @@
       <type-value>10</type-value>
       <type-description>Reception of an invalid object</type-description>
       <value-value>13</value-value>
-      <value-description>Unsupported NAI Type in SR-ERO subobject</value-description>
+      <value-description>Unsupported NAI Type in the SR-ERO/SR-RRO subobject</value-description>
       <xref type="draft" data="RFC-ietf-pce-segment-routing-16"/>
     </record>
     <record date="2019-03-15">
@@ -3715,7 +3715,7 @@
     </record>
     <record date="2019-03-15">
       <value>1</value>
-      <description>Traffic engineering path is set up using Segment Routing.</description>
+      <description>Traffic-engineering path is set up using Segment Routing.</description>
       <xref type="draft" data="RFC-ietf-pce-segment-routing-16"/>
     </record>
     <record>
@@ -3789,8 +3789,7 @@
     </record>
     <record date="2019-03-15">
       <value>10</value>
-      <description>SID specifies TC, S and TTL in addition
-        to an MPLS label (C)</description>
+      <description>SID specifies TC, S, and TTL in addition to an MPLS label (C)</description>
       <xref type="draft" data="RFC-ietf-pce-segment-routing-16"/>
     </record>
     <record date="2019-03-15">

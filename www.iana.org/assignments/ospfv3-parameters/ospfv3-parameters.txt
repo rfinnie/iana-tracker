@@ -4,7 +4,7 @@
            2007-04-25
 
    Last Updated
-           2019-10-03
+           2019-11-05
 
    Note
 
@@ -323,7 +323,8 @@ OSPFv3 Extended-LSA Sub-TLVs
                expires 2020-08-21)
        26      Flex-Algorithm Prefix Metric (TEMPORARY - registered 2019-10-03, expires        [draft-ietf-lsr-flex-algo]
                2020-10-03)
-    27-32767   Unassigned
+       27      Prefix Source Router-ID (TEMPORARY - registered 2019-11-05, expires 2020-11-05) [draft-ietf-lsr-ospf-prefix-originator]
+    28-32767   Unassigned
    32768-33023 Reserved for Experimental Use                                                   [RFC8362]
    33024-45055 Unassigned
    45056-65535 Reserved                                                                        [RFC8362]

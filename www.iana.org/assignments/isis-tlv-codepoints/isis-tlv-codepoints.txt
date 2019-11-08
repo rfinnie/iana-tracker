@@ -4,7 +4,7 @@
            2003-05-06
 
    Last Updated
-           2019-10-30
+           2019-10-31
 
    Note
 
@@ -35,7 +35,7 @@
      * Sub-TLVs for TLV 242 (IS-IS Router CAPABILITY TLV)
      * Application Identifiers for TLV 251 (Generic Information TLV)
      * sub-sub-TLVs for BIER Info sub-TLV
-     * sub-TLVs for TLVs 149 and 150
+     * Sub-TLVs for TLVs 149 and 150
 
 TLV Codepoints Registry
 
@@ -614,7 +614,7 @@ sub-sub-TLVs for BIER Info sub-TLV
    1     BIER MPLS Encapsulation [RFC8401]
    2-255 Unassigned
 
-sub-TLVs for TLVs 149 and 150
+Sub-TLVs for TLVs 149 and 150
 
    Registration Procedure(s)
 
