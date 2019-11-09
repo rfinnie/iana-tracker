@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-11-07</updated>
+    <updated>2019-11-08</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -730,10 +730,13 @@
             <name>iRegisterDomainsHere.Com Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-11-08">
             <value>244</value>
             <name>Gabia, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gabiadns.com/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>245</value>
@@ -7229,10 +7232,13 @@
             <name>DotRoll Kft.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-11-08">
             <value>1502</value>
             <name>Gabia C&amp;S</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gabiadns.com/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1503</value>
