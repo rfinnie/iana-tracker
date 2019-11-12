@@ -33,6 +33,7 @@ EmergencyCallData:SubscriberInfo,urn:ietf:params:xml:ns:EmergencyCallData:Subscr
 enum-token-1.0,urn:ietf:params:xml:ns:enum-token-1.0,ns/enum-token-1.0.txt,[RFC5105]
 enum-tokendata-1.0,urn:ietf:params:xml:ns:enum-tokendata-1.0,ns/enum-tokendata-1.0.txt,[RFC5105]
 epp-1.0,urn:ietf:params:xml:ns:epp-1.0,ns/epp-1.0.txt,[RFC5730]
+epp:fee-1.0,urn:ietf:params:xml:ns:epp:fee-1.0,ns/epp/fee-1.0.txt,[RFC-ietf-regext-epp-fees-20]
 epp:org-1.0,urn:ietf:params:xml:ns:epp:org-1.0,ns/epp/org-1.0.txt,[RFC8543]
 epp:orgext-1.0,urn:ietf:params:xml:ns:epp:orgext-1.0,ns/epp/orgext-1.0.txt,[RFC8544]
 eppcom-1.0,urn:ietf:params:xml:ns:eppcom-1.0,ns/eppcom-1.0.txt,[RFC5730]
