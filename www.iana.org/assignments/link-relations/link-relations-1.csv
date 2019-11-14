@@ -1,20 +1,20 @@
 Relation Name,Description,Reference,Notes
 about,Refers to a resource that is the subject of the link's context.,"[RFC6903], section 2",
-alternate,Refers to a substitute for this context,[http://www.w3.org/TR/html5/links.html#link-type-alternate],
-appendix,Refers to an appendix.,[http://www.w3.org/TR/1999/REC-html401-19991224],
+alternate,Refers to a substitute for this context,[HTML],
+appendix,Refers to an appendix.,[HTML 4.01 Specification],
 apple-touch-icon,Refers to an icon for the context. Synonym for icon.,[Configuring Web Applications],
 apple-touch-startup-image,Refers to a launch screen for the context.,[Configuring Web Applications],
 archives,"Refers to a collection of records, documents, or other
-      materials of historical interest.",[http://www.w3.org/TR/2011/WD-html5-20110113/links.html#rel-archives],
-author,Refers to the context's author.,[http://www.w3.org/TR/html5/links.html#link-type-author],
+      materials of historical interest.",[HTML5],
+author,Refers to the context's author.,[HTML],
 blocked-by,"Identifies the entity that blocks access to a resource
       following receipt of a legal demand.",[RFC7725],
-bookmark,Gives a permanent link to use for bookmarking purposes.,[http://www.w3.org/TR/html5/links.html#link-type-bookmark],
+bookmark,Gives a permanent link to use for bookmarking purposes.,[HTML],
 canonical,Designates the preferred version of a resource (the IRI and its contents).,[RFC6596],
-chapter,Refers to a chapter in a collection of resources.,[http://www.w3.org/TR/1999/REC-html401-19991224],
+chapter,Refers to a chapter in a collection of resources.,[HTML 4.01 Specification],
 cite-as,Indicates that the link target is preferred over the link context for the purpose of permanent citation.,[RFC8574],
 collection,The target IRI points to a resource which represents the collection resource for the context IRI.,[RFC6573],
-contents,Refers to a table of contents.,[http://www.w3.org/TR/1999/REC-html401-19991224],
+contents,Refers to a table of contents.,[HTML 4.01 Specification],
 convertedFrom,"The document linked to was later converted to the
       document that contains this link relation.  For example, an RFC can
       have a link to the Internet-Draft that became the RFC; in that case,
@@ -24,12 +24,12 @@ convertedFrom,"The document linked to was later converted to the
       converted resources, not those that are part of a sequence of
       resources."
 copyright,"Refers to a copyright statement that applies to the
-    link's context.",[http://www.w3.org/TR/1999/REC-html401-19991224],
+    link's context.",[HTML 4.01 Specification],
 create-form,The target IRI points to a resource where a submission form can be obtained.,[RFC6861],
 current,"Refers to a resource containing the most recent
       item(s) in a collection of resources.",[RFC5005],
 describedby,"Refers to a resource providing information about the
-      link's context.",[http://www.w3.org/TR/powder-dr/#assoc-linking],
+      link's context.",[Protocol for Web Description Resources (POWDER)],
 describes,"The relationship A 'describes' B asserts that
       resource A provides a description of resource B. There are no
       constraints on the format or representation of either A or B,
@@ -43,7 +43,7 @@ disclosure,"Refers to a list of patent disclosures made with respect to
       material for which 'disclosure' relation is specified.",[RFC6579],
 dns-prefetch,"Used to indicate an origin that will be used to fetch required 
       resources for the link context, and that the user agent ought to resolve 
-      as early as possible.",[https://www.w3.org/TR/resource-hints/],
+      as early as possible.",[Resource Hints],
 duplicate,"Refers to a resource whose available representations
       are byte-for-byte identical with the corresponding representations of
       the context IRI.",[RFC6249],"This relation is for static resources.  That is, an HTTP GET
@@ -58,36 +58,36 @@ edit-media,"Refers to a resource that can be used to edit media
       associated with the link's context.",[RFC5023],
 enclosure,"Identifies a related resource that is potentially
       large and might require special handling.",[RFC4287],
-external,Refers to a resource that is not part of the same site as the current context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-external],
+external,Refers to a resource that is not part of the same site as the current context.,[HTML],
 first,"An IRI that refers to the furthest preceding resource
     in a series of resources.",[RFC8288],"This relation type registration did not indicate a
       reference.  Originally requested by Mark Nottingham in December
       2004."
-glossary,Refers to a glossary of terms.,[http://www.w3.org/TR/1999/REC-html401-19991224],
-help,Refers to context-sensitive help.,[http://www.w3.org/TR/html5/links.html#link-type-help],
+glossary,Refers to a glossary of terms.,[HTML 4.01 Specification],
+help,Refers to context-sensitive help.,[HTML 4.01 Specification],
 hosts,"Refers to a resource hosted by the server indicated by
       the link context.",[RFC6690],"This relation is used in CoRE where links are retrieved as a
       ""/.well-known/core"" resource representation, and is the default
       relation type in the CoRE Link Format."
 hub,"Refers to a hub that enables registration for
-    notification of updates to the context.",[https://www.w3.org/TR/websub/],This relation type was requested by Brett Slatkin.
-icon,Refers to an icon representing the link's context.,[http://www.w3.org/TR/html5/links.html#link-type-icon],
-index,Refers to an index.,[http://www.w3.org/TR/1999/REC-html401-19991224],
-intervalAfter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalAfter] section 4.2.21,
-intervalBefore,refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalBefore] section 4.2.22,
-intervalContains,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalContains] section 4.2.23,
-intervalDisjoint,"refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalDisjoint] section 4.2.24,
-intervalDuring,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalDuring] section 4.2.25,
-intervalEquals,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalEquals] section 4.2.26,
-intervalFinishedBy,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalFinishedBy] section 4.2.27,
-intervalFinishes,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalFinishes] section 4.2.28,
-intervalIn,"refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalIn] section 4.2.29,
-intervalMeets,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalMeets] section 4.2.30,
-intervalMetBy,refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource,[https://www.w3.org/TR/owl-time/#time:intervalMetBy] section 4.2.31,
-intervalOverlappedBy,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy] section 4.2.32,
-intervalOverlaps,"refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalOverlaps] section 4.2.33,
-intervalStartedBy,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalStartedBy] section 4.2.34,
-intervalStarts,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[https://www.w3.org/TR/owl-time/#time:intervalStarts] section 4.2.35,
+    notification of updates to the context.",[WebSub],This relation type was requested by Brett Slatkin.
+icon,Refers to an icon representing the link's context.,[HTML],
+index,Refers to an index.,[HTML 4.01 Specification],
+intervalAfter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.21,
+intervalBefore,refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.22,
+intervalContains,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.23,
+intervalDisjoint,"refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.24,
+intervalDuring,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.25,
+intervalEquals,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.26,
+intervalFinishedBy,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.27,
+intervalFinishes,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.28,
+intervalIn,"refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.29,
+intervalMeets,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.30,
+intervalMetBy,refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.31,
+intervalOverlappedBy,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.32,
+intervalOverlaps,"refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.33,
+intervalStartedBy,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.34,
+intervalStarts,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.35,
 item,The target IRI points to a resource that is a member of the collection represented by the context IRI.,[RFC6573],
 last,"An IRI that refers to the furthest following resource
       in a series of resources.",[RFC8288],"This relation type registration did not indicate a
@@ -105,27 +105,27 @@ lrdd,"Refers to further information about the link's context,
       Multiple instances indicate additional LRDD resources. LRDD
       resources MUST have an ""application/xrd+xml"" representation, and
       MAY have others.",[RFC6415],
-manifest,Links to a manifest file for the context.,[https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest],
+manifest,Links to a manifest file for the context.,[Web App Manifest],
 mask-icon,Refers to a mask that can be applied to the icon for the context.,[Creating Pinned Tab Icons],
 memento,"The Target IRI points to a Memento, a fixed resource that will not change state anymore.",[RFC7089],"A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource."
-micropub,Links to the context's Micropub endpoint.,[https://www.w3.org/TR/micropub/#endpoint-discovery-p-1],
-modulepreload,Refers to a module that the user agent is to preemptively fetch and store for use in the current context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload],
+micropub,Links to the context's Micropub endpoint.,[Micropub],
+modulepreload,Refers to a module that the user agent is to preemptively fetch and store for use in the current context.,[HTML],
 monitor,Refers to a resource that can be used to monitor changes in an HTTP resource.,[RFC5989],
 monitor-group,Refers to a resource that can be used to monitor changes in a specified group of HTTP resources.,[RFC5989],
 next,"Indicates that the link's context is a part of a series, and
-      that the next in the series is the link target.",[http://www.w3.org/TR/html5/links.html#link-type-next],
+      that the next in the series is the link target.",[HTML],
 next-archive,Refers to the immediately following archive resource.,[RFC5005],
-nofollow,Indicates that the context’s original author or publisher does not endorse the link target.,[http://www.w3.org/TR/html5/links.html#link-type-nofollow],
-noopener,Indicates that any newly created top-level browsing context which results from following the link will not be an auxiliary browsing context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-noopener],
-noreferrer,Indicates that no referrer information is to be leaked when following the link.,[http://www.w3.org/TR/html5/links.html#link-type-noreferrer],
-opener,Indicates that any newly created top-level browsing context which results from following the link will be an auxiliary browsing context.,[https://html.spec.whatwg.org/multipage/links.html#link-type-opener],
-openid2.local_id,Refers to an OpenID Authentication server on which the context relies for an assertion that the end user controls an Identifier.,[https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3],
-openid2.provider,Refers to a resource which accepts OpenID Authentication protocol messages for the context.,[https://openid.net/specs/openid-authentication-2_0.html#rfc.section.7.3.3],
+nofollow,Indicates that the context’s original author or publisher does not endorse the link target.,[HTML],
+noopener,Indicates that any newly created top-level browsing context which results from following the link will not be an auxiliary browsing context.,[HTML],
+noreferrer,Indicates that no referrer information is to be leaked when following the link.,[HTML],
+opener,Indicates that any newly created top-level browsing context which results from following the link will be an auxiliary browsing context.,[HTML],
+openid2.local_id,Refers to an OpenID Authentication server on which the context relies for an assertion that the end user controls an Identifier.,[OpenID Authentication 2.0 - Final],
+openid2.provider,Refers to a resource which accepts OpenID Authentication protocol messages for the context.,[OpenID Authentication 2.0 - Final],
 original,The Target IRI points to an Original Resource.,[RFC7089],"An Original Resource is a resource that exists or used to
       exist, and for which access to one of its prior states may be
       required."
-P3Pv1,Refers to a P3P privacy policy for the context.,[https://www.w3.org/TR/P3P/#syntax_link],
+P3Pv1,Refers to a P3P privacy policy for the context.,[The Platform for Privacy Preferences 1.0 (P3P1.0) Specification],
 payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus
@@ -140,29 +140,29 @@ payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation
       item containing a book review may include a rel=""payment"" link
       that points to the location where the book may be purchased
       through an online retailer."
-pingback,Gives the address of the pingback resource for the link context.,[http://www.hixie.ch/specs/pingback/pingback],
+pingback,Gives the address of the pingback resource for the link context.,[Pingback 1.0],
 preconnect,"Used to indicate an origin that will be used to fetch required 
       resources for the link context. Initiating an early connection, which 
       includes the DNS lookup, TCP handshake, and optional TLS negotiation, 
       allows the user agent to mask the high latency costs of establishing a 
-      connection.",[https://www.w3.org/TR/resource-hints/],
+      connection.",[Resource Hints],
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
 prefetch,"The prefetch link relation type is used to identify a resource 
       that might be required by the next navigation from the link context, and 
       that the user agent ought to fetch, such that the user agent can deliver a 
-      faster response once the resource is requested in the future.",[http://www.w3.org/TR/resource-hints/],
+      faster response once the resource is requested in the future.",[Resource Hints],
 preload,"Refers to a resource that should be loaded early in the 
-      processing of the link's context, without blocking rendering.",[http://www.w3.org/TR/preload/],Additional target attributes establish the detailed fetch properties of the link.
+      processing of the link's context, without blocking rendering.",[Preload],Additional target attributes establish the detailed fetch properties of the link.
 prerender,"Used to identify a resource that might be required by the next 
       navigation from the link context, and that the user agent ought to fetch 
       and execute, such that the user agent can deliver a faster response once 
-      the resource is requested in the future.",[https://www.w3.org/TR/resource-hints/],
+      the resource is requested in the future.",[Resource Hints],
 prev,"Indicates that the link's context is a part of a series, and
-      that the previous in the series is the link target.",[http://www.w3.org/TR/html5/links.html#link-type-prev],
+      that the previous in the series is the link target.",[HTML],
 preview,Refers to a resource that provides a preview of the link's context.,"[RFC6903], section 3",
 previous,"Refers to the previous resource in an ordered series
-      of resources.  Synonym for ""prev"".",[http://www.w3.org/TR/1999/REC-html401-19991224],
+      of resources.  Synonym for ""prev"".",[HTML 4.01 Specification],
 prev-archive,Refers to the immediately preceding archive resource.,[RFC5005],
 privacy-policy,Refers to a privacy policy associated with the link's context.,"[RFC6903], section 4",
 profile,"Identifying that a resource representation conforms
@@ -178,8 +178,8 @@ restconf,"Identifies the root of RESTCONF API as configured on this HTTP server.
 replies,"Identifies a resource that is a reply to the context
       of the link.",[RFC4685],
 search,"Refers to a resource that can be used to search through
-      the link's context and related resources.",[http://www.opensearch.org/Specifications/OpenSearch/1.1],
-section,Refers to a section in a collection of resources.,[http://www.w3.org/TR/1999/REC-html401-19991224],
+      the link's context and related resources.",[OpenSearch],
+section,Refers to a section in a collection of resources.,[HTML 4.01 Specification],
 self,Conveys an identifier for the link's context.,[RFC4287],
 service,"Indicates a URI that can be used to retrieve a
       service document.",[RFC5023],"When used in an Atom document, this relation type specifies
@@ -194,18 +194,18 @@ service-meta,"Identifies general metadata for the context that is
 sponsored,"Refers to a resource that is within a context that is 
 		sponsored (such as advertising or another compensation agreement).",[Google Blog post 09-2019],
 start,"Refers to the first resource in a collection of
-      resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
+      resources.",[HTML 4.01 Specification],
 status,"Identifies a resource that represents the context's
       status.",[RFC8631],
-stylesheet,Refers to a stylesheet.,[http://www.w3.org/TR/html5/links.html#link-type-stylesheet],
+stylesheet,Refers to a stylesheet.,[HTML],
 subsection,"Refers to a resource serving as a subsection in a
-      collection of resources.",[http://www.w3.org/TR/1999/REC-html401-19991224],
+      collection of resources.",[HTML 4.01 Specification],
 successor-version,"Points to a resource containing the successor version
       in the version history.",[RFC5829],
 sunset,"Identifies a resource that provides information about
       the context's retirement policy.",[RFC8594],
 tag,"Gives a tag (identified by the given address) that applies to
-      the current document.",[http://www.w3.org/TR/html5/links.html#link-type-tag],
+      the current document.",[HTML],
 terms-of-service,Refers to the terms of service associated with the link's context.,"[RFC6903], section 5",
 timegate,The Target IRI points to a TimeGate for an Original Resource.,[RFC7089],"A TimeGate for an Original Resource is a resource that is
       capable of datetime negotiation to support access to prior states
@@ -223,7 +223,7 @@ via,"Identifies a resource that is the source of the
       information in the link's context.",[RFC4287],
 webmention,"Identifies a target URI that supports the Webmention protcol.
     This allows clients that mention a resource in some form of publishing process
-    to contact that endpoint and inform it that this resource has been mentioned.",[http://www.w3.org/TR/webmention/],"This is a similar ""Linkback"" mechanism to the ones of Refback, Trackback, and Pingback.
+    to contact that endpoint and inform it that this resource has been mentioned.",[Webmention],"This is a similar ""Linkback"" mechanism to the ones of Refback, Trackback, and Pingback.
     It uses a different protocol, though, and thus should be discoverable through its own link
     relation type."
 working-copy,Points to a working copy for this resource.,[RFC5829],
