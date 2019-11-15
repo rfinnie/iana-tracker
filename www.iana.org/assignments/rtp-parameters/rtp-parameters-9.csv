@@ -7,7 +7,7 @@ Value,Name,Long Name,Reference
 6,TSTN,Temporal-Spatial Trade-off Notification,[RFC5104]
 7,VBCM,Video Back Channel Message,[RFC5104]
 8,PSLEI,Payload-Specific Third-Party Loss Early Indication,[RFC6642]
-9,ROI,Video region-of-interest (ROI),[3GPP TS 26.114 v13.1.0][Ozgur_Oyman]
+9,ROI,Video region-of-interest (ROI),[3GPP TS 26.114 v16.3.0][Ozgur_Oyman]
 10,LRR,Layer Refresh Request Command,[RFC-ietf-avtext-lrr-07]
 11-14,,Unassigned,
 15,AFB,Application Layer Feedback,[RFC4585]

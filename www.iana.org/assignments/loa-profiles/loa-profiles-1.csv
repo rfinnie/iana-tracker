@@ -17,3 +17,7 @@ https://igtf.net/ap/authn-assurance/cedar,IGTF-CEDAR,[https://www.igtf.net/ap/au
 https://igtf.net/ap/authn-assurance/dogwood,IGTF-DOGWOOD,[https://www.igtf.net/ap/authn-assurance/],[David_Groep],IGTF-DOGWOOD/IGTF-DOGWOOD.xsd
 https://www.hkaf.edu.hk/policy/assurance/idal1,HKAF-IDAL1,[https://www.hkaf.edu.hk/compliance/hkaf-identity-assurance-framework],[Jonathan_Cheng],idal1.hkaf-edu-hk/idal1.hkaf-edu-hk.xsd
 http://id.ubiqu.com/eidas/high,ubiqu-eidas-high-credential,[https://ubiqu.com/eidas/],[Boris_Goranov],ubiqu-eidas-high-credential/ubiqu-eidas-high-credential.xsd
+https://refeds.org/profile/sfa,REFEDS-SFA,[https://refeds.org/profile/sfa],[Jule_Ziegler],REFEDS-SFA/REFEDS-SFA.xsd
+https://refeds.org/profile/mfa,REFEDS-MFA,[https://refeds.org/profile/mfa],[Jule_Ziegler],REFEDS-MFA/REFEDS-MFA.xsd
+https://refeds.org/assurance/profile/cappuccino,RAF-Cappuccino,[https://refeds.org/assurance],[Jule_Ziegler],RAF-Cappuccino/RAF-Cappuccino.xsd
+https://refeds.org/assurance/profile/espresso,RAF-Espresso,[https://refeds.org/assurance],[Jule_Ziegler],RAF-Espresso/RAF-Espresso.xsd

@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2019-11-07</updated>
+  <updated>2019-11-08</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -253,6 +253,12 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:epp-1.0</name>
       <file type="template">ns/epp-1.0.txt</file>
       <xref type="rfc" data="rfc5730"/>
+    </record>
+    <record date="2019-11-08">
+      <value>epp:fee-1.0</value>
+      <name>urn:ietf:params:xml:ns:epp:fee-1.0</name>
+      <file type="template">ns/epp/fee-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-epp-fees-20"/>
     </record>
     <record date="2018-12-26">
       <value>epp:org-1.0</value>
@@ -1973,6 +1979,12 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:epp-1.0</name>
       <file type="template">schema/epp-1.0.xsd</file>
       <xref type="rfc" data="rfc5730"/>
+    </record>
+    <record date="2019-11-08">
+      <value>epp:fee-1.0</value>
+      <name>urn:ietf:params:xml:schema:epp:fee-1.0</name>
+      <file type="template">schema/epp/fee-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-epp-fees-20"/>
     </record>
     <record date="2018-12-26">
       <value>epp:org-1.0</value>
