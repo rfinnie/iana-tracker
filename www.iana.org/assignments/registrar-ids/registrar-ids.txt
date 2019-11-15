@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2019-11-11
+           2019-11-14
 
    Available Formats
            [IMG]
@@ -149,7 +149,7 @@ Registrar IDs
      240   PlanetDomain Pty Ltd                                                  Accredited
      241   Ranger Registration (Madeira) LLC                                     Terminated
      242   iRegisterDomainsHere.Com Inc.                                         Terminated
-     244   Gabia, Inc.                                                           Accredited https://rdap.gabiadns.com/v1/
+     244   Gabia, Inc.                                                           Accredited https://rdap.gabiadns.com/v1/domain/
      245   123 Registration, Inc.                                                Terminated
      246   nondotcom, inc.                                                       Terminated
      247   Active 24 AS                                                          Terminated
@@ -1028,7 +1028,7 @@ Registrar IDs
     1363   FarStar Domains, Inc.                                                 Terminated
     1364   Kheweul.com SA                                                        Accredited https://rdapserver.net/
     1365   Open System Ltda - Me                                                 Terminated
-    1366   Xiamen ChinaSource Internet Service Co., Ltd                          Accredited https://rdap.zzy.cn/
+    1366   Xiamen ChinaSource Internet Service Co., Ltd                          Accredited https://rdap.zzy.cn/domain/
     1367   Paknic (Private) Limited                                              Accredited https://rdap.paknic.com/
     1368   1 Domain Source Ltd. dba Domain One Source, Inc.                      Terminated
     1369   Discount Domains Ltd.                                                 Terminated
@@ -1161,7 +1161,7 @@ Registrar IDs
     1499   Ghana Dot Com Ltd.                                                    Accredited https://rdapserver.net/
     1500   Tirupati Domains and Hosting Pvt Ltd.                                 Accredited https://rdapserver.net/
     1501   DotRoll Kft.                                                          Accredited https://rdap.dotroll.com/
-    1502   Gabia C&S                                                             Accredited https://rdap.gabiadns.com/v1/
+    1502   Gabia C&S                                                             Accredited https://rdap.gabiadns.com/v1/domain/
     1503   PT Ardh Global Indonesia                                              Accredited https://rdapserver.net/
     1504   camPoint AG                                                           Terminated
     1505   Gransy, s.r.o.                                                        Accredited
@@ -1311,7 +1311,7 @@ Registrar IDs
     1653   Dynadot5 LLC                                                          Accredited
     1654   Ourdomains Limited                                                    Accredited https://rdap.ourdomains.com/
     1655   Xiamen Nawang Technology Co., Ltd                                     Accredited
-    1656   Kagoya Japan Inc.                                                     Accredited https://rdap.kagoya.net/
+    1656   Kagoya Japan Inc.                                                     Accredited https://rdap.kagoya.net/domain/example.com/
     1657   WHT Co., Ltd                                                          Terminated
     1658   Rethem Hosting LLC                                                    Terminated
     1659   Uniregistrar Corp                                                     Accredited https://rdap.uniregistrar.net/rdap/
@@ -2557,7 +2557,7 @@ Registrar IDs
     2908   Beijing HuaRui Wireless Technology Co., Ltd                           Accredited https://rdap.rntd.cn/rdap/
     2909   PierX, Inc                                                            Terminated
     2910   Beijing Brandma International Networking Technology Ltd.              Accredited
-    2911   Nakazawa Trading Co.,Ltd.                                             Accredited https://rdap.rrpproxy.net/
+    2911   Nakazawa Trading Co.,Ltd.                                             Accredited https://rdap.rrpproxy.net/domain/
     2913   Dominion Domains, LLC                                                 Accredited https://rdap.myorderbox.com/
     2915   Xiamen Xin click Network Group Co.,Ltd                                Accredited
     2916   Hangzhou Midaizi Network Co., Ltd.                                    Accredited
@@ -2885,9 +2885,9 @@ Registrar IDs
     3238   Rabbitsfoot.com LLC d/b/a Oxygen.nyc                                  Accredited
     3240   Infomaniak Network SA                                                 Accredited https://rdap.infomaniak.com/
     3241   Xiamen Mimei Technology Co., Ltd.                                     Terminated
-    3242   WingNames Co., Ltd.                                                   Accredited https://rdap.rrpproxy.net/
-    3243   Sky Clear Co., Ltd.                                                   Accredited https://rdap.rrpproxy.net/
-    3244   Dai Nippon Joho System Co., Ltd.                                      Accredited https://rdap.rrpproxy.net/
+    3242   WingNames Co., Ltd.                                                   Accredited https://rdap.rrpproxy.net/domain/
+    3243   Sky Clear Co., Ltd.                                                   Accredited https://rdap.rrpproxy.net/domain/
+    3244   Dai Nippon Joho System Co., Ltd.                                      Accredited https://rdap.rrpproxy.net/domain/
     3245   Arcanes Technologies                                                  Accredited https://rdapserver.net
     3246   Reliable Software                                                     Accredited https://rdap.hoster.by/
     3247   Internet Works Online International (HK) Co., Limited                 Accredited
@@ -3474,6 +3474,7 @@ Registrar IDs
     3835   Domain (Shanghai) Network Technology Co., Ltd                         Accredited
     3836   Domain Future (Beijing) Technology Co., Ltd.                          Accredited
     3837   Gmo-Z.Com Runsystem Joint Stock Company                               Accredited
+    3838   MarkMonitor Information Technology (Shanghai) Co., Ltd.               Accredited
     3839   Nerd Origins Ltd                                                      Accredited
     3840   Tool Domains Ltd                                                      Accredited
     3841   VIAWEB Inc.                                                           Accredited

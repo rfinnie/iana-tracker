@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-11-11</updated>
+    <updated>2019-11-14</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -741,7 +741,7 @@
             <name>Gabia, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gabiadns.com/v1/</server>
+                <server>https://rdap.gabiadns.com/v1/domain/</server>
             </rdapurl>
         </record>
         <record>
@@ -6483,10 +6483,10 @@
             <name>Xiamen ChinaSource Internet Service Co., Ltd</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.zzy.cn/</server>
+                <server>https://rdap.zzy.cn/domain/</server>
             </rdapurl>
         </record>
-        <record update="2019-11-11">
+        <record updated="2019-11-11">
             <value>1367</value>
             <name>Paknic (Private) Limited</name>
             <status>Accredited</status>
@@ -7285,7 +7285,7 @@
             <name>Gabia C&amp;S</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gabiadns.com/v1/</server>
+                <server>https://rdap.gabiadns.com/v1/domain/</server>
             </rdapurl>
         </record>
         <record updated="2019-11-11">
@@ -8303,7 +8303,7 @@
             <name>Kagoya Japan Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.kagoya.net/</server>
+                <server>https://rdap.kagoya.net/domain/example.com/</server>
             </rdapurl>
         </record>
         <record updated="2018-04-18">
@@ -17426,7 +17426,7 @@
             <name>Nakazawa Trading Co.,Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.rrpproxy.net/</server>
+                <server>https://rdap.rrpproxy.net/domain/</server>
             </rdapurl>
         </record>
         
@@ -19106,7 +19106,7 @@
             <name>WingNames Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.rrpproxy.net/</server>
+                <server>https://rdap.rrpproxy.net/domain/</server>
             </rdapurl>
         </record>
         <record date="2016-06-30" updated="2019-11-11">
@@ -19114,7 +19114,7 @@
             <name>Sky Clear Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.rrpproxy.net/</server>
+                <server>https://rdap.rrpproxy.net/domain/</server>
             </rdapurl>
         </record>
         <record date="2016-06-30" updated="2019-11-11">
@@ -19122,7 +19122,7 @@
             <name>Dai Nippon Joho System Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.rrpproxy.net/</server>
+                <server>https://rdap.rrpproxy.net/domain/</server>
             </rdapurl>
         </record>
         <record date="2016-06-30" updated="2019-11-01">
@@ -23642,6 +23642,11 @@
         <record date="2019-02-22">
             <value>3837</value>
             <name>Gmo-Z.Com Runsystem Joint Stock Company</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2019-11-14">
+            <value>3838</value>
+            <name>MarkMonitor Information Technology (Shanghai) Co., Ltd.</name>
             <status>Accredited</status>
         </record>
         <record date="2019-03-18">

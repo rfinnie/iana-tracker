@@ -58,7 +58,7 @@ Decimal,Name,Description,References
 230,ifcpMgmtMIB,IFCP-MGMT-MIB,[RFC6173]
 231-237,Reserved,Reserved,
 238,adsl2MIB,ADSL2-LINE-MIB,[RFC4706]
-239,dvbRcsMib,DVB-RCS-MIB,[RFC5728][ETSI EN 301 790][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+239,dvbRcsMib,DVB-RCS-MIB,[RFC5728][ETSI EN 301 790][https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
 240-245,Reserved,Reserved,
 246,pwStdMIB,PW-STD-MIB,[RFC5601]
 247-250,Reserved,Reserved,

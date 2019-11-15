@@ -57,3 +57,4 @@ CLUE,CLUE,[RFC-ietf-clue-datachannel-18],[RFC-ietf-clue-datachannel-18]
 webrtc.softvelum.com,Softvelum WebSocket signaling protocol,"WebRTC live streaming requires WebSocket-based signaling protocol for 
         every specific implementation. Softvelum products will use this subprotocol for 
         signaling.",[Yury_Udovichenko]
+cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant]

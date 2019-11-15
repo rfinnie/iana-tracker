@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2019-11-01</updated>
+  <updated>2019-11-14</updated>
   
  
   
@@ -3030,7 +3030,7 @@ variants</description>
       <description>DVB-RCS MAC Layer</description>
       <xref type="rfc" data="rfc5728"/>
       <xref type="uri" data=" http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 301 790</xref>
-      <xref type="uri" data="http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
     </record>
     <record>
       <value>240</value>
@@ -3039,7 +3039,7 @@ variants</description>
       <xref type="rfc" data="rfc5728"/>
       <xref type="uri" data="http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 300 421</xref>
       <xref type="uri" data="http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 302 307</xref>
-      <xref type="uri" data="http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
     </record>
     <record>
       <value>241</value>
@@ -3048,7 +3048,7 @@ variants</description>
       <xref type="rfc" data="rfc5728"/>
       <xref type="uri" data="http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 301 790</xref>
       <xref type="uri" data="http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 300 421</xref>
-      <xref type="uri" data="http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
     </record>
     <record date="2007-03-08">
       <value>242</value>
@@ -3069,7 +3069,7 @@ variants</description>
       <name>wwanPP2</name>
       <description>3GPP2 WWAN</description>
       <xref type="person" data="Gabriel_Montenegro"/>
-      <xref type="uri" data="http://www.3gpp2.org/Public_html/specs/C.S0017-005-A_v1.0_040617.pdf"/>
+      <xref type="uri" data="http://www.3gpp2.org/Public_html/Specs/C.S0017-005-A_v1.0_040617.pdf"/>
     </record>
     <record date="2008-05-29">
       <value>245</value>
@@ -3346,14 +3346,14 @@ is allocated according to the following reference.</description>
       <value>285</value>
       <name>docsCableScte55d2DsOob</name>
       <description>Cable SCTE 55-2 OOB Downstream Channel</description>
-      <xref type="uri" data="http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf"/>
       <xref type="person" data="Brian_Hedstrom"/>
     </record>
     <record date="2016-11-23">
       <value>286</value>
       <name>docsCableScte55d2UsOob</name>
       <description>Cable SCTE 55-2 OOB Upstream Channel</description>
-      <xref type="uri" data="http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf"/>
       <xref type="person" data="Brian_Hedstrom"/>
     </record>
     <record date="2016-11-23">
@@ -3411,7 +3411,7 @@ is allocated according to the following reference.</description>
       <value>294</value>
       <name>otnOtsig</name>
       <description>OTN OTUC Signal</description>
-      <xref type="uri" data="http://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
+      <xref type="uri" data="https://pmcs.com/cgi-bin/document.pl?docnum=2170438">ITU-T G.709</xref>
       <xref type="person" data="Koteswara_Boyapati"/>
     </record>
     <record date="2019-01-31">
@@ -3568,8 +3568,7 @@ must be updated as defined in <xref type="draft" data="RFC-ietf-softwire-iftunne
         <name>ipHttps</name>
         <description>IPHTTPS</description>
         <xref type="person" data="Sean_Siler"/>
-        <xref type="uri" data="https://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx"/>
-        <xref type="text">Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification"</xref>
+        <xref type="uri" data="https://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx">Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification</xref>
       </record>
       <record date="2016-04-29">
         <value>16</value>
@@ -3949,7 +3948,7 @@ ifType value should be registered or marked "Reserved."
       <description>DVB-RCS-MIB</description>
       <xref type="rfc" data="rfc5728"/>
       <xref type="uri" data=" http://www.etsi.org/WebSite/OurServices/documentationservices.aspx">ETSI EN 301 790</xref>
-      <xref type="uri" data="http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
+      <xref type="uri" data="https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&amp;C.pdf"/>
     </record>
     <record>
       <value>240-245</value>
