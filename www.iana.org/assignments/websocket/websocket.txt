@@ -4,7 +4,7 @@
            2011-10-21
 
    Last Updated
-           2019-05-24
+           2019-11-14
 
    Available Formats
            [IMG]
@@ -132,6 +132,8 @@ transit                                                Transit                  
 CLUE                                                   CLUE                              [RFC-ietf-clue-datachannel-18]                                                                                   [RFC-ietf-clue-datachannel-18]
 webrtc.softvelum.com                                   Softvelum WebSocket signaling     WebRTC live streaming requires WebSocket-based signaling protocol for every specific implementation. Softvelum   [Yury_Udovichenko]
                                                        protocol                          products will use this subprotocol for signaling.
+cobra.v2.json                                          Cobra Real Time Messaging         [https://machinezone.github.io/cobra/api/]                                                                       [Benjamin_Sergeant]
+                                                       Protocol
 
 WebSocket Version Number Registry
 
@@ -253,6 +255,7 @@ WebSocket Framing Header Bits Registry
    [Alexey_Melnikov]                     Alexey Melnikov                     mailto:alexey.melnikov&isode.com            2016-10-10
    [Andreas_Westermann]                  Andreas Westermann                  mailto:westermann&eebus.org                 2014-11-06
    [Barbara_Stark]                       Barbara Stark                       mailto:bs7652&att.com                       2019-05-21
+   [Benjamin_Sergeant]                   Benjamin Sergeant                   mailto:bsergean&gmail.com                   2019-11-13
    [Chet_Ensign]                         Chet Ensign                         mailto:chet.ensign&oasis-open.org           2019-03-26
    [Dario_Crivelli]                      Dario Crivelli                      mailto:dario.crivelli&lightstreamer.com     2018-02-05
    [Feroz_Alam_Khan]                     Feroz Alam Khan                     mailto:feroz.khan&oracle.com                2018-08-02

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="websocket">
   <title>WebSocket Protocol Registries</title>
   <created>2011-10-21</created>
-  <updated>2019-05-24</updated>
+  <updated>2019-11-14</updated>
 
   <registry id="extension-name">
     <title>WebSocket Extension Name Registry</title>
@@ -322,6 +322,12 @@ within a WebRTC data channel.
         signaling.</definition>
       <xref type="person" data="Yury_Udovichenko"/>
     </record>
+    <record date="2019-11-13">
+      <id>cobra.v2.json</id>
+      <common>Cobra Real Time Messaging Protocol</common>
+      <definition><xref type="uri" data="https://machinezone.github.io/cobra/api/"/></definition>
+      <xref type="person" data="Benjamin_Sergeant"/>
+    </record>
   </registry>
 
   <registry id="version-number">
@@ -610,6 +616,11 @@ within a WebRTC data channel.
       <name>Barbara Stark</name>
       <uri>mailto:bs7652&amp;att.com</uri>
       <updated>2019-05-21</updated>
+    </person>
+    <person id="Benjamin_Sergeant">
+      <name>Benjamin Sergeant</name>
+      <uri>mailto:bsergean&amp;gmail.com</uri>
+      <updated>2019-11-13</updated>
     </person>
     <person id="Chet_Ensign">
       <name>Chet Ensign</name>
