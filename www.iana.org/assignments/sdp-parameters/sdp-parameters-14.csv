@@ -5,7 +5,7 @@ ccm,Codec Control Commands and Indications,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-m
 nack,Negative Acknowledgement,IDENTICAL-PER-PT,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
 trr-int,Minimal receiver report interval,IDENTICAL-PER-PT,[RFC4585][RFC-ietf-mmusic-sdp-mux-attributes-16]
 3gpp-roi-arbitrary,"Video region-of-interest (ROI) arbitrarily selected by 
-        the endpoint",TBD,[3GPP TS 26.114 v13.1.0][Ozgur_Oyman][RFC-ietf-mmusic-sdp-mux-attributes-16]
+        the endpoint",IDENTICAL-PER-PT,[3GPP TS 26.114 v16.3.0][Ozgur_Oyman]
 3gpp-roi-predefined,"Video region-of-interest (ROI) pre-defined by the sender and 
-        selected by the endpoint",TBD,[3GPP TS 26.114 v13.1.0][Ozgur_Oyman][RFC-ietf-mmusic-sdp-mux-attributes-16]
-3gpp-delay-budget,Available or requested delay budget specified in milliseconds,IDENTICAL-PER-PT,[3GPP TS 26.114][Ozgur_Oyman]
+        selected by the endpoint",IDENTICAL-PER-PT,[3GPP TS 26.114 v16.3.0][Ozgur_Oyman]
+3gpp-delay-budget,Available or requested delay budget specified in milliseconds,IDENTICAL-PER-PT,[3GPP TS 26.114 v16.3.0][Ozgur_Oyman]
