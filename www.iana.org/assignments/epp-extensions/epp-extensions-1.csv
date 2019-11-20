@@ -21,7 +21,7 @@ Premium Domain Extension for the Extensible Provisioning Protocol (EPP),Informat
 Balance Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_balance_v00.html],[VeriSign_Inc.],Any,None,Active,None
 Registry Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_registry_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2552/],Active,None
 Related Domain Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_related-domain_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2553/],Active,None
-.SE extension,Informational,[https://www.iis.se/docs/iis-1.2.txt],[Internet_Infrastructure_Foundation],.se  .nu,None,Active,[Manual for the extension]
+.SE extension,Informational,[https://registrar.iis.se/96],[Internet_Infrastructure_Foundation],.se  .nu,None,Active,[Manual for the extension]
 DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmaster/epp-service-specification],[DK_Hostmaster_AS],.dk,None,Active,"This extension includes a number of domain, host and contact 
         object extension elements for use with the dk ccTLD. The extensions 
         to the host objects was included with the revision 2.0 of the XSD 

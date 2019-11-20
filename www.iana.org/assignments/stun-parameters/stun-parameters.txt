@@ -4,7 +4,7 @@
            2008-08-01
 
    Last Updated
-           2019-08-02
+           2019-11-19
 
    Available Formats
            [IMG]
@@ -145,7 +145,9 @@ STUN Attributes
       0xC000     CISCO-STUN-FLOWDATA                                    [Dan_Wing]
       0xC001     ENF-FLOW-DESCRIPTION                                   [Pål_Erik_Martinsen]
       0xC002     ENF-NETWORK-STATUS                                     [Pål_Erik_Martinsen]
-   0xC003-0xFFFF Unassigned
+   0xC003-0xC058 Unassigned
+      0xC059     GOOG-MISC-INFO                                         [Jonas_Oreland]
+   0xC05A-0xFFFF Unassigned
 
 STUN Error Codes
 
@@ -261,4 +263,5 @@ STUN Password Algorithm
 
             ID                 Name               Contact URI        Last Updated
    [Dan_Wing]           Dan Wing           mailto:dwing&cisco.com    2008-10-30
+   [Jonas_Oreland]      Jonas Oreland      mailto:jonaso&google.com  2019-11-19
    [Pål_Erik_Martinsen] Pål-Erik Martinsen mailto:palmarti&cisco.com 2016-04-20
