@@ -1,6 +1,6 @@
 PRIVATE ENTERPRISE NUMBERS
 
-(last updated 2019-11-18)
+(last updated 2019-11-21)
 
 SMI Network Management Private Enterprise Codes:
 
@@ -255,8 +255,8 @@ Decimal
       snmp_admin&sgi.com
 60
   University of British Columbia
-    Don McWilliam
-      mcwillm&CC.UBC.CA
+    Hari Mailvaganam
+      hari.mailvaganam&ubc.ca
 61
   Merit
     Bill Norton
@@ -92210,9 +92210,9 @@ Decimal
     Ben Griffiths
       ben&revieworld.com
 23165
-  SAFE-Biopharma Association
-    Terry Zagar
-      terry.zagar&ngc.com
+  SAFE Identity
+    Kyle Neuman
+      kyle.neuman&makeidentitysafe.com
 23166
   Automatyka
     Marek Hajduk
@@ -179866,9 +179866,9 @@ Decimal
     Jeffrey Thomas
       jthomas&qos-solutions.com
 45079
-  i2p informatikai kft.
+  i4p informatikai kft.
     Rózsahegyi Zsolt
-      info&i2p.hu
+      info&i4p.com
 45080
   Kerio Technologies, Inc.
     Martin Meduna
@@ -218852,7 +218852,7 @@ Decimal
 54825
   Frimley Health NHS Foundation Trust
     Andy Landsberg
-      andy.landsberg&nhs.net
+      fhft.cybersecurity&nhs.net
 54826
   Cayonyx, LLC
     Keith Sarbaugh
@@ -219145,6 +219145,66 @@ Decimal
   bekeris.net
     Algis Bekeris
       algis&bekeris.net
+54899
+  B3E
+    Christoph Boehme
+      christoph&b3e.net
+54900
+  GuangZhou HungTa Intelligent Technology
+    Zhu Sir
+      daniao14&qq.com
+54901
+  Safe-Com Wireless LLC
+    Henry Wojtunik
+      henry&Safe-Comwireless.com
+54902
+  WIS International
+    Matthew Burr
+      netadmin&wisintl.com
+54903
+  Minim Inc.
+    Sam Stelfox
+      devops&minim.co
+54904
+  HCS Electronics
+    Hans Christian Stokka
+      hcstokka&hcs.no
+54905
+  EXISCOM SAC
+    VICTOR BOSLEMAN
+      vbosleman&exiscom.com
+54906
+  MEDSOFT
+    Armin Weiner
+      armin_weiner&hotmail.com
+54907
+  MET Norway
+    Christian Skarby
+      christian.skarby&met.no
+54908
+  Vivid Inc.
+    Keiei Tanto (IANA coordinator)
+      iana-org&vivid-inc.net
+54909
+  Altenergy Power System Inc.
+    Kevin Lu
+      kevin.lu&apsystems.cn
+54910
+  Beijing INNOVIS Technology Co., Ltd.
+    Wenli Si
+      wlsi&innovisgroup.com
+54911
+  Univa Corporation
+    William Bryce
+      bbryce&univa.com
+54912
+  XeL Technology Inc.
+    Wen Zhiquan
+      wen.zhiquan&xel-tech.com
+54913
+  Codarra Advanced Systems
+    Chris Hope
+      information&codarra.com.au
 
 
 End of Document

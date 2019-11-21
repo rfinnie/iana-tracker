@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="dns-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="dns-parameters">
   <title>Domain Name System (DNS) Parameters</title>
-  <updated>2019-11-04</updated>
+  <updated>2019-11-20</updated>
 
 
   <registry id="dns-parameters-2">
@@ -727,7 +727,7 @@ be allocated for ordinary use.</registration_rule>
       <type>CAA</type>
       <value>257</value>
       <description>Certification Authority Restriction</description>
-      <xref type="draft" data="RFC-ietf-lamps-rfc6844bis-07"/>
+      <xref type="rfc" data="rfc8659"/>
       <file type="template">CAA/caa-completed-template</file>
     </record>
     <record date="2016-02-26">

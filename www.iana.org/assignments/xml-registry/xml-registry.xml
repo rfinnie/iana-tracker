@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2019-11-08</updated>
+  <updated>2019-11-20</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -1176,7 +1176,7 @@ The registration template should cite the specification.
       <value>yang:iana-tunnel-type</value>
       <name>urn:ietf:params:xml:ns:yang:iana-tunnel-type</name>
       <file type="template">ns/yang/iana-tunnel-type.txt</file>
-      <xref type="draft" data="RFC-ietf-softwire-iftunnel-07"/>
+      <xref type="rfc" data="rfc8675"/>
     </record>
     <record date="2018-11-08">
       <value>yang:ietf-access-control-list</value>
@@ -1608,7 +1608,7 @@ The registration template should cite the specification.
       <value>yang:ietf-restconf-subscribed-notifications</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications</name>
       <file type="template">ns/yang/ietf-restconf-subscribed-notifications.txt</file>
-      <xref type="draft" data="RFC-ietf-netconf-restconf-notif-15"/>
+      <xref type="rfc" data="rfc8650"/>
     </record>
     <record date="2018-01-18">
       <value>yang:ietf-rip</value>
@@ -1638,19 +1638,19 @@ The registration template should cite the specification.
       <value>yang:ietf-softwire-br</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-softwire-br</name>
       <file type="template">ns/yang/ietf-softwire-br.txt</file>
-      <xref type="draft" data="RFC-ietf-softwire-yang-16"/>
+      <xref type="rfc" data="rfc8676"/>
     </record>
     <record date="2019-02-14">
       <value>yang:ietf-softwire-ce</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-softwire-ce</name>
       <file type="template">ns/yang/ietf-softwire-ce.txt</file>
-      <xref type="draft" data="RFC-ietf-softwire-yang-16"/>
+      <xref type="rfc" data="rfc8676"/>
     </record>
     <record date="2019-02-14">
       <value>yang:ietf-softwire-common</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-softwire-common</name>
       <file type="template">ns/yang/ietf-softwire-common.txt</file>
-      <xref type="draft" data="RFC-ietf-softwire-yang-16"/>
+      <xref type="rfc" data="rfc8676"/>
     </record>
     <record date="2019-05-30" updated="2019-09-06">
       <value>yang:ietf-subscribed-notifications</value>
