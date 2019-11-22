@@ -4,7 +4,7 @@
            2015-01-05
 
    Last Updated
-           2019-11-19
+           2019-11-21
 
    Available Formats
            [IMG]
@@ -190,9 +190,8 @@ Extensible
 Provisioning
 Protocol
 (EPP)
-.SE                                                                                                                                                        .se                                                   [Manual for
-extension    Informational [https://registrar.iis.se/96]                                                              [Internet_Infrastructure_Foundation] .nu   None                                     Active the
-                                                                                                                                                                                                                 extension]
+.SE          Informational [https://registrar.iis.se/96]                                                              [Internet_Infrastructure_Foundation] .se   None                                     Active None
+extension                                                                                                                                                  .nu
                                                                                                                                                                                                                  This
                                                                                                                                                                                                                  extension
                                                                                                                                                                                                                  includes a
