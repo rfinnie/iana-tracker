@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-11-01
+           2019-11-20
 
    Note
 
@@ -562,7 +562,7 @@ ifType Definitions
            [IMG]
            CSV
 
-Decimal             Name                           Description                                                                     References
+Decimal             Name                           Description                                                                           References
    1    other                         none of the following                 [RFC1213]
    2    regular1822                   BBN Report 1822                       [RFC1213]
    3    hdh1822                       BBN Report 1822                       [RFC1213]
@@ -799,8 +799,8 @@ Decimal             Name                           Description                  
   227   lmp                           Link Management Protocol              [RFC4327]
   228   cblVectaStar                  Cambridge Broadband Networks Limited  [John_Naylon]
                                       VectaStar
-                                      CATV Modular CMTS Downstream          [Eduardo_Cardona]["Data-Over-Cable Service Interface Specifications: M-CMTS Operations Support System Interface
-  229   docsCableMCmtsDownstream      Interface                             Specification, CM-SP-M-OSSI-I01-050805", DOCSIS, August
+                                      CATV Modular CMTS Downstream          [Eduardo_Cardona]["Data-Over-Cable Service Interface Specifications: M-CMTS Operations Support System Interface Specification,
+  229   docsCableMCmtsDownstream      Interface                             CM-SP-M-OSSI-I01-050805", DOCSIS, August
                                                                             2005.][http://www.cablemodem.com/specifications][https://www.cablelabs.com/specifications/archives/docsis.html]
                                       Asymmetric Digital Subscriber Loop
   230   adsl2                         Version 2 (DEPRECATED - REPLACED BY   [RFC4706]
@@ -815,12 +815,15 @@ Decimal             Name                           Description                  
                                       Asymmetric Digital Subscriber Loop
   238   adsl2plus                     Version 2 -- Version 2 Plus and all   [RFC4706]
                                       variants
-  239   dvbRcsMacLayer                DVB-RCS MAC Layer                     [RFC5728][ETSI EN 301 790][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
-  240   dvbTdm                        DVB Satellite TDM                     [RFC5728][ETSI EN 300 421][ETSI EN 302 307][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
-  241   dvbRcsTdma                    DVB-RCS TDMA                          [RFC5728][ETSI EN 301 790][ETSI EN 300 421][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+  239   dvbRcsMacLayer                DVB-RCS MAC Layer                     [RFC5728][ETSI EN 301
+                                                                            790][https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+  240   dvbTdm                        DVB Satellite TDM                     [RFC5728][ETSI EN 300 421][ETSI EN 302
+                                                                            307][https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+  241   dvbRcsTdma                    DVB-RCS TDMA                          [RFC5728][ETSI EN 301 790][ETSI EN 300
+                                                                            421][https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
   242   x86Laps                       LAPS based on ITU-T X.86/Y.1323       [Orly_Nicklass][http://grouper.ieee.org/groups/802/3/ad_hoc/etholaps/public/docs/opening_report_0301.pdf]
   243   wwanPP                        3GPP WWAN                             [Gabriel_Montenegro][https://www.3gpp.org/ftp/specs/archive/23_series/23.060/23060-740.zip]
-  244   wwanPP2                       3GPP2 WWAN                            [Gabriel_Montenegro][http://www.3gpp2.org/Public_html/specs/C.S0017-005-A_v1.0_040617.pdf]
+  244   wwanPP2                       3GPP2 WWAN                            [Gabriel_Montenegro][http://www.3gpp2.org/Public_html/Specs/C.S0017-005-A_v1.0_040617.pdf]
   245   voiceEBS                      voice P-phone EBS physical interface  [Tom_Chou]
   246   ifPwType                      Pseudowire interface type             [RFC5601]
   247   ILAN                          Internal LAN on a bridge per IEEE     [Glenn_Parsons][http://www.ieee802.org/1/files/private/ap-drafts/d3/802-1ap-D3-4.pdf]
@@ -879,9 +882,9 @@ Decimal             Name                           Description                  
   282   fastdsl                       FastDSL                               [BBF TR-355][William_Lupton]
   283   docsCableScte55d1FwdOob       Cable SCTE 55-1 OOB Forward Channel   [https://www.scte.org/documents/pdf/Standards/ANSI_SCTE-55-1-2009.pdf][Brian_Hedstrom]
   284   docsCableScte55d1RetOob       Cable SCTE 55-1 OOB Return Channel    [https://www.scte.org/documents/pdf/Standards/ANSI_SCTE-55-1-2009.pdf][Brian_Hedstrom]
-  285   docsCableScte55d2DsOob        Cable SCTE 55-2 OOB Downstream        [http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
+  285   docsCableScte55d2DsOob        Cable SCTE 55-2 OOB Downstream        [https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
                                       Channel
-  286   docsCableScte55d2UsOob        Cable SCTE 55-2 OOB Upstream Channel  [http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
+  286   docsCableScte55d2UsOob        Cable SCTE 55-2 OOB Upstream Channel  [https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
   287   docsCableNdf                  Cable Narrowband Digital Forward      [http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
   288   docsCableNdr                  Cable Narrowband Digital Return       [http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
   289   ptm                           Packet Transfer Mode                  [ITU-T G.993.1, Annex H][ITU-T G.993.2][ITU-T G.9701][William_Lupton]
@@ -913,12 +916,12 @@ Decimal             Name                           Description                  
  iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType.tunnelType (1.3.6.1.2.1.2.2.1.3.131)
 
    Reference
-           [RFC4087][RFC-ietf-softwire-iftunnel-07]
+           [RFC4087][RFC8675]
 
    Note
 
  When this registry is modified, the YANG module [iana-tunnel-type]
- must be updated as defined in [RFC-ietf-softwire-iftunnel-07].
+ must be updated as defined in [RFC8675].
 
 
    Note
@@ -949,29 +952,25 @@ Decimal             Name                           Description                  
            [IMG]
            CSV
 
-   Decimal     Name         Description                                                    References
-      1    other        none of the          [RFC4087]
-                        following
-      2    direct       no intermediate      [RFC2003][RFC4213]
-                        header
-      3    gre          GRE encapsulation    [RFC1701][RFC1702][RFC7676]
-      4    minimal      Minimal              [RFC2004]
-                        encapsulation
-      5    l2tp         L2TP encapsulation   [RFC2661]
-      6    pptp         PPTP encapsulation   [RFC2637]
-      7    l2f          L2F encapsulation    [RFC2341]
-      8    udp          UDP encapsulation    [RFC1234][RFC8085]
-      9    atmp         ATMP encapsulation   [RFC2107]
-     10    msdp         MSDP encapsulation   [RFC3618]
-     11    sixToFour    6to4 encapsulation   [RFC3056]
-     12    sixOverFour  6over4 encapsulation [RFC2529]
-     13    isatap       ISATAP encapsulation [RFC5214]
-     14    teredo       Teredo encapsulation [RFC4380]
-     15    ipHttps      IPHTTPS              [Sean_Siler][https://msdn.microsoft.com/en-us/library/dd358571(PROT.10).aspx][Microsoft Corporation,
-                                             "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification"]
-     16    softwireMesh softwire mesh tunnel [RFC5565]
-     17    dsLite       DS-Lite tunnel       [RFC6333]
-     18    aplusp       A+P encapsulation    [RFC6346]
+   Decimal     Name          Description                                                 References
+      1    other        none of the following  [RFC4087]
+      2    direct       no intermediate header [RFC2003][RFC4213]
+      3    gre          GRE encapsulation      [RFC1701][RFC1702][RFC7676]
+      4    minimal      Minimal encapsulation  [RFC2004]
+      5    l2tp         L2TP encapsulation     [RFC2661]
+      6    pptp         PPTP encapsulation     [RFC2637]
+      7    l2f          L2F encapsulation      [RFC2341]
+      8    udp          UDP encapsulation      [RFC1234][RFC8085]
+      9    atmp         ATMP encapsulation     [RFC2107]
+     10    msdp         MSDP encapsulation     [RFC3618]
+     11    sixToFour    6to4 encapsulation     [RFC3056]
+     12    sixOverFour  6over4 encapsulation   [RFC2529]
+     13    isatap       ISATAP encapsulation   [RFC5214]
+     14    teredo       Teredo encapsulation   [RFC4380]
+     15    ipHttps      IPHTTPS                [Sean_Siler][Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification]
+     16    softwireMesh softwire mesh tunnel   [RFC5565]
+     17    dsLite       DS-Lite tunnel         [RFC6333]
+     18    aplusp       A+P encapsulation      [RFC6346]
 
 Internet-standard MIB - Transmission Group
 
@@ -995,91 +994,91 @@ Internet-standard MIB - Transmission Group
            [IMG]
            CSV
 
-   Decimal       Name                    Description                                                 References
-      5    x25              X.25                                  [RFC1382]
-      7    dot3             Ethernet-like Objects                 [RFC3635]
-      8    IEEE802.4        Token Bus-like Objects                [RFC1230][RFC1239]
-      9    dot5             Token Ring-like Objects               [RFC1748]
-     15    FDDI             FDDI Objects                          [RFC1512][Jeffrey_Case]
-     16    lapb             LAP B                                 [RFC1381]
-     18    ds1              T1 Carrier Objects                    [RFC4805]
-     19    e1               E1 Carrier Objects                    [RFC4805]
-     20    isdnMib          ISDN MIB                              [RFC2127]
-     21    dialControlMib   Dial Control MIB                      [RFC2128]
-     23    ppp              Point-to-Point Protocol               [RFC1471]
-     30    ds3              DS3/E3 Interface Objects              [RFC3896]
-     31    sip              SMDS Interface Objects                [RFC1694]
-     32    frame-relay      Frame Relay Objects                   [RFC2115][Caralyn_Brown]
-     33    RS-232           RS-232 Objects                        [RFC1659]
-     34    Parallel         Parallel Printer Objects              [RFC1660]
-     35    arcnet           ARC network
-     36    arcnet-plus      ARC network plus
-     37    atm              ATM
-     38    MIOX25           MIOX25                                [RFC1461]
-     39    sonetMIB         SONET MIB                             [RFC3592]
-     44    frnetservMIB     Frame Relay Service MIB for DCE       [RFC1604]
-     45    dot12MIB         IEEE 802.12                           [RFC2020]
-     46    ipoaMIB          IPOA-MIB                              [RFC2320]
-     47    mfrMIB           FR-MFR-MIB                            [RFC3020]
-     48    hdsl2ShdslMIB    HDSL2-SHDSL-LINE-MIB                  [RFC4319]
-     49    apsMIB           APS-MIB                               [RFC3498]
-    50-55  Reserved         Reserved
-     56    fcMgmtMIB        fcMgmtMIB                             [RFC4044]
-    57-80  Reserved         Reserved
-     81    ds0              DS0-MIB                               [RFC2494]
-     82    ds0bundle        DS0Bundle-MIB                         [RFC2494]
-    83-93  Reserved         Reserved
-     94    adslmib          adslMIB                               [RFC2662]
-     95    l2tp             L2TP-MIB                              [RFC3371]
-     96    Reserved         Reserved
-     97    vdslMIB          VDSL-LINE-MIB                         [RFC3728]
-   98-126  Reserved         Reserved
-     127   docsIfMib        DOCS IF MIB                           [RFC2670]
-   128-130 Reserved         Reserved
-     131   tunnelMIB        IP Tunnel MIB                         [RFC2667]
-     132   coffee           coffee pot                            [RFC2325]
-     133   optIfMibModule   OPT-IF-MIB                            [RFC3591]
-     134   etherWisMIB      ETHER-WIS MIB                         [RFC3637]
-   135-165 Reserved         Reserved
-     166   mplsStdMIB       MPLS STD MIB                          [RFC3811]
-   167-183 Reserved         Reserved
-     184   propBWAp2Mp      PropBroadbandWirelessAccesspt2Multipt [http://standards.ieee.org/getieee802/802.16.html]
-   185-199 Reserved         Reserved
-     200   teLinkStdMIB     TE-LINK-STD-MIB                       [RFC4220]
-   201-223 Reserved         Reserved
-     224   fcipMIB          FCIP-MGMT-MIB                         [RFC4404]
-   225-226 Reserved         Reserved
-     227   lmpMIB           LMP-MIB                               [RFC4327]
-     228   vdslExtSCMMIB    VDSL-LINE-EXT-SCM-MIB                 [RFC4069]
-     229   vdslExtMCMMIB    VDSL-LINE-EXT-MCM-MIB                 [RFC4070]
-     230   ifcpMgmtMIB      IFCP-MGMT-MIB                         [RFC6173]
-   231-237 Reserved         Reserved
-     238   adsl2MIB         ADSL2-LINE-MIB                        [RFC4706]
-     239   dvbRcsMib        DVB-RCS-MIB                           [RFC5728][ETSI EN 301
-                                                                  790][http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
-   240-245 Reserved         Reserved
-     246   pwStdMIB         PW-STD-MIB                            [RFC5601]
-   247-250 Reserved         Reserved
-     251   vdsl2MIB         VDSL2-LINE-MIB                        [RFC5650]
-   252-262 Reserved         Reserved
-     263   Reserved         Reserved                              [RFC6768][RFC Errata 3591]
-     264   Reserved         Reserved                              [RFC6767][RFC Errata 3589]
-     265   Reserved         Reserved                              [RFC6766][RFC Errata 3588]
-   266-272 Reserved         Reserved
-     273   TED-MIB          TED-MIB                               [RFC6825]
-     274   VPLS-GENERIC-MIB VPLS-GENERIC-MIB                      [RFC7257]
-     275   VPLS-LDP-MIB     VPLS-LDP-MIB                          [RFC7257]
-     276   VPLS-BGP-MIB MIB VPLS-BGP-MIB                          [RFC7257]
-   277-290 Reserved         Reserved
-     291   otnOtsi          Optical Tributary Signal              [ITU-T G.959.1][Koteswara_Boyapati]
-     292   otnOtuc          OTN OTUCn                             [ITU-T G.709/Y.1331][Koteswara_Boyapati]
-     293   otnOduc          OTN ODUC                              [ITU-T G.709][Koteswara_Boyapati]
-     294   otnOtsig         OTN OTUC Signal                       [ITU-T G.709][Koteswara_Boyapati]
-     295   Reserved         Reserved                              [RFC8561]
-     296   Reserved         Reserved                              [RFC8561]
-     297   ieee8021axDrni   IEEE 802.1AX Distributed Resilient    [IEEE 802.1AX-Rev-d2-0][John_Messenger]
-                            Network Interface
-     298   ax25             AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
+Decimal       Name                    Description                                                                  References
+   5    x25              X.25                                  [RFC1382]
+   7    dot3             Ethernet-like Objects                 [RFC3635]
+   8    IEEE802.4        Token Bus-like Objects                [RFC1230][RFC1239]
+   9    dot5             Token Ring-like Objects               [RFC1748]
+  15    FDDI             FDDI Objects                          [RFC1512][Jeffrey_Case]
+  16    lapb             LAP B                                 [RFC1381]
+  18    ds1              T1 Carrier Objects                    [RFC4805]
+  19    e1               E1 Carrier Objects                    [RFC4805]
+  20    isdnMib          ISDN MIB                              [RFC2127]
+  21    dialControlMib   Dial Control MIB                      [RFC2128]
+  23    ppp              Point-to-Point Protocol               [RFC1471]
+  30    ds3              DS3/E3 Interface Objects              [RFC3896]
+  31    sip              SMDS Interface Objects                [RFC1694]
+  32    frame-relay      Frame Relay Objects                   [RFC2115][Caralyn_Brown]
+  33    RS-232           RS-232 Objects                        [RFC1659]
+  34    Parallel         Parallel Printer Objects              [RFC1660]
+  35    arcnet           ARC network
+  36    arcnet-plus      ARC network plus
+  37    atm              ATM
+  38    MIOX25           MIOX25                                [RFC1461]
+  39    sonetMIB         SONET MIB                             [RFC3592]
+  44    frnetservMIB     Frame Relay Service MIB for DCE       [RFC1604]
+  45    dot12MIB         IEEE 802.12                           [RFC2020]
+  46    ipoaMIB          IPOA-MIB                              [RFC2320]
+  47    mfrMIB           FR-MFR-MIB                            [RFC3020]
+  48    hdsl2ShdslMIB    HDSL2-SHDSL-LINE-MIB                  [RFC4319]
+  49    apsMIB           APS-MIB                               [RFC3498]
+ 50-55  Reserved         Reserved
+  56    fcMgmtMIB        fcMgmtMIB                             [RFC4044]
+ 57-80  Reserved         Reserved
+  81    ds0              DS0-MIB                               [RFC2494]
+  82    ds0bundle        DS0Bundle-MIB                         [RFC2494]
+ 83-93  Reserved         Reserved
+  94    adslmib          adslMIB                               [RFC2662]
+  95    l2tp             L2TP-MIB                              [RFC3371]
+  96    Reserved         Reserved
+  97    vdslMIB          VDSL-LINE-MIB                         [RFC3728]
+98-126  Reserved         Reserved
+  127   docsIfMib        DOCS IF MIB                           [RFC2670]
+128-130 Reserved         Reserved
+  131   tunnelMIB        IP Tunnel MIB                         [RFC2667]
+  132   coffee           coffee pot                            [RFC2325]
+  133   optIfMibModule   OPT-IF-MIB                            [RFC3591]
+  134   etherWisMIB      ETHER-WIS MIB                         [RFC3637]
+135-165 Reserved         Reserved
+  166   mplsStdMIB       MPLS STD MIB                          [RFC3811]
+167-183 Reserved         Reserved
+  184   propBWAp2Mp      PropBroadbandWirelessAccesspt2Multipt [http://standards.ieee.org/getieee802/802.16.html]
+185-199 Reserved         Reserved
+  200   teLinkStdMIB     TE-LINK-STD-MIB                       [RFC4220]
+201-223 Reserved         Reserved
+  224   fcipMIB          FCIP-MGMT-MIB                         [RFC4404]
+225-226 Reserved         Reserved
+  227   lmpMIB           LMP-MIB                               [RFC4327]
+  228   vdslExtSCMMIB    VDSL-LINE-EXT-SCM-MIB                 [RFC4069]
+  229   vdslExtMCMMIB    VDSL-LINE-EXT-MCM-MIB                 [RFC4070]
+  230   ifcpMgmtMIB      IFCP-MGMT-MIB                         [RFC6173]
+231-237 Reserved         Reserved
+  238   adsl2MIB         ADSL2-LINE-MIB                        [RFC4706]
+  239   dvbRcsMib        DVB-RCS-MIB                           [RFC5728][ETSI EN 301
+                                                               790][https://web.archive.org/web/20181229131835/http://satlabs.org/pdf/SatLabs_System_Recommendations_v2.0_M&C.pdf]
+240-245 Reserved         Reserved
+  246   pwStdMIB         PW-STD-MIB                            [RFC5601]
+247-250 Reserved         Reserved
+  251   vdsl2MIB         VDSL2-LINE-MIB                        [RFC5650]
+252-262 Reserved         Reserved
+  263   Reserved         Reserved                              [RFC6768][RFC Errata 3591]
+  264   Reserved         Reserved                              [RFC6767][RFC Errata 3589]
+  265   Reserved         Reserved                              [RFC6766][RFC Errata 3588]
+266-272 Reserved         Reserved
+  273   TED-MIB          TED-MIB                               [RFC6825]
+  274   VPLS-GENERIC-MIB VPLS-GENERIC-MIB                      [RFC7257]
+  275   VPLS-LDP-MIB     VPLS-LDP-MIB                          [RFC7257]
+  276   VPLS-BGP-MIB MIB VPLS-BGP-MIB                          [RFC7257]
+277-290 Reserved         Reserved
+  291   otnOtsi          Optical Tributary Signal              [ITU-T G.959.1][Koteswara_Boyapati]
+  292   otnOtuc          OTN OTUCn                             [ITU-T G.709/Y.1331][Koteswara_Boyapati]
+  293   otnOduc          OTN ODUC                              [ITU-T G.709][Koteswara_Boyapati]
+  294   otnOtsig         OTN OTUC Signal                       [ITU-T G.709][Koteswara_Boyapati]
+  295   Reserved         Reserved                              [RFC8561]
+  296   Reserved         Reserved                              [RFC8561]
+  297   ieee8021axDrni   IEEE 802.1AX Distributed Resilient    [IEEE 802.1AX-Rev-d2-0][John_Messenger]
+                         Network Interface
+  298   ax25             AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
 
   MIB Transmission Group - Point-to-Point Protocol
 

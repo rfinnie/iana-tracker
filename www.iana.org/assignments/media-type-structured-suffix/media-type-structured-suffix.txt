@@ -4,7 +4,7 @@
            2012-07-20
 
    Last Updated
-           2019-10-10
+           2019-11-15
 
    Available Formats
            [IMG]
@@ -95,9 +95,9 @@ Language (XML)                                                                  
                                                                                                                                                                                                           fragment identifiers specified
                                                                                                                                                                                                           for +json SHOULD be as specified
                                                                                                                                                                                                           for "application/json". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC6839], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                                                                                                           "application/json".)
 
                                                                                                                        JSON is encoded                                                                    The syntax and semantics for
@@ -120,7 +120,7 @@ Notation       +json        [RFC8259][RFC6839]                                  
                                                                                                                                                                                                           "xxx/yyy+json".
                                                                                                                                                                                                                                             Each individual media type
                                                                                                                                                                                                                                             registered with a +ber
-                                                                                                                                                                                                          At publication of this document,  suffix can have additional
+                                                                                                                                                                                                          At publication of [RFC6839],      suffix can have additional
                                                                                                                                                                                                           there is no fragment              security considerations.
                                                                                                                                                                                                           identification syntax defined for
                                                                                                                                                                                                           +ber.                             BER has a type-length-value
@@ -149,9 +149,9 @@ syntax                                                                          
                                                                                                                                                                                                           fragment identifiers specified
                                                                                                                                                                                                           for +cbor SHOULD be as specified
                                                                                                                                                                                                           for "application/cbor". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC7049], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                                                                                                           "application/cbor".)
 
                                                                                                                                                                                                           The syntax and semantics for
@@ -175,7 +175,7 @@ Representation                                                                  
                                                                                                                                                                                                           "xxx/yyy+cbor".
                                                                                                                                                                                                                                             Each individual media type
                                                                                                                                                                                                                                             registered with a +der
-                                                                                                                                                                                                          At publication of this document,  suffix can have additional
+                                                                                                                                                                                                          At publication of [RFC6839],      suffix can have additional
                                                                                                                                                                                                           there is no fragment              security considerations.
                                                                                                                                                                                                           identification syntax defined for
                                                                                                                                                                                                           +der.                             DER has a type-length-value
@@ -205,9 +205,9 @@ syntax                                                                          
                                                                                                                                                                                                           for +fastinfoset SHOULD be as
                                                                                                                                                                                                           specified for
                                                                                                                                                                                                           "application/fastinfoset". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC6839], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                                                                                                           "application/fastinfoset".)
 
                                                                                                                        Fast Infoset is a                                                                  The syntax and semantics for
@@ -235,7 +235,7 @@ format                                                                          
                                                                                                                                                                                                           fragment identifiers specified
                                                                                                                                                                                                           for +wbxml SHOULD be as specified
                                                                                                                                                                                                           for "application/vnd.wap.wbxml".
-                                                                                                                                                                                                          (At publication of this document,
+                                                                                                                                                                                                          (At publication of [RFC6839],
                                                                                                                                                                                                           there is no fragment
                                                                                                                                                                                                           identification syntax defined for
                                                                                                                                                                                                           "application/vnd.wap.wbxml".)
@@ -263,9 +263,9 @@ format                                                                          
                                                                                                                                                                                                           fragment identifiers specified
                                                                                                                                                                                                           for +zip SHOULD be as specified
                                                                                                                                                                                                           for "application/zip". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC6839], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                                                                                                           "application/zip".)
                                                                                                                                                                                                                                             ZIP files support two forms
                                                                                                                                                                                                           The syntax and semantics for      of encryption: Strong
@@ -319,9 +319,9 @@ Value                       especially section 6.3.3]                           
                                                                                                                                                                                                           for +json-seq SHOULD be as
                                                                                                                                                                                                           specified for
                                                                                                                                                                                                           "application/json-seq". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC8091], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                                                                                                           "application/json-seq".)
 
                                                                                                                                                                                                           The syntax and semantics for
@@ -377,9 +377,9 @@ database       +sqlite3     [http://www.sqlite.org/fileformat2.html][http://www.
                                                                                                                                                                                                           fragment identifiers specified
                                                                                                                                                                                                           for +jwt SHOULD be as specified
                                                                                                                                                                                                           for "application/jwt". (At
-                                                                                                                                                                                                          publication of this document,
-                                                                                                                                                                                                          there is no fragment
-                                                                                                                                                                                                          identification syntax defined for
+                                                                                                                                                                                                          publication of [RFC8417], there
+                                                                                                                                                                                                          is no fragment identification
+                                                                                                                                                                                                          syntax defined for
                                                                                                                        binary; JWT values                                                                 "application/jwt".)
                                                                                                                        are encoded as a
                                                                                                                        series of                                                                          The syntax and semantics for
@@ -433,7 +433,8 @@ format                                                                          
                                                                                                                                                                                                           for +cbor-seq SHOULD be as
                                                                                                                                                                                                           specified for
                                                                                                                                                                                                           "application/cbor-seq". (At
-                                                                                                                                                                                                          publication of this document,
+                                                                                                                                                                                                          publication of
+                                                                                                                                                                                                          [RFC-ietf-cbor-sequence-02],
                                                                                                                                                                                                           there is no fragment
                                                                                                                                                                                                           identification syntax defined for
                                                                                                                                                                                                           "application/cbor-seq".)

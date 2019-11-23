@@ -43,7 +43,7 @@ JavaScript Object Notation (JSON),+json,[RFC8259][RFC6839],"JSON is encoded usin
         encoding considerations.",n/a,"The syntax and semantics of fragment
         identifiers specified for +json SHOULD be as
         specified for ""application/json"".  (At
-        publication of this document, there is no
+        publication of [RFC6839], there is no
         fragment identification syntax defined for
         ""application/json"".)
         
@@ -67,7 +67,7 @@ JavaScript Object Notation (JSON),+json,[RFC8259][RFC6839],"JSON is encoded usin
         For cases not defined in +json, then as
         specified in ""xxx/yyy+json"".",See [RFC8259].,Apps Area Working Group (apps-discuss@ietf.org),"The Apps Area Working Group.  IESG has
         change control over this registration.",2012-11-27,
-Basic Encoding Rules (BER) message transfer syntax,+ber,[ITU.X690.2008][RFC6839],BER is a binary encoding.,n/a,"At publication of this document, there is no
+Basic Encoding Rules (BER) message transfer syntax,+ber,[ITU.X690.2008][RFC6839],BER is a binary encoding.,n/a,"At publication of [RFC6839], there is no
         fragment identification syntax defined for
         +ber.
         
@@ -113,7 +113,7 @@ Basic Encoding Rules (BER) message transfer syntax,+ber,[ITU.X690.2008][RFC6839]
         change control over this registration.",2012-11-27,
 Concise Binary Object Representation (CBOR),+cbor,[RFC7049],CBOR is a binary format.,n/a,"The syntax and semantics of fragment identifiers specified for
          +cbor SHOULD be as specified for ""application/cbor"".  (At
-         publication of this document, there is no fragment identification
+         publication of [RFC7049], there is no fragment identification
          syntax defined for ""application/cbor"".)
         
         
@@ -133,7 +133,7 @@ Concise Binary Object Representation (CBOR),+cbor,[RFC7049],CBOR is a binary for
          For cases not defined in +cbor, then process as specified in
          ""xxx/yyy+cbor"".",See Section 8 of [RFC7049],Apps Area Working Group (apps-discuss at ietf.org),"The Apps Area Working Group.  IESG has
         change control over this registration.",2013-09-19,
-Distinguished Encoding Rules (DER) message transfer syntax,+der,[ITU.X690.2008][RFC6839],DER is a binary encoding.,n/a,"At publication of this document, there is no
+Distinguished Encoding Rules (DER) message transfer syntax,+der,[ITU.X690.2008][RFC6839],DER is a binary encoding.,n/a,"At publication of [RFC6839], there is no
         fragment identification syntax defined for
         +der.
         
@@ -183,7 +183,7 @@ Fast Infoset document format,+fastinfoset,[ITU.X891.2005][RFC6839],"Fast Infoset
         Infoset.",n/a,"The syntax and semantics of fragment
         identifiers specified for +fastinfoset SHOULD
         be as specified for ""application/fastinfoset"".
-        (At publication of this document, there is no
+        (At publication of [RFC6839], there is no
         fragment identification syntax defined for
         ""application/fastinfoset"".)
         
@@ -217,7 +217,7 @@ WAP Binary XML (WBXML) document format,+wbxml,"[Open Mobile Alliance, ""Binary X
         WBXML-20010725-a, July 2001.][RFC6839]",WBXML is a binary encoding.,n/a,"The syntax and semantics of fragment
         identifiers specified for +wbxml SHOULD be as
         specified for ""application/vnd.wap.wbxml"".
-        (At publication of this document, there is no
+        (At publication of [RFC6839], there is no
         fragment identification syntax defined for
         ""application/vnd.wap.wbxml"".)
         
@@ -249,7 +249,7 @@ ZIP file storage and transfer format,+zip,"[PKWARE, Inc., ""APPNOTE.TXT - .ZIP F
         Version 6.3.2, September 2007.][RFC6839]",ZIP is a binary encoding.,n/a,"The syntax and semantics of fragment
         identifiers specified for +zip SHOULD be as
         specified for ""application/zip"".  (At
-        publication of this document, there is no
+        publication of [RFC6839], there is no
         fragment identification syntax defined for
         ""application/zip"".)
         
@@ -308,8 +308,8 @@ Type Length Value,+tlv,"[“Lightweight Machine to Machine Technical Specificati
         in general.",[John_Mudge],[Open_Mobile_Naming_Authority] (OMNA),2016-06-19,
 JSON Text Sequence,+json-seq,[RFC7464][RFC8091],See [RFC7464] Section 2.2,n/a,"The syntax and semantics of
         fragment identifiers specified for +json-seq SHOULD be as
-        specified for ""application/json-seq"".  (At publication of this
-        document, there is no fragment identification syntax defined for
+        specified for ""application/json-seq"".  (At publication of [RFC8091], 
+        there is no fragment identification syntax defined for
         ""application/json-seq"".)
         
         
@@ -374,7 +374,7 @@ JSON Web Token (JWT),+jwt,"[RFC7519, Section 3][RFC8417, Section 7.2]","binary; 
         removed), some of which may be the empty string, separated by
         period ('.') characters.",N/A,"The syntax and semantics of fragment identifiers specified for
           +jwt SHOULD be as specified for ""application/jwt"".  (At
-          publication of this document, there is no fragment identification
+          publication of [RFC8417], there is no fragment identification
           syntax defined for ""application/jwt"".)
         
         
@@ -423,8 +423,8 @@ gzip file storage and transfer format,+gzip,[RFC1952][RFC6713],gzip is a binary 
           application or system files.",art@ietf.org,[IETF],2018-06-14,
 CBOR Sequence,+cbor-seq,[RFC-ietf-cbor-sequence-02],binary,n/a,"The syntax and semantics of
 		  fragment identifiers specified for +cbor-seq SHOULD be as
-		  specified for ""application/cbor-seq"".  (At publication of this
-		  document, there is no fragment identification syntax defined for
+		  specified for ""application/cbor-seq"".  (At publication of [RFC-ietf-cbor-sequence-02], 
+      there is no fragment identification syntax defined for
 		  ""application/cbor-seq"".)  
 		
         

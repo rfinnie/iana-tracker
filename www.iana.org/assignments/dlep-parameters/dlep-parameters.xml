@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="dlep-parameters">
   <title>Dynamic Link Exchange Protocol (DLEP) Parameters</title>
   <created>2017-04-03</created>
-  <updated>2019-10-09</updated>
+  <updated>2019-11-21</updated>
   
   <registry id="signal-type-values">
     <title>Signal Type Values</title>
@@ -17,7 +17,7 @@
       <value>65520-65534</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0</value>
       <description>Reserved</description>
@@ -60,7 +60,7 @@
       <value>65520-65534</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0</value>
       <description>Reserved</description>
@@ -173,7 +173,7 @@
       <value>65408-65534</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0</value>
       <description>Reserved</description>
@@ -314,8 +314,13 @@
       <description>Link Identifier</description>
       <xref type="draft" data="RFC-ietf-manet-dlep-lid-extension-06"/>
     </record>
+    <record date="2019-11-21">
+      <value>28</value>
+      <description>Latency Range</description>
+      <xref type="draft" data="RFC-ietf-manet-dlep-latency-extension-05"/>
+    </record>
     <record>
-      <value>28-65407</value>
+      <value>29-65407</value>
       <description>Unassigned</description>
     </record>
     <record date="2017-04-03">
@@ -349,7 +354,7 @@
       <value>240-254</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0</value>
       <mode>Continue</mode>
@@ -445,7 +450,7 @@
       <value>65520-65534</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0</value>
       <description>Reserved</description>
@@ -466,8 +471,13 @@
       <description>Link Identifiers</description>
       <xref type="draft" data="RFC-ietf-manet-dlep-lid-extension-06"/>
     </record>
+    <record date="2019-11-21">
+      <value>4</value>
+      <description>Latency Range</description>
+      <xref type="draft" data="RFC-ietf-manet-dlep-latency-extension-05"/>
+    </record>
     <record>
-      <value>4-65519</value>
+      <value>5-65519</value>
       <description>Unassigned</description>
     </record>
     <record date="2017-04-03">
@@ -486,7 +496,7 @@
     <title>IPv4 Connection Point Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -502,7 +512,7 @@
     <title>IPv6 Connection Point Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -518,7 +528,7 @@
     <title>Peer Type Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -534,7 +544,7 @@
     <title>IPv4 Address Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -550,7 +560,7 @@
     <title>IPv6 Address Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -566,7 +576,7 @@
     <title>IPv4 Attached Subnet Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -582,7 +592,7 @@
     <title>IPv6 Attached Subnet Flags</title>
     <xref type="rfc" data="rfc8175"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2017-04-03">
       <value>0-6</value>
       <description>Unassigned</description>
@@ -605,7 +615,7 @@
       <value>65520-65534</value>
       <registration_rule>Private Use</registration_rule>
     </range>
-    <expert>Stan Ratliff, Rick Taylor</expert>
+    <expert>Rick Taylor</expert>
     <record date="2019-05-14">
       <value>0</value>
       <action>Reset</action>

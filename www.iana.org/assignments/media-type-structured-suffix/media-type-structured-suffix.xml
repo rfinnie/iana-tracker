@@ -5,7 +5,7 @@
   <title>Structured Syntax Suffix Registry</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-07-20</created>
-  <updated>2019-10-10</updated>
+  <updated>2019-11-15</updated>
 
   <registry id="structured-syntax-suffix">
     <title>Structured Syntax Suffix Registry</title>
@@ -82,7 +82,7 @@
         The syntax and semantics of fragment
         identifiers specified for +json SHOULD be as
         specified for "application/json".  (At
-        publication of this document, there is no
+        publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         "application/json".)
         </paragraph>
@@ -122,7 +122,7 @@
       <interop>n/a</interop>
       <fragment>
         <paragraph>
-        At publication of this document, there is no
+        At publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         +ber.
         </paragraph>
@@ -188,7 +188,7 @@
         <paragraph>
          The syntax and semantics of fragment identifiers specified for
          +cbor SHOULD be as specified for "application/cbor".  (At
-         publication of this document, there is no fragment identification
+         publication of <xref type="rfc" data="rfc7049"/>, there is no fragment identification
          syntax defined for "application/cbor".)
         </paragraph>
         <paragraph>
@@ -225,7 +225,7 @@
       <interop>n/a</interop>
       <fragment>
         <paragraph>
-        At publication of this document, there is no
+        At publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         +der.
         </paragraph>
@@ -295,7 +295,7 @@
         The syntax and semantics of fragment
         identifiers specified for +fastinfoset SHOULD
         be as specified for "application/fastinfoset".
-        (At publication of this document, there is no
+        (At publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         "application/fastinfoset".)
         </paragraph>
@@ -346,7 +346,7 @@
         The syntax and semantics of fragment
         identifiers specified for +wbxml SHOULD be as
         specified for "application/vnd.wap.wbxml".
-        (At publication of this document, there is no
+        (At publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         "application/vnd.wap.wbxml".)
         </paragraph>
@@ -395,7 +395,7 @@
         The syntax and semantics of fragment
         identifiers specified for +zip SHOULD be as
         specified for "application/zip".  (At
-        publication of this document, there is no
+        publication of <xref type="rfc" data="rfc6839"/>, there is no
         fragment identification syntax defined for
         "application/zip".)
         </paragraph>
@@ -488,8 +488,8 @@
       <fragment>
         <paragraph>The syntax and semantics of
         fragment identifiers specified for +json-seq SHOULD be as
-        specified for "application/json-seq".  (At publication of this
-        document, there is no fragment identification syntax defined for
+        specified for "application/json-seq".  (At publication of <xref type="rfc" data="rfc8091"/>, 
+        there is no fragment identification syntax defined for
         "application/json-seq".)
         </paragraph>
         <paragraph>
@@ -599,7 +599,7 @@
       <fragment>
         <paragraph>The syntax and semantics of fragment identifiers specified for
           +jwt SHOULD be as specified for "application/jwt".  (At
-          publication of this document, there is no fragment identification
+          publication of <xref type="rfc" data="rfc8417"/>, there is no fragment identification
           syntax defined for "application/jwt".)
         </paragraph>
         <paragraph>
@@ -693,8 +693,8 @@
         <paragraph>
 		  The syntax and semantics of
 		  fragment identifiers specified for +cbor-seq SHOULD be as
-		  specified for "application/cbor-seq".  (At publication of this
-		  document, there is no fragment identification syntax defined for
+		  specified for "application/cbor-seq".  (At publication of <xref type="draft" data="RFC-ietf-cbor-sequence-02"/>, 
+      there is no fragment identification syntax defined for
 		  "application/cbor-seq".)  
 		</paragraph>
         <paragraph>

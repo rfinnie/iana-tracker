@@ -4,7 +4,9 @@ Value,Description,Reference
 2,Prefix SID Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
 3,"Flex-Algorithm Prefix Metric 
       (TEMPORARY - registered 2019-10-03, expires 2020-10-03)",[draft-ietf-lsr-flex-algo]
-4-8,Unassigned,
+4,"Prefix Source Router-ID 
+        (TEMPORARY - registered 2019-11-05, expires 2020-11-05)",[draft-ietf-lsr-ospf-prefix-originator]
+5-8,Unassigned,
 9,BIER Sub-TLV,[RFC8444]
 10,BIER MPLS Encapsulation Sub-TLV,[RFC8444]
 11-32767,Unassigned,
