@@ -23,3 +23,5 @@ oic.if.s,"The sensor Interface is used to read the Properties of a
         sensor Resource.",[OIC_Core_Specification_v1.1.0 section 7.5.3],
 bbf.usp.c,USP Controller Endpoint of the Broadband Forum USP protocol,[https://usp.technology/specification/mtp/coap/],
 bbf.usp.a,USP Agent Endpoint of the Broadband Forum USP protocol,[https://usp.technology/specification/mtp/coap/],
+oic.if.create,"The create OCF Interface is used to create new Resources in a Collection. Both the Resource 
+        and the Link pointing to it are created in a single atomic operation.",[OCF_Core_Specification_v2.0.5 clause 7.6.3.9],

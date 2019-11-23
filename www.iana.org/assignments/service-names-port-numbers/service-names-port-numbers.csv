@@ -12135,7 +12135,9 @@ amcs,8766,tcp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay]
 amcs,8766,udp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
 core-of-source,8767,tcp,Online mobile multiplayer game,[Alt_Solve_Sdn_Bhd],[Almaz_Hong],2019-07-24,,,,,
 ,8767,udp,Reserved,,,,,,,,
-,8768-8769,,Unassigned,,,,,,,,
+sandpolis,8768,tcp,Sandpolis Server,[Tyler_Cook],[Tyler_Cook],2019-11-22,,,,,
+,8768,udp,Reserved,,,,,,,,
+,8769,,Unassigned,,,,,,,,
 dpap,8770,tcp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 dpap,8770,udp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 ,8771-8777,,Unassigned,,,,,,,,

@@ -14254,7 +14254,9 @@ amcs               8766        udp    Agilent Connectivity Service [Keysight_Tec
 core-of-source     8767        tcp    Online mobile multiplayer    [Alt_Solve_Sdn_Bhd]                                   [Almaz_Hong]                                              2019-07-24
                                       game
                    8767        udp    Reserved
-                 8768-8769            Unassigned
+sandpolis          8768        tcp    Sandpolis Server             [Tyler_Cook]                                          [Tyler_Cook]                                              2019-11-22
+                   8768        udp    Reserved
+                   8769               Unassigned
 dpap               8770        tcp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
                                       Protocol (iPhoto)                                                                                                                                                                                                                           Machine Name, Password
 dpap               8770        udp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
@@ -24007,6 +24009,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Twan_Kamp]                                               Twan Kamp                                           mailto:twan.kamp&signify.com                                  2019-07-31
 [Ty_Ellis]                                                Ty Ellis                                            mailto:tellis&novell.com                                      2006-05
 [Tyba_Design_Limited]                                                                Tyba Design Limited      mailto:info&tyba.co.ik                                        2018-08-24
+[Tyler_Cook]                                              Tyler Cook                                          mailto:tcc&sandpolis.com                                      2019-11-22
 [Tzvika_Chumash]                                          Tzvika Chumash                                      mailto:tzvikac&netvision.net.il
 [UC_Dynamics_LLC]                                                                    UC Dynamics, LLC         mailto:shaun.botha&ucdynamics.com                             2018-01-31
 [Udi_Nir]                                                 Udi Nir                                             mailto:udi_nir&ncc.co.il
