@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2019-11-21
+           2019-11-25
 
    Available Formats
            [IMG]
@@ -118,7 +118,7 @@ Registrar IDs
      124   NameEngine, Inc.                                                      Terminated
      125   Talk.com, Inc.                                                        Terminated
      127   I.D.R Internet Domain Registry LTD.                                   Terminated
-     128   DomainRegistry.com Inc.                                               Accredited
+     128   DomainRegistry.com Inc.                                               Accredited https://dr-rdap.domainregistry.com/rdap/v1/
      129   Eastern Communications Company Limited                                Terminated
      130   Netpia.com, Inc.                                                      Accredited
      131   Total Web Solutions Limited trading as TotalRegistrations             Accredited https://rdap.totalregistrations.com/
@@ -499,7 +499,7 @@ Registrar IDs
      834   Domain Jingles, Inc.                                                  Terminated
      835   KuwaitNET General Trading Co.                                         Accredited https://rdapserver.net/
      836   Bottle Domains, Inc.                                                  Accredited https://rdapserver.net/
-     837   Freeparking Domain Registrars, Inc.                                   Accredited
+     837   Freeparking Domain Registrars, Inc.                                   Accredited https://rdapserver.net/
      838   BatDomains.com Ltd.                                                   Terminated
      839   Realtime Register B.V.                                                Accredited https://rdap.yoursrs.com/
      840   Nicco Ltd.                                                            Accredited
@@ -542,7 +542,7 @@ Registrar IDs
      877   Decentdomains, LLC                                                    Accredited https://EIG.rdap.tucows.com/
      878   Columbiadomains, LLC                                                  Accredited https://EIG.rdap.tucows.com/
      879   Domainbusinessnames, LLC                                              Accredited https://EIG.rdap.tucows.com/
-     880   Domainclub.com, LLC                                                   Accredited
+     880   Domainclub.com, LLC                                                   Accredited https://rdap.domainclub.com/v1/
      881   Domainbulkregistration, LLC                                           Accredited https://EIG.rdap.tucows.com/
      882   Domain-A-Go-Go, LLC                                                   Accredited https://EIG.rdap.tucows.com/
      883   Discountdomainservices, LLC                                           Accredited https://EIG.rdap.tucows.com/
@@ -561,7 +561,7 @@ Registrar IDs
      896   Aruba SpA                                                             Accredited
      897   21Company, Inc. dba 21-domain.com                                     Terminated
      898   Alantron Inc.                                                         Accredited https://rdapserver.net/
-     899   Naugus Limited LLC                                                    Accredited
+     899   Naugus Limited LLC                                                    Accredited https://rdap.naugus.com/
      900   TPP Wholesale Pty Ltd                                                 Accredited
      901   AirNames.com Inc.                                                     Terminated
      902   Arab Internet Names, LLC                                              Accredited https://rdap.networksolutions.com/rdap/
@@ -3476,7 +3476,7 @@ Registrar IDs
     3837   Gmo-Z.Com Runsystem Joint Stock Company                               Accredited
     3838   MarkMonitor Information Technology (Shanghai) Co., Ltd.               Accredited
     3839   Nerd Origins Ltd                                                      Accredited
-    3840   Tool Domains Ltd                                                      Accredited
+    3840   Tool Domains Ltd                                                      Accredited https://rdap.tool.domains/
     3841   VIAWEB Inc.                                                           Accredited
     3842   Shenzhen Ping An Communication Technology Co., Ltd.                   Accredited
     3844   AppCroNix Infotech Private Limited, d/b/a VEBONIX.com                 Accredited

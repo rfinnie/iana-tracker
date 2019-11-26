@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-11-21</updated>
+    <updated>2019-11-25</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -548,10 +548,13 @@
             <name>I.D.R Internet Domain Registry LTD.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-11-25">
             <value>128</value>
             <name>DomainRegistry.com Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://dr-rdap.domainregistry.com/rdap/v1/</server>
+            </rdapurl>
         </record>
         <record>
             <value>129</value>
@@ -2794,10 +2797,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-11-25">
             <value>837</value>
             <name>Freeparking Domain Registrars, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2019-07-03">
             <value>838</value>
@@ -3108,10 +3114,13 @@
                 <server>https://EIG.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-11-25">
             <value>880</value>
             <name>Domainclub.com, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.domainclub.com/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-03">
             <value>881</value>
@@ -3230,10 +3239,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-11-25">
             <value>899</value>
             <name>Naugus Limited LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.naugus.com/</server>
+            </rdapurl>
         </record>
         <record updated="2016-07-19">
             <value>900</value>
@@ -7235,7 +7247,7 @@
                 <server>https://rdapserver.net</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-11-25">
             <value>1493</value>
             <name>Ilait AB</name>
             <status>Accredited</status>
@@ -23675,10 +23687,13 @@
             <name>Nerd Origins Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2019-08-01">
+        <record date="2019-11-25">
             <value>3840</value>
             <name>Tool Domains Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.tool.domains/</server>
+            </rdapurl>
         </record>
         <record date="2019-08-15">
             <value>3841</value>
