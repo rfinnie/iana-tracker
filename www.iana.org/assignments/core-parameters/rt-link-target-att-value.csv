@@ -305,7 +305,7 @@ oic.r.pvconnectionterminal,Photovoltaic connection terminal resource.,[OCF_Resou
 oic.r.sleep,Sleep resource.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.141],
 oic.r.sleepmonitor-am,Resource for sleep stages and sleep score data.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.142],
 oic.r.softwareupdate,Software Update resource type,[OCF_Core_Optional_Specification_v2.0.5 clause A.12],
-oic.r.sp,Security Profile,[OCF_Security_Specification_v2.0.5 clause 9],
+oic.r.sp,Security Profile,[OCF_Security_Specification_v2.0.5 clause 14.8],
 oic.r.speed,Speed resource.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.149],
 oic.r.spo2,Blood oxygen saturation level resource.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.143],
 oic.r.torque,Torque resource.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.150],
