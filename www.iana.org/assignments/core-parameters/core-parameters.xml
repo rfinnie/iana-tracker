@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2019-11-22</updated>
+  <updated>2019-11-27</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -1839,10 +1839,10 @@
       <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.0.5%20Specification.zip">OCF_Core_Optional_Specification_v2.0.5 clause A.12</xref>
       <notes/>
     </record>
-    <record date="2019-11-22">
+    <record date="2019-11-22" updated="2019-11-27">
       <value>oic.r.sp</value>
       <description>Security Profile</description>
-      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.0.5%20Specification.zip">OCF_Security_Specification_v2.0.5 clause 9</xref>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.0.5%20Specification.zip">OCF_Security_Specification_v2.0.5 clause 14.8</xref>
       <notes/>
     </record>
     <record date="2019-11-22">
@@ -2230,7 +2230,16 @@
       <xref type="rfc" data="rfc7252"/>
     </record>    
     <record>
-      <value>5.06-5.31</value>
+      <value>5.06-5.07</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2019-11-27">
+      <value>5.08</value>
+      <description>Hop Limit Reached</description>
+      <xref type="draft" data="RFC-ietf-core-hop-limit-07"/>
+    </record> 
+    <record>
+      <value>5.09-5.31</value>
       <description>Unassigned</description>
     </record>
   </registry>
@@ -2346,9 +2355,10 @@
       <xref type="rfc" data="rfc7252"/>
       <xref type="rfc" data="rfc8613"/>
     </record>    
-    <record>
+    <record date="2019-11-27">
       <value>16</value>
-      <description>Unassigned</description>
+      <description>Hop-Limit</description>
+      <xref type="draft" data="RFC-ietf-core-hop-limit-07"/>
     </record>    
     <record>
       <value>17</value>
