@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="dns-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="dns-parameters">
   <title>Domain Name System (DNS) Parameters</title>
-  <updated>2019-11-20</updated>
+  <updated>2019-11-25</updated>
 
 
   <registry id="dns-parameters-2">
@@ -1798,8 +1798,36 @@ specification.
       <early>NO</early>
       <status/>
     </record>
+    <record date="2019-11-25">
+      <value>0x0040</value>
+      <description>SUBSCRIBE</description>
+      <early>OK</early>
+      <status>Standards Track</status>
+      <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.2</xref>
+    </record>
+    <record date="2019-11-25">
+      <value>0x0041</value>
+      <description>PUSH</description>
+      <early>NO</early>
+      <status>Standards Track</status>
+      <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.3</xref>
+    </record>
+    <record date="2019-11-25">
+      <value>0x0042</value>
+      <description>UNSUBSCRIBE</description>
+      <early>NO</early>
+      <status>Standards Track</status>
+      <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.4</xref>
+    </record>
+    <record date="2019-11-25">
+      <value>0x0043</value>
+      <description>RECONFIRM</description>
+      <early>NO</early>
+      <status>Standards Track</status>
+      <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.5</xref>
+    </record>
     <record date="2018-12-07">
-      <value>0x0040-0xF7FF</value>
+      <value>0x0044-0xF7FF</value>
       <description>Unassigned</description>
       <early>NO</early>
       <status/>

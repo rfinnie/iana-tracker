@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="message-headers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="message-headers">
   <title>Message Headers</title>
-  <updated>2019-10-25</updated>
+  <updated>2019-11-27</updated>
   
   
   
@@ -1876,7 +1876,7 @@ That restriction is now lifted, per <xref type="rfc" data="rfc6857"/>.</note>
       <value>TLS-Required</value>
       <protocol>mail</protocol>
       <status>standard</status>
-      <xref type="draft" data="RFC-ietf-uta-smtp-require-tls-09"/>
+      <xref type="rfc" data="rfc8689"/>
     </record>
     <record>
       <value>To</value>

@@ -12135,7 +12135,9 @@ amcs,8766,tcp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay]
 amcs,8766,udp,Agilent Connectivity Service,[Keysight_Technologies_Inc],[Tom_Fay],2013-01-16,2016-09-12,,,,
 core-of-source,8767,tcp,Online mobile multiplayer game,[Alt_Solve_Sdn_Bhd],[Almaz_Hong],2019-07-24,,,,,
 ,8767,udp,Reserved,,,,,,,,
-,8768-8769,,Unassigned,,,,,,,,
+sandpolis,8768,tcp,Sandpolis Server,[Tyler_Cook],[Tyler_Cook],2019-11-22,,,,,
+,8768,udp,Reserved,,,,,,,,
+,8769,,Unassigned,,,,,,,,
 dpap,8770,tcp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 dpap,8770,udp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 ,8771-8777,,Unassigned,,,,,,,,
@@ -14155,7 +14157,9 @@ pmwebapi,44323,tcp,HTTP binding for Performance Co-Pilot client API,[Performance
 ,44324-44443,,Unassigned,,,,,,,,
 cognex-dataman,44444,tcp,Cognex DataMan Management Protocol,[Cognex],[Mario_Joussen],2012-08-28,,,,,
 ,44444,udp,Reserved,,,,,,,,
-,44445-44543,,Unassigned,,,,,,,Known UNAUTHORIZED USE: Ports 44515 & 44516,
+acronis-backup,44445,tcp,Acronis Backup Gateway service port,[Acronis],[Kevin_Reed],2019-11-25,,,,,
+,44445,udp,Reserved,,,,,,,,
+,44446-44543,,Unassigned,,,,,,,Known UNAUTHORIZED USE: Ports 44515 & 44516,
 ,44544,tcp,Reserved,,,,,,,,
 domiq,44544,udp,DOMIQ Building Automation,[DOMIQ_Sp_zoo],[Filip_Zawadiak],2011-08-29,,,,,
 ,44545-44552,,Unassigned,,,,,,,,
@@ -14587,6 +14591,7 @@ divelogsync,,,Dive Log Data Sharing and Synchronization Protocol,[Greg_McLaughli
 dlpx-sp,,tcp,Delphix Session Protocol,[Delphix_Corp],[Peng_Dai],2012-10-02,,,,,Defined TXT keys: None
 dltimesync,,udp,Local Area Dynamic Time Synchronisation Protocol,[Geoff_Back_3],[Geoff_Back_3],,,,,,Defined TXT keys: None
 dns-llq-tls,,tcp,DNS Long-Lived Queries over TLS,[Stuart_Cheshire],[Stuart_Cheshire],2019-05-04,,[RFC6281],,,Defined TXT Keys: None
+dns-push-tls,,tcp,DNS Push Notification Service Type,[IESG],[IETF_Chair],2019-11-25,,"[RFC-ietf-dnssd-push-25, Section 6.1]",,,Defined TXT Keys: None
 dns-query-tls,,tcp,DNS queries to the authoritative server over TLS,[Stuart_Cheshire],[Stuart_Cheshire],2019-05-04,,,,,Defined TXT Keys: None
 dns-sd,,,DNS Service Discovery,[Stuart_Cheshire][Marc_Krochmal],[Stuart_Cheshire][Marc_Krochmal],,,,,,Not a service type. Special name reserved for DNS-SD meta queries.
 dns-update,,tcp,DNS Dynamic Update Service,[Stuart_Cheshire],[Stuart_Cheshire],2019-05-04,,,,,"DNS Dynamic Update Service for a given domain may not necessarily be provided by

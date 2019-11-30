@@ -16,11 +16,10 @@ iana-routing-types,iana-routing-types@2019-11-04.yang,Y,urn:ietf:params:xml:ns:y
 directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
 and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
-iana-tunnel-type,,Y,urn:ietf:params:xml:ns:yang:iana-tunnel-type,iana-tunnel-type,,[RFC-ietf-softwire-iftunnel-07],"Tunnel type values must not be directly added to the iana-tunnel-type 
+iana-tunnel-type,iana-tunnel-type@2019-11-16.yang,Y,urn:ietf:params:xml:ns:yang:iana-tunnel-type,iana-tunnel-type,,[RFC8675],"Tunnel type values must not be directly added to the iana-tunnel-type 
         YANG module.  They must instead be added to the
-        ""tunnelType"" sub-registry (under the ""ifType definitions""
-        registry) at [IANA registry smi-numbers].
-        [RFC-ietf-softwire-iftunnel-07]'s module file will be posted upon the document's publication as an RFC."
+        ""tunnelType"" subregistry (under the ""ifType definitions""
+        registry) at [IANA registry smi-numbers]."
 ietf-access-control-list,ietf-access-control-list@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-access-control-list,acl,,[RFC8519],
 ietf-acldns,ietf-acldns@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC8520],
 ietf-alarms,ietf-alarms@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC8632],
@@ -101,7 +100,7 @@ ietf-pim-sm,,N,urn:ietf:params:xml:ns:yang:ietf-pim-sm,pim-sm,,[RFC-ietf-pim-yan
 ietf-ptp,ietf-ptp@2019-05-07.yang,N,urn:ietf:params:xml:ns:yang:ietf-ptp,ptp,,[RFC8575],
 ietf-restconf,ietf-restconf@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf,rc,,[RFC8040],
 ietf-restconf-monitoring,ietf-restconf-monitoring@2017-01-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf-monitoring,rcmon,,[RFC8040],
-ietf-restconf-subscribed-notifications,,N,urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications,rsn,,[RFC-ietf-netconf-restconf-notif-15],[RFC-ietf-netconf-restconf-notif-15]'s module file will be posted upon the document's publication as an RFC.
+ietf-restconf-subscribed-notifications,ietf-restconf-subscribed-notifications@2019-11-17.yang,N,urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications,rsn,,[RFC8650],
 ietf-rip,,N,urn:ietf:params:xml:ns:yang:ietf-rip,rip,,[RFC-ietf-rtgwg-yang-rip-08],[RFC-ietf-rtgwg-yang-rip-08]'s module file will be posted upon the document's publication as an RFC.
 ietf-routing,ietf-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8022],
 ietf-routing,ietf-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8349],
@@ -118,9 +117,9 @@ ietf-snmp-tls,ietf-snmp-tls@2014-12-10.yang,N,,,ietf-snmp,[RFC7407],
 ietf-snmp-tsm,ietf-snmp-tsm@2014-12-10.yang,N,,,ietf-snmp,[RFC7407],
 ietf-snmp-usm,ietf-snmp-usm@2014-12-10.yang,N,,,ietf-snmp,[RFC7407],
 ietf-snmp-vacm,ietf-snmp-vacm@2014-12-10.yang,N,,,ietf-snmp,[RFC7407],
-ietf-softwire-br,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-br,softwire-br,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
-ietf-softwire-ce,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
-ietf-softwire-common,,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC-ietf-softwire-yang-16],[RFC-ietf-softwire-yang-16]'s module file will be posted upon the document's publication as an RFC.
+ietf-softwire-br,ietf-softwire-br@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-softwire-br,softwire-br,,[RFC8676],
+ietf-softwire-ce,ietf-softwire-ce@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC8676],
+ietf-softwire-common,ietf-softwire-common@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC8676],
 ietf-subscribed-notifications,ietf-subscribed-notifications@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC8639],
 ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[RFC-ietf-netmod-syslog-model-26],[RFC-ietf-netmod-syslog-model-26]'s module file will be posted upon the document's publication as an RFC.
 ietf-system,ietf-system@2014-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-system,sys,,[RFC7317],

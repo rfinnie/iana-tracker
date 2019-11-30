@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-11-22
+           2019-11-25
 
    Expert(s)
 
@@ -14254,7 +14254,9 @@ amcs               8766        udp    Agilent Connectivity Service [Keysight_Tec
 core-of-source     8767        tcp    Online mobile multiplayer    [Alt_Solve_Sdn_Bhd]                                   [Almaz_Hong]                                              2019-07-24
                                       game
                    8767        udp    Reserved
-                 8768-8769            Unassigned
+sandpolis          8768        tcp    Sandpolis Server             [Tyler_Cook]                                          [Tyler_Cook]                                              2019-11-22
+                   8768        udp    Reserved
+                   8769               Unassigned
 dpap               8770        tcp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
                                       Protocol (iPhoto)                                                                                                                                                                                                                           Machine Name, Password
 dpap               8770        udp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
@@ -16753,9 +16755,12 @@ pmwebapi           44323       tcp    HTTP binding for Performance [Performance_
 cognex-dataman     44444       tcp    Cognex DataMan Management    [Cognex]                                              [Mario_Joussen]                                           2012-08-28
                                       Protocol
                    44444       udp    Reserved
+acronis-backup     44445       tcp    Acronis Backup Gateway       [Acronis]                                             [Kevin_Reed]                                              2019-11-25
+                                      service port
+                   44445       udp    Reserved
                                                                                                                                                                                                                                                                      Known
                                                                                                                                                                                                                                                                      UNAUTHORIZED
-                44445-44543           Unassigned                                                                                                                                                                                                                     USE: Ports
+                44446-44543           Unassigned                                                                                                                                                                                                                     USE: Ports
                                                                                                                                                                                                                                                                      44515 &
                                                                                                                                                                                                                                                                      44516
                    44544       tcp    Reserved
@@ -17358,6 +17363,8 @@ dltimesync                     udp    Local Area Dynamic Time      [Geoff_Back_3
                                       Synchronisation Protocol
 dns-llq-tls                    tcp    DNS Long-Lived Queries over  [Stuart_Cheshire]                                     [Stuart_Cheshire]                                         2019-05-04                [RFC6281]                                                            Defined TXT Keys: None
                                       TLS
+dns-push-tls                   tcp    DNS Push Notification        [IESG]                                                [IETF_Chair]                                              2019-11-25                [RFC-ietf-dnssd-push-25, Section 6.1]                                Defined TXT Keys: None
+                                      Service Type
                                       DNS queries to the
 dns-query-tls                  tcp    authoritative server over    [Stuart_Cheshire]                                     [Stuart_Cheshire]                                         2019-05-04                                                                                     Defined TXT Keys: None
                                       TLS
@@ -18726,6 +18733,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [AccuMed_Services]                                                                   AccuMed Services         mailto:scarleton&accu-med.com                                 2011-10-20
 [Acertant]                                                                           Acertant Technologies,
                                                                                      Inc.
+[Acronis]                                                                            Acronis                  mailto:kr&acronis.com                                         2019-11-25
 [AD_Holdings]                                                                        AD Holdings              mailto:klawson&ad-holdings.co.uk                              2011-10-11
 [Adam_Armstrong]                                          Adam Armstrong             Observium                mailto:adama&observium.org                                    2013-05-10
 [Adam_Berk]                                               Adam Berk                                           mailto:aberk&empirix.com
@@ -21539,6 +21547,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Kevin_Murphy_2]                                          Kevin Murphy                                        mailto:kevin.murphy&networkengines.com                        2003-10
 [Kevin_Nakagawa]                                          Kevin Nakagawa                                      mailto:nakagawa&sigsci.com
 [Kevin_Osborn]                                            Kevin Osborn                                        mailto:kosborn&snapappliance.com
+[Kevin_Reed]                                              Kevin Reed                                          mailto:kr&acronis.com                                         2019-11-25
 [Kevin_Rushforth]                                         Kevin Rushforth                                     mailto:kevin.rushforth&sun.com                                2003-08
 [Kevin_Teiskoetter]                                       Kevin Teiskoetter                                   mailto:kevint&metacreations.com
 [Kevin_Wellwood]                                          Kevin Wellwood                                      mailto:wellwood&jeol.com                                      2008-04-17
@@ -24007,6 +24016,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Twan_Kamp]                                               Twan Kamp                                           mailto:twan.kamp&signify.com                                  2019-07-31
 [Ty_Ellis]                                                Ty Ellis                                            mailto:tellis&novell.com                                      2006-05
 [Tyba_Design_Limited]                                                                Tyba Design Limited      mailto:info&tyba.co.ik                                        2018-08-24
+[Tyler_Cook]                                              Tyler Cook                                          mailto:tcc&sandpolis.com                                      2019-11-22
 [Tzvika_Chumash]                                          Tzvika Chumash                                      mailto:tzvikac&netvision.net.il
 [UC_Dynamics_LLC]                                                                    UC Dynamics, LLC         mailto:shaun.botha&ucdynamics.com                             2018-01-31
 [Udi_Nir]                                                 Udi Nir                                             mailto:udi_nir&ncc.co.il
