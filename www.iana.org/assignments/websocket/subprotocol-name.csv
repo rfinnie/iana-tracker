@@ -58,3 +58,4 @@ webrtc.softvelum.com,Softvelum WebSocket signaling protocol,"WebRTC live streami
         every specific implementation. Softvelum products will use this subprotocol for 
         signaling.",[Yury_Udovichenko]
 cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant]
+drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown]

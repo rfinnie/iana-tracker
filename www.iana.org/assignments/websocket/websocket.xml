@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="websocket">
   <title>WebSocket Protocol Registries</title>
   <created>2011-10-21</created>
-  <updated>2019-11-14</updated>
+  <updated>2019-12-03</updated>
 
   <registry id="extension-name">
     <title>WebSocket Extension Name Registry</title>
@@ -327,6 +327,12 @@ within a WebRTC data channel.
       <common>Cobra Real Time Messaging Protocol</common>
       <definition><xref type="uri" data="https://machinezone.github.io/cobra/api/"/></definition>
       <xref type="person" data="Benjamin_Sergeant"/>
+    </record>
+    <record date="2019-12-03">
+      <id>drp</id>
+      <common>Declarative Resource Protocol</common>
+      <definition><xref type="uri" data="https://github.com/adhdtech/DRP"/></definition>
+      <xref type="person" data="Pete_Brown"/>
     </record>
   </registry>
 
@@ -716,6 +722,11 @@ within a WebRTC data channel.
       <name>Paul Colomiets</name>
       <uri>mailto:paul&amp;colomiets.name</uri>
       <updated>2017-07-05</updated>
+    </person>
+    <person id="Pete_Brown">
+      <name>Pete Brown</name>
+      <uri>mailto:jpbrown&amp;adhdtech.com</uri>
+      <updated>2019-12-03</updated>
     </person>
     <person id="Randy_Buchholz">
       <name>Randy Buchholz</name>

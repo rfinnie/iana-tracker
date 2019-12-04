@@ -27,6 +27,7 @@ Type Code,Description,Reference
 25,Restart,[RFC8651]
 26,Link Identifier Length,[RFC-ietf-manet-dlep-lid-extension-06]
 27,Link Identifier,[RFC-ietf-manet-dlep-lid-extension-06]
-28-65407,Unassigned,
+28,Latency Range,[RFC-ietf-manet-dlep-latency-extension-05]
+29-65407,Unassigned,
 65408-65534,Reserved for Private Use,[RFC8175]
 65535,Reserved,[RFC8175]
