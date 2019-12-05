@@ -1,7 +1,7 @@
                                                     Hypertext Transfer Protocol (HTTP) Parameters
 
    Last Updated
-           2019-09-04
+           2019-12-02
 
    Available Formats
            [IMG]
@@ -103,6 +103,12 @@ HTTP Preferences
    Reference
            [RFC7240]
 
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7240].
+
+
    Available Formats
            [IMG]
            CSV
@@ -125,12 +131,12 @@ HTTP Preferences
                                             The "depth-noroot" preference indicates that the client wishes for the
                                             server to exclude the target (root) resource from processing by the HTTP
                                             method and only apply the HTTP method to the target resource's
-   depth-noroot                             subordinate resources. This preference is only intended to be used with
+   depth-noroot                             subordinate resources. This preference is only intended to be used with   [RFC8144], Section 4
                                             HTTP methods whose definitions explicitly provide support for the Depth
                                             [RFC4918] header field. Furthermore, this preference only applies when
                                             the Depth header field has a value of "1" or "infinity" (either
                                             implicitly or explicitly).
-   safe                                     Indicates that "safe" / "unobjectionable" content is preferred.           [RFC-nottingham-safe-hint-11]
+   safe                                     Indicates that safe (i.e., unobjectionable) content is preferred.         [RFC-nottingham-safe-hint-11]
 
 HTTP Range Unit Registry
 
