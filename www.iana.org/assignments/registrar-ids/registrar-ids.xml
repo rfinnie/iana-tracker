@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-12-03</updated>
+    <updated>2019-12-05</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -19024,9 +19024,9 @@
             <name>Sksa Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-07-06" updated="2019-08-30">
+        <record date="2016-07-06" updated="2019-12-05">
             <value>3223</value>
-            <name>Xiamen Niucha Technology Co., Ltd</name>
+            <name>Xiamen Booksir Qiyoutong Technology Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://whois.micang.com/</server>

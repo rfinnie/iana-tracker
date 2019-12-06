@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="http-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="http-parameters">
   <title>Hypertext Transfer Protocol (HTTP) Parameters</title>
-  <updated>2019-12-02</updated>
+  <updated>2019-12-06</updated>
 
   <registry id="content-coding">
     <title>HTTP Content Coding Registry</title>
@@ -225,7 +225,7 @@ validation and error handling to the processing of the request.</description>
       <value/>
       <description>Indicates that safe (i.e., unobjectionable) content 
         is preferred.</description>
-	  <spec><xref type="draft" data="RFC-nottingham-safe-hint-11"/></spec>
+	  <spec><xref type="rfc" data="rfc8674"/></spec>
     </record>
   </registry>
   
