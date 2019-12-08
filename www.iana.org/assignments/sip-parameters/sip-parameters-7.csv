@@ -72,4 +72,4 @@ Response Code,Description,Reference
 604,Does Not Exist Anywhere,
 606,Not Acceptable,
 607,Unwanted,[RFC8197]
-608,Rejected,[RFC-ietf-sipcore-rejected-09]
+608,Rejected,[RFC8688]

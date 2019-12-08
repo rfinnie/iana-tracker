@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-11-27</updated>
+    <updated>2019-12-05</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -8805,10 +8805,13 @@
             <name>Aetrion LLC dba DNSimple</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-12-03">
             <value>1731</value>
             <name>TLD Registrar Pty Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://peoplebrowsr.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1732</value>
@@ -14083,10 +14086,13 @@
             <name>EIMS (Shenzhen) Culture &amp; Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2015-05-21" updated="2016-02-08">
+        <record date="2015-05-21" updated="2019-12-03">
             <value>2486</value>
             <name>Ednit Software Private Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record date="2015-05-29" updated="2019-10-23">
             <value>2487</value>
@@ -17425,10 +17431,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record date="2015-09-29" updated="2016-03-08">
+        <record date="2015-09-29" updated="2019-12-03">
             <value>2907</value>
             <name>Zhong Yu Network Technology Company Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://zhongyurdap.com/</server>
+            </rdapurl>
         </record>
         <record date="2015-09-29" updated="2019-08-01">
             <value>2908</value>
@@ -17466,10 +17475,13 @@
             </rdapurl>
         </record>
         
-        <record date="2015-12-16" updated="2019-09-27">
+        <record date="2015-12-16" updated="2019-12-03">
             <value>2915</value>
             <name>Xiamen Xin click Network Group Co.,Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.xmisp.com/</server>
+            </rdapurl>
         </record>
         <record date="2015-12-16" updated="2016-11-03">
             <value>2916</value>
@@ -19012,9 +19024,9 @@
             <name>Sksa Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-07-06" updated="2019-08-30">
+        <record date="2016-07-06" updated="2019-12-05">
             <value>3223</value>
-            <name>Xiamen Niucha Technology Co., Ltd</name>
+            <name>Xiamen Booksir Qiyoutong Technology Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://whois.micang.com/</server>
@@ -23228,10 +23240,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record date="2017-02-21">
+        <record date="2017-02-21" updated="2019-12-03">
             <value>3758</value>
             <name>Hefei Juming Network Technology Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.jumi.com/</server>
+            </rdapurl>
         </record>
         <record date="2017-04-20" updated="2019-07-03">
             <value>3759</value>
@@ -23677,10 +23692,13 @@
             <name>Gmo-Z.Com Runsystem Joint Stock Company</name>
             <status>Accredited</status>
         </record>
-        <record date="2019-11-14">
+        <record date="2019-11-14" updated="2019-12-03">
             <value>3838</value>
             <name>MarkMonitor Information Technology (Shanghai) Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.markmonitor.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2019-03-18">
             <value>3839</value>
