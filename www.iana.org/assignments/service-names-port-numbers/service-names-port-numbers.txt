@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-12-04
+           2019-12-09
 
    Expert(s)
 
@@ -18024,6 +18024,10 @@ omni-bookmark                         OmniWeb                      [The_Omni_Gro
                                       Service for remote control
 omni-live                             of Omnisphere virtual        [Glenn_Olander_2]                                     [Glenn_Olander_2]                                                                                                                                        Defined TXT keys: omni-livetxt.html
                                       instrument
+onenet-info                    tcp    OneNet Application           [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, path
+                                      Information Service
+onenet-pairing                 tcp    OneNet Pairing               [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, id, path
+onenet-pgn                     udp    OneNet PGN Transport Service [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, nmea-name
 openbase                              OpenBase SQL                                                                                                                                                                                                                                Defined TXT keys: None
 opencu                         udp    Conferencing Protocol        [Marc_Manthey_2]                                      [Marc_Manthey_2]                                                                                                                                         Defined TXT keys: None
 openpath                       tcp    Discovery of OpenPath        [OpenPath_Security_Inc]                               [John_Hickey]                                             2018-01-11                                                                                     Defined TXT keys: Proprietary
@@ -22352,7 +22356,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Nathan_Walker]                                           Nathan Walker              Automated Target         mailto:n.walker&autotargets.com                               2015-12-28
                                                                                      Solutions, Inc.
 [National_Instruments]                                                               National Instruments     mailto:joshua.prewitt&ni.com                                  2011-10-24
-[National_Marine_Electronics_Association]                                            National Marine          mailto:sspitzer&nmea.org                                      2011-09-15
+[National_Marine_Electronics_Association]                                            National Marine          mailto:sspitzer&nmea.org                                      2019-12-09
                                                                                      Electronics Association
 [Navneet_Gupta]                                           Navneet Gupta                                       mailto:gupta-navneet&live.com                                 2017-09-05
 [Navtech_Radar_Ltd]                                                                  Navtech Radar            mailto:network.admin&navtechradar.com                         2013-02-20
@@ -23645,6 +23649,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Steven_Pelletier]                                        Steven Pelletier                                    mailto:stevep&availant.com
 [Steven_Ritland]                                          Steven Ritland                                      mailto:srr&us.ibm.com
 [Steven_Sawkins]                                          Steven Sawkins                                      mailto:ssawkins&symantec.com
+[Steven_Spitzer]                                          Steven Spitzer                                      mailto:sspitzer&nmea.org                                      2019-12-09
 [Steven_Sweeting]                                         Steven Sweeting                                     mailto:ssweeting&sls-technology.com                           2008-01-28
 [Steven_Umbehocker]                                       Steven Umbehocker          OS NEXUS, Inc.           mailto:steven.umbehocker&osnexus.com                          2012-09-21
 [Steven_W_Clark]                                          Steven W. Clark                                     mailto:steven.clark&avocent.com
