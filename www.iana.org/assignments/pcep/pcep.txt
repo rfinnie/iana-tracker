@@ -4,7 +4,7 @@
            2008-12-19
 
    Last Updated
-           2019-12-06
+           2019-12-11
 
    Available Formats
            [IMG]
@@ -387,7 +387,7 @@ METRIC Object T Field
      8    P2MP IGP metric                  [RFC8306]
      9    P2MP TE metric                   [RFC8306]
      10   P2MP hop count metric            [RFC8306]
-     11   Segment-ID (SID) Depth.          [RFC-ietf-pce-segment-routing-16]
+     11   Segment-ID (SID) Depth.          [RFC8664]
      12   Path Delay metric                [RFC8233]
      13   Path Delay Variation metric      [RFC8233]
      14   Path Loss metric                 [RFC8233]
@@ -628,29 +628,29 @@ PCEP-ERROR Object Error Types and Values
                                                1: reception of an object with P flag not set although
                                                the P-flag must be set according to this               [RFC5440]
                                                specification.
-                                               2: Bad label value                                     [RFC-ietf-pce-segment-routing-16]
-                                               3: Unsupported number of SR-ERO subobjects             [RFC-ietf-pce-segment-routing-16]
-                                               4: Bad label format                                    [RFC-ietf-pce-segment-routing-16]
-                                               5: ERO mixes SR-ERO subobjects with other subobject    [RFC-ietf-pce-segment-routing-16]
+                                               2: Bad label value                                     [RFC8664]
+                                               3: Unsupported number of SR-ERO subobjects             [RFC8664]
+                                               4: Bad label format                                    [RFC8664]
+                                               5: ERO mixes SR-ERO subobjects with other subobject    [RFC8664]
                                                types
-                                               6: Both SID and NAI are absent in the SR-ERO subobject [RFC-ietf-pce-segment-routing-16]
-                                               7: Both SID and NAI are absent in the SR-RRO subobject [draft-ietf-pce-segment-routing]
+                                               6: Both SID and NAI are absent in the SR-ERO subobject [RFC8664]
+                                               7: Both SID and NAI are absent in the SR-RRO subobject [RFC8664]
                                                8: SYMBOLIC-PATH-NAME TLV missing                      [RFC8281]
-                                               9: MSD exceeds the default for the PCEP session        [RFC-ietf-pce-segment-routing-16]
-                                               10: RRO mixes SR-RRO subobjects with other subobject   [RFC-ietf-pce-segment-routing-16]
+                                               9: MSD exceeds the default for the PCEP session        [RFC8664]
+                                               10: RRO mixes SR-RRO subobjects with other subobject   [RFC8664]
                                                types
                                                11: Malformed object                                   [RFC8408]
-                                               12: Missing PCE-SR-CAPABILITY sub-TLV                  [RFC-ietf-pce-segment-routing-16]
-                                               13: Unsupported NAI Type in the SR-ERO/SR-RRO          [RFC-ietf-pce-segment-routing-16]
+                                               12: Missing PCE-SR-CAPABILITY sub-TLV                  [RFC8664]
+                                               13: Unsupported NAI Type in the SR-ERO/SR-RRO          [RFC8664]
                                                subobject
-                                               14: Unknown SID                                        [RFC-ietf-pce-segment-routing-16]
-                                               15: NAI cannot be resolved to a SID                    [RFC-ietf-pce-segment-routing-16]
-                                               16: Could not find SRGB                                [RFC-ietf-pce-segment-routing-16]
-                                               17: SID index exceeds SRGB size                        [RFC-ietf-pce-segment-routing-16]
-                                               18: Could not find SRLB                                [RFC-ietf-pce-segment-routing-16]
-                                               19: SID index exceeds SRLB size                        [RFC-ietf-pce-segment-routing-16]
-                                               20: Inconsistent SIDs in SR-ERO / SR-RRO subobjects    [RFC-ietf-pce-segment-routing-16]
-                                               21: MSD must be nonzero                                [RFC-ietf-pce-segment-routing-16]
+                                               14: Unknown SID                                        [RFC8664]
+                                               15: NAI cannot be resolved to a SID                    [RFC8664]
+                                               16: Could not find SRGB                                [RFC8664]
+                                               17: SID index exceeds SRGB size                        [RFC8664]
+                                               18: Could not find SRLB                                [RFC8664]
+                                               19: SID index exceeds SRLB size                        [RFC8664]
+                                               20: Inconsistent SIDs in SR-ERO / SR-RRO subobjects    [RFC8664]
+                                               21: MSD must be nonzero                                [RFC8664]
                                                22: Mismatch of O field in S2LS and LSP object         [RFC8623]
                                                23: Incompatible OF codes in H-PCE                     [RFC-ietf-pce-hierarchy-extensions-11]
                                                24-255: Unassigned
@@ -1013,7 +1013,7 @@ PCEP TLV Type Indicators
        23      LSP-DB-VERSION                        [RFC8232]
        24      SPEAKER-ENTITY-ID                     [RFC8232]
        25      Unassigned
-       26      SR-PCE-CAPABILITY (deprecated)        [RFC-ietf-pce-segment-routing-16]
+       26      SR-PCE-CAPABILITY (deprecated)        [RFC8664]
        27      Unassigned
        28      PATH-SETUP-TYPE                       [RFC8408]
        29      Operator-configured Association Range [RFC-ietf-pce-association-group-10]
@@ -1280,9 +1280,9 @@ PCEP Path Setup Types
            [IMG]
            CSV
 
-   Value                        Description                                    Reference
+   Value                        Description                        Reference
      0   Path is set up using the RSVP-TE signaling protocol       [RFC8408]
-     1   Traffic-engineering path is set up using Segment Routing. [RFC-ietf-pce-segment-routing-16]
+     1   Traffic-engineering path is set up using Segment Routing. [RFC8664]
    2-255 Unassigned
 
 PCEP SR-ERO NAI Types
@@ -1292,20 +1292,20 @@ PCEP SR-ERO NAI Types
  IETF Review
 
    Reference
-           [RFC-ietf-pce-segment-routing-16]
+           [RFC8664]
 
    Available Formats
            [IMG]
            CSV
 
-   Value                       Description                                    Reference
-     0   NAI is absent.                                           [RFC-ietf-pce-segment-routing-16]
-     1   NAI is an IPv4 node ID.                                  [RFC-ietf-pce-segment-routing-16]
-     2   NAI is an IPv6 node ID.                                  [RFC-ietf-pce-segment-routing-16]
-     3   NAI is an IPv4 adjacency.                                [RFC-ietf-pce-segment-routing-16]
-     4   NAI is an IPv6 adjacency with global IPv6 addresses.     [RFC-ietf-pce-segment-routing-16]
-     5   NAI is an unnumbered adjacency with IPv4 node IDs.       [RFC-ietf-pce-segment-routing-16]
-     6   NAI is an IPv6 adjacency with link-local IPv6 addresses. [RFC-ietf-pce-segment-routing-16]
+   Value                       Description                        Reference
+     0   NAI is absent.                                           [RFC8664]
+     1   NAI is an IPv4 node ID.                                  [RFC8664]
+     2   NAI is an IPv6 node ID.                                  [RFC8664]
+     3   NAI is an IPv4 adjacency.                                [RFC8664]
+     4   NAI is an IPv6 adjacency with global IPv6 addresses.     [RFC8664]
+     5   NAI is an unnumbered adjacency with IPv4 node IDs.       [RFC8664]
+     6   NAI is an IPv6 adjacency with link-local IPv6 addresses. [RFC8664]
    7-15  Unassigned
 
 SR-ERO Flag Field
@@ -1315,18 +1315,18 @@ SR-ERO Flag Field
  Standards Action
 
    Reference
-           [RFC-ietf-pce-segment-routing-16]
+           [RFC8664]
 
    Available Formats
            [IMG]
            CSV
 
-   Bit                          Description                                      Reference
+   Bit                          Description                          Reference
    0-7 Unassigned
-    8  NAI is absent (F)                                             [RFC-ietf-pce-segment-routing-16]
-    9  SID is absent (S)                                             [RFC-ietf-pce-segment-routing-16]
-   10  SID specifies TC, S, and TTL in addition to an MPLS label (C) [RFC-ietf-pce-segment-routing-16]
-   11  SID specifies an MPLS label (M)                               [RFC-ietf-pce-segment-routing-16]
+    8  NAI is absent (F)                                             [RFC8664]
+    9  SID is absent (S)                                             [RFC8664]
+   10  SID specifies TC, S, and TTL in addition to an MPLS label (C) [RFC8664]
+   11  SID specifies an MPLS label (M)                               [RFC8664]
 
 PATH-SETUP-TYPE-CAPABILITY Sub-TLV Type Indicators
 
@@ -1335,16 +1335,16 @@ PATH-SETUP-TYPE-CAPABILITY Sub-TLV Type Indicators
  Standards Action
 
    Reference
-           [RFC-ietf-pce-segment-routing-16]
+           [RFC8664]
 
    Available Formats
            [IMG]
            CSV
 
-    Value        Meaning                  Reference
-      0     Reserved          [RFC-ietf-pce-segment-routing-16]
+    Value        Meaning      Reference
+      0     Reserved          [RFC8664]
      1-25   Unassigned
-      26    SR-PCE-CAPABILITY [RFC-ietf-pce-segment-routing-16]
+      26    SR-PCE-CAPABILITY [RFC8664]
    27-65535 Unassigned
 
 SR Capability Flag Field
@@ -1354,16 +1354,16 @@ SR Capability Flag Field
  Standards Action
 
    Reference
-           [RFC-ietf-pce-segment-routing-16]
+           [RFC8664]
 
    Available Formats
            [IMG]
            CSV
 
-   Bit                     Description                                 Reference
+   Bit                     Description                     Reference
    0-5 Unassigned
-    6  Node or Adjacency Identifier (NAI) is supported (N) [RFC-ietf-pce-segment-routing-16]
-    7  Unlimited Maximum SID Depth (X)                     [RFC-ietf-pce-segment-routing-16]
+    6  Node or Adjacency Identifier (NAI) is supported (N) [RFC8664]
+    7  Unlimited Maximum SID Depth (X)                     [RFC8664]
 
 WA Object Flag Field
 

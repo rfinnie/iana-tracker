@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2019-12-09</updated>
+  <updated>2019-12-11</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -322,7 +322,7 @@ Network Service (ISO 8473)", International Standard 10589:
       <SNP>n</SNP>
       <purge>n</purge>
       <status>
-        <xref type="draft" data="RFC-ietf-isis-l2bundles-07"/>
+        <xref type="rfc" data="rfc8668"/>
       </status>
     </record>
     <record>
@@ -898,7 +898,7 @@ Network Service (ISO 8473)", International Standard 10589:
     <xref type="rfc" data="rfc5305"/>
     <xref type="rfc" data="rfc5316"/>
     <xref type="rfc" data="rfc7370"/>
-    <xref type="draft" data="RFC-ietf-isis-l2bundles-07"/>
+    <xref type="rfc" data="rfc8668"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
     <note>Allocations within this registry require documentation of the use of
@@ -1325,7 +1325,7 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_141>n</TLV_141>
       <TLV_222>n</TLV_222>
       <TLV_223>n</TLV_223>
-      <xref type="draft" data="RFC-ietf-isis-l2bundles-07"/>
+      <xref type="rfc" data="rfc8668"/>
     </record>
     <record date="2017-05-26" updated="2017-05-30">
       <value>42</value>
@@ -1336,7 +1336,7 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_141>n</TLV_141>
       <TLV_222>n</TLV_222>
       <TLV_223>n</TLV_223>
-      <xref type="draft" data="RFC-ietf-isis-l2bundles-07"/>
+      <xref type="rfc" data="rfc8668"/>
     </record>
     <record>
       <value>43-249</value>

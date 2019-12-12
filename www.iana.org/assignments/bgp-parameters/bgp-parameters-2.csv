@@ -39,7 +39,7 @@ Work in progress, March 1996.][RFC6938]"
 35,"Internal Only To Customer (TEMPORARY - registered 2018-03-29, extension registered 2019-03-18, expires 2020-03-29)",[draft-ietf-idr-bgp-open-policy]
 36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, expires 2020-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking]
 37-39,Unassigned,
-40,BGP Prefix-SID,[RFC-ietf-idr-bgp-prefix-sid-27]
+40,BGP Prefix-SID,[RFC8669]
 41-127,Unassigned,
 128,ATTR_SET,[RFC6368]
 129,Deprecated,[RFC8093]
