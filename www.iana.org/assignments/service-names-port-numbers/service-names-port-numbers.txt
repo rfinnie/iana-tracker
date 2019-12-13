@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-12-09
+           2019-12-12
 
    Expert(s)
 
@@ -9245,8 +9245,8 @@ lanrevserver       3971        tcp    LANrev Server                [Martin_Bestm
 lanrevserver       3971        udp    LANrev Server                [Martin_Bestmann_3]                                   [Martin_Bestmann_3]                                       2005-08
 iconp              3972        tcp    ict-control Protocol         [Roel_Harbers]                                        [Roel_Harbers]                                            2005-08
 iconp              3972        udp    ict-control Protocol         [Roel_Harbers]                                        [Roel_Harbers]                                            2005-08
-progistics         3973        tcp    ConnectShip Progistics       [Jeff_Skaistis]                                       [Jeff_Skaistis]                                           2005-08
-progistics         3973        udp    ConnectShip Progistics       [Jeff_Skaistis]                                       [Jeff_Skaistis]                                           2005-08
+progistics         3973        tcp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
+progistics         3973        udp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
 citysearch         3974        tcp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
                                       Service
 citysearch         3974        udp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
@@ -19691,6 +19691,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Comtech]                                                                            Comtech                  mailto:njeffords&comtechefdata.com                            2014-01-23
 [Conceptworld_Corporation]                                                           Conceptworld Corporation mailto:admin&conceptworld.com                                 2013-08-20
 [cone_smart_solution]                                                                cone smart solution      mailto:office&cone.at                                         2019-04-22
+[ConnectShip_Inc]                                                                    ConnectShip, Inc.        mailto:ConnectShipIT&connectship.com                          2019-12-12
 [Connie_Qiu]                                              Connie Qiu                                          mailto:connie&scdb.com
 [Conny_Larsson]                                           Conny Larsson                                       mailto:cocke&vnet.ibm.com
 [Control_Technology_Inc]                                                             Control Technology Inc.  mailto:ceskew&controltechnology.com                           2011-10-28
@@ -21062,7 +21063,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Jeff_Moffatt]                                            Jeff Moffatt                                        mailto:jeff&taurus.com
 [Jeff_Roberts]                                            Jeff Roberts                                        mailto:jroberts&microsoft.com                                 2005-11
 [Jeff_Rosenthal]                                          Jeff Rosenthal                                      mailto:jrosenthal&quad-sys.com
-[Jeff_Skaistis]                                           Jeff Skaistis                                       mailto:jskaistis&connectship.com                              2005-08
 [Jeff_Stewart]                                            Jeff Stewart                                        mailto:jstewart&netscape.com
 [Jeff_Wamsley]                                            Jeff Wamsley               gocso.net                mailto:jeffw&gocso.net                                        2013-09-04
 [Jeff_Wood]                                               Jeff Wood                                           mailto:jw&cqg.com
@@ -23083,6 +23083,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Robert_J_Scott]                                          Robert J. Scott                                     mailto:rob&hpcmo.hpc.mil                                      2005-08
 [Robert_John_Churchil]                                    Robert John Churchill                               mailto:rjc&rjcdb.com                                          2006-01
 [Robert_Kevin_Breton]                                     Robert Kevin Breton                                 mailto:BOBBRETON&hotmail.com
+[Robert_Kinyon]                                           Robert Kinyon                                       mailto:rkinyon&connectship.com                                2019-12-12
 [Robert_M_Mackowiak]                                      Robert M. Mackowiak                                 mailto:rmackowiak&quest.com                                   2002-02
 [Robert_M_Moore]                                          Robert M. Moore                                     mailto:robert.moore&tunstall.co.uk
 [Robert_Marinelli]                                        Robert Marinelli                                    mailto:bob&sychron.com                                        2003-03

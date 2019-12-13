@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ikev2-parameters">
   <title>Internet Key Exchange Version 2 (IKEv2) Parameters</title>
   <created>2005-01-18</created>
-  <updated>2019-11-08</updated>
+  <updated>2019-12-12</updated>
   
   
   
@@ -59,7 +59,16 @@
       <xref type="draft" data="draft-yeung-g-ikev2"/>
     </record>
     <record>
-      <value>42-239</value>
+      <value>42</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2019-12-12">
+      <value>43</value>
+      <description>IKE_INTERMEDIATE</description>
+      <xref type="draft" data="draft-ietf-ipsecme-ikev2-intermediate"/>
+    </record>
+    <record>
+      <value>44-239</value>
       <description>Unassigned</description>
     </record>
     <record>
@@ -1733,8 +1742,13 @@ methods, see <xref type="rfc" data="rfc8247"/>.
       <description>NO_PPK_AUTH</description>
       <xref type="draft" data="draft-ietf-ipsecme-qr-ikev2"/>
     </record>
+    <record date="2019-12-12">
+      <value>16438</value>
+      <description>INTERMEDIATE_EXCHANGE_SUPPORTED</description>
+      <xref type="draft" data="draft-ietf-ipsecme-ikev2-intermediate"/>
+    </record>
     <record>
-      <value>16438-40959</value>
+      <value>16439-40959</value>
       <description>Unassigned</description>
     </record>
     <record>
