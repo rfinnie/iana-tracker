@@ -91,4 +91,4 @@ scope,Scope Values,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.2]"
 client_id,Client Identifier,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.3]"
 may_act,"Authorized Actor - the party that is authorized
         to become the actor",[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.4]"
-jcard,jCard data,[IESG],[RFC-ietf-sipcore-rejected-09][RFC7095]
+jcard,jCard data,[IESG],[RFC8688][RFC7095]

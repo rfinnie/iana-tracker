@@ -7,6 +7,7 @@ Value,Name,Reference
 0x05,"""unsupported-attributes-tag""",[RFC8010]
 0x06,"""subscription-attributes-tag""",[RFC3995]
 0x07,"""event-notification-attributes-tag""",[RFC3995]
-0x08,Reserved (ipp-get-resources),
+0x08,resource-attributes-tag,
 0x09,document-attributes-tag,[PWG5100.5]
-0x0A-0x0F,Unassigned,
+0x0A,system-attributes-tag,[PWG5100.22]
+0x000b-0x0F,Unassigned,
