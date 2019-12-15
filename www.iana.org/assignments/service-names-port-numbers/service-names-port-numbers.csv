@@ -8139,8 +8139,8 @@ lanrevserver,3971,tcp,LANrev Server,[Martin_Bestmann_3],[Martin_Bestmann_3],2005
 lanrevserver,3971,udp,LANrev Server,[Martin_Bestmann_3],[Martin_Bestmann_3],2005-08,,,,,
 iconp,3972,tcp,ict-control Protocol,[Roel_Harbers],[Roel_Harbers],2005-08,,,,,
 iconp,3972,udp,ict-control Protocol,[Roel_Harbers],[Roel_Harbers],2005-08,,,,,
-progistics,3973,tcp,ConnectShip Progistics,[Jeff_Skaistis],[Jeff_Skaistis],2005-08,,,,,
-progistics,3973,udp,ConnectShip Progistics,[Jeff_Skaistis],[Jeff_Skaistis],2005-08,,,,,
+progistics,3973,tcp,ConnectShip Progistics,[ConnectShip_Inc],[Robert_Kinyon],2005-08,2019-12-12,,,,
+progistics,3973,udp,ConnectShip Progistics,[ConnectShip_Inc],[Robert_Kinyon],2005-08,2019-12-12,,,,
 citysearch,3974,tcp,Remote Applicant Tracking Service,[Marc_Castelluccio],[Marc_Castelluccio],2005-08,,,,,
 citysearch,3974,udp,Remote Applicant Tracking Service,[Marc_Castelluccio],[Marc_Castelluccio],2005-08,,,,,
 airshot,3975,tcp,Air Shot,[Shingo_Kimura],[Shingo_Kimura],2005-08,,,,,
@@ -11335,7 +11335,7 @@ fodms,7200,udp,FODMS FLIP,[David_Anthony],[David_Anthony],,,,,,
 dlip,7201,tcp,DLIP,[Albert_Manfredi],[Albert_Manfredi],,,,,,
 dlip,7201,udp,DLIP,[Albert_Manfredi],[Albert_Manfredi],,,,,,
 pon-ictp,7202,tcp,"Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON
-    (Passive Optical Network) systems",[Broadband_Forum_2],[William_Lupton],2017-02-22,,"[TR-352][Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
+    (Passive Optical Network) systems",[Broadband_Forum],[Broadband_Forum],2017-02-22,2019-12-13,"[TR-352][Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
       comprising a 40-Gigabit-capable next-generation passive optical network (NG-PON2) system to
       exchange channel profile configuration and status information and to coordinate the operation of tunable 
@@ -11485,8 +11485,8 @@ nta-us,7545,tcp,FlowAnalyzer UtilityServer,[Fred_Messinger],[Fred_Messinger],,,,
 nta-us,7545,udp,FlowAnalyzer UtilityServer,[Fred_Messinger],[Fred_Messinger],,,,,,
 cfs,7546,tcp,Cisco Fabric service,[Rituparna_Agrawal],[Rituparna_Agrawal],2005-09,,,,,
 cfs,7546,udp,Cisco Fabric service,[Rituparna_Agrawal],[Rituparna_Agrawal],2005-09,,,,,
-cwmp,7547,tcp,DSL Forum CWMP,[Anton_Okmianski],[Anton_Okmianski],2006-01,,,,,
-cwmp,7547,udp,DSL Forum CWMP,[Anton_Okmianski],[Anton_Okmianski],2006-01,,,,,
+cwmp,7547,tcp,Broadband Forum CWMP,[Broadband_Forum],[Broadband_Forum],2006-01,2019-12-13,,,,
+cwmp,7547,udp,Broadband Forum CWMP,[Broadband_Forum],[Broadband_Forum],2006-01,2019-12-13,,,,
 tidp,7548,tcp,Threat Information Distribution Protocol,[Chui_Tin_Yen],[Chui_Tin_Yen],2006-02,,,,,
 tidp,7548,udp,Threat Information Distribution Protocol,[Chui_Tin_Yen],[Chui_Tin_Yen],2006-02,,,,,
 nls-tl,7549,tcp,Network Layer Signaling Transport Layer,[Melinda_Shore],[Melinda_Shore],2006-05,,,,,
@@ -15004,6 +15004,9 @@ oma-bcast-sg,,,OMA BCAST Service Guide Discovery Service,[Stefan_Ekenberg],[Stef
 omadm-bootstrap,,tcp,Open Mobile Alliance (OMA) Device Management (DM) Bootstrap Server Discovery Service,[Open_Mobile_Alliance],[Open_Mobile_Alliance_Device_Management_DM_Working_Group],2011-08-19,,,,,Defined TXT keys: None
 omni-bookmark,,,OmniWeb,[The_Omni_Group],[The_Omni_Group],,,,,,Defined TXT keys: None
 omni-live,,,Service for remote control of Omnisphere virtual instrument,[Glenn_Olander_2],[Glenn_Olander_2],,,,,,Defined TXT keys: omni-livetxt.html
+onenet-info,,tcp,OneNet Application Information Service,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, path"
+onenet-pairing,,tcp,OneNet Pairing,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, id, path"
+onenet-pgn,,udp,OneNet PGN Transport Service,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, nmea-name"
 openbase,,,OpenBase SQL,,,,,,,,Defined TXT keys: None
 opencu,,udp,Conferencing Protocol,[Marc_Manthey_2],[Marc_Manthey_2],,,,,,Defined TXT keys: None
 openpath,,tcp,Discovery of OpenPath appliances,[OpenPath_Security_Inc],[John_Hickey],2018-01-11,,,,,Defined TXT keys: Proprietary

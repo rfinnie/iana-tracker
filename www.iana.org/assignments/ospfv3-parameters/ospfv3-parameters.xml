@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv3-parameters">
   <title>Open Shortest Path First v3 (OSPFv3) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2019-11-05</updated>
+  <updated>2019-12-09</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-dd-packet-flags/ospf-dd-packet-flags.xml"/>
     <xref type="uri" data="http://www.iana.org/assignments/ospf-lls-tlvs"/>
@@ -539,7 +539,7 @@ applications other than the support of multiple address families.</note>
     <record date="2018-02-05" updated="2019-01-16">
       <value>9</value>
       <description>OSPFv3 Extended Prefix Range TLV</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv3-segment-routing-extensions-23"/>
+      <xref type="rfc" data="rfc8666"/>
     </record>
     <record>
       <value>10-32767</value>
@@ -595,22 +595,22 @@ applications other than the support of multiple address families.</note>
     <record date="2018-02-05" updated="2019-01-16">
       <value>4</value>
       <description>Prefix SID sub-TLV</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv3-segment-routing-extensions-23"/>
+      <xref type="rfc" data="rfc8666"/>
     </record>
     <record date="2018-02-05" updated="2019-01-16">
       <value>5</value>
       <description>Adj-SID sub-TLV</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv3-segment-routing-extensions-23"/>
+      <xref type="rfc" data="rfc8666"/>
     </record>
     <record date="2018-02-05" updated="2019-01-16">
       <value>6</value>
       <description>LAN Adj-SID sub-TLV</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv3-segment-routing-extensions-23"/>
+      <xref type="rfc" data="rfc8666"/>
     </record>
     <record date="2018-02-05" updated="2019-01-16">
       <value>7</value>
       <description>SID/Label sub-TLV</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv3-segment-routing-extensions-23"/>
+      <xref type="rfc" data="rfc8666"/>
     </record>
     <record date="2018-04-13">
       <value>8</value>

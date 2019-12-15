@@ -4,14 +4,14 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-12-04</updated>
+  <updated>2019-12-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
 SCTP: Allison Mankin and Michael Tuexen
 DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
   <note>
-Service names and port numbers are used to distinguish between different
+Service names and portl numbers are used to distinguish between different
 services that run over transport protocols such as TCP, UDP, DCCP, and
 SCTP.
 
@@ -52246,19 +52246,25 @@ common service discovery mechanisms.</note>
     <description>ict-control Protocol</description>
     <number>3972</number>
   </record>
-  <record date="2005-08">
+  <record date="2005-08" updated="2019-12-12">
     <name>progistics</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Jeff_Skaistis"/>
+    <assignee>
+      <xref type="person" data="ConnectShip_Inc"/>
+    </assignee>
     <description>ConnectShip Progistics</description>
     <number>3973</number>
+	<xref type="person" data="Robert_Kinyon"/>
   </record>
-  <record date="2005-08">
+  <record date="2005-08" updated="2019-12-12">
     <name>progistics</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Jeff_Skaistis"/>
+    <assignee>
+      <xref type="person" data="ConnectShip_Inc"/>
+    </assignee>
     <description>ConnectShip Progistics</description>
     <number>3973</number>
+	<xref type="person" data="Robert_Kinyon"/>
   </record>
   <record date="2005-08">
     <name>citysearch</name>
@@ -71783,16 +71789,16 @@ common service discovery mechanisms.</note>
     <description>DLIP</description>
     <number>7201</number>
   </record>
-  <record date="2017-02-22">
+  <record date="2017-02-22" updated="2019-12-13">
     <name>pon-ictp</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Broadband_Forum_2"/>
+      <xref type="person" data="Broadband_Forum"/>
     </assignee>
     <description>Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON
     (Passive Optical Network) systems</description>
     <number>7202</number>
-    <xref type="person" data="William_Lupton"/>
+    <xref type="person" data="Broadband_Forum"/>
     <xref type="text">TR-352</xref>
     <xref type="text">Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
@@ -72770,18 +72776,24 @@ common service discovery mechanisms.</note>
     <description>Cisco Fabric service</description>
     <number>7546</number>
   </record>
-  <record date="2006-01">
+  <record date="2006-01" updated="2019-12-13">
     <name>cwmp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Anton_Okmianski"/>
-    <description>DSL Forum CWMP</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <xref type="person" data="Broadband_Forum"/>
+    <description>Broadband Forum CWMP</description>
     <number>7547</number>
   </record>
-  <record date="2006-01">
+  <record date="2006-01" updated="2019-12-13">
     <name>cwmp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Anton_Okmianski"/>
-    <description>DSL Forum CWMP</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <xref type="person" data="Broadband_Forum"/>
+    <description>Broadband Forum CWMP</description>
     <number>7547</number>
   </record>
   <record date="2006-02">
@@ -94899,6 +94911,36 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: omni-livetxt.html</note>
     <xref type="person" data="Glenn_Olander_2"/>
   </record>
+  <record date="2019-12-09">
+    <name>onenet-info</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet Application Information Service</description>
+    <note>Defined TXT keys: txtvers, protovers, path</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
+  <record date="2019-12-09">
+    <name>onenet-pairing</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet Pairing</description>
+    <note>Defined TXT keys: txtvers, protovers, id, path</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
+  <record date="2019-12-09">
+    <name>onenet-pgn</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet PGN Transport Service</description>
+      <note>Defined TXT keys: txtvers, protovers, nmea-name</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
   <record>
     <name>openbase</name>
     <description>OpenBase SQL</description>
@@ -96967,6 +97009,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-coap</name>
     <protocol>udp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -96975,6 +97020,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-http</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -96983,6 +97031,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-stomp</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -96991,6 +97042,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-ws</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -96999,6 +97053,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-coap</name>
     <protocol>udp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97007,6 +97064,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-http</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97015,6 +97075,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-stomp</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97023,6 +97086,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-ws</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -99112,11 +99178,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Anton Kucer</name>
       <uri>mailto:akucer&amp;microsoft.com</uri>
     </person>
-    <person id="Anton_Okmianski">
-      <name>Anton Okmianski</name>
-      <uri>mailto:aokmians&amp;cisco.com</uri>
-      <updated>2006-01</updated>
-    </person>
     <person id="Antoni_Wolski">
       <name>Antoni Wolski</name>
       <uri>mailto:antoni.wolski&amp;vtt.fi</uri>
@@ -100560,14 +100621,9 @@ implementations.  See RFC 3692 for details.</footnote>
       <updated>2006-08</updated>
     </person>
     <person id="Broadband_Forum">
-      <name>Broadband Forum</name>
-      <uri>mailto:info&amp;broadband-forum.org</uri>
-      <updated>2017-09-28</updated>
-    </person>
-    <person id="Broadband_Forum_2">
       <org>Broadband Forum</org>
       <uri>mailto:help&amp;broadband-forum.org</uri>
-      <updated>2017-02-22</updated>
+      <updated>2019-12-13</updated>
     </person>
     <person id="Brocade_Communications_Systems">
       <name>Brocade Communications Systems</name>
@@ -102005,6 +102061,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>cone smart solution</org>
       <uri>mailto:office&amp;cone.at</uri>
       <updated>2019-04-22</updated>
+    </person>
+    <person id="ConnectShip_Inc">
+      <org>ConnectShip, Inc.</org>
+      <uri>mailto:ConnectShipIT&amp;connectship.com</uri>
+      <updated>2019-12-12</updated>
     </person>
     <person id="Connie_Qiu">
       <name>Connie Qiu</name>
@@ -108078,11 +108139,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jeff Rosenthal</name>
       <uri>mailto:jrosenthal&amp;quad-sys.com</uri>
     </person>
-    <person id="Jeff_Skaistis">
-      <name>Jeff Skaistis</name>
-      <uri>mailto:jskaistis&amp;connectship.com</uri>
-      <updated>2005-08</updated>
-    </person>
     <person id="Jeff_Stewart">
       <name>Jeff Stewart</name>
       <uri>mailto:jstewart&amp;netscape.com</uri>
@@ -113809,7 +113865,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="National_Marine_Electronics_Association">
       <org>National Marine Electronics Association</org>
       <uri>mailto:sspitzer&amp;nmea.org</uri>
-      <updated>2011-09-15</updated>
+      <updated>2019-12-09</updated>
     </person>
     <person id="Navneet_Gupta">
       <name>Navneet Gupta</name>
@@ -116997,6 +117053,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Robert Kevin Breton</name>
       <uri>mailto:BOBBRETON&amp;hotmail.com</uri>
     </person>
+    <person id="Robert_Kinyon">
+      <name>Robert Kinyon</name>
+      <uri>mailto:rkinyon&amp;connectship.com</uri>
+      <updated>2019-12-12</updated>
+    </person>
     <person id="Robert_M_Mackowiak">
       <name>Robert M. Mackowiak</name>
       <uri>mailto:rmackowiak&amp;quest.com</uri>
@@ -119477,6 +119538,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steven Sawkins</name>
       <uri>mailto:ssawkins&amp;symantec.com</uri>
     </person>
+    <person id="Steven_Spitzer">
+      <name>Steven Spitzer</name>
+      <uri>mailto:sspitzer&amp;nmea.org</uri>
+      <updated>2019-12-09</updated>
+    </person>
     <person id="Steven_Sweeting">
       <name>Steven Sweeting</name>
       <uri>mailto:ssweeting&amp;sls-technology.com</uri>
@@ -121830,11 +121896,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>William LePera</name>
       <uri>mailto:lepera&amp;us.ibm.com</uri>
       <updated>2008-06-18</updated>
-    </person>
-    <person id="William_Lupton">
-      <name>William Lupton</name>
-      <uri>mailto:wlupton&amp;broadband-forum.org</uri>
-      <updated>2017-02-22</updated>
     </person>
     <person id="William_McDonald">
       <name>William McDonald</name>

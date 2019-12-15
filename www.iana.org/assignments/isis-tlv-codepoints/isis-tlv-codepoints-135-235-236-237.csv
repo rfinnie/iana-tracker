@@ -2,7 +2,7 @@ Type,Description,135,235,236,237,Reference
 0,Unassigned,,,,,
 1,32-bit Administrative Tag Sub-TLV,y,y,y,y,[RFC5130]
 2,64-bit Administrative Tag Sub-TLV,y,y,y,y,[RFC5130]
-3,Prefix Segment Identifier,y,y,y,y,[RFC-ietf-isis-segment-routing-extensions-25]
+3,Prefix Segment Identifier,y,y,y,y,[RFC8667]
 4,Prefix Attribute Flags,y,y,y,y,[RFC7794]
 5,Unassigned,,,,,
 6,"Flex-Algorithm Prefix Metric 

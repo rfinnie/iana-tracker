@@ -1,6 +1,6 @@
 PRIVATE ENTERPRISE NUMBERS
 
-(last updated 2019-11-30)
+(last updated 2019-12-13)
 
 SMI Network Management Private Enterprise Codes:
 
@@ -12422,9 +12422,9 @@ Decimal
     JeoungHyun Lee
       jhlee&innet.co.kr
 3104
-  Thales Communications GmbH
+  Thales Deutschland GmbH
     Bernhard Nowara
-      Bernhard.Nowara&de.thalesgroup.com
+       Bernhard.Nowara&thalesgroup.com
 3105
   Vodafone Sweden
     Per Assarsson
@@ -19746,9 +19746,9 @@ Decimal
     Terry McFadden
       timmer.wd&pg.com
 4940
-  Convergent Communications Services, Inc.
-    Bruce Findleton
-      bruce.findleton&converg.com
+  Converg Media
+    Shane Kinsch
+      shane.kinsch&converg.com
 4941
   Echelon Corporation
     Chris Stanfield
@@ -27238,9 +27238,9 @@ Decimal
     Yaniv Azriel
       yaniv&mentasoftware.com
 6821
-  TELECOM Lille1 (formerly 'ENIC')
+  IMT Lille Douai (formerly TELECOM Lille)
     Jacques Landru
-      landru&telecom-lille1.eu
+      jacques.landru&imt-lille-douai.fr
 6822
   University of Cambridge, Card Office
     Nadine Larrington
@@ -38538,9 +38538,9 @@ Decimal
     Jeff Courtade
       jeff&courtade.net
 9646
-  Cybectec
-    Patrick Cossette
-      pcossette&cybectec.com
+  Eaton - Cooper Industries (Electrical) Inc. (formerly 'Cybectec')
+    Remi Dutil
+      remidutil&eaton.com
 9647
   EWIP
     Marius Costeschi
@@ -53555,8 +53555,8 @@ Decimal
       g.callipo&lineargruppo.it
 13500
   MPL AG
-    Stefan Peter
-      s.peter&mpl.ch
+    MPL NOC
+      noc&mpl.ch
 13501
   Nexstar Financial Corporation
     Douglas E. Lecy
@@ -57152,7 +57152,7 @@ Decimal
 14399
   NEC Platforms, Ltd.
     Shinsuke Shiota
-      shiotas&pb.jp.nec.com
+      shiotas-pb&nec.com
 14400
   VentureTechs Corp.
     Miles Zhou
@@ -114098,9 +114098,9 @@ Decimal
     Rogerio Valentim Pereira
       rogerio&phb.com.br
 28637
-  DANSUPPORT
+  Itadel (formerly 'DANSUPPORT')
     Torben Petersen Egmose
-      tpe&dansupport.dk
+      tpe&itadel.dk
 28638
   Bellomy Research, Inc.
     Matt Gullett
@@ -120799,8 +120799,8 @@ Decimal
       jim.halpin&cartizanetworks.com
 30312
   educagri
-    khalid.farrahe
-      khalid.farrahe&educagri.fr
+    Mickaël COUTRON
+      mickael.coutron&agrosupdijon.fr
 30313
   Indanet AG
     Fabian Huegle
@@ -165423,8 +165423,8 @@ Decimal
       woixwj&hotmail.com
 41468
   Zakład Ubezpieczeń Społecznych
-    Piotr Gembala
-      gembalap&zus.pl
+    Ernest Kozłowski
+      ernest.kozlowski&zus.pl
 41469
   Lactalis Danmark
     Andreas Sobczyk
@@ -171574,7 +171574,7 @@ Decimal
     Łukasz Dobosiewicz
       lukasz.dobosiewicz&utp.edu.pl
 43006
-  root-a.net
+  root-a
     Kukharev Vitaly
       postmaster&root-a.net
 43007
@@ -174635,8 +174635,8 @@ Decimal
       jiri.kubias&addat.cz
 43771
   Behlman Electronics
-    Heather Savage
-      hsavage&behlman.com
+    David Gash
+      dgash&behlman.com
 43772
   K+S IT-Services GmbH
     Regina Böhm
@@ -188766,8 +188766,8 @@ Decimal
     Mahadi Siregar
       regar.016&gmail.com
 47304
-  Ivnosys Soluciones S.L.
-    Jose Biosca
+  Ivnosys Soluciones S.L.U.
+    Rubén Curiel
       sistemas&ivnosys.com
 47305
   FoxGuard Solutions
@@ -219329,6 +219329,198 @@ Decimal
   evolutionQ
     Geovandro Pereira
       geovandro.pereira&evolutionq.com
+54945
+  Yaskawa Solectria Solar
+    Aegir Jonsson
+      aegir.jonsson&solectria.com
+54946
+  Horizon Energy Group
+    Kevin Clark
+      Kevin.Clark&hegroup.nz
+54947
+  QuantiCor Security GmbH
+    Rachid El Bansarkhani
+      info&quanticor-security.de
+54948
+  Tielen Consultancy
+    Jeroen Tielen
+      jeroen&tielenconsultancy.nl
+54949
+  MPS Service
+    Felipe Amaral
+      felipeamaral&mpsservice.com.br
+54950
+  Lifetrack Radiology Systems
+    Brendan Rees
+      brendan.rees&lifetrackmed.com
+54951
+  The Ferguson Group
+    Joe Ferguson
+      ferguson&hm-cs.com
+54952
+  High Mountain Computer Services
+    Joe Ferguson
+      dnsadmin&hm-cs.com
+54953
+  Opgal Optronic Industries Ltd.
+    Oded Tubias
+      oded.t&opgal.com
+54954
+  IT LEARNING SLOVAKIA, s. r. o.
+    Michal Dobsovic
+      dobsovic&itlearning.sk
+54955
+  Coast Appliances
+    Support
+      support&coastappliances.com
+54956
+  Marais Consulting Limited
+    Francois Marais
+      francois&marais.co.nz
+54957
+  Sesto Sp z o.o.
+    Tadeusz Baranczyk
+      snmp&sesto.pl
+54958
+  Simpleway Holding a.s.
+    Matej Zachar
+      mzachar&simpleway.cz
+54959
+  ALKU
+    Patrick van den Akker
+      ict&alkugroep.nl
+54960
+  Wrigleys Solicitors LLP
+    Gavin Brining
+      itmanager&wrigleys.co.uk
+54961
+  Spectrum Enterprise
+    Mark Flynn
+      mark.flynn&charter.com
+54962
+  ManTech
+    John DeVight
+      John.DeVight&ManTech.com
+54963
+  The Pinnacle Group
+    Lynn Osburn
+      losburn&thepinnaclegroup.com
+54964
+  Sina Communication Systems
+    Hasan Hasani
+      pen-contact&sinacomsys.com
+54965
+  Hamilton Medical AG
+    Daniel Bombis
+      dbombis&hamilton.ch
+54966
+  I-Consulting Kft.
+    Attila László
+      support&iconsulting.hu
+54967
+  Schule fuer Informationstechnik der Bundeswehr
+    Max Friedrich
+      itsbws6projektausbn&bundeswehr.org
+54968
+  OCTE
+    ZAMANT Armand
+      azamant&octe.eu
+54969
+  ETON tech co.,Ltd
+    Austin wong
+      timeismoney2011&163.com
+54970
+  Stichting Nijmeegs Interconfessioneel ziekenhuis Canisius-Wilhelmina
+    Edwin Strik
+      e.strik&cwz.nl
+54971
+  ANZ Bank New Zealand Limited
+    Tony Arnold
+      nzsecurity&anz.com
+54972
+  SCUDOS Systems GmbH
+    Christoph Hoopmann
+      christoph.hoopmann&scudos.eu
+54973
+  Bren-Tronics, Inc.
+    Steven Chew
+      schew&bren-tronics.com
+54974
+  HOSPITAL GENERAL ENSENADA
+    Eugenio Ariel Chiusaroli Palacios
+      fatchucho&hotmail.com
+54975
+  Staclar, Inc.
+    Matthias Merkel
+      matthias.merkel&staclar.com
+54976
+  Hällefors Tierp Skogar AB
+    Erik Reis
+      erik.reis&htskogar.se
+54977
+  Mag-Audio
+    Sergei Germaniuk
+      sergei.germanuk&mag-audio.com
+54978
+  Norbrook Laboratories Ltd
+    David Winter
+      david.winter&norbrook.co.uk
+54979
+  iFreetion Technologies Inc.
+    Xinyu Miao
+      xinyu&ifreetion.com
+54980
+  Ethertronics an AVX Group, EDC division
+    Chinda Keodouangsy
+      Chinda.keodouangsy&avx.com
+54981
+  BY-SYSTEMS SPRL
+    BOUJRAF YOUSSEF
+      yboujraf&by-systems.be
+54982
+  Manitoba Hydro International
+    Lawrence Arendt
+      larendt&mhi.ca
+54983
+  Henan Chengyu Trading Co., Ltd.
+    SHI Lili
+      admin&chengyutrading.com
+54984
+  Boliden AB
+    Mathias Ignberg
+      mathias.ignberg&boliden.com
+54985
+  Timmins and District Hospital
+    Brandon Cook
+      bcook&tadh.com
+54986
+  TRIBUNAL SUPERIOR ELEITORAL
+    SESAP - Ivanildo Gomes
+      sesap&tse.jus.br
+54987
+  BV USA, LLC.
+    Robert Lu
+      yufen&bvsecurity.com
+54988
+  VT Group
+    Steve Leonhardt
+      steve.leonhardt&vt-group.com
+54989
+  Davitec
+    Ricardo David
+      rdavid&davitec.com.br
+54990
+  Kirkland & Ellis LLP
+    Kirkland IT
+      dnsadmin&kirkland.com
+54991
+  DIRAK GmbH
+    Zachary Klares
+      z.klares&dirak.com
+54992
+  Swisscom Health AG
+    Federico Marmori 
+      Federico.Marmori&swisscom.com
 
 
 End of Document

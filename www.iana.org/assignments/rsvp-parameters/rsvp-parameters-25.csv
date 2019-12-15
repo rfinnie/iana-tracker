@@ -11,7 +11,7 @@ Value,Description,Reference
 33,Explicit Exclusion Route subobject (EXRS),[RFC4874]
 34,Unassigned,
 35,Hop Attributes,[RFC7570]
-36,SR-ERO,[RFC-ietf-pce-segment-routing-16]
+36,SR-ERO,[RFC8664]
 37,Reserved,[RFC4873]
 38,IPv4 Diversity,[RFC8390]
 39,IPv6 Diversity,[RFC8390]

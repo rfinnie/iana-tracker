@@ -4,7 +4,7 @@
            2005-01-18
 
    Last Updated
-           2019-11-08
+           2019-12-12
 
    Available Formats
            [IMG]
@@ -57,7 +57,7 @@ IKEv2 Exchange Types
            [IMG]
            CSV
 
-    Value    Exchange Type          Reference
+    Value    Exchange Type                   Reference
     0-33   Reserved           [RFC7296]
      34    IKE_SA_INIT        [RFC7296]
      35    IKE_AUTH           [RFC7296]
@@ -67,7 +67,9 @@ IKEv2 Exchange Types
      39    GSA_AUTH           [draft-yeung-g-ikev2]
      40    GSA_REGISTRATION   [draft-yeung-g-ikev2]
      41    GSA_REKEY          [draft-yeung-g-ikev2]
-   42-239  Unassigned
+     42    Unassigned
+     43    IKE_INTERMEDIATE   [draft-ietf-ipsecme-ikev2-intermediate]
+   44-239  Unassigned
    240-255 Private use        [RFC7296]
 
 IKEv2 Payload Types
@@ -612,7 +614,8 @@ IKEv2 Notify Message Types - Status Types
       16435    USE_PPK                             [draft-ietf-ipsecme-qr-ikev2]
       16436    PPK_IDENTITY                        [draft-ietf-ipsecme-qr-ikev2]
       16437    NO_PPK_AUTH                         [draft-ietf-ipsecme-qr-ikev2]
-   16438-40959 Unassigned
+      16438    INTERMEDIATE_EXCHANGE_SUPPORTED     [draft-ietf-ipsecme-ikev2-intermediate]
+   16439-40959 Unassigned
    40960-65535 Private use                         [RFC7296]
 
 IKEv2 Notification IPCOMP Transform IDs (Value 16387)

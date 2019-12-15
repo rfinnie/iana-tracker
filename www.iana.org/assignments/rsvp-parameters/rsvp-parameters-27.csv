@@ -7,7 +7,7 @@ Value,Description,Reference
 6-33,Unassigned,
 34,SRLG sub-object,[RFC8001]
 35,Hop Attributes,[RFC7570]
-36,SR-RRO,[RFC-ietf-pce-segment-routing-16]
+36,SR-RRO,[RFC8664]
 37,Reserved,[RFC4873]
 38,BYPASS_ASSIGNMENT IPv4 subobject,[RFC8271]
 39,BYPASS_ASSIGNMENT IPv6 subobject,[RFC8271]

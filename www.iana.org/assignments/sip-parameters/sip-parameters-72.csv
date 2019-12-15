@@ -34,9 +34,9 @@ sip.pnspurr,"This feature-capability indicator, when inserted in a
         binding information in the REGISTER request. The indicator
         value is an identifier that can be used as a key to retrieve the
         binding information.",[RFC8599]
-sip.608,"This feature capability indicator, when included in a
+sip.608,"This feature-capability indicator, when included in a
 		Feature-Caps header field of an INVITE request, indicates that the
 		entity associated with the indicator will be responsible for
 		indicating to the caller any information contained in the 608 SIP
-		response code, specifically the value referenced by the Call-Info
-		header.",[RFC-ietf-sipcore-rejected-09]
+		response code, specifically, the value referenced by the Call-Info
+		header.",[RFC8688]

@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-12-05</updated>
+    <updated>2019-12-10</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1531,10 +1531,13 @@
                 <server>https://EIG.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-10">
             <value>620</value>
             <name>Fiducia LLC, Latvijas Parstavnieciba</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.fiducia.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>622</value>
@@ -5717,10 +5720,13 @@
             <name>INSTANTNAMES LLC</name>
             <status>Accredited</status>
         </record>
-        <record updated="2018-08-09">
+        <record updated="2019-12-10">
             <value>1257</value>
             <name>Variomedia AG</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.variomedia.de/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1258</value>
@@ -6224,10 +6230,13 @@
             <name>VentureDomains, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-12-10">
             <value>1326</value>
             <name>Webair Internet Development, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1327</value>
@@ -6785,10 +6794,13 @@
             <name>Guangzhou Ming Yang Information Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record updated="2016-10-06">
+        <record updated="2019-12-10">
             <value>1418</value>
             <name>Danesco Trading Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.danesconames.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1419</value>
@@ -6877,10 +6889,13 @@
             <name>GMO Brights Consulting Inc.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-12-10">
             <value>1435</value>
             <name>AB RIKTAD</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>http://rdap.k85.itc.se/</server>
+            </rdapurl>
         </record>
         <record updated="2019-11-11">
             <value>1436</value>
@@ -7093,10 +7108,13 @@
             <name>Virtucom Networks S.A.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-10">
             <value>1469</value>
             <name>Jiangsu Bangning Science &amp; technology Co. Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.55hl.com/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>1470</value>
@@ -7247,10 +7265,13 @@
                 <server>https://rdapserver.net</server>
             </rdapurl>
         </record>
-        <record updated="2019-11-25">
+        <record updated="2019-12-10">
             <value>1493</value>
             <name>Ilait AB</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ilait.com/domain/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1494</value>
@@ -8826,10 +8847,13 @@
                 <server>https://rdap.thinkpro.cn/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-10">
             <value>1734</value>
             <name>Shenzhen HuLianXianFeng Technology Co.,LTD</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.1198.cn/domain/</server>
+            </rdapurl>
         </record>
         <record updated="2017-12-21">
             <value>1735</value>
@@ -23271,10 +23295,13 @@
             <name>Hainan Universal Technology Co., Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2017-12-07">
+        <record date="2017-12-07" updated="2019-12-10">
             <value>3763</value>
             <name>Fuzhou Zhongxu Network Technology Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.zxnic.cn/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record date="2017-08-03" updated="2019-09-27">
             <value>3764</value>
@@ -23523,10 +23550,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record date="2018-07-26">
+        <record date="2018-07-26" updated="2019-12-10">
             <value>3805</value>
             <name>Topnets Group Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.1198.cn/domain/</server>
+            </rdapurl>
         </record>
         <record date="2018-04-12" updated="2019-10-23">
             <value>3806</value>

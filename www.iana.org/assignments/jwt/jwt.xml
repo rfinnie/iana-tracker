@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="jwt">
   <title>JSON Web Token (JWT)</title>
   <created>2015-01-23</created>
-  <updated>2019-09-13</updated>
+  <updated>2019-12-06</updated>
   
   <registry id="claims">
     <title>JSON Web Token Claims</title>
@@ -395,7 +395,7 @@ described in <xref type="rfc" data="rfc7519"/>.
       <value>jcard</value>
       <description>jCard data</description>
       <controller><xref type="person" data="IESG"/></controller>
-	  <xref type="draft" data="RFC-ietf-sipcore-rejected-09"/>
+	  <xref type="rfc" data="rfc8688"/>
 	  <xref type="rfc" data="rfc7095"/>
     </record>
   </registry>

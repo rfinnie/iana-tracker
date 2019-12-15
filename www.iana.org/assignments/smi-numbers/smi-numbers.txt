@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-11-20
+           2019-12-13
 
    Note
 
@@ -879,7 +879,7 @@ Decimal             Name                           Description                  
   279   gfast                         G.fast port                           [ITU-T G.9701]
   280   sdci                          SDCI (IO-Link)                        [IEC 61131-9 Edition 1.0 2013-09][Markus_Rentschler]
   281   xboxWireless                  Xbox wireless                         [Brandon_Jiang]
-  282   fastdsl                       FastDSL                               [BBF TR-355][William_Lupton]
+  282   fastdsl                       FastDSL                               [BBF TR-355][Broadband_Forum]
   283   docsCableScte55d1FwdOob       Cable SCTE 55-1 OOB Forward Channel   [https://www.scte.org/documents/pdf/Standards/ANSI_SCTE-55-1-2009.pdf][Brian_Hedstrom]
   284   docsCableScte55d1RetOob       Cable SCTE 55-1 OOB Return Channel    [https://www.scte.org/documents/pdf/Standards/ANSI_SCTE-55-1-2009.pdf][Brian_Hedstrom]
   285   docsCableScte55d2DsOob        Cable SCTE 55-2 OOB Downstream        [https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
@@ -887,8 +887,8 @@ Decimal             Name                           Description                  
   286   docsCableScte55d2UsOob        Cable SCTE 55-2 OOB Upstream Channel  [https://web.archive.org/web/20190822104256/http://www.scte.org/documents/pdf/Standards/ANSI_SCTE%2055-2%202008.pdf][Brian_Hedstrom]
   287   docsCableNdf                  Cable Narrowband Digital Forward      [http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
   288   docsCableNdr                  Cable Narrowband Digital Return       [http://www.cablelabs.com/wp-content/uploads/specdocs/CM-SP-R-OOB-I04-160923.pdf][Brian_Hedstrom]
-  289   ptm                           Packet Transfer Mode                  [ITU-T G.993.1, Annex H][ITU-T G.993.2][ITU-T G.9701][William_Lupton]
-  290   ghn                           G.hn port                             [ITU-T G.9961][William_Lupton]
+  289   ptm                           Packet Transfer Mode                  [ITU-T G.993.1, Annex H][ITU-T G.993.2][ITU-T G.9701][Broadband_Forum]
+  290   ghn                           G.hn port                             [ITU-T G.9961][Broadband_Forum]
   291   otnOtsi                       Optical Tributary Signal              [ITU-T G.959.1][Koteswara_Boyapati]
   292   otnOtuc                       OTN OTUCn                             [ITU-T G.709/Y.1331][Koteswara_Boyapati]
   293   otnOduc                       OTN ODUC                              [ITU-T G.709][Koteswara_Boyapati]
@@ -4719,6 +4719,7 @@ SMI Security for Cryptographic Algorithms
    [Bob_Stewart_2]        Bob Stewart                         mailto:STEWART&xyplex.com
    [Brandon_Jiang]        Brandon Jiang                       mailto:jiangyue&microsoft.com                     2016-05-03
    [Brian_Hedstrom]       Brian Hedstrom                      mailto:brian.hedstrom&oamtechnologies.com         2016-11-23
+   [Broadband_Forum]      Broadband Forum                     mailto:help&broadband-forum.org                   2019-12-13
    [Caralyn_Brown]        Caralyn Brown                       mailto:cbrown%25wellfleet.com@talcott.harvard.edu
    [Carlisle_Adams]       Carlisle Adams                      mailto:carlisle.adams&entrust.com                 1997-10
    [Cheenu_Srinivasan]    Cheenu Srinivasan                   mailto:cheenu&alphion.com                         2001-03
@@ -4876,7 +4877,6 @@ SMI Security for Cryptographic Algorithms
    [Tracy_Cox]            Tracy Cox
    [Trevor_Warwick]       Trevor Warwick                      mailto:twarwick&madge.com                         1996-02
    [Vinod_B_C]            Vinod B.C.                          mailto:vinodbc&cisco.com                          2000-03
-   [William_Lupton]       William Lupton                      mailto:wlupton&broadband-forum.org                2017-03-30
    [Xiaohua_Ma]           Xiaohua Ma                          mailto:xiaohua.a.ma&alcatel-sbell.com.cn          2008-08-12
    [Yuzo_Watanabe]        Yuzo Watanabe                       mailto:ywatanabe&zhone.com                        2001-12
    [Zvika_Zilberman]      Zvika Zilberman                     mailto:Zvika&ensemble.co.il                       2000-09

@@ -25,7 +25,7 @@ Value,Description,Reference
 23,LSP-DB-VERSION,[RFC8232]
 24,SPEAKER-ENTITY-ID,[RFC8232]
 25,Unassigned,
-26,SR-PCE-CAPABILITY (deprecated),[RFC-ietf-pce-segment-routing-16]
+26,SR-PCE-CAPABILITY (deprecated),[RFC8664]
 27,Unassigned,
 28,PATH-SETUP-TYPE,[RFC8408]
 29,Operator-configured Association Range,[RFC-ietf-pce-association-group-10]

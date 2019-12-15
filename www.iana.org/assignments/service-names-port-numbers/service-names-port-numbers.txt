@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-12-04
+           2019-12-13
 
    Expert(s)
 
@@ -15,7 +15,7 @@
 
    Note
 
- Service names and port numbers are used to distinguish between different
+ Service names and portl numbers are used to distinguish between different
  services that run over transport protocols such as TCP, UDP, DCCP, and
  SCTP.
 
@@ -9245,8 +9245,8 @@ lanrevserver       3971        tcp    LANrev Server                [Martin_Bestm
 lanrevserver       3971        udp    LANrev Server                [Martin_Bestmann_3]                                   [Martin_Bestmann_3]                                       2005-08
 iconp              3972        tcp    ict-control Protocol         [Roel_Harbers]                                        [Roel_Harbers]                                            2005-08
 iconp              3972        udp    ict-control Protocol         [Roel_Harbers]                                        [Roel_Harbers]                                            2005-08
-progistics         3973        tcp    ConnectShip Progistics       [Jeff_Skaistis]                                       [Jeff_Skaistis]                                           2005-08
-progistics         3973        udp    ConnectShip Progistics       [Jeff_Skaistis]                                       [Jeff_Skaistis]                                           2005-08
+progistics         3973        tcp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
+progistics         3973        udp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
 citysearch         3974        tcp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
                                       Service
 citysearch         3974        udp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
@@ -13242,7 +13242,7 @@ dlip               7201        udp    DLIP                         [Albert_Manfr
                                                                                                                                                                                                              binary message format that is used by a set
                                       Inter-Channel Termination                                                                                                                                              of optical line terminal (OLT) channel
                                       Protocol (ICTP) for                                                                                                                                                    terminations (CT) comprising a
-pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum_2]                                   [William_Lupton]                                          2017-02-22                40-Gigabit-capable next-generation passive
+pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum]                                     [Broadband_Forum]                                         2017-02-22   2019-12-13   40-Gigabit-capable next-generation passive
                                       (Passive Optical Network)                                                                                                                                              optical network (NG-PON2) system to exchange
                                       systems                                                                                                                                                                channel profile configuration and status
                                                                                                                                                                                                              information and to coordinate the operation
@@ -13446,8 +13446,8 @@ nta-us             7545        tcp    FlowAnalyzer UtilityServer   [Fred_Messing
 nta-us             7545        udp    FlowAnalyzer UtilityServer   [Fred_Messinger]                                      [Fred_Messinger]
 cfs                7546        tcp    Cisco Fabric service         [Rituparna_Agrawal]                                   [Rituparna_Agrawal]                                       2005-09
 cfs                7546        udp    Cisco Fabric service         [Rituparna_Agrawal]                                   [Rituparna_Agrawal]                                       2005-09
-cwmp               7547        tcp    DSL Forum CWMP               [Anton_Okmianski]                                     [Anton_Okmianski]                                         2006-01
-cwmp               7547        udp    DSL Forum CWMP               [Anton_Okmianski]                                     [Anton_Okmianski]                                         2006-01
+cwmp               7547        tcp    Broadband Forum CWMP         [Broadband_Forum]                                     [Broadband_Forum]                                         2006-01      2019-12-13
+cwmp               7547        udp    Broadband Forum CWMP         [Broadband_Forum]                                     [Broadband_Forum]                                         2006-01      2019-12-13
 tidp               7548        tcp    Threat Information           [Chui_Tin_Yen]                                        [Chui_Tin_Yen]                                            2006-02
                                       Distribution Protocol
 tidp               7548        udp    Threat Information           [Chui_Tin_Yen]                                        [Chui_Tin_Yen]                                            2006-02
@@ -18024,6 +18024,10 @@ omni-bookmark                         OmniWeb                      [The_Omni_Gro
                                       Service for remote control
 omni-live                             of Omnisphere virtual        [Glenn_Olander_2]                                     [Glenn_Olander_2]                                                                                                                                        Defined TXT keys: omni-livetxt.html
                                       instrument
+onenet-info                    tcp    OneNet Application           [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, path
+                                      Information Service
+onenet-pairing                 tcp    OneNet Pairing               [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, id, path
+onenet-pgn                     udp    OneNet PGN Transport Service [National_Marine_Electronics_Association]             [Steven_Spitzer]                                          2019-12-09                                                                                     Defined TXT keys: txtvers, protovers, nmea-name
 openbase                              OpenBase SQL                                                                                                                                                                                                                                Defined TXT keys: None
 opencu                         udp    Conferencing Protocol        [Marc_Manthey_2]                                      [Marc_Manthey_2]                                                                                                                                         Defined TXT keys: None
 openpath                       tcp    Discovery of OpenPath        [OpenPath_Security_Inc]                               [John_Hickey]                                             2018-01-11                                                                                     Defined TXT keys: Proprietary
@@ -19037,7 +19041,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Anthony_Williams]                                        Anthony Williams                                    mailto:tonydubs&gmail.com
 [Antoine_Martin]                                          Antoine Martin                                      mailto:antoine&nagafix.co.uk                                  2016-10-05
 [Anton_Kucer]                                             Anton Kucer                                         mailto:akucer&microsoft.com
-[Anton_Okmianski]                                         Anton Okmianski                                     mailto:aokmians&cisco.com                                     2006-01
 [Antoni_Wolski]                                           Antoni Wolski                                       mailto:antoni.wolski&vtt.fi
 [Antonio_Querubin]                                        Antonio Querubin                                    mailto:tony&lava.net                                          2008-03-10
 [Anupam_Bharali]                                          Anupam Bharali                                      mailto:ianaports&juniper.net                                  2002-08
@@ -19369,8 +19372,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Bridgette_Landers]                                       Bridgette Landers                                   mailto:blanders&boi.hp.com
 [Bridgeworks]                                                                        Bridgeworks              mailto:paul.burgess&4bridgeworks.com                          2014-09-26
 [Brigitte_Gagne]                                          Brigitte Gagne                                      mailto:bgagne&trigence.com                                    2006-08
-[Broadband_Forum]                                         Broadband Forum                                     mailto:info&broadband-forum.org                               2017-09-28
-[Broadband_Forum_2]                                                                  Broadband Forum          mailto:help&broadband-forum.org                               2017-02-22
+[Broadband_Forum]                                                                    Broadband Forum          mailto:help&broadband-forum.org                               2019-12-13
 [Brocade_Communications_Systems]                          Brocade Communications                              mailto:ncarter&brocade.com                                    2015-11-17
                                                           Systems
 [Brooks_Bell]                                             Brooks Bell                Layered Logic, Inc.      mailto:brooks&layeredlogic.com                                2012-01-04
@@ -19687,6 +19689,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Comtech]                                                                            Comtech                  mailto:njeffords&comtechefdata.com                            2014-01-23
 [Conceptworld_Corporation]                                                           Conceptworld Corporation mailto:admin&conceptworld.com                                 2013-08-20
 [cone_smart_solution]                                                                cone smart solution      mailto:office&cone.at                                         2019-04-22
+[ConnectShip_Inc]                                                                    ConnectShip, Inc.        mailto:ConnectShipIT&connectship.com                          2019-12-12
 [Connie_Qiu]                                              Connie Qiu                                          mailto:connie&scdb.com
 [Conny_Larsson]                                           Conny Larsson                                       mailto:cocke&vnet.ibm.com
 [Control_Technology_Inc]                                                             Control Technology Inc.  mailto:ceskew&controltechnology.com                           2011-10-28
@@ -21058,7 +21061,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Jeff_Moffatt]                                            Jeff Moffatt                                        mailto:jeff&taurus.com
 [Jeff_Roberts]                                            Jeff Roberts                                        mailto:jroberts&microsoft.com                                 2005-11
 [Jeff_Rosenthal]                                          Jeff Rosenthal                                      mailto:jrosenthal&quad-sys.com
-[Jeff_Skaistis]                                           Jeff Skaistis                                       mailto:jskaistis&connectship.com                              2005-08
 [Jeff_Stewart]                                            Jeff Stewart                                        mailto:jstewart&netscape.com
 [Jeff_Wamsley]                                            Jeff Wamsley               gocso.net                mailto:jeffw&gocso.net                                        2013-09-04
 [Jeff_Wood]                                               Jeff Wood                                           mailto:jw&cqg.com
@@ -22352,7 +22354,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Nathan_Walker]                                           Nathan Walker              Automated Target         mailto:n.walker&autotargets.com                               2015-12-28
                                                                                      Solutions, Inc.
 [National_Instruments]                                                               National Instruments     mailto:joshua.prewitt&ni.com                                  2011-10-24
-[National_Marine_Electronics_Association]                                            National Marine          mailto:sspitzer&nmea.org                                      2011-09-15
+[National_Marine_Electronics_Association]                                            National Marine          mailto:sspitzer&nmea.org                                      2019-12-09
                                                                                      Electronics Association
 [Navneet_Gupta]                                           Navneet Gupta                                       mailto:gupta-navneet&live.com                                 2017-09-05
 [Navtech_Radar_Ltd]                                                                  Navtech Radar            mailto:network.admin&navtechradar.com                         2013-02-20
@@ -23079,6 +23081,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Robert_J_Scott]                                          Robert J. Scott                                     mailto:rob&hpcmo.hpc.mil                                      2005-08
 [Robert_John_Churchil]                                    Robert John Churchill                               mailto:rjc&rjcdb.com                                          2006-01
 [Robert_Kevin_Breton]                                     Robert Kevin Breton                                 mailto:BOBBRETON&hotmail.com
+[Robert_Kinyon]                                           Robert Kinyon                                       mailto:rkinyon&connectship.com                                2019-12-12
 [Robert_M_Mackowiak]                                      Robert M. Mackowiak                                 mailto:rmackowiak&quest.com                                   2002-02
 [Robert_M_Moore]                                          Robert M. Moore                                     mailto:robert.moore&tunstall.co.uk
 [Robert_Marinelli]                                        Robert Marinelli                                    mailto:bob&sychron.com                                        2003-03
@@ -23645,6 +23648,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Steven_Pelletier]                                        Steven Pelletier                                    mailto:stevep&availant.com
 [Steven_Ritland]                                          Steven Ritland                                      mailto:srr&us.ibm.com
 [Steven_Sawkins]                                          Steven Sawkins                                      mailto:ssawkins&symantec.com
+[Steven_Spitzer]                                          Steven Spitzer                                      mailto:sspitzer&nmea.org                                      2019-12-09
 [Steven_Sweeting]                                         Steven Sweeting                                     mailto:ssweeting&sls-technology.com                           2008-01-28
 [Steven_Umbehocker]                                       Steven Umbehocker          OS NEXUS, Inc.           mailto:steven.umbehocker&osnexus.com                          2012-09-21
 [Steven_W_Clark]                                          Steven W. Clark                                     mailto:steven.clark&avocent.com
@@ -24181,7 +24185,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [William_Fisher]                                          William Fisher                                      mailto:william.w.fisher&intermapper.com                       2011-05-09
 [William_Lai]                                             William Lai                                         mailto:wlai&microsoft.com
 [William_LePera]                                          William LePera                                      mailto:lepera&us.ibm.com                                      2008-06-18
-[William_Lupton]                                          William Lupton                                      mailto:wlupton&broadband-forum.org                            2017-02-22
 [William_McDonald]                                        William McDonald                                    mailto:billmc&atc.boeing.com
 [William_Mullaney]                                        William Mullaney                                    mailto:mullanwi&usa.net
 [William_Oldwin]                                          William Oldwin                                      mailto:william&patalogic.ie                                   2019-04-22
