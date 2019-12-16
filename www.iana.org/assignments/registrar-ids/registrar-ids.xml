@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-12-10</updated>
+    <updated>2019-12-16</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -605,10 +605,13 @@
                 <server>https://rdap.acens.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>141</value>
             <name>Cronon AG</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.cronon.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>142</value>
@@ -762,10 +765,13 @@
             <name>Active 24 AS</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-03-30">
+        <record updated="2019-12-16">
             <value>249</value>
             <name>Mps Infotecnics Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>250</value>
@@ -1475,10 +1481,13 @@
             <name>EnetRegistry, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-04-18">
+        <record updated="2019-12-16">
             <value>609</value>
             <name>Sav.com, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record>
             <value>610</value>
@@ -1562,10 +1571,13 @@
                 <server>https://namerdap.systems/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>626</value>
             <name>NeoNIC OY</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.neonic.com/</server>
+            </rdapurl>
         </record>
         <record updated="2018-04-19">
             <value>627</value>
@@ -1841,10 +1853,13 @@
             <name>ResellerSRS Inc dba ResellerSRS.com</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2029-12-16">
             <value>670</value>
             <name>$$$ Private Label Internet Service Kiosk, Inc. (dba "PLISK.com")</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.plisk.com/</server>
+            </rdapurl>
         </record>
         <record updated="2017-08-03">
             <value>671</value>
@@ -2678,10 +2693,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>817</value>
             <name>MAFF Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>818</value>
@@ -3327,10 +3345,13 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>913</value>
             <name>PocketDomain.com Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-08">
             <value>914</value>
@@ -3856,10 +3877,13 @@
                 <server>https://rdap.domainadministration.com/domain/</server>
             </rdapurl>
         </record>
-        <record updated="2015-02-01">
+        <record updated="2019-12-16">
             <value>997</value>
             <name>NamePal.com, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://www.namepal.com/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record>
             <value>998</value>
@@ -3993,10 +4017,13 @@
             <name>Backslap Domains, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1019</value>
             <name>Threadagent.com, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2018-04-19">
             <value>1020</value>
@@ -6174,12 +6201,12 @@
             <name>USA Intra Corp.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-06-07">
+        <record updated="2019-12-16">
             <value>1316</value>
             <name>Xiamen 35.Com Technology Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://whois.35.com/</server>
+                <server>https://rdap.35.com/</server>
             </rdapurl>
         </record>
         <record updated="2015-08-06">
@@ -6764,10 +6791,13 @@
             <name>Alisoft (Shanghai) Co., Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1411</value>
             <name>DomainName Highway LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2017-08-21">
             <value>1412</value>
@@ -8808,10 +8838,13 @@
                 <server>https://papaki.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record update="2019-12-16">
             <value>1728</value>
             <name>IP Twins SAS</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.rrpproxy.net/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-30">
             <value>1729</value>
@@ -9828,10 +9861,13 @@
                 <server>https://rdap.onlide.com/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-16">
             <value>1863</value>
             <name>DotMedia Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1864</value>
@@ -9859,25 +9895,37 @@
             <status>Accredited</status>
         </record>
         
-        <record updated="2016-07-19">
+        <record updated="2019-12-12">
             <value>1870</value>
             <name>DOMAINNAME BLVD, INC.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-16">
             <value>1871</value>
             <name>DOMAINNAME FWY, INC.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-16">
             <value>1872</value>
             <name>FLAPPY DOMAIN, INC.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2019-12-16">
             <value>1873</value>
             <name>MAFF AVENUE, INC.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2018-03-14">
             <value>1874</value>
@@ -9992,10 +10040,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2015-08-04">
+        <record updated="2019-12-16">
             <value>1896</value>
             <name>ATI</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nic.tn:8443/rdapgtld/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-15">
             <value>1897</value>
@@ -10010,46 +10061,67 @@
             <name>BR domain Inc. dba namegear.co</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1899</value>
             <name>CyanDomains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1900</value>
             <name>DomainName Bridge, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2016-10-27">
             <value>1901</value>
             <name>Tname Group Inc.</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1902</value>
             <name>HazelDomains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1903</value>
             <name>KQW, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1904</value>
             <name>Xiamen Dianmei Network Technology Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1905</value>
             <name>Xiamen Domains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         
-        <record>
+        <record updated="2019-12-16">
             <value>1907</value>
             <name>DomainName Path, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2014-06-19" updated="2019-11-01">
             <value>1908</value>
@@ -10120,25 +10192,37 @@
             <status>Accredited</status>
         </record>
         
-        <record>
+        <record updated="2019-12-16">
             <value>1919</value>
             <name>DomainName Driveway, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1920</value>
             <name>DomainName Parkway, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1921</value>
             <name>Fujian Domains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record>
+        <record updated="2019-12-16">
             <value>1922</value>
             <name>Guangzhou Domains, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.xz.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2014-09-18" updated="2016-07-19">
             <value>1923</value>
