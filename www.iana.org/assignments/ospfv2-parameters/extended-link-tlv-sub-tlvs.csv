@@ -1,8 +1,8 @@
 Value,Description,Reference
 0,Reserved,[RFC7684]
-1,SID/Label Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
-2,Adj-SID Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
-3,LAN Adj-SID/Label Sub-TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+1,SID/Label Sub-TLV,[RFC8665]
+2,Adj-SID Sub-TLV,[RFC8665]
+3,LAN Adj-SID/Label Sub-TLV,[RFC8665]
 4,Network-to-Router Metric Sub-TLV,[RFC8042]
 5,RTM Capability,[RFC8169]
 6,OSPFv2 Link MSD,[RFC8476]

@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-12-13
+           2019-12-16
 
    Expert(s)
 
@@ -13242,7 +13242,7 @@ dlip               7201        udp    DLIP                         [Albert_Manfr
                                                                                                                                                                                                              binary message format that is used by a set
                                       Inter-Channel Termination                                                                                                                                              of optical line terminal (OLT) channel
                                       Protocol (ICTP) for                                                                                                                                                    terminations (CT) comprising a
-pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum]                                     [Broadband_Forum]                                         2017-02-22   2019-12-13   40-Gigabit-capable next-generation passive
+pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum]                                     [Broadband_Forum]                                         2017-02-22   2019-12-16   40-Gigabit-capable next-generation passive
                                       (Passive Optical Network)                                                                                                                                              optical network (NG-PON2) system to exchange
                                       systems                                                                                                                                                                channel profile configuration and status
                                                                                                                                                                                                              information and to coordinate the operation

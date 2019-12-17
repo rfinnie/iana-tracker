@@ -4,7 +4,7 @@
            2008-12-19
 
    Last Updated
-           2019-12-11
+           2019-12-16
 
    Available Formats
            [IMG]
@@ -375,7 +375,7 @@ METRIC Object T Field
            [IMG]
            CSV
 
-   Value            Description                          Reference
+   Value            Description            Reference
      0    Reserved                         [RFC5440]
      1    IGP metric                       [RFC5440]
      2    TE metric                        [RFC5440]
@@ -396,8 +396,8 @@ METRIC Object T Field
      17   P2MP Path Loss metric            [RFC8233]
      18   Number of adaptations on a path  [RFC8282]
      19   Number of layers on a path       [RFC8282]
-     20   Domain Count metric              [RFC-ietf-pce-hierarchy-extensions-11]
-     21   Border Node Count metric         [RFC-ietf-pce-hierarchy-extensions-11]
+     20   Domain Count metric              [RFC8685]
+     21   Border Node Count metric         [RFC8685]
    22-255 Unassigned
 
 METRIC Object Flag Field
@@ -488,9 +488,9 @@ SVEC Object Flag Field
            [IMG]
            CSV
 
-   Bit       Description                     Reference
+   Bit       Description       Reference
    0-17 Unassigned
-    18  Domain Diverse O-bit   [RFC-ietf-pce-hierarchy-extensions-11]
+    18  Domain Diverse O-bit   [RFC8685]
     19  Partial Path Diverse   [RFC8306]
     20  Link Direction Diverse [RFC8306]
     21  SRLG Diverse           [RFC5440]
@@ -652,7 +652,7 @@ PCEP-ERROR Object Error Types and Values
                                                20: Inconsistent SIDs in SR-ERO / SR-RRO subobjects    [RFC8664]
                                                21: MSD must be nonzero                                [RFC8664]
                                                22: Mismatch of O field in S2LS and LSP object         [RFC8623]
-                                               23: Incompatible OF codes in H-PCE                     [RFC-ietf-pce-hierarchy-extensions-11]
+                                               23: Incompatible OF codes in H-PCE                     [RFC8685]
                                                24-255: Unassigned
        11     Unrecognized EXRS subobject      0-255: Unassigned                                      [RFC5521]
        12     Diffserv-aware TE error          0: Unassigned                                          [RFC5455]
@@ -781,8 +781,8 @@ PCEP-ERROR Object Error Types and Values
                                                3: Syntactical Encoding error                          [RFC-ietf-pce-wson-rwa-ext-17]
                                                4-255: Unassigned
        28     H-PCE Error                      0: Unassigned
-                                               1: H-PCE Capability not advertised                     [RFC-ietf-pce-hierarchy-extensions-11]
-                                               2: Parent PCE Capability cannot be provided            [RFC-ietf-pce-hierarchy-extensions-11]
+                                               1: H-PCE Capability not advertised                     [RFC8685]
+                                               2: Parent PCE Capability cannot be provided            [RFC8685]
                                                3-255: Unassigned
      29-255   Unassigned                       0-255: Unassigned
 
@@ -954,7 +954,7 @@ Objective Function
    1024-32767  First Come First Served
    32768-65535 Reserved for Private Use
 
-   Code Point                          Name                                       Reference
+   Code Point                          Name                         Reference
    0           Reserved                                             [RFC5541]
    1           MCP                                                  [RFC5541]
    2           MLP                                                  [RFC5541]
@@ -967,9 +967,9 @@ Objective Function
    9           Minimum Packet Loss Path (MPLP)                      [RFC8233]
    10          Maximum Under-Utilized Path (MUP)                    [RFC8233]
    11          Maximum Reserved Under-Utilized Path (MRUP)          [RFC8233]
-   12          Minimize the number of Transit Domains (MTD)         [RFC-ietf-pce-hierarchy-extensions-11]
-   13          Minimize the number of Border Nodes (MBN)            [RFC-ietf-pce-hierarchy-extensions-11]
-   14          Minimize the number of Common Transit Domains (MCTD) [RFC-ietf-pce-hierarchy-extensions-11]
+   12          Minimize the number of Transit Domains (MTD)         [RFC8685]
+   13          Minimize the number of Border Nodes (MBN)            [RFC8685]
+   14          Minimize the number of Common Transit Domains (MCTD) [RFC8685]
    15-32767    Unassigned
    32768-65535 Reserved for Private Use                             [RFC5541]
 
@@ -1000,9 +1000,9 @@ PCEP TLV Type Indicators
        10      Wavelength Allocation                 [RFC-ietf-pce-wson-rwa-ext-17]
        11      Optical Interface Class List          [RFC-ietf-pce-wson-rwa-ext-17]
        12      Client Signal Information             [RFC-ietf-pce-wson-rwa-ext-17]
-       13      H-PCE-CAPABILITY                      [RFC-ietf-pce-hierarchy-extensions-11]
-       14      Domain-ID                             [RFC-ietf-pce-hierarchy-extensions-11]
-       15      H-PCE-FLAG                            [RFC-ietf-pce-hierarchy-extensions-11]
+       13      H-PCE-CAPABILITY                      [RFC8685]
+       14      Domain-ID                             [RFC8685]
+       15      H-PCE-FLAG                            [RFC8685]
        16      STATEFUL-PCE-CAPABILITY               [RFC8231]
        17      SYMBOLIC-PATH-NAME                    [RFC8231]
        18      IPV4-LSP-IDENTIFIERS                  [RFC8231]
@@ -1046,12 +1046,12 @@ NO-PATH-VECTOR TLV Flag Field
            [IMG]
            CSV
 
-   Bit                    Description                                  Reference
+   Bit                    Description                              Reference
    0-18 Unassigned
-    19  Destination is not found in the indicated domain [RFC-ietf-pce-hierarchy-extensions-11]
-    20  No available resource in one or more domains     [RFC-ietf-pce-hierarchy-extensions-11]
-    21  Unresponsive child PCE(s)                        [RFC-ietf-pce-hierarchy-extensions-11]
-    22  Destination domain unknown                       [RFC-ietf-pce-hierarchy-extensions-11]
+    19  Destination is not found in the indicated domain [RFC8685]
+    20  No available resource in one or more domains     [RFC8685]
+    21  Unresponsive child PCE(s)                        [RFC8685]
+    22  Destination domain unknown                       [RFC8685]
     23  No RWA constraints met                           [RFC-ietf-pce-wson-rwa-ext-17]
     24  P2MP Reachability Problem                        [RFC8306]
     25  No GCO solution found                            [RFC5557]
@@ -1441,15 +1441,15 @@ H-PCE-CAPABILITY TLV Flag Field
  Standards Action
 
    Reference
-           [RFC-ietf-pce-hierarchy-extensions-11]
+           [RFC8685]
 
    Available Formats
            [IMG]
            CSV
 
-   Bit         Description                       Reference
+   Bit         Description         Reference
    0-30 Unassigned
-    31  P (Parent PCE Request bit) [RFC-ietf-pce-hierarchy-extensions-11]
+    31  P (Parent PCE Request bit) [RFC8685]
 
 Domain-ID TLV Domain Type
 
@@ -1458,18 +1458,18 @@ Domain-ID TLV Domain Type
  IETF Review
 
    Reference
-           [RFC-ietf-pce-hierarchy-extensions-11]
+           [RFC8685]
 
    Available Formats
            [IMG]
            CSV
 
-   Value            Meaning                          Reference
-     0   Reserved                      [RFC-ietf-pce-hierarchy-extensions-11]
-     1   2-byte AS number              [RFC-ietf-pce-hierarchy-extensions-11]
-     2   4-byte AS number              [RFC-ietf-pce-hierarchy-extensions-11]
-     3   4-byte OSPF area ID           [RFC-ietf-pce-hierarchy-extensions-11]
-     4   Variable-length IS-IS area ID [RFC-ietf-pce-hierarchy-extensions-11]
+   Value            Meaning            Reference
+     0   Reserved                      [RFC8685]
+     1   2-byte AS number              [RFC8685]
+     2   4-byte AS number              [RFC8685]
+     3   4-byte OSPF area ID           [RFC8685]
+     4   Variable-length IS-IS area ID [RFC8685]
    5-255 Unassigned
 
 H-PCE-FLAG TLV Flag Field
@@ -1479,16 +1479,16 @@ H-PCE-FLAG TLV Flag Field
  Standards Action
 
    Reference
-           [RFC-ietf-pce-hierarchy-extensions-11]
+           [RFC8685]
 
    Available Formats
            [IMG]
            CSV
 
-   Bit            Description                          Reference
+   Bit            Description            Reference
    0-29 Unassigned
-    30  D (Disallow Domain Re-entry bit) [RFC-ietf-pce-hierarchy-extensions-11]
-    31  S (Domain Sequence bit)          [RFC-ietf-pce-hierarchy-extensions-11]
+    30  D (Disallow Domain Re-entry bit) [RFC8685]
+    31  S (Domain Sequence bit)          [RFC8685]
 
 ASSOCIATION Flag Field
 
