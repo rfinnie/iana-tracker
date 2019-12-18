@@ -8,7 +8,8 @@ Value,Description,Reference
 7,IS-IS Area ID,[RFC7897][RFC7898]
 8,Optical Interface Class List,[RFC-ietf-pce-wson-rwa-ext-17]
 9,Client Signal Information,[RFC-ietf-pce-wson-rwa-ext-17]
-10-31,Unassigned,
+10,Label subobject,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+11-31,Unassigned,
 32,Autonomous system number,[RFC3209]
 33,Explicit Exclusion Route subobject (EXRS),[RFC4874]
 34-127,Unassigned,

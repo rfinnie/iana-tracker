@@ -22,7 +22,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,3: Unassigned,
 ,,4: Unsupported parameter,[RFC5441]
 ,,5: Unsupported network performance constraint,[RFC8233]
-,,6-255: Unassigned,
+,,6: Bandwidth Object type 3 or 4 not supported,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,7: Unsupported endpoint type in END-POINTS Generalized Endpoint object type,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,8: Unsupported TLV present in END-POINTS Generalized Endpoint object type,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,9: Unsupported granularity in the RP object flags,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,10-255: Unassigned,
 5,Policy violation,0: Unassigned,[RFC5440]
 ,,1: C bit of the METRIC object set (request rejected),[RFC5440]
 ,,2: O bit of the RP object cleared (request rejected),[RFC5440]
@@ -76,7 +80,19 @@ Error-Type,Meaning,Error-value,Reference
 ,,21: MSD must be nonzero,[RFC8664]
 ,,22: Mismatch of O field in S2LS and LSP object,[RFC8623]
 ,,23: Incompatible OF codes in H-PCE,[RFC8685]
-,,24-255: Unassigned,
+,,"24: Bad Bandwidth Object type 3 (Generalized bandwidth) or 
+        4 (Generalized bandwidth of existing
+        TE-LSP for which a reoptimization is
+        requested)",[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,"25: Unsupported LSP Protection Flags in 
+        PROTECTION-ATTRIBUTE TLV",[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,26: Unsupported Secondary LSP Protection Flags in PROTECTION-ATTRIBUTE TLV,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,27: Unsupported Link Protection Type in PROTECTION-ATTRIBUTE TLV,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,28: LABEL-SET TLV present with 0 bit set but without R bit set in RP,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,29: Wrong LABEL-SET TLV present with 0 and L bit set,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,30: Wrong LABEL-SET with O bit set and wrong format,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,31: Missing GMPLS-CAPABILITY TLV,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,32-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
 ,,1: Unsupported class-type,[RFC5455]
@@ -197,4 +213,10 @@ Error-Type,Meaning,Error-value,Reference
 ,,1: H-PCE Capability not advertised,[RFC8685]
 ,,2: Parent PCE Capability cannot be provided,[RFC8685]
 ,,3-255: Unassigned,
-29-255,Unassigned,0-255: Unassigned,
+29,Path computation failure,0: Unassigned,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,1: Unacceptable request message,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,2: Generalized bandwidth value not supported,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,3: Label Set constraint could not be met,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,4: Label constraint could not be met,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+,,5-255: Unassigned,
+30-255,Unassigned,0-255: Unassigned,
