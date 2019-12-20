@@ -69,5 +69,5 @@ Decimal,Description,References
 66,id-mod-CMS-AEADChaCha20Poly1305,[RFC8103]
 67,id-mod-cms-ecdh-alg-2017,[RFC8418]
 68,id-mod-hkdf-oid-2019,[RFC8619]
-69,id-mod-cms-ori-psk-2019,[RFC-ietf-lamps-cms-mix-with-psk-07]
+69,id-mod-cms-ori-psk-2019,[RFC8696]
 70,CMSAlgsForSHAKE-2019,[RFC-ietf-lamps-cms-shakes-17]
