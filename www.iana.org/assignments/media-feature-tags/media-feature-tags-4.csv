@@ -142,3 +142,11 @@ Server for the purpose of an RS.",[RFC7866]
         associated with the tag is able to send binding-refresh
         REGISTER requests associated with the registration without
         being awakened by push notifications.",[RFC8599]
+30,sip.clue,"This feature tag
+        indicates that the device supports CLUE-controlled media.
+        Values appropriate for use with this feature tag: Boolean.
+        The feature tag is intended primarily for use in the following
+        applications, protocols, services, or negotiation mechanisms:
+        This feature tag is most useful in a communications application for
+        describing the capabilities of a device to use the CLUE control
+        protocol to negotiate the use of multiple media streams.",[RFC-ietf-clue-signaling-15]

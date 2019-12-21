@@ -59,5 +59,5 @@ webrtc.softvelum.com,Softvelum WebSocket signaling protocol,"WebRTC live streami
         signaling.",[Yury_Udovichenko],
 cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant],
 drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown],
-hub.bsc.bacnet.org,BACnet Secure Connect Hub Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],
-dc.bsc.bacnet.org,BACnet Secure Connect Direct Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],
+hub.bsc.bacnet.org,BACnet Secure Connect Hub Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
+dc.bsc.bacnet.org,BACnet Secure Connect Direct Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
