@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2019-12-13
+           2019-12-20
 
    Note
 
@@ -1787,7 +1787,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal          Description                       References
+   Decimal          Description          References
       0    Module identifiers            [RFC7107]
       1    CMS content types             [RFC7107]
       2    Attributes                    [RFC7107]
@@ -1801,7 +1801,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      10    Encoded information types     [RFC7107]
      11    S/MIME capabilities           [RFC7107]
      12    PSKC attributes               [RFC7107]
-     13    id-ori                        [RFC-ietf-lamps-cms-mix-with-psk-07]
+     13    id-ori                        [RFC8696]
 
   SMI Security for S/MIME Module Identifier (1.2.840.113549.1.9.16.0)
 
@@ -1820,7 +1820,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal              Description                            References
+   Decimal              Description                          References
       1    id-mod-cms                             [RFC2630]
       2    id-mod-ess                             [RFC2634]
       3    id-mod-oid                             [Reserved and Obsolete]
@@ -1889,7 +1889,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      66    id-mod-CMS-AEADChaCha20Poly1305        [RFC8103]
      67    id-mod-cms-ecdh-alg-2017               [RFC8418]
      68    id-mod-hkdf-oid-2019                   [RFC8619]
-     69    id-mod-cms-ori-psk-2019                [RFC-ietf-lamps-cms-mix-with-psk-07]
+     69    id-mod-cms-ori-psk-2019                [RFC8696]
      70    CMSAlgsForSHAKE-2019                   [RFC-ietf-lamps-cms-shakes-17]
 
   SMI Security for S/MIME CMS Content Type (1.2.840.113549.1.9.16.1)
@@ -2341,15 +2341,15 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
  Unassigned
 
    Reference
-           [RFC-ietf-lamps-cms-mix-with-psk-07]
+           [RFC8696]
 
    Available Formats
            [IMG]
            CSV
 
-   Decimal    Description                  References
-      1    id-ori-keyTransPSK [RFC-ietf-lamps-cms-mix-with-psk-07]
-      2    id-ori-keyAgreePSK [RFC-ietf-lamps-cms-mix-with-psk-07]
+   Decimal    Description     References
+      1    id-ori-keyTransPSK [RFC8696]
+      2    id-ori-keyAgreePSK [RFC8696]
 
   SMI Security for Mechanism SPKM Codes
 
@@ -2467,7 +2467,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal           Description                     References
+   Decimal           Description                   References
       1    id-pkix1-explicit-88            [RFC2459]
       2    id-pkix1-implicit-88            [RFC2459]
       3    id-pkix1-explicit-93            [RFC2459]
@@ -2561,7 +2561,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      91    id-mod-ip-addr-and-as-ident-2v2 [RFC8360]
      92    id-mod-lamps-eai-addresses-2016 [RFC8398]
      93    id-mod-safecurves-pkix          [RFC8410]
-     94    id-mod-pkix1-shakes-2019        [RFC-ietf-lamps-pkix-shake-15]
+     94    id-mod-pkix1-shakes-2019        [RFC8692]
 
   SMI Security for PKIX Certificate Extension
 
@@ -2873,10 +2873,10 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      27    id-alg-ecdhPop-static-sha384-hmac-sha384 [RFC6955]
      28    id-alg-ecdhPop-static-sha512-hmac-sha512 [RFC6955]
      29    id-alg-eccsi-with-sha256                 [draft-wang-tls-raw-public-key-with-ibc]
-     30    id-RSASSA-PSS-SHAKE128                   [RFC-ietf-lamps-pkix-shake-15]
-     31    id-RSASSA-PSS-SHAKE256                   [RFC-ietf-lamps-pkix-shake-15]
-     32    id-ecdsa-with-shake128                   [RFC-ietf-lamps-pkix-shake-15]
-     33    id-ecdsa-with-shake256                   [RFC-ietf-lamps-pkix-shake-15]
+     30    id-RSASSA-PSS-SHAKE128                   [RFC8692]
+     31    id-RSASSA-PSS-SHAKE256                   [RFC8692]
+     32    id-ecdsa-with-shake128                   [RFC8692]
+     33    id-ecdsa-with-shake256                   [RFC8692]
 
   SMI Security for PKIX CMC Controls
 

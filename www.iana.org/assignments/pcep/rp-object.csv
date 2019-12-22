@@ -1,5 +1,6 @@
 Bit,Description,Reference
-0-16,Unassigned,
+0-14,Unassigned,
+15-16,routing granularity (RG),"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.2]"
 17,Core-tree computation (C-bit),[RFC7334]
 18,Fragmentation (F-bit),[RFC8306]
 19,P2MP (N-bit),[RFC8306]

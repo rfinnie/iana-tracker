@@ -1,61 +1,63 @@
-Subprotocol Identifier,Subprotocol Common Name,Subprotocol Definition,Reference
-MBWS.huawei.com,MBWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner]
-MBLWS.huawei.com,MBLWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner]
-soap,soap,[http://go.microsoft.com/fwlink/?LinkID=231897&clcid=0x409],[Paul_Batum]
-wamp,"WAMP (""The WebSocket Application Messaging Protocol"")",[http://wamp.ws/spec],[Tobias_Oberstein]
-v10.stomp,Name: STOMP 1.0 specification,[http://stomp.github.com/stomp-specification-1.0.html],[Jeff_Mesnil]
-v11.stomp,Name: STOMP 1.1 specification,[http://stomp.github.com/stomp-specification-1.1.html],[Jeff_Mesnil]
-v12.stomp,Name: STOMP 1.2 specification,[http://stomp.github.com/stomp-specification-1.2.html],[Jeff_Mesnil]
-ocpp1.2,OCPP 1.2,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Open_Charge_Alliance]
-ocpp1.5,OCPP 1.5,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance]
-ocpp1.6,OCPP 1.6,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance]
-ocpp2.0,OCPP 2.0,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance]
-ocpp2.0.1,OCPP 2.0.1,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance]
-rfb,RFB,[RFC6143],[Tristan_Richardson]
-sip,WebSocket Transport for SIP (Session Intiation Protocol),[RFC7118],[RFC7118]
-notificationchannel-netapi-rest.openmobilealliance.org,OMA RESTful Network API for Notification Channel,"[OMA RESTful Network API for Notification Channel V 1.0, Open Mobile Alliance, OMA-TS-REST_NetAPI_NotificationChannel-V1_0]",[OMNA_-_Open_Mobile_Naming_Authority][Uwe_Rauschenbach]
-wpcp,Web Process Control Protocol (WPCP),[http://wpcp.net/spec/],[Patrick_Gansterer]
-amqp,Advanced Message Queuing Protocol (AMQP) 1.0+,[http://docs.oasis-open.org/amqp-bindmap/amqp-wsb/v1.0/csprd02/amqp-wsb-v1.0-csprd02.pdf],[Robin_Cover]
-mqtt,mqtt,[MQTT Version 5.0],[Chet_Ensign]
-jsflow,jsFlow pubsub/queue protocol,[http://www.jsflow.com/definition],[Magnus_Lundstedt]
-rwpcp,Reverse Web Process Control Protocol (RWPCP),[http://wpcp.net/spec/],[Patrick_Gansterer]
-xmpp,WebSocket Transport for the Extensible Messaging and Presence Protocol (XMPP),[RFC7395],[RFC7395]
+Subprotocol Identifier,Subprotocol Common Name,Subprotocol Definition,Reference,Change Controller
+MBWS.huawei.com,MBWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner],
+MBLWS.huawei.com,MBLWS,[http://www.ietf.org/id/draft-hapner-hybi-messagebroker-subprotocol-01.txt](page 9),[Mark_Hapner],
+soap,soap,[http://go.microsoft.com/fwlink/?LinkID=231897&clcid=0x409],[Paul_Batum],
+wamp,"WAMP (""The WebSocket Application Messaging Protocol"")",[http://wamp.ws/spec],[Tobias_Oberstein],
+v10.stomp,Name: STOMP 1.0 specification,[http://stomp.github.com/stomp-specification-1.0.html],[Jeff_Mesnil],
+v11.stomp,Name: STOMP 1.1 specification,[http://stomp.github.com/stomp-specification-1.1.html],[Jeff_Mesnil],
+v12.stomp,Name: STOMP 1.2 specification,[http://stomp.github.com/stomp-specification-1.2.html],[Jeff_Mesnil],
+ocpp1.2,OCPP 1.2,[http://www.gir.fr/ocppjs/ocpp_srpc_spec.shtml],[Open_Charge_Alliance],
+ocpp1.5,OCPP 1.5,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance],
+ocpp1.6,OCPP 1.6,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance],
+ocpp2.0,OCPP 2.0,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance],
+ocpp2.0.1,OCPP 2.0.1,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance],
+rfb,RFB,[RFC6143],[Tristan_Richardson],
+sip,WebSocket Transport for SIP (Session Intiation Protocol),[RFC7118],[RFC7118],
+notificationchannel-netapi-rest.openmobilealliance.org,OMA RESTful Network API for Notification Channel,"[OMA RESTful Network API for Notification Channel V 1.0, Open Mobile Alliance, OMA-TS-REST_NetAPI_NotificationChannel-V1_0]",[OMNA_-_Open_Mobile_Naming_Authority][Uwe_Rauschenbach],
+wpcp,Web Process Control Protocol (WPCP),[http://wpcp.net/spec/],[Patrick_Gansterer],
+amqp,Advanced Message Queuing Protocol (AMQP) 1.0+,[http://docs.oasis-open.org/amqp-bindmap/amqp-wsb/v1.0/csprd02/amqp-wsb-v1.0-csprd02.pdf],[Robin_Cover],
+mqtt,mqtt,[MQTT Version 5.0],[Chet_Ensign],
+jsflow,jsFlow pubsub/queue protocol,[http://www.jsflow.com/definition],[Magnus_Lundstedt],
+rwpcp,Reverse Web Process Control Protocol (RWPCP),[http://wpcp.net/spec/],[Patrick_Gansterer],
+xmpp,WebSocket Transport for the Extensible Messaging and Presence Protocol (XMPP),[RFC7395],[RFC7395],
 ship,SHIP - Smart Home IP,"SHIP (Smart Home IP) is a an IP based approach to plug and 
         play home automation and smart energy / energy efficiency, which can 
         easily be extended to additional domains such as Ambient Assisted 
         Living (AAL). SHIP can be used solely on the customer premises or can 
-        be integrated into a cloud based solution.",[EEBus Initiative][Andreas_Westermann]
+        be integrated into a cloud based solution.",[EEBus Initiative][Andreas_Westermann],
 mielecloudconnect,Miele Cloud Connect Protocol,"This protocol is used to securely connect household or 
         professional appliances to an internet service portal via a public 
         communication network in order to enable remote services. The 
-        specification is not published yet.",[Nils_Langhammer]
-v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp],[Masoud_Aghadavoodi_Jolfaei]
-msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977]
-v1.saltyrtc.org,SaltyRTC 1.0,[https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md],[Lennart_Grahl]
-TLCP-2.0.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.0.0],[Alessandro_Alinone]
-bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC-ietf-bfcpbis-bfcp-websocket-15],[RFC-ietf-bfcpbis-bfcp-websocket-15]
+        specification is not published yet.",[Nils_Langhammer],
+v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp],[Masoud_Aghadavoodi_Jolfaei],
+msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977],
+v1.saltyrtc.org,SaltyRTC 1.0,[https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md],[Lennart_Grahl],
+TLCP-2.0.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.0.0],[Alessandro_Alinone],
+bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC-ietf-bfcpbis-bfcp-websocket-15],[RFC-ietf-bfcpbis-bfcp-websocket-15],
 sldp.softvelum.com,Softvelum Low Delay Protocol,"SLDP is a low latency live streaming protocol for delivering media from
-        servers to MSE-based browsers and WebSocket-enabled applications.",[Yury_Udovichenko]
-opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
-opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation]
-v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swindon-rs.github.io/swindon/swindon-lattice/],[Paul_Colomiets]
-v1.usp,USP (Broadband Forum User Services Platform),[https://usp.technology/specification/mtp/websocket],[Broadband_Forum]
-mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari]
-coap,Constrained Application Protocol (CoAP),[RFC8323],[RFC8323]
-TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli]
+        servers to MSE-based browsers and WebSocket-enabled applications.",[Yury_Udovichenko],
+opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation],
+opcua+uajson,OPC UA JSON Encoding,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation],
+v1.swindon-lattice+json,Swindon Web Server Protocol (JSON encoding),[https://swindon-rs.github.io/swindon/swindon-lattice/],[Paul_Colomiets],
+v1.usp,USP (Broadband Forum User Services Platform),[https://usp.technology/specification/mtp/websocket],[Broadband_Forum],
+mles-websocket,mles-websocket,[https://github.com/jq-rs/mles-rs/blob/master/README.md],[Juhamatti_Kuusisaari],
+coap,Constrained Application Protocol (CoAP),[RFC8323],[RFC8323],
+TLCP-2.1.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.1.0],[Dario_Crivelli],
 sqlnet.oracle.com,sqlnet,"This protocol is used for communication between Oracle 
         database client and database server, and its usage as subprotocol 
         of websocket is primarly geared towards cloud deployments. sqlnet 
-        supports bi-directional data transfer and is full duplex in nature.",[Feroz_Alam_Khan]
-oneM2M.R2.0.json,oneM2M R2.0 JSON,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
-oneM2M.R2.0.xml,oneM2M R2.0 XML,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
-oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega]
-transit,Transit,[https://github.com/Randy-Buchholz/Transit],[Randy_Buchholz]
-2016.serverpush.dash.mpeg.org,MPEG-DASH-ServerPush-23009-6-2017,[https://www.iso.org/standard/71072.html],[Imed_Bouazizi]
-2018.mmt.mpeg.org,MPEG-MMT-23008-1-2018,[https://www.iso.org/standard/76386.html],[Imed_Bouazizi]
-CLUE,CLUE,[RFC-ietf-clue-datachannel-18],[RFC-ietf-clue-datachannel-18]
+        supports bi-directional data transfer and is full duplex in nature.",[Feroz_Alam_Khan],
+oneM2M.R2.0.json,oneM2M R2.0 JSON,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega],
+oneM2M.R2.0.xml,oneM2M R2.0 XML,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega],
+oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-0040/TS-0020-WebSocket_Protocol_Binding-V2_2_0.ZIP],[Miguel_Angel_Reina_Ortega],
+transit,Transit,[https://github.com/Randy-Buchholz/Transit],[Randy_Buchholz],
+2016.serverpush.dash.mpeg.org,MPEG-DASH-ServerPush-23009-6-2017,[https://www.iso.org/standard/71072.html],[Imed_Bouazizi],
+2018.mmt.mpeg.org,MPEG-MMT-23008-1-2018,[https://www.iso.org/standard/76386.html],[Imed_Bouazizi],
+CLUE,CLUE,[RFC-ietf-clue-datachannel-18],[RFC-ietf-clue-datachannel-18],
 webrtc.softvelum.com,Softvelum WebSocket signaling protocol,"WebRTC live streaming requires WebSocket-based signaling protocol for 
         every specific implementation. Softvelum products will use this subprotocol for 
-        signaling.",[Yury_Udovichenko]
-cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant]
-drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown]
+        signaling.",[Yury_Udovichenko],
+cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant],
+drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown],
+hub.bsc.bacnet.org,BACnet Secure Connect Hub Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
+dc.bsc.bacnet.org,BACnet Secure Connect Direct Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]

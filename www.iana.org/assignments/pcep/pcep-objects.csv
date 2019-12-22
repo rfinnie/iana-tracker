@@ -19,12 +19,16 @@ Object-Class Value,Name,Object-Type,Reference
 ,,2: IPv6 addresses,[RFC5440]
 ,,3: IPv4,[RFC8306]
 ,,4: IPv6,[RFC8306]
-,,5-15: Unassigned,
+,,5: Generalized Endpoint,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.5]"
+,,6-15: Unassigned,
 5,BANDWIDTH,0: Reserved,"[RFC5440][RFC Errata 
           4956]"
 ,,1: Requested bandwidth,[RFC5440]
 ,,2: Bandwidth of an existing TE LSP for which a reoptimization is requested,[RFC5440]
-,,3-15: Unassigned,
+,,3: Generalized bandwidth,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.3]"
+,,"4: Generalized bandwidth of an existing TE-LSP for
+        which a reoptimization is requested","[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.3]"
+,,5-15: Unassigned,
 6,METRIC,0: Reserved,"[RFC5440][RFC Errata 
           4956]"
 ,,1: Metric,[RFC5440]
@@ -60,7 +64,8 @@ Object-Class Value,Name,Object-Type,Reference
 14,LOAD-BALANCING,0: Reserved,"[RFC5440][RFC Errata 
           4956]"
 ,,1: Load Balancing,[RFC5440]
-,,2-15: Unassigned,
+,,2: Generalized Load Balancing,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.4]"
+,,3-15: Unassigned,
 15,CLOSE,0: Reserved,"[RFC5440][RFC Errata 
           4956]"
 ,,1: Close,[RFC5440]

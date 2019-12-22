@@ -7,14 +7,14 @@ Value,TLV Name,Reference
 5,TE Node Capability Descriptor,[RFC5073]
 6,PCED,[RFC5088]
 7,OSPF Dynamic Hostname,[RFC5642]
-8,SR-Algorithm TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
-9,SID/Label Range TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+8,SR-Algorithm TLV,[RFC8665]
+9,SID/Label Range TLV,[RFC8665]
 10,Node Admin Tag TLV,[RFC7777]
 11,S-BFD Discriminator,[RFC7884]
 12,Node MSD,[RFC8476]
 13,Tunnel Encapsulations,[RFC-ietf-ospf-encapsulation-cap-09]
-14,SR Local Block TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
-15,SRMS Preference TLV,[RFC-ietf-ospf-segment-routing-extensions-24]
+14,SR Local Block TLV,[RFC8665]
+15,SRMS Preference TLV,[RFC8665]
 16,"Flexible Algorithm Definition TLV 
         (TEMPORARY - registered 2018-06-04, extension registered 2019-06-06, expires 2020-06-04)",[draft-ietf-lsr-flex-algo]
 17,"OSPF Area Leader Sub-TLV 

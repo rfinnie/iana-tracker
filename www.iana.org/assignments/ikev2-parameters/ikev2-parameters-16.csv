@@ -53,5 +53,6 @@ Value,NOTIFY MESSAGES - STATUS TYPES,Reference
 16435,USE_PPK,[draft-ietf-ipsecme-qr-ikev2]
 16436,PPK_IDENTITY,[draft-ietf-ipsecme-qr-ikev2]
 16437,NO_PPK_AUTH,[draft-ietf-ipsecme-qr-ikev2]
-16438-40959,Unassigned,
+16438,INTERMEDIATE_EXCHANGE_SUPPORTED,[draft-ietf-ipsecme-ikev2-intermediate]
+16439-40959,Unassigned,
 40960-65535,Private use,[RFC7296]

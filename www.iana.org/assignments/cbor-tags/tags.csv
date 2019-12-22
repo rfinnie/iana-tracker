@@ -20,7 +20,7 @@ Tag,Data Item,Semantics,Reference
 28,multiple,mark value as (potentially) shared,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann]
 29,unsigned integer,reference nth marked value,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann]
 30,array,Rational number,[http://peteroupc.github.io/CBOR/rational.html][Peter_Occil]
-31,Undefined (0xf7),Missing value (e.g. gap in array),[https://github.com/svaarala/duktape/blob/master/doc/cbor-missing-tag.rst][Sami_Vaarala]
+31,Undefined (0xf7),Absent value in a CBOR Array,[https://github.com/svaarala/cbor-specs/blob/master/cbor-absent-tag.rst][Sami_Vaarala]
 32,UTF-8 string,URI; see Section 2.4.4.3,[RFC7049]
 33,UTF-8 string,base64url; see Section 2.4.4.3,[RFC7049]
 34,UTF-8 string,base64; see Section 2.4.4.3,[RFC7049]

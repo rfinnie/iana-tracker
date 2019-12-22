@@ -8,5 +8,7 @@ Value,Exchange Type,Reference
 39,GSA_AUTH,[draft-yeung-g-ikev2]
 40,GSA_REGISTRATION,[draft-yeung-g-ikev2]
 41,GSA_REKEY,[draft-yeung-g-ikev2]
-42-239,Unassigned,
+42,Unassigned,
+43,IKE_INTERMEDIATE,[draft-ietf-ipsecme-ikev2-intermediate]
+44-239,Unassigned,
 240-255,Private use,[RFC7296]

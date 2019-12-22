@@ -6019,8 +6019,8 @@ csoftragent,3004,tcp,Csoft Agent,[Nedelcho_Stanev_2],[Nedelcho_Stanev_2],,,,,,
 csoftragent,3004,udp,Csoft Agent,[Nedelcho_Stanev_2],[Nedelcho_Stanev_2],,,,,,
 geniuslm,3005,tcp,Genius License Manager,[Jakob_Spies],[Jakob_Spies],,,,,,
 geniuslm,3005,udp,Genius License Manager,[Jakob_Spies],[Jakob_Spies],,,,,,
-ii-admin,3006,tcp,Instant Internet Admin,[Lewis_Donzis],[Lewis_Donzis],,,,,,
-ii-admin,3006,udp,Instant Internet Admin,[Lewis_Donzis],[Lewis_Donzis],,,,,,
+ii-admin,3006,tcp,Instant Internet Admin,[PerfTech_Inc],[Lewis_Donzis],,2019-12-19,,,,
+ii-admin,3006,udp,Instant Internet Admin,[PerfTech_Inc],[Lewis_Donzis],,2019-12-19,,,,
 lotusmtap,3007,tcp,Lotus Mail Tracking Agent Protocol,[Ken_Lin],[Ken_Lin],,,,,,
 lotusmtap,3007,udp,Lotus Mail Tracking Agent Protocol,[Ken_Lin],[Ken_Lin],,,,,,
 midnight-tech,3008,tcp,Midnight Technologies,[Kyle_Unice],[Kyle_Unice],,,,,,
@@ -11335,7 +11335,7 @@ fodms,7200,udp,FODMS FLIP,[David_Anthony],[David_Anthony],,,,,,
 dlip,7201,tcp,DLIP,[Albert_Manfredi],[Albert_Manfredi],,,,,,
 dlip,7201,udp,DLIP,[Albert_Manfredi],[Albert_Manfredi],,,,,,
 pon-ictp,7202,tcp,"Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON
-    (Passive Optical Network) systems",[Broadband_Forum],[Broadband_Forum],2017-02-22,2019-12-13,"[TR-352][Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
+    (Passive Optical Network) systems",[Broadband_Forum],[Broadband_Forum],2017-02-22,2019-12-16,"[TR-352][Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
       comprising a 40-Gigabit-capable next-generation passive optical network (NG-PON2) system to
       exchange channel profile configuration and status information and to coordinate the operation of tunable 
@@ -12137,7 +12137,8 @@ core-of-source,8767,tcp,Online mobile multiplayer game,[Alt_Solve_Sdn_Bhd],[Alma
 ,8767,udp,Reserved,,,,,,,,
 sandpolis,8768,tcp,Sandpolis Server,[Tyler_Cook],[Tyler_Cook],2019-11-22,,,,,
 ,8768,udp,Reserved,,,,,,,,
-,8769,,Unassigned,,,,,,,,
+oktaauthenticat,8769,tcp,Okta MultiPlatform Access Mgmt for Cloud Svcs,[Okta_Inc],[Tom_Belote],2019-12-19,,,,,
+,8769,udp,Reserved,,,,,,,,
 dpap,8770,tcp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 dpap,8770,udp,Digital Photo Access Protocol (iPhoto),[Amandeep_Jawa_2],[Amandeep_Jawa_2],2004-11,,,,,"Defined TXT keys: txtvers, Version, iPSh Version, Machine ID, Machine Name, Password"
 ,8771-8777,,Unassigned,,,,,,,,
@@ -14802,6 +14803,7 @@ iota,,tcp,iotaMed medical records server,[MITM],[Martin_Wehlou],2011-10-18,,,,,D
 ipbroadcaster,,,IP Broadcaster,[base_t_Interactive],[base_t_Interactive],,,,,,Defined TXT keys: None
 ipspeaker,,,IP Speaker Control Protocol,[Dan_Mahn],[Dan_Mahn],,,,,,Defined TXT keys: None
 iqp,,tcp,Control protocol for Phase One devices,[Phase_One],[Christopher_Jacobsen],2018-01-16,,,,,"Defined TXT keys: txtvers,mk,md,us,un,ss,auth"
+irc-iot,,tcp,The universal protocol for building IoT,[Alexey_Y_Woronov],[Alexey_Y_Woronov],2019-12-20,,,,,Defined TXT keys: _irc-iot
 ir-hvac-000,,tcp,HVAC SMIL Server,[Ingersoll_Rand_Inc],[John_Taylor],2011-09-28,,,,,Defined TXT keys: None
 irelay,,,iRelay application discovery service,[Marc_Diamante],[Marc_Diamante],,,,,,Defined TXT keys: Proprietary
 irmc,,,Intego Remote Management Console,[Olivier_Delecluse],[Olivier_Delecluse],,,,,,"Defined TXT keys: RMC Client Version=<version>, MAC Address=<address>"

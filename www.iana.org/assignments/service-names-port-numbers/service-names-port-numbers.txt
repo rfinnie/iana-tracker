@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2019-12-13
+           2019-12-20
 
    Expert(s)
 
@@ -6928,8 +6928,8 @@ csoftragent        3004        tcp    Csoft Agent                  [Nedelcho_Sta
 csoftragent        3004        udp    Csoft Agent                  [Nedelcho_Stanev_2]                                   [Nedelcho_Stanev_2]
 geniuslm           3005        tcp    Genius License Manager       [Jakob_Spies]                                         [Jakob_Spies]
 geniuslm           3005        udp    Genius License Manager       [Jakob_Spies]                                         [Jakob_Spies]
-ii-admin           3006        tcp    Instant Internet Admin       [Lewis_Donzis]                                        [Lewis_Donzis]
-ii-admin           3006        udp    Instant Internet Admin       [Lewis_Donzis]                                        [Lewis_Donzis]
+ii-admin           3006        tcp    Instant Internet Admin       [PerfTech_Inc]                                        [Lewis_Donzis]                                                         2019-12-19
+ii-admin           3006        udp    Instant Internet Admin       [PerfTech_Inc]                                        [Lewis_Donzis]                                                         2019-12-19
 lotusmtap          3007        tcp    Lotus Mail Tracking Agent    [Ken_Lin]                                             [Ken_Lin]
                                       Protocol
 lotusmtap          3007        udp    Lotus Mail Tracking Agent    [Ken_Lin]                                             [Ken_Lin]
@@ -13242,7 +13242,7 @@ dlip               7201        udp    DLIP                         [Albert_Manfr
                                                                                                                                                                                                              binary message format that is used by a set
                                       Inter-Channel Termination                                                                                                                                              of optical line terminal (OLT) channel
                                       Protocol (ICTP) for                                                                                                                                                    terminations (CT) comprising a
-pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum]                                     [Broadband_Forum]                                         2017-02-22   2019-12-13   40-Gigabit-capable next-generation passive
+pon-ictp           7202        tcp    multi-wavelength PON         [Broadband_Forum]                                     [Broadband_Forum]                                         2017-02-22   2019-12-16   40-Gigabit-capable next-generation passive
                                       (Passive Optical Network)                                                                                                                                              optical network (NG-PON2) system to exchange
                                       systems                                                                                                                                                                channel profile configuration and status
                                                                                                                                                                                                              information and to coordinate the operation
@@ -14256,7 +14256,9 @@ core-of-source     8767        tcp    Online mobile multiplayer    [Alt_Solve_Sd
                    8767        udp    Reserved
 sandpolis          8768        tcp    Sandpolis Server             [Tyler_Cook]                                          [Tyler_Cook]                                              2019-11-22
                    8768        udp    Reserved
-                   8769               Unassigned
+oktaauthenticat    8769        tcp    Okta MultiPlatform Access    [Okta_Inc]                                            [Tom_Belote]                                              2019-12-19
+                                      Mgmt for Cloud Svcs
+                   8769        udp    Reserved
 dpap               8770        tcp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
                                       Protocol (iPhoto)                                                                                                                                                                                                                           Machine Name, Password
 dpap               8770        udp    Digital Photo Access         [Amandeep_Jawa_2]                                     [Amandeep_Jawa_2]                                         2004-11                                                                                        Defined TXT keys: txtvers, Version, iPSh Version, Machine ID,
@@ -17709,6 +17711,8 @@ ipbroadcaster                         IP Broadcaster               [base_t_Inter
 ipspeaker                             IP Speaker Control Protocol  [Dan_Mahn]                                            [Dan_Mahn]                                                                                                                                               Defined TXT keys: None
 iqp                            tcp    Control protocol for Phase   [Phase_One]                                           [Christopher_Jacobsen]                                    2018-01-16                                                                                     Defined TXT keys: txtvers,mk,md,us,un,ss,auth
                                       One devices
+irc-iot                        tcp    The universal protocol for   [Alexey_Y_Woronov]                                    [Alexey_Y_Woronov]                                        2019-12-20                                                                                     Defined TXT keys: _irc-iot
+                                      building IoT
 ir-hvac-000                    tcp    HVAC SMIL Server             [Ingersoll_Rand_Inc]                                  [John_Taylor]                                             2011-09-28                                                                                     Defined TXT keys: None
 irelay                                iRelay application discovery [Marc_Diamante]                                       [Marc_Diamante]                                                                                                                                          Defined TXT keys: Proprietary
                                       service
@@ -18862,6 +18866,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Alexei_Vladishev]                                        Alexei Vladishev                                    mailto:alexei.vladishev&zabbix.com                            2006-02
 [Alexey_Novotorzhin]                                      Alexey Novotorzhin         Amicon OOO               mailto:nav&amicon.ru                                          2013-04-25
 [Alexey_Vlaskin]                                          Alexey Vlaskin                                      mailto:avlaskin&visicron.com                                  2007-10-22
+[Alexey_Y_Woronov]                                        Alexey Y. Woronov                                   mailto:wra&ngs.ru                                             2019-12-20
 [Alexios_Vasileiadis]                                     Alexios Vasileiadis                                 mailto:alexvas100&gmail.com                                   2018-05-03
 [Alexis_Bose]                                             Alexis Bose                                         mailto:abose&d-ta.com                                         2008-12-08
 [Alfred_Schmidt]                                          Alfred Schmidt                                      mailto:a.schmidt&aft-werdohl.de                               2003-11
@@ -21704,7 +21709,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Leslie_Mulder]                                           Leslie Mulder              Network Device working   mailto:ljm&exegin.com                                         2013-05-28
                                                                                      group
 [Lev_Yakupov]                                             Lev Yakupov                                         mailto:lyakupov&trueconf.com                                  2017-05-12
-[Lewis_Donzis]                                            Lewis Donzis                                        mailto:ldonzis&nortelnetworks.com
+[Lewis_Donzis]                                            Lewis Donzis                                        mailto:lew&perftech.com                                       2019-12-19
 [Lewis_Wolfgang]                                          Lewis Wolfgang                                      mailto:wolfgang&kencast.com                                   2006-05
 [Liam_Merwick]                                            Liam Merwick                                        mailto:ldoms-iana-ports&sun.com                               2009-01-16
 [Libelle_AG]                                              Libelle AG                                          mailto:hkrueger&libelle.com                                   2016-02-17
@@ -22468,6 +22473,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Odo_Maletzki]                                            Odo Maletzki                                        mailto:Odo.Maletzki&ioag.de
 [ODVA_Inc]                                                                           ODVA, Inc.               mailto:babatke&ra.rockwell.com                                2015-05-28
 [Oishi_Toshiaki]                                          Oishi Toshiaki             SEIKO EPSON Corporation  mailto:Oishi.Toshiaki&exc.epson.co.jp                         2002-02
+[Okta_Inc]                                                                           Okta Inc                 mailto:tbelote&okta.com                                       2019-12-19
 [Ola_Sandstrom]                                           Ola Sandstrom                                       mailto:ola.sandstrom&anoto.com                                2003-03
 [Ola_Strandberg]                                          Ola Strandberg                                      mailto:Ola.Strandberg&pharmasoft.se
 [Ole_Hellevik]                                            Ole Hellevik                                        mailto:oleh&interlinq.com
@@ -22669,6 +22675,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Per_Hellberg]                                            Per Hellberg                                        mailto:phellberg&isogon.com                                   2002-02
 [Per_Sahlqvist]                                           Per Sahlqvist                                       mailto:psahlqvi&sw.seisy.abb.se
 [Per_Schroeder]                                           Per Schroeder                                       mailto:Per.Schroder&mimer.se
+[PerfTech_Inc]                                                                       PerfTech, Inc.           mailto:contact&perftech.com                                   2019-12-19
 [Performance_Co-Pilot_PCP_Project]                                                   Performance Co-Pilot     mailto:kenj&internode.on.net                                  2013-10-09
                                                                                      (PCP) Project
 [Pete_Brownlow]                                           Pete Brownlow                                       mailto:merg&upsys.co.uk                                       2017-01-03
@@ -23915,6 +23922,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Toerless_Eckert]                                         Toerless Eckert                                     mailto:eckert&cisco.com
 [Toerless_Eckert_2]                                       Toerless Eckert            Cisco Systems            mailto:eckert&cisco.com                                       2014-06-06
 [Tohru_Mori]                                              Tohru Mori                                          mailto:tmori&vnet.ibm.com
+[Tom_Belote]                                              Tom Belote                                          mailto:tbelote&okta.com                                       2019-12-19
 [Tom_Bereiter]                                            Tom Bereiter
 [Tom_Bougan]                                              Tom Bougan                                          mailto:tomb&apptechsys.com
 [Tom_Boyle]                                               Tom Boyle                                           mailto:tboyle&vormetric.com                                   2005-06
