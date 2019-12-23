@@ -68,4 +68,7 @@ Value,Name,Reference
 0xC000,CISCO-STUN-FLOWDATA,[Dan_Wing]
 0xC001,ENF-FLOW-DESCRIPTION,[Pål_Erik_Martinsen]
 0xC002,ENF-NETWORK-STATUS,[Pål_Erik_Martinsen]
-0xC003-0xFFFF,Unassigned,
+0xC003-0xC058,Unassigned,
+0xC059,GOOG-MISC-INFO,[Jonas_Oreland]
+0xC05A,GOOG-MESSAGE-INTEGRITY-32,[Jonas_Oreland]
+0xC05B-0xFFFF,Unassigned,
