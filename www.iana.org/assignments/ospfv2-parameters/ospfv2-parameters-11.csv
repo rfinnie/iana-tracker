@@ -4,3 +4,4 @@ Value,Description,Reference
 0x04,V-bit,[RFC2328]
 0x08,W-bit,[RFC1584][RFC5110]
 0x10,Nt-bit,[RFC3101]
+0x80,Host (H-bit),[RFC-ietf-ospf-ospfv2-hbit-12]
