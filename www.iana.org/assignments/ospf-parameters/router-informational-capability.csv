@@ -6,4 +6,5 @@ Bit Number,Capability Name,Reference
 4,OSPF point-to-point over LAN,[RFC5309]
 5,OSPF Experimental TE,[RFC4973]
 6,Two-Part Metric support,[RFC8042]
-7-31,Unassigned,
+7,OSPF Host Router,[RFC-ietf-ospf-ospfv2-hbit-12]
+8-31,Unassigned,
