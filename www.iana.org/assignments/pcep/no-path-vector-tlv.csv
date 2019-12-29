@@ -1,9 +1,17 @@
 Bit,Description,Reference
-0-18,Unassigned,
-19,Destination is not found in the indicated domain,[RFC-ietf-pce-hierarchy-extensions-11]
-20,No available resource in one or more domain,[RFC-ietf-pce-hierarchy-extensions-11]
-21,Unresponsive child PCE(s),[RFC-ietf-pce-hierarchy-extensions-11]
-22,Destination Domain unknown,[RFC-ietf-pce-hierarchy-extensions-11]
+0-11,Unassigned,
+12,"LOAD-BALANCING could not be performed with the
+        bandwidth constraints",[RFC-ietf-pce-gmpls-pcep-extensions-16]
+13,No label resource in range,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+14,No endpoint label resource in range,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+15,No endpoint label resource,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+16,Granularity not supported,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+17,No Resource,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+18,Protection Mismatch,[RFC-ietf-pce-gmpls-pcep-extensions-16]
+19,Destination is not found in the indicated domain,[RFC8685]
+20,No available resource in one or more domains,[RFC8685]
+21,Unresponsive child PCE(s),[RFC8685]
+22,Destination domain unknown,[RFC8685]
 23,No RWA constraints met,[RFC-ietf-pce-wson-rwa-ext-17]
 24,P2MP Reachability Problem,[RFC8306]
 25,No GCO solution found,[RFC5557]
