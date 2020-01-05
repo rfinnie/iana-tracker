@@ -6,7 +6,8 @@ Unassigned,-65534 to -260,,,
 "RS512 (TEMPORARY - registered 2018-04-19, extension registered 2019-03-29, expires 2020-04-19)",-259,RSASSA-PKCS1-v1_5 w/ SHA-512,[draft-jones-webauthn-cose-algorithms],No
 "RS384 (TEMPORARY - registered 2018-04-19, extension registered 2019-03-29, expires 2020-04-19)",-258,RSASSA-PKCS1-v1_5 w/ SHA-384,[draft-jones-webauthn-cose-algorithms],No
 "RS256 (TEMPORARY - registered 2018-04-19, extension registered 2019-03-29, expires 2020-04-19)",-257,RSASSA-PKCS1-v1_5 w/ SHA-256,[draft-jones-webauthn-cose-algorithms],Deprecated
-Unassigned,-256 to -46,,,
+Unassigned,-256 to -47,,,
+HSS-LMS,-46,HSS/LMS hash-based digital signature,[RFC-ietf-cose-hash-sig-09],Yes
 "SHAKE256 (TEMPORARY - registered 2019-08-13, expires 2020-08-13)",-45,256-bit SHAKE,[draft-ietf-cose-hash-algs],Yes
 "SHA-512 (TEMPORARY - registered 2019-08-13, expires 2020-08-13)",-44,SHA-2 512-bit Hash,[draft-ietf-cose-hash-algs],Yes
 "SHA-384 (TEMPORARY - registered 2019-08-13, expires 2020-08-13)",-43,SHA-2 384-bit Hash,[draft-ietf-cose-hash-algs],Yes

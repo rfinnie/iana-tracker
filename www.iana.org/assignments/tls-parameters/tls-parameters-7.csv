@@ -22,9 +22,7 @@ Value,Description,DTLS-OK,Reference,Comment
 22,certificate_status_RESERVED,Y,[RFC6066][RFC8446],Used in TLS versions prior to 1.3.
 23,supplemental_data_RESERVED,Y,[RFC4680][RFC8446],Used in TLS versions prior to 1.3.
 24,key_update,Y,[RFC8446],
-25,"compressed_certificate 
-        (TEMPORARY - registered 2018-05-23, extension registered 2019-04-22, 
-        expires 2020-05-23)",Y,[draft-ietf-tls-certificate-compression],
+25,compressed_certificate,Y,[RFC-ietf-tls-certificate-compression-09],
 26-253,Unassigned,,,
 254,message_hash,Y,[RFC8446],
 255,Unassigned,,,
