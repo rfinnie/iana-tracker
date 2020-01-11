@@ -170,6 +170,9 @@ to a certain profile, without affecting the non-profile semantics
 of the resource representation.",[RFC6906],"Profile URIs are primarily intended to be used as
 identifiers, and thus clients SHOULD NOT indiscriminately access
 profile URIs."
+publication,"Links to a publication manifest. A manifest represents 
+      structured information about a publication, such as informative metadata, 
+      a list of resources, and a default reading order.",[Publication Manifest],
 related,Identifies a related resource.,[RFC4287],
 restconf,"Identifies the root of RESTCONF API as configured on this HTTP server.
       The ""restconf"" relation defines the root of the API defined in RFC8040.
