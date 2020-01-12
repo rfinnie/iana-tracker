@@ -37,7 +37,8 @@ Option",[RFC5568]
 35,Authoritative Border Router Option,[RFC6775]
 36,6LoWPAN Capability Indication Option (6CIO),[RFC7400]
 37,DHCP Captive-Portal,[RFC7710]
-38-137,Unassigned,
+38,PREF64 option,[RFC-ietf-6man-ra-pref64-09]
+39-137,Unassigned,
 138,CARD Request option,[RFC4065]
 139,CARD Reply option,[RFC4065]
 140-252,Unassigned,
