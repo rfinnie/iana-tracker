@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2019-12-26</updated>
+    <updated>2020-01-09</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -742,12 +742,12 @@
             <name>iRegisterDomainsHere.Com Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-11-08">
+        <record updated="2020-01-07">
             <value>244</value>
             <name>Gabia, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gabiadns.com/v1/domain/</server>
+                <server>https://rdap.gabiadns.com/v1/</server>
             </rdapurl>
         </record>
         <record>
@@ -1239,10 +1239,13 @@
             <name>Vayala Corporation dba Demand.com</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-01-09">
             <value>444</value>
             <name>Inames Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.inames.co.kr/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record>
             <value>445</value>
@@ -2016,10 +2019,13 @@
                 <server>https://rdap.entorno.es/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-01-07">
             <value>697</value>
             <name>Todaynic.com, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.now.cn:8443/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-08">
             <value>698</value>
@@ -6396,10 +6402,13 @@
             <name>M. G. Infocom Pvt. Ltd. dba MindGenies</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-01-09">
             <value>1340</value>
             <name>Arctic Names, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://arcticnames.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-15">
             <value>1341</value>
@@ -6566,10 +6575,13 @@
             <name>IBI.Net, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-01-07">
             <value>1362</value>
             <name>Regtime Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.webnames.ru/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>1363</value>
@@ -6825,10 +6837,13 @@
             <name>Thought Convergence, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-01-07">
             <value>1407</value>
             <name>SW Hosting &amp; Communications Technologies SL dba Serveisweb</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.swhosting.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-15">
             <value>1408</value>
@@ -7095,10 +7110,13 @@
             <name>iWelt AG</name>
             <status>Terminated</status>
         </record>
-        <record updated="2017-12-14">
+        <record updated="2020-01-09">
             <value>1452</value>
             <name>Site Matrix LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://profilebuilder.com/rdap/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1453</value>
@@ -7421,12 +7439,12 @@
                 <server>https://rdap.dotroll.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-11-08">
+        <record updated="2020-01-07">
             <value>1502</value>
             <name>Gabia C&amp;S</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.gabiadns.com/v1/domain/</server>
+                <server>https://rdap.gabiadns.com/v1/</server>
             </rdapurl>
         </record>
         <record updated="2019-11-11">
@@ -7442,10 +7460,13 @@
             <name>camPoint AG</name>
             <status>Terminated</status>
         </record>
-        <record updated="2018-09-13">
+        <record updated="2020-01-07">
             <value>1505</value>
             <name>Gransy, s.r.o.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.regtons.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-09-11">
             <value>1506</value>
@@ -7574,10 +7595,13 @@
                 <server>https://rdap.gzidc.com/server/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-01-07">
             <value>1526</value>
             <name>Hogan Lovells International LLP</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.anchovy.com/domain/anchovy.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-20">
             <value>1527</value>
@@ -7623,10 +7647,13 @@
             <name>Good Domain Registry Pvt Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record updated="2016-02-08">
+        <record updated="2020-01-07">
             <value>1534</value>
             <name>Aerotek Bilisim Sanayi ve Ticaret AS</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>1535</value>
@@ -7681,10 +7708,13 @@
                 <server>https://rdap.namebright.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-01-07">
             <value>1542</value>
             <name>Korea Server Hosting Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ksdom.kr/net/v1/domain/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>1543</value>
@@ -7976,10 +8006,13 @@
             <name>Tecnologia, Desarrollo Y Mercado S. de R.L. de C.V.</name>
             <status>Accredited</status>
         </record>
-        <record updated="2019-01-31">
+        <record updated="2020-01-09">
             <value>1583</value>
             <name>Umbrellar Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://opensrs.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1584</value>
@@ -8741,10 +8774,13 @@
                 <server>https://rdap.namebright.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-01-07">
             <value>1696</value>
             <name>Hostpoint AG</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.ascio.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-30">
             <value>1697</value>
@@ -8981,10 +9017,13 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-01-09">
             <value>1738</value>
             <name>Emirates Telecommunications Corporation - Etisalat</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nic.ae/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-22">
             <value>1739</value>
@@ -9007,10 +9046,10 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-01-09">
             <value>1742</value>
             <name>Zhengzhou Zitian Network Technology Co., Ltd.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2015-05-27">
             <value>1743</value>
@@ -9079,10 +9118,13 @@
             <name>Domain Shield Pty Ltd</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-01-07">
             <value>1754</value>
             <name>Shenzhen Esin Technology Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.esin.com.cn/</server>
+            </rdapurl>
         </record>
         <record updated="2019-12-23">
             <value>1755</value>
@@ -9967,10 +10009,13 @@
             <name>Dynadot12 LLC</name>
             <status>Accredited</status>
         </record>
-        <record>
+        <record updated="2020-01-09">
             <value>1868</value>
             <name>Eranet International Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.tnet.hk:8443/v1/</server>
+            </rdapurl>
         </record>
         
         <record updated="2019-12-12">
@@ -19178,10 +19223,13 @@
             <name>Nimzo 97, LLC</name>
             <status>Terminated</status>
         </record>
-        <record date="2016-01-26">
+        <record date="2020-01-07">
             <value>3216</value>
             <name>Nimzo 98, LLC</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nimzo98.com/rdap/v1/</server>
+            </rdapurl>
         </record>
         <record date="2016-01-26">
             <value>3217</value>
@@ -23965,6 +24013,16 @@
         <record date="2019-12-20">
             <value>3854</value>
             <name>Access Japan Co., Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-01-09">
+            <value>3855</value>
+            <name>Hong Kong Juming Network Technology Co., Ltd</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-01-09">
+            <value>3857</value>
+            <name>Dynu Systems Incorporated</name>
             <status>Accredited</status>
         </record>
         <record>

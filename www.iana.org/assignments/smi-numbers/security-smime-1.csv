@@ -43,3 +43,5 @@ Decimal,Description,References
 41,id-ct-mudtype,[RFC8520]
 42,id-ct-sztpConveyedInfoXML,[RFC8572]
 43,id-ct-sztpConveyedInfoJSON,[RFC8572]
+44,id-ct-cbor,[RFC-schaad-cbor-content-02]
+45,id-ct-cborSequence,[RFC-schaad-cbor-content-02]
