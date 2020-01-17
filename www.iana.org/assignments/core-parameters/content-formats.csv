@@ -40,10 +40,8 @@ Unassigned,,257-279,
       (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)",,280,[RFC8551][RFC7030][draft-ietf-ace-coap-est]
 "application/pkcs7-mime; smime-type=certs-only
         (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)",,281,[RFC8551][draft-ietf-ace-coap-est]
-"application/pkcs7-mime; smime-type=CMC-Request
-        (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)",,282,[RFC8551][RFC5273][draft-ietf-ace-coap-est]
-"application/pkcs7-mime; smime-type=CMC-Response
-        (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)",,283,[RFC8551][RFC5273][draft-ietf-ace-coap-est]
+application/pkcs7-mime; smime-type=CMC-Request,,282,[RFC8551][RFC5273][draft-ietf-ace-coap-est-05][IESG][1]
+application/pkcs7-mime; smime-type=CMC-Response,,283,[RFC8551][RFC5273][draft-ietf-ace-coap-est-05][IESG][1]
 "application/pkcs8
         (TEMPORARY - registered 2018-08-09, extension registered 2019-06-14, expires 2020-08-09)",,284,[RFC8551][RFC5958][draft-ietf-ace-coap-est]
 "application/csrattrs
