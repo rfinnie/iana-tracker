@@ -9,8 +9,8 @@ Value,Description,Reference
 7,Simple LDPC-Staircase FEC Scheme for Arbitrary Packet Flows,"[RFC6816, Section 5]"
 8,Simple Reed-Solomon FEC Scheme over GF(2^^m) for Arbitrary Packet Flows,[RFC6865]
 9,"Sliding Window Random Linear Codes (RLC) over
-GF(2) FEC Scheme for Arbitrary Packet Flows","[RFC-ietf-tsvwg-rlc-fec-scheme-16, Section 5]"
+GF(2) FEC Scheme for Arbitrary Packet Flows","[RFC8681, Section 5]"
 10,"Sliding Window Random Linear Codes (RLC) over
-GF(2^^8) FEC Scheme for Arbitrary Packet Flows","[RFC-ietf-tsvwg-rlc-fec-scheme-16, Section 4]"
+GF(2^^8) FEC Scheme for Arbitrary Packet Flows","[RFC8681, Section 4]"
 11-254,Unassigned,
 255,Reserved,

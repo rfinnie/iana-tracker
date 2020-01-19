@@ -14,7 +14,7 @@ jti,Unique identifier of the token,IESG,"[RFC7662, Section 2.2]"
 permissions,"array of objects, each describing a scoped, time-limitable permission for a resource",[Kantara_UMA_WG],"[Federated Authorization for UMA 2.0, Section 5.1.1]"
 vot,Vector of Trust value,IESG,[RFC8485]
 vtm,Vector of Trust trustmark URL,IESG,[RFC8485]
-act,Actor,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 4.1]"
+act,Actor,IESG,"[RFC8693, Section 4.1]"
 may_act,"Authorized Actor - the party that is authorized
-        to become the actor",IESG,"[RFC-ietf-oauth-token-exchange-19, Section 4.4]"
+        to become the actor",IESG,"[RFC8693, Section 4.4]"
 cnf,Confirmation,IESG,[RFC7800][RFC-ietf-oauth-mtls-17]

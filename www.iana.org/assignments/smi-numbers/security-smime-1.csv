@@ -45,3 +45,4 @@ Decimal,Description,References
 43,id-ct-sztpConveyedInfoJSON,[RFC8572]
 44,id-ct-cbor,[RFC-schaad-cbor-content-02]
 45,id-ct-cborSequence,[RFC-schaad-cbor-content-02]
+46,id-ct-animaCBORVoucher,[draft-ietf-anima-constrained-voucher]

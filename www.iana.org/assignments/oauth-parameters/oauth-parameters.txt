@@ -4,7 +4,7 @@
            2012-07-27
 
    Last Updated
-           2019-09-13
+           2020-01-16
 
    Available Formats
            [IMG]
@@ -49,10 +49,9 @@ OAuth Access Token Types
            [IMG]
            CSV
 
-    Name    Additional Token Endpoint Response    HTTP Authentication Scheme(s) Change Controller                     Reference
-                        Parameters
-   Bearer                                         Bearer                        IETF              [RFC6750]
-   N_A                                                                          IESG              [RFC-ietf-oauth-token-exchange-19, Section 2.2.1]
+    Name  Additional Token Endpoint Response Parameters HTTP Authentication Scheme(s) Change Controller        Reference
+   Bearer                                               Bearer                        IETF              [RFC6750]
+   N_A                                                                                IESG              [RFC8693, Section 2.2.1]
 
 OAuth Authorization Endpoint Response Types
 
@@ -276,22 +275,16 @@ OAuth Parameters
    device_code           token request             IESG                                               [RFC8628, Section 3.1]
    resource              authorization request,    IESG                                               [RFC-ietf-oauth-resource-indicators-08]
                          token request
-   audience              token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   requested_token_type  token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   subject_token         token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   subject_token_type    token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   actor_token           token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   actor_token_type      token request             IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.1]
-   issued_token_type     token response            IESG                                               [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                      2.2.1]
+   audience              token request             IESG                                               [RFC8693, Section 2.1]
+   requested_token_type  token request             IESG                                               [RFC8693, Section 2.1]
+   subject_token         token request             IESG                                               [RFC8693, Section 2.1]
+   subject_token_type    token request             IESG                                               [RFC8693, Section 2.1]
+   actor_token           token request             IESG                                               [RFC8693, Section 2.1]
+   actor_token_type      token request             IESG                                               [RFC8693, Section 2.1]
+   issued_token_type     token response            IESG                                               [RFC8693, Section 2.2.1]
    response_mode         Authorization Request     [OpenID_Foundation_Artifact_Binding_Working_Group] [OAuth 2.0 Multiple Response Type Encoding
                                                                                                       Practices]
+   nfv_token             Access Token Response     [ETSI]                                             [ETSI GS NFV-SEC 022 V2.7.1]
 
 OAuth Token Type Hints
 
@@ -343,34 +336,25 @@ OAuth URI
            [IMG]
            CSV
 
-                             URN                                       Common Name              Change                   Reference
-                                                                                              Controller
-   urn:ietf:params:oauth:grant-type:jwt-bearer              JWT Bearer Token Grant Type       IESG       [RFC7523]
-                                                            Profile for OAuth 2.0
-   urn:ietf:params:oauth:client-assertion-type:jwt-bearer   JWT Bearer Token Profile for      IESG       [RFC7523]
-                                                            OAuth 2.0 Client Authentication
-   urn:ietf:params:oauth:grant-type:saml2-bearer            SAML 2.0 Bearer Assertion Grant   IESG       [RFC7522]
-                                                            Type Profile for OAuth 2.0
-                                                            SAML 2.0 Bearer Assertion Profile
-   urn:ietf:params:oauth:client-assertion-type:saml2-bearer for OAuth 2.0 Client              IESG       [RFC7522]
-                                                            Authentication
-   urn:ietf:params:oauth:token-type:jwt                     JSON Web Token (JWT) Token Type   IESG       [RFC7519]
-   urn:ietf:params:oauth:grant-type:device_code             Device flow grant type for OAuth  IESG       [RFC8628, Section 3.1]
+                             URN                                             Common Name                   Change Controller       Reference
+   urn:ietf:params:oauth:grant-type:jwt-bearer              JWT Bearer Token Grant Type Profile for OAuth  IESG              [RFC7523]
                                                             2.0
-   urn:ietf:params:oauth:grant-type:token-exchange          Token exchange grant type for     IESG       [RFC-ietf-oauth-token-exchange-19, Section
-                                                            OAuth 2.0                                    2.1]
-   urn:ietf:params:oauth:token-type:access_token            Token type URI for an OAuth 2.0   IESG       [RFC-ietf-oauth-token-exchange-19, Section
-                                                            access token                                 3]
-   urn:ietf:params:oauth:token-type:refresh_token           Token type URI for an OAuth 2.0   IESG       [RFC-ietf-oauth-token-exchange-19, Section
-                                                            refresh token                                3]
-   urn:ietf:params:oauth:token-type:id_token                Token type URI for an ID Token    IESG       [RFC-ietf-oauth-token-exchange-19, Section
-                                                                                                         3]
-                                                            Token type URI for a                         [RFC-ietf-oauth-token-exchange-19, Section
-   urn:ietf:params:oauth:token-type:saml1                   base64url-encoded SAML 1.1        IESG       3]
-                                                            assertion
-                                                            Token type URI for a                         [RFC-ietf-oauth-token-exchange-19, Section
-   urn:ietf:params:oauth:token-type:saml2                   base64url-encoded SAML 2.0        IESG       3]
-                                                            assertion
+   urn:ietf:params:oauth:client-assertion-type:jwt-bearer   JWT Bearer Token Profile for OAuth 2.0 Client  IESG              [RFC7523]
+                                                            Authentication
+   urn:ietf:params:oauth:grant-type:saml2-bearer            SAML 2.0 Bearer Assertion Grant Type Profile   IESG              [RFC7522]
+                                                            for OAuth 2.0
+   urn:ietf:params:oauth:client-assertion-type:saml2-bearer SAML 2.0 Bearer Assertion Profile for OAuth    IESG              [RFC7522]
+                                                            2.0 Client Authentication
+   urn:ietf:params:oauth:token-type:jwt                     JSON Web Token (JWT) Token Type                IESG              [RFC7519]
+   urn:ietf:params:oauth:grant-type:device_code             Device flow grant type for OAuth 2.0           IESG              [RFC8628, Section 3.1]
+   urn:ietf:params:oauth:grant-type:token-exchange          Token exchange grant type for OAuth 2.0        IESG              [RFC8693, Section 2.1]
+   urn:ietf:params:oauth:token-type:access_token            Token type URI for an OAuth 2.0 access token   IESG              [RFC8693, Section 3]
+   urn:ietf:params:oauth:token-type:refresh_token           Token type URI for an OAuth 2.0 refresh token  IESG              [RFC8693, Section 3]
+   urn:ietf:params:oauth:token-type:id_token                Token type URI for an ID Token                 IESG              [RFC8693, Section 3]
+   urn:ietf:params:oauth:token-type:saml1                   Token type URI for a base64url-encoded SAML    IESG              [RFC8693, Section 3]
+                                                            1.1 assertion
+   urn:ietf:params:oauth:token-type:saml2                   Token type URI for a base64url-encoded SAML    IESG              [RFC8693, Section 3]
+                                                            2.0 assertion
 
 OAuth Dynamic Client Registration Metadata
 
@@ -679,8 +663,8 @@ OAuth Token Introspection Response
                permission for a resource
    vot         Vector of Trust value                                         IESG              [RFC8485]
    vtm         Vector of Trust trustmark URL                                 IESG              [RFC8485]
-   act         Actor                                                         IESG              [RFC-ietf-oauth-token-exchange-19, Section 4.1]
-   may_act     Authorized Actor - the party that is authorized to become the IESG              [RFC-ietf-oauth-token-exchange-19, Section 4.4]
+   act         Actor                                                         IESG              [RFC8693, Section 4.1]
+   may_act     Authorized Actor - the party that is authorized to become the IESG              [RFC8693, Section 4.4]
                actor
    cnf         Confirmation                                                  IESG              [RFC7800][RFC-ietf-oauth-mtls-17]
 
@@ -707,85 +691,101 @@ OAuth Authorization Server Metadata
            [IMG]
            CSV
 
-                        Metadata Name                                   Metadata Description             Change Controller        Reference
-   issuer                                                   Authorization server's issuer identifier URL IESG              [RFC8414, Section 2]
-   authorization_endpoint                                   URL of the authorization server's            IESG              [RFC8414, Section 2]
+                        Metadata Name                                 Metadata Description           Change Controller          Reference
+   issuer                                                   Authorization server's issuer identifier IESG              [RFC8414, Section 2]
+                                                            URL
+   authorization_endpoint                                   URL of the authorization server's        IESG              [RFC8414, Section 2]
                                                             authorization endpoint
-   token_endpoint                                           URL of the authorization server's token      IESG              [RFC8414, Section 2]
+   token_endpoint                                           URL of the authorization server's token  IESG              [RFC8414, Section 2]
                                                             endpoint
-   jwks_uri                                                 URL of the authorization server's JWK Set    IESG              [RFC8414, Section 2]
-                                                            document
-   registration_endpoint                                    URL of the authorization server's OAuth 2.0  IESG              [RFC8414, Section 2]
-                                                            Dynamic Client Registration Endpoint
-                                                            JSON array containing a list of the OAuth
-   scopes_supported                                         2.0 "scope" values that this authorization   IESG              [RFC8414, Section 2]
-                                                            server supports
-                                                            JSON array containing a list of the OAuth
-   response_types_supported                                 2.0 "response_type" values that this         IESG              [RFC8414, Section 2]
+   jwks_uri                                                 URL of the authorization server's JWK    IESG              [RFC8414, Section 2]
+                                                            Set document
+   registration_endpoint                                    URL of the authorization server's OAuth  IESG              [RFC8414, Section 2]
+                                                            2.0 Dynamic Client Registration Endpoint
+                                                            JSON array containing a list of the
+   scopes_supported                                         OAuth 2.0 "scope" values that this       IESG              [RFC8414, Section 2]
                                                             authorization server supports
-                                                            JSON array containing a list of the OAuth
-   response_modes_supported                                 2.0 "response_mode" values that this         IESG              [RFC8414, Section 2]
-                                                            authorization server supports
-                                                            JSON array containing a list of the OAuth
-   grant_types_supported                                    2.0 grant type values that this              IESG              [RFC8414, Section 2]
+                                                            JSON array containing a list of the
+   response_types_supported                                 OAuth 2.0 "response_type" values that    IESG              [RFC8414, Section 2]
+                                                            this authorization server supports
+                                                            JSON array containing a list of the
+   response_modes_supported                                 OAuth 2.0 "response_mode" values that    IESG              [RFC8414, Section 2]
+                                                            this authorization server supports
+                                                            JSON array containing a list of the
+   grant_types_supported                                    OAuth 2.0 grant type values that this    IESG              [RFC8414, Section 2]
                                                             authorization server supports
                                                             JSON array containing a list of client
-   token_endpoint_auth_methods_supported                    authentication methods supported by this     IESG              [RFC8414, Section 2]
+   token_endpoint_auth_methods_supported                    authentication methods supported by this IESG              [RFC8414, Section 2]
                                                             token endpoint
                                                             JSON array containing a list of the JWS
-                                                            signing algorithms supported by the token
-   token_endpoint_auth_signing_alg_values_supported         endpoint for the signature on the JWT used   IESG              [RFC8414, Section 2]
-                                                            to authenticate the client at the token
-                                                            endpoint
+                                                            signing algorithms supported by the
+   token_endpoint_auth_signing_alg_values_supported         token endpoint for the signature on the  IESG              [RFC8414, Section 2]
+                                                            JWT used to authenticate the client at
+                                                            the token endpoint
                                                             URL of a page containing human-readable
-   service_documentation                                    information that developers might want or    IESG              [RFC8414, Section 2]
-                                                            need to know when using the authorization
-                                                            server
-                                                            Languages and scripts supported for the user
-   ui_locales_supported                                     interface, represented as a JSON array of    IESG              [RFC8414, Section 2]
-                                                            language tag values from [BCP47]
-                                                            URL that the authorization server provides
-                                                            to the person registering the client to read
-   op_policy_uri                                            about the authorization server's             IESG              [RFC8414, Section 2]
-                                                            requirements on how the client can use the
-                                                            data provided by the authorization server
-                                                            URL that the authorization server provides
-   op_tos_uri                                               to the person registering the client to read IESG              [RFC8414, Section 2]
-                                                            about the authorization server's terms of
-                                                            service
-   revocation_endpoint                                      URL of the authorization server's OAuth 2.0  IESG              [RFC8414, Section 2]
-                                                            revocation endpoint
+   service_documentation                                    information that developers might want   IESG              [RFC8414, Section 2]
+                                                            or need to know when using the
+                                                            authorization server
+                                                            Languages and scripts supported for the
+   ui_locales_supported                                     user interface, represented as a JSON    IESG              [RFC8414, Section 2]
+                                                            array of language tag values from
+                                                            [BCP47]
+                                                            URL that the authorization server
+                                                            provides to the person registering the
+   op_policy_uri                                            client to read about the authorization   IESG              [RFC8414, Section 2]
+                                                            server's requirements on how the client
+                                                            can use the data provided by the
+                                                            authorization server
+                                                            URL that the authorization server
+   op_tos_uri                                               provides to the person registering the   IESG              [RFC8414, Section 2]
+                                                            client to read about the authorization
+                                                            server's terms of service
+   revocation_endpoint                                      URL of the authorization server's OAuth  IESG              [RFC8414, Section 2]
+                                                            2.0 revocation endpoint
                                                             JSON array containing a list of client
-   revocation_endpoint_auth_methods_supported               authentication methods supported by this     IESG              [RFC8414, Section 2]
+   revocation_endpoint_auth_methods_supported               authentication methods supported by this IESG              [RFC8414, Section 2]
                                                             revocation endpoint
                                                             JSON array containing a list of the JWS
                                                             signing algorithms supported by the
-   revocation_endpoint_auth_signing_alg_values_supported    revocation endpoint for the signature on the IESG              [RFC8414, Section 2]
-                                                            JWT used to authenticate the client at the
-                                                            revocation endpoint
-   introspection_endpoint                                   URL of the authorization server's OAuth 2.0  IESG              [RFC8414, Section 2]
-                                                            introspection endpoint
+   revocation_endpoint_auth_signing_alg_values_supported    revocation endpoint for the signature on IESG              [RFC8414, Section 2]
+                                                            the JWT used to authenticate the client
+                                                            at the revocation endpoint
+   introspection_endpoint                                   URL of the authorization server's OAuth  IESG              [RFC8414, Section 2]
+                                                            2.0 introspection endpoint
                                                             JSON array containing a list of client
-   introspection_endpoint_auth_methods_supported            authentication methods supported by this     IESG              [RFC8414, Section 2]
+   introspection_endpoint_auth_methods_supported            authentication methods supported by this IESG              [RFC8414, Section 2]
                                                             introspection endpoint
                                                             JSON array containing a list of the JWS
                                                             signing algorithms supported by the
-   introspection_endpoint_auth_signing_alg_values_supported introspection endpoint for the signature on  IESG              [RFC8414, Section 2]
-                                                            the JWT used to authenticate the client at
-                                                            the introspection endpoint
-   code_challenge_methods_supported                         PKCE code challenge methods supported by     IESG              [RFC8414, Section 2]
+   introspection_endpoint_auth_signing_alg_values_supported introspection endpoint for the signature IESG              [RFC8414, Section 2]
+                                                            on the JWT used to authenticate the
+                                                            client at the introspection endpoint
+   code_challenge_methods_supported                         PKCE code challenge methods supported by IESG              [RFC8414, Section 2]
                                                             this authorization server
-   signed_metadata                                          Signed JWT containing metadata values about  IESG              [RFC8414, Section 2.1]
-                                                            the authorization server as claims
-   device_authorization_endpoint                            URL of the authorization server's device     IESG              [RFC8628, Section 4]
+   signed_metadata                                          Signed JWT containing metadata values    IESG              [RFC8414, Section 2.1]
+                                                            about the authorization server as claims
+   device_authorization_endpoint                            URL of the authorization server's device IESG              [RFC8628, Section 4]
                                                             authorization endpoint
-                                                            Indicates authorization server support for                     [RFC-ietf-oauth-mtls-17,
-   tls_client_certificate_bound_access_tokens               mutual-TLS client certificate-bound access   IESG              Section 3.3]
-                                                            tokens.
+                                                            Indicates authorization server support                     [RFC-ietf-oauth-mtls-17,
+   tls_client_certificate_bound_access_tokens               for mutual-TLS client certificate-bound  IESG              Section 3.3]
+                                                            access tokens.
                                                             JSON object containing alternative
-   mtls_endpoint_aliases                                    authorization server endpoints, which a      IESG              [RFC-ietf-oauth-mtls-17,
-                                                            client intending to do mutual TLS will use                     Section 5]
-                                                            in preference to the conventional endpoints.
+                                                            authorization server endpoints, which a                    [RFC-ietf-oauth-mtls-17,
+   mtls_endpoint_aliases                                    client intending to do mutual TLS will   IESG              Section 5]
+                                                            use in preference to the conventional
+                                                            endpoints.
+                                                            JSON array containing a list of the JWS
+   nfv_token_signing_alg_values_supported                   signing algorithms supported by the      [ETSI]            [ETSI GS NFV-SEC 022 V2.7.1]
+                                                            server for signing the JWT used as NFV
+                                                            Token
+                                                            JSON array containing a list of the JWE
+   nfv_token_encryption_alg_values_supported                encryption algorithms (alg values)       [ETSI]            [ETSI GS NFV-SEC 022 V2.7.1]
+                                                            supported by the server to encode the
+                                                            JWT used as NFV Token
+                                                            JSON array containing a list of the JWE
+   nfv_token_encryption_enc_values_supported                encryption algorithms (enc values)       [ETSI]            [ETSI GS NFV-SEC 022 V2.7.1]
+                                                            supported by the server to encode the
+                                                            JWT used as NFV Token
 
                                                                         People
 
