@@ -88,7 +88,9 @@ Tag,Data Item,Semantics,Reference
 268,array,Extended decimal fraction,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
 269,array,Extended bigfloat,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
 270,array,Extended rational number,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
-271-1000,Unassigned,,
+271,DDoS Open Threat Signaling (DOTS) signal channel object,"DDoS Open Threat Signaling (DOTS) signal channel object, 
+        as defined in [RFC-ietf-dots-signal-channel-41]",[RFC-ietf-dots-signal-channel-41]
+272-1000,Unassigned,,
 1001,map,extended time,[draft-bormann-cbor-time-tag-01]
 1002,map,duration,[draft-bormann-cbor-time-tag-01]
 1003,map,period,[draft-bormann-cbor-time-tag-01]
