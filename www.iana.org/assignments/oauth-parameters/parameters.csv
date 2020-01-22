@@ -46,11 +46,12 @@ upgraded,"authorization server response, token endpoint",[Kantara_UMA_WG],"[UMA 
 vtr,"authorization request, token request",IESG,[RFC8485]
 device_code,token request,IESG,"[RFC8628, Section 3.1]"
 resource,"authorization request, token request",IESG,[RFC-ietf-oauth-resource-indicators-08]
-audience,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-requested_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-subject_token,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-subject_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-actor_token,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-actor_token_type,token request,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.1]"
-issued_token_type,token response,IESG,"[RFC-ietf-oauth-token-exchange-19, Section 2.2.1]"
+audience,token request,IESG,"[RFC8693, Section 2.1]"
+requested_token_type,token request,IESG,"[RFC8693, Section 2.1]"
+subject_token,token request,IESG,"[RFC8693, Section 2.1]"
+subject_token_type,token request,IESG,"[RFC8693, Section 2.1]"
+actor_token,token request,IESG,"[RFC8693, Section 2.1]"
+actor_token_type,token request,IESG,"[RFC8693, Section 2.1]"
+issued_token_type,token response,IESG,"[RFC8693, Section 2.2.1]"
 response_mode,Authorization Request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OAuth 2.0 Multiple Response Type Encoding Practices]
+nfv_token,Access Token Response,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]

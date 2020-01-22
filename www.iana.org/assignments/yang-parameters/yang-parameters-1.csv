@@ -6,10 +6,18 @@ iana-bfd-types,,Y,urn:ietf:params:xml:ns:yang:iana-bfd-types,iana-bfd-types,,[RF
         [RFC-ietf-bfd-yang-17]'s publication as an RFC."
 iana-crypt-hash,iana-crypt-hash@2014-08-06.yang,Y,urn:ietf:params:xml:ns:yang:iana-crypt-hash,ianach,,[RFC7317],"Registration procedure: Expert Review, as described in 
         [RFC8126]. Expert(s): Unassigned."
+iana-dots-signal-channel,,Y,urn:ietf:params:xml:ns:yang:iana-dots-signal-channel,iana-signal,,[RFC-ietf-dots-signal-channel-41],"Status, conflict status, conflict cause, and attack status values
+must not be directly added to the iana-dots-signal-channel YANG
+module.  They must instead be respectively added to the ""DOTS
+Status Codes"", ""DOTS Conflict Status Codes"", ""DOTS Conflict Cause
+Codes"", and ""DOTS Attack Status Codes"" registries.
+      
+Note: the initial module file will be posted upon 
+[RFC-ietf-dots-signal-channel-41]'s publication as an RFC."
 iana-hardware,iana-hardware@2018-03-13.yang,Y,urn:ietf:params:xml:ns:yang:iana-hardware,ianahw,,[RFC8348],"The ""iana-hardware"" YANG module is intended to reflect the
         [""IANA-ENTITY-MIB""] MIB module so that if a new enumeration is added to
         the ""IANAPhysicalClass"" textual convention, the same class is added as an identity derived from ""ianahw:hardware-class""."
-iana-if-type,iana-if-type@2019-10-16.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
+iana-if-type,iana-if-type@2020-01-10.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
 module. They must instead be added to the ""ifType definitions"" registry 
 at [IANA registry smi-numbers]."
 iana-routing-types,iana-routing-types@2019-11-04.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
@@ -40,6 +48,7 @@ ietf-dc-fabric-topology,ietf-dc-fabric-topology@2019-02-25.yang,N,urn:ietf:param
 ietf-dc-fabric-topology-state,ietf-dc-fabric-topology-state@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology-state,sfabric,,[RFC8542],
 ietf-dc-fabric-types,ietf-dc-fabric-types@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-types,fabrictypes,,[RFC8542],
 ietf-dots-data-channel,,N,urn:ietf:params:xml:ns:yang:ietf-dots-data-channel,data-channel,,[RFC-ietf-dots-data-channel-31],[RFC-ietf-dots-data-channel-31]'s module file will be posted upon the document's publication as an RFC.
+ietf-dots-signal-channel,,N,urn:ietf:params:xml:ns:yang:ietf-dots-signal-channel,signal,,[RFC-ietf-dots-signal-channel-41],[RFC-ietf-dots-signal-channel-41]'s module file will be posted upon the document's publication as an RFC.
 ietf-dslite,ietf-dslite@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC8513],
 ietf-ethertypes,ietf-ethertypes@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-ethertypes,ethertypes,,[RFC8519],
 ietf-hardware,ietf-hardware@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC8348],
