@@ -190,14 +190,14 @@ Error-Type,Meaning,Error-value,Reference
 ,,5: No StartTLS message (nor PCErr/Open) before StartTLSWait timer expiry,[RFC8253]
 ,,6-255: Unassigned,
 26,Association Error,0: Unassigned,[RFC-ietf-pce-association-group-10]
-,,1: Association type is not supported,[RFC-ietf-pce-association-group-10]
+,,1: Association Type is not supported,[RFC-ietf-pce-association-group-10]
 ,,2: Too many LSPs in the association group,[RFC-ietf-pce-association-group-10]
 ,,3: Too many association groups,[RFC-ietf-pce-association-group-10]
 ,,4: Association unknown,[RFC-ietf-pce-association-group-10]
 ,,5: Operator-configured association information mismatch,[RFC-ietf-pce-association-group-10]
 ,,6: Association information mismatch,[RFC-ietf-pce-association-group-10]
 ,,7: Cannot join the association group,[RFC-ietf-pce-association-group-10]
-,,8: Association identifier not in range,[RFC-ietf-pce-association-group-10]
+,,8: Association ID not in range,[RFC-ietf-pce-association-group-10]
 ,,"9: Tunnel ID or End points mismatch for
         Path Protection Association",[RFC-ietf-pce-stateful-path-protection-11]
 ,,"10: Attempt to add another working/protection LSP 
