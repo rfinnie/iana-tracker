@@ -313,3 +313,11 @@ oic.r.userid,User identification resource.,[OCF_Resource_Type_Specification_v2.0
 oic.r.vodlist,Virtual OCF Device resource.,[OCF_Bridging_Specification_v2.0.5 clause 5.5],
 oic.r.waterinfo,Water information resource.,[OCF_Resource_Type_Specification_v2.0.5 clause 6.151],
 oic.r.windowcovering,Configurable window covering resource,[OCF_Resource_Type_Specification_v2.0.5 clause 6.126],
+ace.est.crts,This resource depicts the support of EST get cacerts.,[RFC-ietf-ace-coap-est-18],
+ace.est.sen,This resource depicts the support of EST simple enroll.,[RFC-ietf-ace-coap-est-18],
+ace.est.sren,This resource depicts the support of EST simple reenroll.,[RFC-ietf-ace-coap-est-18],
+ace.est.att,This resource depicts the support of EST get CSR attributes.,[RFC-ietf-ace-coap-est-18],
+ace.est.skg,"This resource depicts the support of EST server-side key 
+generation with the returned certificate in a PKCS#7 container.",[RFC-ietf-ace-coap-est-18],
+ace.est.skc,"This resource depicts the support of EST
+server-side key generation with the returned certificate in application/pkix-cert format.",[RFC-ietf-ace-coap-est-18],

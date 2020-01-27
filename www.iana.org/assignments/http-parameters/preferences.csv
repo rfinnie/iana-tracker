@@ -24,3 +24,28 @@ depth-noroot,,"The ""depth-noroot"" preference indicates that the client
         implicitly or explicitly).","[RFC8144], Section 4"
 safe,,"Indicates that safe (i.e., unobjectionable) content 
         is preferred.",[RFC8674]
+odata.allow-entityreferences,,"Indicates that the service is allowed to return references in place of
+        resources that have previously been returned, with at least the properties
+        requested, in the same response.",[OData Version 4.01 Part 1: Protocol]
+odata.callback,,"Requests that the service invoke the specified URL to signal some service
+        state, such as the completion of an asynchronous result or availability of
+        new or modified information. The service state that triggers the change is
+        dependent upon the request.",[OData Version 4.01 Part 1: Protocol]
+odata.continue-on-error,,"Requests that the service attempt to continue processing a request that
+        encounters non-fatal errors, for example in a multi-part request. The
+        response SHOULD indicate what portions of the request were and were not
+        able to be successfully handled.",[OData Version 4.01 Part 1: Protocol]
+odata.include-annotations,"Comma-separated list of terms to include or, when prefixed with a minus
+        sign (-), exclude from the response. Terms MUST be namespace-qualified and
+        MAY specify just a namespace to include or exclude all terms within that
+        namespace. The special value ""*"" matches all annotations.","Specifies the set of annotations the client requests to be included, where
+        applicable, or excluded in the response.",[OData Version 4.01 Part 1: Protocol]
+odata.maxpagesize,"A positive integer that represents the maximum number of items each
+        collection in a response SHOULD contain.","Requests that each collection within the response contain no more than the
+        number of items specified as the positive integer value of this preference.",[OData Version 4.01 Part 1: Protocol]
+omit-values,"One of nulls -  properties containing null values may be omitted from the
+        response defaults - properties containing the property default value may be
+        omitted from the response.","Specifies whether a server can omit properties with a null value or
+        properties set to their default value from a response.",[OData Version 4.01 Part 1: Protocol]
+odata.track-changes,,"Requests that the service initiate change tracking on the result of this
+        request, according to the underlying protocol.",[OData Version 4.01 Part 1: Protocol]

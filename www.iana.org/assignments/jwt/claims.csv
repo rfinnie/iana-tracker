@@ -86,9 +86,10 @@ vot,Vector of Trust value,[IESG],[RFC8485]
 vtm,Vector of Trust trustmark URL,[IESG],[RFC8485]
 attest,Attestation level as defined in SHAKEN framework,[IESG],[RFC8588]
 origid,Originating Identifier as defined in SHAKEN framework,[IESG],[RFC8588]
-act,Actor,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.1]"
-scope,Scope Values,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.2]"
-client_id,Client Identifier,[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.3]"
+act,Actor,[IESG],"[RFC8693, Section 4.1]"
+scope,Scope Values,[IESG],"[RFC8693, Section 4.2]"
+client_id,Client Identifier,[IESG],"[RFC8693, Section 4.3]"
 may_act,"Authorized Actor - the party that is authorized
-        to become the actor",[IESG],"[RFC-ietf-oauth-token-exchange-19, Section 4.4]"
+        to become the actor",[IESG],"[RFC8693, Section 4.4]"
 jcard,jCard data,[IESG],[RFC8688][RFC7095]
+at_use_nbr,Number of API requests for which the access token can be used,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
