@@ -1,45 +1,69 @@
-                                                         Context labels for Internet Messages
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Bad Gateway!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: rgba(223, 227, 230, 0.2);
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>    
+</head>
 
-   Created
-           2002-08-08
+<body>
+<div>
+    <h1>Bad Gateway!</h1>
+    <p>
 
-   Last Updated
-           2004-10-26
 
-   Available Formats
-           [IMG]
-           XML [IMG]
-           HTML [IMG]
-           Plain text
+    The proxy server received an invalid
+    response from an upstream server.
 
-   Registry included below
+  
+    </p>
+<p>
 
-     * Internet Message Content Types
+    The proxy server could not handle the request<p>Reason: <strong>Error reading from remote server</strong></p>
+  
+    
+</p>
 
-Internet Message Content Types
+<h2>Error 502</h2>
+</body>
+</html>
 
-   Registration Procedure(s)
+    <p align=right><a href="https://www.iana.org/">IANA</a></p>
+</div>
+</body>
+</html>
 
- RFC Required
-
-   Reference
-           [RFC3458]
-
-   Available Formats
-           [IMG]
-           CSV
-
-         Value                                                            Description                                                     Reference
-   fax-message        Indicates a message whose primary content is a fax mail message. The primary content is image data. The context is  [RFC3458]
-                      usually a message recorded from a facsimile telephone call.
-   multimedia-message Indicates a message whose primary content is a multimedia message. The primary content is multimedia, most likely   [RFC3458]
-                      MHTML. The context is often spam or newsletters.
-   None               Indicates an unknown message context.                                                                               [RFC3458]
-   pager-message      Indicates a message whose primary content is a page. The primary content is text data. The context is an urgent     [RFC3458]
-                      message usually of a limited length.
-   text-message       Indicates a classic, text-based, Internet message.                                                                  [RFC3458]
-                      Indicates a message whose primary content is a video mail message. The primary content is video data. The context
-   video-message      is usually a message recorded using a video camera, or a message whose primary purpose is to contain an external    [RFC3938]
-                      reference to a message recorded using a video camera.
-   voice-message      Indicates a message whose primary content is a voice mail message. The primary content is audio data. The context   [RFC3458]
-                      is usually a message recorded from a voice telephone call.
