@@ -59,9 +59,9 @@ initiate_login_uri,"URI using the https scheme that a third party can use to
 request_uris,"Array of request_uri values that are pre-registered by the 
         RP for use at the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 claims_redirect_uris,claims redirection endpoints,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 2]"
-nfv_token_signed_response_alg,JWS alg algorithm required for signing the nfv Token issued to this Client,[ETSI],[NFV Release 2: Access Token specification for API Access]
-nfv_token_encrypted_response_alg,JWE alg algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[NFV Release 2: Access Token specification for API Access]
-nfv_token_encrypted_response_enc,JWE enc algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[NFV Release 2: Access Token specification for API Access]
+nfv_token_signed_response_alg,JWS alg algorithm required for signing the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
+nfv_token_encrypted_response_alg,JWE alg algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
+nfv_token_encrypted_response_enc,JWE enc algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
 tls_client_certificate_bound_access_tokens,"Indicates the client's intention to
         use mutual-TLS client certificate-bound access tokens.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 3.4]"
 tls_client_auth_subject_dn,"String value specifying the expected
