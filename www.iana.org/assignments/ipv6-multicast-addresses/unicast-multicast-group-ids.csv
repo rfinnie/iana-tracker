@@ -1,4 +1,4 @@
 Address(s),Description,Reference,Change Controller,Date Registered,Last Reviewed
-FF3X::0:0-FF3X::3FFF:FFFF,Invalid addresses,[RFC4607],,,
-FF3X::4000:0-FF3X::7FFF:FFFF,Reserved for IANA allocation,[RFC4607],,,
-FF3X::8000:0-FF3X::FFFF:FFFF,Reserved for local host allocation,[RFC4607],,,
+FF3X:0:0:0:0:0:0:0-FF3X:0:0:0:0:0:3FFF:FFFF,Invalid addresses,[RFC4607],,,
+FF3X:0:0:0:0:0:4000:0-FF3X:0:0:0:0:0:7FFF:FFFF,Reserved for IANA allocation,[RFC4607],,,
+FF3X:0:0:0:0:0:8000:0-FF3X:0:0:0:0:0:FFFF:FFFF,Reserved for local host allocation,[RFC4607],,,
