@@ -158,9 +158,9 @@ Object-Class Value,Name,Object-Type,Reference
 39,SERVER-INDICATION,0: Reserved,[RFC8282]
 ,,1: Server-indication,[RFC8282]
 ,,2-15: Unassigned,
-40,ASSOCIATION,0: Reserved,[RFC-ietf-pce-association-group-10]
-,,1: IPv4,[RFC-ietf-pce-association-group-10]
-,,2: IPv6,[RFC-ietf-pce-association-group-10]
+40,ASSOCIATION,0: Reserved,[RFC8697]
+,,1: IPv4,[RFC8697]
+,,2: IPv6,[RFC8697]
 ,,3-15: Unassigned,
 41,S2LS,0: Reserved,[RFC8623]
 ,,1: S2LS,[RFC8623]
