@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2020-01-17
+           2020-02-07
 
    Expert(s)
 
@@ -15,7 +15,7 @@
 
    Note
 
- Service names and portl numbers are used to distinguish between different
+ Service names and port numbers are used to distinguish between different
  services that run over transport protocols such as TCP, UDP, DCCP, and
  SCTP.
 
@@ -11885,7 +11885,7 @@ qmvideo            5689        tcp    QM video network management  [Jamie_Lokier
 qmvideo            5689        udp    QM video network management  [Jamie_Lokier]                                        [Jamie_Lokier]                                            2006-05
                                       protocol
                  5690-5692            Unassigned
-rbsystem           5693        tcp    Robert Bosch Data Transfer   [Robert_Bosch_GmbH]                                   [Klaus_Warth]                                             2011-08-01   2012-07-17
+rbsystem           5693        tcp    Robert Bosch Data Transfer   [Syntegon_Technology_GmbH]                            [Klaus_Warth]                                             2011-08-01   2020-02-04
                    5693        udp    Reserved
                  5694-5695            Unassigned
 kmip               5696        tcp    Key Management               [OASIS_KMIP_Technical_Committee]                      [Robin_Cover]                                             2011-07-25
@@ -21226,7 +21226,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Joe_Purcell]                                             Joe Purcell                                         mailto:jpurcell&ensuretech.com                                2003-01
 [Joe_Senner]                                              Joe Senner                                          mailto:jsenner&buildforge.com                                 2005-08
 [Joe_Senner_2]                                            Joe Senner                                          mailto:support&buildforge.com
-[Joe_Touch]                                               Joe Touch                                           mailto:touch&isi.edu
+[Joe_Touch]                                               Joe Touch                                           mailto:touch&strayalpha.com                                   2020-02-07
 [Joe_Wesley]                                              Joe Wesley                                          mailto:joe.wesley&east.sun.com
 [Joel_Aaron_Clipperton]                                   Joel Aaron Clipperton      Shifted Current LLC      mailto:joel&shiftedcurrent.com                                2012-09-11
 [Joel_Dolisy]                                             Joel Dolisy                                         mailto:joel.dolisy&solarwinds.com                             2008-09-10
@@ -21614,7 +21614,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Klaus_Fellner]                                           Klaus Fellner                                       mailto:webmaster&segue.com
                                                                                                               mailto:kfellner&segue.com
 [Klaus_Schmidinger]                                       Klaus Schmidinger                                   mailto:Klaus.Schmidinger&tvdr.de                              2010-03-31
-[Klaus_Warth]                                             Klaus Warth                Robert Bosch GmbH        mailto:klaus.warth&patec.group                                2019-12-04
+[Klaus_Warth]                                             Klaus Warth                Syntegon Technology GmbH mailto:Klaus.Warth&Syntegon.com                               2020-02-04
 [Klaus_Wolf]                                              Klaus Wolf                                          mailto:wolf&cobrow.com
 [Koen_Schoofs]                                            Koen Schoofs                                        mailto:schoofs_koen&emc.com                                   2003-01
 [Koich_Nakamura]                                          Koich Nakamura                                      mailto:naka&case.nm.fujitsu.co.jp
@@ -21896,7 +21896,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Mark_Hodapp]                                             Mark Hodapp                                         mailto:mark.hodapp&sun.com
 [Mark_Hurst]                                              Mark Hurst                                          mailto:markbhurst&gmail.com                                   2015-09-16
 [Mark_Itzcovitz]                                          Mark Itzcovitz                                      mailto:mark.itzcovitz&publishingtechnology.com                2015-09-03
-[Mark_J._App]                                             Mark J. App                MJA_Technology_LLC       mailto:markapp&roadrunner.com                                 2014-04-23
+[Mark_J._App]                                             Mark J. App                MJA_Technology_LLC       mailto:mapp&vdabtec.com                                       2020-02-03
 [Mark_Jackson]                                            Mark Jackson               Nuance Communications,   mailto:Mark.Jackson&nuance.com                                2011-10-27
                                                                                      Inc.
 [Mark_Killgore]                                           Mark Killgore                                       mailto:MKillgore&novell.com
@@ -22316,7 +22316,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Mitsuji_Toda]                                            Mitsuji Toda                                        mailto:toda&mmedia.mci.mei.co.jp
 [Mitsuo_Kodama]                                           Mitsuo Kodama                                       mailto:kodama&jbmia.or.jp                                     2005-06
 [Miva_Corporation]                                        Miva Corporation                                    mailto:jwoods&miva.com.au
-[MJA_Technology_LLC]                                                                 MJA Technology LLC       mailto:markapp&roadrunner.com                                 2014-04-23
+[MJA_Technology_LLC]                                                                 MJA Technology LLC       mailto:mapp&vdabtec.com                                       2020-02-03
 [Mnemo.ai]                                                                           Mnemo.ai                 mailto:info&mnemo.ai                                          2017-12-22
 [Mobsya_Association]                                                                 Mobsya Association       mailto:stephane.magnenat&mobsya.org                           2016-08-18
 [Mobile_Team]                                                                        Mobile Team              mailto:group.felix&cisco.com                                  2018-02-09
@@ -23083,7 +23083,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Robert_Baldwin]                                          Robert Baldwin                                      mailto:baldwin&plusfive.com                                   2004-11
 [Robert_Ball]                                             Robert Ball                                         mailto:rob.ball&ge.com                                        2008-03-26
 [Robert_Banfill]                                          Robert Banfill                                      mailto:robert&banfill.net                                     2003-04
-[Robert_Bosch_GmbH]                                                                  Robert Bosch GmbH        mailto:klaus.warth&patec.group                                2019-12-04
 [Robert_Boudrie]                                          Robert Boudrie                                      mailto:boudrie_rob&emc.com                                    2008-06-09
 [Robert_Byrne]                                            Robert Byrne                                        mailto:robert.byrne&ie.abb.com                                2006-09
 [Robert_C_Henningsga]                                     Robert C. Henningsgard                              mailto:rhenningsgard&circuscontrols.com
@@ -23744,6 +23743,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Symbolic_Sound_Corporation]                                                         Symbolic Sound           mailto:symsound&symbolicsound.com                             2018-11-28
                                                                                      Corporation
 [Synclavier_Digital]                                                                 Synclavier Digital       mailto:admin&synclavier.com                                   2016-01-27
+[Syntegon_Technology_GmbH]                                                           Syntegon Technology GmbH mailto:Klaus.Warth&syntegon.com                               2020-02-04
 [System_Administrator]                                    System Administrator                                mailto:sysadmin&silvaco.com                                   2003-06
 [Taber_Buhl]                                              Taber Buhl                                          mailto:taber&tb2.com                                          2015-09-24
 [TAKEDA_Hiroyuki]                                         TAKEDA Hiroyuki                                     mailto:takeda&atashi.net                                      2003-01

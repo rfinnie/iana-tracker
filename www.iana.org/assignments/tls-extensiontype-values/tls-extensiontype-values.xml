@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2020-01-31</updated>
+  <updated>2020-02-06</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -278,11 +278,11 @@ limited applicability, or is intended only for specific use cases.
       <rec>N</rec>
       <xref type="draft" data="RFC-ietf-tls-tls13-cert-with-extern-psk-07"/>
     </record>
-    <record date="2020-01-31">
+    <record date="2020-01-31" updated="2020-02-06">
       <value>34</value>
       <name>delegated_credentials</name>
       <tls13>CH, CR, CT</tls13>
-      <rec>Y</rec>
+      <rec>N</rec>
       <xref type="draft" data="draft-ietf-tls-subcerts"/>
     </record>
     <record updated="2018-05-29">
@@ -377,7 +377,7 @@ limited applicability, or is intended only for specific use cases.
       <value>52</value>
       <name>transparency_info</name>
       <tls13>CH, CR, CT</tls13>
-      <rec>Y</rec>
+      <rec>N</rec>
       <xref type="draft" data="draft-ietf-trans-rfc6962-bis"/>
     </record>
     <record date="2019-07-02">
@@ -385,7 +385,7 @@ limited applicability, or is intended only for specific use cases.
       <name>connection_id 
         (TEMPORARY - registered 2019-07-02, expires 2020-07-02)</name>
       <tls13>-</tls13>
-      <rec>Y</rec>
+      <rec>N</rec>
       <xref type="draft" data="draft-ietf-tls-dtls-connection-id"/>
     </record>
     <record>
