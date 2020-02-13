@@ -1,16 +1,17 @@
 Value,Name,Reference
 0x0000,Reserved,[RFC-ietf-tram-stunbis-21]
 0x0001,MAPPED-ADDRESS,[RFC-ietf-tram-stunbis-21]
-0x0002,Reserved; prior to [RFC5389] this was RESPONSE-ADDRESS,[RFC-ietf-tram-stunbis-21]
-0x0003,CHANGE-REQUEST,[RFC5780]
-0x0004,Reserved; prior to [RFC5389] this was SOURCE-ADDRESS,[RFC-ietf-tram-stunbis-21]
-0x0005,Reserved; prior to [RFC5389] this was CHANGED-ADDRESS,[RFC-ietf-tram-stunbis-21]
+0x0002,Reserved; was RESPONSE-ADDRESS prior to [RFC5389],[RFC-ietf-tram-stunbis-21]
+0x0003,Reserved; was CHANGED-REQUEST prior to [RFC5389],"[RFC5780][RFC Errata 
+          4233]"
+0x0004,Reserved; was SOURCE-ADDRESS prior to [RFC5389],[RFC-ietf-tram-stunbis-21]
+0x0005,Reserved; was CHANGED-ADDRESS prior to [RFC5389],[RFC-ietf-tram-stunbis-21]
 0x0006,USERNAME,[RFC-ietf-tram-stunbis-21]
-0x0007,Reserved; prior to [RFC5389] this was PASSWORD,[RFC-ietf-tram-stunbis-21]
+0x0007,Reserved; was PASSWORD prior to [RFC5389],[RFC-ietf-tram-stunbis-21]
 0x0008,MESSAGE-INTEGRITY,[RFC-ietf-tram-stunbis-21]
 0x0009,ERROR-CODE,[RFC-ietf-tram-stunbis-21]
 0x000A,UNKNOWN-ATTRIBUTES,[RFC-ietf-tram-stunbis-21]
-0x000B,Reserved; prior to [RFC5389] this was REFLECTED-FROM,[RFC-ietf-tram-stunbis-21]
+0x000B,Reserved; was REFLECTED-FROM prior to [RFC5389],[RFC-ietf-tram-stunbis-21]
 0x000C,CHANNEL-NUMBER,[RFC-ietf-tram-turnbis-29]
 0x000D,LIFETIME,[RFC-ietf-tram-turnbis-29]
 0x000E-0x000F,Reserved,
