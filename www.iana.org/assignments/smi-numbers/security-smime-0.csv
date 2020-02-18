@@ -64,7 +64,7 @@ Decimal,Description,References
 61,id-mod-rpkiROA,[RFC6482]
 62,id-mod-setKeyAttributeV1,[draft-herzog-setkey]
 63,id-mod-keyPkgReceiptAndErrV2,[RFC7191]
-64,id-mod-mts-hashsig-2013,[RFC-ietf-lamps-cms-hash-sig-10]
+64,id-mod-mts-hashsig-2013,[RFC8708]
 65,mod-sMimeSecureHeadersV1,[RFC7508]
 66,id-mod-CMS-AEADChaCha20Poly1305,[RFC8103]
 67,id-mod-cms-ecdh-alg-2017,[RFC8418]

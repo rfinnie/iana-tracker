@@ -1,5 +1,7 @@
 Bit,Description,Reference
-0-11,Unassigned,
+0-9,Unassigned,
+10,Requested disjoint computation not supported,[RFC-ietf-pce-association-diversity-14]
+11,Disjoint path not found,[RFC-ietf-pce-association-diversity-14]
 12,"LOAD-BALANCING could not be performed with the
         bandwidth constraints",[RFC-ietf-pce-gmpls-pcep-extensions-16]
 13,No label resource in range,[RFC-ietf-pce-gmpls-pcep-extensions-16]

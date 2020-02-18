@@ -45,5 +45,7 @@ Value,Description,Reference
 43,LABEL-SET,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.5.2.5]"
 44,PROTECTION-ATTRIBUTE,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.8]"
 45,GMPLS-CAPABILITY,"[RFC-ietf-pce-gmpls-pcep-extensions-16, Section 2.1.2]"
-46-65503,Unassigned,
+46,Disjointness Configuration,[RFC-ietf-pce-association-diversity-14]
+47,Disjointness Status,[RFC-ietf-pce-association-diversity-14]
+48-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

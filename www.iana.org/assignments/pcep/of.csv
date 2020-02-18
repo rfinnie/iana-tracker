@@ -14,5 +14,8 @@ Code Point,Name,Reference
 12,Minimize the number of Transit Domains (MTD),[RFC8685]
 13,Minimize the number of Border Nodes (MBN),[RFC8685]
 14,Minimize the number of Common Transit Domains (MCTD),[RFC8685]
-15-32767,Unassigned,
+15,Minimize the number of shared Links (MSL),[RFC-ietf-pce-association-diversity-14]
+16,Minimize the number of shared SRLGs (MSS),[RFC-ietf-pce-association-diversity-14]
+17,Minimize the number of shared Nodes (MSN),[RFC-ietf-pce-association-diversity-14]
+18-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5541]
