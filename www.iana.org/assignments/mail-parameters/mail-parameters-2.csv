@@ -29,7 +29,7 @@ ENHANCEDSTATUSCODES,Enhanced Status Codes,[RFC2034],
 STARTTLS,Start TLS,[RFC3207],
 NO-SOLICITING,Notification of no soliciting,[RFC3865],
 MTRK,Message Tracking,[RFC3885],
-SUBMITTER,SMTP Responsible Submitter,[RFC4405],
+SUBMITTER,SMTP Responsible Submitter,[RFC4405],Deprecated by [https://datatracker.ietf.org/doc/status-change-change-sender-id-to-historic].
 ATRN,Authenticated TURN,[RFC2645],SMTP [RFC5321] only. Not for use on Submit port 587.
 AUTH,Authentication,[RFC4954],
 BURL,Remote Content,[RFC4468],Submit [RFC6409] only. Not for use with SMTP on port 25.
