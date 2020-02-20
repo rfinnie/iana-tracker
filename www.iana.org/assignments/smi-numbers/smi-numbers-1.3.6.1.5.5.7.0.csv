@@ -94,3 +94,4 @@ Decimal,Description,References
 92,id-mod-lamps-eai-addresses-2016,[RFC8398]
 93,id-mod-safecurves-pkix,[RFC8410]
 94,id-mod-pkix1-shakes-2019,[RFC8692]
+95,id-mod-delegated-credential-extn,[draft-ietf-tls-subcerts]
