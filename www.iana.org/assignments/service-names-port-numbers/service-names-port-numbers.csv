@@ -14447,6 +14447,7 @@ airsharingpro,,,Air Sharing Pro,[Erik_Rogers][Dave_Howell],[Erik_Rogers][Dave_Ho
 alazartech-atn,,tcp,Alazar Technologies ATN Communication Protocol,[Alazar_Technologies],[Romain_Deterre],2016-05-26,,,,,Defined TXT keys: None
 aloe-gwp,,tcp,Aloe Gateway Protocol,[Layered_Logic],[Brooks_Bell],2012-01-04,,,,,Defined TXT keys: Version
 aloe-pp,,tcp,Aloe Pairing Protocol,[Layered_Logic],[Brooks_Bell],2012-01-04,,,,,"Defined TXT keys: Version, DeviceName, DeviceModel, DeviceSystem, DeviceSystemVersion, AppName, AppVersion"
+alpacadiscovery,,udp,ASCOM Alpaca Device Discovery,[ASCOM_Initiative],[Robert_B._Denny],2020-02-24,,,,,Defined TXT keys: None
 amba-cam,,udp,Ambarella Cameras,[Louis_Sun],[Louis_Sun],,,,,,"Defined TXT keys:   product=<product model name>
   description=<string name>
   version=<firmware version>"
