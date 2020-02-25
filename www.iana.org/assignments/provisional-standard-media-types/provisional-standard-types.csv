@@ -1,4 +1,5 @@
 Media Type,Organization,Contact
+audio/sofa,AES,[Christian_Hoene]
 application/atsc-dynamic-event-message,ATSC,[ATSC_Editor]
 application/odm+json,CDISC,[Sam_Hume]
 application/dlmscosem,"DLMS User Association, International Electrotechnical Commission (IEC)",[Michael_Buss]
