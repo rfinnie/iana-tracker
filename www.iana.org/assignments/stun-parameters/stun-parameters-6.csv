@@ -1,31 +1,31 @@
 Value,Name,Reference
 0-299,Reserved,
-300,Try Alternate,[RFC-ietf-tram-stunbis-21]
+300,Try Alternate,[RFC8489]
 301-399,Unassigned,
-400,Bad Request,[RFC-ietf-tram-stunbis-21]
-401,Unauthenticated,[RFC-ietf-tram-stunbis-21]
+400,Bad Request,[RFC8489]
+401,Unauthenticated,[RFC8489]
 402,Unassigned,
-403,Forbidden,[RFC-ietf-tram-turnbis-29]
+403,Forbidden,[RFC8656]
 404,Unassigned,
 405,Mobility Forbidden,[RFC8016]
 406-419,Unassigned,
-420,Unknown Attribute,[RFC-ietf-tram-stunbis-21]
+420,Unknown Attribute,[RFC8489]
 421-436,Unassigned,
-437,Allocation Mismatch,[RFC-ietf-tram-turnbis-29]
-438,Stale Nonce,[RFC-ietf-tram-stunbis-21]
+437,Allocation Mismatch,[RFC8656]
+438,Stale Nonce,[RFC8489]
 439,Unassigned,
-440,Address Family not Supported,[RFC-ietf-tram-turnbis-29]
-441,Wrong Credentials,[RFC-ietf-tram-turnbis-29]
-442,Unsupported Transport Protocol,[RFC-ietf-tram-turnbis-29]
-443,Peer Address Family Mismatch,[RFC-ietf-tram-turnbis-29]
+440,Address Family not Supported,[RFC8656]
+441,Wrong Credentials,[RFC8656]
+442,Unsupported Transport Protocol,[RFC8656]
+443,Peer Address Family Mismatch,[RFC8656]
 444-445,Unassigned,
 446,Connection Already Exists,[RFC6062]
 447,Connection Timeout or Failure,[RFC6062]
 448-485,Unassigned,
-486,Allocation Quota Reached,[RFC-ietf-tram-turnbis-29]
+486,Allocation Quota Reached,[RFC8656]
 487,Role Conflict,[RFC8445]
 488-499,Unassigned,
-500,Server Error,[RFC-ietf-tram-stunbis-21]
+500,Server Error,[RFC8489]
 501-507,Unassigned,
-508,Insufficient Capacity,[RFC-ietf-tram-turnbis-29]
+508,Insufficient Capacity,[RFC8656]
 509-699,Unassigned,
