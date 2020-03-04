@@ -148,7 +148,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"13: Attempted LSP Instantiation
         Request for P2MP if stateful PCE
         instantiation capability for P2MP was not advertised",[RFC8623]
-,,14: Auto-Bandwidth capability was not advertised,[RFC-ietf-pce-stateful-pce-auto-bandwidth-12]
+,,14: Auto-Bandwidth capability was not advertised,[RFC8733]
 ,,15-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,
 ,,"1: A PCE indicates to a PCC that it cannot process

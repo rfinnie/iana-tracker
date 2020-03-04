@@ -18,4 +18,5 @@ Value,Name,Reference
 15,SR TE Policy Type,[draft-ietf-idr-segment-routing-te-policy]
 16,Bare,[Nischal_Sheth]
 17,SR Tunnel,[draft-ietf-bess-datacenter-gateway]
-18-65535,Unassigned,
+18,Cloud Security,[Ramesh_Babu_Yakkala]
+19-65535,Unassigned,

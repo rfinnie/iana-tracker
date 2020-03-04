@@ -33,3 +33,5 @@ Extensible Provisioning Protocol (EPP) Organization Mapping,Standards Track,[RFC
 Organization Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8544],[IESG],Any,None,Active,None
 Change Poll Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8590],[IESG],Any,None,Active,None
 Registry Fee Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC-ietf-regext-epp-fees-20],[IESG],Any,None,Active,None
+"Login Security Extension for the Extensible
+        Provisioning Protocol (EPP)",Standards Track,[RFC-ietf-regext-login-security-10],[IESG],Any,None,Active,None
