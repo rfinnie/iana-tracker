@@ -63,14 +63,14 @@ nfv_token_signed_response_alg,JWS alg algorithm required for signing the nfv Tok
 nfv_token_encrypted_response_alg,JWE alg algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
 nfv_token_encrypted_response_enc,JWE enc algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
 tls_client_certificate_bound_access_tokens,"Indicates the client's intention to
-        use mutual-TLS client certificate-bound access tokens.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 3.4]"
+        use mutual-TLS client certificate-bound access tokens.",[IESG],"[RFC8705, Section 3.4]"
 tls_client_auth_subject_dn,"String value specifying the expected
-        subject DN of the client certificate.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 2.1.2]"
+        subject DN of the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 tls_client_auth_san_dns,"String value specifying the expected
-        dNSName SAN entry in the client certificate.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 2.1.2]"
+        dNSName SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 tls_client_auth_san_uri,"String value specifying the expected
-        uniformResourceIdentifier SAN entry in the client certificate.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 2.1.2]"
+        uniformResourceIdentifier SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 tls_client_auth_san_ip,"String value specifying the expected
-        iPAddress SAN entry in the client certificate.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 2.1.2]"
+        iPAddress SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 tls_client_auth_san_email,"String value specifying the expected
-        rfc822Name SAN entry in the client certificate.",[IESG],"[RFC-ietf-oauth-mtls-17, Section 2.1.2]"
+        rfc822Name SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"

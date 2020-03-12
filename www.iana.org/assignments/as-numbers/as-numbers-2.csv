@@ -42,7 +42,9 @@ Number,Description,WHOIS,RDAP,Reference,"Registration
 270749-327679,Unallocated,,,,
 327680-328703,Assigned by AFRINIC,whois.afrinic.net,"https://rdap.afrinic.net/rdap/
 http://rdap.afrinic.net/rdap/",,2006-11-29
-328704-393215,Unallocated,,,,
+328704-329727,Assigned by AFRINIC,whois.afrinic.net,"https://rdap.afrinic.net/rdap/
+http://rdap.afrinic.net/rdap/",,2020-03-05
+329728-393215,Unallocated,,,,
 393216-394239,Assigned by ARIN,whois.arin.net,"https://rdap.arin.net/registry
 http://rdap.arin.net/registry",,2006-11-30
 394240-395164,Assigned by ARIN,whois.arin.net,"https://rdap.arin.net/registry

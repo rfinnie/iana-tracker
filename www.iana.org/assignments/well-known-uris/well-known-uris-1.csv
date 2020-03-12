@@ -41,6 +41,7 @@ posh,IETF,[RFC7711],permanent,"The suffix ""posh"" is expected to be followed by
       of, for instance, ""/.well-known/posh/spice.json"".  Registration of
       service names shall be requested by developers of the relevant
       application protocols.",2015-09-20,
+pvd,IETF,[RFC-ietf-intarea-provisioning-domains-11],permanent,,2020-02-18,
 reload-config,IETF,[RFC6940],permanent,,,
 repute-template,IETF,[RFC7072],permanent,,2013-09-30,
 resourcesync,[NISO],[http://www.openarchives.org/rs/resourcesync],permanent,,2017-05-26,

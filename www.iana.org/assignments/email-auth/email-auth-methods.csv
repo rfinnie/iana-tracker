@@ -12,6 +12,9 @@ dkim,[RFC8601],header,s,"value of signature ""s"" tag",active,1
 dkim-adsp,[RFC5617][RFC7601],header,from,"contents of the [RFC5322] From: header field, with comments removed",deprecated,1
 dkim-atps,[RFC6541],header,from,"contents of the [RFC5322] From: header field, with comments removed",active,1
 dmarc,[RFC7489],header,from,the domain portion of the RFC5322.From field,active,1
+dmarc,[RFC7489],policy,dmarc,"Evaluated DMARC policy applied/to be applied after policy options 
+        including pct: and sp: have been processed. Must be none, quarantine, 
+        or reject.",active,1
 domainkeys,[RFC7601],header,d,"value of signature ""d"" tag",deprecated,1
 domainkeys,[RFC7601],header,from,"contents of the [RFC5322] From: header field, after removing
           comments, and removing the local-part and following ""@"" if not

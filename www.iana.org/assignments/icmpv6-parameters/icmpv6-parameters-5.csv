@@ -20,7 +20,7 @@ Type,Description,Reference
 19,Link-layer Address Option,[RFC5568]
 20,"Neighbor Advertisement Acknowledgment   
 Option",[RFC5568]
-21,PvD ID Router Advertisement Option (reclaimable in future),[draft-ietf-intarea-provisioning-domains]
+21,PvD ID Router Advertisement Option,[RFC-ietf-intarea-provisioning-domains-11]
 22,Unassigned,
 23,MAP Option,[RFC4140]
 24,Route Information Option,[RFC4191]
