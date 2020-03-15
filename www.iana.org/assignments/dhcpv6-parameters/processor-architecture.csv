@@ -32,4 +32,8 @@ Type,Architecture Name,Reference
 0x00 0x1e,RISC-V 128-bit UEFI boot from http,[Dong_Wei]
 0x00 0x1f,s390 Basic,[Viktor_Mihajlovski]
 0x00 0x20,s390 Extended,[Viktor_Mihajlovski]
-0x00 0x21-0xff 0xff,Unassigned,
+0x00 0x21,MIPS 32-bit UEFI,[Jiading_Zhang]
+0x00 0x22,MIPS 64-bit UEFI,[Jiading_Zhang]
+0x00 0x23,Sunway 32-bit UEFI,[Jiading_Zhang]
+0x00 0x24,Sunway 64-bit UEFI,[Jiading_Zhang]
+0x00 0x25-0xff 0xff,Unassigned,
