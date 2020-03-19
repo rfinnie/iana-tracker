@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2020-03-03
+           2020-03-17
 
    Expert(s)
 
@@ -6098,9 +6098,9 @@ sybaseanywhere     2638        tcp    Sybase Anywhere              [Dave_Neudoer
 sybaseanywhere     2638        udp    Sybase Anywhere              [Dave_Neudoerffer]                                    [Dave_Neudoerffer]
 aminet             2639        tcp    AMInet                       [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]
 aminet             2639        udp    AMInet                       [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]
-ami-control        2640        tcp    Alcorn McBride Inc protocol  [Alcorn_McBride_Inc]                                  [Joy_Burke]
+ami-control        2640        tcp    Alcorn McBride Inc protocol  [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]                                                   2020-03-12
                                       used for device control
-ami-control        2640        udp    Alcorn McBride Inc protocol  [Alcorn_McBride_Inc]                                  [Joy_Burke]
+ami-control        2640        udp    Alcorn McBride Inc protocol  [Alcorn_McBride_Inc]                                  [Alcorn_McBride_Inc]                                                   2020-03-12
                                       used for device control
 hdl-srv            2641        tcp    HDL Server                   [David_Ely]                                           [David_Ely]
 hdl-srv            2641        udp    HDL Server                   [David_Ely]                                           [David_Ely]
@@ -14663,7 +14663,10 @@ vrace              9300        udp    Virtual Racing Service       [Pete_Loeffen
 sphinxql           9306        tcp    Sphinx search server (MySQL  [Andrew_Aksyonoff]                                    [Andrew_Aksyonoff]                                        2009-10-20
                                       listener)
                    9306        udp    Reserved
-                 9307-9311            Unassigned
+                 9307-9309            Unassigned
+sapms              9310        tcp    SAP Message Server           [SAP_SE]                                              [Stefan_Hagen]                                            2020-03-12
+                   9310        udp    Reserved
+                   9311               Unassigned
 sphinxapi          9312        tcp    Sphinx search server         [Andrew_Aksyonoff]                                    [Andrew_Aksyonoff]                                        2009-10-20
                    9312        udp    Reserved
                  9313-9317            Unassigned
@@ -18608,10 +18611,12 @@ urlbookmark                           URL Advertising              [Sven_S_Porst
                                                                                                                                                                                                                                                                                   the bookmark>
 usp-agt-coap                   udp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-agt-http                   tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
+usp-agt-mqtt                   tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2020-03-17                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-agt-stomp                  tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-agt-ws                     tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-09-28                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-coap                   udp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-http                   tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
+usp-ctr-mqtt                   tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2020-03-17                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-stomp                  tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-01-12                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 usp-ctr-ws                     tcp    USP discovery                [Broadband_Forum]                                     [Broadband_Forum]                                         2017-09-28                [http://www.broadband-forum.org/assignments]                         Defined TXT keys: see www.broadband-forum.org/assignments
 uswi                                  Universal Switching          [Roger_Lemberg]                                       [Roger_Lemberg]                                                                                                                                          Defined TXT keys: None
@@ -19417,7 +19422,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Bridgette_Landers]                                       Bridgette Landers                                   mailto:blanders&boi.hp.com
 [Bridgeworks]                                                                        Bridgeworks              mailto:paul.burgess&4bridgeworks.com                          2014-09-26
 [Brigitte_Gagne]                                          Brigitte Gagne                                      mailto:bgagne&trigence.com                                    2006-08
-[Broadband_Forum]                                                                    Broadband Forum          mailto:help&broadband-forum.org                               2019-12-13
+[Broadband_Forum]                                                                    Broadband Forum          mailto:help&broadband-forum.org                               2020-03-17
 [Brocade_Communications_Systems]                          Brocade Communications                              mailto:ncarter&brocade.com                                    2015-11-17
                                                           Systems
 [Brooks_Bell]                                             Brooks Bell                Layered Logic, Inc.      mailto:brooks&layeredlogic.com                                2012-01-04
@@ -21437,7 +21442,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Joshua_Prewitt]                                          Joshua Prewitt             National Instruments     mailto:joshua.prewitt&ni.com                                  2011-10-24
 [Josip_Medved]                                            Josip Medved                                        mailto:jmedved&jmedved.com                                    2010-10-20
 [Jost_Faganel]                                            Jost Faganel                                        mailto:jost.faganel&hermes.si
-[Joy_Burke]                                               Joy Burke                                           mailto:joy&alcorn.com                                         2016-05-19
 [Josyula_R_Rao]                                           Josyula R. Rao                                      mailto:jrrao&watson.ibm.com
 [Joyce_K_Reynolds]                                        Joyce K. Reynolds                                   mailto:jkrey&isi.edu
 [Juan_Carlos_Luciani]                                     Juan Carlos Luciani                                 mailto:jluciani&novell.com
@@ -23167,7 +23171,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Roberto_Jorge_Dino]                                      Roberto Jorge Dino                                  mailto:roberto.dino&autotrac.com.br
 [Robin_Cover]                                             Robin Cover                OASIS KMIP Technical     mailto:robin&oasis-open.org                                   2011-07-25
                                                                                      Committee
-[Robin_Felix]                                             Robin Felix                                         mailto:ryfelix&yahoo.com                                      2014-02-17
+[Robin_Felix]                                             Robin Felix                                         mailto:zarkovport&outlook.com                                 2020-03-11
 [Robin_Findley]                                           Robin Findley                                       mailto:rfindley&usa.net                                       2007-05
 [Robin_Giese]                                             Robin Giese                                         mailto:rgiese&peddie.org
 [Robin_Johnston]                                          Robin Johnston                                      mailto:robinj&learningtree.com
@@ -23355,6 +23359,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Santa_Dasu]                                              Santa Dasu                                          mailto:Santa_Dasu&quickeagle.com
 [Santo_Porpiglia]                                         Santo Porpiglia                                     mailto:sonnyporpiglia&gmail.com                               2015-05-28
 [Santorini_LLC]                                                                      Santorini, LLC           mailto:cameron&santorinillc.com                               2011-10-25
+[SAP_SE]                                                                             SAP SE                   mailto:stefan.hagen&sap.com                                   2020-03-12
 [Sarah_Allen]                                             Sarah Allen                                         mailto:sallen&macromedia.com
 [Sarah_Thompson]                                          Sarah Thompson                                      mailto:sarah&telergy.com
 [Sarene_Caiazza]                                          Sarene Caiazza                                      mailto:scaiazza&proquesys.com                                 2010-04-27
@@ -23586,6 +23591,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stefan_Daun]                                             Stefan Daun                                         mailto:secretariat&cip4.org
 [Stefan_Ekenberg]                                         Stefan Ekenberg                                     mailto:stefan.ekenberg&stericsson.com
 [Stefan_Eriksson]                                         Stefan Eriksson                                     mailto:contact-iana&axis.com
+[Stefan_Hagen]                                            Stefan Hagen                                        mailto:stefan.hagen&sap.com                                   2020-03-12
 [Stefan_Hochuli]                                          Stefan Hochuli                                      mailto:iana.org&dunes.ch                                      2003-12
 [Stefan_Pantke]                                           Stefan Pantke                                       mailto:sales&turingart.com
 [Stefan_Siebert]                                          Stefan Siebert                                      mailto:ssiebert&dcs.de
