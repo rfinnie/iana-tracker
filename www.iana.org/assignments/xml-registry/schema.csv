@@ -12,6 +12,7 @@ contact-1.0,urn:ietf:params:xml:schema:contact-1.0,schema/contact-1.0.xsd,[RFC57
 control:framework-attributes,urn:ietf:params:xml:schema:control:framework-attributes,schema/control/framework-attributes.xsd,[RFC6230]
 copycontrol,urn:ietf:params:xml:schema:copycontrol,schema/copycontrol.xsd,[RFC5364]
 cpl,urn:ietf:params:xml:schema:cpl,schema/cpl.xsd,[RFC3880]
+cpxmlsec,urn:ietf:params:xml:schema:cpxmlsec,schema/cpxmlsec.xsd,[draft-smirnov-xmldsig-03]
 dchk1,urn:ietf:params:xml:schema:dchk1,schema/dchk1.xsd,[RFC5144]
 dialog-info,urn:ietf:params:xml:schema:dialog-info,schema/dialog-info.xsd,[RFC4235]
 domain-1.0,urn:ietf:params:xml:schema:domain-1.0,schema/domain-1.0.xsd,[RFC5731]
