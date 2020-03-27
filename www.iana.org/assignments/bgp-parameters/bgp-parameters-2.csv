@@ -36,7 +36,7 @@ Work in progress, March 1996.][RFC6938]"
 33,BGPsec_Path,[RFC8205]
 34,"BGP Community Container Attribute 
         (TEMPORARY - registered 2017-07-28, extension registered 2018-08-10, expires 2019-07-28)",[draft-ietf-idr-wide-bgp-communities]
-35,"Internal Only To Customer (TEMPORARY - registered 2018-03-29, extension registered 2019-03-18, expires 2020-03-29)",[draft-ietf-idr-bgp-open-policy]
+35,"Only to Customer (OTC) (TEMPORARY - registered 2018-03-29, extension registered 2020-03-20, expires 2021-03-29)",[draft-ietf-idr-bgp-open-policy]
 36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, expires 2020-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking]
 37-39,Unassigned,
 40,BGP Prefix-SID,[RFC8669]

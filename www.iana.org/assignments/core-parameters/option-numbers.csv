@@ -15,7 +15,7 @@ Number,Name,Reference
 13,Unassigned,
 14,Max-Age,[RFC7252][RFC8516][RFC8613]
 15,Uri-Query,[RFC7252][RFC8613]
-16,Hop-Limit,[RFC-ietf-core-hop-limit-07]
+16,Hop-Limit,[RFC8768]
 17,Accept,[RFC7252][RFC8613]
 18-19,Unassigned,
 20,Location-Query,[RFC7252][RFC8613]

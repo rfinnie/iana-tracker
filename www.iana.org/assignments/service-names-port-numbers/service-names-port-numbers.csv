@@ -11349,7 +11349,7 @@ pon-ictp,7202,tcp,"Inter-Channel Termination Protocol (ICTP) for multi-wavelengt
       comprising a 40-Gigabit-capable next-generation passive optical network (NG-PON2) system to
       exchange channel profile configuration and status information and to coordinate the operation of tunable 
       optical network units (ONUs) in a multi-wavelength channel environment.]",,,
-,7702,udp,Reserved,,,,,,,,
+,7202,udp,Reserved,,,,,,,,
 ,7203-7214,,Unassigned,,,,,,,,
 PS-Server,7215,tcp,Communication ports for PaperStream Server services,[PFU_Systems_Inc.],[Hari_Asuri],2016-02-26,,,,,
 ,7215,udp,Reserved,,,,,,,,

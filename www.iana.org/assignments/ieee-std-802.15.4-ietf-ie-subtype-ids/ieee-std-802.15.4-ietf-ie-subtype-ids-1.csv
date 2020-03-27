@@ -1,5 +1,6 @@
 Value,Subtype ID,Reference
 0,Reserved,[RFC8137]
 1,SUBID_6TOP,[RFC8480]
-2-200,Unassigned,
+2,6tisch-Join-Info,[RFC-ietf-6tisch-enrollment-enhanced-beacon-14]
+3-200,Unassigned,
 201-255,Reserved for Experimental Use,[RFC8137]
