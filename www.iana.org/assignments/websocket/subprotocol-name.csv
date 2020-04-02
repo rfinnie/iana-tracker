@@ -61,3 +61,4 @@ cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/
 drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown],
 hub.bsc.bacnet.org,BACnet Secure Connect Hub Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
 dc.bsc.bacnet.org,BACnet Secure Connect Direct Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
+jmap,WebSocket Transport for JMAP (JSON Meta Application Protocol),[RFC-ietf-jmap-websocket-07],[RFC-ietf-jmap-websocket-07],

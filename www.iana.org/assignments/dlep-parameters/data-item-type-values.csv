@@ -27,7 +27,7 @@ Type Code,Description,Reference
 25,Restart,[RFC8651]
 26,Link Identifier Length,[RFC8703]
 27,Link Identifier,[RFC8703]
-28,Latency Range,[RFC-ietf-manet-dlep-latency-extension-05]
+28,Latency Range,[RFC8757]
 29-65407,Unassigned,
 65408-65534,Reserved for Private Use,[RFC8175]
 65535,Reserved,[RFC8175]
