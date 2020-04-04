@@ -4,3 +4,9 @@ Code,Name,Reference
 2,unrecognized IPv6 option encountered,
 3,IPv6 First Fragment has incomplete IPv6 Header Chain,[RFC7112]
 4,SR Upper-layer Header Error,[RFC-ietf-6man-segment-routing-header-26]
+5,Unrecognized Next Header type encountered by intermediate node,[RFC-ietf-6man-icmp-limits-08]
+6,Extension header too big,[RFC-ietf-6man-icmp-limits-08]
+7,Extension header chain too long,[RFC-ietf-6man-icmp-limits-08]
+8,Too many extension headers,[RFC-ietf-6man-icmp-limits-08]
+9,Too many options in extension header,[RFC-ietf-6man-icmp-limits-08]
+10,Option too big,[RFC-ietf-6man-icmp-limits-08]

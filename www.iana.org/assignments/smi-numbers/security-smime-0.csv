@@ -71,4 +71,4 @@ Decimal,Description,References
 68,id-mod-hkdf-oid-2019,[RFC8619]
 69,id-mod-cms-ori-psk-2019,[RFC8696]
 70,CMSAlgsForSHAKE-2019,[RFC8702]
-71,id-mod-cbor-2019,[RFC-schaad-cbor-content-02]
+71,id-mod-cbor-2019,[RFC8769]
