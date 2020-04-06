@@ -29,7 +29,7 @@ Kind,Length,Meaning,Reference
 27,8,Quick-Start Response,[RFC4782]
 28,4,"User Timeout Option (also, other known unauthorized use) [***][1]",[RFC5482]
 29,,TCP Authentication Option (TCP-AO),[RFC5925]
-30,N,Multipath TCP (MPTCP),[RFC-ietf-mptcp-rfc6824bis-18]
+30,N,Multipath TCP (MPTCP),[RFC8684]
 31,,Reserved (known unauthorized use without proper IANA assignment) [**],
 32,,Reserved (known unauthorized use without proper IANA assignment) [**],
 33,,Reserved (known unauthorized use without proper IANA assignment) [**],
