@@ -10,6 +10,7 @@ RSTR,Access denied due to local policy,[RFC5905]
 INIT,The association has not yet synchronized for the first time,[RFC5905]
 MCST,The association belongs to a dynamically discovered server,[RFC5905]
 NKEY,No key found. Either the key was never installed or is not trusted,[RFC5905]
+NTSN,Network Time Security (NTS) negative-acknowledgment (NAK),"[RFC-ietf-ntp-using-nts-for-ntp-28, Section 5.7]"
 RATE,"Rate exceeded. The server has temporarily denied access 
         because the client exceeded the rate threshold",[RFC5905]
 RMOT,Alteration of association from a remote host running ntpdc.,[RFC5905]
