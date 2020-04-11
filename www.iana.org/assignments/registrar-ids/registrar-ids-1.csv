@@ -234,7 +234,7 @@
 468,"Amazon Registrar, Inc.",Accredited,https://rdap.registrar.amazon.com/rdap/
 469,easyDNS Technologies Inc.,Accredited,https://easydns.rdap.tucows.com/
 470,Nom-iq Ltd. dba COM LAUDE,Accredited,https://rdap.comlaude.com/rdap/
-471,"Bizcn.com, Inc.",Accredited,
+471,"Bizcn.com, Inc.",Accredited,https://rdap.bizcn.com/
 472,"Dynadot, LLC",Accredited,https://rdap.dynadot.com/
 473,"Best Registration Services, Inc. dba BestRegistrar.com",Terminated,
 474,IDC Frontier Inc.,Accredited,https://rdap.do-reg.net/rdap/
@@ -1297,7 +1297,7 @@
 1672,"PacificDomains, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1673,BDL Systemes SAS dba ProDomaines,Accredited,https://rdap.prodomaines.com/
 1674,Domainia Inc.,Accredited,
-1675,CV. Rumahweb Indonesia,Accredited,
+1675,CV. Rumahweb Indonesia,Accredited,https://rdap.rumahweb.com/
 1676,Vodien Australia Pty Ltd.,Terminated,
 1677,AcquiredNames LLC,Accredited,https://rdap.namebright.com/rdap/
 1678,BlastDomains LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -3377,7 +3377,7 @@
 3766,"SHENZHEN DOMAINSTAR TECHNOLOGY CO., LIMITED",Terminated,
 3767,"JIANGSU CHENGFUTONG NETWORK TECHNOLOGY CO., LTD.",Terminated,
 3768,First Alliance Group Ltd T/A Netclues Inc,Accredited,https://rdapserver.net/
-3769,"Shanghai UCloud Information Technology Co., Ltd.",Accredited,
+3769,"Shanghai UCloud Information Technology Co., Ltd.",Terminated,
 3770,"SUPER DATA CO., LTD",Terminated,
 3771,"Hangzhou Best Domain Technology Co., LTD",Accredited,https://www.17ex.com/rdap/domain/
 3772,Cheap Domains Pte Ltd.,Accredited,
@@ -3450,6 +3450,7 @@
 3848,"Shandong Huaimi Network Technology Co., Ltd",Accredited,
 3849,Zerolek Pty Ltd,Accredited,
 3850,"Topvisor Co., Ltd",Accredited,
+3851,Yunnan DingHong Technology Co. Ltd.,Accredited,
 3852,"Xiamen Zhongtuo Internet Technology Co., Ltd.",Accredited,
 3853,Grupo Loading Systems S.L.,Accredited,
 3854,"Access Japan Co., Ltd.",Accredited,
@@ -3458,6 +3459,7 @@
 3859,"Intellectual Property Management Company, Inc.",Accredited,
 3860,"WEDOS Internet, a.s.",Accredited,
 3861,Purple IT Ltd,Accredited,
+3863,Domain International Services Limited,Accredited,
 9995,Reserved for Pre-Delegation Testing transactions #1 reporting,Reserved,
 9996,Reserved for Pre-Delegation Testing transactions #2 reporting,Reserved,
 9997,Reserved for ICANN's Registry SLA Monitoring System transactions reporting,Reserved,
