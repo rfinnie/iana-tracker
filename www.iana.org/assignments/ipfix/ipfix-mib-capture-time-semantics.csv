@@ -1,0 +1,7 @@
+Value,Name,Description,Reference
+0,undefined,,[RFC8038]
+1,begin,The value for the MIB object is captured from the MIB when the Flow is first observed,[RFC8038]
+2,end,The value for the MIB object is captured from the MIB when the Flow ends,[RFC8038]
+3,export,The value for the MIB object is captured from the MIB at export time,[RFC8038]
+4,average,The value for the MIB object is an average of multiple captures from the MIB over the observed life of the Flow,[RFC8038]
+5-255,Unassigned,,

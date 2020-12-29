@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="ospf-opaque-types.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="ospf-opaque-types">
   <title>Open Shortest Path First (OSPF) Opaque Link-State Advertisements (LSA) Option Types</title>
-  <updated>2019-07-31</updated>
+  <updated>2020-06-19</updated>
 
   <registry id="ospf-opaque-types-2">
     <title>Opaque Link-State Advertisements (LSA) Option Types</title>
@@ -14,7 +14,7 @@
     </range>
     <range>
       <value>128-255</value>
-      <registration_rule>Reserved for private use</registration_rule>
+      <registration_rule>Private Use</registration_rule>
     </range>
     <record>
       <value>1</value>
@@ -63,7 +63,7 @@
     </record>
     <record date="2019-07-31">
       <value>10</value>
-      <description>OSPFv2 Dynamic Flooding Opaque LSA (TEMPORARY - registered 2019-07-31, expires 2020-07-31)</description>
+      <description>OSPFv2 Dynamic Flooding Opaque LSA (TEMPORARY - registered 2019-07-31, extension registered 2020-06-19, expires 2021-07-31)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
     <record>
@@ -72,7 +72,7 @@
     </record>
     <record>
       <value>128-255</value>
-      <description>Reserved for private use</description>
+      <description>Reserved for Private Use</description>
       <xref type="rfc" data="rfc5250"/>
     </record>
   </registry>

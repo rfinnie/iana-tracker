@@ -1,0 +1,10 @@
+Code,Error?,Description,Reference
+0x00000000,No,Null Notification,[RFC8237]
+0x00000001,No,PW configuration mismatch,[RFC8237]
+0x00000002,Yes,PW Configuration TLV conflict,[RFC8237]
+0x00000003,No,Unknown TLV (U-Bit=1),[RFC8237]
+0x00000004,Yes,Unknown TLV (U-Bit=0),[RFC8237]
+0x00000005,No,Unknown Message Type,[RFC8237]
+0x00000006,No,PW configuration not supported,[RFC8237]
+0x00000007,Yes,Unacknowledged control message,[RFC8237]
+0x00000008-0xFFFFFFFF,,Unassigned,

@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2020-04-07</updated>
+  <updated>2020-12-10</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -234,7 +234,7 @@ limited applicability, or is intended only for specific use cases.
       <name>compress_certificate</name>
       <tls13>CH, CR</tls13>
       <rec>Y</rec>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
     <record date="2018-05-31">
       <value>28</value>
@@ -293,8 +293,36 @@ limited applicability, or is intended only for specific use cases.
       <xref type="rfc" data="rfc5077"/>
       <xref type="rfc" data="rfc8447"/>
     </record>
+    <record date="2020-09-10">
+      <value>36</value>
+      <name>TLMSP</name>
+      <tls13>-</tls13>
+      <rec>N</rec>
+      <xref type="uri" data="https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf">ETSI TS 103 523-2</xref>
+    </record>
+    <record date="2020-09-10">
+      <value>37</value>
+      <name>TLMSP_proxying</name>
+      <tls13>-</tls13>
+      <rec>N</rec>
+      <xref type="uri" data="https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf">ETSI TS 103 523-2</xref>
+    </record>
+    <record date="2020-09-10">
+      <value>38</value>
+      <name>TLMSP_delegate</name>
+      <tls13>-</tls13>
+      <rec>N</rec>
+      <xref type="uri" data="https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf">ETSI TS 103 523-2</xref>
+    </record>
+    <record updated="2020-06-26">
+      <value>39</value>
+      <name>supported_ekt_ciphers</name>
+      <tls13>CH, SH</tls13>
+      <rec>Y</rec>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
     <record>
-      <value>36-40</value>
+      <value>40</value>
       <name>Unassigned</name>
       <tls13/>
     </record>
@@ -380,10 +408,10 @@ limited applicability, or is intended only for specific use cases.
       <rec>N</rec>
       <xref type="draft" data="draft-ietf-trans-rfc6962-bis"/>
     </record>
-    <record date="2019-07-02">
+    <record date="2019-07-02" updated="2020-07-28">
       <value>53</value>
       <name>connection_id 
-        (TEMPORARY - registered 2019-07-02, expires 2020-07-02)</name>
+        (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires 2021-07-02)</name>
       <tls13>-</tls13>
       <rec>N</rec>
       <xref type="draft" data="draft-ietf-tls-dtls-connection-id"/>
@@ -407,8 +435,15 @@ limited applicability, or is intended only for specific use cases.
       <rec>Y</rec>
       <xref type="draft" data="RFC-ietf-mmusic-sdp-uks-07"/>
     </record>
+      <record date="2020-12-10">
+      <value>57</value>
+      <name>quic_transport_parameters</name>
+      <tls13>CH, EE</tls13>
+      <rec>N</rec>
+      <xref type="draft" data="draft-ietf-quic-tls-32"/>
+    </record>
     <record>
-      <value>57-2569</value>
+      <value>58-2569</value>
       <name>Unassigned</name>
       <tls13/>
     </record>
@@ -673,11 +708,11 @@ cases.
       <rec>Y</rec>
       <xref type="rfc" data="rfc7250"/>
     </record>
-    <record date="2018-11-08">
+    <record date="2018-11-08" updated="2020-04-17">
       <value>3</value>
       <description>1609Dot2</description>
       <rec>N</rec>
-      <xref type="draft" data="draft-tls-certieee1609"/>
+      <xref type="rfc" data="rfc8902"/>
     </record>
     <record>
       <value>4-223</value>
@@ -923,7 +958,12 @@ described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
     <record date="2020-04-07">
       <value>Network Time Security Key Establishment, version 1</value>
       <description>0x6E 0x74 0x73 0x6B 0x65 0x2F 0x31 ("ntske/1")</description>
-      <xref type="draft" data="RFC-ietf-ntp-using-nts-for-ntp-28">RFC-ietf-ntp-using-nts-for-ntp-28, Section 4</xref>
+      <xref type="rfc" data="rfc8915">RFC8915, Section 4</xref>
+    </record>
+    <record date="2020-07-01">
+      <value>SunRPC</value>
+      <description>0x73 0x75 0x6e 0x72 0x70 0x63 ("sunrpc")</description>
+      <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-10"/>
     </record>
     <footnote anchor="1">This entry reserves an identifier for use within a cleartext version 
 of a protocol and is not allowed to appear in a TLS ALPN negotiation.
@@ -974,7 +1014,7 @@ Required range should be sent to the mailing list described in
   
   <registry id="tls-certificate-compression-algorithm-ids">
     <title>TLS Certificate Compression Algorithm IDs</title>
-    <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+    <xref type="rfc" data="rfc8879"/>
     <range>
       <value>1-255</value>
       <registration_rule>IETF Review</registration_rule>
@@ -995,22 +1035,22 @@ Required range should be sent to the mailing list described in
     <record date="2019-12-23">
       <value>0</value>
       <description>Reserved</description>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
     <record date="2019-12-23">
       <value>1</value>
       <description>zlib</description>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
     <record date="2019-12-23">
       <value>2</value>
       <description>brotli</description>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
     <record date="2019-12-23">
       <value>3</value>
       <description>zstd</description>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
     <record>
       <value>4-16383</value>
@@ -1019,7 +1059,7 @@ Required range should be sent to the mailing list described in
     <record date="2019-12-23">
       <value>16384-65535</value>
       <description>Reserved for Experimental Use</description>
-      <xref type="draft" data="RFC-ietf-tls-certificate-compression-09"/>
+      <xref type="rfc" data="rfc8879"/>
     </record>
   </registry>
   

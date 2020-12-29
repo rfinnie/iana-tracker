@@ -5,7 +5,7 @@
   <title>Standards-related organizations that have registered Media Types in the Standards Tree</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-09-13</created>
-  <updated>2019-03-28</updated>
+  <updated>2020-10-02</updated>
 
   <registry id="organizations">
     <title>Standards-related organizations that have registered Media Types in the Standards Tree</title>
@@ -47,6 +47,16 @@ in the Standards Tree go through normal Expert Review.</note>
     </record>
     
     <record>
+      <org>ASTM International</org>
+      <date>2020-07-20</date>
+    </record>
+    
+    <record>
+      <org>Audio Engineering Society (AES)</org>
+      <date>2020-06-16</date>
+    </record>
+    
+    <record>
       <org>CDISC</org>
       <date>2018-11-28</date>
     </record>
@@ -72,6 +82,11 @@ in the Standards Tree go through normal Expert Review.</note>
     </record>
     
     <record>
+      <org>IMS Global Learning Consortium Inc.</org>
+      <date>2020-10-02</date>
+    </record>
+    
+    <record>
       <org>International Digital Publishing Forum</org>
       <date>2014-11-06</date>
     </record>
@@ -89,6 +104,11 @@ in the Standards Tree go through normal Expert Review.</note>
     <record>
       <org>The Khronos Group</org>
       <date>2016-07-01</date>
+    </record>
+    
+    <record>
+      <org>Linux Foundation</org>
+      <date>2020-05-04</date>
     </record>
     
     <record>
@@ -112,6 +132,16 @@ in the Standards Tree go through normal Expert Review.</note>
     </record>
     
     <record>
+      <org>OPC Foundation</org>
+      <date>2020-09-01</date>
+    </record>
+    
+    <record>
+      <org>Sequence Ontology</org>
+      <date>2020-08-17</date>
+    </record>
+    
+    <record>
       <org>Society of Motion Picture and Television Engineers (SMPTE)</org>
       <date>2017-12-08</date>
     </record>
@@ -129,7 +159,12 @@ in the Standards Tree go through normal Expert Review.</note>
     <record>
       <org>W3C</org>
       <date>2012-09-19</date>
-    </record>    
+    </record> 
+    
+    <record>
+      <org>WHATWG</org>
+      <date>2020-07-14</date>
+    </record>
 
     <record>
       <org>ZigBee Alliance</org>

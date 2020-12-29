@@ -1,0 +1,9 @@
+Flag,Name,Reference
+0x01,Global Label,[RFC3209]
+0x02,TE Link Label,"[RFC8577, Section 9.3]"
+0x04,Delegation Label,"[RFC8577, Section 9.5]"
+0x08,Unassigned,
+0x10,Unassigned,
+0x20,Unassigned,
+0x40,Unassigned,
+0x80,Unassigned,

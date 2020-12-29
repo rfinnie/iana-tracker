@@ -1,8 +1,9 @@
 Bit,Description,Reference
 0-7,Reserved for Experimental Use,[RFC7400]
-8-9,Unassigned,
-10,EDA  Support (D bit),[RFC8505]
-11,6LR  capable (L bit),[RFC8505]
+8,Unassigned,
+9,AP-ND Enabled (1 bit),[RFC8928]
+10,EDA Support (D bit),[RFC8505]
+11,6LR capable (L bit),[RFC8505]
 12,6LBR capable (B bit),[RFC8505]
 13,Routing Registrar (P bit),[RFC8505]
 14,EARO support (E bit),[RFC8505]

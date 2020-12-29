@@ -1,13 +1,8 @@
 Error Code,Description,Reference
 emeta,The dCDN was unable to acquire metadata required to fulfil the request.,[RFC8007]
 econtent,The dCDN was unable to acquire content (CT/T preposition commands only).,[RFC8007]
-eperm,"The uCDN does not have permission to issue the CI/T Command (for example, 
-        the data is owned by another CDN).",[RFC8007]
-ereject,"The dCDN is not willing to fulfil the CI/T Command (for example, a 
-        preposition request for content at a time when the dCDN would not accept Request 
-        Routing requests from the uCDN).",[RFC8007]
+eperm,"The uCDN does not have permission to issue the CI/T Command (for example, the data is owned by another CDN).",[RFC8007]
+ereject,"The dCDN is not willing to fulfil the CI/T Command (for example, a preposition request for content at a time when the dCDN would not accept Request Routing requests from the uCDN).",[RFC8007]
 ecdn,An internal error in the dCDN or one of its downstream CDNs.,[RFC8007]
 ecancelled,The uCDN cancelled the request.,[RFC8007]
-eunsupported,"The Trigger Specification contained a ""type"" that is not 
-        supported by the dCDN. No action was taken by the dCDN other than to 
-        create a Trigger Status Resource in state ""failed"".",[RFC8007]
+eunsupported,"The Trigger Specification contained a ""type"" that is not supported by the dCDN. No action was taken by the dCDN other than to create a Trigger Status Resource in state ""failed"".",[RFC8007]

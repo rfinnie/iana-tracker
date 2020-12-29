@@ -5,7 +5,7 @@
        TEXTUAL-CONVENTION          FROM SNMPv2-TC;
 
    ianaifType MODULE-IDENTITY
-       LAST-UPDATED "202004020000Z" -- April 2, 2020
+       LAST-UPDATED "202008270000Z" -- August 27, 2020
        ORGANIZATION "IANA"
        CONTACT-INFO "        Internet Assigned Numbers Authority
 
@@ -14,11 +14,17 @@
                              Los Angeles, CA 90094-2536
 
                      Tel:    +1 310-301-5800
-                     E-Mail: iana&iana.org"
+                     E-Mail: iana@iana.org"
 
        DESCRIPTION  "This MIB module defines the IANAifType Textual
                      Convention, and thus the enumerated values of
                      the ifType object defined in MIB-II's ifTable."
+
+       REVISION     "202008270000Z"  -- August 27, 2020
+       DESCRIPTION  "Updated Interface Types (ifType) registry name."
+
+       REVISION     "202007100000Z"  -- July 10, 2020
+       DESCRIPTION  "Registration of new IANAifType 300."
 
        REVISION     "202004020000Z"  -- April 2, 2020
        DESCRIPTION  "Added reference to ifType definitions registry."
@@ -370,7 +376,7 @@
 
                Interface types must not be directly added to the 
                IANAifType-MIB MIB module.  They must instead be added
-               to the 'ifType definitions' registry at 
+               to the 'Interface Types (ifType)' registry at 
                https://www.iana.org/assignments/smi-numbers.
 
                The relationship between the assignment of ifType
@@ -694,7 +700,8 @@
                    microwaveRadioLinkTerminal (296), -- radio link interface for one or several aggregated microwave carriers
                    ieee8021axDrni (297), -- IEEE 802.1AX Distributed Resilient Network Interface
                    ax25 (298), -- AX.25 network interfaces
-                   ieee19061nanocom (299) -- Nanoscale and Molecular Communication
+                   ieee19061nanocom (299), -- Nanoscale and Molecular Communication
+                   cpri (300) -- Common Public Radio Interface
                    }
 
 IANAtunnelType ::= TEXTUAL-CONVENTION

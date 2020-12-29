@@ -34,8 +34,7 @@ subscription.",[RFC7614]
 from-change,"This option tag is used to indicate that    
 a UA supports changes to URIs in From and
 To header fields during a dialog.",[RFC4916]
-geolocation-http,"The ""geolocation-http"" option tag signals  
- support for acquiring location information
+geolocation-http,"The ""geolocation-http"" option tag signals support for acquiring location information
  via an HTTP [RFC2616]. A location
  recipient who supports this option can
  request location with an HTTP GET and
@@ -139,14 +138,11 @@ This tag is not used in the Require or
 Supported headers. Proxies remove this option
 tag before forwarding the request if the desired
 privacy function has been performed.",[RFC3323]
-recipient-list-invite,"The body contains a list of URIs     
-       that indicates the recipients of the
+recipient-list-invite,"The body contains a list of URIs that indicates the recipients of the
        SIP INVITE request",[RFC5366]
-recipient-list-message,"The body contains a list of URIs    
-        that indicates the recipients of
+recipient-list-message,"The body contains a list of URIs that indicates the recipients of
         the SIP MESSAGE request",[RFC5365]
-recipient-list-subscribe,"This option tag is used to ensure 
-          that a server can process the
+recipient-list-subscribe,"This option tag is used to ensure that a server can process the
           recipient-list body used in a
           SUBSCRIBE request.",[RFC5367]
 record-aware,"This option tag is to indicate the ability of the UA to
@@ -155,8 +151,7 @@ When present in a Supported header, it indicates that the UA can
 receive recording indicators in media-level or session-level SDP.",[RFC7866]
 replaces,"This option tag indicates support for the   
 SIP Replaces header.",[RFC3891]
-resource-priority,"Indicates or requests support for the    
-   resource priority mechanism.",[RFC4412]
+resource-priority,Indicates or requests support for the resource priority mechanism.,[RFC4412]
 sdp-anat,"The option-tag sdp-anat is defined for use  
 in the Require and Supported SIP [RFC3261]
 header fields. SIP user agents that place this
@@ -197,7 +192,6 @@ to process the request.  Inclusion in a Require
 header field in a response indicates that the
 UAC must look for the Session-Expires header
 field in the response, and process accordingly.",[RFC4028]
-trickle-ice,"This option tag is used to indicate 
-        that a UA supports and understands Trickle-ICE.",[RFC-ietf-mmusic-trickle-ice-sip-18]
+trickle-ice,This option tag is used to indicate that a UA supports and understands Trickle ICE.,[RFC-ietf-mmusic-trickle-ice-sip-18]
 uui,"This option tag is used to indicate that 
 a UA supports and understands the User-to-User header field.",[RFC7433]

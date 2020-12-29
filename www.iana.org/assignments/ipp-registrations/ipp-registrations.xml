@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ipp-registrations">
   <title>Internet Printing Protocol (IPP) Registrations</title>
   <created>2002-07-15</created>
-  <updated>2020-02-20</updated>
+  <updated>2020-12-07</updated>
   <registry id="ipp-registrations-1">
     <title>Objects</title>
     <xref type="rfc" data="rfc8011"/>
@@ -87,63 +87,63 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>blank</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>blank-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>full-color-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>highlight-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>highlight-color-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>impressions-col</name>
       <member_attribute>monochrome-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
@@ -161,35 +161,35 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Description</collection>
       <name>media-sheets-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>media-sheets-col</name>
       <member_attribute>blank</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>media-sheets-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>media-sheets-col</name>
       <member_attribute>highlight-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>media-sheets-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
@@ -201,21 +201,21 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Description</collection>
       <name>pages-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>pages-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Description</collection>
       <name>pages-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
@@ -287,33 +287,15 @@ Section 5.2 Subscription Template Attributes.
     </record>
     <record>
       <collection>Document Status</collection>
-      <name>date-time-at-completed(extension)</name>
-      <syntax>dateTime</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf" type="uri">PWG5100.5</xref>
-    </record>
-    <record>
-      <collection>Document Status</collection>
       <name>date-time-at-created</name>
-      <syntax>dateTime</syntax>
+      <syntax>dateTime | unknown</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf" type="uri">PWG5100.5</xref>
-    </record>
-    <record>
-      <collection>Document Status</collection>
-      <name>date-time-at-creation</name>
-      <syntax>dateTime</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf">PWG5100.5</xref>
     </record>
     <record>
       <collection>Document Status</collection>
       <name>date-time-at-processing</name>
       <syntax>dateTime | no-value</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf">PWG5100.5</xref>
-    </record>
-    <record>
-      <collection>Document Status</collection>
-      <name>date-time-at-processing(extension)</name>
-      <syntax>dateTime</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippdocobject11-20190521-5100.5.pdf" type="uri">PWG5100.5</xref>
     </record>
     <record>
       <collection>Document Status</collection>
@@ -548,14 +530,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Status</collection>
       <name>impressions-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
       <name>impressions-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "impressions-col" Document Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
@@ -641,14 +623,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Status</collection>
       <name>media-sheets-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
       <name>media-sheets-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "media-sheets-col" Document Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
@@ -750,14 +732,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Document Status</collection>
       <name>pages-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
       <name>pages-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "pages-col" Document Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Document Status</collection>
@@ -1624,7 +1606,7 @@ Section 5.2 Subscription Template Attributes.
     <record>
       <collection>Event Notifications</collection>
       <name>printer-current-time</name>
-      <syntax>dateTime</syntax>
+      <syntax>dateTime|unknown</syntax>
       <xref type="rfc" data="rfc3996"/>
     </record>
     <record>
@@ -1787,7 +1769,7 @@ Section 5.2 Subscription Template Attributes.
     </record>
     <record>
       <collection>Job Status</collection>
-      <name>date-time-at-creation</name>
+      <name>date-time-at-creation | unknown</name>
       <syntax>dateTime</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
@@ -2127,63 +2109,63 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>blank</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>blank-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>full-color-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>highlight-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>highlight-color-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-col</name>
       <member_attribute>monochrome-two-sided</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2195,14 +2177,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-impressions-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-impressions-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "job-impressions-col" Job Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2232,35 +2214,35 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-media-sheets-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-media-sheets-col</name>
       <member_attribute>blank</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-media-sheets-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-media-sheets-col</name>
       <member_attribute>highlight-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-media-sheets-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2272,14 +2254,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-media-sheets-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-media-sheets-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "job-media-sheets-col" Job Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2309,21 +2291,21 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-pages-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-pages-col</name>
       <member_attribute>full-color</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-pages-col</name>
       <member_attribute>monochrome</member_attribute>
       <syntax>integer(0:MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -2335,14 +2317,14 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Status</collection>
       <name>job-pages-completed-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
       <name>job-pages-completed-col</name>
       <member_attribute>&lt;Member attributes are the same as the "job-pages-col" Job Template attribute&gt;</member_attribute>
       <syntax/>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Job Status</collection>
@@ -3451,13 +3433,13 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Template</collection>
       <name>job-delay-output-until</name>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Job Template</collection>
       <name>job-delay-output-until-time</name>
       <syntax>dateTime</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Job Template</collection>
@@ -3548,7 +3530,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Job Template</collection>
       <name>job-hold-until-time</name>
       <syntax>dateTime</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Job Template</collection>
@@ -5057,7 +5039,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Operation</collection>
       <name>job-ids</name>
       <syntax>1setOf integer(1:MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -5069,7 +5051,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Operation</collection>
       <name>job-impressions-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -5099,7 +5081,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Operation</collection>
       <name>job-media-sheets-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -5123,7 +5105,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Operation</collection>
       <name>job-pages-col</name>
       <syntax>collection</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/ipp/minutes/ippv2-f2f-minutes-20150429.pdf" type="uri">APRIL2015F2F</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-counters-20150505.txt" type="uri">XEROX20150505</xref>
     </record>
     <record>
       <collection>Operation</collection>
@@ -6306,13 +6288,13 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>job-creation-attributes-supported</name>
       <syntax>1setOf keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
       <name>job-delay-output-until-default</name>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -6324,13 +6306,13 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>job-delay-output-until-supported</name>
       <syntax>1setOf (type2 keyword | name(MAX))</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
       <name>job-delay-output-until-time-supported</name>
       <syntax>rangeOfInteger(0:MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -6445,13 +6427,13 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>job-hold-until-time-supported</name>
       <syntax>rangeOfInteger(0:MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
       <name>job-ids-supported</name>
       <syntax>boolean</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -6670,7 +6652,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>job-spooling-supported</name>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7231,7 +7213,7 @@ Section 5.2 Subscription Template Attributes.
     <record>
       <collection>Printer Description</collection>
       <name>number-up-supported</name>
-      <syntax>integer(1:MAX) | rangeOfInteger(1:MAX)</syntax>
+      <syntax>1setOf (integer(1:MAX) | rangeOfInteger(1:MAX))</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
@@ -7655,6 +7637,12 @@ Section 5.2 Subscription Template Attributes.
     </record>
     <record>
       <collection>Printer Description</collection>
+      <name>printer-asset-tag</name>
+      <syntax>octetString(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/lakeside-sernum-20201201.txt" type="uri">LAKESIDE-SERNUM-20201201</xref>
+    </record>
+    <record>
+      <collection>Printer Description</collection>
       <name>printer-camera-image-uri</name>
       <syntax>1setOf uri</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ipp3d11-20190329-5100.21.pdf" type="uri">PWG5100.21</xref>
@@ -7663,13 +7651,13 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>printer-charge-info</name>
       <syntax>text(MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext3v10-20120727-5100.13.pdf" type="uri">PWG5100.13</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ipptrans11-20200327-5100.16.pdf" type="uri">PWG5100.16</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
       <name>printer-charge-info-uri</name>
       <syntax>uri</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext3v10-20120727-5100.13.pdf" type="uri">PWG5100.13</xref>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ipptrans11-20200327-5100.16.pdf" type="uri">PWG5100.16</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -7701,7 +7689,7 @@ Section 5.2 Subscription Template Attributes.
     <record>
       <collection>Printer Description</collection>
       <name>printer-current-time</name>
-      <syntax>dateTime</syntax>
+      <syntax>dateTime|unknown</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
@@ -7865,7 +7853,7 @@ Section 5.2 Subscription Template Attributes.
     <record>
       <collection>Printer Description</collection>
       <name>printer-resolution-supported</name>
-      <syntax>resolution</syntax>
+      <syntax>1setOf resolution</syntax>
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
@@ -8282,7 +8270,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Description</collection>
       <name>which-jobs-supported</name>
       <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Description</collection>
@@ -8468,7 +8456,7 @@ Section 5.2 Subscription Template Attributes.
       <collection>Printer Status</collection>
       <name>printer-detailed-status-messages</name>
       <syntax>1setOf text(MAX)</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <collection>Printer Status</collection>
@@ -8493,6 +8481,30 @@ Section 5.2 Subscription Template Attributes.
       <name>printer-finisher-supplies-description</name>
       <syntax>1setOf text(MAX)</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings21-20170217-5100.1.pdf" type="uri">PWG5100.1</xref>
+    </record>
+    <record>
+      <collection>Printer Status</collection>
+      <name>printer-firmware-name</name>
+      <syntax>1setOf name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-printer-firmware-20190724.txt" type="uri">APPLE20190724</xref>
+    </record>
+    <record>
+      <collection>Printer Status</collection>
+      <name>printer-firmware-patches</name>
+      <syntax>1setOf text(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-printer-firmware-20190724.txt" type="uri">APPLE20190724</xref>
+    </record>
+    <record>
+      <collection>Printer Status</collection>
+      <name>printer-firmware-string-version</name>
+      <syntax>1setOf text(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-printer-firmware-20190724.txt" type="uri">APPLE20190724</xref>
+    </record>
+    <record>
+      <collection>Printer Status</collection>
+      <name>printer-firmware-version</name>
+      <syntax>1setOf octetString(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/apple-printer-firmware-20190724.txt" type="uri">APPLE20190724</xref>
     </record>
     <record>
       <collection>Printer Status</collection>
@@ -8577,6 +8589,12 @@ Section 5.2 Subscription Template Attributes.
       <name>printer-pages-completed-col</name>
       <syntax>collection</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippsystem10-20191122-5100.22.pdf" type="uri">PWG5100.22</xref>
+    </record>
+    <record>
+      <collection>Printer Status</collection>
+      <name>printer-serial-number</name>
+      <syntax>text(255)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/lakeside-sernum-20201201.txt" type="uri">LAKESIDE-SERNUM-20201201</xref>
     </record>
     <record>
       <collection>Printer Status</collection>
@@ -8706,7 +8724,7 @@ Section 5.2 Subscription Template Attributes.
     </record>
     <record>
       <collection>Resource Status</collection>
-      <name>date-time-at-creation</name>
+      <name>date-time-at-creation | unknown</name>
       <syntax>dateTime</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippsystem10-20191122-5100.22.pdf" type="uri">PWG5100.22</xref>
     </record>
@@ -9258,6 +9276,12 @@ Section 5.2 Subscription Template Attributes.
       <name>system-default-printer-id</name>
       <syntax>integer(1:65535) | no-value</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippsystem10-20191122-5100.22.pdf" type="uri">PWG5100.22</xref>
+    </record>
+    <record>
+      <collection>System Description</collection>
+      <name>system-dns-sd-name</name>
+      <syntax>name(63)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/reg-ippsysdisc10-20200604.pdf" type="uri">IPPSYSDISC10</xref>
     </record>
     <record>
       <collection>System Description</collection>
@@ -12105,6 +12129,12 @@ by IESG-designated experts.
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippeve10-20130128-5100.14.pdf" type="uri">PWG5100.14</xref>
     </record>
     <record>
+      <value>ipp-everywhere-server</value>
+      <attribute>ipp-features-supported</attribute>
+      <syntax>1setOf type2 keyword</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippeve11-20200515-5100.14.pdf" type="uri">PWG5100.14</xref>
+    </record>
+    <record>
       <value>job-save</value>
       <attribute>ipp-features-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
@@ -12275,66 +12305,66 @@ by IESG-designated experts.
     <record>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>day-time</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>evening</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>indefinite</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>night</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>no-delay-output</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>second-shift</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>third-shift</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>weekend</value>
       <attribute>job-delay-output-until</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <attribute>job-delay-output-until-default</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>&lt;Any "job-default-output-until" value&gt;</value>
       <attribute>job-delay-output-until-default</attribute>
       <syntax>type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>&lt;Any "job-delay-output-until" value&gt;</value>
@@ -12345,13 +12375,13 @@ by IESG-designated experts.
     <record>
       <attribute>job-delay-output-until-supported</attribute>
       <syntax>1setOf (type2 keyword | name(MAX))</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>&lt;Any "job-default-output-until" value&gt;</value>
       <attribute>job-delay-output-until-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf" type="uri">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>&lt;Any "job-delay-output-until" value&gt;</value>
@@ -12964,25 +12994,25 @@ by IESG-designated experts.
     <record>
       <attribute>job-spooling-supported</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>automatic</value>
       <attribute>job-spooling-supported</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>spool</value>
       <attribute>job-spooling-supported</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>stream</value>
       <attribute>job-spooling-supported</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <attribute>job-state-reasons</attribute>
@@ -13155,7 +13185,7 @@ by IESG-designated experts.
       <value>job-delay-output-until-specified</value>
       <attribute>job-state-reasons</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>job-digital-signature-wait</value>
@@ -13900,273 +13930,273 @@ by IESG-designated experts.
       <xref type="rfc" data="rfc8011"/>
     </record>
     <record>
-      <value>a</value>
+      <value>a(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>a-translucent</value>
+      <value>a-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>a-transparent</value>
+      <value>a-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>a-white</value>
+      <value>a-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-a</value>
+      <value>arch-a(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-a-translucent</value>
+      <value>arch-a-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-a-transparent</value>
+      <value>arch-a-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-a-white</value>
+      <value>arch-a-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-axsynchro-translucent</value>
+      <value>arch-axsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-axsynchro-transparent</value>
+      <value>arch-axsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-axsynchro-white</value>
+      <value>arch-axsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-b</value>
+      <value>arch-b(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-b-translucent</value>
+      <value>arch-b-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-b-transparent</value>
+      <value>arch-b-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-b-white</value>
+      <value>arch-b-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-bxsynchro-translucent</value>
+      <value>arch-bxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-bxsynchro-transparent</value>
+      <value>arch-bxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-bxsynchro-white</value>
+      <value>arch-bxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-c</value>
+      <value>arch-c(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-c-translucent</value>
+      <value>arch-c-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-c-transparent</value>
+      <value>arch-c-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-c-white</value>
+      <value>arch-c-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-cxsynchro-translucent</value>
+      <value>arch-cxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-cxsynchro-transparent</value>
+      <value>arch-cxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-cxsynchro-white</value>
+      <value>arch-cxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-d</value>
+      <value>arch-d(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-d-translucent</value>
+      <value>arch-d-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-d-transparent</value>
+      <value>arch-d-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-d-white</value>
+      <value>arch-d-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-dxsynchro-translucent</value>
+      <value>arch-dxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-dxsynchro-transparent</value>
+      <value>arch-dxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-dxsynchro-white</value>
+      <value>arch-dxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-e</value>
+      <value>arch-e(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-e-translucent</value>
+      <value>arch-e-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-e-transparent</value>
+      <value>arch-e-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-e-white</value>
+      <value>arch-e-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-exsynchro-translucent</value>
+      <value>arch-exsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-exsynchro-transparent</value>
+      <value>arch-exsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>arch-exsynchro-white</value>
+      <value>arch-exsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -14180,168 +14210,168 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>auto-fixed-size-translucent</value>
+      <value>auto-fixed-size-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-fixed-size-transparent</value>
+      <value>auto-fixed-size-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-fixed-size-white</value>
+      <value>auto-fixed-size-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-synchro-translucent</value>
+      <value>auto-synchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-synchro-transparent</value>
+      <value>auto-synchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-synchro-white</value>
+      <value>auto-synchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-translucent</value>
+      <value>auto-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-transparent</value>
+      <value>auto-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>auto-white</value>
+      <value>auto-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>axsynchro-translucent</value>
+      <value>axsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>axsynchro-transparent</value>
+      <value>axsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>axsynchro-white</value>
+      <value>axsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>b</value>
+      <value>b(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>b-translucent</value>
+      <value>b-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>b-transparent</value>
+      <value>b-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>b-white</value>
+      <value>b-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>bottom</value>
+      <value>bottom(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>bxsynchro-translucent</value>
+      <value>bxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>bxsynchro-transparent</value>
+      <value>bxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>bxsynchro-white</value>
+      <value>bxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>c</value>
+      <value>c(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>c-translucent</value>
+      <value>c-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>c-transparent</value>
+      <value>c-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>c-white</value>
+      <value>c-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -14355,1155 +14385,1155 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
-      <value>cxsynchro-translucent</value>
+      <value>cxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>cxsynchro-transparent</value>
+      <value>cxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>cxsynchro-white</value>
+      <value>cxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>d</value>
+      <value>d(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>d-translucent</value>
+      <value>d-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>d-transparent</value>
+      <value>d-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>d-white</value>
+      <value>d-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>default</value>
+      <value>default(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>dxsynchro-translucent</value>
+      <value>dxsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>dxsynchro-transparent</value>
+      <value>dxsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>dxsynchro-white</value>
+      <value>dxsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>e</value>
+      <value>e(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>e-translucent</value>
+      <value>e-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>e-transparent</value>
+      <value>e-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>e-white</value>
+      <value>e-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>envelope</value>
+      <value>envelope(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>executive</value>
+      <value>executive(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>executive-white</value>
+      <value>executive-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>exsynchro-translucent</value>
+      <value>exsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>exsynchro-transparent</value>
+      <value>exsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>exsynchro-white</value>
+      <value>exsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>f</value>
+      <value>f(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>folio</value>
+      <value>folio(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>folio-white</value>
+      <value>folio-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>invoice</value>
+      <value>invoice(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>invoice-white</value>
+      <value>invoice-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0</value>
+      <value>iso-a0(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0-translucent</value>
+      <value>iso-a0-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0-transparent</value>
+      <value>iso-a0-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0-white</value>
+      <value>iso-a0-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0xsynchro-translucent</value>
+      <value>iso-a0xsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0xsynchro-transparent</value>
+      <value>iso-a0xsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a0xsynchro-white</value>
+      <value>iso-a0xsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1</value>
+      <value>iso-a1(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1-translucent</value>
+      <value>iso-a1-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1-transparent</value>
+      <value>iso-a1-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1-white</value>
+      <value>iso-a1-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x3-translucent</value>
+      <value>iso-a1x3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x3-transparent</value>
+      <value>iso-a1x3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x3-white</value>
+      <value>iso-a1x3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x4-translucent</value>
+      <value>iso-a1x4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x4-transparent</value>
+      <value>iso-a1x4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1x4-white</value>
+      <value>iso-a1x4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1xsynchro-translucent</value>
+      <value>iso-a1xsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1xsynchro-transparent</value>
+      <value>iso-a1xsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a1xsynchro-white</value>
+      <value>iso-a1xsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2</value>
+      <value>iso-a2(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2-translucent</value>
+      <value>iso-a2-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2-transparent</value>
+      <value>iso-a2-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2-white</value>
+      <value>iso-a2-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x3-translucent</value>
+      <value>iso-a2x3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x3-transparent</value>
+      <value>iso-a2x3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x3-white</value>
+      <value>iso-a2x3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x4-translucent</value>
+      <value>iso-a2x4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x4-transparent</value>
+      <value>iso-a2x4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x4-white</value>
+      <value>iso-a2x4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x5-translucent</value>
+      <value>iso-a2x5-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x5-transparent</value>
+      <value>iso-a2x5-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2x5-white</value>
+      <value>iso-a2x5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2xsynchro-translucent</value>
+      <value>iso-a2xsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2xsynchro-transparent</value>
+      <value>iso-a2xsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a2xsynchro-white</value>
+      <value>iso-a2xsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3</value>
+      <value>iso-a3(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3-colored</value>
+      <value>iso-a3-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3-translucent</value>
+      <value>iso-a3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3-transparent</value>
+      <value>iso-a3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3-white</value>
+      <value>iso-a3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x3-translucent</value>
+      <value>iso-a3x3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x3-transparent</value>
+      <value>iso-a3x3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x3-white</value>
+      <value>iso-a3x3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x4-translucent</value>
+      <value>iso-a3x4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x4-transparent</value>
+      <value>iso-a3x4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x4-white</value>
+      <value>iso-a3x4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x5-translucent</value>
+      <value>iso-a3x5-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x5-transparent</value>
+      <value>iso-a3x5-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x5-white</value>
+      <value>iso-a3x5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x6-translucent</value>
+      <value>iso-a3x6-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x6-transparent</value>
+      <value>iso-a3x6-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x6-white</value>
+      <value>iso-a3x6-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x7-translucent</value>
+      <value>iso-a3x7-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x7-transparent</value>
+      <value>iso-a3x7-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3x7-white</value>
+      <value>iso-a3x7-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3xsynchro-translucent</value>
+      <value>iso-a3xsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3xsynchro-transparent</value>
+      <value>iso-a3xsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a3xsynchro-white</value>
+      <value>iso-a3xsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4</value>
+      <value>iso-a4(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4-colored</value>
+      <value>iso-a4-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4-translucent</value>
+      <value>iso-a4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4-transparent</value>
+      <value>iso-a4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4-white</value>
+      <value>iso-a4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x3-translucent</value>
+      <value>iso-a4x3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x3-transparent</value>
+      <value>iso-a4x3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x3-white</value>
+      <value>iso-a4x3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x4-translucent</value>
+      <value>iso-a4x4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x4-transparent</value>
+      <value>iso-a4x4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x4-white</value>
+      <value>iso-a4x4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x5-translucent</value>
+      <value>iso-a4x5-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x5-transparent</value>
+      <value>iso-a4x5-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x5-white</value>
+      <value>iso-a4x5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x6-translucent</value>
+      <value>iso-a4x6-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x6-transparent</value>
+      <value>iso-a4x6-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x6-white</value>
+      <value>iso-a4x6-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x7-translucent</value>
+      <value>iso-a4x7-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x7-transparent</value>
+      <value>iso-a4x7-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x7-white</value>
+      <value>iso-a4x7-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x8-translucent</value>
+      <value>iso-a4x8-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x8-transparent</value>
+      <value>iso-a4x8-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x8-white</value>
+      <value>iso-a4x8-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x9-translucent</value>
+      <value>iso-a4x9-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x9-transparent</value>
+      <value>iso-a4x9-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4x9-white</value>
+      <value>iso-a4x9-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4xsynchro-translucent</value>
+      <value>iso-a4xsynchro-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4xsynchro-transparent</value>
+      <value>iso-a4xsynchro-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a4xsynchro-white</value>
+      <value>iso-a4xsynchro-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a5</value>
+      <value>iso-a5(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a5-colored</value>
+      <value>iso-a5-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a5-translucent</value>
+      <value>iso-a5-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a5-transparent</value>
+      <value>iso-a5-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a5-white</value>
+      <value>iso-a5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a6</value>
+      <value>iso-a6(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a6-white</value>
+      <value>iso-a6-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a7</value>
+      <value>iso-a7(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a7-white</value>
+      <value>iso-a7-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a8</value>
+      <value>iso-a8(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a8-white</value>
+      <value>iso-a8-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a9</value>
+      <value>iso-a9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a9-white</value>
+      <value>iso-a9-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a10</value>
+      <value>iso-a10(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-a10-white</value>
+      <value>iso-a10-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b0</value>
+      <value>iso-b0(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b0-white</value>
+      <value>iso-b0-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b1</value>
+      <value>iso-b1(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b1-white</value>
+      <value>iso-b1-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b2</value>
+      <value>iso-b2(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b2-white</value>
+      <value>iso-b2-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b3</value>
+      <value>iso-b3(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b3-white</value>
+      <value>iso-b3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b4</value>
+      <value>iso-b4(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b4-colored</value>
+      <value>iso-b4-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b4-envelope</value>
+      <value>iso-b4-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b4-white</value>
+      <value>iso-b4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b5</value>
+      <value>iso-b5(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b5-colored</value>
+      <value>iso-b5-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b5-envelope</value>
+      <value>iso-b5-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b5-white</value>
+      <value>iso-b5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b6</value>
+      <value>iso-b6(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b6-white</value>
+      <value>iso-b6-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b7</value>
+      <value>iso-b7(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b7-white</value>
+      <value>iso-b7-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b8</value>
+      <value>iso-b8(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b8-white</value>
+      <value>iso-b8-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b9</value>
+      <value>iso-b9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b9-white</value>
+      <value>iso-b9-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b10</value>
+      <value>iso-b10(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-b10-white</value>
+      <value>iso-b10-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c3</value>
+      <value>iso-c3(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c3-envelope</value>
+      <value>iso-c3-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c4</value>
+      <value>iso-c4(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c4-envelope</value>
+      <value>iso-c4-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c5</value>
+      <value>iso-c5(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c5-envelope</value>
+      <value>iso-c5-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c6</value>
+      <value>iso-c6(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-c6-envelope</value>
+      <value>iso-c6-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-designated-long</value>
+      <value>iso-designated-long(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>iso-designated-long-envelope</value>
+      <value>iso-designated-long-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -16021,252 +16051,252 @@ by IESG-designated experts.
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf" type="uri">PWG5101.1</xref>
     </record>
     <record>
-      <value>jis-b0</value>
+      <value>jis-b0(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b0-translucent</value>
+      <value>jis-b0-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b0-transparent</value>
+      <value>jis-b0-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b0-white</value>
+      <value>jis-b0-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b1</value>
+      <value>jis-b1(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b1-translucent</value>
+      <value>jis-b1-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b1-transparent</value>
+      <value>jis-b1-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b1-white</value>
+      <value>jis-b1-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b2</value>
+      <value>jis-b2(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b2-translucent</value>
+      <value>jis-b2-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b2-transparent</value>
+      <value>jis-b2-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b2-white</value>
+      <value>jis-b2-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b3</value>
+      <value>jis-b3(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b3-translucent</value>
+      <value>jis-b3-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b3-transparent</value>
+      <value>jis-b3-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b3-white</value>
+      <value>jis-b3-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b4</value>
+      <value>jis-b4(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b4-colored</value>
+      <value>jis-b4-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b4-translucent</value>
+      <value>jis-b4-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b4-transparent</value>
+      <value>jis-b4-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b4-white</value>
+      <value>jis-b4-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b5</value>
+      <value>jis-b5(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b5-colored</value>
+      <value>jis-b5-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b5-translucent</value>
+      <value>jis-b5-translucent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b5-transparent</value>
+      <value>jis-b5-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b5-white</value>
+      <value>jis-b5-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b6</value>
+      <value>jis-b6(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b6-white</value>
+      <value>jis-b6-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b7</value>
+      <value>jis-b7(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b7-white</value>
+      <value>jis-b7-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b8</value>
+      <value>jis-b8(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b8-white</value>
+      <value>jis-b8-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b9</value>
+      <value>jis-b9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b9-white</value>
+      <value>jis-b9-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b10</value>
+      <value>jis-b10(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>jis-b10-white</value>
+      <value>jis-b10-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -16462,245 +16492,245 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>large-capacity</value>
+      <value>large-capacity(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>ledger</value>
+      <value>ledger(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>ledger-white</value>
+      <value>ledger-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>main</value>
+      <value>main(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>manual</value>
+      <value>manual(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>middle</value>
+      <value>middle(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>monarch</value>
+      <value>monarch(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>monarch-envelope</value>
+      <value>monarch-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-5x7</value>
+      <value>na-5x7(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-6x9</value>
+      <value>na-6x9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-6x9-envelope</value>
+      <value>na-6x9-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-7x9</value>
+      <value>na-7x9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-7x9-envelope</value>
+      <value>na-7x9-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-8x10</value>
+      <value>na-8x10(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-9x11</value>
+      <value>na-9x11(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-9x11-envelope</value>
+      <value>na-9x11-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-9x12</value>
+      <value>na-9x12(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-9x12-envelope</value>
+      <value>na-9x12-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x13</value>
+      <value>na-10x13(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x13-envelope</value>
+      <value>na-10x13-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x14</value>
+      <value>na-10x14(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x14-envelope</value>
+      <value>na-10x14-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x15</value>
+      <value>na-10x15(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-10x15-envelope</value>
+      <value>na-10x15-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-legal</value>
+      <value>na-legal(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-legal-colored</value>
+      <value>na-legal-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-legal-white</value>
+      <value>na-legal-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-letter</value>
+      <value>na-letter(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-letter-colored</value>
+      <value>na-letter-colored(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-letter-transparent</value>
+      <value>na-letter-transparent(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-letter-white</value>
+      <value>na-letter-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-number-9</value>
+      <value>na-number-9(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-number-9-envelope</value>
+      <value>na-number-9-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-number-10</value>
+      <value>na-number-10(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>na-number-10-envelope</value>
+      <value>na-number-10-envelope(obsolete)</value>
       <type>envelope name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -17386,14 +17416,14 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>quarto</value>
+      <value>quarto(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>quarto-white</value>
+      <value>quarto-white(obsolete)</value>
       <type>media name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -17414,28 +17444,28 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>side</value>
+      <value>side(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="rfc" data="rfc2911"/>
     </record>
     <record>
-      <value>super-b</value>
+      <value>super-b(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>tabloid</value>
+      <value>tabloid(obsolete)</value>
       <type>size name</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
-      <value>top</value>
+      <value>top(obsolete)</value>
       <type>input tray</type>
       <attribute>media</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -18618,6 +18648,36 @@ by IESG-designated experts.
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf">PWG5101.1</xref>
     </record>
     <record>
+      <value>cardstock-coated</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
+      <value>cardstock-heavyweight</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
+      <value>cardstock-heavyweight-coated</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
+      <value>cardstock-lightweight</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
+      <value>cardstock-lightweight-coated</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
       <value>cd</value>
       <attribute>media-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -18936,6 +18996,12 @@ by IESG-designated experts.
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf" type="uri">PWG5101.1</xref>
     </record>
     <record>
+      <value>labels-heavyweight</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
+    </record>
+    <record>
       <value>labels-high-gloss</value>
       <attribute>media-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -18946,6 +19012,12 @@ by IESG-designated experts.
       <attribute>media-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf" type="uri">PWG5101.1</xref>
+    </record>
+    <record>
+      <value>labels-lightweight</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
     </record>
     <record>
       <value>labels-matte</value>
@@ -19236,6 +19308,12 @@ by IESG-designated experts.
       <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf" type="uri">PWG5101.1</xref>
     </record>
     <record>
+      <value>stationery-bond</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn20-20130328-5101.1.pdf" type="uri">PWG5101.1</xref>
+    </record>
+    <record>
       <value>stationery-coated</value>
       <attribute>media-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
@@ -19294,6 +19372,12 @@ by IESG-designated experts.
       <attribute>media-type</attribute>
       <syntax>type2 keyword | name(MAX)</syntax>
       <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-pwgmsn10-20020226-5101.1.pdf">PWG5101.1</xref>
+    </record>
+    <record>
+      <value>stationery-recycled</value>
+      <attribute>media-type</attribute>
+      <syntax>type2 keyword | name(MAX)</syntax>
+      <xref data="https://ftp.pwg.org/pub/pwg/ipp/registrations/xerox-mediatypes-20201202.txt" type="uri">XEROX-MEDIATYPES-20201202</xref>
     </record>
     <record>
       <value>tab-stock</value>
@@ -20329,7 +20413,7 @@ by IESG-designated experts.
       <value>guaranteed</value>
       <attribute>pdl-override-supported</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>not-attempted</value>
@@ -27674,19 +27758,19 @@ by IESG-designated experts.
       <value>aborted</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>all</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>canceled</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>completed</value>
@@ -27710,25 +27794,25 @@ by IESG-designated experts.
       <value>pending</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>pending-held</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>processing</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>processing-stopped</value>
       <attribute>which-jobs</attribute>
       <syntax>type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>proof-print</value>
@@ -27745,13 +27829,13 @@ by IESG-designated experts.
     <record>
       <attribute>which-jobs-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>&lt;Any "which-jobs" value&gt;</value>
       <attribute>which-jobs-supported</attribute>
       <syntax>1setOf type2 keyword</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <attribute>which-printers</attribute>
@@ -29133,28 +29217,28 @@ by IESG-designated experts.
       <name>Cancel-Jobs</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>0x0039</value>
       <name>Cancel-My-Jobs</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>0x003A</value>
-      <name>Close-Job</name>
-      <attribute>operations-supported</attribute>
-      <syntax>1setOf type2 enum</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
-    </record>
-    <record>
-      <value>0x003B</value>
       <name>Resubmit-Job</name>
       <attribute>operations-supported</attribute>
       <syntax>1setOf type2 enum</syntax>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
+    </record>
+    <record>
+      <value>0x003B</value>
+      <name>Close-Job</name>
+      <attribute>operations-supported</attribute>
+      <syntax>1setOf type2 enum</syntax>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <value>0x003C</value>
@@ -30432,11 +30516,11 @@ after the name.
     </record>
     <record>
       <name>Cancel-Jobs</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Cancel-My-Jobs</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Cancel-Resource</name>
@@ -30452,7 +30536,7 @@ after the name.
     </record>
     <record>
       <name>Close-Job</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Create-Job</name>
@@ -30476,7 +30560,7 @@ after the name.
     </record>
     <record>
       <name>Create-Job(extension)</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Create-Job(extension)</name>
@@ -30600,11 +30684,11 @@ after the name.
     </record>
     <record>
       <name>Get-Jobs(extension)</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Get-Jobs(extension)</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Get-Jobs(extension)</name>
@@ -30760,7 +30844,7 @@ after the name.
     </record>
     <record>
       <name>Print-Job(extension)</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Print-Job(extension)</name>
@@ -30792,7 +30876,7 @@ after the name.
     </record>
     <record>
       <name>Print-URI(extension)</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Print-URI(extension)</name>
@@ -30892,7 +30976,7 @@ after the name.
     </record>
     <record>
       <name>Resubmit-Job</name>
-      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobprinterext10-20101030-5100.11.pdf">PWG5100.11</xref>
+      <xref type="uri" data="https://ftp.pwg.org/pub/pwg/candidates/cs-ippjobext20-20190816-5100.7.pdf">PWG5100.7</xref>
     </record>
     <record>
       <name>Resume-All-Printers</name>

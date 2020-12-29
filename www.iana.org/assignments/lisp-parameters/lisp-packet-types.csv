@@ -5,7 +5,7 @@ Code,Message,Reference
 3,LISP Map-Register,[RFC6830]
 4,LISP Map-Notify,[RFC6830]
 5,Unassigned,
-6,"LISP DDT Map-Referral (TEMPORARY - registered 2017-04-19, extension registered 2019-05-02, expires 2020-04-19)",[RFC8111]
+6,"LISP DDT Map-Referral (TEMPORARY - registered 2017-04-19, extension registered 2020-04-27, expires 2021-04-19)",[RFC8111]
 7,Unassigned,
 8,LISP Encapsulated Control Message,[RFC6830]
 9-14,Unassigned,

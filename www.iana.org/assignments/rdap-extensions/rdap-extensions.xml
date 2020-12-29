@@ -5,7 +5,7 @@
   <title>RDAP Extensions</title>
   <category>Registration Data Access Protocol (RDAP)</category>
   <created>2015-01-12</created>
-  <updated>2019-06-21</updated>
+  <updated>2020-12-15</updated>
   
   <registry id="rdap-extensions-1">
     <title>RDAP Extensions</title>
@@ -57,6 +57,14 @@
       <contact><xref type="person" data="ICANN"/></contact>
       <usage>COMMON</usage>
     </record>
+    <record date="2020-12-07">
+      <value>paging</value>
+      <operator>Any</operator>
+      <xref type="draft" data="RFC-ietf-regext-rdap-sorting-and-paging-20"/>
+      <contact><xref type="person" data="IETF"/></contact>
+      <usage>This extension describes best practice for result
+      set paging.</usage>
+    </record>
     <record date="2019-03-15">
       <value>platformNS</value>
       <operator>Any</operator>
@@ -72,12 +80,28 @@
       <usage>This extension describes a best practice for
         structuring entity identifiers to enable query bootstrapping.</usage>
     </record>
+    <record date="2020-12-15">
+      <value>redirect_with_content</value>
+      <operator>Any</operator>
+      <xref type="uri" data="https://raw.githubusercontent.com/APNIC-net/rdap-redirect-with-content/v1/apnic-rdap-redirect-with-content.txt"/>
+      <contact><xref type="person" data="Tom_Harrison"/></contact>
+      <usage>This extension describes a method that a server can use to return RDAP data 
+      along with a redirect response.</usage>
+    </record>
     <record date="2019-03-15">
       <value>regType</value>
       <operator>Any</operator>
       <xref type="uri" data="https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/regtype.md"/>
       <contact><xref type="person" data="Gavin_Brown"/></contact>
       <usage>COMMON</usage>
+    </record>
+    <record date="2020-12-07">
+      <value>sorting</value>
+      <operator>Any</operator>
+      <xref type="draft" data="RFC-ietf-regext-rdap-sorting-and-paging-20"/>
+      <contact><xref type="person" data="IETF"/></contact>
+      <usage>This extension describes best practice for result
+      set sorting.</usage>
     </record>
     
   </registry>
@@ -110,10 +134,19 @@
       <name>IESG</name>
       <uri>mailto:iesg&amp;ietf.org</uri>
     </person>
+    <person id="IETF">
+      <name>IETF</name>
+      <uri>mailto:iesg&amp;ietf.org</uri>
+    </person>
     <person id="Jaromir_Talir">
       <name>Jaromir Talir</name>
       <uri>mailto:jaromir.talir&amp;nic.cz</uri>
       <updated>2016-03-30</updated>
+    </person>
+    <person id="Tom_Harrison">
+      <name>Tom Harrison</name>
+      <uri>mailto:tomh&amp;apnic.net</uri>
+      <updated>2020-12-15</updated>
     </person>
   </people>
   

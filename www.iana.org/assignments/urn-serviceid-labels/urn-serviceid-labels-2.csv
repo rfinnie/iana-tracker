@@ -11,6 +11,5 @@ sos.mountain,Mountain rescue,[RFC5031]
 sos.physician,Physician referral service,[RFC5031]
 sos.poison,Poison control center,[RFC5031]
 sos.police,"Police, law enforcement",[RFC5031]
-sos.police.municipal,"a police force that serves an incorporated 
-          community, city or other local area",[Ivo_Sedlacek]
+sos.police.municipal,"a police force that serves an incorporated community, city or other local area",[Ivo_Sedlacek]
 sos.police.national,a police force that serves an entire country,[Ivo_Sedlacek]

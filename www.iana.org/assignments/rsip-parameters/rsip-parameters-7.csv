@@ -21,4 +21,4 @@ Value,Message,Implementation,Status,Reference
 22,ASSIGN_REQUEST_RSIPSEC,host,optional,[RFC3104]
 23,ASSIGN_RESPONSE_RSIPSEC,gateway,optional,[RFC3104]
 24-240,Unassigned,,,
-241-255,Reserved for private use,,,
+241-255,Reserved for Private Use,,,

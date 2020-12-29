@@ -1,0 +1,15 @@
+Value,Description,TLV Used,Reference
+0,Reserved,,[RFC-ietf-ippm-stamp-option-tlv-10]
+1,Source MAC Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+2,Source EUI-48 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+3,Source EUI-64 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+4,Destination IP Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+5,Destination IPv4 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+6,Destination IPv6 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+7,Source IP Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+8,Source IPv4 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+9,Source IPv6 Address,Location,[RFC-ietf-ippm-stamp-option-tlv-10]
+10-239,Unassigned,,
+240-251,Reserved for Experimental Use,,[RFC-ietf-ippm-stamp-option-tlv-10]
+252-254,Reserved for Private Use,,[RFC-ietf-ippm-stamp-option-tlv-10]
+255,Reserved,,[RFC-ietf-ippm-stamp-option-tlv-10]

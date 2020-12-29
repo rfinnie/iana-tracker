@@ -4,7 +4,7 @@
            2007-04-25
 
    Last Updated
-           2019-12-23
+           2020-11-09
 
    Note
 
@@ -150,13 +150,13 @@ OSPFv2 Router Properties Registry
            [IMG]
            CSV
 
-   Value Description            Reference
+   Value Description      Reference
    0x01  B-bit        [RFC2328]
    0x02  E-bit        [RFC2328]
    0x04  V-bit        [RFC2328]
    0x08  W-bit        [RFC1584][RFC5110]
    0x10  Nt-bit       [RFC3101]
-   0x80  Host (H-bit) [RFC-ietf-ospf-ospfv2-hbit-12]
+   0x80  Host (H-bit) [RFC8770]
 
 OSPFv2 Grace LSA Top Level TLV
 
@@ -196,7 +196,7 @@ Path Computation Element (PCE) Capability Flags
            [IMG]
            CSV
 
-    Bit                    Capability Description                    Reference
+    Bit                    Capability Description                               Reference
      0   Path computation with GMPLS link constraints                [RFC5088]
      1   Bidirectional path computation                              [RFC5088]
      2   Diverse path computation                                    [RFC5088]
@@ -213,7 +213,8 @@ Path Computation Element (PCE) Capability Flags
     13   Active Stateful PCE with P2MP                               [RFC8623]
     14   Passive Stateful PCE with P2MP                              [RFC8623]
     15   Stateful PCE Initiation with P2MP                           [RFC8623]
-   16-31 Unassigned
+    16   FlowSpec                                                    [RFC-ietf-pce-pcep-flowspec-12]
+   17-31 Unassigned
 
 OSPFv2 Instance IDs
 
@@ -269,18 +270,20 @@ OSPFv2 Extended Prefix TLV Sub-TLVs
            [IMG]
            CSV
 
-      Value                                        Description                                                     Reference
-        0      Reserved                                                                             [RFC7684]
-        1      SID/Label Sub-TLV                                                                    [RFC8665]
-        2      Prefix SID Sub-TLV                                                                   [RFC8665]
-        3      Flex-Algorithm Prefix Metric (TEMPORARY - registered 2019-10-03, expires 2020-10-03) [draft-ietf-lsr-flex-algo]
-        4      Prefix Source Router-ID (TEMPORARY - registered 2019-11-05, expires 2020-11-05)      [draft-ietf-lsr-ospf-prefix-originator]
+      Value                                            Description                                                         Reference
+        0      Reserved                                                                                     [RFC7684]
+        1      SID/Label Sub-TLV                                                                            [RFC8665]
+        2      Prefix SID Sub-TLV                                                                           [RFC8665]
+        3      Flex-Algorithm Prefix Metric (TEMPORARY - registered 2019-10-03, extension registered        [draft-ietf-lsr-flex-algo]
+               2020-08-12, expires 2021-10-03)
+        4      Prefix Source Router-ID (TEMPORARY - registered 2019-11-05, extension registered 2020-09-16, [draft-ietf-lsr-ospf-prefix-originator]
+               expires 2021-11-05)
        5-8     Unassigned
-        9      BIER Sub-TLV                                                                         [RFC8444]
-       10      BIER MPLS Encapsulation Sub-TLV                                                      [RFC8444]
+        9      BIER Sub-TLV                                                                                 [RFC8444]
+       10      BIER MPLS Encapsulation Sub-TLV                                                              [RFC8444]
     11-32767   Unassigned
-   32768-33023 Reserved for Experimental Use                                                        [RFC7684]
-   33024-65535 Reserved                                                                             [RFC7684]
+   32768-33023 Reserved for Experimental Use                                                                [RFC7684]
+   33024-65535 Reserved                                                                                     [RFC7684]
 
 OSPFv2 Extended Prefix TLV Flags
 
@@ -295,10 +298,10 @@ OSPFv2 Extended Prefix TLV Flags
            [IMG]
            CSV
 
-   Value                           Description                                    Reference
-   0x80  A                                                                [RFC7684]
-   0x40  N                                                                [RFC7684]
-   0x20  ELC-flag (TEMPORARY - registered 2019-08-26, expires 2020-08-26) [draft-ietf-ospf-mpls-elc]
+   Value    Description             Reference
+   0x80  A                 [RFC7684]
+   0x40  N                 [RFC7684]
+   0x20  E-Flag (ELC Flag) [RFC-ietf-ospf-mpls-elc-15]
 
 OSPFv2 Extended Link Opaque LSA TLVs
 
@@ -333,42 +336,32 @@ OSPFv2 Extended Link TLV Sub-TLVs
            [IMG]
            CSV
 
-      Value                                              Description                                                        Reference
-        0      Reserved                                                                                        [RFC7684]
-        1      SID/Label Sub-TLV                                                                               [RFC8665]
-        2      Adj-SID Sub-TLV                                                                                 [RFC8665]
-        3      LAN Adj-SID/Label Sub-TLV                                                                       [RFC8665]
-        4      Network-to-Router Metric Sub-TLV                                                                [RFC8042]
-        5      RTM Capability                                                                                  [RFC8169]
-        6      OSPFv2 Link MSD                                                                                 [RFC8476]
-        7      Graceful-Link-Shutdown Sub-TLV                                                                  [RFC8379]
-        8      Remote IPv4 Address Sub-TLV                                                                     [RFC8379]
-        9      Local/Remote Interface ID Sub-TLV                                                               [RFC8379]
-       10      Extended Link Attribute (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12,    [draft-ietf-ospf-te-link-attr-reuse]
-               expires 2020-06-06)
-       11      Shared Risk Link Group (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12,     [draft-ietf-ospf-te-link-attr-reuse]
-               expires 2020-06-06)
-       12      Unidirectional Link Delay (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12,  [draft-ietf-ospf-te-link-attr-reuse]
-               expires 2020-06-06)
-       13      Min/Max Unidirectional Link Delay (TEMPORARY - registered 2018-06-06, extension registered      [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       14      Unidirectional Delay Variation (TEMPORARY - registered 2018-06-06, extension registered         [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       15      Unidirectional Link Loss (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12,   [draft-ietf-ospf-te-link-attr-reuse]
-               expires 2020-06-06)
-       16      Unidirectional Residual Bandwidth (TEMPORARY - registered 2018-06-06, extension registered      [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       17      Unidirectional Available Bandwidth (TEMPORARY - registered 2018-06-06, extension registered     [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       18      Unidirectional Utilized Bandwidth (TEMPORARY - registered 2018-06-06, extension registered      [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       19      Administrative Group (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12,       [draft-ietf-ospf-te-link-attr-reuse]
-               expires 2020-06-06)
-       20      Extended Administrative Group (TEMPORARY - registered 2018-06-06, extension registered          [draft-ietf-ospf-te-link-attr-reuse]
-               2019-06-12, expires 2020-06-06)
-       21      OSPFv2 Link Attributes Bits Sub-TLV (TEMPORARY - registered 2019-07-31, expires 2020-07-31)     [draft-ietf-lsr-dynamic-flooding]
-       22      Traffic Engineering Metric (TEMPORARY - registered 2019-09-20, expires 2020-09-20)              [draft-ietf-ospf-te-link-attr-reuse]
-       23      Maximum Link Bandwidth (TEMPORARY - registered 2019-09-20, expires 2020-09-20)                  [draft-ietf-ospf-te-link-attr-reuse]
+      Value                                               Description                                                         Reference
+        0      Reserved                                                                                           [RFC7684]
+        1      SID/Label Sub-TLV                                                                                  [RFC8665]
+        2      Adj-SID Sub-TLV                                                                                    [RFC8665]
+        3      LAN Adj-SID/Label Sub-TLV                                                                          [RFC8665]
+        4      Network-to-Router Metric Sub-TLV                                                                   [RFC8042]
+        5      RTM Capability                                                                                     [RFC8169]
+        6      OSPFv2 Link MSD                                                                                    [RFC8476]
+        7      Graceful-Link-Shutdown Sub-TLV                                                                     [RFC8379]
+        8      Remote IPv4 Address Sub-TLV                                                                        [RFC8379]
+        9      Local/Remote Interface ID Sub-TLV                                                                  [RFC8379]
+       10      Application-Specific Link Attributes                                                               [RFC8920]
+       11      Shared Risk Link Group                                                                             [RFC8920]
+       12      Unidirectional Link Delay                                                                          [RFC8920]
+       13      Min/Max Unidirectional Link Delay                                                                  [RFC8920]
+       14      Unidirectional Delay Variation                                                                     [RFC8920]
+       15      Unidirectional Link Loss                                                                           [RFC8920]
+       16      Unidirectional Residual Bandwidth                                                                  [RFC8920]
+       17      Unidirectional Available Bandwidth                                                                 [RFC8920]
+       18      Unidirectional Utilized Bandwidth                                                                  [RFC8920]
+       19      Administrative Group                                                                               [RFC8920]
+       20      Extended Administrative Group                                                                      [RFC8920]
+       21      OSPFv2 Link Attributes Bits Sub-TLV (TEMPORARY - registered 2019-07-31, extension registered       [draft-ietf-lsr-dynamic-flooding]
+               2020-06-19, expires 2021-07-31)
+       22      TE Metric                                                                                          [RFC8920]
+       23      Maximum link bandwidth                                                                             [RFC8920]
     24-32767   Unassigned
-   32768-33023 Reserved for Experimental Use                                                                   [RFC7684]
-   33024-65535 Reserved                                                                                        [RFC7684]
+   32768-33023 Reserved for Experimental Use                                                                      [RFC7684]
+   33024-65535 Reserved                                                                                           [RFC7684]

@@ -1,0 +1,6 @@
+Value,Description,Reference
+original,Content in the original language,[RFC8255]
+human,"Content that has been translated by a human translator
+        or a human has checked and corrected an automated translation",[RFC8255]
+automated,"Content that has been translated by an electronic agent
+        without proofreading or subsequent correction",[RFC8255]

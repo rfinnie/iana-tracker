@@ -1,8 +1,4 @@
 Type Extension,Name,Description,Reference
-0,GATEWAY,"Specifies that a given network address is reached 
-      via a gateway on the originating router. The number of hops is indicated 
-      by the Value field, one octet per link metric type reported in an 
-      MPR_TYPES Message TLV (in the same order) or (if no MPR_TYPES Message 
-      TLV is present) using a single octet",[RFC7181][RFC7722]
+0,GATEWAY,"Specifies that a given network address is reached via a gateway on the originating router. The number of hops is indicated by the Value field, one octet per link metric type reported in an MPR_TYPES Message TLV (in the same order) or (if no MPR_TYPES Message TLV is present) using a single octet",[RFC7181][RFC7722]
 1-223,,Unassigned,
 224-255,,Reserved for Experimental Use,[RFC7631]

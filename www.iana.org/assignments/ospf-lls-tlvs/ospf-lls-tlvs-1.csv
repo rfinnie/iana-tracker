@@ -17,5 +17,7 @@ LLS Type,Name,Reference
 16,MDR-Metric,[RFC5614]
 17,IPv6 MTU TLV,[RFC5838]
 18,Local Interface ID TLV,[RFC8510]
-19-32767,Unassigned,
+19-20,Unassigned,
+21,"Local Interface IPv4 Address TLV (TEMPORARY - registered 2020-07-02, expires 2021-07-02)",[draft-ietf-lsr-ospf-bfd-strict-mode-01]
+22-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5613]

@@ -5,8 +5,7 @@ Stat Type,Description,Reference
 3,Number of updates invalidated due to CLUSTER_LIST loop,[RFC7854]
 4,Number of updates invalidated due to AS_PATH loop,[RFC7854]
 5,Number of updates invalidated due to ORIGINATOR_ID,[RFC7854]
-6,"Number of updates invalidated due to a loop found in 
-        AS_CONFED_SEQUENCE or AS_CONFED_SET",[RFC7854]
+6,Number of updates invalidated due to a loop found in AS_CONFED_SEQUENCE or AS_CONFED_SET,[RFC7854]
 7,Number of routes in Adj-RIBs-In,[RFC7854]
 8,Number of routes in Loc-RIB,[RFC7854]
 9,Number of routes in per-AFI/SAFI Adj-RIB-In,[RFC7854]

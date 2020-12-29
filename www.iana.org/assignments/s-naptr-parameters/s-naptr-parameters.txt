@@ -4,7 +4,7 @@
            2004-10-10
 
    Last Updated
-           2015-10-19
+           2020-11-19
 
    Available Formats
            [IMG]
@@ -14,8 +14,8 @@
 
    Registries included below
 
-     * S-NAPTR Application Service Tags
-     * S-NAPTR Application Protocol Tags
+     * S-NAPTR Application Service Tags
+     * S-NAPTR Application Protocol Tags
 
 S-NAPTR Application Service Tags
 
@@ -34,7 +34,7 @@ S-NAPTR Application Service Tags
            [IMG]
            CSV
 
-         Tag        Reference
+         Tag                     Reference
    aaa              [RFC6408]
    aaa+acct         [RFC7585]
    aaa+ap1          [RFC6408]
@@ -66,10 +66,13 @@ S-NAPTR Application Service Tags
    ALTO             [RFC7286]
    AREG1            [RFC4698]
    DCHK1            [RFC5144]
+   DOTS             [RFC-ietf-dots-server-discovery-15]
+   DOTS-CALL-HOME   [RFC-ietf-dots-server-discovery-15]
    DREG1            [RFC3982]
    EREG1            [RFC4414]
    LIS              [RFC5986]
    LoST             [RFC5222]
+   LoST-Validation  [RFC8917]
    no-solicit       [RFC4095]
    RELAY            [RFC5928]
    SFUA.CFG         [RFC6011]
@@ -92,7 +95,7 @@ S-NAPTR Application Protocol Tags
            [IMG]
            CSV
 
-          Tag             Reference
+          Tag                      Reference
    CCMP               [RFC6503]
    diameter.dtls.sctp [RFC6733]
    diameter.sctp      [RFC6408]
@@ -107,6 +110,8 @@ S-NAPTR Application Protocol Tags
    iris.xpcs          [RFC4992]
    radius.dtls.udp    [RFC7585]
    radius.tls.tcp     [RFC7585]
+   signal.udp         [RFC-ietf-dots-server-discovery-15]
+   signal.tcp         [RFC-ietf-dots-server-discovery-15]
    turn.dtls          [RFC7350]
    turn.tcp           [RFC5928]
    turn.tls           [RFC5928]

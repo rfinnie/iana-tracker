@@ -1,0 +1,5 @@
+Bit,Name,Reference
+31,P - PROTECTION-LSP,[RFC8745]
+30,S - SECONDARY-LSP,[RFC8745]
+6-29,Unassigned,
+0-5,Protection Type Flags,[RFC8745]

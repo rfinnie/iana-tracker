@@ -1,4 +1,5 @@
 Bit Number,Capability Description,Reference
+0-2,Unassigned,
 3,RPI 0x23 enable,[RFC-ietf-roll-useofrplinfo-31]
 4,Authentication Enabled (A),[RFC6550]
 5-7,Path Control Size (PCS),[RFC6550]

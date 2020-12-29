@@ -2,5 +2,7 @@ Value,Registration Type,Reference
 0,Unassigned,
 1,RENDEZVOUS,[RFC8004]
 2,RELAY_UDP_HIP,[RFC5770]
-3-200,Unassigned,
+3,RELAY_UDP_ESP,[RFC-ietf-hip-native-nat-traversal-33]
+4,CANDIDATE_DISCOVERY,[RFC-ietf-hip-native-nat-traversal-33]
+5-200,Unassigned,
 201-255,Reserved for Private Use,[RFC8003]

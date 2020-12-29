@@ -1,0 +1,6 @@
+Value,Description,Mnemonic,Reference
+0,Reserved,,[RFC-ietf-dnsop-dns-zone-digest-14]
+1,Simple ZONEMD collation,SIMPLE,[RFC-ietf-dnsop-dns-zone-digest-14]
+2-239,Unassigned,,
+240-254,Reserved for Private Use,N/A,[RFC-ietf-dnsop-dns-zone-digest-14]
+255,Reserved,,[RFC-ietf-dnsop-dns-zone-digest-14]

@@ -1,8 +1,7 @@
 Value,Description,Reference
 reservedDelegation,The domain is permanently inactive.,[RFC7970]
 assignedAndActive,The domain is in a normal state.,[RFC7970]
-assignedAndInactive,"The domain has an assigned registration, 
-        but the delegation is inactive.",[RFC7970]
+assignedAndInactive,"The domain has an assigned registration, but the delegation is inactive.",[RFC7970]
 assignedAndOnHold,The domain is in dispute.,[RFC7970]
 revoked,"The domain is in the process of being purged from
         the database.",[RFC7970]

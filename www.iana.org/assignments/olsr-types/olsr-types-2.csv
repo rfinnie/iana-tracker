@@ -4,4 +4,4 @@ Value,Description,Reference
 3,MID_MESSAGE,[RFC3626]
 4,HNA_MESSAGE,[RFC3626]
 5-127,Unassigned,
-128-255,Reserved for private/local user,
+128-255,Reserved for Private/Local Use,

@@ -1,0 +1,8 @@
+Signature Type,Value,Description/Defined In,Reference
+DSS/SHA1 with ASN.1/DER encoding (DSS-SHA1-ASN1-DER),0,This type MUST be supported.,[RFC4535]
+RSA1024-MD5,1,,[RFC8017]
+ECDSA-P384-SHA3,2,,"[NIST, ""Digital Signature Standard"", FIPS PUB 186-2,
+National Institute of Standards and Technology, U.S. Department of
+Commerce, January 2000.]"
+Reserved to IANA,3-41952,,[RFC4535]
+Private Use,41953-65536,,[RFC4535]

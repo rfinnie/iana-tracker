@@ -2,8 +2,7 @@ Value,Name,Reference
 0x0000,Reserved,[RFC8489]
 0x0001,MAPPED-ADDRESS,[RFC8489]
 0x0002,Reserved; was RESPONSE-ADDRESS prior to [RFC5389],[RFC8489]
-0x0003,Reserved; was CHANGE-REQUEST prior to [RFC5389],"[RFC5780][RFC Errata 
-          4233]"
+0x0003,Reserved; was CHANGE-REQUEST prior to [RFC5389],[RFC5780][RFC Errata 4233]
 0x0004,Reserved; was SOURCE-ADDRESS prior to [RFC5389],[RFC8489]
 0x0005,Reserved; was CHANGED-ADDRESS prior to [RFC5389],[RFC8489]
 0x0006,USERNAME,[RFC8489]
@@ -69,7 +68,14 @@ Value,Name,Reference
 0xC000,CISCO-STUN-FLOWDATA,[Dan_Wing]
 0xC001,ENF-FLOW-DESCRIPTION,[Pål_Erik_Martinsen]
 0xC002,ENF-NETWORK-STATUS,[Pål_Erik_Martinsen]
-0xC003-0xC058,Unassigned,
+0xC003-0xC056,Unassigned,
+0xC057,GOOG-NETWORK-INFO,[Jonas_Oreland]
+0xC058,GOOG-LAST-ICE-CHECK-RECEIVED,[Jonas_Oreland]
 0xC059,GOOG-MISC-INFO,[Jonas_Oreland]
-0xC05A,GOOG-MESSAGE-INTEGRITY-32,[Jonas_Oreland]
-0xC05B-0xFFFF,Unassigned,
+0xC05A,GOOG-OBSOLETE-1,[Jonas_Oreland]
+0xC05B,GOOG-CONNECTION-ID,[Jonas_Oreland]
+0xC05C,GOOG-DELTA,[Jonas_Oreland]
+0xC05D,GOOG-DELTA-ACK,[Jonas_Oreland]
+0xC05E-0xC05F,Unassigned,
+0xC060,GOOG-MESSAGE-INTEGRITY-32,[Jonas_Oreland]
+0xC061-0xFFFF,Unassigned,

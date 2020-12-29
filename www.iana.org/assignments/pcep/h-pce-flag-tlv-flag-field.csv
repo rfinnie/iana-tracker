@@ -1,0 +1,4 @@
+Bit,Description,Reference
+0-29,Unassigned,
+30,D (Disallow Domain Re-entry bit),[RFC8685]
+31,S (Domain Sequence bit),[RFC8685]

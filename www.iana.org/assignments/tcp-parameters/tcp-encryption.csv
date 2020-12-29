@@ -1,0 +1,8 @@
+Value,Meaning,Reference
+0x20,Experimental Use,[RFC8547]
+0x21,TCPCRYPT_ECDHE_P256,[RFC8548]
+0x22,TCPCRYPT_ECDHE_P521,[RFC8548]
+0x23,TCPCRYPT_ECDHE_Curve25519,[RFC8548]
+0x24,TCPCRYPT_ECDHE_Curve448,[RFC8548]
+0x25-0x6f,Unassigned,
+0x70-0x7f,Reserved for extended values,[RFC8547]

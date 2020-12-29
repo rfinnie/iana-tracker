@@ -4,7 +4,7 @@
            2012-07-20
 
    Last Updated
-           2020-04-09
+           2020-10-02
 
    Available Formats
            [IMG]
@@ -40,34 +40,32 @@ Provisional Standard Media Type Registry
            [IMG]
            CSV
 
-           Media Type                                       Organization                                                Contact
-   audio/sofa                  AES                                                                    [Christian_Hoene]
-   application/odm+json        CDISC                                                                  [Sam_Hume]
-   application/dlmscosem       DLMS User Association, International Electrotechnical Commission (IEC) [Michael_Buss]
-   application/sbe             FIX Trading Community                                                  [Donald_L._Mendelson]
-   application/cert-chain+cbor IETF                                                                   [draft-yasskin-http-origin-signed-responses]
-   application/ion             IETF                                                                   [Jonathan_Hohle]
-   application/pkix-keyinfo    IETF                                                                   [draft-hallambaker-mesh-udf]
-   application/signed-exchange IETF                                                                   [draft-yasskin-http-origin-signed-responses]
-   application/webbundle       IETF                                                                   [draft-yasskin-wpack-bundled-exchanges]
-   text/spdx                   Linux Foundation                                                       [Rose_Judge]
-   application/akn+xml         OASIS                                                                  [Chet_Ensign]
-   text/nfo                    Seantek                                                                [Sean_Leonard]
-   application/reports+json    W3C                                                                    [Douglas_Creager]
-   application/wasm            W3C                                                                    [Bradley_Nelson]
-   application/won             IETF/W3C/other                                                         [Roy_T._Fielding]
+           Media Type               Organization                         Contact
+   application/odm+json        CDISC                   [Sam_Hume]
+   application/json-nd         ECMA                    [Glen_Kleidon]
+   application/cert-chain+cbor IETF                    [draft-yasskin-http-origin-signed-responses]
+   application/ion             IETF                    [Jonathan_Hohle]
+   application/pkix-keyinfo    IETF                    [draft-hallambaker-mesh-udf]
+   application/signed-exchange IETF                    [draft-yasskin-http-origin-signed-responses]
+   application/webbundle       IETF                    [draft-yasskin-wpack-bundled-exchanges]
+   image/jxl                   ISO/IEC JTC 1           [Touradj_Ebrahimi]
+   image/j2is                  ITU-T and ISO/IEC JTC 1 [ISO-IEC_JTC_1-SC_29-WG_1_Convenor]
+   application/akn+xml         OASIS                   [Chet_Ensign]
+   text/nfo                    Seantek                 [Sean_Leonard]
+   application/reports+json    W3C                     [Douglas_Creager]
+   application/wasm            W3C                     [Bradley_Nelson]
+   application/won             IETF/W3C/other          [Roy_T._Fielding]
 
-                                                                        People
+                                                                 Contact Information
 
-            ID                  Name                     Contact URI              Last Updated
-   [Bradley_Nelson]      Bradley Nelson      mailto:bradnelson&google.com         2018-03-19
-   [Chet_Ensign]         Chet Ensign         mailto:chet.ensign&oasis-open.org    2018-07-05
-   [Christian_Hoene]     Christian Hoene     mailto:christian.hoene&symonics.com  2020-02-20
-   [Donald_L._Mendelson] Donald L. Mendelson mailto:donmendelson&silver-flash.net 2020-04-09
-   [Douglas_Creager]     Douglas Creager     mailto:dcreager&google.com           2018-06-26
-   [Jonathan_Hohle]      Jonathan Hohle      mailto:jonhohle&gmail.com            2017-06-28
-   [Michael_Buss]        Michael Buss        mailto:technical&dlms.com            2019-10-04
-   [Rose_Judge]          Rose Judge          mailto:rjudge&vmware.com             2020-04-09
-   [Roy_T._Fielding]     Roy T. Fielding     mailto:fielding&gbiv.com             2015-08-25
-   [Sam_Hume]            Sam Hume            mailto:shume&cdisc.org               2018-10-31
-   [Sean_Leonard]        Sean Leonard        mailto:dev+ietf&seantek.com          2015-10-21
+                   ID                                Name                           Contact URI            Last Updated
+   [Bradley_Nelson]                    Bradley Nelson                    mailto:bradnelson&google.com      2018-03-19
+   [Chet_Ensign]                       Chet Ensign                       mailto:chet.ensign&oasis-open.org 2018-07-05
+   [Douglas_Creager]                   Douglas Creager                   mailto:dcreager&google.com        2018-06-26
+   [ISO-IEC_JTC_1-SC_29-WG_1_Convenor] ISO/IEC JTC 1/SC 29/WG 1 Convenor mailto:sc29-sec&itscj.ipsj.or.jp  2020-05-12
+   [Jonathan_Hohle]                    Jonathan Hohle                    mailto:jonhohle&gmail.com         2017-06-28
+   [Glen_Kleidon]                      Glen Kleidon                      mailto:glenk&galkam.com.au        2020-07-22
+   [Roy_T._Fielding]                   Roy T. Fielding                   mailto:fielding&gbiv.com          2015-08-25
+   [Sam_Hume]                          Sam Hume                          mailto:shume&cdisc.org            2018-10-31
+   [Sean_Leonard]                      Sean Leonard                      mailto:dev+ietf&seantek.com       2015-10-21
+   [Touradj_Ebrahimi]                  Touradj Ebrahimi                  mailto:touradj.ebrahimi&epfl.ch   2020-05-21

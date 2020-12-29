@@ -55,9 +55,7 @@ MIME body part.",[RFC5703],[Sieve_discussion_list],
 fcc,"Adds the "":fcc"" parameter to Sieve action commands
 that generate additional messages.",[RFC8580],[Sieve_discussion_list],2019-01-29
 fileinto,"adds the 'fileinto' action for delivering to a
-mailbox other than the default","[RFC5228] (Sieve base spec), 
-        [RFC5490] (:create), 
-        [RFC3894] (:copy),
+mailbox other than the default","[RFC5228] (Sieve base spec), [RFC5490] (:create), [RFC3894] (:copy),
         [RFC5232] (:flags)",[Sieve_discussion_list],
 foreverypart,"adds the ""foreverypart"" and ""break"" actions for
 iterating through MIME parts of a message.",[RFC5703],[Sieve_discussion_list],
@@ -121,5 +119,7 @@ vacation-seconds,"adds the "":seconds"" parameter to the Sieve Vacation
 variables,Adds support for variables to the Sieve filtering language.,[RFC5229],[Sieve_discussion_list],
 virustest,"Provides a test to check for varying likelihood of
 there being malicious content in an email message.",[RFC5235],[Sieve_discussion_list],
+"vnd.cyrus.* (anything starting with ""vnd.cyrus."")","Extends the Sieve language with vendor-defined functionality specific to
+        the Cyrus IMAP server ([http://www.cyrusimap.org]).",Not applicable,[Kenneth_Murchison],2020-05-05
 "vnd.dovecot.* (anything starting with ""vnd.dovecot."")","Extends the Sieve language with vendor-defined functionality specific to
-the Dovecot Secure IMAP server (http://www.dovecot.org).",Not applicable,[Stephan_Bosch][Timo_Sirainen],2008-07-28
+the Dovecot Secure IMAP server ([http://www.dovecot.org]).",Not applicable,[Stephan_Bosch][Timo_Sirainen],2008-07-28

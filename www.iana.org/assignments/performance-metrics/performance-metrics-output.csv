@@ -1,0 +1,15 @@
+Identifier,Name,Description,Reference,Change Controller
+Output,Singleton,Singleton,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Raw,multiple Singletons,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Count,Count,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Minimum,Minimum,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Maximum,Maximum,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Median,Median,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Mean,Mean,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,95Percentile,95th Percentile,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,99Percentile,99th Percentile,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,StdDev,Standard Deviation,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,Variance,Variance,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,PFI,"Pass, Fail, Inconclusive",[RFC-ietf-ippm-metric-registry-24],IETF
+Output,FlowRecords,descriptions of flows observed,[RFC-ietf-ippm-metric-registry-24],IETF
+Output,LossRatio,"lost pcakcets to total packets, <=1",[RFC-ietf-ippm-metric-registry-24],IETF

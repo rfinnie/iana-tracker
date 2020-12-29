@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2020-04-02
+           2020-12-17
 
    Note
 
@@ -68,11 +68,9 @@
 
           * SMI Network Management MGMT Codes Internet-standard MIB
 
-     * ifType Definitions
-
-          * tunnelType Definitions
-
-     * Internet-standard MIB - Transmission Group
+     * Interface Types (ifType)
+     * Tunnel Types (tunnelType)
+     * Transmission Number Values
 
           * MIB Transmission Group - Point-to-Point Protocol
           * MIB Transmission Group - MPLS STD MIB
@@ -510,7 +508,7 @@ SMI Network Management MGMT Codes
      244   l2L3VpnMcastTCMIB           L2L3-VPN-MULTICAST-TC-MIB               [RFC8502]
      245   l2L3VpnMcastMIB             L2L3-VPN-MULTICAST-MIB                  [RFC8502]
 
-ifType Definitions
+Interface Types (ifType)
 
    Registration Procedure(s)
 
@@ -525,11 +523,11 @@ ifType Definitions
  iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType (1.3.6.1.2.1.2.2.1.3)
 
    Reference
-           [RFC1213][RFC2863][RFC7224][RFC-thaler-iftype-reg-07]
+           [RFC1213][RFC2863][RFC7224][RFC8892]
 
    Note
 
- For future ifType assignments, an OID-subtree assignment MIB-II's 'transmission'
+ For future ifType assignments, an OID-subtree assignment in MIB-II's 'transmission'
  subtree will be made with the same value. In addition, the [IANAifType-MIB] and
  [iana-if-type YANG] modules should be updated in accordance with [RFC2863] and
  [RFC7224], respectively.
@@ -557,6 +555,11 @@ ifType Definitions
                    IEEE802.11      "ieee80211(71),"
            "-Finally, the last item in the list has no comma,"
             while all previous items have a comma
+
+
+   Note
+
+ Note: MIB and YANG formats are available at [IANAifType-MIB] and [iana-if-type].
 
 
    Available Formats
@@ -902,8 +905,9 @@ Decimal             Name                           Description                  
                                       Network Interface
   298   ax25                          AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
   299   ieee19061nanocom              Nanoscale and Molecular Communication [IEEE 1906.1-2015][Stephen_F_Bush]
+  300   cpri                          Common Public Radio Interface         [CPRI v7.0][Renwang_Liu]
 
-  tunnelType Definitions
+Tunnel Types (tunnelType)
 
    Registration Procedure(s)
 
@@ -918,12 +922,12 @@ Decimal             Name                           Description                  
  iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType.tunnelType (1.3.6.1.2.1.2.2.1.3.131)
 
    Reference
-           [RFC4087][RFC8675][RFC-thaler-iftype-reg-07]
+           [RFC4087][RFC8675][RFC8892]
 
    Note
 
- When this registry is modified, the YANG module [iana-tunnel-type]
- must be updated as defined in [RFC8675].
+ When this registry is modified, the [IANAifType-MIB] and [iana-tunnel-type]
+ modules should be updated in accordance with [RFC2863] and [RFC8675], respectively.
 
 
    Note
@@ -950,6 +954,11 @@ Decimal             Name                           Description                  
       while all previous items have a comma
 
 
+   Note
+
+ Note: MIB and YANG formats are available at [IANAifType-MIB] and [iana-tunnel-type].
+
+
    Available Formats
            [IMG]
            CSV
@@ -974,7 +983,7 @@ Decimal             Name                           Description                  
      17    dsLite       DS-Lite tunnel         [RFC6333]
      18    aplusp       A+P encapsulation      [RFC6346]
 
-Internet-standard MIB - Transmission Group
+Transmission Number Values
 
    Registration Procedure(s)
 
@@ -984,13 +993,17 @@ Internet-standard MIB - Transmission Group
 
  Dave Thaler (primary), Dan Romascanu (secondary)
 
+   Description
+
+ iso.org.dod.internet.mgmt.mib-2.transmission (1.3.6.1.2.1.10)
+
    Reference
-           [RFC1213][RFC-thaler-iftype-reg-07]
+           [RFC1213][RFC8892]
 
    Note
 
- For future transmission number assignments, an 'ifType' will be
- made with the same value.
+ For future transmission number assignments, an 'ifType' assignment
+ will be made with the same value.
 
    Available Formats
            [IMG]
@@ -1082,6 +1095,7 @@ Decimal       Name                    Description                               
                          Network Interface
   298   ax25             AX.25 network interfaces              [AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
   299   ieee19061nanocom Nanoscale and Molecular Communication [IEEE 1906.1-2015][Stephen_F_Bush]
+  300   cpri             Common Public Radio Interface         [CPRI v7.0][Renwang_Liu]
 
   MIB Transmission Group - Point-to-Point Protocol
 
@@ -1433,7 +1447,7 @@ SMI pib PIB Codes
 
    Registration Procedure(s)
 
- Standards Track
+ Standards Action
 
    Description
 
@@ -1458,7 +1472,7 @@ SMI Experimental Codes
 
    Registration Procedure(s)
 
- Experimental RFCs
+ Experimental RFC
 
    Description
 
@@ -1781,7 +1795,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -1814,7 +1828,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -1904,7 +1918,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -1961,6 +1975,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      44    id-ct-cbor                 [RFC8769]
      45    id-ct-cborSequence         [RFC8769]
      46    id-ct-animaCBORVoucher     [draft-ietf-anima-constrained-voucher]
+     47    id-ct-geofeedCSVwithCRLF   [draft-ymbk-opsawg-finding-geofeeds]
 
   SMI Security for S/MIME Attributes (1.2.840.113549.1.9.16.2)
 
@@ -1970,7 +1985,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2033,7 +2048,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      51    id-aa-multipleSignatures           [RFC5752]
      52    id-aa-cmsAlgorithmProtect          [RFC6211]
      53    id-aa-setKeyInformation            [draft-herzog-setkey]
-     54    id-aa-asymmDecryptKeyID            [RFC7030]
+     54    id-aa-asymmDecryptKeyID            [RFC7030][RFC8951]
      55    id-aa-secureHeaderFieldsIdentifier [RFC7508]
      56    id-aa-otpChallenge                 [RFC7894]
      57    id-aa-revocationChallenge          [RFC7894]
@@ -2047,7 +2062,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2107,7 +2122,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2127,7 +2142,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2148,7 +2163,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2173,7 +2188,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2196,7 +2211,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2230,7 +2245,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2253,7 +2268,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2279,7 +2294,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2299,7 +2314,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Russ Housley (primary), Jim Schaad (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC7107]
@@ -2345,7 +2360,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Jim Schaad (primary), Russ Housley (secondary)
+ Russ Housley (primary), Sean Turner (secondary)
 
    Reference
            [RFC8696]
@@ -2426,7 +2441,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal                    Description                         References
+   Decimal                    Description                    References
       0    Module identifiers                                [RFC7299]
       1    PKIX certificate extensions                       [RFC7299]
       2    Policy qualifier types                            [RFC7299]
@@ -2451,7 +2466,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      21    Proxy certificate policy languages                [RFC7299]
      22    Matching rules                                    [RFC7299]
      23    Subject key identifier semantics                  [RFC7299]
-     24    Simple Certificate Enrollment Protocol Attributes [RFC-gutmann-scep-15]
+     24    Simple Certificate Enrollment Protocol Attributes [RFC8894]
      48    Access descriptors                                [RFC7299]
 
   SMI Security for PKIX Module Identifier
@@ -2475,7 +2490,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal           Description                    References
+   Decimal           Description                            References
       1    id-pkix1-explicit-88             [RFC2459]
       2    id-pkix1-implicit-88             [RFC2459]
       3    id-pkix1-explicit-93             [RFC2459]
@@ -2571,6 +2586,9 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      93    id-mod-safecurves-pkix           [RFC8410]
      94    id-mod-pkix1-shakes-2019         [RFC8692]
      95    id-mod-delegated-credential-extn [draft-ietf-tls-subcerts]
+     96    id-mod-MASAURLExtn2016           [RFC-ietf-anima-bootstrapping-keyinfra-44]
+     97    id-mod-anima-acpnodename-2020    [RFC-ietf-anima-autonomic-control-plane-30]
+     98    id-mod-est-2019                  [RFC8951]
 
   SMI Security for PKIX Certificate Extension
 
@@ -2593,40 +2611,39 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal                                          Description                                                          References
-      1    id-pe-authorityInfoAccess                                                                      [RFC2459]
-      2    id-pe-biometricInfo                                                                            [RFC3039]
-      3    id-pe-qcStatements                                                                             [RFC3039]
-      4    id-pe-ac-auditIdentity                                                                         [RFC3281]
-      5    id-pe-ac-targeting                                                                             [Reserved and Obsolete]
-      6    id-pe-aaControls                                                                               [RFC3281]
-      7    id-pe-ipAddrBlocks                                                                             [RFC3779]
-      8    id-pe-autonomousSysIds                                                                         [RFC3779]
-      9    id-pe-sbgp-routerIdentifier                                                                    [Reserved and Obsolete]
-     10    id-pe-ac-proxying                                                                              [RFC3281]
-     11    id-pe-subjectInfoAccess                                                                        [RFC3280]
-     12    id-pe-logotype                                                                                 [RFC3709]
-     13    id-pe-wlanSSID                                                                                 [RFC4334]
-     14    id-pe-proxyCertInfo                                                                            [RFC3820]
-     15    id-pe-acPolicies                                                                               [RFC4476]
-     16    id-pe-warranty                                                                                 [RFC4059]
-     17    id-pe-sim                                                                                      [Reserved and Obsolete]
-     18    id-pe-cmsContentConstraints                                                                    [RFC6010]
-     19    id-pe-otherCerts                                                                               [RFC5697]
-     20    id-pe-wrappedApexContinKey                                                                     [RFC5934]
-     21    id-pe-clearanceConstraints                                                                     [RFC5913]
-     22    id-pe-skiSemantics                                                                             [Reserved and Obsolete]
-     23    id-pe-nsa                                                                                      [RFC7169]
-     24    id-pe-tlsfeature                                                                               [RFC7633]
-     25    id-pe-mud-url                                                                                  [RFC8520]
-     26    id-pe-TNAuthList                                                                               [RFC8226]
-     27    id-pe-JWTClaimConstraints                                                                      [RFC8226]
-     28    id-pe-ipAddrBlocks-v2                                                                          [RFC8360]
-     29    id-pe-autonomousSysIds-v2                                                                      [RFC8360]
-     30    id-pe-mudsigner                                                                                [RFC8520]
-     31    id-pe-acmeIdentifier                                                                           [RFC8737]
-     32    id-pe-masa-url (TEMPORARY - registered 2019-02-20, extension registered 2020-01-23, expires    [draft-ietf-anima-bootstrapping-keyinfra]
-           2021-02-20)
+   Decimal         Description                         References
+      1    id-pe-authorityInfoAccess   [RFC2459]
+      2    id-pe-biometricInfo         [RFC3039]
+      3    id-pe-qcStatements          [RFC3039]
+      4    id-pe-ac-auditIdentity      [RFC3281]
+      5    id-pe-ac-targeting          [Reserved and Obsolete]
+      6    id-pe-aaControls            [RFC3281]
+      7    id-pe-ipAddrBlocks          [RFC3779]
+      8    id-pe-autonomousSysIds      [RFC3779]
+      9    id-pe-sbgp-routerIdentifier [Reserved and Obsolete]
+     10    id-pe-ac-proxying           [RFC3281]
+     11    id-pe-subjectInfoAccess     [RFC3280]
+     12    id-pe-logotype              [RFC3709]
+     13    id-pe-wlanSSID              [RFC4334]
+     14    id-pe-proxyCertInfo         [RFC3820]
+     15    id-pe-acPolicies            [RFC4476]
+     16    id-pe-warranty              [RFC4059]
+     17    id-pe-sim                   [Reserved and Obsolete]
+     18    id-pe-cmsContentConstraints [RFC6010]
+     19    id-pe-otherCerts            [RFC5697]
+     20    id-pe-wrappedApexContinKey  [RFC5934]
+     21    id-pe-clearanceConstraints  [RFC5913]
+     22    id-pe-skiSemantics          [Reserved and Obsolete]
+     23    id-pe-nsa                   [RFC7169]
+     24    id-pe-tlsfeature            [RFC7633]
+     25    id-pe-mud-url               [RFC8520]
+     26    id-pe-TNAuthList            [RFC8226]
+     27    id-pe-JWTClaimConstraints   [RFC8226]
+     28    id-pe-ipAddrBlocks-v2       [RFC8360]
+     29    id-pe-autonomousSysIds-v2   [RFC8360]
+     30    id-pe-mudsigner             [RFC8520]
+     31    id-pe-acmeIdentifier        [RFC8737]
+     32    id-pe-masa-url              [RFC-ietf-anima-bootstrapping-keyinfra-44]
 
   SMI Security for PKIX Policy Qualifier
 
@@ -2709,6 +2726,9 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      29    id-kp-cmcArchive                             [RFC6402]
      30    id-kp-bgpsec-router                          [RFC8209]
      31    id-kp-BrandIndicatorforMessageIdentification [draft-chuang-bimi-certificate]
+     32    id-kp-cmKGA                                  [draft-ietf-lamps-cmp-updates]
+     33    id-kp-rpcTLSClient                           [RFC-ietf-nfsv4-rpc-tls-10]
+     34    id-kp-rpcTLSServer                           [RFC-ietf-nfsv4-rpc-tls-10]
 
   SMI Security for PKIX CMP Information Types
 
@@ -2731,7 +2751,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal        Description               References
+   Decimal        Description                         References
       1    id-it-caProtEncCert        [RFC2510]
       2    id-it-signKeyPairTypes     [RFC2510]
       3    id-it-encKeyPairTypes      [RFC2510]
@@ -2748,6 +2768,9 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      14    id-it-confirmWaitTime      [RFC4210]
      15    id-it-origPKIMessage       [RFC4210]
      16    id-it-suppLangTags         [RFC4210]
+     17    id-it-caCerts              [draft-ietf-lamps-lightweight-cmp-profile]
+     18    id-it-rootCaKeyUpdate      [draft-ietf-lamps-lightweight-cmp-profile]
+     19    id-it-certReqTemplate      [draft-ietf-lamps-lightweight-cmp-profile]
 
   SMI Security for PKIX CRMF Registration
 
@@ -2995,7 +3018,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal        Description              References
+   Decimal        Description                        References
       1    id-on-personalData        [Reserved and Obsolete]
       2    id-on-userGroup           [Reserved and Obsolete]
       3    id-on-permanentIdentifier [RFC4043]
@@ -3005,6 +3028,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
       7    id-on-dnsSRV              [RFC4985]
       8    id-on-naiRealm            [RFC7585]
       9    id-on-SmtpUTF8Mailbox     [RFC8398]
+     10    id-on-AcpNodeName         [RFC-ietf-anima-autonomic-control-plane-30]
 
   SMI Security for PKIX Personal Data Attributes
 
@@ -3537,21 +3561,21 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
 
    Expert(s)
 
- Unassigned
+ Peter Gutmann
 
    Description
 
  PKIX (1.3.6.1.5.5.7.24)
 
    Reference
-           [RFC-gutmann-scep-15]
+           [RFC8894]
 
    Available Formats
            [IMG]
            CSV
 
-   Decimal     Description           References
-      1    id-scep-failInfoText [RFC-gutmann-scep-15]
+   Decimal     Description      References
+      1    id-scep-failInfoText [RFC8894]
 
   SMI Security for PKIX Access Descriptor
 
@@ -4145,10 +4169,11 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
    Note
 
  the following mechanisms registry is the root of the OID for
-         the mechanism in question.  As discussed in Section 5.1
-         [RFC-ietf-abbfab-gss-eap-09], a Kerberos encryption type number
-         [RFC3961] is appended to the mechanism version OID below to form the
-       OID of a specific mechanism.
+ the mechanism in question.  As discussed in Section 5.1 of
+ [RFC7055], a Kerberos encryption type number [RFC3961] is
+ appended to the mechanism version OID below to form the OID
+ of a specific mechanism.
+
 
    Available Formats
            [IMG]
@@ -4704,7 +4729,7 @@ SMI Security for Cryptographic Algorithms
 
    Expert(s)
 
- Jim Schaad
+ Russ Housley (primary), Sean Turner (secondary)
 
    Description
 
@@ -4730,7 +4755,7 @@ SMI Security for Cryptographic Algorithms
    116-127    Unassigned
    128 and up Retained by DigiCert          [RFC8411]
 
-                                                                        People
+                                                                 Contact Information
 
              ID                          Name                                    Contact URI                    Last Updated
    [Andrew_Lunn]          Andrew Lunn                         mailto:Andrew.Lunn&ascom.ch                       2000-08
@@ -4875,6 +4900,7 @@ SMI Security for Cryptographic Algorithms
    [Paul_Congdon]         Paul Congdon                        mailto:paul.congdon&hp.com                        2005-12-22
    [Philip_Cameron]       Philip Cameron                      mailto:pcameron&netcom.com                        1994-10
    [Rajesh_M_L]           Rajesh M.L.                         mailto:rajeshml&cisco.com                         2002-07
+   [Renwang_Liu]          Renwang Liu                         mailto:renwang.liu&ericsson.com                   2020-07-10
    [Richard_Fox]          Richard Fox                         mailto:rfox&synoptics.com
    [Rob_Austein]          Rob Austein
    [Rob_Frye]             Rob Frye                            mailto:Rob.Frye&mci.com                           1998-09

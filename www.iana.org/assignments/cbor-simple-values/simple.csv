@@ -1,8 +1,8 @@
 Value,Semantics,Reference
 0-19,Unassigned,
-20,False,[RFC7049]
-21,True,[RFC7049]
-22,Null,[RFC7049]
-23,Undefined Value,[RFC7049]
-24-31,Reserved,[RFC7049]
+20,False,[RFC8949]
+21,True,[RFC8949]
+22,Null,[RFC8949]
+23,Undefined,[RFC8949]
+24-31,Reserved,[RFC8949]
 32-255,Unassigned,

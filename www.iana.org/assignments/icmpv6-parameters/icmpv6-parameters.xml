@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="icmpv6-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="icmpv6-parameters">
   <title>Internet Control Message Protocol version 6 (ICMPv6) Parameters</title>
-  <updated>2020-03-25</updated>
+  <updated>2020-11-25</updated>
  
  
   <registry id="icmpv6-parameters-2">
@@ -11,11 +11,11 @@
     <xref type="rfc" data="rfc4443"/>
     <range>
       <value>0-127 (Error messages)</value>
-      <registration_rule>IETF RFC Publication (Standards track, informational or experimental)</registration_rule>
+      <registration_rule>IETF Review</registration_rule>
     </range>
     <range>
       <value>128-255 (Informational messages)</value>
-      <registration_rule>IETF RFC Publication (Standards track, informational or experimental)</registration_rule>
+      <registration_rule>IETF Review</registration_rule>
     </range>
     <record>
       <value>0</value>
@@ -310,7 +310,7 @@ messages</name>
       <record date="2020-03-25">
         <value>8</value>
         <name>Headers too long</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
     </registry>
     
@@ -361,37 +361,37 @@ messages</name>
       <record date="2019-10-25">
         <value>4</value>
         <name>SR Upper-layer Header Error</name>
-        <xref type="draft" data="RFC-ietf-6man-segment-routing-header-26"/>
+        <xref type="rfc" data="rfc8754"/>
       </record>
       <record date="2020-03-25">
         <value>5</value>
         <name>Unrecognized Next Header type encountered by intermediate node</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
       <record date="2020-03-25">
         <value>6</value>
         <name>Extension header too big</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
       <record date="2020-03-25">
         <value>7</value>
         <name>Extension header chain too long</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
       <record date="2020-03-25">
         <value>8</value>
         <name>Too many extension headers</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
       <record date="2020-03-25">
         <value>9</value>
         <name>Too many options in extension header</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
       <record date="2020-03-25">
         <value>10</value>
         <name>Option too big</name>
-        <xref type="draft" data="RFC-ietf-6man-icmp-limits-08"/>
+        <xref type="rfc" data="rfc8883"/>
       </record>
     </registry>
       
@@ -881,7 +881,7 @@ Option</description>
     <record date="2018-03-09" updated="2020-02-18">
       <value>21</value>
       <description>PvD ID Router Advertisement Option</description>
-      <xref type="draft" data="RFC-ietf-intarea-provisioning-domains-11"/>
+      <xref type="rfc" data="rfc8801"/>
     </record>
     <record>
       <value>22</value>
@@ -958,18 +958,28 @@ Option</description>
       <description>6LoWPAN Capability Indication Option (6CIO)</description>
       <xref type="rfc" data="rfc7400"/>
     </record>
-    <record date="2015-10-01">
+    <record date="2015-10-01" updated="2020-07-09">
       <value>37</value>
       <description>DHCP Captive-Portal</description>
-      <xref type="rfc" data="rfc7710"/>
+      <xref type="rfc" data="rfc8910"/>
     </record>
     <record date="2020-01-09">
       <value>38</value>
       <description>PREF64 option</description>
-      <xref type="draft" data="RFC-ietf-6man-ra-pref64-09"/>
+      <xref type="rfc" data="rfc8781"/>
+    </record>
+    <record date="2020-06-03">
+      <value>39</value>
+      <description>Crypto-ID Parameters Option (CIPO)</description>
+      <xref type="rfc" data="rfc8928"/>
+    </record>
+    <record date="2020-06-03">
+      <value>40</value>
+      <description>NDP Signature Option (NDPSO)</description>
+      <xref type="rfc" data="rfc8928"/>
     </record>
     <record>
-      <value>39-137</value>
+      <value>41-137</value>
       <description>Unassigned</description>
     </record>
     <record>
@@ -996,7 +1006,8 @@ Option</description>
       <description>RFC3692-style Experiment 2 <xref type="note" data="1"/></description>
       <xref type="rfc" data="rfc4727"/>
     </record>
-    <footnote anchor="1">It is only appropriate to use these values in explicitly configured experiments; they MUST NOT be shipped as defaults in implementations. See <xref type="rfc" data="rfc3692"/> for details.
+    <footnote anchor="1">It is only appropriate to use these values in explicitly configured experiments; they 
+MUST NOT be shipped as defaults in implementations. See <xref type="rfc" data="rfc3692"/> for details.
     </footnote>
   </registry>
   
@@ -1292,17 +1303,22 @@ Option</description>
       <xref type="rfc" data="rfc7400"/>
     </record>
     <record>
-      <value>8-9</value>
+      <value>8</value>
       <description>Unassigned</description>
+    </record>
+    <record date="2020-06-02">
+      <value>9</value>
+      <description>AP-ND Enabled (1 bit)</description>
+      <xref type="rfc" data="rfc8928"/>
     </record>
     <record date="2018-08-20">
       <value>10</value>
-      <description>EDA  Support (D bit)</description>
+      <description>EDA Support (D bit)</description>
       <xref type="rfc" data="rfc8505"/>
     </record>
     <record date="2018-08-20">
       <value>11</value>
-      <description>6LR  capable (L bit)</description>
+      <description>6LR capable (L bit)</description>
       <xref type="rfc" data="rfc8505"/>
     </record>
     <record date="2018-08-20">
@@ -1393,26 +1409,77 @@ Option</description>
   
   <registry id="pvd-option-flags">
     <title>PvD Option Flags</title>
-    <xref type="draft" data="RFC-ietf-intarea-provisioning-domains-11"/>
+    <xref type="rfc" data="rfc8801"/>
     <registration_rule>Standards Action</registration_rule>
     <record date="2020-02-18">
       <value>0</value>
       <description>H-flag</description>
-      <xref type="draft" data="RFC-ietf-intarea-provisioning-domains-11"/>
+      <xref type="rfc" data="rfc8801"/>
     </record>
     <record date="2020-02-18">
       <value>1</value>
       <description>L-flag</description>
-      <xref type="draft" data="RFC-ietf-intarea-provisioning-domains-11"/>
+      <xref type="rfc" data="rfc8801"/>
     </record>
     <record date="2020-02-18">
       <value>2</value>
       <description>R-flag</description>
-      <xref type="draft" data="RFC-ietf-intarea-provisioning-domains-11"/>
+      <xref type="rfc" data="rfc8801"/>
     </record>
     <record>
-      <value>3-15</value>
+      <value>3-11</value>
       <description>Unassigned</description>
+    </record>
+  </registry>
+  
+  <registry id="icmpv6-crypto-types">
+    <title>Crypto-Types</title>
+    <xref type="rfc" data="rfc8928"/>
+    <registration_rule>Specification Required or IESG Approval</registration_rule>
+    <expert>Unassigned</expert>
+    <record date="2020-06-02">
+      <value>0</value>
+      <description>ECDSA256</description>
+      <elliptic>NIST P-256 <xref type="uri" data="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS186-4</xref></elliptic>
+      <hash>SHA-256 <xref type="rfc" data="rfc6234"/></hash>
+      <signature>ECDSA <xref type="uri" data="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS186-4</xref></signature>
+      <rep_conv>Weierstrass, (un)compressed, MSB/msb-order, <xref type="uri" data="https://www.secg.org/sec1-v2.pdf">SEC1</xref></rep_conv>
+      <public_key_size>33/65 bytes (compressed/uncompressed)</public_key_size>
+      <signature_size>64 bytes</signature_size>
+      <xref type="rfc" data="rfc8928"/>
+    </record>
+    <record date="2020-06-02">
+      <value>1</value>
+      <description>Ed25519</description>
+      <elliptic>Curve25519 <xref type="rfc" data="rfc7748"/></elliptic>
+      <hash>SHA-512 <xref type="rfc" data="rfc6234"/></hash>
+      <signature>Ed25519 <xref type="rfc" data="rfc8032"/></signature>
+      <rep_conv>Edwards, compressed, LSB/lsb-order, <xref type="rfc" data="rfc8032"/></rep_conv>
+      <public_key_size>32 bytes (compressed)</public_key_size>
+      <signature_size>64 bytes</signature_size>
+      <xref type="rfc" data="rfc8928"/>
+    </record>
+    <record date="2020-06-02">
+      <value>2</value>
+      <description>ECDSA25519</description>
+      <elliptic>Curve25519 <xref type="rfc" data="rfc7748"/></elliptic>
+      <hash>SHA-256 <xref type="rfc" data="rfc6234"/></hash>
+      <signature>ECDSA <xref type="uri" data="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS186-4</xref></signature>
+      <rep_conv>Weierstrass, (un)compressed, MSB/msb-order, 
+        <xref type="draft" data="draft-ietf-lwig-curve-representations-13"/></rep_conv>
+      <public_key_size>33/65 bytes (compressed/uncompressed)</public_key_size>
+      <signature_size>64 bytes</signature_size>
+      <xref type="rfc" data="rfc8928"/>
+    </record>
+    <record>
+      <value>3-255</value>
+      <description>Unassigned</description>
+      <elliptic/>
+      <hash/>
+      <signature/>
+      <rep_conv/>
+      <public_key_size/>
+      <signature_size/>
     </record>
   </registry>
   

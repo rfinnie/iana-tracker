@@ -1,0 +1,7 @@
+Key Creation Type,Value,Definition/Defined In,Reference
+Reserved,0-1,,[RFC4535]
+Diffie-Hellman. 1024-bit MODP Group. Truncated,2,"This type MUST be supported. Defined in [RFC4306] B.2. If the output of the process is longer than needed for the defined mechanism, use the first X low order bits, and truncate the remainder.",[RFC4306]
+Reserved,3-13,,[RFC4535]
+Diffie-Hellman. 2048-bit MODP Group. Truncated,14,"If the output of the process is longer than needed for the defined mechanism, use the first X low order bits, and truncate the remainder.",[RFC3526]
+Reserved to IANA,15-49152,,[RFC4535]
+Private Use,49153-65535,,[RFC4535]

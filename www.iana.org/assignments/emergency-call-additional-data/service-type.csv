@@ -1,25 +1,14 @@
 Token,Description,Reference
-wireless,"Wireless Telephone Service: Includes 
-      CDMA, GSM, Wi-Fi, WiMAX, and LTE (but not satellite)",[RFC7852]
-coin,"Fixed public pay/coin telephones: Any 
-      device operated by coin or credit card",[RFC7852]
+wireless,"Wireless Telephone Service: Includes CDMA, GSM, Wi-Fi, WiMAX, and LTE (but not satellite)",[RFC7852]
+coin,Fixed public pay/coin telephones: Any device operated by coin or credit card,[RFC7852]
 one-way,One-way outbound service,[RFC7852]
-temp,"Soft dial tone/quick service/warm 
-      disconnect/suspended",[RFC7852]
+temp,Soft dial tone/quick service/warm disconnect/suspended,[RFC7852]
 MLTS-hosted,Hosted multi-line telephone system such as Centrex,[RFC7852]
-MLTS-local,"Local multi-line telephone system, including all PBXs, 
-        key systems, and Shared Tenant Services",[RFC7852]
-sensor-unattended,"These are devices that generate DATA 
-      ONLY. This is a one-way information transmit without interactive media.",[RFC7852]
-sensor-attended,"Devices that are supported by a 
-      monitoring service provider or that are capable of supporting interactive 
-      media",[RFC7852]
+MLTS-local,"Local multi-line telephone system, including all PBXs, key systems, and Shared Tenant Services",[RFC7852]
+sensor-unattended,These are devices that generate DATA ONLY. This is a one-way information transmit without interactive media.,[RFC7852]
+sensor-attended,Devices that are supported by a monitoring service provider or that are capable of supporting interactive media,[RFC7852]
 POTS,Wireline: Plain Old Telephone Service,[RFC7852]
-OTT,"An over-the-top service that provides communication over 
-        arbitrary Internet access (fixed, nomadic, mobile)",[RFC7852]
+OTT,"An over-the-top service that provides communication over arbitrary Internet access (fixed, nomadic, mobile)",[RFC7852]
 digital,Wireline non-OTT digital phone service,[RFC7852]
 OPX,Off-premise extension,[RFC7852]
-relay,"A service where a human third-party agent provides 
-        additional assistance. This includes sign language relay/interpretation, 
-        telematics services that provide a human on the call, and similar 
-        services.",[RFC7852]
+relay,"A service where a human third-party agent provides additional assistance. This includes sign language relay/interpretation, telematics services that provide a human on the call, and similar services.",[RFC7852]

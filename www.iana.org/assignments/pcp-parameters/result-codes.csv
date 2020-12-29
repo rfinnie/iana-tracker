@@ -35,11 +35,7 @@ Value,Name,Description,Reference
         external address cannot be provided.  This error MUST only be
         returned for:
         *  MAP requests that included the PREFER_FAILURE Option
-        (normal MAP requests will return an available external port); 
-        *  MAP requests for the SCTP protocol (PREFER_FAILURE is implied); 
-        *  PEER requests. 
-        
-        See Section 13.2 of [RFC6887] for processing details.  The error lifetime
+        (normal MAP requests will return an available external port); *  MAP requests for the SCTP protocol (PREFER_FAILURE is implied); *  PEER requests. See Section 13.2 of [RFC6887] for processing details.  The error lifetime
         depends on the reason for the failure.",[RFC6887]
 12,ADDRESS_MISMATCH,"The source IP address of the request packet does
         not match the contents of the PCP Client's IP Address field, due

@@ -1,0 +1,6 @@
+sub-TLV Type,Description,Reference
+0x00,Unassigned,
+0x01,MPLS-TP Tunnel ID,[RFC8237]
+0x02,PW ID Configured List,[RFC8237]
+0x03,PW ID Unconfigured List,[RFC8237]
+0x04-0xFF,Unassigned,

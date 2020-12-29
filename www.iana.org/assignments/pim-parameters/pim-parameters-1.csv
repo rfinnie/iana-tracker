@@ -20,8 +20,10 @@ Value,Length,Name,Reference
 31,8,Interface ID,[RFC6395]
 32,0,PIM ECMP Redirect Hello Option,[RFC6754]
 33,2,vPC Peer ID (renew 6/14),[Siddanagouda_Khot]
-34,4,DR Load Balancing Capability (DRLB-Cap),[RFC-ietf-pim-drlb-15]
-35,variable,DR Load Balancing List (DRLB-List),[RFC-ietf-pim-drlb-15]
+34,4,DR Load-Balancing Capability (DRLB-Cap),[RFC8775]
+35,variable,DR Load-Balancing List (DRLB-List),[RFC8775]
 36,0,Hierarchical Join/Prune Attribute,[RFC7887]
-37-65000,-,Unassigned,
+37,variable,DR Address Option,[draft-ietf-pim-dr-improvement-10]
+38,variable,BDR Address Option,[draft-ietf-pim-dr-improvement-10]
+39-65000,-,Unassigned,
 65001-65535,-,Reserved (Private Use),

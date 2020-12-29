@@ -1,6 +1,5 @@
 PackagedContent/Content,Reference
 """PCDATA""",[RFC2801]
 """MIME""",[RFC2801]
-"""MIME:mimetype"" (where mimetype must be the same as content-type  
-                 as defined by [MIME] )",[RFC2801]
+"""MIME:mimetype"" (where mimetype must be the same as content-type as defined by [MIME] )",[RFC2801]
 """XML""",[RFC2801]

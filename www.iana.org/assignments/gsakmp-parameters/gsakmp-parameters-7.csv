@@ -1,0 +1,17 @@
+Rekey_Event_Type,Value,Description/Defined In,Reference
+None,0,"This type MUST be implemented.          
+In this case, the size of the Rekey
+Event Data field will be zero bytes
+long.  The purpose of a Rekey Event
+Payload with type None is when it is
+necessary to send out a new token
+with no rekey information.  GSAKMP
+Rekey Msg requires a Rekey Event
+Payload, and in this instance it
+would have rekey data of type None.",[RFC4535]
+GSAKMP_LKH,1,"The rekey data will be of               
+type LKH formatted according to
+GSAKMP. The format for this field
+is defined in Section 7.5.1.2 of [RFC4535].",[RFC4535]
+Reserved to IANA,2-192,,[RFC4535]
+Private Use,193-255,,[RFC4535]

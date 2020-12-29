@@ -1,7 +1,7 @@
                                                        Border Gateway Protocol (BGP) Parameters
 
    Last Updated
-           2020-03-20
+           2020-12-09
 
    Available Formats
            [IMG]
@@ -39,6 +39,9 @@
      * BGP Prefix-SID Originator SRGB TLV Flags
      * BGP Graceful Restart Flags
      * BGP Graceful Restart Flags for Address Family
+     * SFP Attribute TLVs
+     * SFP Association Type
+     * SFC SPI/SI Representation Flags
 
 BGP Message Types
 
@@ -153,11 +156,15 @@ BGP Path Attributes
            BGP Domain Path
            (D-PATH)
            (TEMPORARY -
-     36    registered        [draft-ietf-bess-evpn-ipvpn-interworking]
-           2019-07-08,
+           registered
+     36    2019-07-08,       [draft-ietf-bess-evpn-ipvpn-interworking]
+           extension
+           registered
+           2020-05-26,
            expires
-           2020-07-08)
-    37-39  Unassigned
+           2021-07-08)
+     37    SFP Attribute     [RFC-ietf-bess-nsh-bgp-control-plane-18]
+    38-39  Unassigned
      40    BGP Prefix-SID    [RFC8669]
    41-127  Unassigned
      128   ATTR_SET          [RFC6368]
@@ -309,12 +316,12 @@ BGP Error Subcodes
            [IMG]
            CSV
 
-   Value                 Name                    Reference
+   Value                 Name                              Reference
      0    Reserved
      1    Maximum Number of Prefixes Reached [RFC4486]
-     2    Administrative Shutdown            [RFC4486][RFC8203]
+     2    Administrative Shutdown            [RFC4486][RFC-ietf-idr-rfc8203bis-08]
      3    Peer De-configured                 [RFC4486]
-     4    Administrative Reset               [RFC4486][RFC8203]
+     4    Administrative Reset               [RFC4486][RFC-ietf-idr-rfc8203bis-08]
      5    Connection Rejected                [RFC4486]
      6    Other Configuration Change         [RFC4486]
      7    Connection Collision Resolution    [RFC4486]
@@ -375,12 +382,12 @@ BGP OPEN Optional Parameter Types
            [IMG]
            CSV
 
-   Value                                  Name                                             Reference
-     0   Reserved                                                                [RFC5492]
-     1   Authentication (deprecated)                                             [RFC4271][RFC5492]
-     2   Capabilities                                                            [RFC5492]
+   Value                                                   Name                                                             Reference
+     0   Reserved                                                                                                 [RFC5492]
+     1   Authentication (deprecated)                                                                              [RFC4271][RFC5492]
+     2   Capabilities                                                                                             [RFC5492]
    3-254 Unassigned
-    255  Extended Length (TEMPORARY - registered 2019-08-13, expires 2020-08-13) [draft-ietf-idr-ext-opt-param]
+    255  Extended Length (TEMPORARY - registered 2019-08-13, extension registered 2020-08-26, expires 2021-08-13) [draft-ietf-idr-ext-opt-param]
 
 BGP Tunnel Encapsulation Attribute Tunnel Types
 
@@ -437,28 +444,32 @@ BGP Tunnel Encapsulation Attribute Sub-TLVs
       3    IPsec Tunnel Authenticator                                                                    [RFC5566]
       4    Color                                                                                         [RFC5512]
       5    Load-Balancing Block                                                                          [RFC5640]
-      6    Remote Endpoint (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires  [draft-ietf-idr-tunnel-encaps]
-           2020-07-18)
-      7    IPv4 DS Field (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires    [draft-ietf-idr-tunnel-encaps]
-           2020-07-18)
-      8    UDP Destination Port (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04,     [draft-ietf-idr-tunnel-encaps]
-           expires 2020-07-18)
-      9    Embedded Label Handling (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04,  [draft-ietf-idr-tunnel-encaps]
-           expires 2020-07-18)
-     10    MPLS Label Stack (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires [draft-ietf-idr-tunnel-encaps]
-           2020-07-18)
-     11    Prefix SID (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires       [draft-ietf-idr-tunnel-encaps]
-           2020-07-18)
-     12    Preference sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26,       [draft-ietf-idr-segment-routing-te-policy]
-           expires 2020-10-12)
-     13    Binding SID sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26,      [draft-ietf-idr-segment-routing-te-policy]
-           expires 2020-10-12)
-     14    ENLP sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)                          [draft-ietf-idr-segment-routing-te-policy]
-     15    Priority sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)                      [draft-ietf-idr-segment-routing-te-policy]
-   16-127  Unassigned
-     128   Segment List sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26,     [draft-ietf-idr-segment-routing-te-policy]
-           expires 2020-10-12)
-     129   Policy Name sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)                   [draft-ietf-idr-segment-routing-te-policy]
+      6    Remote Endpoint (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires  [draft-ietf-idr-tunnel-encaps]
+           2021-07-18)
+      7    IPv4 DS Field (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires    [draft-ietf-idr-tunnel-encaps]
+           2021-07-18)
+      8    UDP Destination Port (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25,     [draft-ietf-idr-tunnel-encaps]
+           expires 2021-07-18)
+      9    Embedded Label Handling (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25,  [draft-ietf-idr-tunnel-encaps]
+           expires 2021-07-18)
+     10    MPLS Label Stack (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires [draft-ietf-idr-tunnel-encaps]
+           2021-07-18)
+     11    Prefix SID (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires       [draft-ietf-idr-tunnel-encaps]
+           2021-07-18)
+     12    Preference sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28,       [draft-ietf-idr-segment-routing-te-policy]
+           expires 2021-10-12)
+     13    Binding SID sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28,      [draft-ietf-idr-segment-routing-te-policy]
+           expires 2021-10-12)
+     14    ENLP sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24, expires     [draft-ietf-idr-segment-routing-te-policy]
+           2021-08-29)
+     15    Priority sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24, expires [draft-ietf-idr-segment-routing-te-policy]
+           2021-08-29)
+     16    SPI/SI Representation Sub-TLV                                                                 [RFC-ietf-bess-nsh-bgp-control-plane-18]
+   17-127  Unassigned
+     128   Segment List sub-TLV (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28,     [draft-ietf-idr-segment-routing-te-policy]
+           expires 2021-10-12)
+     129   Policy Name sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24,      [draft-ietf-idr-segment-routing-te-policy]
+           expires 2021-08-29)
    130-255 Unassigned
 
 BGP Layer 2 Encapsulation Types
@@ -588,26 +599,27 @@ P-Multicast Service Interface Tunnel (PMSI Tunnel) Tunnel Types
    0xFB-0xFE Experimental Use
    0xFF      Standards Action
 
-     Value                                                Meaning                                                            Reference
-     0x00    no tunnel information present                                                                      [RFC6514]
-     0x01    RSVP-TE P2MP LSP                                                                                   [RFC6514]
-     0x02    mLDP P2MP LSP                                                                                      [RFC6514]
-     0x03    PIM-SSM Tree                                                                                       [RFC6514]
-     0x04    PIM-SM Tree                                                                                        [RFC6514]
-     0x05    BIDIR-PIM Tree                                                                                     [RFC6514]
-     0x06    Ingress Replication                                                                                [RFC6514]
-     0x07    mLDP MP2MP LSP                                                                                     [RFC6514]
-     0x08    Transport Tunnel                                                                                   [RFC7524]
+     Value                                               Meaning                                                           Reference
+     0x00    no tunnel information present                                                                   [RFC6514]
+     0x01    RSVP-TE P2MP LSP                                                                                [RFC6514]
+     0x02    mLDP P2MP LSP                                                                                   [RFC6514]
+     0x03    PIM-SSM Tree                                                                                    [RFC6514]
+     0x04    PIM-SM Tree                                                                                     [RFC6514]
+     0x05    BIDIR-PIM Tree                                                                                  [RFC6514]
+     0x06    Ingress Replication                                                                             [RFC6514]
+     0x07    mLDP MP2MP LSP                                                                                  [RFC6514]
+     0x08    Transport Tunnel                                                                                [RFC7524]
      0x09    Unassigned
-     0x0A    Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14,   [draft-ietf-bess-evpn-optimized-ir]
-             expires 2020-06-30)
-     0x0B    BIER                                                                                               [RFC8556]
-   0x0C-0x7A Unassigned
-   0x7B-0x7E Reserved for Experimental Use                                                                      [RFC8317]
-     0x7F    Reserved                                                                                           [RFC8317]
-   0x80-0xFA Reserved for Composite Tunnel                                                                      [RFC8317]
-   0xFB-0xFE Reserved for Experimental Use                                                                      [RFC7385]
-     0xFF    wildcard transport tunnel type                                                                     [RFC8338]
+     0x0A    Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered            [draft-ietf-bess-evpn-optimized-ir]
+             2020-06-18, expires 2021-06-30)
+     0x0B    BIER                                                                                            [RFC8556]
+     0x0C    SR-MPLS P2MP Tree (TEMPORARY - registered 2020-12-09, expires 2021-12-09)                       [draft-ietf-bess-mvpn-evpn-sr-p2mp-01]
+   0x0D-0x7A Unassigned
+   0x7B-0x7E Reserved for Experimental Use                                                                   [RFC8317]
+     0x7F    Reserved                                                                                        [RFC8317]
+   0x80-0xFA Reserved for Composite Tunnel                                                                   [RFC8317]
+   0xFB-0xFE Reserved for Experimental Use                                                                   [RFC7385]
+     0xFF    wildcard transport tunnel type                                                                  [RFC8338]
 
 P-Multicast Service Interface (PMSI) Tunnel Attribute Flags
 
@@ -626,11 +638,11 @@ P-Multicast Service Interface (PMSI) Tunnel Attribute Flags
      0   Unassigned
      1   Extension                                                                                              [RFC7902]
      2   Leaf Information Required per-Flow (LIR-pF)                                                            [RFC8534]
-    3-4  Assisted-Replication Type (T) (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14,     [draft-ietf-bess-evpn-optimized-ir]
-         expires 2020-06-30)
-     5   Broadcast and Multicast (BM) (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14,      [draft-ietf-bess-evpn-optimized-ir]
-         expires 2020-06-30)
-     6   Unknown (U) (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)   [draft-ietf-bess-evpn-optimized-ir]
+    3-4  Assisted-Replication Type (T) (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18,     [draft-ietf-bess-evpn-optimized-ir]
+         expires 2021-06-30)
+     5   Broadcast and Multicast (BM) (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18,      [draft-ietf-bess-evpn-optimized-ir]
+         expires 2021-06-30)
+     6   Unknown (U) (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18, expires 2021-06-30)   [draft-ietf-bess-evpn-optimized-ir]
      7   Leaf Information Required (L)                                                                          [RFC6514]
 
 BGP MCAST-VPN Route Types
@@ -706,12 +718,15 @@ BGP Prefix-SID TLV Types
            [IMG]
            CSV
 
-   Value      Type       Reference
+   Value      Type                   Reference
      0   Reserved        [RFC8669]
      1   Label-Index     [RFC8669]
      2   Deprecated      [RFC8669]
      3   Originator SRGB [RFC8669]
-   4-254 Unassigned
+     4   Deprecated      [draft-ietf-bess-srv6-services-02]
+     5   SRv6 L3 Service [draft-ietf-bess-srv6-services-02]
+     6   SRv6 L2 Service [draft-ietf-bess-srv6-services-02]
+   7-254 Unassigned
     255  Reserved        [RFC8669]
 
 BGP Prefix-SID Label-Index TLV Flags
@@ -789,7 +804,67 @@ BGP Graceful Restart Flags for Address Family
         0       Forwarding State F          [RFC4724]
        1-7      Unassigned
 
-                                                                        People
+SFP Attribute TLVs
+
+   Registration Procedure(s)
+
+ First Come First Served
+
+   Reference
+           [RFC-ietf-bess-nsh-bgp-control-plane-18]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Type            Name                          Reference                 Registration Date
+      0    Reserved                [RFC-ietf-bess-nsh-bgp-control-plane-18]
+      1    Association TLV         [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+      2    Hop TLV                 [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+      3    SFT TLV                 [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+      4    MPLS Swapping/Stacking  [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+      5    SFP Traversal With MPLS [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+   6-65534 Unassigned
+    65535  Reserved                [RFC-ietf-bess-nsh-bgp-control-plane-18]
+
+SFP Association Type
+
+   Registration Procedure(s)
+
+ First Come First Served
+
+   Reference
+           [RFC-ietf-bess-nsh-bgp-control-plane-18]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Association Type       Name                       Reference                 Registration Date
+          0         Reserved          [RFC-ietf-bess-nsh-bgp-control-plane-18]
+          1         Bidirectional SFP [RFC-ietf-bess-nsh-bgp-control-plane-18] 2020-09-02
+       2-65534      Unassigned
+        65535       Reserved          [RFC-ietf-bess-nsh-bgp-control-plane-18]
+
+SFC SPI/SI Representation Flags
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC-ietf-bess-nsh-bgp-control-plane-18]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit Number      Name                      Reference
+       0      NSH data plane  [RFC-ietf-bess-nsh-bgp-control-plane-18]
+       1      MPLS data plane [RFC-ietf-bess-nsh-bgp-control-plane-18]
+      2-15    Unassigned
+
+                                                                 Contact Information
 
             ID                  Name                 Contact URI          Last Updated
    [Eric_Rosen]          Eric Rosen          mailto:erosen&cisco.com      2010-02-23

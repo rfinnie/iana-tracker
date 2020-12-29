@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="rpl">
   <title>Routing Protocol for Low Power and Lossy Networks (RPL)</title>
   <created>2011-04-08</created>
-  <updated>2019-07-18</updated>
+  <updated>2020-12-15</updated>
   
   <registry id="control-codes">
     <title>RPL Control Codes</title>
@@ -211,9 +211,13 @@
       <xref type="rfc" data="rfc6550"/>
     </record>    
     <record>
-      <value>0x0a</value>
+      <value>0x0A</value>
       <description>P2P Route Discovery</description>
       <xref type="rfc" data="rfc6997"/>
+    </record>
+    <record>
+      <value>0x0B-0xFF</value>
+      <description>Unassigned</description>
     </record>
   </registry>
   
@@ -233,6 +237,10 @@
       <description>Minimum Rank with Hysteresis Objective Function (MRHOF)</description>
       <xref type="rfc" data="rfc6719"/>
     </record>
+    <record>
+      <value>2-65535</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -246,6 +254,11 @@
       <signature>RSA with SHA-256</signature>
       <xref type="rfc" data="rfc6550"/>
     </record>
+    <record>
+      <value>1-255</value>
+      <encryption>Unassigned</encryption>
+      <signature>Unassigned</signature>
+    </record>
   </registry>
   
   
@@ -253,6 +266,10 @@
     <title>Security Section Flags</title>
     <xref type="rfc" data="rfc6550"/>
     <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -363,6 +380,10 @@
     <title>DODAG Informational Solicitation (DIS) Flags</title>
     <xref type="rfc" data="rfc6550"/>
     <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -370,6 +391,10 @@
     <title>DODAG Information Object (DIO) Flags</title>
     <xref type="rfc" data="rfc6550"/>
     <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -387,6 +412,10 @@
       <description>DODAGID field is present (D)</description>
       <xref type="rfc" data="rfc6550"/>
     </record>
+    <record>
+      <value>2-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -398,6 +427,10 @@
       <value>0</value>
       <description>DODAGID field is present (D)</description>
       <xref type="rfc" data="rfc6550"/>
+    </record>
+    <record>
+      <value>1-7</value>
+      <description>Unassigned</description>
     </record>
   </registry>
   
@@ -411,6 +444,10 @@
       <description>CC Response (R)</description>
       <xref type="rfc" data="rfc6550"/>
     </record>
+    <record>
+      <value>1-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -418,6 +455,10 @@
     <title>DODAG Configuration Option Flags</title>
     <xref type="rfc" data="rfc6550"/>
     <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0-2</value>
+      <description>Unassigned</description>
+    </record>
     <record date="2019-07-11">
       <value>3</value>
       <description>RPI 0x23 enable</description>
@@ -440,6 +481,10 @@
     <title>RPL Target Option Flags</title>
     <xref type="rfc" data="rfc6550"/>
     <registration_rule>IETF Review</registration_rule>
+    <record>
+      <value>0-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
   
   
@@ -457,7 +502,12 @@
       <description>Invalidate previous route (I)</description>
       <xref type="draft" data="RFC-ietf-roll-efficient-npdao-15"/>
     </record>
+    <record>
+      <value>2-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
+
 
   <registry id="flags">
     <title>Solicited Information Option Flags</title>
@@ -478,7 +528,12 @@
       <description>DODAGID Predicate match (D)</description>
       <xref type="rfc" data="rfc6550"/>
     </record>
+    <record>
+      <value>3-7</value>
+      <description>Unassigned</description>
+    </record>
   </registry>
+
   
   <registry id="rpl-dco-flags">
     <title>Destination Cleanup Object (DCO) Flags</title>
@@ -499,26 +554,7 @@
       <description>Unassigned</description>
     </record>
   </registry>
-  
-  <registry id="rpl-dco-ack-status">
-    <title>Destination Cleanup Object Acknowledgment (DCO-ACK) Status</title>
-    <xref type="draft" data="RFC-ietf-roll-efficient-npdao-15"/>
-    <registration_rule>IETF Review</registration_rule>
-    <record date="2019-07-17">
-      <value>0</value>
-      <description>Unqualified acceptance</description>
-      <xref type="draft" data="RFC-ietf-roll-efficient-npdao-15"/>
-    </record>
-    <record date="2019-07-17">
-      <value>1</value>
-      <description>No routing-entry for the indicated Target found</description>
-      <xref type="draft" data="RFC-ietf-roll-efficient-npdao-15"/>
-    </record>
-    <record>
-      <value>2-255</value>
-      <description>Unassigned</description>
-    </record>
-  </registry>
+
  
   <registry id="rpl-dco-ack-flags">
     <title>Destination Cleanup Object Acknowledgment (DCO) Acknowledgment Flags</title>
@@ -534,6 +570,7 @@
       <description>Unassigned</description>
     </record>
   </registry>
+
   
   <people/>
 </registry>

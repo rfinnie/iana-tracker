@@ -104,13 +104,13 @@ Tag,Name,"Data
 100,PCode,N,IEEE 1003.1 TZ String,[RFC4833]
 101,TCode,N,Reference to the TZ Database,[RFC4833]
 102-107,REMOVED/Unassigned,,,[RFC3679]
-108,REMOVED/Unassigned,,,[RFC3679]
+108,IPv6-Only Preferred,4,Number of seconds that DHCPv4 should be disabled,[RFC8925]
 109,OPTION_DHCP4O6_S46_SADDR,16,DHCPv4 over DHCPv6 Softwire Source Address Option,[RFC8539]
 110,REMOVED/Unassigned,,,[RFC3679]
 111,Unassigned,,,[RFC3679]
 112,Netinfo Address,N,NetInfo Parent Server Address,[RFC3679]
 113,Netinfo Tag,N,NetInfo Parent Server Tag,[RFC3679]
-114,URL,N,URL,[RFC3679]
+114,DHCP Captive-Portal,N,DHCP Captive-Portal,[RFC8910]
 115,REMOVED/Unassigned,,,[RFC3679]
 116,Auto-Config,N,DHCP Auto-Configuration,[RFC2563]
 117,Name Service Search,N,Name Service Search,[RFC2937]
@@ -163,7 +163,9 @@ applications",,,
 144,GeoLoc,16,Geospatial Location with Uncertainty,[RFC6225]
 145,FORCERENEW_NONCE_CAPABLE,1,Forcerenew Nonce Capable,[RFC6704]
 146,RDNSS Selection,N,Information for selecting RDNSS,[RFC6731]
-147-149,Unassigned,,,[RFC3942]
+147,OPTION_V4_DOTS_RI,N,The name of the peer DOTS agent.,[RFC-ietf-dots-server-discovery-15]
+148,OPTION_V4_DOTS_ADDRESS,N (the minimal length is 4),N/4 IPv4 addresses of peer DOTS agent(s).,[RFC-ietf-dots-server-discovery-15]
+149,Unassigned,,,[RFC3942]
 150,TFTP server address,,,[RFC5859]
 150,Etherboot,,,
 150,GRUB configuration path name,,,
@@ -174,11 +176,9 @@ applications",,,
 155,query-end-time,4,"Absolute time (seconds since Jan 1, 1970) for end of query.",[RFC6926]
 156,dhcp-state,1,State of IP address.,[RFC6926]
 157,data-source,1,Indicates information came from local or remote server.,[RFC6926]
-158,OPTION_V4_PCP_SERVER,Variable; the minimum length is 5.,"Includes one or multiple lists of PCP server IP addresses; 
-      each list is treated as a separate PCP server.",[RFC7291]
-159,OPTION_V4_PORTPARAMS,4,"This option is used to configure a set of ports bound to a 
-      shared IPv4 address.",[RFC7618]
-160,DHCP Captive-Portal,N,DHCP Captive-Portal,[RFC7710]
+158,OPTION_V4_PCP_SERVER,Variable; the minimum length is 5.,Includes one or multiple lists of PCP server IP addresses; each list is treated as a separate PCP server.,[RFC7291]
+159,OPTION_V4_PORTPARAMS,4,This option is used to configure a set of ports bound to a shared IPv4 address.,[RFC7618]
+160,Unassigned,,Previously assigned by [RFC7710]; known to also be used by Polycom.,[RFC7710][RFC8910]
 161,OPTION_MUD_URL_V4,N (variable),Manufacturer Usage Descriptions,[RFC8520]
 162-174,Unassigned,,,[RFC3942]
 175,"Etherboot (Tentatively Assigned -

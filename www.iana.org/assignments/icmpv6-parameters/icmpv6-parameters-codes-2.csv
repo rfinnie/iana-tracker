@@ -7,3 +7,4 @@ Code,Name,Reference
 5,source address failed ingress/egress policy,[RFC4443]
 6,reject route to destination,[RFC4443]
 7,Error in Source Routing Header,[RFC6550][RFC6554]
+8,Headers too long,[RFC8883]

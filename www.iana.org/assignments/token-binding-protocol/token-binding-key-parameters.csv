@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,rsa2048_pkcs1.5,[RFC-ietf-uta-token-binding-protocol-21]
+1,rsa2048_pss,[RFC-ietf-uta-token-binding-protocol-21]
+2,ecdsap256,[RFC-ietf-uta-token-binding-protocol-21]
+3-255,Unassigned,

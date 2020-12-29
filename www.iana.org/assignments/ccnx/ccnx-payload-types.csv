@@ -1,0 +1,5 @@
+Type,Name,Reference
+0x00,T_PAYLOADTYPE_DATA,"[RFC8609, Section 3.6.2.2.1]"
+0x01,T_PAYLOADTYPE_KEY,"[RFC8609, Section 3.6.2.2.1]"
+0x02,T_PAYLOADTYPE_LINK,"[RFC8609, Section 3.6.2.2.1]"
+0x03-0xFF,Unassigned,

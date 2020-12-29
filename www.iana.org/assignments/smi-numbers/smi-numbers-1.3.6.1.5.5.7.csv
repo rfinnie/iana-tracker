@@ -23,4 +23,5 @@ Decimal,Description,References
 21,Proxy certificate policy languages,[RFC7299]
 22,Matching rules,[RFC7299]
 23,Subject key identifier semantics,[RFC7299]
+24,Simple Certificate Enrollment Protocol Attributes,[RFC8894]
 48,Access descriptors,[RFC7299]

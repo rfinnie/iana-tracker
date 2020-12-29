@@ -20,8 +20,7 @@ LFB Class Identifier,LFB Class Name,LFB Version,Description,Reference
 16,BasicMetadata Dispatch,1.0,Dispatch input packets to a group output according to a metadata.,"[RFC6956], section 5.5.1"
 17,GenericScheduler,1.0,Define a preliminary generic scheduling process.,"[RFC6956], section 5.5.2"
 18,IFE,1.0,An IFE LFB to standardize inter-FE LFB for ForCES Network Elements,[RFC8013]
-19,SM,1.0,"An SM LFB to standardize subsidiary management for ForCES 
-      Network Elements",[RFC7729]
+19,SM,1.0,An SM LFB to standardize subsidiary management for ForCES Network Elements,[RFC7729]
 20-65536,Unassigned,,,
 65537,Ext-Splitter,1.0,"A splitter LFB will either send the 
 same packet or chunks of one packet 

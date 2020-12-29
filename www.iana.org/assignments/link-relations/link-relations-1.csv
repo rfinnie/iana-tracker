@@ -40,11 +40,8 @@ describes,"The relationship A 'describes' B asserts that
         'describes' established a relation from the describing resource to
         the resource it describes.  If B is 'describedby' A, then A
         'describes' B."
-disclosure,"Refers to a list of patent disclosures made with respect to 
-      material for which 'disclosure' relation is specified.",[RFC6579],
-dns-prefetch,"Used to indicate an origin that will be used to fetch required 
-      resources for the link context, and that the user agent ought to resolve 
-      as early as possible.",[Resource Hints],
+disclosure,Refers to a list of patent disclosures made with respect to material for which 'disclosure' relation is specified.,[RFC6579],
+dns-prefetch,"Used to indicate an origin that will be used to fetch required resources for the link context, and that the user agent ought to resolve as early as possible.",[Resource Hints],
 duplicate,"Refers to a resource whose available representations
       are byte-for-byte identical with the corresponding representations of
       the context IRI.",[RFC6249],"This relation is for static resources.  That is, an HTTP GET
@@ -65,7 +62,7 @@ first,"An IRI that refers to the furthest preceding resource
       reference.  Originally requested by Mark Nottingham in December
       2004."
 glossary,Refers to a glossary of terms.,[HTML 4.01 Specification],
-help,Refers to context-sensitive help.,[HTML 4.01 Specification],
+help,Refers to context-sensitive help.,[HTML],
 hosts,"Refers to a resource hosted by the server indicated by
       the link context.",[RFC6690],"This relation is used in CoRE where links are retrieved as a
       ""/.well-known/core"" resource representation, and is the default
@@ -96,8 +93,7 @@ last,"An IRI that refers to the furthest following resource
       2004."
 latest-version,"Points to a resource containing the latest (e.g.,
       current) version of the context.",[RFC5829],
-license,Refers to a license associated with this context.,[RFC4946],"For implications of use in HTML, see: 
-      http://www.w3.org/TR/html5/links.html#link-type-license"
+license,Refers to a license associated with this context.,[RFC4946],"For implications of use in HTML, see: http://www.w3.org/TR/html5/links.html#link-type-license"
 lrdd,"Refers to further information about the link's context,
       expressed as a LRDD (""Link-based Resource Descriptor Document"")
       resource.  See [RFC6415] for information about
@@ -108,6 +104,7 @@ lrdd,"Refers to further information about the link's context,
       MAY have others.",[RFC6415],
 manifest,Links to a manifest file for the context.,[Web App Manifest],
 mask-icon,Refers to a mask that can be applied to the icon for the context.,[Creating Pinned Tab Icons],
+media-feed,Refers to a feed of personalised media recommendations relevant to the link context.,[https://wicg.github.io/media-feeds/#discovery-of-media-feeds],
 memento,"The Target IRI points to a Memento, a fixed resource that will not change state anymore.",[RFC7089],"A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource."
 micropub,Links to the context's Micropub endpoint.,[Micropub],
@@ -142,23 +139,12 @@ payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation
       that points to the location where the book may be purchased
       through an online retailer."
 pingback,Gives the address of the pingback resource for the link context.,[Pingback 1.0],
-preconnect,"Used to indicate an origin that will be used to fetch required 
-      resources for the link context. Initiating an early connection, which 
-      includes the DNS lookup, TCP handshake, and optional TLS negotiation, 
-      allows the user agent to mask the high latency costs of establishing a 
-      connection.",[Resource Hints],
+preconnect,"Used to indicate an origin that will be used to fetch required resources for the link context. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection.",[Resource Hints],
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
-prefetch,"The prefetch link relation type is used to identify a resource 
-      that might be required by the next navigation from the link context, and 
-      that the user agent ought to fetch, such that the user agent can deliver a 
-      faster response once the resource is requested in the future.",[Resource Hints],
-preload,"Refers to a resource that should be loaded early in the 
-      processing of the link's context, without blocking rendering.",[Preload],Additional target attributes establish the detailed fetch properties of the link.
-prerender,"Used to identify a resource that might be required by the next 
-      navigation from the link context, and that the user agent ought to fetch 
-      and execute, such that the user agent can deliver a faster response once 
-      the resource is requested in the future.",[Resource Hints],
+prefetch,"The prefetch link relation type is used to identify a resource that might be required by the next navigation from the link context, and that the user agent ought to fetch, such that the user agent can deliver a faster response once the resource is requested in the future.",[Resource Hints],
+preload,"Refers to a resource that should be loaded early in the processing of the link's context, without blocking rendering.",[Preload],Additional target attributes establish the detailed fetch properties of the link.
+prerender,"Used to identify a resource that might be required by the next navigation from the link context, and that the user agent ought to fetch and execute, such that the user agent can deliver a faster response once the resource is requested in the future.",[Resource Hints],
 prev,"Indicates that the link's context is a part of a series, and
       that the previous in the series is the link target.",[HTML],
 preview,Refers to a resource that provides a preview of the link's context.,"[RFC6903], section 3",
@@ -171,16 +157,14 @@ to a certain profile, without affecting the non-profile semantics
 of the resource representation.",[RFC6906],"Profile URIs are primarily intended to be used as
 identifiers, and thus clients SHOULD NOT indiscriminately access
 profile URIs."
-publication,"Links to a publication manifest. A manifest represents 
-      structured information about a publication, such as informative metadata, 
-      a list of resources, and a default reading order.",[Publication Manifest],
+publication,"Links to a publication manifest. A manifest represents structured information about a publication, such as informative metadata, a list of resources, and a default reading order.",[Publication Manifest],
 related,Identifies a related resource.,[RFC4287],
 restconf,"Identifies the root of RESTCONF API as configured on this HTTP server.
       The ""restconf"" relation defines the root of the API defined in RFC8040.
-      Subsequent revisions of RESTCONF will use alternate relation values to support 
-      protocol versioning.",[RFC8040],
+      Subsequent revisions of RESTCONF will use alternate relation values to support protocol versioning.",[RFC8040],
 replies,"Identifies a resource that is a reply to the context
       of the link.",[RFC4685],
+ruleinput,"The resource identified by the link target provides an input value to an instance of a rule, where the resource which represents the rule instance is identified by the link context.",[OCF Core Optional 2.2.0],
 search,"Refers to a resource that can be used to search through
       the link's context and related resources.",[OpenSearch],
 section,Refers to a section in a collection of resources.,[HTML 4.01 Specification],
@@ -195,8 +179,7 @@ service-doc,"Identifies service documentation for the context that
       is primarily intended for human consumption.",[RFC8631],
 service-meta,"Identifies general metadata for the context that is
       primarily intended for consumption by machines.",[RFC8631],
-sponsored,"Refers to a resource that is within a context that is 
-		sponsored (such as advertising or another compensation agreement).",[Google Blog post 09-2019],
+sponsored,Refers to a resource that is within a context that is sponsored (such as advertising or another compensation agreement).,[Google Blog post 09-2019],
 start,"Refers to the first resource in a collection of
       resources.",[HTML 4.01 Specification],
 status,"Identifies a resource that represents the context's
@@ -225,7 +208,7 @@ version-history,"Points to a resource containing the version history
       for the context.",[RFC5829],
 via,"Identifies a resource that is the source of the
       information in the link's context.",[RFC4287],
-webmention,"Identifies a target URI that supports the Webmention protcol.
+webmention,"Identifies a target URI that supports the Webmention protocol.
     This allows clients that mention a resource in some form of publishing process
     to contact that endpoint and inform it that this resource has been mentioned.",[Webmention],"This is a similar ""Linkback"" mechanism to the ones of Refback, Trackback, and Pingback.
     It uses a different protocol, though, and thus should be discoverable through its own link

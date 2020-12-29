@@ -36,15 +36,13 @@ REFERRAL,<sieveurl>,"This response code may be returned with a BYE result from
         further commands in the current session.",[RFC5804],Alexey Melnikov (alexey.melnikov@isode.com),IESG
 SASL,<string>,"This response code can occur in the OK response to a
         successful AUTHENTICATE command and includes the optional final
-        server response data from the server as specified by 
-        [RFC4422].",[RFC5804],Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        server response data from the server as specified by [RFC4422].",[RFC5804],Alexey Melnikov (alexey.melnikov@isode.com),IESG
 TRANSITION-NEEDED,NONE,"This response code occurs in a NO response of an
         AUTHENTICATE command.  It indicates that the user name is valid,
         but the entry in the authentication database needs to be updated
         in order to permit authentication with the specified mechanism.
         This is typically done by establishing a secure channel using TLS,
-        followed by authenticating once using the PLAIN [RFC4616] 
-        authentication mechanism.  The selected mechanism SHOULD then work for
+        followed by authenticating once using the PLAIN [RFC4616] authentication mechanism.  The selected mechanism SHOULD then work for
         authentications in subsequent sessions.",[RFC5804],Alexey Melnikov (alexey.melnikov@isode.com),IESG
 TRYLATER,NONE,"A command failed due to a temporary server failure.  The
         client MAY continue using local information and try the command

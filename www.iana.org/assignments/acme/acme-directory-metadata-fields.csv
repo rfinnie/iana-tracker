@@ -1,0 +1,6 @@
+Field Name,Field Type,Reference
+termsOfService,string,[RFC8555]
+website,string,[RFC8555]
+caaIdentities,array of string,[RFC8555]
+externalAccountRequired,boolean,[RFC8555]
+auto-renewal,object,[RFC8739]

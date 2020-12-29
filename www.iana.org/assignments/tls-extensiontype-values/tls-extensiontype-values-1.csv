@@ -26,7 +26,7 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 24,token_binding,-,Y,[RFC8472]
 25,cached_info,-,Y,[RFC7924]
 26,tls_lts,-,N,[draft-gutmann-tls-lts]
-27,compress_certificate,"CH, CR",Y,[RFC-ietf-tls-certificate-compression-09]
+27,compress_certificate,"CH, CR",Y,[RFC8879]
 28,record_size_limit,"CH, EE",Y,[RFC8449]
 29,pwd_protect,CH,N,[RFC8492]
 30,pwd_clear,CH,N,[RFC8492]
@@ -35,7 +35,11 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 33,tls_cert_with_extern_psk,"CH, SH",N,[RFC8773]
 34,delegated_credentials,"CH, CR, CT",N,[draft-ietf-tls-subcerts]
 35,"session_ticket (renamed from ""SessionTicket TLS"")",-,Y,[RFC5077][RFC8447]
-36-40,Unassigned,,,
+36,TLMSP,-,N,[ETSI TS 103 523-2]
+37,TLMSP_proxying,-,N,[ETSI TS 103 523-2]
+38,TLMSP_delegate,-,N,[ETSI TS 103 523-2]
+39,supported_ekt_ciphers,"CH, SH",Y,[RFC-ietf-perc-srtp-ekt-diet-13]
+40,Unassigned,,,
 41,pre_shared_key,"CH, SH",Y,[RFC8446]
 42,early_data,"CH, EE, NST",Y,[RFC8446]
 43,supported_versions,"CH, SH, HRR",Y,[RFC8446]
@@ -48,12 +52,12 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 50,signature_algorithms_cert,"CH, CR",Y,[RFC8446]
 51,key_share,"CH, SH, HRR",Y,[RFC8446]
 52,transparency_info,"CH, CR, CT",N,[draft-ietf-trans-rfc6962-bis]
-53,"connection_id 
-        (TEMPORARY - registered 2019-07-02, expires 2020-07-02)",-,N,[draft-ietf-tls-dtls-connection-id]
+53,"connection_id (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires 2021-07-02)",-,N,[draft-ietf-tls-dtls-connection-id]
 54,Unassigned,,,
 55,external_id_hash,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
 56,external_session_id,"CH, EE",Y,[RFC-ietf-mmusic-sdp-uks-07]
-57-2569,Unassigned,,,
+57,quic_transport_parameters,"CH, EE",N,[draft-ietf-quic-tls-32]
+58-2569,Unassigned,,,
 2570,Reserved,"CH, CR, NST",N,[RFC8701]
 2571-6681,Unassigned,,,
 6682,Reserved,"CH, CR, NST",N,[RFC8701]

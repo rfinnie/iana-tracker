@@ -4,8 +4,7 @@ delegated to the COSE Header Algorithm Parameters registry,-65536 to -1,,,,
 Reserved,0,,,,[RFC8152]
 alg,1,int / tstr,COSE Algorithms registry,Cryptographic algorithm to use,[RFC8152]
 crit,2,[+ label],COSE Header Parameters registry,Critical headers to be understood,[RFC8152]
-content type,3,tstr / uint,"[COAP Content-Formats] 
-        or [Media Types] registry",Content type of the payload,[RFC8152]
+content type,3,tstr / uint,[COAP Content-Formats] or [Media Types] registry,Content type of the payload,[RFC8152]
 kid,4,bstr,,Key identifier,[RFC8152]
 IV,5,bstr,,Full Initialization Vector,[RFC8152]
 Partial IV,6,bstr,,Partial Initialization Vector,[RFC8152]
@@ -14,7 +13,7 @@ Unassigned,8,,,,
 CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC8152]
 kid context,10,bstr,,Identifies the context for the key identifier,"[RFC8613, Section 5.1]"
 Unassigned,11-31,,,,
-"x5bag (TEMPORARY - registered 2019-08-20, expires 2020-08-20)",32,COSE_X509,,An unordered bag of X.509 certificates,[draft-ietf-cose-x509]
-"x5chain (TEMPORARY - registered 2019-08-20, expires 2020-08-20)",33,COSE_X509,,An ordered chain of X.509 certificates,[draft-ietf-cose-x509]
-"x5t (TEMPORARY - registered 2019-08-20, expires 2020-08-20)",34,COSE_CertHash,,Hash of an X.509 certificate,[draft-ietf-cose-x509]
-"x5u (TEMPORARY - registered 2019-08-20, expires 2020-08-20)",35,uri,,URI pointing to an X.509 certificate,[draft-ietf-cose-x509]
+"x5bag (TEMPORARY - registered 2019-08-20, extension registered 2020-07-28, expires 2021-08-20)",32,COSE_X509,,An unordered bag of X.509 certificates,[draft-ietf-cose-x509]
+"x5chain (TEMPORARY - registered 2019-08-20, extension registered 2020-07-28, expires 2021-08-20)",33,COSE_X509,,An ordered chain of X.509 certificates,[draft-ietf-cose-x509]
+"x5t (TEMPORARY - registered 2019-08-20, extension registered 2020-07-28, expires 2021-08-20)",34,COSE_CertHash,,Hash of an X.509 certificate,[draft-ietf-cose-x509]
+"x5u (TEMPORARY - registered 2019-08-20, extension registered 2020-07-28, expires 2021-08-20)",35,uri,,URI pointing to an X.509 certificate,[draft-ietf-cose-x509]

@@ -4,7 +4,7 @@
            2011-04-08
 
    Last Updated
-           2019-07-18
+           2020-12-15
 
    Available Formats
            [IMG]
@@ -31,7 +31,6 @@
      * Transit Information Option Flags
      * Solicited Information Option Flags
      * Destination Cleanup Object (DCO) Flags
-     * Destination Cleanup Object Acknowledgment (DCO-ACK) Status
      * Destination Cleanup Object Acknowledgment (DCO) Acknowledgment Flags
 
 RPL Control Codes
@@ -105,18 +104,19 @@ RPL Control Message Options
            [IMG]
            CSV
 
-   Value        Meaning        Reference
-   0x00  Pad1                  [RFC6550]
-   0x01  PadN                  [RFC6550]
-   0x02  DAG Metric Container  [RFC6550]
-   0x03  Routing Information   [RFC6550]
-   0x04  DODAG Configuration   [RFC6550]
-   0x05  RPL Target            [RFC6550]
-   0x06  Transit Information   [RFC6550]
-   0x07  Solicited Information [RFC6550]
-   0x08  Prefix Information    [RFC6550]
-   0x09  Target Descriptor     [RFC6550]
-   0x0a  P2P Route Discovery   [RFC6997]
+     Value          Meaning        Reference
+   0x00      Pad1                  [RFC6550]
+   0x01      PadN                  [RFC6550]
+   0x02      DAG Metric Container  [RFC6550]
+   0x03      Routing Information   [RFC6550]
+   0x04      DODAG Configuration   [RFC6550]
+   0x05      RPL Target            [RFC6550]
+   0x06      Transit Information   [RFC6550]
+   0x07      Solicited Information [RFC6550]
+   0x08      Prefix Information    [RFC6550]
+   0x09      Target Descriptor     [RFC6550]
+   0x0A      P2P Route Discovery   [RFC6997]
+   0x0B-0xFF Unassigned
 
 Objective Code Point (OCP)
 
@@ -131,9 +131,10 @@ Objective Code Point (OCP)
            [IMG]
            CSV
 
-   Code                                        Description                                        Reference
-   0    A basic Objective Function that relies only on the objects that are defined in [RFC6550]. [RFC6552]
-   1    Minimum Rank with Hysteresis Objective Function (MRHOF)                                   [RFC6719]
+    Code                                          Description                                        Reference
+   0       A basic Objective Function that relies only on the objects that are defined in [RFC6550]. [RFC6552]
+   1       Minimum Rank with Hysteresis Objective Function (MRHOF)                                   [RFC6719]
+   2-65535 Unassigned
 
 Security Section Algorithm
 
@@ -150,6 +151,7 @@ Security Section Algorithm
 
    Value  Encryption/MAC     Signature     Reference
    0     CCM with AES-128 RSA with SHA-256 [RFC6550]
+   1-255 Unassigned       Unassigned
 
 Security Section Flags
 
@@ -160,8 +162,12 @@ Security Section Flags
    Reference
            [RFC6550]
 
+   Available Formats
+           [IMG]
+           CSV
+
    Bit Number Capability Description Reference
-   No registrations at this time.
+   0-7        Unassigned
 
 Per-KIM Security Levels
 
@@ -203,8 +209,12 @@ DODAG Informational Solicitation (DIS) Flags
    Reference
            [RFC6550]
 
+   Available Formats
+           [IMG]
+           CSV
+
    Bit Number Capability Description Reference
-   No registrations at this time.
+   0-7        Unassigned
 
 DODAG Information Object (DIO) Flags
 
@@ -215,8 +225,12 @@ DODAG Information Object (DIO) Flags
    Reference
            [RFC6550]
 
+   Available Formats
+           [IMG]
+           CSV
+
    Bit Number Capability Description Reference
-   No registrations at this time.
+   0-7        Unassigned
 
 Destination Advertisement Object (DAO) Flags
 
@@ -234,6 +248,7 @@ Destination Advertisement Object (DAO) Flags
    Bit Number    Capability Description    Reference
    0          DAO-ACK request (K)          [RFC6550]
    1          DODAGID field is present (D) [RFC6550]
+   2-7        Unassigned
 
 Destination Advertisement Object (DAO) Acknowledgment Flags
 
@@ -250,6 +265,7 @@ Destination Advertisement Object (DAO) Acknowledgment Flags
 
    Bit Number    Capability Description    Reference
    0          DODAGID field is present (D) [RFC6550]
+   1-7        Unassigned
 
 Consistency Check (CC) Flags
 
@@ -266,6 +282,7 @@ Consistency Check (CC) Flags
 
    Bit Number Capability Description Reference
    0          CC Response (R)        [RFC6550]
+   1-7        Unassigned
 
 DODAG Configuration Option Flags
 
@@ -281,6 +298,7 @@ DODAG Configuration Option Flags
            CSV
 
    Bit Number   Capability Description              Reference
+   0-2        Unassigned
    3          RPI 0x23 enable            [RFC-ietf-roll-useofrplinfo-31]
    4          Authentication Enabled (A) [RFC6550]
    5-7        Path Control Size (PCS)    [RFC6550]
@@ -294,8 +312,12 @@ RPL Target Option Flags
    Reference
            [RFC6550]
 
+   Available Formats
+           [IMG]
+           CSV
+
    Bit Number Capability Description Reference
-   No registrations at this time.
+   0-7        Unassigned
 
 Transit Information Option Flags
 
@@ -313,6 +335,7 @@ Transit Information Option Flags
    Bit Number    Capability Description                 Reference
    0          External (E)                  [RFC6550]
    1          Invalidate previous route (I) [RFC-ietf-roll-efficient-npdao-15]
+   2-7        Unassigned
 
 Solicited Information Option Flags
 
@@ -331,6 +354,7 @@ Solicited Information Option Flags
    0          Version Predicate match (V)    [RFC6550]
    1          InstanceID Predicate match (I) [RFC6550]
    2          DODAGID Predicate match (D)    [RFC6550]
+   3-7        Unassigned
 
 Destination Cleanup Object (DCO) Flags
 
@@ -349,24 +373,6 @@ Destination Cleanup Object (DCO) Flags
    0          DCO-ACK request (K)          [RFC-ietf-roll-efficient-npdao-15]
    1          DODAGID field is present (D) [RFC-ietf-roll-efficient-npdao-15]
    2-7        Unassigned
-
-Destination Cleanup Object Acknowledgment (DCO-ACK) Status
-
-   Registration Procedure(s)
-
- IETF Review
-
-   Reference
-           [RFC-ietf-roll-efficient-npdao-15]
-
-   Available Formats
-           [IMG]
-           CSV
-
-   Status Code                   Description                               Reference
-   0           Unqualified acceptance                          [RFC-ietf-roll-efficient-npdao-15]
-   1           No routing-entry for the indicated Target found [RFC-ietf-roll-efficient-npdao-15]
-   2-255       Unassigned
 
 Destination Cleanup Object Acknowledgment (DCO) Acknowledgment Flags
 

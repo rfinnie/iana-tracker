@@ -92,8 +92,7 @@ of entity that is available at this URI.",[RFC3840]
 UA is a conference server, also known
 as a focus, and will mix together the
 media for all calls to the same URI.",[RFC3840]
-19,sip.byeless,"The feature tag is a boolean flag.              
-    When set it indicates that the device
+19,sip.byeless,"The feature tag is a boolean flag. When set it indicates that the device
 is incapable of terminating a session
 autonomously.",[RFC4235]
 20,sip.rendering,"This feature tag contains one of three          

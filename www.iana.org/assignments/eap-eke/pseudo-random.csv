@@ -1,7 +1,6 @@
 Value,Name,Definition,Reference
 0,Reserved,,[RFC6124]
 1,PRF_HMAC_SHA1,"HMAC SHA-1, as defined in [RFC2104]",[RFC6124]
-2,PRF_HMAC_SHA2_256,"HMAC SHA-2-256 [National Institute of Standards and Technology, U.S. 
-        Department of Commerce, ""Secure Hash Standard"", NIST FIPS 180-3, October 2008.]",[RFC6124]
+2,PRF_HMAC_SHA2_256,"HMAC SHA-2-256 [National Institute of Standards and Technology, U.S. Department of Commerce, ""Secure Hash Standard"", NIST FIPS 180-3, October 2008.]",[RFC6124]
 3-127,Unassigned,,
 128-255,Reserved for Private Use,,[RFC6124]

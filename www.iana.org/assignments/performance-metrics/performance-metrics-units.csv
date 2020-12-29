@@ -1,0 +1,12 @@
+Identifier,Name,Description,Reference,Change Controller
+Units,Seconds,Seconds,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Ratio,unitless,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Percent,value multiplied by 100%,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Logical,1 or 0,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Packets,Packets,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,BPS,Bits per Second,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,PPS,Packets per Second,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,EventTotal,for unit-less counts,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Multiple,more than one type of unit,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Enumerated,a list of outcomes,[RFC-ietf-ippm-metric-registry-24],IETF
+Units,Unitless,Unitless,[RFC-ietf-ippm-metric-registry-24],IETF

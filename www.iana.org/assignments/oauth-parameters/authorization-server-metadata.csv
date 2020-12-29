@@ -1,0 +1,66 @@
+Metadata Name,Metadata Description,Change Controller,Reference
+issuer,Authorization server's issuer identifier URL,IESG,"[RFC8414, Section 2]"
+authorization_endpoint,URL of the authorization server's authorization endpoint,IESG,"[RFC8414, Section 2]"
+token_endpoint,URL of the authorization server's token endpoint,IESG,"[RFC8414, Section 2]"
+jwks_uri,URL of the authorization server's JWK Set document,IESG,"[RFC8414, Section 2]"
+registration_endpoint,URL of the authorization server's OAuth 2.0 Dynamic Client Registration Endpoint,IESG,"[RFC8414, Section 2]"
+scopes_supported,"JSON array containing a list of the OAuth 2.0 ""scope"" values that this authorization server supports",IESG,"[RFC8414, Section 2]"
+response_types_supported,"JSON array containing a list of the OAuth 2.0 ""response_type"" values that this authorization server supports",IESG,"[RFC8414, Section 2]"
+response_modes_supported,"JSON array containing a list of the OAuth 2.0 ""response_mode"" values that this authorization server supports",IESG,"[RFC8414, Section 2]"
+grant_types_supported,JSON array containing a list of the OAuth 2.0 grant type values that this authorization server supports,IESG,"[RFC8414, Section 2]"
+token_endpoint_auth_methods_supported,JSON array containing a list of client authentication methods supported by this token endpoint,IESG,"[RFC8414, Section 2]"
+token_endpoint_auth_signing_alg_values_supported,"JSON array containing a list of the JWS signing algorithms supported by the token endpoint for the
+        signature on the JWT used to authenticate the client at the token endpoint",IESG,"[RFC8414, Section 2]"
+service_documentation,"URL of a page containing human-readable information that developers might want or need to know when using
+        the authorization server",IESG,"[RFC8414, Section 2]"
+ui_locales_supported,"Languages and scripts supported for the user interface, represented as a JSON array of language tag values from BCP 47 [RFC5646]",IESG,"[RFC8414, Section 2]"
+op_policy_uri,"URL that the authorization server provides to the person registering the client to read about the
+        authorization server's requirements on how the client can use the data provided by the authorization server",IESG,"[RFC8414, Section 2]"
+op_tos_uri,"URL that the authorization server provides to the person registering the client to read about the
+        authorization server's terms of service",IESG,"[RFC8414, Section 2]"
+revocation_endpoint,URL of the authorization server's OAuth 2.0 revocation endpoint,IESG,"[RFC8414, Section 2]"
+revocation_endpoint_auth_methods_supported,JSON array containing a list of client authentication methods supported by this revocation endpoint,IESG,"[RFC8414, Section 2]"
+revocation_endpoint_auth_signing_alg_values_supported,"JSON array containing a list of the JWS signing algorithms supported by the revocation endpoint
+        for the signature on the JWT used to authenticate the client at the revocation endpoint",IESG,"[RFC8414, Section 2]"
+introspection_endpoint,URL of the authorization server's OAuth 2.0 introspection endpoint,IESG,"[RFC8414, Section 2]"
+introspection_endpoint_auth_methods_supported,JSON array containing a list of client authentication methods supported by this introspection endpoint,IESG,"[RFC8414, Section 2]"
+introspection_endpoint_auth_signing_alg_values_supported,"JSON array containing a list of the JWS signing algorithms supported by the introspection endpoint for the
+        signature on the JWT used to authenticate the client at the introspection endpoint",IESG,"[RFC8414, Section 2]"
+code_challenge_methods_supported,PKCE code challenge methods supported by this authorization server,IESG,"[RFC8414, Section 2]"
+signed_metadata,"Signed JWT containing metadata values about
+        the authorization server as claims",IESG,"[RFC8414, Section 2.1]"
+device_authorization_endpoint,URL of the authorization server's device authorization endpoint,IESG,"[RFC8628, Section 4]"
+tls_client_certificate_bound_access_tokens,"Indicates authorization server support for
+        mutual-TLS client certificate-bound access tokens.",IESG,"[RFC8705, Section 3.3]"
+mtls_endpoint_aliases,"JSON object containing alternative
+        authorization server endpoints, which a client intending to do
+        mutual TLS will use in preference to the conventional endpoints.",IESG,"[RFC8705, Section 5]"
+nfv_token_signing_alg_values_supported,"JSON array containing a list of the JWS signing algorithms supported by the
+        server for signing the JWT used as NFV Token",[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
+nfv_token_encryption_alg_values_supported,"JSON array containing a list of the JWE encryption algorithms (alg values)
+        supported by the server to encode the JWT used as NFV Token",[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
+nfv_token_encryption_enc_values_supported,"JSON array containing a list of the JWE encryption algorithms (enc values)
+        supported by the server to encode the JWT used as NFV Token",[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
+userinfo_endpoint,URL of the OP's UserInfo Endpoint,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+acr_values_supported,JSON array containing a list of the Authentication Context Class References that this OP supports,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+subject_types_supported,JSON array containing a list of the Subject Identifier types that this OP supports,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+id_token_signing_alg_values_supported,"JSON array containing a list of the JWS ""alg"" values supported by the OP for the ID Token",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+id_token_encryption_alg_values_supported,"JSON array containing a list of the JWE ""alg"" values supported by the OP for the ID Token",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+id_token_encryption_enc_values_supported,"JSON array containing a list of the JWE ""enc"" values supported by the OP for the ID Token",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+userinfo_signing_alg_values_supported,"JSON array containing a list of the JWS ""alg"" values supported by the UserInfo Endpoint",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+userinfo_encryption_alg_values_supported,"JSON array containing a list of the JWE ""alg"" values supported by the UserInfo Endpoint",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+userinfo_encryption_enc_values_supported,"JSON array containing a list of the JWE ""enc"" values supported by the UserInfo Endpoint",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+request_object_signing_alg_values_supported,"JSON array containing a list of the JWS ""alg"" values supported by the OP for Request Objects",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+request_object_encryption_alg_values_supported,"JSON array containing a list of the JWE ""alg"" values supported by the OP for Request Objects",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+request_object_encryption_enc_values_supported,"JSON array containing a list of the JWE ""enc"" values supported by the OP for Request Objects",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+display_values_supported,"JSON array containing a list of the ""display"" parameter values that the OpenID Provider supports",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+claim_types_supported,JSON array containing a list of the Claim Types that the OpenID Provider supports,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+claims_supported,JSON array containing a list of the Claim Names of the Claims that the OpenID Provider MAY be able to supply values for,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+claims_locales_supported,"Languages and scripts supported for values in Claims being returned, represented as a JSON array of BCP 47 [RFC5646] language tag values",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+claims_parameter_supported,"Boolean value specifying whether the OP supports use of the ""claims"" parameter",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+request_parameter_supported,"Boolean value specifying whether the OP supports use of the ""request"" parameter",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+request_uri_parameter_supported,"Boolean value specifying whether the OP supports use of the ""request_uri"" parameter",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+require_request_uri_registration,"Boolean value specifying whether the OP requires any ""request_uri"" values used to be pre-registered",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
+require_signed_request_object,"Indicates where authorization request needs
+        to be protected as Request Object and provided through either
+        ""request"" or ""request_uri parameter"".",IETF,"[RFC-ietf-oauth-jwsreq-28, Section 10.5]"

@@ -5,4 +5,4 @@ std,[RFC2648],none
 bcp,[RFC2648],none
 id,[RFC2648],none
 mtg,[RFC2648],none
-params,[RFC3553],[http://www.iana.org/assignments/params/params.xml#params-1]
+params,[RFC3553],[https://www.iana.org/assignments/params/params.xml#params-1]

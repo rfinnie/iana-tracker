@@ -1,10 +1,4 @@
 Bits,Field,Reference
-0-3,"Version
-
-        Value = 0x0",[RFC8205]
-4,"Direction
-
-        (Both possible values 0 and 1 are fully specified by [RFC8205])",[RFC8205]
-5-7,"Unassigned
-
-        Value = 000 (in binary)",[RFC8205]
+0-3,Version Value = 0x0,[RFC8205]
+4,Direction (Both possible values 0 and 1 are fully specified by [RFC8205]),[RFC8205]
+5-7,Unassigned Value = 000 (in binary),[RFC8205]

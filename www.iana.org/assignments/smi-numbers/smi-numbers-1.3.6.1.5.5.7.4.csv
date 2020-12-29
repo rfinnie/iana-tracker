@@ -15,3 +15,6 @@ Decimal,Description,References
 14,id-it-confirmWaitTime,[RFC4210]
 15,id-it-origPKIMessage,[RFC4210]
 16,id-it-suppLangTags,[RFC4210]
+17,id-it-caCerts,[draft-ietf-lamps-lightweight-cmp-profile]
+18,id-it-rootCaKeyUpdate,[draft-ietf-lamps-lightweight-cmp-profile]
+19,id-it-certReqTemplate,[draft-ietf-lamps-lightweight-cmp-profile]

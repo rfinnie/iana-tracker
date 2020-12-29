@@ -1,0 +1,8 @@
+Label,Identifier Type,ACME,Reference
+http-01,dns,Y,[RFC8555]
+dns-01,dns,Y,[RFC8555]
+tls-sni-01,RESERVED,N,[RFC8555]
+tls-sni-02,RESERVED,N,[RFC8555]
+http-01,ip,Y,[RFC8738]
+tls-alpn-01,ip,Y,[RFC8738]
+tls-alpn-01,dns,Y,[RFC8737]

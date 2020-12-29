@@ -1,0 +1,8 @@
+Value,Description,Reference
+0,Reserved,[RFC-ietf-ippm-stamp-option-tlv-10]
+1,Network available,[RFC-ietf-ippm-stamp-option-tlv-10]
+2,Network unavailable,[RFC-ietf-ippm-stamp-option-tlv-10]
+3-239,Unassigned,
+240-249,Reserved for Experimental Use,[RFC-ietf-ippm-stamp-option-tlv-10]
+250-254,Reserved for Private Use,[RFC-ietf-ippm-stamp-option-tlv-10]
+255,Reserved,

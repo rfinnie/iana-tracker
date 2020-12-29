@@ -1,0 +1,4 @@
+Bit Position,Name,Short Name,Reference
+0,Restart State,R,[RFC4724]
+1,Notification,N,[RFC8538]
+2-3,Unassigned,,

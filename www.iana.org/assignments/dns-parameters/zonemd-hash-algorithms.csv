@@ -1,0 +1,7 @@
+Value,Description,Mnemonic,Reference
+0,Reserved,,[RFC-ietf-dnsop-dns-zone-digest-14]
+1,SHA-384,SHA384,[RFC-ietf-dnsop-dns-zone-digest-14]
+2,SHA-512,SHA512,[RFC-ietf-dnsop-dns-zone-digest-14]
+3-239,Unassigned,,
+240-254,Reserved for Private Use,N/A,[RFC-ietf-dnsop-dns-zone-digest-14]
+255,Reserved,,[RFC-ietf-dnsop-dns-zone-digest-14]

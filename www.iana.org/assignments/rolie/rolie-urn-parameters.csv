@@ -1,0 +1,6 @@
+Name,Extension URI,Reference,Subregistry
+category:information-type,urn:ietf:params:rolie:category:information-type,"[RFC8322, Section 8.4]",[https://www.iana.org/assignments/rolie/rolie.xhtml#information-type]
+property:content-author-name,urn:ietf:params:rolie:property:content-author-name,"[RFC8322, Section 7.4]",None
+property:content-id,urn:ietf:params:rolie:property:content-id,"[RFC8322, Section 7.4]",None
+property:content-published-date,urn:ietf:params:rolie:property:content-published-date,"[RFC8322, Section 7.4]",None
+property:content-updated-date,urn:ietf:params:rolie:property:content-updated-date,"[RFC8322, Section 7.4]",None

@@ -1,0 +1,4 @@
+Field Name,Field Type,Reference
+min-lifetime,integer,[RFC8739]
+max-duration,integer,[RFC8739]
+allow-certificate-get,boolean,[RFC8739]

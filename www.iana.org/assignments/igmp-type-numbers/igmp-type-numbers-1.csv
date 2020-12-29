@@ -15,4 +15,4 @@ Type,Name,Reference
 0x30,Multicast Router Advertisement,[RFC4286]
 0x31,Multicast Router Solicitation,[RFC4286]
 0x32,Multicast Router Termination,[RFC4286]
-0xf0-0xff,Reserved for experimentation,[RFC3228][BCP57]
+0xf0-0xff,Reserved for experimentation,[RFC3228]

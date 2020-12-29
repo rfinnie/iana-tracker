@@ -8,3 +8,4 @@ Decimal,Description,References
 7,id-on-dnsSRV,[RFC4985]
 8,id-on-naiRealm,[RFC7585]
 9,id-on-SmtpUTF8Mailbox,[RFC8398]
+10,id-on-AcpNodeName,[RFC-ietf-anima-autonomic-control-plane-30]

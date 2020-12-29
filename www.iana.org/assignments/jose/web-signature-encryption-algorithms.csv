@@ -46,3 +46,4 @@ A128CTR,AES CTR using 128 bit key,JWK,Prohibited,[W3C_Web_Cryptography_Working_G
 A192CTR,AES CTR using 192 bit key,JWK,Prohibited,[W3C_Web_Cryptography_Working_Group],[https://www.w3.org/TR/WebCryptoAPI],[draft-irtf-cfrg-webcrypto-algorithms]
 A256CTR,AES CTR using 256 bit key,JWK,Prohibited,[W3C_Web_Cryptography_Working_Group],[https://www.w3.org/TR/WebCryptoAPI],[draft-irtf-cfrg-webcrypto-algorithms]
 HS1,HMAC using SHA-1,JWK,Prohibited,[W3C_Web_Cryptography_Working_Group],[https://www.w3.org/TR/WebCryptoAPI],[draft-irtf-cfrg-webcrypto-algorithms]
+ES256K,ECDSA using secp256k1 curve and SHA-256,alg,Optional,[IESG],"[RFC8812, Section 3.2]",[SEC2]

@@ -1,7 +1,7 @@
                                                             Autonomous System (AS) Numbers
 
    Last Updated
-           2020-04-01
+           2020-11-02
 
    Note
 
@@ -194,7 +194,9 @@
        138554-139577     Assigned by APNIC                             whois.apnic.net   https://rdap.apnic.net/                  2017-12-07
        139578-140601     Assigned by APNIC                             whois.apnic.net   https://rdap.apnic.net/                  2019-06-12
        140602-141625     Assigned by APNIC                             whois.apnic.net   https://rdap.apnic.net/                  2019-06-12
-       141626-196607     Unallocated
+       141626-142649     Assigned by APNIC                             whois.apnic.net   https://rdap.apnic.net/                  2020-10-20
+       142650-143673     Assigned by APNIC                             whois.apnic.net   https://rdap.apnic.net/                  2020-10-20
+       143674-196607     Unallocated
        196608-197631     Assigned by RIPE NCC                          whois.ripe.net    https://rdap.db.ripe.net/                2006-11-29
        197632-198655     Assigned by RIPE NCC                          whois.ripe.net    https://rdap.db.ripe.net/                2011-01-04
        198656-199679     Assigned by RIPE NCC                          whois.ripe.net    https://rdap.db.ripe.net/                2012-03-21
@@ -222,7 +224,9 @@
        267677-268700     Assigned by LACNIC                            whois.lacnic.net  https://rdap.lacnic.net/rdap/            2017-07-21
        268701-269724     Assigned by LACNIC                            whois.lacnic.net  https://rdap.lacnic.net/rdap/            2018-12-07
        269725-270748     Assigned by LACNIC                            whois.lacnic.net  https://rdap.lacnic.net/rdap/            2018-12-07
-       270749-327679     Unallocated
+       270749-271772     Assigned by LACNIC                            whois.lacnic.net  https://rdap.lacnic.net/rdap/            2020-05-18
+       271773-272796     Assigned by LACNIC                            whois.lacnic.net  https://rdap.lacnic.net/rdap/            2020-05-18
+       272797-327679     Unallocated
        327680-328703     Assigned by AFRINIC                           whois.afrinic.net https://rdap.afrinic.net/rdap/           2006-11-29
                                                                                          http://rdap.afrinic.net/rdap/
        328704-329727     Assigned by AFRINIC                           whois.afrinic.net https://rdap.afrinic.net/rdap/           2020-03-05
@@ -240,11 +244,15 @@
                                                                                          http://rdap.arin.net/registry
        398237-399260     Assigned by ARIN                              whois.arin.net    https://rdap.arin.net/registry           2018-08-09
                                                                                          http://rdap.arin.net/registry
-     399261-4199999999   Unallocated
+       399261-400284     Assigned by ARIN                              whois.arin.net    https://rdap.arin.net/registry           2020-11-02
+                                                                                         http://rdap.arin.net/registry
+       400285-401308     Assigned by ARIN                              whois.arin.net    https://rdap.arin.net/registry           2020-11-02
+                                                                                         http://rdap.arin.net/registry
+     401309-4199999999   Unallocated
    4200000000-4294967294 Reserved for Private Use                                                                       [RFC6996]
         4294967295       Reserved                                                                                       [RFC7300]
 
-                                                                        People
+                                                                 Contact Information
 
        ID       Name            Contact URI          Last Updated
    [AFRINIC]  AFRINIC  mailto:hostmaster&afrinic.net 2013-09-09

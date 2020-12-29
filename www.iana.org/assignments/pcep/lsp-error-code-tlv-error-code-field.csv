@@ -1,0 +1,11 @@
+Value,Meaning,Reference
+0,Reserved,[RFC8231]
+1,Unknown reason,[RFC8231]
+2,Limit reached for PCE-controlled LSPs,[RFC8231]
+3,Too many pending LSP update requests,[RFC8231]
+4,Unacceptable parameters,[RFC8231]
+5,Internal error,[RFC8231]
+6,LSP administratively brought down,[RFC8231]
+7,LSP preempted,[RFC8231]
+8,RSVP signaling error,[RFC8231]
+9-65535,Unassigned,

@@ -1,0 +1,5 @@
+Nonce_Hash_Type,Value,Definition,Reference
+Reserved,0,,[RFC4535]
+SHA-1,1,This type MUST be supported.,[RFC4535]
+Reserved to IANA,2-49152,,[RFC4535]
+Private Use,49153-65535,,[RFC4535]

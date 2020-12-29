@@ -1,0 +1,11 @@
+Bit,Description,Reference
+0,Unassigned,
+1,ERO-compression,[RFC8623]
+2,Fragmentation,[RFC8623]
+3,P2MP,[RFC8623]
+4,Create,[RFC8281]
+5-7,Operational (3 bits),[RFC8231]
+8,Administrative,[RFC8231]
+9,Remove,[RFC8231]
+10,SYNC,[RFC8231]
+11,Delegate,[RFC8231]

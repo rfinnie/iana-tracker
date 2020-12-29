@@ -1,0 +1,103 @@
+                                                             CBOR Web Token (CWT) Claims
+
+   Created
+           2018-03-22
+
+   Last Updated
+           2020-04-15
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registries included below
+
+     * CBOR Web Token (CWT) Claims
+     * CWT Confirmation Methods
+
+CBOR Web Token (CWT) Claims
+
+   Expert(s)
+
+ Mike Jones, Hannes Tschofenig, Chuck Mortimore, Ludwig Seitz
+
+   Reference
+           [RFC8392]
+
+   Note
+
+ Registration requests should be sent to the mailing list described in [RFC8392].
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+                 Range                Registration Procedures
+   Integer values from -256 to 255    Standards Action
+   Integer values from -65536 to -257 Specification Required
+   Integer values from 256 to 65535   Specification Required
+   Integer values greater than 65535  Expert Review
+   Strings of length 1                Standards Action
+   Strings of length 2                Specification Required
+   Strings of length greater than 2   Expert Review
+
+        Claim Name                Claim Description           JWT Claim Name    Claim Key         Claim Value Type      Change Controller Reference
+   Reserved for Private                                                      less than -65536                                             [RFC8392]
+   Use
+   Unassigned                                                                -65536 to -257
+   Unassigned                                                                -256 to -1
+   Reserved             This registration reserves the key                   0                                          [IESG]            [RFC8392]
+                        value 0
+   iss                  Issuer                                iss            1                text string               [IESG]            [RFC8392]
+   sub                  Subject                               sub            2                text string               [IESG]            [RFC8392]
+   aud                  Audience                              aud            3                text string               [IESG]            [RFC8392]
+   exp                  Expiration Time                       exp            4                integer or floating-point [IESG]            [RFC8392]
+                                                                                              number
+   nbf                  Not Before                            nbf            5                integer or floating-point [IESG]            [RFC8392]
+                                                                                              number
+   iat                  Issued At                             iat            6                integer or floating-point [IESG]            [RFC8392]
+                                                                                              number
+   cti                  CWT ID                                jti            7                byte string               [IESG]            [RFC8392]
+   cnf                  Confirmation                          cnf            8                map                       [IESG]            [RFC8747]
+   Unassigned                                                                9 to 65535
+
+CWT Confirmation Methods
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Ludwig Seitz, Mike Jones
+
+   Reference
+           [RFC8747]
+
+   Note
+
+ Registration requests should be sent to the mailing list described in [RFC8747].
+
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Confirmation Method Name Confirmation Method JWT Confirmation Confirmation Key          Confirmation Value Type            Change    Reference
+                                Description       Method Name                                                               Controller
+                            COSE_Key                                                                                                   [RFC8747,
+   COSE_Key                 Representing Public jwk              1                COSE_Key structure                        [IESG]     Section 3.2]
+                            Key
+                                                                                  COSE_Encrypt or COSE_Encrypt0 structure              [RFC8747,
+   Encrypted_COSE_Key       Encrypted COSE_Key  jwe              2                (with an optional corresponding           [IESG]     Section 3.3]
+                                                                                  COSE_Encrypt or COSE_Encrypt0 tag)
+   kid                      Key Identifier      kid              3                binary string                             [IESG]     [RFC8747,
+                                                                                                                                       Section 3.4]
+
+                                                                        People
+
+     ID   Name     Contact URI      Last Updated
+   [IESG] IESG mailto:iesg&ietf.org 2018-05-04

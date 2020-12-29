@@ -1,0 +1,9 @@
+TE LSA Type,Value,Reference
+TE-Router LSA,0x81,[RFC4973]
+TE-Positional-ring-network LSA,0x82,[RFC4973]
+TE-Summary Network LSA,0x83,[RFC4973]
+TE-Summary router LSA,0x84,[RFC4973]
+TE-AS-external LSAs,0x85,[RFC4973]
+TE-Circuit-paths LSA,0x8C,[RFC4973]
+TE-incremental-link-Update LSA,0x8D,[RFC4973]
+TE-Router-Proxy LSA,0x8E,[RFC4973]

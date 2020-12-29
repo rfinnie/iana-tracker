@@ -48,7 +48,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 2002, Second Edition, 2002.][RFC6233]"
 11,ESN TLV,y,n,y,n,[RFC7602]
 12,Opt. Checksum,y,n,y,n,[RFC3358]
-13,Purge Originator Identification,n,y,n,y,[RFC6232]
+13,Purge Originator Identification,n,n,n,y,[RFC8918]
 14,LSPBufferSize,n,y,n,n,"[ISO 10589, ""Intermediate System to Intermediate System Intra-
 Domain Routeing Exchange Protocol for use in Conjunction
 with the Protocol for Providing the Connectionless-mode
@@ -56,15 +56,19 @@ Network Service (ISO 8473)"", International Standard 10589:
 2002, Second Edition, 2002.]"
 15,Router-Fingerprint,y,y,n,y,[RFC8196]
 16,Reverse Metric,y,n,n,n,[RFC8500]
-17,"IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)",n,y,n,n,[draft-ietf-lsr-dynamic-flooding]
-18,"IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)",n,y,n,n,[draft-ietf-lsr-dynamic-flooding]
-19,"IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)",y,n,n,n,[draft-ietf-lsr-dynamic-flooding]
-20-21,Unassigned,,,,,
+17,"IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",n,y,n,n,[draft-ietf-lsr-dynamic-flooding]
+18,"IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",n,y,n,n,[draft-ietf-lsr-dynamic-flooding]
+19,"IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",y,n,n,n,[draft-ietf-lsr-dynamic-flooding]
+20,"Area Proxy (TEMPORARY - registered 2020-08-31, expires 2021-08-31)",n,y,n,n,[draft-ietf-lsr-isis-area-proxy-03]
+21,Unassigned,,,,,
 22,Extended IS reachability,n,y,n,n,[RFC5305]
 23,IS Neighbor Attribute,n,y,n,n,[RFC5311]
 24,IS Alias ID,n,y,n,n,[RFC5311]
 25,L2 Bundle Member Attributes,n,y,n,n,[RFC8668]
-26-41,Unassigned,,,,,
+26,Unassigned,,,,,
+27,"SRv6 Locator (TEMPORARY - registered 2020-06-17, expires 2021-06-17)",n,y,n,n,[draft-ietf-lsr-isis-srv6-extensions-08]
+28,"Zone ID (TEMPORARY - registered 2020-11-20, expires 2021-11-20)",n,y,n,n,[draft-ietf-lsr-isis-ttz-01]
+29-41,Unassigned,,,,,
 42,DECnet Phase IV,y,n,n,n,DEC (ancient)
 43-65,Unassigned,,,,,
 66,Lucent Proprietary,n,y,n,n,
@@ -93,7 +97,9 @@ Network Service (ISO 8473)"", International Standard 10589:
 148,BFD-Enabled TLV,y,n,n,n,[RFC6213]
 149,Segment Identifier / Label Binding,n,y,n,n,[RFC8667]
 150,Multi-Topology Segment Identifier / Label Binding,n,y,n,n,[RFC8667]
-151-175,Unassigned,,,,,
+151-160,Unassigned,,,,,
+161,"Flood Reflection (TEMPORARY - registered 2020-08-05, expires 2021-08-05)",y,n,n,n,[draft-ietf-lsr-isis-flood-reflection-01]
+162-175,Unassigned,,,,,
 176,Nortel Proprietary,n,y,n,n,
 177,Nortel Proprietary,n,y,n,n,
 178-210,Unassigned,,,,,
@@ -110,8 +116,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 235,MT IP. Reach,n,y,n,n,[RFC5120]
 236,IPv6 IP. Reach,n,y,n,n,[RFC5308]
 237,MT IPv6 IP. Reach,n,y,n,n,[RFC5120]
-238,"Application Specific SRLG 
-      (TEMPORARY - registered 2018-04-27, extension registered 2019-04-01, expires 2020-04-27)",n,y,n,n,[draft-ietf-isis-te-app]
+238,Application-Specific SRLG,n,y,n,n,[RFC8919]
 239,Unassigned,,,,,
 240,P2P 3-Way Adj. State,y,n,n,n,[RFC5303]
 241,Unassigned,,,,,

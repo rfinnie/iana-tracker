@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="ipv6-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="ipv6-parameters">
   <title>Internet Protocol Version 6 (IPv6) Parameters</title>
-  <updated>2020-03-16</updated>
+  <updated>2020-08-11</updated>
   
   <registry id="ipv6-parameters-1">
     <title>Next Header Types</title>
@@ -17,8 +17,10 @@ registry, also located at <xref type="registry" data="ipv6-parameters"/>.
   
     <registry id="extension-header">
     <title>IPv6 Extension Header Types</title>
+    <xref type="rfc" data="rfc2780"/>
+    <xref type="rfc" data="rfc5237"/>
     <xref type="rfc" data="rfc7045"/>
-    <registration_rule><xref type="rfc" data="rfc2780"/> as amended by <xref type="rfc" data="rfc5237"/> (IESG Approval or Standards Action)</registration_rule>
+    <registration_rule>Standards Action or IESG Approval</registration_rule>
     <note>The "IPv6 Extension Header" field in the Assigned Internet Protocol Numbers 
 registry at <xref type="registry" data="protocol-numbers"/> should be updated for any 
 Protocol Number added to this registry.
@@ -250,11 +252,29 @@ full.
       <chg>1</chg>
       <rest>10000</rest>
       <description>Path MTU Record Option 
-      (TEMPORARY - registered 2019-09-03, expires 2020-09-03)</description>
+        (TEMPORARY - registered 2019-09-03, extension registered 2020-07-14, expires 2021-09-03)</description>
       <xref type="draft" data="draft-ietf-6man-mtu-option"/>
     </record>
+    <record date="2020-04-16">
+      <value>0x11</value>
+      <act>00</act>
+      <chg>0</chg>
+      <rest>10001</rest>
+      <description>IOAM 
+      (TEMPORARY - registered 2020-04-16, expires 2021-04-16)</description>
+      <xref type="draft" data="draft-ietf-ippm-ioam-ipv6-options"/>
+    </record>
+    <record date="2020-04-16" updated="2020-04-20">
+      <value>0x31</value>
+      <act>00</act>
+      <chg>1</chg>
+      <rest>10001</rest>
+      <description>IOAM 
+      (TEMPORARY - registered 2020-04-16, expires 2021-04-16)</description>
+      <xref type="draft" data="draft-ietf-ippm-ioam-ipv6-options"/>
+    </record>
     <record>
-      <rest>10001-11101</rest>
+      <rest>10010-11101</rest>
       <description>Unassigned</description>
     </record>
     <record>

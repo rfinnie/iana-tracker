@@ -15,8 +15,7 @@ Incidents,expression of how many similar incidents are represented by this repor
 Original-Mail-From,email address used in the MAIL FROM portion of the original SMTP transaction,No,any,[RFC5965],current
 Original-Rcpt-To,email address used in the RCPT TO portion of the original SMTP transaction,Yes,any,[RFC5965],current
 Received-Date,"date/time the original message was received (replaced by ""Arrival-Date"")",No,any,[RFC5965],historic
-Reported-Domain,"a domain name the report generator considers to be key to the 
-        message about which a report is being generated",Yes,any,[RFC5965],current
+Reported-Domain,a domain name the report generator considers to be key to the message about which a report is being generated,Yes,any,[RFC5965],current
 Reported-URI,"a URI the report generator considers to be key
         to the message about which a report is being
         generated",Yes,any,[RFC5965],current
@@ -28,5 +27,4 @@ User-Agent,name and version of the program generating the report,No,any,[RFC5965
 Version,version of specification used,No,any,[RFC5965],current
 Source-Port,TCP source port from which the original message was received,No,any,[RFC6692],current
 Identity-Alignment,"indicates whether the message about which a report is
-      being generated had any identifiers in alignment as defined in 
-        [RFC7489]",No,auth-failure,[RFC7489],current
+      being generated had any identifiers in alignment as defined in [RFC7489]",No,auth-failure,[RFC7489],current

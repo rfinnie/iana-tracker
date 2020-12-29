@@ -26,8 +26,7 @@ Decimal,Description,References
 25,id-aa-ets-escTimeStamp,[RFC3126]
 26,id-aa-ets-certCRLTimestamp,[RFC3126]
 27,id-aa-ets-archiveTimeStamp,[RFC3126]
-28,id-aa-signatureType,"[RFC Errata 
-          3757]"
+28,id-aa-signatureType,[RFC Errata 3757]
 29,id-aa-dvcs-dvc,[RFC3029]
 30,id-aa-CEKReference,[RFC3185]
 31,id-aa-CEKMaxDecrypts,[RFC3185]
@@ -53,7 +52,7 @@ Decimal,Description,References
 51,id-aa-multipleSignatures,[RFC5752]
 52,id-aa-cmsAlgorithmProtect,[RFC6211]
 53,id-aa-setKeyInformation,[draft-herzog-setkey]
-54,id-aa-asymmDecryptKeyID,[RFC7030]
+54,id-aa-asymmDecryptKeyID,[RFC7030][RFC8951]
 55,id-aa-secureHeaderFieldsIdentifier,[RFC7508]
 56,id-aa-otpChallenge,[RFC7894]
 57,id-aa-revocationChallenge,[RFC7894]

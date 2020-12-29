@@ -1,0 +1,7 @@
+Value,Meaning,Reference,Change Controller
+0x0000,IETF Base NSH MD Class,[RFC8300],
+0x0001-0x01FF,Unassigned,,
+0x0200,BBF Specific NSH Metadata,[https://www.broadband-forum.org/assignments],[Broadband_Forum]
+0x0201-0xFFF5,Unassigned,,
+0xFFF6-0xFFFE,Experimental,[RFC8300],
+0xFFFF,Reserved,[RFC8300],

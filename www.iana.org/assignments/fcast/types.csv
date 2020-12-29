@@ -1,14 +1,6 @@
 Meta-Data Type,Description,Reference
-Fcast-Obj-Digest-SHA1,"a string that contains the ""base64"" encoding of the SHA-1 message 
-      digest of the object before any content encoding is applied (if any) and without 
-      considering the FCAST Header",[RFC6968]
-Fcast-Obj-Digest-SHA256,"a string that contains the ""base64"" encoding of the SHA-256 message 
-      digest of the object before any content encoding is applied (if any) and without 
-      considering the FCAST Header",[RFC6968]
-Fcast-Obj-Slice-Nb,"Unsigned 32-bit integer that contains the total number of slices. 
-        A value greater than 1 indicates that this object is the result of a split of the original 
-      object",[RFC6968]
-Fcast-Obj-Slice-Idx,"Unsigned 32-bit integer that contains the slice index (in the {0 .. 
-      SliceNb - 1} interval)",[RFC6968]
-Fcast-Obj-Slice-Offset,"Unsigned 64-bit integer that contains the byte offset at which this 
-      slice starts within the original object",[RFC6968]
+Fcast-Obj-Digest-SHA1,"a string that contains the ""base64"" encoding of the SHA-1 message digest of the object before any content encoding is applied (if any) and without considering the FCAST Header",[RFC6968]
+Fcast-Obj-Digest-SHA256,"a string that contains the ""base64"" encoding of the SHA-256 message digest of the object before any content encoding is applied (if any) and without considering the FCAST Header",[RFC6968]
+Fcast-Obj-Slice-Nb,Unsigned 32-bit integer that contains the total number of slices. A value greater than 1 indicates that this object is the result of a split of the original object,[RFC6968]
+Fcast-Obj-Slice-Idx,Unsigned 32-bit integer that contains the slice index (in the {0 .. SliceNb - 1} interval),[RFC6968]
+Fcast-Obj-Slice-Offset,Unsigned 64-bit integer that contains the byte offset at which this slice starts within the original object,[RFC6968]

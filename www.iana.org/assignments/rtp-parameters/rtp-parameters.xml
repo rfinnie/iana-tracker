@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="rtp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="rtp-parameters">
   <title>Real-Time Transport Protocol (RTP) Parameters</title>
-  <updated>2019-11-06</updated>
+  <updated>2020-11-19</updated>
   
   <registry id="rtp-parameters-1">
     <title>RTP Payload Types (PT) for standard audio and video encodings - Closed</title>
@@ -803,6 +803,13 @@ Registration procedures and a registration template can be found in
       <subtype>tone</subtype>
       <xref type="rfc" data="rfc4733"/>
     </record>   
+    <record date="2020-06-19">
+      <type>audio</type>
+      <subtype>TSVCIS</subtype>
+      <clock_rate>8000</clock_rate>
+      <channels>1</channels>
+      <xref type="rfc" data="rfc8817"/>
+    </record> 
     <record>
       <type>audio</type>
       <subtype>uemclip</subtype>
@@ -1065,21 +1072,21 @@ RTCP.  This list maintains and extends that list.
     </note>
     <range>
       <value>1-191</value>
-      <registration_rule>Specification required or expert review</registration_rule>
+      <registration_rule>Specification Required or Expert Review</registration_rule>
     </range>
     <range>
       <value>194-199</value>
-      <registration_rule>Specification required or expert review</registration_rule>
+      <registration_rule>Specification Required or Expert Review</registration_rule>
       <note>If 200-223 is fully occupied</note>
     </range>
     <range>
       <value>200-223</value>
-      <registration_rule>Specification required or expert review</registration_rule>
+      <registration_rule>Specification Required or Expert Review</registration_rule>
       <note>Primary Assignments range</note>
     </range>
     <range>
       <value>224-254</value>
-      <registration_rule>Specification required or expert review</registration_rule>
+      <registration_rule>Specification Required or Expert Review</registration_rule>
     </range>
     <record>
       <value>0</value>
@@ -1453,8 +1460,14 @@ SDES control packet.  This list maintains and extends that list.
       <xref type="uri" data="https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1404">3GPP TS 26.114 v16.3.0</xref>
       <xref type="person" data="Ozgur_Oyman"/>
     </record>
+    <record date="2020-11-19">
+      <value>11</value>
+      <name>CCFB</name>
+      <long_name>RTP Congestion Control Feedback</long_name>
+      <xref type="draft" data="RFC-ietf-avtcore-cc-feedback-message-09"/>
+    </record>
     <record>
-      <value>11-30</value>
+      <value>12-30</value>
       <long_name>Unassigned</long_name>
     </record>
     <record>
@@ -2061,6 +2074,62 @@ has been denied</description>
     </record>
   </registry>
   
+  <registry id="rtp-ekt-message-types">
+    <title>EKT Message Types</title>
+    <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
+    <record date="2020-06-26">
+      <value>0</value>
+      <description>Short</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+    <record>
+      <value>1</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-06-26">
+      <value>2</value>
+      <description>Full</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+    
+    <record>
+      <value>3-254</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-06-26">
+      <value>255</value>
+      <description>Reserved</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+  </registry>
+  
+  <registry id="rtp-ekt-ciphers">
+    <title>EKT Ciphers</title>
+    <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    <registration_rule>Specification Required</registration_rule>
+    <expert>Unassigned</expert>
+    <record date="2020-06-26">
+      <value>0</value>
+      <description>AESKW128</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+    <record date="2020-06-26">
+      <value>1</value>
+      <description>AESKW256</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+    <record>
+      <value>2-254</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-06-26">
+      <value>255</value>
+      <description>Reserved</description>
+      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    </record>
+  </registry>
   
   <people>
     <person id="Adam_Roach">

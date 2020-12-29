@@ -1,0 +1,8 @@
+Identifier,Name,Reference
+0,UDP,[RFC8618]
+1,TCP,[RFC8618]
+2,TLS,[RFC8618]
+3,DTLS,[RFC8618]
+4,HTTPS,[RFC8618]
+5-14,Unassigned,
+15,Non-standard transport,[RFC8618]

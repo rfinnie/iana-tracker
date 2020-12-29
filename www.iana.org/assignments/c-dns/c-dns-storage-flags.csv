@@ -1,0 +1,5 @@
+Bit,Name,Description,Reference
+0,anonymized-data,The data has been anonymized.,[RFC8618]
+1,sampled-data,The data is sampled data.,[RFC8618]
+2,normalized-names,Names in the data have been normalized.,[RFC8618]
+3-63,Unassigned,,

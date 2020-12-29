@@ -1,0 +1,7 @@
+Codes,Description,Reference
+0,No Error,[RFC8335]
+1,Malformed Query,[RFC8335]
+2,No Such Interface,[RFC8335]
+3,No Such Table Entry,[RFC8335]
+4,Multiple Interfaces Satisfy Query,[RFC8335]
+5-255,Unassigned,

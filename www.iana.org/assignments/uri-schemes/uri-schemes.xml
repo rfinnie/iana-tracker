@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="uri-schemes.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="uri-schemes">
   <title>Uniform Resource Identifier (URI) Schemes</title>
-  <updated>2020-04-07</updated>
+  <updated>2020-12-15</updated>
   
   <registry id="uri-schemes-1">
     <title>Uniform Resource Identifier (URI) Schemes</title>
@@ -247,6 +247,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Mike_Pietraszak"/>
       <notes/>
     </record>
+    <record date="2020-05-14">
+      <file type="template">prov/cabal</file>
+      <value>cabal</value>
+      <description>cabal</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Cabal_Club"/>
+      <notes/>
+    </record>
     <record date="2018-11-14">
       <file type="template">prov/calculator</file>
       <value>calculator</value>
@@ -420,6 +430,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="RadioDNS_Project"/>
       <notes/>
     </record>
+    <record date="2020-05-14">
+      <file type="template">prov/dat</file>
+      <value>dat</value>
+      <description>dat</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Paul_Frazee"/>
+      <notes/>
+    </record>
     <record>
       <value>data</value>
       <description>data</description>
@@ -508,6 +528,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Hans-Dieter_A._Hiep"/>
       <notes/>
     </record>
+    <record date="2020-05-14">
+      <file type="template">prov/doi</file>
+      <value>doi</value>
+      <description>doi</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="International_DOI_Foundation"/>
+      <notes/>
+    </record>
     <record date="2019-01-23">
       <file type="template">prov/dpp</file>
       <value>dpp</value>
@@ -527,7 +557,7 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="RadioDNS_Project"/>
       <notes/>
     </record>
-    <record date="2019-03-21" updated="2020-04-07">
+    <record date="2019-03-21" updated="2020-04-13">
       <file type="template">prov/drop</file>
       <value>drop</value>
       <description>drop</description>
@@ -561,6 +591,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="draft" data="draft-mcroberts-uri-dvb"/>
       <notes/>
     </record>
+    <record date="2020-05-15">
+      <file type="template">prov/dweb</file>
+      <value>dweb</value>
+      <description>dweb</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Protocol_Labs"/>
+      <notes/>
+    </record>
     <record>
       <file type="template">prov/ed2k</file>
       <value>ed2k</value>
@@ -577,6 +617,26 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="person" data="Kimmo_Lindholm"/>
+      <notes/>
+    </record>
+    <record date="2020-08-28">
+      <file type="template">prov/ens</file>
+      <value>ens</value>
+      <description>ens</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Ricky_Bloomfield"/>
+      <xref type="person" data="Bradley_Nelson"/>
+      <notes/>
+    </record>
+    <record date="2020-05-15">
+      <file type="template">prov/ethereum</file>
+      <value>ethereum</value>
+      <description>ethereum</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="ligi"/>
       <notes/>
     </record>
     <record date="2015-04-22">
@@ -803,7 +863,7 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <description>Hypertext Transfer Protocol</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8615"/></well-known>
-      <xref type="rfc" data="rfc8615"/>
+      <xref type="rfc" data="rfc7230">RFC7230, Section 2.7.1</xref>
       <notes/>
     </record>
     <record>
@@ -811,7 +871,7 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <description>Hypertext Transfer Protocol Secure</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8615"/></well-known>
-      <xref type="rfc" data="rfc8615"/>
+      <xref type="rfc" data="rfc7230">RFC7230, Section 2.7.2</xref>
       <notes/>
     </record>
     <record date="2017-05-09">
@@ -839,6 +899,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <well-known>-</well-known>
       <xref type="person" data="Matthias_Merkel"/>
       <xref type="uri" data="https://tech.hydrazone.pro/uri/specification/hydrazone.txt"/>
+      <notes/>
+    </record>
+    <record date="2020-05-14">
+      <file type="template">prov/hyper</file>
+      <value>hyper</value>
+      <description>hyper</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Paul_Frazee"/>
       <notes/>
     </record>
     <record>
@@ -902,12 +972,32 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="uri" data="http://www.iana.org/assignments/uri-schemes/prov/iotdisco.pdf"/>
       <notes/>
     </record>
+    <record date="2020-05-14">
+      <file type="template">prov/ipfs</file>
+      <value>ipfs</value>
+      <description>ipfs</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Protocol_Labs"/>
+      <notes/>
+    </record>
     <record>
       <value>ipn</value>
       <description>ipn</description>
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="rfc" data="rfc6260"/>
+      <notes/>
+    </record>
+    <record date="2020-05-14">
+      <file type="template">prov/ipns</file>
+      <value>ipns</value>
+      <description>ipns</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Protocol_Labs"/>
       <notes/>
     </record>
     <record>
@@ -1055,6 +1145,15 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Dave_Thaler"/>
       <notes/>
     </record>
+    <record date="2020-06-16">
+      <file type="template">prov/lbry</file>
+      <value>lbry</value>
+      <description>lbry</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Alex_Grintsvayg"/>
+      <notes/>
+    </record>
     <record>
       <value>ldap</value>
       <description>Lightweight Directory Access Protocol</description>
@@ -1140,6 +1239,15 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="person" data="Dave_Thaler"/>
+      <notes/>
+    </record>
+    <record date="2020-07-24">
+      <file type="template">prov/matrix</file>
+      <value>matrix</value>
+      <description>matrix</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Hubert_Chathi"/>
       <notes/>
     </record>
     <record>
@@ -1771,12 +1879,13 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="rfc" data="rfc4975"/>
       <notes/>
     </record>
-    <record>
+    <record updated="2020-08-17">
       <value>msrps</value>
       <description>Message Session Relay Protocol Secure</description>
       <status>Permanent</status>
       <well-known>-</well-known>
       <xref type="rfc" data="rfc4975"/>
+      <xref type="draft" data="RFC-ietf-mmusic-msrp-usage-data-channel-23"/>
       <notes/>
     </record>
     <record date="2019-02-12">
@@ -1871,6 +1980,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Dave_Thaler"/>
       <notes/>
     </record>
+    <record date="2020-09-07" updated="2020-11-16">
+      <file type="template">prov/num</file>
+      <value>num</value>
+      <description>Namespace Utility Modules</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Elliott_Brown"/>
+	  <xref type="uri" data="https://www.numprotocol.com/specification"/>
+      <notes/>
+    </record>
     <record>
       <file type="template">prov/ocf</file>
       <value>ocf</value>
@@ -1924,6 +2043,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Wiktor_Kwapisiewicz"/>
       <notes/>
     </record>
+    <record date="2020-05-14">
+      <file type="template">prov/otpauth</file>
+      <value>otpauth</value>
+      <description>otpauth</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Thomas_Habets"/>
+      <notes/>
+    </record>
     <record>
       <file type="template">historic/pack</file>
       <value>pack</value>
@@ -1961,13 +2090,13 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="uri" data="https://bitcoincheque.org"/>
       <notes/>
     </record>
-    <record date="2019-01-28">
+    <record date="2019-01-28" updated="2020-05-02">
       <file type="template">prov/payto</file>
       <value>payto</value>
       <description>payto</description>
       <status>Provisional</status>
       <well-known>-</well-known>
-      <xref type="draft" data="draft-dold-payto"/>
+      <xref type="rfc" data="rfc8905"/>
       <notes/>
     </record>
     <record updated="2015-02-17">
@@ -2190,6 +2319,15 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Dave_Thaler"/>
       <notes/>
     </record>
+    <record date="2020-10-21">
+	  <file type="template">prov/secret-token</file>
+      <value>secret-token</value>
+      <description>secret-token</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="draft" data="RFC-nottingham-how-did-that-get-into-the-repo-02"/>
+      <notes/>
+    </record>
     <record>
       <value>service</value>
       <description>service location</description>
@@ -2359,6 +2497,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Dave_Thaler"/>
       <notes/>
     </record>
+    <record date="2020-05-15">
+      <file type="template">prov/ssb</file>
+      <value>ssb</value>
+      <description>ssb</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Frédéric_Wang"/>
+      <xref type="person" data="Secure_Scuttlebutt_Consortium"/>
+      <notes/>
+    </record>
     <record>
       <file type="template">prov/ssh</file>
       <value>ssh</value>
@@ -2400,6 +2548,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="draft" data="draft-melnikov-smime-msa-to-mda"/>
+      <notes/>
+    </record>
+    <record date="2020-04-28">
+      <file type="template">prov/swh</file>
+      <value>swh</value>
+      <description>swh</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Software_Heritage"/>
+      <xref type="person" data="Stefano_Zacchiroli"/>
       <notes/>
     </record>
     <record>
@@ -2547,6 +2705,15 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Dave_Thaler"/>
       <notes/>
     </record>
+    <record date="2020-06-16">
+      <file type="template">prov/upt</file>
+      <value>upt</value>
+      <description>upt</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Tim_McSweeney"/>
+      <notes/>
+    </record>
     <record>
       <value>urn</value>
       <description>Uniform Resource Names</description>
@@ -2619,12 +2786,48 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <xref type="person" data="Mykyta_Yevstifeyev"/>
       <notes/>
     </record>
+    <record date="2020-05-18">
+      <file type="template">prov/vscode</file>
+      <value>vscode</value>
+      <description>vscode</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="urischemeowners_at_microsoft.com"/>
+      <notes/>
+    </record>
+    <record date="2020-05-18">
+      <file type="template">prov/vscode-insiders</file>
+      <value>vscode-insiders</value>
+      <description>vscode-insiders</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="urischemeowners_at_microsoft.com"/>
+      <notes/>
+    </record>
+    <record date="2020-05-15">
+      <file type="template">prov/vsls</file>
+      <value>vsls</value>
+      <description>vsls</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="urischemeowners_at_microsoft.com"/>
+      <notes/>
+    </record>
     <record>
       <value>wais</value>
       <description>Wide Area Information Servers</description>
       <status>Historical</status>
       <well-known>-</well-known>
       <xref type="rfc" data="rfc4156"/>
+      <notes/>
+    </record>
+    <record date="2020-12-10">
+      <file type="template">prov/wcr</file>
+      <value>wcr</value>
+      <description>wcr</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Jason_Dzubak"/>
       <notes/>
     </record>
     <record>
@@ -2634,6 +2837,16 @@ per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="person" data="Dave_Thaler"/>
+      <notes/>
+    </record>
+    <record date="2020-08-26">
+      <file type="template">prov/wifi</file>
+      <value>wifi</value>
+      <description>wifi</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="Wi-Fi_Alliance"/>
+      <xref type="person" data="Jun_Tian"/>
       <notes/>
     </record>
     
@@ -2790,6 +3003,11 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:alastair.green&amp;neotechnology.com.</uri>
       <updated>2017-05-19</updated>
     </person>
+    <person id="Alex_Grintsvayg">
+      <name>Alex Grintsvayg</name>
+      <uri>mailto:grin&amp;lbry.com</uri>
+      <updated>2020-06-16</updated>
+    </person>
     <person id="Alexey_Melnikov">
       <name>Alexey Melnikov</name>
       <uri>mailto:alexey.melnikov&amp;isode.com</uri>
@@ -2824,6 +3042,16 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <name>Bob Van Zant</name>
       <uri>mailto:bob&amp;veznat.com</uri>
       <updated>2011-11-14</updated>
+    </person>
+    <person id="Bradley_Nelson">
+      <name>Bradley Nelson</name>
+      <uri>mailto:bradnelson&amp;google.com</uri>
+      <updated>2020-08-28</updated>
+    </person>
+    <person id="Cabal_Club">
+      <name>Cabal Club</name>
+      <uri>mailto:cabal&amp;cblgh.org</uri>
+      <updated>2020-05-14</updated>
     </person>
     <person id="Chris_Rebert">
       <name>Chris Rebert</name>
@@ -2865,6 +3093,16 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:elzi&amp;kb.dk</uri>
       <updated>2016-12-01</updated>
     </person>
+    <person id="Frédéric_Wang">
+      <name>Frédéric Wang</name>
+      <uri>mailto:fwang&amp;igalia.com</uri>
+      <updated>2020-05-14</updated>
+    </person>
+    <person id="Elliott_Brown">
+      <name>Elliott Brown</name>
+      <uri>mailto:elliott.brown&amp;num.uk</uri>
+      <updated>2020-09-07</updated>
+    </person>
     <person id="Evan_Gilman">
       <name>Evan Gilman</name>
       <uri>mailto:evan&amp;scytale.io</uri>
@@ -2875,10 +3113,20 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:gjain&amp;wi-fi.org</uri>
       <updated>2019-01-23</updated>
     </person>
+    <person id="Hubert_Chathi">
+      <name>Hubert Chathi</name>
+      <uri>mailto:hubertc&amp;matrix.org</uri>
+      <updated>2020-07-24</updated>
+    </person>
     <person id="Ignacio_Losiggio">
       <name>Ignacio Losiggio</name>
       <uri>mailto:iglosiggio&amp;gmail.com</uri>
       <updated>2017-05-09</updated>
+    </person>
+    <person id="International_DOI_Foundation">
+      <name>International DOI Foundation</name>
+      <uri>mailto:contact&amp;doi.org</uri>
+      <updated>2020-05-14</updated>
     </person>
     <person id="Ivan_Herman">
       <name>Ivan Herman</name>
@@ -2900,15 +3148,30 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:jarmo.miettinen&amp;methics.fi</uri>
       <updated>2019-02-12</updated>
     </person>
+    <person id="Jason_Dzubak">
+      <name>Jason Dzubak</name>
+      <uri>mailto:dzubak&amp;byu.edu</uri>
+      <updated>2020-12-10</updated>
+    </person>
     <person id="Joe_Hildebrand">
       <name>Joe Hildebrand</name>
       <uri>mailto:jhildebrand&amp;mozilla.com</uri>
       <updated>2017-01-20</updated>
     </person>
+    <person id="Jun_Tian">
+      <name>Jun Tian</name>
+      <uri>mailto:jtian&amp;wi-fi.org</uri>
+      <updated>2020-08-26</updated>
+    </person>
     <person id="Kimmo_Lindholm">
       <name>Kimmo Lindholm</name>
       <uri>mailto:kimmo.lindholm&amp;eke.fi</uri>
       <updated>2018-06-06</updated>
+    </person>
+    <person id="ligi">
+      <name>ligi</name>
+      <uri>mailto:ligi&amp;ligi.de</uri>
+      <updated>2020-05-15</updated>
     </person>
     <person id="Manu_Sporny">
       <name>Manu Sporny</name>
@@ -2965,6 +3228,11 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:OMA-OMNA&amp;mail.openmobilealliance.org</uri>
       <updated>2014-12-19</updated>
     </person>
+    <person id="Paul_Frazee">
+      <name>Paul Frazee</name>
+      <uri>mailto:pfrazee&amp;gmail.com</uri>
+      <updated>2020-05-14</updated>
+    </person>
     <person id="Peter_Lewandowski">
       <name>Peter Lewandowski</name>
       <uri>mailto:peter.lewandowski&amp;cygate.se</uri>
@@ -2980,20 +3248,50 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
       <uri>mailto:peterwaher&amp;hotmail.com</uri>
       <updated>2015-11-25</updated>
     </person>
+    <person id="Protocol_Labs">
+      <name>Protocol Labs</name>
+      <uri>mailto:jbenet&amp;protocol.ai</uri>
+      <updated>2020-05-14</updated>
+    </person>
     <person id="RadioDNS_Project">
       <name>RadioDNS Project</name>
       <uri>mailto:iana&amp;radiodns.org</uri>
       <updated>2019-03-18</updated>
+    </person>
+    <person id="Ricky_Bloomfield">
+      <name>Ricky Bloomfield</name>
+      <uri>mailto:rickybloomfield&amp;apple.com</uri>
+      <updated>2020-08-28</updated>
     </person>
     <person id="SAP_SE">
       <name>SAP SE</name>
       <uri>mailto:ma.becker&amp;sap.com</uri>
       <updated>2019-07-04</updated>
     </person>
+    <person id="Secure_Scuttlebutt_Consortium">
+      <name>Secure Scuttlebutt Consortium</name>
+      <uri>mailto:christianbundy&amp;fraction.io</uri>
+      <updated>2020-05-15</updated>
+    </person>
+    <person id="Software_Heritage">
+      <name>Software Heritage</name>
+      <uri>https://www.softwareheritage.org</uri>
+      <updated>2020-04-28</updated>
+    </person>
+    <person id="Stefano_Zacchiroli">
+      <name>Stefano Zacchiroli</name>
+      <uri>mailto:zack&amp;upsilon.cc</uri>
+      <updated>2020-04-28</updated>
+    </person>
+    <person id="Thomas_Habets">
+      <name>Thomas Habets</name>
+      <uri>mailto:thomas&amp;habets.se</uri>
+      <updated>2020-05-14</updated>
+    </person>
     <person id="Tim_McSweeney">
       <name>Tim McSweeney</name>
       <uri>mailto:tim&amp;dropnumber.com</uri>
-      <updated>2019-04-07</updated>
+      <updated>2020-07-28</updated>
     </person>
     <person id="Tony_Deng">
       <name>Tony Deng</name>
@@ -3027,8 +3325,8 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
     </person>
     <person id="Wi-Fi_Alliance">
       <name>Wi-Fi Alliance</name>
-      <uri>mailto:gjain&amp;wi-fi.org</uri>
-      <updated>2019-01-23</updated>
+      <uri>mailto:technical&amp;wi-fi.org</uri>
+      <updated>2020-08-26</updated>
     </person>
   </people>
 </registry>

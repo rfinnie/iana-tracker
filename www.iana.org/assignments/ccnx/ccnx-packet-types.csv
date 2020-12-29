@@ -1,0 +1,5 @@
+Type,Name,Reference
+0x00,PT_INTEREST,"[RFC8609, Section 3.2]"
+0x01,PT_CONTENT,"[RFC8609, Section 3.2]"
+0x02,PT_RETURN,"[RFC8609, Section 3.2]"
+0x03-0xFF,Unassigned,

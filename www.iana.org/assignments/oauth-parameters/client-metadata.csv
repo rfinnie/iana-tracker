@@ -7,16 +7,11 @@ client_name,Human-readable name of the client to be presented to the user,IESG,[
 client_uri,URL of a web page providing information about the client,IESG,[RFC7591]
 logo_uri,URL that references a logo for the client,IESG,[RFC7591]
 scope,Space-separated list of OAuth 2.0 scope values,IESG,[RFC7591]
-contacts,"Array of strings representing ways to contact people 
-        responsible for this client, typically email addresses",IESG,[RFC7591]
-tos_uri,"URL that points to a human-readable terms of service document 
-        for the client",IESG,[RFC7591]
-policy_uri,"URL that points to a human-readable policy document for the 
-        client",IESG,[RFC7591]
-jwks_uri,"URL referencing the client's JSON Web Key Set [RFC7517] 
-        document representing the client's public keys",IESG,[RFC7591]
-jwks,"Client's JSON Web Key Set [RFC7517] 
-        document representing the client's public keys",IESG,[RFC7591]
+contacts,"Array of strings representing ways to contact people responsible for this client, typically email addresses",IESG,[RFC7591]
+tos_uri,URL that points to a human-readable terms of service document for the client,IESG,[RFC7591]
+policy_uri,URL that points to a human-readable policy document for the client,IESG,[RFC7591]
+jwks_uri,URL referencing the client's JSON Web Key Set [RFC7517] document representing the client's public keys,IESG,[RFC7591]
+jwks,Client's JSON Web Key Set [RFC7517] document representing the client's public keys,IESG,[RFC7591]
 software_id,Identifier for the software that comprises a client,IESG,[RFC7591]
 software_version,Version identifier for the software that comprises a client,IESG,[RFC7591]
 client_id,Client identifier,IESG,[RFC7591]
@@ -28,36 +23,23 @@ registration_access_token,"OAuth 2.0 Bearer Token used to access
 registration_client_uri,"Fully qualified URI of the client
       registration endpoint",IESG,[RFC7592]
 application_type,"Kind of the application -- ""native"" or ""web""",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-sector_identifier_uri,"URL using the https scheme to be used in calculating 
-        Pseudonymous Identifiers by the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-subject_type,"subject_type requested for responses to this Client -- 
-        ""pairwise"" or ""public""",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-id_token_signed_response_alg,"JWS alg algorithm REQUIRED for signing the ID Token issued 
-        to this Client",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-id_token_encrypted_response_alg,"JWE alg algorithm REQUIRED for encrypting the ID Token 
-        issued to this Client",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-id_token_encrypted_response_enc,"JWE enc algorithm REQUIRED for encrypting the ID Token 
-        issued to this Client",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+sector_identifier_uri,URL using the https scheme to be used in calculating Pseudonymous Identifiers by the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+subject_type,"subject_type requested for responses to this Client -- ""pairwise"" or ""public""",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+id_token_signed_response_alg,JWS alg algorithm REQUIRED for signing the ID Token issued to this Client,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+id_token_encrypted_response_alg,JWE alg algorithm REQUIRED for encrypting the ID Token issued to this Client,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+id_token_encrypted_response_enc,JWE enc algorithm REQUIRED for encrypting the ID Token issued to this Client,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 userinfo_signed_response_alg,JWS alg algorithm REQUIRED for signing UserInfo Responses,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 userinfo_encrypted_response_alg,JWE alg algorithm REQUIRED for encrypting UserInfo Responses,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 userinfo_encrypted_response_enc,JWE enc algorithm REQUIRED for encrypting UserInfo Responses,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-request_object_signing_alg,"JWS alg algorithm that MUST be used for signing Request 
-        Objects sent to the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-request_object_encryption_alg,"JWE alg algorithm the RP is declaring that it may use for 
-        encrypting Request Objects sent to the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-request_object_encryption_enc,"JWE enc algorithm the RP is declaring that it may use for 
-        encrypting Request Objects sent to the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-token_endpoint_auth_signing_alg,"JWS alg algorithm that MUST be used for signing the JWT 
-        used to authenticate the Client at the Token Endpoint for the 
-        private_key_jwt and client_secret_jwt authentication methods",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+request_object_signing_alg,JWS alg algorithm that MUST be used for signing Request Objects sent to the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+request_object_encryption_alg,JWE alg algorithm the RP is declaring that it may use for encrypting Request Objects sent to the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+request_object_encryption_enc,JWE enc algorithm the RP is declaring that it may use for encrypting Request Objects sent to the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+token_endpoint_auth_signing_alg,JWS alg algorithm that MUST be used for signing the JWT used to authenticate the Client at the Token Endpoint for the private_key_jwt and client_secret_jwt authentication methods,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 default_max_age,Default Maximum Authentication Age,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-require_auth_time,"Boolean value specifying whether the auth_time Claim in the 
-        ID Token is REQUIRED",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+require_auth_time,Boolean value specifying whether the auth_time Claim in the ID Token is REQUIRED,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 default_acr_values,Default requested Authentication Context Class Reference values,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-initiate_login_uri,"URI using the https scheme that a third party can use to 
-        initiate a login by the RP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
-request_uris,"Array of request_uri values that are pre-registered by the 
-        RP for use at the OP",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+initiate_login_uri,URI using the https scheme that a third party can use to initiate a login by the RP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
+request_uris,Array of request_uri values that are pre-registered by the RP for use at the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Dynamic Client Registration 1.0 incorporating errata set 2]
 claims_redirect_uris,claims redirection endpoints,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 2]"
 nfv_token_signed_response_alg,JWS alg algorithm required for signing the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
 nfv_token_encrypted_response_alg,JWE alg algorithm required for encrypting the nfv Token issued to this Client,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
@@ -74,3 +56,6 @@ tls_client_auth_san_ip,"String value specifying the expected
         iPAddress SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 tls_client_auth_san_email,"String value specifying the expected
         rfc822Name SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
+require_signed_request_object,"Indicates where authorization request needs
+        to be protected as Request Object and provided through either
+        ""request"" or ""request_uri parameter"".",[IETF],"[RFC-ietf-oauth-jwsreq-28, Section 10.5]"

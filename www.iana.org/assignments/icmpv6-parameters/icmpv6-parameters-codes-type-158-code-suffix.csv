@@ -1,0 +1,7 @@
+Code Suffix,Meaning,Reference
+0,DAC message,[RFC6775]
+1,EDAC message with 64-bit ROVR field,[RFC8505]
+2,EDAC message with 128-bit ROVR field,[RFC8505]
+3,EDAC message with 192-bit ROVR field,[RFC8505]
+4,EDAC message with 256-bit ROVR field,[RFC8505]
+5-15,Unassigned,

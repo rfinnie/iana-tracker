@@ -1,0 +1,16 @@
+Error,Description,Reference
+0,Unsupported Version,[RFC8803]
+1,Malformed Message,[RFC8803]
+2,Unsupported Message,[RFC8803]
+3,Missing Cookie,[RFC8803]
+4-31,Unassigned,
+32,Not Authorized,[RFC8803]
+33,Unsupported TCP Option,[RFC8803]
+34-63,Unassigned,
+64,Resource Exceeded,[RFC8803]
+65,Network Failure,[RFC8803]
+66-95,Unassigned,
+96,Connection Reset,[RFC8803]
+97,Destination Unreachable,[RFC8803]
+98-191,Unassigned,
+192-255,Reserved for Private Use,[RFC8803]

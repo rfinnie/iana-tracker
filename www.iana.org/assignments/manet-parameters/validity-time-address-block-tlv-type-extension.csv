@@ -1,5 +1,4 @@
 Type Extension,Name,Description,Reference
-0,VALIDITY_TIME,"The time from receipt of the address during which the  
-        information regarding this address is to be considered valid",[RFC5497]
+0,VALIDITY_TIME,The time from receipt of the address during which the information regarding this address is to be considered valid,[RFC5497]
 1-223,,Unassigned,
 224-255,,Reserved for Experimental Use,[RFC5497]

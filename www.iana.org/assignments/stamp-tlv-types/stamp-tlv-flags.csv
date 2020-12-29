@@ -1,0 +1,5 @@
+Bit Position,Symbol,Description,Reference
+0,U,Unrecognized TLV,[RFC-ietf-ippm-stamp-option-tlv-10]
+1,M,Malformed TLV,[RFC-ietf-ippm-stamp-option-tlv-10]
+2,I,Integrity check failed,[RFC-ietf-ippm-stamp-option-tlv-10]
+3-7,,Unassigned,

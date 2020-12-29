@@ -1,0 +1,11 @@
+Nonce_Type,Value,Definition,Reference
+None,0,,[RFC4535]
+Initiator (Nonce_I),1,,[RFC4535]
+Responder (Nonce_R),2,,[RFC4535]
+Combined (Nonce_C),3,"Hash (Append                
+(Initiator_Value,Responder_Value))
+The hash type comes from the
+Policy (e.g., Security Suite
+Definition of Policy Token).",[RFC4535]
+Reserved to IANA,4-192,,[RFC4535]
+Private Use,192-255,,[RFC4535]

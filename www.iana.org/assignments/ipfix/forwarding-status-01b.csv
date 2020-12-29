@@ -1,0 +1,6 @@
+Binary,Hex,Description,Reference
+01 000000b,0x40,Unknown,[RFC7270]
+01 000001b,0x41,Fragmented,[RFC7270]
+01 000010b,0x42,Not Fragmented,[RFC7270]
+01 000011b,0x43,Tunneled,[Alfred_Nothaft]
+,0x44-0x7F,Unassigned,

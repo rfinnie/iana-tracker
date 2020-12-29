@@ -4,7 +4,7 @@
            2000-07
 
    Last Updated
-           2019-03-05
+           2020-11-19
 
    Available Formats
            [IMG]
@@ -24,7 +24,7 @@ SAFI Values
    Note
 
  When this registry is modified, the YANG module [iana-routing-types]
- must be updated as defined in [RFC8394].
+ must be updated as defined in [RFC8294].
 
 
    Available Formats
@@ -32,7 +32,7 @@ SAFI Values
            CSV
 
     Range               Registration Procedures                      Note
-    1-63   Standards Action
+   1-63    Standards Action
    64-127  First Come First Served
    128-240 Some recognized assignments below, others Reserved
    241-254 Reserved for Private Use                           Not to be assigned
@@ -60,7 +60,10 @@ SAFI Values
      72    BGP-LS-VPN                                                                        [RFC7752]
      73    SR TE Policy SAFI                                                                 [draft-previdi-idr-segment-routing-te-policy]
      74    SD-WAN Capabilities                                                               [draft-dunbar-idr-sdwan-port-safi]
-   75-127  Unassigned
+     75    Routing Policy SAFI                                                               [draft-ietf-idr-rpd-02]
+     76    Classful-Transport SAFI                                                           [draft-kaliraj-idr-bgp-classful-transport-planes-00]
+     77    Tunneled Traffic Flowspec                                                         [draft-ietf-idr-flowspec-nvo3-10]
+   78-127  Unassigned
      128   MPLS-labeled VPN address                                                          [RFC4364][RFC8277]
      129   Multicast for BGP/MPLS IP Virtual Private Networks (VPNs)                         [RFC6513][RFC6514]
    130-131 Reserved                                                                          [RFC4760]
@@ -73,7 +76,7 @@ SAFI Values
    241-254 Reserved for Private Use                                                          [RFC4760]
      255   Reserved                                                                          [RFC4760]
 
-                                                                        People
+                                                                 Contact Information
 
           ID             Name               Contact URI           Last Updated
    [Gargi_Nalawade] Gargi Nalawade mailto:gargi&cisco.com         2004-01

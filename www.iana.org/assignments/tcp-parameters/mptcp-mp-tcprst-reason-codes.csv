@@ -1,0 +1,9 @@
+Code,Meaning,Reference
+0x00,Unspecified error,"[RFC8684, Section 3.6]"
+0x01,MPTCP-specific error,"[RFC8684, Section 3.6]"
+0x02,Lack of resources,"[RFC8684, Section 3.6]"
+0x03,Administratively prohibited,"[RFC8684, Section 3.6]"
+0x04,Too much outstanding data,"[RFC8684, Section 3.6]"
+0x05,Unacceptable performance,"[RFC8684, Section 3.6]"
+0x06,Middlebox interference,"[RFC8684, Section 3.6]"
+0x07-0xff,Unassigned,

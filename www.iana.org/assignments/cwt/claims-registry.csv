@@ -1,0 +1,14 @@
+Claim Name,Claim Description,JWT Claim Name,Claim Key,Claim Value Type,Change Controller,Reference
+Reserved for Private Use,,,less than -65536,,,[RFC8392]
+Unassigned,,,-65536 to -257,,,
+Unassigned,,,-256 to -1,,,
+Reserved,This registration reserves the key value 0,,0,,[IESG],[RFC8392]
+iss,Issuer,iss,1,text string,[IESG],[RFC8392]
+sub,Subject,sub,2,text string,[IESG],[RFC8392]
+aud,Audience,aud,3,text string,[IESG],[RFC8392]
+exp,Expiration Time,exp,4,integer or floating-point number,[IESG],[RFC8392]
+nbf,Not Before,nbf,5,integer or floating-point number,[IESG],[RFC8392]
+iat,Issued At,iat,6,integer or floating-point number,[IESG],[RFC8392]
+cti,CWT ID,jti,7,byte string,[IESG],[RFC8392]
+cnf,Confirmation,cnf,8,map,[IESG],[RFC8747]
+Unassigned,,,9 to 65535,,,

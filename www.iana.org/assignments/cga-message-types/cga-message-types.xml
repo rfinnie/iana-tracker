@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="cga-message-types">
   <title>Cryptographically Generated Addresses (CGA) Message Type Name Space</title>
   <created>2004-05-28</created>
-  <updated>2015-04-10</updated>
+  <updated>2020-11-25</updated>
   <registry id="cga-message-types-1">
     <title>CGA Extension Type Tags</title>
     <xref type="rfc" data="rfc3972"/>
@@ -29,15 +29,27 @@
       <tag>0x09F5 2BE5 3B62 4C76 CB96 4E7F CDC9 2804</tag>
       <xref type="rfc" data="rfc6496"/>
     </record>
+    <record date="2020-06-02">
+      <tag>0x8701 55C8 0CCA DD32 6AB7 E415 F148 84D0</tag>
+      <xref type="rfc" data="rfc8928"/>
+    </record>
   </registry>
   <registry id="cga-message-types-2">
     <title>CGA Extension Type Values</title>
     <xref type="rfc" data="rfc4581"/>
     <registration_rule>Standards Action</registration_rule>
     <record>
+      <type>0x0000-0x0011</type>
+      <description>Unassigned</description>
+    </record>
+    <record>
       <type>0x0012</type>
       <description>Multi-Prefix</description>
       <xref type="rfc" data="rfc5535"/>
+    </record>
+    <record>
+      <type>0x0013-0xFFFC</type>
+      <description>Unassigned</description>
     </record>
     <record>
       <type>0xFFFD</type>

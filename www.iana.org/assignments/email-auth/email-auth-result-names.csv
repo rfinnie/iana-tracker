@@ -32,7 +32,11 @@ dmarc,none,[RFC7489] section 11.2,active
 dmarc,pass,[RFC7489] section 11.2,active
 dmarc,permerror,[RFC7489] section 11.2,active
 dmarc,temperror,[RFC7489],active
-domainkeys,fail,[RFC7601] section 2.7.1,deprecated
+dnswl,none,[RFC8904],active
+dnswl,pass,[RFC8904],active
+dnswl,permerror,[RFC8904],active
+dnswl,temperror,[RFC8904],active
+domainkeys,temperror,[RFC7601] section 2.7.1,deprecated
 domainkeys,neutral,[RFC7601] section 2.7.1,deprecated
 domainkeys,none,[RFC7601] section 2.7.1,deprecated
 domainkeys,permerror,[RFC7601] section 2.7.1,deprecated

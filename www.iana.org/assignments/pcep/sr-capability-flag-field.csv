@@ -1,0 +1,5 @@
+Bit,Description,Reference
+0-5,Unassigned,
+6,"Node or Adjacency Identifier (NAI) is
+        supported (N)",[RFC8664]
+7,Unlimited Maximum SID Depth (X),[RFC8664]

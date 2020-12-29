@@ -1,0 +1,6 @@
+ID_Classification,Value,Reference
+Sender,0,[RFC4535]
+Receiver,1,[RFC4535]
+Third Party,2,[RFC4535]
+Reserved to IANA,3-192,[RFC4535]
+Private Use,193-255,[RFC4535]

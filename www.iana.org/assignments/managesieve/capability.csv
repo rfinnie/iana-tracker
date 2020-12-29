@@ -1,19 +1,14 @@
 Capability name,Description,Relevant publications,Person and email address to contact for further information,Author/Change controller
 IMPLEMENTATION,"Its value contains name of server implementation and
-        its version.","[RFC5804], 
-        Section 1.8.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        its version.","[RFC5804], Section 1.8.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 SASL,"Its value contains a space separated list of SASL
-        mechanisms supported by server.","[RFC5804], Section 1.8 
-        and Section 2.1.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        mechanisms supported by server.","[RFC5804], Section 1.8 and Section 2.1.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 SIEVE,"Its value contains a space separated list of
-        supported SIEVE extensions","[RFC5804], Section 1.8. 
-        Also [RFC5228].",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        supported SIEVE extensions","[RFC5804], Section 1.8. Also [RFC5228].",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 STARTTLS,"This capability is returned if server supports TLS
-        (STARTTLS command).","[RFC5804], Section 1.8 
-        and Section 2.2.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        (STARTTLS command).","[RFC5804], Section 1.8 and Section 2.2.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 NOTIFY,"This capability is returned if server supports
-        'enotify' [RFC5435] 
-        Sieve extension.","[RFC5804], Section 1.8.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+        'enotify' [RFC5435] Sieve extension.","[RFC5804], Section 1.8.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 MAXREDIRECTS,"This capability returns the limit on the number of
         Sieve ""redirect"" actions a script can perform during a single
         evaluation.  The value is a non-negative number represented as a
@@ -24,8 +19,5 @@ OWNER,"Its value contains UTF-8 encoded name of the
         currently logged in user (""authorization identity"" according to
         [RFC4422]).","[RFC5804], Section 1.8.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
 VERSION,"This capability is returned if the server is
-        compliant with [RFC5804], i.e. that 
-        it supports RENAMESCRIPT, CHECKSCRIPT and NOOP commands.","[RFC5804], Section 2.11.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
-EXTLISTS,"This capability is returned if the server supports the 
-        ""extlists"" [RFC6134] 
-      Sieve extension.","[RFC6134], Section 2.8.",Sieve mailing list (sieve@ietf.org),IESG
+        compliant with [RFC5804], i.e. that it supports RENAMESCRIPT, CHECKSCRIPT and NOOP commands.","[RFC5804], Section 2.11.",Alexey Melnikov (alexey.melnikov@isode.com),IESG
+EXTLISTS,"This capability is returned if the server supports the ""extlists"" [RFC6134] Sieve extension.","[RFC6134], Section 2.8.",Sieve mailing list (sieve@ietf.org),IESG

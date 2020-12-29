@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2020-02-24</updated>
+  <updated>2020-12-04</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -16,6 +16,7 @@ registration procedure, guidance for IESG-designated experts can be found in
     <xref type="rfc" data="rfc3563"/>
     <xref type="rfc" data="rfc6233"/>
     <xref type="rfc" data="rfc7356"/>
+    <xref type="rfc" data="rfc8918"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
     <note>IETF SHALL keep JTC1/SC6 informed of TLV codepoint values allocated,
@@ -198,15 +199,15 @@ Network Service (ISO 8473)", International Standard 10589:
         <xref type="rfc" data="rfc3358"/>
       </status>
     </record>
-    <record>
+    <record updated="2020-08-29">
       <value>13</value>
       <name>Purge Originator Identification</name>
       <IIH>n</IIH>
-      <LSP>y</LSP>
+      <LSP>n</LSP>
       <SNP>n</SNP>
       <purge>y</purge>
       <status>
-        <xref type="rfc" data="rfc6232"/>
+        <xref type="rfc" data="rfc8918"/>
       </status>
     </record>
     <record>
@@ -246,7 +247,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08" updated="2019-08-09">
       <value>17</value>
-      <name>IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)</name>
+      <name>IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
       <IIH>n</IIH>
       <LSP>y</LSP>
       <SNP>n</SNP>
@@ -257,7 +258,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08">
       <value>18</value>
-      <name>IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)</name>
+      <name>IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
       <IIH>n</IIH>
       <LSP>y</LSP>
       <SNP>n</SNP>
@@ -268,7 +269,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08">
       <value>19</value>
-      <name>IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, expires 2020-08-08)</name>
+      <name>IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
       <IIH>y</IIH>
       <LSP>n</LSP>
       <SNP>n</SNP>
@@ -277,8 +278,19 @@ Network Service (ISO 8473)", International Standard 10589:
         <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
       </status>
     </record>
+    <record date="2020-08-31">
+      <value>20</value>
+      <name>Area Proxy (TEMPORARY - registered 2020-08-31, expires 2021-08-31)</name>
+      <IIH>n</IIH>
+      <LSP>y</LSP>
+      <SNP>n</SNP>
+      <purge>n</purge>
+      <status>
+        <xref type="draft" data="draft-ietf-lsr-isis-area-proxy-03"/>
+      </status>
+    </record>
     <record>
-      <value>20-21</value>
+      <value>21</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -326,7 +338,33 @@ Network Service (ISO 8473)", International Standard 10589:
       </status>
     </record>
     <record>
-      <value>26-41</value>
+      <value>26</value>
+      <name>Unassigned</name>
+    </record>
+    <record date="2020-06-17">
+      <value>27</value>
+      <name>SRv6 Locator (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</name>
+      <IIH>n</IIH>
+      <LSP>y</LSP>
+      <SNP>n</SNP>
+      <purge>n</purge>
+      <status>
+        <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
+      </status>
+    </record>
+    <record date="2020-11-20">
+      <value>28</value>
+      <name>Zone ID (TEMPORARY - registered 2020-11-20, expires 2021-11-20)</name>
+      <IIH>n</IIH>
+      <LSP>y</LSP>
+      <SNP>n</SNP>
+      <purge>n</purge>
+      <status>
+        <xref type="draft" data="draft-ietf-lsr-isis-ttz-01"/>
+      </status>
+    </record>
+    <record>
+      <value>29-41</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -593,7 +631,22 @@ Network Service (ISO 8473)", International Standard 10589:
       </status>
     </record>
     <record>
-      <value>151-175</value>
+      <value>151-160</value>
+      <name>Unassigned</name>
+    </record>
+    <record date="2020-08-05">
+      <value>161</value>
+      <name>Flood Reflection (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</name>
+      <IIH>y</IIH>
+      <LSP>n</LSP>
+      <SNP>n</SNP>
+      <purge>n</purge>
+      <status>
+        <xref type="draft" data="draft-ietf-lsr-isis-flood-reflection-01"/>
+      </status>
+    </record>
+    <record>
+      <value>162-175</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -733,14 +786,13 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2018-04-27">
       <value>238</value>
-      <name>Application Specific SRLG 
-      (TEMPORARY - registered 2018-04-27, extension registered 2019-04-01, expires 2020-04-27)</name>
+      <name>Application-Specific SRLG</name>
       <IIH>n</IIH>
       <LSP>y</LSP>
       <SNP>n</SNP>
       <purge>n</purge>
       <status>
-        <xref type="draft" data="draft-ietf-isis-te-app"/>
+        <xref type="rfc" data="rfc8919"/>
       </status>
     </record>
     <record>
@@ -1048,15 +1100,14 @@ n - sub-TLV MUST NOT appear in TLV 25
     </record>
     <record date="2018-04-27">
       <value>16</value>
-      <description>Application Specific Link Attributes
-        (TEMPORARY - registered 2018-04-27, extension registered 2019-04-01, expires 2020-04-27)</description>
+      <description>Application-Specific Link Attributes</description>
       <TLV_22>y</TLV_22>
       <TLV_23>y</TLV_23>
       <TLV_25>y(s)</TLV_25>
       <TLV_141>y</TLV_141>
       <TLV_222>y</TLV_222>
       <TLV_223>y</TLV_223>
-      <xref type="draft" data="draft-ietf-isis-te-app"/>
+      <xref type="rfc" data="rfc8919"/>
     </record>
     <record>
       <value>17</value>
@@ -1338,8 +1389,48 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_223>n</TLV_223>
       <xref type="rfc" data="rfc8668"/>
     </record>
+    <record date="2020-06-17">
+      <value>43</value>
+      <description>SRv6 End.X SID 
+        (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</description>
+      <TLV_22>y</TLV_22>
+      <TLV_23>y</TLV_23>
+      <TLV_25>y</TLV_25>
+      <TLV_141>y</TLV_141>
+      <TLV_222>y</TLV_222>
+      <TLV_223>y</TLV_223>
+      <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
+    </record>
+    <record date="2020-06-17">
+      <value>44</value>
+      <description>SRv6 LAN End.X SID 
+        (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</description>
+      <TLV_22>y</TLV_22>
+      <TLV_23>y</TLV_23>
+      <TLV_25>y</TLV_25>
+      <TLV_141>y</TLV_141>
+      <TLV_222>y</TLV_222>
+      <TLV_223>y</TLV_223>
+      <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
+    </record>
     <record>
-      <value>43-249</value>
+      <value>45-160</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-08-05">
+      <value>161</value>
+      <description>Flood Reflector Adjacency 
+        (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</description>
+      <TLV_22>y</TLV_22>
+      <TLV_23>y</TLV_23>
+      <TLV_25>n</TLV_25>
+      <TLV_141>y</TLV_141>
+      <TLV_222>y</TLV_222>
+      <TLV_223>y</TLV_223>
+      <xref type="draft" data="draft-ietf-lsr-isis-flood-reflection-01"/>
+    </record>
+    <record>
+      <value>162-249</value>
       <description>Unassigned</description>
     </record>
     <record>
@@ -1368,7 +1459,7 @@ n - sub-TLV MUST NOT appear in TLV 25
     </record>
     <record date="2019-07-31">
       <value>0x4</value>
-      <name>Local Edge Enabled for Flooding (LEEF) (TEMPORARY - registered 2019-07-31, expires 2020-07-31)</name>
+      <name>Local Edge Enabled for Flooding (LEEF) (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
 	  <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
       
@@ -1425,14 +1516,20 @@ by the IESG.
       <TLV_237>y</TLV_237>
       <xref type="rfc" data="rfc7794"/>
     </record>
-    <record>
+    <record date="2020-06-17">
       <value>5</value>
-      <description>Unassigned</description>
+      <description>SRv6 End SID 
+        (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</description>
+      <TLV_135>n</TLV_135>
+      <TLV_235>n</TLV_235>
+      <TLV_236>n</TLV_236>
+      <TLV_237>n</TLV_237>
+      <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
     </record>
     <record date="2019-10-02">
       <value>6</value>
       <description>Flex-Algorithm Prefix Metric 
-      (TEMPORARY - registered 2019-10-02, expires 2020-10-02)</description>
+      (TEMPORARY - registered 2019-10-02, extension registered 2020-08-12, expires 2021-10-02)</description>
       <TLV_135>y</TLV_135>
       <TLV_235>y</TLV_235>
       <TLV_236>y</TLV_236>
@@ -1500,11 +1597,15 @@ by the IESG.
       <description>Node Flag (N-flag)</description>
       <xref type="rfc" data="rfc7794"/>
     </record>
-    <record date="2019-08-30">
+    <record date="2019-08-30" updated="2020-06-05">
       <value>3</value>
-      <description>E-bit 
-        (TEMPORARY - registered 2019-08-30, expires 2020-08-30)</description>
-      <xref type="draft" data="draft-ietf-isis-mpls-elc"/>
+      <description>ELC Flag (E-flag)</description>
+      <xref type="draft" data="RFC-ietf-isis-mpls-elc-13"/>
+    </record>
+    <record date="2020-06-17">
+      <value>4</value>
+      <description>A bit (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</description>
+      <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
     </record>
       
   </registry>
@@ -1888,30 +1989,42 @@ by the IESG.
       <description>Segment Routing Mapping Server Preference (SRMS Preference)</description>
       <xref type="rfc" data="rfc8667"/>
     </record>
-    <record>
+    <record date="2020-06-17">
       <value>25</value>
-      <description>Unassigned</description>
+      <description>SRv6 Capabilities 
+        (TEMPORARY - registered 2020-06-17, expires 2021-06-17)</description>
+      <xref type="draft" data="draft-ietf-lsr-isis-srv6-extensions-08"/>
     </record>
     <record date="2018-06-04">
       <value>26</value>
       <description>Flexible Algorithm Definition 
-        (TEMPORARY - registered 2018-06-04, extension registered 2019-06-03, expires 2020-06-04)</description>
+        (TEMPORARY - registered 2018-06-04, extension registered 2020-05-12, expires 2021-06-04)</description>
       <xref type="draft" data="draft-ietf-lsr-flex-algo"/>
     </record>
     <record date="2019-08-08">
       <value>27</value>
       <description>IS-IS Area Leader Sub-TLV 
-        (TEMPORARY - registered 2019-08-08, expires 2020-08-08)</description>
+        (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
     <record date="2019-08-08">
       <value>28</value>
       <description>IS-IS Dynamic Flooding Sub-TLV
-        (TEMPORARY - registered 2019-08-08, expires 2020-08-08)</description>
+        (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
     <record>
-      <value>29-255</value>
+      <value>29-160</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-08-05">
+      <value>161</value>
+      <description>Flood Reflection Discovery
+        (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</description>
+      <xref type="draft" data="draft-ietf-lsr-isis-flood-reflection-01"/>
+    </record>
+    <record>
+      <value>162-255</value>
       <description>Unassigned</description>
     </record>
     </registry>
@@ -1990,5 +2103,169 @@ by the IESG.
     </record>
   </registry>
   
+  <registry id="application-specific-link-attributes">
+    <title>Sub-sub-TLV Codepoints for Application-Specific Link Attributes</title>
+    <xref type="rfc" data="rfc8919"/>
+    <registration_rule>Expert Review</registration_rule>
+    <expert>Les Ginsberg, Chris Hopps</expert>
+    <note>For future codepoints, in cases where the document that defines
+the encoding is different from the document that assigns
+the codepoint, the encoding reference MUST be to the document
+that defines the encoding.
+    </note>
+    <note>If a link attribute can be advertised both as a sub-TLV of TLVs
+22, 23, 25, 141, 222, and 223 and as a sub-sub-TLV of the 
+Application-Specific Link Attributes sub-TLV defined in 
+<xref type="rfc" data="rfc8919"/>, then the same numerical code
+should be assigned to the link attribute whenever possible.
+    </note>
+    <record>
+      <value>0-2</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>3</value>
+      <description>Administrative group (color)</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record>
+      <value>4-8</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>9</value>
+      <description>Maximum link bandwidth</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record date="2020-07-07">
+      <value>10</value>
+      <description>Maximum reservable link bandwidth</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record date="2020-07-07">
+      <value>11</value>
+      <description>Unreserved bandwidth</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record>
+      <value>12-13</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>14</value>
+      <description>Extended Administrative Group</description>
+      <xref type="rfc" data="rfc7308"/>
+    </record>
+    <record>
+      <value>15-17</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>18</value>
+      <description>TE Default Metric</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record>
+      <value>19-32</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>33</value>
+      <description>Unidirectional Link Delay</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>34</value>
+      <description>Min/Max Unidirectional Link Delay</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>35</value>
+      <description>Unidirectional Delay Variation</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>36</value>
+      <description>Unidirectional Link Loss</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>37</value>
+      <description>Unidirectional Residual Bandwidth</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>38</value>
+      <description>Unidirectional Available Bandwidth</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record date="2020-07-07">
+      <value>39</value>
+      <description>Unidirectional Utilized Bandwidth</description>
+      <xref type="rfc" data="rfc8570"/>
+    </record>
+    <record>
+      <value>40-255</value>
+      <description>Unassigned</description>
+    </record>
+  </registry>
+  
+  <registry id="tlv-238">
+    <title>Sub-TLVs for TLV 238</title>
+    <xref type="rfc" data="rfc8919"/>
+    <registration_rule>Expert Review</registration_rule>
+    <expert>Les Ginsberg, Chris Hopps</expert>
+    <note>For future codepoints, in cases where the document that defines
+the encoding is different from the document that assigns the 
+codepoint, the encoding reference MUST be to the document that 
+defines the encoding.
+    </note>
+    <record>
+      <value>0-3</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>4</value>
+      <description>Link Local/Remote Identifiers</description>
+      <xref type="rfc" data="rfc5307"/>
+    </record>
+    <record>
+      <value>5</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>6</value>
+      <description>IPv4 interface address</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record>
+      <value>7</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>8</value>
+      <description>IPv4 neighbor address</description>
+      <xref type="rfc" data="rfc5305"/>
+    </record>
+    <record>
+      <value>9-11</value>
+      <description>Unassigned</description>
+    </record>
+    <record date="2020-07-07">
+      <value>12</value>
+      <description>IPv6 Interface Address</description>
+      <xref type="rfc" data="rfc6119"/>
+    </record>
+    <record date="2020-07-07">
+      <value>13</value>
+      <description>IPv6 Neighbor Address</description>
+      <xref type="rfc" data="rfc6119"/>
+    </record>
+    <record>
+      <value>14-255</value>
+      <description>Unassigned</description>
+    </record>
+    </registry>
+	
   <people/>
 </registry>

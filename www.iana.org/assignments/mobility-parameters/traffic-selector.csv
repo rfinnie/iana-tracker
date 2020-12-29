@@ -3,4 +3,4 @@ Value,Description,Reference
 1,IPv4 Binary Traffic Selector,[RFC6088]
 2,IPv6 Binary Traffic Selector,[RFC6088]
 3-250,Unassigned,
-251-255,Reserved for experimental use,[RFC6089]
+251-255,Reserved for Experimental Use,[RFC6089]

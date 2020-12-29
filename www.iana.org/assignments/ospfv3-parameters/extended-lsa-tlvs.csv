@@ -1,0 +1,15 @@
+Value,Description,Reference
+0,Reserved,[RFC8362]
+1,Router-Link TLV,[RFC8362]
+2,Attached-Routers TLV,[RFC8362]
+3,Inter-Area-Prefix TLV,[RFC8362]
+4,Inter-Area-Router TLV,[RFC8362]
+5,External-Prefix TLV,[RFC8362]
+6,Intra-Area-Prefix TLV,[RFC8362]
+7,IPv6 Link-Local Address TLV,[RFC8362]
+8,IPv4 Link-Local Address TLV,[RFC8362]
+9,OSPFv3 Extended Prefix Range TLV,[RFC8666]
+10-32767,Unassigned,
+32768-33023,Reserved for Experimental Use,[RFC8362]
+33024-45055,Unassigned,
+45056-65535,Reserved,[RFC8362]

@@ -5,4 +5,4 @@ Value,Addrtype,Length of value field (in bytes),Reference
 3,IPv6,16,[RFC3103]
 4,FQDN,varies,[RFC3103]
 5-240,Unassigned,-,[RFC3103]
-240-255,Reserved for private use,-,[RFC3103]
+241-255,Reserved for Private Use,-,[RFC3103]

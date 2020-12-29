@@ -1,8 +1,7 @@
 Value,Description,Reference
 0,No additional information,[RFC5050]
 1-2,Unassigned,
-3,"Redundant reception (reception by a node that is a custodial node for 
-      this bundle)",[RFC5050]
+3,Redundant reception (reception by a node that is a custodial node for this bundle),[RFC5050]
 4,Depleted storage,[RFC5050]
 5,Destination endpoint ID unintelligible,[RFC5050]
 6,No known route to destination from here,[RFC5050]

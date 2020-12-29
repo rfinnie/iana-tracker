@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="s-naptr-parameters">
   <title>Straightforward-NAPTR (S-NAPTR) Parameters</title>
   <created>2004-10-10</created>
-  <updated>2015-10-19</updated>
+  <updated>2020-11-19</updated>
   <registry id="s-naptr-parameters-1">
     <title>S-NAPTR Application Service Tags</title>
     <xref type="rfc" data="rfc3958"/>
@@ -135,6 +135,14 @@
       <tag>DCHK1</tag>
       <xref type="rfc" data="rfc5144"/>
     </record>
+    <record date="2020-11-19">
+      <tag>DOTS</tag>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
+    </record>
+    <record date="2020-11-19">
+      <tag>DOTS-CALL-HOME</tag>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
+    </record>
     <record>
       <tag>DREG1</tag>
       <xref type="rfc" data="rfc3982"/>
@@ -150,6 +158,10 @@
     <record>
       <tag>LoST</tag>
       <xref type="rfc" data="rfc5222"/>
+    </record>
+    <record date="2020-07-10">
+      <tag>LoST-Validation</tag>
+      <xref type="rfc" data="rfc8917"/>
     </record>
     <record>
       <tag>no-solicit</tag>
@@ -231,6 +243,14 @@
     </record><record date="2015-05-26">
       <tag>radius.tls.tcp</tag>
       <xref type="rfc" data="rfc7585"/>
+    </record>
+    <record date="2020-11-19">
+      <tag>signal.udp</tag>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
+    </record>
+    <record date="2020-11-19">
+      <tag>signal.tcp</tag>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
     </record>
     <record date="2014-07-03">
       <tag>turn.dtls</tag>

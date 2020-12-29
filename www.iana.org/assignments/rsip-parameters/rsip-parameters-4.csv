@@ -4,4 +4,4 @@ Value,RSIP method,Reference
 2,RSAP-IP,[RFC3103]
 3,RSIP with IPsec (RSIPSEC),[RFC3104]
 4-240,Unassigned,[RFC3103]
-241-255,Reserved for private use,[RFC3103]
+241-255,Reserved for Private Use,[RFC3103]

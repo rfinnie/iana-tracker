@@ -41,6 +41,5 @@ Namespace,Property,Reference
 ,EXPERTISE,"[RFC6715], Section 2.1"
 ,HOBBY,"[RFC6715], Section 2.2"
 ,INTEREST,"[RFC6715], Section 2.3"
-,ORG-DIRECTORY,"[RFC6715], Section 2.4 [RFC Errata 
-          3341]"
+,ORG-DIRECTORY,"[RFC6715], Section 2.4 [RFC Errata 3341]"
 ,CONTACT-URI,"[RFC8605], Section 2.1"

@@ -8,8 +8,8 @@ http://id.skolfederation.se/loa/bas,skolfederation.se-bas,[https://www.skolfeder
 http://id.incommon.org/assurance/bronze,InC-Bronze,[http://assurance.incommon.org],[Ann_West],InC-Bronze/InC-Bronze.xsd
 http://id.incommon.org/assurance/silver,InC-Silver,[http://assurance.incommon.org],[Ann_West],InC-Silver/InC-Silver.xsd
 http://id.skolfederation.se/loa/2fa,skolfederation.se-2fa,[https://www.skolfederation.se/skolfederation-loa],[Stefan_Halén-skolfederation.se],skolfederation.se-2fa/skolfederation.se-2fa.xsd
-http://www.swamid.se/policy/assurance/al1,SWAMID-AL1,[https://www.sunet.se/swamid/policy/al1/],[Pål_Axelsson],SWAMID-AL1/SWAMID-AL1.xsd
-http://www.swamid.se/policy/assurance/al2,SWAMID-AL2,[https://www.sunet.se/swamid/policy/al2/],[Pål_Axelsson],SWAMID-AL2/SWAMID-AL2.xsd
+http://www.swamid.se/policy/assurance/al1,SWAMID-AL1,[https://www.swamid.se/policy/assurance/al1],[Pål_Axelsson],SWAMID-AL1/SWAMID-AL1.xsd
+http://www.swamid.se/policy/assurance/al2,SWAMID-AL2,[https://www.swamid.se/policy/assurance/al2],[Pål_Axelsson],SWAMID-AL2/SWAMID-AL2.xsd
 https://refeds.org/sirtfi,Sirtfi,[https://refeds.org/sirtfi],[H._Short],Sirtfi/Sirtfi.xsd
 https://igtf.net/ap/authn-assurance/aspen,IGTF-ASPEN,[https://www.igtf.net/ap/authn-assurance/],[David_Groep],IGTF-ASPEN/IGTF-ASPEN.xsd
 https://igtf.net/ap/authn-assurance/birch,IGTF-BIRCH,[https://www.igtf.net/ap/authn-assurance/],[David_Groep],IGTF-BIRCH/IGTF-BIRCH.xsd
@@ -21,3 +21,7 @@ https://refeds.org/profile/sfa,REFEDS-SFA,[https://refeds.org/profile/sfa],[Jule
 https://refeds.org/profile/mfa,REFEDS-MFA,[https://refeds.org/profile/mfa],[Jule_Ziegler],REFEDS-MFA/REFEDS-MFA.xsd
 https://refeds.org/assurance/profile/cappuccino,RAF-Cappuccino,[https://refeds.org/assurance],[Jule_Ziegler],RAF-Cappuccino/RAF-Cappuccino.xsd
 https://refeds.org/assurance/profile/espresso,RAF-Espresso,[https://refeds.org/assurance],[Jule_Ziegler],RAF-Espresso/RAF-Espresso.xsd
+http://eidas.europa.eu/LoA/low,eidas-loa-low,[https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eIDAS+Levels+of+assurance],[Carlos_Gómez],eidas-loa-low/eidas-loa-low.xsd
+http://eidas.europa.eu/LoA/substantial,eidas-loa-substantial,[https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eIDAS+Levels+of+assurance],[Carlos_Gómez],eidas-loa-substantial/eidas-loa-substantial.xsd
+http://eidas.europa.eu/LoA/high,eidas-loa-high,[https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eIDAS+Levels+of+assurance],[Carlos_Gómez],eidas-loa-high/eidas-loa-high.xsd
+http://www.swamid.se/policy/assurance/al3,SWAMID-AL3,[https://www.swamid.se/policy/assurance/al3],[Pål_Axelsson],SWAMID-AL3/SWAMID-AL3.xsd

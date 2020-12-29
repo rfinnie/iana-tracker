@@ -1,6 +1,5 @@
 Code,Description,Reference
-requestError,"This code indicates that the request was badly formed 
-        in some fashion.",[RFC5985]
+requestError,This code indicates that the request was badly formed in some fashion.,[RFC5985]
 xmlError,"This code indicates that the XML content of the request
         was either badly formed or invalid.",[RFC5985]
 generalLisError,"This code indicates that an unspecified error

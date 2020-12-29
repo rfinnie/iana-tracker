@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="cwt.xsl"?>
+<?oxygen RNGSchema="cwt.rng" type="xml"?>
+<registry xmlns="http://www.iana.org/assignments" id="cwt">
+  <title>CBOR Web Token (CWT) Claims</title>
+  <created>2018-03-22</created>
+  <updated>2020-04-15</updated>
+  
+  <registry id="claims-registry">
+    <title>CBOR Web Token (CWT) Claims</title>
+    <xref type="rfc" data="rfc8392"/>
+    <note>Registration requests should be sent to the mailing list described in <xref type="rfc" data="rfc8392"/>.
+    </note>
+    <range>
+      <value>Integer values from -256 to 255</value>
+      <registration_rule>Standards Action</registration_rule>
+    </range>
+    <range>
+      <value>Integer values from -65536 to -257</value>
+      <registration_rule>Specification Required</registration_rule>
+    </range>
+    <range>
+      <value>Integer values from 256 to 65535</value>
+      <registration_rule>Specification Required</registration_rule>
+    </range>
+    <range>
+      <value>Integer values greater than 65535</value>
+      <registration_rule>Expert Review</registration_rule>
+    </range>
+    <range>
+      <value>Strings of length 1</value>
+      <registration_rule>Standards Action</registration_rule>
+    </range>
+    <range>
+      <value>Strings of length 2</value>
+      <registration_rule>Specification Required</registration_rule>
+    </range>
+    <range>
+      <value>Strings of length greater than 2</value>
+      <registration_rule>Expert Review</registration_rule>
+    </range>
+    <expert>Mike Jones, Hannes Tschofenig, Chuck Mortimore, Ludwig Seitz</expert>
+    <record date="2018-03-22">
+      <claim>Reserved for Private Use</claim>
+      <description/>
+      <jwt/>
+      <key>less than -65536</key>
+      <value/>
+      <change/>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record>
+      <claim>Unassigned</claim>
+      <description/>
+      <jwt/>
+      <key>-65536 to -257</key>
+      <value/>
+      <change/>
+    </record>
+    <record>
+      <claim>Unassigned</claim>
+      <description/>
+      <jwt/>
+      <key>-256 to -1</key>
+      <value/>
+      <change/>
+    </record>
+    <record date="2018-03-22">
+      <claim>Reserved</claim>
+      <description>This registration reserves the key value 0</description>
+      <jwt/>
+      <key>0</key>
+      <value/>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>iss</claim>
+      <description>Issuer</description>
+      <jwt>iss</jwt>
+      <key>1</key>
+      <value>text string</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>sub</claim>
+      <description>Subject</description>
+      <jwt>sub</jwt>
+      <key>2</key>
+      <value>text string</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>aud</claim>
+      <description>Audience</description>
+      <jwt>aud</jwt>
+      <key>3</key>
+      <value>text string</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>exp</claim>
+      <description>Expiration Time</description>
+      <jwt>exp</jwt>
+      <key>4</key>
+      <value>integer or floating-point number</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>nbf</claim>
+      <description>Not Before</description>
+      <jwt>nbf</jwt>
+      <key>5</key>
+      <value>integer or floating-point number</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>iat</claim>
+      <description>Issued At</description>
+      <jwt>iat</jwt>
+      <key>6</key>
+      <value>integer or floating-point number</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2018-03-22">
+      <claim>cti</claim>
+      <description>CWT ID</description>
+      <jwt>jti</jwt>
+      <key>7</key>
+      <value>byte string</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8392"/>
+    </record>
+    <record date="2019-11-08">
+      <claim>cnf</claim>
+      <description>Confirmation</description>
+      <jwt>cnf</jwt>
+      <key>8</key>
+      <value>map</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8747"/>
+    </record>
+    <record>
+      <claim>Unassigned</claim>
+      <description/>
+      <jwt/>
+      <key>9 to 65535</key>
+      <value/>
+      <change/>
+    </record>
+  </registry>
+  
+  <registry id="confirmation-methods">
+    <title>CWT Confirmation Methods</title>
+    <xref type="rfc" data="rfc8747"/>
+    <registration_rule>Specification Required</registration_rule>
+    <expert>Ludwig Seitz, Mike Jones</expert>
+    <note>Registration requests should be sent to the mailing list described in <xref type="rfc" data="rfc8747"/>.
+    </note>  
+    <record date="2019-11-08">
+      <confirmation>COSE_Key</confirmation>
+      <description>COSE_Key Representing Public Key</description>
+      <jwt>jwk</jwt>
+      <key>1</key>
+      <value>COSE_Key structure</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8747">RFC8747, Section 3.2</xref>
+    </record>
+    <record date="2019-11-08">
+      <confirmation>Encrypted_COSE_Key</confirmation>
+      <description>Encrypted COSE_Key</description>
+      <jwt>jwe</jwt>
+      <key>2</key>
+      <value>COSE_Encrypt or COSE_Encrypt0
+      structure (with an optional corresponding COSE_Encrypt or
+      COSE_Encrypt0 tag)</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8747">RFC8747, Section 3.3</xref>
+    </record>
+    <record date="2019-11-08">
+      <confirmation>kid</confirmation>
+      <description>Key Identifier</description>
+      <jwt>kid</jwt>
+      <key>3</key>
+      <value>binary string</value>
+      <change><xref type="person" data="IESG"/></change>
+      <xref type="rfc" data="rfc8747">RFC8747, Section 3.4</xref>
+    </record>
+  </registry>
+    
+  <people>
+    <person id="IESG">
+    <name>IESG</name>
+    <uri>mailto:iesg&amp;ietf.org</uri>
+    <updated>2018-05-04</updated>
+  </person>
+  </people>
+</registry>

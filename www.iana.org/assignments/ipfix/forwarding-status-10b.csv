@@ -1,0 +1,18 @@
+Binary,Hex,Description,Reference
+10 000000b,0x80,Unknown,[RFC7270]
+10 000001b,0x81,ACL deny,[RFC7270]
+10 000010b,0x82,ACL drop,[RFC7270]
+10 000011b,0x83,Unroutable,[RFC7270]
+10 000100b,0x84,Adjacency,[RFC7270]
+10 000101b,0x85,Fragmentation and DF set,[RFC7270]
+10 000110b,0x86,Bad header checksum,[RFC7270]
+10 000111b,0x87,Bad total Length,[RFC7270]
+10 001000b,0x88,Bad header length,[RFC7270]
+10 001001b,0x89,bad TTL,[RFC7270]
+10 001010b,0x8A,Policer,[RFC7270]
+10 001011b,0x8B,WRED,[RFC7270]
+10 001100b,0x8C,RPF,[RFC7270]
+10 001101b,0x8D,For us,[RFC7270]
+10 001110b,0x8E,Bad output interface,[RFC7270]
+10 001111b,0x8F,Hardware,[RFC7270]
+,0x90-0xBF,Unassigned,

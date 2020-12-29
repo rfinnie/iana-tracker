@@ -282,12 +282,9 @@ Port",[Michael_Patrick][https://www.cablelabs.com/specifications/CM-SP-EQAM-PMI-
 261,otnOtu,OTN Optical channel Transport Unit,[Jim_Vance][https://www.itu.int/ITU-T/studygroups/com15/otn/OTNtutorial.pdf]
 262,ifVfiType,"VPLS Forwarding Instance Interface
 Type",[Manas_Pati]
-263,g9981,G.998.1 bonded interface,"[RFC6768][RFC Errata 
-          3591]"
-264,g9982,G.998.2 bonded interface,"[RFC6767][RFC Errata 
-          3589]"
-265,g9983,G.998.3 bonded interface,"[RFC6766][RFC Errata 
-          3588]"
+263,g9981,G.998.1 bonded interface,[RFC6768][RFC Errata 3591]
+264,g9982,G.998.2 bonded interface,[RFC6767][RFC Errata 3589]
+265,g9983,G.998.3 bonded interface,[RFC6766][RFC Errata 3588]
 266,aluEpon (E-PON),Ethernet Passive Optical Networks,[Karel_Meijfroidt]
 267,aluEponOnu,EPON Optical Network Unit,[Karel_Meijfroidt]
 268,aluEponPhysicalUni,"EPON physical User to Network
@@ -330,3 +327,4 @@ is allocated according to the following reference.",[RFC7257]
 297,ieee8021axDrni,IEEE 802.1AX Distributed Resilient Network Interface,[IEEE 802.1AX-Rev-d2-0][John_Messenger]
 298,ax25,AX.25 network interfaces,[AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
 299,ieee19061nanocom,Nanoscale and Molecular Communication,[IEEE 1906.1-2015][Stephen_F_Bush]
+300,cpri,Common Public Radio Interface,[CPRI v7.0][Renwang_Liu]

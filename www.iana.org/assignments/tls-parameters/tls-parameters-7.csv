@@ -22,7 +22,8 @@ Value,Description,DTLS-OK,Reference,Comment
 22,certificate_status_RESERVED,Y,[RFC6066][RFC8446],Used in TLS versions prior to 1.3.
 23,supplemental_data_RESERVED,Y,[RFC4680][RFC8446],Used in TLS versions prior to 1.3.
 24,key_update,Y,[RFC8446],
-25,compressed_certificate,Y,[RFC-ietf-tls-certificate-compression-09],
-26-253,Unassigned,,,
+25,compressed_certificate,Y,[RFC8879],
+26,ekt_key,Y,[RFC-ietf-perc-srtp-ekt-diet-13],
+27-253,Unassigned,,,
 254,message_hash,Y,[RFC8446],
 255,Unassigned,,,

@@ -1,10 +1,7 @@
 Package Name,Type,Contact,Reference
-call-completion,package,"Martin Huelsemann             
-        <martin.huelsemann&telekom.de>",[RFC6910]
-certificate,package,"Cullen Jennings             
-        <fluffy&cisco.com>",[RFC6072]
-credential,package,"Cullen Jennings             
-        <fluffy&cisco.com>",[RFC6072]
+call-completion,package,Martin Huelsemann <martin.huelsemann&telekom.de>,[RFC6910]
+certificate,package,Cullen Jennings <fluffy&cisco.com>,[RFC6072]
+credential,package,Cullen Jennings <fluffy&cisco.com>,[RFC6072]
 conference,package,"IETF SIPPING Working Group   
 <sipping&ietf.org>",[RFC4575]
 consent-pending-additions,package,"Gonzalo Camarillo            
@@ -35,10 +32,8 @@ spirits-INDPs,package,"Vijay K. Gurbani
 <vkg&lucent.com>",[RFC3910]
 spirits-user-prof,package,"Vijay K. Gurbani             
 <vkg&lucent.com>",[RFC3910]
-ua-profile,package,"Daniel Petrie <dan.ietf&SIPez.com>,           
-        Sumanth Channabasappa <sumanth&cablelabs.com>",[RFC6080]
-vq-rtcpxr,package,"Amy Pendleton             
-        <aspen&telchemy.com>",[RFC6035]
+ua-profile,package,"Daniel Petrie <dan.ietf&SIPez.com>, Sumanth Channabasappa <sumanth&cablelabs.com>",[RFC6080]
+vq-rtcpxr,package,Amy Pendleton <aspen&telchemy.com>,[RFC6035]
 winfo,template-package,"Jonathan Rosenberg           
 <jdrosen&jdrosen.net>",[RFC3857]
 xcap-diff,package,"IETF Real-time Applications  

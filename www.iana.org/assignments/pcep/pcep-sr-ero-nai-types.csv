@@ -1,0 +1,9 @@
+Value,Description,Reference
+0,NAI is absent.,[RFC8664]
+1,NAI is an IPv4 node ID.,[RFC8664]
+2,NAI is an IPv6 node ID.,[RFC8664]
+3,NAI is an IPv4 adjacency.,[RFC8664]
+4,NAI is an IPv6 adjacency with global IPv6 addresses.,[RFC8664]
+5,NAI is an unnumbered adjacency with IPv4 node IDs.,[RFC8664]
+6,NAI is an IPv6 adjacency with link-local IPv6 addresses.,[RFC8664]
+7-15,Unassigned,

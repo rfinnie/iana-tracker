@@ -1,0 +1,5 @@
+Value,Name,Reference,Date
+T,Request to send a flow label,[RFC8395],2018-03-29
+R,Ability to receive a flow label,[RFC8395],2018-03-29
+C,Presence of a Control Word,[RFC4761],2018-03-29
+S,Sequenced delivery of frames,[RFC4761],2018-03-29

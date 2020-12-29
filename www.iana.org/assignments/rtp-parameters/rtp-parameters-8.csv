@@ -9,5 +9,6 @@ Value,Name,Long Name,Reference
 8,RTCP-ECN-FB,RTCP ECN Feedback,[RFC6679]
 9,PAUSE-RESUME,Media Pause/Resume,[RFC7728]
 10,DBI,Delay Budget Information (DBI),[3GPP TS 26.114 v16.3.0][Ozgur_Oyman]
-11-30,,Unassigned,
+11,CCFB,RTP Congestion Control Feedback,[RFC-ietf-avtcore-cc-feedback-message-09]
+12-30,,Unassigned,
 31,Extension,Reserved for future extensions,[RFC4585]

@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,No BIER specific algorithm is used,[RFC8401]
+1-239,Unassigned,
+240-254,Experimental Use,[RFC8401]
+255,Reserved,[RFC8401]

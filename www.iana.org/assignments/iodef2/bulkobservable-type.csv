@@ -4,23 +4,19 @@ asn,"Autonomous System Number (per the Address@category
 atm,"Asynchronous Transfer Mode (ATM) address (per the
         Address@category attribute).",[RFC7970]
 e-mail,Email address (per the Address@category attribute).,[RFC7970]
-ipv4-addr,"IPv4 host address in dotted-decimal notation, 
-        e.g., 192.0.2.1 (per the Address@category attribute).",[RFC7970]
+ipv4-addr,"IPv4 host address in dotted-decimal notation, e.g., 192.0.2.1 (per the Address@category attribute).",[RFC7970]
 ipv4-net,"IPv4 network address in dotted-decimal notation,
         slash, significant bits, e.g., 192.0.2.0/24 (per the
         Address@category attribute).",[RFC7970]
 ipv4-net-mask,"IPv4 network address in dotted-decimal
-        notation, slash, network mask in dotted-decimal notation, 
-        i.e., 192.0.2.0/255.255.255.0 (per the Address@category
+        notation, slash, network mask in dotted-decimal notation, i.e., 192.0.2.0/255.255.255.0 (per the Address@category
         attribute).",[RFC7970]
 ipv6-addr,"IPv6 host address, e.g., 2001:DB8::3 (per the
         Address@category attribute).",[RFC7970]
-ipv6-net,"IPv6 network address, slash, significant bits, 
-        e.g., 2001:DB8::/32 (per the Address@category attribute).",[RFC7970]
+ipv6-net,"IPv6 network address, slash, significant bits, e.g., 2001:DB8::/32 (per the Address@category attribute).",[RFC7970]
 ipv6-net-mask,"IPv6 network address, slash, network mask
         (per the Address@category attribute).",[RFC7970]
-mac,"Media Access Control (MAC) address, i.e., a:b:c:d:e:f 
-        (per the Address@category attribute).",[RFC7970]
+mac,"Media Access Control (MAC) address, i.e., a:b:c:d:e:f (per the Address@category attribute).",[RFC7970]
 site-uri,"A URL or URI for a resource (per the
         Address@category attribute).",[RFC7970]
 domain-name,"A fully qualified domain name or part of a

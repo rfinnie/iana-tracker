@@ -1,0 +1,5 @@
+Type,Name,Reference
+b00,REQUEST,[RFC8480]
+b01,RESPONSE,[RFC8480]
+b10,CONFIRMATION,[RFC8480]
+b11,Unassigned,

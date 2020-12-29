@@ -22,10 +22,7 @@ Balance Mapping for the Extensible Provisioning Protocol (EPP),Informational,[ht
 Registry Mapping for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_registry_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2552/],Active,None
 Related Domain Extension for the Extensible Provisioning Protocol (EPP),Informational,[http://www.verisigninc.com/assets/epp-sdk/verisign_epp-extension_related-domain_v00.html],[VeriSign_Inc.],Any,[https://datatracker.ietf.org/ipr/2553/],Active,None
 .SE extension,Informational,[https://registrar.iis.se/96],[Internet_Infrastructure_Foundation],.se  .nu,None,Active,None
-DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmaster/epp-service-specification],[DK_Hostmaster_AS],.dk,None,Active,"This extension includes a number of domain, host and contact 
-        object extension elements for use with the dk ccTLD. The extensions 
-        to the host objects was included with the revision 2.0 of the XSD 
-        implemented by the dk registry."
+DK Hostmaster local data extensions,Informational,[https://github.com/DK-Hostmaster/epp-service-specification],[DK_Hostmaster_AS],.dk,None,Active,"This extension includes a number of domain, host and contact object extension elements for use with the dk ccTLD. The extensions to the host objects was included with the revision 2.0 of the XSD implemented by the dk registry."
 Key Relay Mapping for the Extensible Provisioning Protocol,Standards Track,[RFC8063],[IESG],Any,[https://datatracker.ietf.org/ipr/2393/],Active,None
 Launch Phase Mapping for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8334],[IESG],Any,None,Active,None
 Allocation Token Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8495],[IESG],Any,None,Active,None
@@ -34,4 +31,4 @@ Organization Extension for the Extensible Provisioning Protocol (EPP),Standards 
 Change Poll Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8590],[IESG],Any,None,Active,None
 Registry Fee Extension for the Extensible Provisioning Protocol (EPP),Standards Track,[RFC8748],[IESG],Any,None,Active,None
 "Login Security Extension for the Extensible
-        Provisioning Protocol (EPP)",Standards Track,[RFC-ietf-regext-login-security-10],[IESG],Any,None,Active,None
+        Provisioning Protocol (EPP)",Standards Track,[RFC8807],[IESG],Any,None,Active,None

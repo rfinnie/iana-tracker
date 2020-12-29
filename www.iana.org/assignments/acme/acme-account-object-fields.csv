@@ -1,0 +1,7 @@
+Field Name,Field Type,Requests,Reference
+status,string,"new, account",[RFC8555]
+contact,array of string,"new, account",[RFC8555]
+externalAccountBinding,object,new,[RFC8555]
+termsOfServiceAgreed,boolean,new,[RFC8555]
+onlyReturnExisting,boolean,new,[RFC8555]
+orders,string,none,[RFC8555]

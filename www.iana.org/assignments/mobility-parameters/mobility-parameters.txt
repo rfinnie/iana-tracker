@@ -4,7 +4,7 @@
            2004-02-23
 
    Last Updated
-           2020-03-30
+           2020-10-09
 
    Available Formats
            [IMG]
@@ -21,9 +21,9 @@
      * Mobile Node Identifier Option Subtypes
      * Status Codes
      * Enumerating Algorithms
-     * Subtype field of the MN-HA and MN-AAA authentication mobility options
-     * Handoff Indicator Option type values
-     * Access Technology Type Option type values
+     * Subtype Field of the MN-HA and MN-AAA Authentication Mobility Options
+     * Handoff Indicator Option Type Values
+     * Access Technology Type Option Type Values
      * Binding Update Flags
      * Binding Acknowledgment Flags
      * Dual Stack MIPv6 (DSMIPv6) IPv4 Home Address Option Status Codes
@@ -104,7 +104,7 @@ Mobility Options
            [IMG]
            CSV
 
-   Value                        Description                                   Reference
+   Value                        Description                         Reference
      0   Pad1                                                       [RFC6275]
      1   PadN                                                       [RFC6275]
      2   Binding Refresh Advice                                     [RFC6275]
@@ -170,12 +170,12 @@ Mobility Options
     62   LMA-Controlled MAG Parameters                              [RFC8127]
     63   MAG Multipath-Binding                                      [RFC8278]
     64   MAG Identifier                                             [RFC8278]
-    65   Anchored Prefix                                            [RFC-ietf-dmm-pmipv6-dlif-06]
-    66   Local Prefix                                               [RFC-ietf-dmm-pmipv6-dlif-06]
-    67   Previous MAAR                                              [RFC-ietf-dmm-pmipv6-dlif-06]
-    68   Serving MAAR                                               [RFC-ietf-dmm-pmipv6-dlif-06]
-    69   DLIF Link-local Address                                    [RFC-ietf-dmm-pmipv6-dlif-06]
-    70   DLIF Link-layer Address                                    [RFC-ietf-dmm-pmipv6-dlif-06]
+    65   Anchored Prefix                                            [RFC8885]
+    66   Local Prefix                                               [RFC8885]
+    67   Previous MAAR                                              [RFC8885]
+    68   Serving MAAR                                               [RFC8885]
+    69   DLIF Link-Local Address                                    [RFC8885]
+    70   DLIF Link-Layer Address                                    [RFC8885]
 
 Status Codes (DNS Update Mobility Option)
 
@@ -340,7 +340,7 @@ Enumerating Algorithms
      3   HMAC_SHA1_SPI                           [RFC4285]
      5   Reserved for use by 3GPP2               [RFC4285]
 
-Subtype field of the MN-HA and MN-AAA authentication mobility options
+Subtype Field of the MN-HA and MN-AAA Authentication Mobility Options
 
    Registration Procedure(s)
 
@@ -357,7 +357,7 @@ Subtype field of the MN-HA and MN-AAA authentication mobility options
      1   MN-HA authentication mobility option  [RFC4285]
      2   MN-AAA authentication mobility option [RFC4285]
 
-Handoff Indicator Option type values
+Handoff Indicator Option Type Values
 
    Registration Procedure(s)
 
@@ -384,7 +384,7 @@ Handoff Indicator Option type values
      6   Attachment over a new interface sharing prefixes              [RFC7864]
    7-255 Unassigned
 
-Access Technology Type Option type values
+Access Technology Type Option Type Values
 
    Registration Procedure(s)
 
@@ -431,7 +431,7 @@ Binding Update Flags
            [IMG]
            CSV
 
-   Flag Value            Reference
+   Flag Value  Reference
     A   0x8000 [RFC6275]
     H   0x4000 [RFC6275]
     L   0x2000 [RFC6275]
@@ -443,7 +443,7 @@ Binding Update Flags
     T   0x0080 [RFC5845]
     B   0x0040 [RFC6602]
     S   0x0020 [RFC7161]
-    D   0x0010 [RFC-ietf-dmm-pmipv6-dlif-06]
+    D   0x0010 [RFC8885]
 
 Binding Acknowledgment Flags
 
@@ -458,14 +458,14 @@ Binding Acknowledgment Flags
            [IMG]
            CSV
 
-   Flag Value           Reference
+   Flag Value Reference
     K   0x80  [RFC6275]
     R   0x40  [RFC3963]
     P   0x20  [RFC5213]
     T   0x10  [RFC5845]
     B   0x08  [RFC6602]
     S   0x04  [RFC7161]
-    D   0x02  [RFC-ietf-dmm-pmipv6-dlif-06]
+    D   0x02  [RFC8885]
 
 Dual Stack MIPv6 (DSMIPv6) IPv4 Home Address Option Status Codes
 
@@ -723,7 +723,7 @@ Flow Identification Mobility Option Status Codes
      132   FID not found                                 [RFC6089]
      133   Traffic selector format not supported         [RFC6089]
    134-250 Unassigned; available for reject codes
-   251-255 Reserved for experimental use                 [RFC6089]
+   251-255 Reserved for Experimental Use                 [RFC6089]
 
 Flow Identification Sub-Options
 
@@ -746,7 +746,7 @@ Flow Identification Sub-Options
       4    Flow Binding Action           [RFC7109]
       5    Target Care-of Address        [RFC7109]
     6-250  Unassigned
-   251-255 Reserved for experimental use [RFC6089]
+   251-255 Reserved for Experimental Use [RFC6089]
 
 Traffic Selector Format
 
@@ -766,7 +766,7 @@ Traffic Selector Format
       1    IPv4 Binary Traffic Selector  [RFC6088]
       2    IPv6 Binary Traffic Selector  [RFC6088]
     3-250  Unassigned
-   251-255 Reserved for experimental use [RFC6089]
+   251-255 Reserved for Experimental Use [RFC6089]
 
 Mobile Node Group Identifier Type Registry
 
@@ -1066,7 +1066,7 @@ LMA-Controlled MAG Parameters Sub-Option Type Values
      2   Heartbeat Control Sub-Option               [RFC8127]
    3-255 Unassigned
 
-                                                                        People
+                                                                 Contact Information
 
            ID               Name                    Contact URI              Last Updated
    [Julien_Laganier]  Julien Laganier  mailto:julien.ietf&laposte.net        2008-07-30

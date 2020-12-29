@@ -8,4 +8,4 @@ Value,Description,Reference
 132,FID not found,[RFC6089]
 133,Traffic selector format not supported,[RFC6089]
 134-250,Unassigned; available for reject codes,
-251-255,Reserved for experimental use,[RFC6089]
+251-255,Reserved for Experimental Use,[RFC6089]

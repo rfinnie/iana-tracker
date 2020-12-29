@@ -46,3 +46,4 @@ Decimal,Description,References
 44,id-ct-cbor,[RFC8769]
 45,id-ct-cborSequence,[RFC8769]
 46,id-ct-animaCBORVoucher,[draft-ietf-anima-constrained-voucher]
+47,id-ct-geofeedCSVwithCRLF,[draft-ymbk-opsawg-finding-geofeeds]

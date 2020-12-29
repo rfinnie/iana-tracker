@@ -1,9 +1,9 @@
 Value,Description,Default Length,Reference
 0,Invalid.,,[RFC6759]
-1,IANA-L3: The Assigned Internet Protocol Number (layer 3 (L3)) is exported in the Selector ID. See [IANA registry protocol-numbers].,1,[RFC6759]
+1,IANA-L3: The Assigned Internet Protocol Number (layer 3 (L3)) is exported in the Selector ID. See [https://www.iana.org/assignments/protocol-numbers].,1,[RFC6759]
 2,PANA-L3: Proprietary layer 3 definition. An enterprise can export its own layer 3 protocol numbers. The Selector ID has a global significance for all devices from the same enterprise.,1,[RFC6759]
 3,"IANA-L4: The IANA layer 4 (L4) well-known port
-number is exported in the Selector ID. See [IANA registry service-names-port-numbers]. Note: as an IPFIX flow is unidirectional,
+number is exported in the Selector ID. See [https://www.iana.org/assignments/service-names-port-numbers]. Note: as an IPFIX flow is unidirectional,
 it contains the destination port in a flow from
 the client to the server.",2,[RFC6759]
 4,"PANA-L4: Proprietary layer 4 definition. An
@@ -59,7 +59,7 @@ hexadecimal. However, the corresponding decimal
 value is used in this Selector ID.",1,[RFC6759]
 20,"PANA-L7-PEN: Proprietary layer 7 definition,
 including a Private Enterprise Number (PEN) 
-[IANA registry enterprise-numbers]
+[https://www.iana.org/assignments/enterprise-numbers]
 to identify that the application registry being
 used is not owned by the Exporter manufacturer or to identify the
 original enterprise in the case of a mediator or

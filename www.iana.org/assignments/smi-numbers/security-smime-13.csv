@@ -1,0 +1,3 @@
+Decimal,Description,References
+1,id-ori-keyTransPSK,[RFC8696]
+2,id-ori-keyAgreePSK,[RFC8696]

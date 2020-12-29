@@ -1,0 +1,12 @@
+Code,Name,Description,Is Error?,Reference
+0,RC_SUCCESS,operation succeeded,No,[RFC8480]
+1,RC_EOL,end of list,No,[RFC8480]
+2,RC_ERR,generic error,Yes,[RFC8480]
+3,RC_RESET,"critical error, reset",Yes,[RFC8480]
+4,RC_ERR_VERSION,unsupported 6P version,Yes,[RFC8480]
+5,RC_ERR_SFID,unsupported SFID,Yes,[RFC8480]
+6,RC_ERR_SEQNUM,schedule inconsistency,Yes,[RFC8480]
+7,RC_ERR_CELLLIST,cellList error,Yes,[RFC8480]
+8,RC_ERR_BUSY,busy,Yes,[RFC8480]
+9,RC_ERR_LOCKED,cells are locked,Yes,[RFC8480]
+10-255,Unassigned,,,

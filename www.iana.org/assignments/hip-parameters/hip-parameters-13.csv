@@ -8,5 +8,6 @@ Value,Registration Failure Type,Reference
 6,Certificate expired,[RFC8003]
 7,Certificate other,[RFC8003]
 8,Unknown CA,[RFC8003]
-9-200,Unassigned,
+9,Simultaneous Rendezvous and Control Relay Service usage prohibited,[RFC-ietf-hip-native-nat-traversal-33]
+10-200,Unassigned,
 201-255,Reserved for Private Use,[RFC8003]

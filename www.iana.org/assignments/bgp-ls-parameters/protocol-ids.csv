@@ -7,8 +7,6 @@ Protocol-ID,NLRI information source protocol,Reference
 5,Static configuration,[RFC7752]
 6,OSPFv3,[RFC7752]
 7,BGP,[RFC-ietf-idr-bgpls-segment-routing-epe-19]
-8,"RSVP-TE (TEMPORARY - 
-		  registered 2019-09-17, expires 2020-09-17)",[draft-ietf-idr-te-lsp-distribution]
-9,"Segment Routing (TEMPORARY - 
-		  registered 2019-09-17, expires 2020-09-17)",[draft-ietf-idr-te-lsp-distribution]
+8,"RSVP-TE (TEMPORARY - registered 2019-09-17, extension registered 2020-11-18, expires 2021-09-17)",[draft-ietf-idr-te-lsp-distribution-14]
+9,"Segment Routing (TEMPORARY - registered 2019-09-17, extension registered 2020-11-18, expires 2021-09-17)",[draft-ietf-idr-te-lsp-distribution-14]
 10-255,Unassigned,

@@ -4,7 +4,7 @@
            2009-01-30
 
    Last Updated
-           2020-03-04
+           2020-09-22
 
    Available Formats
            [IMG]
@@ -54,6 +54,12 @@ Email Authentication Methods
                                                                        Evaluated DMARC policy applied/to be applied after policy
    dmarc      [RFC7489]            policy dmarc                        options including pct: and sp: have been processed. Must  active     1
                                                                        be none, quarantine, or reject.
+   dnswl      [RFC8904]            dns    zone                         DNSWL publicly accessible query root domain               active     1
+   dnswl      [RFC8904]            policy ip                           type A response received (or a quoted, comma-separated    active     1
+                                                                       list thereof)
+   dnswl      [RFC8904]            policy txt                          type TXT query response                                   active     1
+   dnswl      [RFC8904]            dns    sec                          one of "yes" for DNSSEC authenticated data, "no" for not  active     1
+                                                                       signed, or "na" for not applicable
    domainkeys [RFC7601]            header d                            value of signature "d" tag                                deprecated 1
                                                                        contents of the [RFC5322] From: header field, after
    domainkeys [RFC7601]            header from                         removing comments, and removing the local-part and        deprecated 1
@@ -133,7 +139,11 @@ Email Authentication Result Names
    dmarc          pass      [RFC7489] section 11.2           active
    dmarc          permerror [RFC7489] section 11.2           active
    dmarc          temperror [RFC7489]                        active
-   domainkeys     fail      [RFC7601] section 2.7.1          deprecated
+   dnswl          none      [RFC8904]                        active
+   dnswl          pass      [RFC8904]                        active
+   dnswl          permerror [RFC8904]                        active
+   dnswl          temperror [RFC8904]                        active
+   domainkeys     temperror [RFC7601] section 2.7.1          deprecated
    domainkeys     neutral   [RFC7601] section 2.7.1          deprecated
    domainkeys     none      [RFC7601] section 2.7.1          deprecated
    domainkeys     permerror [RFC7601] section 2.7.1          deprecated
@@ -200,6 +210,7 @@ Email Authentication Property Types
 
    ptype       Definition                                             Description
    body   [RFC8601] section 2.3 The property being reported was found in the body of the message.
+   dns    [RFC8904]             The property being reported belongs to the Domain Name System.
    header [RFC8601] section 2.3 The property being reported was found in a header field of the message.
    policy [RFC8601] section 2.3 The property being reported relates to a locally-defined policy.
    smtp   [RFC8601] section 2.3 The property being reported is a parameter to an SMTP command used to relay the message.

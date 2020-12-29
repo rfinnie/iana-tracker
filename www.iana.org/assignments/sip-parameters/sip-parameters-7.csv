@@ -34,7 +34,7 @@ Response Code,Description,Reference
 422,Session Interval Too Small,[RFC4028]
 423,Interval Too Brief,
 424,Bad Location Information,[RFC6442]
-425,Bad Alert Message,[RFC-ietf-ecrit-data-only-ea-22]
+425,Bad Alert Message,[RFC8876]
 428,Use Identity Header,[RFC8224]
 429,Provide Referrer Identity,[RFC3892]
 430,Flow Failed,[RFC5626]

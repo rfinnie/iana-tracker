@@ -2,6 +2,7 @@ Header Field Name,Template,Protocol,Status,Reference
 A-IM,,http,,[RFC4229]
 Accept,,http,standard,"[RFC7231, Section 5.3.2]"
 Accept-Additions,,http,,[RFC4229]
+Accept-CH,,http,experimental,"[RFC-ietf-httpbis-client-hints-15, Section 3.1]"
 Accept-Charset,,http,standard,"[RFC7231, Section 5.3.3]"
 Accept-Datetime,,http,informational,[RFC7089]
 Accept-Encoding,,http,standard,"[RFC7231, Section 5.3.4][RFC7694, Section 3]"
@@ -218,10 +219,10 @@ Newsgroups,,netnews,standard,[RFC5536]
 NNTP-Posting-Date,,netnews,obsoleted,[RFC5536]
 NNTP-Posting-Host,,netnews,obsoleted,[RFC2980][RFC5536]
 Obsoletes,,mail,,[RFC4021]
-OData-EntityId,perm/odata-entityid,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS_Open][Chet_Ensign]
-OData-Isolation,perm/odata-isolation,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS_Open][Chet_Ensign]
-OData-MaxVersion,perm/odata-maxversion,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS_Open][Chet_Ensign]
-OData-Version,perm/odata-version,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS_Open][Chet_Ensign]
+OData-EntityId,perm/odata-entityid,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS][Chet_Ensign]
+OData-Isolation,perm/odata-isolation,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS][Chet_Ensign]
+OData-MaxVersion,perm/odata-maxversion,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS][Chet_Ensign]
+OData-Version,perm/odata-version,http,standard,[OData Version 4.01 Part 1: Protocol][OASIS][Chet_Ensign]
 Opt,,http,,[RFC4229]
 Optional-WWW-Authenticate,,http,experimental,"[RFC8053, Section 3]"
 Ordering-Type,,http,standard,[RFC4229]

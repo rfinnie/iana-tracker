@@ -3,8 +3,7 @@ Error Code,Meaning,Reference
 1,Admission Control Failure,[RFC2205][RFC5946]
 2,Policy Control Failure,[RFC2205][RFC5946]
 3,No path information for this Resv message.,[RFC2205]
-4,"No sender information for this Resv         
- message.",[RFC2205]
+4,No sender information for this Resv message.,[RFC2205]
 5,Conflicting reservation style,[RFC2205]
 6,Unknown reservation style,[RFC2205]
 7,Conflicting dest ports,[RFC2205]

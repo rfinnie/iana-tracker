@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="bootp-dhcp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="bootp-dhcp-parameters">
   <title>Dynamic Host Configuration Protocol (DHCP) and Bootstrap Protocol (BOOTP) Parameters</title>
-  <updated>2019-05-06</updated>
+  <updated>2020-11-19</updated>
   <note>For the Civic Address Types Registry <xref type="rfc" data="rfc4776"/>, please see:
 http://www.iana.org/assignments/civic-address-types-registry</note>
 
@@ -726,10 +726,12 @@ options are described in other RFCs, as documented in this registry.</note>
       <name>REMOVED/Unassigned</name>
       <xref type="rfc" data="rfc3679"/>
     </record>
-    <record>
+    <record update="2020-10-09">
       <value>108</value>
-      <name>REMOVED/Unassigned</name>
-      <xref type="rfc" data="rfc3679"/>
+      <name>IPv6-Only Preferred</name>
+      <length>4</length>
+      <description>Number of seconds that DHCPv4 should be disabled</description>
+      <xref type="rfc" data="rfc8925"/>
     </record>
     <record date="2018-01-04">
       <value>109</value>
@@ -764,10 +766,10 @@ options are described in other RFCs, as documented in this registry.</note>
     </record>
     <record>
       <value>114</value>
-      <name>URL</name>
+      <name>DHCP Captive-Portal</name>
       <length>N</length>
-      <description>URL</description>
-      <xref type="rfc" data="rfc3679"/>
+      <description>DHCP Captive-Portal</description>
+      <xref type="rfc" data="rfc8910"/>
     </record>
     <record>
       <value>115</value>
@@ -1021,8 +1023,22 @@ applications</name>
       <description>Information for selecting RDNSS</description>
       <xref type="rfc" data="rfc6731"/>
     </record>
+    <record date="2020-11-19">
+      <value>147</value>
+      <name>OPTION_V4_DOTS_RI</name>
+      <length>N</length>
+      <description>The name of the peer DOTS agent.</description>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
+    </record>
+    <record date="2020-11-19">
+      <value>148</value>
+      <name>OPTION_V4_DOTS_ADDRESS</name>
+      <length>N (the minimal length is 4)</length>
+      <description>N/4 IPv4 addresses of peer DOTS agent(s).</description>
+      <xref type="draft" data="RFC-ietf-dots-server-discovery-15"/>
+    </record>
     <record>
-      <value>147-149</value>
+      <value>149</value>
       <name>Unassigned</name>
       <xref type="rfc" data="rfc3942"/>
     </record>
@@ -1106,10 +1122,12 @@ applications</name>
     </record>
     <record date="2015-10-01">
       <value>160</value>
-      <name>DHCP Captive-Portal</name>
-      <length>N</length>
-      <description>DHCP Captive-Portal</description>
+      <name>Unassigned</name>
+      <length/>
+      <description>Previously assigned by <xref type="rfc" data="rfc7710"/>; 
+        known to also be used by Polycom.</description>
       <xref type="rfc" data="rfc7710"/>
+      <xref type="rfc" data="rfc8910"/>
     </record>
     <record date="2016-11-17">
       <value>161</value>

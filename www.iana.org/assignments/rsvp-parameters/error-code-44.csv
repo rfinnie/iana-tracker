@@ -1,0 +1,5 @@
+Value,Description,Reference
+0,Bypass Assignment Cannot Be Used,[RFC8271]
+1,Bypass Tunnel Not Found,[RFC8271]
+2,One-to-one Bypass Already In-use,[RFC8271]
+3-65535,Unassigned,

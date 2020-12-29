@@ -1,7 +1,7 @@
                                            Internet Control Message Protocol version 6 (ICMPv6) Parameters
 
    Last Updated
-           2020-03-25
+           2020-11-25
 
    Available Formats
            [IMG]
@@ -57,6 +57,7 @@
      * Address Registration Option Flags
      * Address Registration Option I-Field
      * PvD Option Flags
+     * Crypto-Types
 
 ICMPv6 "type" Numbers
 
@@ -67,9 +68,9 @@ ICMPv6 "type" Numbers
            [IMG]
            CSV
 
-                Range                                      Registration Procedures
-   0-127 (Error messages)           IETF RFC Publication (Standards track, informational or experimental)
-   128-255 (Informational messages) IETF RFC Publication (Standards track, informational or experimental)
+                Range               Registration Procedures
+   0-127 (Error messages)           IETF Review
+   128-255 (Informational messages) IETF Review
 
     Type                                     Name                                    Reference
       0    Reserved
@@ -144,7 +145,7 @@ ICMPv6 "Code" Fields
            [IMG]
            CSV
 
-   Code                            Name                                      Reference
+   Code                            Name                                Reference
     0   no route to destination
     1   communication with destination administratively prohibited
     2   beyond scope of source address                             [RFC4443]
@@ -153,7 +154,7 @@ ICMPv6 "Code" Fields
     5   source address failed ingress/egress policy                [RFC4443]
     6   reject route to destination                                [RFC4443]
     7   Error in Source Routing Header                             [RFC6550][RFC6554]
-    8   Headers too long                                           [RFC-ietf-6man-icmp-limits-08]
+    8   Headers too long                                           [RFC8883]
 
   Type 2 - Packet Too Big
 
@@ -201,18 +202,18 @@ ICMPv6 "Code" Fields
            [IMG]
            CSV
 
-   Code                              Name                                              Reference
+   Code                              Name                              Reference
     0   erroneous header field encountered
     1   unrecognized Next Header type encountered
     2   unrecognized IPv6 option encountered
     3   IPv6 First Fragment has incomplete IPv6 Header Chain           [RFC7112]
-    4   SR Upper-layer Header Error                                    [RFC-ietf-6man-segment-routing-header-26]
-    5   Unrecognized Next Header type encountered by intermediate node [RFC-ietf-6man-icmp-limits-08]
-    6   Extension header too big                                       [RFC-ietf-6man-icmp-limits-08]
-    7   Extension header chain too long                                [RFC-ietf-6man-icmp-limits-08]
-    8   Too many extension headers                                     [RFC-ietf-6man-icmp-limits-08]
-    9   Too many options in extension header                           [RFC-ietf-6man-icmp-limits-08]
-    10  Option too big                                                 [RFC-ietf-6man-icmp-limits-08]
+    4   SR Upper-layer Header Error                                    [RFC8754]
+    5   Unrecognized Next Header type encountered by intermediate node [RFC8883]
+    6   Extension header too big                                       [RFC8883]
+    7   Extension header chain too long                                [RFC8883]
+    8   Too many extension headers                                     [RFC8883]
+    9   Too many options in extension header                           [RFC8883]
+    10  Option too big                                                 [RFC8883]
 
   Type 128 - Echo Request
 
@@ -654,7 +655,7 @@ IPv6 Neighbor Discovery Option Formats
            [IMG]
            CSV
 
-    Type                   Description                                  Reference
+    Type                   Description                      Reference
       1    Source Link-layer Address                    [RFC4861]
       2    Target Link-layer Address                    [RFC4861]
       3    Prefix Information                           [RFC4861]
@@ -675,7 +676,7 @@ IPv6 Neighbor Discovery Option Formats
      18    New Router Prefix Information Option         [RFC4068]
      19    Link-layer Address Option                    [RFC5568]
      20    Neighbor Advertisement Acknowledgment Option [RFC5568]
-     21    PvD ID Router Advertisement Option           [RFC-ietf-intarea-provisioning-domains-11]
+     21    PvD ID Router Advertisement Option           [RFC8801]
      22    Unassigned
      23    MAP Option                                   [RFC4140]
      24    Route Information Option                     [RFC4191]
@@ -691,9 +692,11 @@ IPv6 Neighbor Discovery Option Formats
      34    6LoWPAN Context Option                       [RFC6775]
      35    Authoritative Border Router Option           [RFC6775]
      36    6LoWPAN Capability Indication Option (6CIO)  [RFC7400]
-     37    DHCP Captive-Portal                          [RFC7710]
-     38    PREF64 option                                [RFC-ietf-6man-ra-pref64-09]
-   39-137  Unassigned
+     37    DHCP Captive-Portal                          [RFC8910]
+     38    PREF64 option                                [RFC8781]
+     39    Crypto-ID Parameters Option (CIPO)           [RFC8928]
+     40    NDP Signature Option (NDPSO)                 [RFC8928]
+   41-137  Unassigned
      138   CARD Request option                          [RFC4065]
      139   CARD Reply option                            [RFC4065]
    140-252 Unassigned
@@ -868,7 +871,8 @@ Address Registration Option Status Values
 
     Bit           Description          Reference
     0-7  Reserved for Experimental Use [RFC7400]
-    8-9  Unassigned
+     8   Unassigned
+     9   AP-ND Enabled (1 bit)         [RFC8928]
     10   EDA Support (D bit)           [RFC8505]
     11   6LR capable (L bit)           [RFC8505]
     12   6LBR capable (B bit)          [RFC8505]
@@ -938,19 +942,47 @@ PvD Option Flags
  Standards Action
 
    Reference
-           [RFC-ietf-intarea-provisioning-domains-11]
+           [RFC8801]
 
    Available Formats
            [IMG]
            CSV
 
-   Bit     Name                    Reference
-    0   H-flag     [RFC-ietf-intarea-provisioning-domains-11]
-    1   L-flag     [RFC-ietf-intarea-provisioning-domains-11]
-    2   R-flag     [RFC-ietf-intarea-provisioning-domains-11]
-   3-15 Unassigned
+   Bit     Name    Reference
+    0   H-flag     [RFC8801]
+    1   L-flag     [RFC8801]
+    2   R-flag     [RFC8801]
+   3-11 Unassigned
+
+Crypto-Types
+
+   Registration Procedure(s)
+
+ Specification Required or IESG Approval
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC8928]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Crypto-Type  Elliptic     Hash     Signature               Representation Conventions                   Public Key Size      Signature Reference
+      Value       Curve    Function   Algorithm                                                                                   Size
+   0           NIST P-256  SHA-256   ECDSA       Weierstrass, (un)compressed, MSB/msb-order, [SEC1]   33/65 bytes               64 bytes  [RFC8928]
+               [FIPS186-4] [RFC6234] [FIPS186-4]                                                      (compressed/uncompressed)
+   1           Curve25519  SHA-512   Ed25519     Edwards, compressed, LSB/lsb-order, [RFC8032]        32 bytes (compressed)     64 bytes  [RFC8928]
+               [RFC7748]   [RFC6234] [RFC8032]
+   2           Curve25519  SHA-256   ECDSA       Weierstrass, (un)compressed, MSB/msb-order,          33/65 bytes               64 bytes  [RFC8928]
+               [RFC7748]   [RFC6234] [FIPS186-4] [draft-ietf-lwig-curve-representations-13]           (compressed/uncompressed)
+   3-255
 
                                                                        Footnote
 
-[1] It is only appropriate to use these values in explicitly configured experiments; they MUST NOT be shipped as defaults in implementations. See [RFC3692] for details.
+   [1] It is only appropriate to use these values in explicitly configured experiments; they
+       MUST NOT be shipped as defaults in implementations. See [RFC3692] for details.
 

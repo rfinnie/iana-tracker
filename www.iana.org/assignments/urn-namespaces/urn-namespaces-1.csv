@@ -61,9 +61,7 @@ smpte,,[RFC5119]
 swift,,[RFC3615]
 tva,,[RFC4195]
 uci,,[RFC4179]
-ucode,,"[RFC6588][RFC Errata 
-          3188][RFC Errata 
-          3189]"
+ucode,,[RFC6588][RFC Errata 3188][RFC Errata 3189]
 uuid,,[RFC4122]
 web3d,,[RFC3541]
 xmlorg,,[RFC3120]

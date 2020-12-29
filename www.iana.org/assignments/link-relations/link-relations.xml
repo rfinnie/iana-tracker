@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2020-01-21</updated>
+  <updated>2020-11-16</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
@@ -12,7 +12,7 @@
   <registration_rule>Specification Required</registration_rule>
   <expert>Mark Nottingham, Julian Reschke, Jan Algermissen</expert>
   <note>New link relations, along with changes to existing relations, can be requested 
-using the <xref type="uri" data="https://github.com/link-relations/registry">registry interface</xref> or the mailing list defined in <xref type="rfc" data="rfc8288"/>.
+using the <xref type="uri" data="https://github.com/protocol-registries/link-relations">registry interface</xref> or the mailing list defined in <xref type="rfc" data="rfc8288"/>.
   </note>  
   
   <record>
@@ -24,7 +24,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record>
     <value>alternate</value>
     <description>Refers to a substitute for this context</description>
-	<spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-alternate">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-alternate">HTML</xref></spec>
   </record>
   
   <record date="2020-01-21">
@@ -61,7 +61,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2010-11-09">
     <value>author</value>
     <description>Refers to the context's author.</description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-author">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-author">HTML</xref></spec>
   </record>
   
   <record date="2015-12-21">
@@ -74,7 +74,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record>
     <value>bookmark</value>
     <description>Gives a permanent link to use for bookmarking purposes.</description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-bookmark">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-bookmark">HTML</xref></spec>
   </record>
   
   <record>
@@ -245,7 +245,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record>
     <value>help</value>
     <description>Refers to context-sensitive help.</description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-help">HTML 4.01 Specification</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-help">HTML</xref></spec>
   </record>
   
   <record>
@@ -269,7 +269,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2010-11-09">
     <value>icon</value>
     <description>Refers to an icon representing the link's context.</description>    
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-icon">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#rel-icon">HTML</xref></spec>
   </record>
   
   <record>
@@ -413,16 +413,22 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <spec><xref type="rfc" data="rfc6415"/></spec>
   </record>
   
-  <record date="2019-09-25">
+  <record date="2019-09-25" updated="2020-11-16">
     <value>manifest</value>
     <description>Links to a manifest file for the context.</description>
-    <spec><xref type="uri" data="https://www.w3.org/TR/appmanifest/#using-a-link-element-to-link-to-a-manifest">Web App Manifest</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-manifest">Web App Manifest</xref></spec>
   </record>
   
   <record date="2019-09-26">
     <value>mask-icon</value>
     <description>Refers to a mask that can be applied to the icon for the context.</description>
 	 <spec><xref type="uri" data="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html#//apple_ref/doc/uid/TP40002051-CH18-SW1">Creating Pinned Tab Icons</xref></spec>
+  </record>
+  
+  <record date="2020-06-19">
+    <value>media-feed</value>
+    <description>Refers to a feed of personalised media recommendations relevant to the link context.</description>
+    <spec><xref type="uri" data="https://wicg.github.io/media-feeds/#discovery-of-media-feeds"/></spec>
   </record>
 
   <record date="2013-11-01">
@@ -464,7 +470,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <description>Indicates that the link's context is a part of a series, and
       that the next in the series is the link target.
     </description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-next">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-next">HTML</xref></spec>
   </record> 
   
   <record>
@@ -476,7 +482,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2010-11-09">
     <value>nofollow</value>
     <description>Indicates that the context’s original author or publisher does not endorse the link target.</description>    
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-nofollow">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-nofollow">HTML</xref></spec>
   </record>
   
   <record date="2019-09-25">
@@ -488,7 +494,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   <record date="2010-11-09">
     <value>noreferrer</value>
     <description>Indicates that no referrer information is to be leaked when following the link.</description>    
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-noreferrer">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer">HTML</xref></spec>
   </record>
   
   <record date="2019-09-25">
@@ -601,7 +607,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     <description>Indicates that the link's context is a part of a series, and
       that the previous in the series is the link target.
     </description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-prev">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-prev">HTML</xref></spec>
   </record>  
   
   <record>
@@ -670,6 +676,15 @@ profile URIs.</note>
       of the link.
     </description>
     <spec><xref type="rfc" data="rfc4685"/></spec>
+  </record>
+  
+  <record date="2020-10-05">
+    <value>ruleinput</value>
+    <description>The resource identified by the link target provides an input value to an 
+    instance of a rule, where the resource which represents the rule instance is 
+    identified by the link context.
+    </description>
+    <spec><xref type="uri" data="https://openconnectivity.org/specs/OCF_Core_Optional_Specification_v2.2.0.pdf">OCF Core Optional 2.2.0</xref></spec>
   </record>
 
   <record date="2010-11-09">
@@ -753,7 +768,7 @@ profile URIs.</note>
   <record>
     <value>stylesheet</value>
     <description>Refers to a stylesheet.</description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-stylesheet">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet">HTML</xref></spec>
   </record>
   
   <record>
@@ -784,7 +799,7 @@ profile URIs.</note>
     <description>Gives a tag (identified by the given address) that applies to
       the current document.
     </description>
-    <spec><xref type="uri" data="http://www.w3.org/TR/html5/links.html#link-type-tag">HTML</xref></spec>
+    <spec><xref type="uri" data="https://html.spec.whatwg.org/multipage/links.html#link-type-tag">HTML</xref></spec>
   </record>  
   
   <record>
@@ -854,7 +869,7 @@ profile URIs.</note>
   
   <record date="2016-04-19">
     <value>webmention</value>
-    <description>Identifies a target URI that supports the Webmention protcol.
+    <description>Identifies a target URI that supports the Webmention protocol.
     This allows clients that mention a resource in some form of publishing process
     to contact that endpoint and inform it that this resource has been mentioned.</description>    
     <spec><xref type="uri" data="http://www.w3.org/TR/webmention/">Webmention</xref></spec>

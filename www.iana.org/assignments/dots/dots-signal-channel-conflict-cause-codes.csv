@@ -1,0 +1,6 @@
+Code,Label,Description,Reference
+0,Reserved,,[RFC8782]
+1,overlapping-targets,Overlapping targets.,[RFC8782]
+2,conflict-with-acceptlist,Conflicts with an existing accept-list. This code is returned when the DDoS mitigation detects source addresses/prefixes in the accept-listed ACLs are attacking the target.,[RFC8782]
+3,cuid-collision,CUID Collision. This code is returned when a DOTS client uses a 'cuid' that is already used by another DOTS client.,[RFC8782]
+4-2147483647,Unassigned,,

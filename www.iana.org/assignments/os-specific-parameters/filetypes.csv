@@ -1,0 +1,6 @@
+OS Name,OS Specific File Type,Definition of the Syntax of the Fact Value,Specification of Semantics,Reference
+UNIX,fifo,N/A,FIFO special file (S_IFIFO),[Single Unix Specification][Simon_Kissane]
+UNIX,slink,N/A,Symbolic link (S_IFLNK),[Single Unix Specification][Simon_Kissane]
+UNIX,socket,N/A,Socket (S_IFSOCK),[Single Unix Specification][Simon_Kissane]
+UNIX,blk,N/A,Block special file (S_IFBLK),[Single Unix Specification][Simon_Kissane]
+UNIX,chr,N/A,Character special file (S_IFCHR),[Single Unix Specification][Simon_Kissane]

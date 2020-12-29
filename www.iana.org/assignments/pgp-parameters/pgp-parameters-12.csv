@@ -10,9 +10,7 @@ Signature Scheme Based on Discrete Logarithms,""
 IEEE Transactions on Information Theory, v. IT-31,
 n. 4, 1985, pp. 469-472.][Alfred Menezes, Paul van Oorschot, and Scott Vanstone,
 ""Handbook of Applied Cryptography,"" CRC Press, 1996.]"
-17,DSA (Digital Signature Algorithm),"[Digital
-    Signature Standard (DSS) (FIPS PUB 186-2).][FIPS
-    186-3 describes keys greater than 1024 bits.][Alfred Menezes, Paul van Oorschot, and Scott Vanstone,
+17,DSA (Digital Signature Algorithm),"[FIPS 186-2change1][FIPS 186-3][Alfred Menezes, Paul van Oorschot, and Scott Vanstone,
 ""Handbook of Applied Cryptography,"" CRC Press, 1996.]"
 18,ECDH public key algorithm,[RFC6637]
 19,ECDSA public key algorithm,[RFC6637]

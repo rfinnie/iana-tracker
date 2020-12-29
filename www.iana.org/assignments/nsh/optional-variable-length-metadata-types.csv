@@ -1,0 +1,4 @@
+Value,Description,Reference
+0x00,Subscriber Identifier,[RFC-ietf-sfc-serviceid-header-14]
+0x01,Performance Policy Identifier,[RFC-ietf-sfc-serviceid-header-14]
+0x02-0xFF,Unassigned,

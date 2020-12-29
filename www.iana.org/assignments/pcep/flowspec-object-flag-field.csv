@@ -1,0 +1,4 @@
+Bit,Description,Reference
+0-5,Unassigned,
+6,LPM (L bit),[RFC-ietf-pce-pcep-flowspec-12]
+7,Remove (R bit),[RFC-ietf-pce-pcep-flowspec-12]

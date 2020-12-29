@@ -9,5 +9,4 @@ http://www.w3.org/ns/json-ld#compacted,Compacted JSON-LD,"A profile URI to reque
         document form.",[http://www.w3.org/TR/json-ld/]
 http://www.w3.org/ns/json-ld#flattened,Flattened JSON-LD,"A profile URI to request or signal flattened JSON-LD
         document form.",[http://www.w3.org/TR/json-ld/]
-http://www.w3.org/ns/anno.jsonld,Web Annotation,"A profile URI to request or signal the document is in the 
-        Web Annotation JSON format.",[https://www.w3.org/TR/annotation-protocol/]
+http://www.w3.org/ns/anno.jsonld,Web Annotation,A profile URI to request or signal the document is in the Web Annotation JSON format.,[https://www.w3.org/TR/annotation-protocol/]

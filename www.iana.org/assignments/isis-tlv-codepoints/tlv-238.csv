@@ -1,0 +1,11 @@
+Value,Description,Reference
+0-3,Unassigned,
+4,Link Local/Remote Identifiers,[RFC5307]
+5,Unassigned,
+6,IPv4 interface address,[RFC5305]
+7,Unassigned,
+8,IPv4 neighbor address,[RFC5305]
+9-11,Unassigned,
+12,IPv6 Interface Address,[RFC6119]
+13,IPv6 Neighbor Address,[RFC6119]
+14-255,Unassigned,

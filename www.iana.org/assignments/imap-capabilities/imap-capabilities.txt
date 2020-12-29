@@ -1,7 +1,7 @@
                                             Internet Message Access Protocol (IMAP) Capabilities Registry
 
    Last Updated
-           2019-01-04
+           2020-12-21
 
    Available Formats
            [IMG]
@@ -37,7 +37,7 @@ IMAP Capabilities
            [IMG]
            CSV
 
-      Capability Name         Reference
+      Capability Name             Reference
    ACL                    [RFC4314]
    ANNOTATE-EXPERIMENT-1  [RFC5257]
    APPENDLIMIT            [RFC7889]
@@ -77,6 +77,7 @@ IMAP Capabilities
    NAMESPACE              [RFC2342]
    NOTIFY                 [RFC5465]
    OBJECTID               [RFC8474]
+   PREVIEW                [RFC8970]
    QRESYNC                [RFC7162]
    QUOTA                  [RFC2087]
    REPLACE                [RFC8508]
@@ -94,9 +95,9 @@ IMAP Capabilities
    UIDPLUS                [RFC4315]
    UNAUTHENTICATE         [RFC8437]
    UNSELECT               [RFC3691]
-   URLFETCH=BINARY        [RFC5524]
    URL-PARTIAL            [RFC5550]
    URLAUTH                [RFC4467]
+   URLAUTH=BINARY         [RFC5524][RFC Errata 6214]
    UTF8=ACCEPT            [RFC6855]
    UTF8=ALL (OBSOLETE)    [RFC5738][RFC6855]
    UTF8=APPEND (OBSOLETE) [RFC5738][RFC6855]

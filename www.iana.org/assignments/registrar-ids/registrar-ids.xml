@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2020-04-08</updated>
+    <updated>2020-12-23</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -269,10 +269,13 @@
             <name>CASDNS Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-12-03">
             <value>68</value>
             <name>NordNet SA</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nordnet.fr/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>69</value>
@@ -742,10 +745,10 @@
             <name>7DC, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-07-16">
             <value>240</value>
             <name>PlanetDomain Pty Ltd</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2015-08-06">
             <value>241</value>
@@ -1082,10 +1085,13 @@
                 <server>https://rdap.fabulous.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-05-07">
             <value>412</value>
             <name>Domain-It!, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.domainit.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-03">
             <value>413</value>
@@ -1281,10 +1287,13 @@
             <name>Hosting-Network, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-06-25">
             <value>447</value>
             <name>SafeNames Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.safenames.legal/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-03">
             <value>448</value>
@@ -1406,10 +1415,10 @@
                 <server>https://namerdap.systems/</server>
             </rdapurl>
         </record>
-        <record updated="2018-09-13">
+        <record updated="2020-05-01">
             <value>467</value>
             <name>NHN JAPAN Corp.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2019-09-25">
             <value>468</value>
@@ -1485,10 +1494,10 @@
                 <server>https://secure.alliancenic.com:8443/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-12-23">
+        <record updated="2020-07-16">
             <value>602</value>
             <name>LCN.COM Ltd.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://www.lcn.com/rdap/</server>
             </rdapurl>
@@ -1509,10 +1518,13 @@
                 <server>https://iregister.rdap.tucows.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-10-02">
             <value>605</value>
             <name>rockenstein AG</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.rockenstein.de/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record updated="2019-10-03">
             <value>606</value>
@@ -1576,10 +1588,13 @@
             <name>Acropolis Telecom</name>
             <status>Terminated</status>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-06-03">
             <value>617</value>
             <name>Epik, Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap-whois.epik.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-01">
             <value>618</value>
@@ -1697,12 +1712,12 @@
                 <server>https://rdap.dotology.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-09-11">
+        <record updated="2020-08-06">
             <value>638</value>
-            <name>Nordreg AB</name>
+            <name>Name SRS AB</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.nordreg.se/</server>
+                <server>https://rdap.namesrs.com/</server>
             </rdapurl>
         </record>
         <record updated="2019-02-08">
@@ -1873,9 +1888,9 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2020-08-06">
             <value>664</value>
-            <name>Web4Africa Inc.</name>
+            <name>Web4Africa (Pty) Ltd</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdapserver.net/</server>
@@ -3593,9 +3608,9 @@
                 <server>https://rdapserver.net/domain/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-15">
+        <record updated="2020-12-23">
             <value>938</value>
-            <name>Sibername Internet and Software Technologies Inc.</name>
+            <name>7081936 Canada Inc.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdapserver.net/</server>
@@ -6410,10 +6425,13 @@
                 <server>https://whois.ename.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-07-23">
             <value>1332</value>
             <name>Experinom Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2020-02-20">
             <value>1333</value>
@@ -6441,13 +6459,10 @@
                 <server>https://rdap.net-chinese.com/</server>
             </rdapurl>
         </record>
-        <record updated="2020-03-12">
+        <record updated="2020-05-29">
             <value>1337</value>
             <name>Terranet (India) Private Limited</name>
             <status>Accredited</status>
-            <rdapurl>
-                <server>https://rdap.zenregistry.com/</server>
-            </rdapurl>
         </record>
         <record>
             <value>1338</value>
@@ -6459,10 +6474,10 @@
             <name>M. G. Infocom Pvt. Ltd. dba MindGenies</name>
             <status>Terminated</status>
         </record>
-        <record updated="2020-01-09">
+        <record updated="2020-07-24">
             <value>1340</value>
             <name>Arctic Names, Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://arcticnames.rdap.tucows.com/</server>
             </rdapurl>
@@ -6689,10 +6704,10 @@
             <name>Internet Viennaweb Service GmbH</name>
             <status>Terminated</status>
         </record>
-        <record updated="2020-01-16">
+        <record updated="2020-07-23">
             <value>1371</value>
             <name>Name SRS AB</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.namesrs.com/</server>
             </rdapurl>
@@ -7066,12 +7081,12 @@
                 <server>https://rdap.brightsconsulting.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-12-10">
+        <record updated="2020-10-29">
             <value>1435</value>
             <name>AB RIKTAD</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>http://rdap.k85.itc.se/</server>
+                <server>https://rdap.k85.itc.se/</server>
             </rdapurl>
         </record>
         <record updated="2019-11-11">
@@ -7087,10 +7102,10 @@
             <name>Sync Intertainment S.L.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-11-11">
+        <record updated="2020-04-30">
             <value>1438</value>
             <name>Beijing RITT - Net Technology Development Co., Ltd</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.afilias.net/rdap/mobi/</server>
             </rdapurl>
@@ -7387,10 +7402,13 @@
                 <server>https://rdap.theregistrarcompany.com/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-05-21">
             <value>1481</value>
             <name>Hu Yi Global Information Hong Kong Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.8hy.cn:9090/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2015-08-06">
             <value>1482</value>
@@ -7626,10 +7644,10 @@
                 <server>https://rdap.123-reg.co.uk/v1/</server>
             </rdapurl>
         </record>
-        <record updated="2020-03-12">
+        <record updated="2020-06-05">
             <value>1516</value>
             <name>Zhengzhou Yi Fang Electronics Co., Ltd.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.yuming.vip/rdap/domain/</server>
             </rdapurl>
@@ -7950,10 +7968,10 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-07-30">
             <value>1561</value>
             <name>Purity Names Incorporated</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2016-06-28">
             <value>1562</value>
@@ -8098,10 +8116,10 @@
                 <server>https://rdap.namebright.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2020-02-06">
+        <record updated="2020-06-19">
             <value>1581</value>
             <name>Loopia Hosting AB</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.loopiahosting.se/</server>
             </rdapurl>
@@ -8154,10 +8172,13 @@
             <name>XYZ.COM LLC</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2020-04-23">
             <value>1590</value>
             <name>ChinaNet Technology (SuZhou) CO., LTD</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.chinanet.cc/v1/</server>
+            </rdapurl>
         </record>
         <record updated="2016-07-19">
             <value>1591</value>
@@ -8227,10 +8248,13 @@
             </rdapurl>
         </record>
 
-        <record>
+        <record updated="2020-04-30">
             <value>1601</value>
             <name>Atak Domain Hosting Internet ve Bilgi Teknolojileri Limited Sirketi d/b/a Atak Teknoloji</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.apiname.com/</server>
+            </rdapurl>
         </record>
         
         <record>
@@ -8368,10 +8392,13 @@
                 <server>https://rdap.domain.cn/</server>
             </rdapurl>
         </record>
-        <record updated="2015-11-04">
+        <record updated="2020-07-02">
             <value>1621</value>
             <name>Shanghai Meicheng Technology Information Development Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.cndns.com/</server>
+            </rdapurl>
         </record>
         <record updated="2017-03-15">
             <value>1622</value>
@@ -8457,10 +8484,10 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2016-03-30">
+        <record updated="2020-06-18">
             <value>1634</value>
             <name>Netnames Pty Ltd.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2018-06-21">
             <value>1635</value>
@@ -8552,19 +8579,22 @@
             <name>Vigson, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-09-05">
+        <record updated="2020-12-03">
             <value>1647</value>
-            <name>Hosting Concepts B.V. d/b/a Openprovider</name>
+            <name>Hosting Concepts B.V. d/b/a Registrar.eu</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.registrar.eu/v1/</server>
             </rdapurl>
         </record>
         
-        <record>
+        <record updated="2020-06-03">
             <value>1649</value>
             <name>P.A. Viet Nam Company Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.pavietnam.vn/</server>
+            </rdapurl>
         </record>
         
         <record updated="2020-04-02">
@@ -8622,9 +8652,9 @@
             <name>Rethem Hosting LLC</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2020-10-08">
             <value>1659</value>
-            <name>Uniregistrar Corp</name>
+            <name>GoDaddy Online Services Cayman Islands Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.uniregistrar.net/rdap/</server>
@@ -9112,9 +9142,9 @@
                 <server>https://rdap.zw.cn/v1/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2020-09-22">
             <value>1730</value>
-            <name>Aetrion LLC dba DNSimple</name>
+            <name>DNSimple Registrar LLC</name>
             <status>Accredited</status>
         </record>
         <record updated="2019-12-03">
@@ -9201,10 +9231,10 @@
             <name>Zhengzhou Zitian Network Technology Co., Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2015-05-27">
+        <record updated="2020-12-21">
             <value>1743</value>
             <name>Aahwed, Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record>
             <value>1744</value>
@@ -10325,12 +10355,12 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2019-12-16">
+        <record updated="2020-04-23">
             <value>1896</value>
             <name>ATI</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.nic.tn:8443/rdapgtld/rdap/</server>
+                <server>https://rdap.ati.tn:8443/rdapgtld/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-15">
@@ -10341,10 +10371,13 @@
                 <server>https://rdap.twnic.tw/registrar/</server>
             </rdapurl>
         </record>
-        <record updated="2015-02-18">
+        <record updated="2020-04-30">
             <value>1898</value>
             <name>BR domain Inc. dba namegear.co</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.namegear.co/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2019-12-16">
             <value>1899</value>
@@ -10472,10 +10505,13 @@
                 <server>https://rdap.hkdns.hk/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2014-08-20" updated="2016-09-22">
+        <record date="2014-08-20" updated="2020-09-03">
             <value>1916</value>
             <name>Shenzhen Internet Works Online Technology Co., Ltd. (62.com)</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.62.com/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2020-02-13">
             <value>1917</value>
@@ -10518,9 +10554,9 @@
                 <server>https://whois.xz.com/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2014-09-18" updated="2020-03-05">
+        <record date="2014-09-18" updated="2020-12-23">
             <value>1923</value>
-            <name>Beijing Huaqi Weiye Technology Co. Ltd</name>
+            <name>Gname.com Pte. Ltd.</name>
             <status>Accredited</status>
         </record>
         <record date="2014-10-03" updated="2015-03-27">
@@ -10528,10 +10564,13 @@
             <name>Hello Internet Corp.</name>
             <status>Accredited</status>
         </record>
-        <record date="2014-10-29" updated="2016-07-19">
+        <record date="2014-10-29" updated="2020-05-21">
             <value>1925</value>
             <name>Guangdong HUYI Internet &amp; IP Services Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.huyi.cn:9090/rdap/</server>
+            </rdapurl>
         </record>
         <record updated="2019-08-28">
             <value>1926</value>
@@ -14539,10 +14578,10 @@
         </record>
 
         
-        <record date="2015-06-03" updated="2017-03-02">
+        <record date="2015-06-03" updated="2020-09-28">
             <value>2489</value>
             <name>C T CORPORATION SYSTEM DBA Corsearch</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2015-07-02" updated="2019-10-22">
             <value>2490</value>
@@ -19490,10 +19529,13 @@
                 <server>https://rdap.mastername.ru/</server>
             </rdapurl>
         </record>
-        <record date="2016-07-06" updated="2016-08-04">
+        <record date="2016-07-06" updated="2020-05-21">
             <value>3225</value>
             <name>Knet Registrar Co., Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.knetreg.cn/domain/</server>
+            </rdapurl>
         </record>
         <record date="2016-02-10" updated="2020-01-23">
             <value>3226</value>
@@ -19511,9 +19553,9 @@
                 <server>https://rdap.domain.cn/</server>
             </rdapurl>
         </record>
-        <record date="2016-07-06" updated="2019-11-11">
+        <record date="2016-07-06" updated="2020-12-03">
             <value>3228</value>
-            <name>Alibrother Technology Limited</name>
+            <name>Jiangxi Nanshi Information Service Company Limited</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.domain.cn/</server>
@@ -19556,10 +19598,13 @@
             <name>Beijing Baidu Netcom Science Technology Co., Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-05-05" updated="2016-09-15">
+        <record date="2016-05-05" updated="2020-05-07">
             <value>3234</value>
             <name>iNET CORPORATION</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.inet.vn/</server>
+            </rdapurl>
         </record>
         <record date="2016-07-06" updated="2019-06-28">
             <value>3235</value>
@@ -19679,10 +19724,13 @@
             <name>DigitalCandy, Inc.</name>
             <status>Accredited</status>
         </record>
-        <record date="2016-09-15" updated="2017-01-27">
+        <record date="2016-09-15" updated="2020-05-20">
             <value>3254</value>
             <name>CNOBIN INFORMATION TECHNOLOGY LIMITED</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.cnobin.com/rdap/domain/</server>
+            </rdapurl>
         </record>
         <record date="2016-10-05" updated="2019-08-28">
             <value>3255</value>
@@ -23726,10 +23774,13 @@
             <name>Ten Network Technology Limited</name>
             <status>Terminated</status>
         </record>
-        <record date="2017-03-02">
+        <record date="2017-03-02" updated="2020-05-21">
             <value>3761</value>
             <name>WangJu Brands Management Co., Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://whois.wjbrands.com:9090/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2017-02-27">
             <value>3762</value>
@@ -23785,18 +23836,21 @@
             <name>SUPER DATA CO., LTD</name>
             <status>Terminated</status>
         </record>
-        <record date="2017-06-30" updated="2020-03-12">
+        <record date="2017-06-30" updated="2020-09-23">
             <value>3771</value>
-            <name>Hangzhou Best Domain Technology Co., LTD</name>
+            <name>Domain Best Limited</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://www.17ex.com/rdap/domain/</server>
             </rdapurl>
         </record>
-        <record date="2017-05-03">
+        <record date="2017-05-03" updated="2020-08-20">
             <value>3772</value>
             <name>Cheap Domains Pte Ltd.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record date="2017-08-10" updated="2019-12-23">
             <value>3773</value>
@@ -23806,9 +23860,9 @@
                 <server>https://rdap.biznetgio.com/</server>
             </rdapurl>
         </record>
-        <record date="2017-06-30" updated="2019-05-09">
+        <record date="2017-06-30" updated="2020-05-14">
             <value>3774</value>
-            <name>Treasure Co., Ltd.</name>
+            <name>IPIP INC.</name>
             <status>Accredited</status>
         </record>
         <record date="2017-05-15" updated="2020-03-13">
@@ -23868,10 +23922,13 @@
                 <server>https://rdap.zysm.wang/</server>
             </rdapurl>
         </record>
-        <record date="2017-07-18">
+        <record date="2017-07-18" updated="2020-10-22">
             <value>3784</value>
             <name>Wolfe Domain, LLC dba Dot Brand Registrar Services</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.1api.net/</server>
+            </rdapurl>
         </record>
         <record date="2017-10-19" updated="2019-12-23">
             <value>3785</value>
@@ -23881,9 +23938,9 @@
                 <server>https://rdap.domain.cam/</server>
             </rdapurl>
         </record>
-        <record date="2017-08-17" updated="2019-08-28">
+        <record date="2017-08-17" updated="2020-06-12">
             <value>3786</value>
-            <name>Brandsight, Inc.</name>
+            <name>Brandsight, LLC</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.brandsight.com/rdap/</server>
@@ -23924,13 +23981,16 @@
         </record>
         <record date="2018-01-11">
             <value>3793</value>
-            <name>Guangzhou Tencent Technology Co., Ltd.</name>
+            <name>Guangzhou Yunxun Information Technology Co., Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2017-08-31">
+        <record date="2017-08-31" updated="2020-07-23">
             <value>3794</value>
             <name>AF Proxy Services Ltd</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.afproxy.africa/rdap/domain/afproxy.africa/</server>
+            </rdapurl>
         </record>
         <record date="2017-12-07" updated="2019-04-01">
             <value>3795</value>
@@ -24122,10 +24182,13 @@
                 <server>https://rdap.diymysite.com/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2018-12-06">
+        <record date="2018-12-06" updated="2020-04-30">
             <value>3825</value>
             <name>Xi'an Qianxi Network Technology Co. Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.qianxiyun.com/</server>
+            </rdapurl>
         </record>
         <record date="2019-02-21" updated="2020-03-12">
             <value>3826</value>
@@ -24200,9 +24263,9 @@
             <name>Nerd Origins Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2019-11-25">
+        <record date="2019-11-25" updated="2020-11-25">
             <value>3840</value>
-            <name>Tool Domains Ltd</name>
+            <name>Tool Domains Ltd dba Edoms.com</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.tool.domains/</server>
@@ -24218,10 +24281,13 @@
             <name>Shenzhen Ping An Communication Technology Co., Ltd.</name>
             <status>Accredited</status>
         </record>
-        <record date="2019-07-03">
+        <record date="2019-07-03" updated="2020-05-28">
             <value>3844</value>
             <name>AppCroNix Infotech Private Limited, d/b/a VEBONIX.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/domain/</server>
+            </rdapurl>
         </record>
         <record date="2019-08-01">
             <value>3846</value>
@@ -24276,9 +24342,19 @@
                 <server>https://rdap.gathernames.com/</server>
             </rdapurl>
         </record>
+        <record date="2020-08-13">
+            <value>3856</value>
+            <name>RiVidium Inc.</name>
+            <status>Accredited</status>
+        </record>
         <record date="2020-01-09">
             <value>3857</value>
             <name>Dynu Systems Incorporated</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-09-11">
+            <value>3858</value>
+            <name>Aceville Pte. Ltd.</name>
             <status>Accredited</status>
         </record>
         <record date="2020-03-26">
@@ -24296,10 +24372,120 @@
             <name>Purple IT Ltd</name>
             <status>Accredited</status>
         </record>
+        <record date="2020-08-27">
+            <value>3862</value>
+            <name>Spaceship, Inc.</name>
+            <status>Accredited</status>
+        </record>
         <record date="2020-04-08">
             <value>3863</value>
             <name>Domain International Services Limited</name>
             <status>Accredited</status>
+        </record>
+        <record date="2020-06-05">
+            <value>3864</value>
+            <name>Wanyuhulian Technology Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-10-08">
+            <value>3865</value>
+            <name>Community Advice s.r.o.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-07-30">
+            <value>3866</value>
+            <name>Active.Domains Limited Liability Company</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-08-13">
+            <value>3867</value>
+            <name>Yelles AB</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-09-11">
+            <value>3868</value>
+            <name>VIP Brand Management Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-08-06">
+            <value>3869</value>
+            <name>Vantage of Convergence (Chengdu) Technology Co., Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-08-27">
+            <value>3870</value>
+            <name>Registrar of domains names s.r.o.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-10-19">
+            <value>3871</value>
+            <name>ODTÜ Geliştirme Vakfi Bilgi Teknolojileri Sanayi Ve Ticaret Anonim Şirketi</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-05">
+            <value>3872</value>
+            <name>17 Domain Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-10-15">
+            <value>3873</value>
+            <name>Vianames LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-12-23">
+            <value>3874</value>
+            <name>Shanghai Lianqi Network Technology Co., Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-10-22">
+            <value>3875</value>
+            <name>Virtualia LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-25">
+            <value>3876</value>
+            <name>17 Domain 1, Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-25">
+            <value>3877</value>
+            <name>17 Domain 2, Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-25">
+            <value>3878</value>
+            <name>17 Domain 3, Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-25">
+            <value>3879</value>
+            <name>17 Domain 4, Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-11-25">
+            <value>3880</value>
+            <name>Cross Marketing Technology Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-12-03">
+            <value>3881</value>
+            <name>Enterprise Guardian Inc.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-12-17">
+            <value>3882</value>
+            <name>VIRTUA DRUG Kutatási Szolgáltató Korlátolt Felelősségű Társaság</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-12-10">
+            <value>3883</value>
+            <name>Brand Focus Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2020-06-10">
+            <value>9994</value>
+            <name>Reserved for Registry Operator acting as Registrar where directed by ICANN</name>
+            <status>Reserved</status>
         </record>
         <record>
             <value>9995</value>

@@ -1,0 +1,5 @@
+Extension Name,Reference,Note
+server-sig-algs,[RFC8308],Section 3.1
+delay-compression,[RFC8308],Section 3.2
+no-flow-control,[RFC8308],Section 3.3
+elevation,[RFC8308],Section 3.4

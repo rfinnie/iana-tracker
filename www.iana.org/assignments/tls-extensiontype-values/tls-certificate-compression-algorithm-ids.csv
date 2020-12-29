@@ -1,0 +1,7 @@
+Algorithm Number,Description,Reference
+0,Reserved,[RFC8879]
+1,zlib,[RFC8879]
+2,brotli,[RFC8879]
+3,zstd,[RFC8879]
+4-16383,Unassigned,
+16384-65535,Reserved for Experimental Use,[RFC8879]

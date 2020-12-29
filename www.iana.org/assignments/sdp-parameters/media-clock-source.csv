@@ -1,4 +1,4 @@
 Name,Long Name,Mux Category,Reference
-sender,Asynchronously Generated Media Clock,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-direct,Direct-Referenced Media Clock,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-16]"
-IEEE1722,IEEE1722 Media Stream Identifier,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-16]"
+sender,Asynchronously Generated Media Clock,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-19]"
+direct,Direct-Referenced Media Clock,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-19]"
+IEEE1722,IEEE1722 Media Stream Identifier,NORMAL,"[RFC7273, section 5][RFC-ietf-mmusic-sdp-mux-attributes-19]"

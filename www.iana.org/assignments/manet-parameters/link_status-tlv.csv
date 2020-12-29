@@ -1,10 +1,7 @@
 Value,Name,Description,Reference
-0,LOST,"The link on this interface from the router with that network 
-      address has been lost",[RFC7188]
-1,SYMMETRIC,"The link on this interface from the router with that network 
-      address has the status of symmetric",[RFC7188]
-2,HEARD,"The link on this interface from the router with that network 
-      address has the status of heard",[RFC7188]
+0,LOST,The link on this interface from the router with that network address has been lost,[RFC7188]
+1,SYMMETRIC,The link on this interface from the router with that network address has the status of symmetric,[RFC7188]
+2,HEARD,The link on this interface from the router with that network address has the status of heard,[RFC7188]
 3-223,Unassigned,,
 224-254,Reserved for Experimental Use,,[RFC7188]
 255,UNSPECIFIED,No information about this network address is provided,[RFC7188]

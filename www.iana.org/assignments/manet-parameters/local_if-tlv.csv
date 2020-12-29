@@ -1,8 +1,6 @@
 Value,Name,Description,Reference
-0,THIS_IF,"The network address is associated with this local interface 
-        of the sending router",[RFC7188]
-1,OTHER_IF,"The network address is associated with another local interface 
-        of the sending router",[RFC7188]
+0,THIS_IF,The network address is associated with this local interface of the sending router,[RFC7188]
+1,OTHER_IF,The network address is associated with another local interface of the sending router,[RFC7188]
 2-223,Unassigned,,
 224-254,Reserved for Experimental Use,,[RFC7188]
 255,UNSPECIFIED,No information about this network address is provided,[RFC7188]

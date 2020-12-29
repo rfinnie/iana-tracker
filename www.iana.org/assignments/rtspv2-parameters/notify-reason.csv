@@ -7,5 +7,4 @@ media-properties-update,"This Notify-Reason value allows the server
 scale-change,"This Notify-Reason value allows the server to notify
       the client about a change in the Scale of the media.",[RFC7826]
 ice-restart,"This Notify-Reason value allows the server to notify
-      the client about the need for an ICE restart. See Section 4.6 of 
-      [RFC7825].",[RFC7825]
+      the client about the need for an ICE restart. See Section 4.6 of [RFC7825].",[RFC7825]

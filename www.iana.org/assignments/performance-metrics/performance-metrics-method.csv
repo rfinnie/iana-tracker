@@ -1,0 +1,10 @@
+Identifier,Name,Description,Reference,Change Controller
+Method,Active,"depends on a dedicated measurement packet stream and
+      observations of the stream defined in [RFC7799]",[RFC-ietf-ippm-metric-registry-24],IETF
+Method,Passive,"depends *solely* on observation of one or more
+      existing packet streams defined in [RFC7799]",[RFC-ietf-ippm-metric-registry-24],IETF
+Method,Hybrid Type 1,"obervations on one stream that combine both active
+      and passive methods defined in [RFC7799]",[RFC-ietf-ippm-metric-registry-24],IETF
+Method,Hybrid Type 2,"obervations on two or more streams that combine
+        both active and passive methods defined in [RFC7799]",[RFC-ietf-ippm-metric-registry-24],IETF
+Method,Spatial,Spatial Metric of RFC5644,[RFC-ietf-ippm-metric-registry-24],IETF

@@ -32,7 +32,7 @@ enum-token-1.0,urn:ietf:params:xml:schema:enum-token-1.0,schema/enum-token-1.0.x
 enum-tokendata-1.0,urn:ietf:params:xml:schema:enum-tokendata-1.0,schema/enum-tokendata-1.0.xsd,[RFC5105]
 epp-1.0,urn:ietf:params:xml:schema:epp-1.0,schema/epp-1.0.xsd,[RFC5730]
 epp:fee-1.0,urn:ietf:params:xml:schema:epp:fee-1.0,schema/epp/fee-1.0.xsd,[RFC8748]
-epp:loginSec-1.0,urn:ietf:params:xml:schema:epp:loginSec-1.0,schema/epp/loginSec-1.0.xsd,[RFC-ietf-regext-login-security-10]
+epp:loginSec-1.0,urn:ietf:params:xml:schema:epp:loginSec-1.0,schema/epp/loginSec-1.0.xsd,[RFC8807]
 epp:org-1.0,urn:ietf:params:xml:schema:epp:org-1.0,schema/epp/org-1.0.xsd,[RFC8543]
 epp:orgext-1.0,urn:ietf:params:xml:schema:epp:orgext-1.0,schema/epp/orgext-1.0.xsd,[RFC8544]
 eppcom-1.0,urn:ietf:params:xml:schema:eppcom-1.0,schema/eppcom-1.0.xsd,[RFC5730]
@@ -64,8 +64,7 @@ iodef-enum-1.0,urn:ietf:params:xml:schema:iodef-enum-1.0,schema/iodef-enum-1.0.x
 iodef-phish-1.0,urn:ietf:params:xml:schema:iodef-phish-1.0,schema/iodef-phish-1.0.xsd,[RFC5901]
 iodef-rid-1.0,urn:ietf:params:xml:schema:iodef-rid-1.0,schema/iodef-rid-1.0.xsd,[RFC6045]
 iodef-rid-2.0,urn:ietf:params:xml:schema:iodef-rid-2.0,schema/iodef-rid-2.0.xsd,[RFC6545]
-iodef-sci-1.0,urn:ietf:params:xml:schema:iodef-sci-1.0,schema/iodef-sci-1.0.xsd,"[RFC7203][RFC Errata 
-          4517]"
+iodef-sci-1.0,urn:ietf:params:xml:schema:iodef-sci-1.0,schema/iodef-sci-1.0.xsd,[RFC7203][RFC Errata 4517]
 ipfix (DEPRECATED),urn:ietf:params:xml:schema:ipfix-info (DEPRECATED),schema/ipfix.xsd,[RFC7012]
 iris1,urn:ietf:params:xml:schema:iris1,schema/iris1.xsd,[RFC3981]
 keyprov:dskpp,urn:ietf:params:xml:schema:keyprov:dskpp,schema/keyprov/dskpp.xsd,[RFC6063]
@@ -91,8 +90,7 @@ msml,urn:ietf:params:xml:schema:msml,schema/msml.xsd,[RFC5707]
 netconf,urn:ietf:params:xml:schema:netconf,schema/netconf.xsd,[RFC6241]
 nlsml,urn:ietf:params:xml:schema:nlsml,schema/nlsml.xsd,[RFC6787]
 notification,urn:ietf:params:xml:schema:notification,schema/notification.xsd,[RFC5277]
-nttdm-1.0,urn:ietf:params:xml:schema:nttdm-1.0,schema/nttdm-1.0.xsd,"[RFC Errata 
-          2729][RFC6173]"
+nttdm-1.0,urn:ietf:params:xml:schema:nttdm-1.0,schema/nttdm-1.0.xsd,[RFC Errata 2729][RFC6173]
 pal,urn:ietf:params:xml:schema:pal,schema/pal.xsd,[RFC8295]
 patch-ops,urn:ietf:params:xml:schema:patch-ops,schema/patch-ops.xsd,[RFC5261]
 patch-ops-error,urn:ietf:params:xml:schema:patch-ops-error,schema/patch-ops-error.xsd,[RFC5261]
@@ -113,6 +111,7 @@ pidf:status:rpid,urn:ietf:params:xml:schema:pidf:status:rpid,schema/pidf/status/
 pidf:timed-status,urn:ietf:params:xml:schema:pidf:timed-status,schema/pidf/timed-status.xsd,[RFC4481]
 pidf-diff,urn:ietf:params:xml:schema:pidf-diff,schema/pidf-diff.xsd,[RFC5262]
 pres-rules,urn:ietf:params:xml:schema:pres-rules,schema/pres-rules.xsd,[RFC5025]
+rde-1.0,urn:ietf:params:xml:schema:rde-1.0,schema/rde-1.0.xsd,[RFC8909]
 recording:1,urn:ietf:params:xml:schema:recording:1,schema/recording/1.xsd,[RFC7865]
 resource-lists,urn:ietf:params:xml:schema:resource-lists,schema/resource-lists.xsd,[RFC4826]
 resource-lists-diff,urn:ietf:params:xml:schema:resource-lists-diff,schema/resource-lists-diff.xsd,[RFC5362]

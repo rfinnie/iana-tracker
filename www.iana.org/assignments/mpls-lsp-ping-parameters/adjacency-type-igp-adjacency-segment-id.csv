@@ -1,0 +1,10 @@
+Value,Meaning,Reference
+0,Unnumbered interface Adjacency,[RFC8287]
+1,Parallel Adjacency,[RFC8287]
+2-3,Unassigned,
+4,"IPv4, non-parallel Adjacency",[RFC8287]
+5,Unassigned,
+6,"IPv4, non-parallel Adjacency",[RFC8287]
+7-250,Unassigned,
+251-254,Reserved for Experimental Use,[RFC8287]
+255,Reserved,[RFC8287]

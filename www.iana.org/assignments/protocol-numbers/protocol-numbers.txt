@@ -1,7 +1,7 @@
                                                                    Protocol Numbers
 
    Last Updated
-           2020-01-31
+           2020-12-28
 
    Available Formats
            [IMG]
@@ -26,8 +26,9 @@ Assigned Internet Protocol Numbers
 
  In the Internet Protocol version 4 (IPv4) [RFC791] there is a field
  called "Protocol" to identify the next level protocol.  This is an 8
- bit field.  In Internet Protocol version 6 (IPv6)
- [RFC8200], this field is called the "Next Header" field.
+ bit field.  In Internet Protocol version 6 (IPv6) [RFC8200], this field
+ is called the "Next Header" field.
+
 
    Note
 
@@ -242,8 +243,10 @@ Assigned Internet Protocol Numbers
                               Security Payload
      142   ROHC               Robust Header Compression                   [RFC5858]
                               Ethernet (TEMPORARY -
-     143   Ethernet           registered 2020-01-31,                      [draft-ietf-spring-srv6-network-programming]
-                              expires 2021-01-31)
+                              registered 2020-01-31,
+     143   Ethernet           extension registered                        [draft-ietf-spring-srv6-network-programming]
+                              2020-12-28, expires
+                              2022-01-31)
    144-252                    Unassigned                                  [Internet_Assigned_Numbers_Authority]
      253                      Use for experimentation and        Y        [RFC3692]
                               testing
@@ -251,7 +254,7 @@ Assigned Internet Protocol Numbers
                               testing
      255   Reserved                                                       [Internet_Assigned_Numbers_Authority]
 
-                                                                        People
+                                                                 Contact Information
 
                     ID                                  Name                                   Contact URI                   Last Updated
    [Barry_Boehm]                         Barry Boehm                         mailto:boehm&arpa.mil

@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="bgp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="bgp-parameters">
   <title>Border Gateway Protocol (BGP) Parameters</title>
-  <updated>2020-03-20</updated>
+  <updated>2020-12-09</updated>
 
 
   <registry id="bgp-parameters-1">
@@ -244,11 +244,16 @@ Work in progress, March 1996.</xref>
     </record>
     <record date="2019-07-08">
       <value>36</value>
-      <code>BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, expires 2020-07-08)</code>
+      <code>BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, extension registered 2020-05-26, expires 2021-07-08)</code>
       <xref type="draft" data="draft-ietf-bess-evpn-ipvpn-interworking"/>
     </record>
+    <record date="2020-09-02">
+      <value>37</value>
+      <code>SFP Attribute</code>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
     <record>
-      <value>37-39</value>
+      <value>38-39</value>
       <code>Unassigned</code>
     </record>
     <record date="2015-09-30" updated="2018-08-13">
@@ -558,7 +563,7 @@ Work in progress, March 1996.</xref>
       <value>2</value>
       <name>Administrative Shutdown</name>
       <xref type="rfc" data="rfc4486"/>
-      <xref type="rfc" data="rfc8203"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc8203bis-08"/>
     </record>
     <record>
       <value>3</value>
@@ -569,7 +574,7 @@ Work in progress, March 1996.</xref>
       <value>4</value>
       <name>Administrative Reset</name>
       <xref type="rfc" data="rfc4486"/>
-      <xref type="rfc" data="rfc8203"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc8203bis-08"/>
     </record>
     <record>
       <value>5</value>
@@ -705,7 +710,8 @@ Work in progress, March 1996.</xref>
     </record>
     <record date="2019-08-13">
       <value>255</value>
-      <name>Extended Length (TEMPORARY - registered 2019-08-13, expires 2020-08-13)</name>
+      <name>Extended Length 
+        (TEMPORARY - registered 2019-08-13, extension registered 2020-08-26, expires 2021-08-13)</name>
       <xref type="draft" data="draft-ietf-idr-ext-opt-param"/>
     </record>
   </registry>
@@ -854,69 +860,74 @@ Work in progress, March 1996.</xref>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>6</value>
-      <name>Remote Endpoint (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>Remote Endpoint (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>7</value>
-      <name>IPv4 DS Field (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>IPv4 DS Field (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>8</value>
-      <name>UDP Destination Port (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>UDP Destination Port (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>9</value>
-      <name>Embedded Label Handling (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>Embedded Label Handling (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>10</value>
-      <name>MPLS Label Stack (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>MPLS Label Stack (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-07-18" updated="2019-07-04">
       <value>11</value>
-      <name>Prefix SID (TEMPORARY - registered 2017-07-18, extension registered 2019-07-04, expires 2020-07-18)</name>
+      <name>Prefix SID (TEMPORARY - registered 2017-07-18, extension registered 2020-06-25, expires 2021-07-18)</name>
       <xref type="draft" data="draft-ietf-idr-tunnel-encaps"/>
     </record>
     <record date="2017-10-12">
       <value>12</value>
       <name>Preference sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)</name>
+        (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28, expires 2021-10-12)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record date="2017-10-12">
       <value>13</value>
       <name>Binding SID sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)</name>
+        (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28, expires 2021-10-12)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record date="2019-08-29">
       <value>14</value>
-      <name>ENLP sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)</name>
+      <name>ENLP sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24, expires 2021-08-29)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record date="2019-08-29">
       <value>15</value>
-      <name>Priority sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)</name>
+      <name>Priority sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24, expires 2021-08-29)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
+    <record date="2020-09-02">
+      <value>16</value>
+      <name>SPI/SI Representation Sub-TLV</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
     <record>
-      <value>16-127</value>
+      <value>17-127</value>
       <name>Unassigned</name>
     </record>
     <record date="2017-10-12">
       <value>128</value>
       <name>Segment List sub-TLV 
-        (TEMPORARY - registered 2017-10-12, extension registered 2019-08-26, expires 2020-10-12)</name>
+        (TEMPORARY - registered 2017-10-12, extension registered 2020-08-28, expires 2021-10-12)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record date="2019-08-29">
       <value>129</value>
-      <name>Policy Name sub-TLV (TEMPORARY - registered 2019-08-29, expires 2020-08-29)</name>
+      <name>Policy Name sub-TLV (TEMPORARY - registered 2019-08-29, extension registered 2020-08-24, expires 2021-08-29)</name>
       <xref type="draft" data="draft-ietf-idr-segment-routing-te-policy"/>
     </record>
     <record>
@@ -1268,16 +1279,21 @@ Work in progress, March 1996.</xref>
    </record>
    <record date="2016-06-30">
      <value>0x0A</value>
-     <name>Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)</name>
+     <name>Assisted-Replication Tunnel (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18, expires 2021-06-30)</name>
      <xref type="draft" data="draft-ietf-bess-evpn-optimized-ir"/>
    </record>
-    <record date="2017-06-29">
+   <record date="2017-06-29">
       <value>0x0B</value>
       <name>BIER</name>
       <xref type="rfc" data="rfc8556"/>
     </record>
+    <record date="2020-12-09">
+      <value>0x0C</value>
+      <name>SR-MPLS P2MP Tree (TEMPORARY - registered 2020-12-09, expires 2021-12-09)</name>
+      <xref type="draft" data="draft-ietf-bess-mvpn-evpn-sr-p2mp-01"/>
+    </record>
     <record>
-     <value>0x0C-0x7A</value>
+     <value>0x0D-0x7A</value>
      <name>Unassigned</name>
    </record>
     <record date="2017-12-05">
@@ -1328,19 +1344,19 @@ Work in progress, March 1996.</xref>
     <record date="2016-06-30">
       <value>3-4</value>
       <name>Assisted-Replication Type (T) 
-        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)</name>
+        (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18, expires 2021-06-30)</name>
       <xref type="draft" data="draft-ietf-bess-evpn-optimized-ir"/>
     </record>
     <record date="2016-06-30">
       <value>5</value>
       <name>Broadcast and Multicast (BM) 
-        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)</name>
+        (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18, expires 2021-06-30)</name>
       <xref type="draft" data="draft-ietf-bess-evpn-optimized-ir"/>
     </record>
     <record date="2016-06-30">
       <value>6</value>
       <name>Unknown (U) 
-        (TEMPORARY - registered 2016-06-30, extension registered 2019-06-14, expires 2020-06-30)</name>
+        (TEMPORARY - registered 2016-06-30, extension registered 2020-06-18, expires 2021-06-30)</name>
       <xref type="draft" data="draft-ietf-bess-evpn-optimized-ir"/>
     </record>
     <record date="2016-05-12">
@@ -1490,8 +1506,23 @@ anyway, and marked as "Reserved."
       <name>Originator SRGB</name>
       <xref type="rfc" data="rfc8669"/>
     </record>
+    <record date="2020-05-29">
+      <value>4</value>
+      <name>Deprecated</name>
+      <xref type="draft" data="draft-ietf-bess-srv6-services-02"/>
+    </record>
+    <record date="2020-05-29">
+      <value>5</value>
+      <name>SRv6 L3 Service</name>
+      <xref type="draft" data="draft-ietf-bess-srv6-services-02"/>
+    </record>
+    <record date="2020-05-29">
+      <value>6</value>
+      <name>SRv6 L2 Service</name>
+      <xref type="draft" data="draft-ietf-bess-srv6-services-02"/>
+    </record>
     <record>
-      <value>4-254</value>
+      <value>7-254</value>
       <name>Unassigned</name>
     </record>
     <record date="2018-08-13">
@@ -1566,7 +1597,109 @@ anyway, and marked as "Reserved."
       <shortname/>
     </record>
   </registry>
+  
+  <registry id="sfp-attribute-tlvs">
+    <title>SFP Attribute TLVs</title>
+    <registration_rule>First Come First Served</registration_rule>
+    <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    <record date="2020-09-02">
+      <value>0</value>
+      <name>Reserved</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration/>
+    </record>
+    <record date="2020-09-02">
+      <value>1</value>
+      <name>Association TLV</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record date="2020-09-02">
+      <value>2</value>
+      <name>Hop TLV</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record date="2020-09-02">
+      <value>3</value>
+      <name>SFT TLV</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record date="2020-09-02">
+      <value>4</value>
+      <name>MPLS Swapping/Stacking</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record date="2020-09-02">
+      <value>5</value>
+      <name>SFP Traversal With MPLS</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record>
+      <value>6-65534</value>
+      <name>Unassigned</name>
+      <registration/>
+    </record>
+    <record date="2020-09-02">
+      <value>65535</value>
+      <name>Reserved</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration/>
+    </record>
+  </registry>
 
+  <registry id="sfp-association-type">
+    <title>SFP Association Type</title>
+    <registration_rule>First Come First Served</registration_rule>
+    <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    <record date="2020-09-02">
+      <value>0</value>
+      <name>Reserved</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration/>
+    </record>
+    <record date="2020-09-02">
+      <value>1</value>
+      <name>Bidirectional SFP</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration>2020-09-02</registration>
+    </record>
+    <record>
+      <value>2-65534</value>
+      <name>Unassigned</name>
+      <registration/>
+    </record>
+    <record date="2020-09-02">
+      <value>65535</value>
+      <name>Reserved</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+      <registration/>
+    </record>
+  </registry>
+
+  <registry id="sfc-spi/si-representation-flags">
+    <title>SFC SPI/SI Representation Flags</title>
+    <registration_rule>Standards Action</registration_rule>
+    <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    <record date="2020-09-02">
+      <value>0</value>
+      <name>NSH data plane</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
+    <record date="2020-09-02">
+      <value>1</value>
+      <name>MPLS data plane</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
+    <record>
+      <value>2-15</value>
+      <name>Unassigned</name>
+    </record>
+  </registry>
+  
   <people>
     <person id="Eric_Rosen">
       <name>Eric Rosen</name>

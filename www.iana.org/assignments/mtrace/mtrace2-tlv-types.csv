@@ -1,0 +1,9 @@
+Code,Type,Reference
+0x00,Reserved,[RFC8487]
+0x01,Mtrace2 Query,[RFC8487]
+0x02,Mtrace2 Request,[RFC8487]
+0x03,Mtrace2 Reply,[RFC8487]
+0x04,Mtrace2 Standard Response Block,[RFC8487]
+0x05,Mtrace2 Augmented Response Block,[RFC8487]
+0x06,Mtrace2 Extended Query Block,[RFC8487]
+0x07-0xFF,Unassigned,

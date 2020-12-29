@@ -64,12 +64,9 @@ Decimal,Name,Description,References
 247-250,Reserved,Reserved,
 251,vdsl2MIB,VDSL2-LINE-MIB,[RFC5650]
 252-262,Reserved,Reserved,
-263,Reserved,Reserved,"[RFC6768][RFC Errata 
-          3591]"
-264,Reserved,Reserved,"[RFC6767][RFC Errata 
-          3589]"
-265,Reserved,Reserved,"[RFC6766][RFC Errata 
-          3588]"
+263,Reserved,Reserved,[RFC6768][RFC Errata 3591]
+264,Reserved,Reserved,[RFC6767][RFC Errata 3589]
+265,Reserved,Reserved,[RFC6766][RFC Errata 3588]
 266-272,Reserved,Reserved,
 273,TED-MIB,TED-MIB,[RFC6825]
 274,VPLS-GENERIC-MIB,VPLS-GENERIC-MIB,[RFC7257]
@@ -85,3 +82,4 @@ Decimal,Name,Description,References
 297,ieee8021axDrni,IEEE 802.1AX Distributed Resilient Network Interface,[IEEE 802.1AX-Rev-d2-0][John_Messenger]
 298,ax25,AX.25 network interfaces,[AX.25 Link Access Protocol for Amateur Packet Radio version 2.2][Iain_Learmonth]
 299,ieee19061nanocom,Nanoscale and Molecular Communication,[IEEE 1906.1-2015][Stephen_F_Bush]
+300,cpri,Common Public Radio Interface,[CPRI v7.0][Renwang_Liu]

@@ -1,0 +1,10 @@
+Next Protocol,Description,Reference
+0x00,None,[RFC8393]
+0x01,IPv4,[RFC8300]
+0x02,IPv6,[RFC8300]
+0x03,Ethernet,[RFC8300]
+0x04,NSH,[RFC8300]
+0x05,MPLS,[RFC8300]
+0x06-0xFD,Unassigned,
+0xFE,Experiment 1,[RFC8300]
+0xFF,Experiment 2,[RFC8300]

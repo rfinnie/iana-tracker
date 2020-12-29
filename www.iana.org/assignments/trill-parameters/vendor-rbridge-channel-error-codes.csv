@@ -1,0 +1,9 @@
+Code,Description,Reference
+0x00,No error,[RFC8381]
+0x01,Message too short,[RFC8381]
+0x02,Unknown OUI/CID,[RFC8381]
+0x03,Unknown Sub-Protocol,[RFC8381]
+0x04,Unknown Sub-Version,[RFC8381]
+0x05-0x0F,Unassigned,
+0x10-0xFE,Reserved for vendor use,[RFC8381]
+0xFF,Reserved,[RFC8381]

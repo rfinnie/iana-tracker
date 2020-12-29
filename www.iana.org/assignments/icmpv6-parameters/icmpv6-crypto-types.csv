@@ -1,0 +1,5 @@
+Crypto-Type Value,Elliptic Curve,Hash Function,Signature Algorithm,Representation Conventions,Public Key Size,Signature Size,Reference
+0,NIST P-256 [FIPS186-4],SHA-256 [RFC6234],ECDSA [FIPS186-4],"Weierstrass, (un)compressed, MSB/msb-order, [SEC1]",33/65 bytes (compressed/uncompressed),64 bytes,[RFC8928]
+1,Curve25519 [RFC7748],SHA-512 [RFC6234],Ed25519 [RFC8032],"Edwards, compressed, LSB/lsb-order, [RFC8032]",32 bytes (compressed),64 bytes,[RFC8928]
+2,Curve25519 [RFC7748],SHA-256 [RFC6234],ECDSA [FIPS186-4],"Weierstrass, (un)compressed, MSB/msb-order, [draft-ietf-lwig-curve-representations-13]",33/65 bytes (compressed/uncompressed),64 bytes,[RFC8928]
+3-255,,,,,,,

@@ -1,7 +1,6 @@
 Key Type,Name,Label,CBOR Type,Description,Reference
 1,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry",[RFC8152]
-2,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry","[RFC8152][RFC Errata 
-          5650]"
+2,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry",[RFC8152][RFC Errata 5650]
 4,k,-1,bstr,Key Value,[RFC8152]
 1,x,-2,bstr,x-coordinate,[RFC8152]
 2,x,-2,bstr,x-coordinate,[RFC8152]
@@ -21,4 +20,4 @@ Key Type,Name,Label,CBOR Type,Description,Reference
 3,d_i,-11,bstr,d_i = d mod (r_i - 1),[RFC8230]
 3,t_i,-12,bstr,"the CRT coefficient t_i = (r_1 * r_2 * ... *
         r_(i-1))^(-1) mod r_i",[RFC8230]
-5,pub,-1,bstr,Public key for HSS/LMS hash-based digital signature,[RFC-ietf-cose-hash-sig-09]
+5,pub,-1,bstr,Public key for HSS/LMS hash-based digital signature,[RFC8778]

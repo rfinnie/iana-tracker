@@ -1,0 +1,35 @@
+Key,Type,Description,Reference
+captive,boolean,"Indicates whether the client is in a state of
+      captivity, i.e it has not satisfied the conditions to access the
+      external network.  If the client is captive (i.e. captive=true),
+      it will still be allowed enough access for it to perform server
+      authentication [RFC8908, Section
+      4.1].",[RFC8908]
+user-portal-url,string,"Provides the URL of a web portal that
+	  MUST be accessed over TLS with which a user can interact.",[RFC8908]
+venue-info-url,string,"Provides the URL of a webpage or site
+      that SHOULD be accessed over TLS on which the operator of the
+      network has information that it wishes to share with the user
+      (e.g., store info, maps, flight status, or entertainment).",[RFC8908]
+can-extend-session,boolean,"Indicates that the URL specified
+      as ""user-portal-url"" allows the user to extend a session once the
+      client is no longer in a state of captivity.  This provides a hint
+      that a client system can suggest accessing the portal URL to the
+      user when the session is near its limit in terms of time or bytes.",[RFC8908]
+seconds-remaining,number,"An integer that indicates the number
+      of seconds remaining, after which the client will be placed into a
+      captive state.  The API server SHOULD include this value if the
+      client is not captive (i.e. captive=false) and the client session
+      is time-limited, and SHOULD omit this value for captive clients
+      (i.e. captive=true) or when the session is not time-limited.",[RFC8908]
+bytes-remaining,number,"An integer that indicates the number
+      of bytes remaining, after which the client will be in placed into
+      a captive state.  The byte count represents the sum of the total
+      number of IP packet (layer 3) bytes sent and received by the
+      client, including IP headers.  Captive portal systems might not
+      count traffic to whitelisted servers, such as the API server, but
+      clients cannot rely on such behavior.  The API server SHOULD
+      include this value if the client is not captive (i.e.
+      captive=false) and the client session is byte-limited, and SHOULD
+      omit this value for captive clients (i.e. captive=true) or when
+      the session is not byte-limited.",[RFC8908]

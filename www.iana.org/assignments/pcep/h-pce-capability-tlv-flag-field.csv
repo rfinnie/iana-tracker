@@ -1,0 +1,3 @@
+Bit,Description,Reference
+0-30,Unassigned,
+31,P (Parent PCE Request bit),[RFC8685]

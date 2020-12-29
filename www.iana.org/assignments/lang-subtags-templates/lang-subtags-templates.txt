@@ -1,11 +1,23 @@
                                                   Language Subtag Registry - Registration Templates
 
    Last Updated
-           2020-04-01
+           2020-12-18
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Registry included below
+
+     * Language Subtag Registry - Registration Templates
+
+Language Subtag Registry - Registration Templates
 
    Registration Procedure(s)
 
- IESG-Appointed Language Subtag Reviewer
+ Expert Review
 
    Reference
            [RFC5646]
@@ -16,12 +28,6 @@
  is available at [IANA registry language-subtag-registry]. The
  following is the archive of language subtag registration templates.
 
-
-   Available Formats
-           [IMG]
-           XML [IMG]
-           HTML [IMG]
-           Plain text
 
    Available Formats
            [IMG]
@@ -248,9 +254,10 @@
    language      fab               fab.txt                 2013-09-23
    language      fap               fap.txt                 2018-03-20
    language      fbl               fbl.txt                 2010-03-24
-   language      fly               fly.txt                 2014-03-13
+   language      fif               fif.txt                 2020-06-10
    language      fiu               fiu.txt                 2009-04-07
    language      fkk               fkk.txt                 2012-08-27
+   language      fly               fly.txt                 2014-03-13
    language      fnb               fnb.txt                 2016-06-10
    language      frp               frp.txt                 2010-03-24
    language      frr               frr.txt                 2007-11-06
@@ -743,6 +750,7 @@
    language      tgz               tgz.txt                 2012-08-27
    language      thc               thc.txt                 2016-06-10
    language      thd               thd.txt                 2019-04-30
+   language      thw               thw.txt                 2020-06-10
    language      thx               thx.txt                 2015-02-18
    language      tid               tid.txt                 2016-06-10
    language      tie               tie.txt                 2011-08-24
@@ -1101,6 +1109,7 @@
    script        Tang              tang.txt                2011-01-11
    script        Tglg              tglg.txt                2009-03-13
    script        Tirh              tirh.txt                2011-08-24
+   script        Toto              Toto.txt                2020-05-12
    script        Wara              wara.txt                2009-12-14
    script        Wcho              Wcho.txt                2017-08-15
    script        Wole              wole.txt                2011-01-11
@@ -1122,6 +1131,7 @@
    variant       aranes            aranes.txt              2018-04-23
    variant       arevela           arevela.txt             2007-08-07
    variant       arevmda           arevmda.txt             2007-08-07
+   variant       arkaika           arkaika.txt             2020-12-18
    variant       asante            asante.txt              2017-06-07
    variant       auvern            auvern.txt              2018-04-23
    variant       baku1926          baku1926.txt            2007-08-07
@@ -1198,6 +1208,8 @@
    variant       sursilv           sursilv.txt             2010-06-30
    variant       sutsilv           sutsilv.txt             2010-06-30
    variant       tarask            tarask.txt              2007-05-08
+   variant       tongyong          tongyong.txt            2020-06-10
+   variant       tunumiit          tunumiit.txt            2020-07-17
    variant       uccor             uccor.txt               2008-10-17
    variant       ucrcor            ucrcor.txt              2008-10-17
    variant       ulster            ulster.txt              2010-04-29
@@ -1205,6 +1217,7 @@
    variant       vaidika           vaidika.txt             2010-07-28
    variant       valencia          valencia.txt            2007-08-07
    variant       vallader          vallader.txt            2010-06-30
+   variant       vecdruka          vecdruka.txt            2020-09-29
    variant       vivaraup          vivaraup.txt            2018-04-23
    variant       wadegile          wadegile.txt            2008-10-07
    variant       xsistemo          xsistemo.txt            2017-03-16

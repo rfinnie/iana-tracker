@@ -260,14 +260,8 @@ X.7.16,Message is too big for the specified priority,552 (other 4XX or 5XX codes
 This condition might be temporary, for example the server is
 operating in a mode where only higher priority messages below
 certain size are accepted for transfer and delivery.",[RFC6710] (Standards Track),A. Melnikov,IESG
-X.7.17,Mailbox owner has changed,5XX,"This status code is returned when a message is received with 
-        a Require-Recipient-Valid-Since field or RRVS extension and the receiving 
-        system is able to determine that the intended recipient mailbox has not 
-        been under continuous ownership since the specified date-time.",[RFC7293] (Standards Track),M. Kucherawy,IESG
-X.7.18,Domain owner has changed,5XX,"This status code is returned when a message is received with 
-        a Require-Recipient-Valid-Since field or RRVS extension and the receiving 
-        system wishes to disclose that the owner of the domain name of the 
-        recipient has changed since the specified date-time.",[RFC7293] (Standards Track),M. Kucherawy,IESG
+X.7.17,Mailbox owner has changed,5XX,This status code is returned when a message is received with a Require-Recipient-Valid-Since field or RRVS extension and the receiving system is able to determine that the intended recipient mailbox has not been under continuous ownership since the specified date-time.,[RFC7293] (Standards Track),M. Kucherawy,IESG
+X.7.18,Domain owner has changed,5XX,This status code is returned when a message is received with a Require-Recipient-Valid-Since field or RRVS extension and the receiving system wishes to disclose that the owner of the domain name of the recipient has changed since the specified date-time.,[RFC7293] (Standards Track),M. Kucherawy,IESG
 X.7.19,RRVS test cannot be completed,5XX,"This status code is returned when a message is
 received with a Require-Recipient-Valid-Since
 field or RRVS extension and the receiving

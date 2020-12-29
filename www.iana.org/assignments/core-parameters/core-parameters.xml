@@ -4,12 +4,14 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2020-03-23</updated>
+  <updated>2020-12-09</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
     <xref type="rfc" data="rfc6690"/>
     <expert>Carsten Bormann, Jaime Jimenez</expert>
+    <note>See <xref type="rfc" data="rfc6690"/>, Section 7.4 for mailing list information.
+    </note>
     <range>
       <value>value starts with "core"</value>
       <registration_rule>IETF Review</registration_rule>
@@ -1925,12 +1927,176 @@ server-side key generation with the returned certificate in application/pkix-cer
       <xref type="draft" data="RFC-ietf-ace-coap-est-18">RFC-ietf-ace-coap-est-18</xref>
       <notes/>
     </record>
+    <record date="2020-05-07">
+      <value>oic.d.bodycompositionanalyser</value>
+      <description>Body Composition Analyser device</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Device Specification v2.1.2 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.d.indoorgarden</value>
+      <description>Indoor Garden device</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Device Specification v2.1.2 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.d.mattress</value>
+      <description>Mattress device</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Device Specification v2.1.2 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.d.muscleoxygenmonitor</value>
+      <description>Muscle Oxygen Monitor device</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Device Specification v2.1.2 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.ael</value>
+      <description>Auditable Event List</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Security Specification v2.1.2 clause C.9</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.bodycompositionanalyser-am</value>
+      <description>Body Composition Analyser resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.155</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.deodorization</value>
+      <description>Deodorization resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.152</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.hvac.capacity</value>
+      <description>HVAC Capacity resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.157</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.keycardswitch</value>
+      <description>Keycard Switch resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.153</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.media.audio</value>
+      <description>Media (Audio) resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.158</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.media.core</value>
+      <description>Media (Core) resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.159</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.media.image</value>
+      <description>Media (Image) resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.160</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.media.text</value>
+      <description>Media (Text) resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.161</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.media.video</value>
+      <description>Media (Video) resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.162</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.muscleoxygensaturation</value>
+      <description>Muscle Oxygen Saturation resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.154</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.switch.fault</value>
+      <description>Fault Interrupter resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.156</xref>
+      <notes/>
+    </record>
+    <record date="2020-05-07">
+      <value>oic.r.switch.restricted</value>
+      <description>Restricted Switch resource</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.1.2%20Specification.zip">OCF Resource Type Specification v2.1.2 clause 6.163</xref>
+      <notes/>
+    </record>
+	<record date="2020-10-09">
+      <value>oic.d.afci</value>
+      <description>Arc Fault Circuit Interrupter</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Device Specification v2.2.0 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.d.airer</value>
+      <description>Airer</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Device Specification v2.2.0 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.d.gfci</value>
+      <description>Ground Fault Circuit Interrupter</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Device Specification v2.2.0 clause A.2</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.sdi</value>
+      <description>Security Domain Information</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Security Specification v2.2.0 clause C.10</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.accessibility</value>
+      <description>Device Settings - Accessibility</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.164</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.broadcasting</value>
+      <description>Device Settings - Broadcasting</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.165</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.picture</value>
+      <description>Device Settings - Picture</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.166</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.sound</value>
+      <description>Device Settings - Sound</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.167</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.support</value>
+      <description>Device Settings - Support</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.168</xref>
+      <notes/>
+    </record>
+    <record date="2020-10-09">
+      <value>oic.r.settings.system</value>
+      <description>Device Settings - System</description>
+      <xref type="uri" data="https://openconnectivity.org/specs/OCF_v2.2.0%20Specification.zip">OCF Resource Type Specification v2.2.0 clause 6.169</xref>
+      <notes/>
+    </record>
   </registry>
   
   <registry id="if-link-target-att-value">
     <title>Interface Description (if=) Link Target Attribute Values</title>
     <xref type="rfc" data="rfc6690"/>
     <expert>Carsten Bormann, Jaime Jimenez</expert>
+    <note>See <xref type="rfc" data="rfc6690"/>, Section 7.4 for mailing list information.
+    </note>
     <range>
       <value>value starts with "core"</value>
       <registration_rule>IETF Review</registration_rule>
@@ -2662,7 +2828,7 @@ server-side key generation with the returned certificate in application/pkix-cer
       <mediatype>application/cbor</mediatype>
       <encoding/>
       <id>60</id>
-      <xref type="rfc" data="rfc7049"/>
+      <xref type="rfc" data="rfc8949"/>
     </record>
     <record date="2018-03-22">
       <mediatype>application/cwt</mediatype>
@@ -2783,7 +2949,7 @@ server-side key generation with the returned certificate in application/pkix-cer
       <mediatype>application/dots+cbor</mediatype>
       <encoding/>
       <id>271</id>
-      <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+      <xref type="rfc" data="rfc8782"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -2881,7 +3047,7 @@ server-side key generation with the returned certificate in application/pkix-cer
       <mediatype>application/senml-etch+json</mediatype>
       <encoding/>
       <id>320</id>
-      <xref type="draft" data="RFC-ietf-core-senml-etch-07"/>
+      <xref type="rfc" data="rfc8790"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -2892,7 +3058,7 @@ server-side key generation with the returned certificate in application/pkix-cer
       <mediatype>application/senml-etch+cbor</mediatype>
       <encoding/>
       <id>322</id>
-      <xref type="draft" data="RFC-ietf-core-senml-etch-07"/>
+      <xref type="rfc" data="rfc8790"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -2953,7 +3119,7 @@ server-side key generation with the returned certificate in application/pkix-cer
       <mediatype>application/cbor</mediatype>
       <encoding>deflate</encoding>
       <id>11060</id>
-      <xref type="rfc" data="rfc7049"/>
+      <xref type="rfc" data="rfc8949"/>
     </record>
     <record>
       <mediatype>Unassigned</mediatype>
@@ -2972,10 +3138,16 @@ server-side key generation with the returned certificate in application/pkix-cer
       <id>11543</id>
       <xref type="uri" data="http://www.openmobilealliance.org/tech/extref/OMA-TS-LightweightM2M-V1_0.zip">OMA-TS-LightweightM2M-V1_0</xref>
     </record>
+    <record date="2020-08-04">
+      <mediatype>application/vnd.oma.lwm2m+cbor</mediatype>
+      <encoding/>
+      <id>11544</id>
+      <xref type="uri" data="http://www.openmobilealliance.org/wp/Overviews/lightweightm2m_overview.html">OMA-TS-LightweightM2M-V1_2</xref>
+    </record>
     <record>
       <mediatype>Unassigned</mediatype>
       <encoding/>
-      <id>11544-64999</id>
+      <id>11545-64999</id>
     </record>
     <record>
       <mediatype>Reserved for Experimental Use</mediatype>
@@ -3060,6 +3232,12 @@ server-side key generation with the returned certificate in application/pkix-cer
       <number>4</number>
       <description>Block-Wise-Transfer</description>
       <xref type="rfc" data="rfc8323"/>
+    </record>
+    <record date="2020-11-19">
+      <value>7.01</value>
+      <number>6</number>
+      <description>Extended-Token-Length</description>
+      <xref type="draft" data="RFC-ietf-core-stateless-08"/>
     </record>
     <record date="2017-12-22">
       <value>7.02, 7.03</value>
@@ -3152,4 +3330,5 @@ server-side key generation with the returned certificate in application/pkix-cer
       <uri>mailto:iesg&amp;ietf.org</uri>
     </person>
   </people>
+
 </registry>

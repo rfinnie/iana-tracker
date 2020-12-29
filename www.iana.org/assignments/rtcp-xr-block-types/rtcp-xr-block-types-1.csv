@@ -19,8 +19,7 @@ BT,Name,Reference
 18,Burst/Gap Discard Summary Statistics Block,[RFC7004]
 19,Frame Impairment Statistics Summary,[RFC7004]
 20,Burst/Gap Loss Metrics Block,[RFC6958]
-21,Burst/Gap Discard Metrics Block,"[RFC7003][RFC Errata 
-          3735]"
+21,Burst/Gap Discard Metrics Block,[RFC7003][RFC Errata 3735]
 22,MPEG2 Transport Stream PSI-Independent Decodability Statistics Metrics Block,[RFC6990]
 23,De-Jitter Buffer Metrics Block,[RFC7005]
 24,Discard Count Metrics Block,[RFC7002]

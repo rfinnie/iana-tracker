@@ -13,17 +13,8 @@ wishes the server to apply strict validation and error handling to
 the processing of a request. When the value is ""lenient"", it
 indicates that the client wishes the server to apply lenient
 validation and error handling to the processing of the request.","[RFC7240], Section 4.4"
-depth-noroot,,"The ""depth-noroot"" preference indicates that the client 
-        wishes for the server to exclude the target (root) resource from 
-        processing by the HTTP method and only apply the HTTP method to the 
-        target resource's subordinate resources. This preference is only 
-        intended to be used with HTTP methods whose definitions explicitly 
-        provide support for the Depth [RFC4918] 
-        header field. Furthermore, this preference only applies when the 
-        Depth header field has a value of ""1"" or ""infinity"" (either 
-        implicitly or explicitly).","[RFC8144], Section 4"
-safe,,"Indicates that safe (i.e., unobjectionable) content 
-        is preferred.",[RFC8674]
+depth-noroot,,"The ""depth-noroot"" preference indicates that the client wishes for the server to exclude the target (root) resource from processing by the HTTP method and only apply the HTTP method to the target resource's subordinate resources. This preference is only intended to be used with HTTP methods whose definitions explicitly provide support for the Depth [RFC4918] header field. Furthermore, this preference only applies when the Depth header field has a value of ""1"" or ""infinity"" (either implicitly or explicitly).","[RFC8144], Section 4"
+safe,,"Indicates that safe (i.e., unobjectionable) content is preferred.",[RFC8674]
 odata.allow-entityreferences,,"Indicates that the service is allowed to return references in place of
         resources that have previously been returned, with at least the properties
         requested, in the same response.",[OData Version 4.01 Part 1: Protocol]

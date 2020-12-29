@@ -15,7 +15,7 @@ application/json,,50,[RFC8259]
 application/json-patch+json,,51,[RFC6902]
 application/merge-patch+json,,52,[RFC7396]
 Unassigned,,53-59,
-application/cbor,,60,[RFC7049]
+application/cbor,,60,[RFC8949]
 application/cwt,,61,[RFC8392]
 application/multipart-core,,62,[RFC8710]
 application/cbor-seq,,63,[RFC8742]
@@ -36,7 +36,7 @@ application/sensml-exi,,115,[RFC8428]
 Unassigned,,116-255,
 application/coap-group+json,,256,[RFC7390]
 Unassigned,,257-270,
-application/dots+cbor,,271,[RFC-ietf-dots-signal-channel-41]
+application/dots+cbor,,271,[RFC8782]
 Unassigned,,272-279,
 application/pkcs7-mime; smime-type=server-generated-key,,280,[RFC7030][RFC8551][RFC-ietf-ace-coap-est-18]
 application/pkcs7-mime; smime-type=certs-only,,281,[RFC8551][RFC-ietf-ace-coap-est-18]
@@ -50,9 +50,9 @@ Unassigned,,288-309,
 application/senml+xml,,310,[RFC8428]
 application/sensml+xml,,311,[RFC8428]
 Unassigned,,312-319,
-application/senml-etch+json,,320,[RFC-ietf-core-senml-etch-07]
+application/senml-etch+json,,320,[RFC8790]
 Unassigned,,321,
-application/senml-etch+cbor,,322,[RFC-ietf-core-senml-etch-07]
+application/senml-etch+cbor,,322,[RFC8790]
 Unassigned,,323-431,
 application/td+json,,432,"[""Web of Things (WoT) Thing Description"", May 2019]"
 Unassigned,,433-1541,
@@ -63,9 +63,10 @@ application/oscore,,10001,[RFC8613]
 Unassigned,,10002-11049,
 application/json,deflate,11050,[RFC8259]
 Unassigned,,11051-11059,
-application/cbor,deflate,11060,[RFC7049]
+application/cbor,deflate,11060,[RFC8949]
 Unassigned,,11061-11541,
 application/vnd.oma.lwm2m+tlv,,11542,[OMA-TS-LightweightM2M-V1_0]
 application/vnd.oma.lwm2m+json,,11543,[OMA-TS-LightweightM2M-V1_0]
-Unassigned,,11544-64999,
+application/vnd.oma.lwm2m+cbor,,11544,[OMA-TS-LightweightM2M-V1_2]
+Unassigned,,11545-64999,
 Reserved for Experimental Use,,65000-65535,[RFC7252]

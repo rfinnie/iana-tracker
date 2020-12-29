@@ -1,0 +1,7 @@
+Type,Name,Reference
+0x0000,Reserved,[RFC8609]
+0x0001,T_INTEREST,"[RFC8609, Section 3.5]"
+0x0002,T_OBJECT,"[RFC8609, Section 3.5]"
+0x0003,T_VALIDATION_ALG,"[RFC8609, Section 3.5]"
+0x0004,T_VALIDATION_PAYLOAD,"[RFC8609, Section 3.5]"
+0x0005-0xFFFF,Unassigned,

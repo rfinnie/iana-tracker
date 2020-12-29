@@ -15,4 +15,4 @@ Value,Parameter,Reference
 13-21,Unassigned,
 22,SPI,[RFC3104]
 23-240,Unassigned,
-241-255,Reserved for private use,[RFC3103]
+241-255,Reserved for Private Use,[RFC3103]

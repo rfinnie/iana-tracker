@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="smi-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2020-04-02</updated>
+  <updated>2020-12-17</updated>
   
  
   
@@ -1580,17 +1580,17 @@ is "identified-organization".
   
   
   <registry id="smi-numbers-5">
-    <title>ifType Definitions</title>
+    <title>Interface Types (ifType)</title>
     <category>Interface Parameters</category>
     <category>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</category>
     <xref type="rfc" data="rfc1213"/>
     <xref type="rfc" data="rfc2863"/>
     <xref type="rfc" data="rfc7224"/>
-    <xref type="draft" data="RFC-thaler-iftype-reg-07"/>
+    <xref type="rfc" data="rfc8892"/>
     <description>iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType (1.3.6.1.2.1.2.2.1.3)</description>
     <registration_rule>Expert Review</registration_rule>
     <expert>Dave Thaler (primary), Dan Romascanu (secondary)</expert>
-    <note>For future ifType assignments, an OID-subtree assignment MIB-II's 'transmission' 
+    <note>For future ifType assignments, an OID-subtree assignment in MIB-II's 'transmission' 
 subtree will be made with the same value. In addition, the <xref type="registry" data="ianaiftype-mib">IANAifType-MIB</xref> and 
 <xref type="registry" data="iana-if-type">iana-if-type YANG</xref> modules should be updated in accordance with <xref type="rfc" data="rfc2863"/> and 
 <xref type="rfc" data="rfc7224"/>, respectively.
@@ -1615,6 +1615,8 @@ subtree will be made with the same value. In addition, the <xref type="registry"
                   IEEE802.11      "ieee80211(71),"        
           "-Finally, the last item in the list has no comma,"                     
            while all previous items have a comma
+    </note>
+    <note>Note: MIB and YANG formats are available at <xref type="registry" data="ianaiftype-mib">IANAifType-MIB</xref> and <xref type="uri" data="https://www.iana.org/assignments/iana-if-type">iana-if-type</xref>.
     </note>
     <record>
       <value>1</value>
@@ -3450,22 +3452,30 @@ is allocated according to the following reference.</description>
       <xref type="uri" data="https://standards.ieee.org/standard/1906_1-2015.html">IEEE 1906.1-2015</xref>
       <xref type="person" data="Stephen_F_Bush"/>
     </record>
+    <record date="2020-07-10">
+      <value>300</value>
+      <name>cpri</name>
+      <description>Common Public Radio Interface</description>
+      <xref type="uri" data="http://www.cpri.info/spec.html">CPRI v7.0</xref>
+      <xref type="person" data="Renwang_Liu"/>
+    </record>
     
     
-    
-   
-    <registry id="smi-numbers-6">
-      <title>tunnelType Definitions</title>
+  </registry>
+
+
+  <registry id="smi-numbers-6">
+      <title>Tunnel Types (tunnelType)</title>
       <category>Interface Parameters</category>
       <category>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</category>
       <xref type="rfc" data="rfc4087"/>
       <xref type="rfc" data="rfc8675"/>
-      <xref type="draft" data="RFC-thaler-iftype-reg-07"/>
+      <xref type="rfc" data="rfc8892"/>
       <registration_rule>Expert Review</registration_rule>
       <expert>Dave Thaler (primary), Dan Romascanu (secondary)</expert>
       <description>iso.org.dod.internet.mgmt.mib-2.interface.ifTable.ifEntry.ifType.tunnelType (1.3.6.1.2.1.2.2.1.3.131)</description>
-      <note>When this registry is modified, the YANG module <xref type="uri" data="https://www.iana.org/assignments/iana-tunnel-type">iana-tunnel-type</xref>
-must be updated as defined in <xref type="rfc" data="rfc8675"/>.
+    <note>When this registry is modified, the <xref type="registry" data="ianaiftype-mib">IANAifType-MIB</xref> and <xref type="uri" data="https://www.iana.org/assignments/iana-tunnel-type">iana-tunnel-type</xref>
+modules should be updated in accordance with <xref type="rfc" data="rfc2863"/> and <xref type="rfc" data="rfc8675"/>, respectively.
       </note>
       <note>For a functional mib language definition please see the following:  
 <xref type="registry" data="ianaiftype-mib"/>  
@@ -3487,6 +3497,8 @@ must be updated as defined in <xref type="rfc" data="rfc8675"/>.
       IEEE802.11  "ieee80211(71),"  
     "-Finally, the last item in the list has no comma,"     
      while all previous items have a comma
+      </note>
+      <note>Note: MIB and YANG formats are available at <xref type="registry" data="ianaiftype-mib">IANAifType-MIB</xref> and <xref type="uri" data="https://www.iana.org/assignments/iana-tunnel-type">iana-tunnel-type</xref>.
       </note>
       <record>
         <value>1</value>
@@ -3603,18 +3615,19 @@ must be updated as defined in <xref type="rfc" data="rfc8675"/>.
       </record>
       
     </registry>
-  </registry>
+  
   
   <registry id="smi-numbers-7">
-    <title>Internet-standard MIB - Transmission Group</title>
+    <title>Transmission Number Values</title>
     <category>Interface Parameters</category>
     <category>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</category>
     <xref type="rfc" data="rfc1213"/>
-    <xref type="draft" data="RFC-thaler-iftype-reg-07"/>
+    <xref type="rfc" data="rfc8892"/>
     <registration_rule>Specification Required</registration_rule>
+    <description>iso.org.dod.internet.mgmt.mib-2.transmission (1.3.6.1.2.1.10)</description>
     <expert>Dave Thaler (primary), Dan Romascanu (secondary)</expert>
-    <note>For future transmission number assignments, an 'ifType' will be
-made with the same value.
+    <note>For future transmission number assignments, an 'ifType' assignment 
+will be made with the same value.
 </note>
     <record>
       <value>5</value>
@@ -4105,6 +4118,13 @@ made with the same value.
       <description>Nanoscale and Molecular Communication</description>
       <xref type="uri" data="https://standards.ieee.org/standard/1906_1-2015.html">IEEE 1906.1-2015</xref>
       <xref type="person" data="Stephen_F_Bush"/>
+	</record>
+    <record date="2020-07-10">
+      <value>300</value>
+      <name>cpri</name>
+      <description>Common Public Radio Interface</description>
+      <xref type="uri" data="http://www.cpri.info/spec.html">CPRI v7.0</xref>
+      <xref type="person" data="Renwang_Liu"/>
     </record>
     
     
@@ -4767,7 +4787,7 @@ technique (e.g., Filtering, Sampling) that is applied by the Intermediate Flow S
   <registry id="smi-numbers-21">
     <title>SMI pib PIB Codes</title>
     <xref type="rfc" data="rfc3159"/>
-    <registration_rule>Standards Track</registration_rule>
+    <registration_rule>Standards Action</registration_rule>
     <description>iso.org.dod.internet.mgmt.pib (1.3.6.1.2.2)</description>
     <record date="1995-06">
       <value>0</value>
@@ -4812,7 +4832,7 @@ technique (e.g., Filtering, Sampling) that is applied by the Intermediate Flow S
     <xref type="rfc" data="rfc4181"/>
     <xref type="rfc" data="rfc2578"/>
     <xref type="rfc" data="rfc1155"/>
-    <registration_rule>Experimental RFCs</registration_rule>
+    <registration_rule>Experimental RFC</registration_rule>
     <description>iso.org.dod.internet.experimental (1.3.6.1.3)</description>
     <record date="1995-06">
       <value>0</value>
@@ -5836,7 +5856,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Mail Security (1.2.840.113549.1.9.16)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>0</value>
         <description>Module identifiers</description>
@@ -5913,7 +5933,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Module Identifier (1.2.840.113549.1.9.16.0)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-mod-cms</description>
@@ -6275,7 +6295,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME CMS Content Type (1.2.840.113549.1.9.16.1)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>0</value>
         <description>id-ct-anyContentType</description>
@@ -6511,13 +6531,18 @@ Access Beyond web</description>
         <description>id-ct-animaCBORVoucher</description>
         <xref type="draft" data="draft-ietf-anima-constrained-voucher"/>
       </record>
+      <record date="2020-09-14">
+        <value>47</value>
+        <description>id-ct-geofeedCSVwithCRLF</description>
+        <xref type="draft" data="draft-ymbk-opsawg-finding-geofeeds"/>
+      </record>
     </registry>
     
     <registry id="security-smime-2">
       <title>SMI Security for S/MIME Attributes (1.2.840.113549.1.9.16.2)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-aa-receiptRequest</description>
@@ -6783,10 +6808,11 @@ Access Beyond web</description>
         <description>id-aa-setKeyInformation</description>
         <xref type="draft" data="draft-herzog-setkey"/>
       </record> 
-      <record>
+      <record updated="2020-08-20">
         <value>54</value>
         <description>id-aa-asymmDecryptKeyID</description>
         <xref type="rfc" data="rfc7030"/>
+		<xref type="rfc" data="rfc8951"/>
       </record>
       <record date="2015-03-19">
         <value>55</value>
@@ -6814,7 +6840,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Algorithms (1.2.840.113549.1.9.16.3)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <note>Value 14, "id-alg-rsa-kem," is also referred to as "id-rsa-kem."
       </note>
       <note>Value 17, "id-alg-hss-lms-hashsig", is also referred to as 
@@ -6976,7 +7002,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Certificate Distribution Mechanisms (1.2.840.113549.1.9.16.4)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-cd-ldap</description>
@@ -6988,7 +7014,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Signature Policy Qualifier (1.2.840.113549.1.9.16.5)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-spq-ets-uri</description>
@@ -7005,7 +7031,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Commitment Type Identifier (1.2.840.113549.1.9.16.6)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-cti-ets-proofOfOrigin</description>
@@ -7042,7 +7068,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Test Security Policies (1.2.840.113549.1.9.16.7)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-tsp-TEST-Amoco</description>
@@ -7069,7 +7095,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Control Attributes for Symmetric Key Distribution (1.2.840.113549.1.9.16.8)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-skd-glUseKEK</description>
@@ -7151,7 +7177,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Signature Type Identifiers (1.2.840.113549.1.9.16.9)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-sti-originatorSig</description>
@@ -7178,7 +7204,7 @@ Access Beyond web</description>
       <title>SMI Security for X.400 Encoded Information Types (EIT) for S/MIME objects (1.2.840.113549.1.9.16.10)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-eit-envelopedData</description>
@@ -7220,7 +7246,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Capabilities (other than cryptographic algorithms) (1.2.840.113549.1.9.16.11)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-cap-preferBinaryInside</description>
@@ -7232,7 +7258,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Portable Symmetric Key Container (PSKC) Attributes (1.2.840.113549.1.9.16.12)</title>
       <xref type="rfc" data="rfc7107"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Russ Housley (primary), Jim Schaad (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record>
         <value>1</value>
         <description>id-pskc-manufacturer</description>
@@ -7374,7 +7400,7 @@ Access Beyond web</description>
       <title>SMI Security for S/MIME Other Recipient Info Identifiers (1.2.840.113549.1.9.16.13)</title>
       <xref type="rfc" data="rfc8696"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Jim Schaad (primary), Russ Housley (secondary)</expert>
+      <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
       <record date="2019-08-29">
         <value>1</value>
         <description>id-ori-keyTransPSK</description>
@@ -7578,7 +7604,7 @@ Access Beyond web</description>
       <record date="2020-03-25">
         <value>24</value>
         <description>Simple Certificate Enrollment Protocol Attributes</description>
-        <xref type="draft" data="RFC-gutmann-scep-15"/>
+        <xref type="rfc" data="rfc8894"/>
       </record>
        <record>
         <value>48</value>
@@ -8068,6 +8094,21 @@ Access Beyond web</description>
         <description>id-mod-delegated-credential-extn</description>
         <xref type="draft" data="draft-ietf-tls-subcerts"/>
       </record>
+      <record date="2020-04-29">
+        <value>96</value>
+        <description>id-mod-MASAURLExtn2016</description>
+        <xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
+      </record>
+      <record date="2020-07-07" updated="2020-11-05">
+        <value>97</value>
+        <description>id-mod-anima-acpnodename-2020</description>
+        <xref type="draft" data="RFC-ietf-anima-autonomic-control-plane-30"/>
+      </record>
+      <record date="2020-08-20">
+        <value>98</value>
+        <description>id-mod-est-2019</description>
+        <xref type="rfc" data="rfc8951"/>
+      </record>
     </registry>
 
     <registry id="smi-numbers-1.3.6.1.5.5.7.1">
@@ -8231,11 +8272,10 @@ Access Beyond web</description>
         <description>id-pe-acmeIdentifier</description>
         <xref type="rfc" data="rfc8737"/>
       </record>
-      <record date="2019-02-20">
+      <record date="2019-02-20" updated="2020-04-29">
         <value>32</value>
-        <description>id-pe-masa-url 
-          (TEMPORARY - registered 2019-02-20, extension registered 2020-01-23, expires 2021-02-20)</description>
-        <xref type="draft" data="draft-ietf-anima-bootstrapping-keyinfra"/>
+        <description>id-pe-masa-url</description>
+        <xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
       </record>
     </registry>
 
@@ -8433,6 +8473,21 @@ Access Beyond web</description>
         <description>id-kp-BrandIndicatorforMessageIdentification</description>
         <xref type="draft" data="draft-chuang-bimi-certificate"/>
       </record>
+      <record date="2020-07-24">
+        <value>32</value>
+        <description>id-kp-cmKGA</description>
+        <xref type="draft" data="draft-ietf-lamps-cmp-updates"/>
+      </record>
+      <record date="2020-11-09">
+        <value>33</value>
+        <description>id-kp-rpcTLSClient</description>
+        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-10"/>
+      </record>
+      <record date="2020-11-09">
+        <value>34</value>
+        <description>id-kp-rpcTLSServer</description>
+        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-10"/>
+      </record>
     </registry>
 
     <registry id="smi-numbers-1.3.6.1.5.5.7.4">
@@ -8521,6 +8576,21 @@ Access Beyond web</description>
         <description>id-it-suppLangTags</description>
         <xref type="rfc" data="rfc4210"/>
       </record>
+      <record date="2020-07-24">
+        <value>17</value>
+        <description>id-it-caCerts</description>
+        <xref type="draft" data="draft-ietf-lamps-lightweight-cmp-profile"/>
+      </record>     
+      <record date="2020-07-24">
+        <value>18</value>
+        <description>id-it-rootCaKeyUpdate </description>
+        <xref type="draft" data="draft-ietf-lamps-lightweight-cmp-profile"/>
+      </record>  
+      <record date="2020-07-24">
+        <value>19</value>
+        <description>id-it-certReqTemplate</description>
+        <xref type="draft" data="draft-ietf-lamps-lightweight-cmp-profile"/>
+      </record>  
     </registry>
 
 <registry id="smi-numbers-1.3.6.1.5.5.7.5">
@@ -8987,6 +9057,11 @@ and id-dhPop-static-hmac-sha1.
          <value>9</value>
         <description>id-on-SmtpUTF8Mailbox</description>
         <xref type="rfc" data="rfc8398"/>
+       </record>
+       <record date="2020-07-07" updated="2020-11-05">
+         <value>10</value>
+         <description>id-on-AcpNodeName</description>
+         <xref type="draft" data="RFC-ietf-anima-autonomic-control-plane-30"/>
        </record>
      </registry>
 
@@ -9601,14 +9676,14 @@ TESTING.
     
     <registry id="smi-numbers-1.3.6.1.5.5.7.24">
       <title>SMI Security for SCEP Attribute Identifiers</title>
-      <xref type="draft" data="RFC-gutmann-scep-15"/>
+      <xref type="rfc" data="rfc8894"/>
       <registration_rule>Specification Required</registration_rule>
-      <expert>Unassigned</expert>
+      <expert>Peter Gutmann</expert>
       <description>PKIX (1.3.6.1.5.5.7.24)</description>
       <record date="2020-03-25">
         <value>1</value>
         <description>id-scep-failInfoText</description>
-        <xref type="draft" data="RFC-gutmann-scep-15"/>
+        <xref type="rfc" data="rfc8894"/>
       </record>
     </registry>
 
@@ -10400,10 +10475,11 @@ TESTING.
       <registration_rule>IETF Review or IESG Approval</registration_rule>
       <description>iso.org.dod.internet.security.mechanisms.abfab.mechanisms (1.3.6.1.5.5.15.1)</description>
       <note>the following mechanisms registry is the root of the OID for
-        the mechanism in question.  As discussed in Section 5.1
-        [RFC-ietf-abbfab-gss-eap-09], a Kerberos encryption type number
-        [RFC3961] is appended to the mechanism version OID below to form the
-      OID of a specific mechanism.</note>
+the mechanism in question.  As discussed in Section 5.1 of 
+<xref type="rfc" data="rfc7055"/>, a Kerberos encryption type number <xref type="rfc" data="rfc3961"/> is 
+appended to the mechanism version OID below to form the OID 
+of a specific mechanism.
+      </note>
       <record>
         <value>0</value>
         <name>Reserved</name>
@@ -11164,7 +11240,7 @@ TESTING.
     <title>SMI Security for Cryptographic Algorithms</title>
     <xref type="rfc" data="rfc8411"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad</expert>
+    <expert>Russ Housley (primary), Sean Turner (secondary)</expert>
     <description>iso.org.thawte (1.3.101)</description>
     <record date="2018-03-22">
       <value>0-99</value>
@@ -11888,6 +11964,11 @@ TESTING.
       <name>Rajesh M.L.</name>
       <uri>mailto:rajeshml&amp;cisco.com</uri>
       <updated>2002-07</updated>
+    </person>
+    <person id="Renwang_Liu">
+      <name>Renwang Liu</name>
+      <uri>mailto:renwang.liu&amp;ericsson.com</uri>
+      <updated>2020-07-10</updated>
     </person>
     <person id="Richard_Fox">
       <name>Richard Fox</name>

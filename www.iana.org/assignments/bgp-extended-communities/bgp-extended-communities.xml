@@ -5,7 +5,7 @@
   <title>Border Gateway Protocol (BGP) Extended Communities</title>
   <category>Border Gateway Protocol (BGP) Parameters</category>
   <created>2005-08-15</created>
-  <updated>2019-09-03</updated>
+  <updated>2020-12-14</updated>
   
   
   
@@ -87,8 +87,18 @@ Community Sub-Types" registry)</name>
       <name>FlowSpec Redirect to indirection-id Extended Community</name>
       <xref type="draft" data="draft-ietf-idr-flowspec-path-redirect"/>
     </record>
+    <record date="2020-07-01">
+      <value>0x0a</value>
+      <name>Transport Class</name>
+      <xref type="draft" data="draft-kaliraj-idr-bgp-classful-transport-planes"/>
+    </record>   
+    <record date="2020-09-02">
+      <value>0x0b</value>
+      <name>SFC (Sub-Types are defined in the "SFC Extended Community Sub-Types" registry)</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>   
     <record>
-      <value>0x0a-0x7f</value>
+      <value>0x0c-0x7f</value>
       <name>Unassigned</name>
     </record>
     <record>
@@ -98,19 +108,19 @@ Community Sub-Types" registry)</name>
 Community Sub-Types" registry)</name>
       <xref type="rfc" data="rfc7153"/>
     </record>
-    <record date="2015-08-28">
+    <record date="2015-08-28" updated="2020-08-05">
       <value>0x81</value>
       <name>Generic Transitive Experimental Use Extended Community       
         Part 2 (Sub-Types are defined in the "Generic Transitive Experimental Use Extended 
         Community Part 2 Sub-Types" Registry)</name>
-      <xref type="rfc" data="rfc7674"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
-    <record date="2015-08-28">
+    <record date="2015-08-28" updated="2020-08-05">
       <value>0x82</value>
       <name>Generic Transitive Experimental Use Extended Community       
         Part 3 (Sub-Types are defined in the "Generic Transitive Experimental Use Extended 
         Community Part 3 Sub-Types" Registry)</name>
-      <xref type="rfc" data="rfc7674"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
     <record date="2012-09-28">
       <value>0x83-0x8f</value>
@@ -188,7 +198,16 @@ Community Sub-Types" registry)</name>
       <xref type="draft" data="draft-ietf-idr-flowspec-interfaceset"/>
     </record>
     <record>
-      <value>0x48-0x7f</value>
+      <value>0x48-0x49</value>
+      <name>Unassigned</name>
+    </record>
+    <record date="2020-07-01">
+      <value>0x4a</value>
+      <name>Transport Class</name>
+      <xref type="draft" data="draft-kaliraj-idr-bgp-classful-transport-planes"/>
+    </record>   
+    <record>
+      <value>0x4b-0x7f</value>
       <name>Unassigned</name>
     </record>
     <record date="2012-09-28">
@@ -295,8 +314,13 @@ octet (the "Type" field) is 0x06.
       <name>EVPN Attachment Circuit Extended Community</name>
       <xref type="draft" data="draft-sajassi-bess-evpn-ac-aware-bundling"/>
     </record>
+    <record date="2020-05-29">
+      <value>0x0F</value>
+      <name>Service Carving Timestamp</name>
+      <xref type="draft" data="draft-ietf-bess-evpn-fast-df-recovery-01"/>
+    </record>
     <record>
-      <value>0x0F-0xff</value>
+      <value>0x10-0xFF</value>
       <name>Unassigned</name>
     </record>
   </registry>
@@ -645,8 +669,13 @@ octet (the "Type" field) is 0x01.
       <name>Route-Target Record</name>
       <xref type="draft" data="draft-ietf-bess-service-chaining"/>
     </record>
+    <record date="2020-08-04">
+      <value>0x14</value>
+      <name>VRF-Recursive-Next-Hop-Extended-Community</name>
+      <xref type="person" data="Dhananjaya_Rao"/>
+    </record>
     <record>
-      <value>0x14-0x1f</value>
+      <value>0x15-0x1f</value>
       <name>Unassigned</name>
     </record>
     <record date="2018-03-26">
@@ -875,25 +904,25 @@ octet (the "Type" field) is 0x80.
       <name>OSPF Domain Identifier (deprecated)</name>
       <xref type="rfc" data="rfc4577"/>
     </record>
-    <record>
+    <record updated="2020-08-06">
       <value>0x06</value>
-      <name>Flow spec traffic-rate</name>
-      <xref type="rfc" data="rfc5575"/>
+      <name>Flow spec traffic-rate-bytes</name>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
-    <record>
+    <record updated="2020-08-05">
       <value>0x07</value>
       <name>Flow spec traffic-action (Use of the "Value" field is defined in the "Traffic Action Fields" registry)</name>
-      <xref type="rfc" data="rfc5575"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
-    <record updated="2015-08-28">
+    <record updated="2020-08-06">
       <value>0x08</value>
-      <name>Flow spec redirect AS-2byte format</name>
-      <xref type="rfc" data="rfc5575"/><xref type="rfc" data="rfc7674"/>
+      <name>Flow spec rt-redirect AS-2octet format</name>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
-    <record>
+    <record updated="2020-08-05">
       <value>0x09</value>
       <name>Flow spec traffic-remarking</name>
-      <xref type="rfc" data="rfc5575"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
     <record>
       <value>0x0a</value>
@@ -905,8 +934,18 @@ octet (the "Type" field) is 0x80.
       <name>E-Tree Info</name>
       <xref type="rfc" data="rfc7796"/>
     </record>
+    <record date="2020-08-05">
+      <value>0x0c</value>
+      <name>Flow spec traffic-rate-packets</name>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
+    </record>
+    <record date="2020-09-02">
+      <value>0x0d</value>
+      <name>Flow Specification for SFC Classifiers</name>
+      <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
     <record>
-      <value>0x0c-0x83</value>
+      <value>0x0e-0x83</value>
       <name>Unassigned</name>
     </record>
     <record date="2017-10-30">
@@ -931,7 +970,7 @@ octet (the "Type" field) is 0x80.
   
   <registry id="generic-transitive-experimental-part2">
     <title>Generic Transitive Experimental Use Extended Community Part 2 Sub-Types</title>
-    <xref type="rfc" data="rfc7674"/>
+    <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     <range>
       <value>0x00-0xbf</value>
       <registration_rule>First Come First Served</registration_rule>
@@ -948,10 +987,10 @@ octet (the "Type" field) is 0x81.
         <value>0x00-0x07</value>
         <name>Unassigned</name>
     </record>
-    <record date="2015-08-28">
+    <record date="2015-08-28" updated="2020-08-06">
       <value>0x08</value>
-      <name>Flow spec redirect IPv4 format</name>
-      <xref type="rfc" data="rfc7674"/>
+      <name>Flow spec rt-redirect IPv4 format</name>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
     <record>
       <value>0x09-0xff</value>
@@ -963,7 +1002,7 @@ octet (the "Type" field) is 0x81.
   
   <registry id="generic-transitive-experimental-part3">
     <title>Generic Transitive Experimental Use Extended Community Part 3 Sub-Types</title>
-    <xref type="rfc" data="rfc7674"/>
+    <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     <range>
       <value>0x00-0xbf</value>
       <registration_rule>First Come First Served</registration_rule>
@@ -990,10 +1029,10 @@ octet (the "Type" field) is 0x82.
       <value>0x05-0x07</value>
       <name>Unassigned</name>
     </record>
-    <record date="2015-08-28">
+    <record date="2015-08-28" updated="2020-08-05">
       <value>0x08</value>
-      <name>Flow spec redirect AS-4byte format</name>
-      <xref type="rfc" data="rfc7674"/>
+      <name>Flow spec rt-redirect AS-4octet format</name>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
     <record>
       <value>0x09-0x83</value>
@@ -1022,19 +1061,19 @@ octet (the "Type" field) is 0x82.
   
   <registry id="traffic-action-fields">
     <title>Traffic Action Fields</title>
-    <xref type="rfc" data="rfc5575"/>
+    <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     <registration_rule>IETF Review</registration_rule>
     <note>Bit 0 is the most significant, or leftmost bit of the six-byte
 field; bit 47 is the least significant, or rightmost bit.</note>
-    <record>
+    <record updated="2020-08-05">
       <value>47</value>
       <name>Terminal Action</name>
-      <xref type="rfc" data="rfc5575"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
-    <record>
+    <record updated="2020-08-05">
       <value>46</value>
       <name>Sample</name>
-      <xref type="rfc" data="rfc5575"/>
+      <xref type="draft" data="RFC-ietf-idr-rfc5575bis-26"/>
     </record>
     <record>
       <value>0-45</value>
@@ -1086,8 +1125,13 @@ IPv6-Address-Specific Extended Community.
       <name>Flow-spec Redirect to IPv6</name>
       <xref type="draft" data="draft-ietf-idr-flowspec-redirect-ip"/>
     </record>
+    <record date="2020-12-14">
+      <value>0x000d</value>
+      <name>Flow spec rt-redirect-ipv6 format</name>
+      <xref type="draft" data="RFC-ietf-idr-flow-spec-v6-22"/>
+    </record>
     <record>
-      <value>0x000d-0x000f</value>
+      <value>0x000e-0x000f</value>
       <name>Unassigned</name>
     </record>
     <record date="2012-04-10">
@@ -1106,7 +1150,16 @@ IPv6-Address-Specific Extended Community.
       <xref type="rfc" data="rfc7524"/>
     </record>
     <record>
-      <value>0x0013-0x00ff</value>
+      <value>0x0013</value>
+      <name>Unassigned</name>
+    </record>
+    <record date="2020-08-04">
+      <value>0x0014</value>
+      <name>VRF-Recursive-Next-Hop-Extended-Community</name>
+      <xref type="person" data="Dhananjaya_Rao"/>
+    </record>
+    <record>
+      <value>0x0015-0x00ff</value>
       <name>Unassigned</name>
     </record>
   </registry>
@@ -1135,10 +1188,10 @@ IPv6-Address-Specific Extended Community.
       <value>0-46</value>
       <name>Unassigned</name>
     </record>
-    <record date="2019-01-23">
+    <record date="2019-01-23" updated="2020-11-19">
       <value>47</value>
-      <name>DCB (TEMPORARY - registered 2019-01-23, expires 2020-01-23.)</name>
-      <xref type="draft" data="draft-ietf-bess-mvpn-evpn-aggregation-label"/>
+      <name>DCB (TEMPORARY - registered 2019-01-23, extension registered 2020-11-19, expires 2022-01-23)</name>
+      <xref type="draft" data="draft-ietf-bess-mvpn-evpn-aggregation-label-04"/>
     </record>
   </registry>
   
@@ -1248,6 +1301,36 @@ IPv6-Address-Specific Extended Community.
     </record>
   </registry>
 
+  
+  
+  <registry id="sfc-extended-community">
+    <title>SFC Extended Community Sub-Types</title>
+    <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    <registration_rule>First Come First Served</registration_rule>
+    <note>This registry contains values of the second octet (the "Sub-Type" 
+field) of an extended community when the value of the first 
+octet (the "Type" field) is set to 0x0b.
+    </note>    
+    <record>
+      <value>0</value>
+      <name>Reserved</name>
+	  <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
+    <record date="2020-09-02">
+      <value>1</value>
+      <name>SFIR Pool Identifier</name>
+	  <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
+    <record date="2020-09-02">
+      <value>2</value>
+      <name>MPLS Label Stack Mixed Swapping/Stacking Labels</name>
+	  <xref type="draft" data="RFC-ietf-bess-nsh-bgp-control-plane-18"/>
+    </record>
+    <record>
+      <value>3-255</value>
+      <name>Unassigned</name>
+    </record>
+  </registry>
 
   <people>
     <person id="Anantharamu_Suryanarayana">

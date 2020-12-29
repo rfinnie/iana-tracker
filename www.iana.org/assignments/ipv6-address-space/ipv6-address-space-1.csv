@@ -17,12 +17,7 @@ with the exception of ff00::/8, per [RFC4291]. IANA unicast address
 assignments are currently limited to the IPv6 unicast address 
 range of 2000::/3. IANA assignments from this block are registered 
 in [IANA registry ipv6-unicast-address-assignments].
-      [7]    
-      [8]    
-      [9]      
-      [10]      
-      [11]      
-      [12]
+      [7] [8] [9] [10] [11] [12]
       [13]
       [14]
       [15]"

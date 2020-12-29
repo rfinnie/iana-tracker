@@ -1,0 +1,14 @@
+Type,Name,Reference
+0x0000,Reserved,[RFC8609]
+0x0001,Unassigned,
+0x0002,T_CRC32C,"[RFC8609, Section 3.6.4.1]"
+0x0003,Unassigned,
+0x0004,T_HMAC-SHA256,"[RFC8609, Section 3.6.4.1]"
+0x0005,T_RSA-SHA256,"[RFC8609, Section 3.6.4.1]"
+0x0006,T_EC-SECP-256K1,"[RFC8609, Section 3.6.4.1]"
+0x0007,T_EC-SECP-384R1,"[RFC8609, Section 3.6.4.1]"
+0x0008-0x0FFD,Unassigned,
+0x0FFE,T_PAD,"[RFC8609, Section 3.3.1]"
+0x0FFF,T_ORG,"[RFC8609, Section 3.3.2]"
+0x1000-0x1FFF,Reserved for Experimental Use,"[RFC8609, Section 3]"
+0x2000-0xFFFF,Unassigned,

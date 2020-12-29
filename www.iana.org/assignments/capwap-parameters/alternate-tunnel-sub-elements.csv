@@ -1,0 +1,9 @@
+Description,Value,Reference
+AR IPv4 List,0,[RFC8350]
+AR IPv6 List,1,[RFC8350]
+Tunnel DTLS Policy,2,[RFC8350]
+IEEE 802.11 Tagging Mode Policy,3,[RFC8350]
+CAPWAP Transport Protocol,4,[RFC8350]
+GRE Key,5,[RFC8350]
+IPv6 MTU,6,[RFC8350]
+Unassigned,7-65535,

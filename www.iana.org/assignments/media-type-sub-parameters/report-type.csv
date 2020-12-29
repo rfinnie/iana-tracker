@@ -1,0 +1,7 @@
+Report-Type,Media Type,Reference,Comment
+tlsrpt,"application/tlsrpt+gzip, application/tlsrpt+json",[RFC8460],"Media types suitable for use with this report-type are
+        defined in Sections 6.4 and 6.5 of [RFC8460]"
+disposition-notification,message/disposition-notification,"[RFC8098, Section 10]",
+disposition-notification,message/global-disposition-notification,"[RFC6533, Section 6]",
+delivery-status,message/delivery-status,"[RFC3464, Section 2.1]",
+delivery-status,message/global-delivery-status,"[RFC6533, Section 6]",

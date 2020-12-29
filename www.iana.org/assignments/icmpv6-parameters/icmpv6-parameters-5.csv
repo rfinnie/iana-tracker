@@ -20,7 +20,7 @@ Type,Description,Reference
 19,Link-layer Address Option,[RFC5568]
 20,"Neighbor Advertisement Acknowledgment   
 Option",[RFC5568]
-21,PvD ID Router Advertisement Option,[RFC-ietf-intarea-provisioning-domains-11]
+21,PvD ID Router Advertisement Option,[RFC8801]
 22,Unassigned,
 23,MAP Option,[RFC4140]
 24,Route Information Option,[RFC4191]
@@ -36,9 +36,11 @@ Option",[RFC5568]
 34,6LoWPAN Context Option,[RFC6775]
 35,Authoritative Border Router Option,[RFC6775]
 36,6LoWPAN Capability Indication Option (6CIO),[RFC7400]
-37,DHCP Captive-Portal,[RFC7710]
-38,PREF64 option,[RFC-ietf-6man-ra-pref64-09]
-39-137,Unassigned,
+37,DHCP Captive-Portal,[RFC8910]
+38,PREF64 option,[RFC8781]
+39,Crypto-ID Parameters Option (CIPO),[RFC8928]
+40,NDP Signature Option (NDPSO),[RFC8928]
+41-137,Unassigned,
 138,CARD Request option,[RFC4065]
 139,CARD Reply option,[RFC4065]
 140-252,Unassigned,

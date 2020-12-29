@@ -1,4 +1,4 @@
 Bit,Name,Reference
-0,Default prefix,[RFC6126]
-1,Default router-id,[RFC6126]
+0,Default prefix,[RFC-ietf-babel-rfc6126bis-20]
+1,Default Router-ID,[RFC-ietf-babel-rfc6126bis-20]
 2-7,Unassigned,

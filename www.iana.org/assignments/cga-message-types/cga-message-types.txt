@@ -4,7 +4,7 @@
            2004-05-28
 
    Last Updated
-           2015-04-10
+           2020-11-25
 
    Available Formats
            [IMG]
@@ -14,9 +14,9 @@
 
    Registries included below
 
-     * CGA Extension Type Tags
-     * CGA Extension Type Values
-     * CGA SEC
+     * CGA Extension Type Tags
+     * CGA Extension Type Values
+     * CGA SEC
 
 CGA Extension Type Tags
 
@@ -37,6 +37,7 @@ CGA Extension Type Tags
    0xF0EF F02F BFF4 3D0F E793 0C3C 6E61 74EA [RFC7401]
    0x4A30 5662 4858 574B 3655 416F 506A 6D48 [RFC5533]
    0x09F5 2BE5 3B62 4C76 CB96 4E7F CDC9 2804 [RFC6496]
+   0x8701 55C8 0CCA DD32 6AB7 E415 F148 84D0 [RFC8928]
 
 CGA Extension Type Values
 
@@ -52,7 +53,9 @@ CGA Extension Type Values
            CSV
 
    Extension Type       Description       Reference
+   0x0000-0x0011  Unassigned
    0x0012         Multi-Prefix            [RFC5535]
+   0x0013-0xFFFC  Unassigned
    0xFFFD         Exp_FFFD (experimental) [RFC4581]
    0xFFFE         Exp_FFFE (experimental) [RFC4581]
    0xFFFF         Exp_FFFF (experimental) [RFC4581]

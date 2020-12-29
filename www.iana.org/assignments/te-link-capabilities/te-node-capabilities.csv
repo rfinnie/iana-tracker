@@ -1,0 +1,7 @@
+Bit,Name,Reference
+0,B bit: P2MP Branch LSR capability,[RFC5073]
+1,E bit: P2MP Bud LSR capability,[RFC5073]
+2,M bit: MPLS-TE support,[RFC5073]
+3,G bit: GMPLS support,[RFC5073]
+4,P bit: P2MP RSVP-TE support,[RFC5073]
+5-7,Unassigned,

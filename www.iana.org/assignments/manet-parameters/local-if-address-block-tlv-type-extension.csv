@@ -1,5 +1,4 @@
 Type Extension,Name,Description,Reference
-0,LOCAL_IF,"This value is to be interpreted according to the registry 
-      [LOCAL_IF TLV Values]",[RFC6130][RFC7188]
+0,LOCAL_IF,This value is to be interpreted according to the registry [LOCAL_IF TLV Values],[RFC6130][RFC7188]
 1-223,,Unassigned,
 224-255,,Reserved for Experimental Use,[RFC6130]

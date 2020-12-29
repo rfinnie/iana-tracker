@@ -1,32 +1,24 @@
 Name,File,Maintained by IANA?,Namespace (Modules Only),Prefix (Modules Only),Module (Submodules Only),Reference,Notes
-iana-bfd-types,,Y,urn:ietf:params:xml:ns:yang:iana-bfd-types,iana-bfd-types,,[RFC-ietf-bfd-yang-17],"BFD Diagnostic Codes and BFD Authentication Types must not be added directly to 
-        the iana-bfd-types YANG module. They must first be added to 
-        [IANA registry bfd-parameters], which it mirrors.
-        Note: the initial module file will be posted upon 
-        [RFC-ietf-bfd-yang-17]'s publication as an RFC."
-iana-crypt-hash,iana-crypt-hash@2014-08-06.yang,Y,urn:ietf:params:xml:ns:yang:iana-crypt-hash,ianach,,[RFC7317],"Registration procedure: Expert Review, as described in 
-        [RFC8126]. Expert(s): Unassigned."
-iana-dots-signal-channel,,Y,urn:ietf:params:xml:ns:yang:iana-dots-signal-channel,iana-signal,,[RFC-ietf-dots-signal-channel-41],"Status, conflict status, conflict cause, and attack status values
+iana-bfd-types,,Y,urn:ietf:params:xml:ns:yang:iana-bfd-types,iana-bfd-types,,[RFC-ietf-bfd-yang-17],"BFD Diagnostic Codes and BFD Authentication Types must not be added directly to the iana-bfd-types YANG module. They must first be added to [IANA registry bfd-parameters], which it mirrors.
+        Note: the initial module file will be posted upon [RFC-ietf-bfd-yang-17]'s publication as an RFC."
+iana-crypt-hash,iana-crypt-hash@2014-08-06.yang,Y,urn:ietf:params:xml:ns:yang:iana-crypt-hash,ianach,,[RFC7317],"Registration procedure: Expert Review, as described in [RFC8126]. Expert(s): Unassigned."
+iana-dots-signal-channel,iana-dots-signal-channel@2020-05-28.yang,Y,urn:ietf:params:xml:ns:yang:iana-dots-signal-channel,iana-signal,,[RFC8782],"Status, conflict status, conflict cause, and attack status values
 must not be directly added to the iana-dots-signal-channel YANG
 module.  They must instead be respectively added to the ""DOTS
 Status Codes"", ""DOTS Conflict Status Codes"", ""DOTS Conflict Cause
-Codes"", and ""DOTS Attack Status Codes"" registries.
-      
-Note: the initial module file will be posted upon 
-[RFC-ietf-dots-signal-channel-41]'s publication as an RFC."
+Codes"", and ""DOTS Attack Status Codes"" registries."
 iana-hardware,iana-hardware@2018-03-13.yang,Y,urn:ietf:params:xml:ns:yang:iana-hardware,ianahw,,[RFC8348],"The ""iana-hardware"" YANG module is intended to reflect the
         [""IANA-ENTITY-MIB""] MIB module so that if a new enumeration is added to
         the ""IANAPhysicalClass"" textual convention, the same class is added as an identity derived from ""ianahw:hardware-class""."
-iana-if-type,iana-if-type@2020-01-10.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
-module. They must instead be added to the ""ifType definitions"" registry 
+iana-if-type,iana-if-type@2020-08-27.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
+   module. They must instead be added to the ""Interface Types (ifType)"" registry 
 at [IANA registry smi-numbers]."
-iana-routing-types,iana-routing-types@2019-11-04.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
+iana-routing-types,iana-routing-types@2020-11-19.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
 directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
 and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
-iana-tunnel-type,iana-tunnel-type@2019-11-16.yang,Y,urn:ietf:params:xml:ns:yang:iana-tunnel-type,iana-tunnel-type,,[RFC8675],"Tunnel type values must not be directly added to the iana-tunnel-type 
-        YANG module.  They must instead be added to the
-        ""tunnelType"" subregistry (under the ""ifType definitions""
+iana-tunnel-type,iana-tunnel-type@2019-11-16.yang,Y,urn:ietf:params:xml:ns:yang:iana-tunnel-type,iana-tunnel-type,,[RFC8675],"Tunnel type values must not be directly added to the iana-tunnel-type YANG module.  They must instead be added to the
+        ""Tunnel Types (tunnelType)"" subregistry (under the ""Interface Types (ifType)""
         registry) at [IANA registry smi-numbers]."
 ietf-access-control-list,ietf-access-control-list@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-access-control-list,acl,,[RFC8519],
 ietf-acldns,ietf-acldns@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC8520],
@@ -47,14 +39,17 @@ ietf-datastores,ietf-datastores@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ie
 ietf-dc-fabric-topology,ietf-dc-fabric-topology@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology,fabric,,[RFC8542],
 ietf-dc-fabric-topology-state,ietf-dc-fabric-topology-state@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-topology-state,sfabric,,[RFC8542],
 ietf-dc-fabric-types,ietf-dc-fabric-types@2019-02-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-dc-fabric-types,fabrictypes,,[RFC8542],
-ietf-dots-data-channel,,N,urn:ietf:params:xml:ns:yang:ietf-dots-data-channel,data-channel,,[RFC-ietf-dots-data-channel-31],[RFC-ietf-dots-data-channel-31]'s module file will be posted upon the document's publication as an RFC.
-ietf-dots-signal-channel,,N,urn:ietf:params:xml:ns:yang:ietf-dots-signal-channel,signal,,[RFC-ietf-dots-signal-channel-41],[RFC-ietf-dots-signal-channel-41]'s module file will be posted upon the document's publication as an RFC.
+ietf-dots-data-channel,ietf-dots-data-channel@2020-05-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-dots-data-channel,data-channel,,[RFC8783],
+ietf-dots-signal-channel,ietf-dots-signal-channel@2020-05-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-dots-signal-channel,signal,,[RFC8782],
+ietf-dots-signal-control,,N,urn:ietf:params:xml:ns:yang:ietf-dots-signal-control,dots-control,,[RFC-ietf-dots-signal-filter-control-07],[RFC-ietf-dots-signal-filter-control-07]'s module file will be posted upon the document's publication as an RFC.
 ietf-dslite,ietf-dslite@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC8513],
 ietf-ethertypes,ietf-ethertypes@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-ethertypes,ethertypes,,[RFC8519],
+ietf-factory-default,ietf-factory-default@2020-08-31.yang,N,urn:ietf:params:xml:ns:yang:ietf-factory-default,fd,,[RFC8808],
 ietf-hardware,ietf-hardware@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC8348],
 ietf-hardware-state,ietf-hardware-state@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware-state,hw-state,,[RFC8348],
 ietf-i2rs-rib,ietf-i2rs-rib@2018-09-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,iir,,[RFC8431],
 ietf-igmp-mld,ietf-igmp-mld@2019-11-01.yang,N,urn:ietf:params:xml:ns:yang:ietf-igmp-mld,igmp-mld,,[RFC8652],
+ietf-igmp-mld-snooping,,N,urn:ietf:params:xml:ns:yang:ietf-igmp-mld-snooping,ims,,[RFC-ietf-pim-igmp-mld-snooping-yang-18],[RFC-ietf-pim-igmp-mld-snooping-yang-18]'s module file will be posted upon the document's publication as an RFC.
 ietf-inet-types,ietf-inet-types@2010-09-24.yang,N,urn:ietf:params:xml:ns:yang:ietf-inet-types,inet,,[RFC6021],
 ietf-inet-types,ietf-inet-types@2013-07-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-inet-types,inet,,[RFC6991],
 ietf-interface-protection,ietf-interface-protection@2019-06-19.yang,N,urn:ietf:params:xml:ns:yang:ietf-interface-protection,ifprot,,[RFC8561],
@@ -71,6 +66,8 @@ ietf-ipv6-unicast-routing,ietf-ipv6-unicast-routing@2016-11-04.yang,N,urn:ietf:p
 ietf-ipv6-unicast-routing,ietf-ipv6-unicast-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing,v6ur,,[RFC8349],
 ietf-isis,,N,urn:ietf:params:xml:ns:yang:ietf-isis,isis,,[RFC-ietf-isis-yang-isis-cfg-42],[RFC-ietf-isis-yang-isis-cfg-42]'s module file will be posted upon the document's publication as an RFC.
 ietf-key-chain,ietf-key-chain@2017-06-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-key-chain,key-chain,,[RFC8177],
+ietf-l2-topology,ietf-l2-topology@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology,l2t,,[RFC8944],
+ietf-l2-topology-state,ietf-l2-topology-state@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology-state,l2t-s,,[RFC8944],
 ietf-l2vpn-svc,ietf-l2vpn-svc@2018-10-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc,l2vpn-svc,,[RFC8466],
 ietf-l3-unicast-topology,ietf-l3-unicast-topology@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology,l3t,,[RFC8346],
 ietf-l3-unicast-topology-state,ietf-l3-unicast-topology-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state,l3t-s,,[RFC8346],
@@ -84,8 +81,10 @@ ietf-microwave-radio-link,ietf-microwave-radio-link@2019-06-19.yang,N,urn:ietf:p
 ietf-microwave-types,ietf-microwave-types@2019-06-19.yang,N,urn:ietf:params:xml:ns:yang:ietf-microwave-types,mw-types,,[RFC8561],
 ietf-module-tags,,N,urn:ietf:params:xml:ns:yang:ietf-module-tags,tags,,[RFC-ietf-netmod-module-tags-10],[RFC-ietf-netmod-module-tags-10]'s module file will be posted upon the document's publication as an RFC.
 ietf-module-tags-state,,N,urn:ietf:params:xml:ns:yang:ietf-module-tags-state,tags-s,,[RFC-ietf-netmod-module-tags-10],[RFC-ietf-netmod-module-tags-10]'s module file will be posted upon the document's publication as an RFC.
+ietf-mpls,ietf-mpls@2020-12-18.yang,N,urn:ietf:params:xml:ns:yang:ietf-mpls,mpls,,[RFC8960],
 ietf-mpls-ldp,,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp,ldp,,[RFC-ietf-mpls-ldp-yang-09],[RFC-ietf-mpls-ldp-yang-09]'s module file will be posted upon the document's publication as an RFC.
 ietf-mpls-ldp-extended,,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp-extended,ldp-ext,,[RFC-ietf-mpls-ldp-yang-09],[RFC-ietf-mpls-ldp-yang-09]'s module file will be posted upon the document's publication as an RFC.
+ietf-msdp,ietf-msdp@2020-10-31.yang,N,urn:ietf:params:xml:ns:yang:ietf-msdp,msdp,,[RFC8916],
 ietf-mud,ietf-mud@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-mud,ietf-mud,,[RFC8520],
 ietf-nat,ietf-nat@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nat,nat,,[RFC8512],
 ietf-netconf,ietf-netconf@2011-06-01.yang,N,urn:ietf:params:xml:ns:netconf:base:1.0,nc,,[RFC6241],
@@ -138,14 +137,15 @@ ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[RFC-ietf-ne
 ietf-system,ietf-system@2014-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-system,sys,,[RFC7317],
 ietf-sztp-bootstrap-server,ietf-sztp-bootstrap-server@2019-04-30.yang,N,urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server,sztp-svr,,[RFC8572],
 ietf-sztp-conveyed-info,ietf-sztp-conveyed-info@2019-04-30.yang,N,urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info,sztp-info,,[RFC8572],
-ietf-te-packet-types,,N,urn:ietf:params:xml:ns:yang:ietf-te-packet-types,te-packet-types,,[RFC-ietf-teas-yang-te-types-13],[RFC-ietf-teas-yang-te-types-13]'s module file will be posted upon the document's publication as an RFC.
-ietf-te-topology,,N,urn:ietf:params:xml:ns:yang:ietf-te-topology,tet,,[RFC-ietf-teas-yang-te-topo-22],[RFC-ietf-teas-yang-te-topo-22]'s module file will be posted upon the document's publication as an RFC.
-ietf-te-topology-state,,N,urn:ietf:params:xml:ns:yang:ietf-te-topology-state,tet-s,,[RFC-ietf-teas-yang-te-topo-22],[RFC-ietf-teas-yang-te-topo-22]'s module file will be posted upon the document's publication as an RFC.
-ietf-te-types,,N,urn:ietf:params:xml:ns:yang:ietf-te-types,te-types,,[RFC-ietf-teas-yang-te-types-13],[RFC-ietf-teas-yang-te-types-13]'s module file will be posted upon the document's publication as an RFC.
+ietf-te-packet-types,ietf-te-packet-types@2020-06-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-te-packet-types,te-packet-types,,[RFC8776],
+ietf-te-topology,ietf-te-topology@2020-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-te-topology,tet,,[RFC8795],
+ietf-te-topology-state,ietf-te-topology-state@2020-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-te-topology-state,tet-s,,[RFC8795],
+ietf-te-types,ietf-te-types@2020-06-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-te-types,te-types,,[RFC8776],
 ietf-template,ietf-template@2010-05-18.yang,N,urn:ietf:params:xml:ns:yang:ietf-template,temp,,[RFC6087],
 ietf-template,ietf-template@2016-03-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-template,temp,,[RFC8407],
 ietf-twamp,,N,urn:ietf:params:xml:ns:yang:ietf-twamp,twamp,,[RFC-ietf-ippm-twamp-yang-13],[RFC-ietf-ippm-twamp-yang-13]'s module file will be posted upon the document's publication as an RFC.
 ietf-voucher,ietf-voucher@2018-05-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-voucher,vch,,[RFC8366],
+ietf-voucher-request,,N,urn:ietf:params:xml:ns:yang:ietf-voucher-request,vch,,[RFC-ietf-anima-bootstrapping-keyinfra-44],[RFC-ietf-anima-bootstrapping-keyinfra-44]'s module file will be posted upon the document's publication as an RFC.
 ietf-vrrp,ietf-vrrp@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-vrrp,vrrp,,[RFC8347],
 ietf-x509-cert-to-name,ietf-x509-cert-to-name@2014-12-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name,x509c2n,,[RFC7407],
 ietf-yang-library,ietf-yang-library@2016-06-21.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC7895],
@@ -155,6 +155,6 @@ ietf-yang-patch,ietf-yang-patch@2017-02-22.yang,N,urn:ietf:params:xml:ns:yang:ie
 ietf-yang-push,ietf-yang-push@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-push,yp,,[RFC8641],
 ietf-yang-schema-mount,ietf-yang-schema-mount@2019-01-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount,yangmnt,,[RFC8528],
 ietf-yang-smiv2,ietf-yang-smiv2@2012-06-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-smiv2,smiv2,,[RFC6643],
-ietf-yang-structure-ext,,N,urn:ietf:params:xml:ns:yang:ietf-yang-structure-ext,sx,,[RFC-ietf-netmod-yang-data-ext-05],[RFC-ietf-netmod-yang-data-ext-05]'s module file will be posted upon the document's publication as an RFC.
+ietf-yang-structure-ext,ietf-yang-structure-ext@2020-06-17.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-structure-ext,sx,,[RFC8791],
 ietf-yang-types,ietf-yang-types@2010-09-24.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-types,yang,,[RFC6021],
 ietf-yang-types,ietf-yang-types@2013-07-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-types,yang,,[RFC6991],

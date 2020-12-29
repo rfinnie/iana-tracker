@@ -1,0 +1,6 @@
+Value,Name,Description,Reference
+0x00,arbitrary,Direction was assigned arbitrarily.,[RFC5103]
+0x01,initiator,"The Biflow Source is the flow initiator, as determined by the Metering Process' best effort to detect the initiator.",[RFC5103]
+0x02,reverseInitiator,"The Biflow Destination is the flow initiator, as determined by the Metering Process' best effort to detect the initiator.  This value is provided for the convenience of Exporting Processes to revise an initiator estimate without re-encoding the Biflow Record.",[RFC5103]
+0x03,perimeter,The Biflow Source is the endpoint outside of a defined perimeter.  The perimeter's definition is implicit in the set of Biflow Source and Biflow Destination addresses exported in the Biflow Records.,[RFC5103]
+0x04-0xFF,Unassigned,,

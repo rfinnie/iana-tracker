@@ -1,8 +1,6 @@
 Code,Description,Reference
 0.00,Indicates an Empty message.,"[RFC7252, section 4.1]"
-0.01-0.31,"Indicates a request.  Values in this range are assigned by the 
-      [CoAP Method Codes] sub-registry.","[RFC7252, section 12.1.1]"
+0.01-0.31,Indicates a request.  Values in this range are assigned by the [CoAP Method Codes] sub-registry.,"[RFC7252, section 12.1.1]"
 1.00-1.31,Reserved,[RFC7252]
-2.00-5.31,"Indicates a response.  Values in this range are assigned by the 
-      [CoAP Response Codes] sub-registry.","[RFC7252, section 12.1.2]"
+2.00-5.31,Indicates a response.  Values in this range are assigned by the [CoAP Response Codes] sub-registry.,"[RFC7252, section 12.1.2]"
 6.00-7.31,Reserved,[RFC7252]

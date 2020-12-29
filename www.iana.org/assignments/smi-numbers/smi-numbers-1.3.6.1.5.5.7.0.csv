@@ -73,8 +73,7 @@ Decimal,Description,References
 72,id-mod-ip-addr-and-as-ident-2,[RFC6268]
 73,id-mod-wlan-extns-2,[RFC6268]
 74,id-mod-hmac,[RFC6268]
-75,id-mod-enrollMsgSyntax-2011-88,"[RFC6402][RFC Errata 
-          3860]"
+75,id-mod-enrollMsgSyntax-2011-88,[RFC6402][RFC Errata 3860]
 76,id-mod-enrollMsgSyntax-2011-08,[RFC6402]
 77,id-mod-pubKeySMIMECaps-88,[RFC6664]
 78,id-mod-pubKeySMIMECaps-08,[RFC6664]
@@ -95,3 +94,6 @@ Decimal,Description,References
 93,id-mod-safecurves-pkix,[RFC8410]
 94,id-mod-pkix1-shakes-2019,[RFC8692]
 95,id-mod-delegated-credential-extn,[draft-ietf-tls-subcerts]
+96,id-mod-MASAURLExtn2016,[RFC-ietf-anima-bootstrapping-keyinfra-44]
+97,id-mod-anima-acpnodename-2020,[RFC-ietf-anima-autonomic-control-plane-30]
+98,id-mod-est-2019,[RFC8951]

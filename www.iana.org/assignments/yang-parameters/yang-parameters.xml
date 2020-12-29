@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2020-03-25</updated>
+  <updated>2020-12-21</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -16,6 +16,7 @@ by Rsync (rsync.iana.org::assignments/yang-parameters/) or
 FTP (ftp://ftp.iana.org/assignments/yang-parameters/).
     </note>
     <record date="2018-08-09">
+      
       <name>iana-bfd-types</name>
       <iana>Y</iana>
       <file type="yang"/>
@@ -31,6 +32,7 @@ FTP (ftp://ftp.iana.org/assignments/yang-parameters/).
         <xref type="draft" data="RFC-ietf-bfd-yang-17"/>'s publication as an RFC.</notes>
     </record>
     <record date="2014-06-03" updated="2015-11-01">
+      
       <name>iana-crypt-hash</name>
       <iana>Y</iana>
       <file type="yang">iana-crypt-hash@2014-08-06.yang</file>
@@ -42,24 +44,22 @@ FTP (ftp://ftp.iana.org/assignments/yang-parameters/).
         <xref type="rfc" data="rfc8126"/>. Expert(s): Unassigned.</notes>
     </record>
     <record date="2020-01-16">
+      
       <name>iana-dots-signal-channel</name>
       <iana>Y</iana>
-      <file type="yang"/>
+      <file type="yang">iana-dots-signal-channel@2020-05-28.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-dots-signal-channel</namespace>
       <prefix>iana-signal</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+      <xref type="rfc" data="rfc8782"/>
       <notes>Status, conflict status, conflict cause, and attack status values
 must not be directly added to the iana-dots-signal-channel YANG
 module.  They must instead be respectively added to the "DOTS
 Status Codes", "DOTS Conflict Status Codes", "DOTS Conflict Cause
-Codes", and "DOTS Attack Status Codes" registries.
-      
-Note: the initial module file will be posted upon 
-<xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>'s publication as an RFC.        
-      </notes>
+Codes", and "DOTS Attack Status Codes" registries.</notes>
     </record>
     <record date="2018-02-08">
+      
       <name>iana-hardware</name>
       <iana>Y</iana>
       <file type="yang">iana-hardware@2018-03-13.yang</file>
@@ -71,22 +71,24 @@ Note: the initial module file will be posted upon
         <xref type="uri" data="https://www.iana.org/assignments/ianaentity-mib/ianaentity-mib.xhtml">"IANA-ENTITY-MIB"</xref> MIB module so that if a new enumeration is added to
         the "IANAPhysicalClass" textual convention, the same class is added as an identity derived from "ianahw:hardware-class".</notes>
     </record>
-    <record date="2014-01-27" updated="2020-01-10">
+    <record date="2014-01-27" updated="2020-07-13">
+      
       <name>iana-if-type</name>
       <iana>Y</iana>
-      <file type="yang">iana-if-type@2020-01-10.yang</file>
+      <file type="yang">iana-if-type@2020-08-27.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-if-type</namespace>
       <prefix>ianaift</prefix>
       <module/>
       <xref type="rfc" data="rfc7224"/>
       <notes>Interface types must not be directly added to the iana-if-type YANG
-module. They must instead be added to the "ifType definitions" registry 
+   module. They must instead be added to the "Interface Types (ifType)" registry 
 at <xref type="registry" data="smi-numbers"/>.</notes>
     </record>
-    <record date="2017-10-25" updated="2019-11-04">
+    <record date="2017-10-25" updated="2020-11-19">
+      
       <name>iana-routing-types</name>
       <iana>Y</iana>
-      <file type="yang">iana-routing-types@2019-11-04.yang</file>
+      <file type="yang">iana-routing-types@2020-11-19.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-routing-types</namespace>
       <prefix>iana-rt-types</prefix>
       <module/>
@@ -97,6 +99,7 @@ instead be respectively added to the <xref type="registry" data="address-family-
 and <xref type="registry" data="safi-namespace">Subsequent Address Family Identifiers (SAFI) Parameters</xref> registries.</notes>
     </record>
     <record date="2019-06-25">
+      
       <name>iana-tunnel-type</name>
       <iana>Y</iana>
       <file type="yang">iana-tunnel-type@2019-11-16.yang</file>
@@ -106,7 +109,7 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <xref type="rfc" data="rfc8675"/>
       <notes>Tunnel type values must not be directly added to the iana-tunnel-type 
         YANG module.  They must instead be added to the
-        "tunnelType" subregistry (under the "ifType definitions"
+        "Tunnel Types (tunnelType)" subregistry (under the "Interface Types (ifType)"
         registry) at <xref type="registry" data="smi-numbers"/>.</notes>
     </record>
     <record date="2018-11-08">
@@ -302,22 +305,32 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-08-16">
       <name>ietf-dots-data-channel</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-dots-data-channel@2020-05-28.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-dots-data-channel</namespace>
       <prefix>data-channel</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-dots-data-channel-31"/>
-      <notes><xref type="draft" data="RFC-ietf-dots-data-channel-31"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8783"/>
+      <notes/>
     </record>
     <record date="2020-01-16">
       <name>ietf-dots-signal-channel</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-dots-signal-channel@2020-05-28.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-dots-signal-channel</namespace>
       <prefix>signal</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
-      <notes><xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8782"/>
+      <notes/>
+    </record>
+    <record date="2020-07-02">
+      <name>ietf-dots-signal-control</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-dots-signal-control</namespace>
+      <prefix>dots-control</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-dots-signal-filter-control-07"/>
+      <notes><xref type="draft" data="RFC-ietf-dots-signal-filter-control-07"/>'s module file will be posted upon the document's publication as an RFC.</notes>
     </record>
     <record date="2018-06-05">
       <name>ietf-dslite</name>
@@ -337,6 +350,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <prefix>ethertypes</prefix>
       <module/>
       <xref type="rfc" data="rfc8519"/>
+      <notes/>
+    </record>
+    <record date="2020-05-12">
+      <name>ietf-factory-default</name>
+      <iana>N</iana>
+      <file type="yang">ietf-factory-default@2020-08-31.yang</file>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-factory-default</namespace>
+      <prefix>fd</prefix>
+      <module/>
+      <xref type="rfc" data="rfc8808"/>
       <notes/>
     </record>
     <record date="2018-02-08">
@@ -378,6 +401,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <module/>
       <xref type="rfc" data="rfc8652"/>
       <notes/>
+    </record>
+    <record date="2020-08-26">
+      <name>ietf-igmp-mld-snooping</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-igmp-mld-snooping</namespace>
+      <prefix>ims</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-pim-igmp-mld-snooping-yang-18"/>
+      <notes><xref type="draft" data="RFC-ietf-pim-igmp-mld-snooping-yang-18"/>'s module file will be posted upon the document's publication as an RFC.</notes>
     </record>
     <record>
       <name>ietf-inet-types</name>
@@ -539,6 +572,26 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <xref type="rfc" data="rfc8177"/>
       <notes/>
     </record>
+    <record date="2020-09-23">
+      <name>ietf-l2-topology</name>
+      <iana>N</iana>
+      <file type="yang">ietf-l2-topology@2020-11-15.yang</file>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-l2-topology</namespace>
+      <prefix>l2t</prefix>
+      <module/>
+      <xref type="rfc" data="rfc8944"/>
+      <notes/>
+    </record>
+    <record date="2020-09-23">
+      <name>ietf-l2-topology-state</name>
+      <iana>N</iana>
+      <file type="yang">ietf-l2-topology-state@2020-11-15.yang</file>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-l2-topology-state</namespace>
+      <prefix>l2t-s</prefix>
+      <module/>
+      <xref type="rfc" data="rfc8944"/>
+      <notes/>
+    </record>
     <record date="2018-06-27">
       <name>ietf-l2vpn-svc</name>
       <iana>N</iana>
@@ -669,6 +722,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <xref type="draft" data="RFC-ietf-netmod-module-tags-10"/>
       <notes><xref type="draft" data="RFC-ietf-netmod-module-tags-10"/>'s module file will be posted upon the document's publication as an RFC.</notes>
     </record>
+    <record date="2020-10-29">
+      <name>ietf-mpls</name>
+      <iana>N</iana>
+      <file type="yang">ietf-mpls@2020-12-18.yang</file>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-mpls</namespace>
+      <prefix>mpls</prefix>
+      <module/>
+      <xref type="rfc" data="rfc8960"/>
+      <notes/>
+    </record>
     <record date="2020-03-23">
       <name>ietf-mpls-ldp</name>
       <iana>N</iana>
@@ -688,6 +751,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <module/>
       <xref type="draft" data="RFC-ietf-mpls-ldp-yang-09"/>
       <notes><xref type="draft" data="RFC-ietf-mpls-ldp-yang-09"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+    </record>
+    <record date="2020-04-29">
+      <name>ietf-msdp</name>
+      <iana>N</iana>
+      <file type="yang">ietf-msdp@2020-10-31.yang</file>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-msdp</namespace>
+      <prefix>msdp</prefix>
+      <module/>
+      <xref type="rfc" data="rfc8916"/>
+      <notes/>
     </record>
     <record date="2018-06-27">
       <name>ietf-mud</name>
@@ -1212,42 +1285,42 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2019-12-06">
       <name>ietf-te-packet-types</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-te-packet-types@2020-06-10.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-te-packet-types</namespace>
       <prefix>te-packet-types</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-teas-yang-te-types-13"/>
-      <notes><xref type="draft" data="RFC-ietf-teas-yang-te-types-13"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8776"/>
+      <notes/>
     </record>
     <record date="2018-07-05" updated="2019-07-22">
       <name>ietf-te-topology</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-te-topology@2020-08-06.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-te-topology</namespace>
       <prefix>tet</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-teas-yang-te-topo-22"/>
-      <notes><xref type="draft" data="RFC-ietf-teas-yang-te-topo-22"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8795"/>
+      <notes/>
     </record>
     <record date="2018-07-05" updated="2019-07-22">
       <name>ietf-te-topology-state</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-te-topology-state@2020-08-06.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-te-topology-state</namespace>
       <prefix>tet-s</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-teas-yang-te-topo-22"/>
-      <notes><xref type="draft" data="RFC-ietf-teas-yang-te-topo-22"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8795"/>
+      <notes/>
     </record>
     <record date="2019-12-06">
       <name>ietf-te-types</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-te-types@2020-06-10.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-te-types</namespace>
       <prefix>te-types</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-teas-yang-te-types-13"/>
-      <notes><xref type="draft" data="RFC-ietf-teas-yang-te-types-13"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8776"/>
+      <notes/>
     </record>
     <record>
       <name>ietf-template</name>
@@ -1288,6 +1361,16 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
       <module/>
       <xref type="rfc" data="rfc8366"/>
       <notes/>
+    </record>
+    <record date="2020-04-29">
+      <name>ietf-voucher-request</name>
+      <iana>N</iana>
+      <file type="yang"/>
+      <namespace>urn:ietf:params:xml:ns:yang:ietf-voucher-request</namespace>
+      <prefix>vch</prefix>
+      <module/>
+      <xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
+      <notes><xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>'s module file will be posted upon the document's publication as an RFC.</notes>
     </record>
     <record date="2018-01-18">
       <name>ietf-vrrp</name>
@@ -1382,12 +1465,12 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2020-01-29">
       <name>ietf-yang-structure-ext</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-yang-structure-ext@2020-06-17.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-yang-structure-ext</namespace>
       <prefix>sx</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-netmod-yang-data-ext-05"/>
-      <notes><xref type="draft" data="RFC-ietf-netmod-yang-data-ext-05"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8791"/>
+      <notes/>
     </record>
     <record>
       <name>ietf-yang-types</name>

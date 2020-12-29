@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="sip-parameters">
   <title>Session Initiation Protocol (SIP) Parameters</title>
   <created>2002-01</created>
-  <updated>2020-03-10</updated>
+  <updated>2020-11-06</updated>
   
   
   <registry id="sip-parameters-2">
@@ -58,13 +58,20 @@ Action.
       <value>Accept-Resource-Priority</value>
       <spec><xref type="rfc" data="rfc4412"/></spec>
     </record>
+    <record date="2020-10-21">
+      <value>Additional-Identity</value>
+      <spec>
+        <xref type="uri" data="https://www.3gpp.org/ftp//Specs/archive/24_series/24.229/24229-g70.zip">3GPP TS 24.229 v16.7.0</xref>
+        <xref type="person" data="Frederic_Firmin"/>
+      </spec>
+    </record>
     <record>
       <value>Alert-Info</value>
       <spec><xref type="rfc" data="rfc3261"/></spec>
     </record>
     <record date="2020-03-10">
       <value>AlertMsg-Error</value>
-      <spec><xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/></spec>
+      <spec><xref type="rfc" data="rfc8876"/></spec>
     </record>
     <record>
       <value>Allow</value>
@@ -78,6 +85,13 @@ Action.
     <record>
       <value>Answer-Mode</value>
       <spec><xref type="rfc" data="rfc5373"/></spec>
+    </record>
+    <record date="2020-10-21">
+      <value>Attestation-Info</value>
+      <spec>
+        <xref type="uri" data="https://www.3gpp.org/ftp//Specs/archive/24_series/24.229/24229-fb0.zip">3GPP TS 24.229 v15.11.0</xref>
+        <xref type="person" data="Frederic_Firmin"/>
+      </spec>
     </record>
     <record>
       <value>Authentication-Info</value>
@@ -239,6 +253,13 @@ Action.
     <record>
       <value>Organization</value>
       <spec><xref type="rfc" data="rfc3261"/></spec>
+    </record>
+    <record date="2020-10-21">
+      <value>Origination-Id</value>
+      <spec>
+        <xref type="uri" data="https://www.3gpp.org/ftp//Specs/archive/24_series/24.229/24229-fb0.zip">3GPP TS 24.229 v15.11.0</xref>
+        <xref type="person" data="Frederic_Firmin"/>
+      </spec>
     </record>
     <record>
       <value>P-Access-Network-Info</value>
@@ -464,6 +485,13 @@ Action.
       <value>Response-Key (Deprecated)</value>
       <spec><xref type="rfc" data="rfc3261"/></spec>
     </record>
+    <record date="2020-09-25">
+      <value>Response-Source</value>
+      <spec>
+        <xref type="uri" data="http://www.3gpp.org/ftp//Specs/archive/24_series/24.229/24229-fb0.zip">3GPP TS 24.229 v15.11.0</xref>
+        <xref type="person" data="Frederic_Firmin"/>
+      </spec>
+    </record>
     <record date="2017-01-04">
       <value>Restoration-Info</value>
       <spec>
@@ -498,6 +526,13 @@ Action.
     <record>
       <value>Server</value>
       <spec><xref type="rfc" data="rfc3261"/></spec>
+    </record>
+    <record date="2020-10-21">
+      <value>Service-Interact-Info</value>
+      <spec>
+        <xref type="uri" data="https://www.3gpp.org/ftp//Specs/archive/24_series/24.229/24229-di0.zip">3GPP TS 24.229 v13.18.0</xref>
+        <xref type="person" data="Frederic_Firmin"/>
+      </spec>
     </record>
     <record>
       <value>Service-Route</value>
@@ -1045,7 +1080,7 @@ field in the response, and process accordingly.</description>
     <record date="2018-07-05">
       <value>trickle-ice</value>
       <description>This option tag is used to indicate 
-        that a UA supports and understands Trickle-ICE.</description>
+		that a UA supports and understands Trickle ICE.</description>
       <xref type="draft" data="RFC-ietf-mmusic-trickle-ice-sip-18"/>
     </record>
     <record date="2014-06-12">
@@ -1402,7 +1437,7 @@ otherwise noted.
     <record date="2020-03-10">
       <value>425</value>
       <description>Bad Alert Message</description>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <xref type="rfc" data="rfc8876"/>
     </record>
     <record>
       <value>428</value>
@@ -1893,7 +1928,7 @@ History-Info header field(s)</description>
       <header_field>AlertMsg-Error</header_field>
       <value>code</value>
       <predefined>no</predefined>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <xref type="rfc" data="rfc8876"/>
     </record>
     <record>
       <header_field>Answer-Mode</header_field>
@@ -2185,7 +2220,7 @@ History-Info header field(s)</description>
       <header_field>Geolocation</header_field>
       <value>loc-src</value>
       <predefined>No</predefined>
-      <xref type="draft" data="RFC-ietf-sipcore-locparam-06"/>
+      <xref type="rfc" data="rfc8787"/>
     </record>
     <record>
       <header_field>Geolocation-Error</header_field>
@@ -2483,11 +2518,23 @@ History-Info header field(s)</description>
       <xref type="rfc" data="rfc3261"/>
       <xref type="rfc" data="rfc3310"/>
     </record>
+    <record date="2020-05-07">
+      <header_field>Proxy-Authenticate</header_field>
+      <value>authz_server</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
+    </record>
     <record>
       <header_field>Proxy-Authenticate</header_field>
       <value>domain</value>
       <predefined>No</predefined>
       <xref type="rfc" data="rfc3261"/>
+    </record>
+    <record date="2020-05-07">
+      <header_field>Proxy-Authenticate</header_field>
+      <value>error</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
     </record>
     <record>
       <header_field>Proxy-Authenticate</header_field>
@@ -2512,6 +2559,12 @@ History-Info header field(s)</description>
       <value>realm</value>
       <predefined>No</predefined>
       <xref type="rfc" data="rfc3261"/>
+    </record>
+    <record date="2020-05-07">
+      <header_field>Proxy-Authenticate</header_field>
+      <value>scope</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
     </record>
     <record>
       <header_field>Proxy-Authenticate</header_field>
@@ -2990,11 +3043,23 @@ History-Info header field(s)</description>
       <xref type="rfc" data="rfc3261"/>
       <xref type="rfc" data="rfc3310"/>
     </record>
+    <record date="2020-05-07">
+      <header_field>WWW-Authenticate</header_field>
+      <value>authz_server</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
+    </record>
     <record>
       <header_field>WWW-Authenticate</header_field>
       <value>domain</value>
       <predefined>Yes</predefined>
       <xref type="rfc" data="rfc3261"/>
+    </record>
+    <record date="2020-05-07">
+      <header_field>WWW-Authenticate</header_field>
+      <value>error</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
     </record>
     <record>
       <header_field>WWW-Authenticate</header_field>
@@ -3019,6 +3084,12 @@ History-Info header field(s)</description>
       <value>realm</value>
       <predefined>No</predefined>
       <xref type="rfc" data="rfc3261"/>
+    </record>
+    <record date="2020-05-07">
+      <header_field>WWW-Authenticate</header_field>
+      <value>scope</value>
+      <predefined>No</predefined>
+      <xref type="rfc" data="rfc8898"/>
     </record>
     <record>
       <header_field>WWW-Authenticate</header_field>
@@ -6350,28 +6421,28 @@ a User-to-User header field <xref type="rfc" data="rfc7433"/>.
   
   <registry id="sip-alertmsg-error-codes">
     <title>SIP AlertMsg-Error Codes</title>
-    <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+    <xref type="rfc" data="rfc8876"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Brian Rosen</expert>
     <record date="2020-03-10">
       <value>100</value>
-      <description>"Cannot Process the Alert Payload"</description>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <description>"Cannot process the alert payload"</description>
+      <xref type="rfc" data="rfc8876"/>
     </record>
     <record date="2020-03-10">
       <value>101</value>
-      <description>"Alert Payload was not present or could not be found"</description>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <description>"Alert payload was not present or could not be found"</description>
+      <xref type="rfc" data="rfc8876"/>
     </record>
     <record date="2020-03-10">
       <value>102</value>
       <description>"Not enough information to determine the purpose of the alert"</description>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <xref type="rfc" data="rfc8876"/>
     </record>
     <record date="2020-03-10">
       <value>103</value>
-      <description>"Alert Payload was corrupted"</description>
-      <xref type="draft" data="RFC-ietf-ecrit-data-only-ea-22"/>
+      <description>"Alert payload was corrupted"</description>
+      <xref type="rfc" data="rfc8876"/>
     </record>
   </registry>
 

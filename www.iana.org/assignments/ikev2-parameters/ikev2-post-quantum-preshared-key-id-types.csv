@@ -1,0 +1,6 @@
+Value,PPK_ID Type,Reference
+0,Reserved,[RFC8784]
+1,PPK_ID_OPAQUE,[RFC8784]
+2,PPK_ID_FIXED,[RFC8784]
+3-127,Unassigned,
+128-255,Reserved for Private Use,[RFC8784]

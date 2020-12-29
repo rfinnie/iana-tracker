@@ -1,0 +1,4 @@
+Value,Meaning,Reference
+31,D: Downstream LAG Info Accommodation,[RFC8611]
+30,U: Upstream LAG Info Accommodation,[RFC8611]
+0-29,Unassigned,

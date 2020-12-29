@@ -1,0 +1,5 @@
+PIO Option Bit,Description,Reference
+0,L - On-link Flag,[RFC4861]
+1,A - Autonomous Address Configuration Flag,[RFC4861]
+2,R - Router Address Flag,[RFC6275]
+3-7,Reserved,

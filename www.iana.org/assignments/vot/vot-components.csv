@@ -1,0 +1,5 @@
+Demarcator Symbol,Description,Change Controller,Reference
+P,Identity proofing,IESG,[RFC8485]
+C,Primary credential usage,IESG,[RFC8485]
+M,Primary credential management,IESG,[RFC8485]
+A,Assertion presentation,IESG,[RFC8485]

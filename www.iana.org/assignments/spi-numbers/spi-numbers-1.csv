@@ -1,6 +1,5 @@
 Number,Description,Reference
-0,"Reserved  - Used to indicate that no security        
-            association has been established",[RFC4302][RFC4303]
+0,Reserved  - Used to indicate that no security association has been established,[RFC4302][RFC4303]
 1,SKIP,[Tom_Markson]
 2,WESP,[RFC5840]
 3-255,Unassigned,

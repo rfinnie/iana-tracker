@@ -1,0 +1,6 @@
+MD Type,Description,Reference
+0x0,Reserved,[RFC8300]
+0x1,NSH MD Type 1,[RFC8300]
+0x2,NSH MD Type 2,[RFC8300]
+0x3-0xE,Unassigned,
+0xF,Experimentation,[RFC8300]

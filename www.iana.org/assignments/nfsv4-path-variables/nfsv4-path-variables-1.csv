@@ -1,4 +1,4 @@
 Variable Name,RFC,Point of Contact
-${ietf.org:CPU_ARCH},[RFC-ietf-nfsv4-rfc5661sesqui-msns-04],[IESG]
-${ietf.org:OS_TYPE},[RFC-ietf-nfsv4-rfc5661sesqui-msns-04],[IESG]
-${ietf.org:OS_VERSION},[RFC-ietf-nfsv4-rfc5661sesqui-msns-04],[IESG]
+${ietf.org:CPU_ARCH},[RFC8881],[IESG]
+${ietf.org:OS_TYPE},[RFC8881],[IESG]
+${ietf.org:OS_VERSION},[RFC8881],[IESG]

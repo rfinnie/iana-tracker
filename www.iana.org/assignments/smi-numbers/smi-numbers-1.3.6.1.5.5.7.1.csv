@@ -30,5 +30,4 @@ Decimal,Description,References
 29,id-pe-autonomousSysIds-v2,[RFC8360]
 30,id-pe-mudsigner,[RFC8520]
 31,id-pe-acmeIdentifier,[RFC8737]
-32,"id-pe-masa-url 
-          (TEMPORARY - registered 2019-02-20, extension registered 2020-01-23, expires 2021-02-20)",[draft-ietf-anima-bootstrapping-keyinfra]
+32,id-pe-masa-url,[RFC-ietf-anima-bootstrapping-keyinfra-44]

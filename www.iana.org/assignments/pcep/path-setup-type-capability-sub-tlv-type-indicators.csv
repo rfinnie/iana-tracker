@@ -1,0 +1,5 @@
+Value,Meaning,Reference
+0,Reserved,[RFC8664]
+1-25,Unassigned,
+26,SR-PCE-CAPABILITY,[RFC8664]
+27-65535,Unassigned,

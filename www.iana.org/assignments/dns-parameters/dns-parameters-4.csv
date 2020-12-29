@@ -62,8 +62,10 @@ CDS,59,Child DS,[RFC7344],CDS/cds-completed-template,2011-06-06
 CDNSKEY,60,DNSKEY(s) the Child wants reflected in DS,[RFC7344],,2014-06-16
 OPENPGPKEY,61,OpenPGP Key,[RFC7929],OPENPGPKEY/openpgpkey-completed-template,2014-08-12
 CSYNC,62,Child-To-Parent Synchronization,[RFC7477],,2015-01-27
-ZONEMD,63,message digest for DNS zone,[draft-wessels-dns-zone-digest],ZONEMD/zonemd-completed-template,2018-12-12
-Unassigned,64-98,,,,
+ZONEMD,63,Message Digest Over Zone Data,[RFC-ietf-dnsop-dns-zone-digest-14],ZONEMD/zonemd-completed-template,2018-12-12
+SVCB,64,Service Binding,[draft-ietf-dnsop-svcb-https-00],SVCB/svcb-completed-template,2020-06-30
+HTTPS,65,HTTPS Binding,[draft-ietf-dnsop-svcb-https-00],HTTPS/https-completed-template,2020-06-30
+Unassigned,66-98,,,,
 SPF,99,,[RFC7208],,
 UINFO,100,,[IANA-Reserved],,
 UID,101,,[IANA-Reserved],,
@@ -77,7 +79,7 @@ EUI48,108,an EUI-48 address,[RFC7043],EUI48/eui48-completed-template,2013-03-27
 EUI64,109,an EUI-64 address,[RFC7043],EUI64/eui64-completed-template,2013-03-27
 Unassigned,110-248,,,,
 TKEY,249,Transaction Key,[RFC2930],,
-TSIG,250,Transaction Signature,[RFC2845],,
+TSIG,250,Transaction Signature,[RFC8945],,
 IXFR,251,incremental transfer,[RFC1995],,
 AXFR,252,transfer of an entire zone,[RFC1035][RFC5936],,
 MAILB,253,"mailbox-related RRs (MB, MG or MR)",[RFC1035],,
@@ -87,7 +89,7 @@ URI,256,URI,[RFC7553],URI/uri-completed-template,2011-02-22
 CAA,257,Certification Authority Restriction,[RFC8659],CAA/caa-completed-template,2011-04-07
 AVC,258,Application Visibility and Control,[Wolfgang_Riedel],AVC/avc-completed-template,2016-02-26
 DOA,259,Digital Object Architecture,[draft-durand-doa-over-dns],DOA/doa-completed-template,2017-08-30
-AMTRELAY,260,Automatic Multicast Tunneling Relay,[RFC-ietf-mboned-driad-amt-discovery-13],AMTRELAY/amtrelay-completed-template,2019-02-06
+AMTRELAY,260,Automatic Multicast Tunneling Relay,[RFC8777],AMTRELAY/amtrelay-completed-template,2019-02-06
 Unassigned,261-32767,,,,
 TA,32768,DNSSEC Trust Authorities,"[Sam_Weiler][http://cameo.library.cmu.edu/][
         Deploying DNSSEC Without a Signed Root.  Technical Report 1999-19,

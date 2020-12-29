@@ -5,6 +5,7 @@ Type,Description,Reference
 3,"Remote system closed, NOTIFICATION PDU follows",[RFC7854]
 4,"Remote system closed, no data",[RFC7854]
 5,Peer de-configured,[RFC7854]
-6-65530,Unassigned,
+6,"Local system closed, TLV data follows (TEMPORARY - registered 2020-11-30, expires 2021-11-30)",[draft-ietf-grow-bmp-local-rib-08]
+7-65530,Unassigned,
 65531-65534,Experimental,[RFC7854]
 65535,Reserved,[RFC7854]

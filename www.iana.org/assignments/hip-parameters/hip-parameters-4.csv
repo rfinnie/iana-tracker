@@ -66,7 +66,17 @@ Value,Parameter Type,Length,Reference
 4592,OVERLAY_ID,variable,[RFC6079]
 4593-4600,Unassigned,,
 4601,ROUTE_DST,variable,[RFC6028]
-4602-7679,Unassigned,,
+4602-4649,Unassigned,,
+4650,RELAYED_ADDRESS,20,[RFC-ietf-hip-native-nat-traversal-33]
+4651-4659,Unassigned,,
+4660,MAPPED_ADDRESS,20,[RFC-ietf-hip-native-nat-traversal-33]
+4661-4679,Unassigned,,
+4680,PEER_PERMISSION,48,[RFC-ietf-hip-native-nat-traversal-33]
+4681-4699,Unassigned,,
+4700,CANDIDATE_PRIORITY,4,[RFC-ietf-hip-native-nat-traversal-33]
+4701-4709,Unassigned,,
+4710,NOMINATE,4,[RFC-ietf-hip-native-nat-traversal-33]
+4711-7679,Unassigned,,
 7680,HIP_TRANSPORT_MODE,variable,[RFC6261]
 7681-32767,Unassigned,,
 32768-49151,Reserved for Private Use,,[RFC7401]

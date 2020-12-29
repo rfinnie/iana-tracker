@@ -42,8 +42,7 @@ removed,status,"Some of the information of the object instance
            has not been made available and has been removed.  This is
            most commonly applied to entities.",[IESG],[RFC7483]
 obscured,status,"Some of the information of the object instance
-           has been altered for the purposes of not readily revealing 
-           the actual information of the object instance.  This is most
+           has been altered for the purposes of not readily revealing the actual information of the object instance.  This is most
            commonly applied to entities.",[IESG],[RFC7483]
 associated,status,"The object instance is associated with other
            object instances in the registry.  This is most commonly used
@@ -85,8 +84,7 @@ auto renew period,status,"This grace period is provided after an object
         by the server.  If the object is deleted by the client during this
         period, the server provides a credit to the client for the cost of
         the auto renewal.  This maps to the Domain Registry Grace Period
-        Mapping for the Extensible Provisioning Protocol (EPP) [RFC3915] 
-        'autoRenewPeriod' status.",[IESG],[RFC8056]
+        Mapping for the Extensible Provisioning Protocol (EPP) [RFC3915] 'autoRenewPeriod' status.",[IESG],[RFC8056]
 client delete prohibited,status,"The client requested that requests to delete the object
         MUST be rejected.  This maps to the Extensible Provisioning Protocol
         (EPP) Domain Name Mapping [RFC5731], Extensible Provisioning Protocol
@@ -213,8 +211,6 @@ instance in the RDAP database was last synchronized from the
 authoritative database (e.g. registry database).",[ICANN],
 registrar expiration,event action,"An action noting the expiration date of the object in
 the registrar system.",[ICANN],
-enum validation expiration,event action,"Association of phone number represented by this ENUM domain 
-        to registrant has expired or will expire at a pre-determined date and 
-        time.",[CZ.NIC_z._s._p._o.],
+enum validation expiration,event action,Association of phone number represented by this ENUM domain to registrant has expired or will expire at a pre-determined date and time.,[CZ.NIC_z._s._p._o.],
 object redacted due to authorization,notice and remark type,"The object contains redacted data due to lack of 
 authorization.",[ICANN],

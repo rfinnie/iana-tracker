@@ -4,7 +4,7 @@
            2015-01-23
 
    Last Updated
-           2019-03-13
+           2020-11-02
 
    Available Formats
            [IMG]
@@ -32,10 +32,16 @@ JSON Web Signature and Encryption Header Parameters
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7515]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7515].
+
 
    Available Formats
            [IMG]
@@ -89,10 +95,16 @@ JSON Web Signature and Encryption Algorithms
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7518]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7518].
+
 
    Available Formats
            [IMG]
@@ -192,6 +204,8 @@ A192CTR            AES CTR using 192 bit    JWK         Prohibited     [W3C_Web_
 A256CTR            AES CTR using 256 bit    JWK         Prohibited     [W3C_Web_Cryptography_Working_Group] [https://www.w3.org/TR/WebCryptoAPI] [draft-irtf-cfrg-webcrypto-algorithms]
                    key
 HS1                HMAC using SHA-1         JWK         Prohibited     [W3C_Web_Cryptography_Working_Group] [https://www.w3.org/TR/WebCryptoAPI] [draft-irtf-cfrg-webcrypto-algorithms]
+ES256K             ECDSA using secp256k1    alg         Optional       [IESG]                               [RFC8812, Section 3.2]               [SEC2]
+                   curve and SHA-256
 
 JSON Web Encryption Compression Algorithms
 
@@ -201,10 +215,16 @@ JSON Web Encryption Compression Algorithms
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7518]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7518].
+
 
    Available Formats
            [IMG]
@@ -221,10 +241,16 @@ JSON Web Key Types
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7518][RFC7638]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7518].
+
 
    Available Formats
            [IMG]
@@ -244,10 +270,16 @@ JSON Web Key Elliptic Curve
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7518][RFC7638]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7518].
+
 
    Available Formats
            [IMG]
@@ -261,6 +293,7 @@ JSON Web Key Elliptic Curve
    Ed448      Ed448 signature algorithm key pairs   Optional                         [IESG]            [RFC8037, Section 3.1]
    X25519     X25519 function key pairs             Optional                         [IESG]            [RFC8037, Section 3.2]
    X448       X448 function key pairs               Optional                         [IESG]            [RFC8037, Section 3.2]
+   secp256k1  SECG secp256k1 curve                  Optional                         [IESG]            [RFC8812, Section 3.1]
 
 JSON Web Key Parameters
 
@@ -270,10 +303,16 @@ JSON Web Key Parameters
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7517][RFC7638]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7517].
+
 
    Available Formats
            [IMG]
@@ -323,10 +362,16 @@ JSON Web Key Use
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7517]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7517].
+
 
    Available Formats
            [IMG]
@@ -344,10 +389,16 @@ JSON Web Key Operations
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7517]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+ described in [RFC7517].
+
 
    Available Formats
            [IMG]
@@ -371,10 +422,16 @@ JSON Web Key Set Parameters
 
    Expert(s)
 
- Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner
+ Jeff Hodges, Joe Hildebrand, Sean Turner
 
    Reference
            [RFC7517]
+
+   Note
+
+ Registration requests should be sent to the mailing list
+  described in [RFC7517].
+
 
    Available Formats
            [IMG]
@@ -383,7 +440,7 @@ JSON Web Key Set Parameters
    Parameter Name Parameter Description Change Controller       Reference
         keys      Array of JWK Values   [IESG]            [RFC7517, Section 5.1]
 
-                                                                        People
+                                                                 Contact Information
 
                     ID                                 Name                    Contact URI      Last Updated
    [IESG]                               IESG                               mailto:iesg&ietf.org

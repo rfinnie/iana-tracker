@@ -4,7 +4,7 @@
            2005-08-23
 
    Last Updated
-           2020-04-07
+           2020-12-04
 
    Available Formats
            [IMG]
@@ -641,16 +641,17 @@ TLS ContentType
            [IMG]
            CSV
 
-   Value                             Description                            DTLS-OK              Reference
-    0-19  Unassigned (Requires coordination; see [RFC7983])                         [RFC5764][RFC7983]
-     20   change_cipher_spec                                                Y       [RFC8446]
-     21   alert                                                             Y       [RFC8446]
-     22   handshake                                                         Y       [RFC8446]
-     23   application_data                                                  Y       [RFC8446]
-     24   heartbeat                                                         Y       [RFC6520]
-     25   tls12_cid (TEMPORARY - registered 2019-07-02, expires 2020-07-02) Y       [draft-ietf-tls-dtls-connection-id]
+   Value                                           Description                                          DTLS-OK              Reference
+    0-19  Unassigned (Requires coordination; see [RFC7983])                                                     [RFC5764][RFC7983]
+     20   change_cipher_spec                                                                            Y       [RFC8446]
+     21   alert                                                                                         Y       [RFC8446]
+     22   handshake                                                                                     Y       [RFC8446]
+     23   application_data                                                                              Y       [RFC8446]
+     24   heartbeat                                                                                     Y       [RFC6520]
+     25   tls12_cid (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires        Y       [draft-ietf-tls-dtls-connection-id]
+          2021-07-02)
    26-63  Unassigned
-   64-255 Unassigned (Requires coordination; see [RFC7983])                         [RFC5764][RFC7983]
+   64-255 Unassigned (Requires coordination; see [RFC7983])                                                     [RFC5764][RFC7983]
 
 TLS Alerts
 
@@ -727,35 +728,36 @@ TLS HandshakeType
            [IMG]
            CSV
 
-   Value            Description            DTLS-OK                 Reference                                        Comment
-     0    hello_request_RESERVED           Y       [RFC8446]                                 Used in TLS versions prior to 1.3.
-     1    client_hello                     Y       [RFC8446]
-     2    server_hello                     Y       [RFC8446]
-     3    hello_verify_request_RESERVED    Y       [RFC6347][RFC8446]                        Assigned for interim draft, but the functionality was
-                                                                                             moved to a different message.
-     4    new_session_ticket (renamed from Y       [RFC4507][RFC8446][RFC8447]
-          "NewSessionTicket")
-     5    end_of_early_data                Y       [RFC8446]
-     6    hello_retry_request_RESERVED     Y       [RFC8446]                                 Assigned for interim draft, but the functionality was
-                                                                                             moved to an extension.
+   Value                      Description                      DTLS-OK            Reference                               Comment
+     0    hello_request_RESERVED                               Y       [RFC8446]                        Used in TLS versions prior to 1.3.
+     1    client_hello                                         Y       [RFC8446]
+     2    server_hello                                         Y       [RFC8446]
+                                                                                                        Assigned for interim draft, but the
+     3    hello_verify_request_RESERVED                        Y       [RFC6347][RFC8446]               functionality was moved to a different
+                                                                                                        message.
+     4    new_session_ticket (renamed from "NewSessionTicket") Y       [RFC4507][RFC8446][RFC8447]
+     5    end_of_early_data                                    Y       [RFC8446]
+     6    hello_retry_request_RESERVED                         Y       [RFC8446]                        Assigned for interim draft, but the
+                                                                                                        functionality was moved to an extension.
      7    Unassigned
-     8    encrypted_extensions             Y       [RFC8446]
+     8    encrypted_extensions                                 Y       [RFC8446]
     9-10  Unassigned
-     11   certificate                      Y       [RFC8446]
-     12   server_key_exchange_RESERVED     Y       [RFC8446]                                 Used in TLS versions prior to 1.3.
-     13   certificate_request              Y       [RFC8446]
-     14   server_hello_done_RESERVED       Y       [RFC8446]                                 Used in TLS versions prior to 1.3.
-     15   certificate_verify               Y       [RFC8446]
-     16   client_key_exchange_RESERVED     Y       [RFC8446]                                 Used in TLS versions prior to 1.3.
+     11   certificate                                          Y       [RFC8446]
+     12   server_key_exchange_RESERVED                         Y       [RFC8446]                        Used in TLS versions prior to 1.3.
+     13   certificate_request                                  Y       [RFC8446]
+     14   server_hello_done_RESERVED                           Y       [RFC8446]                        Used in TLS versions prior to 1.3.
+     15   certificate_verify                                   Y       [RFC8446]
+     16   client_key_exchange_RESERVED                         Y       [RFC8446]                        Used in TLS versions prior to 1.3.
    17-19  Unassigned
-     20   finished                         Y       [RFC8446]
-     21   certificate_url_RESERVED         Y       [RFC6066][RFC8446]                        Used in TLS versions prior to 1.3.
-     22   certificate_status_RESERVED      Y       [RFC6066][RFC8446]                        Used in TLS versions prior to 1.3.
-     23   supplemental_data_RESERVED       Y       [RFC4680][RFC8446]                        Used in TLS versions prior to 1.3.
-     24   key_update                       Y       [RFC8446]
-     25   compressed_certificate           Y       [RFC-ietf-tls-certificate-compression-09]
-   26-253 Unassigned
-    254   message_hash                     Y       [RFC8446]
+     20   finished                                             Y       [RFC8446]
+     21   certificate_url_RESERVED                             Y       [RFC6066][RFC8446]               Used in TLS versions prior to 1.3.
+     22   certificate_status_RESERVED                          Y       [RFC6066][RFC8446]               Used in TLS versions prior to 1.3.
+     23   supplemental_data_RESERVED                           Y       [RFC4680][RFC8446]               Used in TLS versions prior to 1.3.
+     24   key_update                                           Y       [RFC8446]
+     25   compressed_certificate                               Y       [RFC8879]
+     26   ekt_key                                              Y       [RFC-ietf-perc-srtp-ekt-diet-13]
+   27-253 Unassigned
+    254   message_hash                                         Y       [RFC8446]
     255   Unassigned
 
 TLS Supported Groups
@@ -1209,7 +1211,8 @@ TLS Exporter Labels
    EXPORTER-oneM2M-ESCertKE        Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
    EXPORTER-Token-Binding          Y       Y           [RFC8471]
    EXPORTER-BBF-Dying-Gasp         N       N           [TR-301 Issue 2 Amendment 1]
-   EXPORTER-network-time-security  Y       Y           [RFC-ietf-ntp-using-nts-for-ntp-28, Section 4.3]
+   EXPORTER-network-time-security  Y       Y           [RFC8915, Section 4.3]
+   EXPORTER_3GPP_N32_MASTER        N       N           [3GPP TS 33.501]
 
 TLS Authorization Data Formats
 
@@ -1941,7 +1944,7 @@ TLS PskKeyExchangeMode
     2-253  Unassigned
    254-255 Reserved for Private Use             [RFC8446]
 
-                                                                        People
+                                                                 Contact Information
 
                ID                        Name                          Contact URI               Last Updated
    [Miguel_Angel_Reina_Ortega] Miguel Angel Reina Ortega mailto:MiguelAngel.ReinaOrtega&etsi.org 2018-02-16

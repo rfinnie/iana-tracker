@@ -1,9 +1,6 @@
 Datum,Datum Field Description,Reference
 0,Reserved,[RFC6225]
 1,Vertical datum WGS 84 defined by EPSG CRS Code 4327,[RFC6225]
-2,"Vertical datum NAD83 defined by EPSG CRS Code 4269 
-          with North American Vertical Datum of 1988 (NAVD88)",[RFC6225]
-3,"Vertical datum NAD83 defined by EPSG 
-          CRS Code 4269 with Mean Lower Low Water 
-          (MLLW) as associated vertical datum",[RFC6225]
+2,Vertical datum NAD83 defined by EPSG CRS Code 4269 with North American Vertical Datum of 1988 (NAVD88),[RFC6225]
+3,Vertical datum NAD83 defined by EPSG CRS Code 4269 with Mean Lower Low Water (MLLW) as associated vertical datum,[RFC6225]
 4-7,Unassigned,

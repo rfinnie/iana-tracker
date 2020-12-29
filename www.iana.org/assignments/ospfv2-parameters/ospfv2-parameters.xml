@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ospfv2-parameters">
   <title>Open Shortest Path First v2 (OSPFv2) Parameters</title>
   <created>2007-04-25</created>
-  <updated>2019-12-23</updated>
+  <updated>2020-11-09</updated>
   <note>Please also see: 
     <xref type="uri" data="http://www.iana.org/assignments/ospf-authentication-codes"/>
     <xref type="uri" data="http://www.iana.org/assignments/bandwidth-constraints-model-ids"/>
@@ -273,7 +273,7 @@
     <record date="2019-12-23">
       <value>0x80</value>
       <description>Host (H-bit)</description>
-      <xref type="draft" data="RFC-ietf-ospf-ospfv2-hbit-12"/>
+      <xref type="rfc" data="rfc8770"/>
     </record>
   </registry>
 
@@ -422,8 +422,13 @@
       <description>Stateful PCE Initiation with P2MP</description>
       <xref type="rfc" data="rfc8623"/>
     </record>
+    <record date="2020-11-09">
+      <value>16</value>
+      <description>FlowSpec</description>
+      <xref type="draft" data="RFC-ietf-pce-pcep-flowspec-12"/>
+    </record>
     <record>
-      <value>16-31</value>
+      <value>17-31</value>
       <description>Unassigned</description>
     </record>
   </registry>
@@ -515,13 +520,13 @@
     <record date="2019-10-03">
       <value>3</value>
       <description>Flex-Algorithm Prefix Metric 
-      (TEMPORARY - registered 2019-10-03, expires 2020-10-03)</description>
+      (TEMPORARY - registered 2019-10-03, extension registered 2020-08-12, expires 2021-10-03)</description>
       <xref type="draft" data="draft-ietf-lsr-flex-algo"/>
     </record>
     <record date="2019-11-05">
       <value>4</value>
       <description>Prefix Source Router-ID 
-        (TEMPORARY - registered 2019-11-05, expires 2020-11-05)</description>
+        (TEMPORARY - registered 2019-11-05, extension registered 2020-09-16, expires 2021-11-05)</description>
       <xref type="draft" data="draft-ietf-lsr-ospf-prefix-originator"/>
     </record>
     <record>
@@ -569,11 +574,10 @@
       <description>N</description>
       <xref type="rfc" data="rfc7684"/>
     </record>
-    <record date="2019-08-26">
+    <record date="2019-08-26" updated="2020-06-05">
       <value>0x20</value>
-      <description>ELC-flag 
-        (TEMPORARY - registered 2019-08-26, expires 2020-08-26)</description>
-      <xref type="draft" data="draft-ietf-ospf-mpls-elc"/>
+      <description>E-Flag (ELC Flag)</description>
+      <xref type="draft" data="RFC-ietf-ospf-mpls-elc-15"/>
     </record>
     </registry>
   
@@ -661,89 +665,76 @@
       <description>Local/Remote Interface ID Sub-TLV</description>
       <xref type="rfc" data="rfc8379"/>
     </record>
-    <record date="2018-06-06">
+    <record date="2018-06-06" updated="2020-07-06">
       <value>10</value>
-      <description>Extended Link Attribute 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Application-Specific Link Attributes</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>11</value>
-      <description>Shared Risk Link Group 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Shared Risk Link Group</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>12</value>
-      <description>Unidirectional Link Delay 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Link Delay</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>13</value>
-      <description>Min/Max Unidirectional Link Delay 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Min/Max Unidirectional Link Delay</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>14</value>
-      <description>Unidirectional Delay Variation 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Delay Variation</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>15</value>
-      <description>Unidirectional Link Loss 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Link Loss</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>16</value>
-      <description>Unidirectional Residual Bandwidth 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Residual Bandwidth</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>17</value>
-      <description>Unidirectional Available Bandwidth 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Available Bandwidth</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>18</value>
-      <description>Unidirectional Utilized Bandwidth 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Unidirectional Utilized Bandwidth</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>19</value>
-      <description>Administrative Group 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Administrative Group</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2018-06-06">
       <value>20</value>
-      <description>Extended Administrative Group 
-        (TEMPORARY - registered 2018-06-06, extension registered 2019-06-12, expires 2020-06-06)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Extended Administrative Group</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record date="2019-07-31">
       <value>21</value>
       <description>OSPFv2 Link Attributes Bits Sub-TLV 
-        (TEMPORARY - registered 2019-07-31, expires 2020-07-31)</description>
+        (TEMPORARY - registered 2019-07-31, extension registered 2020-06-19, expires 2021-07-31)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
-    <record date="2019-09-20">
+    <record date="2019-09-20" updated="2020-07-06">
       <value>22</value>
-      <description>Traffic Engineering Metric 
-        (TEMPORARY - registered 2019-09-20, expires 2020-09-20)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>TE Metric</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
-	<record date="2019-09-20">
+    <record date="2019-09-20" updated="2020-10-14">
       <value>23</value>
-      <description>Maximum Link Bandwidth 
-      (TEMPORARY - registered 2019-09-20, expires 2020-09-20)</description>
-      <xref type="draft" data="draft-ietf-ospf-te-link-attr-reuse"/>
+      <description>Maximum link bandwidth</description>
+      <xref type="rfc" data="rfc8920"/>
     </record>
     <record>
       <value>24-32767</value>

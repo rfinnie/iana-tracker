@@ -1,0 +1,5 @@
+Bit,Name,Reference
+0,H-flag,[RFC8801]
+1,L-flag,[RFC8801]
+2,R-flag,[RFC8801]
+3-11,Unassigned,

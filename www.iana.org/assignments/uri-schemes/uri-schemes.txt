@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2020-04-07
+           2020-12-15
 
    Available Formats
            [IMG]
@@ -68,6 +68,7 @@ bitcoincash                          prov/bitcoincash                          b
 blob                                 prov/blob                                 blob                                 Provisional -          [W3C_WebApps_Working_Group][Chris_Rebert]
 bolo                                 prov/bolo                                 bolo                                 Provisional -          [Dave_Thaler]
 browserext                           prov/browserext                           browserext                           Provisional -          [Mike_Pietraszak]
+cabal                                prov/cabal                                cabal                                Provisional -          [Frédéric_Wang][Cabal_Club]
 calculator                           prov/calculator                           calculator                           Provisional -          [urischemeowners_at_microsoft.com]
 callto                               prov/callto                               callto                               Provisional -          [Alexey_Melnikov]
 cap                                                                            Calendar Access Protocol             Permanent   -          [RFC4324]
@@ -89,6 +90,7 @@ crid                                                                           T
                                                                                Identifier
 cvs                                  prov/cvs                                  cvs                                  Provisional -          [Dave_Thaler]
 dab                                  prov/dab                                  dab                                  Provisional -          [RadioDNS_Project]
+dat                                  prov/dat                                  dat                                  Provisional -          [Frédéric_Wang][Paul_Frazee]
 data                                                                           data                                 Permanent   -          [RFC2397]
 dav                                                                            dav                                  Permanent   -          [RFC4918]
 diaspora                             prov/diaspora                             diaspora                             Provisional -          [Dennis_Schubert]
@@ -99,14 +101,18 @@ dlna-playcontainer                   prov/dlna-playcontainer                   d
 dlna-playsingle                      prov/dlna-playsingle                      dlna-playsingle                      Provisional -          [DLNA]
 dns                                                                            Domain Name System                   Permanent   -          [RFC4501]
 dntp                                 prov/dntp                                 dntp                                 Provisional -          [Hans-Dieter_A._Hiep]
+doi                                  prov/doi                                  doi                                  Provisional -          [Frédéric_Wang][International_DOI_Foundation]
 dpp                                  prov/dpp                                  dpp                                  Provisional -          [Gaurav_Jain][Wi-Fi_Alliance]
 drm                                  prov/drm                                  drm                                  Provisional -          [RadioDNS_Project]
 drop                                 prov/drop                                 drop                                 Provisional -          [Tim_McSweeney]
 dtmi                                 prov/dtmi                                 dtmi                                 Provisional -          [urischemeowners_at_microsoft.com]
 dtn                                                                            DTNRG research and development       Provisional -          [RFC5050]
 dvb                                                                            dvb                                  Provisional -          [draft-mcroberts-uri-dvb]
+dweb                                 prov/dweb                                 dweb                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
 ed2k                                 prov/ed2k                                 ed2k                                 Provisional -          [Dave_Thaler]
 elsi                                 prov/elsi                                 elsi                                 Provisional -          [Kimmo_Lindholm]
+ens                                  prov/ens                                  ens                                  Provisional -          [Ricky_Bloomfield][Bradley_Nelson]
+ethereum                             prov/ethereum                             ethereum                             Provisional -          [Frédéric_Wang][ligi]
 example                                                                        example                              Permanent   -          [RFC7595]
 facetime                             prov/facetime                             facetime                             Provisional -          [Dave_Thaler]
 fax                                                                            fax                                  Historical  -          [RFC2806][RFC3966]
@@ -132,11 +138,12 @@ h323                                                                           H
 ham                                                                            ham                                  Provisional -          [RFC7046]
 hcap                                 prov/hcap                                 hcap                                 Provisional -          [urischemeowners_at_microsoft.com]
 hcp                                  prov/hcp                                  hcp                                  Provisional -          [Alexey_Melnikov]
-http                                                                           Hypertext Transfer Protocol          Permanent   [RFC8615]  [RFC8615]
-https                                                                          Hypertext Transfer Protocol Secure   Permanent   [RFC8615]  [RFC8615]
+http                                                                           Hypertext Transfer Protocol          Permanent   [RFC8615]  [RFC7230, Section 2.7.1]
+https                                                                          Hypertext Transfer Protocol Secure   Permanent   [RFC8615]  [RFC7230, Section 2.7.2]
 hxxp                                 prov/hxxp                                 hxxp                                 Provisional -          [draft-salgado-hxxp]
 hxxps                                prov/hxxps                                hxxps                                Provisional -          [draft-salgado-hxxp]
 hydrazone                                                                      hydrazone                            Provisional -          [Matthias_Merkel][https://tech.hydrazone.pro/uri/specification/hydrazone.txt]
+hyper                                prov/hyper                                hyper                                Provisional -          [Frédéric_Wang][Paul_Frazee]
 iax                                                                            Inter-Asterisk eXchange Version 2    Permanent   -          [RFC5456]
 icap                                                                           Internet Content Adaptation Protocol Permanent   -          [RFC3507]
 icon                                                                           icon                                 Provisional -          [draft-lafayette-icon-uri-scheme]
@@ -150,7 +157,9 @@ info                                                                           r
                                                                                accessed from
                                                                                [http://info-uri.info/].
 iotdisco                             prov/iotdisco                             iotdisco                             Provisional -          [Peter_Waher][http://www.iana.org/assignments/uri-schemes/prov/iotdisco.pdf]
+ipfs                                 prov/ipfs                                 ipfs                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
 ipn                                                                            ipn                                  Provisional -          [RFC6260]
+ipns                                 prov/ipns                                 ipns                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
 ipp                                                                            Internet Printing Protocol           Permanent   -          [RFC3510]
 ipps                                                                           Internet Printing Protocol over      Permanent   -          [RFC7472]
                                                                                HTTPS
@@ -170,6 +179,7 @@ jar                                  prov/jar                                  j
 jms                                                                            Java Message Service                 Provisional -          [RFC6167]
 keyparc                              prov/keyparc                              keyparc                              Provisional -          [Dave_Thaler]
 lastfm                               prov/lastfm                               lastfm                               Provisional -          [Dave_Thaler]
+lbry                                 prov/lbry                                 lbry                                 Provisional -          [Alex_Grintsvayg]
 ldap                                                                           Lightweight Directory Access         Permanent   -          [RFC4516]
                                                                                Protocol
 ldaps                                prov/ldaps                                ldaps                                Provisional -          [Dave_Thaler]
@@ -182,6 +192,7 @@ mailserver                                                                     A
 mailto                                                                         Electronic mail address              Permanent   -          [RFC6068]
 maps                                 prov/maps                                 maps                                 Provisional -          [Dave_Thaler]
 market                               prov/market                               market                               Provisional -          [Dave_Thaler]
+matrix                               prov/matrix                               matrix                               Provisional -          [Hubert_Chathi]
 message                              prov/message                              message                              Provisional -          [Dave_Thaler]
 microsoft.windows.camera             prov/microsoft.windows.camera             microsoft.windows.camera             Provisional -          [urischemeowners_at_microsoft.com]
 microsoft.windows.camera.multipicker prov/microsoft.windows.camera.multipicker microsoft.windows.camera.multipicker Provisional -          [urischemeowners_at_microsoft.com]
@@ -252,7 +263,7 @@ ms-whiteboard-cmd                    prov/ms-whiteboard-cmd                    m
 ms-word                              prov/ms-word                              ms-word                              Provisional -          [urischemeowners_at_microsoft.com]
 msnim                                prov/msnim                                msnim                                Provisional -          [Alexey_Melnikov]
 msrp                                                                           Message Session Relay Protocol       Permanent   -          [RFC4975]
-msrps                                                                          Message Session Relay Protocol       Permanent   -          [RFC4975]
+msrps                                                                          Message Session Relay Protocol       Permanent   -          [RFC4975][RFC-ietf-mmusic-msrp-usage-data-channel-23]
                                                                                Secure
 mss                                  prov/mss                                  mss                                  Provisional -          [Jarmo_Miettinen]
 mtqp                                                                           Message Tracking Query Protocol      Permanent   -          [RFC3887]
@@ -265,17 +276,19 @@ ni                                                                             n
 nih                                                                            nih                                  Permanent   -          [RFC6920]
 nntp                                                                           USENET news using NNTP access        Permanent   -          [RFC5538]
 notes                                prov/notes                                notes                                Provisional -          [Dave_Thaler]
+num                                  prov/num                                  Namespace Utility Modules            Provisional -          [Elliott_Brown][https://www.numprotocol.com/specification]
 ocf                                  prov/ocf                                  ocf                                  Provisional -          [Dave_Thaler]
 oid                                  prov/oid                                  oid                                  Provisional -          [draft-larmouth-oid-iri]
 onenote                              prov/onenote                              onenote                              Provisional -          [urischemeowners_at_microsoft.com]
 onenote-cmd                          prov/onenote-cmd                          onenote-cmd                          Provisional -          [urischemeowners_at_microsoft.com]
 opaquelocktoken                                                                opaquelocktokent                     Permanent   -          [RFC4918]
 openpgp4fpr                          prov/openpgp4fpr                          openpgp4fpr                          Provisional -          [Wiktor_Kwapisiewicz]
+otpauth                              prov/otpauth                              otpauth                              Provisional -          [Frédéric_Wang][Thomas_Habets]
 pack                                 historic/pack                             pack                                 Historical  -          [draft-shur-pack-uri-scheme]
 palm                                 prov/palm                                 palm                                 Provisional -          [Dave_Thaler]
 paparazzi                            prov/paparazzi                            paparazzi                            Provisional -          [Dave_Thaler]
 payment                              prov/payment                              payment                              Provisional -          [Arild_Hegvik][https://bitcoincheque.org]
-payto                                prov/payto                                payto                                Provisional -          [draft-dold-payto]
+payto                                prov/payto                                payto                                Provisional -          [RFC8905]
 pkcs11                                                                         PKCS#11                              Permanent   -          [RFC7512]
 platform                             prov/platform                             platform                             Provisional -          [Dave_Thaler]
 pop                                                                            Post Office Protocol v3              Permanent   -          [RFC2384]
@@ -303,6 +316,7 @@ rtsps                                                                          R
 rtspu                                                                          Real-Time Streaming Protocol (RTSP)  Permanent   -          [RFC2326]
                                                                                over unreliable datagram transport
 secondlife                           prov/secondlife                           query                                Provisional -          [Dave_Thaler]
+secret-token                         prov/secret-token                         secret-token                         Provisional -          [RFC-nottingham-how-did-that-get-into-the-repo-02]
 service                                                                        service location                     Permanent   -          [RFC2609]
 session                                                                        session                              Permanent   -          [RFC6787]
 sftp                                 prov/sftp                                 query                                Provisional -          [Dave_Thaler]
@@ -323,11 +337,13 @@ soap.beeps                                                                     s
 soldat                               prov/soldat                               soldat                               Provisional -          [Dave_Thaler]
 spiffe                               prov/spiffe                               spiffe                               Provisional -          [Evan_Gilman]
 spotify                              prov/spotify                              spotify                              Provisional -          [Dave_Thaler]
+ssb                                  prov/ssb                                  ssb                                  Provisional -          [Frédéric_Wang][Secure_Scuttlebutt_Consortium]
 ssh                                  prov/ssh                                  ssh                                  Provisional -          [Dave_Thaler]
 steam                                prov/steam                                steam                                Provisional -          [Dave_Thaler]
 stun                                                                           stun                                 Permanent   -          [RFC7064]
 stuns                                                                          stuns                                Permanent   -          [RFC7064]
 submit                               prov/submit                               submit                               Provisional -          [draft-melnikov-smime-msa-to-mda]
+swh                                  prov/swh                                  swh                                  Provisional -          [Software_Heritage][Stefano_Zacchiroli]
 svn                                  prov/svn                                  svn                                  Provisional -          [Dave_Thaler]
 tag                                                                            tag                                  Permanent   -          [RFC4151]
 teamspeak                            prov/teamspeak                            teamspeak                            Provisional -          [Dave_Thaler]
@@ -346,6 +362,7 @@ turns                                                                          t
 tv                                                                             TV Broadcasts                        Permanent   -          [RFC2838]
 udp                                  prov/udp                                  udp                                  Provisional -          [Dave_Thaler]
 unreal                               prov/unreal                               unreal                               Provisional -          [Dave_Thaler]
+upt                                  prov/upt                                  upt                                  Provisional -          [Tim_McSweeney]
 urn                                                                            Uniform Resource Names               Permanent   -          [RFC8141][IANA registry urn-namespaces]
 ut2004                               prov/ut2004                               ut2004                               Provisional -          [Dave_Thaler]
 v-event                              prov/v-event                              v-event                              Provisional -          [draft-menderico-v-event-uri]
@@ -354,8 +371,13 @@ ventrilo                             prov/ventrilo                             v
 videotex                             historic/videotex                         videotex                             Historical  -          [draft-mavrakis-videotex-url-spec][RFC2122][RFC3986]
 vnc                                                                            Remote Framebuffer Protocol          Permanent   -          [RFC7869]
 view-source                          prov/view-source                          view-source                          Provisional -          [Mykyta_Yevstifeyev]
+vscode                               prov/vscode                               vscode                               Provisional -          [urischemeowners_at_microsoft.com]
+vscode-insiders                      prov/vscode-insiders                      vscode-insiders                      Provisional -          [urischemeowners_at_microsoft.com]
+vsls                                 prov/vsls                                 vsls                                 Provisional -          [urischemeowners_at_microsoft.com]
 wais                                                                           Wide Area Information Servers        Historical  -          [RFC4156]
+wcr                                  prov/wcr                                  wcr                                  Provisional -          [Jason_Dzubak]
 webcal                               prov/webcal                               webcal                               Provisional -          [Dave_Thaler]
+wifi                                 prov/wifi                                 wifi                                 Provisional -          [Wi-Fi_Alliance][Jun_Tian]
 wpid                                 prov/wpid                                 wpid                                 Historical  -          [Eld_Zierau]
 ws                                                                             WebSocket connections                Permanent   [RFC8307]  [RFC6455]
 wss                                                                            Encrypted WebSocket connections      Permanent   [RFC8307]  [RFC6455]
@@ -374,11 +396,12 @@ z39.50                                                                         Z
 z39.50r                                                                        Z39.50 Retrieval                     Permanent   -          [RFC2056]
 z39.50s                                                                        Z39.50 Session                       Permanent   -          [RFC2056]
 
-                                                                        People
+                                                                 Contact Information
 
                         ID                              Name          Organization                     Contact URI                     Last Updated
    [Adam_Barth]                                 Adam Barth                          mailto:abarth&google.com                           2019-03-29
    [Alastair_Green]                             Alastair Green                      mailto:alastair.green&neotechnology.com.           2017-05-19
+   [Alex_Grintsvayg]                            Alex Grintsvayg                     mailto:grin&lbry.com                               2020-06-16
    [Alexey_Melnikov]                            Alexey Melnikov                     mailto:alexey.melnikov&isode.com                   2012-09-12
    [Alexander_Shishenko]                        Alexander Shishenko                 mailto:alex&librevault.com                         2016-06-13
    [Arild_Hegvik]                               Arild Hegvik                        mailto:arild&bitcoincheque.org                     2020-01-08
@@ -387,6 +410,8 @@ z39.50s                                                                        Z
    [Bíró_Tamás]                                 Bíró Tamás                          mailto:tamas.biro&sensenet.com                     2014-05-16
    [Bob_Hinkle]                                 Bob Hinkle                          mailto:bohinkle&cisco.com                          2019-06-24
    [Bob_Van_Zant]                               Bob Van Zant                        mailto:bob&veznat.com                              2011-11-14
+   [Bradley_Nelson]                             Bradley Nelson                      mailto:bradnelson&google.com                       2020-08-28
+   [Cabal_Club]                                 Cabal Club                          mailto:cabal&cblgh.org                             2020-05-14
    [Chris_Rebert]                               Chris Rebert                        mailto:iana.url.schemes&chrisrebert.com            2015-07-21
    [Christophe_Meessen]                         Christophe Meessen                  mailto:uri-review&ditp.org                         2015-12-08
    [Corentin_Mercier]                           Corentin Mercier                    mailto:corentin&mercier.link                       2018-08-13
@@ -395,15 +420,23 @@ z39.50s                                                                        Z
    [DLNA]                                       DLNA                                mailto:admin&dlna.org                              2012-01-04
    [Hans-Dieter_A._Hiep]                        Hans-Dieter A. Hiep                 mailto:info&aexiz.com                              2015-08-05
    [Eld_Zierau]                                 Eld Zierau                          mailto:elzi&kb.dk                                  2016-12-01
+   [Frédéric_Wang]                              Frédéric Wang                       mailto:fwang&igalia.com                            2020-05-14
+   [Elliott_Brown]                              Elliott Brown                       mailto:elliott.brown&num.uk                        2020-09-07
    [Evan_Gilman]                                Evan Gilman                         mailto:evan&scytale.io                             2018-02-23
    [Gaurav_Jain]                                Gaurav Jain                         mailto:gjain&wi-fi.org                             2019-01-23
+   [Hubert_Chathi]                              Hubert Chathi                       mailto:hubertc&matrix.org                          2020-07-24
    [Ignacio_Losiggio]                           Ignacio Losiggio                    mailto:iglosiggio&gmail.com                        2017-05-09
+   [International_DOI_Foundation]               International DOI                   mailto:contact&doi.org                             2020-05-14
+                                                Foundation
    [Ivan_Herman]                                Ivan Herman                         mailto:ivan&w3.org                                 2020-02-14
    [James_Cramer]                               James Cramer                        mailto:jcramer&deskviz.com                         2018-07-27
    [Jan_Pokorny]                                Jan Pokorny                         mailto:jpokorny&redhat.com                         2016-09-20
    [Jarmo_Miettinen]                            Jarmo_Miettinen                     mailto:jarmo.miettinen&methics.fi                  2019-02-12
+   [Jason_Dzubak]                               Jason Dzubak                        mailto:dzubak&byu.edu                              2020-12-10
    [Joe_Hildebrand]                             Joe Hildebrand                      mailto:jhildebrand&mozilla.com                     2017-01-20
+   [Jun_Tian]                                   Jun Tian                            mailto:jtian&wi-fi.org                             2020-08-26
    [Kimmo_Lindholm]                             Kimmo Lindholm                      mailto:kimmo.lindholm&eke.fi                       2018-06-06
+   [ligi]                                       ligi                                mailto:ligi&ligi.de                                2020-05-15
    [Manu_Sporny]                                Manu Sporny                         mailto:msporny&digitalbazaar.com                   2020-02-14
    [Mark_Chen]                                  Mark Chen                           mailto:marchen&cisco.com                           2019-06-24
    [Matthias_Merkel]                            Matthias Merkel                     mailto:moritz30&moritz30.de                        2017-03-14
@@ -423,12 +456,20 @@ z39.50s                                                                        Z
    [OMA-OMNA]                                   Naming Authority of                 mailto:OMA-OMNA&mail.openmobilealliance.org        2014-12-19
                                                 the Open Mobile
                                                 Alliance
+   [Paul_Frazee]                                Paul Frazee                         mailto:pfrazee&gmail.com                           2020-05-14
    [Peter_Lewandowski]                          Peter Lewandowski                   mailto:peter.lewandowski&cygate.se                 2014-09-12
    [Peter_Saint-Andre]                          Peter Saint-Andre                   mailto:stpeter&jabber.org                          2012-12-04
    [Peter_Waher]                                Peter Waher                         mailto:peterwaher&hotmail.com                      2015-11-25
+   [Protocol_Labs]                              Protocol Labs                       mailto:jbenet&protocol.ai                          2020-05-14
    [RadioDNS_Project]                           RadioDNS Project                    mailto:iana&radiodns.org                           2019-03-18
+   [Ricky_Bloomfield]                           Ricky Bloomfield                    mailto:rickybloomfield&apple.com                   2020-08-28
    [SAP_SE]                                     SAP SE                              mailto:ma.becker&sap.com                           2019-07-04
-   [Tim_McSweeney]                              Tim McSweeney                       mailto:tim&dropnumber.com                          2019-04-07
+   [Secure_Scuttlebutt_Consortium]              Secure Scuttlebutt                  mailto:christianbundy&fraction.io                  2020-05-15
+                                                Consortium
+   [Software_Heritage]                          Software Heritage                   https://www.softwareheritage.org                   2020-04-28
+   [Stefano_Zacchiroli]                         Stefano Zacchiroli                  mailto:zack&upsilon.cc                             2020-04-28
+   [Thomas_Habets]                              Thomas Habets                       mailto:thomas&habets.se                            2020-05-14
+   [Tim_McSweeney]                              Tim McSweeney                       mailto:tim&dropnumber.com                          2020-07-28
    [Tony_Deng]                                  Tony Deng                           mailto:tdeng&cisco.com                             2019-06-24
    [Tuan_Hoang]                                 Tuan Hoang                          mailto:tuhoang&cisco.com                           2019-06-24
    [urischemeowners_at_microsoft.com]           urischemeowners at                  mailto:urischemeowners&microsoft.com               2020-03-02
@@ -439,7 +480,7 @@ z39.50s                                                                        Z
    [W3C_Decentralized_Identifier_Working_Group] Identifier Working                  mailto:public-did-wg&w3.org                        2020-02-14
                                                 Group
    [Wiktor_Kwapisiewicz]                        Wiktor Kwapisiewicz                 mailto:wiktor&metacode.biz                         2018-05-31
-   [Wi-Fi_Alliance]                             Wi-Fi Alliance                      mailto:gjain&wi-fi.org                             2019-01-23
+   [Wi-Fi_Alliance]                             Wi-Fi Alliance                      mailto:technical&wi-fi.org                         2020-08-26
 
                                                                        Footnote
 

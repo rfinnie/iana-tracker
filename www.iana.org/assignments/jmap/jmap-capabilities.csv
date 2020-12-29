@@ -1,0 +1,6 @@
+Capability Name,Intended Use,Change Controller,Security and Privacy Considerations,Reference
+urn:ietf:params:jmap:core,common,IETF,"[RFC8620, Section 8]","[RFC8620, Section 2]"
+urn:ietf:params:jmap:error:,placeholder,IETF,"[RFC8620, Section 8]","[RFC8620, Section 9.5]"
+urn:ietf:params:jmap:mail,common,IETF,"[RFC8621, Section 9]",[RFC8621]
+urn:ietf:params:jmap:submission,common,IETF,"[RFC8621, Section 9]",[RFC8621]
+urn:ietf:params:jmap:vacationresponse,common,IETF,"[RFC8621, Section 9]",[RFC8621]

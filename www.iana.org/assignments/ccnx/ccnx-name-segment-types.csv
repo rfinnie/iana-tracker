@@ -1,0 +1,10 @@
+Type,Name,Reference
+0x0000,Reserved,[RFC8609]
+0x0001,T_NAMESEGMENT,"[RFC8609, Section 3.6.1]"
+0x0002,T_IPID,"[RFC8609, Section 3.6.1]"
+0x0003-0x000F,Unassigned,
+0x0010-0x0013,Reserved,[RFC8609]
+0x0014-0x0FFE,Unassigned,
+0x0FFF,T_ORG,"[RFC8609, Section 3.3.2]"
+0x1000-0x1FFF,T_APP:00 - T_APP:4096,"[RFC8609, Section 3.6.1]"
+0x2000-0xFFFF,Unassigned,

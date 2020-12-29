@@ -1,0 +1,4 @@
+Bit Position,Name,Description,Reference
+0,Unknown flag bit,[RFC8237]
+1,Configuration flag bit,[RFC8237]
+2-7,Unassigned,

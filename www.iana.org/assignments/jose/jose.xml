@@ -4,13 +4,16 @@
 <registry xmlns="http://www.iana.org/assignments" id="jose">
   <title>JSON Object Signing and Encryption (JOSE)</title>
   <created>2015-01-23</created>
-  <updated>2019-03-13</updated>
+  <updated>2020-11-02</updated>
   
   <registry id="web-signature-encryption-header-parameters">
     <title>JSON Web Signature and Encryption Header Parameters</title>
     <xref type="rfc" data="rfc7515"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7515"/>.
+    </note>
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>alg</value>
       <description>Algorithm</description>
@@ -284,8 +287,11 @@
   <registry id="web-signature-encryption-algorithms">
     <title>JSON Web Signature and Encryption Algorithms</title>
     <xref type="rfc" data="rfc7518"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7518"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23" updated="2015-01-30">
       <value>HS256</value>
       <description>HMAC using SHA-256</description>
@@ -709,14 +715,26 @@
       <xref type="uri" data="https://www.w3.org/TR/WebCryptoAPI"/>
       <analysis><xref type="draft" data="draft-irtf-cfrg-webcrypto-algorithms"/></analysis>
     </record>
+    <record date="2020-05-26">
+      <value>ES256K</value>
+      <description>ECDSA using secp256k1 curve and SHA-256</description>
+      <usage>alg</usage>
+      <requirements>Optional</requirements>
+      <controller><xref type="person" data="IESG"/></controller>
+      <xref type="rfc" data="rfc8812">RFC8812, Section 3.2</xref>
+      <analysis><xref type="uri" data="http://www.secg.org/sec2-v2.pdf">SEC2</xref></analysis>
+    </record>
   </registry>
   
   
   <registry id="web-encryption-compression-algorithms">
     <title>JSON Web Encryption Compression Algorithms</title>
     <xref type="rfc" data="rfc7518"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7518"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>DEF</value>
       <description>DEFLATE</description>
@@ -730,8 +748,11 @@
     <title>JSON Web Key Types</title>
     <xref type="rfc" data="rfc7518"/>
     <xref type="rfc" data="rfc7638"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7518"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>EC</value>
       <description>Elliptic Curve</description>
@@ -767,8 +788,11 @@
     <title>JSON Web Key Elliptic Curve</title>
     <xref type="rfc" data="rfc7518"/>
     <xref type="rfc" data="rfc7638"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7518"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23" updated="2015-04-22">
       <value>P-256</value>
       <description>P-256 Curve</description>
@@ -818,6 +842,13 @@
       <controller><xref type="person" data="IESG"/></controller>
       <xref type="rfc" data="rfc8037">RFC8037, Section 3.2</xref>
     </record>
+    <record date="2020-05-26">
+      <value>secp256k1</value>
+      <description>SECG secp256k1 curve</description>
+      <requirements>Optional</requirements>
+      <controller><xref type="person" data="IESG"/></controller>
+      <xref type="rfc" data="rfc8812">RFC8812, Section 3.1</xref>
+    </record>
   </registry>
 
 
@@ -825,8 +856,11 @@
     <title>JSON Web Key Parameters</title>
     <xref type="rfc" data="rfc7517"/>
     <xref type="rfc" data="rfc7638"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7517"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>kty</value>
       <description>Key Type</description>
@@ -1049,8 +1083,11 @@
   <registry id="web-key-use">
     <title>JSON Web Key Use</title>
     <xref type="rfc" data="rfc7517"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7517"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>sig</value>
       <description>Digital Signature or MAC</description>
@@ -1069,8 +1106,11 @@
   <registry id="web-key-operations">
     <title>JSON Web Key Operations</title>
     <xref type="rfc" data="rfc7517"/>
+    <note>Registration requests should be sent to the mailing list 
+described in <xref type="rfc" data="rfc7517"/>.
+    </note>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
     <record date="2015-01-23">
       <value>sign</value>
       <description>Compute digital signature or MAC</description>
@@ -1126,7 +1166,10 @@
     <title>JSON Web Key Set Parameters</title>
     <xref type="rfc" data="rfc7517"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Jim Schaad, Jeff Hodges, Joe Hildebrand, Sean Turner</expert>   
+    <expert>Jeff Hodges, Joe Hildebrand, Sean Turner</expert>
+    <note>Registration requests should be sent to the mailing list 
+ described in <xref type="rfc" data="rfc7517"/>.
+    </note>
     <record date="2015-01-23">
       <value>keys</value>
       <description>Array of JWK Values</description>

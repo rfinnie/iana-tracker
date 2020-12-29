@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="websocket">
   <title>WebSocket Protocol Registries</title>
   <created>2011-10-21</created>
-  <updated>2020-03-19</updated>
+  <updated>2020-11-06</updated>
 
   <registry id="extension-name">
     <title>WebSocket Extension Name Registry</title>
@@ -33,9 +33,8 @@
     <xref type="rfc" data="rfc6455"/>
     <xref type="rfc" data="rfc7936"/>
     <xref type="draft" data="RFC-ietf-mmusic-data-channel-sdpneg-28"/>
-    <note>Please see Section 2 of <xref type="rfc" data="rfc7936"/>, which 
-clarifies that registrations which differ from existing registrations only 
-by case will be refused.
+    <note>Please see Section 2 of <xref type="rfc" data="rfc7936"/>, which clarifies that registrations 
+which differ from existing registrations only by case will be refused.
     </note>
     <note>This table also includes subprotocol identifiers specified for usage
 within a WebRTC data channel.
@@ -191,11 +190,12 @@ within a WebRTC data channel.
       <definition><xref type="uri" data="https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp"/></definition>
       <xref type="person" data="Masoud_Aghadavoodi_Jolfaei"/>
     </record>
-    <record date="2016-08-17">
+    <record date="2016-08-17" updated="2020-08-17">
       <id>msrp</id>
       <common>WebSocket Transport for MSRP (Message Session Relay Protocol)</common>
       <definition><xref type="rfc" data="rfc7977"/></definition>
       <xref type="rfc" data="rfc7977"/>
+      <xref type="draft" data="RFC-ietf-mmusic-msrp-usage-data-channel-23"/>
     </record>
     <record date="2016-09-06">
       <id>v1.saltyrtc.org</id>
@@ -208,6 +208,7 @@ within a WebRTC data channel.
       <common>TLCP (Text Lightstreamer Client Protocol)</common>
       <definition><xref type="uri" data="http://www.lightstreamer.com/tlcp-2.0.0"/></definition>
       <xref type="person" data="Alessandro_Alinone"/>
+      <controller><xref type="person" data="Lightstreamer_Srl"/></controller>
     </record>
     <record date="2017-02-16">
       <id>bfcp</id>
@@ -263,6 +264,7 @@ within a WebRTC data channel.
       <common>TLCP (Text Lightstreamer Client Protocol)</common>
       <definition><xref type="uri" data="http://www.lightstreamer.com/tlcp-2.1.0"/></definition>
       <xref type="person" data="Dario_Crivelli"/>
+      <controller><xref type="person" data="Lightstreamer_Srl"/></controller>
     </record>
     <record date="2018-08-02">
       <id>sqlnet.oracle.com</id>
@@ -310,8 +312,8 @@ within a WebRTC data channel.
       <xref type="person" data="Imed_Bouazizi"/>
     </record>
     <record date="2019-04-23">
-      <id>CLUE</id>
-      <common>CLUE</common>
+      <id>clue</id>
+      <common>clue</common>
       <definition><xref type="draft" data="RFC-ietf-clue-datachannel-18"/></definition>
       <xref type="draft" data="RFC-ietf-clue-datachannel-18"/>
     </record>
@@ -352,8 +354,35 @@ within a WebRTC data channel.
     <record date="2020-03-19">
       <id>jmap</id>
       <common>WebSocket Transport for JMAP (JSON Meta Application Protocol)</common>
-      <definition><xref type="draft" data="RFC-ietf-jmap-websocket-07"/></definition>
-      <xref type="draft" data="RFC-ietf-jmap-websocket-07"/>
+      <definition><xref type="rfc" data="rfc8887"/></definition>
+      <xref type="rfc" data="rfc8887"/>
+    </record>
+    <record date="2020-04-14">
+      <id>t140</id>
+      <common>ITU-T T.140 Real-Time Text</common>
+      <definition><xref type="draft" data="RFC-ietf-mmusic-t140-usage-data-channel-14"/></definition>
+      <xref type="draft" data="RFC-ietf-mmusic-t140-usage-data-channel-14"/>
+    </record>
+    <record date="2020-04-27">
+      <id>done</id>
+      <common>done.best IoT Protocol</common>
+      <definition>"done" is a general purpose IoT Protocol, used by done.best based solutions</definition>
+      <xref type="person" data="done.best"/>
+      <controller><xref type="person" data="Helmut_Hartl"/></controller>
+    </record>
+    <record date="2020-05-28">
+      <id>TLCP-2.2.0.lightstreamer.com</id>
+      <common>TLCP (Text Lightstreamer Client Protocol)</common>
+      <definition><xref type="uri" data="https://www.lightstreamer.com/tlcp-2.2.0"/></definition>
+      <xref type="person" data="Dario_Crivelli"/>
+      <controller><xref type="person" data="Lightstreamer_Srl"/></controller>
+    </record>
+    <record date="2020-08-11">
+      <id>collection-update</id>
+      <common>The Collection Update Websocket Subprotocol</common>
+      <definition><xref type="uri" data="https://github.com/jonlachlan/collection-update-websocket-protocol"/></definition>
+      <xref type="person" data="Jon_Lachlan"/>
+      <controller><xref type="person" data="Jon_Lachlan"/></controller>
     </record>
   </registry>
 
@@ -667,12 +696,22 @@ within a WebRTC data channel.
     <person id="Dario_Crivelli">
       <name>Dario Crivelli</name>
       <uri>mailto:dario.crivelli&amp;lightstreamer.com</uri>
-      <updated>2018-02-05</updated>
+      <updated>2020-05-28</updated>
+    </person>
+    <person id="done.best">
+      <name>done.best</name>
+      <uri>mailto:helly.hartl&amp;gmail.com</uri>
+      <updated>2020-04-27</updated>
     </person>
     <person id="Feroz_Alam_Khan">
       <name>Feroz Alam Khan</name>
       <uri>mailto:feroz.khan&amp;oracle.com</uri>
       <updated>2018-08-02</updated>
+    </person>
+    <person id="Helmut_Hartl">
+      <name>Helmut Hartl</name>
+      <uri>mailto:helly.hartl&amp;gmail.com</uri>
+      <updated>2020-04-27</updated>
     </person>
     <person id="IESG_HYBI">
       <name>IESG HYBI WG</name>
@@ -689,6 +728,11 @@ within a WebRTC data channel.
       <uri>mailto:jmesnil&amp;gmail.com</uri>
       <updated>2012-11-13</updated>
     </person>
+    <person id="Jon_Lachlan">
+      <name>Jon Lachlan</name>
+      <uri>mailto:jonlachlan&amp;protonmail.com</uri>
+      <updated>2020-08-11</updated>
+    </person>
     <person id="Juhamatti_Kuusisaari">
       <name>Juhamatti Kuusisaari</name>
       <uri>mailto:juhamatti.kuusisaari&amp;mles.io</uri>
@@ -698,6 +742,11 @@ within a WebRTC data channel.
       <name>Lennart Grahl</name>
       <uri>mailto:lennart.grahl&amp;gmail.com</uri>
       <updated>2016-09-06</updated>
+    </person>
+    <person id="Lightstreamer_Srl">
+      <name>Lightstreamer Srl</name>
+      <uri>mailto:support&amp;lightstreamer.com</uri>
+      <updated>2020-05-28</updated>
     </person>
     <person id="Magnus_Lundstedt">
       <name>Magnus Lundstedt</name>

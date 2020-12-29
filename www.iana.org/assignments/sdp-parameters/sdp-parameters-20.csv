@@ -1,3 +1,3 @@
 QoS Mechanism,Mux Category,Reference
-rsvp,TRANSPORT,[RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
-nsis,TRANSPORT,[RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-16]
+rsvp,TRANSPORT,[RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-19]
+nsis,TRANSPORT,[RFC5432][RFC-ietf-mmusic-sdp-mux-attributes-19]

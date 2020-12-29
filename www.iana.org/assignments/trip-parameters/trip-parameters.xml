@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="trip-parameters">
     <title>Telephony Routing over IP (TRIP) Parameters</title>
     <created>2001-12-18</created>
-    <updated>2020-03-10</updated>
+    <updated>2020-09-23</updated>
 
     <registry id="trip-parameters-1">
         <title>TRIP Capabilities</title>
@@ -12387,6 +12387,34 @@
             </description>
             <xref type="person" data="Alexandra_Ariel"/>
         </record>
+        <record date="2020-07-24">
+            <value>1988</value>
+            <description>Houzuo Guo HZGL
+                
+            </description>
+            <xref type="person" data="Houzuo_Guo"/>
+        </record>
+        <record date="2020-09-22">
+            <value>1989</value>
+            <description>James Smith
+                            
+            </description>
+            <xref type="person" data="James_Smith"/>
+        </record>
+        <record date="2020-09-23">
+            <value>1990</value>
+            <description>Marcel Krüger
+                            
+            </description>
+            <xref type="person" data="Marcel_Krüger"/>
+        </record>
+        <record date="2020-09-23">
+            <value>1991</value>
+            <description>Switching Technologies
+                            
+            </description>
+            <xref type="person" data="John_McDougald_2"/>
+        </record>        
     </registry>
 
     <people>
@@ -15255,6 +15283,11 @@
             <uri>mailto:host.master&amp;kapilville.com</uri>
             <updated>2009-07-31</updated>
         </person>
+        <person id="Houzuo_Guo">
+            <name>Houzuo Guo</name>
+            <uri>mailto:i&amp;hz.gl</uri>
+            <updated>2020-07-24</updated>
+        </person>
         <person id="Howard_Hammond">
             <name>Howard Hammond</name>
             <uri>mailto:support&amp;digimancer.net</uri>
@@ -15544,6 +15577,11 @@
             <name>James Shaw</name>
             <uri>mailto:js&amp;mapleindustries.ca</uri>
             <updated>2012-08-29</updated>
+        </person>
+        <person id="James_Smith">
+            <name>James Smith</name>
+            <uri>mailto:va7jgs&amp;revjim.ca</uri>
+            <updated>2020-09-22</updated>
         </person>
         <person id="James_Titcomb">
             <name>James Titcomb</name>
@@ -16124,6 +16162,11 @@
             <name>John McDougald</name>
             <uri>mailto:jmcdougald&amp;coconutphone.com</uri>
             <updated>2013-09-18</updated>
+        </person>
+        <person id="John_McDougald_2">
+            <name>John McDougald</name>
+            <uri>mailto:jmcdougald&amp;switchingtechnologies.com</uri>
+            <updated>2020-09-23</updated>
         </person>
         <person id="John_Messenger">
             <name>John Messenger</name>
@@ -17143,6 +17186,11 @@
             <name>Marc-Antoine Lemaire</name>
             <uri>mailto:info&amp;ipconvergence.be</uri>
             <updated>2009-10-20</updated>
+        </person>
+        <person id="Marcel_Krüger">
+            <name>Marcel Krüger</name>
+            <uri>mailto:iana&amp;2krueger.de</uri>
+            <updated>2020-09-23</updated>
         </person>
         <person id="Marco_Ceccon">
             <name>Marco Ceccon</name>

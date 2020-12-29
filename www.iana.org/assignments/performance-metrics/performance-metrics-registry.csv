@@ -1,0 +1,100 @@
+Identifier,Name,URI,Description,Reference,Change Controller,Version
+0,Reserved,,,[RFC-ietf-ippm-initial-registry-16],IETF,
+1,RTDelay_Active_IP-UDP-Periodic_RFCXXXXsec4_Seconds_95Percentile,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (which are the two measurement points),
+        and the Output is the Round-trip delay for all successfully exchanged
+        packets expressed as the 95th percentile of their conditional delay
+        distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+2,RTLoss_Active_IP-UDP-Periodic_RFCXXXXsec4_Percent_LossRatio,,"This metric assesses the loss ratio of a stream of packets
+        exchanged between two hosts (which are the two measurement points),
+        and the Output is the Round-trip loss ratio for all successfully
+        exchanged packets expressed as a percentage.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+3,OWPDV_Active_IP-UDP-Periodic_RFCXXXXsec5_Seconds_95Percentile,,"An assessment of packet delay variation with respect to the minimum
+        delay observed on the periodic stream, and the Output is expressed as
+        the 95th percentile of the packet delay variation distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+4,RTDNS_Active_IP-UDP-Poisson_RFCXXXXsec6_Seconds_Raw,,"This is a metric for DNS Response performance from a network user's
+        perspective, for a specific named resource.  The metric can be
+        measured repeatedly using different resource names.  This metric assesses the response time, the interval from the
+        query transmission to the response.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+5,RLDNS_Active_IP-UDP-Poisson_RFCXXXXsec6_Logical_Raw,,"This is a metric for DNS Response performance from a network user's
+        perspective, for a specific named resource.  The metric can be
+        measured repeatedly using different resource names. This metric indicates that the response was deemed lost.  In
+        other words, the response time exceeded the maximum waiting time.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+6,OWDelay_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Seconds_95Percentile,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        95Percentile One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+7,OWDelay_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Seconds_Mean,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Mean One-way delay for all successfully exchanged packets
+        based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+8,OWDelay_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Seconds_Min,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Min One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+9,OWDelay_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Seconds_Max,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Max One-way delay for all successfully exchanged packets
+        based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+10,OWDelay_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Seconds_StdDev,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        StdDev One-way delay for all successfully exchanged packets
+        based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+11,OWLoss_Active_IP-UDP-Poisson-Payload250B_RFCXXXXsec7_Percent_LossRatio,,"This metric assesses the loss ratio of a stream of packets
+        exchanged between two hosts (which are the two measurement points),
+        and the Output is the One-way loss ratio for all successfully
+        received packets expressed as a percentage.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+12,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFCXXXXsec8_Seconds_95Percentile,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        95Percentile One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+13,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFCXXXXsec8_Seconds_Mean,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Mean One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+14,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFCXXXXsec8_Seconds_Min,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Min One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+15,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFCXXXXsec8_Seconds_Max,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        Max One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+16,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFCXXXXsec8_Seconds_StdDev,,"This metric assesses the delay of a stream of packets
+        exchanged between two hosts (or measurement points), and reports the
+        StdDev One-way delay for all successfully exchanged packets
+          based on their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+17,OWLoss_Active_IP-UDP-Periodic-Payload142B_RFCXXXXsec8_Percent_LossRatio,,"This metric assesses the loss ratio of a stream of packets
+        exchanged between two hosts (which are the two measurement points),
+        and the Output is the One-way loss ratio for all successfully
+        received packets expressed as a percentage.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+18,RTDelay_Active_IP-ICMP-SendOnRcv_RFCXXXXsec9_Seconds_Mean,,"This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points), and the Output is the Round-trip delay for all successfully exchanged packets expressed as the Mean of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+19,RTDelay_Active_IP-ICMP-SendOnRcv_RFCXXXXsec9_Seconds_Min,,"This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points), and the Output is the Round-trip delay for all successfully exchanged packets expressed as the Min of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+20,RTDelay_Active_IP-ICMP-SendOnRcv_RFCXXXXsec9_Seconds_Max,,"This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points), and the Output is the Round-trip delay for all successfully exchanged packets expressed as the Max of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+21,RTLoss_Active_IP-ICMP-SendOnRcv_RFCXXXXsec9_Percent_LossRatio,,"This metric assesses the loss ratio of a stream of ICMP
+        packets exchanged between two hosts (which are the two measurement
+        points), and the Output is the Round-trip loss ratio for all
+        successfully exchanged packets expressed as a percentage.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+22,RTDelay_Passive_IP-TCP_RFCXXXXsec10_Seconds_Mean,,"This metric assesses the round-trip delay of TCP packets constituting a single connection, exchanged between two hosts. We consider the measurement of round-trip delay based on a single Observation Point [RFC7011] somewhere in the network. The Output is the Round-trip delay for all successfully exchanged packets expressed as the Mean of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+23,RTDelay_Passive_IP-TCP_RFCXXXXsec10_Seconds_Min,,"This metric assesses the round-trip delay of TCP packets
+        constituting a single connection, exchanged between two hosts.  We
+        consider the measurement of round-trip delay based on a single
+        Observation Point [RFC7011] somewhere in the network.  The Output is
+        the Round-trip delay for all successfully exchanged packets expressed
+        as the Min of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+24,RTDelay_Passive_IP-TCP_RFCXXXXsec10_Seconds_Max,,"This metric assesses the round-trip delay of TCP packets
+        constituting a single connection, exchanged between two hosts.  We
+        consider the measurement of round-trip delay based on a single
+        Observation Point [RFC7011] somewhere in the network.  The Output is
+        the Round-trip delay for all successfully exchanged packets expressed
+        as the Max of their conditional delay distribution.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+25,RTDelay_Passive_IP-TCP-HS_RFCXXXXsec10_Seconds_Singleton,,"RTDelay Singleton: This metric assesses the round-trip delay of TCP packets
+        constituting a single connection, exchanged between two hosts.  We
+        consider the measurement of round-trip delay based on a single
+        Observation Point [RFC7011] somewhere in the network.  The Output is
+        a single measurement of Round-trip delay, or Singleton.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0
+26,RTLoss_Passive_IP-TCP_RFCXXXXsec10_Packet_Count,,"This metric assesses the estimated loss count for TCP packets
+        constituting a single connection, exchanged between two hosts.  We
+        consider the measurement of round-trip delay based on a single
+        Observation Point [RFC7011] somewhere in the network.  The Output is
+        the estimated Loss Count for the measurement interval.",[RFC-ietf-ippm-initial-registry-16],IETF,1.0

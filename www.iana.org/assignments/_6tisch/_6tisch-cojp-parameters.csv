@@ -1,0 +1,11 @@
+Name,Label,CBOR Type,Description,Reference
+Reserved for Private Use,less than -65536,,,[RFC-ietf-6tisch-minimal-security-15]
+Unassigned,-65536 to 0,,,[RFC-ietf-6tisch-minimal-security-15]
+role,1,unsigned integer,Identifies the role parameter,[RFC-ietf-6tisch-minimal-security-15]
+link-layer key set,2,array,Identifies the array carrying one or more link-level cryptographic keys,[RFC-ietf-6tisch-minimal-security-15]
+short identifier,3,array,Identifies the assigned short identifier,[RFC-ietf-6tisch-minimal-security-15]
+JRC address,4,byte string,Identifies the IPv6 address of of the JRC,[RFC-ietf-6tisch-minimal-security-15]
+network identifier,5,byte string,Identifies the network identifier parameter,[RFC-ietf-6tisch-minimal-security-15]
+blacklist,6,array,Identifies the blacklist parameter,[RFC-ietf-6tisch-minimal-security-15]
+join rate,7,unsigned integer,Identifies the join rate parameter,[RFC-ietf-6tisch-minimal-security-15]
+unsupported configuration,8,array,Identifies the unsupported configuration parameter,[RFC-ietf-6tisch-minimal-security-15]

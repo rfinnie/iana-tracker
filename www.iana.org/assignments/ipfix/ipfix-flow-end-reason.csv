@@ -1,0 +1,17 @@
+Value,Name,Description,Reference
+0x00,Reserved,,[RFC5102]
+0x01,idle timeout,"The Flow was terminated because it was considered to be
+        idle.",[RFC5102]
+0x02,active timeout,"The Flow was terminated for reporting purposes while it was
+        still active, for example, after the maximum lifetime of
+        unreported Flows was reached.",[RFC5102]
+0x03,end of Flow detected,"The Flow was terminated because the Metering Process
+        detected signals indicating the end of the Flow,
+        for example, the TCP FIN flag.",[RFC5102]
+0x04,forced end,"The Flow was terminated because of some external event,
+        for example, a shutdown of the Metering Process initiated
+        by a network management application.",[RFC5102]
+0x05,lack of resources,"The Flow was terminated because of lack of resources
+        available to the Metering Process and/or the Exporting
+        Process.",[RFC5102]
+0x06-0xFF,Unassigned,,

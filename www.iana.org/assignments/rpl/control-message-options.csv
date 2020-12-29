@@ -9,4 +9,5 @@ Value,Meaning,Reference
 0x07,Solicited Information,[RFC6550]
 0x08,Prefix Information,[RFC6550]
 0x09,Target Descriptor,[RFC6550]
-0x0a,P2P Route Discovery,[RFC6997]
+0x0A,P2P Route Discovery,[RFC6997]
+0x0B-0xFF,Unassigned,
