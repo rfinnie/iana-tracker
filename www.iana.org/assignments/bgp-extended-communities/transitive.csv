@@ -24,7 +24,7 @@ Community Sub-Types"" registry)",[RFC7153],
 0x80,"Generic Transitive Experimental Use Extended Community       
 (Sub-Types are defined in the ""Generic Transitive Experimental Use Extended 
 Community Sub-Types"" registry)",[RFC7153],
-0x81,"Generic Transitive Experimental Use Extended Community Part 2 (Sub-Types are defined in the ""Generic Transitive Experimental Use Extended Community Part 2 Sub-Types"" Registry)",[RFC-ietf-idr-rfc5575bis-26],2015-08-28
-0x82,"Generic Transitive Experimental Use Extended Community Part 3 (Sub-Types are defined in the ""Generic Transitive Experimental Use Extended Community Part 3 Sub-Types"" Registry)",[RFC-ietf-idr-rfc5575bis-26],2015-08-28
+0x81,"Generic Transitive Experimental Use Extended Community Part 2 (Sub-Types are defined in the ""Generic Transitive Experimental Use Extended Community Part 2 Sub-Types"" Registry)",[RFC8955],2015-08-28
+0x82,"Generic Transitive Experimental Use Extended Community Part 3 (Sub-Types are defined in the ""Generic Transitive Experimental Use Extended Community Part 3 Sub-Types"" Registry)",[RFC8955],2015-08-28
 0x83-0x8f,Reserved for Experimental Use,[RFC7153],2012-09-28
 0x90-0xbf,Unassigned,,

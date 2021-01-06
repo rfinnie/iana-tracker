@@ -4,13 +4,13 @@ Sub-Type Value,Name,Reference,Date
 0x02-0x03,Unassigned,,
 0x04,SecurityGroup,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#security-group],2018-10-01
 0x05,OSPF Domain Identifier (deprecated),[RFC4577],2014-08-01
-0x06,Flow spec traffic-rate-bytes,[RFC-ietf-idr-rfc5575bis-26],
-0x07,"Flow spec traffic-action (Use of the ""Value"" field is defined in the ""Traffic Action Fields"" registry)",[RFC-ietf-idr-rfc5575bis-26],
-0x08,Flow spec rt-redirect AS-2octet format,[RFC-ietf-idr-rfc5575bis-26],
-0x09,Flow spec traffic-remarking,[RFC-ietf-idr-rfc5575bis-26],
+0x06,Flow spec traffic-rate-bytes,[RFC8955],
+0x07,"Flow spec traffic-action (Use of the ""Value"" field is defined in the ""Traffic Action Fields"" registry)",[RFC8955],
+0x08,Flow spec rt-redirect AS-2octet format,[RFC8955],
+0x09,Flow spec traffic-remarking,[RFC8955],
 0x0a,Layer2 Info Extended Community,[RFC4761],
 0x0b,E-Tree Info,[RFC7796],2014-11-24
-0x0c,Flow spec traffic-rate-packets,[RFC-ietf-idr-rfc5575bis-26],2020-08-05
+0x0c,Flow spec traffic-rate-packets,[RFC8955],2020-08-05
 0x0d,Flow Specification for SFC Classifiers,[RFC-ietf-bess-nsh-bgp-control-plane-18],2020-09-02
 0x0e-0x83,Unassigned,,
 0x84,Tag,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#tag],2017-10-30

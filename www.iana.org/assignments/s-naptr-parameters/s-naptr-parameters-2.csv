@@ -1,5 +1,6 @@
 Tag,Reference
 CCMP,[RFC6503]
+data.tcp,[RFC-ietf-dots-server-discovery-15]
 diameter.dtls.sctp,[RFC6733]
 diameter.sctp,[RFC6408]
 diameter.tcp,[RFC6408]
