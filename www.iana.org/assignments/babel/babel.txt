@@ -4,7 +4,7 @@
            2015-04-14
 
    Last Updated
-           2020-10-13
+           2021-01-12
 
    Available Formats
            [IMG]
@@ -37,7 +37,7 @@ Babel TLV Types
    0-223   Specification Required
    224-254 Experimental Use
 
-    Type                     Name                                 Reference
+    Type                     Name                             Reference
    0       Pad1                                     [RFC-ietf-babel-rfc6126bis-20]
    1       PadN                                     [RFC-ietf-babel-rfc6126bis-20]
    2       Acknowledgment Request                   [RFC-ietf-babel-rfc6126bis-20]
@@ -51,13 +51,13 @@ Babel TLV Types
    10      Seqno Request                            [RFC-ietf-babel-rfc6126bis-20]
    11      TS/PC                                    [RFC7298]
    12      HMAC                                     [RFC7298]
-   13      Source-specific Update                   [draft-boutier-babel-source-specific]
-   14      Source-specific Request                  [draft-boutier-babel-source-specific]
-   15      Source-specific Seqno Request            [draft-boutier-babel-source-specific]
-   16      MAC                                      [RFC-ietf-babel-hmac-12]
-   17      PC                                       [RFC-ietf-babel-hmac-12]
-   18      Challenge Request                        [RFC-ietf-babel-hmac-12]
-   19      Challenge Reply                          [RFC-ietf-babel-hmac-12]
+   13      Reserved
+   14      Reserved
+   15      Reserved
+   16      MAC                                      [RFC8967]
+   17      PC                                       [RFC8967]
+   18      Challenge Request                        [RFC8967]
+   19      Challenge Reply                          [RFC8967]
    20-223  Unassigned
    224-254 Reserved for Experimental Use            [RFC-ietf-babel-rfc6126bis-20]
    255     Reserved for expansion of the type space [RFC-ietf-babel-rfc6126bis-20]
@@ -113,7 +113,7 @@ Babel Update Flags Values
 
    Bit       Name                  Reference
    0   Default prefix    [RFC-ietf-babel-rfc6126bis-20]
-   1   Default Router-ID [RFC-ietf-babel-rfc6126bis-20]
+   1   Default router-id [RFC-ietf-babel-rfc6126bis-20]
    2-7 Unassigned
 
 Babel Address Encodings

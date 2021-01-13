@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="babel">
   <title>Babel Routing Protocol</title>
   <created>2015-04-14</created>
-  <updated>2020-10-13</updated>
+  <updated>2021-01-12</updated>
   
   <registry id="tlv-types">
     <title>Babel TLV Types</title>
@@ -83,40 +83,37 @@
       <description>HMAC</description>
       <xref type="rfc" data="rfc7298"/>
     </record>
-    <record date="2015-04-14">
+    <record date="2015-04-14" updated="2021-01-06">
       <value>13</value>
-      <description>Source-specific Update</description>
-      <xref type="draft" data="draft-boutier-babel-source-specific"/>
+      <description>Reserved</description>
     </record>
-    <record date="2015-04-14">
+    <record date="2015-04-14" updated="2021-01-06">
       <value>14</value>
-      <description>Source-specific Request</description>
-      <xref type="draft" data="draft-boutier-babel-source-specific"/>
+      <description>Reserved</description>
     </record>
-    <record date="2015-04-14">
+    <record date="2015-04-14" updated="2021-01-06">
       <value>15</value>
-      <description>Source-specific Seqno Request</description>
-      <xref type="draft" data="draft-boutier-babel-source-specific"/>
+      <description>Reserved</description>
     </record>
     <record date="2018-12-26" updated="2020-09-08">
       <value>16</value>
       <description>MAC</description>
-      <xref type="draft" data="RFC-ietf-babel-hmac-12"/>
+      <xref type="rfc" data="rfc8967"/>
     </record>
     <record date="2018-12-26" updated="2020-09-08">
       <value>17</value>
       <description>PC</description>
-      <xref type="draft" data="RFC-ietf-babel-hmac-12"/>
+      <xref type="rfc" data="rfc8967"/>
     </record>
     <record date="2018-12-26" updated="2020-09-08">
       <value>18</value>
       <description>Challenge Request</description>
-      <xref type="draft" data="RFC-ietf-babel-hmac-12"/>
+      <xref type="rfc" data="rfc8967"/>
     </record>
     <record date="2018-12-26" updated="2020-09-08">
       <value>19</value>
       <description>Challenge Reply</description>
-      <xref type="draft" data="RFC-ietf-babel-hmac-12"/>
+      <xref type="rfc" data="rfc8967"/>
     </record>
     <record>
       <value>20-223</value>
@@ -221,7 +218,7 @@
     </record>
     <record date="2015-04-14">
       <value>1</value>
-      <description>Default Router-ID</description>
+      <description>Default router-id</description>
       <xref type="draft" data="RFC-ietf-babel-rfc6126bis-20"/>
     </record>
     <record>

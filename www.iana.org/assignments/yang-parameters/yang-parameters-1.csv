@@ -79,8 +79,8 @@ ietf-lmap-report,ietf-lmap-report@2017-08-08.yang,N,urn:ietf:params:xml:ns:yang:
 ietf-logical-network-element,ietf-logical-network-element@2019-01-25.yang,N,urn:ietf:params:xml:ns:yang:ietf-logical-network-element,lne,,[RFC8530],
 ietf-microwave-radio-link,ietf-microwave-radio-link@2019-06-19.yang,N,urn:ietf:params:xml:ns:yang:ietf-microwave-radio-link,mrl,,[RFC8561],
 ietf-microwave-types,ietf-microwave-types@2019-06-19.yang,N,urn:ietf:params:xml:ns:yang:ietf-microwave-types,mw-types,,[RFC8561],
-ietf-module-tags,,N,urn:ietf:params:xml:ns:yang:ietf-module-tags,tags,,[RFC-ietf-netmod-module-tags-10],[RFC-ietf-netmod-module-tags-10]'s module file will be posted upon the document's publication as an RFC.
-ietf-module-tags-state,,N,urn:ietf:params:xml:ns:yang:ietf-module-tags-state,tags-s,,[RFC-ietf-netmod-module-tags-10],[RFC-ietf-netmod-module-tags-10]'s module file will be posted upon the document's publication as an RFC.
+ietf-module-tags,ietf-module-tags@2021-01-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-module-tags,tags,,[RFC8819],
+ietf-module-tags-state,ietf-module-tags-state@2021-01-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-module-tags-state,tags-s,,[RFC8819],
 ietf-mpls,ietf-mpls@2020-12-18.yang,N,urn:ietf:params:xml:ns:yang:ietf-mpls,mpls,,[RFC8960],
 ietf-mpls-ldp,,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp,ldp,,[RFC-ietf-mpls-ldp-yang-09],[RFC-ietf-mpls-ldp-yang-09]'s module file will be posted upon the document's publication as an RFC.
 ietf-mpls-ldp-extended,,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp-extended,ldp-ext,,[RFC-ietf-mpls-ldp-yang-09],[RFC-ietf-mpls-ldp-yang-09]'s module file will be posted upon the document's publication as an RFC.

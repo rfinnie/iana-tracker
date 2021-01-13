@@ -652,6 +652,10 @@ csCESU-8",
 ,BOCU-1,1020,[http://www.unicode.org/notes/tn6/],[Markus_Scherer],"csBOCU1
 
 csBOCU-1",
+,UTF-7-IMAP,1021,"Note: This charset is used to encode Unicode in IMAP mailbox names; 
+see section 5.1.3 of [RFC3501]. It should never be used 
+outside this context. A name has been assigned so that charset processing 
+implementations can refer to it in a consistent way.",[Florian_Weimer],csUTF7IMAP,
 ,ISO-8859-1-Windows-3.0-Latin-1,2000,"Extended ISO 8859-1 Latin-1 for Windows 3.0.
 PCL Symbol Set id: 9U","[Hewlett-Packard Company, ""HP PCL 5 Comparison Guide"",
 (P/N 5021-0329) pp B-13, 1996.]",csWindows30Latin1,

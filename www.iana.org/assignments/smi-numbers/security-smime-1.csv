@@ -45,5 +45,5 @@ Decimal,Description,References
 43,id-ct-sztpConveyedInfoJSON,[RFC8572]
 44,id-ct-cbor,[RFC8769]
 45,id-ct-cborSequence,[RFC8769]
-46,id-ct-animaCBORVoucher,[draft-ietf-anima-constrained-voucher]
+46,id-ct-animaCBORVoucher,[Reserved and Obsolete]
 47,id-ct-geofeedCSVwithCRLF,[draft-ymbk-opsawg-finding-geofeeds]

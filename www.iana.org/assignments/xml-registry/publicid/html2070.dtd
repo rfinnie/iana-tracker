@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2020-12-21</dd>
+      <dd>2021-01-06</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2192,7 +2192,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-module-tags.txt">ns/yang/ietf-module-tags.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-module-tags-10">RFC-ietf-netmod-module-tags-10</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8819">RFC8819</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-module-tags-state</td>
@@ -2200,7 +2200,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-module-tags-state.txt">ns/yang/ietf-module-tags-state.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-module-tags-10">RFC-ietf-netmod-module-tags-10</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8819">RFC8819</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-mpls</td>
