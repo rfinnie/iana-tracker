@@ -163,8 +163,8 @@ applications",,,
 144,GeoLoc,16,Geospatial Location with Uncertainty,[RFC6225]
 145,FORCERENEW_NONCE_CAPABLE,1,Forcerenew Nonce Capable,[RFC6704]
 146,RDNSS Selection,N,Information for selecting RDNSS,[RFC6731]
-147,OPTION_V4_DOTS_RI,N,The name of the peer DOTS agent.,[RFC-ietf-dots-server-discovery-15]
-148,OPTION_V4_DOTS_ADDRESS,N (the minimal length is 4),N/4 IPv4 addresses of peer DOTS agent(s).,[RFC-ietf-dots-server-discovery-15]
+147,OPTION_V4_DOTS_RI,N,The name of the peer DOTS agent.,[RFC8973]
+148,OPTION_V4_DOTS_ADDRESS,N (the minimal length is 4),N/4 IPv4 addresses of peer DOTS agent(s).,[RFC8973]
 149,Unassigned,,,[RFC3942]
 150,TFTP server address,,,[RFC5859]
 150,Etherboot,,,

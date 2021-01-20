@@ -140,7 +140,7 @@ Value,Description,Client ORO,Singleton Option,Reference
 138,OPTION_IA_LL,No,No,[RFC8947]
 139,OPTION_LLADDR,No,No,[RFC8947]
 140,OPTION_SLAP_QUAD,No,Yes,[RFC8948]
-141,OPTION_V6_DOTS_RI,Yes,Yes,[RFC-ietf-dots-server-discovery-15]
-142,OPTION_V6_DOTS_ADDRESS,Yes,Yes,[RFC-ietf-dots-server-discovery-15]
+141,OPTION_V6_DOTS_RI,Yes,Yes,[RFC8973]
+142,OPTION_V6_DOTS_ADDRESS,Yes,Yes,[RFC8973]
 143,OPTION-IPv6_Address-ANDSF,Yes,Yes,[RFC6153]
 144-65535,Unassigned,,,

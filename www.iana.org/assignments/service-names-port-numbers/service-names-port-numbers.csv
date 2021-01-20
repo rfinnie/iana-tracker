@@ -8709,11 +8709,11 @@ ventoso,4621,udp,Bidirectional single port remote radio VOIP and Control stream,
 dots-signal,4646,tcp,"DOTS Signal Channel Protocol.
       The service name is used to construct the SRV service names ""_dots-signal._udp"" and
       ""_dots-signal._tcp"" for discovering DOTS servers used to establish DOTS signal
-      channel.",[IESG],[IETF_Chair],2020-01-16,2020-11-19,[RFC8782][RFC-ietf-dots-server-discovery-15],,,
+      channel.",[IESG],[IETF_Chair],2020-01-16,2020-11-19,[RFC8782][RFC8973],,,
 dots-signal,4646,udp,"DOTS Signal Channel Protocol.
       The service name is used to construct the SRV service names ""_dots-signal._udp"" and
       ""_dots-signal._tcp"" for discovering DOTS servers used to establish DOTS signal
-      channel.",[IESG],[IETF_Chair],2020-01-16,2020-11-19,[RFC8782][RFC-ietf-dots-server-discovery-15],,,
+      channel.",[IESG],[IETF_Chair],2020-01-16,2020-11-19,[RFC8782][RFC8973],,,
 ,4647-4657,,Unassigned,,,,,,,,
 playsta2-app,4658,tcp,PlayStation2 App Port,,,,,,,,
 playsta2-app,4658,udp,PlayStation2 App Port,,,,,,,,
@@ -10529,12 +10529,12 @@ cleverdetect,6690,tcp,CLEVERDetect Message Service,[Applied_Expert_Systems_Inc],
 ,6690,udp,Reserved,,,,,,,,
 ,6691-6695,,Unassigned,,,,,,,,
 ,6696,tcp,Reserved,,,,,,,,
-babel,6696,udp,Babel Routing Protocol,,,,2011-08-15,[RFC-ietf-babel-rfc6126bis-20],,,
+babel,6696,udp,Babel Routing Protocol,,,,2011-08-15,[RFC8966],,,
 ircs-u,6697,tcp,Internet Relay Chat via TLS/SSL,,,2014-02-11,,[RFC7194],,,
 ,6697,udp,Reserved,,,2014-02-11,,,,,
 ,6698,,Unassigned,,,,,,,,
 ,6699,tcp,Reserved,,,,,,,,
-babel-dtls,6699,udp,Babel Routing Protocol over DTLS,[IESG],[IETF_Chair],2020-09-04,,[RFC-ietf-babel-dtls-10],,,
+babel-dtls,6699,udp,Babel Routing Protocol over DTLS,[IESG],[IETF_Chair],2020-09-04,,[RFC8968],,,
 ,6700,,Unassigned,,,2010-01-26,,,,,
 kti-icad-srvr,6701,tcp,KTI/ICAD Nameserver,[Stanley_Knutson],[Stanley_Knutson],,,,,,
 kti-icad-srvr,6701,udp,KTI/ICAD Nameserver,[Stanley_Knutson],[Stanley_Knutson],,,,,,
@@ -14079,14 +14079,14 @@ dop,,,Roar (Death of Productivity),[Massive_Flow_Product],[Massive_Flow_Product]
 dots-call-home,,tcp,"DOTS Signal Channel Call Home Protocol.
       The service name is used to construct the SRV service names ""_dots-call-home._udp""
       and ""_dots-call-home._tcp"" for discovering Call Home DOTS clients used to establish
-      DOTS signal channel call home.",[IESG],[IETF_Chair],2020-11-19,,[RFC-ietf-dots-server-discovery-15],,,Defined TXT keys: None
+      DOTS signal channel call home.",[IESG],[IETF_Chair],2020-11-19,,[RFC8973],,,Defined TXT keys: None
 dots-call-home,,udp,"DOTS Signal Channel Call Home Protocol.
       The service name is used to construct the SRV service names ""_dots-call-home._udp""
       and ""_dots-call-home._tcp"" for discovering Call Home DOTS clients used to establish
-      DOTS signal channel call home.",[IESG],[IETF_Chair],2020-11-19,,[RFC-ietf-dots-server-discovery-15],,,Defined TXT keys: None
+      DOTS signal channel call home.",[IESG],[IETF_Chair],2020-11-19,,[RFC8973],,,Defined TXT keys: None
 dots-data,,tcp,"DOTS Data Channel Protocol.
       The service name is used to construct the SRV service name ""_dots-data._tcp"" for
-      discovering DOTS servers used to establish DOTS data channel.",[IESG],[IETF_Chair],2020-11-19,,[RFC-ietf-dots-server-discovery-15],,,Defined TXT keys: None
+      discovering DOTS servers used to establish DOTS data channel.",[IESG],[IETF_Chair],2020-11-19,,[RFC8973],,,Defined TXT keys: None
 dropcopy,,,DropCopy,[base_t_Interactive],[base_t_Interactive],,,,,,Defined TXT keys: None
 dsgsync,,,Datacolor SpyderGallery Desktop Sync Protocol,[Datacolor],[Heath_Barber],2011-10-14,,,,,Defined TXT keys: Proprietary
 dsl-sync,,,Data Synchronization Protocol for Discovery Software products,[John_Hogg],[John_Hogg],,,,,,Defined TXT keys: Proprietary

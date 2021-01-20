@@ -1,8 +1,8 @@
 AE,Name,Reference
-0,Wildcard address,[RFC-ietf-babel-rfc6126bis-20]
-1,IPv4 address,[RFC-ietf-babel-rfc6126bis-20]
-2,IPv6 address,[RFC-ietf-babel-rfc6126bis-20]
-3,Link-local IPv6 address,[RFC-ietf-babel-rfc6126bis-20]
+0,Wildcard address,[RFC8966]
+1,IPv4 address,[RFC8966]
+2,IPv6 address,[RFC8966]
+3,Link-local IPv6 address,[RFC8966]
 4-223,Unassigned,
-224-254,Reserved for Experimental Use,[RFC-ietf-babel-rfc6126bis-20]
-255,Reserved for expansion of the AE type space,[RFC-ietf-babel-rfc6126bis-20]
+224-254,Reserved for Experimental Use,[RFC8966]
+255,Reserved for expansion of the AE type space,[RFC8966]

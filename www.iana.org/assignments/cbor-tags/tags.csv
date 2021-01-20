@@ -97,7 +97,8 @@ Tag,Data Item,Semantics,Reference
 273,byte string,Non-UTF-8 WTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala]
 274,byte string,Non-UTF-8 MUTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala]
 275,map (major type 5),Map contains only keys that are of type Text String (major type 3),[https://github.com/ecorm/cbor-tag-text-key-map][Emile_Cormier]
-276-1000,Unassigned,,
+276,byte string,ERIS binary read capability,[http://purl.org/eris]
+277-1000,Unassigned,,
 1001,map,extended time,[draft-bormann-cbor-time-tag-01]
 1002,map,duration,[draft-bormann-cbor-time-tag-01]
 1003,map,period,[draft-bormann-cbor-time-tag-01]

@@ -35,7 +35,7 @@ Decimal,Description,References
 33,id-ct-rpkiTrustAnchor,[Reserved and Obsolete]
 34,id-ct-trustAnchorList,[RFC5914]
 35,id-ct-rpkiGhostbusters,[RFC6493]
-36,id-ct-resourceTaggedAttest,[Reserved and Obsolete]
+36,id-ct-resourceTaggedAttest,[draft-michaelson-rpki-rta]
 37,id-ct-utf8TextWithCRLF,[RFC8358]
 38,id-ct-htmlWithCRLF,[RFC8358]
 39,id-ct-epub,[RFC8358]
