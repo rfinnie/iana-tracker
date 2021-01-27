@@ -1,5 +1,5 @@
 Value,Name,Reference
-0,AESKW128,[RFC-ietf-perc-srtp-ekt-diet-13]
-1,AESKW256,[RFC-ietf-perc-srtp-ekt-diet-13]
+0,AESKW128,[RFC8870]
+1,AESKW256,[RFC8870]
 2-254,Unassigned,
-255,Reserved,[RFC-ietf-perc-srtp-ekt-diet-13]
+255,Reserved,[RFC8870]

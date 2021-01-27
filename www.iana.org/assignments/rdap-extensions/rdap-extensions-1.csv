@@ -5,14 +5,14 @@ cidr0,Various RIRs under the NRO,[https://bitbucket.org/nroecg/nro-rdap-cidr/src
 fred,[CZ.NIC_z._s._p._o.],[https://fred.nic.cz/rdap-extension/],[Jaromir_Talir],FRED is open source domain registry system that includes RDAP server. This RDAP server provides some extended features defined in specification.
 icann_rdap_response_profile_0,ICANN,[https://www.icann.org/gtld-rdap-profile],[ICANN],COMMON
 icann_rdap_technical_implementation_guide_0,ICANN,[https://www.icann.org/gtld-rdap-profile],[ICANN],COMMON
-paging,Any,[RFC-ietf-regext-rdap-sorting-and-paging-20],[IETF],"This extension describes best practice for result
+paging,Any,[RFC8977],[IETF],"This extension describes a best practice for result
       set paging."
 platformNS,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/platformNS.md],[Gavin_Brown],COMMON
 rdap_objectTag,Any,[RFC8521],[IESG],"This extension describes a best practice for
         structuring entity identifiers to enable query bootstrapping."
 redirect_with_content,Any,[https://raw.githubusercontent.com/APNIC-net/rdap-redirect-with-content/v1/apnic-rdap-redirect-with-content.txt],[Tom_Harrison],COMMON
 regType,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/regtype.md],[Gavin_Brown],COMMON
-sorting,Any,[RFC-ietf-regext-rdap-sorting-and-paging-20],[IETF],"This extension describes best practice for result
+sorting,Any,[RFC8977],[IETF],"This extension describes a best practice for result
       set sorting."
 subsetting,Any,[RFC-ietf-regext-rdap-partial-response-16],[IETF],"This extension describes best practice for partial
       response provisioning."

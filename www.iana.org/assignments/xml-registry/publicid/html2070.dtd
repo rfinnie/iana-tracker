@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-01-06</dd>
+      <dd>2021-01-21</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -192,7 +192,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/clue-info.txt">ns/clue-info.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-clue-data-model-schema-17">RFC-ietf-clue-data-model-schema-17</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8846">RFC8846</a>]</td>
         </tr>
         <tr>
           <td>clue-protocol</td>
@@ -200,7 +200,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/clue-protocol.txt">ns/clue-protocol.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-clue-protocol-19">RFC-ietf-clue-protocol-19</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8847">RFC8847</a>]</td>
         </tr>
         <tr>
           <td>common-policy</td>
@@ -2766,7 +2766,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/clue-info.xsd">schema/clue-info.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-clue-data-model-schema-17">RFC-ietf-clue-data-model-schema-17</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8846">RFC8846</a>]</td>
         </tr>
         <tr>
           <td>clue-protocol</td>
@@ -2774,7 +2774,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/clue-protocol.xsd">schema/clue-protocol.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-clue-protocol-19">RFC-ietf-clue-protocol-19</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8847">RFC8847</a>]</td>
         </tr>
         <tr>
           <td>common-policy</td>

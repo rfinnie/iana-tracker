@@ -242,6 +242,6 @@ CBOR Sequence,+cbor-seq,[RFC8742],binary,n/a,"The syntax and semantics of
 		  identifier does not resolve per the +cbor-seq rules, then
 		  process as specified in ""xxx/yyy+cbor-seq"". For cases not defined in +cbor-seq, then process as
 		  specified in ""xxx/yyy+cbor-seq"".","See [RFC8742], Section 5",[CBOR_WG_mailing_list],[IETF],2019-10-10,
-Zstandard,+zstd,[RFC-kucherawy-rfc8478bis-05],binary,N/A,"The syntax and semantics of
+Zstandard,+zstd,[RFC-kucherawy-rfc8478bis-06],binary,N/A,"The syntax and semantics of
           fragment identifiers specified for +zstd should be as specified
-          for ""application/zstd"".",See Section 8 of [RFC-kucherawy-rfc8478bis-05].,Refer to the author for the 'application/zstd' media type.,[IETF],2020-05-19,
+          for ""application/zstd"".",See Section 8 of [RFC-kucherawy-rfc8478bis-06].,Refer to the author for the 'application/zstd' media type.,[IETF],2020-05-19,

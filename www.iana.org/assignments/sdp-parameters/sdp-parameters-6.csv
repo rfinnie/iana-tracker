@@ -1,5 +1,5 @@
 Type,SDP Name,Reference
-enckey,clear,[RFC-ietf-mmusic-rfc4566bis-37]
-enckey,base64,[RFC-ietf-mmusic-rfc4566bis-37]
-enckey,uri,[RFC-ietf-mmusic-rfc4566bis-37]
-enckey,prompt,[RFC-ietf-mmusic-rfc4566bis-37]
+enckey,clear,[RFC8866]
+enckey,base64,[RFC8866]
+enckey,uri,[RFC8866]
+enckey,prompt,[RFC8866]

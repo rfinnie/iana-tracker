@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="websocket">
   <title>WebSocket Protocol Registries</title>
   <created>2011-10-21</created>
-  <updated>2020-11-06</updated>
+  <updated>2021-01-22</updated>
 
   <registry id="extension-name">
     <title>WebSocket Extension Name Registry</title>
@@ -32,7 +32,7 @@
     <registration_rule>First Come First Served</registration_rule>
     <xref type="rfc" data="rfc6455"/>
     <xref type="rfc" data="rfc7936"/>
-    <xref type="draft" data="RFC-ietf-mmusic-data-channel-sdpneg-28"/>
+    <xref type="rfc" data="rfc8864"/>
     <note>Please see Section 2 of <xref type="rfc" data="rfc7936"/>, which clarifies that registrations 
 which differ from existing registrations only by case will be refused.
     </note>
@@ -195,7 +195,7 @@ within a WebRTC data channel.
       <common>WebSocket Transport for MSRP (Message Session Relay Protocol)</common>
       <definition><xref type="rfc" data="rfc7977"/></definition>
       <xref type="rfc" data="rfc7977"/>
-      <xref type="draft" data="RFC-ietf-mmusic-msrp-usage-data-channel-23"/>
+      <xref type="rfc" data="rfc8873"/>
     </record>
     <record date="2016-09-06">
       <id>v1.saltyrtc.org</id>
@@ -213,8 +213,8 @@ within a WebRTC data channel.
     <record date="2017-02-16">
       <id>bfcp</id>
       <common>WebSocket Transport for BFCP (Binary Floor Control Protocol)</common>
-      <definition><xref type="draft" data="RFC-ietf-bfcpbis-bfcp-websocket-15"/></definition>
-      <xref type="draft" data="RFC-ietf-bfcpbis-bfcp-websocket-15"/>
+      <definition><xref type="rfc" data="rfc8857"/></definition>
+      <xref type="rfc" data="rfc8857"/>
     </record>
     <record date="2017-04-07">
       <id>sldp.softvelum.com</id>
@@ -314,8 +314,8 @@ within a WebRTC data channel.
     <record date="2019-04-23">
       <id>clue</id>
       <common>clue</common>
-      <definition><xref type="draft" data="RFC-ietf-clue-datachannel-18"/></definition>
-      <xref type="draft" data="RFC-ietf-clue-datachannel-18"/>
+      <definition><xref type="rfc" data="rfc8850"/></definition>
+      <xref type="rfc" data="rfc8850"/>
     </record>
     <record date="2019-05-09" updated="2019-05-13">
       <id>webrtc.softvelum.com</id>
@@ -360,8 +360,8 @@ within a WebRTC data channel.
     <record date="2020-04-14">
       <id>t140</id>
       <common>ITU-T T.140 Real-Time Text</common>
-      <definition><xref type="draft" data="RFC-ietf-mmusic-t140-usage-data-channel-14"/></definition>
-      <xref type="draft" data="RFC-ietf-mmusic-t140-usage-data-channel-14"/>
+      <definition><xref type="rfc" data="rfc8865"/></definition>
+      <xref type="rfc" data="rfc8865"/>
     </record>
     <record date="2020-04-27">
       <id>done</id>

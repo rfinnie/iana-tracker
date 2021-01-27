@@ -1,6 +1,6 @@
 Value,Message Type,Reference
-0,Short,[RFC-ietf-perc-srtp-ekt-diet-13]
+0,Short,[RFC8870]
 1,Unassigned,
-2,Full,[RFC-ietf-perc-srtp-ekt-diet-13]
+2,Full,[RFC8870]
 3-254,Unassigned,
-255,Reserved,[RFC-ietf-perc-srtp-ekt-diet-13]
+255,Reserved,[RFC8870]

@@ -1,5 +1,5 @@
 Value,Description,Mux Category,Reference
-callerid,Caller ID,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-19]
-uuie,User-User Information Element,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-19]
-dtmf,Dual-tone Multi-Frequency,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-19]
-external,External,TBD,[RFC7195][RFC-ietf-mmusic-sdp-mux-attributes-19]
+callerid,Caller ID,TBD,[RFC7195][RFC8859]
+uuie,User-User Information Element,TBD,[RFC7195][RFC8859]
+dtmf,Dual-tone Multi-Frequency,TBD,[RFC7195][RFC8859]
+external,External,TBD,[RFC7195][RFC8859]

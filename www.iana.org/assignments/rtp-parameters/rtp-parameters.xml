@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="rtp-parameters.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="rtp-parameters">
   <title>Real-Time Transport Protocol (RTP) Parameters</title>
-  <updated>2020-11-19</updated>
+  <updated>2021-01-25</updated>
   
   <registry id="rtp-parameters-1">
     <title>RTP Payload Types (PT) for standard audio and video encodings - Closed</title>
@@ -1199,7 +1199,7 @@ Applications in Local Area Networks." Work in progress.</xref>
       <value>212</value>
       <abbrev>RGRS</abbrev>
       <name>Reporting Group Reporting Sources</name>
-      <xref type="draft" data="RFC-ietf-avtcore-rtp-multi-stream-optimisation-12"/>
+      <xref type="rfc" data="rfc8861"/>
     </record>
     <record date="2016-08-09">
       <value>213</value>
@@ -1297,31 +1297,31 @@ SDES control packet.  This list maintains and extends that list.
       <value>11</value>
       <abbrev>RGRP</abbrev>
       <name>Reporting Group Identifier</name>
-      <xref type="draft" data="RFC-ietf-avtcore-rtp-multi-stream-optimisation-12"/>
+      <xref type="rfc" data="rfc8861"/>
     </record>
     <record date="2016-10-20">
       <value>12</value>
       <abbrev>RtpStreamId</abbrev>
       <name>RTP Stream Identifier</name>
-      <xref type="draft" data="RFC-ietf-avtext-rid-09"/>
+      <xref type="rfc" data="rfc8852"/>
     </record>
     <record date="2016-10-20">
       <value>13</value>
       <abbrev>RepairedRtpStreamId</abbrev>
       <name>Repaired RTP Stream Identifier</name>
-      <xref type="draft" data="RFC-ietf-avtext-rid-09"/>
+      <xref type="rfc" data="rfc8852"/>
     </record>
     <record date="2017-03-03">
       <value>14</value>
       <abbrev>CCID</abbrev>
       <name>CLUE CaptId</name>
-      <xref type="draft" data="RFC-ietf-clue-rtp-mapping-14"/>
+      <xref type="rfc" data="rfc8849"/>
     </record>
     <record date="2018-06-18">
       <value>15</value>
       <abbrev>MID</abbrev>
       <name>Media Identification</name>
-      <xref type="draft" data="RFC-ietf-mmusic-sdp-bundle-negotiation-52"/>
+      <xref type="rfc" data="rfc8843"/>
     </record>
     <record>
       <value>16-255</value>
@@ -1464,7 +1464,7 @@ SDES control packet.  This list maintains and extends that list.
       <value>11</value>
       <name>CCFB</name>
       <long_name>RTP Congestion Control Feedback</long_name>
-      <xref type="draft" data="RFC-ietf-avtcore-cc-feedback-message-09"/>
+      <xref type="rfc" data="rfc8888"/>
     </record>
     <record>
       <value>12-30</value>
@@ -1678,25 +1678,25 @@ for the sent video, see clause 6.2.3.4</description>
       <name>urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id</name>
       <description>RTP Stream Identifier</description>
       <contact><xref type="person" data="Adam_Roach"/></contact>
-      <xref type="draft" data="RFC-ietf-avtext-rid-09"/>
+      <xref type="rfc" data="rfc8852"/>
     </record>
     <record date="2016-10-20">
       <name>urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id</name>
       <description>RTP Repaired Stream Identifier</description>
       <contact><xref type="person" data="Adam_Roach"/></contact>
-      <xref type="draft" data="RFC-ietf-avtext-rid-09"/>
+      <xref type="rfc" data="rfc8852"/>
     </record>
     <record date="2017-03-03">
       <name>urn:ietf:params:rtp-hdrext:sdes:CaptId</name>
       <description>CLUE CaptId</description>
       <contact><xref type="person" data="Roni_Even"/></contact>
-      <xref type="draft" data="RFC-ietf-clue-rtp-mapping-14"/>
+      <xref type="rfc" data="rfc8849"/>
     </record>
     <record date="2018-06-18">
       <name>urn:ietf:params:rtp-hdrext:sdes:mid</name>
       <description>Media identification</description>
       <contact><xref type="person" data="IESG"/></contact>
-      <xref type="draft" data="RFC-ietf-mmusic-sdp-bundle-negotiation-52"/>
+      <xref type="rfc" data="rfc8843"/>
     </record>
   </registry>
   
@@ -2076,13 +2076,13 @@ has been denied</description>
   
   <registry id="rtp-ekt-message-types">
     <title>EKT Message Types</title>
-    <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    <xref type="rfc" data="rfc8870"/>
     <registration_rule>Specification Required</registration_rule>
     <expert>Unassigned</expert>
     <record date="2020-06-26">
       <value>0</value>
       <description>Short</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
     <record>
       <value>1</value>
@@ -2091,7 +2091,7 @@ has been denied</description>
     <record date="2020-06-26">
       <value>2</value>
       <description>Full</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
     
     <record>
@@ -2101,24 +2101,24 @@ has been denied</description>
     <record date="2020-06-26">
       <value>255</value>
       <description>Reserved</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
   </registry>
   
   <registry id="rtp-ekt-ciphers">
     <title>EKT Ciphers</title>
-    <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+    <xref type="rfc" data="rfc8870"/>
     <registration_rule>Specification Required</registration_rule>
     <expert>Unassigned</expert>
     <record date="2020-06-26">
       <value>0</value>
       <description>AESKW128</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
     <record date="2020-06-26">
       <value>1</value>
       <description>AESKW256</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
     <record>
       <value>2-254</value>
@@ -2127,7 +2127,7 @@ has been denied</description>
     <record date="2020-06-26">
       <value>255</value>
       <description>Reserved</description>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
   </registry>
   

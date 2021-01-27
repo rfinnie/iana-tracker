@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2020-12-10</updated>
+  <updated>2021-01-22</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -314,12 +314,12 @@ limited applicability, or is intended only for specific use cases.
       <rec>N</rec>
       <xref type="uri" data="https://docbox.etsi.org/CYBER/CYBER/Open/Latest_Drafts/CYBER-0027-2v020-TLMSP-Transport-Layer-Middlebox-Security-Protocol.pdf">ETSI TS 103 523-2</xref>
     </record>
-    <record updated="2020-06-26">
+    <record updated="2021-01-22">
       <value>39</value>
       <name>supported_ekt_ciphers</name>
-      <tls13>CH, SH</tls13>
+      <tls13>CH, EE</tls13>
       <rec>Y</rec>
-      <xref type="draft" data="RFC-ietf-perc-srtp-ekt-diet-13"/>
+      <xref type="rfc" data="rfc8870"/>
     </record>
     <record>
       <value>40</value>
@@ -426,14 +426,14 @@ limited applicability, or is intended only for specific use cases.
       <name>external_id_hash</name>
       <tls13>CH, EE</tls13>
       <rec>Y</rec>
-      <xref type="draft" data="RFC-ietf-mmusic-sdp-uks-07"/>
+      <xref type="rfc" data="rfc8844"/>
     </record>
     <record date="2019-08-16">
       <value>56</value>
       <name>external_session_id</name>
       <tls13>CH, EE</tls13>
       <rec>Y</rec>
-      <xref type="draft" data="RFC-ietf-mmusic-sdp-uks-07"/>
+      <xref type="rfc" data="rfc8844"/>
     </record>
       <record date="2020-12-10">
       <value>57</value>
@@ -897,12 +897,12 @@ described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
     <record date="2016-05-13">
       <value>WebRTC Media and Data</value>
       <description>0x77 0x65 0x62 0x72 0x74 0x63 ("webrtc")</description>
-      <xref type="draft" data="RFC-ietf-rtcweb-alpn-04"/>
+      <xref type="rfc" data="rfc8833"/>
     </record>
     <record date="2016-05-13">
       <value>Confidential WebRTC Media and Data</value>
       <description>0x63 0x2d 0x77 0x65 0x62 0x72 0x74 0x63 ("c-webrtc")</description>
-      <xref type="draft" data="RFC-ietf-rtcweb-alpn-04"/>
+      <xref type="rfc" data="rfc8833"/>
     </record>
     <record date="2016-05-17">
       <value>FTP</value>

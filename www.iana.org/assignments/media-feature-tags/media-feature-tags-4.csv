@@ -148,4 +148,4 @@ Server for the purpose of an RS.",[RFC7866]
         applications, protocols, services, or negotiation mechanisms:
         This feature tag is most useful in a communications application for
         describing the capabilities of a device to use the CLUE control
-        protocol to negotiate the use of multiple media streams.",[RFC-ietf-clue-signaling-15]
+        protocol to negotiate the use of multiple media streams.",[RFC8848]

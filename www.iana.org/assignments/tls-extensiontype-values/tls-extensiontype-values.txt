@@ -4,7 +4,7 @@
            2005-11-15
 
    Last Updated
-           2020-12-10
+           2021-01-22
 
    Available Formats
            [IMG]
@@ -112,7 +112,7 @@ TLS ExtensionType Values
    36          TLMSP                                                                    -           N           [ETSI TS 103 523-2]
    37          TLMSP_proxying                                                           -           N           [ETSI TS 103 523-2]
    38          TLMSP_delegate                                                           -           N           [ETSI TS 103 523-2]
-   39          supported_ekt_ciphers                                                    CH, SH      Y           [RFC-ietf-perc-srtp-ekt-diet-13]
+   39          supported_ekt_ciphers                                                    CH, EE      Y           [RFC8870]
    40          Unassigned
    41          pre_shared_key                                                           CH, SH      Y           [RFC8446]
    42          early_data                                                               CH, EE, NST Y           [RFC8446]
@@ -129,8 +129,8 @@ TLS ExtensionType Values
    53          connection_id (TEMPORARY - registered 2019-07-02, extension registered   -           N           [draft-ietf-tls-dtls-connection-id]
                2020-07-28, expires 2021-07-02)
    54          Unassigned
-   55          external_id_hash                                                         CH, EE      Y           [RFC-ietf-mmusic-sdp-uks-07]
-   56          external_session_id                                                      CH, EE      Y           [RFC-ietf-mmusic-sdp-uks-07]
+   55          external_id_hash                                                         CH, EE      Y           [RFC8844]
+   56          external_session_id                                                      CH, EE      Y           [RFC8844]
    57          quic_transport_parameters                                                CH, EE      N           [draft-ietf-quic-tls-32]
    58-2569     Unassigned
    2570        Reserved                                                                 CH, CR, NST N           [RFC8701]
@@ -295,8 +295,8 @@ TLS Application-Layer Protocol Negotiation (ALPN) Protocol IDs
    (STUN)                          ("stun.nat-discovery")
    HTTP/2 over TLS                 0x68 0x32 ("h2")                               [RFC7540]
    HTTP/2 over TCP                 0x68 0x32 0x63 ("h2c")                         [1][RFC7540]
-   WebRTC Media and Data           0x77 0x65 0x62 0x72 0x74 0x63 ("webrtc")       [RFC-ietf-rtcweb-alpn-04]
-   Confidential WebRTC Media and   0x63 0x2d 0x77 0x65 0x62 0x72 0x74 0x63        [RFC-ietf-rtcweb-alpn-04]
+   WebRTC Media and Data           0x77 0x65 0x62 0x72 0x74 0x63 ("webrtc")       [RFC8833]
+   Confidential WebRTC Media and   0x63 0x2d 0x77 0x65 0x62 0x72 0x74 0x63        [RFC8833]
    Data                            ("c-webrtc")
    FTP                             0x66 0x74 0x70 ("ftp")                         [RFC959][RFC4217]
    IMAP                            0x69 0x6d 0x61 0x70 ("imap")                   [RFC2595]

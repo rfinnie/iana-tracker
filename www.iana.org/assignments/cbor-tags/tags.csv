@@ -1,119 +1,122 @@
-Tag,Data Item,Semantics,Reference
-0,text string,Standard date/time string; see Section 3.4.1,[RFC8949]
-1,integer or float,Epoch-based date/time; see Section 3.4.2,[RFC8949]
-2,byte string,Positive bignum; see Section 3.4.3,[RFC8949]
-3,byte string,Negative bignum; see Section 3.4.3,[RFC8949]
-4,array,Decimal fraction; see Section 3.4.4,[RFC8949]
-5,array,Bigfloat; see Section 3.4.4,[RFC8949]
-6-15,Unassigned,,
-16,COSE_Encrypt0,COSE Single Recipient Encrypted Data Object,[RFC8152]
-17,COSE_Mac0,COSE Mac w/o Recipients Object,[RFC8152]
-18,COSE_Sign1,COSE Single Signer Data Object,[RFC8152]
-19-20,Unassigned,,
-21,(any),Expected conversion to base64url encoding; see Section 3.4.5.2,[RFC8949]
-22,(any),Expected conversion to base64 encoding; see Section 3.4.5.2,[RFC8949]
-23,(any),Expected conversion to base16 encoding; see Section Section 3.4.5.2,[RFC8949]
-24,byte string,Encoded CBOR data item; see Section 3.4.5.1,[RFC8949]
-25,unsigned integer,reference the nth previously seen string,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann]
-26,array,Serialised Perl object with classname and constructor arguments,[http://cbor.schmorp.de/perl-object][Marc_A._Lehmann]
-27,array,Serialised language-independent object with type name and constructor arguments,[http://cbor.schmorp.de/generic-object][Marc_A._Lehmann]
-28,multiple,mark value as (potentially) shared,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann]
-29,unsigned integer,reference nth marked value,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann]
-30,array,Rational number,[http://peteroupc.github.io/CBOR/rational.html][Peter_Occil]
-31,Undefined (0xf7),Absent value in a CBOR Array,[https://github.com/svaarala/cbor-specs/blob/master/cbor-absent-tag.rst][Sami_Vaarala]
-32,text string,URI; see Section 3.4.5.3,[RFC8949]
-33,text string,base64url; see Section 3.4.5.3,[RFC8949]
-34,text string,base64; see Section 3.4.5.3,[RFC8949]
-35,UTF-8 string,Regular expression; see Section 2.4.4.3,[RFC7049]
-36,text string,MIME message; see Section 3.4.5.3,[RFC8949]
-37,byte string,Binary UUID ([RFC4122] section 4.1.2),[https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
-38,array,Language-tagged string,[http://peteroupc.github.io/CBOR/langtags.html][Peter_Occil]
-39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
-40,array of two arrays [1],"Multi-dimensional Array, row-major order",[RFC8746]
-41,array,Homogeneous Array,[RFC8746]
-42,byte string,IPLD content identifier,[https://github.com/ipld/cid-cbor/][Volker_Mische]
-43,byte string,YANG bits datatype; see Section 6.7.,[draft-ietf-core-yang-cbor]
-44,unsigned integer,YANG enumeration datatype; see Section 6.6.,[draft-ietf-core-yang-cbor]
-45,unsigned integer or text string,YANG identityref datatype; see Section 6.10.,[draft-ietf-core-yang-cbor]
-46,unsigned integer or text string or array,YANG instance-identifier datatype; see Section 6.13.,[draft-ietf-core-yang-cbor]
-47,unsigned integer,YANG Schema Item iDentifier (sid); see Section 3.2.,[draft-ietf-core-yang-cbor]
-48-60,Unassigned,,
-61,CBOR Web Token (CWT),CBOR Web Token (CWT),[RFC8392][Michael_B._Jones]
-62,Unassigned,,
-63,byte string,Encoded CBOR Sequence [RFC8742],"[draft-bormann-cbor-notable-tags-02, Section 2.1]"
-64,byte string,uint8 Typed Array,[RFC8746]
-65,byte string,"uint16, big endian, Typed Array",[RFC8746]
-66,byte string,"uint32, big endian, Typed Array",[RFC8746]
-67,byte string,"uint64, big endian, Typed Array",[RFC8746]
-68,byte string,"uint8 Typed Array, clamped arithmetic",[RFC8746]
-69,byte string,"uint16, little endian, Typed Array",[RFC8746]
-70,byte string,"uint32, little endian, Typed Array",[RFC8746]
-71,byte string,"uint64, little endian, Typed Array",[RFC8746]
-72,byte string,sint8 Typed Array,[RFC8746]
-73,byte string,"sint16, big endian, Typed Array",[RFC8746]
-74,byte string,"sint32, big endian, Typed Array",[RFC8746]
-75,byte string,"sint64, big endian, Typed Array",[RFC8746]
-76,byte string,(reserved),[RFC8746]
-77,byte string,"sint16, little endian, Typed Array",[RFC8746]
-78,byte string,"sint32, little endian, Typed Array",[RFC8746]
-79,byte string,"sint64, little endian, Typed Array",[RFC8746]
-80,byte string,"IEEE 754 binary16, big endian, Typed Array",[RFC8746]
-81,byte string,"IEEE 754 binary32, big endian, Typed Array",[RFC8746]
-82,byte string,"IEEE 754 binary64, big endian, Typed Array",[RFC8746]
-83,byte string,"IEEE 754 binary128, big endian, Typed Array",[RFC8746]
-84,byte string,"IEEE 754 binary16, little endian, Typed Array",[RFC8746]
-85,byte string,"IEEE 754 binary32, little endian, Typed Array",[RFC8746]
-86,byte string,"IEEE 754 binary64, little endian, Typed Array",[RFC8746]
-87,byte string,"IEEE 754 binary128, little endian, Typed Array",[RFC8746]
-88-95,Unassigned,,
-96,COSE_Encrypt,COSE Encrypted Data Object,[RFC8152]
-97,COSE_Mac,COSE MACed Data Object,[RFC8152]
-98,COSE_Sign,COSE Signed Data Object,[RFC8152]
-99,Unassigned,,
-100,Unsigned or negative integer,Number of days since the epoch date 1970-01-01,[RFC8943]
-101-102,Unassigned,,
-103,array,Geographic Coordinates,[https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag103-Geographic-Coordinates.md][Danilo_Vidovic]
-104,multiple,Geographic Coordinate Reference System WKT or EPSG number,[draft-clarke-cbor-crs]
-105-119,Unassigned,,
-120,multiple,Internet of Things Data Point,[https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag120-Internet-of-Things-Data-Points.md][Danilo_Vidovic]
-121-255,Unassigned,,
-256,multiple,mark value as having string references,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann]
-257,byte string,Binary MIME message,[http://peteroupc.github.io/CBOR/binarymime.html][Peter_Occil]
-258,array,Mathematical finite set,[https://github.com/input-output-hk/cbor-sets-spec/blob/master/CBOR_SETS.md][Alfredo_Di_Napoli]
-259,map,Map datatype with key-value operations (e.g. `.get()/.set()/.delete()`),[https://github.com/shanewholloway/js-cbor-codec/blob/master/docs/CBOR-259-spec--explicit-maps.md][Shane_Holloway]
-260,byte string,Network Address (IPv4 or IPv6 or MAC Address),[http://www.employees.org/~ravir/cbor-network.txt][Ravi_Raju]
-261,map (IPAddress + Mask Length),Network Address Prefix (IPv4 or IPv6 Address + Mask Length),[https://github.com/toravir/CBOR-Tag-Specs/blob/master/networkPrefix.md][Ravi_Raju]
-262,byte string,Embedded JSON Object,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/embeddedJSON.md][Ravi_Raju]
-263,byte string,Hexadecimal string,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/hexString.md][Ravi_Raju]
-264,array,Decimal fraction with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
-265,array,Bigfloat with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil]
-266,text string,Internationalized resource identifier (IRI),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil]
-267,text string,Internationalized resource identifier reference (IRI reference),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil]
-268,array,Extended decimal fraction,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
-269,array,Extended bigfloat,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
-270,array,Extended rational number,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil]
-271,DDoS Open Threat Signaling (DOTS) signal channel object,"DDoS Open Threat Signaling (DOTS) signal channel object, as defined in [RFC8782]",[RFC8782]
-272,byte string,Non-UTF-8 CESU-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala]
-273,byte string,Non-UTF-8 WTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala]
-274,byte string,Non-UTF-8 MUTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala]
-275,map (major type 5),Map contains only keys that are of type Text String (major type 3),[https://github.com/ecorm/cbor-tag-text-key-map][Emile_Cormier]
-276,byte string,ERIS binary read capability,[http://purl.org/eris]
-277-1000,Unassigned,,
-1001,map,extended time,[draft-bormann-cbor-time-tag-01]
-1002,map,duration,[draft-bormann-cbor-time-tag-01]
-1003,map,period,[draft-bormann-cbor-time-tag-01]
-1004,UTF-8 text string,[RFC3339] full-date string,[RFC8943]
-1005-1039,Unassigned,,
-1040,array of two arrays [1],"Multi-dimensional Array, column-major order",[RFC8746]
-1041-22097,Unassigned,,
-22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann]
-22099-55798,Unassigned,,
-55799,(any),Self-described CBOR; see Section 3.4.6,[RFC8949]
-55800-65534,Unassigned,,
-65535,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]"
-65536-15309735,Unassigned,,
-15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell]
-15309737-4294967294,Unassigned,,
-4294967295,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]"
-4294967296-18446744073709551614,Unassigned,,
-18446744073709551615,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]"
+Tag,Data Item,Semantics,Reference,Template
+0,text string,Standard date/time string; see Section 3.4.1,[RFC8949],
+1,integer or float,Epoch-based date/time; see Section 3.4.2,[RFC8949],
+2,byte string,Positive bignum; see Section 3.4.3,[RFC8949],
+3,byte string,Negative bignum; see Section 3.4.3,[RFC8949],
+4,array,Decimal fraction; see Section 3.4.4,[RFC8949],
+5,array,Bigfloat; see Section 3.4.4,[RFC8949],
+6-15,Unassigned,,,
+16,COSE_Encrypt0,COSE Single Recipient Encrypted Data Object,[RFC8152],
+17,COSE_Mac0,COSE Mac w/o Recipients Object,[RFC8152],
+18,COSE_Sign1,COSE Single Signer Data Object,[RFC8152],
+19-20,Unassigned,,,
+21,(any),Expected conversion to base64url encoding; see Section 3.4.5.2,[RFC8949],
+22,(any),Expected conversion to base64 encoding; see Section 3.4.5.2,[RFC8949],
+23,(any),Expected conversion to base16 encoding; see Section Section 3.4.5.2,[RFC8949],
+24,byte string,Encoded CBOR data item; see Section 3.4.5.1,[RFC8949],
+25,unsigned integer,reference the nth previously seen string,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann],
+26,array,Serialised Perl object with classname and constructor arguments,[http://cbor.schmorp.de/perl-object][Marc_A._Lehmann],
+27,array,Serialised language-independent object with type name and constructor arguments,[http://cbor.schmorp.de/generic-object][Marc_A._Lehmann],
+28,multiple,mark value as (potentially) shared,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann],
+29,unsigned integer,reference nth marked value,[http://cbor.schmorp.de/value-sharing][Marc_A._Lehmann],
+30,array,Rational number,[http://peteroupc.github.io/CBOR/rational.html][Peter_Occil],
+31,Undefined (0xf7),Absent value in a CBOR Array,[https://github.com/svaarala/cbor-specs/blob/master/cbor-absent-tag.rst][Sami_Vaarala],
+32,text string,URI; see Section 3.4.5.3,[RFC8949],
+33,text string,base64url; see Section 3.4.5.3,[RFC8949],
+34,text string,base64; see Section 3.4.5.3,[RFC8949],
+35,UTF-8 string,Regular expression; see Section 2.4.4.3,[RFC7049],
+36,text string,MIME message; see Section 3.4.5.3,[RFC8949],
+37,byte string,Binary UUID ([RFC4122] section 4.1.2),[https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente],
+38,array,Language-tagged string,[http://peteroupc.github.io/CBOR/langtags.html][Peter_Occil],
+39,multiple,Identifier,[https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente],
+40,array of two arrays [1],"Multi-dimensional Array, row-major order",[RFC8746],
+41,array,Homogeneous Array,[RFC8746],
+42,byte string,IPLD content identifier,[https://github.com/ipld/cid-cbor/][Volker_Mische],
+43,byte string,YANG bits datatype; see Section 6.7.,[draft-ietf-core-yang-cbor],
+44,unsigned integer,YANG enumeration datatype; see Section 6.6.,[draft-ietf-core-yang-cbor],
+45,unsigned integer or text string,YANG identityref datatype; see Section 6.10.,[draft-ietf-core-yang-cbor],
+46,unsigned integer or text string or array,YANG instance-identifier datatype; see Section 6.13.,[draft-ietf-core-yang-cbor],
+47,unsigned integer,YANG Schema Item iDentifier (sid); see Section 3.2.,[draft-ietf-core-yang-cbor],
+48-60,Unassigned,,,
+61,CBOR Web Token (CWT),CBOR Web Token (CWT),[RFC8392][Michael_B._Jones],
+62,Unassigned,,,
+63,byte string,Encoded CBOR Sequence [RFC8742],"[draft-bormann-cbor-notable-tags-02, Section 2.1]",
+64,byte string,uint8 Typed Array,[RFC8746],
+65,byte string,"uint16, big endian, Typed Array",[RFC8746],
+66,byte string,"uint32, big endian, Typed Array",[RFC8746],
+67,byte string,"uint64, big endian, Typed Array",[RFC8746],
+68,byte string,"uint8 Typed Array, clamped arithmetic",[RFC8746],
+69,byte string,"uint16, little endian, Typed Array",[RFC8746],
+70,byte string,"uint32, little endian, Typed Array",[RFC8746],
+71,byte string,"uint64, little endian, Typed Array",[RFC8746],
+72,byte string,sint8 Typed Array,[RFC8746],
+73,byte string,"sint16, big endian, Typed Array",[RFC8746],
+74,byte string,"sint32, big endian, Typed Array",[RFC8746],
+75,byte string,"sint64, big endian, Typed Array",[RFC8746],
+76,byte string,(reserved),[RFC8746],
+77,byte string,"sint16, little endian, Typed Array",[RFC8746],
+78,byte string,"sint32, little endian, Typed Array",[RFC8746],
+79,byte string,"sint64, little endian, Typed Array",[RFC8746],
+80,byte string,"IEEE 754 binary16, big endian, Typed Array",[RFC8746],
+81,byte string,"IEEE 754 binary32, big endian, Typed Array",[RFC8746],
+82,byte string,"IEEE 754 binary64, big endian, Typed Array",[RFC8746],
+83,byte string,"IEEE 754 binary128, big endian, Typed Array",[RFC8746],
+84,byte string,"IEEE 754 binary16, little endian, Typed Array",[RFC8746],
+85,byte string,"IEEE 754 binary32, little endian, Typed Array",[RFC8746],
+86,byte string,"IEEE 754 binary64, little endian, Typed Array",[RFC8746],
+87,byte string,"IEEE 754 binary128, little endian, Typed Array",[RFC8746],
+88-95,Unassigned,,,
+96,COSE_Encrypt,COSE Encrypted Data Object,[RFC8152],
+97,COSE_Mac,COSE MACed Data Object,[RFC8152],
+98,COSE_Sign,COSE Signed Data Object,[RFC8152],
+99,Unassigned,,,
+100,Unsigned or negative integer,Number of days since the epoch date 1970-01-01,[RFC8943],
+101-102,Unassigned,,,
+103,array,Geographic Coordinates,[https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag103-Geographic-Coordinates.md][Danilo_Vidovic],
+104,multiple,Geographic Coordinate Reference System WKT or EPSG number,[draft-clarke-cbor-crs],
+105-119,Unassigned,,,
+120,multiple,Internet of Things Data Point,[https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag120-Internet-of-Things-Data-Points.md][Danilo_Vidovic],
+121-255,Unassigned,,,
+256,multiple,mark value as having string references,[http://cbor.schmorp.de/stringref][Marc_A._Lehmann],
+257,byte string,Binary MIME message,[http://peteroupc.github.io/CBOR/binarymime.html][Peter_Occil],
+258,array,Mathematical finite set,[https://github.com/input-output-hk/cbor-sets-spec/blob/master/CBOR_SETS.md][Alfredo_Di_Napoli],
+259,map,Map datatype with key-value operations (e.g. `.get()/.set()/.delete()`),[https://github.com/shanewholloway/js-cbor-codec/blob/master/docs/CBOR-259-spec--explicit-maps.md][Shane_Holloway],
+260,byte string,Network Address (IPv4 or IPv6 or MAC Address),[http://www.employees.org/~ravir/cbor-network.txt][Ravi_Raju],
+261,map (IPAddress + Mask Length),Network Address Prefix (IPv4 or IPv6 Address + Mask Length),[https://github.com/toravir/CBOR-Tag-Specs/blob/master/networkPrefix.md][Ravi_Raju],
+262,byte string,Embedded JSON Object,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/embeddedJSON.md][Ravi_Raju],
+263,byte string,Hexadecimal string,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/hexString.md][Ravi_Raju],
+264,array,Decimal fraction with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil],
+265,array,Bigfloat with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil],
+266,text string,Internationalized resource identifier (IRI),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil],
+267,text string,Internationalized resource identifier reference (IRI reference),[https://peteroupc.github.io/CBOR/iri.html][Peter_Occil],
+268,array,Extended decimal fraction,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil],
+269,array,Extended bigfloat,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil],
+270,array,Extended rational number,[https://peteroupc.github.io/CBOR/extended.html][Peter_Occil],
+271,DDoS Open Threat Signaling (DOTS) signal channel object,"DDoS Open Threat Signaling (DOTS) signal channel object, as defined in [RFC8782]",[RFC8782],
+272,byte string,Non-UTF-8 CESU-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala],
+273,byte string,Non-UTF-8 WTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala],
+274,byte string,Non-UTF-8 MUTF-8 string,[https://github.com/svaarala/cbor-specs/blob/master/cbor-nonutf8-string-tags.rst][Sami_Vaarala],
+275,map (major type 5),Map contains only keys that are of type Text String (major type 3),[https://github.com/ecorm/cbor-tag-text-key-map][Emile_Cormier],
+276,byte string,ERIS binary read capability,[http://purl.org/eris],
+277-1000,Unassigned,,,
+1001,map,extended time,[draft-bormann-cbor-time-tag-01],
+1002,map,duration,[draft-bormann-cbor-time-tag-01],
+1003,map,period,[draft-bormann-cbor-time-tag-01],
+1004,UTF-8 text string,[RFC3339] full-date string,[RFC8943],
+1005-1039,Unassigned,,,
+1040,array of two arrays [1],"Multi-dimensional Array, column-major order",[RFC8746],
+1041-22097,Unassigned,,,
+22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann],
+22099-55798,Unassigned,,,
+55799,(any),Self-described CBOR; see Section 3.4.6,[RFC8949],
+55800-65534,Unassigned,,,
+65535,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
+65536-1330664269,Unassigned,,,
+1330664270,byte-string,"A CBOR encoded Openswan configuration file, as stored on disk for
+unit test cases.",[Michael_Richardson][Samir_Hussain],template/1330664270
+1330664271-15309735,Unassigned,,,
+15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell],
+15309737-4294967294,Unassigned,,,
+4294967295,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
+4294967296-18446744073709551614,Unassigned,,,
+18446744073709551615,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",

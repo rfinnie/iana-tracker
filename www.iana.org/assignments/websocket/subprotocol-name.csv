@@ -23,10 +23,10 @@ xmpp,WebSocket Transport for the Extensible Messaging and Presence Protocol (XMP
 ship,SHIP - Smart Home IP,"SHIP (Smart Home IP) is a an IP based approach to plug and play home automation and smart energy / energy efficiency, which can easily be extended to additional domains such as Ambient Assisted Living (AAL). SHIP can be used solely on the customer premises or can be integrated into a cloud based solution.",[EEBus Initiative][Andreas_Westermann],
 mielecloudconnect,Miele Cloud Connect Protocol,This protocol is used to securely connect household or professional appliances to an internet service portal via a public communication network in order to enable remote services. The specification is not published yet.,[Nils_Langhammer],
 v10.pcp.sap.com,Push Channel Protocol,[https://scn.sap.com/community/abap/connectivity/blog/2015/07/27/specification-of-the-push-channel-protocol-pcp],[Masoud_Aghadavoodi_Jolfaei],
-msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977][RFC-ietf-mmusic-msrp-usage-data-channel-23],
+msrp,WebSocket Transport for MSRP (Message Session Relay Protocol),[RFC7977],[RFC7977][RFC8873],
 v1.saltyrtc.org,SaltyRTC 1.0,[https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md],[Lennart_Grahl],
 TLCP-2.0.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[http://www.lightstreamer.com/tlcp-2.0.0],[Alessandro_Alinone],[Lightstreamer_Srl]
-bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC-ietf-bfcpbis-bfcp-websocket-15],[RFC-ietf-bfcpbis-bfcp-websocket-15],
+bfcp,WebSocket Transport for BFCP (Binary Floor Control Protocol),[RFC8857],[RFC8857],
 sldp.softvelum.com,Softvelum Low Delay Protocol,"SLDP is a low latency live streaming protocol for delivering media from
         servers to MSE-based browsers and WebSocket-enabled applications.",[Yury_Udovichenko],
 opcua+uacp,OPC UA Connection Protocol,[https://opcfoundation.org/developer-tools/specifications-unified-architecture/part-6-mappings/],[OPC_Foundation],
@@ -43,14 +43,14 @@ oneM2M.R2.0.cbor,oneM2M R2.0 CBOR,[http://ftp.onem2m.org/Work%20Programme/WI-004
 transit,Transit,[https://github.com/Randy-Buchholz/Transit],[Randy_Buchholz],
 2016.serverpush.dash.mpeg.org,MPEG-DASH-ServerPush-23009-6-2017,[https://www.iso.org/standard/71072.html],[Imed_Bouazizi],
 2018.mmt.mpeg.org,MPEG-MMT-23008-1-2018,[https://www.iso.org/standard/76386.html],[Imed_Bouazizi],
-clue,clue,[RFC-ietf-clue-datachannel-18],[RFC-ietf-clue-datachannel-18],
+clue,clue,[RFC8850],[RFC8850],
 webrtc.softvelum.com,Softvelum WebSocket signaling protocol,WebRTC live streaming requires WebSocket-based signaling protocol for every specific implementation. Softvelum products will use this subprotocol for signaling.,[Yury_Udovichenko],
 cobra.v2.json,Cobra Real Time Messaging Protocol,[https://machinezone.github.io/cobra/api/],[Benjamin_Sergeant],
 drp,Declarative Resource Protocol,[https://github.com/adhdtech/DRP],[Pete_Brown],
 hub.bsc.bacnet.org,BACnet Secure Connect Hub Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
 dc.bsc.bacnet.org,BACnet Secure Connect Direct Connection,[Addendum BJ to ANSI/ASHRAE Standard 135-2016],[Bernhard_Isler],[ASHRAE]
 jmap,WebSocket Transport for JMAP (JSON Meta Application Protocol),[RFC8887],[RFC8887],
-t140,ITU-T T.140 Real-Time Text,[RFC-ietf-mmusic-t140-usage-data-channel-14],[RFC-ietf-mmusic-t140-usage-data-channel-14],
+t140,ITU-T T.140 Real-Time Text,[RFC8865],[RFC8865],
 done,done.best IoT Protocol,"""done"" is a general purpose IoT Protocol, used by done.best based solutions",[done.best],[Helmut_Hartl]
 TLCP-2.2.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://www.lightstreamer.com/tlcp-2.2.0],[Dario_Crivelli],[Lightstreamer_Srl]
 collection-update,The Collection Update Websocket Subprotocol,[https://github.com/jonlachlan/collection-update-websocket-protocol],[Jon_Lachlan],[Jon_Lachlan]

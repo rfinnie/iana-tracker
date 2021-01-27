@@ -209,7 +209,7 @@ ms-whiteboard-cmd,prov/ms-whiteboard-cmd,ms-whiteboard-cmd,Provisional,-,[urisch
 ms-word,prov/ms-word,ms-word,Provisional,-,[urischemeowners_at_microsoft.com],
 msnim,prov/msnim,msnim,Provisional,-,[Alexey_Melnikov],
 msrp,,Message Session Relay Protocol,Permanent,-,[RFC4975],
-msrps,,Message Session Relay Protocol Secure,Permanent,-,[RFC4975][RFC-ietf-mmusic-msrp-usage-data-channel-23],
+msrps,,Message Session Relay Protocol Secure,Permanent,-,[RFC4975][RFC8873],
 mss,prov/mss,mss,Provisional,-,[Jarmo_Miettinen],
 mtqp,,Message Tracking Query Protocol,Permanent,-,[RFC3887],
 mumble,prov/mumble,mumble,Provisional,-,[Dave_Thaler],

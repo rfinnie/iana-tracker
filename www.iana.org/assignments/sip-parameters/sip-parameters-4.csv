@@ -192,6 +192,6 @@ to process the request.  Inclusion in a Require
 header field in a response indicates that the
 UAC must look for the Session-Expires header
 field in the response, and process accordingly.",[RFC4028]
-trickle-ice,This option tag is used to indicate that a UA supports and understands Trickle ICE.,[RFC-ietf-mmusic-trickle-ice-sip-18]
+trickle-ice,This option tag is used to indicate that a UA supports and understands Trickle ICE.,[RFC8840]
 uui,"This option tag is used to indicate that 
 a UA supports and understands the User-to-User header field.",[RFC7433]

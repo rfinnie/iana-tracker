@@ -1,7 +1,7 @@
 Value Name,Long Name,Usable with,Mux,Reference
-fir,Full Intra Request Command,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-19]
-tmmbr,Temporary Maximum Media Stream Bit Rate,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-19]
-tstr,Temporal-Spatial Trade-off,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-19]
-vbcm,H.271 video back channel messages,ccm,IDENTICAL-PER-PT,[RFC5104][RFC-ietf-mmusic-sdp-mux-attributes-19]
-pause,Media Pause/Resume,ccm,TBD,[RFC7728][RFC-ietf-mmusic-sdp-mux-attributes-19]
+fir,Full Intra Request Command,ccm,IDENTICAL-PER-PT,[RFC5104][RFC8859]
+tmmbr,Temporary Maximum Media Stream Bit Rate,ccm,IDENTICAL-PER-PT,[RFC5104][RFC8859]
+tstr,Temporal-Spatial Trade-off,ccm,IDENTICAL-PER-PT,[RFC5104][RFC8859]
+vbcm,H.271 video back channel messages,ccm,IDENTICAL-PER-PT,[RFC5104][RFC8859]
+pause,Media Pause/Resume,ccm,TBD,[RFC7728][RFC8859]
 lrr,Layer Refresh Request Command,ccm,IDENTICAL-PER-PT,[RFC-ietf-avtext-lrr-07]

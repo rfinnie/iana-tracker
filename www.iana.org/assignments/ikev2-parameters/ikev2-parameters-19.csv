@@ -3,5 +3,6 @@ Value,TS Type,Reference
 7,TS_IPV4_ADDR_RANGE,[RFC7296]
 8,TS_IPV6_ADDR_RANGE,[RFC7296]
 9,TS_FC_ADDR_RANGE,[RFC4595]
-10-240,Unassigned,
+10,TS_SECLABEL,[draft-ietf-ipsecme-labeled-ipsec-04]
+11-240,Unassigned,
 241-255,Private use,[RFC7296]
