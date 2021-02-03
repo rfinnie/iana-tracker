@@ -2,5 +2,5 @@ Type,Name,Reference
 0,Reserved,[RFC8697]
 1,Path Protection Association,[RFC8745]
 2,Disjoint Association,[RFC8800]
-3,"Policy Association (TEMPORARY - registered 2020-05-15, expires 2021-05-15)",[draft-ietf-pce-association-policy-09]
+3,Policy Association,[RFC-ietf-pce-association-policy-16]
 4-65535,Unassigned,

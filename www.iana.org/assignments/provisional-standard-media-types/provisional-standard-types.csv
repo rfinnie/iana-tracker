@@ -1,5 +1,4 @@
 Media Type,Organization,Contact
-image/avif,Alliance for Open Media,[Cyril_Concolato]
 application/odm+json,CDISC,[Sam_Hume]
 application/json-nd,ECMA,[Glen_Kleidon]
 application/cert-chain+cbor,IETF,[draft-yasskin-http-origin-signed-responses]

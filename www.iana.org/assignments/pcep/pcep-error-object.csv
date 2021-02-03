@@ -198,7 +198,9 @@ Error-Type,Meaning,Error-value,Reference
         Path Protection Association",[RFC8745]
 ,,10: Attempt to add another working/protection LSP for Path Protection Association,[RFC8745]
 ,,11: Protection type is not supported,[RFC8745]
-,,12-255: Unassigned,
+,,12: Not expecting policy parameters,[RFC-ietf-pce-association-policy-16]
+,,13: Unacceptable policy parameters,[RFC-ietf-pce-association-policy-16]
+,,14-255: Unassigned,
 27,WSON RWA error,0: Unassigned,[RFC8780]
 ,,1: Insufficient memory,[RFC8780]
 ,,2: RWA computation not supported,[RFC8780]

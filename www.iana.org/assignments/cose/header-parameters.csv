@@ -1,13 +1,13 @@
 Name,Label,Value Type,Value Registry,Description,Reference
-Reserved for Private Use,less than -65536,,,,[RFC8152]
+Reserved for Private Use,less than -65536,,,,[RFC-ietf-cose-rfc8152bis-struct-15]
 delegated to the COSE Header Algorithm Parameters registry,-65536 to -1,,,,
-Reserved,0,,,,[RFC8152]
-alg,1,int / tstr,COSE Algorithms registry,Cryptographic algorithm to use,[RFC8152]
-crit,2,[+ label],COSE Header Parameters registry,Critical headers to be understood,[RFC8152]
-content type,3,tstr / uint,[COAP Content-Formats] or [Media Types] registry,Content type of the payload,[RFC8152]
-kid,4,bstr,,Key identifier,[RFC8152]
-IV,5,bstr,,Full Initialization Vector,[RFC8152]
-Partial IV,6,bstr,,Partial Initialization Vector,[RFC8152]
+Reserved,0,,,,[RFC-ietf-cose-rfc8152bis-struct-15]
+alg,1,int / tstr,COSE Algorithms registry,Cryptographic algorithm to use,[RFC-ietf-cose-rfc8152bis-struct-15]
+crit,2,[+ label],COSE Header Parameters registry,Critical headers to be understood,[RFC-ietf-cose-rfc8152bis-struct-15]
+content type,3,tstr / uint,[COAP Content-Formats] or [Media Types] registry,Content type of the payload,[RFC-ietf-cose-rfc8152bis-struct-15]
+kid,4,bstr,,Key identifier,[RFC-ietf-cose-rfc8152bis-struct-15]
+IV,5,bstr,,Full Initialization Vector,[RFC-ietf-cose-rfc8152bis-struct-15]
+Partial IV,6,bstr,,Partial Initialization Vector,[RFC-ietf-cose-rfc8152bis-struct-15]
 counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature structure,[RFC8152]
 Unassigned,8,,,,
 CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC8152]

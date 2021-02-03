@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="xml-registry.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2021-01-21</updated>
+  <updated>2021-02-01</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -223,6 +223,42 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:cpxmlsec:types:gostr34102012-512-keyvalue</name>
       <file type="template">ns/cpxmlsec/types/gostr34102012-512-keyvalue.txt</file>
       <xref type="draft" data="draft-smirnov-xmldsig-04"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvContact-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvContact-1.0</name>
+      <file type="template">ns/csvContact-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvDomain-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvDomain-1.0</name>
+      <file type="template">ns/csvDomain-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvHost-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvHost-1.0</name>
+      <file type="template">ns/csvHost-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvIDN-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvIDN-1.0</name>
+      <file type="template">ns/csvIDN-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvNNDN-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvNNDN-1.0</name>
+      <file type="template">ns/csvNNDN-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvRegistrar-1.0</value>
+      <name>urn:ietf:params:xml:ns:csvRegistrar-1.0</name>
+      <file type="template">ns/csvRegistrar-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
     </record>
     <record>
       <value>dchk1</value>
@@ -998,6 +1034,72 @@ The registration template should cite the specification.
       <file type="template">ns/rde-1.0.txt</file>
       <xref type="rfc" data="rfc8909"/>
     </record>
+    <record date="2021-02-01">
+      <value>rdeContact-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeContact-1.0</name>
+      <file type="template">ns/rdeContact-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeCsv-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeCsv-1.0</name>
+      <file type="template">ns/rdeCsv-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeDnrdCommon-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeDnrdCommon-1.0</name>
+      <file type="template">ns/rdeDnrdCommon-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeDomain-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeDomain-1.0</name>
+      <file type="template">ns/rdeDomain-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeEppParams-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeEppParams-1.0</name>
+      <file type="template">ns/rdeEppParams-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeHeader-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeHeader-1.0</name>
+      <file type="template">ns/rdeHeader-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeHost-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeHost-1.0</name>
+      <file type="template">ns/rdeHost-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeIDN-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeIDN-1.0</name>
+      <file type="template">ns/rdeIDN-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeNNDN-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeNNDN-1.0</name>
+      <file type="template">ns/rdeNNDN-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdePolicy-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdePolicy-1.0</name>
+      <file type="template">ns/rdePolicy-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeRegistrar-1.0</value>
+      <name>urn:ietf:params:xml:ns:rdeRegistrar-1.0</name>
+      <file type="template">ns/rdeRegistrar-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
     <record date="2016-04-18">
       <value>recording:1</value>
       <name>urn:ietf:params:xml:ns:recording:1</name>
@@ -1550,6 +1652,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-l3vpn-svc.txt</file>
       <xref type="rfc" data="rfc8299"/>
     </record>
+    <record date="2021-02-01">
+      <value>yang:ietf-layer0-types</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-layer0-types</name>
+      <file type="template">ns/yang/ietf-layer0-types.txt</file>
+      <xref type="draft" data="RFC-ietf-ccamp-layer0-types-09"/>
+    </record>
     <record date="2017-11-22">
       <value>yang:ietf-lime-time-types</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-lime-time-types</name>
@@ -1904,6 +2012,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-vrrp.txt</file>
       <xref type="rfc" data="rfc8347"/>
     </record>
+    <record date="2021-02-01">
+      <value>yang:ietf-wson-topology</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-wson-topology</name>
+      <file type="template">ns/yang/ietf-wson-topology.txt</file>
+      <xref type="draft" data="RFC-ietf-ccamp-wson-yang-28"/>
+    </record>
     <record date="2014-10-22">
       <value>yang:ietf-x509-cert-to-name</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name</name>
@@ -2075,6 +2189,42 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:cpxmlsec</name>
       <file type="template">schema/cpxmlsec.xsd</file>
       <xref type="draft" data="draft-smirnov-xmldsig-04"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvContact-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvContact-1.0</name>
+      <file type="template">schema/csvContact-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvDomain-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvDomain-1.0</name>
+      <file type="template">schema/csvDomain-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvHost-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvHost-1.0</name>
+      <file type="template">schema/csvHost-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvIDN-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvIDN-1.0</name>
+      <file type="template">schema/csvIDN-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvNNDN-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvNNDN-1.0</name>
+      <file type="template">schema/csvNNDN-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>csvRegistrar-1.0</value>
+      <name>urn:ietf:params:xml:schema:csvRegistrar-1.0</name>
+      <file type="template">schema/csvRegistrar-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
     </record>
     <record>
       <value>dchk1</value>
@@ -2672,6 +2822,72 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:rde-1.0</name>
       <file type="template">schema/rde-1.0.xsd</file>
       <xref type="rfc" data="rfc8909"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeContact-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeContact-1.0</name>
+      <file type="template">schema/rdeContact-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeCsv-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeCsv-1.0</name>
+      <file type="template">schema/rdeCsv-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeDnrdCommon-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeDnrdCommon-1.0</name>
+      <file type="template">schema/rdeDnrdCommon-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeDomain-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeDomain-1.0</name>
+      <file type="template">schema/rdeDomain-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeEppParams-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeEppParams-1.0</name>
+      <file type="template">schema/rdeEppParams-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeHeader-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeHeader-1.0</name>
+      <file type="template">schema/rdeHeader-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeHost-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeHost-1.0</name>
+      <file type="template">schema/rdeHost-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeIDN-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeIDN-1.0</name>
+      <file type="template">schema/rdeIDN-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeNNDN-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeNNDN-1.0</name>
+      <file type="template">schema/rdeNNDN-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdePolicy-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdePolicy-1.0</name>
+      <file type="template">schema/rdePolicy-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
+    </record>
+    <record date="2021-02-01">
+      <value>rdeRegistrar-1.0</value>
+      <name>urn:ietf:params:xml:schema:rdeRegistrar-1.0</name>
+      <file type="template">schema/rdeRegistrar-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-dnrd-objects-mapping-11"/>
     </record>
     <record date="2016-04-18">
       <value>recording:1</value>
