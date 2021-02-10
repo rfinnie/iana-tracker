@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="multicast-addresses.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2021-01-15</updated>
+  <updated>2021-02-08</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -1329,8 +1329,15 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</note>
       <xref type="person" data="Vanya_Levy"/>
       <controller><xref type="person" data="Semtech_Corporation"/></controller>
     </record>
+    <record date="2021-02-08">
+      <addr>224.0.1.189</addr>
+      <description>Amateur radio DMR</description>
+      <xref type="uri" data="https://www.etsi.org/deliver/etsi_TS/102300_102399/10236103/01.03.01_60/ts_10236103v010301p.pdf">ETSI TS 102 361-3</xref>
+      <xref type="person" data="Jean-Marc_MAGNIER"/>
+      <controller><xref type="person" data="Jean-Marc_MAGNIER"/></controller>
+    </record>
     <record>
-      <addr>224.0.1.189-224.0.1.255</addr>
+      <addr>224.0.1.190-224.0.1.255</addr>
       <description>Unassigned</description>
     </record>
   </registry>
@@ -2680,8 +2687,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</note>
       <description>London Stock Exchange</description>
       <xref type="person" data="Aadhil_Abdul_Majeed"/>
     </record>
+    <record date="2021-02-04">
+      <addr>224.4.18.0-224.4.21.255</addr>
+      <description>London Stock Exchange</description>
+      <xref type="person" data="Johnathan_Ryder_2"/>
+    </record>
     <record>
-      <addr>224.4.18.0-224.4.255.255</addr>
+      <addr>224.4.22.0-224.4.255.255</addr>
       <description>Reserved</description>
       <xref type="person" data="IANA"/>
     </record>
@@ -3596,6 +3608,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <uri>mailto:jlandin&amp;directedge.com</uri>
       <updated>2009-08-28</updated>
     </person>
+    <person id="Jean-Marc_MAGNIER">
+      <name>Jean-Marc MAGNIER</name>
+      <uri>mailto:f1sca&amp;sfr.fr</uri>
+      <updated>2021-02-03</updated>
+    </person>
     <person id="Jeff_Schenk">
       <name>Jeff Schenk</name>
       <uri>mailto:Jeff.Schenk&amp;intelliden.com</uri>
@@ -3660,6 +3677,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <name>Johnathan Ryder</name>
       <uri>mailto:johnathan.ryder&amp;lme.com</uri>
       <updated>2017-03-24</updated>
+    </person>
+    <person id="Johnathan_Ryder_2">
+      <name>Johnathan Ryder</name>
+      <uri>mailto:jryder&amp;lseg.com</uri>
+      <updated>2021-02-04</updated>
     </person>
     <person id="Jon_Crowcroft">
       <name>Jon Crowcroft</name>

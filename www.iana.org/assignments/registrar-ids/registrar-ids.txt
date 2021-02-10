@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2021-01-28
+           2021-02-04
 
    Available Formats
            [IMG]
@@ -37,7 +37,7 @@ Registrar IDs
      10    AT&T Corporation                                                      Terminated
      11    Edge, Inc.                                                            Terminated
      12    Bazillion, Inc.                                                       Terminated
-     13    Arq Group Limited DBA Melbourne IT                                    Accredited https://arq.rdap.tucows.com/
+     13    Webcentral Group Limited dba Melbourne IT                             Accredited https://arq.rdap.tucows.com/
      14    ORANGE                                                                Accredited https://rdap.oleane.net/rdap-webapp/
      15    COREhub, S.R.L.                                                       Accredited https://rdap.corenic.net/
      16    AOL LLC                                                               Terminated
@@ -483,7 +483,7 @@ Registrar IDs
      817   MAFF Inc.                                                             Accredited https://whois.xz.com/rdap/
      818   Interdominios, Inc.                                                   Accredited https://rdapserver.net/
      819   Reg2C.com Inc.                                                        Accredited https://rdapserver.net/
-     820   CTS Computers and Telecommunications Systems DBA MAGIC ONLINE         Accredited https://rdapserver.net/
+     820   PHPNET France DBA Nuxit                                               Accredited https://rdapserver.net/
      821   RegisterFly.com, Inc.                                                 Terminated
      822   Registrar Label, Inc.                                                 Terminated
      823   Internet Service Registrar, Inc.                                      Terminated
@@ -562,7 +562,7 @@ Registrar IDs
      897   21Company, Inc. dba 21-domain.com                                     Terminated
      898   Alantron Inc.                                                         Accredited https://rdapserver.net/
      899   Naugus Limited LLC                                                    Accredited https://rdap.naugus.com/
-     900   TPP Wholesale Pty Ltd                                                 Accredited https://tpp.rdap.tucows.com/
+     900   Netregistry Wholesale Pty Ltd                                         Accredited https://tpp.rdap.tucows.com/
      901   AirNames.com Inc.                                                     Terminated
      902   Arab Internet Names, LLC                                              Accredited https://rdap.networksolutions.com/rdap/
      903   AsiaDomains, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
@@ -633,7 +633,7 @@ Registrar IDs
      969   ! #1 Host Brazil, Inc.                                                Terminated
      970   ! #1 Host China, LLC                                                  Accredited https://rdap.networksolutions.com/rdap/
      971   ! #1 Host Canada, LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
-     972   TPP Domains Pty Ltd. dba TPP Internet                                 Accredited https://tpp.rdap.tucows.com/
+     972   Netregistry Domains Pty Ltd                                           Accredited https://tpp.rdap.tucows.com/
      973   Haveaname, LLC                                                        Accredited https://rdap.haveaname.com/
      974   Netestate, LLC                                                        Accredited https://rdap.netestate.com/
      975   Topsystem, LLC                                                        Accredited https://rdap.topsystem.com/
@@ -1310,7 +1310,7 @@ Registrar IDs
     1652   Dynadot4 LLC                                                          Accredited https://rdap.dynadot.com/
     1653   Dynadot5 LLC                                                          Accredited https://rdap.dynadot.com/
     1654   Ourdomains Limited                                                    Accredited https://rdap.ourdomains.com/
-    1655   Xiamen Nawang Technology Co., Ltd                                     Accredited
+    1655   Xiamen Nawang Technology Co., Ltd                                     Accredited https://rdap.nawang.cn/domain/
     1656   Kagoya Japan Inc.                                                     Accredited https://rdap.kagoya.net/
     1657   WHT Co., Ltd                                                          Terminated
     1658   Rethem Hosting LLC                                                    Terminated
@@ -1899,7 +1899,7 @@ Registrar IDs
     2248   Tradewinds Names, LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
     2249   White Alligator Domains, LLC                                          Accredited https://rdap.networksolutions.com/rdap/
     2250   Wildzebradomains, LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
-    2251   Hongkong Domain Name Information Management Co., Ltd.                 Accredited https://rdap.dnsgulf.com/domain/
+    2251   Hongkong Domain Name Information Management Co., Ltd.                 Accredited https://rdap.dnsgulf.com/
     2252   Cool Breeze Domains, LLC                                              Accredited https://rdap.networksolutions.com/rdap/
     2253   Domain Name Origin, LLC                                               Accredited https://rdap.networksolutions.com/rdap/
     2254   Domain Name Root, LLC                                                 Accredited https://rdap.networksolutions.com/rdap/
@@ -3458,7 +3458,7 @@ Registrar IDs
     3812   Innovadeus Pvt. Ltd.                                                  Accredited https://rdapserver.net/
     3813   ShangYu Global Technology Co., Ltd.                                   Accredited
     3814   Zunyi Brandma Network Technology Ltd.                                 Accredited https://rdap.zuuq.cn/
-    3817   Wix.com Ltd.                                                          Accredited https://www.wix.com/_api/whois/rdap/domain/
+    3817   Wix.com Ltd.                                                          Accredited https://www.wix.com/_api/whois/rdap/
     3818   Baidu Europe B.V.                                                     Accredited
     3819   Alibaba Cloud US LLC                                                  Accredited https://whois.aliyun.com/rdap/
     3820   Qinghai Yunnet Electronics Technology Co., Ltd                        Accredited
@@ -3486,7 +3486,7 @@ Registrar IDs
     3849   Zerolek Pty Ltd                                                       Accredited
     3850   Topvisor Co., Ltd                                                     Accredited
     3851   Yunnan DingHong Technology Co. Ltd.                                   Accredited
-    3852   Xiamen Zhongtuo Internet Technology Co., Ltd.                         Accredited
+    3852   Xiamen Zhongtuo Internet Technology Co., Ltd.                         Accredited https://rdap.zhong.top/domain/
     3853   Grupo Loading Systems S.L.                                            Accredited
     3854   Access Japan Co., Ltd.                                                Accredited
     3855   Hong Kong Juming Network Technology Co., Ltd                          Accredited https://rdap.gathernames.com/
@@ -3517,7 +3517,7 @@ Registrar IDs
     3879   17 Domain 4, Limited                                                  Accredited https://www.17domain.com/rdap/domain/
     3880   Cross Marketing Technology Ltd.                                       Accredited
     3881   Enterprise Guardian Inc.                                              Accredited
-    3882   VIRTUA DRUG Kutatási Szolgáltató Korlátolt Felelősségű Társaság       Accredited
+    3882   VIRTUA DRUG Kutatási Szolgáltató Korlátolt Felelősségű Társaság       Accredited https://rdap.namerider.com/
     3883   Brand Focus Limited                                                   Accredited
     3884   Staclar, Inc.                                                         Accredited https://rdap.staclar.com/
     9994   Reserved for Registry Operator acting as Registrar where directed by  Reserved

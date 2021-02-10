@@ -1,5 +1,5 @@
 Prefix,Designation,Date,WHOIS,RDAP,Status [1],Note
-000/8,IANA - Local Identification,1981-09,,,RESERVED,[2]
+000/8,IANA - Local Identification,1981-09,,,RESERVED,[2][2bis]
 001/8,APNIC,2010-01,whois.apnic.net,https://rdap.apnic.net/,ALLOCATED,
 002/8,RIPE NCC,2009-09,whois.ripe.net,https://rdap.db.ripe.net/,ALLOCATED,
 003/8,Administered by ARIN,1994-05,whois.arin.net,"https://rdap.arin.net/registry

@@ -51,7 +51,8 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1042,"Flex Algo Include All Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2020-06-25, expires 2021-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo]
 1043,"Flex Algo Definition Flags sub-TLV (TEMPORARY - registered 2019-08-19, extension registered 2020-06-25, expires 2021-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo]
 1044,"Flex Algorithm Prefix Metric TLV (TEMPORARY - registered 2019-08-19, extension registered 2020-06-25, expires 2021-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo]
-1045-1087,Unassigned,,
+1045,"Flex Algorithm Exclude SRLG TLV (TEMPORARY - registered 2021-02-05, expires 2022-02-05)",,[draft-ietf-idr-bgp-ls-flex-algo]
+1046-1087,Unassigned,,
 1088,Administrative group (color),22/3,"[RFC5305, Section 3.1]"
 1089,Maximum link bandwidth,22/9,"[RFC5305, Section 3.4]"
 1090,Max. reservable link bandwidth,22/10,"[RFC5305, Section 3.5]"

@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-02-01</dd>
+      <dd>2021-02-05</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2601,6 +2601,30 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-routing-types.txt">ns/yang/ietf-routing-types.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8294">RFC8294</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-segment-routing</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-segment-routing</td>
+          <td>
+            <a href="ns/yang/ietf-segment-routing.txt">ns/yang/ietf-segment-routing.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-segment-routing-common</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-segment-routing-common</td>
+          <td>
+            <a href="ns/yang/ietf-segment-routing-common.txt">ns/yang/ietf-segment-routing-common.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-segment-routing-mpls</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-segment-routing-mpls</td>
+          <td>
+            <a href="ns/yang/ietf-segment-routing-mpls.txt">ns/yang/ietf-segment-routing-mpls.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-snmp</td>
