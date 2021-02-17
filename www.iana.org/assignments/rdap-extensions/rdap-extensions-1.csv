@@ -17,5 +17,5 @@ redirect_with_content,Any,[https://raw.githubusercontent.com/APNIC-net/rdap-redi
 regType,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/regtype.md],[Gavin_Brown],COMMON
 sorting,Any,[RFC8977],[IETF],"This extension describes a best practice for result
       set sorting."
-subsetting,Any,[RFC-ietf-regext-rdap-partial-response-16],[IETF],"This extension describes best practice for partial
+subsetting,Any,[RFC8982],[IETF],"This extension describes best practice for partial
       response provisioning."
