@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2021-01-29
+           2021-02-22
 
    Available Formats
            [IMG]
@@ -106,11 +106,12 @@ dpp                                  prov/dpp                                  d
 drm                                  prov/drm                                  drm                                  Provisional -          [RadioDNS_Project]
 drop                                 prov/drop                                 drop                                 Provisional -          [Tim_McSweeney]
 dtmi                                 prov/dtmi                                 dtmi                                 Provisional -          [urischemeowners_at_microsoft.com]
-dtn                                                                            DTNRG research and development       Provisional -          [RFC5050]
+dtn                                                                            DTNRG research and development       Permanent   -          [RFC-ietf-dtn-bpbis-31]
 dvb                                                                            dvb                                  Provisional -          [draft-mcroberts-uri-dvb]
 dweb                                 prov/dweb                                 dweb                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
 ed2k                                 prov/ed2k                                 ed2k                                 Provisional -          [Dave_Thaler]
 elsi                                 prov/elsi                                 elsi                                 Provisional -          [Kimmo_Lindholm]
+embedded                             prov/embedded                             embedded                             Provisional -          [Peter_Hoddie]
 ens                                  prov/ens                                  ens                                  Provisional -          [Ricky_Bloomfield][Bradley_Nelson]
 ethereum                             prov/ethereum                             ethereum                             Provisional -          [Frédéric_Wang][ligi]
 example                                                                        example                              Permanent   -          [RFC7595]
@@ -158,7 +159,7 @@ info                                                                           r
                                                                                [http://info-uri.info/].
 iotdisco                             prov/iotdisco                             iotdisco                             Provisional -          [Peter_Waher][http://www.iana.org/assignments/uri-schemes/prov/iotdisco.pdf]
 ipfs                                 prov/ipfs                                 ipfs                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
-ipn                                                                            ipn                                  Provisional -          [RFC6260]
+ipn                                                                            ipn                                  Permanent   -          [RFC-ietf-dtn-bpbis-31]
 ipns                                 prov/ipns                                 ipns                                 Provisional -          [Frédéric_Wang][Protocol_Labs]
 ipp                                                                            Internet Printing Protocol           Permanent   -          [RFC3510]
 ipps                                                                           Internet Printing Protocol over      Permanent   -          [RFC7472]
@@ -457,6 +458,7 @@ z39.50s                                                                        Z
                                                 the Open Mobile
                                                 Alliance
    [Paul_Frazee]                                Paul Frazee                         mailto:pfrazee&gmail.com                           2020-05-14
+   [Peter_Hoddie]                               Peter Hoddie                        mailto:peter&moddable.com                          2021-02-19
    [Peter_Lewandowski]                          Peter Lewandowski                   mailto:peter.lewandowski&cygate.se                 2014-09-12
    [Peter_Saint-Andre]                          Peter Saint-Andre                   mailto:stpeter&jabber.org                          2012-12-04
    [Peter_Waher]                                Peter Waher                         mailto:peterwaher&hotmail.com                      2015-11-25

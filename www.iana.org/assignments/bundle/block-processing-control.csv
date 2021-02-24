@@ -1,9 +1,9 @@
-Bit Position (right to left),Description,Reference
-0,Block must be replicated in every fragment,[RFC5050]
-1,Transmit status report if block can't be processed,[RFC5050]
-2,Delete bundle if block can't be processed,[RFC5050]
-3,Last block,[RFC5050]
-4,Discard block if it can't be processed,[RFC5050]
-5,Block was forwarded without being processed,[RFC5050]
-6,Block contains an EID-reference field,[RFC5050]
-7-63,Unassigned,
+Bundle Protocol Version,Bit Position (right to left),Description,Reference
+"6,7",0,Block must be replicated in every fragment,[RFC5050][RFC-ietf-dtn-bpbis-31]
+"6,7",1,Transmit status report if block can't be processed,[RFC5050][RFC-ietf-dtn-bpbis-31]
+"6,7",2,Delete bundle if block can't be processed,[RFC5050][RFC-ietf-dtn-bpbis-31]
+6,3,Last block,[RFC5050]
+"6,7",4,Discard block if it can't be processed,[RFC5050][RFC-ietf-dtn-bpbis-31]
+6,5,Block was forwarded without being processed,[RFC5050]
+6,6,Block contains an EID-reference field,[RFC5050]
+,7-63,Unassigned,

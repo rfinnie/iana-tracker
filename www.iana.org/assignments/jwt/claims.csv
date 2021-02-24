@@ -58,8 +58,8 @@ may_act,"Authorized Actor - the party that is authorized
         to become the actor",[IESG],"[RFC8693, Section 4.4]"
 jcard,jCard data,[IESG],[RFC8688][RFC7095]
 at_use_nbr,Number of API requests for which the access token can be used,[ETSI],[ETSI GS NFV-SEC 022 V2.7.1]
-div,Diverted Target of a Call,[IESG],[RFC-ietf-stir-passport-divert-09]
-opt,Original PASSporT (in Full Form),[IESG],[RFC-ietf-stir-passport-divert-09]
+div,Diverted Target of a Call,[IESG],[RFC8946]
+opt,Original PASSporT (in Full Form),[IESG],[RFC8946]
 vc,Verifiable Credential as specified in the W3C Recommendation,[IESG],"[W3C Recommendation
   Verifiable Credentials Data Model 1.0 - Expressing verifiable information on the Web (19 November 2019), Section 6.3.1]"
 vp,Verifiable Presentation as specified in the W3C Recommendation,[IESG],"[W3C Recommendation

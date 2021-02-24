@@ -1,3 +1,4 @@
 Label,Reference
 dns,[RFC8555]
 ip,[RFC8738]
+email,[RFC-ietf-acme-email-smime-14][RFC5321][RFC6531]

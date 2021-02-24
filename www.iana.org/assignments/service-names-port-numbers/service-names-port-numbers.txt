@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2021-02-02
+           2021-02-22
 
    Expert(s)
 
@@ -499,10 +499,9 @@ emfis-cntl          141        tcp    EMFIS Control Service        [Gerd_Beling]
 emfis-cntl          141        udp    EMFIS Control Service        [Gerd_Beling]                                         [Gerd_Beling]
 bl-idm              142        tcp    Britton-Lee IDM              [Susie_Snitzer]                                       [Susie_Snitzer]
 bl-idm              142        udp    Britton-Lee IDM              [Susie_Snitzer]                                       [Susie_Snitzer]
-imap                143        tcp    Internet Message Access      [IESG]                                                [IETF_Chair]                                                           2017-06-05   [RFC3501]
+imap                143        tcp    Internet Message Access      [IESG]                                                [IETF_Chair]                                                           2021-02-22   [RFC3501][RFC-ietf-extra-imap4rev2-30]
                                       Protocol
-imap                143        udp    Internet Message Access      [IESG]                                                [IETF_Chair]                                                           2017-06-05   [RFC3501]
-                                      Protocol
+                    143        udp    Reserved                                                                                                                                                  2021-02-22   [RFC-ietf-extra-imap4rev2-30]
 uma                 144        tcp    Universal Management         [Jay_Whitney]                                         [Jay_Whitney]
                                       Architecture
 uma                 144        udp    Universal Management         [Jay_Whitney]                                         [Jay_Whitney]
@@ -2090,8 +2089,8 @@ nas                 991        udp    Netnews Administration       [Vera_Heinau]
                                       System
 telnets             992        tcp    telnet protocol over TLS/SSL
 telnets             992        udp    telnet protocol over TLS/SSL
-imaps               993        tcp    IMAP over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC8314]
-imaps               993        udp    imap4 protocol over TLS/SSL
+imaps               993        tcp    IMAP over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2021-02-22   [RFC3501][RFC8314][RFC-ietf-extra-imap4rev2-30]
+                    993        udp    Reserved                                                                                                                                                  2021-02-22   [RFC-ietf-extra-imap4rev2-30]
                     994        tcp    Reserved                                                                                                                                                  2011-08-31                                                                           (previous contact was[Christopher_Allen])
                     994        udp    Reserved
 pop3s               995        tcp    POP3 over TLS protocol       [IESG]                                                [IETF_Chair]                                                           2017-12-12   [RFC8314]
@@ -10048,7 +10047,7 @@ restconf-ch-tls    4336        tcp    RESTCONF Call Home (TLS)     [IESG]       
 gaia               4340        tcp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
 gaia               4340        udp    Gaia Connector Protocol      [Philippe_Detournay]                                  [Philippe_Detournay]                                      2007-11-12
                    4341        tcp    Reserved                                                                                                                                     2007-11-12   2018-11-30
-lisp-data          4341        udp    LISP Data Packets            [IESG]                                                [IETF_Chair]                                              2007-11-12   2012-04-26   [RFC6830]
+lisp-data          4341        udp    LISP Data Packets            [IESG]                                                [IETF_Chair]                                              2007-11-12   2021-02-17   [RFC-ietf-lisp-rfc6830bis-36]
                    4342        tcp    Reserved                                                                                                                                                  2018-11-30
 lisp-control       4342        udp    LISP Control Packets         [IESG]                                                [IETF_Chair]                                              2007-05      2012-04-26   [RFC6830]
 unicall            4343        tcp    UNICALL                      [James_Powell_2]                                      [James_Powell_2]
@@ -10409,7 +10408,7 @@ msfrs              4554        tcp    MS FRS Replication           [Kev_George] 
 msfrs              4554        udp    MS FRS Replication           [Kev_George]                                          [Kev_George]                                              2006-09
 rsip               4555        tcp    RSIP Port                                                                                                                                                              [RFC3103]
 rsip               4555        udp    RSIP Port                                                                                                                                                              [RFC3103]
-dtn-bundle         4556        tcp    DTN Bundle TCP CL Protocol   [Simon_Perreault]                                     [Simon_Perreault]                                                      2014-03-12   [RFC7242]
+dtn-bundle         4556        tcp    DTN Bundle TCP CL Protocol   [IESG]                                                [IETF_Chair]                                                           2021-02-22   [RFC-ietf-dtn-tcpclv4-26]
 dtn-bundle         4556        udp    DTN Bundle UDP CL Protocol                                                                                                                   2006-11      2014-02-21   [RFC7122]
 dtn-bundle         4556       dccp    DTN Bundle DCCP CL Protocol                                                                                                                  2013-11-12   2014-02-21   [RFC7122]                                       1685351985
                    4557        tcp    Reserved
@@ -12016,8 +12015,10 @@ spramsd            5770        udp    x509solutions Secure Data    [Brendan_Fay]
 netagent           5771        tcp    NetAgent                     [Bradley_Birnbaum]                                    [Bradley_Birnbaum]
 netagent           5771        udp    NetAgent                     [Bradley_Birnbaum]                                    [Bradley_Birnbaum]
                  5772-5776            Unassigned
-dali-port          5777        tcp    DALI Port                    [Wayne_Morrow][Michael_Melio]                         [Wayne_Morrow][Michael_Melio]                             2003-10
-dali-port          5777        udp    DALI Port                    [Wayne_Morrow][Michael_Melio]                         [Wayne_Morrow][Michael_Melio]                             2003-10
+starfield-io       5777        tcp    Control commands and         [Wayne_Morrow]                                        [Wayne_Morrow]                                            2003-10      2021-02-18
+                                      responses
+starfield-io       5777        udp    Control commands and         [Wayne_Morrow]                                        [Wayne_Morrow]                                            2003-10      2021-02-18
+                                      responses
                  5778-5779            Unassigned
 vts-rpc            5780        tcp    Visual Tag System RPC        [Graham_Bloice]                                       [Graham_Bloice]                                           2009-09-17
                    5780        udp    Reserved
@@ -22329,7 +22330,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Michael_McNabb]                                          Michael McNabb                                      mailto:michael&aquaminds.com                                  2005-10
 [Michael_Mealling]                                        Michael Mealling                                    mailto:michaelm&netsol.com
 [Michael_Mealling_2]                                      Michael Mealling                                    mailto:michael&refactored-networks.com                        2005-08
-[Michael_Melio]                                           Michael Melio                                       mailto:meliomd&comcast.net                                    2003-10
 [Michael_Mester]                                          Michael Mester                                      mailto:mmester&cymtec.com
 [Michael_Monasterio]                                      Michael Monasterio                                  mailto:michael&wmsoftware.com
 [Michael_Muth]                                            Michael Muth                                        mailto:m.muth&tec5.com                                        2009-05-11
@@ -23676,7 +23676,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Simon_Newton_2]                                          Simon Newton                                        mailto:simon&nomis52.net                                      2013-12-09
 [Simon_P_Jackson]                                         Simon P Jackson                                     mailto:jacko&kring.co.uk
 [Simon_Parker]                                            Simon Parker                                        mailto:simon.j.parker&philips.com
-[Simon_Perreault]                                         Simon Perreault                                     mailto:simon.perreault@viagenie.ca>                           2014-03-12
 [Simon_Phipps]                                            Simon Phipps                                        mailto:sphipps&vnet.ibm.com
 [Simon_Robillard]                                         Simon Robillard                                     mailto:RobillardS&actresearch.com
 [Simon_Skaria]                                            Simon Skaria                                        mailto:simonsk&microsoft.com                                  2006-01
@@ -24375,7 +24374,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [WatchGuard_Technologies_Inc]                                                        WatchGuard Technologies, mailto:vendoraccount&watchguard.com                           2020-01-16
                                                                                      Inc.
 [Wayne_Barlow]                                            Wayne Barlow                                        mailto:web&unx.dec.com
-[Wayne_Morrow]                                            Wayne Morrow                                        mailto:wmorrow&starfieldcorp.com                              2003-10
+[Wayne_Morrow]                                            Wayne Morrow                                        mailto:wmorrow&slaauto.com                                    2021-02-18
 [Wayne_Schroeder]                                         Wayne Schroeder                                     mailto:schroeder&sds.sdsc.edu
 [WeFi_Inc]                                                                           WeFi, Inc.               mailto:eranna&wefi.com                                        2013-07-19
 [Wei_Gao]                                                 Wei Gao                                             mailto:wei&mylex.com

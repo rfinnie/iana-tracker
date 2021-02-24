@@ -1,4 +1,5 @@
 Value,Description,Reference
+0x00AC,TCP ACK Rate Request,[draft-gomez-tcpm-ack-rate-request-02]
 0x0348,HOST_ID,[RFC7974]
 0x0A0D,Autonomous System Compensation,[draft-donnerhacke-linktax]
 0x0CA0,TCP Capability Option,[draft-boucadair-tcpm-capability-option]

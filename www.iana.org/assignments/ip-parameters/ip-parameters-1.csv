@@ -21,7 +21,7 @@ Copy,Class,Number,Value,Name,Reference
 1,0,19,147,ADDEXT - Address Extension,[Ullmann IPv7][RFC6814][1]
 1,0,20,148,RTRALT - Router Alert,[RFC2113]
 1,0,21,149,SDB    - Selective Directed Broadcast,[Charles_Bud_Graff][RFC6814][1]
-1,0,22,150,       - Unassigned (Released 18 October 2005),
+1,0,22,150,- Unassigned (Released 18 October 2005),
 1,0,23,151,DPS    - Dynamic Packet State,[Andy_Malis][RFC6814][1]
 1,0,24,152,UMP    - Upstream Multicast Pkt.,[Dino_Farinacci][RFC6814][1]
 0,0,25,25,QS     - Quick-Start,[RFC4782]
