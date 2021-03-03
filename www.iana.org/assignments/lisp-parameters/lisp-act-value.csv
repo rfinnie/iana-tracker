@@ -1,6 +1,8 @@
 Value,Action,Description,Reference
-0,No-Action,The map-cache is kept alive and no packet encapsulation occurs.,[RFC6830]
-1,Natively-Forward,The packet is not encapsulated or dropped but natively forwarded.,[RFC6830]
-2,Send-Map-Request,The packet invokes sending a Map-Request.,[RFC6830]
-3,Drop,A packet that matches this map-cache entry is dropped. An ICMP Unreachable message SHOULD be sent.,[RFC6830]
-4-7,Unassigned,,
+0,No-Action,The map-cache is kept alive and no packet encapsulation occurs.,[RFC-draft-ietf-lisp-rfc6833bis]
+1,Natively-Forward,The packet is not encapsulated or dropped but natively forwarded.,[RFC-draft-ietf-lisp-rfc6833bis]
+2,Send-Map-Request,The packet invokes sending a Map-Request.,[RFC-draft-ietf-lisp-rfc6833bis]
+3,Drop/No-Reason,A packet that matches this map-cache entry is dropped. An ICMP Unreachable message SHOULD be sent.,[RFC-draft-ietf-lisp-rfc6833bis]
+4,Drop/Policy-Denied,A packet matching this Map-Cache entry is dropped because the target EWID is policy-denied by the xTR of the mapping system.,[RFC-draft-ietf-lisp-rfc6833bis]
+5,Drop/Authentication-Failure,Packet matching the Map-Cache entry is dropped because the Map-Request for the target EID fails an authentication check by the xTR or the mapping system.,[RFC-draft-ietf-lisp-rfc6833bis]
+6-7,Unassigned,,

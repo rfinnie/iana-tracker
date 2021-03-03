@@ -4,7 +4,7 @@
            2012-04-25
 
    Last Updated
-           2020-08-19
+           2021-02-26
 
    Available Formats
            [IMG]
@@ -15,13 +15,19 @@
    Registries included below
 
      * LISP ACT values
-     * LISP Address Type Codes
-     * LISP Key ID Numbers
+     * LISP Address Type Codes (CLOSED)
+     * LISP Algorithm ID Numbers
      * LISP Crypto Cipher Suite
      * LISP LCAF Type
      * LISP Packet Types
      * LISP Shared Extension Message Type Sub-types
      * LISP-GPE Next Protocol
+     * LISP Control Plane Header Bits: Map-Request
+     * LISP Control Plane Header Bits: Map-Reply
+     * LISP Control Plane Header Bits: Map-Register
+     * LISP Control Plane Header Bits: Encapsulated Control Message (ECM)
+     * LISP Control Plane Header Bits: EID-Record
+     * LISP Control Plane Header Bits: RLOC-Record
 
 LISP ACT values
 
@@ -30,53 +36,54 @@ LISP ACT values
  IETF Review or IESG Approval
 
    Reference
-           [RFC6830]
+           [RFC-draft-ietf-lisp-rfc6833bis]
 
    Available Formats
            [IMG]
            CSV
 
-   Value      Action                                                 Description                                             Reference
-   0     No-Action        The map-cache is kept alive and no packet encapsulation occurs.                                    [RFC6830]
-   1     Natively-Forward The packet is not encapsulated or dropped but natively forwarded.                                  [RFC6830]
-   2     Send-Map-Request The packet invokes sending a Map-Request.                                                          [RFC6830]
-   3     Drop             A packet that matches this map-cache entry is dropped. An ICMP Unreachable message SHOULD be sent. [RFC6830]
-   4-7   Unassigned
+   Value           Action                                             Description                                             Reference
+   0     No-Action                   The map-cache is kept alive and no packet encapsulation occurs.               [RFC-draft-ietf-lisp-rfc6833bis]
+   1     Natively-Forward            The packet is not encapsulated or dropped but natively forwarded.             [RFC-draft-ietf-lisp-rfc6833bis]
+   2     Send-Map-Request            The packet invokes sending a Map-Request.                                     [RFC-draft-ietf-lisp-rfc6833bis]
+   3     Drop/No-Reason              A packet that matches this map-cache entry is dropped. An ICMP Unreachable    [RFC-draft-ietf-lisp-rfc6833bis]
+                                     message SHOULD be sent.
+   4     Drop/Policy-Denied          A packet matching this Map-Cache entry is dropped because the target EWID is  [RFC-draft-ietf-lisp-rfc6833bis]
+                                     policy-denied by the xTR of the mapping system.
+                                     Packet matching the Map-Cache entry is dropped because the Map-Request for
+   5     Drop/Authentication-Failure the target EID fails an authentication check by the xTR or the mapping        [RFC-draft-ietf-lisp-rfc6833bis]
+                                     system.
+   6-7   Unassigned
 
-LISP Address Type Codes
+LISP Address Type Codes (CLOSED)
 
    Reference
-           [RFC6830]
+           [RFC6830][RFC-draft-ietf-lisp-rfc6833bis]
 
-   Available Formats
-           [IMG]
-           CSV
+   Note
 
-    Range    Registration Procedures
-   0-127   IETF Review or IESG Approval
-   128-255 First Come First Served
+ Registry closed per [RFC-draft-ietf-lisp-rfc6833bis].
 
-   Value Description Reference
-   0-255 Unassigned
 
-LISP Key ID Numbers
+LISP Algorithm ID Numbers
 
    Registration Procedure(s)
 
  First Come First Served
 
    Reference
-           [RFC6830]
+           [RFC-draft-ietf-lisp-rfc6833bis]
 
    Available Formats
            [IMG]
            CSV
 
-    Value    Description    Reference
-   0       None             [RFC6830]
-   1       HMAC-SHA-1-96    [RFC6830]
-   2       HMAC-SHA-256-128 [RFC6830]
-   3-65535 Unassigned
+              Name             Number    MAC       KDF
+   None                        0      None      None
+   HMAC-SHA-1-96-None          1      [RFC2404] None
+   HMAC-SHA-256-128-None       2      [RFC4868] None
+   HMAC-SHA256-128+HKDF-SHA256 3      [RFC4868] [RFC4868]
+   Unassigned                  4-255
 
 LISP Crypto Cipher Suite
 
@@ -142,25 +149,25 @@ LISP Packet Types
  Standards Action
 
    Reference
-           [RFC-ietf-lisp-rfc8113bis-03]
+           [RFC-ietf-lisp-rfc8113bis-03][RFC-draft-ietf-lisp-rfc6833bis]
 
    Available Formats
            [IMG]
            CSV
 
-   Code                                                    Message                                                              Reference
-   0    Reserved                                                                                                      [RFC6830]
-   1    LISP Map-Request                                                                                              [RFC6830]
-   2    LISP Map-Reply                                                                                                [RFC6830]
-   3    LISP Map-Register                                                                                             [RFC6830]
-   4    LISP Map-Notify                                                                                               [RFC6830]
-   5    Unassigned
-   6    LISP DDT Map-Referral (TEMPORARY - registered 2017-04-19, extension registered 2020-04-27, expires            [RFC8111]
+   Code                                                  Message                                                              Reference
+   0    Reserved                                                                                                   [RFC-draft-ietf-lisp-rfc6833bis]
+   1    LISP Map-Request                                                                                           [RFC-draft-ietf-lisp-rfc6833bis]
+   2    LISP Map-Reply                                                                                             [RFC-draft-ietf-lisp-rfc6833bis]
+   3    LISP Map-Register                                                                                          [RFC-draft-ietf-lisp-rfc6833bis]
+   4    LISP Map-Notify                                                                                            [RFC-draft-ietf-lisp-rfc6833bis]
+   5    LISP Map-Notify-Ack                                                                                        [RFC-draft-ietf-lisp-rfc6833bis]
+   6    LISP DDT Map-Referral (TEMPORARY - registered 2017-04-19, extension registered 2020-04-27, expires         [RFC8111]
         2021-04-19)
    7    Unassigned
-   8    LISP Encapsulated Control Message                                                                             [RFC6830]
+   8    LISP Encapsulated Control Message                                                                          [RFC-draft-ietf-lisp-rfc6833bis]
    9-14 Unassigned
-   15   LISP Shared Extension Message                                                                                 [RFC-ietf-lisp-rfc8113bis-03]
+   15   LISP Shared Extension Message                                                                              [RFC-ietf-lisp-rfc8113bis-03]
 
 LISP Shared Extension Message Type Sub-types
 
@@ -209,6 +216,142 @@ LISP-GPE Next Protocol
    0x7E-0x7F     Experimentation and testing                [RFC-ietf-lisp-gpe-19]
    0x80-0xFD     Unassigned (shim headers)
    0xFE-0xFF     Experimentation and testing (shim headers) [RFC-ietf-lisp-gpe-19]
+
+LISP Control Plane Header Bits: Map-Request
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name   IANA Name   BIT Position           Description                      Reference
+   A         map-request-A 4            Authoritative Bit               [RFC-draft-ietf-lisp-rfc6833bis]
+   M         map-request-M 5            Map Data Present Bit            [RFC-draft-ietf-lisp-rfc6833bis]
+   P         map-request-P 6            RLOC-Probe Request Bit          [RFC-draft-ietf-lisp-rfc6833bis]
+   S         map-request-S 7            Solicit Map-Request (SMR) Bit   [RFC-draft-ietf-lisp-rfc6833bis]
+   p         map-request-p 8            Proxy-ITR Bit                   [RFC-draft-ietf-lisp-rfc6833bis]
+   s         map-request-s 9            Solicit Map-Request Invoked Bit [RFC-draft-ietf-lisp-rfc6833bis]
+   L         map-request-L 17           Local xTR                       [RFC-draft-ietf-lisp-rfc6833bis]
+   D         map-request-D 18           Don't Map-Reply Bit             [RFC-draft-ietf-lisp-rfc6833bis]
+
+LISP Control Plane Header Bits: Map-Reply
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name  IANA Name  BIT Position      Description                  Reference
+   P         map-reply-P 4            RLOC-Probe Bit         [RFC-draft-ietf-lisp-rfc6833bis]
+   E         map-reply-E 5            Echo Nonce Capable Bit [RFC-draft-ietf-lisp-rfc6833bis]
+   S         map-reply-S 6            Security Bit           [RFC-draft-ietf-lisp-rfc6833bis]
+
+LISP Control Plane Header Bits: Map-Register
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name   IANA Name    BIT Position     Description                 Reference
+   P         map-register-P 4            Proxy Map-Reply Bit  [RFC-draft-ietf-lisp-rfc6833bis]
+   S         map-register-S 5            LISP-SEC Capable Bit [RFC-draft-ietf-lisp-rfc6833bis]
+   I         map-register-I 6            xTR-ID present flag  [RFC-draft-ietf-lisp-rfc6833bis]
+
+LISP Control Plane Header Bits: Encapsulated Control Message (ECM)
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name IANA Name BIT Position        Description                    Reference
+   S         ecm-S     4            Security Bit               [RFC-draft-ietf-lisp-rfc6833bis]
+   D         ecm-D     5            LISP-DDT Bit               [RFC-draft-ietf-lisp-rfc6833bis]
+   E         ecm-E     6            Forward to ETR Bit         [RFC-draft-ietf-lisp-rfc6833bis]
+   M         ecm-M     7            Destined to Map-Server Bit [RFC-draft-ietf-lisp-rfc6833bis]
+
+LISP Control Plane Header Bits: EID-Record
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name  IANA Name   BIT Position    Description               Reference
+   A         eid-record-A 19           Authoritative Bit [RFC-draft-ietf-lisp-rfc6833bis]
+
+LISP Control Plane Header Bits: RLOC-Record
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+           [RFC-draft-ietf-lisp-rfc6833bis]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Spec Name   IANA Name   BIT Position     Description                 Reference
+   L         rloc-record-L 13           Local RLOC Bit       [RFC-draft-ietf-lisp-rfc6833bis]
+   p         rloc-record-p 19           RLOC-Probe Reply Bit [RFC-draft-ietf-lisp-rfc6833bis]
+   R         rloc-record-R 19           RLOC Reachable Bit   [RFC-draft-ietf-lisp-rfc6833bis]
 
                                                                  Contact Information
 
