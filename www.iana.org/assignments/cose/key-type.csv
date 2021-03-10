@@ -5,3 +5,4 @@ EC2,2,Elliptic Curve Keys w/ x- and y-coordinate pair,"[kty(2), crv]",[RFC-ietf-
 RSA,3,RSA Key,[kty(3)],[RFC8230][RFC-ietf-cose-rfc8152bis-algs-12]
 Symmetric,4,Symmetric Keys,[kty(4)],[RFC-ietf-cose-rfc8152bis-algs-12]
 HSS-LMS,5,Public key for HSS/LMS hash-based digital signature,"[kty(5), hash algorithm]",[RFC8778][RFC-ietf-cose-rfc8152bis-algs-12]
+WalnutDSA,6,WalnutDSA public key,[kty(6)],[RFC-atkins-suit-cose-walnutdsa-07]

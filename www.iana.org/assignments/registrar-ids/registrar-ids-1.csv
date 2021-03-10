@@ -570,7 +570,7 @@
 935,"Commerce Island, LLC",Accredited,https://rdapserver.net/
 936,"Ground Internet, Inc.",Terminated,
 937,"Blue Fractal, LLC",Accredited,https://rdapserver.net/
-938,7081936 Canada Inc.,Accredited,
+938,WHC Online Solutions Inc.,Accredited,
 939,"Desert Devil, LLC",Accredited,https://rdapserver.net/
 940,Above.com Pty Ltd.,Accredited,https://www.above.com/rdap/
 941,"Dynamic Dolphin, Inc.",Terminated,
@@ -603,7 +603,7 @@
 969,"! #1 Host Brazil, Inc.",Terminated,
 970,"! #1 Host China, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 971,"! #1 Host Canada, LLC",Accredited,https://rdap.networksolutions.com/rdap/
-972,Netregistry Domains Pty Ltd,Accredited,https://tpp.rdap.tucows.com/
+972,Netregistry Domains Pty Ltd,Terminated,https://tpp.rdap.tucows.com/
 973,"Haveaname, LLC",Accredited,https://rdap.haveaname.com/
 974,"Netestate, LLC",Accredited,https://rdap.netestate.com/
 975,"Topsystem, LLC",Accredited,https://rdap.topsystem.com/
@@ -2831,8 +2831,8 @@
 3218,"Nimzo 100, LLC",Terminated,
 3219,"Zhengzhou Business Technology Co., Ltd.",Accredited,https://rdap.reg.cn/rdap/
 3220,Swizzonic Ltd.,Accredited,
-3221,"Mayi Information Co., Limited",Accredited,
-3222,"Sksa Technology Co., Ltd",Accredited,
+3221,"Mayi Information Co., Limited",Accredited,https://rdap.mayiwww.com/rdap/
+3222,Domainipr Limited,Accredited,
 3223,"Xiamen Booksir Qiyoutong Technology Co., Ltd.",Accredited,https://whois.micang.com/
 3224,Registrator Domenov LLC,Accredited,https://rdap.mastername.ru/
 3225,"Knet Registrar Co., Ltd",Accredited,https://rdap.knetreg.cn/domain/
@@ -3421,7 +3421,7 @@
 3810,Aquila Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3811,Australe Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3812,Innovadeus Pvt. Ltd.,Accredited,https://rdapserver.net/
-3813,"ShangYu Global Technology Co., Ltd.",Accredited,
+3813,"ShangYu Global Technology Co., Ltd.",Accredited,https://whois.shangyuglobal.com:9090/rdap/
 3814,Zunyi Brandma Network Technology Ltd.,Accredited,https://rdap.zuuq.cn/
 3817,Wix.com Ltd.,Accredited,https://www.wix.com/_api/whois/rdap/
 3818,Baidu Europe B.V.,Accredited,

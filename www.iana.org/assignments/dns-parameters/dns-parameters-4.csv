@@ -1,4 +1,5 @@
 TYPE,Value,Meaning,Reference,Template,Registration Date
+Reserved,0,,[RFC6895],,2021-03-08
 A,1,a host address,[RFC1035],,
 NS,2,an authoritative name server,[RFC1035],,
 MD,3,a mail destination (OBSOLETE - use MX),[RFC1035],,

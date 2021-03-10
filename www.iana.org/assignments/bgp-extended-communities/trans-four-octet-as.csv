@@ -11,4 +11,6 @@ Sub-Type Value,Name,Reference,Date
 0x10,Cisco VPN Identifier,[Eric_Rosen],2012-04-10
 0x11-0x12,Unassigned,,
 0x13,Route-Target Record,[draft-ietf-bess-service-chaining],2016-08-29
-0x14-0xff,Unassigned,,
+0x14,Unassigned,,
+0x15,RT-derived-EC,[draft-zzhang-idr-rt-derived-community-00],2021-03-09
+0x16-0xff,Unassigned,,

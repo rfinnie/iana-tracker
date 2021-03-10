@@ -1,6 +1,9 @@
 Claim Name,Claim Description,JWT Claim Name,Claim Key,Claim Value Type,Change Controller,Reference
 Reserved for Private Use,,,less than -65536,,,[RFC8392]
-Unassigned,,,-65536 to -257,,,
+Unassigned,,,-65536 to -260,,,
+EUPHNonce,Challenge Nonce,EUPHNonce,-259,bstr,[FIDO_Alliance],[FIDO Device Onboard Specification]
+EATMAROEPrefix,Signing prefix for multi-app restricted operating environments,EATMAROEPrefix,-258,bstr,[FIDO_Alliance],[FIDO Device Onboard Specification]
+EAT-FDO,EAT-FDO may contain related to FIDO Device Onboarding,EAT-FDO,-257,array,[FIDO_Alliance],[FIDO Device Onboard Specification]
 Unassigned,,,-256 to -1,,,
 Reserved,This registration reserves the key value 0,,0,,[IESG],[RFC8392]
 iss,Issuer,iss,1,text string,[IESG],[RFC8392]
