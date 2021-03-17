@@ -53,5 +53,6 @@ Value,Description,Reference
 51,PCE-FLOWSPEC-CAPABILITY TLV,[RFC-ietf-pce-pcep-flowspec-12]
 52,FLOW FILTER TLV,[RFC-ietf-pce-pcep-flowspec-12]
 53,L2 FLOW FILTER TLV,[RFC-ietf-pce-pcep-flowspec-12]
-54-65503,Unassigned,
+54,Bidirectional LSP Association Group TLV,[RFC-ietf-pce-association-bidir-14]
+55-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

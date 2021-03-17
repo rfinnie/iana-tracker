@@ -2,3 +2,4 @@ Relationship Type,Status,Reference
 CHILD,Current,"[RFC5545], Section 3.2.15"
 PARENT,Current,"[RFC5545], Section 3.2.15"
 SIBLING,Current,"[RFC5545], Section 3.2.15"
+SNOOZE,Current,"[RFC-ietf-calext-valarm-extensions-07], Section 7.1"

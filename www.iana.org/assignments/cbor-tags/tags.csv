@@ -124,7 +124,8 @@ Tag,Data Item,Semantics,Reference,Template
 50011,array,PlatformV_HAS_ACTION,[https://github.com/arthurwangtz/platformv-cbor][Wang_Tongzhou],
 50012-55798,Unassigned,,,
 55799,(any),Self-described CBOR; see Section 3.4.6,[RFC8949],
-55800-65534,Unassigned,,,
+55800,byte-string,indicates that the file contains one or more CBOR Sequences,[draft-ietf-cbor-file-magic-00][Michael_Richardson_2],
+55801-65534,Unassigned,,,
 65535,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
 65536-1330664269,Unassigned,,,
 1330664270,byte-string,"A CBOR encoded Openswan configuration file, as stored on disk for

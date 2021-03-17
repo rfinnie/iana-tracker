@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2021-03-04
+           2021-03-14
 
    Available Formats
            [IMG]
@@ -342,7 +342,7 @@ Registrar IDs
      674   CVO.ca Inc.                                                           Terminated
      675   Super Registry Ltd                                                    Accredited https://rdap.rebel.com/
      676   ExtremeDomains.ca Inc.                                                Terminated
-     677   NetRegistry Pty Ltd.                                                  Accredited
+     677   NetRegistry Pty Ltd.                                                  Accredited https://netregistry.rdap.tucows.com/
      678   Ace of Domains, Inc.                                                  Terminated
      679   Compana LLC                                                           Terminated
      680   SearchName.ca Internet Services Corporation                           Terminated
@@ -600,7 +600,7 @@ Registrar IDs
      935   Commerce Island, LLC                                                  Accredited https://rdapserver.net/
      936   Ground Internet, Inc.                                                 Terminated
      937   Blue Fractal, LLC                                                     Accredited https://rdapserver.net/
-     938   WHC Online Solutions Inc.                                             Accredited
+     938   WHC Online Solutions Inc.                                             Accredited https://rdapserver.net/
      939   Desert Devil, LLC                                                     Accredited https://rdapserver.net/
      940   Above.com Pty Ltd.                                                    Accredited https://www.above.com/rdap/
      941   Dynamic Dolphin, Inc.                                                 Terminated
@@ -668,7 +668,7 @@ Registrar IDs
     1004   Netlynx Inc.                                                          Terminated
     1005   NetEarth One Inc. d/b/a NetEarth                                      Accredited https://rdapserver.net/
     1006   Az.pl, Inc.                                                           Terminated
-    1007   Net 4 India Limited                                                   Accredited
+    1007   Net 4 India Limited                                                   Terminated
     1008   SNAPNAMES 7, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
     1009   SNAPNAMES 8, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
     1010   SNAPNAMES 9, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
@@ -3484,7 +3484,7 @@ Registrar IDs
     3847   Beijing Jingkewang Technology Company Ltd.                            Accredited
     3848   Shandong Huaimi Network Technology Co., Ltd                           Accredited
     3849   Zerolek Pty Ltd                                                       Terminated
-    3850   Topvisor Co., Ltd                                                     Accredited
+    3850   Topvisor Co., Ltd                                                     Terminated
     3851   Yunnan DingHong Technology Co. Ltd.                                   Accredited
     3852   Xiamen Zhongtuo Internet Technology Co., Ltd.                         Accredited https://rdap.zhong.top/domain/
     3853   Grupo Loading Systems S.L.                                            Accredited
@@ -3522,6 +3522,7 @@ Registrar IDs
     3884   Staclar, Inc.                                                         Accredited https://rdap.staclar.com/
     3885   Discount Domain Name Services Pty Ltd                                 Accredited
     3886   GrepApps Technology Inc.                                              Accredited
+    3887   Second Genistrar, LLC                                                 Accredited
     9994   Reserved for Registry Operator acting as Registrar where directed by  Reserved
            ICANN
     9995   Reserved for Pre-Delegation Testing transactions #1 reporting         Reserved

@@ -141,6 +141,9 @@ Object-Class Value,Name,Object-Type,Reference
 43,FLOWSPEC,0: Reserved,[RFC-ietf-pce-pcep-flowspec-12]
 ,,1: Flow Specification,[RFC-ietf-pce-pcep-flowspec-12]
 ,,2-15: Unassigned,
-44-247,Unassigned,0: Reserved,[RFC Errata 4956]
+44,CCI Object-Type,0: Reserved,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,1: MPLS Label,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,2-15: Unassigned,
+45-247,Unassigned,0: Reserved,[RFC Errata 4956]
 ,,1-15: Unassigned,
 248-255,Experimental Use,0-15: Experimental Use,[RFC8356]

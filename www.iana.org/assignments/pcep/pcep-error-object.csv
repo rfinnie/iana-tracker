@@ -52,7 +52,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,14: P2MP-LSP-IDENTIFIERS TLV missing,[RFC8623]
 ,,15: DISJOINTNESS-CONFIGURATION TLV missing,[RFC8800]
 ,,16: Scheduled TLV missing,[RFC8934]
-,,17-255: Unassigned,
+,,17: CCI object missing,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,18-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
@@ -91,7 +92,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,30: Wrong LABEL-SET TLV present with O bit set and wrong format,[RFC8779]
 ,,31: Missing GMPLS-CAPABILITY TLV,[RFC8779]
 ,,32: Incompatible OF code,[RFC8800]
-,,33-255: Unassigned,
+,,33: Missing PCECC Capability sub-TLV,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,34-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
 ,,1: Unsupported class-type,[RFC5455]
@@ -144,7 +146,10 @@ Error-Type,Meaning,Error-value,Reference
         instantiation capability for P2MP was not advertised",[RFC8623]
 ,,14: Auto-Bandwidth capability was not advertised,[RFC8733]
 ,,15: Attempted LSP scheduling while the scheduling capability was not advertised,[RFC8934]
-,,16-255: Unassigned,
+,,16: Attempted PCECC operations when PCECC capability was not advertised,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,17: Stateful PCE capability was not advertised,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,18: Unknown Label,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,19-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
         (an otherwise valid) LSP State Report. The PCEP-
@@ -200,7 +205,13 @@ Error-Type,Meaning,Error-value,Reference
 ,,11: Protection type is not supported,[RFC8745]
 ,,12: Not expecting policy parameters,[RFC-ietf-pce-association-policy-16]
 ,,13: Unacceptable policy parameters,[RFC-ietf-pce-association-policy-16]
-,,14-255: Unassigned,
+,,14: Bidirectional LSP Association - Group Mismatch,[RFC-ietf-pce-association-bidir-14]
+,,15: Bidirectional LSP Association - Tunnel Mismatch,[RFC-ietf-pce-association-bidir-14]
+,,16: Bidirectional LSP Association - Path Setup Type Not Supported,[RFC-ietf-pce-association-bidir-14]
+,,17: Bidirectional LSP Association - Direction Mismatch,[RFC-ietf-pce-association-bidir-14]
+,,18: Bidirectional LSP Association - Co-routed Mismatch,[RFC-ietf-pce-association-bidir-14]
+,,19: Bidirectional LSP Association - Endpoint Mismatch,[RFC-ietf-pce-association-bidir-14]
+,,20-255: Unassigned,
 27,WSON RWA error,0: Unassigned,[RFC8780]
 ,,1: Insufficient memory,[RFC8780]
 ,,2: RWA computation not supported,[RFC8780]
@@ -224,4 +235,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unknown FlowSpec,[RFC-ietf-pce-pcep-flowspec-12]
 ,,5: Unsupported LPM Route,[RFC-ietf-pce-pcep-flowspec-12]
 ,,6-255: Unassigned,
-31-255,Unassigned,0-255: Unassigned,
+31,PCECC failure,0: Unassigned,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,1: Label out of range,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,2: Instruction failed,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,3: Invalid CCI,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,4: Unable to allocate the specified CCI,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,5: Invalid next-hop information,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,6-255: Unassigned,
+32-255,Unassigned,0-255: Unassigned,

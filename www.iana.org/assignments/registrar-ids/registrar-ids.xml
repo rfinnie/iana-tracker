@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="registrar-ids.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-03-04</updated>
+    <updated>2021-03-14</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1981,10 +1981,13 @@
             <name>ExtremeDomains.ca Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record updated="2021-03-11">
             <value>677</value>
             <name>NetRegistry Pty Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://netregistry.rdap.tucows.com/</server>
+            </rdapurl>
         </record>
         <record>
             <value>678</value>
@@ -3620,10 +3623,13 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2021-03-04">
+        <record updated="2021-03-11">
             <value>938</value>
             <name>WHC Online Solutions Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record updated="2021-02-11">
             <value>939</value>
@@ -4050,10 +4056,10 @@
             <name>Az.pl, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record>
+        <record update="2021-03-14">
             <value>1007</value>
             <name>Net 4 India Limited</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2019-08-15">
             <value>1008</value>
@@ -24348,10 +24354,10 @@
             <name>Zerolek Pty Ltd</name>
             <status>Terminated</status>
         </record>
-        <record date="2019-11-07">
+        <record date="2019-11-07" updated="2021-03-10">
             <value>3850</value>
             <name>Topvisor Co., Ltd</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2020-04-06">
             <value>3851</value>
@@ -24594,6 +24600,11 @@
         <record date="2021-02-25">
             <value>3886</value>
             <name>GrepApps Technology Inc.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-03-11">
+            <value>3887</value>
+            <name>Second Genistrar, LLC</name>
             <status>Accredited</status>
         </record>
         <record date="2020-06-10">

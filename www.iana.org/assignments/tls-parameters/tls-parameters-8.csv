@@ -40,7 +40,7 @@ Value,Description,DTLS-OK,Recommended,Reference,Comment
 38,GC512A,Y,N,[draft-smyshlyaev-tls12-gost-suites],
 39,GC512B,Y,N,[draft-smyshlyaev-tls12-gost-suites],
 40,GC512C,Y,N,[draft-smyshlyaev-tls12-gost-suites],
-41,curveSM2,N,N,[RFC-yang-tls-tls13-sm-suites-06],
+41,curveSM2,N,N,[RFC8998],
 42-255,Unassigned,,,,
 256,ffdhe2048,Y,N,[RFC7919],
 257,ffdhe3072,Y,N,[RFC7919],

@@ -26,7 +26,7 @@ Value,Description,Recommended,Reference
 0x0705,iso_ibs1,N,[draft-wang-tls-raw-public-key-with-ibc]
 0x0706,iso_ibs2,N,[draft-wang-tls-raw-public-key-with-ibc]
 0x0707,iso_chinese_ibs,N,[draft-wang-tls-raw-public-key-with-ibc]
-0x0708,sm2sig_sm3,N,[RFC-yang-tls-tls13-sm-suites-06]
+0x0708,sm2sig_sm3,N,[RFC8998]
 0x0709,gostr34102012_256a,N,[draft-smyshlyaev-tls13-gost-suites]
 0x070A,gostr34102012_256b,N,[draft-smyshlyaev-tls13-gost-suites]
 0x070B,gostr34102012_256c,N,[draft-smyshlyaev-tls13-gost-suites]
