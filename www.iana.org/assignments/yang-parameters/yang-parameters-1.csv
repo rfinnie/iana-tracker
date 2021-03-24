@@ -13,7 +13,7 @@ iana-hardware,iana-hardware@2018-03-13.yang,Y,urn:ietf:params:xml:ns:yang:iana-h
 iana-if-type,iana-if-type@2021-02-18.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
    module. They must instead be added to the ""Interface Types (ifType)"" registry 
 at [IANA registry smi-numbers]."
-iana-routing-types,iana-routing-types@2020-12-31.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
+iana-routing-types,iana-routing-types@2021-03-23.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
 directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
 and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
@@ -151,7 +151,7 @@ ietf-twamp,,N,urn:ietf:params:xml:ns:yang:ietf-twamp,twamp,,[RFC-ietf-ippm-twamp
 ietf-voucher,ietf-voucher@2018-05-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-voucher,vch,,[RFC8366],
 ietf-voucher-request,,N,urn:ietf:params:xml:ns:yang:ietf-voucher-request,vch,,[RFC-ietf-anima-bootstrapping-keyinfra-44],[RFC-ietf-anima-bootstrapping-keyinfra-44]'s module file will be posted upon the document's publication as an RFC.
 ietf-vrrp,ietf-vrrp@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-vrrp,vrrp,,[RFC8347],
-ietf-wson-topology,,N,urn:ietf:params:xml:ns:yang:ietf-wson-topology,wson,,[RFC-ietf-ccamp-wson-yang-28],[RFC-ietf-ccamp-wson-yang-28]'s module file will be posted upon the document's publication as an RFC.
+ietf-wson-topology,,N,urn:ietf:params:xml:ns:yang:ietf-wson-topology,wsont,,[RFC-ietf-ccamp-wson-yang-28],[RFC-ietf-ccamp-wson-yang-28]'s module file will be posted upon the document's publication as an RFC.
 ietf-x509-cert-to-name,ietf-x509-cert-to-name@2014-12-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name,x509c2n,,[RFC7407],
 ietf-yang-library,ietf-yang-library@2016-06-21.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC7895],
 ietf-yang-library,ietf-yang-library@2019-01-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC8525],

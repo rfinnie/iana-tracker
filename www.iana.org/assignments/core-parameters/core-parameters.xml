@@ -3452,7 +3452,6 @@ server-side key generation with the returned certificate in application/pkix-cer
     <title>Endpoint Type (et=) RD Parameter Values</title>
     <xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
     <expert>Unassigned</expert>
-    <note/>
     <range>
       <value>value starts with "core"</value>
       <registration_rule>IETF Review</registration_rule>

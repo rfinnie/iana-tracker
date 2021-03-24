@@ -11214,7 +11214,9 @@ cfg-cloud,8015,tcp,Configuration Cloud Service,[admin_at_cfg_cloud],[Goksel_Darc
 ,8015,udp,Reserved,,,,,,,,
 ads-s,8016,tcp,Beckhoff Automation Device Specification,[Beckhoff_Automation_GmbH_Co_KG],[Henning_Mersch_2],2019-02-28,,,,,
 ,8016,udp,Reserved,,,,,,,,
-,8017-8018,,Unassigned,,,,,,,,
+,8017,tcp,Reserved,,,,,,,,
+cisco-cloudsec,8017,udp,Cisco Cloudsec Dataplane Port Number,[Cisco_Systems_Inc],[Govind_Sharma],2021-03-18,,,,,
+,8018,,Unassigned,,,,,,,,
 qbdb,8019,tcp,QB DB Dynamic Port,[Sridhar_Krishnamurth],[Sridhar_Krishnamurth],2008-02-15,,,,,
 qbdb,8019,udp,QB DB Dynamic Port,[Sridhar_Krishnamurth],[Sridhar_Krishnamurth],2008-02-15,,,,,
 intu-ec-svcdisc,8020,tcp,Intuit Entitlement Service and Discovery,[Daniel_C_McGloin],[Daniel_C_McGloin],2005-05,,,,,
@@ -13950,6 +13952,8 @@ beatpack,,,BeatPack Synchronization Server for BeatMaker,[Mathieu_Garcia],[Mathi
 beatsdirect,,tcp,Beats Direct allows for the discovery and control of devices,[Beats_Electronics_LLC],[Eddie_Borjas],2013-06-03,,,,,Defined TXT keys: None
 beep,,,Xgrid Technology Preview,[David_Kramer_2],[David_Kramer_2],,,,,,Defined TXT keys: None
 behnke-cc,,tcp,Behnke doorphones / emergency phones,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2020-05-13,,,,,Defined TXT keys: None
+behnke-station,,tcp,Behnke audio / video intercom systems,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2021-03-17,,,,,"Defined TXT keys: mjpg, jpg, auth, camera, macaddress"
+behnke-video,,tcp,Behnke doorphones / video intercoms,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2021-03-17,,,,,"Defined TXT keys: mjpg, jpg, auth, camera, macaddress"
 bender,,,Bender Communication Protocol,[Bender_GmbH_Co_KG],[Markus_Kremer],2013-10-15,,,,,Defined TXT keys: product version bus id featuremask
 bfagent,,,BuildForge Agent,[Joe_Senner_2],[Joe_Senner_2],,,,,,Defined TXT keys: None
 bigbangchess,,,Big Bang Chess,[Freeverse_Software],[Freeverse_Software],,,,,,Defined TXT keys: None
