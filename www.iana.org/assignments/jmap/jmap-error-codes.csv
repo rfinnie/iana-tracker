@@ -70,4 +70,4 @@ forbiddenFrom,common,IETF,"The server does not permit the user to send a message
         with the From header field [RFC5322] of the message to be sent.","[RFC8621, Sections 6.3 and 7.5]"
 forbiddenToSend,common,IETF,The user does not have permission to send at all right now.,"[RFC8621, Section 7.5]"
 mdnAlreadySent,common,IETF,"The message has the ""$mdnsent"" keyword already set.  The
-   client MUST NOT try again to send an MDN for this message.","[RFC-ietf-jmap-mdn-17, Section 2.1]"
+   client MUST NOT try again to send an MDN for this message.","[RFC9007, Section 2.1]"

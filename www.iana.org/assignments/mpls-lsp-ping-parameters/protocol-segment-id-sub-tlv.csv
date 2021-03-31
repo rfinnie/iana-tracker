@@ -4,7 +4,7 @@ Value,Meaning,Reference,Notes
         only when draft-ietf-mpls-lsp-ping-ospfv3-codepoint is approved as an
         RFC"
 2,ISIS,[RFC8287],
-3,"OSPFv3 (TEMPORARY - registered 2020-03-27, expires 2021-03-27)",[draft-ietf-mpls-lsp-ping-ospfv3-codepoint],
+3,"OSPFv3 (TEMPORARY - registered 2020-03-27, extension registered 2021-03-24, expires 2022-03-27)",[draft-ietf-mpls-lsp-ping-ospfv3-codepoint],
 4-250,Unassigned,,
 251-254,Reserved for Experimental Use,[RFC8287],
 255,Reserved,[RFC8287],

@@ -74,6 +74,9 @@ given type is present.",[RFC5260],[Sieve_discussion_list],
 mailbox,"adds test for checking for mailbox existence and a new
 optional argument to fileinto for creating a mailbox
 before attempting mail delivery.",[RFC5490],[Sieve_discussion_list],
+mailboxid,"adds a test for checking mailbox existence by objectid,
+and new optional arguments to fileinto and :fcc which
+allow selecting the destination mailbox by objectid.",[RFC-ietf-extra-sieve-mailboxid-09],[EXTRA_discussion_list],2021-03-30
 mboxmetadata,"adds tests for checking for mailbox metadata item
 existence and for retrieving of a mailbox metadata
 value.",[RFC5490],[Sieve_discussion_list],

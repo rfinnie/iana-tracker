@@ -5,4 +5,5 @@ Type,Name,Reference
 3,Policy Association,[RFC-ietf-pce-association-policy-16]
 4,Single-sided Bidirectional LSP Association,[RFC-ietf-pce-association-bidir-14]
 5,Double-sided Bidirectional LSP Association,[RFC-ietf-pce-association-bidir-14]
-6-65535,Unassigned,
+6,"SR Policy Association (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+7-65535,Unassigned,

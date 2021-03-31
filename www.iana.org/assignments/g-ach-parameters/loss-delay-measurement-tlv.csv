@@ -3,7 +3,8 @@ Code,Description,Reference
 1,Return Address,[RFC6374]
 2,Session Query Interval,[RFC6374]
 3,Loopback Request,[RFC6374]
-4-126,Unassigned,
+4,Synonymous Flow Label,[RFC-ietf-mpls-rfc6374-sfl-10]
+5-126,Unassigned,
 127,Experimental use,[RFC6374]
 128,Padding - do not copy in response,[RFC6374]
 129,Destination Address,[RFC6374]

@@ -54,5 +54,10 @@ Value,Description,Reference
 52,FLOW FILTER TLV,[RFC-ietf-pce-pcep-flowspec-12]
 53,L2 FLOW FILTER TLV,[RFC-ietf-pce-pcep-flowspec-12]
 54,Bidirectional LSP Association Group TLV,[RFC-ietf-pce-association-bidir-14]
-55-65503,Unassigned,
+55,"TE-PATH-BINDING (TEMPORARY - registered 2021-03-29, expires 2022-03-29)",[draft-ietf-pce-binding-label-sid-07]
+56,"SRPOLICY-POL-NAME (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+57,"SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+58,"SRPOLICY-CPATH-NAME (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+59,"SRPOLICY-CPATH-PREFERENCE (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+60-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

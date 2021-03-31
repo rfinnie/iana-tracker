@@ -1,5 +1,5 @@
 Bit,Description,Reference
-0,Unassigned,
+0,"PCE-allocated binding label/SID (TEMPORARY - registered 2021-03-29, expires 2022-03-29)",[draft-ietf-pce-binding-label-sid-07]
 1,ERO-compression,[RFC8623]
 2,Fragmentation,[RFC8623]
 3,P2MP,[RFC8623]
