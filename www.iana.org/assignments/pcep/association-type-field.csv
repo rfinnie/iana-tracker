@@ -2,7 +2,7 @@ Type,Name,Reference
 0,Reserved,[RFC8697]
 1,Path Protection Association,[RFC8745]
 2,Disjoint Association,[RFC8800]
-3,Policy Association,[RFC-ietf-pce-association-policy-16]
+3,Policy Association,[RFC9005]
 4,Single-sided Bidirectional LSP Association,[RFC-ietf-pce-association-bidir-14]
 5,Double-sided Bidirectional LSP Association,[RFC-ietf-pce-association-bidir-14]
 6,"SR Policy Association (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]

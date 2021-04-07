@@ -47,3 +47,4 @@ Decimal,Description,References
 45,id-ct-cborSequence,[RFC8769]
 46,id-ct-animaCBORVoucher,[Reserved and Obsolete]
 47,id-ct-geofeedCSVwithCRLF,[draft-ymbk-opsawg-finding-geofeeds]
+48,id-ct-signedChecklist,[draft-ietf-sidrops-rpki-rsc-02]

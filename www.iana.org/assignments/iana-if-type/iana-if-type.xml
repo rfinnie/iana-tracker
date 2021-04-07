@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="iana-if-type.xsl"?>
-<?oxygen RNGSchema="iana-if-type.rng" type="xml"?>
+<?xml-model href="iana-if-type.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="iana-if-type">
   <title>iana-if-type YANG Module</title>
   <category>YANG Modules</category>
@@ -10,7 +10,7 @@
 module. They must instead be added to the "Interface Types (ifType)" 
 registry at <xref type="registry" data="smi-numbers"/>.
   
-  Module: <xref type="uri" data="http://www.iana.org/assignments/yang-parameters/iana-if-type@2021-02-18.yang">iana-if-type@2021-02-18.yang</xref>  
+  Module: <xref type="uri" data="http://www.iana.org/assignments/yang-parameters/iana-if-type@2021-04-01.yang">iana-if-type@2021-04-01.yang</xref>  
   </description>
   <xref type="rfc" data="rfc1213"/>
   <xref type="rfc" data="rfc2863"/>

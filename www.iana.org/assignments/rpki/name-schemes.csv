@@ -4,3 +4,4 @@ Filename Extension,RPKI Object,Reference
 .gbr,Ghostbusters Record,[RFC6493]
 .mft,Manifest,[RFC6481]
 .roa,Route Origination Authorization,[RFC6481]
+.sig,"Signed Checklist (TEMPORARY - registered 2021-04-01, expires 2022-04-01)",[draft-ietf-sidrops-rpki-rsc-02]

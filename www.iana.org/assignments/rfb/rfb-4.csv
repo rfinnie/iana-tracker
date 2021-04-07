@@ -44,6 +44,7 @@ Value,Name,Reference
         [Terminal Mode v1.0]"
 -763 to -768,TurboVNC subsampling level,historic assignment
 0x48323634,VA H.264,[David_Verbeiren]
+0x52706C41,Replit Audio Pseudo-encoding,[Luis_Héctor_Chávez]
 0x574d5600 to 0x574d56ff,VMWare,historic assignment
 0xc0a1e5ce to 0xc0a1e5cf,Possibly used in UltraVNC,historic assignment
 0xfffe0000 to 0xfffe00ff,Used in LibVNCServer,LibVNCServer

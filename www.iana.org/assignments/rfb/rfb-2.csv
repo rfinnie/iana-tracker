@@ -15,7 +15,8 @@ Value,Name,Reference
         [Terminal Mode v1.0]"
 129-149,Unassigned,
 150,TightVNC EnableContinuousUpdates,historic assignment
-151-245,Unassigned,
+151-244,Unassigned,
+245,Replit Audio Client Message,[Luis_Héctor_Chávez]
 246,Dell-EMC,[Rajeshkumar_Patel]
 247,Dell-EMC,[Rajeshkumar_Patel]
 248,ClientFence,TigerVNC
