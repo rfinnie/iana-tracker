@@ -1,9 +1,12 @@
 Media Type,Organization,Contact
+application/3gppHal+json,3GPP,[Ulrich_Wiehe]
+application/3gppHalForms+json,3GPP,[Ulrich_Wiehe]
 application/odm+json,CDISC,[Sam_Hume]
 application/json-nd,ECMA,[Glen_Kleidon]
 application/cert-chain+cbor,IETF,[draft-yasskin-http-origin-signed-responses]
 application/ion,IETF,[Jonathan_Hohle]
 application/pkix-keyinfo,IETF,[draft-hallambaker-mesh-udf]
+application/rpki-checklist,IETF,[draft-ietf-sidrops-rpki-rsc-02]
 application/signed-exchange,IETF,[draft-yasskin-http-origin-signed-responses]
 application/webbundle,IETF,[draft-yasskin-wpack-bundled-exchanges]
 image/jxl,ISO/IEC JTC 1,[Touradj_Ebrahimi]
