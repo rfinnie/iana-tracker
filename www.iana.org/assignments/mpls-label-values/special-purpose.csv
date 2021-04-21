@@ -8,4 +8,4 @@ Value,Description,Reference
 8-12,Unassigned,
 13,Generic Associated Channel Label,[RFC5586]
 14,OAM Alert Label,[RFC3429]
-15,Extension Label (XL),[RFC7274][RFC-ietf-mpls-spl-terminology-06]
+15,Extension Label (XL),[RFC7274][RFC9017]

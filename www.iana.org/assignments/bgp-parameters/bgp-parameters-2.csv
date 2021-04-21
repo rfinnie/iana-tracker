@@ -38,7 +38,7 @@ Work in progress, March 1996.][RFC6938]"
 35,"Only to Customer (OTC) (TEMPORARY - registered 2018-03-29, extension registered 2021-02-19, expires 2022-03-29)",[draft-ietf-idr-bgp-open-policy]
 36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, extension registered 2020-05-26, expires 2021-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking]
 37,SFP Attribute,[RFC-ietf-bess-nsh-bgp-control-plane-18]
-38,BFD Discriminator,[RFC-ietf-bess-mvpn-fast-failover-15]
+38,BFD Discriminator,[RFC9026]
 39,Unassigned,
 40,BGP Prefix-SID,[RFC8669]
 41-127,Unassigned,

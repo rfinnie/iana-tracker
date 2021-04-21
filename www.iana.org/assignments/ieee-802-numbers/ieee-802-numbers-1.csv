@@ -193,7 +193,7 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 ,8848,,,MPLS with upstream-assigned label,[RFC5332]
 ,8861,,,Multicast Channel Allocation Protocol (MCAP),[RFC7042]
 34915,8863,-,-,PPP over Ethernet (PPPoE) Discovery Stage,[RFC2516]
-34916,8864,-,-,PPP over Ethernet (PPPoE) Session Stage,[RFC2516][RFC-allan-5g-fmc-encapsulation-08]
+34916,8864,-,-,PPP over Ethernet (PPPoE) Session Stage,[RFC2516][RFC8822]
 34958,888E,-,-,IEEE Std 802.1X - Port-based network access control,[IEEE]
 34984,88A8,-,-,IEEE Std 802.1Q - Service VLAN tag identifier (S-Tag),[IEEE]
 ,8A96-8A97,,,Invisible Software,[Neil_Sembower]

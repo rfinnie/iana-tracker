@@ -52,7 +52,7 @@ Value,Extension Name,TLS 1.3,Recommended,Reference
 50,signature_algorithms_cert,"CH, CR",Y,[RFC8446]
 51,key_share,"CH, SH, HRR",Y,[RFC8446]
 52,transparency_info,"CH, CR, CT",N,[draft-ietf-trans-rfc6962-bis]
-53,"connection_id (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires 2021-07-02)",-,N,[draft-ietf-tls-dtls-connection-id]
+53,"connection_id (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires 2021-07-02)",-,N,[draft-ietf-tls-dtls-connection-id-08]
 54,Unassigned,,,
 55,external_id_hash,"CH, EE",Y,[RFC8844]
 56,external_session_id,"CH, EE",Y,[RFC8844]

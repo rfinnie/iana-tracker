@@ -1,4 +1,4 @@
 Bit Number,Capability Description,Reference
-0,Advertiser address in Full (F),[RFC-ietf-roll-unaware-leaves-30]
-1,Proxy EDAR Requested (X),[RFC-ietf-roll-unaware-leaves-30]
+0,Advertiser address in Full (F),[RFC9010]
+1,Proxy EDAR Requested (X),[RFC9010]
 2-3,Unassigned,
