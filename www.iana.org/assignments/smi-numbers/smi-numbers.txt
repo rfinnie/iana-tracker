@@ -1,7 +1,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2021-04-16
+           2021-04-23
 
    Note
 
@@ -908,6 +908,7 @@ Decimal             Name                           Description                  
   300   cpri                          Common Public Radio Interface         [CPRI v7.0][Renwang_Liu]
   301   omni                          Overlay Multilink Network Interface   [draft-templin-6man-omni-00][Fred_L_Templin]
                                       (OMNI)
+  302   roe                           Radio over Ethernet Interface         [1914.3-2018 - IEEE Standard for Radio over Ethernet Encapsulations and Mappings][Renwang_Liu]
 
 Tunnel Types (tunnelType)
 
@@ -965,25 +966,27 @@ Tunnel Types (tunnelType)
            [IMG]
            CSV
 
-   Decimal     Name          Description                                                 References
-      1    other        none of the following  [RFC4087]
-      2    direct       no intermediate header [RFC2003][RFC4213]
-      3    gre          GRE encapsulation      [RFC1701][RFC1702][RFC7676]
-      4    minimal      Minimal encapsulation  [RFC2004]
-      5    l2tp         L2TP encapsulation     [RFC2661]
-      6    pptp         PPTP encapsulation     [RFC2637]
-      7    l2f          L2F encapsulation      [RFC2341]
-      8    udp          UDP encapsulation      [RFC1234][RFC8085]
-      9    atmp         ATMP encapsulation     [RFC2107]
-     10    msdp         MSDP encapsulation     [RFC3618]
-     11    sixToFour    6to4 encapsulation     [RFC3056]
-     12    sixOverFour  6over4 encapsulation   [RFC2529]
-     13    isatap       ISATAP encapsulation   [RFC5214]
-     14    teredo       Teredo encapsulation   [RFC4380]
-     15    ipHttps      IPHTTPS                [Sean_Siler][Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol Specification]
-     16    softwireMesh softwire mesh tunnel   [RFC5565]
-     17    dsLite       DS-Lite tunnel         [RFC6333]
-     18    aplusp       A+P encapsulation      [RFC6346]
+   Decimal      Name                 Description                                                  References
+      1    other           none of the following           [RFC4087]
+      2    direct          no intermediate header          [RFC2003][RFC4213]
+      3    gre             GRE encapsulation               [RFC1701][RFC1702][RFC7676]
+      4    minimal         Minimal encapsulation           [RFC2004]
+      5    l2tp            L2TP encapsulation              [RFC2661]
+      6    pptp            PPTP encapsulation              [RFC2637]
+      7    l2f             L2F encapsulation               [RFC2341]
+      8    udp             UDP encapsulation               [RFC1234][RFC8085]
+      9    atmp            ATMP encapsulation              [RFC2107]
+     10    msdp            MSDP encapsulation              [RFC3618]
+     11    sixToFour       6to4 encapsulation              [RFC3056]
+     12    sixOverFour     6over4 encapsulation            [RFC2529]
+     13    isatap          ISATAP encapsulation            [RFC5214]
+     14    teredo          Teredo encapsulation            [RFC4380]
+     15    ipHttps         IPHTTPS                         [Sean_Siler][Microsoft Corporation, "IP over HTTPS (IP-HTTPS) Tunneling Protocol
+                                                           Specification]
+     16    softwireMesh    softwire mesh tunnel            [RFC5565]
+     17    dsLite          DS-Lite tunnel                  [RFC6333]
+     18    aplusp          A+P encapsulation               [RFC6346]
+     19    ipsectunnelmode IpSec tunnel mode encapsulation [RFC4301]
 
 Transmission Number Values
 
@@ -1100,6 +1103,7 @@ Decimal       Name                    Description                               
   300   cpri             Common Public Radio Interface         [CPRI v7.0][Renwang_Liu]
   301   omni             Overlay Multilink Network Interface   [draft-templin-6man-omni-00][Fred_L_Templin]
                          (OMNI)
+  302   roe              Radio over Ethernet Interface         [1914.3-2018 - IEEE Standard for Radio over Ethernet Encapsulations and Mappings][Renwang_Liu]
 
   MIB Transmission Group - Point-to-Point Protocol
 
@@ -4811,7 +4815,7 @@ SMI Security for Cryptographic Algorithms
    [Eduardo_Cardona]      Eduardo Cardona                     mailto:e.cardona@cablelabs                        2005-09
    [Edward_Beili]         Edward Beili                        mailto:edward.beili&actelis.com                   2003-08
    [Eric_Decker]          Eric Decker                         mailto:cire&cisco.com
-   [Eugene_Nechamkin]     Eugene Nechamkin                    enechamkin@broadcom.com                           2001-09
+   [Eugene_Nechamkin]     Eugene Nechamkin                    mailto:enechamkin&broadcom.com                    2001-09
    [Ewart_Tempest]        Ewart Tempest                       mailto:ewart&nortelnetworks.com                   2000-08
    [Fred_Baker]           Fred Baker                          mailto:fbaker&acc.com
    [Fred_Baker_2]         Fred Baker                          mailto:fred&cisco.com                             1996-02
@@ -4908,7 +4912,7 @@ SMI Security for Cryptographic Algorithms
    [Paul_Congdon]         Paul Congdon                        mailto:paul.congdon&hp.com                        2005-12-22
    [Philip_Cameron]       Philip Cameron                      mailto:pcameron&netcom.com                        1994-10
    [Rajesh_M_L]           Rajesh M.L.                         mailto:rajeshml&cisco.com                         2002-07
-   [Renwang_Liu]          Renwang Liu                         mailto:renwang.liu&ericsson.com                   2020-07-10
+   [Renwang_Liu]          Renwang Liu                         mailto:renwang.liu&ericsson.com                   2021-04-22
    [Richard_Fox]          Richard Fox                         mailto:rfox&synoptics.com
    [Rob_Austein]          Rob Austein
    [Rob_Frye]             Rob Frye                            mailto:Rob.Frye&mci.com                           1998-09

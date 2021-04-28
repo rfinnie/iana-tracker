@@ -9,6 +9,7 @@ Access-Control-Request-Method,prov/access-control-request-method,http,,[W3C Web 
 Access-Control-Request-Headers,prov/access-control-request-headers,http,,[W3C Web Application Formats Working Group]
 AMP-Cache-Transform,,http,,[https://github.com/ampproject/amphtml/blob/master/spec/amp-cache-transform.md]
 Apparently-To,prov/apparently-to,mail,,[RFC2076]
+Author,,mail,,[RFC-crocker-email-author-04]
 Compliance,,http,,[RFC4229]
 Content-Transfer-Encoding,,http,,[RFC4229]
 Cost,,http,,[RFC4229]

@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-03-02</dd>
+      <dd>2021-04-21</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2131,6 +2131,38 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc8348">RFC8348</a>]</td>
         </tr>
         <tr>
+          <td>yang:ietf-i2nsf-ike</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-ike</td>
+          <td>
+            <a href="ns/yang/ietf-i2nsf-ike.txt">ns/yang/ietf-i2nsf-ike.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-i2nsf-ikec</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-ikec</td>
+          <td>
+            <a href="ns/yang/ietf-i2nsf-ikec.txt">ns/yang/ietf-i2nsf-ikec.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-i2nsf-ikeless</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-ikeless</td>
+          <td>
+            <a href="ns/yang/ietf-i2nsf-ikeless.txt">ns/yang/ietf-i2nsf-ikeless.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-i2rs-rib</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-i2rs-rib</td>
+          <td>
+            <a href="ns/yang/ietf-i2rs-rib.txt">ns/yang/ietf-i2rs-rib.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/rfc8431">RFC8431</a>]</td>
+        </tr>
+        <tr>
           <td>yang:ietf-igmp-mld</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-igmp-mld</td>
           <td>
@@ -2153,14 +2185,6 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-inet-types.txt">ns/yang/ietf-inet-types.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc6991">RFC6991</a>]</td>
-        </tr>
-        <tr>
-          <td>yang:ietf-i2rs-rib</td>
-          <td>urn:ietf:params:xml:ns:yang:ietf-i2rs-rib</td>
-          <td>
-            <a href="ns/yang/ietf-i2rs-rib.txt">ns/yang/ietf-i2rs-rib.txt</a>
-          </td>
-          <td>[<a href="https://www.iana.org/go/rfc8431">RFC8431</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-interface-protection</td>

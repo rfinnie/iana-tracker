@@ -3,6 +3,7 @@ AE,Name,Reference
 1,IPv4 address,[RFC8966]
 2,IPv6 address,[RFC8966]
 3,Link-local IPv6 address,[RFC8966]
-4-223,Unassigned,
+4,v4-via-v6,[draft-ietf-babel-v4viav6-03]
+5-223,Unassigned,
 224-254,Reserved for Experimental Use,[RFC8966]
 255,Reserved for expansion of the AE type space,[RFC8966]

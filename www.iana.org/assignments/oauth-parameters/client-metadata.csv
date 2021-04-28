@@ -58,4 +58,4 @@ tls_client_auth_san_email,"String value specifying the expected
         rfc822Name SAN entry in the client certificate.",[IESG],"[RFC8705, Section 2.1.2]"
 require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
-        ""request"" or ""request_uri parameter"".",[IETF],"[RFC-ietf-oauth-jwsreq-28, Section 10.5]"
+        ""request"" or ""request_uri parameter"".",[IETF],"[RFC-ietf-oauth-jwsreq-34, Section 10.5]"

@@ -5,4 +5,4 @@ Value,Description,Reference
 3,Storing Mode of Operation with multicast support,[RFC6550]
 4,P2P Route Discovery Mode of Operation,[RFC6997]
 5-6,Unassigned,
-7,Reserved,[RFC9008][RFC9010]
+7,Reserved,[RFC9008][RFC9010][RFC-ietf-roll-turnon-rfc8138-18]

@@ -17,3 +17,4 @@ Decimal,Name,Description,References
 16,softwireMesh,softwire mesh tunnel,[RFC5565]
 17,dsLite,DS-Lite tunnel,[RFC6333]
 18,aplusp,A+P encapsulation,[RFC6346]
+19,ipsectunnelmode,IpSec tunnel mode encapsulation,[RFC4301]

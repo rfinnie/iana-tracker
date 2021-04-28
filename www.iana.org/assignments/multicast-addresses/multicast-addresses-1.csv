@@ -37,7 +37,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.0.35,DXCLUSTER,[Dirk_Koopman],,2000-07-01,
 224.0.0.36,DTCP Announcement,[Patrick_Cipiere],,2001-01-01,
 224.0.0.37-224.0.0.68,zeroconfaddr   (renew 12/02),[Erik_Guttman],,2001-12-01,
-224.0.0.69-224.0.0.100,Reserved,[IANA],,,
+224.0.0.69-224.0.0.100,Unassigned,,,,
 224.0.0.101,cisco-nhap,[Mark_Bakke],,2001-12-01,
 224.0.0.102,HSRP,[Ian_Wilson],,2001-12-01,
 224.0.0.103,MDAP,[Johan_Deleu],,2002-02-01,

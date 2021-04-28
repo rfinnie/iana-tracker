@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="babel">
   <title>Babel Routing Protocol</title>
   <created>2015-04-14</created>
-  <updated>2021-01-15</updated>
+  <updated>2021-04-26</updated>
 
   <registry id="tlv-types">
     <title>Babel TLV Types</title>
@@ -191,7 +191,7 @@
     <record date="2018-01-30">
       <value>128</value>
       <description>Source Prefix</description>
-      <xref type="draft" data="draft-ietf-babel-source-specific"/>
+      <xref type="draft" data="RFC-ietf-babel-source-specific-08"/>
     </record>
     <record>
       <value>129-239</value>
@@ -262,8 +262,13 @@
       <description>Link-local IPv6 address</description>
       <xref type="rfc" data="rfc8966"/>
     </record>
+    <record date="2021-04-23">
+      <value>4</value>
+      <description>v4-via-v6</description>
+      <xref type="draft" data="draft-ietf-babel-v4viav6-03"/>
+    </record>
     <record>
-      <value>4-223</value>
+      <value>5-223</value>
       <description>Unassigned</description>
     </record>
     <record date="2015-04-14">

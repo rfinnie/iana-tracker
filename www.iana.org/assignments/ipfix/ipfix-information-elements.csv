@@ -1921,10 +1921,10 @@ in some other way.",,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 367,wtpMacAddress,macAddress,default,current,The IEEE 802 MAC address of a wireless access point (WTP).,,,See section 1.4 of [RFC5415] for the definition of WTP.,[ipfix-iana_at_cisco.com],1,2014-02-03
 368,ingressInterfaceType,unsigned32,identifier,current,"The type of interface where packets of this Flow are being received.
 The value matches the value of managed object 'ifType' as defined in 
-[https://www.iana.org/assignments/ianaiftype-mib].",,,[ianaiftype-mib],[ipfix-iana_at_cisco.com],0,2013-02-18
+[https://www.iana.org/assignments/ianaiftype-mib].",,,[https://www.iana.org/assignments/ianaiftype-mib],[ipfix-iana_at_cisco.com],0,2013-02-18
 369,egressInterfaceType,unsigned32,identifier,current,"The type of interface where packets of this Flow are being sent.
 The value matches the value of managed object 'ifType' as defined in 
-[https://www.iana.org/assignments/ianaiftype-mib].",,,[ianaiftype-mib],[ipfix-iana_at_cisco.com],0,2013-02-18
+[https://www.iana.org/assignments/ianaiftype-mib].",,,[https://www.iana.org/assignments/ianaiftype-mib],[ipfix-iana_at_cisco.com],0,2013-02-18
 370,rtpSequenceNumber,unsigned16,,current,The RTP sequence number per [RFC3550].,,,[RFC3550],[ipfix-iana_at_cisco.com],0,2013-02-18
 371,userName,string,default,current,User name associated with the flow.,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 372,applicationCategoryName,string,default,current,"An attribute that provides a first level categorization for

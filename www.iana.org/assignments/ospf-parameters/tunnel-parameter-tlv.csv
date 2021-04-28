@@ -2,7 +2,7 @@ Value,TLV Name,Reference
 0,Reserved,[RFC-ietf-ospf-encapsulation-cap-09]
 1,Encapsulation,[RFC-ietf-ospf-encapsulation-cap-09][draft-ietf-idr-tunnel-encaps]
 2,Protocol Type,[RFC-ietf-ospf-encapsulation-cap-09][draft-ietf-idr-tunnel-encaps]
-3,Endpoint,[RFC-ietf-ospf-encapsulation-cap-09]
+3,Tunnel Egress Endpoint,[RFC-ietf-ospf-encapsulation-cap-09]
 4,Color,[RFC-ietf-ospf-encapsulation-cap-09]
 5,Load-Balancing Block,[RFC-ietf-ospf-encapsulation-cap-09][RFC5640]
 6,IP QoS,[RFC-ietf-ospf-encapsulation-cap-09][draft-ietf-idr-tunnel-encaps]

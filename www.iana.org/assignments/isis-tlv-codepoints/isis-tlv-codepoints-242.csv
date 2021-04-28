@@ -29,7 +29,9 @@ Value,Description,Reference
 27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",[draft-ietf-lsr-dynamic-flooding]
 28,"IS-IS Dynamic Flooding Sub-TLV
         (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",[draft-ietf-lsr-dynamic-flooding]
-29-160,Unassigned,
+29,"IP Algorithm Sub-TLV
+        (TEMPORARY - registered 2021-04-27, expires 2022-04-27)",[draft-ietf-lsr-ip-flexalgo-01]
+30-160,Unassigned,
 161,"Flood Reflection Discovery
         (TEMPORARY - registered 2020-08-05, expires 2021-08-05)",[draft-ietf-lsr-isis-flood-reflection-01]
 162-255,Unassigned,

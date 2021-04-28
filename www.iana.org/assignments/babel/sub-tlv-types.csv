@@ -6,7 +6,7 @@ Type,Name,Reference
 4-111,Unassigned,
 112-126,Reserved for Experimental Use,[RFC8966]
 127,Reserved for expansion of the type space,[RFC8966]
-128,Source Prefix,[draft-ietf-babel-source-specific]
+128,Source Prefix,[RFC-ietf-babel-source-specific-08]
 129-239,Unassigned,
 240-254,Reserved for Experimental Use,[RFC8966]
 255,Reserved for expansion of the type space,[RFC8966]
