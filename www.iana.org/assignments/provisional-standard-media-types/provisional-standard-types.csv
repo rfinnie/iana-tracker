@@ -1,6 +1,4 @@
 Media Type,Organization,Contact
-application/3gppHal+json,3GPP,[Ulrich_Wiehe]
-application/3gppHalForms+json,3GPP,[Ulrich_Wiehe]
 application/odm+json,CDISC,[Sam_Hume]
 application/json-nd,ECMA,[Glen_Kleidon]
 application/cert-chain+cbor,IETF,[draft-yasskin-http-origin-signed-responses]

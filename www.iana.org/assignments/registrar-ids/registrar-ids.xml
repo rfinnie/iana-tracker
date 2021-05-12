@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-04-22</updated>
+    <updated>2021-05-06</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -504,9 +504,9 @@
                 <server>https://rdap.domainregistry.de/</server>
             </rdapurl>
         </record>
-        <record updated="2019-10-23">
+        <record updated="2021-05-06">
             <value>112</value>
-            <name>Catalog.com</name>
+            <name>Webhero, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdapserver.net/</server>
@@ -981,10 +981,13 @@
                 <server>https://tagidomains.com/rdap/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2021-05-06">
             <value>363</value>
             <name>Funpeas Media Ventures, LLC dba DomainProcessor.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://www.domainprocessor.com/rdap/</server>
+            </rdapurl>
         </record>
         <record>
             <value>364</value>
@@ -1252,12 +1255,12 @@
             <name>USA Webhost, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-09-05">
+        <record updated="2021-05-06">
             <value>440</value>
             <name>Wild West Domains, LLC</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.secureserver.net/v1/</server>
+                <server>https://rdap.wildwestdomains.com/v1/</server>
             </rdapurl>
         </record>
         <record updated="2015-03-05">
@@ -2920,10 +2923,10 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record updated="2019-11-25">
+        <record updated="2021-04-30">
             <value>837</value>
             <name>Freeparking Domain Registrars, Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdapserver.net/</server>
             </rdapurl>
@@ -3357,12 +3360,12 @@
             <name>21Company, Inc. dba 21-domain.com</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-10-25">
+        <record updated="2021-05-03">
             <value>898</value>
             <name>Alantron Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdapserver.net/</server>
+                <server>https://rdap.alantron.com/</server>
             </rdapurl>
         </record>
         <record updated="2019-11-25">
@@ -8697,12 +8700,12 @@
             <name>Rethem Hosting LLC</name>
             <status>Terminated</status>
         </record>
-        <record updated="2020-10-08">
+        <record updated="2021-05-06">
             <value>1659</value>
             <name>GoDaddy Online Services Cayman Islands Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.uniregistrar.net/rdap/</server>
+                <server>https://rdap.uniregistrar.com/v1/</server>
             </rdapurl>
         </record>
         <record updated="2021-02-11">
@@ -10393,9 +10396,9 @@
             <name>William the Conqueror, LLC</name>
             <status>Terminated</status>
         </record>
-        <record updated="2014-11-04">
+        <record updated="2021-04-29">
             <value>1894</value>
-            <name>DOMAIN TRAIN, INC.</name>
+            <name>humbly LLC</name>
             <status>Accredited</status>
         </record>
         <record updated="2019-08-15">
@@ -14551,10 +14554,10 @@
                 <server>https://www.planethoster.com/en/Domains/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2015-04-16" updated="2015-08-06">
+        <record date="2015-04-16" updated="2021-04-30">
             <value>2477</value>
             <name>Brandma.co Limited</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.brandma.co/</server>
             </rdapurl>

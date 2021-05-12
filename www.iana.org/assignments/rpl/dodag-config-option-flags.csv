@@ -1,7 +1,7 @@
 Bit Number,Capability Description,Reference
 0,Unassigned,
 1,Root Proxies EDAR/EDAC (P),[RFC9010]
-2,Enable Compression per RFC 8138 (T),[RFC-ietf-roll-turnon-rfc8138-18]
+2,Enable Compression per RFC 8138 (T),[RFC9035]
 3,RPI 0x23 enable,[RFC9008]
 4,Authentication Enabled (A),[RFC6550]
 5-7,Path Control Size (PCS),[RFC6550]

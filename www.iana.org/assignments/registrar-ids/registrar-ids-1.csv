@@ -79,7 +79,7 @@
 109,"MS Intergate, Inc.",Terminated,
 110,"Shaver Communications, Inc.",Terminated,
 111,Secura GmbH,Accredited,https://rdap.domainregistry.de/
-112,Catalog.com,Accredited,https://rdapserver.net/
+112,"Webhero, Inc.",Accredited,https://rdapserver.net/
 113,CSL Computer Service Langenbach GmbH d/b/a joker.com,Accredited,https://rdap.joker.com/
 119,Reserved for Internal Registry Use,Reserved,
 120,Xin Net Technology Corporation,Accredited,https://rdap.xinnet.com/rdap/
@@ -157,7 +157,7 @@
 347,"NameTree, Inc.",Terminated,
 353,Bombora Technologies Pty Ltd,Accredited,https://rdap.bomboraregistrar.com/
 360,Abu-Ghazaleh Intellectual Property dba TAGIdomains.com,Accredited,https://tagidomains.com/rdap/
-363,"Funpeas Media Ventures, LLC dba DomainProcessor.com",Accredited,
+363,"Funpeas Media Ventures, LLC dba DomainProcessor.com",Accredited,https://www.domainprocessor.com/rdap/
 364,Triara.com S.A. de C.V.,Terminated,
 365,Reserved for historical use (EDUCAUSE),Reserved,
 376,RESERVED-Internet Assigned Numbers Authority,Reserved,
@@ -204,7 +204,7 @@
 437,SiteName Ltd.,Accredited,https://rdap.communigal.net/rdap/
 438,Direct Connection Ltd.,Terminated,
 439,"USA Webhost, Inc.",Terminated,
-440,"Wild West Domains, LLC",Accredited,https://rdap.secureserver.net/v1/
+440,"Wild West Domains, LLC",Accredited,https://rdap.wildwestdomains.com/v1/
 441,"HANILNETWORKS Co., Ltd.",Terminated,
 442,IKANO Communications,Terminated,
 443,Vayala Corporation dba Demand.com,Terminated,
@@ -469,7 +469,7 @@
 834,"Domain Jingles, Inc.",Terminated,
 835,KuwaitNET General Trading Co.,Accredited,https://rdapserver.net/
 836,The Namespace Group Pty Ltd,Accredited,https://rdapserver.net/
-837,"Freeparking Domain Registrars, Inc.",Accredited,https://rdapserver.net/
+837,"Freeparking Domain Registrars, Inc.",Terminated,https://rdapserver.net/
 838,BatDomains.com Ltd.,Terminated,
 839,Realtime Register B.V.,Accredited,https://rdap.yoursrs.com/
 840,Nicco Ltd.,Accredited,https://rdap.nicco.com/
@@ -530,7 +530,7 @@
 895,Google LLC,Accredited,https://domainsrdap.googleapis.com/v1/
 896,Aruba SpA,Accredited,
 897,"21Company, Inc. dba 21-domain.com",Terminated,
-898,Alantron Inc.,Accredited,https://rdapserver.net/
+898,Alantron Inc.,Accredited,https://rdap.alantron.com/
 899,Naugus Limited LLC,Accredited,https://rdap.naugus.com/
 900,Netregistry Wholesale Pty Ltd,Accredited,https://tpp.rdap.tucows.com/
 901,AirNames.com Inc.,Terminated,
@@ -1281,7 +1281,7 @@
 1656,Kagoya Japan Inc.,Accredited,https://rdap.kagoya.net/
 1657,"WHT Co., Ltd",Terminated,
 1658,Rethem Hosting LLC,Terminated,
-1659,GoDaddy Online Services Cayman Islands Ltd.,Accredited,https://rdap.uniregistrar.net/rdap/
+1659,GoDaddy Online Services Cayman Islands Ltd.,Accredited,https://rdap.uniregistrar.com/v1/
 1660,"Domainshype.com, LLC",Accredited,https://rdapserver.net/
 1661,"Domdrill.com, LLC",Accredited,https://rdapserver.net/
 1662,Enset,Terminated,
@@ -1510,7 +1510,7 @@
 1891,"Ulysses S. Grant, LLC",Terminated,
 1892,"Vo Nguyen Giap, LLC",Terminated,
 1893,"William the Conqueror, LLC",Terminated,
-1894,"DOMAIN TRAIN, INC.",Accredited,
+1894,humbly LLC,Accredited,
 1895,Namespro Solutions Inc.,Accredited,https://rdapserver.net/
 1896,ATI,Accredited,https://rdap.ati.tn:8443/rdapgtld/rdap/
 1897,Taiwan Network Information Center,Accredited,https://rdap.twnic.tw/registrar/
@@ -2091,7 +2091,7 @@
 2474,"Pheenix 100, LLC",Terminated,
 2475,RegistrarSEC LLC,Accredited,https://rdap.registrarsec.com/
 2476,PlanetHoster Inc.,Accredited,https://www.planethoster.com/en/Domains/rdap/
-2477,Brandma.co Limited,Accredited,https://rdap.brandma.co/
+2477,Brandma.co Limited,Terminated,https://rdap.brandma.co/
 2478,"Hezhong Liancheng Beijing Technology Co., Ltd",Terminated,
 2479,"Maoming QunYing Network Co., Ltd",Accredited,
 2480,"Akamai Technologies, Inc.",Accredited,https://rdap.akamai.com/rdap/

@@ -8955,7 +8955,7 @@ lmcs,4877,udp,Lighting Management Control System,[Timothy_Parry],[Timothy_Parry]
 inst-discovery,4878,udp,Agilent Instrument Discovery,[Charles_F_Steele],[Charles_F_Steele],2011-02-15,,,,,
 wsdl-event,4879,tcp,WSDL Event Receiver,[Charles_F_Steele],[Charles_F_Steele],2011-02-15,,,,,
 ,4879,udp,Reserved,,,,,,,,
-hislip,4880,tcp,IVI High-Speed LAN Instrument Protocol,[Joe_Mueller],[Joe_Mueller],2010-01-11,,,,,
+hislip,4880,tcp,IVI High-Speed LAN Instrument Protocol,[IVI_Foundation],[Larry_Ostheimer],,2021-05-06,,,,
 ,4880,udp,Reserved,,,,,,,,
 ,4881,tcp,Reserved,,,,,,,,
 socp-t,4881,udp,SOCP Time Synchronization Protocol,[Joe_Haver],[Joe_Haver],2010-05-28,,,,,
@@ -9092,10 +9092,10 @@ mice,5022,tcp,mice server,[Alan_Clifford],[Alan_Clifford],,,,,,
 mice,5022,udp,mice server,[Alan_Clifford],[Alan_Clifford],,,,,,
 htuilsrv,5023,tcp,Htuil Server for PLD2,[Dennis_Reinhardt],[Dennis_Reinhardt],,,,,,
 htuilsrv,5023,udp,Htuil Server for PLD2,[Dennis_Reinhardt],[Dennis_Reinhardt],,,,,,
-scpi-telnet,5024,tcp,SCPI-TELNET,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
-scpi-telnet,5024,udp,SCPI-TELNET,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
-scpi-raw,5025,tcp,SCPI-RAW,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
-scpi-raw,5025,udp,SCPI-RAW,[Ryan_Columbus],[Ryan_Columbus],2002-10,,,,,
+scpi-telnet,5024,tcp,SCPI-TELNET,[IVI_Foundation],[Larry_Ostheimer],,2021-05-06,,,,
+scpi-telnet,5024,udp,SCPI-TELNET,[IVI_Foundation],[Larry_Ostheimer],,2021-05-06,,,,
+scpi-raw,5025,tcp,SCPI-RAW,[IVI_Foundation],[Larry_Ostheimer],,2021-05-06,,,,
+scpi-raw,5025,udp,SCPI-RAW,[IVI_Foundation],[Larry_Ostheimer],,2021-05-06,,,,
 strexec-d,5026,tcp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08,,,,,
 strexec-d,5026,udp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08,,,,,
 strexec-s,5027,tcp,Storix I/O daemon (stat),[Storix_Inc],[David_Huffman],2005-08,,,,,
@@ -13982,8 +13982,8 @@ breas,,tcp,Breas,[Breas_Medical_AB],[Jonas_Sjostedt],2015-09-09,,,,,Defined TXT 
 breas,,udp,Breas,[Breas_Medical_AB],[Jonas_Sjostedt],2015-09-09,,,,,Defined TXT keys: None
 bri,,,RFID Reader Basic Reader Interface,[Thaddeus_Ternes],[Thaddeus_Ternes],,,,,,Defined TXT keys: None
 bridgeprotocol,,tcp,JSON RPC Bridge Protocol,[Michel_Stam_2],[Michel_Stam_2],2012-11-20,,,,,"Defined TXT keys:  path, version"
-brski-proxy,,tcp,The Bootstrapping Remote Secure Key Infrastructures Proxy,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
-brski-registrar,,tcp,The Bootstrapping Remote Secure Key Infrastructures Registrar,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
+brski-proxy,,tcp,The Bootstrapping Remote Secure Key Infrastructure Proxy,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
+brski-registrar,,tcp,The Bootstrapping Remote Secure Key Infrastructure Registrar,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
 bsqdea,,,Backup Simplicity,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 btp,,tcp,Beats Transfer Protocol allows for the discovery and control of devices,[Beats_Electronics_LLC_2],[Yunho_Huh],2014-02-17,2014-06-27,,,,Defined TXT keys: None
 buddycloud-api,,tcp,buddycloud API,[buddycloud],[Simon_Tennant],2013-05-20,,,,,"Defined TXT keys: v, host, protocol, path, port"
