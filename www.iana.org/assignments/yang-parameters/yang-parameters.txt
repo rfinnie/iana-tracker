@@ -4,7 +4,7 @@
            2010-06-10
 
    Last Updated
-           2021-04-23
+           2021-05-18
 
    Available Formats
            [IMG]
@@ -61,12 +61,12 @@ iana-hardware                          iana-hardware@2018-03-13.yang            
                                                                                                                                                                                                                                                                      same class is added as an identity derived from
                                                                                                                                                                                                                                                                      "ianahw:hardware-class".
                                                                                                                                                                                                                                                                      Interface types must not be directly added to
-iana-if-type                           iana-if-type@2021-04-22.yang                               Y      urn:ietf:params:xml:ns:yang:iana-if-type                           ianaift                                    [RFC7224]                                     the iana-if-type YANG module. They must instead
+iana-if-type                           iana-if-type@2021-05-17.yang                               Y      urn:ietf:params:xml:ns:yang:iana-if-type                           ianaift                                    [RFC7224]                                     the iana-if-type YANG module. They must instead
                                                                                                                                                                                                                                                                      be added to the "Interface Types (ifType)"
                                                                                                                                                                                                                                                                      registry at [IANA registry smi-numbers].
                                                                                                                                                                                                                                                                      Address Families and Subsequent Address
                                                                                                                                                                                                                                                                      Families must not be directly added to the
-iana-routing-types                     iana-routing-types@2021-03-23.yang                         Y      urn:ietf:params:xml:ns:yang:iana-routing-types                     iana-rt-types                              [RFC8294]                                     iana-routing-types YANG module. They must
+iana-routing-types                     iana-routing-types@2021-05-18.yang                         Y      urn:ietf:params:xml:ns:yang:iana-routing-types                     iana-rt-types                              [RFC8294]                                     iana-routing-types YANG module. They must
                                                                                                                                                                                                                                                                      instead be respectively added to the [Address
                                                                                                                                                                                                                                                                      Family Numbers] and [Subsequent Address Family
                                                                                                                                                                                                                                                                      Identifiers (SAFI) Parameters] registries.

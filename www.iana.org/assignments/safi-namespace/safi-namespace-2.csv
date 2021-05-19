@@ -12,7 +12,8 @@ with MPLS Labels",[RFC8277]
 for Dynamic Placement of Multi-Segment Pseudowires",[RFC7267]
 7,Encapsulation SAFI (OBSOLETE),[RFC9012]
 8,MCAST-VPLS,[RFC7117]
-9-63,Unassigned,
+9,BGP SFC,[RFC-ietf-bess-nsh-bgp-control-plane-18]
+10-63,Unassigned,
 64,Tunnel SAFI,[Gargi_Nalawade][draft-nalawade-kapoor-tunnel-safi-01]
 65,Virtual Private LAN Service (VPLS),[RFC4761][RFC6074]
 66,BGP MDT SAFI,[RFC6037]
