@@ -1,4 +1,4 @@
-Address(s),Description,Reference,Change Controller,Date Registered,Last Reviewed
+Address(es),Description,Reference,Change Controller,Date Registered,Last Reviewed
 FF01:0:0:0:0:0:0:1,All Nodes Address,[RFC4291],,,
 FF01:0:0:0:0:0:0:2,All Routers Address,[RFC4291],,,
 FF01:0:0:0:0:0:0:C,variable scope allocation,,,,

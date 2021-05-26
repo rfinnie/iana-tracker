@@ -1,4 +1,4 @@
-Address(s),Description,Reference,Change Controller,Date Registered,Last Reviewed
+Address(es),Description,Reference,Change Controller,Date Registered,Last Reviewed
 FF05:0:0:0:0:0:0:2,All Routers Address,[RFC4291],,,
 FF05:0:0:0:0:0:0:C,variable scope allocation,,,,
 FF05:0:0:0:0:0:0:FB,mDNSv6,[RFC6762],,2005-10-05,
