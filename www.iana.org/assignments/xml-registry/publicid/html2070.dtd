@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-04-21</dd>
+      <dd>2021-05-28</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -368,7 +368,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvContact-1.0.txt">ns/csvContact-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvDomain-1.0</td>
@@ -376,7 +376,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvDomain-1.0.txt">ns/csvDomain-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvHost-1.0</td>
@@ -384,7 +384,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvHost-1.0.txt">ns/csvHost-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvIDN-1.0</td>
@@ -392,7 +392,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvIDN-1.0.txt">ns/csvIDN-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvNNDN-1.0</td>
@@ -400,7 +400,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvNNDN-1.0.txt">ns/csvNNDN-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvRegistrar-1.0</td>
@@ -408,7 +408,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/csvRegistrar-1.0.txt">ns/csvRegistrar-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>dchk1</td>
@@ -1456,7 +1456,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeContact-1.0.txt">ns/rdeContact-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeCsv-1.0</td>
@@ -1464,7 +1464,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeCsv-1.0.txt">ns/rdeCsv-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeDnrdCommon-1.0</td>
@@ -1472,7 +1472,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeDnrdCommon-1.0.txt">ns/rdeDnrdCommon-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeDomain-1.0</td>
@@ -1480,7 +1480,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeDomain-1.0.txt">ns/rdeDomain-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeEppParams-1.0</td>
@@ -1488,7 +1488,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeEppParams-1.0.txt">ns/rdeEppParams-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeHeader-1.0</td>
@@ -1496,7 +1496,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeHeader-1.0.txt">ns/rdeHeader-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeHost-1.0</td>
@@ -1504,7 +1504,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeHost-1.0.txt">ns/rdeHost-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeIDN-1.0</td>
@@ -1512,7 +1512,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeIDN-1.0.txt">ns/rdeIDN-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeNNDN-1.0</td>
@@ -1520,7 +1520,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeNNDN-1.0.txt">ns/rdeNNDN-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdePolicy-1.0</td>
@@ -1528,7 +1528,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdePolicy-1.0.txt">ns/rdePolicy-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeRegistrar-1.0</td>
@@ -1536,7 +1536,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/rdeRegistrar-1.0.txt">ns/rdeRegistrar-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>recording:1</td>
@@ -2640,7 +2640,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-segment-routing.txt">ns/yang/ietf-segment-routing.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9020">RFC9020</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-segment-routing-common</td>
@@ -2648,7 +2648,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-segment-routing-common.txt">ns/yang/ietf-segment-routing-common.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9020">RFC9020</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-segment-routing-mpls</td>
@@ -2656,7 +2656,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-segment-routing-mpls.txt">ns/yang/ietf-segment-routing-mpls.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-spring-sr-yang-30">RFC-ietf-spring-sr-yang-30</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9020">RFC9020</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-snmp</td>
@@ -2792,7 +2792,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-voucher-request.txt">ns/yang/ietf-voucher-request.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-anima-bootstrapping-keyinfra-44">RFC-ietf-anima-bootstrapping-keyinfra-44</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8995">RFC8995</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-vrrp</td>
@@ -3062,7 +3062,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvContact-1.0.xsd">schema/csvContact-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvDomain-1.0</td>
@@ -3070,7 +3070,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvDomain-1.0.xsd">schema/csvDomain-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvHost-1.0</td>
@@ -3078,7 +3078,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvHost-1.0.xsd">schema/csvHost-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvIDN-1.0</td>
@@ -3086,7 +3086,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvIDN-1.0.xsd">schema/csvIDN-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvNNDN-1.0</td>
@@ -3094,7 +3094,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvNNDN-1.0.xsd">schema/csvNNDN-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>csvRegistrar-1.0</td>
@@ -3102,7 +3102,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/csvRegistrar-1.0.xsd">schema/csvRegistrar-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>dchk1</td>
@@ -3902,7 +3902,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeContact-1.0.xsd">schema/rdeContact-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeCsv-1.0</td>
@@ -3910,7 +3910,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeCsv-1.0.xsd">schema/rdeCsv-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeDnrdCommon-1.0</td>
@@ -3918,7 +3918,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeDnrdCommon-1.0.xsd">schema/rdeDnrdCommon-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeDomain-1.0</td>
@@ -3926,7 +3926,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeDomain-1.0.xsd">schema/rdeDomain-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeEppParams-1.0</td>
@@ -3934,7 +3934,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeEppParams-1.0.xsd">schema/rdeEppParams-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeHeader-1.0</td>
@@ -3942,7 +3942,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeHeader-1.0.xsd">schema/rdeHeader-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeHost-1.0</td>
@@ -3950,7 +3950,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeHost-1.0.xsd">schema/rdeHost-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeIDN-1.0</td>
@@ -3958,7 +3958,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeIDN-1.0.xsd">schema/rdeIDN-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeNNDN-1.0</td>
@@ -3966,7 +3966,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeNNDN-1.0.xsd">schema/rdeNNDN-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdePolicy-1.0</td>
@@ -3974,7 +3974,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdePolicy-1.0.xsd">schema/rdePolicy-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>rdeRegistrar-1.0</td>
@@ -3982,7 +3982,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/rdeRegistrar-1.0.xsd">schema/rdeRegistrar-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-dnrd-objects-mapping-11">RFC-ietf-regext-dnrd-objects-mapping-11</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9022">RFC9022</a>]</td>
         </tr>
         <tr>
           <td>recording:1</td>

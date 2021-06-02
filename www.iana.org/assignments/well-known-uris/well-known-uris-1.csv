@@ -1,9 +1,10 @@
 URI Suffix,Change Controller,Reference,Status,Related Information,Date Registered,Date Modified
 acme-challenge,IETF,"[RFC8555, Section 8.3]",permanent,,2016-08-18,
 amphtml,AMP Project (OpenJS Foundation),[https://developers.google.com/amp/cache/update-cache],provisional,,2020-07-06,
+appspecific,[Bruce_Leban],[https://github.com/Vroo/well-known-uri-appspecific/blob/main/well-known-uri-for-application-specific-purposes.txt],provisional,,2021-06-01,
 ashrae,[ASHRAE],[http://www.bacnet.org/Addenda/Add-135-2012am-ppr3-draft-17_chair_approved.pdf],permanent,,2016-01-22,
 assetlinks.json,[Google_Inc.],[https://github.com/google/digitalassetlinks/blob/master/well-known/specification.md],permanent,[https://github.com/google/digitalassetlinks/blob/master/well-known/details.md],2015-09-28,
-brski,IETF,[RFC-ietf-anima-bootstrapping-keyinfra-44],permanent,,2020-10-09,
+brski,IETF,[RFC8995],permanent,,2020-10-09,
 caldav,IETF,[RFC6764],permanent,see also [RFC4791],,
 carddav,IETF,[RFC6764],permanent,see also [RFC6352],,
 "cmp (TEMPORARY - registered 2021-05-20, expires 2022-05-20)",IETF,[draft-ietf-lamps-cmp-updates-10],provisional,,2021-05-20,

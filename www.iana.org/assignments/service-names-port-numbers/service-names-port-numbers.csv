@@ -13985,8 +13985,8 @@ breas,,tcp,Breas,[Breas_Medical_AB],[Jonas_Sjostedt],2015-09-09,,,,,Defined TXT 
 breas,,udp,Breas,[Breas_Medical_AB],[Jonas_Sjostedt],2015-09-09,,,,,Defined TXT keys: None
 bri,,,RFID Reader Basic Reader Interface,[Thaddeus_Ternes],[Thaddeus_Ternes],,,,,,Defined TXT keys: None
 bridgeprotocol,,tcp,JSON RPC Bridge Protocol,[Michel_Stam_2],[Michel_Stam_2],2012-11-20,,,,,"Defined TXT keys:  path, version"
-brski-proxy,,tcp,The Bootstrapping Remote Secure Key Infrastructure Proxy,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
-brski-registrar,,tcp,The Bootstrapping Remote Secure Key Infrastructure Registrar,[IESG],[IETF_Chair],2020-04-29,,[RFC-ietf-anima-bootstrapping-keyinfra-44],,,Defined TXT keys: None
+brski-proxy,,tcp,The Bootstrapping Remote Secure Key Infrastructure Proxy,[IESG],[IETF_Chair],2020-04-29,,[RFC8995],,,Defined TXT keys: None
+brski-registrar,,tcp,The Bootstrapping Remote Secure Key Infrastructure Registrar,[IESG],[IETF_Chair],2020-04-29,,[RFC8995],,,Defined TXT keys: None
 bsqdea,,,Backup Simplicity,[Qdea],[Qdea],,,,,,Defined TXT keys: None
 btp,,tcp,Beats Transfer Protocol allows for the discovery and control of devices,[Beats_Electronics_LLC_2],[Yunho_Huh],2014-02-17,2014-06-27,,,,Defined TXT keys: None
 buddycloud-api,,tcp,buddycloud API,[buddycloud],[Simon_Tennant],2013-05-20,,,,,"Defined TXT keys: v, host, protocol, path, port"

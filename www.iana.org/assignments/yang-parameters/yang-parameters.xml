@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="yang-parameters">
   <title>YANG Parameters</title>
   <created>2010-06-10</created>
-  <updated>2021-05-18</updated>
+  <updated>2021-05-28</updated>
   
   <registry id="yang-parameters-1">
     <title>YANG Module Names</title>
@@ -84,11 +84,11 @@ Codes", and "DOTS Attack Status Codes" registries.</notes>
    module. They must instead be added to the "Interface Types (ifType)" registry 
 at <xref type="registry" data="smi-numbers"/>.</notes>
     </record>
-    <record date="2017-10-25" updated="2021-05-18">
+    <record date="2017-10-25" updated="2021-05-26">
       
       <name>iana-routing-types</name>
       <iana>Y</iana>
-      <file type="yang">iana-routing-types@2021-05-18.yang</file>
+      <file type="yang">iana-routing-types@2021-05-26.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:iana-routing-types</namespace>
       <prefix>iana-rt-types</prefix>
       <module/>
@@ -1125,32 +1125,32 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2021-02-05">
       <name>ietf-segment-routing</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-segment-routing@2021-05-26.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-segment-routing</namespace>
       <prefix>sr</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>
-      <notes><xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc9020"/>
+      <notes/>
     </record>
     <record date="2021-02-05">
       <name>ietf-segment-routing-common</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-segment-routing-common@2021-05-26.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-segment-routing-common</namespace>
       <prefix>sr-cmn</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>
-      <notes><xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc9020"/>
+      <notes/>
     </record>
     <record date="2021-02-05">
       <name>ietf-segment-routing-mpls</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-segment-routing-mpls@2021-05-26.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-segment-routing-mpls</namespace>
       <prefix>sr-mpls</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>
-      <notes><xref type="draft" data="RFC-ietf-spring-sr-yang-30"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc9020"/>
+      <notes/>
     </record>
     <record date="2014-10-22">
       <name>ietf-snmp</name>
@@ -1435,12 +1435,11 @@ and <xref type="registry" data="safi-namespace">Subsequent Address Family Identi
     <record date="2020-04-29">
       <name>ietf-voucher-request</name>
       <iana>N</iana>
-      <file type="yang"/>
+      <file type="yang">ietf-voucher-request@2021-05-20.yang</file>
       <namespace>urn:ietf:params:xml:ns:yang:ietf-voucher-request</namespace>
       <prefix>vch</prefix>
       <module/>
-      <xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
-      <notes><xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>'s module file will be posted upon the document's publication as an RFC.</notes>
+      <xref type="rfc" data="rfc8995"/>
     </record>
     <record date="2018-01-18">
       <name>ietf-vrrp</name>

@@ -3,7 +3,7 @@ Reserved for Private Use,less than -65536,,,,[RFC-ietf-cose-rfc8152bis-algs-12],
 Unassigned,-65536,,,,,
 RS1,-65535,RSASSA-PKCS1-v1_5 using SHA-1,[kty],IESG,[RFC8812][RFC-ietf-cose-rfc8152bis-algs-12],Deprecated
 Unassigned,-65534 to -261,,,,,
-WalnutDSA,-260,WalnutDSA signature,[kty],,[RFC-atkins-suit-cose-walnutdsa-07],No
+WalnutDSA,-260,WalnutDSA signature,[kty],,[RFC9021],No
 RS512,-259,RSASSA-PKCS1-v1_5 using SHA-512,[kty],IESG,[RFC8812][RFC-ietf-cose-rfc8152bis-algs-12],No
 RS384,-258,RSASSA-PKCS1-v1_5 using SHA-384,[kty],IESG,[RFC8812][RFC-ietf-cose-rfc8152bis-algs-12],No
 RS256,-257,RSASSA-PKCS1-v1_5 using SHA-256,[kty],IESG,[RFC8812][RFC-ietf-cose-rfc8152bis-algs-12],No
