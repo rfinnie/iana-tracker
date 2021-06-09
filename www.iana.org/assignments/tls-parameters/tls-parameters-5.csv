@@ -5,6 +5,8 @@ Value,Description,DTLS-OK,Reference
 22,handshake,Y,[RFC8446]
 23,application_data,Y,[RFC8446]
 24,heartbeat,Y,[RFC6520]
-25,"tls12_cid (TEMPORARY - registered 2019-07-02, extension registered 2020-07-28, expires 2021-07-02)",Y,[draft-ietf-tls-dtls-connection-id]
-26-63,Unassigned,,
+25,"tls12_cid (TEMPORARY - registered 2019-07-02, extension registered 2021-06-04, expires 2022-07-02)",Y,[draft-ietf-tls-dtls-connection-id]
+26,ACK,Y,[RFC-ietf-tls-dtls13-43]
+27-31,Unassigned,,
+32-63,Reserved,,[RFC-ietf-tls-dtls13-43]
 64-255,Unassigned (Requires coordination; see [RFC7983]),,[RFC5764][RFC7983]

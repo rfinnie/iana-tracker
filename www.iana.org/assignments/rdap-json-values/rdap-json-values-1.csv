@@ -4,7 +4,7 @@ result set truncated due to authorization,notice and remark type,"The list of re
           clients that proper authorization will yield a longer result
           set.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 result set truncated due to excessive load,notice and remark type,"The list of results does not contain all results
-          due to excessively heavy load on the server.  This may
+          due to an excessively heavy load on the server.  This may
           indicate to some clients that requerying at a later time will
           yield a longer result set.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 result set truncated due to unexplainable reasons,notice and remark type,"The list of results does not contain all results
@@ -13,8 +13,7 @@ result set truncated due to unexplainable reasons,notice and remark type,"The li
           result set.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 object truncated due to authorization,notice and remark type,"The object does not contain all data due to lack
           of authorization.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
-object truncated due to excessive load,notice and remark type,"The object does not contain all data due to
-          excessively heavy load on the server.  This may indicate to
+object truncated due to excessive load,notice and remark type,"The object does not contain all data due to an excessively heavy load on the server.  This may indicate to
           some clients that requerying at a later time will yield all
           data of the object.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 object truncated due to unexplainable reasons,notice and remark type,"The object does not contain all data for an
@@ -51,25 +50,24 @@ associated,status,"The object instance is associated with other
            domain.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 active,status,"The object instance is in use.  For domain
            names, it signifies that the domain name is published in DNS.
-           For network and autnum registrations it signifies that they
+           For network and autnum registrations, it signifies that they
            are allocated or assigned for use in operational networks.
-           This maps to the Extensible Provisioning Protocol (EPP)
-           [RFC5730] 'OK' status.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           This maps to the ""OK"" status of the Extensible Provisioning Protocol (EPP) [RFC5730].",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 inactive,status,"The object instance is not in use.  See
-           'active'.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           ""active"".",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 locked,status,"Changes to the object instance cannot be made,
            including the association of other object instances.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 pending create,status,"A request has been received for the creation of
-           the object instance but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           the object instance, but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 pending renew,status,"A request has been received for the renewal of
-           the object instance but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           the object instance, but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 pending transfer,status,"A request has been received for the transfer of
-           the object instance but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           the object instance, but this action is not yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 pending update,status,"A request has been received for the update or
-           modification of the object instance but this action is not
+           modification of the object instance, but this action is not
            yet complete.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 pending delete,status,"A request has been received for the deletion or
-           removal of the object instance but this action is not yet
+           removal of the object instance, but this action is not yet
            complete.  For domains, this might mean that the name is no
            longer published in DNS but has not yet been purged from the
            registry database.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
@@ -161,17 +159,17 @@ reregistration,event action,"The object instance was registered subsequently
 last changed,event action,"An action noting when the information in the
           object instance was last changed.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 expiration,event action,"The object instance has been removed or will be
-          removed at a pre-determined date and time from the registry.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+          removed at a predetermined date and time from the registry.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 deletion,event action,"The object instance was removed from the registry
-          at a point in time that was not pre-determined.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+          at a point in time that was not predetermined.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 reinstantiation,event action,"The object instance was reregistered after having
           been removed from the registry.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 transfer,event action,"The object instance was transferred from one
       registrar to another.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
-locked,event action,"The object instance was locked (see the 'locked'
+locked,event action,"The object instance was locked (see the ""locked""
           status).",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 unlocked,event action,"The object instance was unlocked (see the
-          'locked' status).",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+          ""locked"" status).",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 registrant,role,"The entity object instance is the registrant of
            the registration.  In some registries, this is known as a
            maintainer.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
@@ -187,10 +185,10 @@ billing,role,"The entity object instance handles payment and
 registrar,role,"The entity object instance represents the
            authority responsible for the registration in the registry.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 reseller,role,"The entity object instance represents a third
-           party through which the registration was conducted (i.e. not
+           party through which the registration was conducted (i.e., not
            the registry or registrar).",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 sponsor,role,"The entity object instance represents a domain
-           policy sponsor, such as an ICANN approved sponsor.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
+           policy sponsor, such as an ICANN-approved sponsor.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 proxy,role,"The entity object instance represents a proxy
            for another entity object, such as a registrant.",[IESG],[RFC-ietf-regext-rfc7483bis-05]
 notifications,role,"An entity object instance designated to receive
@@ -211,11 +209,11 @@ instance in the RDAP database was last synchronized from the
 authoritative database (e.g. registry database).",[ICANN],
 registrar expiration,event action,"An action noting the expiration date of the object in
 the registrar system.",[ICANN],
-enum validation expiration,event action,Association of phone number represented by this ENUM domain to registrant has expired or will expire at a pre-determined date and time.,[CZ.NIC_z._s._p._o.],
+enum validation expiration,event action,Association of phone number represented by this ENUM domain to registrant has expired or will expire at a predetermined date and time.,[CZ.NIC_z._s._p._o.],
 object redacted due to authorization,notice and remark type,"The object contains redacted data due to lack of 
 authorization.",[ICANN],
 administrative,status,"The object instance has been allocated
-administratively (i.e. not for use by the recipient in their own
+administratively (i.e., not for use by the recipient in their own
 right in operational networks).",[NRO],
 reserved,status,"The object instance has been allocated to an IANA
 special-purpose address registry.",[NRO],

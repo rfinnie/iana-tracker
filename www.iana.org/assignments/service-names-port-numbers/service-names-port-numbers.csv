@@ -12086,7 +12086,7 @@ davsrcs,9802,udp,WebDAV Source TLS/SSL,[Rob_Isaac],[Rob_Isaac],2003-07,,,,,
 sapv1,9875,tcp,Session Announcement v1,,,,,[RFC2974],,,
 sapv1,9875,udp,Session Announcement v1,,,,,[RFC2974],,,
 sd,9876,tcp,Session Director,[Van_Jacobson],[Van_Jacobson],,,,,,
-x510,9877,tcp,The X.510 wrapper protocol,[ITU/TSB_(ITU-T_Study_Group_17)],[Erik_Andersen],2019-09-30,,[ITU-T X.510 / ISO/IEC 9584-11],,,
+x510,9877,tcp,The X.510 wrapper protocol,[ITU_TSB_ITU-T_Study_Group_17],[Erik_Andersen],2019-09-30,,[ITU-T X.510 / ISO/IEC 9584-11],,,
 ,9877,udp,Reserved,,,,,,,,
 kca-service,9878,udp,The KX509 Kerberized Certificate Issuance Protocol in Use in 2012,[IESG],[IETF_Chair],2012-07-12,,[RFC6717],,,"Historically, this service has been referred to as ""kca_service"", but this service name does not meet the registry requirements."
 ,9878,tcp,Reserved,,,,,,,,

@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-05-28</dd>
+      <dd>2021-06-07</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -555,6 +555,14 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc5730">RFC5730</a>]</td>
         </tr>
         <tr>
+          <td>epp:b-dn</td>
+          <td>urn:ietf:params:xml:ns:epp:b-dn</td>
+          <td>
+            <a href="ns/epp/b-dn.txt">ns/epp/b-dn.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-yao-regext-bundling-registration-06">RFC-yao-regext-bundling-registration-06</a>]</td>
+        </tr>
+        <tr>
           <td>epp:fee-1.0</td>
           <td>urn:ietf:params:xml:ns:epp:fee-1.0</td>
           <td>
@@ -592,7 +600,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/epp/unhandled-namespaces-1.0.txt">ns/epp/unhandled-namespaces-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-unhandled-namespaces-08">RFC-ietf-regext-unhandled-namespaces-08</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9038">RFC9038</a>]</td>
         </tr>
         <tr>
           <td>eppcom-1.0</td>
@@ -3247,6 +3255,14 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
             <a href="schema/epp-1.0.xsd">schema/epp-1.0.xsd</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc5730">RFC5730</a>]</td>
+        </tr>
+        <tr>
+          <td>epp:b-dn</td>
+          <td>urn:ietf:params:xml:schema:epp:b-dn</td>
+          <td>
+            <a href="schema/epp/b-dn.xsd">schema/epp/b-dn.xsd</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-yao-regext-bundling-registration-06">RFC-yao-regext-bundling-registration-06</a>]</td>
         </tr>
         <tr>
           <td>epp:fee-1.0</td>

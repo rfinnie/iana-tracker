@@ -21,7 +21,8 @@ Value,Description,DTLS-OK,Reference,Comment
 49,access_denied,Y,[RFC8446],
 50,decode_error,Y,[RFC8446],
 51,decrypt_error,Y,[RFC8446],
-52-59,Unassigned,,,
+52,the too_many_cids_requested,Y,[RFC-ietf-tls-dtls13-43],
+53-59,Unassigned,,,
 60,export_restriction_RESERVED,Y,[RFC8446],Used in TLS 1.0 but not TLS 1.1 or later.
 61-69,Unassigned,,,
 70,protocol_version,Y,[RFC8446],

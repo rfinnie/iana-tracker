@@ -3,7 +3,7 @@ Sub-Type Value,Name,Reference,Date
 0x01,Unassigned,,
 0x02,Route Target,[RFC4360],
 0x03,Route Origin,[RFC4360],
-0x04,Unassigned,,
+0x04,IPv4-Address-Specific IFIT Tail Community,[draft-wang-idr-bgp-ifit-capabilities-02],2021-06-02
 0x05,OSPF Domain Identifier,[RFC4577],
 0x06,Unassigned,,
 0x07,OSPF Route ID,[RFC4577],
