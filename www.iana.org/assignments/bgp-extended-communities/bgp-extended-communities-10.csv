@@ -11,7 +11,7 @@ Sub-Type Value,Name,Reference,Date
 0x0a,Layer2 Info Extended Community,[RFC4761],
 0x0b,E-Tree Info,[RFC7796],2014-11-24
 0x0c,Flow spec traffic-rate-packets,[RFC8955],2020-08-05
-0x0d,Flow Specification for SFC Classifiers,[RFC-ietf-bess-nsh-bgp-control-plane-18],2020-09-02
+0x0d,Flow Specification for SFC Classifiers,[RFC9015],2020-09-02
 0x0e-0x83,Unassigned,,
 0x84,Tag,[Anantharamu_Suryanarayana][https://github.com/Juniper/contrail-controller/wiki/BGP-Extended-Communities#tag],2017-10-30
 0x85,Origin Sub-Cluster,[Richard_Roberts][https://github.com/robric/wiki-contrail-controller/blob/master/BGP-Extended-Communities.md],2019-09-03

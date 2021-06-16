@@ -1,5 +1,5 @@
 Sub-Type Value,Name,Reference,Date
-0,Reserved,[RFC-ietf-bess-nsh-bgp-control-plane-18],
-1,SFIR Pool Identifier,[RFC-ietf-bess-nsh-bgp-control-plane-18],2020-09-02
-2,MPLS Label Stack Mixed Swapping/Stacking Labels,[RFC-ietf-bess-nsh-bgp-control-plane-18],2020-09-02
+0,Reserved,[RFC9015],
+1,SFIR Pool Identifier,[RFC9015],2020-09-02
+2,MPLS Label Stack Mixed Swapping/Stacking Labels,[RFC9015],2020-09-02
 3-255,Unassigned,,
