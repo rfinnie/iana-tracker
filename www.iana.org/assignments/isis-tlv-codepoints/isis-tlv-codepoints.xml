@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2021-06-01</updated>
+  <updated>2021-06-18</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert Review" <xref type="rfc" data="rfc8126"/> 
 registration procedure, guidance for IESG-designated experts can be found in 
 <xref type="rfc" data="rfc7370"/>.
@@ -247,7 +247,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08" updated="2019-08-09">
       <value>17</value>
-      <name>IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
+      <name>IS-IS Area Node IDs TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</name>
       <IIH>n</IIH>
       <LSP>y</LSP>
       <SNP>n</SNP>
@@ -258,7 +258,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08">
       <value>18</value>
-      <name>IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
+      <name>IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</name>
       <IIH>n</IIH>
       <LSP>y</LSP>
       <SNP>n</SNP>
@@ -269,7 +269,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2019-08-08">
       <value>19</value>
-      <name>IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
+      <name>IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</name>
       <IIH>y</IIH>
       <LSP>n</LSP>
       <SNP>n</SNP>
@@ -658,7 +658,7 @@ Network Service (ISO 8473)", International Standard 10589:
     </record>
     <record date="2020-08-05">
       <value>161</value>
-      <name>Flood Reflection (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</name>
+      <name>Flood Reflection (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, expires 2022-08-05)</name>
       <IIH>y</IIH>
       <LSP>n</LSP>
       <SNP>n</SNP>
@@ -1442,7 +1442,7 @@ n - sub-TLV MUST NOT appear in TLV 25
     <record date="2020-08-05">
       <value>161</value>
       <description>Flood Reflector Adjacency 
-        (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</description>
+        (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, expires 2022-08-05)</description>
       <TLV_22>y</TLV_22>
       <TLV_23>y</TLV_23>
       <TLV_25>n</TLV_25>
@@ -1481,7 +1481,7 @@ n - sub-TLV MUST NOT appear in TLV 25
     </record>
     <record date="2019-07-31">
       <value>0x4</value>
-      <name>Local Edge Enabled for Flooding (LEEF) (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</name>
+      <name>Local Edge Enabled for Flooding (LEEF) (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</name>
 	  <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
       
@@ -2026,13 +2026,13 @@ by the IESG.
     <record date="2019-08-08">
       <value>27</value>
       <description>IS-IS Area Leader Sub-TLV 
-        (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</description>
+        (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
     <record date="2019-08-08">
       <value>28</value>
       <description>IS-IS Dynamic Flooding Sub-TLV
-        (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)</description>
+        (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)</description>
       <xref type="draft" data="draft-ietf-lsr-dynamic-flooding"/>
     </record>
     <record date="2021-04-27">
@@ -2048,7 +2048,7 @@ by the IESG.
     <record date="2020-08-05">
       <value>161</value>
       <description>Flood Reflection Discovery
-        (TEMPORARY - registered 2020-08-05, expires 2021-08-05)</description>
+        (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, expires 2022-08-05)</description>
       <xref type="draft" data="draft-ietf-lsr-isis-flood-reflection-01"/>
     </record>
     <record>

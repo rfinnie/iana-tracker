@@ -27,3 +27,4 @@ autoRenewalCanceled,The short-term certificate is no longer available because th
 autoRenewalExpired,The short-term certificate is no longer available because the auto-renewal Order has expired,[RFC8739]
 autoRenewalCancellationInvalid,"A request to cancel an auto-renewal Order that is not in state ""valid"" has been received",[RFC8739]
 autoRenewalRevocationNotSupported,A request to revoke an auto-renewal Order has been received,[RFC8739]
+unknownDelegation,"An unknown configuration is listed in the ""delegations"" attribute of the request Order",[RFC-ietf-acme-star-delegation-09]

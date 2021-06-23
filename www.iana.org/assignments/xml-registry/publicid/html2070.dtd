@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-06-07</dd>
+      <dd>2021-06-14</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1880,7 +1880,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/iana-dots-signal-channel.txt">ns/yang/iana-dots-signal-channel.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/rfc8782">RFC8782</a>]</td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-rfc8782-bis-08">RFC-ietf-dots-rfc8782-bis-08</a>]</td>
         </tr>
         <tr>
           <td>yang:iana-hardware</td>
@@ -2088,7 +2088,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-dots-signal-channel.txt">ns/yang/ietf-dots-signal-channel.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/rfc8782">RFC8782</a>]</td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-rfc8782-bis-08">RFC-ietf-dots-rfc8782-bis-08</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-dots-signal-control</td>

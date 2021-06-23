@@ -15,7 +15,7 @@ Value,LSA Function Code Name,Reference
 13,Inter-AS-TE-v3 LSA,[RFC5392]
 14,OSPFv3 L1VPN LSA,[RFC5523]
 15,OSPFv3 Autoconfiguration (AC) LSA,[RFC7503]
-16,"OSPFv3 Dynamic Flooding LSA (TEMPORARY - registered 2019-07-31, extension registered 2020-06-19, expires 2021-07-31)",[draft-ietf-lsr-dynamic-flooding]
+16,"OSPFv3 Dynamic Flooding LSA (TEMPORARY - registered 2019-07-31, extension registered 2021-06-18, expires 2022-07-31)",[draft-ietf-lsr-dynamic-flooding]
 17-32,Unassigned,
 33,E-Router-LSA,[RFC8362]
 34,E-Network-LSA,[RFC8362]

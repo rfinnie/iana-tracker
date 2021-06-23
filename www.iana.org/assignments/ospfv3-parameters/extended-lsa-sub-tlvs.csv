@@ -9,7 +9,7 @@ Value,Description,Reference
 7,SID/Label sub-TLV,[RFC8666]
 8,Graceful-Link-Shutdown sub-TLV,[RFC8379]
 9,OSPFv3 Link MSD,[RFC8476]
-10,"OSPFv3 Link Attributes Bits Sub-TLV (TEMPORARY - registered 2019-07-31, extension registered 2020-06-19, expires 2021-07-31)",[draft-ietf-lsr-dynamic-flooding]
+10,"OSPFv3 Link Attributes Bits Sub-TLV (TEMPORARY - registered 2019-07-31, extension registered 2021-06-18, expires 2022-07-31)",[draft-ietf-lsr-dynamic-flooding]
 11,Application-Specific Link Attributes,[RFC8920]
 12,Shared Risk Link Group,[RFC8920]
 13,Unidirectional Link Delay,[RFC8920]

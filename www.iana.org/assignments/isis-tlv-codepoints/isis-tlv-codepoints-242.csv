@@ -26,12 +26,12 @@ Value,Description,Reference
 24,Segment Routing Mapping Server Preference (SRMS Preference),[RFC8667]
 25,"SRv6 Capabilities (TEMPORARY - registered 2020-06-17, extension registered 2021-06-01, expires 2022-06-17)",[draft-ietf-lsr-isis-srv6-extensions-15]
 26,"Flexible Algorithm Definition (TEMPORARY - registered 2018-06-04, extension registered 2021-06-01, expires 2022-06-04)",[draft-ietf-lsr-flex-algo-16]
-27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",[draft-ietf-lsr-dynamic-flooding]
+27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)",[draft-ietf-lsr-dynamic-flooding]
 28,"IS-IS Dynamic Flooding Sub-TLV
-        (TEMPORARY - registered 2019-08-08, extension registered 2020-06-19, expires 2021-08-08)",[draft-ietf-lsr-dynamic-flooding]
+        (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)",[draft-ietf-lsr-dynamic-flooding]
 29,"IP Algorithm Sub-TLV
         (TEMPORARY - registered 2021-04-27, expires 2022-04-27)",[draft-ietf-lsr-ip-flexalgo-01]
 30-160,Unassigned,
 161,"Flood Reflection Discovery
-        (TEMPORARY - registered 2020-08-05, expires 2021-08-05)",[draft-ietf-lsr-isis-flood-reflection-01]
+        (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, expires 2022-08-05)",[draft-ietf-lsr-isis-flood-reflection-01]
 162-255,Unassigned,
