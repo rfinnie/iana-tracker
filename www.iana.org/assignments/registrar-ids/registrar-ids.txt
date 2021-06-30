@@ -1,7 +1,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2021-06-10
+           2021-06-29
 
    Available Formats
            [IMG]
@@ -441,7 +441,7 @@ Registrar IDs
      775   Domains4u.ca Inc.                                                     Terminated
      776   Zhuimi Inc                                                            Accredited http://rdap.park.io:8080/rdap/
      777   Paimi Inc                                                             Accredited https://register.paimi.com/rdap/
-     778   Agrinoon Inc                                                          Accredited https://register.paimi.com/rdap/
+     778   Agrinoon Inc                                                          Terminated https://register.paimi.com/rdap/
      779   DomainVentures.ca Internet Services Corporation                       Terminated
      780   NamePal.com #8006, LLC                                                Accredited https://rdap.networksolutions.com/rdap/
      781   NamePal.com #8007, LLC                                                Accredited https://rdap.networksolutions.com/rdap/
@@ -451,7 +451,7 @@ Registrar IDs
      785   NamePal.com #8009, LLC                                                Accredited https://rdap.networksolutions.com/rdap/
      786   Maindomain.ca Inc.                                                    Terminated
      787   GoName-TN.com, Inc.                                                   Terminated
-     788   Name.cc Inc                                                           Accredited https://register.paimi.com/rdap/
+     788   Name.cc Inc                                                           Terminated https://register.paimi.com/rdap/
      789   Notablenames.ca Inc.                                                  Terminated
      790   Premierename.ca Inc.                                                  Terminated
      791   PrimeRegistrar.ca Inc.                                                Terminated
@@ -672,7 +672,7 @@ Registrar IDs
     1008   SNAPNAMES 7, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
     1009   SNAPNAMES 8, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
     1010   SNAPNAMES 9, LLC                                                      Accredited https://rdap.networksolutions.com/rdap/
-    1011   101domain GRS Limited                                                 Accredited https://rdap.101domain.com/v1/
+    1011   101domain GRS Limited                                                 Accredited https://rdap.101domain.com/
     1012   SNAPNAMES 10, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1013   SNAPNAMES 11, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
     1014   SNAPNAMES 12, LLC                                                     Accredited https://rdap.networksolutions.com/rdap/
@@ -1215,7 +1215,7 @@ Registrar IDs
     1553   Small World Communications, Inc.                                      Accredited https://rdap.smallworldregistrar.com/
     1554   DomainSnap, LLC                                                       Terminated
     1555   22net, Inc.                                                           Accredited https://rdap.22.cn/
-    1556   Chengdu West Dimension Digital Technology Co., Ltd.                   Accredited https://rdap.west.cn/
+    1556   Chengdu West Dimension Digital Technology Co., Ltd.                   Accredited https://rdap.west.cn/rdap/
     1557   Netowl, Inc.                                                          Accredited https://rdap.star-domain.jp/
     1558   SiliconHouse.Net Pvt Ltd.                                             Terminated
     1559   Dynadot2 LLC                                                          Accredited https://rdap.dynadot.com/
@@ -1571,7 +1571,7 @@ Registrar IDs
     1920   DomainName Parkway, Inc.                                              Accredited https://whois.xz.com/rdap/
     1921   Fujian Domains, Inc.                                                  Accredited https://whois.xz.com/rdap/
     1922   Guangzhou Domains, Inc.                                               Accredited https://whois.xz.com/rdap/
-    1923   Gname.com Pte. Ltd.                                                   Accredited
+    1923   Gname.com Pte. Ltd.                                                   Accredited https://rdap.gname.com/
     1924   Hello Internet Corp.                                                  Accredited https://rdap.hello.co/
     1925   Guangdong HUYI Internet & IP Services Co., Ltd                        Accredited https://whois.huyi.cn:9090/rdap/
     1926   DropCatch.com 446 LLC                                                 Accredited https://rdap.namebright.com/rdap/
@@ -3447,7 +3447,7 @@ Registrar IDs
     3801   Buzinessware FZCO                                                     Accredited https://rdapserver.net/
     3802   Ubilibet S.L.                                                         Accredited https://rdap.ubilibet.com/
     3803   Zoho Corporation Private Limited                                      Accredited
-    3804   Edomains LLC                                                          Accredited https://rdapserver.net/
+    3804   Edomains LLC                                                          Accredited https://rdap.edomains.com/rdap/
     3805   Topnets Group Limited                                                 Accredited https://rdap.1198.cn/
     3806   Beget LLC                                                             Accredited https://rdapserver.net/
     3807   Alboran Domains LLC                                                   Accredited https://rdap.networksolutions.com/rdap/
@@ -3494,7 +3494,7 @@ Registrar IDs
     3857   Dynu Systems Incorporated                                             Accredited https://rdap.dynu.com/v2/rdap/
     3858   Aceville Pte. Ltd.                                                    Accredited
     3859   Intellectual Property Management Company, Inc.                        Accredited
-    3860   WEDOS Internet, a.s.                                                  Accredited
+    3860   WEDOS Internet, a.s.                                                  Accredited https://rdap.wedos.com/
     3861   Purple IT Ltd                                                         Accredited https://rdapserver.net/domain/
     3862   Spaceship, Inc.                                                       Accredited https://rdap.namecheap.com/
     3863   Domain International Services Limited                                 Accredited https://rdap.longming.net/rdap/
@@ -3521,7 +3521,7 @@ Registrar IDs
     3883   Brand Focus Limited                                                   Accredited
     3884   Staclar, Inc.                                                         Accredited https://rdap.staclar.com/
     3885   Discount Domain Name Services Pty Ltd                                 Accredited
-    3886   GrepApps Technology Inc.                                              Accredited
+    3886   GrepApps Technology Inc.                                              Accredited https://rdapserver.net/
     3887   Second Genistrar, LLC                                                 Accredited
     3888   Longming Pte. Ltd.                                                    Accredited
     3889   Xinyang 171cloud Co., Ltd.                                            Accredited

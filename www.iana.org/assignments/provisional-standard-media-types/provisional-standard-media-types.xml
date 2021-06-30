@@ -5,7 +5,7 @@
   <title>Provisional Standard Media Type Registry</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-07-20</created>
-  <updated>2021-06-17</updated>
+  <updated>2021-06-25</updated>
 
   <registry id="provisional-standard-types">
     <title>Provisional Standard Media Type Registry</title>
@@ -68,51 +68,6 @@ Media Types: <xref type="registry" data="media-types"/>
       <org>ISO/IEC JTC 1</org>
       <xref type="person" data="Touradj_Ebrahimi"/>
     </record>
-    
-    <record date="2020-05-12">
-      <name>image/j2is</name>
-      <org>ITU-T and ISO/IEC JTC 1</org>
-      <xref type="person" data="ISO-IEC_JTC_1-SC_29-WG_1_Convenor"/>
-    </record>
-    
-    <record date="2014-10-02" updated="2014-12-12">
-      <name>application/akn+xml</name>
-      <org>OASIS</org>
-      <xref type="person" data="Chet_Ensign"/>
-    </record>
-    
-    <record date="2015-10-21">
-      <name>text/nfo</name>
-      <org>Seantek</org>
-      <xref type="person" data="Sean_Leonard"/>
-    </record>
-    
-    <record date="2018-06-26">
-      <name>application/reports+json</name>
-      <org>W3C</org>
-      <xref type="person" data="Douglas_Creager"/>
-    </record>
-    <record date="2021-01-06">
-      <name>application/rif+xml</name>
-      <org>W3C</org>
-      <xref type="person" data="Sandro_Hawke"/>
-    </record>
-    <record date="2018-03-19">
-      <name>application/wasm</name>
-      <org>W3C</org>
-      <xref type="person" data="Eric_Prud_hommeaux"/>
-    </record>
-    <record date="2021-01-11">
-      <name>text/shex</name>
-      <org>W3C</org>
-      <xref type="person" data="Eric_Prud_hommeaux"/>
-    </record>
-    
-    <record date="2015-08-25">
-      <name>application/won</name>
-      <org>IETF/W3C/other</org>
-      <xref type="person" data="Roy_T._Fielding"/>
-    </record>
 
     <record date="2021-06-17">
       <name>application/express</name>
@@ -144,10 +99,56 @@ Media Types: <xref type="registry" data="media-types"/>
       <org>ISO/TC 184/SC 4 - Industrial Data</org>
       <xref type="person" data="Kenneth_Swope"/>
     </record>
-    <record date="2021-06-17">
-      <name>model/step+xml+zip</name>
-      <org>ISO/TC 184/SC 4 - Industrial Data</org>
-      <xref type="person" data="Kenneth_Swope"/>
+    
+    <record date="2020-05-12">
+      <name>image/j2is</name>
+      <org>ITU-T and ISO/IEC JTC 1</org>
+      <xref type="person" data="ISO-IEC_JTC_1-SC_29-WG_1_Convenor"/>
+    </record>
+    
+    <record date="2014-10-02" updated="2014-12-12">
+      <name>application/akn+xml</name>
+      <org>OASIS</org>
+      <xref type="person" data="Chet_Ensign"/>
+    </record>
+    
+    <record date="2015-10-21">
+      <name>text/nfo</name>
+      <org>Seantek</org>
+      <xref type="person" data="Sean_Leonard"/>
+    </record>
+
+    <record date="2021-06-25">
+      <name>image/dpx</name>
+      <org>Society of Motion Picture and Television Engineers (SMPTE)</org>
+      <xref type="person" data="Director_of_Standards"/>
+    </record>
+    
+    <record date="2018-06-26">
+      <name>application/reports+json</name>
+      <org>W3C</org>
+      <xref type="person" data="Douglas_Creager"/>
+    </record>
+    <record date="2021-01-06">
+      <name>application/rif+xml</name>
+      <org>W3C</org>
+      <xref type="person" data="Sandro_Hawke"/>
+    </record>
+    <record date="2018-03-19">
+      <name>application/wasm</name>
+      <org>W3C</org>
+      <xref type="person" data="Eric_Prud_hommeaux"/>
+    </record>
+    <record date="2021-01-11">
+      <name>text/shex</name>
+      <org>W3C</org>
+      <xref type="person" data="Eric_Prud_hommeaux"/>
+    </record>
+    
+    <record date="2015-08-25">
+      <name>application/won</name>
+      <org>IETF/W3C/other</org>
+      <xref type="person" data="Roy_T._Fielding"/>
     </record>
     
     
@@ -160,6 +161,11 @@ Media Types: <xref type="registry" data="media-types"/>
       <name>Chet Ensign</name>
       <uri>mailto:chet.ensign&amp;oasis-open.org</uri>
       <updated>2021-04-05</updated>
+    </person>
+    <person id="Director_of_Standards">
+      <name>Director of Standards</name>
+      <uri>mailto:standards-support&amp;smpte.org</uri>
+      <updated>2021-06-25</updated>
     </person>
     <person id="Douglas_Creager">
       <name>Douglas Creager</name>

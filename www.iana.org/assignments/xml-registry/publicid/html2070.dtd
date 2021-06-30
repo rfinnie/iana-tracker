@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-06-14</dd>
+      <dd>2021-06-23</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1875,6 +1875,14 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc7317">RFC7317</a>]</td>
         </tr>
         <tr>
+          <td>yang:iana-dns-class-rr-type</td>
+          <td>urn:ietf:params:xml:ns:yang:iana-dns-class-rr-type</td>
+          <td>
+            <a href="ns/yang/iana-dns-class-rr-type.txt">ns/yang/iana-dns-class-rr-type.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-dnsop-iana-class-type-yang-05">RFC-ietf-dnsop-iana-class-type-yang-05</a>]</td>
+        </tr>
+        <tr>
           <td>yang:iana-dots-signal-channel</td>
           <td>urn:ietf:params:xml:ns:yang:iana-dots-signal-channel</td>
           <td>
@@ -2721,6 +2729,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-system.txt">ns/yang/ietf-system.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc7317">RFC7317</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-system-tacacs-plus</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-system-tacacs-plus</td>
+          <td>
+            <a href="ns/yang/ietf-system-tacacs-plus.txt">ns/yang/ietf-system-tacacs-plus.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-tacacs-yang-12">RFC-ietf-opsawg-tacacs-yang-12</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-sztp-bootstrap-server</td>
