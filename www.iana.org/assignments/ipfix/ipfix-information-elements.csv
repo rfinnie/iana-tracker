@@ -1,4 +1,4 @@
-ElementID,Name,Abstract Data Type,Data Type Semantics,Status,Description,Units,Range,References,Requester,Revision,Date
+ElementID,Name,Abstract Data Type,Data Type Semantics,Status,Description,Units,Range,Additional Information,Reference,Revision,Date
 0,Reserved,,,,,,,,[RFC5102],,2013-02-18
 1,octetDeltaCount,unsigned64,deltaCounter,current,"The number of octets since the previous report (if any)
 in incoming packets for this Flow at the Observation Point.

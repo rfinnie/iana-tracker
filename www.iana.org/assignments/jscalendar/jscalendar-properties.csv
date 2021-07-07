@@ -1,10 +1,10 @@
 Property Name,Property Type,Property Context,Reference/Description,Intended Usage,Change Controller
-@type,String,"JSEvent, JSTask, JSGroup, AbsoluteTrigger, Alert, Link, Location, NDay, OffsetTrigger, Participant, RecurrenceRule, Relation, TimeZone, TimeZoneRule, VirtualLocation","[RFC-ietf-calext-jscalendar-32, Section 4.1.1, Section 4.5.2, Section 1.4.11, Section 4.2.5, Section 4.4.5, Section 4.3.2, Section 4.1.3, Section 4.7.2, Section 4.7.2, Section 4.2.6]",common,IETF
+@type,String,"Event, Task, Group, AbsoluteTrigger, Alert, Link, Location, NDay, OffsetTrigger, Participant, RecurrenceRule, Relation, TimeZone, TimeZoneRule, VirtualLocation","[RFC-ietf-calext-jscalendar-32, Section 4.1.1, Section 4.5.2, Section 1.4.11, Section 4.2.5, Section 4.4.5, Section 4.3.2, Section 4.1.3, Section 4.7.2, Section 4.7.2, Section 4.2.6]",common,IETF
 acknowledged,UTCDateTime,Alert,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.5.2]",common,IETF
 action,String,Alert,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.5.2]",common,IETF
-alerts,Id[Alert],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+alerts,Id[Alert],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.5.2]",common,IETF
 aliases,String[Boolean],TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
@@ -26,11 +26,11 @@ byWeekNo,Int[],RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
 byYearDay,Int[],RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-categories,String[Boolean],"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32,
+categories,String[Boolean],"Event, Task, Group","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.10]",common,IETF
 cid,String,Link,"[RFC-ietf-calext-jscalendar-32,
 	Section 1.4.11]",common,IETF
-color,String,"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32, Section 4.2.11]",common,IETF
+color,String,"Event, Task, Group","[RFC-ietf-calext-jscalendar-32, Section 4.2.11]",common,IETF
 comments,String[],TimeZoneRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
 contentType,String,Link,"[RFC-ietf-calext-jscalendar-32,
@@ -38,42 +38,43 @@ contentType,String,Link,"[RFC-ietf-calext-jscalendar-32,
 coordinates,String,Location,"[RFC-ietf-calext-jscalendar-32, Section 4.2.5]",common,IETF
 count,UnsignedInt,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-created,UTCDateTime,"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32,
+created,UTCDateTime,"Event, Task, Group","[RFC-ietf-calext-jscalendar-32,
 	Section 4.1.5]",common,IETF
 day,String,NDay,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
 daylight,TimeZoneRule[],TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-delegatedFrom,String[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
+delegatedFrom,Id[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-delegatedTo,String[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
+delegatedTo,Id[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-description,String,"JSEvent, JSTask, Location, Participant, VirtualLocation","[RFC-ietf-calext-jscalendar-32,
+description,String,"Event, Task, Location, Participant, VirtualLocation","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.2
 	, Section 4.2.5, Section 4.4.5, Section 4.2.6]",common,IETF
-descriptionContentType,String,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+descriptionContentType,String,"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.3]",common,IETF
 display,String,Link,"[RFC-ietf-calext-jscalendar-32,
 	Section 1.4.11]",common,IETF
-due,LocalDateTime,JSTask,"[RFC-ietf-calext-jscalendar-32,
+due,LocalDateTime,Task,"[RFC-ietf-calext-jscalendar-32,
 	Section 5.2.1]",common,IETF
-duration,Duration,JSEvent,"[RFC-ietf-calext-jscalendar-32,
+duration,Duration,Event,"[RFC-ietf-calext-jscalendar-32,
 	Section 5.1.2]",common,IETF
 email,String,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-entries,(JSTask|JSEvent)[],JSGroup,"[RFC-ietf-calext-jscalendar-32,
+entries,(Task|Event)[],Group,"[RFC-ietf-calext-jscalendar-32,
 	Section 5.3.1]",common,IETF
-estimatedDuration,Duration,JSTask,"[RFC-ietf-calext-jscalendar-32,
+estimatedDuration,Duration,Task,"[RFC-ietf-calext-jscalendar-32,
 	Section 5.2.3]",common,IETF
-excluded,Boolean,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+excluded,Boolean,"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.5]",common,IETF
-excludedRecurrenceRules,RecurrenceRule[],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+excludedRecurrenceRules,RecurrenceRule[],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.3]",common,IETF
 expectReply,Boolean,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
+features,String[Boolean],VirtualLocation,[RFC-ietf-calext-jscalendar-32],common,IETF
 firstDayOfWeek,String,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-freeBusyStatus,String,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+freeBusyStatus,String,"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.2]",common,IETF
 frequency,String,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
@@ -81,27 +82,27 @@ href,String,Link,"[RFC-ietf-calext-jscalendar-32,
 	Section 1.4.11]",common,IETF
 interval,UnsignedInt,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-invitedBy,String,Participant,"[RFC-ietf-calext-jscalendar-32,
+invitedBy,Id,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-keywords,String[Boolean],"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32,
+keywords,String[Boolean],"Event, Task, Group","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.9]",common,IETF
 kind,String,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
 language,String,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-links,Id[Link],"JSGroup, JSEvent, JSTask, Location, Participant","[RFC-ietf-calext-jscalendar-32,
+links,Id[Link],"Group, Event, Task, Location, Participant","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.7, Section 4.2.5, Section 4.4.5]",common,IETF
-locale,String,"JSGroup, JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+locale,String,"Group, Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.8]",common,IETF
-localizations,String[PatchObject],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+localizations,String[PatchObject],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.6.1]",common,IETF
-locationId,String,Participant,"[RFC-ietf-calext-jscalendar-32,
+locationId,Id,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-locations,Id[Location],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.2.5]",common,IETF
+locations,Id[Location],"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.2.5]",common,IETF
 locationTypes,String[Boolean],Location,"[RFC-ietf-calext-jscalendar-32, Section 4.2.5]",common,IETF
-memberOf,String[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
+memberOf,Id[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-method,String,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.1.8]",common,IETF
+method,String,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.1.8]",common,IETF
 name,String,"Location, VirtualLocation, Participant","[RFC-ietf-calext-jscalendar-32, Section 4.2.5, Section 4.2.6, Section 4.4.5]",common,IETF
 names,String[Boolean],TimeZoneRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
@@ -113,33 +114,36 @@ offsetFrom,UTCDateTime,TimeZoneRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
 offsetTo,UTCDateTime,TimeZoneRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-participants,Id[Participant],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+participants,Id[Participant],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
 participationComment,String,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
 participationStatus,String,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-percentComplete,UnsignedInt,"JSTask, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.4]",common,IETF
-priority,Int,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.4.1]",common,IETF
-privacy,String,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.4.3]",common,IETF
-prodId,String,"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32, Section 4.1.4]",common,IETF
-progress,String,"JSTask, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.5]",common,IETF
-progressUpdated,UTCDateTime,"JSTask, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.6]",common,IETF
-recurrenceId,LocalDateTime,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.3.1]",common,IETF
-recurrenceOverrides,LocalDateTime[PatchObject],"JSEvent, JSTask, TimeZoneRule","[RFC-ietf-calext-jscalendar-32, Section 4.3.4, Section 4.7.2]",common,IETF
-recurrenceRules,RecurrenceRule[],"JSEvent, JSTask, TimeZoneRule","[RFC-ietf-calext-jscalendar-32,
+percentComplete,UnsignedInt,"Task, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.4]",common,IETF
+priority,Int,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.4.1]",common,IETF
+privacy,String,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.4.3]",common,IETF
+prodId,String,"Event, Task, Group","[RFC-ietf-calext-jscalendar-32, Section 4.1.4]",common,IETF
+progress,String,"Task, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.5]",common,IETF
+progressUpdated,UTCDateTime,"Task, Participant","[RFC-ietf-calext-jscalendar-32, Section 5.2.6]",common,IETF
+recurrenceId,LocalDateTime,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.3.1]",common,IETF
+recurrenceIdTimeZone,TimeZoneId|null,"Event, Task",[RFC-ietf-calext-jscalendar-32],common,IETF
+recurrenceOverrides,LocalDateTime[PatchObject],"Event, Task, TimeZoneRule","[RFC-ietf-calext-jscalendar-32, Section 4.3.4, Section 4.7.2]",common,IETF
+recurrenceRules,RecurrenceRule[],"Event, Task, TimeZoneRule","[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2, Section 4.7.2]",common,IETF
 rel,String,Link,"[RFC-ietf-calext-jscalendar-32,
 	Section 1.4.11]",common,IETF
-relatedTo,String[Relation],"JSEvent, JSTask, Alert","[RFC-ietf-calext-jscalendar-32,
+relatedTo,String[Relation],"Event, Task, Alert","[RFC-ietf-calext-jscalendar-32,
 	Section 4.1.3, Section 4.5.2]",common,IETF
 relation,String[Boolean],Relation,"[RFC-ietf-calext-jscalendar-32, Section 1.4.10]",common,IETF
 relativeTo,String,"OffsetTrigger, Location","[RFC-ietf-calext-jscalendar-32,  Section 4.5.2, Section 4.2.5]",common,IETF
-replyTo,String[String],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.4.4]",common,IETF
+replyTo,String[String],"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.4.4]",common,IETF
+requestStatus,String,"Event, Task",[RFC-ietf-calext-jscalendar-32],common,IETF
 roles,String[Boolean],Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
 rscale,String,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
+sentBy,String,"Event, Task, Participant",[RFC-ietf-calext-jscalendar-32],common,IETF
 standard,TimeZoneRule[],TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
 start,LocalDateTime,TimeZoneRule,"[RFC-ietf-calext-jscalendar-32,
@@ -156,38 +160,38 @@ scheduleUpdated,UTCDateTime,Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
 sendTo,String[String],Participant,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.4.5]",common,IETF
-sequence,UnsignedInt,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.1.7]",common,IETF
-showWithoutTime,Boolean,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.2.4]",common,IETF
+sequence,UnsignedInt,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.1.7]",common,IETF
+showWithoutTime,Boolean,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.2.4]",common,IETF
 size,UnsignedInt,Link,"[RFC-ietf-calext-jscalendar-32,
 	Section 1.4.11]",common,IETF
 skip,String,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-source,String,JSGroup,"[RFC-ietf-calext-jscalendar-32, Section 5.3.2]",common,IETF
-start,LocalDateTime,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 5.1.1
+source,String,Group,"[RFC-ietf-calext-jscalendar-32, Section 5.3.2]",common,IETF
+start,LocalDateTime,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 5.1.1
 	,
 	Section 5.2.2]",common,IETF
-status,String,JSEvent,"[RFC-ietf-calext-jscalendar-32, Section 5.1.3]",common,IETF
-timeZone,TimeZoneId|null,"JSEvent, JSTask, Location","[RFC-ietf-calext-jscalendar-32, Section 4.7.1
+status,String,Event,"[RFC-ietf-calext-jscalendar-32, Section 5.1.3]",common,IETF
+timeZone,TimeZoneId|null,"Event, Task, Location","[RFC-ietf-calext-jscalendar-32, Section 4.7.1
 	, Section 4.2.5]",common,IETF
-timeZones,TimeZoneId[TimeZone],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+timeZones,TimeZoneId[TimeZone],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-title,String,"JSEvent, JSTask, JSGroup, Link","[RFC-ietf-calext-jscalendar-32, Section 4.2.1]",common,IETF
+title,String,"Event, Task, Group, Link","[RFC-ietf-calext-jscalendar-32, Section 4.2.1]",common,IETF
 trigger,OffsetTrigger|AbsoluteTrigger|UnknownTrigger,Alert,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.5.2]",common,IETF
 tzId,String,TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-uid,String,"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32, Section 4.1.2]",common,IETF
+uid,String,"Event, Task, Group","[RFC-ietf-calext-jscalendar-32, Section 4.1.2]",common,IETF
 until,LocalDateTime,RecurrenceRule,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.3.2]",common,IETF
-updated,UTCDateTime,"JSEvent, JSTask, JSGroup","[RFC-ietf-calext-jscalendar-32, Section 4.1.6]",common,IETF
+updated,UTCDateTime,"Event, Task, Group","[RFC-ietf-calext-jscalendar-32, Section 4.1.6]",common,IETF
 uri,String,VirtualLocation,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.6]",common,IETF
 url,String,TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-useDefaultAlerts,Boolean,"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32, Section 4.5.1]",common,IETF
+useDefaultAlerts,Boolean,"Event, Task","[RFC-ietf-calext-jscalendar-32, Section 4.5.1]",common,IETF
 validUntil,UTCDateTime,TimeZone,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.7.2]",common,IETF
-virtualLocations,Id[VirtualLocation],"JSEvent, JSTask","[RFC-ietf-calext-jscalendar-32,
+virtualLocations,Id[VirtualLocation],"Event, Task","[RFC-ietf-calext-jscalendar-32,
 	Section 4.2.6]",common,IETF
 when,UTCDateTime,AbsoluteTrigger,"[RFC-ietf-calext-jscalendar-32,
 	Section 4.5.2]",common,IETF

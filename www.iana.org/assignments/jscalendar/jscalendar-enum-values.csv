@@ -1,13 +1,14 @@
 Property Name,Context,Reference,Change Controller
 action,Alert,[RFC-ietf-calext-jscalendar-32],IETF
 display,Link,[RFC-ietf-calext-jscalendar-32],IETF
-freeBusyStatus,"JSEvent, JSTask",[RFC-ietf-calext-jscalendar-32],IETF
+features,VirtualLocation,[RFC-ietf-calext-jscalendar-32],IETF
+freeBusyStatus,"Event, Task",[RFC-ietf-calext-jscalendar-32],IETF
 kind,Participant,[RFC-ietf-calext-jscalendar-32],IETF
 participationStatus,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-privacy,"JSEvent, JSTask",[RFC-ietf-calext-jscalendar-32],IETF
-progress,"JSTask, Participant",[RFC-ietf-calext-jscalendar-32],IETF
+privacy,"Event, Task",[RFC-ietf-calext-jscalendar-32],IETF
+progress,"Task, Participant",[RFC-ietf-calext-jscalendar-32],IETF
 relation,Relation,[RFC-ietf-calext-jscalendar-32],IETF
 relativeTo,"OffsetTrigger, Location",[RFC-ietf-calext-jscalendar-32],IETF
 roles,Participant,[RFC-ietf-calext-jscalendar-32],IETF
 scheduleAgent,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-status,JSEvent,[RFC-ietf-calext-jscalendar-32],IETF
+status,Event,[RFC-ietf-calext-jscalendar-32],IETF
