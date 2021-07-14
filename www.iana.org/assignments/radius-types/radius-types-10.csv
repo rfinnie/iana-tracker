@@ -12,3 +12,5 @@ Value,Description,Reference
 13,Tunnel-Link-Stop,[RFC2867]
 14,Tunnel-Link-Reject,[RFC2867]
 15,Failed,[RFC2866]
+18,Subsystem-On,[https://freeradius.org/rfc/acct_status_type_subsystem.html][Alan_DeKok]
+19,Subsystem-Off,[https://freeradius.org/rfc/acct_status_type_subsystem.html][Alan_DeKok]
