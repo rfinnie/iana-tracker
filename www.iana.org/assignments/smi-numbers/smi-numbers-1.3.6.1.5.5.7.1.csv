@@ -31,3 +31,4 @@ Decimal,Description,References
 30,id-pe-mudsigner,[RFC8520]
 31,id-pe-acmeIdentifier,[RFC8737]
 32,id-pe-masa-url,[RFC8995]
+33,id-pe-eJWTClaimConstraints,[RFC-ietf-stir-enhance-rfc8226-04]

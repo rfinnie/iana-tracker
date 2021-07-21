@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2021-06-24
+           2021-07-20
 
    Expert(s)
 
@@ -4618,8 +4618,12 @@ imsldoc            2035        tcp
 imsldoc            2035        udp
 e-dpnet            2036        tcp    Ethernet WS DP network       [Peter_Kaever]                                        [Peter_Kaever]                                            2005-08
 e-dpnet            2036        udp    Ethernet WS DP network       [Peter_Kaever]                                        [Peter_Kaever]                                            2005-08
-applus             2037        tcp    APplus Application Server    [Thomas_Boerkel]                                      [Thomas_Boerkel]                                          2008-06-06                                                                                        Formerly was P2plus Application Server
-applus             2037        udp    APplus Application Server    [Thomas_Boerkel]                                      [Thomas_Boerkel]                                          2008-06-06                                                                                        Formerly was P2plus Application Server
+                                                                                                                                                                                                                                                                        Unauthorized
+applus             2037        tcp    APplus Application Server    [Alfred_Weindl]                                       [Marcus_Schairer]                                         2008-06-06   2021-07-20                                                              Use Known on Formerly was P2plus Application Server
+                                                                                                                                                                                                                                                                        port 2037
+                                                                                                                                                                                                                                                                        Unauthorized
+applus             2037        udp    APplus Application Server    [Alfred_Weindl]                                       [Marcus_Schairer]                                         2008-06-06   2021-07-20                                                              Use Known on Formerly was P2plus Application Server
+                                                                                                                                                                                                                                                                        port 2037
 objectmanager      2038        tcp
 objectmanager      2038        udp
 prizma             2039        tcp    Prizma Monitoring Service    [Dotan_Ofek]                                          [Dotan_Ofek]                                              2005-12
@@ -11708,7 +11712,12 @@ amc                5506        udp    Amcom Mobile Connect         [Aaron_Fracht
 psl-management     5507        tcp    PowerSysLab Electrical       [PowerSysLab]                                         [Lucas_Lorensi]                                           2015-07-20
                                       Management
                    5507        udp    Reserved
-                 5508-5549            Unassigned
+                 5508-5539            Unassigned
+matter             5540        tcp    Matter Operational Discovery [Connectivity_Standards_Alliance]                     [Aron_Rosenberg]                                          2021-07-16
+                                      and Communi
+matter             5540        udp    Matter Operational Discovery [Connectivity_Standards_Alliance]                     [Aron_Rosenberg]                                          2021-07-16
+                                      and Communi
+                 5541-5549            Unassigned
 cbus               5550        tcp    Model Railway control using  [MERG]                                                [Pete_Brownlow]                                           2017-01-03
                                       the CBUS message protocol
                    5550        udp    Reserved
@@ -13024,8 +13033,8 @@ radg               6789        tcp    GSS-API for the Oracle       [Oracle_9]   
                    6789        udp    Reserved                                                                                                                                     2002-08      2016-09-15
 hnmp               6790        tcp    HNMP                         [Jude_George]                                         [Jude_George]
 hnmp               6790        udp    HNMP                         [Jude_George]                                         [Jude_George]
-hnm                6791        tcp    Halcyon Network Manager      [Richard_Harriss]                                     [Richard_Harriss]                                         2005-05
-hnm                6791        udp    Halcyon Network Manager      [Richard_Harriss]                                     [Richard_Harriss]                                         2005-05
+hnm                6791        tcp    Halcyon Network Manager      [HelpSystems]                                         [Henriët_Wilkinson]                                       2005-05      2021-07-20
+hnm                6791        udp    Halcyon Network Manager      [HelpSystems]                                         [Henriët_Wilkinson]                                       2005-05      2021-07-20
                  6792-6800            Unassigned
 acnet              6801        tcp    ACNET Control System         [Fermilab]                                            [Rich_Neswold]                                            2007-02      2017-07-13
                                       Protocol
@@ -15179,7 +15188,7 @@ cirrossp           10443       tcp    CirrosSP Workstation         [Cirros_Docum
                    10443       udp    Reserved
                 10444-10499           Unassigned
                    10500       tcp    Reserved
-hip-nat-t          10500       udp    HIP NAT-Traversal            [IESG]                                                [IETF_Chair]                                                           2020-08-12   [RFC5770][RFC-ietf-hip-native-nat-traversal-33]
+hip-nat-t          10500       udp    HIP NAT-Traversal            [IESG]                                                [IETF_Chair]                                                           2020-08-12   [RFC5770][RFC9028]
                 10501-10539           Unassigned
 MOS-lower          10540       tcp    MOS Media Object Metadata    [Eric_Thorniley]                                      [Eric_Thorniley]                                          2007-09-17
                                       Port
@@ -19071,6 +19080,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Alexios_Vasileiadis]                                     Alexios Vasileiadis                                 mailto:alexvas100&gmail.com                                   2018-05-03
 [Alexis_Bose]                                             Alexis Bose                                         mailto:abose&d-ta.com                                         2008-12-08
 [Alfred_Schmidt]                                          Alfred Schmidt                                      mailto:a.schmidt&aft-werdohl.de                               2003-11
+[Alfred_Weindl]                                           Alfred Weindl                                       mailto:alfred.weindl&assecosol.com                            2021-07-20
 [Ali_Fracyon]                                             Ali Fracyon                                         mailto:sxdev&modulardreams.com
 [Ali_Jelveh]                                              Ali Jelveh                                          mailto:ali&protonet.info
 [Ali_Saleh]                                               Ali Saleh                                           mailto:scomm&cerf.net
@@ -19298,7 +19308,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Arno_Odermatt]                                           Arno Odermatt              Schindler Aufzuege ag    mailto:arno.odermatt&schindler.com                            2017-07-07
 [Arnold_Dittmann]                                         Arnold Dittmann                                     mailto:dittmann&isbcad.de
 [Arnold_E_Mauer]                                          Arnold E. Mauer                                     mailto:amauer&vrms.com                                        2003-04
-[Aron_Rosenberg]                                          Aron Rosenberg             Connectivity Standards   mailto:arosenberg&logitech.com                                2021-05-21
+[Aron_Rosenberg]                                          Aron Rosenberg             Connectivity Standards   mailto:arosenberg&logitech.com                                2021-07-16
                                                                                      Alliance
 [Arrow_Bit_SL]                                                                       Arrow Bit SL             mailto:info&arrowbit.com                                      2012-04-26
 [Art_Cancro]                                              Art Cancro                                          mailto:ajc&citadel.org                                        2015-02-18
@@ -19915,7 +19925,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Comtech]                                                                            Comtech                  mailto:njeffords&comtechefdata.com                            2014-01-23
 [Conceptworld_Corporation]                                                           Conceptworld Corporation mailto:admin&conceptworld.com                                 2013-08-20
 [cone_smart_solution]                                                                cone smart solution      mailto:office&cone.at                                         2019-04-22
-[Connectivity_Standards_Alliance]                                                    Connectivity Standards   mailto:ianaregistrations&mail.zigbee.org                      2021-05-21
+[Connectivity_Standards_Alliance]                                                    Connectivity Standards   mailto:ianaregistrations&mail.zigbee.org                      2021-07-16
                                                                                      Alliance
 [ConnectShip_Inc]                                                                    ConnectShip, Inc.        mailto:ConnectShipIT&connectship.com                          2019-12-12
 [Connie_Qiu]                                              Connie Qiu                                          mailto:connie&scdb.com
@@ -20940,7 +20950,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Helmut_Giritzer]                                         Helmut Giritzer                                     mailto:helmut.giritzer&epluse.at                              2005-11
 [Helmut_Giritzer_2]                                       Helmut Giritzer                                     mailto:helmut.giritzer&o.roteskreuz.at                        2005-08
 [Helmuth_Breitenfelln]                                    Helmuth Breitenfellner                              mailto:hbreitenf&vnet.imb.com
-[Honwywell_Security_Group]                                                           Honwywell Security Group mailto:john.dziadosz&honeywell.com                            2012-04-09
+[HelpSystems]                                                                        HelpSystems              mailto:info&helpsystems.com                                   2021-07-20
 [Hennie_van_der_Merwe]                                    Hennie van der Merwe                                mailto:hvandermerwe&tellumat.com                              2002-07
 [Henning_Meier_Geinit]                                    Henning Meier-Geinitz                               mailto:henning&meier-geinitz.de                               2002-10
 [Henning_Mersch]                                          Henning Mersch                                      mailto:h.mersch&plt.rwth-aachen.de                            2010-12-07
@@ -20949,6 +20959,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Henning_Smith]                                           Henning Smith                                       mailto:henning.smith&ca.com                                   2006-07
 [Henri_Moelard]                                           Henri Moelard                                       mailto:moelard&lucent.com
 [Henric_Bergh]                                            Henric Bergh                                        mailto:henric&bergh.nu                                        2007-01
+[Henriët_Wilkinson]                                       Henriët Wilkinson                                   mailto:henriet.wilkinson&helpsystems.com                      2021-07-20
 [Henrik_Goldman]                                          Henrik Goldman                                      mailto:hg&x-formation.com                                     2006-10
 [Henrik_Holst]                                            Henrik Holst                                        mailto:henrik.holst&ecovision.se
 [Henrik_Johnson]                                          Henrik Johnson             Quest Software           mailto:henrik.johnson&quest.com                               2012-04-09
@@ -20995,6 +21006,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Holger_Reif]                                             Holger Reif                                         mailto:Holger.Reif&prakinf.tu-ilmenau.de
 [Holvonix_LLC]                                                                       Holvonix LLC             mailto:internet-assignments-contact&holvonix.com              2017-11-29
 [Hong_Jungkih]                                            Hong, Jungkih                                       mailto:jungkih.hong&samsung.com                               2010-09-20
+[Honwywell_Security_Group]                                                           Honwywell Security Group mailto:john.dziadosz&honeywell.com                            2012-04-09
 [Horizon_Digital_Ente]                                                               Horizon Digital          mailto:info&hde.co.jp
                                                                                      Enterprise Inc.
 [HotLink_Corporation]                                                                HotLink Corporation      mailto:roffer&hotlink.com                                     2014-12-18
@@ -22076,6 +22088,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Marcos_Della]                                            Marcos Della                                        mailto:mdella&peerme.com                                      2005-08
 [Marcus_Leufgen]                                          Marcus Leufgen                                      mailto:leufgen&ipcas.de                                       2002-05
 [Marcus_Mueller]                                          Marcus Mueller                                      mailto:marcus&irtrans.de                                      2004-11
+[Marcus_Schairer]                                         Marcus Schairer                                     mailto:marcus.schairer&assecosol.com                          2021-07-20
 [Marek_Buchler]                                           Marek Buchler                                       mailto:Marek.Buchler&entrust.com
 [Margaret_Wasserman]                                      Margaret Wasserman                                  mailto:margaret&thingmagic.com                                2006-11
 [Marie_France_Dubreui]                                    Marie-France Dubreuil                               mailto:Marie-France.Dubreuil&evidian.com                      2002-11
@@ -23235,7 +23248,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Richard_Fleming]                                         Richard Fleming                                     mailto:richard&apoapsis.com                                   2002-08
 [Richard_Foss]                                            Richard Foss                                        mailto:r.foss&ru.ac.za                                        2011-02-10
 [Richard_Frith_Macdon]                                    Richard Frith-Macdonald                             mailto:richard&brainstorm.co.uk
-[Richard_Harriss]                                         Richard Harriss                                     mailto:richard.harriss&halcyonsoftware.com                    2005-05
 [Richard_Harwell]                                         Richard Harwell                                     mailto:richardcharwell&eaton.com                              2006-02
 [Richard_Hodges]                                          Richard Hodges                                      mailto:rh&matriplex.com
 [Richard_Hodges_2]                                        Richard Hodges                                      mailto:rh&source.net

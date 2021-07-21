@@ -1,5 +1,5 @@
 Value,Description,Reference
 0,Path is set up using the RSVP-TE signaling protocol,[RFC8408]
 1,Traffic-engineering path is set up using Segment Routing.,[RFC8664]
-2,Traffic engineering path is set up using PCECC mode,[RFC-pce-pcep-extension-for-pce-controller-14]
+2,Traffic engineering path is set up using PCECC mode,[RFC9050]
 3-255,Unassigned,

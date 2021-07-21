@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-06-24</updated>
+  <updated>2021-07-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -25015,20 +25015,28 @@ common service discovery mechanisms.</note>
     <description>Ethernet WS DP network</description>
     <number>2036</number>
   </record>
-  <record date="2008-06-06">
+  <record date="2008-06-06" updated="2021-07-20">
     <name>applus</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Thomas_Boerkel"/>
+    <assignee>
+      <xref type="person" data="Alfred_Weindl"/>
+    </assignee>
     <description>APplus Application Server</description>
     <number>2037</number>
+    <unauthorized>Unauthorized Use Known on port 2037</unauthorized>
+    <xref type="person" data="Marcus_Schairer"/>
     <note>Formerly was P2plus Application Server</note>
   </record>
-  <record date="2008-06-06">
+  <record date="2008-06-06" updated="2021-07-20">
     <name>applus</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Thomas_Boerkel"/>
+    <assignee>
+      <xref type="person" data="Alfred_Weindl"/>
+    </assignee>
     <description>APplus Application Server</description>
     <number>2037</number>
+    <unauthorized>Unauthorized Use Known on port 2037</unauthorized>
+    <xref type="person" data="Marcus_Schairer"/>
     <note>Formerly was P2plus Application Server</note>
   </record>
   <record>
@@ -64696,7 +64704,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5508-5549</number>
+    <number>5508-5539</number>
+  </record>
+  <record date="2021-07-16">
+    <name>matter</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Connectivity_Standards_Alliance"/>
+    </assignee>
+    <description>Matter Operational Discovery and Communi</description>
+    <number>5540</number>
+    <xref type="person" data="Aron_Rosenberg"/>
+  </record>
+  <record date="2021-07-16">
+    <name>matter</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Connectivity_Standards_Alliance"/>
+    </assignee>
+    <description>Matter Operational Discovery and Communi</description>
+    <number>5540</number>
+    <xref type="person" data="Aron_Rosenberg"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5541-5549</number>
   </record>
   <record date="2017-01-03">
     <name>cbus</name>
@@ -70697,19 +70729,25 @@ common service discovery mechanisms.</note>
     <description>HNMP</description>
     <number>6790</number>
   </record>
-  <record date="2005-05">
+  <record date="2005-05" updated="2021-07-20">
     <name>hnm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Richard_Harriss"/>
+    <assignee>
+      <xref type="person" data="HelpSystems"/>
+    </assignee>
     <description>Halcyon Network Manager</description>
     <number>6791</number>
+    <xref type="person" data="Henriët_Wilkinson"/>
   </record>
-  <record date="2005-05">
+  <record date="2005-05" updated="2021-07-20">
     <name>hnm</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Richard_Harriss"/>
+    <assignee>
+      <xref type="person" data="HelpSystems"/>
+    </assignee>
     <description>Halcyon Network Manager</description>
     <number>6791</number>
+    <xref type="person" data="Henriët_Wilkinson"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -81880,7 +81918,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc5770"/>
-    <xref type="draft" data="RFC-ietf-hip-native-nat-traversal-33"/>
+    <xref type="rfc" data="rfc9028"/>
     <description>HIP NAT-Traversal</description>
     <number>10500</number>
   </record>
@@ -99420,6 +99458,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:a.schmidt&amp;aft-werdohl.de</uri>
       <updated>2003-11</updated>
     </person>
+    <person id="Alfred_Weindl">
+      <name>Alfred Weindl</name>
+      <uri>mailto:alfred.weindl&amp;assecosol.com</uri>
+      <updated>2021-07-20</updated>
+    </person>
     <person id="Ali_Fracyon">
       <name>Ali Fracyon</name>
       <uri>mailto:sxdev&amp;modulardreams.com</uri>
@@ -100446,7 +100489,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Aron Rosenberg</name>
       <org>Connectivity Standards Alliance</org>
       <uri>mailto:arosenberg&amp;logitech.com</uri>
-      <updated>2021-05-21</updated>
+      <updated>2021-07-16</updated>
     </person>
     <person id="Arrow_Bit_SL">
       <org>Arrow Bit SL</org>
@@ -103176,7 +103219,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Connectivity_Standards_Alliance">
       <org>Connectivity Standards Alliance</org>
       <uri>mailto:ianaregistrations&amp;mail.zigbee.org</uri>
-      <updated>2021-05-21</updated>
+      <updated>2021-07-16</updated>
     </person>
     <person id="ConnectShip_Inc">
       <org>ConnectShip, Inc.</org>
@@ -107751,10 +107794,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Helmuth Breitenfellner</name>
       <uri>mailto:hbreitenf&amp;vnet.imb.com</uri>
     </person>
-    <person id="Honwywell_Security_Group">
-      <org>Honwywell Security Group</org>
-      <uri>mailto:john.dziadosz&amp;honeywell.com</uri>
-      <updated>2012-04-09</updated>
+    <person id="HelpSystems">
+      <org>HelpSystems</org>
+      <uri>mailto:info&amp;helpsystems.com</uri>
+      <updated>2021-07-20</updated>
     </person>
     <person id="Hennie_van_der_Merwe">
       <name>Hennie van der Merwe</name>
@@ -107793,6 +107836,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Henric Bergh</name>
       <uri>mailto:henric&amp;bergh.nu</uri>
       <updated>2007-01</updated>
+    </person>
+    <person id="Henriët_Wilkinson">
+      <name>Henriët Wilkinson</name>
+      <uri>mailto:henriet.wilkinson&amp;helpsystems.com</uri>
+      <updated>2021-07-20</updated>
     </person>
     <person id="Henrik_Goldman">
       <name>Henrik Goldman</name>
@@ -107986,6 +108034,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Hong, Jungkih</name>
       <uri>mailto:jungkih.hong&amp;samsung.com</uri>
       <updated>2010-09-20</updated>
+    </person>
+    <person id="Honwywell_Security_Group">
+      <org>Honwywell Security Group</org>
+      <uri>mailto:john.dziadosz&amp;honeywell.com</uri>
+      <updated>2012-04-09</updated>
     </person>
     <person id="Horizon_Digital_Ente">
       <org>Horizon Digital Enterprise Inc.</org>
@@ -112753,6 +112806,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Marcus Mueller</name>
       <uri>mailto:marcus&amp;irtrans.de</uri>
       <updated>2004-11</updated>
+    </person>
+    <person id="Marcus_Schairer">
+      <name>Marcus Schairer</name>
+      <uri>mailto:marcus.schairer&amp;assecosol.com</uri>
+      <updated>2021-07-20</updated>
     </person>
     <person id="Marek_Buchler">
       <name>Marek Buchler</name>
@@ -117824,11 +117882,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Richard_Frith_Macdon">
       <name>Richard Frith-Macdonald</name>
       <uri>mailto:richard&amp;brainstorm.co.uk</uri>
-    </person>
-    <person id="Richard_Harriss">
-      <name>Richard Harriss</name>
-      <uri>mailto:richard.harriss&amp;halcyonsoftware.com</uri>
-      <updated>2005-05</updated>
     </person>
     <person id="Richard_Harwell">
       <name>Richard Harwell</name>

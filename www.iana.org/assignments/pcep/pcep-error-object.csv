@@ -52,7 +52,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,14: P2MP-LSP-IDENTIFIERS TLV missing,[RFC8623]
 ,,15: DISJOINTNESS-CONFIGURATION TLV missing,[RFC8800]
 ,,16: Scheduled TLV missing,[RFC8934]
-,,17: CCI object missing,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,17: CCI object missing,[RFC9050]
 ,,18-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
@@ -92,7 +92,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,30: Wrong LABEL-SET TLV present with O bit set and wrong format,[RFC8779]
 ,,31: Missing GMPLS-CAPABILITY TLV,[RFC8779]
 ,,32: Incompatible OF code,[RFC8800]
-,,33: Missing PCECC Capability sub-TLV,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,33: Missing PCECC Capability sub-TLV,[RFC9050]
 ,,34-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -146,9 +146,9 @@ Error-Type,Meaning,Error-value,Reference
         instantiation capability for P2MP was not advertised",[RFC8623]
 ,,14: Auto-Bandwidth capability was not advertised,[RFC8733]
 ,,15: Attempted LSP scheduling while the scheduling capability was not advertised,[RFC8934]
-,,16: Attempted PCECC operations when PCECC capability was not advertised,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,17: Stateful PCE capability was not advertised,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,18: Unknown Label,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+,,16: Attempted PCECC operations when PCECC capability was not advertised,[RFC9050]
+,,17: Stateful PCE capability was not advertised,[RFC9050]
+,,18: Unknown Label,[RFC9050]
 ,,19-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
@@ -235,11 +235,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unknown FlowSpec,[RFC-ietf-pce-pcep-flowspec-12]
 ,,5: Unsupported LPM Route,[RFC-ietf-pce-pcep-flowspec-12]
 ,,6-255: Unassigned,
-31,PCECC failure,0: Unassigned,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,1: Label out of range,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,2: Instruction failed,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,3: Invalid CCI,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,4: Unable to allocate the specified CCI,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
-,,5: Invalid next-hop information,[RFC-ietf-pce-pcep-extension-for-pce-controller-14]
+31,PCECC failure,0: Unassigned,
+,,1: Label out of range,[RFC9050]
+,,2: Instruction failed,[RFC9050]
+,,3: Invalid CCI,[RFC9050]
+,,4: Unable to allocate the specified CCI,[RFC9050]
+,,5: Invalid next-hop information,[RFC9050]
 ,,6-255: Unassigned,
 32-255,Unassigned,0-255: Unassigned,

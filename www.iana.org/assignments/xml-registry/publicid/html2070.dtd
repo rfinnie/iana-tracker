@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-06-23</dd>
+      <dd>2021-07-16</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2152,7 +2152,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-i2nsf-ike.txt">ns/yang/ietf-i2nsf-ike.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-i2nsf-ikec</td>
@@ -2160,7 +2160,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-i2nsf-ikec.txt">ns/yang/ietf-i2nsf-ikec.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-i2nsf-ikeless</td>
@@ -2168,7 +2168,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-i2nsf-ikeless.txt">ns/yang/ietf-i2nsf-ikeless.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-sdn-ipsec-flow-protection-14">RFC-ietf-i2nsf-sdn-ipsec-flow-protection-14</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-i2rs-rib</td>
@@ -2715,12 +2715,12 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc8639">RFC8639</a>]</td>
         </tr>
         <tr>
-          <td>yang:ietf-syslog</td>
+          <td>yang:ietf-syslog (TEMPORARY - registered 2021-07-11, exprires 2022-07-11)</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-syslog</td>
           <td>
             <a href="ns/yang/ietf-syslog.txt">ns/yang/ietf-syslog.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-syslog-model-26">RFC-ietf-netmod-syslog-model-26</a>]</td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-syslog-model-26">draft-ietf-netmod-syslog-model-26</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-system</td>

@@ -54,3 +54,4 @@ t140,ITU-T T.140 Real-Time Text,[RFC8865],[RFC8865],
 done,done.best IoT Protocol,"""done"" is a general purpose IoT Protocol, used by done.best based solutions",[done.best],[Helmut_Hartl]
 TLCP-2.2.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://www.lightstreamer.com/tlcp-2.2.0],[Dario_Crivelli],[Lightstreamer_Srl]
 collection-update,The Collection Update Websocket Subprotocol,[https://github.com/jonlachlan/collection-update-websocket-protocol],[Jon_Lachlan],[Jon_Lachlan]
+TLCP-2.3.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://lightstreamer.com/tlcp-2.3.0],[Dario_Crivelli],[Lightstreamer_Srl]

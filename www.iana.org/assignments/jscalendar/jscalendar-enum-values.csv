@@ -1,14 +1,14 @@
 Property Name,Context,Reference,Change Controller
-action,Alert,[RFC-ietf-calext-jscalendar-32],IETF
-display,Link,[RFC-ietf-calext-jscalendar-32],IETF
-features,VirtualLocation,[RFC-ietf-calext-jscalendar-32],IETF
-freeBusyStatus,"Event, Task",[RFC-ietf-calext-jscalendar-32],IETF
-kind,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-participationStatus,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-privacy,"Event, Task",[RFC-ietf-calext-jscalendar-32],IETF
-progress,"Task, Participant",[RFC-ietf-calext-jscalendar-32],IETF
-relation,Relation,[RFC-ietf-calext-jscalendar-32],IETF
-relativeTo,"OffsetTrigger, Location",[RFC-ietf-calext-jscalendar-32],IETF
-roles,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-scheduleAgent,Participant,[RFC-ietf-calext-jscalendar-32],IETF
-status,Event,[RFC-ietf-calext-jscalendar-32],IETF
+action,Alert,[RFC8984],IETF
+display,Link,[RFC8984],IETF
+features,VirtualLocation,[RFC8984],IETF
+freeBusyStatus,"Event, Task",[RFC8984],IETF
+kind,Participant,[RFC8984],IETF
+participationStatus,Participant,[RFC8984],IETF
+privacy,"Event, Task",[RFC8984],IETF
+progress,"Task, Participant",[RFC8984],IETF
+relation,Relation,[RFC8984],IETF
+relativeTo,"OffsetTrigger, Location",[RFC8984],IETF
+roles,Participant,[RFC8984],IETF
+scheduleAgent,Participant,[RFC8984],IETF
+status,Event,[RFC8984],IETF
