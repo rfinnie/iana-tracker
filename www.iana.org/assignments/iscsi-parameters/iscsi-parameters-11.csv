@@ -1,4 +1,6 @@
-Status Class(fixed),Status Code(one octet),Description,Reference
+"Status Class
+(fixed)","Status Code
+(one octet)",Description,Reference
 0x01,0x01,Target moved temporarily,[RFC7143]
 0x01,0x02,Target moved permanently,[RFC7143]
 0x01,0x03-0xff,Unassigned,

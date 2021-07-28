@@ -1,4 +1,5 @@
-Event Number(one octet),Description,Reference
+"Event Number
+(one octet)",Description,Reference
 0,SCSI Async Event,[RFC7143]
 1,Logout Request,[RFC7143]
 2,Connection drop notification,[RFC7143]

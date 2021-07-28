@@ -1,4 +1,6 @@
-Status Class(fixed),Status Code(one octet),Description,Reference
+"Status Class
+(fixed)","Status Code
+(one octet)",Description,Reference
 0x02,0x00,Initiator error,[RFC7143]
 0x02,0x01,Authentication failure,[RFC7143]
 0x02,0x02,Authorization failure,[RFC7143]

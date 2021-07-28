@@ -1,4 +1,6 @@
-Number,Description,Mnemonic,ZoneSigning,Trans.Sec.,Reference
+Number,Description,Mnemonic,"Zone
+Signing","Trans.
+Sec.",Reference
 0,Delete DS,DELETE,N,N,[RFC4034][proposed standard][RFC4398][proposed standard][RFC8078][proposed standard]
 1,"RSA/MD5 (deprecated, see 5)",RSAMD5,N,Y,[RFC3110][proposed standard][RFC4034][proposed standard]
 2,Diffie-Hellman,DH,N,Y,[RFC2539][proposed standard]

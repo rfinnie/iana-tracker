@@ -189,6 +189,7 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 ,8808,,,IEEE Std 802.3 - Ethernet Passive Optical Network (EPON),[EPON][RFC7042]
 ,880B,,,Point-to-Point Protocol (PPP),[RFC7042]
 ,880C,,,General Switch Management Protocol (GSMP),[RFC7042]
+34850,8822,,,Ethernet NIC hardware and software testing,[Wind_River]
 ,8847,,,MPLS,[RFC5332]
 ,8848,,,MPLS with upstream-assigned label,[RFC5332]
 ,8861,,,Multicast Channel Allocation Protocol (MCAP),[RFC7042]

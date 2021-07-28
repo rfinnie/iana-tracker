@@ -1,12 +1,12 @@
 Sub-Type,Sub-TLV Name,Reference,Comment
-0,Reserved,[RFC-ietf-mpls-lsp-ping-registries-update-11],
+0,Reserved,[RFC9041],
 1,Multipath data,[RFC8029],
 2,Label stack,[RFC8029],
 3,FEC stack change,[RFC8029],
 4,Local Interface Index,[RFC8611],
 5,Remote Interface Index,[RFC8611],
 6-31739,Unassigned,,
-31740-31743,Reserved for Experimental Use,[RFC-ietf-mpls-lsp-ping-registries-update-11],"Not to be assigned. This range is for sub-TLVs that require an error message if not recognized. [RFC-ietf-mpls-lsp-ping-registries-update-11, Section 3.1]"
+31740-31743,Reserved for Experimental Use,[RFC9041],"Not to be assigned. This range is for sub-TLVs that require an error message if not recognized. [RFC9041, Section 3.1]"
 31744-64507,Unassigned,,
-64508-64511,Reserved for Experimental Use,[RFC-ietf-mpls-lsp-ping-registries-update-11],Not to be assigned. This range is for sub-TLVs that can be silently dropped if not recognized.
+64508-64511,Reserved for Experimental Use,[RFC9041],Not to be assigned. This range is for sub-TLVs that can be silently dropped if not recognized.
 64512-65535,Unassigned,,

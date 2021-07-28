@@ -4,7 +4,8 @@ Unassigned,,1-15,
 "application/cose; cose-type=""cose-encrypt0""",,16,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-mac0""",,17,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-sign1""",,18,[RFC-ietf-cose-rfc8152bis-struct-15]
-Unassigned,,19-39,
+application/ace+cbor,,19,[RFC-ietf-ace-oauth-authz-43]
+Unassigned,,20-39,
 application/link-format,,40,[RFC6690]
 application/xml,,41,[RFC3023]
 application/octet-stream,,42,[RFC2045][RFC2046]

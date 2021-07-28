@@ -13856,7 +13856,7 @@ xnet,,,Cross Net Debugger,,,,,,,,
 xns-idp,,,Xerox NS IDP,,,,,,,,
 1password,,,1Password Password Manager data sharing and synchronization protocol,[Roustem_Karimov],[Roustem_Karimov],,,,,,Defined TXT keys: None
 a-d-sync,,,Altos Design Synchronization protocol,[David_Lasker],[David_Lasker],,,,,,Defined TXT keys: None
-abi-instrument,,,Applied Biosystems Universal Instrument Framework,[Tor_Slettnes],[Tor_Slettnes],,,,,,"Defined TXT keys:   product=<short product name/model>
+abi-instrument,,,Applied Biosystems Universal Instrument Framework,[ThermoFisher_Scientific],[Carlo_Quiñónez],,2021-07-27,,,,"Defined TXT keys:   product=<short product name/model>
   description=<readable name>
   version=<firmware/instrument controller version>"
 accessdata-f2d,,,FTK2 Database Discovery Service,[Rick_Russell],[Rick_Russell],,,,,,Defined TXT keys: Proprietary
@@ -13864,10 +13864,10 @@ accessdata-f2w,,,FTK2 Backend Processing Agent Service,[Rick_Russell],[Rick_Russ
 accessone,,,Strix Systems 5S/AccessOne protocol,[Scott_Herscher_2],[Scott_Herscher_2],,,,,,Defined TXT keys: None
 accountedge,,,MYOB AccountEdge,,,,,,,,Defined TXT keys: None
 acrobatsrv,,,Adobe Acrobat,,,,,,,,"Defined TXT keys: type, path, FeedType"
-acs-ctl-ds,,tcp,Access Control Device,[Honwywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
-acs-ctl-ds,,udp,Access Control Device,[Honwywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
-acs-ctl-gw,,tcp,Access Control Gateway,[Honwywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
-acs-ctl-gw,,udp,Access Control Gateway,[Honwywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
+acs-ctl-ds,,tcp,Access Control Device,[Honeywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
+acs-ctl-ds,,udp,Access Control Device,[Honeywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
+acs-ctl-gw,,tcp,Access Control Gateway,[Honeywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
+acs-ctl-gw,,udp,Access Control Gateway,[Honeywell_Security_Group],[John_Dziadosz],2012-04-09,,,,,"Defined TXT keys: MAC=, GW-MAC"
 actionitems,,,ActionItems,[Sailalong_Software],[Sailalong_Software],,,,,,Defined TXT keys: None
 activeraid,,,Active Storage Proprietary Device Management Protocol,[Skip_Levens],[Skip_Levens],,,,,,Defined TXT keys: None
 activeraid-ssl,,,Encrypted transport of Active Storage Proprietary Device Management Protocol,[Skip_Levens],[Skip_Levens],,,,,,Defined TXT keys: None
@@ -14856,6 +14856,7 @@ visel,,,visel Q-System services,[Lehpaner_Sasa],[Lehpaner_Sasa],,,,,,"Defined TX
   SString1=<serviceString>"
 voalte2,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
 voalte3,,tcp,Server location via DNS-SD,[Voalte_Inc],[John_Simpson],2019-01-22,,,,,"Defined TXT keys: txtvers, name, (others not publicly documented)"
+volterio,,tcp,Internal Communication Service,[Volterio],[Johannes_Ofner],2021-07-23,,,,,Defined TXT keys: None
 vos,,,Virtual Object System (using VOP/TCP),[Reed_Hedges][Peter_Amstutz],[Reed_Hedges][Peter_Amstutz],,,,,,"Defined TXT keys:   url=<Object URL with full path>
   type=<Comma-seperated list of object types>
   title=<Short title of service>

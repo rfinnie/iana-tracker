@@ -33,7 +33,6 @@ ietf-bfd-ip-mh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh,bfd-ip-mh,,[RFC-iet
 ietf-bfd-ip-sh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh,bfd-ip-sh,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-lag,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-lag,bfd-lag,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-mpls,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-mpls,bfd-mpls,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
-ietf-bfd-mpls-te,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-mpls-te,bfd-mpls-te,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-types,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-types,bfd-types,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-complex-types,ietf-complex-types@2011-03-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-complex-types,ct,,[RFC6095],
 ietf-connection-oriented-oam,ietf-connection-oriented-oam@2019-04-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-connection-oriented-oam,co-oam,,[RFC8531],

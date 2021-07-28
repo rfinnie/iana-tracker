@@ -2,7 +2,7 @@ Tag Name,Reference,Status,Description
 adkim,[RFC7489],current,DKIM alignment mode
 aspf,[RFC7489],current,SPF alignment mode
 fo,[RFC7489],current,Failure reporting options
-np,[RFC-ietf-dmarc-psd-14],current,Requested handling policy for non-existent subdomains
+np,[RFC9091],current,Requested handling policy for non-existent subdomains
 p,[RFC7489],current,Requested handling policy
 pct,[RFC7489],current,Sampling rate
 rf,[RFC7489],current,Failure reporting format(s)

@@ -1,4 +1,5 @@
-Reason Code(one octet),Description,Reference
+"Reason Code
+(one octet)",Description,Reference
 0x01,Reserved,[RFC7143]
 0x02,Data digest error,[RFC7143]
 0x03,SNACK Reject,[RFC7143]
