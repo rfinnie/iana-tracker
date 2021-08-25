@@ -59,3 +59,4 @@ tls_client_auth_san_email,"String value specifying the expected
 require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
         ""request"" or ""request_uri parameter"".",[IETF],"[RFC-ietf-oauth-jwsreq-34, Section 10.5]"
+require_pushed_authorization_requests,Indicates whether the client is required to use PAR to initiate authorization requests.,[IESG],"[RFC-ietf-oauth-par-10, Section 6]"

@@ -4,3 +4,6 @@ Encrypted_COSE_Key,Encrypted COSE_Key,jwe,2,"COSE_Encrypt or COSE_Encrypt0
       structure (with an optional corresponding COSE_Encrypt or
       COSE_Encrypt0 tag)",[IESG],"[RFC8747, Section 3.3]"
 kid,Key Identifier,kid,3,binary string,[IESG],"[RFC8747, Section 3.4]"
+osc,"OSCORE_Input_Material carrying
+        the parameters for using OSCORE per-message security with implicit
+        key confirmation",osc,4,map,[IETF],"[RFC-ietf-ace-oscore-profile-19, Section 3.2.1]"

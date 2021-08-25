@@ -8041,7 +8041,7 @@ ezmessagesrv,4085,tcp,EZNews Newsroom Message Service,[Gerald_R_Jensen],[Gerald_
 ,4085,udp,Reserved,,,,,,,,
 ,4086,tcp,Reserved,,,,,,,,
 ftsync,4086,udp,Firewall/NAT state table synchronization,[Heiner_Erne],[Heiner_Erne],2008-06-06,,,,,
-applusservice,4087,tcp,APplus Service,[Thomas_Boerkel],[Thomas_Boerkel],2008-06-05,,,,,
+applusservice,4087,tcp,APplus Service,[Alfred_Weindl],[Marcus_Schairer],2008-06-05,2021-08-09,,,,
 ,4087,udp,Reserved,,,,,,,,
 npsp,4088,tcp,Noah Printing Service Protocol,[Hiromi_Ohara],[Hiromi_Ohara],2008-06-18,,,,,
 ,4088,udp,Reserved,,,,,,,,
@@ -14538,6 +14538,7 @@ photoshow,,tcp,Show Photos over TCP,[Hamed_Ishbaitah],[Hamed_Ishbaitah],2014-07-
 photosmithsync,,tcp,Photosmith's iPad to Lightroom sync protocol,[Photosmith],[Chris_Horne],2011-10-27,,,,,Defined TXT keys: None
 pictua,,,Pictua Intercommunication Protocol,[Isaack_Rasmussen],[Isaack_Rasmussen],,,,,,Defined TXT keys: None
 piesync,,,pieSync Computer to Computer Synchronization,[Timothy_Wayper],[Timothy_Wayper],,,,,,Defined TXT keys: None
+pipedal,,tcp,Pi Pedal Web Interface,[Robin_Davies],[Robin_Davies],2021-08-18,,,,,Defined TXT keys: None
 piu,,,Pedestal Interface Unit by RPM-PSI,[James_Nikolai],[James_Nikolai],,,,,,Defined TXT keys: None
 pkixrep,,,Public Key Infrastructure Repository Locator Service,,,,,[RFC4386],,,
 poch,,,Parallel OperatiOn and Control Heuristic (Pooch),[Dean_Dauger],[Dean_Dauger],,,,,,Defined TXT keys: None

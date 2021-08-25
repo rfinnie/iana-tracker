@@ -10,4 +10,4 @@ handling,whether or not processing is required,[RFC3204]
 preview-type,Internet media type (and parameters) of the preview output desired from a processor by the author of the MIME content,[RFC7763]
 reaction,"Permit a recipient to respond by signaling basic
         reactions to an author's posting, such as with a 'thumbs up' or
-        'smiley' graphic",[RFC-crocker-inreply-react-13]
+        'smiley' graphic",[RFC9078]

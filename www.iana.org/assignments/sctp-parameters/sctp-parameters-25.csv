@@ -54,7 +54,7 @@ On SCTP"", to be published.]",
 46,Diameter in a SCTP DATA chunk,[RFC6733],
 47,Diameter in a DTLS/SCTP DATA chunk,[RFC6733],
 48,R14P. BER Encoded ASN.1 over SCTP,[Josip_Djuricic][http://www.release14.org/wp-content/uploads/2012/07/r14p.asn],
-49,Unassigned,,
+49,Generic Data Transfer (GDT) Protocol,[Damir_Franusic][https://github.com/link-mink],2021-08-13
 50,WebRTC DCEP,[RFC8832],2013-09-20
 51,WebRTC String,[RFC8831],2013-09-20
 52,WebRTC Binary Partial (deprecated),[RFC8831],2013-09-20

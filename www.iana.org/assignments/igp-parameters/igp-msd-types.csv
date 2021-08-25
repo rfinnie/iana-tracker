@@ -1,7 +1,7 @@
 Value,Name,Reference
 0,Reserved,[RFC8491]
 1,Base MPLS Imposition MSD,[RFC8491]
-2,ERLD-MSD,[RFC-ietf-isis-mpls-elc-13]
+2,ERLD-MSD,[RFC9088]
 3-40,Unassigned,
 41,SRH Max SL,[draft-ietf-lsr-isis-srv6-extensions-08]
 42,SRH Max End Pop,[draft-ietf-lsr-isis-srv6-extensions-08]

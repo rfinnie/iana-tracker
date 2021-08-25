@@ -64,3 +64,7 @@ require_request_uri_registration,"Boolean value specifying whether the OP requir
 require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
         ""request"" or ""request_uri parameter"".",IETF,"[RFC-ietf-oauth-jwsreq-34, Section 10.5]"
+pushed_authorization_request_endpoint,"URL of the authorization server's pushed
+        authorization request endpoint",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
+require_pushed_authorization_requests,"Indicates whether the authorization server
+        accepts authorization requests only via PAR.",IESG,"[RFC-ietf-oauth-par-10, Section 5]"

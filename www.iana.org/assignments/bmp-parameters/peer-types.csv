@@ -2,7 +2,7 @@ Peer Type,Description,Reference
 0,Global Instance Peer,[RFC7854]
 1,RD Instance Peer,[RFC7854]
 2,Local Instance Peer,[RFC7854]
-3,"Loc-RIB Instance Peer (TEMPORARY - registered 2018-12-13, extension registered 2020-11-06, expires 2021-12-13)",[draft-ietf-grow-bmp-local-rib-08]
+3,Loc-RIB Instance Peer,[RFC-ietf-grow-bmp-local-rib-12]
 4-250,Unassigned,
 251-254,Experimental,[RFC7854]
 255,Reserved,[RFC7854]

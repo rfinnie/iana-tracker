@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-07-16</dd>
+      <dd>2021-08-17</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -560,7 +560,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/epp/b-dn.txt">ns/epp/b-dn.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-yao-regext-bundling-registration-06">RFC-yao-regext-bundling-registration-06</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9095">RFC9095</a>]</td>
         </tr>
         <tr>
           <td>epp:fee-1.0</td>
@@ -1995,14 +1995,6 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-yang-17">RFC-ietf-bfd-yang-17</a>]</td>
         </tr>
         <tr>
-          <td>yang:ietf-bfd-mpls-te</td>
-          <td>urn:ietf:params:xml:ns:yang:ietf-bfd-mpls-te</td>
-          <td>
-            <a href="ns/yang/ietf-bfd-mpls-te.txt">ns/yang/ietf-bfd-mpls-te.txt</a>
-          </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-yang-17">RFC-ietf-bfd-yang-17</a>]</td>
-        </tr>
-        <tr>
           <td>yang:ietf-bfd-types</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-bfd-types</td>
           <td>
@@ -2081,6 +2073,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-dc-fabric-types.txt">ns/yang/ietf-dc-fabric-types.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8542">RFC8542</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-dots-call-home</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-dots-call-home</td>
+          <td>
+            <a href="ns/yang/ietf-dots-call-home.txt">ns/yang/ietf-dots-call-home.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-signal-call-home-14">RFC-ietf-dots-signal-call-home-14</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-dots-data-channel</td>
@@ -2320,7 +2320,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-layer0-types.txt">ns/yang/ietf-layer0-types.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-ccamp-layer0-types-09">RFC-ietf-ccamp-layer0-types-09</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9093">RFC9093</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-lime-time-types</td>
@@ -2643,6 +2643,14 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc8349">RFC8349</a>]</td>
         </tr>
         <tr>
+          <td>yang:ietf-routing-policy</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-routing-policy</td>
+          <td>
+            <a href="ns/yang/ietf-routing-policy.txt">ns/yang/ietf-routing-policy.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-rtgwg-policy-model-31">RFC-ietf-rtgwg-policy-model-31</a>]</td>
+        </tr>
+        <tr>
           <td>yang:ietf-routing-types</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-routing-types</td>
           <td>
@@ -2736,7 +2744,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-system-tacacs-plus.txt">ns/yang/ietf-system-tacacs-plus.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-tacacs-yang-12">RFC-ietf-opsawg-tacacs-yang-12</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9105">RFC9105</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-sztp-bootstrap-server</td>
@@ -2832,7 +2840,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-wson-topology.txt">ns/yang/ietf-wson-topology.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-ccamp-wson-yang-28">RFC-ietf-ccamp-wson-yang-28</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9094">RFC9094</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-x509-cert-to-name</td>
@@ -3278,7 +3286,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/epp/b-dn.xsd">schema/epp/b-dn.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-yao-regext-bundling-registration-06">RFC-yao-regext-bundling-registration-06</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9095">RFC9095</a>]</td>
         </tr>
         <tr>
           <td>epp:fee-1.0</td>

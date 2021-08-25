@@ -53,5 +53,14 @@ probing-rate,50,5,IESG,[RFC-ietf-dots-rfc8782-bis-08]
 peer-hb-status,51,7,IESG,[RFC-ietf-dots-rfc8782-bis-08]
 activation-type,52,0,IESG,[RFC-ietf-dots-signal-filter-control-07]
 ietf-dots-signal-control:acl-list,53,4,IESG,[RFC-ietf-dots-signal-filter-control-07]
-Unassigned,54-49151,,,
+Unassigned,54-127,,,
+ietf-dots-call-home:source-prefix,128,4,IESG,[RFC-ietf-dots-signal-call-home-14]
+ietf-dots-call-home:source-port-range,129,4,IESG,[RFC-ietf-dots-signal-call-home-14]
+ietf-dots-call-home:source-icmp-type-range,130,4,IESG,[RFC-ietf-dots-signal-call-home-14]
+lower-type,131,0,IESG,[RFC-ietf-dots-signal-call-home-14]
+upper-type,132,0,IESG,[RFC-ietf-dots-signal-call-home-14]
+ietf-dots-call-home:alt-ch-client,133,3,IESG,[RFC-ietf-dots-signal-call-home-14]
+ietf-dots-call-home:alt-ch-client-record,134,4,IESG,[RFC-ietf-dots-signal-call-home-14]
+ietf-dots-call-home:ttl,135,0,IESG,[RFC-ietf-dots-signal-call-home-14]
+Unassigned,136-49151,,,
 Reserved for Private Use,49152-65535,,,[RFC-ietf-dots-rfc8782-bis-08]

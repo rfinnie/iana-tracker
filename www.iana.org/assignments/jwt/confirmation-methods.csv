@@ -4,3 +4,6 @@ jwe,Encrypted JSON Web Key,[IESG],"[RFC7800, Section 3.3]"
 kid,Key Identifier,[IESG],"[RFC7800, Section 3.4]"
 jku,JWK Set URL,[IESG],"[RFC7800, Section 3.5]"
 x5t#S256,X.509 Certificate SHA-256 Thumbprint,[IESG],"[RFC8705, Section 3.1]"
+osc,"OSCORE_Input_Material carrying
+        the parameters for using OSCORE per-message security with implicit
+        key confirmation",[IETF],"[RFC-ietf-ace-oscore-profile-19, Section 3.2.1]"
