@@ -37,7 +37,7 @@ EmergencyCallData:SubscriberInfo,urn:ietf:params:xml:schema:EmergencyCallData:Su
 enum-token-1.0,urn:ietf:params:xml:schema:enum-token-1.0,schema/enum-token-1.0.xsd,[RFC5105]
 enum-tokendata-1.0,urn:ietf:params:xml:schema:enum-tokendata-1.0,schema/enum-tokendata-1.0.xsd,[RFC5105]
 epp-1.0,urn:ietf:params:xml:schema:epp-1.0,schema/epp-1.0.xsd,[RFC5730]
-epp:b-dn,urn:ietf:params:xml:schema:epp:b-dn,schema/epp/b-dn.xsd,[RFC-yao-regext-bundling-registration-06]
+epp:b-dn,urn:ietf:params:xml:schema:epp:b-dn,schema/epp/b-dn.xsd,[RFC9095]
 epp:fee-1.0,urn:ietf:params:xml:schema:epp:fee-1.0,schema/epp/fee-1.0.xsd,[RFC8748]
 epp:loginSec-1.0,urn:ietf:params:xml:schema:epp:loginSec-1.0,schema/epp/loginSec-1.0.xsd,[RFC8807]
 epp:org-1.0,urn:ietf:params:xml:schema:epp:org-1.0,schema/epp/org-1.0.xsd,[RFC8543]

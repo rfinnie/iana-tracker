@@ -4,7 +4,7 @@
            2016-04-14
 
    Last Updated
-           2021-08-18
+           2021-08-25
 
    Available Formats
            [IMG]
@@ -17,6 +17,7 @@
      * BMP Message Types
      * BMP Peer Types
      * BMP Peer Flags for Peer Types 0 through 2
+     * BMP Peer Flags for Loc-RIB Instance Peer Type 3
      * BMP Statistics Types
      * BMP Initiation and Peer Up Information TLVs
      * BMP Termination Message TLVs
@@ -24,7 +25,6 @@
      * BMP Peer Down Reason Codes
      * BMP Route Mirroring TLVs
      * BMP Route Mirroring Information Codes
-     * BMP Peer Flags for Loc-RIB Instance Peer Type 3
 
 BMP Message Types
 
@@ -101,6 +101,23 @@ BMP Peer Flags for Peer Types 0 through 2
    3    O flag              [RFC8671]
    4    F flag (DEPRECATED) [RFC-ietf-grow-bmp-local-rib-12]
    5-7  Unassigned
+
+BMP Peer Flags for Loc-RIB Instance Peer Type 3
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC-ietf-grow-bmp-local-rib-12]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Flag Description            Reference
+   0    F flag      [RFC-ietf-grow-bmp-local-rib-12]
+   1-7  Unassigned
 
 BMP Statistics Types
 
@@ -296,20 +313,3 @@ BMP Route Mirroring Information Codes
    2-65530     Unassigned
    65531-65534 Experimental  [RFC7854]
    65535       Reserved      [RFC7854]
-
-BMP Peer Flags for Loc-RIB Instance Peer Type 3
-
-   Registration Procedure(s)
-
- Standards Action
-
-   Reference
-           [RFC-ietf-grow-bmp-local-rib-12]
-
-   Available Formats
-           [IMG]
-           CSV
-
-   Flag Description            Reference
-   0    F flag      [RFC-ietf-grow-bmp-local-rib-12]
-   1-7  Unassigned

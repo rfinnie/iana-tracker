@@ -66,11 +66,11 @@ vp,Verifiable Presentation as specified in the W3C Recommendation,[IESG],"[W3C R
   Verifiable Credentials Data Model 1.0 - Expressing verifiable information on the Web (19 November 2019), Section 6.3.1]"
 sph,SIP Priority header field,[IESG],[RFC9027]
 ace_profile,"The ACE profile a token is supposed to be used
-        with.",[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10]"
+        with.",[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10]"
 cnonce,"""client-nonce"".  A nonce previously provided to
         the AS by the RS via the client.  Used to verify token freshness
-        when the RS cannot synchronize its clock with the AS.",[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10]"
+        when the RS cannot synchronize its clock with the AS.",[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10]"
 exi,"""Expires in"".  Lifetime of the token in seconds
         from the time the RS first sees it.  Used to implement a weaker
         from of token expiration for devices that cannot synchronize their
-        internal clocks.",[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10.3]"
+        internal clocks.",[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10.3]"

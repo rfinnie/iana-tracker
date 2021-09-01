@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="senml">
   <title>Sensor Measurement Lists (SenML)</title>
   <created>2018-06-01</created>
-  <updated>2021-08-17</updated>
+  <updated>2021-08-27</updated>
   
   <registry id="senml-units">
     <title>SenML Units</title>
@@ -920,7 +920,7 @@ name "%".</footnote>
     <title>SenML Features</title>
     <xref type="rfc" data="rfc9100"/>
     <registration_rule>Specification Required</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Ari Keränen (primary), Carsten Bormann (secondary)</expert>
     <record date="2018-06-16">
       <value>0</value>
       <description>Reserved0</description>

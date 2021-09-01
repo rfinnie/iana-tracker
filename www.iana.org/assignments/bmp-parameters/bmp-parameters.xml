@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="bmp-parameters">
   <title>BGP Monitoring Protocol (BMP) Parameters</title>
   <created>2016-04-14</created>
-  <updated>2021-08-18</updated>
+  <updated>2021-08-25</updated>
   
   <registry id="message-types">
     <title>BMP Message Types</title>
@@ -149,6 +149,21 @@
     </record>
     <record>
       <value>5-7</value>
+      <description>Unassigned</description>
+    </record>
+  </registry>
+
+  <registry id="peer-flags-loc-rib">
+    <title>BMP Peer Flags for Loc-RIB Instance Peer Type 3</title>
+    <xref type="draft" data="RFC-ietf-grow-bmp-local-rib-12"/>
+    <registration_rule>Standards Action</registration_rule>
+    <record date="2021-08-18">
+      <value>0</value>
+      <description>F flag</description>
+      <xref type="draft" data="RFC-ietf-grow-bmp-local-rib-12"/>
+    </record>
+    <record>
+      <value>1-7</value>
       <description>Unassigned</description>
     </record>
   </registry>
@@ -553,21 +568,6 @@
       <value>65535</value>
       <description>Reserved</description>
       <xref type="rfc" data="rfc7854"/>
-    </record>
-  </registry>
-
-  <registry id="peer-flags-loc-rib">
-    <title>BMP Peer Flags for Loc-RIB Instance Peer Type 3</title>
-    <xref type="draft" data="RFC-ietf-grow-bmp-local-rib-12"/>
-    <registration_rule>Standards Action</registration_rule>
-    <record date="2021-08-18">
-      <value>0</value>
-      <description>F flag</description>
-      <xref type="draft" data="RFC-ietf-grow-bmp-local-rib-12"/>
-    </record>
-    <record>
-      <value>1-7</value>
-      <description>Unassigned</description>
     </record>
   </registry>
 

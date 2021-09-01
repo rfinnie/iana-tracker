@@ -17,8 +17,10 @@ Value,Name,Status,Reference
 15,Extended DNS Error,Standard,[RFC8914]
 16,EDNS-Client-Tag,Optional,[draft-bellis-dnsop-edns-tags]
 17,EDNS-Server-Tag,Optional,[draft-bellis-dnsop-edns-tags]
-18-26945,Unassigned,,
-26946,DeviceID,Optional,[https://docs.umbrella.com/developer/networkdevices-api/identifying-dns-traffic2][Brian_Hartvigsen]
+18-20291,Unassigned,,
+20292,Umbrella Ident,Optional,[https://developer.cisco.com/docs/cloud-security/#!integrating-network-devices/rdata-description][Cisco_CIE_DNS_team]
+20293-26945,Unassigned,,
+26946,DeviceID,Optional,[https://developer.cisco.com/docs/cloud-security/#!network-devices-getting-started/response-codes][Cisco_CIE_DNS_team]
 26947-65000,Unassigned,,
 65001-65534,Reserved for Local/Experimental Use,,[RFC6891]
 65535,Reserved for future expansion,,[RFC6891]

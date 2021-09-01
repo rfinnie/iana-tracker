@@ -4,7 +4,7 @@
            2015-11-03
 
    Last Updated
-           2021-08-16
+           2021-08-27
 
    Available Formats
            [IMG]
@@ -42,8 +42,8 @@ BGP-LS NLRI-Types
        2      Link NLRI                                                                                     [RFC7752]
        3      IPv4 Topology Prefix NLRI                                                                     [RFC7752]
        4      IPv6 Topology Prefix NLRI                                                                     [RFC7752]
-       5      TE Policy NLRI type (TEMPORARY - registered 2019-09-17, extension registered 2020-11-18,      [draft-ietf-idr-te-lsp-distribution-14]
-              expires 2021-09-17)
+       5      TE Policy NLRI type (TEMPORARY - registered 2019-09-17, extension registered 2021-08-27,      [draft-ietf-idr-te-lsp-distribution-14]
+              expires 2022-09-17)
        6      SRv6 SID (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires         [draft-ietf-idr-bgpls-srv6-ext-08]
               2022-08-06)
      7-1100   Unassigned
@@ -76,10 +76,10 @@ BGP-LS Protocol-IDs
         5      Static configuration                                                                         [RFC7752]
         6      OSPFv3                                                                                       [RFC7752]
         7      BGP                                                                                          [RFC9086]
-        8      RSVP-TE (TEMPORARY - registered 2019-09-17, extension registered 2020-11-18, expires         [draft-ietf-idr-te-lsp-distribution-14]
-               2021-09-17)
-        9      Segment Routing (TEMPORARY - registered 2019-09-17, extension registered 2020-11-18, expires [draft-ietf-idr-te-lsp-distribution-14]
-               2021-09-17)
+        8      RSVP-TE (TEMPORARY - registered 2019-09-17, extension registered 2021-08-27, expires         [draft-ietf-idr-te-lsp-distribution-14]
+               2022-09-17)
+        9      Segment Routing (TEMPORARY - registered 2019-09-17, extension registered 2021-08-27, expires [draft-ietf-idr-te-lsp-distribution-14]
+               2022-09-17)
      10-255    Unassigned
 
 BGP-LS Well-Known Instance-IDs
@@ -147,27 +147,27 @@ BGP-LS Node Descriptor, Link Descriptor, Prefix Descriptor, and Attribute TLVs
                   2022-08-06)
       519-549     Unassigned
         550       Tunnel ID TLV (TEMPORARY - registered 2019-09-17,                                    [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
         551       LSP ID TLV (TEMPORARY - registered 2019-09-17, extension                             [draft-ietf-idr-te-lsp-distribution-14]
-                  registered 2020-11-18, expires 2021-09-17)
+                  registered 2021-08-27, expires 2022-09-17)
                   IPv4/6 Tunnel Head-end address TLV (TEMPORARY - registered
-        552       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        552       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   IPv4/6 Tunnel Tail-end address TLV (TEMPORARY - registered
-        553       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        553       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   SR Policy CP Descriptor TLV (TEMPORARY - registered
-        554       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        554       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   MPLS Local Cross Connect TLV (TEMPORARY - registered
-        555       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        555       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   MPLS Cross Connect Interface TLV (TEMPORARY - registered
-        556       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        556       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   MPLS Cross Connect FEC TLV (TEMPORARY - registered
-        557       2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        557       2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
       558-1023    Unassigned
         1024      Node Flag Bits                                                                       [RFC7752, Section 3.3.1.1]
         1025      Opaque Node Attribute                                                                [RFC7752, Section 3.3.1.5]
@@ -267,35 +267,35 @@ BGP-LS Node Descriptor, Link Descriptor, Prefix Descriptor, and Attribute TLVs
         1174      Source OSPF Router-ID                                                                [RFC9085, Section 2.3.4]
      1175-1199    Unassigned
                   MPLS-TE Policy State TLV (TEMPORARY - registered
-        1200      2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        1200      2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
         1201      SR BSID TLV (TEMPORARY - registered 2019-09-17, extension                            [draft-ietf-idr-te-lsp-distribution-14]
-                  registered 2020-11-18, expires 2021-09-17)
+                  registered 2021-08-27, expires 2022-09-17)
         1202      SR CP State TLV (TEMPORARY - registered 2019-09-17,                                  [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
         1203      SR CP Name TLV (TEMPORARY - registered 2019-09-17,                                   [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
         1204      SR CP Constraints TLV (TEMPORARY - registered 2019-09-17,                            [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
         1205      SR Segment List TLV (TEMPORARY - registered 2019-09-17,                              [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
         1206      SR Segment sub-TLV (TEMPORARY - registered 2019-09-17,                               [draft-ietf-idr-te-lsp-distribution-14]
-                  extension registered 2020-11-18, expires 2021-09-17)
+                  extension registered 2021-08-27, expires 2022-09-17)
                   SR Segment List Metric sub-TLV (TEMPORARY - registered
-        1207      2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        1207      2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   SR Affinity Constraint sub-TLV (TEMPORARY - registered
-        1208      2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        1208      2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   SR SRLG Constraint sub-TLV (TEMPORARY - registered
-        1209      2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        1209      2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   SR Bandwidth Constraint sub-TLV (TEMPORARY - registered
-        1210      2019-09-17, extension registered 2020-11-18, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
-                  2021-09-17)
+        1210      2019-09-17, extension registered 2021-08-27, expires                                 [draft-ietf-idr-te-lsp-distribution-14]
+                  2022-09-17)
                   SR Disjoint Group Constraint sub-TLV (TEMPORARY -
-        1211      registered 2019-09-17, extension registered 2020-11-18,                              [draft-ietf-idr-te-lsp-distribution-14]
-                  expires 2021-09-17)
+        1211      registered 2019-09-17, extension registered 2021-08-27,                              [draft-ietf-idr-te-lsp-distribution-14]
+                  expires 2022-09-17)
      1212-1249    Unassigned
                   SRv6 Endpoint Function TLV (TEMPORARY - registered
         1250      2019-08-06, extension registered 2021-06-17, expires                                 [draft-ietf-idr-bgpls-srv6-ext-08]

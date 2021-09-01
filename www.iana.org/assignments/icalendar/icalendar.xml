@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="icalendar">
   <title>iCalendar Element Registries</title>
   <created>2009-04-29</created>
-  <updated>2021-08-05</updated>
+  <updated>2021-08-27</updated>
   <note>A Standards Track RFC is required for registration of iCalendar elements that 
 modify elements previously documented in a Standards Track RFC.</note>  
 
@@ -1225,7 +1225,7 @@ to be used in "VEVENT" calendar components.
     <title>Participant Types</title>
     <xref type="rfc" data="rfc9073"/>
     <registration_rule>Expert Review</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Ken Murchison, Michael Douglass</expert>
     <record date="2021-02-23">
       <name>ACTIVE</name>
       <type>Current</type>
@@ -1282,7 +1282,7 @@ to be used in "VEVENT" calendar components.
     <title>Resource Types</title>
     <xref type="rfc" data="rfc9073"/>
     <registration_rule>Expert Review</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Ken Murchison, Michael Douglass</expert>
     <record date="2021-02-23">
       <name>PROJECTOR</name>
       <type>Current</type>
@@ -1309,7 +1309,7 @@ to be used in "VEVENT" calendar components.
     <title>Proximity Values</title>
     <xref type="rfc" data="rfc9074"/>
     <registration_rule>Expert Review with RFC Required</registration_rule>
-    <expert>Unassigned</expert>
+    <expert>Ken Murchison, Michael Douglass</expert>
     <record date="2021-03-12">
       <name>ARRIVE</name>
       <type>Current</type>

@@ -4,7 +4,7 @@ Unassigned,,1-15,
 "application/cose; cose-type=""cose-encrypt0""",,16,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-mac0""",,17,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-sign1""",,18,[RFC-ietf-cose-rfc8152bis-struct-15]
-application/ace+cbor,,19,[RFC-ietf-ace-oauth-authz-43]
+application/ace+cbor,,19,[RFC-ietf-ace-oauth-authz-45]
 Unassigned,,20-39,
 application/link-format,,40,[RFC6690]
 application/xml,,41,[RFC3023]
@@ -42,8 +42,7 @@ application/missing-blocks+cbor-seq,,272,[RFC-ietf-core-new-block-14]
 Unassigned,,273-279,
 application/pkcs7-mime; smime-type=server-generated-key,,280,[RFC7030][RFC8551][RFC-ietf-ace-coap-est-18]
 application/pkcs7-mime; smime-type=certs-only,,281,[RFC8551][RFC-ietf-ace-coap-est-18]
-application/pkcs7-mime; smime-type=CMC-Request,,282,[RFC8551][RFC5273][draft-ietf-ace-coap-est-05][IESG][1]
-application/pkcs7-mime; smime-type=CMC-Response,,283,[RFC8551][RFC5273][draft-ietf-ace-coap-est-05][IESG][1]
+Unassigned,,282-283,
 application/pkcs8,,284,[RFC5958][RFC8551][RFC-ietf-ace-coap-est-18]
 application/csrattrs,,285,[RFC7030][RFC-ietf-ace-coap-est-18]
 application/pkcs10,,286,[RFC5967][RFC8551][RFC-ietf-ace-coap-est-18]

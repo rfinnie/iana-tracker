@@ -18,9 +18,9 @@ cnf,Confirmation,cnf,8,map,[IESG],[RFC8747]
 scope,The scope of an access token as defined in [RFC6749].,scope,9,byte string or text string,[IESG],"[RFC8693, Section 4.2]"
 Unassigned,,,10 to 37,,,
 ace_profile,"The ACE profile a token is supposed to be used
-        with.",ace_profile,38,integer,[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10]"
+        with.",ace_profile,38,integer,[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10]"
 cnonce,"The client-nonce sent to the AS by the RS via
-        the client.",cnonce,39,byte string,[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10]"
+        the client.",cnonce,39,byte string,[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10]"
 exi,"The expiration time of a token measured from
-        when it was received at the RS in seconds.",exi,40,integer,[IETF],"[RFC-ietf-ace-oauth-authz-43, Section 5.10.3]"
+        when it was received at the RS in seconds.",exi,40,integer,[IETF],"[RFC-ietf-ace-oauth-authz-45, Section 5.10.3]"
 Unassigned,,,41 to 65535,,,
