@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-08-31</updated>
+    <updated>2021-09-02</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1453,12 +1453,12 @@
                 <server>https://rdap.comlaude.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2020-04-08">
+        <record updated="2021-09-02">
             <value>471</value>
             <name>Bizcn.com, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.bizcn.com/</server>
+                <server>https://rdap.bizcn.com/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2020-04-02">
@@ -25244,6 +25244,41 @@
         <record date="2021-08-26">
             <value>3956</value>
             <name>Global Domain Group LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3960</value>
+            <name>Mixun Ltd</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3961</value>
+            <name>WDomain.Com Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3962</value>
+            <name>WDomain.Com1 Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3963</value>
+            <name>WDomain.Com2 Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3964</value>
+            <name>WDomain.Com3 Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3965</value>
+            <name>WDomain.Com4 Limited</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2021-09-02">
+            <value>3966</value>
+            <name>WDomain.Com5 Limited</name>
             <status>Accredited</status>
         </record>
         <record date="2021-08-26">

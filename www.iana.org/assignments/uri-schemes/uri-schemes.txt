@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2021-08-23
+           2021-09-03
 
    Available Formats
            [IMG]
@@ -122,6 +122,7 @@ facetime                             prov/facetime                             f
 fax                                                                            fax                                  Historical  -          [RFC2806][RFC3966]
 feed                                 prov/feed                                 feed                                 Provisional -          [Dave_Thaler]
 feedready                            prov/feedready                            feedready                            Provisional -          [Mirko_Nosenzo]
+fido                                 prov/fido                                 fido                                 Provisional -          [Adam_Langley]
 file                                                                           Host-specific file names             Permanent   -          [RFC8089]
 filesystem                           historic/filesystem                       filesystem                           Historical  -          [W3C_WebApps_Working_Group][Chris_Rebert]
 finger                               prov/finger                               finger                               Provisional -          [Dave_Thaler]
@@ -408,6 +409,7 @@ z39.50s                                                                        Z
                         ID                               Name           Organization                     Contact URI                        Last
                                                                                                                                           Updated
    [Adam_Barth]                                 Adam Barth                            mailto:abarth&google.com                           2019-03-29
+   [Adam_Langley]                               Adam Langley                          mailto:agl&google.com                              2021-09-03
    [Alastair_Green]                             Alastair Green                        mailto:alastair.green&neotechnology.com.           2017-05-19
    [Alex_Grintsvayg]                            Alex Grintsvayg                       mailto:grin&lbry.com                               2020-06-16
    [Alexey_Melnikov]                            Alexey Melnikov                       mailto:alexey.melnikov&isode.com                   2012-09-12

@@ -17,5 +17,7 @@ Status Code,Meaning,Contact,Reference,Change Controller
         invalid response from the upstream server. This is similar to 502 HTTP
         Status Code.",[Alexey_Melnikov],[https://www.ietf.org/mail-archive/web/hybi/current/msg10748.html],
 1015,TLS handshake,[IESG_HYBI],[RFC6455],
-1016-3999,Unassigned,,,
+1016-2999,Unassigned,,,
+3000,Unauthorized,[Leo_Tietz],,
+3001-3999,Unassigned,,,
 4000-4999,Reserved for Private Use,,[RFC6455],

@@ -1,6 +1,6 @@
 Code,Label,Description,Reference
-0,Reserved,,[RFC-ietf-dots-rfc8782-bis-08]
-1,request-inactive-other-active,DOTS server has detected conflicting mitigation requests from different DOTS clients. This mitigation request is currently inactive until the conflicts are resolved. Another mitigation request is active.,[RFC-ietf-dots-rfc8782-bis-08]
-2,request-active,DOTS server has detected conflicting mitigation requests from different DOTS clients. This mitigation request is currently active.,[RFC-ietf-dots-rfc8782-bis-08]
-3,all-requests-inactive,DOTS server has detected conflicting mitigation requests from different DOTS clients. All conflicting mitigation requests are inactive.,[RFC-ietf-dots-rfc8782-bis-08]
+0,Reserved,,[RFC9132]
+1,request-inactive-other-active,DOTS server has detected conflicting mitigation requests from different DOTS clients. This mitigation request is currently inactive until the conflicts are resolved. Another mitigation request is active.,[RFC9132]
+2,request-active,DOTS server has detected conflicting mitigation requests from different DOTS clients. This mitigation request is currently active.,[RFC9132]
+3,all-requests-inactive,DOTS server has detected conflicting mitigation requests from different DOTS clients. All conflicting mitigation requests are inactive.,[RFC9132]
 4-2147483647,Unassigned,,

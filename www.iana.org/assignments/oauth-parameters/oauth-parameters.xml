@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2021-08-31</updated>
+  <updated>2021-09-07</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -684,6 +684,24 @@ described in <xref type="rfc" data="rfc6749"/>.
       <controller>IETF</controller>
       <xref type="draft" data="RFC-ietf-ace-oscore-profile-19"/>
     </record>
+    <record date="2021-09-07">
+      <name>req_cnf</name>
+      <usage>token request</usage>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+    </record>
+    <record date="2021-09-07">
+      <name>rs_cnf</name>
+      <usage>token response</usage>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+    </record>
+    <record date="2021-09-07">
+      <name>cnf</name>
+      <usage>token response</usage>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+    </record>
   </registry>
   
   <registry id="token-type-hint">
@@ -1139,6 +1157,28 @@ described in <xref type="rfc" data="rfc7591"/>.
       <description>Indicates whether the client is required to use PAR to initiate authorization requests.</description>
       <controller><xref type="person" data="IESG"/></controller>
       <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 6</xref>
+    </record>
+    <record date="2021-09-07">
+      <value>introspection_signed_response_alg</value>
+      <description>String value indicating the client's
+        desired introspection response signing algorithm.</description>
+      <controller><xref type="person" data="IETF"/></controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 6</xref>
+    </record>
+    <record date="2021-09-07">
+      <value>introspection_encrypted_response_alg</value>
+      <description>String value specifying the desired
+        introspection response content key encryption algorithm (alg
+        value).</description>
+      <controller><xref type="person" data="IETF"/></controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 6</xref>
+    </record>
+    <record date="2021-09-07">
+      <value>introspection_encrypted_response_enc</value>
+      <description>String value specifying the desired
+        introspection response content encryption algorithm (enc value).</description>
+      <controller><xref type="person" data="IETF"/></controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 6</xref>
     </record>
   </registry>
 
@@ -1688,6 +1728,30 @@ described in <xref type="rfc" data="rfc8414"/>.
         accepts authorization requests only via PAR.</description>
       <controller>IESG</controller>
       <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 5</xref>
+    </record>
+    <record date="2021-09-07">
+      <name>introspection_signing_alg_values_supported</name>
+      <description>JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        signing.</description>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 7</xref>
+    </record>
+    <record date="2021-09-07">
+      <name>introspection_encryption_alg_values_supported</name>
+      <description>JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        content key encryption (alg value).</description>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 7</xref>
+    </record>
+    <record date="2021-09-07">
+      <name>introspection_encryption_enc_values_supported</name>
+      <description>JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        content encryption (enc value).</description>
+      <controller>IETF</controller>
+      <xref type="draft" data="RFC-ietf-oauth-jwt-introspection-response-12">RFC-ietf-oauth-jwt-introspection-response-12, Section 7</xref>
     </record>
   </registry>
   

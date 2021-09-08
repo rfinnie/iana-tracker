@@ -4,7 +4,7 @@
            2012-06-08
 
    Last Updated
-           2021-08-31
+           2021-09-03
 
    Available Formats
            [IMG]
@@ -896,7 +896,7 @@ CoAP Content-Formats
    Unassigned                                                       116-255
    application/coap-group+json                                      256         [RFC7390]
    Unassigned                                                       257-270
-   application/dots+cbor                                            271         [RFC-ietf-dots-rfc8782-bis-08]
+   application/dots+cbor                                            271         [RFC9132]
    application/missing-blocks+cbor-seq                              272         [RFC-ietf-core-new-block-14]
    Unassigned                                                       273-279
    application/pkcs7-mime; smime-type=server-generated-key          280         [RFC7030][RFC8551][RFC-ietf-ace-coap-est-18]

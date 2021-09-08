@@ -1,5 +1,5 @@
 Code,Label,Description,Reference
-0,Reserved,,[RFC-ietf-dots-rfc8782-bis-08]
-1,under-attack,The DOTS client determines that it is still under attack.,[RFC-ietf-dots-rfc8782-bis-08]
-2,attack-successfully-mitigated,The DOTS client determines that the attack is successfully mitigated.,[RFC-ietf-dots-rfc8782-bis-08]
+0,Reserved,,[RFC9132]
+1,under-attack,The DOTS client determines that it is still under attack.,[RFC9132]
+2,attack-successfully-mitigated,The DOTS client determines that the attack is successfully mitigated.,[RFC9132]
 3-2147483647,Unassigned,,

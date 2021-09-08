@@ -68,3 +68,12 @@ pushed_authorization_request_endpoint,"URL of the authorization server's pushed
         authorization request endpoint",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
 require_pushed_authorization_requests,"Indicates whether the authorization server
         accepts authorization requests only via PAR.",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
+introspection_signing_alg_values_supported,"JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        signing.",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"
+introspection_encryption_alg_values_supported,"JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        content key encryption (alg value).",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"
+introspection_encryption_enc_values_supported,"JSON array containing a list of algorithms
+        supported by the authorization server for introspection response
+        content encryption (enc value).",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"

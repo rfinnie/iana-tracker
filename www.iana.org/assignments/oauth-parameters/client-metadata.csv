@@ -60,3 +60,10 @@ require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
         ""request"" or ""request_uri parameter"".",[IETF],"[RFC-ietf-oauth-jwsreq-34, Section 10.5]"
 require_pushed_authorization_requests,Indicates whether the client is required to use PAR to initiate authorization requests.,[IESG],"[RFC-ietf-oauth-par-10, Section 6]"
+introspection_signed_response_alg,"String value indicating the client's
+        desired introspection response signing algorithm.",[IETF],"[RFC-ietf-oauth-jwt-introspection-response-12, Section 6]"
+introspection_encrypted_response_alg,"String value specifying the desired
+        introspection response content key encryption algorithm (alg
+        value).",[IETF],"[RFC-ietf-oauth-jwt-introspection-response-12, Section 6]"
+introspection_encrypted_response_enc,"String value specifying the desired
+        introspection response content encryption algorithm (enc value).",[IETF],"[RFC-ietf-oauth-jwt-introspection-response-12, Section 6]"
