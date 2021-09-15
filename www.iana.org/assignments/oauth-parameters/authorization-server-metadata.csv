@@ -63,7 +63,7 @@ request_uri_parameter_supported,"Boolean value specifying whether the OP support
 require_request_uri_registration,"Boolean value specifying whether the OP requires any ""request_uri"" values used to be pre-registered",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Discovery 1.0, Section 3]"
 require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
-        ""request"" or ""request_uri parameter"".",IETF,"[RFC-ietf-oauth-jwsreq-34, Section 10.5]"
+        request or request_uri parameter.",IETF,"[RFC9101, Section 10.5]"
 pushed_authorization_request_endpoint,"URL of the authorization server's pushed
         authorization request endpoint",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
 require_pushed_authorization_requests,"Indicates whether the authorization server

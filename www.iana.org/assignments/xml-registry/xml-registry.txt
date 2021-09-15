@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2021-09-07
+           2021-09-14
 
    Note
 
@@ -305,7 +305,7 @@ xmpp-tls                                            urn:ietf:params:xml:ns:xmpp-
 yang:1                                              urn:ietf:params:xml:ns:yang:1                                              ns/yang/1.txt                                              [RFC6020]
 yang:iana-bfd-types                                 urn:ietf:params:xml:ns:yang:iana-bfd-types                                 ns/yang/iana-bfd-types.txt                                 [RFC-ietf-bfd-yang-17]
 yang:iana-crypt-hash                                urn:ietf:params:xml:ns:yang:iana-crypt-hash                                ns/yang/iana-crypt-hash.txt                                [RFC7317]
-yang:iana-dns-class-rr-type                         urn:ietf:params:xml:ns:yang:iana-dns-class-rr-type                         ns/yang/iana-dns-class-rr-type.txt                         [RFC-ietf-dnsop-iana-class-type-yang-05]
+yang:iana-dns-class-rr-type                         urn:ietf:params:xml:ns:yang:iana-dns-class-rr-type                         ns/yang/iana-dns-class-rr-type.txt                         [RFC9108]
 yang:iana-dots-signal-channel                       urn:ietf:params:xml:ns:yang:iana-dots-signal-channel                       ns/yang/iana-dots-signal-channel.txt                       [RFC9132]
 yang:iana-hardware                                  urn:ietf:params:xml:ns:yang:iana-hardware                                  ns/yang/iana-hardware.txt                                  [RFC8348]
 yang:iana-if-type                                   urn:ietf:params:xml:ns:yang:iana-if-type                                   ns/yang/iana-if-type.txt                                   [RFC7224]
@@ -387,6 +387,7 @@ yang:ietf-network-instance                          urn:ietf:params:xml:ns:yang:
 yang:ietf-network-state                             urn:ietf:params:xml:ns:yang:ietf-network-state                             ns/yang/ietf-network-state.txt                             [RFC8345]
 yang:ietf-network-topology                          urn:ietf:params:xml:ns:yang:ietf-network-topology                          ns/yang/ietf-network-topology.txt                          [RFC8345]
 yang:ietf-network-topology-state                    urn:ietf:params:xml:ns:yang:ietf-network-topology-state                    ns/yang/ietf-network-topology-state.txt                    [RFC8345]
+yang:ietf-nmda-compare                              urn:ietf:params:xml:ns:yang:ietf-nmda-compare                              ns/yang/ietf-nmda-compare.txt                              [RFC-ietf-netmod-nmda-diff-12]
 yang:ietf-origin                                    urn:ietf:params:xml:ns:yang:ietf-origin                                    ns/yang/ietf-origin.txt                                    [RFC8342]
 yang:ietf-ospf                                      urn:ietf:params:xml:ns:yang:ietf-ospf                                      ns/yang/ietf-ospf.txt                                      [RFC-ietf-ospf-yang-28]
 yang:ietf-packet-fields                             urn:ietf:params:xml:ns:yang:ietf-packet-fields                             ns/yang/ietf-packet-fields.txt                             [RFC8519]

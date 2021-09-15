@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2021-09-07</updated>
+  <updated>2021-09-08</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -32,7 +32,7 @@ described in <xref type="rfc" data="rfc8414"/>.
     <record date="2021-07-27">
       <name>PoP</name>
       <additional>"cnf", "rs_cnf" see section 3.1 of <xref type="rfc" data="rfc8747"/> 
-        and section 3.1 of <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>.</additional>
+        and section 3.1 of <xref type="draft" data="RFC-ietf-ace-oauth-params-16"/>.</additional>
       <http>N/A</http>
       <controller>IETF</controller>
       <xref type="draft" data="RFC-ietf-ace-oauth-authz-45"/>
@@ -610,49 +610,49 @@ described in <xref type="rfc" data="rfc6749"/>.
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.1</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>sub</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.2</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>aud</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.3</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>exp</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.4</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>nbf</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.5</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>iat</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.6</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2020-09-08">
       <name>jti</name>
       <usage>authorization request</usage>
       <controller>IETF</controller>
       <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.7</xref>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34"/>
+      <xref type="rfc" data="rfc9101"/>
     </record>
     <record date="2021-07-27">
       <name>ace_profile</name>
@@ -688,19 +688,19 @@ described in <xref type="rfc" data="rfc6749"/>.
       <name>req_cnf</name>
       <usage>token request</usage>
       <controller>IETF</controller>
-      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-16"/>
     </record>
     <record date="2021-09-07">
       <name>rs_cnf</name>
       <usage>token response</usage>
       <controller>IETF</controller>
-      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-16"/>
     </record>
     <record date="2021-09-07">
       <name>cnf</name>
       <usage>token response</usage>
       <controller>IETF</controller>
-      <xref type="draft" data="RFC-ietf-ace-oauth-params-15"/>
+      <xref type="draft" data="RFC-ietf-ace-oauth-params-16"/>
     </record>
   </registry>
   
@@ -1148,9 +1148,9 @@ described in <xref type="rfc" data="rfc7591"/>.
       <value>require_signed_request_object</value>
       <description>Indicates where authorization request needs
         to be protected as Request Object and provided through either
-        "request" or "request_uri parameter".</description>
+        request or request_uri parameter.</description>
       <controller><xref type="person" data="IETF"/></controller>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34">RFC-ietf-oauth-jwsreq-34, Section 10.5</xref>
+      <xref type="rfc" data="rfc9101">RFC9101, Section 10.5</xref>
     </record>
     <record date="2021-07-30">
       <value>require_pushed_authorization_requests</value>
@@ -1711,9 +1711,9 @@ described in <xref type="rfc" data="rfc8414"/>.
       <name>require_signed_request_object</name>
       <description>Indicates where authorization request needs
         to be protected as Request Object and provided through either
-        "request" or "request_uri parameter".</description>
+        request or request_uri parameter.</description>
       <controller>IETF</controller>
-      <xref type="draft" data="RFC-ietf-oauth-jwsreq-34">RFC-ietf-oauth-jwsreq-34, Section 10.5</xref>
+      <xref type="rfc" data="rfc9101">RFC9101, Section 10.5</xref>
     </record>
     <record date="2021-07-30">
       <name>pushed_authorization_request_endpoint</name>

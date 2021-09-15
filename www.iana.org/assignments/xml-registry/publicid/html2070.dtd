@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-08-17</dd>
+      <dd>2021-09-14</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1880,7 +1880,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/iana-dns-class-rr-type.txt">ns/yang/iana-dns-class-rr-type.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-dnsop-iana-class-type-yang-05">RFC-ietf-dnsop-iana-class-type-yang-05</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9108">RFC9108</a>]</td>
         </tr>
         <tr>
           <td>yang:iana-dots-signal-channel</td>
@@ -1888,7 +1888,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/iana-dots-signal-channel.txt">ns/yang/iana-dots-signal-channel.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-rfc8782-bis-08">RFC-ietf-dots-rfc8782-bis-08</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9132">RFC9132</a>]</td>
         </tr>
         <tr>
           <td>yang:iana-hardware</td>
@@ -2096,7 +2096,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-dots-signal-channel.txt">ns/yang/ietf-dots-signal-channel.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-rfc8782-bis-08">RFC-ietf-dots-rfc8782-bis-08</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9132">RFC9132</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-dots-signal-control</td>
@@ -2104,7 +2104,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-dots-signal-control.txt">ns/yang/ietf-dots-signal-control.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-signal-filter-control-07">RFC-ietf-dots-signal-filter-control-07</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9133">RFC9133</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-dslite</td>
@@ -2529,6 +2529,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-network-topology-state.txt">ns/yang/ietf-network-topology-state.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8345">RFC8345</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-nmda-compare</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-nmda-compare</td>
+          <td>
+            <a href="ns/yang/ietf-nmda-compare.txt">ns/yang/ietf-nmda-compare.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-nmda-diff-12">RFC-ietf-netmod-nmda-diff-12</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-origin</td>

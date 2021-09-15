@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="dots">
   <title>Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel</title>
   <created>2020-01-16</created>
-  <updated>2021-09-07</updated>
+  <updated>2021-09-08</updated>
 
   <registry id="dots-signal-channel-cbor-key-values">
   <title>DOTS Signal Channel CBOR Key Values</title>
@@ -425,69 +425,69 @@ Required range should be sent to the mailing list described in
     </record>
   <record>
     <name>Unassigned</name>
-    <key>54-127</key>
+    <key>54-32767</key>
     <type/>
     <controller/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:source-prefix</name>
-    <key>128</key>
+    <key>32768</key>
     <type>4</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:source-port-range</name>
-    <key>129</key>
+    <key>32769</key>
     <type>4</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:source-icmp-type-range</name>
-    <key>130</key>
+    <key>32770</key>
     <type>4</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>lower-type</name>
-    <key>131</key>
+    <key>32771</key>
     <type>0</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>upper-type</name>
-    <key>132</key>
+    <key>32772</key>
     <type>0</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:alt-ch-client</name>
-    <key>133</key>
+    <key>32773</key>
     <type>3</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:alt-ch-client-record</name>
-    <key>134</key>
+    <key>32774</key>
     <type>4</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
-  <record date="2021-08-17" updated="2021-08-18">
+  <record date="2021-08-17" updated="2021-09-08">
     <name>ietf-dots-call-home:ttl</name>
-    <key>135</key>
+    <key>32775</key>
     <type>0</type>
     <controller>IESG</controller>
     <xref type="draft" data="RFC-ietf-dots-signal-call-home-14"/>
   </record>
   <record>
     <name>Unassigned</name>
-    <key>136-49151</key>
+    <key>32776-49151</key>
     <type/>
     <controller/>
   </record>

@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-09-02</updated>
+    <updated>2021-09-09</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1296,12 +1296,12 @@
             <name>Hosting-Network, Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2020-06-25">
+        <record updated="2021-09-09">
             <value>447</value>
             <name>SafeNames Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.safenames.legal/</server>
+                <server>https://rdap.safenames.legal/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-10-03">
@@ -1750,9 +1750,9 @@
             <name>H. J. Linnen Associates Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-10-30">
+        <record updated="2021-09-09">
             <value>642</value>
-            <name>Ladas Domains LLC d/b/a Principium Strategies</name>
+            <name>Corsearch Domains LLC</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.principiumstrategies.com/</server>
@@ -7491,12 +7491,12 @@
                 <server>https://rdap.comlaude.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2021-08-26">
+        <record updated="2021-09-09">
             <value>1489</value>
             <name>Megazone Corp., dba HOSTING.KR</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.hosting.kr/</server>
+                <server>https://rdap.hosting.kr/v1/</server>
             </rdapurl>
         </record>
         <record updated="2015-08-06">
@@ -24699,9 +24699,9 @@
             <name>Enterprise Guardian Inc.</name>
             <status>Accredited</status>
         </record>
-        <record date="2020-12-17" updated="2021-02-04">
+        <record date="2020-12-17" updated="2021-09-09">
             <value>3882</value>
-            <name>VIRTUA DRUG Kutatási Szolgáltató Korlátolt Felelősségű Társaság</name>
+            <name>Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.namerider.com/</server>
@@ -25245,6 +25245,22 @@
             <value>3956</value>
             <name>Global Domain Group LLC</name>
             <status>Accredited</status>
+        </record>
+        <record date="2021-09-09" updated="2021-09-09">
+            <value>3958</value>
+            <name>SecureBackorder EOOD</name>
+            <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.securebackorder.com/</server>
+            </rdapurl>
+        </record>
+        <record date="2021-09-09" updated="2021-09-09">
+            <value>3959</value>
+            <name>Salestrar EOOD</name>
+            <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.salestrar.com/</server>
+            </rdapurl>
         </record>
         <record date="2021-09-02">
             <value>3960</value>

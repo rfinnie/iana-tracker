@@ -1,7 +1,7 @@
                                                          Domain Name System (DNS) Parameters
 
    Last Updated
-           2021-08-31
+           2021-09-10
 
    Available Formats
            [IMG]
@@ -38,7 +38,7 @@ DNS CLASSes
  Unassigned
 
    Reference
-           [RFC6895][RFC-ietf-dnsop-iana-class-type-yang-05]
+           [RFC6895][RFC9108]
 
    Note
 
@@ -48,7 +48,7 @@ DNS CLASSes
    Note
 
  When this registry is modified, the YANG module [iana-dns-class-rr-type]
- must be updated as defined in [RFC-ietf-dnsop-iana-class-type-yang-05].
+ must be updated as defined in [RFC9108].
 
    Available Formats
            [IMG]
@@ -85,12 +85,12 @@ Resource Record (RR) TYPEs
  Roy Arends, Frederico AC Neves, Olafur Gudmundsson, Ray Bellis
 
    Reference
-           [RFC6895][RFC1035][RFC-ietf-dnsop-iana-class-type-yang-05]
+           [RFC6895][RFC1035][RFC9108]
 
    Note
 
  When this registry is modified, the YANG module [iana-dns-class-rr-type]
- must be updated as defined in [RFC-ietf-dnsop-iana-class-type-yang-05].
+ must be updated as defined in [RFC9108].
 
    Available Formats
            [IMG]

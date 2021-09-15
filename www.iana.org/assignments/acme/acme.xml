@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="acme">
   <title>Automated Certificate Management Environment (ACME) Protocol</title>
   <created>2019-01-02</created>
-  <updated>2021-07-30</updated>
+  <updated>2021-09-14</updated>
 
 
   <registry id="acme-account-object-fields">
@@ -329,7 +329,7 @@
     <record date="2021-06-21">
       <type>unknownDelegation</type>
       <description>An unknown configuration is 
-        listed in the "delegations" attribute of the request Order
+        listed in the "delegation" attribute of the order request
       </description>
       <xref type="draft" data="RFC-ietf-acme-star-delegation-09"/>
     </record>

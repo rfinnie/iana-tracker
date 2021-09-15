@@ -1,4 +1,4 @@
 Name,Additional Token Endpoint Response Parameters,HTTP Authentication Scheme(s),Change Controller,Reference
 Bearer,,Bearer,IETF,[RFC6750]
 N_A,,,IESG,"[RFC8693, Section 2.2.1]"
-PoP,"""cnf"", ""rs_cnf"" see section 3.1 of [RFC8747] and section 3.1 of [RFC-ietf-ace-oauth-params-15].",N/A,IETF,[RFC-ietf-ace-oauth-authz-45]
+PoP,"""cnf"", ""rs_cnf"" see section 3.1 of [RFC8747] and section 3.1 of [RFC-ietf-ace-oauth-params-16].",N/A,IETF,[RFC-ietf-ace-oauth-authz-45]
