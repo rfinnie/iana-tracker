@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2021-09-08</updated>
+  <updated>2021-09-16</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -812,7 +812,7 @@ described in <xref type="rfc" data="rfc7009"/>.
       <urn>urn:ietf:params:oauth:request_uri</urn>
       <name>A URN Sub-Namespace for OAuth Request URIs.</name>
       <controller>IESG</controller>
-      <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 2.2</xref>
+      <xref type="rfc" data="rfc9126">RFC9126, Section 2.2</xref>
     </record>
   </registry>
 
@@ -1156,7 +1156,7 @@ described in <xref type="rfc" data="rfc7591"/>.
       <value>require_pushed_authorization_requests</value>
       <description>Indicates whether the client is required to use PAR to initiate authorization requests.</description>
       <controller><xref type="person" data="IESG"/></controller>
-      <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 6</xref>
+      <xref type="rfc" data="rfc9126">RFC9126, Section 6</xref>
     </record>
     <record date="2021-09-07">
       <value>introspection_signed_response_alg</value>
@@ -1720,14 +1720,14 @@ described in <xref type="rfc" data="rfc8414"/>.
       <description>URL of the authorization server's pushed
         authorization request endpoint</description>
       <controller>IESG</controller>
-      <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 5</xref>
+      <xref type="rfc" data="rfc9126">RFC9126, Section 5</xref>
     </record>
     <record date="2021-07-30">
       <name>require_pushed_authorization_requests</name>
       <description>Indicates whether the authorization server
         accepts authorization requests only via PAR.</description>
       <controller>IESG</controller>
-      <xref type="draft" data="RFC-ietf-oauth-par-10">RFC-ietf-oauth-par-10, Section 5</xref>
+      <xref type="rfc" data="rfc9126">RFC9126, Section 5</xref>
     </record>
     <record date="2021-09-07">
       <name>introspection_signing_alg_values_supported</name>

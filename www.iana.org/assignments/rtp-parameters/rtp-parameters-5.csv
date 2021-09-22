@@ -14,5 +14,5 @@ Value,Abbrev.,Name,Reference
 12,RtpStreamId,RTP Stream Identifier,[RFC8852]
 13,RepairedRtpStreamId,Repaired RTP Stream Identifier,[RFC8852]
 14,CCID,CLUE CaptId,[RFC8849]
-15,MID,Media Identification,[RFC8843]
+15,MID,Media Identification,[RFC-ietf-mmusic-rfc8843bis-05]
 16-255,,Unassigned,

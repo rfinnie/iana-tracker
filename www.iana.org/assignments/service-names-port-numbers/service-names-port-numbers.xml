@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-09-03</updated>
+  <updated>2021-09-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -20709,17 +20709,19 @@ common service discovery mechanisms.</note>
     <description>HKS License Manager</description>
     <number>1722</number>
   </record>
-  <record>
+  <record updated="2021-09-21">
     <name>pptp</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Ken_Crocker"/>
+    <xref type="rfc" data="rfc2637"/>
     <description>pptp</description>
     <number>1723</number>
   </record>
-  <record>
+  <record updated="2021-09-21">
     <name>pptp</name>
     <protocol>udp</protocol>
     <xref type="person" data="Ken_Crocker"/>
+    <xref type="rfc" data="rfc2637"/>
     <description>pptp</description>
     <number>1723</number>
   </record>

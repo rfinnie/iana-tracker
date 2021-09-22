@@ -11,4 +11,4 @@ urn:ietf:params:oauth:token-type:refresh_token,Token type URI for an OAuth 2.0 r
 urn:ietf:params:oauth:token-type:id_token,Token type URI for an ID Token,IESG,"[RFC8693, Section 3]"
 urn:ietf:params:oauth:token-type:saml1,Token type URI for a base64url-encoded SAML 1.1 assertion,IESG,"[RFC8693, Section 3]"
 urn:ietf:params:oauth:token-type:saml2,Token type URI for a base64url-encoded SAML 2.0 assertion,IESG,"[RFC8693, Section 3]"
-urn:ietf:params:oauth:request_uri,A URN Sub-Namespace for OAuth Request URIs.,IESG,"[RFC-ietf-oauth-par-10, Section 2.2]"
+urn:ietf:params:oauth:request_uri,A URN Sub-Namespace for OAuth Request URIs.,IESG,"[RFC9126, Section 2.2]"

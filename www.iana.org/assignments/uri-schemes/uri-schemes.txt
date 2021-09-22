@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2021-09-09
+           2021-09-15
 
    Available Formats
            [IMG]
@@ -14,11 +14,6 @@
      * Uniform Resource Identifier (URI) Schemes
 
 Uniform Resource Identifier (URI) Schemes
-
-   Registration Procedure(s)
-
- Expert Review for Permanent and Historical registrations,
- First Come First Served for Provisional registrations
 
    Expert(s)
 
@@ -33,9 +28,21 @@ Uniform Resource Identifier (URI) Schemes
  per Section 7.2 of [RFC7595].
 
 
+   Note
+
+ Schemes for which the primary reference is an Internet-Draft are generally
+ considered to be provisional until the I-D is approved by the IETF for RFC
+ publication, even when the specification requests permanent registration.
+
+
    Available Formats
            [IMG]
            CSV
+
+      Range    Registration Procedures
+   Permanent   Expert Review
+   Provisional First Come First Served
+   Historical  Expert Review
 
                                                                                                                                 Well-Known
              URI Scheme                              Template                              Description                Status       URI                                        Reference                                     Notes

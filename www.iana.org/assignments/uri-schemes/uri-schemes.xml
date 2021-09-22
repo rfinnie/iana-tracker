@@ -3,18 +3,32 @@
 <?xml-model href="uri-schemes.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="uri-schemes">
   <title>Uniform Resource Identifier (URI) Schemes</title>
-  <updated>2021-09-09</updated>
+  <updated>2021-09-15</updated>
   
   <registry id="uri-schemes-1">
     <title>Uniform Resource Identifier (URI) Schemes</title>
-    <registration_rule>Expert Review for Permanent and Historical registrations, 
-First Come First Served for Provisional registrations</registration_rule>
+    <range>
+      <value>Permanent</value>
+      <registration_rule>Expert Review</registration_rule>
+    </range>
+    <range>
+      <value>Provisional</value>
+      <registration_rule>First Come First Served</registration_rule>
+    </range>
+    <range>
+      <value>Historical</value>
+      <registration_rule>Expert Review</registration_rule>
+    </range>
     <expert>Graham Klyne</expert>
     <xref type="rfc" data="rfc7595"/>
     <xref type="rfc-errata" data="4420"/>
     <xref type="rfc" data="rfc8615"/>
     <note>Requests for permanent registration must be preceded by mailing list review, 
 per Section 7.2 of <xref type="rfc" data="rfc7595"/>.
+    </note>
+    <note>Schemes for which the primary reference is an Internet-Draft are generally 
+considered to be provisional until the I-D is approved by the IETF for RFC 
+publication, even when the specification requests permanent registration.
     </note>
     <record>
       <value>aaa</value>

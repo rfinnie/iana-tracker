@@ -65,9 +65,9 @@ require_signed_request_object,"Indicates where authorization request needs
         to be protected as Request Object and provided through either
         request or request_uri parameter.",IETF,"[RFC9101, Section 10.5]"
 pushed_authorization_request_endpoint,"URL of the authorization server's pushed
-        authorization request endpoint",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
+        authorization request endpoint",IESG,"[RFC9126, Section 5]"
 require_pushed_authorization_requests,"Indicates whether the authorization server
-        accepts authorization requests only via PAR.",IESG,"[RFC-ietf-oauth-par-10, Section 5]"
+        accepts authorization requests only via PAR.",IESG,"[RFC9126, Section 5]"
 introspection_signing_alg_values_supported,"JSON array containing a list of algorithms
         supported by the authorization server for introspection response
         signing.",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"

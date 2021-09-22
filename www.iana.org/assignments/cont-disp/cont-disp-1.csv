@@ -1,31 +1,31 @@
-Name,Description,Reference
-inline,displayed automatically,[RFC2183]
-attachment,user controlled display,[RFC2183]
-form-data,process as form response,[RFC7578]
-signal,tunneled content to be processed silently,[RFC3204]
+Value,Description,Allowed Values,Reference
+inline,displayed automatically,(none),[RFC2183]
+attachment,user controlled display,"filename, creation-date, modification-date, read-date, size, handling",[RFC2183]
+form-data,process as form response,"name, filename",[RFC7578]
+signal,tunneled content to be processed silently,handling,[RFC3204]
 alert,"the body is a custom ring tone to alert the    
-user",[RFC3261]
-icon,the body is displayed as an icon to the user,[RFC3261]
-render,the body should be displayed to the user,[RFC3261]
+user",handling,[RFC3261]
+icon,the body is displayed as an icon to the user,handling,[RFC3261]
+render,the body should be displayed to the user,handling,[RFC3261]
 recipient-list-history,"the body contains a list of URIs that          
-indicates the recipients of the request",[RFC5364]
+indicates the recipients of the request",handling,[RFC5364]
 session,"the body describes a communications session,   
-for example, an RFC2327 SDP body",[RFC3261]
-aib,Authenticated Identity Body,[RFC3893]
+for example, an RFC2327 SDP body",handling,[RFC3261]
+aib,Authenticated Identity Body,handling,[RFC3893]
 early-session,"the body describes an early communications     
-session, for example, and [RFC2327] SDP body",[RFC3959]
+session, for example, and [RFC2327] SDP body",(none),[RFC3959]
 recipient-list,"The body includes a list of URIs to which      
-URI-list services are to be applied.",[RFC5363]
+URI-list services are to be applied.",(none),[RFC5363]
 notification,"the payload of the message carrying this       
 Content-Disposition header field value is
 an Instant Message Disposition Notification
 as requested in the corresponding Instant
-Message.",[RFC5438]
+Message.",(none),[RFC5438]
 by-reference,"The body needs to be handled according to a    
 reference to the body that is located in
-the same SIP message as the body.",[RFC5621]
+the same SIP message as the body.",handling,[RFC5621]
 info-package,"The body contains information associated with an 
-Info Package",[RFC6086]
+Info Package",(none),[RFC6086]
 recording-session,"The body describes either metadata about the RS or the reason
         for the metadata snapshot request as determined by the MIME
-        value indicated in the Content-Type.",[RFC7866]
+        value indicated in the Content-Type.",(none),[RFC7866]
