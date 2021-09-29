@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-09-14</dd>
+      <dd>2021-09-24</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -593,6 +593,14 @@ The registration template should cite the specification.
             <a href="ns/epp/orgext-1.0.txt">ns/epp/orgext-1.0.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8544">RFC8544</a>]</td>
+        </tr>
+        <tr>
+          <td>epp:secure-authinfo-transfer-1.0</td>
+          <td>urn:ietf:params:xml:ns:epp:secure-authinfo-transfer-1.0</td>
+          <td>
+            <a href="ns/epp/secure-authinfo-transfer-1.0.txt">ns/epp/secure-authinfo-transfer-1.0.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-secure-authinfo-transfer-07">RFC-ietf-regext-secure-authinfo-transfer-07</a>]</td>
         </tr>
         <tr>
           <td>epp:unhandled-namespaces-1.0</td>
@@ -1953,6 +1961,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-alarms-x733.txt">ns/yang/ietf-alarms-x733.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8632">RFC8632</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-babel</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-babel</td>
+          <td>
+            <a href="ns/yang/ietf-babel.txt">ns/yang/ietf-babel.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-babel-yang-model-13">RFC-ietf-babel-yang-model-13</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-bfd</td>

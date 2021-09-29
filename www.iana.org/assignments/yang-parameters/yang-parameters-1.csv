@@ -28,6 +28,7 @@ ietf-access-control-list,ietf-access-control-list@2019-03-04.yang,N,urn:ietf:par
 ietf-acldns,ietf-acldns@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC8520],
 ietf-alarms,ietf-alarms@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC8632],
 ietf-alarms-x733,ietf-alarms-x733@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC8632],
+ietf-babel,,N,urn:ietf:params:xml:ns:yang:ietf-babel,babel,,[RFC-ietf-babel-yang-model-13],[RFC-ietf-babel-yang-model-13]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd,,N,urn:ietf:params:xml:ns:yang:ietf-bfd,bfd,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-ip-mh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh,bfd-ip-mh,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd-ip-sh,,N,urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh,bfd-ip-sh,,[RFC-ietf-bfd-yang-17],[RFC-ietf-bfd-yang-17]'s module file will be posted upon the document's publication as an RFC.

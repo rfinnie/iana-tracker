@@ -10055,8 +10055,8 @@ primaserver,6105,tcp,Prima Server,[Prima_Designs_System],[Prima_Designs_System],
 primaserver,6105,udp,Prima Server,[Prima_Designs_System],[Prima_Designs_System],,,,,,
 mpsserver,6106,tcp,MPS Server,[Prima_Designs_System],[Prima_Designs_System],,,,,,
 mpsserver,6106,udp,MPS Server,[Prima_Designs_System],[Prima_Designs_System],,,,,,
-etc-control,6107,tcp,ETC Control,[Steve_Polishinski],[Steve_Polishinski],,,,,,
-etc-control,6107,udp,ETC Control,[Steve_Polishinski],[Steve_Polishinski],,,,,,
+etc-control,6107,tcp,ETC Control,[Electronic_Theatre_Controls_Inc],[ETC_IANA_Registration],,2021-09-24,,,,
+etc-control,6107,udp,ETC Control,[Electronic_Theatre_Controls_Inc],[ETC_IANA_Registration],,2021-09-24,,,,
 sercomm-scadmin,6108,tcp,Sercomm-SCAdmin,[Melinda_Tsao_2],[Melinda_Tsao_2],,,,,,
 sercomm-scadmin,6108,udp,Sercomm-SCAdmin,[Melinda_Tsao_2],[Melinda_Tsao_2],,,,,,
 globecast-id,6109,tcp,GLOBECAST-ID,[Piers_Scannell_2],[Piers_Scannell_2],,,,,,
@@ -14149,6 +14149,7 @@ feed-sharing,,,NetNewsWire 2.0,[Ranchero_Software],[Ranchero_Software],,,,,,Defi
 feldwesen,,tcp,proprietary,[Kiel_University_of_Applied_Sciences],[Matthias-Christian_Ott],2016-06-19,,,,,Defined TXT keys: None
 firetask,,,Firetask task sharing and synchronization protocol,[Gerald_Aquila],[Gerald_Aquila],,,,,,Defined TXT keys: None
 fish,,,Fish,[Oriol_Ferrer_Mesia],[Oriol_Ferrer_Mesia],,,,,,Defined TXT keys: None
+fisk,,tcp,Fiscalization service of Click.al,[Armando_Vrushi],[Armando_Vrushi],2021-09-27,,,,,Defined TXT keys: fisk-srv
 fix,,,Financial Information Exchange (FIX) Protocol,[Joakim_Johansson],[Joakim_Johansson],,,,,,"Defined TXT keys:   Currently valid enumerated values:
    FIX Session Protocol Versions (SESSIONVERSION): 1.1
    FIX Application Protocol Versions (APPLICATIONVERSION): 2.7, 3.0, 4.0, 4.1, 4.2, 4.3, 4.4, 5.0

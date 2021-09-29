@@ -61,7 +61,8 @@ Unassigned,,433-1541,
 Unassigned,,1544-9999,
 application/vnd.ocf+cbor,,10000,[Michael_Koster]
 application/oscore,,10001,[RFC8613]
-Unassigned,,10002-11049,
+application/javascript,,10002,[RFC4329]
+Unassigned,,10003-11049,
 application/json,deflate,11050,[RFC8259]
 Unassigned,,11051-11059,
 application/cbor,deflate,11060,[RFC8949]
@@ -69,5 +70,9 @@ Unassigned,,11061-11541,
 application/vnd.oma.lwm2m+tlv,,11542,[OMA-TS-LightweightM2M-V1_0]
 application/vnd.oma.lwm2m+json,,11543,[OMA-TS-LightweightM2M-V1_0]
 application/vnd.oma.lwm2m+cbor,,11544,[OMA-TS-LightweightM2M-V1_2]
-Unassigned,,11545-64999,
+Unassigned,,11545-19999,
+text/css,,20000,[RFC2318]
+Unassigned,,20001-29999,
+image/svg+xml,,30000,[https://www.w3.org/TR/SVG/mimereg.html]
+Unassigned,,30001-64999,
 Reserved for Experimental Use,,65000-65535,[RFC7252]

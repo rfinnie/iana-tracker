@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2021-09-03</updated>
+  <updated>2021-09-27</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -3182,10 +3182,16 @@ server-side key generation with the returned certificate in application/pkix-cer
       <id>10001</id>
      <xref type="rfc" data="rfc8613"/>
     </record>
+    <record date="2021-09-27">
+      <mediatype>application/javascript</mediatype>
+      <encoding/>
+      <id>10002</id>
+     <xref type="rfc" data="rfc4329"/>
+    </record>
     <record>
       <mediatype>Unassigned</mediatype>
       <encoding/>
-      <id>10002-11049</id>
+      <id>10003-11049</id>
     </record>
     <record date="2019-02-27">
       <mediatype>application/json</mediatype>
@@ -3230,7 +3236,29 @@ server-side key generation with the returned certificate in application/pkix-cer
     <record>
       <mediatype>Unassigned</mediatype>
       <encoding/>
-      <id>11545-64999</id>
+      <id>11545-19999</id>
+    </record>
+    <record date="2021-09-27">
+      <mediatype>text/css</mediatype>
+      <encoding/>
+      <id>20000</id>
+     <xref type="rfc" data="rfc2318"/>
+    </record>
+    <record>
+      <mediatype>Unassigned</mediatype>
+      <encoding/>
+      <id>20001-29999</id>
+    </record>
+    <record date="2021-09-27">
+      <mediatype>image/svg+xml</mediatype>
+      <encoding/>
+      <id>30000</id>
+     <xref type="uri" data="https://www.w3.org/TR/SVG/mimereg.html"/>
+    </record>
+    <record>
+      <mediatype>Unassigned</mediatype>
+      <encoding/>
+      <id>30001-64999</id>
     </record>
     <record>
       <mediatype>Reserved for Experimental Use</mediatype>
