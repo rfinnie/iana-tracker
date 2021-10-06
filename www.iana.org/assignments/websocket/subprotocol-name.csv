@@ -55,3 +55,5 @@ done,done.best IoT Protocol,"""done"" is a general purpose IoT Protocol, used by
 TLCP-2.2.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://www.lightstreamer.com/tlcp-2.2.0],[Dario_Crivelli],[Lightstreamer_Srl]
 collection-update,The Collection Update Websocket Subprotocol,[https://github.com/jonlachlan/collection-update-websocket-protocol],[Jon_Lachlan],[Jon_Lachlan]
 TLCP-2.3.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://lightstreamer.com/tlcp-2.3.0],[Dario_Crivelli],[Lightstreamer_Srl]
+text.ircv3.net,Text IRC Protocol,[https://ircv3.net/specs/extensions/websocket],[Daniel_Oakley],[IRCv3_Working_Group]
+binary.ircv3.net,Binary IRC Protocol,[https://ircv3.net/specs/extensions/websocket],[Daniel_Oakley],[IRCv3_Working_Group]

@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-09-16</updated>
+    <updated>2021-09-30</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -1022,10 +1022,13 @@
                 <server>https://rdap.domainconnection.info/</server>
             </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2021-09-30">
             <value>380</value>
             <name>Tuonome.it Srl d/b/a APIsrs.com</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.tuonome.com/</server>
+            </rdapurl>
         </record>
         <record updated="2019-12-23">
             <value>381</value>
@@ -7483,10 +7486,10 @@
             <name>IndiaLinks Web Hosting Pvt Ltd.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-09-30">
             <value>1488</value>
             <name>Demys Limited</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.comlaude.com/rdap/</server>
             </rdapurl>
@@ -24694,10 +24697,13 @@
                 <server>https://rdap.cm-tech-reg.com/</server>
             </rdapurl>
         </record>
-        <record date="2020-12-03">
+        <record date="2020-12-03" updated="2021-09-30">
             <value>3881</value>
             <name>Enterprise Guardian Inc.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record date="2020-12-17" updated="2021-09-09">
             <value>3882</value>
@@ -25240,6 +25246,9 @@
             <value>3954</value>
             <name>Whogohost Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/</server>
+            </rdapurl>
         </record>
         <record date="2021-08-12">
             <value>3955</value>
@@ -25285,30 +25294,45 @@
             <name>WDomain.Com Limited</name>
             <status>Accredited</status>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-30">
             <value>3962</value>
             <name>WDomain.Com1 Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-30">
             <value>3963</value>
             <name>WDomain.Com2 Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-30">
             <value>3964</value>
             <name>WDomain.Com3 Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-30">
             <value>3965</value>
             <name>WDomain.Com4 Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-30">
             <value>3966</value>
             <name>WDomain.Com5 Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2021-08-26">
             <value>3967</value>

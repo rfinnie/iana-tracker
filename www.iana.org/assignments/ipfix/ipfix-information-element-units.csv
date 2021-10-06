@@ -15,4 +15,4 @@ Value,Name,Notes,Reference
 13,frames,"For example, Layer 2 frames",[ipfix-iana_at_cisco.com]
 14,ports,,[RFC8045]
 15,inferred,The units of the inferred Information Element,[RFC5477]
-16-65535,Unassigned,,[RFC5610]
+16-65535,Unassigned,,

@@ -4,7 +4,7 @@
            2004-10-26
 
    Last Updated
-           2021-09-07
+           2021-10-05
 
    Available Formats
            [IMG]
@@ -579,6 +579,7 @@ EPP Repository Identifiers
    ECO, #x0045 #x0043 #x004F                                            [Canadian_Internet_Re]       [Canadian_Internet_Re]       2021-04-23
    INZ, #x0049 #x004E #x005A                                            [InternetNZ]                 [InternetNZ]                 2021-08-30
    DATAFLY, #x0044 #x0041 #x0054 #x0041 #x0046 #x004C #x0059            [HostFly]                    [Bohdan_Dub]                 2021-09-07
+   GDREG, #x0047 #x0044 #x0052 #x0045 #x0047                            [GoDaddy_Registry]           [GoDaddy_Registry]           2021-10-05
 
                                                                  Contact Information
 
@@ -605,6 +606,7 @@ EPP Repository Identifiers
    [Frederico_A_C_Neves]        Frederico A C Neves                                          mailto:fneves&registro.br                 2015-05-06
    [GDN_Registry]               GDN Registry                                                 mailto:lee&nic.gdn                        2016-10-21
    [GMO_Registry_Inc.]          GMO Registry Inc.                                            mailto:op&gmoregistry.com
+   [GoDaddy_Registry]           GoDaddy Registry                                             mailto:iana&registry.godaddy              2021-10-05
    [HostFly]                    HostFly                                                      mailto:support&hostfly.com.ua             2021-09-07
    [iana_contact_at_google.com] iana_contact_at_google.com                                   mailto:iana-contact&google.com            2015-07-08
    [IIS]                        IIS - Internetstiftelsen i Sverige                           mailto:jan.sall&iis.se                    2015-10-05

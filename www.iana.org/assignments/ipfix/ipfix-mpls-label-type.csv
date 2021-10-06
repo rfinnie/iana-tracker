@@ -5,4 +5,9 @@ Value,Description,Reference
 3,VPN: Any label associated with VPN,[RFC5102]
 4,BGP: Any label associated with BGP or BGP routing,[RFC5102]
 5,LDP: Any label associated with dynamically assigned labels using LDP,[RFC5102]
-6-255,Unassigned,[RFC5102]
+6,Path Computation Element,[RFC-ietf-opsawg-ipfix-mpls-sr-label-type-11][RFC8664]
+7,OSPFv2 Segment Routing,[RFC-ietf-opsawg-ipfix-mpls-sr-label-type-11][RFC8665]
+8,OSPFv3 Segment Routing,[RFC-ietf-opsawg-ipfix-mpls-sr-label-type-11][RFC8666]
+9,IS-IS Segment Routing,[RFC-ietf-opsawg-ipfix-mpls-sr-label-type-11][RFC8667]
+10,BGP Segment Routing Prefix-SID,[RFC-ietf-opsawg-ipfix-mpls-sr-label-type-11][RFC8669]
+11-255,Unassigned,

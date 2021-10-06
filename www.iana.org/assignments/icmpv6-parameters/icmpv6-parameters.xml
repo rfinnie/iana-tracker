@@ -3,7 +3,7 @@
 <?xml-model href="icmpv6-parameters.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="icmpv6-parameters">
   <title>Internet Control Message Protocol version 6 (ICMPv6) Parameters</title>
-  <updated>2021-07-30</updated>
+  <updated>2021-10-01</updated>
  
  
   <registry id="icmpv6-parameters-2">
@@ -248,6 +248,10 @@ mobility protocols such as Seamoby</name>
       <value>201</value>
       <name>Private experimentation</name>
       <xref type="rfc" data="rfc4443"/>
+    </record>
+    <record>
+      <value>202-254</value>
+      <name>Unassigned</name>
     </record>
     <record>
       <value>255</value>

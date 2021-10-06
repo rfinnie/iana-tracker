@@ -8,4 +8,4 @@ Value,Description,Reference
 6,list,[RFC6313]
 7,snmpCounter,[RFC8038]
 8,snmpGauge,[RFC8038]
-9-255,Unassigned,[RFC5610]
+9-255,Unassigned,

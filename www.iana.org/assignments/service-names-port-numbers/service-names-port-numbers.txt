@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2021-09-27
+           2021-10-04
 
    Expert(s)
 
@@ -277,13 +277,13 @@ finger              79         udp    Finger                       [David_Zimmer
                                                                                                                                                                                                                                                                      (see
                                                                                                                                                                                                                                                                      [RFC4146]
                                                                                                                                                                                                                                                                      for details)
-http                80         tcp    World Wide Web HTTP                                                                                                                                                                                                                         Defined TXT keys: u=<username> p=<password> path=<path to
+http                80         tcp    World Wide Web HTTP          [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]                                      Defined TXT keys: u=<username> p=<password> path=<path to
                                                                                                                                                                                                                                                                                   document>
-http                80         udp    World Wide Web HTTP                                                                                                                                                                                                                         Defined TXT keys: u=<username> p=<password> path=<path to
+http                80         udp    World Wide Web HTTP          [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]                                      Defined TXT keys: u=<username> p=<password> path=<path to
                                                                                                                                                                                                                                                                                   document>
-www                 80         tcp    World Wide Web HTTP                                                                                                                                                                                                                         This is a duplicate of the "http" service and should not be
+www                 80         tcp    World Wide Web HTTP          [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]                                      This is a duplicate of the "http" service and should not be
                                                                                                                                                                                                                                                                                   used for discovery purposes.
-www                 80         udp    World Wide Web HTTP                                                                                                                                                                                                                         This is a duplicate of the "http" service and should not be
+www                 80         udp    World Wide Web HTTP          [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]                                      This is a duplicate of the "http" service and should not be
                                                                                                                                                                                                                                                                                   used for discovery purposes.
                                                                                                                                                                                                                                                                                   This is a duplicate of the "http" service and should not be
                                                                                                                                                                                                                                                                                   used for discovery purposes. u=<username> p=<password>
@@ -1185,8 +1185,8 @@ cvc-hostd           442        udp    IANA assigned this           [Bill_Davidso
                                                                                                                                                                                                                                                                                   This entry is an alias to "cvc-hostd". This entry is now
 cvc_hostd           442        udp    cvc_hostd                    [Bill_Davidson]                                       [Bill_Davidson]                                                                                                                                          historic, not usable for use with many common service
                                                                                                                                                                                                                                                                                   discovery mechanisms.
-https               443        tcp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2018-07-06
-https               443        udp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2018-07-06
+https               443        tcp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]
+https               443        udp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]
 https               443       sctp    HTTPS                        [Randall_Stewart]                                     [Randall_Stewart]                                                                   [RFC4960]
 snpp                444        tcp    Simple Network Paging                                                                                                                                                  [RFC1568]
                                       Protocol
@@ -16390,9 +16390,12 @@ gruber-cashreg     28010       tcp    Gruber cash registry         [Gruber_Schan
                    28010       udp    Reserved
                                                                                                                                                                                                                                                                      Unauthorized
                                                                                                                                                                                                                                                                      Use Known on
-                28011-28118           Unassigned                                                                                                                                                                                                                     ports 28017,
+                28011-28079           Unassigned                                                                                                                                                                                                                     ports 28017,
                                                                                                                                                                                                                                                                      28018 and
                                                                                                                                                                                                                                                                      28019
+thor-engine        28080       tcp    thor/server - ML engine      [Aronetics_LLC]                                       [John_Aron]                                               2021-09-29   2021-10-01
+                   28080       udp    Reserved
+                28081-28118           Unassigned
                    28119       tcp    Reserved
 a27-ran-ran        28119       udp    A27 cdma2000 RAN Management  [ThreeGPP_2]                                          [Zhiming_Li]                                              2012-04-13
                 28120-28199           Unassigned
@@ -17293,6 +17296,7 @@ arn                            tcp    distribution of values and   [Mictron]    
                                       streams
 aroundsound                           AroundSound's information    [Winzig_LLC]                                          [Around_Sound]                                            2011-10-20                                                                                     Defined TXT keys: Proprietary
                                       sharing protocol
+asam-cmp                       udp    ASAM Capture Module Protocol [ASAM_e_V]                                            [Bernd_Wenzel]                                            2021-09-29                                                                                     Defined TXT keys: None
                                       protocol for an event-based
 aseba                          tcp    architecture for distributed [Mobsya_Association]                                  [S_Magnenat]                                              2016-08-18                                                                                     Defined TXT keys: txtvers, type, protovers, ids, pids
                                       control of mobile robots
@@ -19316,6 +19320,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Arnold_E_Mauer]                                          Arnold E. Mauer                                     mailto:amauer&vrms.com                                        2003-04
 [Aron_Rosenberg]                                          Aron Rosenberg             Connectivity Standards   mailto:arosenberg&logitech.com                                2021-07-16
                                                                                      Alliance
+[Aronetics_LLC]                                                                      Aronetics LLC            mailto:john&aronetics.com                                     2021-09-29
 [Arrow_Bit_SL]                                                                       Arrow Bit SL             mailto:info&arrowbit.com                                      2012-04-26
 [Art_Cancro]                                              Art Cancro                                          mailto:ajc&citadel.org                                        2015-02-18
 [Art_Pope]                                                Art Pope                                            mailto:apope&sarnoff.com                                      2002-10
@@ -19332,6 +19337,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Arvind_Srinivasan]                                       Arvind Srinivasan                                   mailto:arvind.srinivasan&sun.com                              2005-08
 [Asaf_Kashi]                                              Asaf Kashi                                          mailto:asafk&microsoft.com
 [Ascom_Austria_GmbH]                                                                 Ascom Austria GmbH       mailto:info&ascom.at                                          2008-05-01
+[ASAM_e_V]                                                                           ASAM e.V.                mailto:peter.voss&asam.net                                    2021-09-29
 [ASCOM_Initiative]                                                                   ASCOM Initiative         mailto:rdenny&dc3.com                                         2020-02-24
 [Asher_Altman]                                            Asher Altman                                        mailto:Asher.Altman&gsc.gte.com
 [Ashish_Chatterjee]                                       Ashish Chatterjee                                   mailto:achatterjee&freeway.proxy.lucent.com
@@ -19424,6 +19430,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Bernard_Normier]                                         Bernard Normier                                     mailto:bernard&zeroc.com                                      2006-12
 [Bernard_Volz]                                            Bernard Volz                                        mailto:volz&cisco.com
 [Bernd_Paradies]                                          Bernd Paradies                                      mailto:bparadie&adobe.com                                     2008-01-14
+[Bernd_Wenzel]                                            Bernd Wenzel               ASAM e.V.                mailto:bernd.wenzel&asam.net                                  2021-09-29
 [Bernie_Malkowski]                                        Bernie Malkowski                                    mailto:bmalkowski&integratedsecuritycorp.com                  2007-08-20
 [Bernie_Volz]                                             Bernie Volz                                         mailto:volz&cisco.com
 [Bert_Bouwers]                                            Bert Bouwers                                        mailto:e.bouwers&rohill.nl                                    2007-05
@@ -21490,6 +21497,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Johann_Deutinger]                                        Johann Deutinger                                    mailto:deutinger&ferrari-electronic.de
 [Johannes_Ofner]                                          Johannes Ofner             Volterio                 mailto:johannes.ofner&volterio.com                            2021-07-23
 [Johannes_Skov_Frands]                                    Johannes Skov Frandsen                              mailto:joe&42tools.com                                        2008-02-28
+[John_Aron]                                               John Aron                  Aronetics LLC            mailto:john&aronetics.com                                     2021-09-29
 [John_Aquilino]                                           John Aquilino                                       mailto:john.aquilino&maryville.com
 [John_Barnes]                                             John Barnes                                         mailto:jbarnes&crl.com
 [John_Birrell]                                            John Birrell                                        mailto:birjo99&cai.com

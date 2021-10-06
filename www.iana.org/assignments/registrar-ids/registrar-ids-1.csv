@@ -164,7 +164,7 @@
 377,"Venture.com, Inc. d/b/a DomainCity.com",Terminated,
 378,2030138 Ontario Inc. dba NamesBeyond.com and dba GoodLuckDomain.com,Terminated,
 379,"Arsys Internet, S.L. dba NICLINE.COM",Accredited,https://rdap.domainconnection.info/
-380,Tuonome.it Srl d/b/a APIsrs.com,Accredited,
+380,Tuonome.it Srl d/b/a APIsrs.com,Accredited,https://rdap.tuonome.com/
 381,DomReg Ltd. d/b/a LIBRIS.COM,Accredited,https://rdap.libris.com/
 400,"@Com Technology, LLC",Terminated,
 401,"Misk.com, Inc.",Accredited,https://rdap.misk.com/
@@ -1115,7 +1115,7 @@
 1484,Infocom Network Ltd.,Terminated,
 1485,"Japan Registry Services Co., Ltd.",Accredited,https://rdap.gtld.jprs.jp/rdap/
 1487,IndiaLinks Web Hosting Pvt Ltd.,Terminated,
-1488,Demys Limited,Accredited,https://rdap.comlaude.com/rdap/
+1488,Demys Limited,Terminated,https://rdap.comlaude.com/rdap/
 1489,"Megazone Corp., dba HOSTING.KR",Accredited,https://rdap.hosting.kr/v1/
 1490,dm3 Digital Media Marketing and Monitoring FZ-LLC,Terminated,
 1491,"Koreacenter co., Ltd.",Accredited,https://rdap.ssandomain.com/
@@ -3480,7 +3480,7 @@
 3878,"17 Domain 3, Limited",Accredited,https://www.17domain.com/rdap/
 3879,"17 Domain 4, Limited",Accredited,https://www.17domain.com/rdap/
 3880,Cross Marketing Technology Ltd.,Accredited,https://rdap.cm-tech-reg.com/
-3881,Enterprise Guardian Inc.,Accredited,
+3881,Enterprise Guardian Inc.,Accredited,https://rdapserver.net/
 3882,Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság,Accredited,https://rdap.namerider.com/
 3883,Brand Focus Limited,Accredited,https://rdap.brandcloud.cn/rdap/
 3884,"Staclar, Inc.",Accredited,https://rdap.staclar.com/
@@ -3553,7 +3553,7 @@
 3951,"Webempresa Europa, S.L.",Accredited,https://wedominios.webempresa.eu/rdap/
 3952,"Instant Domain Search, Inc.",Accredited,
 3953,Zoo Hosting,Accredited,
-3954,Whogohost Limited,Accredited,
+3954,Whogohost Limited,Accredited,https://rdapserver.net/
 3955,Hainan Meijieda Technology Limited,Accredited,
 3956,Global Domain Group LLC,Accredited,
 3957,Sternforth Limited t/a Web World,Accredited,https://rdapserver.net/
@@ -3561,11 +3561,11 @@
 3959,Salestrar EOOD,Accredited,https://rdap.salestrar.com/
 3960,Mixun Ltd,Accredited,
 3961,WDomain.Com Limited,Accredited,
-3962,WDomain.Com1 Limited,Accredited,
-3963,WDomain.Com2 Limited,Accredited,
-3964,WDomain.Com3 Limited,Accredited,
-3965,WDomain.Com4 Limited,Accredited,
-3966,WDomain.Com5 Limited,Accredited,
+3962,WDomain.Com1 Limited,Accredited,https://rdap.wdomain.com/rdap/
+3963,WDomain.Com2 Limited,Accredited,https://rdap.wdomain.com/rdap/
+3964,WDomain.Com3 Limited,Accredited,https://rdap.wdomain.com/rdap/
+3965,WDomain.Com4 Limited,Accredited,https://rdap.wdomain.com/rdap/
+3966,WDomain.Com5 Limited,Accredited,https://rdap.wdomain.com/rdap/
 3967,"Mixun Network Technology Co., Limited",Accredited,
 9994,Reserved for Registry Operator acting as Registrar where directed by ICANN,Reserved,
 9995,Reserved for Pre-Delegation Testing transactions #1 reporting,Reserved,

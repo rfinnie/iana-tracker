@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="epp-repository-ids">
   <title>Extensible Provisioning Protocol (EPP) Repository Identifiers</title>
   <created>2004-10-26</created>
-  <updated>2021-09-07</updated>
+  <updated>2021-10-05</updated>
   <registry id="epp-repository-ids-1">
     <title>EPP Repository Identifiers</title>
     <xref type="rfc" data="rfc5730"/>
@@ -2574,6 +2574,11 @@ No review beyond IANA review is required.
       <change><xref type="person" data="HostFly"/></change>
       <xref type="person" data="Bohdan_Dub"/>
     </record>
+    <record date="2021-10-05">
+      <id>GDREG, #x0047 #x0044 #x0052 #x0045 #x0047</id>
+      <change><xref type="person" data="GoDaddy_Registry"/></change>
+      <xref type="person" data="GoDaddy_Registry"/>
+    </record>
     
   </registry>
   
@@ -2677,6 +2682,11 @@ No review beyond IANA review is required.
     <person id="GMO_Registry_Inc.">
       <name>GMO Registry Inc.</name>
       <uri>mailto:op&amp;gmoregistry.com</uri>
+    </person>
+    <person id="GoDaddy_Registry">
+      <name>GoDaddy Registry</name>
+      <uri>mailto:iana&amp;registry.godaddy</uri>
+      <updated>2021-10-05</updated>
     </person>
     <person id="HostFly">
       <name>HostFly</name>
