@@ -1,7 +1,7 @@
                                                     Hypertext Transfer Protocol (HTTP) Parameters
 
    Last Updated
-           2021-10-01
+           2021-10-06
 
    Available Formats
            [IMG]
@@ -56,21 +56,22 @@ HTTP Transfer Coding Registry
  IETF Review
 
    Reference
-           [RFC7230]
+           [RFC-ietf-httpbis-messaging-19, Section 7.3]
 
    Available Formats
            [IMG]
            CSV
 
-      Name                                                     Description                                                  Reference     Notes
-   chunked    Transfer in a series of chunks                                                                                [RFC7230] Section 4.1
-   compress   UNIX "compress" data format [Welch, T., "A Technique for High Performance Data Compression", IEEE Computer    [RFC7230] Section 4.2.1
-              17(6), June 1984.]
-   deflate    "deflate" compressed data ([RFC1951]) inside the "zlib" data format ([RFC1950])                               [RFC7230] Section 4.2.2
-   gzip       GZIP file format [RFC1952]                                                                                    [RFC7230] Section 4.2.3
-   identity   (withdrawn in errata to [RFC2616])                                                                            [RFC2616] Section 3.6
-   x-compress Deprecated (alias for compress)                                                                               [RFC7230] Section 4.2.1
-   x-gzip     Deprecated (alias for gzip)                                                                                   [RFC7230] Section 4.2.3
+      Name                                          Description                                                   Reference               Notes
+   chunked    Transfer in a series of chunks                                                           [RFC-ietf-httpbis-messaging-19] Section 7.1
+   compress   UNIX "compress" data format [Welch, T., "A Technique for High Performance Data           [RFC-ietf-httpbis-messaging-19] Section 7.2
+              Compression", IEEE Computer 17(6), June 1984.]
+   deflate    "deflate" compressed data ([RFC1951]) inside the "zlib" data format ([RFC1950])          [RFC-ietf-httpbis-messaging-19] Section 7.2
+   gzip       GZIP file format [RFC1952]                                                               [RFC-ietf-httpbis-messaging-19] Section 7.2
+   identity   (withdrawn in errata to [RFC2616])                                                       [RFC2616]                       Section 3.6
+   trailers   (reserved)                                                                               [RFC-ietf-httpbis-messaging-19] Section 12.3
+   x-compress Deprecated (alias for compress)                                                          [RFC-ietf-httpbis-messaging-19] Section 7.2
+   x-gzip     Deprecated (alias for gzip)                                                              [RFC-ietf-httpbis-messaging-19] Section 7.2
 
 HTTP Forwarded Parameters
 

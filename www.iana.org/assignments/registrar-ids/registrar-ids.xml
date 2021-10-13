@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-09-30</updated>
+    <updated>2021-10-07</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -366,9 +366,9 @@
                 <server>https://onlinenic.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-22">
+        <record updated="2021-10-07">
             <value>83</value>
-            <name>1&amp;1 IONOS SE</name>
+            <name>IONOS SE</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.ionos.com/</server>
@@ -25289,10 +25289,13 @@
             <name>Mixun Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2021-09-02">
+        <record date="2021-09-02" updated="2021-10-07">
             <value>3961</value>
             <name>WDomain.Com Limited</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.wdomain.com/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2021-09-30">
             <value>3962</value>

@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="evpn">
 <title>Ethernet VPN (EVPN)</title>
 <created>2014-10-21</created>
-<updated>2021-09-07</updated>
+<updated>2021-10-07</updated>
 
 <registry id="route-types">
     <title>EVPN Route Types</title>
@@ -36,9 +36,9 @@
         <description>Ethernet Segment</description>
         <xref type="rfc" data="rfc7432"/>
     </record>
-    <record date="2017-02-17" updated="2018-05-24">
+    <record date="2017-02-17" updated="2021-10-07">
         <value>5</value>
-        <description>IP Prefix route</description>
+        <description>IP Prefix</description>
         <xref type="draft" data="RFC-ietf-bess-evpn-prefix-advertisement-11"/>
     </record>
     <record date="2017-09-25">

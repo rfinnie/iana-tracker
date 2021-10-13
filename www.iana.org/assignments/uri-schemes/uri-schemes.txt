@@ -1,7 +1,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2021-10-01
+           2021-10-08
 
    Available Formats
            [IMG]
@@ -377,7 +377,6 @@ turns                                                                          t
 tv                                                                             TV Broadcasts                        Permanent   -          [RFC2838]
 udp                                  prov/udp                                  udp                                  Provisional -          [Dave_Thaler]
 unreal                               prov/unreal                               unreal                               Provisional -          [Dave_Thaler]
-upt                                  prov/upt                                  upt                                  Provisional -          [Tim_McSweeney]
 urn                                                                            Uniform Resource Names               Permanent   -          [RFC8141][IANA registry urn-namespaces]
 ut2004                               prov/ut2004                               ut2004                               Provisional -          [Dave_Thaler]
 uuid-in-package                      prov/uuid-in-package                      uuid-in-package                      Provisional -          [Kunihiko_Sakamoto]

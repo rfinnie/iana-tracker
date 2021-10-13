@@ -5,10 +5,10 @@
   <category>Domain Name System (DNS) Parameters</category>
   <title>AMTRELAY Resource Record Parameters</title>
   <created>2019-12-23</created>
-  <updated>2021-10-05</updated>
+  <updated>2021-10-08</updated>
   
   <registry id="relay-type-field">
-    <title>Relay Type Field</title>
+    <title>AMTRELAY Relay Type Field</title>
     <registration_rule>Specification Required</registration_rule>
     <expert>Unassigned</expert>
     <xref type="rfc" data="rfc8777"/>

@@ -1,8 +1,9 @@
 Name,Description,Reference,Notes
-chunked,Transfer in a series of chunks,[RFC7230],Section 4.1
-compress,"UNIX ""compress"" data format [Welch, T., ""A Technique for High Performance Data Compression"", IEEE Computer 17(6), June 1984.]",[RFC7230],Section 4.2.1
-deflate,"""deflate"" compressed data ([RFC1951]) inside the ""zlib"" data format ([RFC1950])",[RFC7230],Section 4.2.2
-gzip,GZIP file format [RFC1952],[RFC7230],Section 4.2.3
+chunked,Transfer in a series of chunks,[RFC-ietf-httpbis-messaging-19],Section 7.1
+compress,"UNIX ""compress"" data format [Welch, T., ""A Technique for High Performance Data Compression"", IEEE Computer 17(6), June 1984.]",[RFC-ietf-httpbis-messaging-19],Section 7.2
+deflate,"""deflate"" compressed data ([RFC1951]) inside the ""zlib"" data format ([RFC1950])",[RFC-ietf-httpbis-messaging-19],Section 7.2
+gzip,GZIP file format [RFC1952],[RFC-ietf-httpbis-messaging-19],Section 7.2
 identity,(withdrawn in errata to [RFC2616]),[RFC2616],Section 3.6
-x-compress,Deprecated (alias for compress),[RFC7230],Section 4.2.1
-x-gzip,Deprecated (alias for gzip),[RFC7230],Section 4.2.3
+trailers,(reserved),[RFC-ietf-httpbis-messaging-19],Section 12.3
+x-compress,Deprecated (alias for compress),[RFC-ietf-httpbis-messaging-19],Section 7.2
+x-gzip,Deprecated (alias for gzip),[RFC-ietf-httpbis-messaging-19],Section 7.2

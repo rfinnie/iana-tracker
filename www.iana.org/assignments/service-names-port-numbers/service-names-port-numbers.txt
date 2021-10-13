@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2021-10-04
+           2021-10-12
 
    Expert(s)
 
@@ -12060,7 +12060,11 @@ xtreamx            5793        udp    XtreamX Supervised Peer      [Ahmad_Tajudd
                    5794        tcp    Reserved
 spdp               5794        udp    Simple Peered Discovery      [Dave_Lindquist]                                      [Dave_Lindquist]                                          2010-05-27
                                       Protocol
-                 5795-5812            Unassigned
+                 5795-5797            Unassigned
+enlabel-dpl        5798        tcp    Proprietary Website          [enLabel_Global_Services]                             [Clay_S_Didier]                                           2021-10-12
+                                      deployment service
+                   5798        udp    Reserved
+                 5799-5812            Unassigned
 icmpd              5813        tcp    ICMPD                        [Shane_O_Donnell]                                     [Shane_O_Donnell]
 icmpd              5813        udp    ICMPD                        [Shane_O_Donnell]                                     [Shane_O_Donnell]
 spt-automation     5814        tcp    Support Automation           [Joshua_Hawkins]                                      [Joshua_Hawkins]                                          2003-11
@@ -19900,6 +19904,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Claus_Thor_Barth]                                        Claus Thor Barth                                    mailto:iana&barth.dk
 [Clay_Maeckal]                                            Clay Maeckal                                        mailto:clay_maeckel&filemaker.com
 [Clay_Maeckel]                                            Clay Maeckel                                        mailto:clay_maeckel&filemaker.com
+[Clay_S_Didier]                                           Clay S. Didier             enLabel Global Services  mailto:cdidier&enlabel.com                                    2021-10-12
 [Clayton_Haapala]                                         Clayton Haapala                                     mailto:clay.haapala&veritas.com                               2005-08
 [Clayton_Wilkinson]                                       Clayton Wilkinson                                   mailto:cwilkinson&carreker.com
 [Clemens_Gruber]                                          Clemens Gruber                                      mailto:iana&pqgruber.com                                      2019-12-31
@@ -20516,6 +20521,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Emre_Tunar]                                              Emre Tunar                                          mailto:emre.tunar&ca.com                                      2004-11
 [Engineering_Dept]                                        Engineering Dept.                                   mailto:domains&badgernt.com
 [Enguity_Technology_Corp]                                                            Enguity Technology Corp. mailto:kraig.beahn&enguity.com                                2017-06-28
+[enLabel_Global_Services]                                                            enLabel Global Services  mailto:support&enlabel.com                                    2021-10-12
 [Enphase_Energy_Inc]                                                                 Enphase Energy, Inc.     mailto:ceich&enphaseenergy.com                                2011-11-08
 [Enrique_Corujo]                                          Enrique Corujo                                      mailto:enrique&caclearing.com                                 2006-02
 [ENSTEAM_Sp_z.o.o.]                                                                  ENSTEAM Sp. z o.o.       mailto:support&ensteam.com                                    2015-07-08

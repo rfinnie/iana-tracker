@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2021-09-27</updated>
+  <updated>2021-10-11</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -2857,7 +2857,30 @@ server-side key generation with the returned certificate in application/pkix-cer
     <record>
       <mediatype>Unassigned</mediatype>
       <encoding/>
-      <id>20-39</id>
+      <id>20</id>
+    </record>
+    <record date="2021-10-11">
+      <mediatype>image/gif</mediatype>
+      <encoding/>
+      <id>21</id>
+      <xref type="uri" data="https://www.w3.org/Graphics/GIF/spec-gif89a.txt"/>
+    </record>
+    <record date="2021-10-11">
+      <mediatype>image/jpeg</mediatype>
+      <encoding/>
+      <id>22</id>
+      <xref type="text">ISO/IEC 10918</xref>
+    </record>
+    <record date="2021-10-11">
+      <mediatype>image/png</mediatype>
+      <encoding/>
+      <id>23</id>
+      <xref type="rfc" data="rfc2083"/>
+    </record>
+    <record>
+      <mediatype>Unassigned</mediatype>
+      <encoding/>
+      <id>24-39</id>
     </record>
     <record>
       <mediatype>application/link-format</mediatype>

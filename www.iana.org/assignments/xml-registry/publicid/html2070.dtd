@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-09-24</dd>
+      <dd>2021-10-12</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2323,6 +2323,14 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/rfc8346">RFC8346</a>]</td>
         </tr>
         <tr>
+          <td>yang:ietf-l3vpn-ntw</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-l3vpn-ntw</td>
+          <td>
+            <a href="ns/yang/ietf-l3vpn-ntw.txt">ns/yang/ietf-l3vpn-ntw.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l3sm-l3nm-18">RFC-ietf-opsawg-l3sm-l3nm-18</a>]</td>
+        </tr>
+        <tr>
           <td>yang:ietf-l3vpn-svc</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-l3vpn-svc</td>
           <td>
@@ -2849,6 +2857,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-voucher-request.txt">ns/yang/ietf-voucher-request.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8995">RFC8995</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-vpn-common</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-vpn-common</td>
+          <td>
+            <a href="ns/yang/ietf-vpn-common.txt">ns/yang/ietf-vpn-common.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-vpn-common-12">RFC-ietf-opsawg-vpn-common-12</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-vrrp</td>
