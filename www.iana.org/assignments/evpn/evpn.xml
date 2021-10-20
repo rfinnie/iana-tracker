@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="evpn">
 <title>Ethernet VPN (EVPN)</title>
 <created>2014-10-21</created>
-<updated>2021-10-07</updated>
+<updated>2021-10-14</updated>
 
 <registry id="route-types">
     <title>EVPN Route Types</title>
@@ -24,7 +24,7 @@
         <value>2</value>
         <description>MAC/IP Advertisement</description>
         <xref type="rfc" data="rfc7432"/>
-        <xref type="draft" data="RFC-ietf-bess-evpn-inter-subnet-forwarding-15"/>
+        <xref type="rfc" data="rfc9135"/>
     </record>
     <record date="2014-10-21">
         <value>3</value>
@@ -39,7 +39,7 @@
     <record date="2017-02-17" updated="2021-10-07">
         <value>5</value>
         <description>IP Prefix</description>
-        <xref type="draft" data="RFC-ietf-bess-evpn-prefix-advertisement-11"/>
+        <xref type="rfc" data="rfc9136"/>
     </record>
     <record date="2017-09-25">
         <value>6</value>

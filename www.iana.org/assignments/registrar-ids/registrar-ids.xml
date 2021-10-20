@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2021-10-07</updated>
+    <updated>2021-10-15</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -7415,13 +7415,10 @@
                 <server>https://rdap.world4you.biz/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1477</value>
             <name>Name108, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2019-11-11">
             <value>1478</value>
@@ -7644,45 +7641,30 @@
                 <server>https://www.cosmotown.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1510</value>
             <name>Name118, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1511</value>
             <name>Name113, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1512</value>
             <name>Name112, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1513</value>
             <name>Name104, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1514</value>
             <name>Name111, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2019-09-05">
             <value>1515</value>
@@ -7878,37 +7860,25 @@
                 <server>https://rdap.ksdom.kr/net/v1/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1543</value>
             <name>Name110, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1544</value>
             <name>Name114, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1545</value>
             <name>Name115, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1546</value>
             <name>Name116, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2019-08-28">
             <value>1547</value>
@@ -7918,45 +7888,30 @@
                 <server>https://namerdap.systems/</server>
             </rdapurl>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1548</value>
             <name>Name119, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1549</value>
             <name>Name120, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1550</value>
             <name>Name109, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
-        <record updated="2019-08-28">
+        <record updated="2021-10-15">
             <value>1551</value>
             <name>Name107, Inc.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2019-12-20">
             <value>1552</value>
             <name>Name106, Inc.</name>
             <status>Terminated</status>
-            <rdapurl>
-                <server>https://namerdap.systems/</server>
-            </rdapurl>
         </record>
         <record updated="2020-01-16">
             <value>1553</value>

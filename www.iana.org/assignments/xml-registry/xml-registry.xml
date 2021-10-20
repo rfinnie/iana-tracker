@@ -3,7 +3,7 @@
 <?xml-model href="xml-registry.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2021-09-24</updated>
+  <updated>2021-10-19</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -385,6 +385,12 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:epp:loginSec-1.0</name>
       <file type="template">ns/epp/loginSec-1.0.txt</file>
       <xref type="rfc" data="rfc8807"/>
+    </record>
+    <record date="2021-10-12">
+      <value>epp:maintenance-1.0</value>
+      <name>urn:ietf:params:xml:ns:epp:maintenance-1.0</name>
+      <file type="template">ns/epp/maintenance-1.0.txt</file>
+      <xref type="draft" data="RFC-ietf-regext-epp-registry-maintenance-19"/>
     </record>
     <record date="2018-12-26">
       <value>epp:org-1.0</value>
@@ -1694,6 +1700,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-l3-unicast-topology-state.txt</file>
       <xref type="rfc" data="rfc8346"/>
     </record>
+    <record date="2021-10-12">
+      <value>yang:ietf-l3vpn-ntw</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-l3vpn-ntw</name>
+      <file type="template">ns/yang/ietf-l3vpn-ntw.txt</file>
+      <xref type="draft" data="RFC-ietf-opsawg-l3sm-l3nm-18"/>
+    </record>
     <record date="2016-12-02" updated="2017-12-13">
       <value>yang:ietf-l3vpn-svc</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-l3vpn-svc</name>
@@ -1868,6 +1880,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-nmda-compare.txt</file>
       <xref type="draft" data="RFC-ietf-netmod-nmda-diff-12"/>
     </record>
+    <record date="2021-10-19">
+      <value>yang:ietf-notification-capabilities</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-notification-capabilities</name>
+      <file type="template">ns/yang/ietf-notification-capabilities.txt</file>
+      <xref type="draft" data="RFC-ietf-netconf-notification-capabilities-21"/>
+    </record>
     <record date="2018-01-18">
       <value>yang:ietf-origin</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-origin</name>
@@ -1956,7 +1974,7 @@ The registration template should cite the specification.
       <value>yang:ietf-routing-policy</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-routing-policy</name>
       <file type="template">ns/yang/ietf-routing-policy.txt</file>
-      <xref type="draft" data="RFC-ietf-rtgwg-policy-model-31"/>
+      <xref type="rfc" data="rfc9067"/>
     </record>
     <record date="2017-10-25">
       <value>yang:ietf-routing-types</value>
@@ -2024,6 +2042,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-system.txt</file>
       <xref type="rfc" data="rfc7317"/>
     </record>
+    <record date="2021-10-19">
+      <value>yang:ietf-system-capabilities</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-system-capabilities</name>
+      <file type="template">ns/yang/ietf-system-capabilities.txt</file>
+      <xref type="draft" data="RFC-ietf-netconf-notification-capabilities-21"/>
+    </record>
     <record date="2021-06-22">
       <value>yang:ietf-system-tacacs-plus</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-system-tacacs-plus</name>
@@ -2090,6 +2114,12 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-voucher-request.txt</file>
       <xref type="rfc" data="rfc8995"/>
     </record>
+    <record date="2021-10-12">
+      <value>yang:ietf-vpn-common</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-vpn-common</name>
+      <file type="template">ns/yang/ietf-vpn-common.txt</file>
+      <xref type="draft" data="RFC-ietf-opsawg-vpn-common-12"/>
+    </record>
     <record date="2018-01-18">
       <value>yang:ietf-vrrp</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-vrrp</name>
@@ -2107,6 +2137,12 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name</name>
       <file type="template">ns/yang/ietf-x509-cert-to-name.txt</file>
       <xref type="rfc" data="rfc7407"/>
+    </record>
+    <record date="2021-10-19">
+      <value>yang:ietf-yang-instance-data</value>
+      <name>urn:ietf:params:xml:ns:yang:ietf-yang-instance-data</name>
+      <file type="template">ns/yang/ietf-yang-instance-data.txt</file>
+      <xref type="draft" data="RFC-ietf-netmod-yang-instance-file-format-21"/>
     </record>
     <record date="2016-05-13" updated="2018-10-23">
       <value>yang:ietf-yang-library</value>
@@ -2435,6 +2471,12 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:epp:loginSec-1.0</name>
       <file type="template">schema/epp/loginSec-1.0.xsd</file>
       <xref type="rfc" data="rfc8807"/>
+    </record>
+    <record date="2021-10-12">
+      <value>epp:maintenance-1.0</value>
+      <name>urn:ietf:params:xml:schema:epp:maintenance-1.0</name>
+      <file type="template">schema/epp/maintenance-1.0.xsd</file>
+      <xref type="draft" data="RFC-ietf-regext-epp-registry-maintenance-19"/>
     </record>
     <record date="2018-12-26">
       <value>epp:org-1.0</value>

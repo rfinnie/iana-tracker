@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-10-12</dd>
+      <dd>2021-10-19</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -577,6 +577,14 @@ The registration template should cite the specification.
             <a href="ns/epp/loginSec-1.0.txt">ns/epp/loginSec-1.0.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8807">RFC8807</a>]</td>
+        </tr>
+        <tr>
+          <td>epp:maintenance-1.0</td>
+          <td>urn:ietf:params:xml:ns:epp:maintenance-1.0</td>
+          <td>
+            <a href="ns/epp/maintenance-1.0.txt">ns/epp/maintenance-1.0.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-epp-registry-maintenance-19">RFC-ietf-regext-epp-registry-maintenance-19</a>]</td>
         </tr>
         <tr>
           <td>epp:org-1.0</td>
@@ -2563,6 +2571,14 @@ The registration template should cite the specification.
           <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-nmda-diff-12">RFC-ietf-netmod-nmda-diff-12</a>]</td>
         </tr>
         <tr>
+          <td>yang:ietf-notification-capabilities</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-notification-capabilities</td>
+          <td>
+            <a href="ns/yang/ietf-notification-capabilities.txt">ns/yang/ietf-notification-capabilities.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-notification-capabilities-21">RFC-ietf-netconf-notification-capabilities-21</a>]</td>
+        </tr>
+        <tr>
           <td>yang:ietf-origin</td>
           <td>urn:ietf:params:xml:ns:yang:ietf-origin</td>
           <td>
@@ -2680,7 +2696,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-routing-policy.txt">ns/yang/ietf-routing-policy.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-rtgwg-policy-model-31">RFC-ietf-rtgwg-policy-model-31</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9067">RFC9067</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-routing-types</td>
@@ -2769,6 +2785,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-system.txt">ns/yang/ietf-system.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc7317">RFC7317</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-system-capabilities</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-system-capabilities</td>
+          <td>
+            <a href="ns/yang/ietf-system-capabilities.txt">ns/yang/ietf-system-capabilities.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-notification-capabilities-21">RFC-ietf-netconf-notification-capabilities-21</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-system-tacacs-plus</td>
@@ -2889,6 +2913,14 @@ The registration template should cite the specification.
             <a href="ns/yang/ietf-x509-cert-to-name.txt">ns/yang/ietf-x509-cert-to-name.txt</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc7407">RFC7407</a>]</td>
+        </tr>
+        <tr>
+          <td>yang:ietf-yang-instance-data</td>
+          <td>urn:ietf:params:xml:ns:yang:ietf-yang-instance-data</td>
+          <td>
+            <a href="ns/yang/ietf-yang-instance-data.txt">ns/yang/ietf-yang-instance-data.txt</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-yang-instance-file-format-21">RFC-ietf-netmod-yang-instance-file-format-21</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-yang-library</td>
@@ -3343,6 +3375,14 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
             <a href="schema/epp/loginSec-1.0.xsd">schema/epp/loginSec-1.0.xsd</a>
           </td>
           <td>[<a href="https://www.iana.org/go/rfc8807">RFC8807</a>]</td>
+        </tr>
+        <tr>
+          <td>epp:maintenance-1.0</td>
+          <td>urn:ietf:params:xml:schema:epp:maintenance-1.0</td>
+          <td>
+            <a href="schema/epp/maintenance-1.0.xsd">schema/epp/maintenance-1.0.xsd</a>
+          </td>
+          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-epp-registry-maintenance-19">RFC-ietf-regext-epp-registry-maintenance-19</a>]</td>
         </tr>
         <tr>
           <td>epp:org-1.0</td>

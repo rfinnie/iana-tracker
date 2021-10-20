@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="core-parameters">
   <title>Constrained RESTful Environments (CoRE) Parameters</title>
   <created>2012-06-08</created>
-  <updated>2021-10-11</updated>
+  <updated>2021-10-13</updated>
   
   <registry id="rt-link-target-att-value">
     <title>Resource Type (rt=) Link Target Attribute Values</title>
@@ -2761,9 +2761,18 @@ server-side key generation with the returned certificate in application/pkix-cer
       <xref type="rfc" data="rfc7252"/>
     </record>    
     <record>
-      <value>141-257</value>
+      <value>141-251</value>
       <description>Unassigned</description>
     </record>
+    <record date="2021-10-13">
+      <value>252</value>
+      <description>Echo</description>
+      <xref type="draft" data="RFC-ietf-core-echo-request-tag-14"/>
+    </record> 
+    <record>
+      <value>253-257</value>
+      <description>Unassigned</description>
+    </record>   
     <record date="2015-05-28" updated="2016-06-29">
       <value>258</value>
       <description>No-Response</description>
@@ -2771,9 +2780,18 @@ server-side key generation with the returned certificate in application/pkix-cer
       <xref type="rfc" data="rfc8613"/>
     </record>
     <record>
-      <value>259-2048</value>
+      <value>259-291</value>
       <description>Unassigned</description>
     </record>
+    <record date="2021-10-13">
+      <value>292</value>
+      <description>Request-Tag</description>
+      <xref type="draft" data="RFC-ietf-core-echo-request-tag-14"/>
+    </record>
+    <record>
+      <value>293-2048</value>
+      <description>Unassigned</description>
+    </record> 
     <record date="2017-07-03">
       <value>2049</value>
       <description>OCF-Accept-Content-Format-Version</description>

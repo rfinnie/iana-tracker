@@ -251,11 +251,6 @@ shortcut when performing MultiLayer Switching.",,,[CCO-MLS] describes MultiLayer
 top-of-stack label.  Values for this field are listed in the 
 MPLS label type registry. See 
 [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-mpls-label-type]",,,"See [RFC3031] for the MPLS label structure.
-See [RFC4364] for the association of MPLS
-labels with Virtual Private Networks (VPNs).
-See [RFC4271] for BGP and BGP routing.
-See [RFC5036] for Label Distribution Protocol
-(LDP).
 See the list of MPLS label types assigned by IANA at [http://www.iana.org/assignments/mpls-label-values].",[RFC5102],0,2013-02-18
 47,mplsTopLabelIPv4Address,ipv4Address,default,current,"The IPv4 address of the system that the MPLS top label will
 cause this Flow to be forwarded to.",,,"See [RFC3031] for the association between MPLS

@@ -4,7 +4,7 @@
            2012-06-08
 
    Last Updated
-           2021-10-11
+           2021-10-13
 
    Available Formats
            [IMG]
@@ -785,7 +785,7 @@ CoAP Option Numbers
    2048-64999  Expert Review
    65000-65535 Experimental use (no operational use)
 
-     Number                  Name                         Reference
+     Number                  Name                             Reference
    0           Reserved                          [RFC7252]
    1           If-Match                          [RFC7252][RFC8613]
    2           Unassigned
@@ -828,9 +828,13 @@ CoAP Option Numbers
    136         Reserved                          [RFC7252]
    137-139     Unassigned
    140         Reserved                          [RFC7252]
-   141-257     Unassigned
+   141-251     Unassigned
+   252         Echo                              [RFC-ietf-core-echo-request-tag-14]
+   253-257     Unassigned
    258         No-Response                       [RFC7967][RFC8613]
-   259-2048    Unassigned
+   259-291     Unassigned
+   292         Request-Tag                       [RFC-ietf-core-echo-request-tag-14]
+   293-2048    Unassigned
    2049        OCF-Accept-Content-Format-Version [Michael_Koster]
    2050-2052   Unassigned
    2053        OCF-Content-Format-Version        [Michael_Koster]

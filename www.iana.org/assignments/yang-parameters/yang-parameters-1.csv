@@ -17,7 +17,7 @@ iana-hardware,iana-hardware@2018-03-13.yang,Y,urn:ietf:params:xml:ns:yang:iana-h
 iana-if-type,iana-if-type@2021-06-21.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
    module. They must instead be added to the ""Interface Types (ifType)"" registry 
 at [IANA registry smi-numbers]."
-iana-routing-types,iana-routing-types@2021-09-08.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
+iana-routing-types,iana-routing-types@2021-10-19.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
 directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
 and [Subsequent Address Family Identifiers (SAFI) Parameters] registries."
@@ -113,6 +113,7 @@ ietf-network-state,ietf-network-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:y
 ietf-network-topology,ietf-network-topology@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-topology,nt,,[RFC8345],
 ietf-network-topology-state,ietf-network-topology-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-topology-state,nt-s,,[RFC8345],
 ietf-nmda-compare,,N,urn:ietf:params:xml:ns:yang:ietf-nmda-compare,cmp,,[RFC-ietf-netmod-nmda-diff-12],[RFC-ietf-netmod-nmda-diff-12]'s module file will be posted upon the document's publication as an RFC.
+ietf-notification-capabilities,,N,urn:ietf:params:xml:ns:yang:ietf-notification-capabilities,notc,,[RFC-ietf-netconf-notification-capabilities-21],[RFC-ietf-netconf-notification-capabilities-21]'s module file will be posted upon the document's publication as an RFC.
 ietf-origin,ietf-origin@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-origin,or,,[RFC8342],
 ietf-ospf,,N,urn:ietf:params:xml:ns:yang:ietf-ospf,ospf,,[RFC-ietf-ospf-yang-28],[RFC-ietf-ospf-yang-28]'s module file will be posted upon the document's publication as an RFC.
 ietf-packet-fields,ietf-packet-fields@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-packet-fields,packet-fields,,[RFC8519],
@@ -128,7 +129,7 @@ ietf-restconf-subscribed-notifications,ietf-restconf-subscribed-notifications@20
 ietf-rip,ietf-rip@2020-02-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-rip,rip,,[RFC8695],
 ietf-routing,ietf-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8022],
 ietf-routing,ietf-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8349],
-ietf-routing-policy,,N,urn:ietf:params:xml:ns:yang:ietf-routing-policy,rt-pol,,[RFC-ietf-rtgwg-policy-model-31],[RFC-ietf-rtgwg-policy-model-31]'s module file will be posted upon the document's publication as an RFC.
+ietf-routing-policy,ietf-routing-policy@2021-10-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing-policy,rt-pol,,[RFC9067],
 ietf-routing-types,ietf-routing-types@2017-12-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing-types,rt-types,,[RFC8294],
 ietf-segment-routing,ietf-segment-routing@2021-05-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-segment-routing,sr,,[RFC9020],
 ietf-segment-routing-common,ietf-segment-routing-common@2021-05-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-segment-routing-common,sr-cmn,,[RFC9020],
@@ -151,6 +152,7 @@ ietf-softwire-common,ietf-softwire-common@2019-11-16.yang,N,urn:ietf:params:xml:
 ietf-subscribed-notifications,ietf-subscribed-notifications@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC8639],
 ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[draft-ietf-netmod-syslog-model-26],"TEMPORARY - registered 2021-07-11, expires 2022-07-11[draft-ietf-netmod-syslog-model-26]'s module file will be posted upon the document's publication as an RFC."
 ietf-system,ietf-system@2014-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-system,sys,,[RFC7317],
+ietf-system-capabilities,,N,urn:ietf:params:xml:ns:yang:ietf-system-capabilities,sysc,,[RFC-ietf-netconf-notification-capabilities-21],[RFC-ietf-netconf-notification-capabilities-21]'s module file will be posted upon the document's publication as an RFC.
 ietf-system-tacacs-plus,ietf-system-tacacs-plus@2021-08-05.yang,N,urn:ietf:params:xml:ns:yang:ietf-system-tacacs-plus,sys-tcs-plus,,[RFC9105],
 ietf-sztp-bootstrap-server,ietf-sztp-bootstrap-server@2019-04-30.yang,N,urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server,sztp-svr,,[RFC8572],
 ietf-sztp-conveyed-info,ietf-sztp-conveyed-info@2019-04-30.yang,N,urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info,sztp-info,,[RFC8572],
@@ -167,6 +169,7 @@ ietf-vpn-common,,N,urn:ietf:params:xml:ns:yang:ietf-vpn-common,vpn-common,,[RFC-
 ietf-vrrp,ietf-vrrp@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-vrrp,vrrp,,[RFC8347],
 ietf-wson-topology,ietf-wson-topology@2021-08-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-wson-topology,wsont,,[RFC9094],
 ietf-x509-cert-to-name,ietf-x509-cert-to-name@2014-12-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name,x509c2n,,[RFC7407],
+ietf-yang-instance-data,,N,urn:ietf:params:xml:ns:yang:ietf-yang-instance-data,yid,,[RFC-ietf-netmod-yang-instance-file-format-21],[RFC-ietf-netmod-yang-instance-file-format-21]'s module file will be posted upon the document's publication as an RFC.
 ietf-yang-library,ietf-yang-library@2016-06-21.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC7895],
 ietf-yang-library,ietf-yang-library@2019-01-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-library,yanglib,,[RFC8525],
 ietf-yang-metadata,ietf-yang-metadata@2016-08-05.yang,N,urn:ietf:params:xml:ns:yang:ietf-yang-metadata,md,,[RFC7952],

@@ -14729,6 +14729,7 @@ spiderelectron,,tcp,Binary message passing protocol,[Spider_Electron],[Kenny_Mil
 spl-itunes,,,launchTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys: None
 spr-itunes,,,netTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys: None
 splashsync,,,SplashData Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
+split-dns64,,tcp,DNS64 in split configuration,[Kasper_Dupont],[Kasper_Dupont],2021-10-19,,,,,Defined TXT keys: None
 spres,,tcp,SongPresenter,[Tobias_Hoffmann],[Tobias_Hoffmann],2012-10-09,,,,,"Defined TXT keys: version, name"
 spx-hmp,,tcp,SpinetiX HMP,[SpinetiX_S_A],[Diego_Santa_Cruz],2011-10-18,,,,,"Defined TXT keys: txtvers=1
 cport= the port for the content HTTP server

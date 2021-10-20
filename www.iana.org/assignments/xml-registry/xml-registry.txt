@@ -1,7 +1,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2021-09-24
+           2021-10-19
 
    Note
 
@@ -86,7 +86,7 @@ ns
            [IMG]
            CSV
 
-                        ID                                                             URI                                                              Filename                                            Reference
+                        ID                                                             URI                                                              Filename                                             Reference
 allocationToken-1.0                                 urn:ietf:params:xml:ns:allocationToken-1.0                                 ns/allocationToken-1.0.txt                                 [RFC8495]
 areg1                                               urn:ietf:params:xml:ns:areg1                                               ns/areg1.txt                                               [RFC4698]
 asnx                                                urn:ietf:params:xml:ns:asnx                                                                                                           [RFC4910]
@@ -143,6 +143,7 @@ epp-1.0                                             urn:ietf:params:xml:ns:epp-1
 epp:b-dn                                            urn:ietf:params:xml:ns:epp:b-dn                                            ns/epp/b-dn.txt                                            [RFC9095]
 epp:fee-1.0                                         urn:ietf:params:xml:ns:epp:fee-1.0                                         ns/epp/fee-1.0.txt                                         [RFC8748]
 epp:loginSec-1.0                                    urn:ietf:params:xml:ns:epp:loginSec-1.0                                    ns/epp/loginSec-1.0.txt                                    [RFC8807]
+epp:maintenance-1.0                                 urn:ietf:params:xml:ns:epp:maintenance-1.0                                 ns/epp/maintenance-1.0.txt                                 [RFC-ietf-regext-epp-registry-maintenance-19]
 epp:org-1.0                                         urn:ietf:params:xml:ns:epp:org-1.0                                         ns/epp/org-1.0.txt                                         [RFC8543]
 epp:orgext-1.0                                      urn:ietf:params:xml:ns:epp:orgext-1.0                                      ns/epp/orgext-1.0.txt                                      [RFC8544]
 epp:secure-authinfo-transfer-1.0                    urn:ietf:params:xml:ns:epp:secure-authinfo-transfer-1.0                    ns/epp/secure-authinfo-transfer-1.0.txt                    [RFC-ietf-regext-secure-authinfo-transfer-07]
@@ -361,6 +362,7 @@ yang:ietf-l2-topology-state                         urn:ietf:params:xml:ns:yang:
 yang:ietf-l2vpn-svc                                 urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc                                 ns/yang/ietf-l2vpn-svc.txt                                 [RFC8466]
 yang:ietf-l3-unicast-topology                       urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology                       ns/yang/ietf-l3-unicast-topology.txt                       [RFC8346]
 yang:ietf-l3-unicast-topology-state                 urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state                 ns/yang/ietf-l3-unicast-topology-state.txt                 [RFC8346]
+yang:ietf-l3vpn-ntw                                 urn:ietf:params:xml:ns:yang:ietf-l3vpn-ntw                                 ns/yang/ietf-l3vpn-ntw.txt                                 [RFC-ietf-opsawg-l3sm-l3nm-18]
 yang:ietf-l3vpn-svc                                 urn:ietf:params:xml:ns:yang:ietf-l3vpn-svc                                 ns/yang/ietf-l3vpn-svc.txt                                 [RFC8299]
 yang:ietf-layer0-types                              urn:ietf:params:xml:ns:yang:ietf-layer0-types                              ns/yang/ietf-layer0-types.txt                              [RFC9093]
 yang:ietf-lime-time-types                           urn:ietf:params:xml:ns:yang:ietf-lime-time-types                           ns/yang/ietf-lime-time-types.txt                           [RFC8532]
@@ -390,6 +392,7 @@ yang:ietf-network-state                             urn:ietf:params:xml:ns:yang:
 yang:ietf-network-topology                          urn:ietf:params:xml:ns:yang:ietf-network-topology                          ns/yang/ietf-network-topology.txt                          [RFC8345]
 yang:ietf-network-topology-state                    urn:ietf:params:xml:ns:yang:ietf-network-topology-state                    ns/yang/ietf-network-topology-state.txt                    [RFC8345]
 yang:ietf-nmda-compare                              urn:ietf:params:xml:ns:yang:ietf-nmda-compare                              ns/yang/ietf-nmda-compare.txt                              [RFC-ietf-netmod-nmda-diff-12]
+yang:ietf-notification-capabilities                 urn:ietf:params:xml:ns:yang:ietf-notification-capabilities                 ns/yang/ietf-notification-capabilities.txt                 [RFC-ietf-netconf-notification-capabilities-21]
 yang:ietf-origin                                    urn:ietf:params:xml:ns:yang:ietf-origin                                    ns/yang/ietf-origin.txt                                    [RFC8342]
 yang:ietf-ospf                                      urn:ietf:params:xml:ns:yang:ietf-ospf                                      ns/yang/ietf-ospf.txt                                      [RFC-ietf-ospf-yang-28]
 yang:ietf-packet-fields                             urn:ietf:params:xml:ns:yang:ietf-packet-fields                             ns/yang/ietf-packet-fields.txt                             [RFC8519]
@@ -404,7 +407,7 @@ yang:ietf-restconf-monitoring                       urn:ietf:params:xml:ns:yang:
 yang:ietf-restconf-subscribed-notifications         urn:ietf:params:xml:ns:yang:ietf-restconf-subscribed-notifications         ns/yang/ietf-restconf-subscribed-notifications.txt         [RFC8650]
 yang:ietf-rip                                       urn:ietf:params:xml:ns:yang:ietf-rip                                       ns/yang/ietf-rip.txt                                       [RFC8695]
 yang:ietf-routing                                   urn:ietf:params:xml:ns:yang:ietf-routing                                   ns/yang/ietf-routing.txt                                   [RFC8349]
-yang:ietf-routing-policy                            urn:ietf:params:xml:ns:yang:ietf-routing-policy                            ns/yang/ietf-routing-policy.txt                            [RFC-ietf-rtgwg-policy-model-31]
+yang:ietf-routing-policy                            urn:ietf:params:xml:ns:yang:ietf-routing-policy                            ns/yang/ietf-routing-policy.txt                            [RFC9067]
 yang:ietf-routing-types                             urn:ietf:params:xml:ns:yang:ietf-routing-types                             ns/yang/ietf-routing-types.txt                             [RFC8294]
 yang:ietf-segment-routing                           urn:ietf:params:xml:ns:yang:ietf-segment-routing                           ns/yang/ietf-segment-routing.txt                           [RFC9020]
 yang:ietf-segment-routing-common                    urn:ietf:params:xml:ns:yang:ietf-segment-routing-common                    ns/yang/ietf-segment-routing-common.txt                    [RFC9020]
@@ -417,6 +420,7 @@ yang:ietf-subscribed-notifications                  urn:ietf:params:xml:ns:yang:
 yang:ietf-syslog (TEMPORARY - registered            urn:ietf:params:xml:ns:yang:ietf-syslog                                    ns/yang/ietf-syslog.txt                                    [draft-ietf-netmod-syslog-model-26]
 2021-07-11, exprires 2022-07-11)
 yang:ietf-system                                    urn:ietf:params:xml:ns:yang:ietf-system                                    ns/yang/ietf-system.txt                                    [RFC7317]
+yang:ietf-system-capabilities                       urn:ietf:params:xml:ns:yang:ietf-system-capabilities                       ns/yang/ietf-system-capabilities.txt                       [RFC-ietf-netconf-notification-capabilities-21]
 yang:ietf-system-tacacs-plus                        urn:ietf:params:xml:ns:yang:ietf-system-tacacs-plus                        ns/yang/ietf-system-tacacs-plus.txt                        [RFC9105]
 yang:ietf-sztp-bootstrap-server                     urn:ietf:params:xml:ns:yang:ietf-sztp-bootstrap-server                     ns/yang/ietf-sztp-bootstrap-server.txt                     [RFC8572]
 yang:ietf-sztp-conveyed-info                        urn:ietf:params:xml:ns:yang:ietf-sztp-conveyed-info                        ns/yang/ietf-sztp-conveyed-info.txt                        [RFC8572]
@@ -428,9 +432,11 @@ yang:ietf-template                                  urn:ietf:params:xml:ns:yang:
 yang:ietf-twamp                                     urn:ietf:params:xml:ns:yang:ietf-twamp                                     ns/yang/ietf-twamp.txt                                     [RFC-ietf-ippm-twamp-yang-13]
 yang:ietf-voucher                                   urn:ietf:params:xml:ns:yang:ietf-voucher                                   ns/yang/ietf-voucher.txt                                   [RFC8366]
 yang:ietf-voucher-request                           urn:ietf:params:xml:ns:yang:ietf-voucher-request                           ns/yang/ietf-voucher-request.txt                           [RFC8995]
+yang:ietf-vpn-common                                urn:ietf:params:xml:ns:yang:ietf-vpn-common                                ns/yang/ietf-vpn-common.txt                                [RFC-ietf-opsawg-vpn-common-12]
 yang:ietf-vrrp                                      urn:ietf:params:xml:ns:yang:ietf-vrrp                                      ns/yang/ietf-vrrp.txt                                      [RFC8347]
 yang:ietf-wson-topology                             urn:ietf:params:xml:ns:yang:ietf-wson-topology                             ns/yang/ietf-wson-topology.txt                             [RFC9094]
 yang:ietf-x509-cert-to-name                         urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name                         ns/yang/ietf-x509-cert-to-name.txt                         [RFC7407]
+yang:ietf-yang-instance-data                        urn:ietf:params:xml:ns:yang:ietf-yang-instance-data                        ns/yang/ietf-yang-instance-data.txt                        [RFC-ietf-netmod-yang-instance-file-format-21]
 yang:ietf-yang-library                              urn:ietf:params:xml:ns:yang:ietf-yang-library                              ns/yang/ietf-yang-library.txt                              [RFC8525]
 yang:ietf-yang-metadata                             urn:ietf:params:xml:ns:yang:ietf-yang-metadata                             ns/yang/ietf-yang-metadata.txt                             [RFC7952]
 yang:ietf-yang-patch                                urn:ietf:params:xml:ns:yang:ietf-yang-patch                                ns/yang/ietf-yang-patch.txt                                [RFC8072]
@@ -476,7 +482,7 @@ schema
            [IMG]
            CSV
 
-               ID                                            URI                                              Filename                           Reference
+               ID                                            URI                                              Filename                                     Reference
 allocationToken-1.0              urn:ietf:params:xml:schema:allocationToken-1.0              schema/allocationToken-1.0.xsd              [RFC8495]
 basic-location-profiles          urn:ietf:params:xml:schema:basic-location-profiles          schema/basic-location-profiles.xsd          [RFC6772]
 changePoll-1.0                   urn:ietf:params:xml:schema:changePoll-1.0                   schema/changePoll-1.0.xsd                   [RFC8590]
@@ -518,6 +524,7 @@ epp-1.0                          urn:ietf:params:xml:schema:epp-1.0             
 epp:b-dn                         urn:ietf:params:xml:schema:epp:b-dn                         schema/epp/b-dn.xsd                         [RFC9095]
 epp:fee-1.0                      urn:ietf:params:xml:schema:epp:fee-1.0                      schema/epp/fee-1.0.xsd                      [RFC8748]
 epp:loginSec-1.0                 urn:ietf:params:xml:schema:epp:loginSec-1.0                 schema/epp/loginSec-1.0.xsd                 [RFC8807]
+epp:maintenance-1.0              urn:ietf:params:xml:schema:epp:maintenance-1.0              schema/epp/maintenance-1.0.xsd              [RFC-ietf-regext-epp-registry-maintenance-19]
 epp:org-1.0                      urn:ietf:params:xml:schema:epp:org-1.0                      schema/epp/org-1.0.xsd                      [RFC8543]
 epp:orgext-1.0                   urn:ietf:params:xml:schema:epp:orgext-1.0                   schema/epp/orgext-1.0.xsd                   [RFC8544]
 eppcom-1.0                       urn:ietf:params:xml:schema:eppcom-1.0                       schema/eppcom-1.0.xsd                       [RFC5730]

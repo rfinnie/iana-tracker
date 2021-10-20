@@ -35,3 +35,5 @@ Registry Fee Extension for the Extensible Provisioning Protocol (EPP),Standards 
 Extensible Provisioning Protocol (EPP) Unhandled Namespaces,Standards Track,[RFC9038],[IESG],Any,None,Active,None
 Domain Name Mapping Extension for Strict Bundling Registration,Informational,[RFC9095],"See the ""Authors' Addresses"" section of [RFC9095].",Any,[https://datatracker.ietf.org/ipr/2479],Active,None
 Extensible Provisioning Protocol (EPP) Secure Authorization Information for Transfer,Standards Track,[RFC-ietf-regext-secure-authinfo-transfer-07],[IESG],Any,None,Active,None
+"Registry Maintenance Notification for the
+        Extensible Provisioning Protocol (EPP)",Standards Track,[RFC-ietf-regext-epp-registry-maintenance-19],[IESG],Any,None,Active,None
