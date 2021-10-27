@@ -40,7 +40,7 @@ KX,36,Key Exchanger,[RFC2230],,
 CERT,37,CERT,[RFC4398],,
 A6,38,A6 (OBSOLETE - use AAAA),[RFC2874][RFC3226][RFC6563],,
 DNAME,39,DNAME,[RFC6672],,
-SINK,40,SINK,[Donald_E_Eastlake][http://tools.ietf.org/html/draft-eastlake-kitchen-sink],,1997-11
+SINK,40,SINK,[Donald_E_Eastlake][draft-eastlake-kitchen-sink],,1997-11
 OPT,41,OPT,[RFC3225][RFC6891],,
 APL,42,APL,[RFC3123],,
 DS,43,Delegation Signer,[RFC3658][RFC4034],,
