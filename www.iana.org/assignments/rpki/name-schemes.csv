@@ -1,4 +1,5 @@
 Filename Extension,RPKI Object,Reference
+.asa,"Autonomous System Provider Authorization (TEMPORARY - registered 2021-11-08, expires 2022-11-08)",[draft-ietf-sidrops-aspa-profile-06]
 .cer,Certificate,[RFC6481]
 .crl,Certificate Revocation List,[RFC6481]
 .gbr,Ghostbusters Record,[RFC6493]

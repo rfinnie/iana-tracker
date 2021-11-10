@@ -48,3 +48,4 @@ Decimal,Description,References
 46,id-ct-animaCBORVoucher,[Reserved and Obsolete]
 47,id-ct-geofeedCSVwithCRLF,[RFC9092]
 48,id-ct-signedChecklist,[draft-ietf-sidrops-rpki-rsc-02]
+49,id-ct-ASPA,[draft-ietf-sidrops-aspa-profile-06]

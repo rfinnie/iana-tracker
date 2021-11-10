@@ -20,7 +20,8 @@ Number,Name,Reference
 18,Unassigned,
 19,Q-Block1,[RFC-ietf-core-new-block-14]
 20,Location-Query,[RFC7252][RFC8613]
-21-22,Unassigned,
+21,"EDHOC (TEMPORARY - registered 2021-11-08, expires 2022-11-08)",[draft-ietf-core-oscore-edhoc-02]
+22,Unassigned,
 23,Block2,[RFC7959][RFC8323][RFC8613]
 24-26,Unassigned,
 27,Block1,[RFC7959][RFC8323][RFC8613]
