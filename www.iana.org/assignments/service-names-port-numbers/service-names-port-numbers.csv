@@ -5501,7 +5501,8 @@ msi-selectplay,2871,tcp,MSI Select Play,[Paul_Fonte],[Paul_Fonte],,,,,,
 msi-selectplay,2871,udp,MSI Select Play,[Paul_Fonte],[Paul_Fonte],,,,,,
 radix,2872,tcp,RADIX,[Stein_Roger_Skaflott],[Stein_Roger_Skaflott],,2011-07-06,,,,
 radix,2872,udp,RADIX,[Stein_Roger_Skaflott],[Stein_Roger_Skaflott],,2011-07-06,,,,
-,2873,,Unassigned,,,,2003-07-23,,,,
+psrt,2873,tcp,PubSub Realtime Telemetry Protocol,[Altertech],[Serhij_Symonenko],2021-11-12,,,,,
+psrt,2873,udp,PubSub Realtime Telemetry Protocol,[Altertech],[Serhij_Symonenko],2021-11-12,,,,,
 dxmessagebase1,2874,tcp,DX Message Base Transport Protocol,,,,,,,,
 dxmessagebase1,2874,udp,DX Message Base Transport Protocol,,,,,,,,
 dxmessagebase2,2875,tcp,DX Message Base Transport Protocol,[G_E_Ozz_Nixon_Jr],[G_E_Ozz_Nixon_Jr],2009-01-13,,,,,
@@ -14700,6 +14701,7 @@ slimhttp,,,SliMP3 Server Web Interface,[Dean_Blackketter_2],[Dean_Blackketter_2]
 slpda,,tcp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
 slpda,,udp,Remote Service Discovery in the Service Location,,,,,[RFC3832],,,
 smag,,tcp,terminal access to laundry appliances,[Schulthess_Maschinen_AG],[Michael_Schwetz],2018-11-30,,,,,"Defined TXT keys: mName, tName, lName, Type, Timestamp"
+smaho,,tcp,Smart Home Device Setup,[SMAHO],[Max_Köhler],2021-11-15,,,,,"Defined TXT keys: mo, ma, fw, hw, na, id"
 smartenergy,,,Smart Energy Profile,[Robby_Simpson],[Robby_Simpson],,,,,,Defined TXT keys: See http://www.zigbee.org/SmartEnergy
 smartsocket,,tcp,home control,[Robert_Diamond],[Robert_Diamond],2012-07-06,,,,,Defined TXT keys: None
 smb,,,Server Message Block over TCP/IP,,,,,,,,Defined TXT keys: u=<username> p=<password> path=<path>
