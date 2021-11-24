@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-11-09</dd>
+      <dd>2021-11-19</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2872,7 +2872,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-twamp.txt">ns/yang/ietf-twamp.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-ippm-twamp-yang-13">RFC-ietf-ippm-twamp-yang-13</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc8913">RFC8913</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-voucher</td>

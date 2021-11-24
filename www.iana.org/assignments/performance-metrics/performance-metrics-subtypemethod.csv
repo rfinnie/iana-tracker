@@ -1,16 +1,16 @@
 Identifier,Name,Description,Reference,Change Controller
-SubTypeMethod,ICMP,Internet Control Message Protocol,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,IP,Internet Protocol,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,DSCPxx,where xx is replaced by a Diffserv code point,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,UDP,User Datagram Protocol,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,TCP,Transport Control Protocol,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,QUIC,QUIC transport protocol,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,HS,"Hand-Shake, such as TCP's 3-way HS",[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,Poisson,Packet generation using Poisson distribution,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,Periodic,Periodic packet generation,[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,SendOnRcv,"Sender keeps one packet in-transit by sending when
-        previous packet arrives",[RFC-ietf-ippm-metric-registry-24],IETF
+SubTypeMethod,ICMP,Internet Control Message Protocol,[RFC8911],IETF
+SubTypeMethod,IP,Internet Protocol,[RFC8911],IETF
+SubTypeMethod,DSCPxx,where xx is replaced by a Diffserv code point,[RFC8911],IETF
+SubTypeMethod,UDP,User Datagram Protocol,[RFC8911],IETF
+SubTypeMethod,TCP,Transport Control Protocol,[RFC8911],IETF
+SubTypeMethod,QUIC,QUIC transport protocol,[RFC8911],IETF
+SubTypeMethod,HS,"Hand-Shake, such as TCP's 3-way HS",[RFC8911],IETF
+SubTypeMethod,Poisson,packet generation using Poisson distribution,[RFC8911],IETF
+SubTypeMethod,Periodic,periodic packet generation,[RFC8911],IETF
+SubTypeMethod,SendOnRcv,"Sender keeps one packet in transit by sending when
+        previous packet arrives",[RFC8911],IETF
 SubTypeMethod,PayloadxxxxB,"where xxxx is replaced by an integer, the number
-        of octets in the Payload",[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,SustaninedBurst,"Capacity test, worst case",[RFC-ietf-ippm-metric-registry-24],IETF
-SubTypeMethod,StandingQueue,test of bottleneck queue behavior,[RFC-ietf-ippm-metric-registry-24],IETF
+        of octets or 8-bit Bytes in the Payload",[RFC8911],IETF
+SubTypeMethod,SustaninedBurst,"capacity test, worst case",[RFC8911],IETF
+SubTypeMethod,StandingQueue,test of bottleneck queue behavior,[RFC8911],IETF

@@ -13,5 +13,6 @@ Option Class,Description,Assignee,Contact,Reference
 0x0119-0x0128,Ericsson,[Ericsson],[Julian_Espinosa_Santos],
 0x0129,Oxide Computer Company,[Oxide],[Oxide-IANA],
 0x0130-0x0131,"Cisco Systems, Inc.",[Cisco-2],[Francesco_Ruta],
-0x0132-0xFEFF,Unassigned,,,
+0x0132-0x0135,Google LLC,[Google],[Dror_Eiger],
+0x0136-0xFEFF,Unassigned,,,
 0xFF00-0xFFFF,Reserved for Experimental Use,,,[RFC8926]
