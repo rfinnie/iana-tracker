@@ -66,7 +66,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 24,IS Alias ID,n,y,n,n,[RFC5311]
 25,L2 Bundle Member Attributes,n,y,n,n,[RFC8668]
 26,Unassigned,,,,,
-27,"SRv6 Locator (TEMPORARY - registered 2020-06-17, extension registered 2021-06-01, expires 2022-06-17)",n,y,n,n,[draft-ietf-lsr-isis-srv6-extensions-15]
+27,SRv6 Locator,n,y,n,n,[RFC-ietf-lsr-isis-srv6-extensions-18]
 28,"Zone ID (TEMPORARY - registered 2020-11-20, extension registered 2021-10-28, expires 2022-11-20)",n,y,n,n,[draft-ietf-lsr-isis-ttz-01]
 29-41,Unassigned,,,,,
 42,DECnet Phase IV,y,n,n,n,DEC (ancient)

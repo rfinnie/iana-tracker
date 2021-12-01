@@ -20,5 +20,5 @@ access_denied,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
 slow_down,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
 expired_token,Token endpoint response,[RFC8628],IETF,"[RFC8628, Section 3.5]"
 invalid_target,"implicit grant error response, token error response",resource parameter,IESG,[RFC8707]
-unsupported_pop_key,token error response,[RFC-ietf-ace-oauth-authz-45],IETF,"[RFC-ietf-ace-oauth-authz-45, Section 5.8.3]"
-incompatible_ace_profiles,token error response,[RFC-ietf-ace-oauth-authz-45],IETF,"[RFC-ietf-ace-oauth-authz-45, Section 5.8.3]"
+unsupported_pop_key,token error response,[RFC-ietf-ace-oauth-authz-46],IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.8.3]"
+incompatible_ace_profiles,token error response,[RFC-ietf-ace-oauth-authz-46],IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.8.3]"

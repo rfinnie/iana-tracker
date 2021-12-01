@@ -68,6 +68,7 @@ Type,Value,Reference
 149,PA-REQ-ENC-PA-REP,[RFC6806]
 150,PA_AS_FRESHNESS,[RFC8070]
 151,PA-SPAKE,[draft-ietf-kitten-krb-spake-preauth]
-152-164,Unassigned,
+152,PA-REDHAT-IDP-OAUTH2,[Pavel_Březina]
+153-164,Unassigned,
 165,PA-SUPPORTED-ETYPES,[MSKILE][http://msdn2.microsoft.com/en-us/library/cc206927.aspx]
 166,PA-EXTENDED_ERROR,[MSKILE][http://msdn2.microsoft.com/en-us/library/cc206927.aspx]

@@ -4,7 +4,7 @@ Unassigned,,1-15,
 "application/cose; cose-type=""cose-encrypt0""",,16,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-mac0""",,17,[RFC-ietf-cose-rfc8152bis-struct-15]
 "application/cose; cose-type=""cose-sign1""",,18,[RFC-ietf-cose-rfc8152bis-struct-15]
-application/ace+cbor,,19,[RFC-ietf-ace-oauth-authz-45]
+application/ace+cbor,,19,[RFC-ietf-ace-oauth-authz-46]
 Unassigned,,20,
 image/gif,,21,[https://www.w3.org/Graphics/GIF/spec-gif89a.txt]
 image/jpeg,,22,[ISO/IEC 10918]

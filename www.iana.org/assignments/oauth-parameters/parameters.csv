@@ -62,7 +62,7 @@ exp,authorization request,IETF,"[RFC7519, Section 4.1.4][RFC9101]"
 nbf,authorization request,IETF,"[RFC7519, Section 4.1.5][RFC9101]"
 iat,authorization request,IETF,"[RFC7519, Section 4.1.6][RFC9101]"
 jti,authorization request,IETF,"[RFC7519, Section 4.1.7][RFC9101]"
-ace_profile,token response,IETF,"[RFC-ietf-ace-oauth-authz-45, Sections 5.8.2, 5.8.4.3]"
+ace_profile,token response,IETF,"[RFC-ietf-ace-oauth-authz-46, Sections 5.8.2, 5.8.4.3]"
 nonce1,client-rs request,IETF,[RFC-ietf-ace-oscore-profile-19]
 nonce2,rs-client response,IETF,[RFC-ietf-ace-oscore-profile-19]
 ace_client_recipientid,client-rs request,IETF,[RFC-ietf-ace-oscore-profile-19]

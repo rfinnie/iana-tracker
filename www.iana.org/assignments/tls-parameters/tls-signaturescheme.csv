@@ -48,7 +48,10 @@ Value,Description,Recommended,Reference
 0x081A,ecdsa_brainpoolP256r1tls13_sha256,N,[RFC8734]
 0x081B,ecdsa_brainpoolP384r1tls13_sha384,N,[RFC8734]
 0x081C,ecdsa_brainpoolP512r1tls13_sha512,N,[RFC8734]
-0x081D-0x08FF,Unassigned,,
+0x081D-0x083F,Unassigned,,
+0x0840,Reserved for backward compatibility,N,[RFC-smyshlyaev-tls12-gost-suites-18]
+0x0841,Reserved for backward compatibility,N,[RFC-smyshlyaev-tls12-gost-suites-18]
+0x0842-0x08FF,Unassigned,,
 0x0900-0x0903,Reserved for backward compatibility,,[RFC8446]
 0x0904-0x09FF,Unassigned,,
 0x0A00-0x0A03,Reserved for backward compatibility,,[RFC8446]
