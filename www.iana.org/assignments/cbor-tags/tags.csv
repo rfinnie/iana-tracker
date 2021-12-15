@@ -146,5 +146,6 @@ unit test cases.",[Michael_Richardson][Samir_Hussain],template/1330664270
 15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell],
 15309737-4294967294,Unassigned,,,
 4294967295,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
-4294967296-18446744073709551614,Unassigned,,,
+4294967296,map,Intel FPGA SPDM Manifest,[Andrew_Draper],template/4294967296
+4294967297-18446744073709551614,Unassigned,,,
 18446744073709551615,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",

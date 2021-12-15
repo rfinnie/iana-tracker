@@ -45,13 +45,13 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1036,SR Local Block,,"[RFC9085, Section 2.1.4]"
 1037,SRMS Preference,,"[RFC9085, Section 2.1.5]"
 1038,"SRv6 Capabilities TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgpls-srv6-ext-08]
-1039,"Flex Algorithm Definition TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1040,"Flex Algo Exclude Any Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1041,"Flex Algo Include Any Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1042,"Flex Algo Include All Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1043,"Flex Algo Definition Flags sub-TLV (TEMPORARY - registered 2019-08-19, extension registered 2021-06-17, expires 2022-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1044,"Flex Algorithm Prefix Metric TLV (TEMPORARY - registered 2019-08-19, extension registered 2021-06-17, expires 2022-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
-1045,"Flex Algorithm Exclude SRLG TLV (TEMPORARY - registered 2021-02-05, expires 2022-02-05)",,[draft-ietf-idr-bgp-ls-flex-algo-07]
+1039,"Flex Algorithm Definition TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1040,"Flex Algo Exclude Any Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1041,"Flex Algo Include Any Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1042,"Flex Algo Include All Affinity sub-TLV (TEMPORARY - registered 2019-08-06, extension registered 2021-06-17, expires 2022-08-06)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1043,"Flex Algo Definition Flags sub-TLV (TEMPORARY - registered 2019-08-19, extension registered 2021-06-17, expires 2022-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1044,"Flex Algorithm Prefix Metric TLV (TEMPORARY - registered 2019-08-19, extension registered 2021-06-17, expires 2022-08-19)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
+1045,"Flex Algorithm Exclude SRLG TLV (TEMPORARY - registered 2021-02-05, extension registered 2021-12-14, expires 2023-02-05)",,[draft-ietf-idr-bgp-ls-flex-algo-08]
 1046-1087,Unassigned,,
 1088,Administrative group (color),22/3,"[RFC5305, Section 3.1]"
 1089,Maximum link bandwidth,22/9,"[RFC5305, Section 3.4]"

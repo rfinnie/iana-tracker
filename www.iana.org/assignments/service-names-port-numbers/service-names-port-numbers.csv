@@ -14817,6 +14817,7 @@ touch-able,,,iPhone and iPod touch Remote Controllable,[Amandeep_Jawa_3],[Amande
 touch-remote,,,iPhone and iPod touch Remote Pairing,[Amandeep_Jawa_3],[Amandeep_Jawa_3],,,,,,"Defined TXT keys: txtvers, DvNm, Pair, RemV, RemN, DvTy"
 tptx-console,,tcp,Coordination service for client users of the TotalPraisTrax iPad application,[Randy_Davenport],[Chris_Watson],2014-03-04,,,,,Defined TXT keys: None
 transmitr,,tcp,Service discovery and media transfer for peer to peer mobile media transfer app,[Windward_Code_LLC],[Alex_Belliotti],2013-11-27,,,,,Defined TXT keys: None
+trel,,udp,Thread Radio Encapsulation Link,[Thread_Group_Inc],[Tom_Sciorilli],2021-12-10,,,,,"Defined TXT keys: mac, xpan"
 tri-vis-client,,,triCerat Simplify Visibility Client,[Christopher_Karper],[Christopher_Karper],,,,,,Defined TXT keys: None
 tri-vis-server,,,triCerat Simplify Visibility Server,[Christopher_Karper],[Christopher_Karper],,,,,,Defined TXT keys: None
 tryst,,,Tryst,[Francisco_Ryan_Tolma],[Francisco_Ryan_Tolma],,,,,,Defined TXT keys: None

@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-12-03</dd>
+      <dd>2021-12-14</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2104,7 +2104,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-dots-call-home.txt">ns/yang/ietf-dots-call-home.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-dots-signal-call-home-14">RFC-ietf-dots-signal-call-home-14</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9066">RFC9066</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-dots-data-channel</td>
@@ -2576,7 +2576,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/yang/ietf-nmda-compare.txt">ns/yang/ietf-nmda-compare.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-nmda-diff-12">RFC-ietf-netmod-nmda-diff-12</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9144">RFC9144</a>]</td>
         </tr>
         <tr>
           <td>yang:ietf-notification-capabilities</td>
