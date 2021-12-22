@@ -112,7 +112,7 @@ ietf-network-instance,ietf-network-instance@2019-01-21.yang,N,urn:ietf:params:xm
 ietf-network-state,ietf-network-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-state,nw-s,,[RFC8345],
 ietf-network-topology,ietf-network-topology@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-topology,nt,,[RFC8345],
 ietf-network-topology-state,ietf-network-topology-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-topology-state,nt-s,,[RFC8345],
-ietf-nmda-compare,,N,urn:ietf:params:xml:ns:yang:ietf-nmda-compare,cmp,,[RFC-ietf-netmod-nmda-diff-12],[RFC-ietf-netmod-nmda-diff-12]'s module file will be posted upon the document's publication as an RFC.
+ietf-nmda-compare,ietf-nmda-compare@2021-12-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nmda-compare,cmp,,[RFC9144],
 ietf-notification-capabilities,,N,urn:ietf:params:xml:ns:yang:ietf-notification-capabilities,notc,,[RFC-ietf-netconf-notification-capabilities-21],[RFC-ietf-netconf-notification-capabilities-21]'s module file will be posted upon the document's publication as an RFC.
 ietf-origin,ietf-origin@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-origin,or,,[RFC8342],
 ietf-ospf,,N,urn:ietf:params:xml:ns:yang:ietf-ospf,ospf,,[RFC-ietf-ospf-yang-28],[RFC-ietf-ospf-yang-28]'s module file will be posted upon the document's publication as an RFC.

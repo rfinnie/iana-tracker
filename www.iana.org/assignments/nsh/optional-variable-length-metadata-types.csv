@@ -1,6 +1,6 @@
 Value,Description,Reference
 0x00,Subscriber Identifier,[RFC8979]
 0x01,Performance Policy Identifier,[RFC8979]
-0x02,MAC and Encrypted Metadata #1,[RFC-ietf-sfc-nsh-integrity-09]
-0x03,MAC and Encrypted Metadata #2,[RFC-ietf-sfc-nsh-integrity-09]
+0x02,MAC and Encrypted Metadata #1,[RFC9145]
+0x03,MAC and Encrypted Metadata #2,[RFC9145]
 0x04-0xFF,Unassigned,

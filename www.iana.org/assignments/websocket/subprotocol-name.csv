@@ -57,3 +57,5 @@ collection-update,The Collection Update Websocket Subprotocol,[https://github.co
 TLCP-2.3.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://lightstreamer.com/tlcp-2.3.0],[Dario_Crivelli],[Lightstreamer_Srl]
 text.ircv3.net,Text IRC Protocol,[https://ircv3.net/specs/extensions/websocket],[Daniel_Oakley],[IRCv3_Working_Group]
 binary.ircv3.net,Binary IRC Protocol,[https://ircv3.net/specs/extensions/websocket],[Daniel_Oakley],[IRCv3_Working_Group]
+v3.penguin-stats.live+proto,Penguin statistics Live Protocol v3 (Protobuf encoding),[https://github.com/penguin-statistics/backend-next/blob/main/internal/models/protos/messages.proto],[Galvin_Gao][Alviss_Reimu],"[Galvin_Gao]
+        [Alviss_Reimu]"

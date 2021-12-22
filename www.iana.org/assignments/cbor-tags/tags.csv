@@ -38,9 +38,9 @@ Tag,Data Item,Semantics,Reference,Template
 46,unsigned integer or text string or array,YANG instance-identifier datatype; see Section 6.13.,[draft-ietf-core-yang-cbor],
 47,unsigned integer,YANG Schema Item iDentifier (sid); see Section 3.2.,[draft-ietf-core-yang-cbor],
 48-51,Unassigned,,,
-52,byte string or array,"IPv4, [prefixlen,IPv4], [IPv4,prefixpart]",[RFC-ietf-cbor-network-addresses-13],
+52,byte string or array,"IPv4, [prefixlen,IPv4], [IPv4,prefixpart]",[RFC9164],
 53,Unassigned,,,
-54,byte string or array,"IPv6, [prefixlen,IPv6], [IPv6,prefixpart]",[RFC-ietf-cbor-network-addresses-13],
+54,byte string or array,"IPv6, [prefixlen,IPv6], [IPv6,prefixpart]",[RFC9164],
 55-60,Unassigned,,,
 61,CBOR Web Token (CWT),CBOR Web Token (CWT),[RFC8392][Michael_B._Jones],
 62,Unassigned,,,
@@ -90,9 +90,9 @@ Tag,Data Item,Semantics,Reference,Template
 258,array,Mathematical finite set,[https://github.com/input-output-hk/cbor-sets-spec/blob/master/CBOR_SETS.md][Alfredo_Di_Napoli],
 259,map,Map datatype with key-value operations (e.g. `.get()/.set()/.delete()`),[https://github.com/shanewholloway/js-cbor-codec/blob/master/docs/CBOR-259-spec--explicit-maps.md][Shane_Holloway],
 260,byte string,"Network Address (IPv4 or IPv6 or MAC Address) (DEPRECATED in favor of 52 and 54
-        for IP addresses)",[http://www.employees.org/~ravir/cbor-network.txt][Ravi_Raju][RFC-ietf-cbor-network-addresses-13],
+        for IP addresses)",[http://www.employees.org/~ravir/cbor-network.txt][Ravi_Raju][RFC9164],
 261,map (IPAddress + Mask Length),"Network Address Prefix (IPv4 or IPv6 Address + Mask Length) (DEPRECATED in favor of 52 and 54
-        for IP addresses)",[https://github.com/toravir/CBOR-Tag-Specs/blob/master/networkPrefix.md][Ravi_Raju][RFC-ietf-cbor-network-addresses-13],
+        for IP addresses)",[https://github.com/toravir/CBOR-Tag-Specs/blob/master/networkPrefix.md][Ravi_Raju][RFC9164],
 262,byte string,Embedded JSON Object,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/embeddedJSON.md][Ravi_Raju],
 263,byte string,Hexadecimal string,[https://github.com/toravir/CBOR-Tag-Specs/blob/master/hexString.md][Ravi_Raju],
 264,array,Decimal fraction with arbitrary exponent,[http://peteroupc.github.io/CBOR/bigfrac.html][Peter_Occil],
