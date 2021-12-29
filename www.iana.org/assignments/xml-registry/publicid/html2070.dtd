@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-12-14</dd>
+      <dd>2021-12-24</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -584,7 +584,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/epp/maintenance-1.0.txt">ns/epp/maintenance-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-epp-registry-maintenance-19">RFC-ietf-regext-epp-registry-maintenance-19</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9167">RFC9167</a>]</td>
         </tr>
         <tr>
           <td>epp:org-1.0</td>
@@ -3390,7 +3390,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
           <td>
             <a href="schema/epp/maintenance-1.0.xsd">schema/epp/maintenance-1.0.xsd</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-epp-registry-maintenance-19">RFC-ietf-regext-epp-registry-maintenance-19</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9167">RFC9167</a>]</td>
         </tr>
         <tr>
           <td>epp:org-1.0</td>

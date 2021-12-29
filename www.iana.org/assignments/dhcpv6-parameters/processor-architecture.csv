@@ -40,4 +40,5 @@ Type,Architecture Name,Reference
 0x00 0x26,LoongArch 32-bit UEFI boot from http,[LI_Chao][https://loongson.github.io/LoongArch-Documentation/README-EN.html][https://github.com/loongson/LoongArch-Documentation]
 0x00 0x27,LoongArch 64-bit UEFI,[LI_Chao][https://loongson.github.io/LoongArch-Documentation/README-EN.html][https://github.com/loongson/LoongArch-Documentation]
 0x00 0x28,LoongArch 64-bit UEFI boot from http,[LI_Chao][https://loongson.github.io/LoongArch-Documentation/README-EN.html][https://github.com/loongson/LoongArch-Documentation]
-0x00 0x29-0xff 0xff,Unassigned,
+0x00 0x29,arm rpiboot,[Peter_Harper]
+0x00 0x2a-0xff 0xff,Unassigned,

@@ -1,7 +1,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2021-12-15
+           2021-12-24
 
    Expert(s)
 
@@ -13258,7 +13258,11 @@ virprot-lm         7121        tcp    Virtual Prototypes License   [Victor_Galis
                                       Manager
 virprot-lm         7121        udp    Virtual Prototypes License   [Victor_Galis]                                        [Victor_Galis]
                                       Manager
-                 7122-7127            Unassigned
+                   7122               Unassigned
+snif               7123        tcp    End-to-end TLS Relay Control [VESvault_Corp]                                       [Jim_Zubov]                                               2021-12-24
+                                      Connection
+                   7123        udp    Reserved
+                 7124-7127            Unassigned
 scenidm            7128        tcp    intelligent data manager     [Paul_Ignatius]                                       [Paul_Ignatius]                                           2006-03
 scenidm            7128        udp    intelligent data manager     [Paul_Ignatius]                                       [Paul_Ignatius]                                           2006-03
 scenccs            7129        tcp    Catalog Content Search       [Anil_Sharma]                                         [Anil_Sharma]                                             2006-04
@@ -16802,7 +16806,11 @@ sruth              38800       tcp    publish/subscribe            [University_C
 secrmmsafecopya    38865       tcp    for use of the secRMM        [Squadra_Technologies]                                [Anthony_LaMark]                                          2012-03-14
                                       SafeCopy program
                    38865       udp    Reserved
-                38866-39680           Unassigned
+                38866-39062           Unassigned
+vroa               39063       tcp    Children's hearing           [Hearing_Australia]                                   [Dan_Zhou]                                                2021-12-23
+                                      test/Telemedicine
+                   39063       udp    Reserved
+                39064-39680           Unassigned
 turbonote-1        39681       tcp    TurboNote Default Port       [Peter_Hyde]                                          [Peter_Hyde]
 turbonote-1        39681       udp    TurboNote Default Port       [Peter_Hyde]                                          [Peter_Hyde]
                 39682-39999           Unassigned
@@ -20010,7 +20018,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Curtiss-Wright_Corporation]                                                         Curtiss-Wright           mailto:rammon&curtisswright.com                               2016-12-14
                                                                                      Corporation
 [CX5_SOFTWARE]                                                                       CX5 SOFTWARE             mailto:contact&cx5software.com                                2013-02-04
-[DARcorp]                                                                                                     mailto:DARcorp&aol.com
 [d_b_audiotechnik]                                                                   d&b audiotechnik         mailto:software.support&dbaudio.com                           2011-10-06
 [D_J_Bernstein]                                           D. J. Bernstein                                     mailto:ports&box.cr.yp.to                                     2018-04-05
 [D_Thomas_Podnar]                                         D. Thomas Podnar                                    mailto:tom&microlite.com                                      2015-11-04
@@ -20049,6 +20056,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dan_Shia]                                                Dan Shia                                            mailto:dset!shia&uunet.uu.net
 [Dan_Smith]                                               Dan Smith                                           mailto:dan.smith&den.galileo.com
 [Dan_Wing]                                                Dan Wing                                            mailto:dwing&cisco.com                                        2015-10-08
+[Dan_Zhou]                                                Dan Zhou                   Hearing Australia        mailto:dan.zhou&hearing.com.au                                2021-12-23
 [Dana_Blair]                                              Dana Blair                                          mailto:dblair&cisco.com                                       2004-06
 [Dana_Doggett]                                            Dana Doggett               Stoneware Inc.           mailto:dana.doggett&stone-ware.com                            2012-05-18
 [Dana_Porter]                                             Dana Porter                                         mailto:dana.porter&sun.com                                    2003-10
@@ -20084,6 +20092,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Danko_Alexeyev]                                          Danko Alexeyev                                      mailto:virtuall&virtuall.info                                 2007-08-08
 [Dany_Ayotte]                                             Dany Ayotte                                         mailto:ayotte&teamsoft.com                                    2002-07
 [Danzhou_Liu]                                             Danzhou Liu                Symantec                 mailto:Danzhou_Liu&symantec.com                               2012-05-07
+[DARcorp]                                                                                                     mailto:DARcorp&aol.com
 [Dario_S_Tonesi]                                          Dario S. Tonesi                                     mailto:dario.tonesi&nsn.com                                   2011-02-07
 [Dark_Horse_GmbH_Co_KG]                                                              Dark Horse GmbH & Co KG  mailto:l.kannicht&thedarkhorse.de                             2015-06-02
 [Darrell_Schiebel]                                        Darrell Schiebel                                    mailto:dschieb&cv.nrao.edu
@@ -20970,6 +20979,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Harry_ten_Berge]                                         Harry ten Berge                                     mailto:berge&hitt.nl
 [Harvey_S_Schultz]                                        Harvey S. Schultz                                   mailto:harvey&acm.org
 [HbbTV_Association]                                       HbbTV Association                                   mailto:info&hbbtv.org
+[Hearing_Australia]                                                                  Hearing Australia        mailto:dan.zhou&hearing.com.au                                2021-12-23
 [Heath_Barber]                                            Heath Barber               Datacolor                mailto:hbarber&datacolor.com                                  2011-10-14
 [Heath_Raftery]                                           Heath Raftery                                       mailto:heath&hrsoftworks.net
 [Heathwest_Systems_Limited]                                                          Heathwest Systems        mailto:info&heathwest.com                                     2013-03-21
@@ -21474,7 +21484,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Jim_Wallace]                                             Jim Wallace                                         mailto:jim&cs.dal.ca
 [Jim_White]                                               Jim White                                           mailto:Jim_White&spiderisland.com
 [Jim_Youll]                                               Jim Youll                                           mailto:jim&media.mit.edu
-[Jim_Zubov]                                               Jim Zubov                  VESvault Corp            mailto:jz&vesvault.com                                        2021-12-15
+[Jim_Zubov]                                               Jim Zubov                  VESvault Corp            mailto:jz&vesvault.com                                        2021-12-24
 [Jimmy_Olsen]                                             Jimmy Olsen                                         mailto:jo&redpill-linpro.com                                  2010-12-24
 [Jimmy_Talbot]                                            Jimmy Talbot                                        mailto:jtalbot&vizible.com
 [Jindra_Ryvola]                                           Jindra Ryvola                                       mailto:jryvola&ledalite.com
@@ -24428,7 +24438,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Versile_AS]                                                                         Versile AS               mailto:contact&versile.com                                    2012-02-01
 [Vertex_Technologies_Inc]                                                            Vertex Technologies Inc  mailto:info&vertextechnologies.net                            2018-04-20
 [Vestas_Wind_Systems]                                                                Vestas Wind Systems      mailto:tdwi&vestas.com                                        2013-10-30
-[VESvault_Corp]                                                                      VESvault Corp            mailto:jz&vesvault.com                                        2021-12-15
+[VESvault_Corp]                                                                      VESvault Corp            mailto:info&vesvault.com                                      2021-12-24
 [Vick_Keshishian]                                         Vick Keshishian                                     mailto:vickenK&192.219.82.71
 [Victor_Galis]                                            Victor Galis                                        mailto:galis&satchmo.virtualprototypes.ca
 [Victor_Griswold]                                         Victor Griswold                                     mailto:vgris&aironet.com
