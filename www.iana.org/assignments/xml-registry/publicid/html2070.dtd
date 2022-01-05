@@ -11,7 +11,7 @@
     <h1>IETF XML Registry</h1>
     <dl>
       <dt>Last Updated</dt>
-      <dd>2021-12-24</dd>
+      <dd>2022-01-04</dd>
       <dt>Note</dt>
       <dd>
         <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -608,7 +608,7 @@ The registration template should cite the specification.
           <td>
             <a href="ns/epp/secure-authinfo-transfer-1.0.txt">ns/epp/secure-authinfo-transfer-1.0.txt</a>
           </td>
-          <td>[<a href="https://www.iana.org/go/draft-ietf-regext-secure-authinfo-transfer-07">RFC-ietf-regext-secure-authinfo-transfer-07</a>]</td>
+          <td>[<a href="https://www.iana.org/go/rfc9154">RFC9154</a>]</td>
         </tr>
         <tr>
           <td>epp:unhandled-namespaces-1.0</td>

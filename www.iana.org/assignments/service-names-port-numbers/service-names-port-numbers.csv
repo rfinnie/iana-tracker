@@ -14719,6 +14719,7 @@ smsync,,,Syncellence file synchronization protocol,[Dialectro_Software],[Gord_Pe
       osver=<operating system version>"
 snif-cln,,tcp,End-to-end TLS Relay Client Connection,[VESvault_Corp],[Jim_Zubov],2021-12-15,,[https://snif.host/relay-proto#snif-cln],,,Defined TXT keys: None
 snif-fifo,,tcp,End-to-end TLS Relay Cluster,[VESvault_Corp],[Jim_Zubov],2021-12-15,,[https://snif.host/relay-proto#snif-fifo],,,Defined TXT keys: None
+snif-srv,,tcp,End-to-end TLS Relay Service Connection,[VESvault_Corp],[Jim_Zubov],2021-12-29,,[https://snif.host/relay-proto#snif-srv],,,Defined TXT keys: None
 soap,,,Simple Object Access Protocol,[Andrew_Donoho],[Andrew_Donoho],,,,,,Defined TXT keys: None
 socketcloud,,,Socketcloud distributed application framework,[Robert_Goodyear],[Robert_Goodyear],,,,,,"Defined TXT keys: system, service, process, context, direction, status, progress, health, directive, flags"
 soda,,tcp,Secure On Device API,[Smith_Micro_Software_Inc],[David_Sperling_2],2011-10-10,,,,,"Defined TXT keys: a. ssid=<Wi-Fi SSID of the device>
