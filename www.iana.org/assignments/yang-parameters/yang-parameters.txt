@@ -1,10 +1,12 @@
+   Internet Assigned Numbers Authority
+
                                                                    YANG Parameters
 
    Created
            2010-06-10
 
    Last Updated
-           2021-12-30
+           2022-01-07
 
    Available Formats
            [IMG]
@@ -138,6 +140,9 @@ ietf-ipv6-unicast-routing              ietf-ipv6-unicast-routing@2018-03-13.yang
                                                                                                                                                                                                                                                                        [RFC-ietf-isis-yang-isis-cfg-42]'s module file
 ietf-isis                                                                                         N      urn:ietf:params:xml:ns:yang:ietf-isis                              isis                                       [RFC-ietf-isis-yang-isis-cfg-42]                will be posted upon the document's publication as
                                                                                                                                                                                                                                                                        an RFC.
+                                                                                                                                                                                                                                                                       [RFC-ietf-lsr-yang-isis-reverse-metric-06]'s
+ietf-isis-reverse-metric                                                                          N      urn:ietf:params:xml:ns:yang:ietf-isis-reverse-metric               isis-rmetric                               [RFC-ietf-lsr-yang-isis-reverse-metric-06]      module file will be posted upon the document's
+                                                                                                                                                                                                                                                                       publication as an RFC.
 ietf-key-chain                         ietf-key-chain@2017-06-15.yang                             N      urn:ietf:params:xml:ns:yang:ietf-key-chain                         key-chain                                  [RFC8177]
 ietf-l2-topology                       ietf-l2-topology@2020-11-15.yang                           N      urn:ietf:params:xml:ns:yang:ietf-l2-topology                       l2t                                        [RFC8944]
 ietf-l2-topology-state                 ietf-l2-topology-state@2020-11-15.yang                     N      urn:ietf:params:xml:ns:yang:ietf-l2-topology-state                 l2t-s                                      [RFC8944]
@@ -265,3 +270,5 @@ ietf-yang-smiv2                        ietf-yang-smiv2@2012-06-22.yang          
 ietf-yang-structure-ext                ietf-yang-structure-ext@2020-06-17.yang                    N      urn:ietf:params:xml:ns:yang:ietf-yang-structure-ext                sx                                         [RFC8791]
 ietf-yang-types                        ietf-yang-types@2010-09-24.yang                            N      urn:ietf:params:xml:ns:yang:ietf-yang-types                        yang                                       [RFC6021]
 ietf-yang-types                        ietf-yang-types@2013-07-15.yang                            N      urn:ietf:params:xml:ns:yang:ietf-yang-types                        yang                                       [RFC6991]
+
+   Licensing Terms

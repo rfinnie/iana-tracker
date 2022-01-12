@@ -74,6 +74,7 @@ ietf-ipv6-router-advertisements,ietf-ipv6-router-advertisements@2018-03-13.yang,
 ietf-ipv6-unicast-routing,ietf-ipv6-unicast-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing,v6ur,,[RFC8022],
 ietf-ipv6-unicast-routing,ietf-ipv6-unicast-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing,v6ur,,[RFC8349],
 ietf-isis,,N,urn:ietf:params:xml:ns:yang:ietf-isis,isis,,[RFC-ietf-isis-yang-isis-cfg-42],[RFC-ietf-isis-yang-isis-cfg-42]'s module file will be posted upon the document's publication as an RFC.
+ietf-isis-reverse-metric,,N,urn:ietf:params:xml:ns:yang:ietf-isis-reverse-metric,isis-rmetric,,[RFC-ietf-lsr-yang-isis-reverse-metric-06],[RFC-ietf-lsr-yang-isis-reverse-metric-06]'s module file will be posted upon the document's publication as an RFC.
 ietf-key-chain,ietf-key-chain@2017-06-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-key-chain,key-chain,,[RFC8177],
 ietf-l2-topology,ietf-l2-topology@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology,l2t,,[RFC8944],
 ietf-l2-topology-state,ietf-l2-topology-state@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology-state,l2t-s,,[RFC8944],

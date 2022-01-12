@@ -77,3 +77,4 @@ introspection_encryption_alg_values_supported,"JSON array containing a list of a
 introspection_encryption_enc_values_supported,"JSON array containing a list of algorithms
         supported by the authorization server for introspection response
         content encryption (enc value).",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"
+authorization_response_iss_parameter_supported,"Boolean value indicating whether the authorization server provides the ""iss"" parameter in the authorization response.",IETF,"[RFC-ietf-oauth-iss-auth-resp-04, Section 3]"
