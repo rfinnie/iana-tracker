@@ -50,8 +50,8 @@ Value,Description,Reference
 48,POLICY-PARAMETERS-TLV,[RFC9005]
 49,SCHED-LSP-ATTRIBUTE,[RFC8934]
 50,SCHED-PD-LSP-ATTRIBUTE,[RFC8934]
-51,PCE-FLOWSPEC-CAPABILITY TLV,[RFC-ietf-pce-pcep-flowspec-12]
-52,FLOW FILTER TLV,[RFC-ietf-pce-pcep-flowspec-12]
+51,PCE-FLOWSPEC-CAPABILITY TLV,[RFC9168]
+52,FLOW FILTER TLV,[RFC9168]
 53,Unassigned,
 54,Bidirectional LSP Association Group TLV,[RFC9059]
 55,"TE-PATH-BINDING (TEMPORARY - registered 2021-03-29, expires 2022-03-29)",[draft-ietf-pce-binding-label-sid-07]

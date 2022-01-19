@@ -138,8 +138,8 @@ Object-Class Value,Name,Object-Type,Reference
 42,WA,0: Reserved,[RFC8780]
 ,,1: Wavelength Assignment,[RFC8780]
 ,,2-15: Unassigned,
-43,FLOWSPEC,0: Reserved,[RFC-ietf-pce-pcep-flowspec-12]
-,,1: Flow Specification,[RFC-ietf-pce-pcep-flowspec-12]
+43,FLOWSPEC,0: Reserved,[RFC9168]
+,,1: Flow Specification,[RFC9168]
 ,,2-15: Unassigned,
 44,CCI Object-Type,0: Reserved,[RFC9050]
 ,,1: MPLS Label,[RFC9050]

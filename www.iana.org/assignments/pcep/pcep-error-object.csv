@@ -93,7 +93,11 @@ Error-Type,Meaning,Error-value,Reference
 ,,31: Missing GMPLS-CAPABILITY TLV,[RFC8779]
 ,,32: Incompatible OF code,[RFC8800]
 ,,33: Missing PCECC Capability sub-TLV,[RFC9050]
-,,34-255: Unassigned,
+,,"34: Missing PCE-SRv6-CAPABILITY sub-TLV (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,"35: Both SID and NAI are absent in SRv6-RRO subobject (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,"36: RRO mixes SRv6-RRO subobjects with other subobject types (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,"37: Invalid SRv6 SID Structure (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,38-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
 ,,1: Unsupported class-type,[RFC5455]
@@ -149,7 +153,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,16: Attempted PCECC operations when PCECC capability was not advertised,[RFC9050]
 ,,17: Stateful PCE capability was not advertised,[RFC9050]
 ,,18: Unknown Label,[RFC9050]
-,,19-255: Unassigned,
+,,"19: Attempted SRv6 when the capability was not advertised (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,20-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
         (an otherwise valid) LSP State Report. The PCEP-
@@ -228,12 +233,12 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Label constraint could not be met,[RFC8779]
 ,,5: Constraints could not be met for some intervals,[RFC8934]
 ,,6-255: Unassigned,
-30,FlowSpec error,0: Unassigned,[RFC-ietf-pce-pcep-flowspec-12]
-,,1: Unsupported FlowSpec,[RFC-ietf-pce-pcep-flowspec-12]
-,,2: Malformed FlowSpec,[RFC-ietf-pce-pcep-flowspec-12]
-,,3: Unresolvable Conflict,[RFC-ietf-pce-pcep-flowspec-12]
-,,4: Unknown FlowSpec,[RFC-ietf-pce-pcep-flowspec-12]
-,,5: Unsupported LPM Route,[RFC-ietf-pce-pcep-flowspec-12]
+30,FlowSpec error,0: Unassigned,[RFC9168]
+,,1: Unsupported FlowSpec,[RFC9168]
+,,2: Malformed FlowSpec,[RFC9168]
+,,3: Unresolvable Conflict,[RFC9168]
+,,4: Unknown FlowSpec,[RFC9168]
+,,5: Unsupported LPM Route,[RFC9168]
 ,,6-255: Unassigned,
 31,PCECC failure,0: Unassigned,
 ,,1: Label out of range,[RFC9050]
