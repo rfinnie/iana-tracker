@@ -1,5 +1,5 @@
 EHLO Keyword,Description,Reference,Note
-SEND,Send as mail,[RFC821],"The description of SEND was updated by
+SEND,Send to terminal,[RFC821],"The description of SEND was updated by
 [RFC1123] and then its actual use was
 deprecated in [RFC2821]"
 SOML,Send as mail or to terminal,[RFC821],"The description of SOML was updated by
