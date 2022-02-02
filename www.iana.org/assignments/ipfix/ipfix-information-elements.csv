@@ -18,7 +18,7 @@ header of the packet.",,,"See [RFC791] for the specification of the IPv4
 protocol field.
 See [RFC8200] for the specification of the
 IPv6 protocol field.
-See the list of protocol numbers assigned by IANA at [http://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
+See the list of protocol numbers assigned by IANA at [https://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
 5,ipClassOfService,unsigned8,identifier,current,"For IPv4 packets, this is the value of the TOS field in
 the IPv4 packet header.  For IPv6 packets, this is the
 value of the Traffic Class field in the IPv6 packet header.",,,"See [RFC1812] (Section 5.3.2) and [RFC791] for the definition of the IPv4 TOS field.
@@ -87,7 +87,7 @@ source port field.
 See [RFC793] for the definition of the TCP
 source port field.
 See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
-found at [http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 8,sourceIPv4Address,ipv4Address,default,current,The IPv4 source address in the IP packet header.,,,"See [RFC791] for the definition of the IPv4
 source address field.",[RFC5102],1,2014-02-03
 9,sourceIPv4PrefixLength,unsigned8,,current,"The number of contiguous bits that are relevant in the
@@ -109,7 +109,7 @@ destination port field.
 See [RFC793] for the definition of the TCP
 destination port field.
 See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
-found at [http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 12,destinationIPv4Address,ipv4Address,default,current,The IPv4 destination address in the IP packet header.,,,"See [RFC791] for the definition of the IPv4
 destination address field.",[RFC5102],1,2014-02-03
 13,destinationIPv4PrefixLength,unsigned8,,current,"The number of contiguous bits that are relevant in the
@@ -250,8 +250,8 @@ shortcut when performing MultiLayer Switching.",,,[CCO-MLS] describes MultiLayer
 46,mplsTopLabelType,unsigned8,identifier,current,"This field identifies the control protocol that allocated the
 top-of-stack label.  Values for this field are listed in the 
 MPLS label type registry. See 
-[http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-mpls-label-type]",,,"See [RFC3031] for the MPLS label structure.
-See the list of MPLS label types assigned by IANA at [http://www.iana.org/assignments/mpls-label-values].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-mpls-label-type]",,,"See [RFC3031] for the MPLS label structure.
+See the list of MPLS label types assigned by IANA at [https://www.iana.org/assignments/mpls-label-values].",[RFC5102],0,2013-02-18
 47,mplsTopLabelIPv4Address,ipv4Address,default,current,"The IPv4 address of the system that the MPLS top label will
 cause this Flow to be forwarded to.",,,"See [RFC3031] for the association between MPLS
 labels and IP addresses.",[RFC5102],1,2014-02-03
@@ -305,7 +305,7 @@ field in the IPv4 packet header.
 See [RFC8200] for the definition of the
 version field in the IPv6 packet header.
 Additional information on defined version numbers can be found at
-[http://www.iana.org/assignments/version-numbers].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/version-numbers].",[RFC5102],0,2013-02-18
 61,flowDirection,unsigned8,identifier,current,"The direction of the Flow observed at the Observation
 Point.  There are only two values defined. 0x00: ingress flow
 0x01: egress flow",,,,[RFC5102],0,2013-02-18
@@ -437,7 +437,7 @@ fragment offset in the IPv6 Fragment header.",[RFC5102],1,2014-08-13
 flow and any attached reasons. The layout of the encoding is as follows: MSB  -  0   1   2   3   4   5   6   7  -  LSB
       +---+---+---+---+---+---+---+---+
       | Status|  Reason code or flags |
-      +---+---+---+---+---+---+---+---+ See the Forwarding Status sub-registries at [http://www.iana.org/assignments/ipfix/ipfix.xhtml#forwarding-status]. Examples:
+      +---+---+---+---+---+---+---+---+ See the Forwarding Status sub-registries at [https://www.iana.org/assignments/ipfix/ipfix.xhtml#forwarding-status]. Examples:
 
 value : 0x40 = 64
 binary: 01000000
@@ -495,7 +495,7 @@ the context for the Selector ID. The Classification
 Engine can be considered a specific registry for
 application assignments. Values for this field are listed in the Classification
 Engine IDs registry. See 
-[http://www.iana.org/assignments/ipfix/ipfix.xhtml#classification-engine-ids]",,,,[RFC6759],0,2013-02-18
+[https://www.iana.org/assignments/ipfix/ipfix.xhtml#classification-engine-ids]",,,,[RFC6759],0,2013-02-18
 102,layer2packetSectionOffset,unsigned16,quantity,deprecated,"Deprecated in favor of 409 sectionOffset.  Layer 2 packet
 section offset.  Potentially a generic packet section offset.",,,,[RFC7270],0,2014-04-04
 103,layer2packetSectionSize,unsigned16,quantity,deprecated,"Deprecated in favor of 312 dataLinkFrameSize.  Layer 2 packet
@@ -543,7 +543,7 @@ The number of octets includes IP header(s) and IP payload.",octets,,,[RFC5102],0
 135,droppedPacketTotalCount,unsigned64,totalCounter,current,"The number of packets of this Flow dropped by packet
 treatment since the Metering Process
 (re-)initialization for this Observation Point.",packets,,,[RFC5102],0,2013-02-18
-136,flowEndReason,unsigned8,identifier,current,The reason for Flow termination. Values are listed in the flowEndReason registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-flow-end-reason].,,,,[RFC5102],0,2013-02-18
+136,flowEndReason,unsigned8,identifier,current,The reason for Flow termination. Values are listed in the flowEndReason registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-flow-end-reason].,,,,[RFC5102],0,2013-02-18
 137,commonPropertiesId,unsigned64,identifier,current,"An identifier of a set of common properties that is
 unique per Observation Domain and Transport Session.
 Typically, this Information Element is used to link to
@@ -705,19 +705,19 @@ ICMP code field.",[RFC5102],0,2013-02-18
 180,udpSourcePort,unsigned16,identifier,current,The source port identifier in the UDP header.,,,"See [RFC768] for the definition of the UDP
 source port field.
 Additional information on defined UDP port numbers can be found at
-[http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 181,udpDestinationPort,unsigned16,identifier,current,The destination port identifier in the UDP header.,,,"See [RFC768] for the definition of the UDP
 destination port field.
 Additional information on defined UDP port numbers can be found at
-[http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 182,tcpSourcePort,unsigned16,identifier,current,The source port identifier in the TCP header.,,,"See [RFC793] for the definition of the TCP
 source port field.
 Additional information on defined TCP port numbers can be found at
-[http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 183,tcpDestinationPort,unsigned16,identifier,current,The destination port identifier in the TCP header.,,,"See [RFC793] for the definition of the TCP
 destination port field.
 Additional information on defined TCP port numbers can be found at
-[http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+[https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 184,tcpSequenceNumber,unsigned32,,current,The sequence number in the TCP header.,,,"See [RFC793] for the definition of the TCP
 sequence number.",[RFC5102],0,2013-02-18
 185,tcpAcknowledgementNumber,unsigned32,,current,The acknowledgement number in the TCP header.,,,"See [RFC793] for the definition of the TCP
@@ -768,7 +768,7 @@ extension header or of the following IP payload.
 Valid values are defined in the IANA
 Protocol Numbers registry.",,,"See [RFC8200] for the definition of the IPv6
 Next Header field.
-See the list of protocol numbers assigned by IANA at [http://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
+See the list of protocol numbers assigned by IANA at [https://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
 194,mplsPayloadLength,unsigned32,,current,The size of the MPLS packet without the label stack.,octets,,"See [RFC3031] for the specification of MPLS
 packets.
 See [RFC3032] for the specification of the
@@ -951,7 +951,7 @@ The mapping is illustrated by the figure below. 0      1      2      3      4   
    ...  ...   ...     Further options numbers
                       may be assigned by IANA",,,"See [RFC791] for the definition of IPv4
 options.
-See the list of IPv4 option numbers assigned by IANA at [http://www.iana.org/assignments/ip-parameters].
+See the list of IPv4 option numbers assigned by IANA at [https://www.iana.org/assignments/ip-parameters].
 The diagram provided in [RFC5102] is incorrect.  
 The diagram in this registry is taken from Errata 1737. See [RFC Errata 1737] .",[RFC5102],0,2013-02-18
 209,tcpOptions,unsigned64,flags,current,"TCP options in packets of this Flow.
@@ -977,7 +977,7 @@ TCP option numbers are maintained by IANA. 0     1     2     3     4     5     6
 ... |  63 |  62 |  61 |  60 |  59 |  58 |  57 |  56 |
     +-----+-----+-----+-----+-----+-----+-----+-----+",,,"See [RFC793] for the definition of TCP
 options.
-See the list of TCP option numbers assigned by IANA at [http://www.iana.org/assignments/tcp-parameters].
+See the list of TCP option numbers assigned by IANA at [https://www.iana.org/assignments/tcp-parameters].
 The diagram provided in [RFC5102] is incorrect.  
 The diagram in this registry is taken from Errata 1739. See [RFC Errata 1739].",[RFC5102],0,2013-02-18
 210,paddingOctets,octetArray,default,current,"The value of this Information Element is always a sequence of
@@ -1015,7 +1015,7 @@ header of the packet.",,,"See [RFC791] for the specification of the IPv4
 protocol field.
 See [RFC8200] for the specification of the
 IPv6 protocol field.
-See the list of protocol numbers assigned by IANA at [http://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
+See the list of protocol numbers assigned by IANA at [https://www.iana.org/assignments/protocol-numbers].",[RFC5102],0,2013-02-18
 216,collectorTransportPort,unsigned16,identifier,current,"The destination port identifier to which the Exporting
 Process sends Flow information.  For the transport protocols
 UDP, TCP, and SCTP, this is the destination port number.
@@ -1025,7 +1025,7 @@ destination port field.
 See [RFC793] for the definition of the TCP
 destination port field.
 See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
-found at [http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 217,exporterTransportPort,unsigned16,identifier,current,"The source port identifier from which the Exporting
 Process sends Flow information.  For the transport protocols
 UDP, TCP, and SCTP, this is the source port number.
@@ -1037,7 +1037,7 @@ source port field.
 See [RFC793] for the definition of the TCP
 source port field.
 See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
-found at [http://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
+found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 218,tcpSynTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
 TCP ""Synchronize sequence numbers"" (SYN) flag set.",packets,,"See [RFC793] for the definition of the TCP SYN
 flag.",[RFC5102],0,2013-02-18
@@ -1096,19 +1096,19 @@ source port field.  See [RFC4960] for the definition of
 SCTP.     
 See [RFC3022] for the definition of NAPT.  See [RFC3234] for the definition of middleboxes. 
 Additional information on defined UDP and TCP port numbers can 
-be found at [http://www.iana.org/assignments/service-names-port-numbers].",[ipfix-iana_at_cisco.com],0,2013-02-18
+be found at [https://www.iana.org/assignments/service-names-port-numbers].",[ipfix-iana_at_cisco.com],0,2013-02-18
 229,natOriginatingAddressRealm,unsigned8,identifier,current,"Indicates whether the session was created because traffic 
 originated in the private or public address realm. 
 postNATSourceIPv4Address, postNATDestinationIPv4Address, 
 postNAPTSourceTransportPort, and 
 postNAPTDestinationTransportPort are qualified with the address 
-realm in perspective. Values are listed in the natOriginatingAddressRealm registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-originating-address-realm].",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.com],1,2014-08-13
+realm in perspective. Values are listed in the natOriginatingAddressRealm registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-originating-address-realm].",,1-2,See [RFC3022] for the definition of NAT.,[ipfix-iana_at_cisco.com],1,2014-08-13
 230,natEvent,unsigned8,identifier,current,"This Information Element identifies a NAT event. This IE identifies 
 the type of a NAT event. Examples of NAT events include, but are not 
 limited to, NAT translation create, NAT translation delete, Threshold 
 Reached, or Threshold Exceeded, etc. Values for this Information 
 Element are listed in the ""NAT Event Type"" registry, see 
-[http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-event-type].",,,"See [RFC3022] for the definition of NAT.  See 
+[https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-event-type].",,,"See [RFC3022] for the definition of NAT.  See 
 [RFC3234] for the definition of middleboxes.  
 See [RFC8158] 
 for the definitions of values 4-16.",[RFC8158],2,2017-03-15
@@ -1120,7 +1120,7 @@ the life of the session.",octets,,"See #298, initiatorPackets.",[ipfix-iana_at_c
 responder since the previous report. The responder is the device 
 which replies to the initiator, and remains the same for the life 
 of the session.",octets,,"See #299, responderPackets.",[ipfix-iana_at_cisco.com],1,2014-08-13
-233,firewallEvent,unsigned8,,current,Indicates a firewall event. Allowed values are listed in the firewallEvent registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-firewall-event].,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
+233,firewallEvent,unsigned8,,current,Indicates a firewall event. Allowed values are listed in the firewallEvent registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-firewall-event].,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 234,ingressVRFID,unsigned32,,current,"An unique identifier of the VRFname where the packets of this 
 flow are being received.  This identifier is unique per Metering 
 Process",,,,[ipfix-iana_at_cisco.com],0,2013-02-18
@@ -1149,7 +1149,7 @@ to all flows within an Observation Domain or from an Exporting
 Process, the Option SHOULD be sent reliably.  If reliable transport is
 not available (i.e., when using UDP), this Information Element SHOULD
 appear in each Flow Record.  Values are listed in 
-the biflowDirection registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-biflow-direction].",,,,[RFC5103],0,2013-02-18
+the biflowDirection registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-biflow-direction].",,,,[RFC5103],0,2013-02-18
 240,ethernetHeaderLength,unsigned8,quantity,current,"The difference between the length of an Ethernet frame (minus the 
 FCS) and the length of its MAC Client Data section (including any 
 padding) as defined in section 3.1 of [IEEE.802-3.2005].  It does 
@@ -1198,7 +1198,7 @@ MEF16 (Ethernet Local Management Interface)",[ipfix-iana_at_cisco.com],0,2013-02
 pseudoWireType, identifies the Pseudo Wire (PW) as defined in [RFC8077].",,,See [RFC8077] for pseudowire definitions.,[ipfix-iana_at_cisco.com],0,2013-02-18
 250,pseudoWireType,unsigned16,identifier,current,"The value of this information element identifies the type of MPLS 
 Pseudo Wire (PW) as defined in [RFC4446].",,,"See [RFC4446] for the pseudowire type definition, and 
-[http://www.iana.org/assignments/pwe3-parameters] for the IANA 
+[https://www.iana.org/assignments/pwe3-parameters] for the IANA 
 Pseudowire Types registry.",[ipfix-iana_at_cisco.com],0,2013-02-18
 251,pseudoWireControlWord,unsigned32,identifier,current,"The 32-bit Preferred Pseudo Wire (PW) MPLS Control Word as 
 defined in Section 3 of [RFC4385].",,,"See [RFC4385] for the Pseudo Wire Control Word 
@@ -1377,7 +1377,7 @@ element(s) reliably within this SCTP stream.  A value of
 'False' means that the Exporting Process MAY send any 
 Data Records associated with the element(s) unreliably 
 within this SCTP stream.",,,,[RFC6526],1,2014-02-03
-277,observationPointType,unsigned8,identifier,current,Type of observation point. Values are listed in the observationPointType registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-observation-point-type].,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
+277,observationPointType,unsigned8,identifier,current,Type of observation point. Values are listed in the observationPointType registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-observation-point-type].,,,,[ipfix-iana_at_cisco.com],0,2013-02-18
 278,newConnectionDeltaCount,unsigned32,deltaCounter,current,"This information element counts the number of TCP or UDP
 connections which were opened during the observation period. The
 observation period may be specified by the flow start and end timestamps.",,,,[ipfix-iana_at_cisco.com],1,2014-08-13
@@ -1501,7 +1501,7 @@ to a referenced Information Element within a referenced Template.
 Each technique may be applicable only to certain Information
 Elements and recommended only for certain Information Elements. 
 Values are listed in the anonymizationTechnique registry. See 
-[http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-anonymization-technique].",,,,[RFC6235],0,2013-02-18
+[https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-anonymization-technique].",,,,[RFC6235],0,2013-02-18
 287,informationElementIndex,unsigned16,identifier,current,"A zero-based index of an Information Element
 referenced by informationElementId within a Template referenced by
 templateId; used to disambiguate scope for templates containing
@@ -1528,7 +1528,7 @@ definition of ""validity states"" and
 for the encoding of those ""validity states"".",[ipfix-iana_at_cisco.com],0,2013-02-18
 295,IPSecSPI,unsigned32,identifier,current,IPSec Security Parameters Index (SPI).,,,See [RFC2401] for the definition of SPI.,[ipfix-iana_at_cisco.com],0,2013-02-18
 296,greKey,unsigned32,identifier,current,"GRE key, which is used for identifying an individual traffic flow within a tunnel.",,,See [RFC1701] for the definition of GRE and the GRE Key.,[ipfix-iana_at_cisco.com],0,2013-02-18
-297,natType,unsigned8,identifier,current,Values are listed in the natType registry. See [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-type].,,,"See [RFC3022] for the definition of NAT.
+297,natType,unsigned8,identifier,current,Values are listed in the natType registry. See [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-type].,,,"See [RFC3022] for the definition of NAT.
 See [RFC1631] for the definition of NAT44.
 See [RFC6144] for the definition of NAT64.
 See [RFC6146] for the definition of NAT46.
@@ -1564,7 +1564,7 @@ the information model document.  The names of these Information
 Elements are listed for each method identifier. Further method identifiers may be added to the list below.  It
 might be necessary to define new Information Elements to specify
 their parameters. The following packet selection methods identifiers are defined
-here: [http://www.iana.org/assignments/psamp-parameters] There is a broad variety of possible parameters that could be used
+here: [https://www.iana.org/assignments/psamp-parameters] There is a broad variety of possible parameters that could be used
 for Property match Filtering (5) but currently there are no agreed
 parameters specified.",,,,[RFC5477],0,2013-02-18
 305,samplingPacketInterval,unsigned32,quantity,current,"This Information Element specifies the number of packets that are
@@ -1993,7 +1993,7 @@ the purpose of the flow selection techniques described in this
 document is the improvement of measurement functions as defined in
 the Scope (Section 1).  
 The Intermediate Flow Selection Process Techniques
-identifiers are defined at [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-flowselectoralgorithm].",,,,[RFC7014],0,2013-06-07
+identifiers are defined at [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-flowselectoralgorithm].",,,,[RFC7014],0,2013-06-07
 391,flowSelectedOctetDeltaCount,unsigned64,deltaCounter,current,"This Information Element specifies the volume in octets of all
 Flows that are selected in the Intermediate Flow Selection Process
 since the previous report.",octets,,,[RFC7014],1,2014-08-13
@@ -2389,8 +2389,8 @@ of this field is limited to 10 characters, UTF-8 encoded.",,,,[Felix_Erlacher],0
     realm where the packet is originated from or destined to.  The
     detailed definition is in the internal address realm as specified
     above.",,,See [RFC791] for the definition of the IPv4 source address field.  See [RFC3022] for the definition of NAT.  See [RFC3234] for the definition of middleboxes.,[RFC8158],0,2017-03-15
-466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT Quota Exceeded event. Values for this Information Element are listed in the ""NAT Quota Exceeded Event Type"" registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event].",,,See [RFC791] for the definition of the IPv4 source address field.  See [RFC3022] for the definition of NAT.  See [RFC3234] for the definition of middleboxes.,[RFC8158],0,2017-03-15
-467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT Threshold event. Values for this Information Element are listed in the ""NAT Threshold Event Type"" registry, see [http://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event].",,,See [RFC791] for the definition of the IPv4 source address field.  See [RFC3022] for the definition of NAT.  See [RFC3234] for the definition of middleboxes.,[RFC8158],0,2017-03-15
+466,natQuotaExceededEvent,unsigned32,identifier,current,"This Information Element identifies the type of a NAT Quota Exceeded event. Values for this Information Element are listed in the ""NAT Quota Exceeded Event Type"" registry, see [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-quota-exceeded-event].",,,See [RFC791] for the definition of the IPv4 source address field.  See [RFC3022] for the definition of NAT.  See [RFC3234] for the definition of middleboxes.,[RFC8158],0,2017-03-15
+467,natThresholdEvent,unsigned32,identifier,current,"This Information Element identifies a type of a NAT Threshold event. Values for this Information Element are listed in the ""NAT Threshold Event Type"" registry, see [https://www.iana.org/assignments/ipfix/ipfix.xhtml#ipfix-nat-threshold-event].",,,See [RFC791] for the definition of the IPv4 source address field.  See [RFC3022] for the definition of NAT.  See [RFC3234] for the definition of middleboxes.,[RFC8158],0,2017-03-15
 468,httpUserAgent,string,default,current,The HTTP User-Agent header field as defined in section 5.5.3 of [RFC7231]. Encoded in UTF-8.,,,[RFC7231],[Andrew_Feren],0,2017-04-19
 469,httpContentType,string,default,current,The HTTP Content-Type header field as defined in section 3.1.1.5 of [RFC7231]. Encoded in UTF-8.,,,[RFC7231],[Andrew_Feren],0,2017-04-19
 470,httpReasonPhrase,string,default,current,The HTTP reason phrase as defined in section 6.1 of of [RFC7231].,,,[RFC7231],[Felix_Erlacher],0,2017-06-19

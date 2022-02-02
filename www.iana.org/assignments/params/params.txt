@@ -1,10 +1,12 @@
+   Internet Assigned Numbers Authority
+
                                                   Uniform Resource Name (URN) Namespace for IETF Use
 
    Created
            2003-05-19
 
    Last Updated
-           2021-12-14
+           2022-01-28
 
    Note
 
@@ -72,7 +74,7 @@ IETF URN Sub-namespace for Registered Protocol Parameter Identifiers
    scim                            [RFC7643]              [https://www.iana.org/assignments/scim]
    tzdist                          [RFC7808]              [https://www.iana.org/assignments/tzdist-identifiers]
    abfab                           [RFC7833]              [https://www.iana.org/assignments/abfab-parameters]
-   push                            [RFC8030]              [http://www.iana.org/assignments/webpush-parameters]
+   push                            [RFC8030]              [https://www.iana.org/assignments/webpush-parameters]
    restconf                        [RFC8040]              [https://www.iana.org/assignments/restconf-capability-urns]
    mud                             [RFC8520]              [https://www.iana.org/assignments/mud]
    rolie                           [RFC8322]              [https://www.iana.org/assignments/rolie]
@@ -80,3 +82,5 @@ IETF URN Sub-namespace for Registered Protocol Parameter Identifiers
    jmap                            [RFC8620, Section 9.4] [https://www.iana.org/assignments/jmap]
    capport:unrestricted            [RFC8910]              [RFC8910]
    trans                           [RFC9162]              [https://www.iana.org/assignments/trans]
+
+   Licensing Terms

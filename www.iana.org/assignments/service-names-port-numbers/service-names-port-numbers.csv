@@ -8841,7 +8841,7 @@ fmp,4745,tcp,Funambol Mobile Push,[Andrea_Gazzaniga],[Andrea_Gazzaniga],2007-01,
 fmp,4745,udp,Funambol Mobile Push,[Andrea_Gazzaniga],[Andrea_Gazzaniga],2007-01,,,,,
 ,4746,tcp,Reserved,,,,,,,,
 intelliadm-disc,4746,udp,IntelliAdmin Discovery,[IntelliAdmin_LLC],[Steve_Wiseman],2016-11-18,,,,,
-buschtrommel,4747,udp,peer-to-peer file exchange protocol,[None],[Tobias_Sturm],2013-01-14,,,,,
+buschtrommel,4747,udp,peer-to-peer file exchange protocol,[Tobias_Sturm],[Tobias_Sturm],2013-01-14,,,,,
 ,4747,tcp,Reserved,,,,,,,,
 ,4748-4748,,Unassigned,,,,,,,,
 profilemac,4749,tcp,Profile for Mac,[David_Sinclair],[David_Sinclair],2006-05,,,,,
@@ -8994,7 +8994,7 @@ bones,4914,udp,Bones Remote Control,[Andreas_Foedrowitz],[Andreas_Foedrowitz],20
 frcs,4915,tcp,Fibics Remote Control Service,[Ken_Lagarec],[Ken_Lagarec],2009-04-17,,,,,
 ,4915,udp,Reserved,,,,,,,,
 ,4916-4935,,Unassigned,,,,,,,,
-an-signaling,4936,udp,Signal protocol port for autonomic networking,[Cisco_systems_3],[Toerless_Eckert_2],2014-06-06,,,,,
+an-signaling,4936,udp,Signal protocol port for autonomic networking,[Cisco_Systems_3],[Toerless_Eckert_2],2014-06-06,,,,,
 ,4936,tcp,Reserved,,,,,,,,
 ,4937,tcp,Reserved,,,,,,,,
 atsc-mh-ssc,4937,udp,ATSC-M/H Service Signaling Channel,[Jerry_Whitaker],[Jerry_Whitaker],2008-10-27,,,,,
@@ -11222,7 +11222,7 @@ nvme-disc,8009,tcp,NVMe over Fabrics Discovery Service,[NVM_Express_Inc],[Amber_
 ,8011-8014,,Unassigned,,,,,,,,
 cfg-cloud,8015,tcp,Configuration Cloud Service,[admin_at_cfg_cloud],[Goksel_Darcan],2019-01-09,,,,,
 ,8015,udp,Reserved,,,,,,,,
-ads-s,8016,tcp,Beckhoff Automation Device Specification,[Beckhoff_Automation_GmbH_Co_KG],[Henning_Mersch_2],2019-02-28,,,,,
+ads-s,8016,tcp,Beckhoff Automation Device Specification,[Beckhoff_Automation_GmbH_Co_KG],[Henning_Mersch],2019-02-28,,,,,
 ,8016,udp,Reserved,,,,,,,,
 ,8017,tcp,Reserved,,,,,,,,
 cisco-cloudsec,8017,udp,Cisco Cloudsec Dataplane Port Number,[Cisco_Systems_Inc],[Govind_Sharma],2021-03-18,,,,,
@@ -11511,7 +11511,10 @@ espeech-rtp,8417,udp,eSpeech RTP Protocol,[Scott_Tarone],[Scott_Tarone],2003-04,
 ,8418-8422,,Unassigned,,,,,,,,
 aritts,8423,tcp,Aristech text-to-speech server,[Aristech_GmbH],[Mirko_Hering],2017-03-30,,,,,
 ,8423,udp,Reserved,,,,,,,,
-,8424-8441,,Unassigned,,,,,,,,
+,8424-8431,,Unassigned,,,,,,,,
+pgbackrest,8432,tcp,PostgreSQL Backup,[David_Steele],[David_Steele],2022-01-26,,,,,
+,8432,udp,Reserved,,,,,,,,
+,8433-8441,,Unassigned,,,,,,,,
 cybro-a-bus,8442,tcp,CyBro A-bus Protocol,[Damir_Skrjanec],[Damir_Skrjanec],2007-05,,,,,
 cybro-a-bus,8442,udp,CyBro A-bus Protocol,[Damir_Skrjanec],[Damir_Skrjanec],2007-05,,,,,
 pcsync-https,8443,tcp,PCsync HTTPS,,,,,,,,
@@ -14740,8 +14743,8 @@ spearcat,,,sPearCat Host Discovery,[Pierre_Frisch_2],[Pierre_Frisch_2],,,,,,"Def
 spidap,,tcp,Sierra Photonics Inc. data protocol,[Sierra_Photonics_Inc],[Support_Staff],2011-10-20,,,,,Defined TXT keys: None
 spincrisis,,,Spin Crisis,[Sphera_Software],[Sphera_Software],,,,,,Defined TXT keys: None
 spiderelectron,,tcp,Binary message passing protocol,[Spider_Electron],[Kenny_Millar],2015-02-05,,,,,"Defined TXT keys: VER, STATUS"
-spl-itunes,,,launchTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys: None
-spr-itunes,,,netTunes,[David_Nanian_2],[David_Nanian_2],,,,,,Defined TXT keys: None
+spl-itunes,,,launchTunes,[David_Nanian],[David_Nanian],,,,,,Defined TXT keys: None
+spr-itunes,,,netTunes,[David_Nanian],[David_Nanian],,,,,,Defined TXT keys: None
 splashsync,,,SplashData Synchronization Service,[Justin_Cepelak],[Justin_Cepelak],,,,,,Defined TXT keys: Proprietary
 split-dns64,,tcp,DNS64 in split configuration,[Kasper_Dupont],[Kasper_Dupont],2021-10-19,,,,,Defined TXT keys: None
 spres,,tcp,SongPresenter,[Tobias_Hoffmann],[Tobias_Hoffmann],2012-10-09,,,,,"Defined TXT keys: version, name"

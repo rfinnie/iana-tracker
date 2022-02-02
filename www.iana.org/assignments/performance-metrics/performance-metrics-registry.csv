@@ -8,7 +8,7 @@ Identifier,Name,URI,Description,Reference,Change Controller,Version
 2,RTLoss_Active_IP-UDP-Periodic_RFC8912sec4_Percent_LossRatio,RTLoss_Active_IP-UDP-Periodic_RFC8912sec4_Percent_LossRatio,"This metric assesses the loss ratio of a stream of packets
         exchanged between two hosts (which are the two measurement points).
         The output is the round-trip loss ratio for all successfully
-        exchanged packets expressed as a percentage.",[RFC8912],IETF,1.0
+        exchanged packets expressed as a percentage.",[RFC8912][RFC Errata 6758],IETF,1.0
 3,OWPDV_Active_IP-UDP-Periodic_RFC8912sec5_Seconds_95Percentile,OWPDV_Active_IP-UDP-Periodic_RFC8912sec5_Seconds_95Percentile,"This metric assesses packet delay variation with respect to the minimum
         delay observed on the periodic stream. The output is expressed as
         the 95th percentile of the packet delay variation distribution.",[RFC8912],IETF,1.0
@@ -43,7 +43,7 @@ Identifier,Name,URI,Description,Reference,Change Controller,Version
 11,OWLoss_Active_IP-UDP-Poisson-Payload250B_RFC8912sec7_Percent_LossRatio,OWLoss_Active_IP-UDP-Poisson-Payload250B_RFC8912sec7_Percent_LossRatio,"This metric assesses the loss ratio of a stream of packets
         exchanged between two hosts (which are the two measurement points).
         The output is the one-way loss ratio for all transmitted
-        packets expressed as a percentage.",[RFC8912],IETF,1.0
+        packets expressed as a percentage.",[RFC8912][RFC Errata 6758],IETF,1.0
 12,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFC8912sec8_Seconds_95Percentile,OWDelay_Active_IP-UDP-Periodic20m-Payload142B_RFC8912sec8_Seconds_95Percentile,"This metric assesses the delay of a stream of packets
         exchanged between two hosts (or measurement points) and reports the
         95Percentile one-way delay for all successfully exchanged packets
@@ -67,14 +67,14 @@ Identifier,Name,URI,Description,Reference,Change Controller,Version
 17,OWLoss_Active_IP-UDP-Periodic20m-Payload142B_RFC8912sec8_Percent_LossRatio,OWLoss_Active_IP-UDP-Periodic20m-Payload142B_RFC8912sec8_Percent_LossRatio,"This metric assesses the loss ratio of a stream of packets
         exchanged between two hosts (which are the two measurement points).
         The output is the one-way loss ratio for all transmitted
-        packets expressed as a percentage.",[RFC8912],IETF,1.0
+        packets expressed as a percentage.",[RFC8912][RFC Errata 6758],IETF,1.0
 18,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Mean,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Mean,This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points). The output is the round-trip delay for all successfully exchanged packets expressed as the Mean of their conditional delay distribution.,[RFC8912],IETF,1.0
 19,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Min,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Min,This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points). The output is the round-trip delay for all successfully exchanged packets expressed as the Min of their conditional delay distribution.,[RFC8912],IETF,1.0
 20,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Max,RTDelay_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Seconds_Max,This metric assesses the delay of a stream of ICMP packets exchanged between two hosts (which are the two measurement points). The output is the round-trip delay for all successfully exchanged packets expressed as the Max of their conditional delay distribution.,[RFC8912],IETF,1.0
 21,RTLoss_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Percent_LossRatio,RTLoss_Active_IP-ICMP-SendOnRcv_RFC8912sec9_Percent_LossRatio,"This metric assesses the loss ratio of a stream of ICMP
         packets exchanged between two hosts (which are the two measurement
         points). The output is the round-trip loss ratio for all
-        transmitted packets expressed as a percentage.",[RFC8912],IETF,1.0
+        transmitted packets expressed as a percentage.",[RFC8912][RFC Errata 6758],IETF,1.0
 22,RTDelay_Passive_IP-TCP_RFC8912sec10_Seconds_Mean,RTDelay_Passive_IP-TCP_RFC8912sec10_Seconds_Mean,"This metric assesses the round-trip delay of TCP packets constituting a single connection, exchanged between two hosts. We consider the measurement of round-trip delay based on a single Observation Point (OP) [RFC7011] somewhere in the network. The output is the round-trip delay for all successfully exchanged packets expressed as the Mean of their conditional delay distribution.",[RFC8912],IETF,1.0
 23,RTDelay_Passive_IP-TCP_RFC8912sec10_Seconds_Min,RTDelay_Passive_IP-TCP_RFC8912sec10_Seconds_Min,"This metric assesses the round-trip delay of TCP packets
         constituting a single connection, exchanged between two hosts.  We

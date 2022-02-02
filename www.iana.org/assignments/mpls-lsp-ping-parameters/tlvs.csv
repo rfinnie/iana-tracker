@@ -1,30 +1,30 @@
 Type,TLV Name,Reference,Sub-TLV Registry
 0,Reserved,[RFC9041],
-1,Target FEC Stack,[RFC8029],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+1,Target FEC Stack,[RFC8029],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
 2,Downstream Mapping (DEPRECATED),[RFC8029],No Sub-TLVs
 3,Pad,[RFC8029],No Sub-TLVs
 4,LSR Capability,[RFC8611],No Sub-TLVs
 5,Vendor Enterprise Number,[RFC8029],No Sub-TLVs
-6,Detailed Interface and Label Stack,[RFC8611],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-6]
+6,Detailed Interface and Label Stack,[RFC8611],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-6]
 7,Interface and Label Stack,[RFC8029],No Sub-TLVs
 8,Unassigned,,
-9,Errored TLVs,[RFC8029],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-9]
+9,Errored TLVs,[RFC8029],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-9]
 10,Reply TOS Byte,[RFC8029],No Sub-TLVs
-11,P2MP Responder Identifier,[RFC6425],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-11]
+11,P2MP Responder Identifier,[RFC6425],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-11]
 12,Echo Jitter,[RFC6425],No Sub-TLVs
 13,Source ID,[RFC6426],No Sub-TLVs
 14,Destination ID,[RFC6426],No Sub-TLVs
 15,BFD Discriminator,[RFC5884],No Sub-TLVs
-16,Reverse-path Target FEC Stack,[RFC6426],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+16,Reverse-path Target FEC Stack,[RFC6426],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
 17-19,Unassigned,,
-20,Downstream Detailed Mapping,[RFC8029],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-20]
-21,Reply Path,[RFC7110],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
+20,Downstream Detailed Mapping,[RFC8029],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-20]
+21,Reply Path,[RFC7110],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-1-16-21]
 22,Reply TC,[RFC7110],No Sub-TLVs
-23,Proxy Echo Parameters,[RFC7555],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-23]
+23,Proxy Echo Parameters,[RFC7555],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-23]
 24,Reply-to Address,[RFC7555],No Sub-TLVs
 25,Upstream Neighbor Address,[RFC7555],No Sub-TLVs
 26,Downstream Neighbor Address,[RFC7555],No Sub-TLVs
-27,MPLS OAM Functions,[RFC7759],[http://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-27]
+27,MPLS OAM Functions,[RFC7759],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-27]
 28,"EGRESS TLV (TEMPORARY - registered 2021-11-08, expires 2022-11-08)",[draft-ietf-mpls-egress-tlv-for-nil-fec-01],No Sub-TLVs
 29-31739,Unassigned,,
 31740-31743,Reserved for Experimental Use,[RFC9041],"Not to be assigned. This range is for TLVs that require an error message if not recognized. [RFC9041, Section 3.1]"

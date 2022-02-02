@@ -3,7 +3,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2022-01-04
+           2022-01-31
 
    Note
 
@@ -4773,7 +4773,7 @@ SMI Network Management Private Enterprise Codes (PEN)
 
    Note
 
- Registry List: [http://www.iana.org/assignments/enterprise-numbers]
+ Registry List: [https://www.iana.org/assignments/enterprise-numbers]
 
    Registry is empty.
 
@@ -4970,7 +4970,6 @@ SMI Security for Cryptographic Algorithms
    [Ron_Bergman]          Ron Bergman                         mailto:Ron.Bergman&hitachi-hkis.com               2001-06
    [Ron_Carmona]          Ron Carmona                         mailto:RCarmona&micom.com                         1998-04
    [Ross_Harvey]          Ross Harvey                         mailto:ross&teraflop.com                          1998-02
-   [Russ_Housley]         Russ Housley                        mailto:housley&vigilsec.com                       1997-01
    [Sandeep_Raghavendra]  Sandeep Raghavendra Rao             mailto:rsandeep&cisco.com                         2003-08
    [Satish_Popat]         Satish Popat                        mailto:satish&terminus.ericsson.se                1995-03
    [Sean_Siler]           Sean Siler                          mailto:sean.siler&microsoft.com                   2009-02-09

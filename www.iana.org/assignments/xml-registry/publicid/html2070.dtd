@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-01-07</dd>
+        <dd>2022-02-01</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2232,7 +2232,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-igmp-mld-snooping.txt">ns/yang/ietf-igmp-mld-snooping.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-igmp-mld-snooping-yang-18">RFC-ietf-pim-igmp-mld-snooping-yang-18</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9166">RFC9166</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-inet-types</td>

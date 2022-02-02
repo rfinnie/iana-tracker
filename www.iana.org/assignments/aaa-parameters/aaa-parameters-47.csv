@@ -1,5 +1,5 @@
 Code Value,Name,Reference
-0-255,RADIUS compatability codes,[http://www.iana.org/assignments/radius-types]
+0-255,RADIUS compatability codes,[https://www.iana.org/assignments/radius-types]
 256,Unassigned,
 257,CER / CEA,[RFC6733]
 258,RAR / RAA,[RFC6733]

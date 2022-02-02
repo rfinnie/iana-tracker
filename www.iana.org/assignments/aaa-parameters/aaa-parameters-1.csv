@@ -1,5 +1,5 @@
 AVP Code,Attribute Name,Reference
-1-255,Radius attributes,[http://www.iana.org/assignments/radius-types]
+1-255,Radius attributes,[https://www.iana.org/assignments/radius-types]
 256,Unassigned,
 257,Host-IP-Address,[RFC6733]
 258,Auth-Application-Id,[RFC6733]

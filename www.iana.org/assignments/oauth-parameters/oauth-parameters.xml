@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2022-01-06</updated>
+  <updated>2022-01-31</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -605,12 +605,13 @@ described in <xref type="rfc" data="rfc6749"/>.
       <controller><xref type="person" data="ETSI"/></controller>
       <xref type="uri" data="https://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/022/02.07.01_60/gs_NFV-SEC022v020701p.pdf">ETSI GS NFV-SEC 022 V2.7.1</xref>
     </record>
-    <record date="2020-09-08">
+    <record date="2020-09-08" updated="2022-01-26">
       <name>iss</name>
-      <usage>authorization request</usage>
+      <usage>authorization request, authorization response</usage>
       <controller>IETF</controller>
-      <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.1</xref>
+      <xref type="draft" data="RFC-ietf-oauth-iss-auth-resp-05">RFC-ietf-oauth-iss-auth-resp-05, Section 2</xref>
       <xref type="rfc" data="rfc9101"/>
+      <xref type="rfc" data="rfc7519">RFC7519, Section 4.1.1</xref>
     </record>
     <record date="2020-09-08">
       <name>sub</name>
@@ -1776,7 +1777,15 @@ described in <xref type="rfc" data="rfc8414"/>.
       <name>ETSI</name>
       <uri>mailto:pnns&amp;etsi.org</uri>
       <updated>2019-07-22</updated>
-    </person>  
+    </person>
+    <person id="IESG">
+      <name>Internet Engineering Steering Group</name>
+      <uri>mailto:iesg&amp;ietf.org</uri>
+    </person>
+    <person id="IETF">
+      <name>Internet Engineering Task Force</name>
+      <uri>mailto:ietf&amp;ietf.org</uri>
+    </person>
     <person id="Kantara_UMA_WG">
       <name>Kantara Initiative User-Managed Access Work Group</name>
       <uri>mailto:staff&amp;kantarainitiative.org</uri>
