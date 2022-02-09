@@ -4,11 +4,9 @@ Value,Meaning,Reference,Notes
 2,BGP,"[RFC8029, Section 3.4.1.2]",
 3,LDP,"[RFC8029, Section 3.4.1.2]",
 4,RSVP-TE,"[RFC8029, Section 3.4.1.2]",
-5,OSPF,"[RFC8287, Section 6]","Will be updated to be used with OSPFv2
-        only when draft-ietf-mpls-lsp-ping-ospfv3-codepoint is approved as an
-        RFC"
+5,OSPF,"[RFC8287, Section 6]",To be used for OSPFv2 only.
 6,ISIS,"[RFC8287, Section 6]",
-7,"OSPFv3 (TEMPORARY - registered 2020-03-27, extension registered 2021-03-24, expires 2022-03-27)",[draft-ietf-mpls-lsp-ping-ospfv3-codepoint],
+7,OSPFv3,[RFC-ietf-mpls-lsp-ping-ospfv3-codepoint-06],
 8-250,Unassigned,,
 251-254,Reserved for Experimental Use,[RFC8287],
 255,Reserved,[RFC8287],

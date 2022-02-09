@@ -70,3 +70,5 @@ significance for all devices from the same
 enterprise.",3,[RFC6759]
 21,The Selector ID contains an application ID from the Qosmos ixEngine.,4,[Paul_Aitken][Qosmos]
 22,The Selector ID contains a protocol from the ntop nDPI engine.,2,[Paul_Aitken][https://www.ntop.org/products/deep-packet-inspection/ndpi]
+23,R&S ipoque DPI PACE2 engine,2,[Tim_Kittel][https://www.ipoque.com/products/dpi-engine-rs-pace-2-for-application-awareness]
+24,R&S ipoque DPI vPACE engine,2,[Tim_Kittel][https://www.ipoque.com/products/dpi-engine-rs-pace-2-for-application-awareness]

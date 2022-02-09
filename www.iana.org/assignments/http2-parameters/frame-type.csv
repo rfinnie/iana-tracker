@@ -1,18 +1,17 @@
 Code,Frame Type,Reference
-0x0,DATA,"[RFC7540, Section 6.1]"
-0x1,HEADERS,"[RFC7540, Section 6.2]"
-0x2,PRIORITY,"[RFC7540, Section 6.3]"
-0x3,RST_STREAM,"[RFC7540, Section 6.4]"
-0x4,SETTINGS,"[RFC7540, Section 6.5]"
-0x5,PUSH_PROMISE,"[RFC7540, Section 6.6]"
-0x6,PING,"[RFC7540, Section 6.7]"
-0x7,GOAWAY,"[RFC7540, Section 6.8]"
-0x8,WINDOW_UPDATE,"[RFC7540, Section 6.9]"
-0x9,CONTINUATION,"[RFC7540, Section 6.10]"
+0x0,DATA,"[RFC-ietf-httpbis-http2bis-07, Section 6.1]"
+0x1,HEADERS,"[RFC-ietf-httpbis-http2bis-07, Section 6.2]"
+0x2,PRIORITY,"[RFC-ietf-httpbis-http2bis-07, Section 6.3]"
+0x3,RST_STREAM,"[RFC-ietf-httpbis-http2bis-07, Section 6.4]"
+0x4,SETTINGS,"[RFC-ietf-httpbis-http2bis-07, Section 6.5]"
+0x5,PUSH_PROMISE,"[RFC-ietf-httpbis-http2bis-07, Section 6.6]"
+0x6,PING,"[RFC-ietf-httpbis-http2bis-07, Section 6.7]"
+0x7,GOAWAY,"[RFC-ietf-httpbis-http2bis-07, Section 6.8]"
+0x8,WINDOW_UPDATE,"[RFC-ietf-httpbis-http2bis-07, Section 6.9]"
+0x9,CONTINUATION,"[RFC-ietf-httpbis-http2bis-07, Section 6.10]"
 0xa,ALTSVC,"[RFC7838, Section 4]"
 0xb,Unassigned,
 0xc,ORIGIN,[RFC8336]
 0xd-0xf,Unassigned,
 0x10,PRIORITY_UPDATE,[RFC-ietf-httpbis-priority-12]
-0x11-0xef,Unassigned,
-0xf0-0xff,Reserved for Experimental Use,[RFC7540]
+0x11-0xff,Unassigned,

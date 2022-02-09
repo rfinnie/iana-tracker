@@ -1,5 +1,5 @@
 Value,Description,Reference
 0-5,Reserved,[RFC6255]
 6,Assigned,[RFC5050]
-7,Assigned,[RFC-ietf-dtn-bpbis-31]
+7,Assigned,[RFC9171]
 8-255,Unassigned,

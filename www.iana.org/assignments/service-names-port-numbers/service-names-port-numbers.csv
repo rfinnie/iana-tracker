@@ -19,7 +19,7 @@ echo,7,udp,Echo,[Jon_Postel],[Jon_Postel],,,,,,
 ,8,udp,Unassigned,,,,,,,,
 discard,9,tcp,Discard,[Jon_Postel],[Jon_Postel],,,,,,
 discard,9,udp,Discard,[Jon_Postel],[Jon_Postel],,,,,,
-discard,9,sctp,Discard,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,
+discard,9,sctp,Discard,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
 discard,9,dccp,Discard,[Eddie_Kohler],[Eddie_Kohler],,,[RFC4340],1145656131,,
 ,10,tcp,Unassigned,,,,,,,,
 ,10,udp,Unassigned,,,,,,,,
@@ -43,13 +43,13 @@ chargen,19,tcp,Character Generator,,,,,,,,
 chargen,19,udp,Character Generator,,,,,,,,
 ftp-data,20,tcp,File Transfer [Default Data],[Jon_Postel],[Jon_Postel],,,,,,
 ftp-data,20,udp,File Transfer [Default Data],[Jon_Postel],[Jon_Postel],,,,,,
-ftp-data,20,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,
+ftp-data,20,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
 ftp,21,tcp,File Transfer Protocol [Control],[Jon_Postel],[Jon_Postel],,,[RFC959],,,Defined TXT keys: u=<username> p=<password> path=<path>
 ftp,21,udp,File Transfer Protocol [Control],[Jon_Postel],[Jon_Postel],,,[RFC959],,,Defined TXT keys: u=<username> p=<password> path=<path>
-ftp,21,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,Defined TXT keys: u=<username> p=<password> path=<path>
+ftp,21,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password> path=<path>
 ssh,22,tcp,The Secure Shell (SSH) Protocol,,,,,[RFC4251],,,Defined TXT keys: u=<username> p=<password>
 ssh,22,udp,The Secure Shell (SSH) Protocol,,,,,[RFC4251],,,Defined TXT keys: u=<username> p=<password>
-ssh,22,sctp,SSH,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,Defined TXT keys: u=<username> p=<password>
+ssh,22,sctp,SSH,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password>
 telnet,23,tcp,Telnet,[Jon_Postel],[Jon_Postel],,,[RFC854],,,Defined TXT keys: u=<username> p=<password>
 telnet,23,udp,Telnet,[Jon_Postel],[Jon_Postel],,,[RFC854],,,Defined TXT keys: u=<username> p=<password>
 ,24,tcp,any private mail system,[Rick_Adams],[Rick_Adams],,,,,,
@@ -223,7 +223,7 @@ www-http,80,udp,World Wide Web HTTP,[Tim_Berners_Lee],[Tim_Berners_Lee],,,,,,"Th
       Such types should be advertised as their own logical service type with their
       own DNS-SD service type, for example, XUL (XML User Interface Language)
       transported over HTTP is advertised explicitly as DNS-SD service type ""xul-http""."
-http,80,sctp,HTTP,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
+http,80,sctp,HTTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
 ,81,,Unassigned,,,,2007-09-06,,,,
 xfer,82,tcp,XFER Utility,[Thomas_M_Smith],[Thomas_M_Smith],,,,,,
 xfer,82,udp,XFER Utility,[Thomas_M_Smith],[Thomas_M_Smith],,,,,,
@@ -436,7 +436,7 @@ nextstep,178,tcp,NextStep Window Server,[Leo_Hourvitz],[Leo_Hourvitz],,,,,,
 nextstep,178,udp,NextStep Window Server,[Leo_Hourvitz],[Leo_Hourvitz],,,,,,
 bgp,179,tcp,Border Gateway Protocol,[Kirk_Lougheed],[Kirk_Lougheed],,,,,,
 bgp,179,udp,Border Gateway Protocol,[Kirk_Lougheed],[Kirk_Lougheed],,,,,,
-bgp,179,sctp,BGP,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,
+bgp,179,sctp,BGP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
 ris,180,tcp,Intergraph,[Dave_Buehmann],[Dave_Buehmann],,,,,,
 ris,180,udp,Intergraph,[Dave_Buehmann],[Dave_Buehmann],,,,,,
 unify,181,tcp,Unify,[Daegis_Inc],[Chris_Anderson],,2012-07-31,,,,
@@ -879,7 +879,7 @@ This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 https,443,tcp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
 https,443,udp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
-https,443,sctp,HTTPS,[Randall_Stewart],[Randall_Stewart],,,[RFC4960],,,
+https,443,sctp,HTTPS,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
 snpp,444,tcp,Simple Network Paging Protocol,,,,,[RFC1568],,,
 snpp,444,udp,Simple Network Paging Protocol,,,,,[RFC1568],,,
 microsoft-ds,445,tcp,Microsoft-DS,[Pradeep_Bahl],[Pradeep_Bahl],,,,,,
@@ -8640,7 +8640,7 @@ msfrs,4554,tcp,MS FRS Replication,[Kev_George],[Kev_George],2006-09,,,,,
 msfrs,4554,udp,MS FRS Replication,[Kev_George],[Kev_George],2006-09,,,,,
 rsip,4555,tcp,RSIP Port,,,,,[RFC3103],,,
 rsip,4555,udp,RSIP Port,,,,,[RFC3103],,,
-dtn-bundle,4556,tcp,DTN Bundle TCP CL Protocol,[IESG],[IETF_Chair],,2021-02-22,[RFC-ietf-dtn-tcpclv4-28],,,
+dtn-bundle,4556,tcp,DTN Bundle TCP CL Protocol,[IESG],[IETF_Chair],,2021-02-22,[RFC9174],,,
 dtn-bundle,4556,udp,DTN Bundle UDP CL Protocol,,,2006-11,2014-02-21,[RFC7122],,,
 dtn-bundle,4556,dccp,DTN Bundle DCCP CL Protocol,,,2013-11-12,2014-02-21,[RFC7122],1685351985,,
 ,4557,tcp,Reserved,,,,,,,,
@@ -9734,7 +9734,7 @@ a3-sdunode,5604,udp,A3-SDUNode,[Mike_Dolan],[Mike_Dolan],,,,,,
 a4-sdunode,5605,tcp,A4-SDUNode,[Mike_Dolan],[Mike_Dolan],,,,,,
 a4-sdunode,5605,udp,A4-SDUNode,[Mike_Dolan],[Mike_Dolan],,,,,,
 ,5606-5617,,Unassigned,,,,,,,,
-efr,5618,tcp,Fiscal Registering Protocol,[efsta],[Alois_Reisinger],2013-08-13,,,,,
+efr,5618,tcp,Fiscal Registering Protocol,[efsta_IT_Services_GmbH],[Ernst_Bewersdorff],2013-08-13,2022-02-02,,,,
 ,5618,udp,Reserved,,,,,,,,
 ,5619-5626,,Unassigned,,,,,,,,
 ninaf,5627,tcp,Node Initiated Network Association Forma,[Thomas_Scholl],[Thomas_Scholl],2006-03,,,,,

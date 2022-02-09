@@ -1,5 +1,5 @@
 Chunk Flag Value,Chunk Flag Name,Reference
-0x01,T bit,[RFC4960]
+0x01,T bit,[RFC-ietf-tsvwg-rfc4960-bis-19]
 0x02,Unassigned,
 0x04,Unassigned,
 0x08,Unassigned,

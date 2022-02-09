@@ -15,6 +15,7 @@ dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-reso
 dnt-policy.txt,Electronic Frontier Foundation,[https://www.eff.org/dnt-policy],permanent,,2015-08-19,
 dots,IETF,[RFC9132],permanent,,2020-01-16,2021-06-11
 ecips,[Wei_Tang],[https://ecips.that.world/24-ECIPURI],provisional,,2019-04-10,
+enterprise-network-security,[ETSI_TC_CYBER],[ETSI TS 103 523-5 clause 4.3.4.3.4.2],permanent,,2022-02-07,
 enterprise-transport-security,[ETSI_TC_CYBER],[ETSI TS 103 523-3 clause 4.3.8.3],permanent,,2019-05-14,
 est,IETF,[RFC7030][RFC-ietf-ace-coap-est-18],permanent,,2013-08-16,2020-04-29
 genid,W3C,[RDF 1.1 Concepts and Abstract Syntax],permanent,,2012-11-15,
@@ -59,6 +60,7 @@ thread,[Thread_Group_Inc.],[https://www.threadgroup.org/support#specifications],
 time,[Poul-Henning_Kamp],[http://phk.freebsd.dk/time/20151129/],permanent,,2015-12-09,
 timezone,IESG,[RFC7808],permanent,,2015-08-03,
 tor-relay,[Tor_Project_Development_Mailing_List],"[The ""tor-relay"" Well-Known Resource Identifier]",provisional,,2020-10-06,
+trust.txt,JournalList.net,[https://journallist.net/reference-document-for-trust-txt-specifications],provisional,,2022-02-04,
 uma2-configuration,[Kantara_UMA_WG],"[UMA 2.0 Grant for OAuth 2.0, Section 2]",permanent,,2017-06-20,
 void,W3C,[http://www.w3.org/TR/void],permanent,,2011-05-11,
 webfinger,IETF,[RFC7033],permanent,"The query to the WebFinger resource will

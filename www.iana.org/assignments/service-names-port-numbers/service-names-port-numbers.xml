@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-01-31</updated>
+  <updated>2022-02-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -169,11 +169,11 @@ or prior to IANA registration.
     <description>Discard</description>
     <number>9</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>discard</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>Discard</description>
     <number>9</number>
   </record>
@@ -320,11 +320,11 @@ or prior to IANA registration.
     <description>File Transfer [Default Data]</description>
     <number>20</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ftp-data</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>FTP</description>
     <number>20</number>
   </record>
@@ -346,11 +346,11 @@ or prior to IANA registration.
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ftp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>FTP</description>
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
@@ -371,11 +371,11 @@ or prior to IANA registration.
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ssh</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>SSH</description>
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
@@ -1278,11 +1278,11 @@ common service discovery mechanisms.</note>
       own DNS-SD service type, for example, XUL (XML User Interface Language)
       transported over HTTP is advertised explicitly as DNS-SD service type "xul-http".</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>http</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>HTTP</description>
     <number>80</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
@@ -2688,11 +2688,11 @@ common service discovery mechanisms.</note>
     <description>Border Gateway Protocol</description>
     <number>179</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>bgp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>BGP</description>
     <number>179</number>
   </record>
@@ -5578,11 +5578,11 @@ common service discovery mechanisms.</note>
     <number>443</number>
     <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>https</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>HTTPS</description>
     <number>443</number>
   </record>
@@ -57954,7 +57954,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>DTN Bundle TCP CL Protocol</description>
-    <xref type="draft" data="RFC-ietf-dtn-tcpclv4-28"/>
+    <xref type="rfc" data="rfc9174"/>
     <number>4556</number>
   </record>
   <record date="2006-11" updated="2014-02-21">
@@ -65285,15 +65285,15 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5606-5617</number>
   </record>
-  <record date="2013-08-13">
+  <record date="2013-08-13" updated="2022-02-02">
     <name>efr</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="efsta"/>
+      <xref type="person" data="efsta_IT_Services_GmbH"/>
     </assignee>
     <description>Fiscal Registering Protocol</description>
     <number>5618</number>
-    <xref type="person" data="Alois_Reisinger"/>
+    <xref type="person" data="Ernst_Bewersdorff"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -99814,12 +99814,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:almira_niciu&amp;intuit.com</uri>
       <updated>2003-07</updated>
     </person>
-    <person id="Alois_Reisinger">
-      <name>Alois Reisinger</name>
-      <org>European Fiscal Standards Association</org>
-      <uri>mailto:alois.reisinger&amp;efsta.org</uri>
-      <updated>2013-08-13</updated>
-    </person>
     <person id="Alon_Kantor">
       <name>Alon Kantor</name>
       <uri>mailto:alonk&amp;checkpoint.com</uri>
@@ -105902,6 +105896,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:t.kemmer&amp;efkon.com</uri>
       <updated>2011-10-20</updated>
     </person>
+    <person id="efsta_IT_Services_GmbH">
+      <org>efsta IT Services GmbH</org>
+      <uri>mailto:admin&amp;efsta.eu</uri>
+      <updated>2022-02-02</updated>
+    </person>
     <person id="Eggert_Thorlacius">
       <name>Eggert Thorlacius</name>
       <uri>mailto:eggert&amp;menandmice.com</uri>
@@ -106333,6 +106332,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:epmd&amp;erix.ericsson.se</uri>
       <updated>2004-12</updated>
     </person>
+    <person id="Ernst_Bewersdorff">
+      <name>Ernst Bewersdorff</name>
+      <org>efsta IT Services GmbH</org>
+      <uri>mailto:e.bewersdorff&amp;efsta.eu</uri>
+      <updated>2022-02-02</updated>
+    </person>
     <person id="Erwin_Hogeweg">
       <name>Erwin Hogeweg</name>
       <uri>mailto:erwin&amp;airtech.demon.nl</uri>
@@ -106342,11 +106347,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>FEHCom</org>
       <uri>mailto:feh&amp;fehcom.de</uri>
       <updated>2015-01-09</updated>
-    </person>
-    <person id="efsta">
-      <org>European Fiscal Standards Association</org>
-      <uri>mailto:dot&amp;efsta.org</uri>
-      <updated>2013-08-13</updated>
     </person>
     <person id="Esko_Dijk">
       <name>Esko Dijk</name>
@@ -123747,8 +123747,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Yaakov_Stein">
       <name>Yaakov Stein</name>
-      <uri>mailto:yaakov_s&amp;rad.com</uri>
-      <updated>2016-09-21</updated>
+      <uri>mailto:yaakovjstein&amp;gmail.com</uri>
+      <updated>2022-02-04</updated>
     </person>
     <person id="Yacince_Felk">
       <name>Yacince Felk</name>

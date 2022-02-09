@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="ipfix">
 <title>IP Flow Information Export (IPFIX) Entities</title>
 <created>2007-05-10</created>
-<updated>2022-01-28</updated>
+<updated>2022-02-07</updated>
 
 <note><xref type="rfc" data="rfc7012"/> has obsoleted <xref type="rfc" data="rfc5102"/>. However, references to <xref type="rfc" data="rfc5102"/>
 remain as part of the historical record.</note>
@@ -273,7 +273,7 @@ See <xref type="rfc" data="rfc768"/> for the definition of the UDP
 source port field.
 See <xref type="rfc" data="rfc793"/> for the definition of the TCP
 source port field.
-See <xref type="rfc" data="rfc4960"/> for the definition of SCTP.
+See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of SCTP.
 </paragraph>
 <paragraph>
 Additional information on defined UDP and TCP port numbers can be
@@ -382,7 +382,7 @@ See <xref type="rfc" data="rfc768"/> for the definition of the UDP
 destination port field.
 See <xref type="rfc" data="rfc793"/> for the definition of the TCP
 destination port field.
-See <xref type="rfc" data="rfc4960"/> for the definition of SCTP.
+See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of SCTP.
 </paragraph>
 <paragraph>
 Additional information on defined UDP and TCP port numbers can be
@@ -4936,7 +4936,7 @@ See <xref type="rfc" data="rfc768"/> for the definition of the UDP
 destination port field.
 See <xref type="rfc" data="rfc793"/> for the definition of the TCP
 destination port field.
-See <xref type="rfc" data="rfc4960"/> for the definition of SCTP.
+See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of SCTP.
 </paragraph>
 <paragraph>
 Additional information on defined UDP and TCP port numbers can be
@@ -4973,7 +4973,7 @@ See <xref type="rfc" data="rfc768"/> for the definition of the UDP
 source port field.
 See <xref type="rfc" data="rfc793"/> for the definition of the TCP
 source port field.
-See <xref type="rfc" data="rfc4960"/> for the definition of SCTP.
+See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of SCTP.
 </paragraph>
 <paragraph>
 Additional information on defined UDP and TCP port numbers can be
@@ -5241,7 +5241,7 @@ passed the Observation Point.
 <paragraph>
 See <xref type="rfc" data="rfc768"/> for the definition of the UDP source port 
 field.  See <xref type="rfc" data="rfc793"/> for the definition of the TCP 
-source port field.  See <xref type="rfc" data="rfc4960"/> for the definition of 
+source port field.  See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of 
 SCTP.     
 See <xref type="rfc" data="rfc3022"/> for the definition of NAPT.  See <xref type="rfc" data="rfc3234"/> for the definition of middleboxes. 
 Additional information on defined UDP and TCP port numbers can 
@@ -5272,7 +5272,7 @@ packet passed the Observation Point.
 <paragraph>         
 See <xref type="rfc" data="rfc768"/> for the definition of the UDP source port 
 field.  See <xref type="rfc" data="rfc793"/> for the definition of the TCP 
-source port field.  See <xref type="rfc" data="rfc4960"/> for the definition of 
+source port field.  See <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/> for the definition of 
 SCTP.     
 See <xref type="rfc" data="rfc3022"/> for the definition of NAPT.  See <xref type="rfc" data="rfc3234"/> for the definition of middleboxes. 
 Additional information on defined UDP and TCP port numbers can 
@@ -12144,6 +12144,22 @@ enterprise.
 <xref type="uri" data="https://www.ntop.org/products/deep-packet-inspection/ndpi"/>
 </record>
 
+<record date="2022-02-04">
+<value>23</value>
+<description>R&amp;S ipoque DPI PACE2 engine</description>
+<length>2</length>
+<xref type="person" data="Tim_Kittel"/>
+<xref type="uri" data="https://www.ipoque.com/products/dpi-engine-rs-pace-2-for-application-awareness"/>
+</record>
+
+<record date="2022-02-04">
+<value>24</value>
+<description>R&amp;S ipoque DPI vPACE engine</description>
+<length>2</length>
+<xref type="person" data="Tim_Kittel"/>
+<xref type="uri" data="https://www.ipoque.com/products/dpi-engine-rs-pace-2-for-application-awareness"/>
+</record>
+
 </registry>
 
 
@@ -13622,6 +13638,12 @@ data type semantic is the default structured data type semantic.
 <uri>http://www.qosmos.com</uri>
 <updated>2017-02-21</updated>
 </person> 
+
+<person id="Tim_Kittel">
+  <name>Tim Kittel</name>
+  <uri>mailto:tim.kittel&amp;rohde-schwarz.com</uri>
+  <updated>2022-02-04</updated>
+  </person>
 
 <person id="Yaakov_J_Stein">
 <name>Yaakov (J) Stein</name>

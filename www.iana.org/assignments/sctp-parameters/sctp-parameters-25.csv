@@ -1,5 +1,5 @@
 Value,SCTP Payload Protocol Identifier,Reference,Date
-0,Reserved by SCTP,[RFC4960],
+0,Reserved by SCTP,[RFC-ietf-tsvwg-rfc4960-bis-19],
 1,IUA,[RFC4233],
 2,M2UA,[RFC3331],
 3,M3UA,[RFC4666],

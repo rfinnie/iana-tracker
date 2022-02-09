@@ -86,7 +86,7 @@ have 16-bit source port identifiers.",,,"See [RFC768] for the definition of the 
 source port field.
 See [RFC793] for the definition of the TCP
 source port field.
-See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
+See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 8,sourceIPv4Address,ipv4Address,default,current,The IPv4 source address in the IP packet header.,,,"See [RFC791] for the definition of the IPv4
 source address field.",[RFC5102],1,2014-02-03
@@ -108,7 +108,7 @@ that have 16-bit destination port identifiers.",,,"See [RFC768] for the definiti
 destination port field.
 See [RFC793] for the definition of the TCP
 destination port field.
-See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
+See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 12,destinationIPv4Address,ipv4Address,default,current,The IPv4 destination address in the IP packet header.,,,"See [RFC791] for the definition of the IPv4
 destination address field.",[RFC5102],1,2014-02-03
@@ -1024,7 +1024,7 @@ that have 16-bit source port identifiers.",,,"See [RFC768] for the definition of
 destination port field.
 See [RFC793] for the definition of the TCP
 destination port field.
-See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
+See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 217,exporterTransportPort,unsigned16,identifier,current,"The source port identifier from which the Exporting
 Process sends Flow information.  For the transport protocols
@@ -1036,7 +1036,7 @@ that use the same IP address.",,,"See [RFC768] for the definition of the UDP
 source port field.
 See [RFC793] for the definition of the TCP
 source port field.
-See [RFC4960] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
+See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 218,tcpSynTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
 TCP ""Synchronize sequence numbers"" (SYN) flag set.",packets,,"See [RFC793] for the definition of the TCP SYN
@@ -1081,7 +1081,7 @@ that it reports a modified value caused by a Network Address
 Port Translation (NAPT) middlebox function after the packet 
 passed the Observation Point.",,,"See [RFC768] for the definition of the UDP source port 
 field.  See [RFC793] for the definition of the TCP 
-source port field.  See [RFC4960] for the definition of 
+source port field.  See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of 
 SCTP.     
 See [RFC3022] for the definition of NAPT.  See [RFC3234] for the definition of middleboxes. 
 Additional information on defined UDP and TCP port numbers can 
@@ -1092,7 +1092,7 @@ except that it reports a modified value caused by a Network
 Address Port Translation (NAPT) middlebox function after the 
 packet passed the Observation Point.",,,"See [RFC768] for the definition of the UDP source port 
 field.  See [RFC793] for the definition of the TCP 
-source port field.  See [RFC4960] for the definition of 
+source port field.  See [RFC-ietf-tsvwg-rfc4960-bis-19] for the definition of 
 SCTP.     
 See [RFC3022] for the definition of NAPT.  See [RFC3234] for the definition of middleboxes. 
 Additional information on defined UDP and TCP port numbers can 
