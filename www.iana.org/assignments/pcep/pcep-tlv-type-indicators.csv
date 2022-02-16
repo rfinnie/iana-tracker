@@ -54,10 +54,10 @@ Value,Description,Reference
 52,FLOW FILTER TLV,[RFC9168]
 53,Unassigned,
 54,Bidirectional LSP Association Group TLV,[RFC9059]
-55,"TE-PATH-BINDING (TEMPORARY - registered 2021-03-29, expires 2022-03-29)",[draft-ietf-pce-binding-label-sid-07]
-56,"SRPOLICY-POL-NAME (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
-57,"SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
-58,"SRPOLICY-CPATH-NAME (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
-59,"SRPOLICY-CPATH-PREFERENCE (TEMPORARY - registered 2021-03-30, expires 2022-03-30)",[draft-ietf-pce-segment-routing-policy-cp-04]
+55,"TE-PATH-BINDING (TEMPORARY - registered 2021-03-29, extension registered 2022-02-14, expires 2023-03-29)",[draft-ietf-pce-binding-label-sid-13]
+56,"SRPOLICY-POL-NAME (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
+57,"SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
+58,"SRPOLICY-CPATH-NAME (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
+59,"SRPOLICY-CPATH-PREFERENCE (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 60-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

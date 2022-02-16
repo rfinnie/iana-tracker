@@ -29,7 +29,7 @@ Type,Name,Reference
 253,AA-LAALP-GROUP-MAC,[RFC7782]
 254,EXTENDED-RBRIDGE-CAP,[RFC7782]
 255,Reserved,[RFC7357]
-256,L1-BORDER-RBRIDGE,[RFC-ietf-trill-multilevel-single-nickname-17]
-257,L1-BORDER-RB-GROUP,[RFC-ietf-trill-multilevel-single-nickname-17]
+256,L1-BORDER-RBRIDGE,[RFC9183]
+257,L1-BORDER-RB-GROUP,[RFC9183]
 258-65534,Unassigned,
 65535,Reserved,[RFC7357]
