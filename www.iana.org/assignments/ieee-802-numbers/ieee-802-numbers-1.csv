@@ -187,6 +187,7 @@ X3T51/80-50, Xerox Corporation, Stamford, CT., October 1980.][Neil_Sembower]"
 34668,876C,-,-,IP Autonomous Systems,[RFC1701]
 34669,876D,-,-,Secure Data,[RFC1701]
 ,8808,,,IEEE Std 802.3 - Ethernet Passive Optical Network (EPON),[EPON][RFC7042]
+34825,8809,,,"Slow Protocols (Link Aggregation, OAM, etc.)",[IEEE]
 ,880B,,,Point-to-Point Protocol (PPP),[RFC7042]
 ,880C,,,General Switch Management Protocol (GSMP),[RFC7042]
 34850,8822,,,Ethernet NIC hardware and software testing,[Wind_River]

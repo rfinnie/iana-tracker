@@ -3,4 +3,4 @@ urn:ietf:params:rtp-hdrext:sdes:cname,Source Description: Canonical End-Point Id
 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id,RTP Stream Identifier,[Adam_Roach],[RFC8852]
 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id,RTP Repaired Stream Identifier,[Adam_Roach],[RFC8852]
 urn:ietf:params:rtp-hdrext:sdes:CaptId,CLUE CaptId,[Roni_Even],[RFC8849]
-urn:ietf:params:rtp-hdrext:sdes:mid,Media identification,[IESG],[RFC-ietf-mmusic-rfc8843bis-05]
+urn:ietf:params:rtp-hdrext:sdes:mid,Media identification,[IESG],[RFC9143]

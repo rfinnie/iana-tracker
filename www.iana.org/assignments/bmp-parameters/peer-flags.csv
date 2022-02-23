@@ -3,5 +3,5 @@ Flag,Description,Reference
 1,L flag,[RFC7854]
 2,A flag,[RFC7854]
 3,O flag,[RFC8671]
-4,F flag (DEPRECATED),[RFC-ietf-grow-bmp-local-rib-12]
+4,F flag (DEPRECATED),[RFC9069]
 5-7,Unassigned,

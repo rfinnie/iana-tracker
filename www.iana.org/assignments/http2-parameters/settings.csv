@@ -1,14 +1,14 @@
 Code,Name,Initial Value,Reference
-0x0,Reserved,,[RFC-ietf-httpbis-http2bis-07]
-0x1,HEADER_TABLE_SIZE,4096,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x2,ENABLE_PUSH,1,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x3,MAX_CONCURRENT_STREAMS,(infinite),"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x4,INITIAL_WINDOW_SIZE,65535,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x5,MAX_FRAME_SIZE,16384,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x6,MAX_HEADER_LIST_SIZE,(infinite),"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
-0x7,Unassigned,,
-0x8,SETTINGS_ENABLE_CONNECT_PROTOCOL,0,[RFC8441]
-0x9,SETTINGS_NO_RFC7540_PRIORITIES,0,[RFC-ietf-httpbis-priority-12]
-0xa-0xf,Unassigned,,
+0x00,Reserved,,[RFC-ietf-httpbis-http2bis-07]
+0x01,HEADER_TABLE_SIZE,4096,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x02,ENABLE_PUSH,1,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x03,MAX_CONCURRENT_STREAMS,(infinite),"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x04,INITIAL_WINDOW_SIZE,65535,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x05,MAX_FRAME_SIZE,16384,"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x06,MAX_HEADER_LIST_SIZE,(infinite),"[RFC-ietf-httpbis-http2bis-07, Section 6.5.2]"
+0x07,Unassigned,,
+0x08,SETTINGS_ENABLE_CONNECT_PROTOCOL,0,[RFC8441]
+0x09,SETTINGS_NO_RFC7540_PRIORITIES,0,[RFC-ietf-httpbis-priority-12]
+0x0a-0x0f,Unassigned,,
 0x10,TLS_RENEG_PERMITTED,0x00,[MS-HTTP2E][Gabriel_Montenegro]
 0x11-0xffff,Unassigned,,
