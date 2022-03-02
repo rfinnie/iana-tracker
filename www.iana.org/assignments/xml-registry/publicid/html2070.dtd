@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-02-18</dd>
+        <dd>2022-02-22</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2600,7 +2600,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-notification-capabilities.txt">ns/yang/ietf-notification-capabilities.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-notification-capabilities-21">RFC-ietf-netconf-notification-capabilities-21</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9196">RFC9196</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-origin</td>
@@ -2816,7 +2816,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-system-capabilities.txt">ns/yang/ietf-system-capabilities.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-notification-capabilities-21">RFC-ietf-netconf-notification-capabilities-21</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9196">RFC9196</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-system-tacacs-plus</td>
@@ -2944,7 +2944,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-yang-instance-data.txt">ns/yang/ietf-yang-instance-data.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-netmod-yang-instance-file-format-21">RFC-ietf-netmod-yang-instance-file-format-21</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9195">RFC9195</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-yang-library</td>
