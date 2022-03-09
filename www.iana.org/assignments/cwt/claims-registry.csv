@@ -22,5 +22,5 @@ ace_profile,"The ACE profile a token is supposed to be used
 cnonce,"The client-nonce sent to the AS by the RS via
         the client.",cnonce,39,byte string,[IETF],"[RFC-ietf-ace-oauth-authz-46, Section 5.10]"
 exi,"The expiration time of a token measured from
-        when it was received at the RS in seconds.",exi,40,integer,[IETF],"[RFC-ietf-ace-oauth-authz-46, Section 5.10.3]"
+        when it was received at the RS in seconds.",exi,40,unsigned integer,[IETF],"[RFC-ietf-ace-oauth-authz-46, Section 5.10.3]"
 Unassigned,,,41 to 65535,,,

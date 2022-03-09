@@ -5,7 +5,7 @@
   <title>Standards-related organizations that have registered Media Types in the Standards Tree</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
   <created>2012-09-13</created>
-  <updated>2022-02-25</updated>
+  <updated>2022-03-08</updated>
 
   <registry id="organizations">
     <title>Standards-related organizations that have registered Media Types in the Standards Tree</title>
@@ -115,6 +115,12 @@ in the Standards Tree go through normal Expert Review.</note>
       <org>ISO/IEC JTC 1</org>
       <date>2013-03-29</date>
       <xref type="uri" data="https://www.iso.org/isoiec-jtc-1.html"/>
+    </record>
+
+    <record>
+      <org>ISO/TC 171/SC 2</org>
+      <date>2022-03-08</date>
+      <xref type="uri" data="https://www.iso.org/committee/53674.html"/>
     </record>
 
     <record>
