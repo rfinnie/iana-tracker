@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="alto-protocol">
   <title>Application-Layer Traffic Optimization (ALTO) Protocol</title>
   <created>2014-03-18</created>
-  <updated>2022-03-02</updated>
+  <updated>2022-03-11</updated>
   
   <registry id="cost-metrics">
     <title>ALTO Cost Metrics</title>
@@ -119,6 +119,22 @@ Section 8.5.2 of <xref type="rfc" data="rfc7285"/></description>
       <mapping>false</mapping>
       <xref type="draft" data="RFC-ietf-alto-unified-props-new-24"/>
     </record>
+    <record date="2022-03-09">
+      <value>asn</value>
+      <entity>See <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>, Section 6.1.1.2</entity>
+      <hier-inher>None</hier-inher>
+      <mediatype>None</mediatype>
+      <mapping>false</mapping>
+      <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>
+    </record>
+    <record date="2022-03-09">
+      <value>countrycode</value>
+      <entity>See <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>, Section 6.1.2.2</entity>
+      <hier-inher>None</hier-inher>
+      <mediatype>None</mediatype>
+      <mapping>false</mapping>
+      <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>
+    </record>
   </registry>
 
   <registry id="alto-entity-property-type">
@@ -130,6 +146,12 @@ Section 8.5.2 of <xref type="rfc" data="rfc7285"/></description>
       <semantics>See <xref type="rfc" data="rfc7285"/>, Section 7.1.1</semantics>
       <mediatype>application/alto-networkmap+json</mediatype>
       <xref type="draft" data="RFC-ietf-alto-unified-props-new-24"/>
+    </record>
+    <record date="2022-03-09">
+      <value>cdni-capabilities</value>
+      <semantics>See <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>, Section 6.2</semantics>
+      <mediatype>application/alto-cdni+json</mediatype>
+      <xref type="draft" data="RFC-ietf-alto-cdni-request-routing-alto-22"/>
     </record>
   </registry>
 

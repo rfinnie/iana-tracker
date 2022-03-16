@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-02-22</dd>
+        <dd>2022-03-14</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1073,6 +1073,14 @@ The registration template should cite the specification.
               <a href="ns/lost-ext.txt">ns/lost-ext.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc6451">RFC6451</a>]</td>
+          </tr>
+          <tr>
+            <td>lost-rli1</td>
+            <td>urn:ietf:params:xml:ns:lost-rli1</td>
+            <td>
+              <a href="ns/lost-rli1.txt">ns/lost-rli1.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-ecrit-similar-location-19">RFC-ietf-ecrit-similar-location-19</a>]</td>
           </tr>
           <tr>
             <td>lost1</td>
@@ -2843,6 +2851,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8572">RFC8572</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-sztp-csr</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-sztp-csr</td>
+            <td>
+              <a href="ns/yang/ietf-sztp-csr.txt">ns/yang/ietf-sztp-csr.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-sztp-csr-14">RFC-ietf-netconf-sztp-csr-14</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-te-packet-types</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-te-packet-types</td>
             <td>
@@ -3009,6 +3025,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-yang-types.txt">ns/yang/ietf-yang-types.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc6991">RFC6991</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-ztp-types</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-ztp-types</td>
+            <td>
+              <a href="ns/yang/ietf-ztp-types.txt">ns/yang/ietf-ztp-types.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-sztp-csr-14">RFC-ietf-netconf-sztp-csr-14</a>]</td>
           </tr>
           <tr>
             <td>yang:smiv2</td>
@@ -3759,6 +3783,14 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
               <a href="schema/lost-ext.rng">schema/lost-ext.rng</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc6451">RFC6451</a>]</td>
+          </tr>
+          <tr>
+            <td>lost-rli1</td>
+            <td>urn:ietf:params:xml:schema:lost-rli1</td>
+            <td>
+              <a href="schema/lost-rli1.xsd">schema/lost-rli1.xsd</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-ecrit-similar-location-19">RFC-ietf-ecrit-similar-location-19</a>]</td>
           </tr>
           <tr>
             <td>lost1</td>

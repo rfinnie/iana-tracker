@@ -60,7 +60,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 18,"IS-IS Flooding Path TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)",n,y,n,n,[draft-ietf-lsr-dynamic-flooding]
 19,"IS-IS Flooding Request TLV (TEMPORARY - registered 2019-08-08, extension registered 2021-06-18, expires 2022-08-08)",y,n,n,n,[draft-ietf-lsr-dynamic-flooding]
 20,"Area Proxy (TEMPORARY - registered 2020-08-31, extension registered 2021-07-27, expires 2022-08-31)",n,y,n,n,[draft-ietf-lsr-isis-area-proxy-06]
-21,Unassigned,,,,,
+21,"Flooding Parameters TLV (TEMPORARY - registered 2022-03-15, expires 2023-03-15)",y,n,y,n,[draft-ietf-lsr-isis-fast-flooding-00]
 22,Extended IS reachability,n,y,n,n,[RFC5305]
 23,IS Neighbor Attribute,n,y,n,n,[RFC5311]
 24,IS Alias ID,n,y,n,n,[RFC5311]

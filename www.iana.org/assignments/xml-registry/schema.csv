@@ -85,6 +85,7 @@ load-control,urn:ietf:params:xml:schema:load-control,schema/load-control.xsd,[RF
 location-filter,urn:ietf:params:xml:schema:location-filter,schema/location-filter.xsd,[RFC6447]
 location-type,urn:ietf:params:xml:schema:location-type,schema/location-type.xsd,[RFC4589]
 lost-ext,urn:ietf:params:xml:schema:lost-ext,schema/lost-ext.rng,[RFC6451]
+lost-rli1,urn:ietf:params:xml:schema:lost-rli1,schema/lost-rli1.xsd,[RFC-ietf-ecrit-similar-location-19]
 lost1,urn:ietf:params:xml:schema:lost1,schema/lost1.rng,[RFC5222]
 lost1:slb,urn:ietf:params:xml:schema:lost1:slb,schema/lost1/slb.xsd,[RFC6197]
 lostsync1,urn:ietf:params:xml:schema:lostsync1,schema/lostsync1.xsd,[RFC6739]

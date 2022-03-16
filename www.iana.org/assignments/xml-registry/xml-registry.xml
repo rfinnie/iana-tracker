@@ -3,7 +3,7 @@
 <?xml-model href="xml-registry.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2022-03-08</updated>
+  <updated>2022-03-14</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -751,6 +751,12 @@ The registration template should cite the specification.
       <name>urn:ietf:params:xml:ns:lost-ext</name>
       <file type="template">ns/lost-ext.txt</file>
       <xref type="rfc" data="rfc6451"/>
+    </record>
+    <record date="2022-03-14">
+      <value>lost-rli1</value>
+      <name>urn:ietf:params:xml:ns:lost-rli1</name>
+      <file type="template">ns/lost-rli1.txt</file>
+      <xref type="draft" data="RFC-ietf-ecrit-similar-location-19"/>
     </record>
     <record>
       <value>lost1</value>
@@ -2767,6 +2773,12 @@ Per <xref type="rfc" data="rfc6685"/>, IODEF schemas require an additional revie
       <name>urn:ietf:params:xml:schema:lost-ext</name>
       <file type="template">schema/lost-ext.rng</file>
       <xref type="rfc" data="rfc6451"/>
+    </record>
+    <record date="2022-03-14">
+      <value>lost-rli1</value>
+      <name>urn:ietf:params:xml:schema:lost-rli1</name>
+      <file type="template">schema/lost-rli1.xsd</file>
+      <xref type="draft" data="RFC-ietf-ecrit-similar-location-19"/>
     </record>
     <record>
       <value>lost1</value>
