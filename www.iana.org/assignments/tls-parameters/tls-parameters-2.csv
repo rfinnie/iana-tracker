@@ -12,7 +12,7 @@ Value,Description,DTLS-OK,Reference
 64,ecdsa_sign,Y,[RFC8422]
 65,rsa_fixed_ecdh,Y,[RFC8422]
 66,ecdsa_fixed_ecdh,Y,[RFC8422]
-67,gost_sign256,Y,[RFC-smyshlyaev-tls12-gost-suites-18]
-68,gost_sign512,Y,[RFC-smyshlyaev-tls12-gost-suites-18]
+67,gost_sign256,Y,[RFC9189]
+68,gost_sign512,Y,[RFC9189]
 69-223,Unassigned,,
 224-255,Reserved for Private Use,,[RFC5246]

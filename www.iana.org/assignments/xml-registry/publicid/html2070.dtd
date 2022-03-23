@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-03-14</dd>
+        <dd>2022-03-16</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2472,7 +2472,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-mpls-ldp.txt">ns/yang/ietf-mpls-ldp.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-mpls-ldp-yang-09">RFC-ietf-mpls-ldp-yang-09</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9070">RFC9070</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-mpls-ldp-extended</td>
@@ -2480,7 +2480,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-mpls-ldp-extended.txt">ns/yang/ietf-mpls-ldp-extended.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-mpls-ldp-yang-09">RFC-ietf-mpls-ldp-yang-09</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9070">RFC9070</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-msdp</td>

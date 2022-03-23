@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Parameters</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-08-23</created>
-  <updated>2022-02-18</updated>
+  <updated>2022-03-22</updated>
 
 
   <registry id="tls-parameters-2">
@@ -122,13 +122,13 @@ protocol versions prior to 1.3.
       <value>67</value>
       <description>gost_sign256</description>
       <dtls>Y</dtls>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>68</value>
       <description>gost_sign512</description>
       <dtls>Y</dtls>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record>
       <value>69-223</value>
@@ -192,7 +192,7 @@ For widespread experiments, temporary reservations are available.
     <note>Any TLS cipher suite that is specified for use with DTLS MUST 
 define limits on the use of the associated AEAD function that 
 preserves margins for both confidentiality and integrity, 
-as specified in <xref type="draft" data="RFC-ietf-tls-dtls13-43"/>.
+as specified in Section 4.5.3 of <xref type="draft" data="RFC-ietf-tls-dtls13-43"/>.
     </note>
     <record>
       <value>0x00,0x00</value>
@@ -2831,21 +2831,21 @@ widely deployed implementations</description>
       <description>TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC</description>
       <dtls>N</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>0xC1,0x01</value>
       <description>TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC</description>
       <dtls>N</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>0xC1,0x02</value>
       <description>TLS_GOSTR341112_256_WITH_28147_CNT_IMIT</description>
       <dtls>N</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2020-01-28">
       <value>0xC1,0x03</value>
@@ -3128,7 +3128,7 @@ widely deployed implementations</description>
       <value>25</value>
       <description>tls12_cid</description>
       <dtls>Y</dtls>
-      <xref type="draft" data="RFC-ietf-tls-dtls-connection-id-13"/>
+      <xref type="rfc" data="rfc9146"/>
     </record>
     <record date="2021-06-02">
       <value>26</value>
@@ -3269,9 +3269,9 @@ widely deployed implementations</description>
       <description>decrypt_error</description>
       <dtls>Y</dtls><xref type="rfc" data="rfc8446"/>
     </record>
-    <record date="2021-06-02">
+    <record date="2021-06-02" updated="2022-03-21">
       <value>52</value>
-      <description>the too_many_cids_requested</description>
+      <description>too_many_cids_requested</description>
       <dtls>Y</dtls><xref type="draft" data="RFC-ietf-tls-dtls13-43"/>
     </record>
     <record>
@@ -3458,15 +3458,15 @@ widely deployed implementations</description>
       <dtls>Y</dtls>
       <xref type="rfc" data="rfc8446"/>
     </record>
-    <record date="2021-06-02">
+    <record date="2021-06-02" updated="2022-03-21">
       <value>9</value>
-      <description>RequestConnectionId</description>
+      <description>request_connection_id</description>
       <dtls>Y</dtls>
       <xref type="draft" data="RFC-ietf-tls-dtls13-43"/>
     </record>
-    <record date="2021-06-02">
+    <record date="2021-06-02" updated="2022-03-21">
       <value>10</value>
-      <description>NewConnectionId</description>
+      <description>new_connection_id</description>
       <dtls>Y</dtls>
       <xref type="draft" data="RFC-ietf-tls-dtls13-43"/>
     </record>
@@ -3853,49 +3853,49 @@ expected level of security.
       <description>GC256A</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>35</value>
       <description>GC256B</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>36</value>
       <description>GC256C</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>37</value>
       <description>GC256D</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>38</value>
       <description>GC512A</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>39</value>
       <description>GC512B</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>40</value>
       <description>GC512C</description>
       <dtls>Y</dtls>
       <rec>N</rec>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-09-23">
       <value>41</value>
@@ -4404,14 +4404,14 @@ provide the expected level of security.
       <description>gostr34102012_256</description>
       <dtls>Y</dtls>
       <xref type="note" data="1"/>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2019-02-07" updated="2021-11-30">
       <value>65</value>
       <description>gostr34102012_512</description>
       <dtls>Y</dtls>
       <xref type="note" data="1"/>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record updated="2018-05-29">
       <value>66-223</value>
@@ -5186,13 +5186,13 @@ For widespread experiments, temporary reservations are available.
       <value>0x0840</value>
       <description>Reserved for backward compatibility</description>
       <recommended>N</recommended>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record date="2021-11-30">
       <value>0x0841</value>
       <description>Reserved for backward compatibility</description>
       <recommended>N</recommended>
-      <xref type="draft" data="RFC-smyshlyaev-tls12-gost-suites-18"/>
+      <xref type="rfc" data="rfc9189"/>
     </record>
     <record>
       <value>0x0842-0x08FF</value>
