@@ -11940,7 +11940,9 @@ guibase,9321,udp,guibase,[Yutaka_Ono],[Yutaka_Ono],,,,,,
 ,9322-9338,,Unassigned,,,,,,,,
 gnmi-gnoi,9339,tcp,gRPC Network Mgmt/Operations Interface,[Google_Netops],[gNxi_Maintainers],2019-05-09,,,,,
 ,9339,udp,Reserved,,,,,,,,
-,9340-9342,,Unassigned,,,,,,,,
+gribi,9340,tcp,gRPC Routing Information Base Interface,[Google_Networking],[Rob_Shakir],2022-03-29,,,,,
+,9340,udp,Reserved,,,,,,,,
+,9341-9342,,Unassigned,,,,,,,,
 mpidcmgr,9343,tcp,MpIdcMgr,[Yutaka_Ono],[Yutaka_Ono],,,,,,
 mpidcmgr,9343,udp,MpIdcMgr,[Yutaka_Ono],[Yutaka_Ono],,,,,,
 mphlpdmc,9344,tcp,Mphlpdmc,[Yutaka_Ono],[Yutaka_Ono],,,,,,
@@ -14845,6 +14847,7 @@ ttcheckers,,,Trivial Technology's Checkers,[Nicolas_Payette],[Nicolas_Payette],,
 ttp4daemon,,,TechTool Pro 4 Anti-Piracy Service,[Micromat],[Micromat],,,,,,Defined TXT keys: None
 tunage,,,Tunage Media Control Service,[Matt_Patenaude],[Matt_Patenaude],,,,,,Defined TXT keys: None
 tuneranger,,,TuneRanger,[Acertant],[Acertant],,,,,,Defined TXT keys: None
+tvm,,tcp,Vogel's TV mount control,[Vogels_Products],[Remco_Poelstra],2022-03-29,,,,,"Defined TXT keys: txtvers, model"
 twinlevel,,tcp,detect sanitary product,[Oblamatik_AG],[Simon_Ensslen],2012-09-05,,,,,Defined TXT keys: None
 twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None

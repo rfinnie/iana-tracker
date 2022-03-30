@@ -115,6 +115,7 @@ ietf-network-topology,ietf-network-topology@2018-02-26.yang,N,urn:ietf:params:xm
 ietf-network-topology-state,ietf-network-topology-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-network-topology-state,nt-s,,[RFC8345],
 ietf-nmda-compare,ietf-nmda-compare@2021-12-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nmda-compare,cmp,,[RFC9144],
 ietf-notification-capabilities,ietf-notification-capabilities@2022-02-17.yang,N,urn:ietf:params:xml:ns:yang:ietf-notification-capabilities,notc,,[RFC9196],
+ietf-ntp,,N,urn:ietf:params:xml:ns:yang:ietf-ntp,ntp,,[RFC-ietf-ntp-yang-data-model-17],[RFC-ietf-ntp-yang-data-model-17]'s module file will be posted upon the document's publication as an RFC.
 ietf-origin,ietf-origin@2018-02-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-origin,or,,[RFC8342],
 ietf-ospf,,N,urn:ietf:params:xml:ns:yang:ietf-ospf,ospf,,[RFC-ietf-ospf-yang-28],[RFC-ietf-ospf-yang-28]'s module file will be posted upon the document's publication as an RFC.
 ietf-packet-fields,ietf-packet-fields@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-packet-fields,packet-fields,,[RFC8519],

@@ -31,4 +31,7 @@ PW Type,Description,Reference
 0x001E,ATM VP Virtual Trunk,"[""The Use of Virtual Trunks for ATM/MPLS Control Plane Interworking
 Specification"", MFA Forum 9.0.0, MFA Forum, February 2006.]"
 0x001F,FC Port Mode,[RFC6307]
+0x0020-0x1000,Unassigned,
+0x1001,Proprietary pseudowire implementation carrying CLNP packets,[Christian_Schmutzer]
+0x1002-0x7FFE,Unassigned,
 0x7FFF,Wildcard,[RFC4863]

@@ -3,7 +3,7 @@
                                                       Uniform Resource Identifier (URI) Schemes
 
    Last Updated
-           2022-02-04
+           2022-03-24
 
    Available Formats
            [IMG]
@@ -216,6 +216,7 @@ modem                                                                          m
 mongodb                              prov/mongodb                              mongodb                              Provisional -          [Ignacio_Losiggio][Mongo_DB_Inc]
 moz                                  prov/moz                                  moz                                  Provisional -          [Joe_Hildebrand]
 ms-access                            prov/ms-access                            ms-access                            Provisional -          [urischemeowners_at_microsoft.com]
+ms-appinstaller                      prov/ms-appinstaller                      ms-appinstaller                      Provisional -          [urischemeowners_at_microsoft.com]
 ms-browser-extension                 prov/ms-browser-extension                 ms-browser-extension                 Provisional -          [urischemeowners_at_microsoft.com]
 ms-calculator                        prov/ms-calculator                        ms-calculator                        Provisional -          [urischemeowners_at_microsoft.com]
 ms-drive-to                          prov/ms-drive-to                          ms-drive-to                          Provisional -          [urischemeowners_at_microsoft.com]
@@ -291,7 +292,7 @@ nfs                                                                            n
 ni                                                                             ni                                   Permanent   -          [RFC6920]
 nih                                                                            nih                                  Permanent   -          [RFC6920]
 nntp                                                                           USENET news using NNTP access        Permanent   -          [RFC5538]
-notes                                prov/notes                                notes                                Provisional -          [Doug_Conmy]
+notes                                prov/notes                                notes                                Provisional -          [draft-dconmy-notes-uri-scheme-02]
 num                                  prov/num                                  Namespace Utility Modules            Provisional -          [Elliott_Brown][https://www.numprotocol.com/specification]
 ocf                                  prov/ocf                                  ocf                                  Provisional -          [Dave_Thaler]
 oid                                  prov/oid                                  oid                                  Provisional -          [draft-larmouth-oid-iri]
@@ -449,7 +450,6 @@ z39.50s                                                                        Z
    [DLNA]                                       DLNA                                       mailto:admin&dlna.org                       2012-01-04
    [Hans-Dieter_A._Hiep]                        Hans-Dieter A. Hiep                        mailto:info&aexiz.com                       2015-08-05
    [Donald_Eastlake]                            Donald Eastlake                            mailto:d3e3e3&gmail.com                     2021-07-01
-   [Doug_Conmy]                                 Doug Conmy                                 mailto:dconmy&pnp-hcl.com                   2022-01-03
    [Eld_Zierau]                                 Eld Zierau                                 mailto:elzi&kb.dk                           2016-12-01
    [Frédéric_Wang]                              Frédéric Wang                              mailto:fwang&igalia.com                     2020-05-14
    [Elliott_Brown]                              Elliott Brown                              mailto:elliott.brown&num.uk                 2020-09-07
@@ -504,7 +504,7 @@ z39.50s                                                                        Z
    [Tim_McSweeney]                              Tim McSweeney                              mailto:tim&dropnumber.com                   2020-07-28
    [Tony_Deng]                                  Tony Deng                                  mailto:tdeng&cisco.com                      2019-06-24
    [Tuan_Hoang]                                 Tuan Hoang                                 mailto:tuhoang&cisco.com                    2019-06-24
-   [urischemeowners_at_microsoft.com]           urischemeowners at                         mailto:urischemeowners&microsoft.com        2021-09-09
+   [urischemeowners_at_microsoft.com]           urischemeowners at                         mailto:urischemeowners&microsoft.com        2022-03-24
                                                 microsoft.com
    [W3C_WebApps_Working_Group]                  W3C WebApps Working Group                  mailto:public-webapps&w3.org                2015-07-17
    [W3C_Decentralized_Identifier_Working_Group] W3C Decentralized Identifier               mailto:public-did-wg&w3.org                 2020-02-14
