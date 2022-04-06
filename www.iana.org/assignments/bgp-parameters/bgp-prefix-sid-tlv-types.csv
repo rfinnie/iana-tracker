@@ -3,8 +3,8 @@ Value,Type,Reference
 1,Label-Index,[RFC8669]
 2,Deprecated,[RFC8669]
 3,Originator SRGB,[RFC8669]
-4,Deprecated,[draft-ietf-bess-srv6-services-02]
-5,SRv6 L3 Service,[draft-ietf-bess-srv6-services-02]
-6,SRv6 L2 Service,[draft-ietf-bess-srv6-services-02]
+4,Deprecated,[RFC-ietf-bess-srv6-services-15]
+5,SRv6 L3 Service,[RFC-ietf-bess-srv6-services-15]
+6,SRv6 L2 Service,[RFC-ietf-bess-srv6-services-15]
 7-254,Unassigned,
 255,Reserved,[RFC8669]

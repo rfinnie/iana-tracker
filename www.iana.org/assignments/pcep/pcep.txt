@@ -6,7 +6,7 @@
            2008-12-19
 
    Last Updated
-           2022-02-14
+           2022-04-01
 
    Available Formats
            [IMG]
@@ -77,6 +77,8 @@
      * Bidirectional LSP Association Group TLV Flag Field
      * PCECC-CAPABILITY sub-TLV
      * CCI Object Flag Field for MPLS Label
+     * TE-PATH-BINDING TLV BT Field
+     * TE-PATH-BINDING TLV Flag Field
 
 PCEP Messages
 
@@ -698,13 +700,13 @@ PCEP-ERROR Object Error Types and Values
                                               31: Missing GMPLS-CAPABILITY TLV                             [RFC8779]
                                               32: Incompatible OF code                                     [RFC8800]
                                               33: Missing PCECC Capability sub-TLV                         [RFC9050]
-                                              34: Missing PCE-SRv6-CAPABILITY sub-TLV (TEMPORARY -         [draft-ietf-pce-segment-routing-ipv6-11]
+                                              34: Missing PCE-SRv6-CAPABILITY sub-TLV (TEMPORARY -         [draft-ietf-pce-segment-routing-ipv6-13]
                                               registered 2022-01-12, expires 2023-01-12)
-                                              35: Both SID and NAI are absent in SRv6-RRO subobject        [draft-ietf-pce-segment-routing-ipv6-11]
+                                              35: Both SID and NAI are absent in SRv6-RRO subobject        [draft-ietf-pce-segment-routing-ipv6-13]
                                               (TEMPORARY - registered 2022-01-12, expires 2023-01-12)
-                                              36: RRO mixes SRv6-RRO subobjects with other subobject types [draft-ietf-pce-segment-routing-ipv6-11]
+                                              36: RRO mixes SRv6-RRO subobjects with other subobject types [draft-ietf-pce-segment-routing-ipv6-13]
                                               (TEMPORARY - registered 2022-01-12, expires 2023-01-12)
-                                              37: Invalid SRv6 SID Structure (TEMPORARY - registered       [draft-ietf-pce-segment-routing-ipv6-11]
+                                              37: Invalid SRv6 SID Structure (TEMPORARY - registered       [draft-ietf-pce-segment-routing-ipv6-13]
                                               2022-01-12, expires 2023-01-12)
                                               38-255: Unassigned
        11     Unrecognized EXRS subobject     0-255: Unassigned                                            [RFC5521]
@@ -775,7 +777,7 @@ PCEP-ERROR Object Error Types and Values
                                               advertised
                                               17: Stateful PCE capability was not advertised               [RFC9050]
                                               18: Unknown Label                                            [RFC9050]
-                                              19: Attempted SRv6 when the capability was not advertised    [draft-ietf-pce-segment-routing-ipv6-11]
+                                              19: Attempted SRv6 when the capability was not advertised    [draft-ietf-pce-segment-routing-ipv6-13]
                                               (TEMPORARY - registered 2022-01-12, expires 2023-01-12)
                                               20-255: Unassigned
        20     LSP State Synchronization Error 0: Unassigned                                                [RFC8231]
@@ -863,14 +865,21 @@ PCEP-ERROR Object Error Types and Values
                                               4: Unknown FlowSpec                                          [RFC9168]
                                               5: Unsupported LPM Route                                     [RFC9168]
                                               6-255: Unassigned
-       31     PCECC failure                   0: Unassigned
+       31     PCECC failure                   0: Unassigned                                                [RFC9050]
                                               1: Label out of range                                        [RFC9050]
                                               2: Instruction failed                                        [RFC9050]
                                               3: Invalid CCI                                               [RFC9050]
                                               4: Unable to allocate the specified CCI                      [RFC9050]
                                               5: Invalid next-hop information                              [RFC9050]
                                               6-255: Unassigned
-     32-255   Unassigned                      0-255: Unassigned
+       32     Binding label/SID failure       0: Unassigned                                                [RFC-ietf-pce-binding-label-sid-15]
+                                              1: Invalid SID                                               [RFC-ietf-pce-binding-label-sid-15]
+                                              2: Unable to allocate the specified binding value            [RFC-ietf-pce-binding-label-sid-15]
+                                              3: Unable to allocate a new binding label/SID                [RFC-ietf-pce-binding-label-sid-15]
+                                              4: Unable to remove the binding value                        [RFC-ietf-pce-binding-label-sid-15]
+                                              5: Inconsistent binding types                                [RFC-ietf-pce-binding-label-sid-15]
+                                              6-255: Unassigned
+     33-255   Unassigned                      0-255: Unassigned
 
 PCEP-ERROR Object Flag Field
 
@@ -1132,8 +1141,7 @@ PCEP TLV Type Indicators
        52      FLOW FILTER TLV                                                                        [RFC9168]
        53      Unassigned
        54      Bidirectional LSP Association Group TLV                                                [RFC9059]
-       55      TE-PATH-BINDING (TEMPORARY - registered 2021-03-29, extension registered 2022-02-14,   [draft-ietf-pce-binding-label-sid-13]
-               expires 2023-03-29)
+       55      TE-PATH-BINDING                                                                        [RFC-ietf-pce-binding-label-sid-15]
        56      SRPOLICY-POL-NAME (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, [draft-ietf-pce-segment-routing-policy-cp-06]
                expires 2023-03-30)
        57      SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, [draft-ietf-pce-segment-routing-policy-cp-06]
@@ -1308,18 +1316,17 @@ LSP Object Flag Field
            [IMG]
            CSV
 
-   Bit                                              Description                                                             Reference
-    0  PCE-allocated binding label/SID (TEMPORARY - registered 2021-03-29, extension registered 2022-02-14,   [draft-ietf-pce-binding-label-sid-13]
-       expires 2023-03-29)
-    1  ERO-compression                                                                                        [RFC8623]
-    2  Fragmentation                                                                                          [RFC8623]
-    3  P2MP                                                                                                   [RFC8623]
-    4  Create                                                                                                 [RFC8281]
-   5-7 Operational (3 bits)                                                                                   [RFC8231]
-    8  Administrative                                                                                         [RFC8231]
-    9  Remove                                                                                                 [RFC8231]
-   10  SYNC                                                                                                   [RFC8231]
-   11  Delegate                                                                                               [RFC8231]
+   Bit     Description                   Reference
+    0  PCE-allocation       [RFC-ietf-pce-binding-label-sid-15]
+    1  ERO-compression      [RFC8623]
+    2  Fragmentation        [RFC8623]
+    3  P2MP                 [RFC8623]
+    4  Create               [RFC8281]
+   5-7 Operational (3 bits) [RFC8231]
+    8  Administrative       [RFC8231]
+    9  Remove               [RFC8231]
+   10  SYNC                 [RFC8231]
+   11  Delegate             [RFC8231]
 
 STATEFUL-PCE-CAPABILITY TLV Flag Field
 
@@ -1412,7 +1419,7 @@ PCEP Path Setup Types
      0   Path is set up using the RSVP-TE signaling protocol                                               [RFC8408]
      1   Traffic-engineering path is set up using Segment Routing.                                         [RFC8664]
      2   Traffic engineering path is set up using PCECC mode                                               [RFC9050]
-     3   Traffic engineering path is set up using SRv6. (TEMPORARY - registered 2022-01-12, expires        [draft-ietf-pce-segment-routing-ipv6-11]
+     3   Traffic engineering path is set up using SRv6. (TEMPORARY - registered 2022-01-12, expires        [draft-ietf-pce-segment-routing-ipv6-13]
          2023-01-12)
    4-255 Unassigned
 
@@ -1477,7 +1484,7 @@ PATH-SETUP-TYPE-CAPABILITY Sub-TLV Type Indicators
       1     PCECC-CAPABILITY                                                            [RFC9050]
      2-25   Unassigned
       26    SR-PCE-CAPABILITY                                                           [RFC8664]
-      27    SRv6-PCE-CAPABILITY (TEMPORARY - registered 2022-01-12, expires 2023-01-12) [draft-ietf-pce-segment-routing-ipv6-11]
+      27    SRv6-PCE-CAPABILITY (TEMPORARY - registered 2022-01-12, expires 2023-01-12) [draft-ietf-pce-segment-routing-ipv6-13]
    28-65535 Unassigned
 
 SR Capability Flag Field
@@ -1924,5 +1931,42 @@ CCI Object Flag Field for MPLS Label
    0-13 Unassigned
     14  C Bit - PCC allocation               [RFC9050]
     15  O Bit - Specifies label is out-label [RFC9050]
+
+TE-PATH-BINDING TLV BT Field
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC-ietf-pce-binding-label-sid-15]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Value             Description                           Reference
+     0   MPLS Label                           [RFC-ietf-pce-binding-label-sid-15]
+     1   MPLS Label Stack Entry               [RFC-ietf-pce-binding-label-sid-15]
+     2   SRv6 SID                             [RFC-ietf-pce-binding-label-sid-15]
+     3   SRv6 SID with Behavior and Structure [RFC-ietf-pce-binding-label-sid-15]
+   4-255 Unassigned
+
+TE-PATH-BINDING TLV Flag Field
+
+   Registration Procedure(s)
+
+ Standards Action
+
+   Reference
+           [RFC-ietf-pce-binding-label-sid-15]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit Description              Reference
+    0  R (Removal) [RFC-ietf-pce-binding-label-sid-15]
+   1-7 Unassigned
 
    Licensing Terms

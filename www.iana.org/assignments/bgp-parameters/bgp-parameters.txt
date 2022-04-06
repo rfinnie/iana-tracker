@@ -3,7 +3,7 @@
                                                        Border Gateway Protocol (BGP) Parameters
 
    Last Updated
-           2022-02-23
+           2022-04-01
 
    Available Formats
            [IMG]
@@ -46,6 +46,9 @@
      * SFC SPI/SI Representation Flags
      * BFD Mode
      * BFD Discriminator Optional TLV Type
+     * SRv6 Service Sub-TLV Types
+     * SRv6 Service Data Sub-Sub-TLV Types
+     * BGP SRv6 Service SID Flags
 
 BGP Message Types
 
@@ -147,15 +150,8 @@ BGP Path Attributes
            2018-08-10,
            expires
            2019-07-28)
-           Only to Customer
-           (OTC) (TEMPORARY
-           - registered
-           2018-03-29,
-     35    extension         [draft-ietf-idr-bgp-open-policy]
-           registered
-           2021-02-19,
-           expires
-           2022-03-29)
+     35    Only to Customer  [RFC-ietf-idr-bgp-open-policy-23]
+           (OTC)
            BGP Domain Path
            (D-PATH)
            (TEMPORARY -
@@ -247,17 +243,20 @@ BGP Error Subcodes
            [IMG]
            CSV
 
-   Value                                                  Name                                                             Reference
-     0   Unspecific                                                                                             [RFC Errata 4493]
-     1   Unsupported Version Number                                                                             [RFC4271]
-     2   Bad Peer AS                                                                                            [RFC4271]
-     3   Bad BGP Identifier                                                                                     [RFC4271]
-     4   Unsupported Optional Parameter                                                                         [RFC4271]
-     5   [Deprecated]                                                                                           [RFC4271]
-     6   Unacceptable Hold Time                                                                                 [RFC4271]
-     7   Unsupported Capability                                                                                 [RFC5492]
-     8   Role Mismatch (TEMPORARY - registered 2018-03-29, extension registered 2021-02-19, expires 2022-03-29) [draft-ietf-idr-bgp-open-policy]
-   9-255 Unassigned
+   Value               Name                          Reference
+     0    Unspecific                     [RFC Errata 4493]
+     1    Unsupported Version Number     [RFC4271]
+     2    Bad Peer AS                    [RFC4271]
+     3    Bad BGP Identifier             [RFC4271]
+     4    Unsupported Optional Parameter [RFC4271]
+     5    [Deprecated]                   [RFC4271]
+     6    Unacceptable Hold Time         [RFC4271]
+     7    Unsupported Capability         [RFC5492]
+     8    Deprecated                     [RFC-ietf-idr-bgp-open-policy-23]
+     9    Deprecated                     [RFC-ietf-idr-bgp-open-policy-23]
+     10   Deprecated                     [RFC-ietf-idr-bgp-open-policy-23]
+     11   Role Mismatch                  [RFC-ietf-idr-bgp-open-policy-23]
+   12-255 Unassigned
 
   UPDATE Message Error subcodes
 
@@ -658,14 +657,14 @@ BGP Prefix-SID TLV Types
            [IMG]
            CSV
 
-   Value      Type                   Reference
+   Value      Type                  Reference
      0   Reserved        [RFC8669]
      1   Label-Index     [RFC8669]
      2   Deprecated      [RFC8669]
      3   Originator SRGB [RFC8669]
-     4   Deprecated      [draft-ietf-bess-srv6-services-02]
-     5   SRv6 L3 Service [draft-ietf-bess-srv6-services-02]
-     6   SRv6 L2 Service [draft-ietf-bess-srv6-services-02]
+     4   Deprecated      [RFC-ietf-bess-srv6-services-15]
+     5   SRv6 L3 Service [RFC-ietf-bess-srv6-services-15]
+     6   SRv6 L2 Service [RFC-ietf-bess-srv6-services-15]
    7-254 Unassigned
     255  Reserved        [RFC8669]
 
@@ -849,6 +848,62 @@ BFD Discriminator Optional TLV Type
    176-249 Unassigned
    250-254 Experimental Use  [RFC9026]
      255   Reserved          [RFC9026]
+
+SRv6 Service Sub-TLV Types
+
+   Reference
+           [RFC-ietf-bess-srv6-services-15]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Range  Registration Procedures
+   0-127   IETF Review
+   128-254 First Come First Served
+   255     IETF Review
+
+   Value             Type                        Reference
+     0   Reserved                     [RFC-ietf-bess-srv6-services-15]
+     1   SRv6 SID Information Sub-TLV [RFC-ietf-bess-srv6-services-15]
+   2-254 Unassigned
+    255  Reserved                     [RFC-ietf-bess-srv6-services-15]
+
+SRv6 Service Data Sub-Sub-TLV Types
+
+   Reference
+           [RFC-ietf-bess-srv6-services-15]
+
+   Available Formats
+           [IMG]
+           CSV
+
+    Range  Registration Procedures
+   0-127   IETF Review
+   128-254 First Come First Served
+   255     IETF Review
+
+   Value              Type                         Reference
+     0   Reserved                       [RFC-ietf-bess-srv6-services-15]
+     1   SRv6 SID Structure Sub-Sub-TLV [RFC-ietf-bess-srv6-services-15]
+   2-254 Unassigned
+    255  Reserved                       [RFC-ietf-bess-srv6-services-15]
+
+BGP SRv6 Service SID Flags
+
+   Registration Procedure(s)
+
+ IETF Review
+
+   Reference
+           [RFC-ietf-bess-srv6-services-15]
+
+   Available Formats
+           [IMG]
+           CSV
+
+   Bit Position    Name    Reference
+       0-7      Unassigned
 
                                                                  Contact Information
 

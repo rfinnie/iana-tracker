@@ -25,5 +25,6 @@ INFO-CODE,Purpose,Reference
 23,Network Error,"[RFC8914, Section 4.24]"
 24,Invalid Data,"[RFC8914, Section 4.25]"
 25,Signature Expired before Valid,[https://github.com/NLnetLabs/unbound/pull/604#discussion_r802678343][Willem_Toorop]
-26-49151,Unassigned,
+26,Too Early,[RFC-ietf-dprive-dnsoquic-11]
+27-49151,Unassigned,
 49152-65535,Reserved for Private Use,"[RFC8914, Section 5.2]"

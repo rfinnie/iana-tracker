@@ -93,10 +93,10 @@ Error-Type,Meaning,Error-value,Reference
 ,,31: Missing GMPLS-CAPABILITY TLV,[RFC8779]
 ,,32: Incompatible OF code,[RFC8800]
 ,,33: Missing PCECC Capability sub-TLV,[RFC9050]
-,,"34: Missing PCE-SRv6-CAPABILITY sub-TLV (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
-,,"35: Both SID and NAI are absent in SRv6-RRO subobject (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
-,,"36: RRO mixes SRv6-RRO subobjects with other subobject types (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
-,,"37: Invalid SRv6 SID Structure (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,"34: Missing PCE-SRv6-CAPABILITY sub-TLV (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
+,,"35: Both SID and NAI are absent in SRv6-RRO subobject (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
+,,"36: RRO mixes SRv6-RRO subobjects with other subobject types (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
+,,"37: Invalid SRv6 SID Structure (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,38-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -153,7 +153,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,16: Attempted PCECC operations when PCECC capability was not advertised,[RFC9050]
 ,,17: Stateful PCE capability was not advertised,[RFC9050]
 ,,18: Unknown Label,[RFC9050]
-,,"19: Attempted SRv6 when the capability was not advertised (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-11]
+,,"19: Attempted SRv6 when the capability was not advertised (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,20-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
@@ -240,11 +240,18 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unknown FlowSpec,[RFC9168]
 ,,5: Unsupported LPM Route,[RFC9168]
 ,,6-255: Unassigned,
-31,PCECC failure,0: Unassigned,
+31,PCECC failure,0: Unassigned,[RFC9050]
 ,,1: Label out of range,[RFC9050]
 ,,2: Instruction failed,[RFC9050]
 ,,3: Invalid CCI,[RFC9050]
 ,,4: Unable to allocate the specified CCI,[RFC9050]
 ,,5: Invalid next-hop information,[RFC9050]
 ,,6-255: Unassigned,
-32-255,Unassigned,0-255: Unassigned,
+32,Binding label/SID failure,0: Unassigned,[RFC-ietf-pce-binding-label-sid-15]
+,,1: Invalid SID,[RFC-ietf-pce-binding-label-sid-15]
+,,2: Unable to allocate the specified binding value,[RFC-ietf-pce-binding-label-sid-15]
+,,3: Unable to allocate a new binding label/SID,[RFC-ietf-pce-binding-label-sid-15]
+,,4: Unable to remove the binding value,[RFC-ietf-pce-binding-label-sid-15]
+,,5: Inconsistent binding types,[RFC-ietf-pce-binding-label-sid-15]
+,,6-255: Unassigned,
+33-255,Unassigned,0-255: Unassigned,

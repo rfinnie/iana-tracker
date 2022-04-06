@@ -88,3 +88,10 @@ dbgstat,"Indicate status of debug facilities (TEMPORARY - registered 2022-03-23,
 location,"The geographic location (TEMPORARY - registered 2022-03-23, expires 2023-03-23)",[IESG],[draft-ietf-rats-eat-12]
 eat_profile,"Indicates the EAT profile followed (TEMPORARY - registered 2022-03-23, expires 2023-03-23)",[IESG],[draft-ietf-rats-eat-12]
 submods,"The section containing submodules (TEMPORARY - registered 2022-03-23, expires 2023-03-23)",[IESG],[draft-ietf-rats-eat-12]
+cdniv,CDNI Claim Set Version,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.8]"
+cdnicrit,CDNI Critical Claims Set,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.9]"
+cdniip,CDNI IP Address,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.10]"
+cdniuc,CDNI URI Container,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.11]"
+cdniets,CDNI Expiration Time Setting for Signed Token Renewal,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.12]"
+cdnistt,CDNI Signed Token Transport Method for Signed Token Renewal,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.13]"
+cdnistd,CDNI Signed Token Depth,[IETF],"[RFC-ietf-cdni-uri-signing-26, Section 2.1.14]"
