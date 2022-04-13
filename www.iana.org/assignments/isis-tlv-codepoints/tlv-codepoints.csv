@@ -48,7 +48,8 @@ Network Service (ISO 8473)"", International Standard 10589:
 2002, Second Edition, 2002.][RFC6233]"
 11,ESN TLV,y,n,y,n,[RFC7602]
 12,Opt. Checksum,y,n,y,n,[RFC3358]
-13,Purge Originator Identification,n,n,n,y,[RFC8918]
+13,Purge Originator Identification,n,n,n,y,"[RFC6232]
+        [RFC8918]"
 14,LSPBufferSize,n,y,n,n,"[ISO 10589, ""Intermediate System to Intermediate System Intra-
 Domain Routeing Exchange Protocol for use in Conjunction
 with the Protocol for Providing the Connectionless-mode

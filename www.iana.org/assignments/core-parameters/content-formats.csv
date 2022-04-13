@@ -63,7 +63,9 @@ Unassigned,,321,
 application/senml-etch+cbor,,322,[RFC8790]
 Unassigned,,323-431,
 application/td+json,,432,"[""Web of Things (WoT) Thing Description"", May 2019]"
-Unassigned,,433-1541,
+Unassigned,,433-835,
+"application/voucher-cose+cbor (TEMPORARY - registered 2022-04-12, expires 2023-04-12)",,836,[draft-ietf-anima-constrained-voucher-17]
+Unassigned,,837-1541,
 "Reserved, do not use",,1542-1543,[OMA-TS-LightweightM2M-V1_0]
 Unassigned,,1544-9999,
 application/vnd.ocf+cbor,,10000,[Michael_Koster]

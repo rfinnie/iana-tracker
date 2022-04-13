@@ -58,7 +58,7 @@ Decimal,Description,References
 57,id-mod-cmsAuthEnvData-2009,[RFC6268]
 58,id-mod-cms-2009,[RFC6268]
 59,id-mod-multipleSign-2009,[RFC6268]
-60,id-mod-rpkiManifest,[RFC6486]
+60,id-mod-rpkiManifest,[RFC-ietf-sidrops-6486bis-11]
 61,id-mod-rpkiROA,[RFC6482]
 62,id-mod-setKeyAttributeV1,[draft-herzog-setkey]
 63,id-mod-keyPkgReceiptAndErrV2,[RFC7191]
