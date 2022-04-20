@@ -18,13 +18,10 @@ act,Actor,IESG,"[RFC8693, Section 4.1]"
 may_act,"Authorized Actor - the party that is authorized
         to become the actor",IESG,"[RFC8693, Section 4.4]"
 cnf,Confirmation,IESG,[RFC7800][RFC8705]
-ace_profile,The ACE profile used between client and RS.,IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"
+ace_profile,The ACE profile used between the client and RS.,IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"
 cnonce,"""client-nonce"".  A nonce previously provided to the
         AS by the RS via the client.  Used to verify token freshness when
         the RS cannot synchronize its clock with the AS.",IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"
 cti,"""CWT ID"".  The identifier of a CWT as defined in
         [RFC8392].",IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"
-exi,"""Expires in"".  Lifetime of the token in seconds from
-        the time the RS first sees it.  Used to implement a weaker from of
-        token expiration for devices that cannot synchronize their
-        internal clocks.",IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"
+exi,"""Expires in"". Lifetime of the token in seconds from the time the RS first sees it. Used to implement a weaker form of token expiration for devices that cannot synchronize their internal clocks.",IETF,"[RFC-ietf-ace-oauth-authz-46, Section 5.9.2]"

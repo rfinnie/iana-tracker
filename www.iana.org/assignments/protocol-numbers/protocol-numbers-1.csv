@@ -5,7 +5,7 @@ Decimal,Keyword,Protocol,IPv6 Extension Header,Reference
 3,GGP,Gateway-to-Gateway,,[RFC823]
 4,IPv4,IPv4 encapsulation,,[RFC2003]
 5,ST,Stream,,[RFC1190][RFC1819]
-6,TCP,Transmission Control,,[RFC793]
+6,TCP,Transmission Control,,[RFC-ietf-tcpm-rfc793bis-28]
 7,CBT,CBT,,[Tony_Ballardie]
 8,EGP,Exterior Gateway Protocol,,[RFC888][David_Mills]
 9,IGP,"any private interior gateway             

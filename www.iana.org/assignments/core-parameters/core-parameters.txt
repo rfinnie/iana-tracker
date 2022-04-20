@@ -6,7 +6,7 @@
            2012-06-08
 
    Last Updated
-           2022-04-12
+           2022-04-14
 
    Available Formats
            [IMG]
@@ -915,7 +915,9 @@ CoAP Content-Formats
    application/sensml+cbor                                              113         [RFC8428]
    application/senml-exi                                                114         [RFC8428]
    application/sensml-exi                                               115         [RFC8428]
-   Unassigned                                                           116-255
+   Unassigned                                                           116-139
+   application/yang-data+cbor; id=sid                                   140         [RFC-ietf-core-yang-cbor-20]
+   Unassigned                                                           141-255
    application/coap-group+json                                          256         [RFC7390]
    Unassigned                                                           257-270
    application/dots+cbor                                                271         [RFC9132]
@@ -938,7 +940,10 @@ CoAP Content-Formats
    application/senml-etch+json                                          320         [RFC8790]
    Unassigned                                                           321
    application/senml-etch+cbor                                          322         [RFC8790]
-   Unassigned                                                           323-431
+   Unassigned                                                           323-339
+   application/yang-data+cbor                                           340         [RFC-ietf-core-yang-cbor-20]
+   application/yang-data+cbor; id=name                                  341         [RFC-ietf-core-yang-cbor-20]
+   Unassigned                                                           342-431
    application/td+json                                                  432         ["Web of Things (WoT) Thing Description", May 2019]
    Unassigned                                                           433-835
    application/voucher-cose+cbor (TEMPORARY - registered                836         [draft-ietf-anima-constrained-voucher-17]
@@ -1062,8 +1067,8 @@ RD Parameters
    Endpoint Name ep    Unicode*                              RLA Name of the endpoint                         [RFC-ietf-core-resource-directory-28]
    Lifetime      lt    1-4294967295                          R   Lifetime of the registration in seconds      [RFC-ietf-core-resource-directory-28]
    Sector        d     Unicode*                              RLA Sector to which this endpoint belongs        [RFC-ietf-core-resource-directory-28]
-   Registration  base  URI                                   RLA The scheme, address and port and path at     [RFC-ietf-core-resource-directory-28]
-   Base URI                                                      which this server is available
+   Registration  base  URI                                   RLA The scheme, address, port, and path at which [RFC-ietf-core-resource-directory-28]
+   Base URI                                                      this server is available
    Page          page  Integer                               L   Used for pagination                          [RFC-ietf-core-resource-directory-28]
    Count         count Integer                               L   Used for pagination                          [RFC-ietf-core-resource-directory-28]
                        [RFC-ietf-core-resource-directory-28,     Semantic type of the endpoint (see
@@ -1088,7 +1093,8 @@ Endpoint Type (et=) RD Parameter Values
    all other values         Specification Required
 
        Value                                          Description                                                     Reference               Notes
-   core.rd-group An application group as described in [RFC-ietf-core-resource-directory-28] Appendix A. [RFC-ietf-core-resource-directory-28]
+   core.rd-group An application group, as described in [RFC-ietf-core-resource-directory-28] Appendix   [RFC-ietf-core-resource-directory-28]
+                 A.
 
                                                                  Contact Information
 

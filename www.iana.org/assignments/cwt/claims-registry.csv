@@ -15,7 +15,7 @@ nbf,Not Before,nbf,5,integer or floating-point number,[IESG],[RFC8392]
 iat,Issued At,iat,6,integer or floating-point number,[IESG],[RFC8392]
 cti,CWT ID,jti,7,byte string,[IESG],[RFC8392]
 cnf,Confirmation,cnf,8,map,[IESG],[RFC8747]
-scope,The scope of an access token as defined in [RFC6749].,scope,9,byte string or text string,[IESG],"[RFC8693, Section 4.2]"
+scope,"The scope of an access token, as defined in [RFC6749].",scope,9,byte string or text string,[IESG],"[RFC8693, Section 4.2]"
 Nonce,"Nonce (TEMPORARY - registered 2022-03-23, expires 2023-03-23)",nonce,10,byte string,[IESG],[OpenID Connect Core 1.0][draft-ietf-rats-eat-12]
 Unassigned,,,11 to 37,,,
 ace_profile,"The ACE profile a token is supposed to be used

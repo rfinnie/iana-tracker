@@ -7,7 +7,7 @@ assetlinks.json,[Google_Inc.],[https://github.com/google/digitalassetlinks/blob/
 brski,IETF,[RFC8995],permanent,BRSKI has a sub-registry at [https://www.iana.org/assignments/brski-parameters/brski-parameters.xhtml#brski-well-known-uris],2020-10-09,
 caldav,IETF,[RFC6764],permanent,see also [RFC4791],,
 carddav,IETF,[RFC6764],permanent,see also [RFC6352],,
-"cmp (TEMPORARY - registered 2021-05-20, expires 2022-05-20)",IETF,[draft-ietf-lamps-cmp-updates-10],provisional,,2021-05-20,
+"cmp (TEMPORARY - registered 2021-05-20, extension registered 2022-04-18, expires 2023-05-20)",IETF,[draft-ietf-lamps-cmp-updates-10],provisional,,2021-05-20,
 coap,IETF,[RFC8323],permanent,,2017-12-22,
 core,IETF,[RFC6690],permanent,,,
 csvm,W3C,[https://www.w3.org/TR/tabular-data-model/#default-locations-and-site-wide-location-configuration],permanent,,2015-09-28,

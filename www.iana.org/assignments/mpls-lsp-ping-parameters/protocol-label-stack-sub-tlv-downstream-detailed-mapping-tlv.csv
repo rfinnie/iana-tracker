@@ -6,7 +6,7 @@ Value,Meaning,Reference,Notes
 4,RSVP-TE,"[RFC8029, Section 3.4.1.2]",
 5,OSPF,"[RFC8287, Section 6]",To be used for OSPFv2 only.
 6,ISIS,"[RFC8287, Section 6]",
-7,OSPFv3,[RFC-ietf-mpls-lsp-ping-ospfv3-codepoint-06],
+7,OSPFv3,[RFC9214],
 8-250,Unassigned,,
 251-254,Reserved for Experimental Use,[RFC8287],
 255,Reserved,[RFC8287],
