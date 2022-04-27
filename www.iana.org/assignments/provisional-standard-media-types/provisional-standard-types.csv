@@ -2,6 +2,8 @@ Media Type,Organization,Contact
 application/automationml-aml+xml,AutomationML e.V.,[AutomationML_e.V.]
 application/automationml-amlx+zip,AutomationML e.V.,[AutomationML_e.V.]
 application/odm+json,CDISC,[Sam_Hume]
+application/cwl,CWL Project,[Michael_R._Crusoe]
+application/cwl+json,CWL Project,[Michael_R._Crusoe]
 application/json-nd,ECMA,[Glen_Kleidon]
 application/cert-chain+cbor,IETF,[draft-yasskin-http-origin-signed-responses]
 application/ion,IETF,[Jonathan_Hohle]

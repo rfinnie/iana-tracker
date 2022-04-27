@@ -9,8 +9,8 @@ Value,Description,DTLS-OK,Reference,Comment
 6,hello_retry_request_RESERVED,Y,[RFC8446],"Assigned for interim draft, but the functionality was moved to an extension."
 7,Unassigned,,,
 8,encrypted_extensions,Y,[RFC8446],
-9,request_connection_id,Y,[RFC-ietf-tls-dtls13-43],
-10,new_connection_id,Y,[RFC-ietf-tls-dtls13-43],
+9,request_connection_id,Y,[RFC9147],
+10,new_connection_id,Y,[RFC9147],
 11,certificate,Y,[RFC8446],
 12,server_key_exchange_RESERVED,Y,[RFC8446],Used in TLS versions prior to 1.3.
 13,certificate_request,Y,[RFC8446],

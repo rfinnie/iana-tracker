@@ -67,6 +67,6 @@ nonce1,client-rs request,IETF,[RFC-ietf-ace-oscore-profile-19]
 nonce2,rs-client response,IETF,[RFC-ietf-ace-oscore-profile-19]
 ace_client_recipientid,client-rs request,IETF,[RFC-ietf-ace-oscore-profile-19]
 ace_server_recipientid,rs-client response,IETF,[RFC-ietf-ace-oscore-profile-19]
-req_cnf,token request,IETF,[RFC-ietf-ace-oauth-params-16]
-rs_cnf,token response,IETF,[RFC-ietf-ace-oauth-params-16]
-cnf,token response,IETF,[RFC-ietf-ace-oauth-params-16]
+req_cnf,token request,IETF,"[RFC-ietf-ace-oauth-params-16, Section 5]"
+rs_cnf,token response,IETF,"[RFC-ietf-ace-oauth-params-16, Section 5]"
+cnf,token response,IETF,"[RFC-ietf-ace-oauth-params-16, Section 5]"
