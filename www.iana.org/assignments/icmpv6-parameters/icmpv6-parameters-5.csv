@@ -40,7 +40,7 @@ Option",[RFC5568]
 38,PREF64 option,[RFC8781]
 39,Crypto-ID Parameters Option (CIPO),[RFC8928]
 40,NDP Signature Option (NDPSO),[RFC8928]
-41,Resource Directory Address Option,[RFC-ietf-core-resource-directory-28]
+41,Resource Directory Address Option,[RFC9176]
 42-137,Unassigned,
 138,CARD Request option,[RFC4065]
 139,CARD Reply option,[RFC4065]

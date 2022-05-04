@@ -11033,8 +11033,8 @@ imqbrokerd,7676,udp,iMQ Broker Rendezvous,[Joseph_Di_Pol],[Joseph_Di_Pol],2002-0
 sun-user-https,7677,tcp,Sun App Server - HTTPS,[Abhijit_Kumar],[Abhijit_Kumar],2005-11,,,,,
 sun-user-https,7677,udp,Sun App Server - HTTPS,[Abhijit_Kumar],[Abhijit_Kumar],2005-11,,,,,
 ,7678-7679,,Unassigned,,,,,,,,
-pando-pub,7680,tcp,Pando Media Public Distribution,[Laird_Popkin],[Laird_Popkin],2008-02-27,,,,,
-pando-pub,7680,udp,Pando Media Public Distribution,[Laird_Popkin],[Laird_Popkin],2008-02-27,,,,,
+ms-do,7680,tcp,Microsoft Delivery Optimization Peer-to-Peer,[Microsoft_Corporation_6],[Narkis_Engler],2008-02-27,2022-05-03,,,,
+ms-do,7680,udp,Microsoft Delivery Optimization Peer-to-Peer,[Microsoft_Corporation_6],[Narkis_Engler],2008-02-27,2022-05-03,,,,
 ,7681-7682,,Unassigned,,,,,,,,
 dmt,7683,tcp,Cleondris DMT,[Cleondris_GmbH],[Christian_Plattner],2015-03-31,,,,,
 ,7683,udp,Reserved,,,,,,,,
@@ -11437,8 +11437,8 @@ espeasy-p2p,8266,udp,ESPeasy peer-2-peer communication,[ESPeasy],[Gijs_Noorlande
 robot-remote,8270,tcp,Robot Framework Remote Library Interface,[Robot_Framework_Foundation],[Chris_Newman],2017-01-26,,,,,
 ,8270,udp,Reserved,,,,,,,,
 ,8271-8275,,Unassigned,,,,,,,,
-pando-sec,8276,tcp,Pando Media Controlled Distribution,[Laird_Popkin],[Laird_Popkin],2008-02-27,,,,,
-pando-sec,8276,udp,Pando Media Controlled Distribution,[Laird_Popkin],[Laird_Popkin],2008-02-27,,,,,
+ms-mcc,8276,tcp,Microsoft Connected Cache,[Microsoft_Corporation_6],[Narkis_Engler],2008-02-27,2022-05-03,,,,
+ms-mcc,8276,udp,Microsoft Connected Cache,[Microsoft_Corporation_6],[Narkis_Engler],2008-02-27,2022-05-03,,,,
 ,8277-8279,,Unassigned,,,,,,,,
 synapse-nhttp,8280,tcp,Synapse Non Blocking HTTP,[Ruwan_Linton],[Ruwan_Linton],2008-06-05,,,,,
 synapse-nhttp,8280,udp,Synapse Non Blocking HTTP,[Ruwan_Linton],[Ruwan_Linton],2008-06-05,,,,,
@@ -14045,10 +14045,10 @@ conecube,,udp,DNS SRV service for smarthome server,[cone_smart_solution],[Christ
 contactserver,,,Now Contact,,,,,,,,Defined TXT keys: None
 convert,,tcp,0-RTT TCP Convert Protocol,[IESG],[IETF_Chair],2020-03-27,,[RFC8803],,,Defined TXT keys: None
 coolanetaudio,,tcp,Coolatoola Network Audio,[Coolatoola.com],[Tim_Hewett],2014-01-03,,,,,Defined TXT keys: None
-core-rd,,tcp,Resource Directory accessed using CoAP over TCP,[IESG],[IETF_Chair],2021-03-16,,[RFC-ietf-core-resource-directory-28],,,Defined TXT keys: None
-core-rd,,udp,Resource Directory accessed using CoAP,[IESG],[IETF_Chair],2021-03-16,,[RFC-ietf-core-resource-directory-28],,,Defined TXT keys: None
-core-rd-tls,,tcp,Resource Directory accessed using CoAP over TLS,[IESG],[IETF_Chair],2021-03-16,2022-04-14,[RFC-ietf-core-resource-directory-28],,,Defined TXT keys: None
-core-rd-dtls,,udp,Resource Directory accessed using CoAP over DTLS,[IESG],[IETF_Chair],2021-03-16,,[RFC-ietf-core-resource-directory-28],,,Defined TXT keys: None
+core-rd,,tcp,Resource Directory accessed using CoAP over TCP,[IESG],[IETF_Chair],2021-03-16,,[RFC9176],,,Defined TXT keys: None
+core-rd,,udp,Resource Directory accessed using CoAP,[IESG],[IETF_Chair],2021-03-16,,[RFC9176],,,Defined TXT keys: None
+core-rd-tls,,tcp,Resource Directory accessed using CoAP over TLS,[IESG],[IETF_Chair],2021-03-16,2022-04-14,[RFC9176],,,Defined TXT keys: None
+core-rd-dtls,,udp,Resource Directory accessed using CoAP over DTLS,[IESG],[IETF_Chair],2021-03-16,,[RFC9176],,,Defined TXT keys: None
 corroboree,,,Corroboree Server,[Heath_Raftery],[Heath_Raftery],,,,,,Defined TXT keys: None
 coviot,,tcp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
 coviot,,udp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
@@ -14156,6 +14156,7 @@ enphase-envoy,,tcp,Enphase Energy Envoy,[Enphase_Energy_Inc],[Chris_Eich],2011-1
 ep,,,Endpoint Protocol (EP) for use in Home Automation systems,[Tommy_van_der_Vorst],[Tommy_van_der_Vorst],,,,,,Defined TXT keys: dns-sd_mdns
 esp,,tcp,Extensis Server Protocol,[Loren_Barr],[Loren_Barr],2006-12,,,,,Defined TXT keys: none
 est,,tcp,Enrollment Over Secure Transport,[Jack_Visoky],[Jack_Visoky],2017-10-06,,,,,[RFC7030]. Defined TXT keys: none
+est-coaps,,udp,EST over secure CoAP (EST-coaps),[Toerless_Eckert_3],[Toerless_Eckert_3],2022-05-03,,,,,Defined TXT keys: None
 eucalyptus,,,Eucalyptus Discovery,[Support_Team],[Support_Team],,,,,,Defined TXT keys: Eucalyptus-DNS-SD
 eventserver,,,Now Up-to-Date,,,,,,,,Defined TXT keys: None
 evp,,tcp,EvP - Generic EVENT protocol,[Quentin_Glidic],,2013-06-05,,,,,Defined TXT keys: None

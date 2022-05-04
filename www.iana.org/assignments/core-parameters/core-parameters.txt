@@ -6,7 +6,7 @@
            2012-06-08
 
    Last Updated
-           2022-04-14
+           2022-04-27
 
    Available Formats
            [IMG]
@@ -58,10 +58,10 @@ Resource Type (rt=) Link Target Attribute Values
    core.gp                             resource is used to query/manage the [RFC7390, Section 2.6.2]
                                        group membership of a CoAP server.
    core.hc                             HTTP-to-CoAP mapping base resource.  [RFC8075, Section 5.5]
-   core.rd                             Directory resource of an RD          [RFC-ietf-core-resource-directory-28, Section 4.3]
-   core.rd-ep                          Endpoint resource of an RD           [RFC-ietf-core-resource-directory-28, Section 6]
-   core.rd-lookup-ep                   Endpoint lookup of an RD             [RFC-ietf-core-resource-directory-28, Section 4.3]
-   core.rd-lookup-res                  Resource lookup of an RD             [RFC-ietf-core-resource-directory-28, Section 4.3]
+   core.rd                             Directory resource of an RD          [RFC9176, Section 4.3]
+   core.rd-ep                          Endpoint resource of an RD           [RFC9176, Section 6]
+   core.rd-lookup-ep                   Endpoint lookup of an RD             [RFC9176, Section 4.3]
+   core.rd-lookup-res                  Resource lookup of an RD             [RFC9176, Section 4.3]
    oic.d.airconditioner                Air Conditioner device               [OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1]
    oic.d.airpurifier                   Air Purifier device                  [OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1]
    oic.d.blind                         Blind device                         [OIC_SmartHomeDevice_Specification_v1.1.0 section 10.1]
@@ -570,20 +570,20 @@ Resource Type (rt=) Link Target Attribute Values
    oic.r.waterinfo                     Water information resource.          [OCF_Resource_Type_Specification_v2.0.5 clause 6.151]
    oic.r.windowcovering                Configurable window covering         [OCF_Resource_Type_Specification_v2.0.5 clause 6.126]
                                        resource
-   ace.est.crts                        This resource depicts the support of [RFC-ietf-ace-coap-est-18]
+   ace.est.crts                        This resource depicts the support of [RFC9148]
                                        EST GET cacerts.
-   ace.est.sen                         This resource depicts the support of [RFC-ietf-ace-coap-est-18]
+   ace.est.sen                         This resource depicts the support of [RFC9148]
                                        EST simple enroll.
-   ace.est.sren                        This resource depicts the support of [RFC-ietf-ace-coap-est-18]
+   ace.est.sren                        This resource depicts the support of [RFC9148]
                                        EST simple reenroll.
-   ace.est.att                         This resource depicts the support of [RFC-ietf-ace-coap-est-18]
+   ace.est.att                         This resource depicts the support of [RFC9148]
                                        EST GET CSR attributes.
                                        This resource depicts the support of
-   ace.est.skg                         EST server-side key generation with  [RFC-ietf-ace-coap-est-18]
-                                       the returned certificate in a PKCS#7
-                                       container.
+   ace.est.skg                         EST server-side key generation with  [RFC9148]
+                                       the returned certificate in a PKCS
+                                       #7 container.
                                        This resource depicts the support of
-   ace.est.skc                         EST server-side key generation with  [RFC-ietf-ace-coap-est-18]
+   ace.est.skc                         EST server-side key generation with  [RFC9148]
                                        the returned certificate in
                                        application/pkix-cert format.
    oic.d.bodycompositionanalyser       Body Composition Analyser device     [OCF Device Specification v2.1.2 clause A.2]
@@ -923,13 +923,13 @@ CoAP Content-Formats
    application/dots+cbor                                                271         [RFC9132]
    application/missing-blocks+cbor-seq                                  272         [RFC9177]
    Unassigned                                                           273-279
-   application/pkcs7-mime; smime-type=server-generated-key              280         [RFC7030][RFC8551][RFC-ietf-ace-coap-est-18]
-   application/pkcs7-mime; smime-type=certs-only                        281         [RFC8551][RFC-ietf-ace-coap-est-18]
+   application/pkcs7-mime; smime-type=server-generated-key              280         [RFC7030][RFC8551][RFC9148]
+   application/pkcs7-mime; smime-type=certs-only                        281         [RFC8551][RFC9148]
    Unassigned                                                           282-283
-   application/pkcs8                                                    284         [RFC5958][RFC8551][RFC-ietf-ace-coap-est-18]
-   application/csrattrs                                                 285         [RFC7030][RFC-ietf-ace-coap-est-18]
-   application/pkcs10                                                   286         [RFC5967][RFC8551][RFC-ietf-ace-coap-est-18]
-   application/pkix-cert                                                287         [RFC2585][RFC-ietf-ace-coap-est-18]
+   application/pkcs8                                                    284         [RFC5958][RFC8551][RFC9148]
+   application/csrattrs                                                 285         [RFC7030][RFC9148]
+   application/pkcs10                                                   286         [RFC5967][RFC8551][RFC9148]
+   application/pkix-cert                                                287         [RFC2585][RFC9148]
    Unassigned                                                           288-289
    application/aif+cbor                                                 290         [RFC-ietf-ace-aif-07]
    application/aif+json                                                 291         [RFC-ietf-ace-aif-07]
@@ -1057,23 +1057,20 @@ RD Parameters
  Unassigned
 
    Reference
-           [RFC-ietf-core-resource-directory-28]
+           [RFC9176]
 
    Available Formats
            [IMG]
            CSV
 
-       Name      Short               Validity                Use                 Description                                Reference
-   Endpoint Name ep    Unicode*                              RLA Name of the endpoint                         [RFC-ietf-core-resource-directory-28]
-   Lifetime      lt    1-4294967295                          R   Lifetime of the registration in seconds      [RFC-ietf-core-resource-directory-28]
-   Sector        d     Unicode*                              RLA Sector to which this endpoint belongs        [RFC-ietf-core-resource-directory-28]
-   Registration  base  URI                                   RLA The scheme, address, port, and path at which [RFC-ietf-core-resource-directory-28]
-   Base URI                                                      this server is available
-   Page          page  Integer                               L   Used for pagination                          [RFC-ietf-core-resource-directory-28]
-   Count         count Integer                               L   Used for pagination                          [RFC-ietf-core-resource-directory-28]
-                       [RFC-ietf-core-resource-directory-28,     Semantic type of the endpoint (see
-   Endpoint Type et    Section 9.3.1]                        RLA [RFC-ietf-core-resource-directory-28,        [RFC-ietf-core-resource-directory-28]
-                                                                 Section 9.4])
+           Name          Short         Validity         Use                              Description                              Reference
+   Endpoint Name         ep    Unicode*                 RLA Name of the endpoint                                                  [RFC9176]
+   Lifetime              lt    1-4294967295             R   Lifetime of the registration in seconds                               [RFC9176]
+   Sector                d     Unicode*                 RLA Sector to which this endpoint belongs                                 [RFC9176]
+   Registration Base URI base  URI                      RLA The scheme, address, port, and path at which this server is available [RFC9176]
+   Page                  page  Integer                  L   Used for pagination                                                   [RFC9176]
+   Count                 count Integer                  L   Used for pagination                                                   [RFC9176]
+   Endpoint Type         et    [RFC9176, Section 9.3.1] RLA Semantic type of the endpoint (see[RFC9176, Section 9.4])             [RFC9176]
 
 Endpoint Type (et=) RD Parameter Values
 
@@ -1082,7 +1079,7 @@ Endpoint Type (et=) RD Parameter Values
  Unassigned
 
    Reference
-           [RFC-ietf-core-resource-directory-28]
+           [RFC9176]
 
    Available Formats
            [IMG]
@@ -1092,9 +1089,8 @@ Endpoint Type (et=) RD Parameter Values
    value starts with "core" IETF Review
    all other values         Specification Required
 
-       Value                                          Description                                                     Reference               Notes
-   core.rd-group An application group, as described in [RFC-ietf-core-resource-directory-28] Appendix   [RFC-ietf-core-resource-directory-28]
-                 A.
+       Value                             Description                         Reference Notes
+   core.rd-group An application group, as described in [RFC9176] Appendix A. [RFC9176]
 
                                                                  Contact Information
 
