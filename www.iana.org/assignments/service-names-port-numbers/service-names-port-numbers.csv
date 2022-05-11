@@ -14155,8 +14155,8 @@ enphase-envoy,,tcp,Enphase Energy Envoy,[Enphase_Energy_Inc],[Chris_Eich],2011-1
       - serialnum"
 ep,,,Endpoint Protocol (EP) for use in Home Automation systems,[Tommy_van_der_Vorst],[Tommy_van_der_Vorst],,,,,,Defined TXT keys: dns-sd_mdns
 esp,,tcp,Extensis Server Protocol,[Loren_Barr],[Loren_Barr],2006-12,,,,,Defined TXT keys: none
-est,,tcp,Enrollment Over Secure Transport,[Jack_Visoky],[Jack_Visoky],2017-10-06,,,,,[RFC7030]. Defined TXT keys: none
-est-coaps,,udp,EST over secure CoAP (EST-coaps),[Toerless_Eckert_3],[Toerless_Eckert_3],2022-05-03,,,,,Defined TXT keys: None
+est,,tcp,Enrollment Over Secure Transport,[Jack_Visoky],[Jack_Visoky],2017-10-06,,,,,[RFC7030]. Defined TXT keys: None
+est-coaps,,udp,EST over secure CoAP (EST-coaps),[Toerless_Eckert_3],[Toerless_Eckert_3],2022-05-03,2022-05-04,,,,[RFC9148]. Defined TXT keys: None
 eucalyptus,,,Eucalyptus Discovery,[Support_Team],[Support_Team],,,,,,Defined TXT keys: Eucalyptus-DNS-SD
 eventserver,,,Now Up-to-Date,,,,,,,,Defined TXT keys: None
 evp,,tcp,EvP - Generic EVENT protocol,[Quentin_Glidic],,2013-06-05,,,,,Defined TXT keys: None

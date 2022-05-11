@@ -7,8 +7,8 @@ Value,Name,Reference
 5,[Deprecated],[RFC4271]
 6,Unacceptable Hold Time,[RFC4271]
 7,Unsupported Capability,[RFC5492]
-8,Deprecated,[RFC-ietf-idr-bgp-open-policy-23]
-9,Deprecated,[RFC-ietf-idr-bgp-open-policy-23]
-10,Deprecated,[RFC-ietf-idr-bgp-open-policy-23]
-11,Role Mismatch,[RFC-ietf-idr-bgp-open-policy-23]
+8,Deprecated,[RFC9234]
+9,Deprecated,[RFC9234]
+10,Deprecated,[RFC9234]
+11,Role Mismatch,[RFC9234]
 12-255,Unassigned,

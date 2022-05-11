@@ -59,5 +59,10 @@ Value,Description,Reference
 57,"SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 58,"SRPOLICY-CPATH-NAME (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 59,"SRPOLICY-CPATH-PREFERENCE (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
-60-65503,Unassigned,
+60,"MULTIPATH-CAP (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+61,"MULTIPATH-WEIGHT (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+62,"MULTIPATH-BACKUP (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+63,"MULTIPATH-OPPDIR-PATH
+        (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+64-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]
