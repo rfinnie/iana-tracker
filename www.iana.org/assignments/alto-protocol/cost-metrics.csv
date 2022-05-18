@@ -1,6 +1,5 @@
 Identifier,Intended Semantics,Reference
 routingcost,See Section 6.1.1.1 of [RFC7285],[RFC7285]
-priv:,Private use,[RFC7285]
 delay-ow,See Section 4.1 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]
 delay-rt,See Section 4.2 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]
 delay-variation,See Section 4.3 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]

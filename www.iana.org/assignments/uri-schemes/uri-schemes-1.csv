@@ -45,6 +45,7 @@ com-eventbrite-attendee,prov/com-eventbrite-attendee,com-eventbrite-attendee,Pro
 content,prov/content,content,Provisional,-,[Dave_Thaler],
 content-type,prov/content-type,content-type,Provisional,-,[Donald_Eastlake],
 crid,,TV-Anytime Content Reference Identifier,Permanent,-,[RFC4078],
+cstr,prov/cstr,cstr,Provisional,-,[Wang_Shu],
 cvs,prov/cvs,cvs,Provisional,-,[Dave_Thaler],
 dab,prov/dab,dab,Provisional,-,[RadioDNS_Project],
 dat,prov/dat,dat,Provisional,-,[Frédéric_Wang][Paul_Frazee],

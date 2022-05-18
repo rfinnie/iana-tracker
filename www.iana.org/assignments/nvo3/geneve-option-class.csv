@@ -16,5 +16,6 @@ Option Class,Description,Assignee,Contact,Reference
 0x0132-0x0135,Google LLC,[Google],[Dror_Eiger],
 0x0136,InfoQuick Global Connection Tech Ltd.,[InfoQuick_Global_Connection_Tech_Ltd.],[Gu_Wei][Shan_Yan_Jin],
 0x0137-0x0140,"Alibaba, inc",[Alibaba],[Xiaoxin_Peng],
-0x0141-0xFEFF,Unassigned,,,
+0x0141-0x0144,Palo Alto Networks,[Palo_Alto_Networks],[Arivu_Ramasamy],
+0x0145-0xFEFF,Unassigned,,,
 0xFF00-0xFFFF,Reserved for Experimental Use,,,[RFC8926]

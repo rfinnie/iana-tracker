@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-04-01</dd>
+        <dd>2022-05-16</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2243,6 +2243,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8348">RFC8348</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-i2nsf-capability</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-capability</td>
+            <td>
+              <a href="ns/yang/ietf-i2nsf-capability.txt">ns/yang/ietf-i2nsf-capability.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-capability-data-model-31">RFC-ietf-i2nsf-capability-data-model-31</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-i2nsf-ike</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-ike</td>
             <td>
@@ -2265,6 +2273,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-i2nsf-ikeless.txt">ns/yang/ietf-i2nsf-ikeless.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-i2nsf-policy-rule-for-nsf</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-policy-rule-for-nsf</td>
+            <td>
+              <a href="ns/yang/ietf-i2nsf-policy-rule-for-nsf.txt">ns/yang/ietf-i2nsf-policy-rule-for-nsf.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-facing-interface-dm-27">RFC-ietf-i2nsf-nsf-facing-interface-dm-27</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-i2rs-rib</td>
@@ -2859,7 +2875,7 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8639">RFC8639</a>]</td>
           </tr>
           <tr>
-            <td>yang:ietf-syslog (TEMPORARY - registered 2021-07-11, exprires 2022-07-11)</td>
+            <td>yang:ietf-syslog (TEMPORARY - registered 2021-07-11, extension registered 2022-05-11, expires 2023-07-11)</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-syslog</td>
             <td>
               <a href="ns/yang/ietf-syslog.txt">ns/yang/ietf-syslog.txt</a>

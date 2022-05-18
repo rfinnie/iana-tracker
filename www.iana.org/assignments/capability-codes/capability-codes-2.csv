@@ -8,7 +8,7 @@ Value,Description,Reference,Change Controller
 6,BGP Extended Message,[RFC8654],IETF
 7,BGPsec Capability,[RFC8205],IETF
 8,Multiple Labels Capability,[RFC8277],IETF
-9,BGP Role,[RFC-ietf-idr-bgp-open-policy-23],IETF
+9,BGP Role,[RFC9234],IETF
 10-63,Unassigned,,
 64,Graceful Restart Capability,[RFC4724],IETF
 65,Support for 4-octet AS number capability,[RFC6793],IETF

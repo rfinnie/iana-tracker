@@ -30,7 +30,7 @@ Decimal,Description,References
 29,id-kp-cmcArchive,[RFC6402]
 30,id-kp-bgpsec-router,[RFC8209]
 31,id-kp-BrandIndicatorforMessageIdentification,[draft-chuang-bimi-certificate]
-32,id-kp-cmKGA,[draft-ietf-lamps-cmp-updates]
+32,id-kp-cmKGA,[draft-ietf-lamps-cmp-updates-18]
 33,id-kp-rpcTLSClient,[RFC-ietf-nfsv4-rpc-tls-10]
 34,id-kp-rpcTLSServer,[RFC-ietf-nfsv4-rpc-tls-10]
 35,id-kp-bundleSecurity,[RFC9174]
