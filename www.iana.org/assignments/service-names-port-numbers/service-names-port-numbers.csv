@@ -6816,7 +6816,7 @@ swr-port,3491,tcp,SWR Port,[Ian_Manning],[Ian_Manning],2002-05,,,,,
 swr-port,3491,udp,SWR Port,[Ian_Manning],[Ian_Manning],2002-05,,,,,
 tvdumtray-port,3492,tcp,TVDUM Tray Port,[Peter_Boers],[Peter_Boers],2002-05,,,,,
 tvdumtray-port,3492,udp,TVDUM Tray Port,[Peter_Boers],[Peter_Boers],2002-05,,,,,
-nut,3493,tcp,Network UPS Tools,[Network_UPS_Tools_Project],[Evgeny_Klimov],2002-05,2020-12-16,,,,
+nut,3493,tcp,Network UPS Tools,[Network_UPS_Tools_Project],[Evgeny_Klimov],2002-05,2022-05-18,[RFC-rprice-ups-management-protocol-15],,,
 nut,3493,udp,Network UPS Tools,[Network_UPS_Tools_Project],[Evgeny_Klimov],2002-05,2020-12-16,,,,
 ibm3494,3494,tcp,IBM 3494,[Jeffrey_Pilch],[Jeffrey_Pilch],,,,,,
 ibm3494,3494,udp,IBM 3494,[Jeffrey_Pilch],[Jeffrey_Pilch],,,,,,
@@ -10661,7 +10661,10 @@ acmsoda,6969,udp,acmsoda,[Daniel_Simms],[Daniel_Simms],,,,,,
 conductor,6970,tcp,Conductor test coordination protocol,[George_Neville-Neil],[George_Neville-Neil],2014-09-18,,,,,
 ,6970,udp,Reserved,,,,,,,,
 conductor-mpx,6970,sctp,conductor for multiplex,[George_Neville-Neil],[George_Neville-Neil],2014-07-29,,,,,
-,6971-6996,,Unassigned,,,,,,,,
+,6971-6979,,Unassigned,,,,,,,,
+,6980,tcp,Reserved,,,,,,,,
+qolyester,6980,udp,QoS-extended OLSR protocol,[Green_Communications_SAS],[Ignacy_Gawedzki],2022-05-24,,,,,
+,6981-6996,,Unassigned,,,,,,,,
 MobilitySrv,6997,tcp,Mobility XE Protocol,[Joseph_T_Savarese],[Joseph_T_Savarese],2007-06,,,,,
 MobilitySrv,6997,udp,Mobility XE Protocol,[Joseph_T_Savarese],[Joseph_T_Savarese],2007-06,,,,,
 iatp-highpri,6998,tcp,IATP-highPri,[John_Murphy],[John_Murphy],,,,,,
@@ -14841,7 +14844,7 @@ touch-able,,,iPhone and iPod touch Remote Controllable,[Amandeep_Jawa_3],[Amande
 touch-remote,,,iPhone and iPod touch Remote Pairing,[Amandeep_Jawa_3],[Amandeep_Jawa_3],,,,,,"Defined TXT keys: txtvers, DvNm, Pair, RemV, RemN, DvTy"
 tptx-console,,tcp,Coordination service for client users of the TotalPraisTrax iPad application,[Randy_Davenport],[Chris_Watson],2014-03-04,,,,,Defined TXT keys: None
 transmitr,,tcp,Service discovery and media transfer for peer to peer mobile media transfer app,[Windward_Code_LLC],[Alex_Belliotti],2013-11-27,,,,,Defined TXT keys: None
-trel,,udp,Thread Radio Encapsulation Link,[Thread_Group_Inc],[Tom_Sciorilli],2021-12-10,,,,,"Defined TXT keys: mac, xpan"
+trel,,udp,Thread Radio Encapsulation Link,[Thread_Group_Inc],[Tom_Sciorilli],2021-12-10,2022-05-20,,,,"Defined TXT keys: xa, xp"
 tri-vis-client,,,triCerat Simplify Visibility Client,[Christopher_Karper],[Christopher_Karper],,,,,,Defined TXT keys: None
 tri-vis-server,,,triCerat Simplify Visibility Server,[Christopher_Karper],[Christopher_Karper],,,,,,Defined TXT keys: None
 tryst,,,Tryst,[Francisco_Ryan_Tolma],[Francisco_Ryan_Tolma],,,,,,Defined TXT keys: None

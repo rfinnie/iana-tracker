@@ -25,15 +25,23 @@ ELS-WiFi,Civic Address representing the associated location of the UE based upon
 GNSS,Global Navigation Satellite Systems,[Brian_Rosen],2018-12-07
 GPS,Global Positioning System,[RFC4119],
 Handset_AFLT,Advanced Forward Link Trilateration,[James_Winterbottom],
+Handset_BLE,"Bluetooth based X,Y position, using beacon proximity with varying power and coverage levels",[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
 Handset_EFLT,Enhanced Forward Link Trilateration,[James_Winterbottom],
+Handset_WiFi,"WLAN based X,Y position, using beacon proximity or ranging methods",[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
 Hybrid_A-GPS,"Device provides psuedo-rangesto a network element    
 that computes the location in combination with
 network measurements",[James_Winterbottom],
 hybridAGPS_AFLT,Hybrid of Assisted GPS and Advanced Forward Link Trilateration,[Brian_Rosen],2018-12-07
+hybridCellSector_AFLT,Positioning based on combining information from multiple cells or sectors,[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
 hybridCellSector_AGPS,Hybrid of Cell/Sector based and Assisted GPS,[Brian_Rosen],2018-12-07
+hybridOTDOA_A-GNSS,"Positioning based on the combination of OTDOA and multiple constellations (GPS, GLONASS, Galileo, etc.)",[NENA-STA-034.1-2021][Brian_Rosen],2022-05-12
+hybridOTDOA_AGPS,Positioning based on the combination of OTDOA and AGPS measurements,[NENA-STA-034.1-2021][Brian_Rosen],2022-05-12
+hybridRFPatternMatch_AGPS,Network-centric positioning method based on a combination of  radio link measurements collected from the network and/or the device and AGPS,[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
+hybridTDOA_A-GNSS,"Positioning based on the combination of TDOA and multiple constellations (GPS, GLONASS, Galileo, etc.)",[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
 hybridTDOA_AOA,Hybrid of Time Difference of Arrival and Angle of Arrival,[Brian_Rosen],2018-12-07
 hybridTDOA_AGPS,Hybrid of Time Difference of Arrival and AGPS,[Brian_Rosen],2018-12-07
 hybridTDOA_AGPS_AOA,"Hybrid of Time Difference of Arrival, Assisted GPS and Angle of Arrival",[Brian_Rosen],2018-12-07
+hybridWiFi_AGPS,Positioning in the network based on the combination of Wi-Fi and AGPS measurements,[NENA-STA-010.3-2021][Brian_Rosen],2022-05-12
 IPDL,Idle Period Down Link,[James_Winterbottom],
 LLDP-MED,"Provided by Link Layer Discovery Protocol - Media    
 Endpoint Discovery (LLDP-MED)","[Telecommunications Industry Association, ""Link Layer Discovery

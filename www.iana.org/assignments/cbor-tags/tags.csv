@@ -121,7 +121,11 @@ Tag,Data Item,Semantics,Reference,Template
 22098,multiple,hint that indicates an additional level of indirection,[http://cbor.schmorp.de/indirection][Marc_A._Lehmann],
 22099-25440,Unassigned,,,
 25441,Array containing at most one array followed by at most one map,Capture [3],[https://github.com/japhb/cbor-specs/blob/main/capture.md][Geoffrey_Broadwell],
-25442-49999,Unassigned,,,
+25442-42599,Unassigned,,,
+42600,map,A confidentiality clearance. The key value pairs of the map are defined in ADatP-4774.4,[Aidan_Murdock],template/42600
+42601,array,A metadata binding. The elements of the array are defined in AdatP-4778.5. The tag is also used as part of the magic number in on-disk detached and encapsulating bindings.,[Aidan_Murdock],template/42601
+42602,map,A collection of NCMS metadata elements. The key value pairs of the map are defined in AdatP-5636.4,[Aidan_Murdock],template/42602
+42603-49999,Unassigned,,,
 50000,integer,PlatformV_IS_ID,[https://github.com/arthurwangtz/platformv-cbor][Wang_Tongzhou],
 50001,text string,PlatformV_IS_NAME,[https://github.com/arthurwangtz/platformv-cbor][Wang_Tongzhou],
 50002,any,PlatformV_IS_VALUE,[https://github.com/arthurwangtz/platformv-cbor][Wang_Tongzhou],
@@ -136,15 +140,22 @@ Tag,Data Item,Semantics,Reference,Template
 50011,array,PlatformV_HAS_ACTION,[https://github.com/arthurwangtz/platformv-cbor][Wang_Tongzhou],
 50012-55798,Unassigned,,,
 55799,(any),Self-described CBOR; see Section 3.4.6,[RFC8949],
-55800,byte-string,indicates that the file contains one or more CBOR Sequences,[draft-ietf-cbor-file-magic-00][Michael_Richardson_2],
-55801-65534,Unassigned,,,
+55800,tagged byte string,indicates that the file contains CBOR Sequences,[RFC-ietf-cbor-file-magic-12],
+55801,tagged byte string,indicates that the file starts with a CBOR-Labeled Non-CBOR Data label.,[RFC-ietf-cbor-file-magic-12],
+55802-57341,Unassigned,,,
+57342,array,Identify and define a set of record structures (each a sequence of property names) that can be referenced as tags in the included value (and the scope for the record tag definitions),[https://github.com/kriszyp/cbor-records][Kris_Zyp],
+57343,array,"Identify and define a record structure (a sequence of property names), and use that record structure definition to interpret the included values.",[https://github.com/kriszyp/cbor-records][Kris_Zyp],
+57344-57599,array,"References a defined record structure, using that referenced record definition to interpret the included values.",[https://github.com/kriszyp/cbor-records][Kris_Zyp],
+57600-65534,Unassigned,,,
 65535,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
-65536-1330664269,Unassigned,,,
+65536-15309735,Unassigned,,,
+15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell],
+15309737-1330664269,Unassigned,,,
 1330664270,byte-string,"A CBOR encoded Openswan configuration file, as stored on disk for
 unit test cases.",[Michael_Richardson][Samir_Hussain],template/1330664270
-1330664271-15309735,Unassigned,,,
-15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell],
-15309737-4294967294,Unassigned,,,
+1330664271-1668546816,Unassigned,,,
+1668546817-1668612095,byte string or any CBOR data item (see Appendix B of [RFC-ietf-cbor-file-magic-12]),the representation of content-format ct < 65025 is indicated by tag number TN(ct) = 0x63470101 + (ct / 255) * 256 + ct % 255,[RFC-ietf-cbor-file-magic-12],
+1668612096-4294967294,Unassigned,,,
 4294967295,(none valid),always invalid,"[draft-bormann-cbor-notable-tags-02, Section 10.1]",
 4294967296,map,Intel FPGA SPDM Manifest,[Andrew_Draper],template/4294967296
 4294967297-18446744073709551614,Unassigned,,,

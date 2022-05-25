@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-05-16</dd>
+        <dd>2022-05-23</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2275,6 +2275,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-i2nsf-nsf-monitoring</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-nsf-monitoring</td>
+            <td>
+              <a href="ns/yang/ietf-i2nsf-nsf-monitoring.txt">ns/yang/ietf-i2nsf-nsf-monitoring.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-monitoring-data-model-18">RFC-ietf-i2nsf-nsf-monitoring-data-model-18</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-i2nsf-policy-rule-for-nsf</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-policy-rule-for-nsf</td>
             <td>
@@ -2931,6 +2939,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/draft-ietf-netconf-sztp-csr-14">RFC-ietf-netconf-sztp-csr-14</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-tcg-algs</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-tcg-algs</td>
+            <td>
+              <a href="ns/yang/ietf-tcg-algs.txt">ns/yang/ietf-tcg-algs.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-rats-yang-tpm-charra-21">RFC-ietf-rats-yang-tpm-charra-21</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-te-packet-types</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-te-packet-types</td>
             <td>
@@ -2969,6 +2985,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-template.txt">ns/yang/ietf-template.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc8407">RFC8407</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-tpm-remote-attestation</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-tpm-remote-attestation</td>
+            <td>
+              <a href="ns/yang/ietf-tpm-remote-attestation.txt">ns/yang/ietf-tpm-remote-attestation.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-rats-yang-tpm-charra-21">RFC-ietf-rats-yang-tpm-charra-21</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-twamp</td>
