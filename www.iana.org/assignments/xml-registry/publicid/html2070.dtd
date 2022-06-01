@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-05-23</dd>
+        <dd>2022-05-25</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2248,7 +2248,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-i2nsf-capability.txt">ns/yang/ietf-i2nsf-capability.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-capability-data-model-31">RFC-ietf-i2nsf-capability-data-model-31</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-capability-data-model-32">RFC-ietf-i2nsf-capability-data-model-32</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-i2nsf-ike</td>
@@ -2275,20 +2275,20 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc9061">RFC9061</a>]</td>
           </tr>
           <tr>
-            <td>yang:ietf-i2nsf-nsf-monitoring</td>
-            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-nsf-monitoring</td>
+            <td>yang:ietf-i2nsf-monitoring-interface</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-monitoring-interface</td>
             <td>
-              <a href="ns/yang/ietf-i2nsf-nsf-monitoring.txt">ns/yang/ietf-i2nsf-nsf-monitoring.txt</a>
+              <a href="ns/yang/ietf-i2nsf-monitoring-interface.txt">ns/yang/ietf-i2nsf-monitoring-interface.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-monitoring-data-model-18">RFC-ietf-i2nsf-nsf-monitoring-data-model-18</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-monitoring-data-model-19">RFC-ietf-i2nsf-nsf-monitoring-data-model-19</a>]</td>
           </tr>
           <tr>
-            <td>yang:ietf-i2nsf-policy-rule-for-nsf</td>
-            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-policy-rule-for-nsf</td>
+            <td>yang:ietf-i2nsf-nsf-facing-interface</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-nsf-facing-interface</td>
             <td>
-              <a href="ns/yang/ietf-i2nsf-policy-rule-for-nsf.txt">ns/yang/ietf-i2nsf-policy-rule-for-nsf.txt</a>
+              <a href="ns/yang/ietf-i2nsf-nsf-facing-interface.txt">ns/yang/ietf-i2nsf-nsf-facing-interface.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-facing-interface-dm-27">RFC-ietf-i2nsf-nsf-facing-interface-dm-27</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-nsf-facing-interface-dm-28">RFC-ietf-i2nsf-nsf-facing-interface-dm-28</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-i2rs-rib</td>

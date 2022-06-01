@@ -1,7 +1,7 @@
 Value,Cause Code,Reference
 1,Invalid Stream Identifier,[RFC-ietf-tsvwg-rfc4960-bis-19]
 2,Missing Mandatory Parameter,[RFC-ietf-tsvwg-rfc4960-bis-19]
-3,Stale Cookie Error,[RFC-ietf-tsvwg-rfc4960-bis-19]
+3,Stale Cookie,[RFC-ietf-tsvwg-rfc4960-bis-19]
 4,Out of Resource,[RFC-ietf-tsvwg-rfc4960-bis-19]
 5,Unresolvable Address,[RFC-ietf-tsvwg-rfc4960-bis-19]
 6,Unrecognized Chunk Type,[RFC-ietf-tsvwg-rfc4960-bis-19]
@@ -10,7 +10,7 @@ Value,Cause Code,Reference
 9,No User Data,[RFC-ietf-tsvwg-rfc4960-bis-19]
 10,Cookie Received While Shutting Down,[RFC-ietf-tsvwg-rfc4960-bis-19]
 11,Restart of an Association with New Addresses,[RFC-ietf-tsvwg-rfc4960-bis-19]
-12,User Initiated Abort,[RFC-ietf-tsvwg-rfc4960-bis-19]
+12,User-Initiated Abort,[RFC-ietf-tsvwg-rfc4960-bis-19]
 13,Protocol Violation,[RFC-ietf-tsvwg-rfc4960-bis-19]
 14-159,Unassigned,
 160,Request to Delete Last Remaining IP Address,[RFC5061]

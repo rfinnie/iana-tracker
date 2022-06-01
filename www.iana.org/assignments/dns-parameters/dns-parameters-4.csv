@@ -64,8 +64,8 @@ CDNSKEY,60,DNSKEY(s) the Child wants reflected in DS,[RFC7344],,2014-06-16
 OPENPGPKEY,61,OpenPGP Key,[RFC7929],OPENPGPKEY/openpgpkey-completed-template,2014-08-12
 CSYNC,62,Child-To-Parent Synchronization,[RFC7477],,2015-01-27
 ZONEMD,63,Message Digest Over Zone Data,[RFC8976],ZONEMD/zonemd-completed-template,2018-12-12
-SVCB,64,Service Binding,[draft-ietf-dnsop-svcb-https-00],SVCB/svcb-completed-template,2020-06-30
-HTTPS,65,HTTPS Binding,[draft-ietf-dnsop-svcb-https-00],HTTPS/https-completed-template,2020-06-30
+SVCB,64,General Purpose Service Binding,[RFC-ietf-dnsop-svcb-https-10],SVCB/svcb-completed-template,2020-06-30
+HTTPS,65,Service Binding type for use with HTTP,[RFC-ietf-dnsop-svcb-https-10],HTTPS/https-completed-template,2020-06-30
 Unassigned,66-98,,,,
 SPF,99,,[RFC7208],,
 UINFO,100,,[IANA-Reserved],,
