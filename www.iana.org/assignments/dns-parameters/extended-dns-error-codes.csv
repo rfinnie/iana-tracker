@@ -26,5 +26,6 @@ INFO-CODE,Purpose,Reference
 24,Invalid Data,"[RFC8914, Section 4.25]"
 25,Signature Expired before Valid,[https://github.com/NLnetLabs/unbound/pull/604#discussion_r802678343][Willem_Toorop]
 26,Too Early,[RFC9250]
-27-49151,Unassigned,
+27,Unsupported NSEC3 Iterations Value,[RFC-ietf-dnsop-nsec3-guidance-10]
+28-49151,Unassigned,
 49152-65535,Reserved for Private Use,"[RFC8914, Section 5.2]"

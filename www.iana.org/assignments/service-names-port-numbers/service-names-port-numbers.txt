@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2022-05-24
+           2022-06-07
 
    Expert(s)
 
@@ -81,7 +81,7 @@ echo                 7         udp    Echo                         [Jon_Postel] 
                      8         udp    Unassigned
 discard              9         tcp    Discard                      [Jon_Postel]                                          [Jon_Postel]
 discard              9         udp    Discard                      [Jon_Postel]                                          [Jon_Postel]
-discard              9        sctp    Discard                      [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]
+discard              9        sctp    Discard                      [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]
 discard              9        dccp    Discard                      [Eddie_Kohler]                                        [Eddie_Kohler]                                                                      [RFC4340]                                    1145656131
                     10         tcp    Unassigned
                     10         udp    Unassigned
@@ -107,17 +107,17 @@ chargen             19         tcp    Character Generator
 chargen             19         udp    Character Generator
 ftp-data            20         tcp    File Transfer [Default Data] [Jon_Postel]                                          [Jon_Postel]
 ftp-data            20         udp    File Transfer [Default Data] [Jon_Postel]                                          [Jon_Postel]
-ftp-data            20        sctp    FTP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]
+ftp-data            20        sctp    FTP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]
 ftp                 21         tcp    File Transfer Protocol       [Jon_Postel]                                          [Jon_Postel]                                                                        [RFC959]                                                             Defined TXT keys: u=<username> p=<password> path=<path>
                                       [Control]
 ftp                 21         udp    File Transfer Protocol       [Jon_Postel]                                          [Jon_Postel]                                                                        [RFC959]                                                             Defined TXT keys: u=<username> p=<password> path=<path>
                                       [Control]
-ftp                 21        sctp    FTP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]                                      Defined TXT keys: u=<username> p=<password> path=<path>
+ftp                 21        sctp    FTP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]                                                            Defined TXT keys: u=<username> p=<password> path=<path>
 ssh                 22         tcp    The Secure Shell (SSH)                                                                                                                                                 [RFC4251]                                                            Defined TXT keys: u=<username> p=<password>
                                       Protocol
 ssh                 22         udp    The Secure Shell (SSH)                                                                                                                                                 [RFC4251]                                                            Defined TXT keys: u=<username> p=<password>
                                       Protocol
-ssh                 22        sctp    SSH                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]                                      Defined TXT keys: u=<username> p=<password>
+ssh                 22        sctp    SSH                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]                                                            Defined TXT keys: u=<username> p=<password>
 telnet              23         tcp    Telnet                       [Jon_Postel]                                          [Jon_Postel]                                                                        [RFC854]                                                             Defined TXT keys: u=<username> p=<password>
 telnet              23         udp    Telnet                       [Jon_Postel]                                          [Jon_Postel]                                                                        [RFC854]                                                             Defined TXT keys: u=<username> p=<password>
                     24         tcp    any private mail system      [Rick_Adams]                                          [Rick_Adams]
@@ -335,7 +335,7 @@ www-http            80         udp    World Wide Web HTTP          [Tim_Berners_
                                                                                                                                                                                                                                                                                   DNS-SD service type, for example, XUL (XML User Interface
                                                                                                                                                                                                                                                                                   Language) transported over HTTP is advertised explicitly as
                                                                                                                                                                                                                                                                                   DNS-SD service type "xul-http".
-http                80        sctp    HTTP                         [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]                                      Defined TXT keys: u=<username> p=<password> path=<path to
+http                80        sctp    HTTP                         [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]                                                            Defined TXT keys: u=<username> p=<password> path=<path to
                                                                                                                                                                                                                                                                                   document>
                     81                Unassigned                                                                                                                                                2007-09-06
 xfer                82         tcp    XFER Utility                 [Thomas_M_Smith]                                      [Thomas_M_Smith]
@@ -600,7 +600,7 @@ nextstep            178        tcp    NextStep Window Server       [Leo_Hourvitz
 nextstep            178        udp    NextStep Window Server       [Leo_Hourvitz]                                        [Leo_Hourvitz]
 bgp                 179        tcp    Border Gateway Protocol      [Kirk_Lougheed]                                       [Kirk_Lougheed]
 bgp                 179        udp    Border Gateway Protocol      [Kirk_Lougheed]                                       [Kirk_Lougheed]
-bgp                 179       sctp    BGP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]
+bgp                 179       sctp    BGP                          [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]
 ris                 180        tcp    Intergraph                   [Dave_Buehmann]                                       [Dave_Buehmann]
 ris                 180        udp    Intergraph                   [Dave_Buehmann]                                       [Dave_Buehmann]
 unify               181        tcp    Unify                        [Daegis_Inc]                                          [Chris_Anderson]                                                       2012-07-31
@@ -1189,7 +1189,7 @@ cvc_hostd           442        udp    cvc_hostd                    [Bill_Davidso
                                                                                                                                                                                                                                                                                   discovery mechanisms.
 https               443        tcp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]
 https               443        udp    http protocol over TLS/SSL   [IESG]                                                [IETF_Chair]                                                           2021-10-01   [RFC-ietf-httpbis-semantics-19]
-https               443       sctp    HTTPS                        [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC-ietf-tsvwg-rfc4960-bis-19]
+https               443       sctp    HTTPS                        [Randall_Stewart]                                     [Randall_Stewart]                                                      2022-02-07   [RFC9260]
 snpp                444        tcp    Simple Network Paging                                                                                                                                                  [RFC1568]
                                       Protocol
 snpp                444        udp    Simple Network Paging                                                                                                                                                  [RFC1568]
@@ -11412,7 +11412,13 @@ padl2sim           5236        tcp
 padl2sim           5236        udp
 mnet-discovery     5237        tcp    m-net discovery              [Andy_Crick]                                          [Andy_Crick]                                              2007-11-13
 mnet-discovery     5237        udp    m-net discovery              [Andy_Crick]                                          [Andy_Crick]                                              2007-11-13
-                 5238-5244            Unassigned
+                 5238-5241            Unassigned
+attune             5242        tcp    ATTUne API                   [Bellvedi_Ltd]                                        [Sean_D_Sollé_2]                                          2022-06-01
+                   5242        udp    Reserved
+xycstatus          5243        tcp    xyClient Status API and      [Xycare_Ltd]                                          [Luke_Bailey]                                             2022-06-06
+                                      rendevous point
+                   5243        udp    Reserved
+                   5244               Unassigned
 downtools          5245        tcp    DownTools Control Protocol   [Jarrod_Sayers]                                       [Jarrod_Sayers]                                           2009-04-07
 downtools-disc     5245        udp    DownTools Discovery Protocol [Jarrod_Sayers]                                       [Jarrod_Sayers]                                           2009-04-07
                    5246        tcp    Reserved
@@ -12107,7 +12113,34 @@ jute               5883        tcp    Javascript Unit Test         [Mark_Ethan_T
                  5884-5899            Unassigned
 rfb                5900        tcp    Remote Framebuffer           [Tristan_Richardson]                                  [Tristan_Richardson]                                      2006-03                   [RFC6143]
 rfb                5900        udp    Remote Framebuffer           [Tristan_Richardson]                                  [Tristan_Richardson]                                      2006-03                   [RFC6143]
-                 5901-5909            Unassigned
+                 5901-5902            Unassigned
+ff-ice             5903        tcp    Flight & Flow Info for       [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: FF-ICE
+                                      Collaborative Env
+ff-ice             5903        udp    Flight & Flow Info for       [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: FF-ICE
+                                      Collaborative Env
+ff-ice             5903       sctp    Flight & Flow Info for       [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: FF-ICE
+                                      Collaborative Env
+ag-swim            5904        tcp    Air-Ground SWIM              [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AG-SWIM
+ag-swim            5904        udp    Air-Ground SWIM              [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AG-SWIM
+ag-swim            5904       sctp    Air-Ground SWIM              [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AG-SWIM
+asmgcs             5905        tcp    Adv Surface Mvmnt and        [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: ASMGCS
+                                      Guidance Cont Sys
+asmgcs             5905        udp    Adv Surface Mvmnt and        [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: ASMGCS
+                                      Guidance Cont Sys
+asmgcs             5905       sctp    Adv Surface Mvmnt and        [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: ASMGCS
+                                      Guidance Cont Sys
+rpas-c2            5906        tcp    Remotely Piloted Vehicle C&C [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: RPAS-C2
+rpas-c2            5906        udp    Remotely Piloted Vehicle C&C [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: RPAS-C2
+rpas-c2            5906       sctp    Remotely Piloted Vehicle C&C [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: RPAS-C2
+dsd                5907        tcp    Distress and Safety Data App [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: DSD
+dsd                5907        udp    Distress and Safety Data App [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: DSD
+dsd                5907       sctp    Distress and Safety Data App [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: DSD
+ipsma              5908        tcp    IPS Management Application   [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: IPSMA
+ipsma              5908        udp    IPS Management Application   [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: IPSMA
+ipsma              5908       sctp    IPS Management Application   [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: IPSMA
+agma               5909        tcp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
+agma               5909        udp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
+agma               5909       sctp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
 cm                 5910        tcp    Context Management           [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
 cm                 5910        udp    Context Management           [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
 cm                 5910       sctp    Context Management           [Justin_Yu]                                           [Justin_Yu]                                               2011-05-19
@@ -19383,7 +19416,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Arvind_Srinivasan]                                       Arvind Srinivasan                                   mailto:arvind.srinivasan&sun.com                              2005-08
 [Asaf_Kashi]                                              Asaf Kashi                                          mailto:asafk&microsoft.com
 [Ascom_Austria_GmbH]                                                                 Ascom Austria GmbH       mailto:info&ascom.at                                          2008-05-01
-[ASAM_e_V]                                                                           ASAM e.V.                mailto:peter.voss&asam.net                                    2021-09-29
+[ASAM_e_V]                                                                           ASAM e.V.                mailto:marius.dupuis&asam.net                                 2022-06-01
 [ASCOM_Initiative]                                                                   ASCOM Initiative         mailto:rdenny&dc3.com                                         2020-02-24
 [Asher_Altman]                                            Asher Altman                                        mailto:Asher.Altman&gsc.gte.com
 [Ashish_Chatterjee]                                       Ashish Chatterjee                                   mailto:achatterjee&freeway.proxy.lucent.com
@@ -19451,6 +19484,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Beats_Electronics_LLC_2]                                                            Beats Electronics LLC.   mailto:yunho.huh&beatsbydre.com                               2014-06-27
 [Beckhoff_Automation_GmbH_Co_KG]                                                     Beckhoff Automation GmbH mailto:legal&beckhoff.com                                     2019-02-28
                                                                                      & Co. KG
+[Bellvedi_Ltd]                                                                       Bellvedi Ltd.            mailto:iana&bellvedi.com                                      2022-06-01
 [Ben]                                                     Ben                                                 mailto:ben&acaciatreesoftware.com
 [Ben_Cartwright_Cox]                                      Ben Cartwright-Cox                                  mailto:ben&benjojo.co.uk                                      2020-02-12
 [Ben_Darnell]                                                                                                 mailto:ben&cockroachlabs.com                                  2015-09-29
@@ -20154,7 +20188,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dave_Lindquist_2]                                        Dave Lindquist                                      mailto:dlindquist&egistix.com
 [Dave_Lyons]                                              Dave Lyons                                          mailto:dlyons&dnpg.com
 [Dave_Maxwell]                                            Dave Maxwell                                        mailto:d.maxwell&cablelabs.com
-[Dave_Mills]                                              Dave Mills                                          mailto:mills&udel.edu
+[Dave_Mills]                                              Dave Mills                                          mailto:mills&udel.edu                                         2022-06-03
 [Dave_Mills_2]                                            Dave Mills                                          mailto:Mills&huey.udel.edu
 [Dave_Nesbitt]                                            Dave Nesbitt                                        mailto:nesbitt&cp10.es.xerox.com
 [Dave_Neudoerffer]                                        Dave Neudoerffer                                    mailto:Dave.Neudoerffer&ianywhere.com
@@ -20931,6 +20965,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Greg_Robson_Garth]                                       Greg Robson-Garth                                   mailto:gregr&alphalink.com.au
 [Greg_Rose]                                               Greg Rose                                           mailto:Greg_Rose&sydney.sterling.com
 [Greg_Rose_2]                                             Greg Rose                                           mailto:ggr&qualcomm.com                                       2002-02
+[Greg_Saccone]                                            Greg Saccone                                        mailto:gregory.t.saccone&boeing.com                           2022-06-03
 [Greg_Sidebottom]                                         Greg Sidebottom                                     mailto:gregside&home.com
 [Greg_Stine]                                              Greg Stine                                          mailto:greg.stine&siemens.com                                 2007-07-05
 [Greg_Suppes]                                             Greg Suppes                                         mailto:greg.suppes&autodesk.com
@@ -21008,7 +21043,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Heikki_E]                                                Heikki Ellilä                                       mailto:heikki.ellila&western.fi                               2009-06-18
 [Heiko_Kretschmer]                                        Heiko Kretschmer                                    mailto:info&wurst-wasser.net
 [Heiko_Rupp]                                              Heiko Rupp                                          mailto:hwr&pilhuhn.de
-[Heiko_Schlichting]                                       Heiko Schlichting                                   mailto:heiko&fu-berlin.de
+[Heiko_Schlichting]                                       Heiko Schlichting                                   mailto:heiko.schlichting&fu-berlin.de                         2022-06-07
 [Heiner_Erne]                                             Heiner Erne                Hirschmann Automation    mailto:heiner.erne&hirschmann.de                              2008-06-06
                                                                                      and Control GmbH
 [Heinz_Wrobel]                                            Heinz Wrobel                                        mailto:hwrobel&gmx.de
@@ -21185,6 +21220,9 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Intel]                                                                              Intel                    mailto:joshua.boelter&intel.com                               2011-10-18
 [Intel_Corporation]                                                                  Intel Corporation        mailto:eduardo.cabre&intel.com                                2022-01-10
 [IntelliAdmin_LLC]                                                                   IntelliAdmin, LLC        mailto:support&intelliadmin.com                               2016-11-18
+                                                                                     International Civil
+[International_Civil_Aviation_Organisation]                                          Aviation Organisation    mailto:gisinbox&icao.int                                      2022-06-03
+                                                                                     (ICAO)
 [Internet_Systems_Consortium_Inc]                                                    Internet Systems         mailto:info&isc.org                                           2017-06-08
                                                                                      Consortium, Inc.
 [IOSPIRIT_GmbH]                                                                      IOSPIRIT GmbH            mailto:info&iospirit.com                                      2014-09-23
@@ -22067,6 +22105,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ludwig_Kannicht]                                         Ludwig Kannicht            Dark Horse GmbH & Co KG  mailto:l.kannicht&thedarkhorse.de                             2015-06-02
 [Luis_Lopes]                                              Luis Lopes                                          mailto:llopes&qti.qualcomm.com                                2017-06-23
 [Luis_Zugasti]                                            Luis Zugasti                                        mailto:lzugasti&fagorautomation.es                            2003-11
+[Luke_Bailey]                                             Luke Bailey                Xycare Ltd               mailto:luke.bailey&xycare.co.uk                               2022-06-06
 [Luke_Bowen]                                              Luke Bowen                                          mailto:leb&tfn.com
 [Luke_Dion]                                               Luke Dion                                           mailto:ldion&tapeware.com                                     2004-04
 [Luke_Steffen]                                            Luke Steffen                                        mailto:lukesteffen&deusty.com
@@ -23685,6 +23724,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [SCOTTY_Group_SE]                                                                    SCOTTY Group SE          mailto:p.verbeek&scottygroup.com                              2013-01-14
 [Sean_Adams]                                              Sean Adams                                          mailto:sean&slimdevices.com                                   2002-05
 [Sean_D_Sollé]                                            Sean D. Sollé              VSN International Ltd.   mailto:sean&vsni.co.uk                                        2011-09-28
+[Sean_D_Sollé_2]                                          Sean D. Sollé              Bellvedi Ltd.            mailto:iana&bellvedi.com                                      2022-06-01
 [Sean_MacGuire]                                           Sean MacGuire                                       mailto:sean&maclawran.ca
 [Sean_Solberg]                                            Sean Solberg                                        mailto:sean.solberg&mobileprosystems.com                      2017-09-28
 [Sean_Ni]                                                 Sean Ni                                             mailto:seanni&digitalinstinct.com.tw                          2006-02
@@ -24427,7 +24467,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ventoso_Integrated_Peripherals]                                                     Ventoso Integrated       mailto:john.lindsey&nilesradio.com                            2016-03-04
                                                                                      Peripherals
 [Ventureforth_Inc]                                                                   Ventureforth Inc.        mailto:support&ventureforth.com                               2011-11-03
-[Vera_Heinau]                                             Vera Heinau                                         mailto:heinau&fu-berlin.de
+[Vera_Heinau]                                             Vera Heinau                                         mailto:vera.heinau&fu-berlin.de                               2022-06-07
 [Verek]                                                   Verek                                               mailto:info&verek.com
 [Verimag_OOO]                                                                        Verimag, OOO             mailto:support&verimag.ru                                     2018-07-20
 [Versile_AS]                                                                         Versile AS               mailto:contact&versile.com                                    2012-02-01
@@ -24582,6 +24622,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Xpra]                                                                               Xpra                     mailto:xpra&xpra.org                                          2016-10-05
 [XuiS_Software_Ltd]                                       XuiS Software Ltd.                                  mailto:100322.2376&compuserve.com
 [XXT_LLC]                                                                            XXT LLC                  mailto:xxt.matt&sbcglobal.net                                 2012-07-12
+[Xycare_Ltd]                                                                         Xycare Ltd               mailto:luke.bailey&xycare.co.uk                               2022-06-06
 [Y_Ohiwa]                                                 Y. Ohiwa                                            mailto:y-ohiwa&ael.fujitsu.co.jp
 [Y_Y_Goland]                                              Y. Y. Goland                                        mailto:yarong&microsoft.com
 [Yakov_Rekhter]                                           Yakov Rekhter                                       mailto:Yakov&ibm.com

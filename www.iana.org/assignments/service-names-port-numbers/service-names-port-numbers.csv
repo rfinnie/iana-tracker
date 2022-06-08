@@ -19,7 +19,7 @@ echo,7,udp,Echo,[Jon_Postel],[Jon_Postel],,,,,,
 ,8,udp,Unassigned,,,,,,,,
 discard,9,tcp,Discard,[Jon_Postel],[Jon_Postel],,,,,,
 discard,9,udp,Discard,[Jon_Postel],[Jon_Postel],,,,,,
-discard,9,sctp,Discard,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
+discard,9,sctp,Discard,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,
 discard,9,dccp,Discard,[Eddie_Kohler],[Eddie_Kohler],,,[RFC4340],1145656131,,
 ,10,tcp,Unassigned,,,,,,,,
 ,10,udp,Unassigned,,,,,,,,
@@ -43,13 +43,13 @@ chargen,19,tcp,Character Generator,,,,,,,,
 chargen,19,udp,Character Generator,,,,,,,,
 ftp-data,20,tcp,File Transfer [Default Data],[Jon_Postel],[Jon_Postel],,,,,,
 ftp-data,20,udp,File Transfer [Default Data],[Jon_Postel],[Jon_Postel],,,,,,
-ftp-data,20,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
+ftp-data,20,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,
 ftp,21,tcp,File Transfer Protocol [Control],[Jon_Postel],[Jon_Postel],,,[RFC959],,,Defined TXT keys: u=<username> p=<password> path=<path>
 ftp,21,udp,File Transfer Protocol [Control],[Jon_Postel],[Jon_Postel],,,[RFC959],,,Defined TXT keys: u=<username> p=<password> path=<path>
-ftp,21,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password> path=<path>
+ftp,21,sctp,FTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,Defined TXT keys: u=<username> p=<password> path=<path>
 ssh,22,tcp,The Secure Shell (SSH) Protocol,,,,,[RFC4251],,,Defined TXT keys: u=<username> p=<password>
 ssh,22,udp,The Secure Shell (SSH) Protocol,,,,,[RFC4251],,,Defined TXT keys: u=<username> p=<password>
-ssh,22,sctp,SSH,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password>
+ssh,22,sctp,SSH,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,Defined TXT keys: u=<username> p=<password>
 telnet,23,tcp,Telnet,[Jon_Postel],[Jon_Postel],,,[RFC854],,,Defined TXT keys: u=<username> p=<password>
 telnet,23,udp,Telnet,[Jon_Postel],[Jon_Postel],,,[RFC854],,,Defined TXT keys: u=<username> p=<password>
 ,24,tcp,any private mail system,[Rick_Adams],[Rick_Adams],,,,,,
@@ -223,7 +223,7 @@ www-http,80,udp,World Wide Web HTTP,[Tim_Berners_Lee],[Tim_Berners_Lee],,,,,,"Th
       Such types should be advertised as their own logical service type with their
       own DNS-SD service type, for example, XUL (XML User Interface Language)
       transported over HTTP is advertised explicitly as DNS-SD service type ""xul-http""."
-http,80,sctp,HTTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
+http,80,sctp,HTTP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
 ,81,,Unassigned,,,,2007-09-06,,,,
 xfer,82,tcp,XFER Utility,[Thomas_M_Smith],[Thomas_M_Smith],,,,,,
 xfer,82,udp,XFER Utility,[Thomas_M_Smith],[Thomas_M_Smith],,,,,,
@@ -436,7 +436,7 @@ nextstep,178,tcp,NextStep Window Server,[Leo_Hourvitz],[Leo_Hourvitz],,,,,,
 nextstep,178,udp,NextStep Window Server,[Leo_Hourvitz],[Leo_Hourvitz],,,,,,
 bgp,179,tcp,Border Gateway Protocol,[Kirk_Lougheed],[Kirk_Lougheed],,,,,,
 bgp,179,udp,Border Gateway Protocol,[Kirk_Lougheed],[Kirk_Lougheed],,,,,,
-bgp,179,sctp,BGP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
+bgp,179,sctp,BGP,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,
 ris,180,tcp,Intergraph,[Dave_Buehmann],[Dave_Buehmann],,,,,,
 ris,180,udp,Intergraph,[Dave_Buehmann],[Dave_Buehmann],,,,,,
 unify,181,tcp,Unify,[Daegis_Inc],[Chris_Anderson],,2012-07-31,,,,
@@ -879,7 +879,7 @@ This entry is now historic, not usable for use with many
 common service discovery mechanisms."
 https,443,tcp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
 https,443,udp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
-https,443,sctp,HTTPS,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC-ietf-tsvwg-rfc4960-bis-19],,,
+https,443,sctp,HTTPS,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,
 snpp,444,tcp,Simple Network Paging Protocol,,,,,[RFC1568],,,
 snpp,444,udp,Simple Network Paging Protocol,,,,,[RFC1568],,,
 microsoft-ds,445,tcp,Microsoft-DS,[Pradeep_Bahl],[Pradeep_Bahl],,,,,,
@@ -9388,7 +9388,12 @@ padl2sim,5236,tcp,,,,,,,,,
 padl2sim,5236,udp,,,,,,,,,
 mnet-discovery,5237,tcp,m-net discovery,[Andy_Crick],[Andy_Crick],2007-11-13,,,,,
 mnet-discovery,5237,udp,m-net discovery,[Andy_Crick],[Andy_Crick],2007-11-13,,,,,
-,5238-5244,,Unassigned,,,,,,,,
+,5238-5241,,Unassigned,,,,,,,,
+attune,5242,tcp,ATTUne API,[Bellvedi_Ltd],[Sean_D_Sollé_2],2022-06-01,,,,,
+,5242,udp,Reserved,,,,,,,,
+xycstatus,5243,tcp,xyClient Status API and rendevous point,[Xycare_Ltd],[Luke_Bailey],2022-06-06,,,,,
+,5243,udp,Reserved,,,,,,,,
+,5244,,Unassigned,,,,,,,,
 downtools,5245,tcp,DownTools Control Protocol,[Jarrod_Sayers],[Jarrod_Sayers],2009-04-07,,,,,
 downtools-disc,5245,udp,DownTools Discovery Protocol,[Jarrod_Sayers],[Jarrod_Sayers],2009-04-07,,,,,
 ,5246,tcp,Reserved,,,,,,,,
@@ -9950,7 +9955,28 @@ jute,5883,tcp,Javascript Unit Test Environment,[Mark_Ethan_Trostler],[Mark_Ethan
 ,5884-5899,,Unassigned,,,,,,,,
 rfb,5900,tcp,Remote Framebuffer,[Tristan_Richardson],[Tristan_Richardson],2006-03,,[RFC6143],,,
 rfb,5900,udp,Remote Framebuffer,[Tristan_Richardson],[Tristan_Richardson],2006-03,,[RFC6143],,,
-,5901-5909,,Unassigned,,,,,,,,
+,5901-5902,,Unassigned,,,,,,,,
+ff-ice,5903,tcp,Flight & Flow Info for Collaborative Env,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: FF-ICE
+ff-ice,5903,udp,Flight & Flow Info for Collaborative Env,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: FF-ICE
+ff-ice,5903,sctp,Flight & Flow Info for Collaborative Env,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: FF-ICE
+ag-swim,5904,tcp,Air-Ground SWIM,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AG-SWIM
+ag-swim,5904,udp,Air-Ground SWIM,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AG-SWIM
+ag-swim,5904,sctp,Air-Ground SWIM,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AG-SWIM
+asmgcs,5905,tcp,Adv Surface Mvmnt and Guidance Cont Sys,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: ASMGCS
+asmgcs,5905,udp,Adv Surface Mvmnt and Guidance Cont Sys,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: ASMGCS
+asmgcs,5905,sctp,Adv Surface Mvmnt and Guidance Cont Sys,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: ASMGCS
+rpas-c2,5906,tcp,Remotely Piloted Vehicle C&C,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: RPAS-C2
+rpas-c2,5906,udp,Remotely Piloted Vehicle C&C,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: RPAS-C2
+rpas-c2,5906,sctp,Remotely Piloted Vehicle C&C,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: RPAS-C2
+dsd,5907,tcp,Distress and Safety Data App,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: DSD
+dsd,5907,udp,Distress and Safety Data App,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: DSD
+dsd,5907,sctp,Distress and Safety Data App,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: DSD
+ipsma,5908,tcp,IPS Management Application,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: IPSMA
+ipsma,5908,udp,IPS Management Application,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: IPSMA
+ipsma,5908,sctp,IPS Management Application,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: IPSMA
+agma,5909,tcp,Air-ground media advisory,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AGMA
+agma,5909,udp,Air-ground media advisory,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AGMA
+agma,5909,sctp,Air-ground media advisory,[International_Civil_Aviation_Organisation],[Greg_Saccone],2022-06-03,,,,,Defined TXT keys: AGMA
 cm,5910,tcp,Context Management,[Eivan_Cerasi],[Eivan_Cerasi],2008-10-10,,,,,
 cm,5910,udp,Context Management,[Eivan_Cerasi],[Eivan_Cerasi],2008-10-10,,,,,
 cm,5910,sctp,Context Management,[Justin_Yu],[Justin_Yu],2011-05-19,,,,,

@@ -1,14 +1,14 @@
 ID Value,Chunk Parameter Type,Reference
-1,Heartbeat Info,[RFC-ietf-tsvwg-rfc4960-bis-19]
+1,Heartbeat Info,[RFC9260]
 2-4,Unassigned,
-5,IPv4 Address,[RFC-ietf-tsvwg-rfc4960-bis-19]
-6,IPv6 Address,[RFC-ietf-tsvwg-rfc4960-bis-19]
-7,State Cookie,[RFC-ietf-tsvwg-rfc4960-bis-19]
-8,Unrecognized Parameter,[RFC-ietf-tsvwg-rfc4960-bis-19]
-9,Cookie Preservative,[RFC-ietf-tsvwg-rfc4960-bis-19]
+5,IPv4 Address,[RFC9260]
+6,IPv6 Address,[RFC9260]
+7,State Cookie,[RFC9260]
+8,Unrecognized Parameter,[RFC9260]
+9,Cookie Preservative,[RFC9260]
 10,Unassigned,
-11,Host Name Address,[RFC-ietf-tsvwg-rfc4960-bis-19]
-12,Supported Address Types,[RFC-ietf-tsvwg-rfc4960-bis-19]
+11,Host Name Address,[RFC9260]
+12,Supported Address Types,[RFC9260]
 13,Outgoing SSN Reset Request Parameter,[RFC6525]
 14,Incoming SSN Reset Request Parameter,[RFC6525]
 15,SSN/TSN Reset Request Parameter,[RFC6525]
@@ -16,7 +16,7 @@ ID Value,Chunk Parameter Type,Reference
 17,Add Outgoing Streams Request Parameter,[RFC6525]
 18,Add Incoming Streams Request Parameter,[RFC6525]
 19-32767,Unassigned,
-32768,Reserved for ECN Capable (0x8000),[RFC-ietf-tsvwg-rfc4960-bis-19]
+32768,Reserved for ECN Capable (0x8000),[RFC9260]
 32770,Random  (0x8002),[RFC4805]
 32771,Chunk List  (0x8003),[RFC4895]
 32772,Requested HMAC Algorithm Parameter  (0x8004),[RFC4895]
@@ -31,4 +31,4 @@ ID Value,Chunk Parameter Type,Reference
 49157,Success Indication  (0xC005),[RFC5061]
 49158,Adaptation Layer Indication  (0xC006),[RFC5061]
 49159-65534,Unassigned,
-65535,Reserved for IETF-defined Chunk Extensions,[RFC-ietf-tsvwg-rfc4960-bis-19]
+65535,Reserved for IETF-defined Chunk Extensions,[RFC9260]

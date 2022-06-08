@@ -13,8 +13,8 @@ Value,Name,Reference
 23,Secure Tunnel,[RFC7869]
 24,Integrated SSH,[RFC7869]
 25-29,Unassigned,
-30-35,Apple Inc.,[Michael_Stein]
-36-127,Unassigned,
+30-36,Apple Inc.,[Michael_Stein]
+37-127,Unassigned,
 128,RealVNC,historic assignment
 129,RealVNC,historic assignment
 129,Tight Unix Login Authentication,[Samuel_Mannehed]

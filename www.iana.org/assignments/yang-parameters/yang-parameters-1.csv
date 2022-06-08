@@ -25,7 +25,7 @@ iana-tunnel-type,iana-tunnel-type@2021-04-23.yang,Y,urn:ietf:params:xml:ns:yang:
         registry) at [IANA registry smi-numbers]."
 ietf-access-control-list,ietf-access-control-list@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-access-control-list,acl,,[RFC8519],
 ietf-acldns,ietf-acldns@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-acldns,ietf-acldns,,[RFC8520],
-ietf-alarms,ietf-alarms@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC8632],
+ietf-alarms,ietf-alarms@2022-06-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms,al,,[RFC8632][RFC Errata 6866],
 ietf-alarms-x733,ietf-alarms-x733@2019-09-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-alarms-x733,x733,,[RFC8632],
 ietf-babel,,N,urn:ietf:params:xml:ns:yang:ietf-babel,babel,,[RFC-ietf-babel-yang-model-13],[RFC-ietf-babel-yang-model-13]'s module file will be posted upon the document's publication as an RFC.
 ietf-bfd,ietf-bfd@2021-10-21.yang,N,urn:ietf:params:xml:ns:yang:ietf-bfd,bfd,,[RFC9127],

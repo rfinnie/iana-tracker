@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-05-24</updated>
+  <updated>2022-06-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -173,7 +173,7 @@ or prior to IANA registration.
     <name>discard</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>Discard</description>
     <number>9</number>
   </record>
@@ -324,7 +324,7 @@ or prior to IANA registration.
     <name>ftp-data</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>FTP</description>
     <number>20</number>
   </record>
@@ -350,7 +350,7 @@ or prior to IANA registration.
     <name>ftp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>FTP</description>
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
@@ -375,7 +375,7 @@ or prior to IANA registration.
     <name>ssh</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>SSH</description>
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
@@ -1282,7 +1282,7 @@ common service discovery mechanisms.</note>
     <name>http</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>HTTP</description>
     <number>80</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
@@ -2694,7 +2694,7 @@ common service discovery mechanisms.</note>
     <name>bgp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>BGP</description>
     <number>179</number>
   </record>
@@ -5584,7 +5584,7 @@ common service discovery mechanisms.</note>
     <name>https</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>HTTPS</description>
     <number>443</number>
   </record>
@@ -62893,7 +62893,41 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5238-5244</number>
+    <number>5238-5241</number>
+  </record>
+  <record date="2022-06-01">
+    <name>attune</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Bellvedi_Ltd"/>
+    </assignee>
+    <description>ATTUne API</description>
+    <number>5242</number>
+    <xref type="person" data="Sean_D_Sollé_2"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5242</number>
+  </record>
+  <record date="2022-06-06">
+    <name>xycstatus</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Xycare_Ltd"/>
+    </assignee>
+    <description>xyClient Status API and rendevous point</description>
+    <number>5243</number>
+    <xref type="person" data="Luke_Bailey"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5243</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5244</number>
   </record>
   <record date="2009-04-07">
     <name>downtools</name>
@@ -66741,7 +66775,238 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5901-5909</number>
+    <number>5901-5902</number>
+  </record>
+  <record date="2022-06-03">
+    <name>ff-ice</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Flight &amp; Flow Info for Collaborative Env</description>
+	  <note>Defined TXT keys: FF-ICE</note>
+    <number>5903</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ff-ice</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Flight &amp; Flow Info for Collaborative Env</description>
+    <note>Defined TXT keys: FF-ICE</note>
+    <number>5903</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ff-ice</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Flight &amp; Flow Info for Collaborative Env</description>
+    <note>Defined TXT keys: FF-ICE</note>
+    <number>5903</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ag-swim</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-Ground SWIM</description>
+	  <note>Defined TXT keys: AG-SWIM</note>
+    <number>5904</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ag-swim</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-Ground SWIM</description>
+    <note>Defined TXT keys: AG-SWIM</note>
+    <number>5904</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ag-swim</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-Ground SWIM</description>
+    <note>Defined TXT keys: AG-SWIM</note>
+    <number>5904</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>asmgcs</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Adv Surface Mvmnt and Guidance Cont Sys</description>
+	  <note>Defined TXT keys: ASMGCS</note>
+    <number>5905</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>asmgcs</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Adv Surface Mvmnt and Guidance Cont Sys</description>
+    <note>Defined TXT keys: ASMGCS</note>
+    <number>5905</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>asmgcs</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Adv Surface Mvmnt and Guidance Cont Sys</description>
+    <note>Defined TXT keys: ASMGCS</note>
+    <number>5905</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>rpas-c2</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Remotely Piloted Vehicle C&amp;C</description>
+	  <note>Defined TXT keys: RPAS-C2</note>
+    <number>5906</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>rpas-c2</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Remotely Piloted Vehicle C&amp;C</description>
+    <note>Defined TXT keys: RPAS-C2</note>
+    <number>5906</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>rpas-c2</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Remotely Piloted Vehicle C&amp;C</description>
+    <note>Defined TXT keys: RPAS-C2</note>
+    <number>5906</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>dsd</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Distress and Safety Data App</description>
+	  <note>Defined TXT keys: DSD</note>
+    <number>5907</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>dsd</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Distress and Safety Data App</description>
+    <note>Defined TXT keys: DSD</note>
+    <number>5907</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>dsd</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Distress and Safety Data App</description>
+    <note>Defined TXT keys: DSD</note>
+    <number>5907</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ipsma</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>IPS Management Application</description>
+	  <note>Defined TXT keys: IPSMA</note>
+    <number>5908</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ipsma</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>IPS Management Application</description>
+    <note>Defined TXT keys: IPSMA</note>
+    <number>5908</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>ipsma</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>IPS Management Application</description>
+    <note>Defined TXT keys: IPSMA</note>
+    <number>5908</number>
+  	<xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>agma</name>
+    <protocol>tcp</protocol>
+  	<assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-ground media advisory</description>
+	  <note>Defined TXT keys: AGMA</note>
+    <number>5909</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>agma</name>
+    <protocol>udp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-ground media advisory</description>
+    <note>Defined TXT keys: AGMA</note>
+    <number>5909</number>
+	  <xref type="person" data="Greg_Saccone"/>
+  </record>
+  <record date="2022-06-03">
+    <name>agma</name>
+    <protocol>sctp</protocol>
+	  <assignee>
+      <xref type="person" data="International_Civil_Aviation_Organisation"/>
+	  </assignee>
+    <description>Air-ground media advisory</description>
+    <note>Defined TXT keys: AGMA</note>
+    <number>5909</number>
+  	<xref type="person" data="Greg_Saccone"/>
   </record>
   <record date="2008-10-10">
     <name>cm</name>
@@ -100941,8 +101206,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="ASAM_e_V">
       <org>ASAM e.V.</org>
-      <uri>mailto:peter.voss&amp;asam.net</uri>
-      <updated>2021-09-29</updated>
+      <uri>mailto:marius.dupuis&amp;asam.net</uri>
+      <updated>2022-06-01</updated>
     </person>
     <person id="ASCOM_Initiative">
       <org>ASCOM Initiative</org>
@@ -101230,6 +101495,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Beckhoff Automation GmbH &amp; Co. KG</org>
       <uri>mailto:legal&amp;beckhoff.com</uri>
       <updated>2019-02-28</updated>
+    </person>
+    <person id="Bellvedi_Ltd">
+      <org>Bellvedi Ltd.</org>
+      <uri>mailto:iana&amp;bellvedi.com</uri>
+      <updated>2022-06-01</updated>
     </person>
     <person id="Ben">
       <name>Ben</name>
@@ -104345,6 +104615,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dave_Mills">
       <name>Dave Mills</name>
       <uri>mailto:mills&amp;udel.edu</uri>
+      <updated>2022-06-03</updated>
     </person>
     <person id="Dave_Mills_2">
       <name>Dave Mills</name>
@@ -107845,6 +108116,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ggr&amp;qualcomm.com</uri>
       <updated>2002-02</updated>
     </person>
+    <person id="Greg_Saccone">
+      <name>Greg Saccone</name>
+      <uri>mailto:gregory.t.saccone&amp;boeing.com</uri>
+      <updated>2022-06-03</updated>
+    </person>
     <person id="Greg_Sidebottom">
       <name>Greg Sidebottom</name>
       <uri>mailto:gregside&amp;home.com</uri>
@@ -108186,7 +108462,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Heiko_Schlichting">
       <name>Heiko Schlichting</name>
-      <uri>mailto:heiko&amp;fu-berlin.de</uri>
+      <uri>mailto:heiko.schlichting&amp;fu-berlin.de</uri>
+      <updated>2022-06-07</updated>
     </person>
     <person id="Heiner_Erne">
       <name>Heiner Erne</name>
@@ -108938,6 +109215,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>IntelliAdmin, LLC</org>
       <uri>mailto:support&amp;intelliadmin.com</uri>
       <updated>2016-11-18</updated>
+    </person>
+    <person id="International_Civil_Aviation_Organisation">
+      <org>International Civil Aviation Organisation (ICAO)</org>
+      <uri>mailto:gisinbox&amp;icao.int</uri>
+      <updated>2022-06-03</updated>
     </person>
     <person id="Internet_Systems_Consortium_Inc">
       <org>Internet Systems Consortium, Inc.</org>
@@ -112831,8 +113113,8 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ludwig_Kannicht">
       <name>Ludwig Kannicht</name>
       <org>Dark Horse GmbH &amp; Co KG</org>
-        <uri>mailto:l.kannicht&amp;thedarkhorse.de</uri>
-        <updated>2015-06-02</updated>
+      <uri>mailto:l.kannicht&amp;thedarkhorse.de</uri>
+      <updated>2015-06-02</updated>
     </person>
     <person id="Luis_Lopes">
       <name>Luis Lopes</name>
@@ -112843,6 +113125,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Luis Zugasti</name>
       <uri>mailto:lzugasti&amp;fagorautomation.es</uri>
       <updated>2003-11</updated>
+    </person>
+    <person id="Luke_Bailey">
+      <name>Luke Bailey</name>
+      <org>Xycare Ltd</org>
+      <uri>mailto:luke.bailey&amp;xycare.co.uk</uri>
+      <updated>2022-06-06</updated>
     </person>
     <person id="Luke_Bowen">
       <name>Luke Bowen</name>
@@ -119980,6 +120268,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:sean&amp;vsni.co.uk</uri>
       <updated>2011-09-28</updated>
     </person>
+    <person id="Sean_D_Sollé_2">
+      <name>Sean D. Sollé</name>
+      <org>Bellvedi Ltd.</org>
+      <uri>mailto:iana&amp;bellvedi.com</uri>
+      <updated>2022-06-01</updated>
+    </person>
     <person id="Sean_MacGuire">
       <name>Sean MacGuire</name>
       <uri>mailto:sean&amp;maclawran.ca</uri>
@@ -123220,7 +123514,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Vera_Heinau">
       <name>Vera Heinau</name>
-      <uri>mailto:heinau&amp;fu-berlin.de</uri>
+      <uri>mailto:vera.heinau&amp;fu-berlin.de</uri>
+      <updated>2022-06-07</updated>
     </person>
     <person id="Verek">
       <name>Verek</name>
@@ -123904,6 +124199,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>XXT LLC</org>
       <uri>mailto:xxt.matt&amp;sbcglobal.net</uri>
       <updated>2012-07-12</updated>
+    </person>
+    <person id="Xycare_Ltd">
+      <org>Xycare Ltd</org>
+      <uri>mailto:luke.bailey&amp;xycare.co.uk</uri>
+      <updated>2022-06-06</updated>
     </person>
     <person id="Y_Ohiwa">
       <name>Y. Ohiwa</name>
