@@ -1,5 +1,4 @@
-Number,Description,WHOIS,RDAP,Reference,"Registration
-        Date"
+Number,Description,WHOIS,RDAP,Reference,Registration Date
 0,Reserved,,,[RFC7607],
 1-1876,Assigned by ARIN,whois.arin.net,"https://rdap.arin.net/registry
 http://rdap.arin.net/registry",,

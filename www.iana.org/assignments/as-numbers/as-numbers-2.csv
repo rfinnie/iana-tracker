@@ -1,5 +1,4 @@
-Number,Description,WHOIS,RDAP,Reference,"Registration
-        Date"
+Number,Description,WHOIS,RDAP,Reference,Registration Date
 0-65535,See Sub-registry 16-bit AS numbers,,,[RFC1930],
 65536-65551,Reserved for use in documentation and sample code,,,[RFC5398],2008-12-03
 65552-131071,Reserved,,,,

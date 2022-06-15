@@ -101,7 +101,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 149,Segment Identifier / Label Binding,n,y,n,n,[RFC8667]
 150,Multi-Topology Segment Identifier / Label Binding,n,y,n,n,[RFC8667]
 151-160,Unassigned,,,,,
-161,"Flood Reflection (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, expires 2022-08-05)",y,n,n,n,[draft-ietf-lsr-isis-flood-reflection-01]
+161,"Flood Reflection (TEMPORARY - registered 2020-08-05, extension registered 2021-06-18, document sent to IESG Evaluation 2022-01-20)",y,n,n,n,[draft-ietf-lsr-isis-flood-reflection-01]
 162-175,Unassigned,,,,,
 176,Nortel Proprietary,n,y,n,n,
 177,Nortel Proprietary,n,y,n,n,

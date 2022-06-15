@@ -177,10 +177,10 @@ vettcp,78,tcp,vettcp,[Christopher_Leong],[Christopher_Leong],,,,,,
 vettcp,78,udp,vettcp,[Christopher_Leong],[Christopher_Leong],,,,,,
 finger,79,tcp,Finger,[David_Zimmerman],[David_Zimmerman],,,,,Unauthorized use by some mail users (see [RFC4146] for details),
 finger,79,udp,Finger,[David_Zimmerman],[David_Zimmerman],,,,,Unauthorized use by some mail users (see [RFC4146] for details),
-http,80,tcp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
-http,80,udp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
-www,80,tcp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,"This is a duplicate of the ""http"" service and should not be used for discovery purposes."
-www,80,udp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,"This is a duplicate of the ""http"" service and should not be used for discovery purposes."
+http,80,tcp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
+http,80,udp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,Defined TXT keys: u=<username> p=<password> path=<path to document>
+www,80,tcp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,"This is a duplicate of the ""http"" service and should not be used for discovery purposes."
+www,80,udp,World Wide Web HTTP,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,"This is a duplicate of the ""http"" service and should not be used for discovery purposes."
 www-http,80,tcp,World Wide Web HTTP,[Tim_Berners_Lee],[Tim_Berners_Lee],,,,,,"This is a duplicate of the ""http"" service and should not be used for discovery purposes.
       u=<username> p=<password> path=<path to document>
         (see txtrecords.html#http)
@@ -877,8 +877,8 @@ cvc-hostd,442,udp,"cvc_hostd IANA assigned this well-formed service name as a re
 cvc_hostd,442,udp,cvc_hostd,[Bill_Davidson],[Bill_Davidson],,,,,,"This entry is an alias to ""cvc-hostd"".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms."
-https,443,tcp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
-https,443,udp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC-ietf-httpbis-semantics-19],,,
+https,443,tcp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,
+https,443,udp,http protocol over TLS/SSL,[IESG],[IETF_Chair],,2021-10-01,[RFC9110],,,
 https,443,sctp,HTTPS,[Randall_Stewart],[Randall_Stewart],,2022-02-07,[RFC9260],,,
 snpp,444,tcp,Simple Network Paging Protocol,,,,,[RFC1568],,,
 snpp,444,udp,Simple Network Paging Protocol,,,,,[RFC1568],,,
@@ -6439,9 +6439,10 @@ deskview,3298,tcp,DeskView,[Manfred_Randelzofer],[Manfred_Randelzofer],,,,,,
 deskview,3298,udp,DeskView,[Manfred_Randelzofer],[Manfred_Randelzofer],,,,,,
 pdrncs,3299,tcp,pdrncs,[Paul_Wissenbach],[Paul_Wissenbach],,,,,,
 pdrncs,3299,udp,pdrncs,[Paul_Wissenbach],[Paul_Wissenbach],,,,,,
-ceph,3300,tcp,Ceph monitor,[Sage_Weil],[Sage_Weil],2015-06-29,,,,Known Unauthorized Use on 3300-3301,
+ceph,3300,tcp,Ceph monitor,[Sage_Weil],[Sage_Weil],2015-06-29,,,,Known Unauthorized Use on port 3300,
 ,3300,udp,Reserved,,,,,,,,
-,3301,,unassigned,,,,,,,Known Unauthorized Use on 3300-3301,
+tarantool,3301,tcp,Tarantool in-memory computing platform,[Tarantool],[Alexander_Turenko],2022-06-10,,,,Known Unauthorized Use on port 3301,
+tarantool,3301,udp,Tarantool in-memory computing platform,[Tarantool],[Alexander_Turenko],2022-06-10,,,,Known Unauthorized Use on port 3301,
 mcs-fastmail,3302,tcp,MCS Fastmail,[Patti_Jo_Newsom],[Patti_Jo_Newsom],,,,,,
 mcs-fastmail,3302,udp,MCS Fastmail,[Patti_Jo_Newsom],[Patti_Jo_Newsom],,,,,,
 opsession-clnt,3303,tcp,OP Session Client,,,,,,,,
@@ -9935,7 +9936,10 @@ icmpd,5813,tcp,ICMPD,[Shane_O_Donnell],[Shane_O_Donnell],,,,,,
 icmpd,5813,udp,ICMPD,[Shane_O_Donnell],[Shane_O_Donnell],,,,,,
 spt-automation,5814,tcp,Support Automation,[Joshua_Hawkins],[Joshua_Hawkins],2003-11,,,,,
 spt-automation,5814,udp,Support Automation,[Joshua_Hawkins],[Joshua_Hawkins],2003-11,,,,,
-,5815-5840,,Unassigned,,,,,,,,
+,5815-5819,,Unassigned,,,,,,,,
+autopassdaemon,5820,tcp,AutoPass licensing,[Micro_Focus_2],[AutoPass],2022-06-10,,,,,
+,5820,udp,Reserved,,,,,,,,
+,5821-5840,,Unassigned,,,,,,,,
 shiprush-d-ch,5841,tcp,Z-firm ShipRush interface for web access and bidirectional data,[Z-Firm_LLC],[Rafael_Zimberoff],2014-08-22,,,,,
 ,5841,udp,Reserved,,,,,,,,
 reversion,5842,tcp,Reversion Backup/Restore,[Cameo_Systems_Inc],[Craig_Nelson],2011-09-26,,,,,
