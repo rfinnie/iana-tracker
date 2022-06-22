@@ -1,3 +1,3 @@
 record-types,Description,Reference
 cdni_http_request_v1,CDNI Logging Record version 1 for content delivery using HTTP,[RFC7937]
-cdni_http_request_v2,"Extension to CDNI Logging Record version 1 for content delivery using HTTP, to include URI Signing Logging fields",[RFC-ietf-cdni-uri-signing-26]
+cdni_http_request_v2,"Extension to CDNI Logging Record version 1 for content delivery using HTTP, to include URI Signing Logging fields",[RFC9246]

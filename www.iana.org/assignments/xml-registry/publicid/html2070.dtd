@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-05-25</dd>
+        <dd>2022-06-15</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1899,6 +1899,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
           </tr>
           <tr>
+            <td>yang:iana-bgp-l2-encaps</td>
+            <td>urn:ietf:params:xml:ns:yang:iana-bgp-l2-encaps</td>
+            <td>
+              <a href="ns/yang/iana-bgp-l2-encaps.txt">ns/yang/iana-bgp-l2-encaps.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+          </tr>
+          <tr>
             <td>yang:iana-crypt-hash</td>
             <td>urn:ietf:params:xml:ns:yang:iana-crypt-hash</td>
             <td>
@@ -1937,6 +1945,14 @@ The registration template should cite the specification.
               <a href="ns/yang/iana-if-type.txt">ns/yang/iana-if-type.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc7224">RFC7224</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:iana-pseudowire-types</td>
+            <td>urn:ietf:params:xml:ns:yang:iana-pseudowire-types</td>
+            <td>
+              <a href="ns/yang/iana-pseudowire-types.txt">ns/yang/iana-pseudowire-types.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
           </tr>
           <tr>
             <td>yang:iana-routing-types</td>
@@ -2203,6 +2219,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8513">RFC8513</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-ethernet-segment</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-ethernet-segment</td>
+            <td>
+              <a href="ns/yang/ietf-ethernet-segment.txt">ns/yang/ietf-ethernet-segment.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-ethertypes</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-ethertypes</td>
             <td>
@@ -2409,6 +2433,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-l2-topology-state.txt">ns/yang/ietf-l2-topology-state.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc8944">RFC8944</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-l2vpn-ntw</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-l2vpn-ntw</td>
+            <td>
+              <a href="ns/yang/ietf-l2vpn-ntw.txt">ns/yang/ietf-l2vpn-ntw.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-l2vpn-svc</td>

@@ -8,6 +8,6 @@ Value,Opaque Type,Reference
 7,OSPFv2 Extended Prefix Opaque LSA,[RFC7684]
 8,OSPFv2 Extended Link Opaque LSA,[RFC7684]
 9,TTZ LSA,[RFC8099]
-10,"OSPFv2 Dynamic Flooding Opaque LSA (TEMPORARY - registered 2019-07-31, extension registered 2021-06-18, expires 2022-07-31)",[draft-ietf-lsr-dynamic-flooding]
+10,"OSPFv2 Dynamic Flooding Opaque LSA (TEMPORARY - registered 2019-07-31, extension registered 2022-06-21, expires 2023-07-31)",[draft-ietf-lsr-dynamic-flooding-11]
 11-127,Unassigned,
 128-255,Reserved for Private Use,[RFC5250]
