@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2022-06-08</updated>
+  <updated>2022-08-30</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -16,8 +16,9 @@
     <xref type="rfc" data="rfc9146"/>
     <expert>Yoav Nir, Rich Salz, Nick Sullivan</expert>
     <registration_rule>Specification Required</registration_rule>
-    <note>Registration requests should be sent to the mailing list 
-described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
+    <note>Registration requests should be sent to the mailing list described 
+in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>. If approved, designated experts should 
+notify IANA within three weeks.
     </note>
     <note>The role of the designated expert is described in <xref type="rfc" data="rfc8447"/>.
 The designated expert <xref type="rfc" data="rfc8126"/> ensures that the specification is
@@ -50,7 +51,7 @@ authenticator requests.
       <dtls-only>N</dtls-only>
       <rec>Y</rec>
       <xref type="rfc" data="rfc6066"/>
-      <xref type="draft" data="RFC-ietf-tls-exported-authenticator-15"/>
+      <xref type="rfc" data="rfc9261"/>
     </record>
     <record updated="2018-07-02">
       <value>1</value>
@@ -790,8 +791,9 @@ authenticator requests.
     <xref type="rfc" data="rfc8447"/>
     <registration_rule>Specification Required</registration_rule>
     <expert>Yoav Nir, Rich Salz, Nick Sullivan</expert>
-    <note>Registration requests should be sent to the mailing list 
-described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
+    <note>Registration requests should be sent to the mailing list described 
+in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>. If approved, designated experts should 
+notify IANA within three weeks.
     </note>
     <note>The role of the designated expert is described in <xref type="rfc" data="rfc8447"/>.
 The designated expert <xref type="rfc" data="rfc8126"/> ensures that the specification is
@@ -881,8 +883,9 @@ cases.
     <xref type="rfc" data="rfc8447"/>
     <registration_rule>Expert Review</registration_rule>
     <expert>Yoav Nir, Rich Salz, Nick Sullivan</expert>   
-    <note>Registration requests should be sent to the mailing list 
-described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
+    <note>Registration requests should be sent to the mailing list described 
+in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>. If approved, designated experts should 
+notify IANA within three weeks.
     </note>
     <record date="2019-09-06">
       <value>Reserved</value>
@@ -1116,6 +1119,11 @@ described in <xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
       <description>0x64 0x6F 0x71 ("doq")</description>
       <xref type="rfc" data="rfc9250"/>
     </record>
+    <record date="2022-08-30">
+      <value>SIP</value>
+      <description>0x73 0x69 0x70 0x2f 0x32 ("sip/2")</description>
+      <xref type="rfc" data="rfc3261"/>
+    </record>
     <footnote anchor="1">This entry reserves an identifier for use within a cleartext version 
 of a protocol and is not allowed to appear in a TLS ALPN negotiation.
     </footnote>
@@ -1135,7 +1143,8 @@ of a protocol and is not allowed to appear in a TLS ALPN negotiation.
     <expert>Yoav Nir, Rich Salz, Nick Sullivan</expert>
     <note>Requests for assignments from the registry's Specification 
 Required range should be sent to the mailing list described in 
-<xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
+<xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>. If approved, designated experts should 
+notify IANA within three weeks.
     </note>
     <record>
       <value>0</value>
@@ -1181,7 +1190,8 @@ Required range should be sent to the mailing list described in
     <expert>Yoav Nir, Rich Salz, Nick Sullivan</expert>
     <note>Requests for assignments from the registry's Specification 
 Required range should be sent to the mailing list described in 
-<xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>.
+<xref type="rfc" data="rfc8447">RFC 8447, Section 17</xref>. If approved, designated experts should 
+notify IANA within three weeks.
     </note>
     <record date="2019-12-23">
       <value>0</value>

@@ -20,7 +20,8 @@ Community Sub-Types"" registry)",[RFC7153],
 0x09,FlowSpec Redirect to indirection-id Extended Community,[draft-ietf-idr-flowspec-path-redirect],2018-05-18
 0x0a,Transport Class,[draft-kaliraj-idr-bgp-classful-transport-planes],2020-07-01
 0x0b,"SFC (Sub-Types are defined in the ""SFC Extended Community Sub-Types"" registry)",[RFC9015],2020-09-02
-0x0c-0x3f,Unassigned,,
+0x0c,SRv6 MUP Extended Community,[draft-mpmz-bess-mup-safi-00],2022-08-10
+0x0d-0x3f,Unassigned,,
 0x80,"Generic Transitive Extended Community (Sub-Types are defined in the ""Generic Transitive Extended Community Sub-Types"" registry)",[RFC7153][RFC9184],
 0x81,"Generic Transitive Extended Community Part 2 (Sub-Types are defined in the ""Generic Transitive Extended Community Part 2 Sub-Types"" registry)",[RFC8955][RFC9184],2015-08-28
 0x82,"Generic Transitive Extended Community Part 3 (Sub-Types are defined in the ""Generic Transitive Extended Community Part 3 Sub-Types"" registry)",[RFC8955][RFC9184],2015-08-28

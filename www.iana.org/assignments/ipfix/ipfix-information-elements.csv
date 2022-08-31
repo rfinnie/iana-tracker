@@ -29,7 +29,7 @@ This information is encoded as a bit field; for each TCP control
 bit, there is a bit in this set.  The bit is set to 1 if any
 observed packet of this Flow has the corresponding TCP control bit
 set to 1.  The bit is cleared to 0 otherwise. The values of each bit are shown below, per the definition of the
-bits in the TCP header [RFC-ietf-tcpm-rfc793bis-28][RFC3168]: MSb                                                         LSb
+bits in the TCP header [RFC9293][RFC3168]: MSb                                                         LSb
   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
 +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
 |               |           | N | C | E | U | A | P | R | S | F |
@@ -56,12 +56,12 @@ value  name  description
 0x0004  RST  Reset the connection
 0x0002  SYN  Synchronize sequence numbers
 0x0001  FIN  No more data from sender As the most significant 4 bits of octets 12 and 13 (counting from
-zero) of the TCP header [RFC-ietf-tcpm-rfc793bis-28] are used to encode the TCP data
+zero) of the TCP header [RFC9293] are used to encode the TCP data
 offset (header length), the corresponding bits in this Information
 Element MUST be exported as zero and MUST be ignored by the
 collector.  Use the tcpHeaderLength Information Element to encode
 this value. Each of the 3 bits (0x800, 0x400, and 0x200), which are reserved
-for future use in [RFC-ietf-tcpm-rfc793bis-28], SHOULD be exported as observed in the
+for future use in [RFC9293], SHOULD be exported as observed in the
 TCP headers of the packets of this Flow. If exported as a single octet with reduced-size encoding, this
 Information Element covers the low-order octet of this field (i.e,
 bits 0x80 to 0x01), omitting the ECN Nonce Sum and the three
@@ -77,14 +77,14 @@ zero, even if observed.  Collectors should therefore not assume
 that a value of zero for these bits in this Information Element
 indicates the bits were never set in the observed traffic,
 especially if these bits are zero in every Flow Record sent by a
-given exporter.",,,[RFC-ietf-tcpm-rfc793bis-28][RFC3168],[RFC7125],1,2014-01-03
+given exporter.",,,[RFC9293][RFC3168],[RFC7125],1,2014-01-03
 7,sourceTransportPort,unsigned16,identifier,current,"The source port identifier in the transport header.
 For the transport protocols UDP, TCP, and SCTP, this is the
 source port number given in the respective header.  This
 field MAY also be used for future transport protocols that
 have 16-bit source port identifiers.",,,"See [RFC768] for the definition of the UDP
 source port field.
-See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+See [RFC9293] for the definition of the TCP
 source port field.
 See [RFC9260] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
@@ -106,7 +106,7 @@ destination port number given in the respective header.
 This field MAY also be used for future transport protocols
 that have 16-bit destination port identifiers.",,,"See [RFC768] for the definition of the UDP
 destination port field.
-See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+See [RFC9293] for the definition of the TCP
 destination port field.
 See [RFC9260] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
@@ -710,33 +710,33 @@ Additional information on defined UDP port numbers can be found at
 destination port field.
 Additional information on defined UDP port numbers can be found at
 [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
-182,tcpSourcePort,unsigned16,identifier,current,The source port identifier in the TCP header.,,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+182,tcpSourcePort,unsigned16,identifier,current,The source port identifier in the TCP header.,,,"See [RFC9293] for the definition of the TCP
 source port field.
 Additional information on defined TCP port numbers can be found at
 [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
-183,tcpDestinationPort,unsigned16,identifier,current,The destination port identifier in the TCP header.,,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+183,tcpDestinationPort,unsigned16,identifier,current,The destination port identifier in the TCP header.,,,"See [RFC9293] for the definition of the TCP
 destination port field.
 Additional information on defined TCP port numbers can be found at
 [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
-184,tcpSequenceNumber,unsigned32,,current,The sequence number in the TCP header.,,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+184,tcpSequenceNumber,unsigned32,,current,The sequence number in the TCP header.,,,"See [RFC9293] for the definition of the TCP
 sequence number.",[RFC5102],0,2013-02-18
-185,tcpAcknowledgementNumber,unsigned32,,current,The acknowledgement number in the TCP header.,,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+185,tcpAcknowledgementNumber,unsigned32,,current,The acknowledgement number in the TCP header.,,,"See [RFC9293] for the definition of the TCP
 acknowledgement number.",[RFC5102],0,2013-02-18
 186,tcpWindowSize,unsigned16,,current,"The window field in the TCP header.
 If the TCP window scale is supported,
 then TCP window scale must be known
-to fully interpret the value of this information.",,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+to fully interpret the value of this information.",,,"See [RFC9293] for the definition of the TCP
 window field.
 See [RFC1323] for the definition of the TCP
 window scale.",[RFC5102],0,2013-02-18
-187,tcpUrgentPointer,unsigned16,,current,The urgent pointer in the TCP header.,,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+187,tcpUrgentPointer,unsigned16,,current,The urgent pointer in the TCP header.,,,"See [RFC9293] for the definition of the TCP
 urgent pointer.",[RFC5102],0,2013-02-18
 188,tcpHeaderLength,unsigned8,,current,"The length of the TCP header.  Note that the value of this
 Information Element is different from the value of the Data
 Offset field in the TCP header.  The Data Offset field
 indicates the length of the TCP header in units of 4 octets.
 This Information Elements specifies the length of the TCP
-header in units of octets.",octets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+header in units of octets.",octets,,"See [RFC9293] for the definition of the TCP
 header.",[RFC5102],0,2013-02-18
 189,ipHeaderLength,unsigned8,,current,"The length of the IP header.  For IPv6, the value of this
 Information Element is 40.",octets,,"See [RFC791] for the definition of the IPv4
@@ -975,7 +975,7 @@ TCP option numbers are maintained by IANA. 0     1     2     3     4     5     6
     +-----+-----+-----+-----+-----+-----+-----+-----+ . . . 56    57    58    59    60    61    62    63
     +-----+-----+-----+-----+-----+-----+-----+-----+
 ... |  63 |  62 |  61 |  60 |  59 |  58 |  57 |  56 |
-    +-----+-----+-----+-----+-----+-----+-----+-----+",,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of TCP
+    +-----+-----+-----+-----+-----+-----+-----+-----+",,,"See [RFC9293] for the definition of TCP
 options.
 See the list of TCP option numbers assigned by IANA at [https://www.iana.org/assignments/tcp-parameters].
 The diagram provided in [RFC5102] is incorrect.  
@@ -1022,7 +1022,7 @@ UDP, TCP, and SCTP, this is the destination port number.
 This field MAY also be used for future transport protocols
 that have 16-bit source port identifiers.",,,"See [RFC768] for the definition of the UDP
 destination port field.
-See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+See [RFC9293] for the definition of the TCP
 destination port field.
 See [RFC9260] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
@@ -1034,27 +1034,27 @@ that have 16-bit source port identifiers.  This field may
 be useful for distinguishing multiple Exporting Processes
 that use the same IP address.",,,"See [RFC768] for the definition of the UDP
 source port field.
-See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP
+See [RFC9293] for the definition of the TCP
 source port field.
 See [RFC9260] for the definition of SCTP. Additional information on defined UDP and TCP port numbers can be
 found at [https://www.iana.org/assignments/service-names-port-numbers].",[RFC5102],0,2013-02-18
 218,tcpSynTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""Synchronize sequence numbers"" (SYN) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP SYN
+TCP ""Synchronize sequence numbers"" (SYN) flag set.",packets,,"See [RFC9293] for the definition of the TCP SYN
 flag.",[RFC5102],0,2013-02-18
 219,tcpFinTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""No more data from sender"" (FIN) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP FIN
+TCP ""No more data from sender"" (FIN) flag set.",packets,,"See [RFC9293] for the definition of the TCP FIN
 flag.",[RFC5102],0,2013-02-18
 220,tcpRstTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""Reset the connection"" (RST) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP RST
+TCP ""Reset the connection"" (RST) flag set.",packets,,"See [RFC9293] for the definition of the TCP RST
 flag.",[RFC5102],0,2013-02-18
 221,tcpPshTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""Push Function"" (PSH) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP PSH
+TCP ""Push Function"" (PSH) flag set.",packets,,"See [RFC9293] for the definition of the TCP PSH
 flag.",[RFC5102],0,2013-02-18
 222,tcpAckTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""Acknowledgment field significant"" (ACK) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP ACK
+TCP ""Acknowledgment field significant"" (ACK) flag set.",packets,,"See [RFC9293] for the definition of the TCP ACK
 flag.",[RFC5102],0,2013-02-18
 223,tcpUrgTotalCount,unsigned64,totalCounter,current,"The total number of packets of this Flow with
-TCP ""Urgent Pointer field significant"" (URG) flag set.",packets,,"See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP URG
+TCP ""Urgent Pointer field significant"" (URG) flag set.",packets,,"See [RFC9293] for the definition of the TCP URG
 flag.",[RFC5102],0,2013-02-18
 224,ipTotalLength,unsigned64,,current,The total length of the IP packet.,octets,,"See [RFC791] for the specification of the IPv4
 total length.
@@ -1080,7 +1080,7 @@ definition of Information Element 'sourceTransportPort', except
 that it reports a modified value caused by a Network Address 
 Port Translation (NAPT) middlebox function after the packet 
 passed the Observation Point.",,,"See [RFC768] for the definition of the UDP source port 
-field.  See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP 
+field.  See [RFC9293] for the definition of the TCP 
 source port field.  See [RFC9260] for the definition of 
 SCTP.     
 See [RFC3022] for the definition of NAPT.  See [RFC3234] for the definition of middleboxes. 
@@ -1091,7 +1091,7 @@ definition of Information Element 'destinationTransportPort',
 except that it reports a modified value caused by a Network 
 Address Port Translation (NAPT) middlebox function after the 
 packet passed the Observation Point.",,,"See [RFC768] for the definition of the UDP source port 
-field.  See [RFC-ietf-tcpm-rfc793bis-28] for the definition of the TCP 
+field.  See [RFC9293] for the definition of the TCP 
 source port field.  See [RFC9260] for the definition of 
 SCTP.     
 See [RFC3022] for the definition of NAPT.  See [RFC3234] for the definition of middleboxes. 

@@ -3,7 +3,7 @@
 <?xml-model href="xml-registry.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="xml-registry">
   <title>IETF XML Registry</title>
-  <updated>2022-06-15</updated>
+  <updated>2022-07-08</updated>
   <note><xref type="rfc" data="rfc3688"/> defines an IANA maintained registry of XML documents used within IETF protocols.
 These documents are divided into classes: XML Namespaces, Document Type Declarations, Schemas, and RDF Schemas.
 Individual documents are then registered within each class. The class and document names are combined to form a name
@@ -1454,41 +1454,41 @@ The registration template should cite the specification.
       <file type="template">ns/yang/ietf-babel.txt</file>
       <xref type="draft" data="RFC-ietf-babel-yang-model-13"/>
     </record>
-    <record date="2018-08-09">
+    <record date="2018-08-09" updated="2022-06-29">
       <value>yang:ietf-bfd</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd</name>
       <file type="template">ns/yang/ietf-bfd.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
-    <record date="2018-08-10">
+    <record date="2018-08-10" updated="2022-06-29">
       <value>yang:ietf-bfd-ip-mh</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh</name>
       <file type="template">ns/yang/ietf-bfd-ip-mh.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
-    <record date="2018-08-09">
+    <record date="2018-08-09" updated="2022-06-29">
       <value>yang:ietf-bfd-ip-sh</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh</name>
       <file type="template">ns/yang/ietf-bfd-ip-sh.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
-    <record date="2018-08-09">
+    <record date="2018-08-09" updated="2022-06-29">
       <value>yang:ietf-bfd-lag</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd-lag</name>
       <file type="template">ns/yang/ietf-bfd-lag.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
-    <record date="2018-08-09">
+    <record date="2018-08-09" updated="2022-06-29">
       <value>yang:ietf-bfd-mpls</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd-mpls</name>
       <file type="template">ns/yang/ietf-bfd-mpls.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
-    <record date="2018-08-09">
+    <record date="2018-08-09" updated="2022-06-29">
       <value>yang:ietf-bfd-types</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-bfd-types</name>
       <file type="template">ns/yang/ietf-bfd-types.txt</file>
-      <xref type="rfc" data="rfc9127"/>
+      <xref type="draft" data="RFC-ietf-bfd-rfc9127-bis-04"/>
     </record>
     <record>
       <value>yang:ietf-complex-type-instance</value>
@@ -1548,25 +1548,25 @@ The registration template should cite the specification.
       <value>yang:ietf-dhcpv6-client</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dhcpv6-client</name>
       <file type="template">ns/yang/ietf-dhcpv6-client.txt</file>
-      <xref type="draft" data="RFC-ietf-dhc-dhcpv6-yang-25"/>
+      <xref type="rfc" data="rfc9243"/>
     </record>
     <record date="2022-04-01">
       <value>yang:ietf-dhcpv6-common</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dhcpv6-common</name>
       <file type="template">ns/yang/ietf-dhcpv6-common.txt</file>
-      <xref type="draft" data="RFC-ietf-dhc-dhcpv6-yang-25"/>
+      <xref type="rfc" data="rfc9243"/>
     </record>
     <record date="2022-04-01">
       <value>yang:ietf-dhcpv6-relay</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dhcpv6-relay</name>
       <file type="template">ns/yang/ietf-dhcpv6-relay.txt</file>
-      <xref type="draft" data="RFC-ietf-dhc-dhcpv6-yang-25"/>
+      <xref type="rfc" data="rfc9243"/>
     </record>
     <record date="2022-04-01">
       <value>yang:ietf-dhcpv6-server</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dhcpv6-server</name>
       <file type="template">ns/yang/ietf-dhcpv6-server.txt</file>
-      <xref type="draft" data="RFC-ietf-dhc-dhcpv6-yang-25"/>
+      <xref type="rfc" data="rfc9243"/>
     </record>
     <record date="2021-08-17">
       <value>yang:ietf-dots-call-home</value>
@@ -1584,7 +1584,7 @@ The registration template should cite the specification.
       <value>yang:ietf-dots-mapping</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dots-mapping</name>
       <file type="template">ns/yang/ietf-dots-mapping.txt</file>
-      <xref type="draft" data="RFC-ietf-dots-telemetry-25"/>
+      <xref type="rfc" data="rfc9244"/>
     </record>
     <record date="2020-01-16" updated="2021-06-14">
       <value>yang:ietf-dots-signal-channel</value>
@@ -1602,7 +1602,7 @@ The registration template should cite the specification.
       <value>yang:ietf-dots-telemetry</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-dots-telemetry</name>
       <file type="template">ns/yang/ietf-dots-telemetry.txt</file>
-      <xref type="draft" data="RFC-ietf-dots-telemetry-25"/>
+      <xref type="rfc" data="rfc9244"/>
     </record>
     <record date="2018-06-05">
       <value>yang:ietf-dslite</value>
@@ -1986,7 +1986,7 @@ The registration template should cite the specification.
       <value>yang:ietf-ntp</value>
       <name>urn:ietf:params:xml:ns:yang:ietf-ntp</name>
       <file type="template">ns/yang/ietf-ntp.txt</file>
-      <xref type="draft" data="RFC-ietf-ntp-yang-data-model-17"/>
+      <xref type="rfc" data="rfc9249"/>
     </record>
     <record date="2018-01-18">
       <value>yang:ietf-origin</value>

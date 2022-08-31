@@ -5,5 +5,5 @@ tls-unique,unique,TLS [RFC5246],[RFC5929],no,<See specification>,COMMON,[Larry_Z
       this channel binding type."
 tls-unique-for-telnet,unique,TLS [RFC5246],[RFC5929],no,<See specification>,COMMON,[Jeff_Altman][Nicolas_Williams],[IESG],[IETF_TLS_WG],2008-06-26,2010-05-13,"see the published specification for advice on the applicability of
       this channel binding type."
-tls-exporter,unique,TLS [RFC8446],[RFC-ietf-kitten-tls-channel-bindings-for-tls13-16],no,The EKM value obtained from the current TLS connection.,COMMON,[Sam_Whited],[IESG],[IETF_TLS_WG][IETF_KITTEN_WG],2022-05-31,,"See the published specification for advice on the
+tls-exporter,unique,TLS [RFC8446],[RFC9266],no,The EKM value obtained from the current TLS connection.,COMMON,[Sam_Whited],[IESG],[IETF_TLS_WG][IETF_KITTEN_WG],2022-05-31,,"See the published specification for advice on the
       applicability of this channel binding type."

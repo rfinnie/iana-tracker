@@ -3,7 +3,7 @@
 <?xml-model href="smi-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2022-05-17</updated>
+  <updated>2022-08-24</updated>
   
  
   
@@ -3110,11 +3110,11 @@ per IEEE 802.1ah PBB</description>
       <description>Alcatel-Lucent Ethernet Link Protection</description>
       <xref type="person" data="Xiaohua_Ma"/>
     </record>
-    <record date="2008-10-09">
+    <record date="2008-10-09" updated="2022-08-17">
       <value>250</value>
       <name>gpon</name>
       <description>Gigabit-capable passive optical networks
-(G-PON)  as per ITU-T G.948</description>
+(G-PON)  as per ITU-T G.984</description>
       <xref type="person" data="Hyeri_Koh"/>
     </record>
     <record date="2009-05-06">
@@ -3473,11 +3473,11 @@ is allocated according to the following reference.</description>
       <xref type="uri" data="https://ieeexplore.ieee.org/document/8486937">1914.3-2018 - IEEE Standard for Radio over Ethernet Encapsulations and Mappings</xref>
       <xref type="person" data="Renwang_Liu"/>
     </record>
-    <record date="2021-05-17">
+    <record date="2021-05-17" updated="2022-08-24">
       <value>303</value>
       <name>p2pOverLan</name>
       <description>Point to Point over LAN interface</description>
-      <xref type="rfc" data="rfc5309"/>
+      <xref type="rfc" data="rfc9296"/>
     </record>
        
     
@@ -5648,7 +5648,7 @@ technique (e.g., Filtering, Sampling) that is applied by the Intermediate Flow S
   <registry id="smi-numbers-24">
     <title>SMI Private Codes</title>
     <xref type="rfc" data="rfc2578"/>
-    <registration_rule>Not Defined ?</registration_rule>
+    <registration_rule>For Private Enterprise Number (PEN) registration (prefix 1.3.6.1.4.1), see <xref type="uri" data="http://pen.iana.org/pen/PenApplication.page"/>.</registration_rule>
     <description>iso.org.dod.internet.private (1.3.6.1.4)</description>
     <record date="1995-06">
       <value>0</value>
@@ -5666,7 +5666,10 @@ technique (e.g., Filtering, Sampling) that is applied by the Intermediate Flow S
       <xref type="rfc" data="rfc2578"/>
       <registration_rule>First Come First Served</registration_rule>
       <description>iso.org.dod.internet.private.enterprise (1.3.6.1.4.1)</description>
-      <note>See <xref type="registry" data="enterprise-numbers"/></note>
+      <note>Also referred to as Private Enterprise Numbers (PENs). See <xref type="registry" data="enterprise-numbers"/>.
+      
+To request a PEN, see <xref type="uri" data="http://pen.iana.org/pen/PenApplication.page"/>.
+      </note>
     </registry>
   </registry>
   <registry id="smi-numbers-26">
@@ -6277,7 +6280,7 @@ Access Beyond web</description>
       <record>
         <value>60</value>
         <description>id-mod-rpkiManifest</description>
-        <xref type="draft" data="RFC-ietf-sidrops-6486bis-11"/>
+        <xref type="rfc" data="rfc9286"/>
       </record>
       <record>
         <value>61</value>
@@ -6338,6 +6341,18 @@ Access Beyond web</description>
         <value>72</value>
         <description>id-mod-aes-gmac-alg-2020</description>
         <xref type="rfc" data="rfc9044"/>
+      </record>
+      <record date="2022-08-03">
+        <value>73</value>
+        <description>id-mod-rpkiSignedChecklist-2021</description>
+        <xref type="draft" data="draft-ietf-sidrops-rpki-rsc-08"/>
+      </record>
+      <record date="2022-08-04">
+        <value>74</value>
+        <description>RPKISignedTrustAnchorList-2021 
+          (TEMPORARY - registered 2022-08-04, expires 2023-08-04)
+        </description>
+        <xref type="draft" data="draft-ietf-sidrops-signed-tal-10">draft-ietf-sidrops-signed-tal-10, Section 3.1</xref>
       </record>
     </registry>
     
@@ -6479,7 +6494,7 @@ Access Beyond web</description>
       <record>
         <value>26</value>
         <description>id-ct-rpkiManifest</description>
-        <xref type="draft" data="RFC-ietf-sidrops-6486bis-11"/>
+        <xref type="rfc" data="rfc9286"/>
       </record>
       <record>
         <value>27</value>
@@ -8177,12 +8192,12 @@ Access Beyond web</description>
       <record date="2021-05-20">
         <value>99</value>
         <description>id-mod-cmp2021-88</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
       <record date="2021-05-20">
         <value>100</value>
         <description>id-mod-cmp2021-02</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
       <record date="2021-07-15">
         <value>101</value>
@@ -8198,6 +8213,16 @@ Access Beyond web</description>
         <value>103</value>
         <description>id-mod-dtn-tcpclv4-2021</description>
         <xref type="rfc" data="rfc9174"/>
+      </record>
+      <record date="2022-08-11">
+        <value>104</value>
+        <description>id-mod-docsign-eku</description>
+        <xref type="draft" data="draft-ietf-lamps-documentsigning-eku-04"/>
+      </record>
+      <record date="2022-08-11">
+        <value>105</value>
+        <description>id-mod-rpcWithTLS-2021</description>
+        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-11"/>
       </record>
     </registry>
 
@@ -8571,7 +8596,7 @@ Access Beyond web</description>
       <record date="2020-07-24">
         <value>32</value>
         <description>id-kp-cmKGA</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
       <record date="2020-11-09">
         <value>33</value>
@@ -8587,6 +8612,11 @@ Access Beyond web</description>
         <value>35</value>
         <description>id-kp-bundleSecurity</description>
         <xref type="rfc" data="rfc9174"/>
+      </record>
+      <record date="2022-08-11">
+        <value>36</value>
+        <description>id-kp-documentSigning</description>
+        <xref type="draft" data="draft-ietf-lamps-documentsigning-eku-04"/>
       </record>
     </registry>
 
@@ -8679,37 +8709,37 @@ Access Beyond web</description>
       <record date="2020-07-24" updated="2021-05-20">
         <value>17</value>
         <description>id-it-caCerts</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>     
       <record date="2020-07-24" updated="2021-05-20">
         <value>18</value>
         <description>id-it-rootCaKeyUpdate </description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>  
       <record date="2020-07-24" updated="2021-05-20">
         <value>19</value>
         <description>id-it-certReqTemplate</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>  
       <record date="2021-05-20">
         <value>20</value>
         <description>id-it-rootCaCert</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record> 
       <record date="2021-05-20">
         <value>21</value>
         <description>id-it-certProfile</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record> 
       <record date="2022-05-17">
         <value>22</value>
         <description>id-it-crlStatusList</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
       <record date="2022-05-17">
         <value>23</value>
         <description>id-it-crls</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
     </registry>
 
@@ -8795,12 +8825,12 @@ Access Beyond web</description>
       <record date="2021-05-20">
         <value>11</value>
         <description>id-regCtrl-algId</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
       <record date="2021-05-20">
         <value>12</value>
         <description>id-regCtrl-rsaKeyLen</description>
-        <xref type="draft" data="draft-ietf-lamps-cmp-updates-18"/>
+        <xref type="draft" data="RFC-ietf-lamps-cmp-updates-23"/>
       </record>
     </registry>
 
@@ -11390,14 +11420,6 @@ of a specific mechanism.
     <registration_rule>Not Defined ?</registration_rule>
     <description>iso.org.dod.internet.features (1.3.6.1.8)</description>
     <note>See <xref type="registry" data="media-feature-tags"/></note>
-  </registry>
-  <registry id="private-enterprise-numbers">
-    <title>SMI Network Management Private Enterprise Codes (PEN)</title>
-    <xref type="rfc" data="rfc1157"/>
-    <xref type="rfc" data="rfc1213"/>
-    <description>iso.org.dod.internet.private.enterprise (1.3.6.1.4.1)</description>
-    <note>Registry List: <xref type="uri" data="https://www.iana.org/assignments/enterprise-numbers"/></note>
-    <registration_rule>First Come First Served</registration_rule>
   </registry>
   <registry id="smi-numbers-1.3.101">
     <title>SMI Security for Cryptographic Algorithms</title>

@@ -9,5 +9,5 @@ Decimal,Description,References
 8,id-regCtrl-wtlsTemplate,[Reserved and Obsolete]
 9,id-regCtrl-regTokenUTF8,[Reserved and Obsolete]
 10,id-regCtrl-authenticatorUTF8,[Reserved and Obsolete]
-11,id-regCtrl-algId,[draft-ietf-lamps-cmp-updates-18]
-12,id-regCtrl-rsaKeyLen,[draft-ietf-lamps-cmp-updates-18]
+11,id-regCtrl-algId,[RFC-ietf-lamps-cmp-updates-23]
+12,id-regCtrl-rsaKeyLen,[RFC-ietf-lamps-cmp-updates-23]

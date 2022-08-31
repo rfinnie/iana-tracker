@@ -4,5 +4,5 @@ Code,Label,Description,Reference
 2,conflict-with-acceptlist,Conflicts with an existing accept-list. This code is returned when the DDoS mitigation detects source addresses/prefixes in the accept-listed ACLs are attacking the target.,[RFC9132]
 3,cuid-collision,CUID Collision. This code is returned when a DOTS client uses a 'cuid' that is already used by another DOTS client.,[RFC9132]
 4,request-rejected-legitimate-traffic,Mitigation request rejected. This code is returned by the DOTS server to indicate the attack traffic has been classified as legitimate traffic.,[RFC9066]
-5,overlapping-pipes,Overlapping pipe scope,[RFC-ietf-dots-telemetry-25]
+5,overlapping-pipes,Overlapping pipe scope,[RFC9244]
 6-2147483647,Unassigned,,

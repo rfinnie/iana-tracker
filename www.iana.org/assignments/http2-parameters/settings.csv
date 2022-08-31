@@ -11,4 +11,6 @@ Code,Name,Initial Value,Reference
 0x09,SETTINGS_NO_RFC7540_PRIORITIES,0,[RFC9218]
 0x0a-0x0f,Unassigned,,
 0x10,TLS_RENEG_PERMITTED,0x00,[MS-HTTP2E][Gabriel_Montenegro]
-0x11-0xffff,Unassigned,,
+0x11-0x4d43,Unassigned,,
+0x4d44,SETTINGS_ENABLE_METADATA,0,[draft-beky-httpbis-metadata-02]
+0x4d45-0xffff,Unassigned,,

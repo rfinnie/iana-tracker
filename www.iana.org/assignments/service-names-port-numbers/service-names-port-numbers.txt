@@ -3,12 +3,12 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2022-06-10
+           2022-08-16
 
    Expert(s)
 
- TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling,
- Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
+ TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
+ Jana Iyengar, and Michael Scharf
  SCTP: Michael Tuexen
  DCCP: Eddie Kohler and Yoshifumi Nishida
 
@@ -7584,8 +7584,8 @@ unite              3217        udp    Unified IP & Telecom         [Christer_Gun
                                       Environment
 smartpackets       3218        tcp    EMC SmartPackets             [Steve_Spataro]                                       [Steve_Spataro]
 smartpackets       3218        udp    EMC SmartPackets             [Steve_Spataro]                                       [Steve_Spataro]
-wms-messenger      3219        tcp    WMS Messenger                [Michael_Monasterio]                                  [Michael_Monasterio]
-wms-messenger      3219        udp    WMS Messenger                [Michael_Monasterio]                                  [Michael_Monasterio]
+wms-messenger      3219        tcp    WMS Messenger                [WM_Software_Inc.]                                    [WM_Software_Inc.]                                                     2022-07-18
+wms-messenger      3219        udp    WMS Messenger                [WM_Software_Inc.]                                    [WM_Software_Inc.]                                                     2022-07-18
 xnm-ssl            3220        tcp    XML NM over SSL
 xnm-ssl            3220        udp    XML NM over SSL
 xnm-clear-text     3221        tcp    XML NM over TCP              [Mark_Trostler]                                       [Mark_Trostler]
@@ -8187,7 +8187,7 @@ swr-port           3491        tcp    SWR Port                     [Ian_Manning]
 swr-port           3491        udp    SWR Port                     [Ian_Manning]                                         [Ian_Manning]                                             2002-05
 tvdumtray-port     3492        tcp    TVDUM Tray Port              [Peter_Boers]                                         [Peter_Boers]                                             2002-05
 tvdumtray-port     3492        udp    TVDUM Tray Port              [Peter_Boers]                                         [Peter_Boers]                                             2002-05
-nut                3493        tcp    Network UPS Tools            [Network_UPS_Tools_Project]                           [Evgeny_Klimov]                                           2002-05      2022-05-18   [RFC-rprice-ups-management-protocol-15]
+nut                3493        tcp    Network UPS Tools            [Network_UPS_Tools_Project]                           [Evgeny_Klimov]                                           2002-05      2022-05-18   [RFC9271]
 nut                3493        udp    Network UPS Tools            [Network_UPS_Tools_Project]                           [Evgeny_Klimov]                                           2002-05      2020-12-16
 ibm3494            3494        tcp    IBM 3494                     [Jeffrey_Pilch]                                       [Jeffrey_Pilch]
 ibm3494            3494        udp    IBM 3494                     [Jeffrey_Pilch]                                       [Jeffrey_Pilch]
@@ -9264,9 +9264,9 @@ iconp              3972        tcp    ict-control Protocol         [Roel_Harbers
 iconp              3972        udp    ict-control Protocol         [Roel_Harbers]                                        [Roel_Harbers]                                            2005-08
 progistics         3973        tcp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
 progistics         3973        udp    ConnectShip Progistics       [ConnectShip_Inc]                                     [Robert_Kinyon]                                           2005-08      2019-12-12
-citysearch         3974        tcp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
+citysearch         3974        tcp    Remote Applicant Tracking    [XK22_Data]                                           [Marc_Castelluccio]                                       2005-08      2022-08-16
                                       Service
-citysearch         3974        udp    Remote Applicant Tracking    [Marc_Castelluccio]                                   [Marc_Castelluccio]                                       2005-08
+citysearch         3974        udp    Remote Applicant Tracking    [XK22_Data]                                           [Marc_Castelluccio]                                       2005-08      2022-08-16
                                       Service
 airshot            3975        tcp    Air Shot                     [Shingo_Kimura]                                       [Shingo_Kimura]                                           2005-08
 airshot            3975        udp    Air Shot                     [Shingo_Kimura]                                       [Shingo_Kimura]                                           2005-08
@@ -10028,12 +10028,12 @@ trim-event         4322        udp    TRIM Event Service
 trim-ice           4323        tcp    TRIM ICE Service             [Siva_Poobalasingam_2]                                [Siva_Poobalasingam_2]                                    2007-02
 trim-ice           4323        udp    TRIM ICE Service             [Siva_Poobalasingam_2]                                [Siva_Poobalasingam_2]                                    2007-02
                    4324               Reserved                                                                                                                                                  2015-05-12                                                                        This entry is being removed on 2015-05-12.
-geognosisman       4325        tcp    Cadcorp GeognoSIS Manager
-                                      Service
-geognosisman       4325        udp    Cadcorp GeognoSIS Manager
-                                      Service
-geognosis          4326        tcp    Cadcorp GeognoSIS Service    [Martin_Daly]                                         [Martin_Daly]                                             2006-11
-geognosis          4326        udp    Cadcorp GeognoSIS Service    [Martin_Daly]                                         [Martin_Daly]                                             2006-11
+geognosisadmin     4325        tcp    Cadcorp GeognoSIS            [Computer_Aided_Development_Corporation_Ltd]          [Martin_Daly]                                                          2022-08-12
+                                      Administrator
+geognosisman       4325        udp    Cadcorp GeognoSIS            [Computer_Aided_Development_Corporation_Ltd]          [Martin_Daly]                                                          2022-08-12
+                                      Administrator
+geognosis          4326        tcp    Cadcorp GeognoSIS            [Martin_Daly]                                         [Martin_Daly]                                             2006-11      2022-08-12
+geognosis          4326        udp    Cadcorp GeognoSIS            [Martin_Daly]                                         [Martin_Daly]                                             2006-11      2022-08-12
 jaxer-web          4327        tcp    Jaxer Web Protocol           [Uri_Sarid]                                           [Uri_Sarid]                                               2008-01-07
 jaxer-web          4327        udp    Jaxer Web Protocol           [Uri_Sarid]                                           [Uri_Sarid]                                               2008-01-07
 jaxer-manager      4328        tcp    Jaxer Manager Command        [Uri_Sarid]                                           [Uri_Sarid]                                               2008-01-22
@@ -10764,7 +10764,9 @@ vxlan-gpe          4790        udp    for Virtual eXtensible Local [Lawrence_Kre
                    4790        tcp    Reserved
 roce               4791        udp    IP Routable RocE             [InfiniBand_Trade_Association]                        [Diego_Crupnicoff]                                        2014-10-17
                    4791        tcp    Reserved
-                 4792-4799            Unassigned
+unified-bus        4792        tcp    IP Routable Unified Bus      [Huawei]                                              [Luoqing_Zhou]                                            2022-07-08
+unified-bus        4792        udp    IP Routable Unified Bus      [Huawei]                                              [Luoqing_Zhou]                                            2022-07-08
+                 4793-4799            Unassigned
 iims               4800        tcp    Icona Instant Messenging
                                       System
 iims               4800        udp    Icona Instant Messenging
@@ -12148,22 +12150,30 @@ ipsma              5908       sctp    IPS Management Application   [Internationa
 agma               5909        tcp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
 agma               5909        udp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
 agma               5909       sctp    Air-ground media advisory    [International_Civil_Aviation_Organisation]           [Greg_Saccone]                                            2022-06-03                                                                                     Defined TXT keys: AGMA
-cm                 5910        tcp    Context Management           [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-cm                 5910        udp    Context Management           [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
+ats-atn            5910        tcp    Air Traffic Services         [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ATN
+ats-atn            5910        udp    Air Traffic Services         [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ATN
 cm                 5910       sctp    Context Management           [Justin_Yu]                                           [Justin_Yu]                                               2011-05-19
-cpdlc              5911        tcp    Controller Pilot Data Link   [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-                                      Communication
-cpdlc              5911        udp    Controller Pilot Data Link   [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-                                      Communication
+ats-acars          5911        tcp    Air Traffic Services         [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ACARS
+ats-acars          5911        udp    Air Traffic Services         [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ACARS
 cpdlc              5911       sctp    Controller Pilot Data Link   [Justin_Yu]                                           [Justin_Yu]                                               2011-05-18
                                       Communication
-fis                5912        tcp    Flight Information Services  [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-fis                5912        udp    Flight Information Services  [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
+                                      Aeronautical Information
+ais-met            5912        tcp    Service/Meteorological       [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ACARS
+                                      Aeronautical Information
+ais-met            5912        udp    Service/Meteorological       [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      applications using ACARS
 fis                5912       sctp    Flight Information Services  [Justin_Yu]                                           [Justin_Yu]                                               2011-05-25
-ads-c              5913        tcp    Automatic Dependent          [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-                                      Surveillance
-ads-c              5913        udp    Automatic Dependent          [Eivan_Cerasi]                                        [Eivan_Cerasi]                                            2008-10-10
-                                      Surveillance
+                                      Airline operational
+aoc-acars          5913        tcp    communications applications  [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      using ACARS
+                                      Airline operational
+aoc-acars          5913        udp    communications applications  [Eivan_Cerasi]                                        [Greg_Saccone]                                            2008-10-10   2022-08-08
+                                      using ACARS
 ads-c              5913       sctp    Automatic Dependent          [Justin_Yu]                                           [Justin_Yu]                                               2011-05-25
                                       Surveillance
                  5914-5962            Unassigned
@@ -13681,7 +13691,10 @@ bolt               7687        tcp    Bolt database connection     [Neo_Technolo
                    7688               Unassigned
 collaber           7689        tcp    Collaber Network Service     [Rajesh_Akkineni]                                     [Rajesh_Akkineni]                                         2007-01
 collaber           7689        udp    Collaber Network Service     [Rajesh_Akkineni]                                     [Rajesh_Akkineni]                                         2007-01
-                 7690-7696            Unassigned
+sovd               7690        tcp    Service-Oriented Vehicle     [ASAM_e_V]                                            [Bernd_Wenzel]                                            2022-07-01
+                                      Diagnostics
+                   7690        udp    Reserved
+                 7691-7696            Unassigned
 klio               7697        tcp    KLIO communications          [Helmut_Giritzer_2]                                   [Helmut_Giritzer_2]                                       2005-08
 klio               7697        udp    KLIO communications          [Helmut_Giritzer_2]                                   [Helmut_Giritzer_2]                                       2005-08
                  7698-7699            Unassigned
@@ -16110,7 +16123,8 @@ vofr-gateway       21590       udp    VoFR Gateway                 [Marty_Borden
                 21591-21799           Unassigned
 tvpm               21800       tcp    TVNC Pro Multiplexing        [Brian_Blevins]                                       [Brian_Blevins]
 tvpm               21800       udp    TVNC Pro Multiplexing        [Brian_Blevins]                                       [Brian_Blevins]
-                21801-21844           Unassigned
+sal                21801       tcp    Safe AutoLogon               [WM_Software_Inc.]                                    [WM_Software_Inc.]                                        2022-07-05   2022-07-06
+                21802-21844           Unassigned
 webphone           21845       tcp    webphone                     [Toby_Hosterman]                                      [Toby_Hosterman]
 webphone           21845       udp    webphone                     [Toby_Hosterman]                                      [Toby_Hosterman]
 netspeak-is        21846       tcp    NetSpeak Corp. Directory     [Toby_Hosterman]                                      [Toby_Hosterman]
@@ -17300,6 +17314,10 @@ activeraid                            Active Storage Proprietary   [Skip_Levens]
                                       Encrypted transport of
 activeraid-ssl                        Active Storage Proprietary   [Skip_Levens]                                         [Skip_Levens]                                                                                                                                            Defined TXT keys: None
                                       Device Management Protocol
+adamhall                       tcp    Adam Hall network control    [Adam_Hall_Group]                                     [Eric_Sawade]                                             2022-07-15                                                                                     Defined TXT keys: None
+                                      and monitoring
+adamhall                       udp    Adam Hall network control    [Adam_Hall_Group]                                     [Eric_Sawade]                                             2022-07-15                                                                                     Defined TXT keys: None
+                                      and monitoring
 addressbook                           Address-O-Matic              [Massimiliano_Ribuoli]                                [Massimiliano_Ribuoli]                                                                                                                                   Defined TXT keys: None
                                       Address Book Server used for
 addressbooksrv                 tcp    contacts and calendar        [AddressBookServer]                                   [Alexander_Hartner]                                       2011-10-14                                                                                     Defined TXT keys: _suffix, _prefix
@@ -17533,6 +17551,8 @@ com-ocs-es-mcc                        ElectraStar media centre     [OC]         
 conecube                       udp    DNS SRV service for          [cone_smart_solution]                                 [Christoph_Bimminger]                                     2019-04-22                                                                                     Defined TXT keys: none
                                       smarthome server
 contactserver                         Now Contact                                                                                                                                                                                                                                 Defined TXT keys: None
+controllerplus                 tcp    game controller forwarding   [Apps_From_Outer_Space_LLC]                           [John_Haney]                                              2022-07-05                                                                                     Defined TXT keys: None
+                                      protocol
 convert                        tcp    0-RTT TCP Convert Protocol   [IESG]                                                [IETF_Chair]                                              2020-03-27                [RFC8803]                                                            Defined TXT keys: None
 coolanetaudio                  tcp    Coolatoola Network Audio     [Coolatoola.com]                                      [Tim_Hewett]                                              2014-01-03                                                                                     Defined TXT keys: None
 core-rd                        tcp    Resource Directory accessed  [IESG]                                                [IETF_Chair]                                              2021-03-16                [RFC9176]                                                            Defined TXT keys: None
@@ -18262,6 +18282,8 @@ ni-sysapi                      tcp    National Instruments System  [National_Ins
                                       Lightweight event based
 nodel                          tcp    control protocol utilising   [Lumicom]                                             [Michael_Cartmel]                                         2013-02-07                                                                                     Defined TXT keys: None
                                       JavaScript Object Notation
+nq                             tcp    Network Quality test server  [Stuart_Cheshire]                                     [Stuart_Cheshire]                                         2022-07-11                                                                                     Defined TXT keys: None
+                                      endpoint
 ntlx-arch                             American Dynamics Intellex   [Gary_Sands]                                          [Gary_Sands]                                                                                                                                             Defined TXT keys: txtvers, macaddress, protovers, model,
                                       Archive Management Service                                                                                                                                                                                                                  serial
                                       American Dynamics Intellex                                                                                                                                                                                                                  Defined TXT keys: txtvers, macaddress, protovers, model,
@@ -19061,6 +19083,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Adam_Ernst_2]                                            Adam Ernst                                          mailto:contact&cosmicsoft.net                                 2002-06
 [Adam_Gawne_Cain]                                         Adam Gawne-Cain                                     mailto:adam&gawncainresearch.co.uk                            2003-11
 [Adam_Golovenko]                                          Adam Golovenko                                      mailto:golovenko&gmail.com                                    2006-10
+[Adam_Hall_Group]                                                                    Adam Hall Group          mailto:eric.sawade&adamhall.com                               2022-07-15
 [Adam_Kerrison]                                           Adam Kerrison                                       mailto:adam&micromuse.co.uk
 [Adam_Maxwell]                                            Adam Maxwell                                        mailto:amaxwell&mac.com
 [Adam_Norén]                                              Adam Norén                 ABB                      mailto:adam.noren&se.abb.com                                  2017-03-28
@@ -19378,6 +19401,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                      Inc.
 [AppMac_Software]                                         AppMac Software                                     mailto:appmac&appmac.com
 [Apple_Computer]                                          Apple Computer                                      mailto:perftools-feedback&group.apple.com
+[Apps_From_Outer_Space_LLC]                                                          Apps From Outer Space,   mailto:john&appsfromouterspace.com                            2022-07-05
+                                                                                     LLC
 [Apsolab_Inc]                                                                        Apsolab Inc.             mailto:admin&apsolab.com                                      2014-11-10
 [Arcadian_Computers]                                      Arcadian Computers                                  mailto:support&arcadiancomputers.com                          2016-05-10
 [ARCATrust_SA]                                                                       ARCATrust SA             mailto:info&arcatrust.io                                      2018-07-05
@@ -19424,7 +19449,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Arvind_Srinivasan]                                       Arvind Srinivasan                                   mailto:arvind.srinivasan&sun.com                              2005-08
 [Asaf_Kashi]                                              Asaf Kashi                                          mailto:asafk&microsoft.com
 [Ascom_Austria_GmbH]                                                                 Ascom Austria GmbH       mailto:info&ascom.at                                          2008-05-01
-[ASAM_e_V]                                                                           ASAM e.V.                mailto:marius.dupuis&asam.net                                 2022-06-01
+[ASAM_e_V]                                                                           ASAM e.V.                mailto:marius.dupuis&asam.net                                 2022-07-01
 [ASCOM_Initiative]                                                                   ASCOM Initiative         mailto:rdenny&dc3.com                                         2020-02-24
 [Asher_Altman]                                            Asher Altman                                        mailto:Asher.Altman&gsc.gte.com
 [Ashish_Chatterjee]                                       Ashish Chatterjee                                   mailto:achatterjee&freeway.proxy.lucent.com
@@ -19517,9 +19542,9 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Bernard_Aboba]                                           Bernard Aboba                                       mailto:bernarda&microsoft.com                                 2004-06
 [Bernard_Desruisseaux]                                    Bernard Desruisseaux                                mailto:bernard&steltor.com
 [Bernard_Normier]                                         Bernard Normier                                     mailto:bernard&zeroc.com                                      2006-12
-[Bernard_Volz]                                            Bernard Volz                                        mailto:volz&cisco.com
+[Bernard_Volz]                                            Bernard Volz                                        mailto:bevolz&gmail.com                                       2022-08-03
 [Bernd_Paradies]                                          Bernd Paradies                                      mailto:bparadie&adobe.com                                     2008-01-14
-[Bernd_Wenzel]                                            Bernd Wenzel               ASAM e.V.                mailto:bernd.wenzel&asam.net                                  2021-09-29
+[Bernd_Wenzel]                                            Bernd Wenzel               ASAM e.V.                mailto:bernd.wenzel&asam.net                                  2022-07-01
 [Bernie_Malkowski]                                        Bernie Malkowski                                    mailto:bmalkowski&integratedsecuritycorp.com                  2007-08-20
 [Bernie_Volz]                                             Bernie Volz                                         mailto:volz&cisco.com
 [Bert_Bouwers]                                            Bert Bouwers                                        mailto:e.bouwers&rohill.nl                                    2007-05
@@ -20024,6 +20049,9 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Colsys_s.r.o.]                                           Colsys s.r.o.                                       mailto:jiri.merth&colsys.cz                                   2016-03-23
 [CommFort_software_Ltd.]                                                             CommFort software Ltd.   mailto:support&commfort.com                                   2016-03-03
 [Complan_Network_AS]                                                                 Complan Network AS       mailto:knut&winpcs.com                                        2006-02
+                                                                                     Computer Aided
+[Computer_Aided_Development_Corporation_Ltd]                                         Development Corporation  mailto:martin.daly&cadcorp.com                                2022-08-12
+                                                                                     Ltd (Cadcorp)
 [Computer_Software_Gm]                                                               Computer Software GmbH   mailto:BrunoRistok&cs-ag.de                                   2002-10
 [Comtech]                                                                            Comtech                  mailto:njeffords&comtechefdata.com                            2014-01-23
 [Conceptworld_Corporation]                                                           Conceptworld Corporation mailto:admin&conceptworld.com                                 2013-08-20
@@ -20578,7 +20606,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Egon_Meier_Engelen]                                      Egon Meier-Engelen                                  mailto:egon.meier-engelen&dlr.de
 [Egon_Technologies_LLC]                                   Egon Technologies, LLC                              mailto:james.downs&egontech.com                               2015-10-05
 [Eiki_Iwata]                                              Eiki Iwata                                          mailto:eiki&nd.net.fujitsu.co.jp
-[Eivan_Cerasi]                                            Eivan Cerasi                                        mailto:eivan.cerasi&eurocontrol.int                           2008-10-10
+[Eivan_Cerasi]                                            Eivan Cerasi                                        mailto:eivan.cerasi&eurocontrol.int                           2022-08-08
 [Ekaterina_Polyakova]                                     Ekaterina Polyakova        GS Labs                  mailto:ekaterina.polyakova&gs-labs.ru                         2020-09-08
 [Ekkehard_Morgenstern]                                    Ekkehard Morgenstern                                mailto:ekkehard&ekkehardmorgenstern.de                        2003-03
 [Eldar_Kleiner]                                           Eldar Kleiner              INFINIDAT                mailto:eldark&infinidat.com                                   2015-05-01
@@ -20642,6 +20670,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Eric_Pulsipher_2]                                        Eric Pulsipher                                      mailto:eric_pulsipher&fc.hp.com
 [Eric_Rosenfeld]                                          Eric Rosenfeld                                      mailto:e.rosenfeld&cablelabs.com                              2003-11
 [Eric_S_Raymond]                                          Eric S. Raymond                                     mailto:esr&thyrsus.com                                        2010-04-19
+[Eric_Sawade]                                             Eric Sawade                Adam Hall Group          mailto:eric.sawade&adamhall.com                               2022-07-15
 [Eric_Sean_Conner]                                        Eric Sean Conner                                    mailto:esconner&me.com                                        2011-10-17
 [Eric_Sharakan]                                           Eric Sharakan                                       mailto:ldoms-iana-ports&sun.com                               2008-02-14
 [Eric_Soderberg]                                          Eric Soderberg                                      mailto:seric&cup.hp.com
@@ -20974,7 +21003,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Greg_Robson_Garth]                                       Greg Robson-Garth                                   mailto:gregr&alphalink.com.au
 [Greg_Rose]                                               Greg Rose                                           mailto:Greg_Rose&sydney.sterling.com
 [Greg_Rose_2]                                             Greg Rose                                           mailto:ggr&qualcomm.com                                       2002-02
-[Greg_Saccone]                                            Greg Saccone                                        mailto:gregory.t.saccone&boeing.com                           2022-06-03
+[Greg_Saccone]                                            Greg Saccone                                        mailto:gregory.t.saccone&boeing.com                           2022-08-08
 [Greg_Sidebottom]                                         Greg Sidebottom                                     mailto:gregside&home.com
 [Greg_Stine]                                              Greg Stine                                          mailto:greg.stine&siemens.com                                 2007-07-05
 [Greg_Suppes]                                             Greg Suppes                                         mailto:greg.suppes&autodesk.com
@@ -21132,6 +21161,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Huang_Neng-geng]                                         Huang Neng-geng                                     mailto:huangng&ngweb.org                                      2011-08-09
                                                                                                               mailto:nghuang&ieee.org
 [Huang_Yu]                                                Huang Yu                                            mailto:llw&ftsafe.com
+[Huawei]                                                                             Huawei                   mailto:zhouluoqing&huawei.com                                 2022-07-08
 [Huawei_Technologies_France]                                                         Huawei Technologies      mailto:yangxudong&huawei.com                                  2018-11-06
                                                                                      France
 [Hubert_Vijay_Arokiasamy]                                 Hubert Vijay Arokiasamy    Oracle Corp.             mailto:hubert.vijay.arokiasamy&oracle.com                     2014-10-28
@@ -21616,6 +21646,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [John_Fox]                                                John Fox
 [John_Graham_Cumming]                                     John Graham-Cumming        CloudFlare, Inc.         mailto:jgc&cloudflare.com                                     2012-03-09
 [John_Hadjioannou]                                        John Hadjioannou                                    mailto:john&minster.co.uk
+[John_Haney]                                              John Haney                 Apps From Outer Space,   mailto:john&appsfromouterspace.com                            2022-07-05
+                                                                                     LLC
 [John_Harvey]                                             John Harvey                                         mailto:johnbob&austin.ibm.com
 [John_Hasselkus]                                          John Hasselkus                                      mailto:Jhasselkus&visualnetworks.com
 [John_Havard]                                             John Havard                                         mailto:jh&hxe.us                                              2003-11
@@ -22121,6 +22153,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Luma_Code]                                               Luma Code                                           mailto:support&lumacode.com
 [Lumicom]                                                                            Lumicom                  mailto:support&lumicom.com.au                                 2013-02-07
 [Lumis]                                                                              Lumis                    mailto:rterra&lumis.com.br                                    2011-10-24
+[Luoqing_Zhou]                                            Luoqing Zhou               Huawei                   mailto:zhouluoqing&huawei.com                                 2022-07-08
 [Lutz_Karras]                                             Lutz Karras                                         mailto:karras&zeiss.de
 [Lyndon_Nerenberg]                                        Lyndon Nerenberg                                    mailto:lyndon&execmail.ca
 [Lyndon_Ong]                                              Lyndon Ong                                          mailto:LyOng&ciena.com
@@ -22166,7 +22199,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Marc_Baudoin]                                            Marc Baudoin                                        mailto:babafou&babafou.eu.org
 [Marc_Binstock]                                           Marc Binstock                                       mailto:marc.binstock&citrix.com                               2008-01-29
 [Marc_Blanchet]                                           Marc Blanchet                                       mailto:marc.blanchet&viagenie.ca                              2003-01
-[Marc_Castelluccio]                                       Marc Castelluccio                                   mailto:mcastell&areanetworks.net                              2005-08
+[Marc_Castelluccio]                                       Marc Castelluccio                                   mailto:marc&xk22.com                                          2022-08-16
 [Marc_Diamante]                                           Marc Diamante                                       mailto:pgmp&pgmpsolutions.com
 [Marc_Donner]                                             Marc Donner                                         mailto:mail&poweraudio.de                                     2009-01-16
 [Marc_Epard]                                              Marc Epard                                          mailto:marc&netopia.com
@@ -22301,7 +22334,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Martin_Bestmann]                                         Martin Bestmann                                     mailto:martin&datawatch.de
 [Martin_Bestmann_2]                                       Martin Bestmann                                     mailto:martin&no.netopia.com                                  2004-03
 [Martin_Bestmann_3]                                       Martin Bestmann                                     mailto:martin&poleposition-sw.com                             2005-08
-[Martin_Daly]                                             Martin Daly                                         mailto:martin.daly&cadcorp.com                                2006-11
+[Martin_Daly]                                             Martin Daly                                         mailto:martin.daly&cadcorp.com                                2022-08-12
 [Martin_Ellis]                                            Martin Ellis                                        mailto:martin&clanleagues.net                                 2004-11
 [Martin_Forssen]                                          Martin Forssen                                      mailto:maf&appgate.com                                        2004-11
 [Martin_Freiss]                                           Martin Freiss                                       mailto:freiss.pad&sni.de
@@ -24047,7 +24080,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Stu_Mark]                                                Stu Mark                                            mailto:fordii&j51.com
 [Stuart_Allen]                                            Stuart Allen                                        mailto:stuart&jacl.animats.net                                2002-02
 [Stuart_Button]                                           Stuart Button                                       mailto:button&promis.com
-[Stuart_Cheshire]                                         Stuart Cheshire                                     mailto:cheshire&apple.com                                     2019-05-31
+[Stuart_Cheshire]                                         Stuart Cheshire                                     mailto:cheshire&apple.com                                     2022-07-11
 [Stuart_Cheshire_3]                                       Stuart Cheshire                                     mailto:mdnsresponder-ipc&multicastdns.org                     2004-06
 [Stuart_Cheshire_4]                                       Stuart Cheshire                                     mailto:pdl-datastream&apple.com                               2002-09
 [Stuart_J_Kerry]                                          Stuart J. Kerry            Chair IEEE 802.11 WG     mailto:stuart&ok-brit.com                                     2002-05
@@ -24608,6 +24641,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Winston_Hetherington]                                    Winston Hetherington
 [Winzig_LLC]                                                                         Winzig LLC               mailto:aroundsound&winzig.com                                 2011-10-20
 [Wire_IANA_Contact]                                       2Wire IANA Contact                                  mailto:iana&2wire.com                                         2002-04
+[WM_Software_Inc.]                                                                   WM Software Inc.         mailto:support&wmsoftware.com                                 2022-07-18
 [Wo_o_Ideafarm]                                           Wo'o Ideafarm                                       mailto:b85f3c23.9ad6f42c&ideafarm.com
 [Wolfgang_Adler]                                          Wolfgang Adler                                      mailto:electronicc_rd&wago.com                                2006-04
 [Wolfgang_Rupprecht]                                      Wolfgang Rupprecht                                  mailto:wolfgang&wsrcc.com
@@ -24626,6 +24660,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [X2_Studios_Ltd]                                                                     X2 Studios Ltd           mailto:support&x2studios.com                                  2020-05-06
 [XCDS_International_Ltd.]                                                            XCDS International Ltd.  mailto:contact&xcds.com                                       2020-07-29
 [Xential]                                                                            Xential                  mailto:info&xential.nl                                        2013-11-13
+[XK22_Data]                                                                          XK22 Data                mailto:marc&xk22.com                                          2022-08-16
 [XMI_Systems_SA]                                                                     XMI Systems SA           mailto:cma&xmisystems.com                                     2013-01-18
 [XMPP_Registrar]                                          XMPP Registrar                                      mailto:registrar&xmpp.org
 [Xnet_Communications]                                     Xnet Communications                                 mailto:croco&xdsnet.de

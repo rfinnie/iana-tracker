@@ -13,4 +13,5 @@ Value,LISP LCAF Type Name,Reference
 11,Security Key,"[RFC8060, Section 3]"
 12,Source/Dest Key,"[RFC8060, Section 3]"
 13,Replication List Entry,"[RFC8060, Section 3]"
-14-255,Unassigned,
+14-254,Unassigned,
+255,Vendor Specific,"[RFC-ietf-lisp-vendor-lcaf-12, Section 4]"

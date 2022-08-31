@@ -38,7 +38,8 @@ TR-8.5 Formulating Group, <cja015&motorola.com>, June 2004]"
 35,Pure IP,[Inaky_Perez-Gonzalez]
 36,HW_EXP1,[RFC5494]
 37,HFI,[Tseng-Hui_Lin]
-38-255,Unassigned,
+38,Unified Bus (UB),[Luoqing_Zhou]
+39-255,Unassigned,
 256,HW_EXP2,[RFC5494]
 257,AEthernet,[Geoffroy_Gramaize]
 258-65534,Unassigned,

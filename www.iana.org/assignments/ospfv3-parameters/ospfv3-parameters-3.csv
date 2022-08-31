@@ -26,7 +26,8 @@ Value,LSA Function Code Name,Reference
 39,E-Type-7-LSA,[RFC8362]
 40,E-Link-LSA,[RFC8362]
 41,E-Intra-Area-Prefix-LSA,[RFC8362]
-42-255,Unassigned,
+42,"SRv6 Locator LSA (TEMPORARY - registered 2022-07-11, expires 2023-07-11)",[draft-ietf-lsr-ospfv3-srv6-extensions-06]
+43-255,Unassigned,
 256-8175,Reserved,[RFC7770]
 8176-8183,Experimentation,[RFC7770]
 8184-8190,Vendor Private Use,[RFC7770]

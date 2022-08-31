@@ -1,7 +1,7 @@
 Kind,Length,Meaning,Reference
-0,-,End of Option List,[RFC-ietf-tcpm-rfc793bis-28]
-1,-,No-Operation,[RFC-ietf-tcpm-rfc793bis-28]
-2,4,Maximum Segment Size,[RFC-ietf-tcpm-rfc793bis-28]
+0,-,End of Option List,[RFC9293]
+1,-,No-Operation,[RFC9293]
+2,4,Maximum Segment Size,[RFC9293]
 3,3,Window Scale,[RFC7323]
 4,2,SACK Permitted,[RFC2018]
 5,N,SACK,[RFC2018]
@@ -41,7 +41,11 @@ Kind,Length,Meaning,Reference
 76,,Reserved (known unauthorized use without proper IANA assignment) [**],
 77,,Reserved (known unauthorized use without proper IANA assignment) [**],
 78,,Reserved (known unauthorized use without proper IANA assignment) [**],
-79-252,,Reserved,
+79-171,,Reserved,
+172,N,"Accurate ECN Order 0 (AccECN0) (TEMPORARY - registered 2022-08-03, expires 2023-08-03)",[draft-ietf-tcpm-accurate-ecn-20]
+173,,Reserved,
+174,N,"Accurate ECN Order 1 (AccECN1) (TEMPORARY - registered 2022-08-03, expires 2023-08-03)",[draft-ietf-tcpm-accurate-ecn-20]
+175-252,,Reserved,
 253,N,"RFC3692-style Experiment 1 (also improperly used for shipping
         products) [*]",[RFC4727]
 254,N,"RFC3692-style Experiment 2 (also improperly used for shipping

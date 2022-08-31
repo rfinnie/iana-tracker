@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="cbor-tags">
   <title>Concise Binary Object Representation (CBOR) Tags</title>
   <created>2013-09-19</created>
-  <updated>2022-05-24</updated>
+  <updated>2022-08-26</updated>
   <category>Concise Binary Object Representation (CBOR)</category>
   
   <registry id="tags">
@@ -105,7 +105,7 @@
     <record updated="2020-10-10">
       <value>23</value>
       <description>(any)</description>
-      <semantics>Expected conversion to base16 encoding; see Section Section 3.4.5.2</semantics>
+      <semantics>Expected conversion to base16 encoding; see Section 3.4.5.2</semantics>
       <xref type="rfc" data="rfc8949"/>
     </record>    
     <record updated="2020-10-10">
@@ -196,16 +196,15 @@
     <record date="2014-05-09">
       <value>37</value>
       <description>byte string</description>
-      <semantics>Binary UUID (<xref type="rfc" data="rfc4122"/> section 4.1.2)</semantics>
+      <semantics>Binary UUID (<xref type="rfc" data="rfc4122">RFC4122, Section 4.1.2</xref>)</semantics>
       <xref type="uri" data="https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md"/>
       <xref type="person" data="Lucas_Clemente"/>
     </record>
-    <record date="2014-07-01">
+    <record date="2014-07-01" updated="2022-07-12">
       <value>38</value>
       <description>array</description>
       <semantics>Language-tagged string</semantics>
-      <xref type="uri" data="http://peteroupc.github.io/CBOR/langtags.html"/>
-      <xref type="person" data="Peter_Occil"/>
+      <xref type="draft" data="RFC-ietf-core-problem-details-08">RFC-ietf-core-problem-details-08, Appendix A</xref>
     </record>
     <record date="2014-07-01">
       <value>39</value>
@@ -236,32 +235,32 @@
     <record date="2019-04-11" updated="2022-04-13">
       <value>43</value>
       <description>text string</description>
-      <semantics>YANG bits datatype; see <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>, Section 6.7.</semantics>
-      <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>
+      <semantics>YANG bits datatype; see Section 6.7.</semantics>
+      <xref type="rfc" data="rfc9254"/>
     </record>
     <record date="2019-04-11" updated="2022-04-13">
       <value>44</value>
       <description>text string</description>
-      <semantics>YANG enumeration datatype; see <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>, Section 6.6.</semantics>
-      <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>
+      <semantics>YANG enumeration datatype; see Section 6.6.</semantics>
+      <xref type="rfc" data="rfc9254"/>
     </record>
     <record date="2019-04-11" updated="2022-04-13">
       <value>45</value>
       <description>unsigned integer or text string</description>
-      <semantics>YANG identityref datatype; see <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>, Section 6.10.</semantics>
-      <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>
+      <semantics>YANG identityref datatype; see Section 6.10.</semantics>
+      <xref type="rfc" data="rfc9254"/>
     </record>
     <record date="2019-04-11" updated="2022-04-13">
       <value>46</value>
       <description>unsigned integer or text string or array</description>
-      <semantics>YANG instance-identifier datatype; see <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>, Section 6.13.</semantics>
-      <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>
+      <semantics>YANG instance-identifier datatype; see Section 6.13.</semantics>
+      <xref type="rfc" data="rfc9254"/>
     </record>
     <record date="2019-08-19" updated="2022-04-13">
       <value>47</value>
       <description>unsigned integer</description>
-      <semantics>YANG Schema Item iDentifier (sid); see <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>, Section 3.2.</semantics>
-      <xref type="draft" data="RFC-ietf-core-yang-cbor-20"/>
+      <semantics>YANG Schema Item iDentifier (sid); see Section 3.2.</semantics>
+      <xref type="rfc" data="rfc9254"/>
     </record>
     <record>
       <value>48-51</value>
@@ -487,8 +486,14 @@
       <semantics>Number of days since the epoch date 1970-01-01</semantics>
       <xref type="rfc" data="rfc8943"/>
     </record>
+    <record date="2022-07-20">
+      <value>101</value>
+      <description>array [uint, any]</description>
+      <semantics>alternatives as given by the uint + 128; see Section 9.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-07"/>
+    </record>
     <record>
-      <value>101-102</value>
+      <value>102</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -540,8 +545,14 @@
       <xref type="uri" data="https://github.com/allthingstalk/cbor/blob/master/CBOR-Tag120-Internet-of-Things-Data-Points.md"/>
       <xref type="person" data="Danilo_Vidovic"/>
     </record>
+    <record date="2022-07-20">
+      <value>121-127</value>
+      <description>any</description>
+      <semantics>alternatives 0..6, 1+1 encoding; see Section 9.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-07"/>
+    </record>
     <record>
-      <value>121-255</value>
+      <value>128-255</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -698,14 +709,14 @@
     <record date="2021-02-01">
       <value>277</value>
       <description>byte string</description>
-      <semantics>Universal Geographical Area Description (GAD) shape; see section 5</semantics>
+      <semantics>Universal Geographical Area Description (GAD) shape; see Section 5</semantics>
       <xref type="uri" data="https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=742">TS 23.032</xref>
       <xref type="person" data="Mathew_Meins"/>
     </record>
     <record date="2021-02-01">
       <value>278</value>
       <description>byte string</description>
-      <semantics>Universal Geographical Area Description (GAD) description of velocity; see section 8</semantics>
+      <semantics>Universal Geographical Area Description (GAD) description of velocity; see Section 8</semantics>
       <xref type="uri" data="https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=742">TS 23.032</xref>
       <xref type="person" data="Mathew_Meins"/>
     </record>
@@ -750,7 +761,18 @@
       <xref type="rfc" data="rfc8746"/>
     </record>
     <record>
-      <value>1041-22097</value>
+      <value>1041-1279</value>
+      <description>Unassigned</description>
+      <semantics/>
+    </record>
+    <record date="2022-07-20">
+      <value>1280-1400</value>
+      <description>any</description>
+      <semantics>alternatives 7..127, 1+2 encoding; see Section 9.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-07"/>
+    </record>
+    <record>
+      <value>1401-22097</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -801,7 +823,27 @@
       <file type="template">template/42602</file>
     </record>
     <record>
-      <value>42603-49999</value>
+      <value>42603-42999</value>
+      <description>Unassigned</description>
+      <semantics/>
+    </record>
+    <record date="2022-07-20">
+      <value>43000</value>
+      <description>array</description>
+      <semantics>Single complex number: array elements are real (I) and imaginary (Q) components</semantics>
+      <xref type="person" data="Saajan_Chana"/>
+      <file type="template">template/43000</file>
+    </record>
+    <record date="2022-07-20">
+      <value>43001</value>
+      <description>array</description>
+      <semantics>Array of complex numbers in interleaved form: complex value k is stored with real (I) part 
+at array index 2k and imaginary (Q) part at index (2k + 1)</semantics>
+      <xref type="person" data="Saajan_Chana"/>
+      <file type="template">template/43001</file>
+    </record>
+    <record>
+      <value>43002-49999</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -913,7 +955,19 @@
       <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>
     </record>
     <record>
-      <value>55802-57341</value>
+      <value>55802-56499</value>
+      <description>Unassigned</description>
+      <semantics/>
+    </record>
+    <record date="2022-08-26">
+      <value>56500</value>
+      <description>array (major type 4)</description>
+      <semantics>Compressed byte string</semantics>
+      <xref type="uri" data="https://github.com/dectris/documentation/blob/main/cbor/dectris-compression-tag.md"/>
+      <xref type="person" data="Kal_Conley"/>
+    </record>
+    <record>
+      <value>56501-57341</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -951,9 +1005,8 @@
     <record date="2020-05-13">
       <value>65535</value>
       <description>(none valid)</description>
-      <semantics>always invalid</semantics>
-      <xref type="draft" data="draft-bormann-cbor-notable-tags-02">draft-bormann-cbor-notable-tags-02, 
-        Section 10.1</xref>
+      <semantics>always invalid; see Section 10.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-02"/>
     </record>
     <record>
       <value>65536-15309735</value>
@@ -980,16 +1033,27 @@ unit test cases.</semantics>
       <xref type="person" data="Michael_Richardson"/>
       <xref type="person" data="Samir_Hussain"/>
       <file type="template">template/1330664270</file>
-      </record>
+    </record>
     <record>
-      <value>1330664271-1668546816</value>
+      <value>1330664271-1398229315</value>
+      <description>Unassigned</description>
+      <semantics/>
+    </record>
+    <record date="2022-08-01">
+      <value>1398229316</value>
+      <description>map</description>
+      <semantics>Concise Software Identifier (CoSWID)</semantics>
+      <xref type="draft" data="RFC-ietf-sacm-coswid-22"/>
+    </record>
+    <record>
+      <value>1398229317-1668546816</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
     <record date="2022-05-23">
       <value>1668546817-1668612095</value>
       <description>byte string or any CBOR data item (see Appendix B of <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>)</description>
-      <semantics>the representation of content-format ct &lt; 65025 is indicated by tag number TN(ct) = 0x63470101 + (ct / 255) * 256 + ct % 255</semantics>
+      <semantics>the representation of content-format ct &lt; 65025 is indicated by tag number TN(ct) = 0x63740101 + (ct / 255) * 256 + ct % 255</semantics>
       <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>
     </record>
     <record>
@@ -1000,9 +1064,8 @@ unit test cases.</semantics>
     <record date="2020-05-18">
       <value>4294967295</value>
       <description>(none valid)</description>
-      <semantics>always invalid</semantics>
-      <xref type="draft" data="draft-bormann-cbor-notable-tags-02">draft-bormann-cbor-notable-tags-02, 
-        Section 10.1</xref>
+      <semantics>always invalid; see Section 10.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-02"/>
     </record>
     <record>
       <value>4294967296</value>
@@ -1019,9 +1082,8 @@ unit test cases.</semantics>
     <record date="2020-05-18">
       <value>18446744073709551615</value>
       <description>(none valid)</description>
-      <semantics>always invalid</semantics>
-      <xref type="draft" data="draft-bormann-cbor-notable-tags-02">draft-bormann-cbor-notable-tags-02, 
-        Section 10.1</xref>
+      <semantics>always invalid; Section 10.1</semantics>
+      <xref type="draft" data="draft-bormann-cbor-notable-tags-02"/>
     </record>
     <footnote anchor="1">second element of outer array in data item is native CBOR array 
 (major type 4) or Typed Array (one of Tag 64..87)
@@ -1064,6 +1126,11 @@ unit test cases.</semantics>
       <uri>mailto:gjb&amp;sonic.net</uri>
       <updated>2021-11-09</updated>
     </person>
+    <person id="Kal_Conley">
+      <name>Kal Conley</name>
+      <uri>mailto:kal.conley&amp;dectris.com</uri>
+      <updated>2022-08-26</updated>
+    </person>
     <person id="Kris_Zyp">
       <name>Kris Zyp</name>
       <uri>mailto:kriszyp&amp;gmail.com</uri>
@@ -1103,6 +1170,11 @@ unit test cases.</semantics>
       <name>Ravi Raju</name>
       <uri>mailto:ravir&amp;employees.org</uri>
       <updated>2018-03-06</updated>
+    </person>
+    <person id="Saajan_Chana">
+      <name>Saajan Chana</name>
+      <uri>mailto:saajan.chana&amp;cambridgeconsultants.com</uri>
+      <updated>2022-07-20</updated>
     </person>
     <person id="Sami_Vaarala">
       <name>Sami Vaarala</name>

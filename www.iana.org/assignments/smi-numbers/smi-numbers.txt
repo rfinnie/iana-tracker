@@ -3,7 +3,7 @@
                                      Structure of Management Information (SMI) Numbers (MIB Module Registrations)
 
    Last Updated
-           2022-05-17
+           2022-08-24
 
    Note
 
@@ -211,7 +211,6 @@
           * SMI mail MIME-MHS core Codes
 
      * SMI Features
-     * SMI Network Management Private Enterprise Codes (PEN)
      * SMI Security for Cryptographic Algorithms
 
 SMI Network Management Directory Codes
@@ -840,7 +839,7 @@ Decimal             Name                           Description                  
   249   aluELP                        Alcatel-Lucent Ethernet Link          [Xiaohua_Ma]
                                       Protection
   250   gpon                          Gigabit-capable passive optical       [Hyeri_Koh]
-                                      networks (G-PON) as per ITU-T G.948
+                                      networks (G-PON) as per ITU-T G.984
                                       Very high speed digital subscriber
   251   vdsl2                         line Version 2 (as per ITU-T          [Markus_Freudenberger][RFC5650]
                                       Recommendation G.993.2)
@@ -912,7 +911,7 @@ Decimal             Name                           Description                  
   301   omni                          Overlay Multilink Network Interface   [draft-templin-6man-omni-00][Fred_L_Templin]
                                       (OMNI)
   302   roe                           Radio over Ethernet Interface         [1914.3-2018 - IEEE Standard for Radio over Ethernet Encapsulations and Mappings][Renwang_Liu]
-  303   p2pOverLan                    Point to Point over LAN interface     [RFC5309]
+  303   p2pOverLan                    Point to Point over LAN interface     [RFC9296]
 
 Tunnel Types (tunnelType)
 
@@ -1651,7 +1650,7 @@ SMI Private Codes
 
    Registration Procedure(s)
 
- Not Defined ?
+ For Private Enterprise Number (PEN) registration (prefix 1.3.6.1.4.1), see [http://pen.iana.org/pen/PenApplication.page].
 
    Description
 
@@ -1683,7 +1682,10 @@ SMI Private Codes
 
    Note
 
- See [IANA registry enterprise-numbers]
+ Also referred to as Private Enterprise Numbers (PENs). See [IANA registry enterprise-numbers].
+
+ To request a PEN, see [http://pen.iana.org/pen/PenApplication.page].
+
 
 SMI Security Codes (including S/MIME, PKIX and LTANS)
 
@@ -1850,79 +1852,81 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal              Description                        References
-      1    id-mod-cms                             [RFC2630]
-      2    id-mod-ess                             [RFC2634]
-      3    id-mod-oid                             [Reserved and Obsolete]
-      4    id-mod-msg-v3                          [RFC2633]
-      5    id-mod-ets-eSignature-88               [RFC3126]
-      6    id-mod-ets-eSignature-97               [RFC3126]
-      7    id-mod-ets-eSigPolicy-88               [RFC3125]
-      8    id-mod-ets-eSigPolicy-97               [RFC3125]
-      9    id-mod-certdist                        [Reserved and Obsolete]
-     10    id-mod-domsec                          [RFC3183]
-     11    id-mod-compress                        [RFC3274]
-     12    id-mod-symkeydist                      [RFC5275]
-     13    id-mod-cek-reuse                       [RFC3185]
-     14    id-mod-cms-2001                        [RFC3369]
-     15    id-mod-v1AttrCert                      [RFC3369]
-     16    id-mod-cmsalg-2001                     [RFC3370]
-     17    id-mod-cms-pwri-88                     [RFC3211]
-     18    id-mod-cms-pwri-97                     [RFC3211]
-     19    id-mod-cms-pwri-aes                    [RFC3565]
-     20    id-mod-cms-rsaes-oaep                  [RFC3560]
-     21    id-mod-msg-v3dot1                      [RFC3851]
-     22    id-mod-cms-firmware-wrap               [RFC4108]
-     23    id-mod-cms-camellia                    [RFC3657]
-     24    id-mod-cms-2004                        [RFC3852]
-     25    id-mod-cms-seed                        [RFC Errata 3865]
-     26    id-mod-contentCollection               [RFC4073]
-     27    id-mod-binarySigningTime               [RFC4049]
-     28    id-mod-ets-eSignature-explicitSyntax88 [RFC5126]
-     29    id-mod-ets-eSignature-explicitSyntax97 [RFC5126]
-     30    id-mod-ess-2006                        [RFC5035]
-     31    id-mod-cms-authEnvelopedData           [RFC5083]
-     32    id-mod-cms-aes-ccm-and-gcm             [RFC5084]
-     33    id-mod-symmetricKeyPkgV1               [RFC6031]
-     34    id-mod-multipleSig-2008                [RFC5752]
-     35    id-mod-timestampedData                 [RFC5544]
-     36    id-mod-symkeydist-02                   [RFC5911]
-     37    id-mod-cmsalg-2001-02                  [RFC5911]
-     38    id-mod-cms-aes-02                      [RFC5911]
-     39    id-mod-msg-v3dot1-02                   [RFC5911]
-     40    id-mod-cms-firmware-wrap-02            [RFC5911]
-     41    id-mod-cms-2004-02                     [RFC5911]
-     42    id-mod-cms-2006-02                     [RFC5911]
-     43    id-mod-cms-authEnvelopedData-02        [RFC5911]
-     44    id-mod-cms-aes-ccm-gcm-02              [RFC5911]
-     45    id-mod-cms-ecc-alg-2009-88             [RFC5753]
-     46    id-mod-cms-ecc-alg-2009-02             [RFC5753]
-     47    id-mod-aesKeyWrapWithPad-88            [RFC5649]
-     48    id-mod-aesKeyWrapWithPad-02            [RFC5649]
-     49    id-mod-MD5-XOR-EXPERIMENT              [RFC Errata 3866]
-     50    id-mod-asymmetricKeyPkgV1              [RFC5958]
-     51    id-mod-encryptedKeyPkgV1               [RFC6032]
-     52    id-mod-cms-algorithmProtect            [RFC6211]
-     53    id-mod-pskcAttributesModule            [RFC6031]
-     54    id-mod-compressedDataContent           [RFC6268]
-     55    id-mod-binSigningTime-2009             [RFC6268]
-     56    id-mod-contentCollect-2009             [RFC6268]
-     57    id-mod-cmsAuthEnvData-2009             [RFC6268]
-     58    id-mod-cms-2009                        [RFC6268]
-     59    id-mod-multipleSign-2009               [RFC6268]
-     60    id-mod-rpkiManifest                    [RFC-ietf-sidrops-6486bis-11]
-     61    id-mod-rpkiROA                         [RFC6482]
-     62    id-mod-setKeyAttributeV1               [draft-herzog-setkey]
-     63    id-mod-keyPkgReceiptAndErrV2           [RFC7191]
-     64    id-mod-mts-hashsig-2013                [RFC8708]
-     65    mod-sMimeSecureHeadersV1               [RFC7508]
-     66    id-mod-CMS-AEADChaCha20Poly1305        [RFC8103]
-     67    id-mod-cms-ecdh-alg-2017               [RFC8418]
-     68    id-mod-hkdf-oid-2019                   [RFC8619]
-     69    id-mod-cms-ori-psk-2019                [RFC8696]
-     70    CMSAlgsForSHAKE-2019                   [RFC8702]
-     71    id-mod-cbor-2019                       [RFC8769]
-     72    id-mod-aes-gmac-alg-2020               [RFC9044]
+   Decimal                                      Description                                                         References
+      1    id-mod-cms                                                                             [RFC2630]
+      2    id-mod-ess                                                                             [RFC2634]
+      3    id-mod-oid                                                                             [Reserved and Obsolete]
+      4    id-mod-msg-v3                                                                          [RFC2633]
+      5    id-mod-ets-eSignature-88                                                               [RFC3126]
+      6    id-mod-ets-eSignature-97                                                               [RFC3126]
+      7    id-mod-ets-eSigPolicy-88                                                               [RFC3125]
+      8    id-mod-ets-eSigPolicy-97                                                               [RFC3125]
+      9    id-mod-certdist                                                                        [Reserved and Obsolete]
+     10    id-mod-domsec                                                                          [RFC3183]
+     11    id-mod-compress                                                                        [RFC3274]
+     12    id-mod-symkeydist                                                                      [RFC5275]
+     13    id-mod-cek-reuse                                                                       [RFC3185]
+     14    id-mod-cms-2001                                                                        [RFC3369]
+     15    id-mod-v1AttrCert                                                                      [RFC3369]
+     16    id-mod-cmsalg-2001                                                                     [RFC3370]
+     17    id-mod-cms-pwri-88                                                                     [RFC3211]
+     18    id-mod-cms-pwri-97                                                                     [RFC3211]
+     19    id-mod-cms-pwri-aes                                                                    [RFC3565]
+     20    id-mod-cms-rsaes-oaep                                                                  [RFC3560]
+     21    id-mod-msg-v3dot1                                                                      [RFC3851]
+     22    id-mod-cms-firmware-wrap                                                               [RFC4108]
+     23    id-mod-cms-camellia                                                                    [RFC3657]
+     24    id-mod-cms-2004                                                                        [RFC3852]
+     25    id-mod-cms-seed                                                                        [RFC Errata 3865]
+     26    id-mod-contentCollection                                                               [RFC4073]
+     27    id-mod-binarySigningTime                                                               [RFC4049]
+     28    id-mod-ets-eSignature-explicitSyntax88                                                 [RFC5126]
+     29    id-mod-ets-eSignature-explicitSyntax97                                                 [RFC5126]
+     30    id-mod-ess-2006                                                                        [RFC5035]
+     31    id-mod-cms-authEnvelopedData                                                           [RFC5083]
+     32    id-mod-cms-aes-ccm-and-gcm                                                             [RFC5084]
+     33    id-mod-symmetricKeyPkgV1                                                               [RFC6031]
+     34    id-mod-multipleSig-2008                                                                [RFC5752]
+     35    id-mod-timestampedData                                                                 [RFC5544]
+     36    id-mod-symkeydist-02                                                                   [RFC5911]
+     37    id-mod-cmsalg-2001-02                                                                  [RFC5911]
+     38    id-mod-cms-aes-02                                                                      [RFC5911]
+     39    id-mod-msg-v3dot1-02                                                                   [RFC5911]
+     40    id-mod-cms-firmware-wrap-02                                                            [RFC5911]
+     41    id-mod-cms-2004-02                                                                     [RFC5911]
+     42    id-mod-cms-2006-02                                                                     [RFC5911]
+     43    id-mod-cms-authEnvelopedData-02                                                        [RFC5911]
+     44    id-mod-cms-aes-ccm-gcm-02                                                              [RFC5911]
+     45    id-mod-cms-ecc-alg-2009-88                                                             [RFC5753]
+     46    id-mod-cms-ecc-alg-2009-02                                                             [RFC5753]
+     47    id-mod-aesKeyWrapWithPad-88                                                            [RFC5649]
+     48    id-mod-aesKeyWrapWithPad-02                                                            [RFC5649]
+     49    id-mod-MD5-XOR-EXPERIMENT                                                              [RFC Errata 3866]
+     50    id-mod-asymmetricKeyPkgV1                                                              [RFC5958]
+     51    id-mod-encryptedKeyPkgV1                                                               [RFC6032]
+     52    id-mod-cms-algorithmProtect                                                            [RFC6211]
+     53    id-mod-pskcAttributesModule                                                            [RFC6031]
+     54    id-mod-compressedDataContent                                                           [RFC6268]
+     55    id-mod-binSigningTime-2009                                                             [RFC6268]
+     56    id-mod-contentCollect-2009                                                             [RFC6268]
+     57    id-mod-cmsAuthEnvData-2009                                                             [RFC6268]
+     58    id-mod-cms-2009                                                                        [RFC6268]
+     59    id-mod-multipleSign-2009                                                               [RFC6268]
+     60    id-mod-rpkiManifest                                                                    [RFC9286]
+     61    id-mod-rpkiROA                                                                         [RFC6482]
+     62    id-mod-setKeyAttributeV1                                                               [draft-herzog-setkey]
+     63    id-mod-keyPkgReceiptAndErrV2                                                           [RFC7191]
+     64    id-mod-mts-hashsig-2013                                                                [RFC8708]
+     65    mod-sMimeSecureHeadersV1                                                               [RFC7508]
+     66    id-mod-CMS-AEADChaCha20Poly1305                                                        [RFC8103]
+     67    id-mod-cms-ecdh-alg-2017                                                               [RFC8418]
+     68    id-mod-hkdf-oid-2019                                                                   [RFC8619]
+     69    id-mod-cms-ori-psk-2019                                                                [RFC8696]
+     70    CMSAlgsForSHAKE-2019                                                                   [RFC8702]
+     71    id-mod-cbor-2019                                                                       [RFC8769]
+     72    id-mod-aes-gmac-alg-2020                                                               [RFC9044]
+     73    id-mod-rpkiSignedChecklist-2021                                                        [draft-ietf-sidrops-rpki-rsc-08]
+     74    RPKISignedTrustAnchorList-2021 (TEMPORARY - registered 2022-08-04, expires 2023-08-04) [draft-ietf-sidrops-signed-tal-10, Section 3.1]
 
   SMI Security for S/MIME CMS Content Type (1.2.840.113549.1.9.16.1)
 
@@ -1968,7 +1972,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      23    id-ct-authEnvelopedData    [RFC5083]
      24    id-ct-routeOriginAuthz     [RFC6482]
      25    id-ct-KP-sKeyPackage       [RFC6031]
-     26    id-ct-rpkiManifest         [RFC-ietf-sidrops-6486bis-11]
+     26    id-ct-rpkiManifest         [RFC9286]
      27    id-ct-asciiTextWithCRLF    [RFC5485]
      28    id-ct-xml                  [RFC5485]
      29    id-ct-pdf                  [RFC5485]
@@ -2507,7 +2511,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal           Description                       References
+   Decimal           Description                           References
       1    id-pkix1-explicit-88             [RFC2459]
       2    id-pkix1-implicit-88             [RFC2459]
       3    id-pkix1-explicit-93             [RFC2459]
@@ -2606,11 +2610,13 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      96    id-mod-MASAURLExtn2016           [RFC8995]
      97    id-mod-anima-acpnodename-2020    [RFC8994]
      98    id-mod-est-2019                  [RFC8951]
-     99    id-mod-cmp2021-88                [draft-ietf-lamps-cmp-updates-18]
-     100   id-mod-cmp2021-02                [draft-ietf-lamps-cmp-updates-18]
+     99    id-mod-cmp2021-88                [RFC-ietf-lamps-cmp-updates-23]
+     100   id-mod-cmp2021-02                [RFC-ietf-lamps-cmp-updates-23]
      101   id-mod-eJWTClaimConstraints-2021 [RFC9118]
      102   id-mod-public-notary-v2          [RFC9162]
      103   id-mod-dtn-tcpclv4-2021          [RFC9174]
+     104   id-mod-docsign-eku               [draft-ietf-lamps-documentsigning-eku-04]
+     105   id-mod-rpcWithTLS-2021           [RFC-ietf-nfsv4-rpc-tls-11]
 
   SMI Security for PKIX Certificate Extension
 
@@ -2717,7 +2723,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal                 Description                             References
+   Decimal                 Description                                 References
       1    id-kp-serverAuth                             [RFC2459]
       2    id-kp-clientAuth                             [RFC2459]
       3    id-kp-codeSigning                            [RFC2459]
@@ -2749,10 +2755,11 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      29    id-kp-cmcArchive                             [RFC6402]
      30    id-kp-bgpsec-router                          [RFC8209]
      31    id-kp-BrandIndicatorforMessageIdentification [draft-chuang-bimi-certificate]
-     32    id-kp-cmKGA                                  [draft-ietf-lamps-cmp-updates-18]
+     32    id-kp-cmKGA                                  [RFC-ietf-lamps-cmp-updates-23]
      33    id-kp-rpcTLSClient                           [RFC-ietf-nfsv4-rpc-tls-10]
      34    id-kp-rpcTLSServer                           [RFC-ietf-nfsv4-rpc-tls-10]
      35    id-kp-bundleSecurity                         [RFC9174]
+     36    id-kp-documentSigning                        [draft-ietf-lamps-documentsigning-eku-04]
 
   SMI Security for PKIX CMP Information Types
 
@@ -2775,7 +2782,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal        Description                    References
+   Decimal        Description                   References
       1    id-it-caProtEncCert        [RFC2510]
       2    id-it-signKeyPairTypes     [RFC2510]
       3    id-it-encKeyPairTypes      [RFC2510]
@@ -2792,13 +2799,13 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
      14    id-it-confirmWaitTime      [RFC4210]
      15    id-it-origPKIMessage       [RFC4210]
      16    id-it-suppLangTags         [RFC4210]
-     17    id-it-caCerts              [draft-ietf-lamps-cmp-updates-18]
-     18    id-it-rootCaKeyUpdate      [draft-ietf-lamps-cmp-updates-18]
-     19    id-it-certReqTemplate      [draft-ietf-lamps-cmp-updates-18]
-     20    id-it-rootCaCert           [draft-ietf-lamps-cmp-updates-18]
-     21    id-it-certProfile          [draft-ietf-lamps-cmp-updates-18]
-     22    id-it-crlStatusList        [draft-ietf-lamps-cmp-updates-18]
-     23    id-it-crls                 [draft-ietf-lamps-cmp-updates-18]
+     17    id-it-caCerts              [RFC-ietf-lamps-cmp-updates-23]
+     18    id-it-rootCaKeyUpdate      [RFC-ietf-lamps-cmp-updates-23]
+     19    id-it-certReqTemplate      [RFC-ietf-lamps-cmp-updates-23]
+     20    id-it-rootCaCert           [RFC-ietf-lamps-cmp-updates-23]
+     21    id-it-certProfile          [RFC-ietf-lamps-cmp-updates-23]
+     22    id-it-crlStatusList        [RFC-ietf-lamps-cmp-updates-23]
+     23    id-it-crls                 [RFC-ietf-lamps-cmp-updates-23]
 
   SMI Security for PKIX CRMF Registration
 
@@ -2847,7 +2854,7 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
            [IMG]
            CSV
 
-   Decimal          Description                     References
+   Decimal          Description                    References
       1    id-regCtrl-regToken           [RFC2511]
       2    id-regCtrl-authenticator      [RFC2511]
       3    id-regCtrl-pkiPublicationInfo [RFC2511]
@@ -2858,8 +2865,8 @@ SMI Security Codes (including S/MIME, PKIX and LTANS)
       8    id-regCtrl-wtlsTemplate       [Reserved and Obsolete]
       9    id-regCtrl-regTokenUTF8       [Reserved and Obsolete]
      10    id-regCtrl-authenticatorUTF8  [Reserved and Obsolete]
-     11    id-regCtrl-algId              [draft-ietf-lamps-cmp-updates-18]
-     12    id-regCtrl-rsaKeyLen          [draft-ietf-lamps-cmp-updates-18]
+     11    id-regCtrl-algId              [RFC-ietf-lamps-cmp-updates-23]
+     12    id-regCtrl-rsaKeyLen          [RFC-ietf-lamps-cmp-updates-23]
 
   SMI Security for PKIX CRMF Registration Controls for Alternate Certificate Formats
 
@@ -4759,25 +4766,6 @@ SMI Features
    Note
 
  See [IANA registry media-feature-tags]
-
-SMI Network Management Private Enterprise Codes (PEN)
-
-   Registration Procedure(s)
-
- First Come First Served
-
-   Description
-
- iso.org.dod.internet.private.enterprise (1.3.6.1.4.1)
-
-   Reference
-           [RFC1157][RFC1213]
-
-   Note
-
- Registry List: [https://www.iana.org/assignments/enterprise-numbers]
-
-   Registry is empty.
 
 SMI Security for Cryptographic Algorithms
 

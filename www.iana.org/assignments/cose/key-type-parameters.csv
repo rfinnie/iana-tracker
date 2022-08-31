@@ -1,8 +1,8 @@
 Key Type,Name,Label,CBOR Type,Description,Reference
-1,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry",[RFC-ietf-cose-rfc8152bis-algs-12]
+1,crv,-1,int / tstr,"EC identifier -- Taken from the ""COSE Elliptic Curves"" registry",[RFC-ietf-cose-rfc8152bis-algs-12]
 1,x,-2,bstr,Public Key,[RFC-ietf-cose-rfc8152bis-algs-12]
 1,d,-4,bstr,Private key,[RFC-ietf-cose-rfc8152bis-algs-12]
-2,crv,-1,int / tstr,"EC identifier - Taken from the ""COSE Elliptic Curves"" registry",[RFC-ietf-cose-rfc8152bis-algs-12]
+2,crv,-1,int / tstr,"EC identifier -- Taken from the ""COSE Elliptic Curves"" registry",[RFC-ietf-cose-rfc8152bis-algs-12]
 2,x,-2,bstr,x-coordinate,[RFC-ietf-cose-rfc8152bis-algs-12]
 2,y,-3,bstr / bool,y-coordinate,[RFC-ietf-cose-rfc8152bis-algs-12]
 2,d,-4,bstr,Private key,[RFC-ietf-cose-rfc8152bis-algs-12]

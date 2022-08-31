@@ -1102,6 +1102,7 @@ region,SH,SH-region.txt,2010-03-24
 region,SS,SS.txt,2011-08-25
 region,SX,SX.txt,2011-01-11
 region,SZ,SZ.txt,2018-08-08
+region,TR,TR.txt,2022-08-08
 region,UN,UN.txt,2016-07-19
 region,003,003.txt,2010-08-17
 region,021,021.txt,2010-08-17
@@ -1264,6 +1265,8 @@ variant,kscor,kscor.txt,2012-07-05
 variant,laukika,laukika.txt,2010-07-28
 variant,lemosin,lemosin.txt,2018-04-23
 variant,lipaw,lipaw.txt,2007-08-14
+variant,ltg1929,ltg1929.txt,2022-08-08
+variant,ltg2007,ltg2007.txt,2022-06-28
 variant,luna1918,luna1918.txt,2010-10-12
 variant,metelko,metelko.txt,2012-07-05
 variant,monoton,monoton.txt,2007-08-07
@@ -1306,7 +1309,7 @@ variant,unifon,unifon.txt,2013-10-04
 variant,vaidika,vaidika.txt,2010-07-28
 variant,valencia,valencia.txt,2007-08-07
 variant,vallader,vallader.txt,2010-06-30
-variant,vecdruka,vecdruka.txt,2020-09-29
+variant,vecdruka,vecdruka-2022-06-23.txt,2022-06-28
 variant,vivaraup,vivaraup.txt,2018-04-23
 variant,wadegile,wadegile.txt,2008-10-07
 variant,xsistemo,xsistemo.txt,2017-03-16

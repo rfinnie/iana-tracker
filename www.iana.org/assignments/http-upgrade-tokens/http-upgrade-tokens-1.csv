@@ -4,3 +4,4 @@ TLS,Transport Layer Security,"ANY DIGIT.DIGIT (e.g., ""1.2"")",[RFC2817]
 WebSocket,The Web Socket Protocol,,[RFC6455]
 websocket,The Web Socket Protocol,,[RFC6455][RFC8441]
 h2c,Hypertext Transfer Protocol version 2 (HTTP/2) (OBSOLETE),,"[RFC9113, Section 3.1]"
+connect-udp,Proxying of UDP Payloads,,[RFC9298]

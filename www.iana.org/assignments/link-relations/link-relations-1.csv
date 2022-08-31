@@ -97,7 +97,7 @@ latest-version,"Points to a resource containing the latest (e.g.,
 license,Refers to a license associated with this context.,[RFC4946],"For implications of use in HTML, see: http://www.w3.org/TR/html5/links.html#link-type-license"
 linkset,"The link target of a link with the ""linkset"" relation
       type provides a set of links, including links in which the link
-      context of the link participates.",[RFC-ietf-httpapi-linkset-10],
+      context of the link participates.",[RFC9264],
 lrdd,"Refers to further information about the link's context,
       expressed as a LRDD (""Link-based Resource Descriptor Document"")
       resource.  See [RFC6415] for information about

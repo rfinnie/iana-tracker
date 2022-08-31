@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-06-15</dd>
+        <dd>2022-07-08</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2016,7 +2016,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd.txt">ns/yang/ietf-bfd.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-ip-mh</td>
@@ -2024,7 +2024,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-ip-mh.txt">ns/yang/ietf-bfd-ip-mh.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-ip-sh</td>
@@ -2032,7 +2032,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-ip-sh.txt">ns/yang/ietf-bfd-ip-sh.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-lag</td>
@@ -2040,7 +2040,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-lag.txt">ns/yang/ietf-bfd-lag.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-mpls</td>
@@ -2048,7 +2048,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-mpls.txt">ns/yang/ietf-bfd-mpls.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-types</td>
@@ -2056,7 +2056,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-types.txt">ns/yang/ietf-bfd-types.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/rfc9127">RFC9127</a>]</td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-complex-type-instance</td>
@@ -2136,7 +2136,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dhcpv6-client.txt">ns/yang/ietf-dhcpv6-client.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dhc-dhcpv6-yang-25">RFC-ietf-dhc-dhcpv6-yang-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9243">RFC9243</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dhcpv6-common</td>
@@ -2144,7 +2144,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dhcpv6-common.txt">ns/yang/ietf-dhcpv6-common.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dhc-dhcpv6-yang-25">RFC-ietf-dhc-dhcpv6-yang-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9243">RFC9243</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dhcpv6-relay</td>
@@ -2152,7 +2152,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dhcpv6-relay.txt">ns/yang/ietf-dhcpv6-relay.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dhc-dhcpv6-yang-25">RFC-ietf-dhc-dhcpv6-yang-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9243">RFC9243</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dhcpv6-server</td>
@@ -2160,7 +2160,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dhcpv6-server.txt">ns/yang/ietf-dhcpv6-server.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dhc-dhcpv6-yang-25">RFC-ietf-dhc-dhcpv6-yang-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9243">RFC9243</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dots-call-home</td>
@@ -2184,7 +2184,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dots-mapping.txt">ns/yang/ietf-dots-mapping.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dots-telemetry-25">RFC-ietf-dots-telemetry-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9244">RFC9244</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dots-signal-channel</td>
@@ -2208,7 +2208,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-dots-telemetry.txt">ns/yang/ietf-dots-telemetry.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-dots-telemetry-25">RFC-ietf-dots-telemetry-25</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9244">RFC9244</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-dslite</td>
@@ -2720,7 +2720,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-ntp.txt">ns/yang/ietf-ntp.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-ntp-yang-data-model-17">RFC-ietf-ntp-yang-data-model-17</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9249">RFC9249</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-origin</td>

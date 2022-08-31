@@ -12,4 +12,4 @@ urn:ietf:params:oauth:token-type:id_token,Token type URI for an ID Token,IESG,"[
 urn:ietf:params:oauth:token-type:saml1,Token type URI for a base64url-encoded SAML 1.1 assertion,IESG,"[RFC8693, Section 3]"
 urn:ietf:params:oauth:token-type:saml2,Token type URI for a base64url-encoded SAML 2.0 assertion,IESG,"[RFC8693, Section 3]"
 urn:ietf:params:oauth:request_uri,A URN Sub-Namespace for OAuth Request URIs.,IESG,"[RFC9126, Section 2.2]"
-urn:ietf:params:oauth:jwk-thumbprint,JWK Thumbprint URI,IESG,[RFC-ietf-oauth-jwk-thumbprint-uri-03]
+urn:ietf:params:oauth:jwk-thumbprint,JWK Thumbprint URI,IESG,[RFC9278]

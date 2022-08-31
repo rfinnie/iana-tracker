@@ -30,5 +30,6 @@ Value,NOTIFY MESSAGES - ERROR TYPES,Reference
 44,CHILD_SA_NOT_FOUND,[RFC7296]
 45,INVALID_GROUP_ID,[draft-yeung-g-ikev2]
 46,AUTHORIZATION_FAILED,[draft-yeung-g-ikev2]
-47-8191,Unassigned,
+47,STATE_NOT_FOUND,[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+48-8191,Unassigned,
 8192-16383,Private use,[RFC7296]

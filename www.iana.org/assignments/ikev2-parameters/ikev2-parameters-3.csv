@@ -5,5 +5,12 @@ Type,Description,Used In,Reference
 3,Integrity Algorithm (INTEG),"(IKE, AH, optional in ESP)",[RFC7296]
 4,Diffie-Hellman Group (D-H),"(IKE, optional in AH & ESP)",[RFC7296]
 5,Extended Sequence Numbers (ESN),(AH and ESP),[RFC7296]
-6-240,Unassigned,,
+6,Additional Key Exchange 1,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+7,Additional Key Exchange 2,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+8,Additional Key Exchange 3,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+9,Additional Key Exchange 4,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+10,Additional Key Exchange 5,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+11,Additional Key Exchange 6,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+12,Additional Key Exchange 7,"(optional in IKE, AH, ESP)",[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+13-240,Unassigned,,
 241-255,Private use,,[RFC7296]

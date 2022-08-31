@@ -5,7 +5,7 @@ Decimal,Keyword,Protocol,IPv6 Extension Header,Reference
 3,GGP,Gateway-to-Gateway,,[RFC823]
 4,IPv4,IPv4 encapsulation,,[RFC2003]
 5,ST,Stream,,[RFC1190][RFC1819]
-6,TCP,Transmission Control,,[RFC-ietf-tcpm-rfc793bis-28]
+6,TCP,Transmission Control,,[RFC9293]
 7,CBT,CBT,,[Tony_Ballardie]
 8,EGP,Exterior Gateway Protocol,,[RFC888][David_Mills]
 9,IGP,"any private interior gateway             
@@ -168,7 +168,8 @@ University of California at Berkeley, June 1986.][Bruce Willins]"
 141,WESP,Wrapped Encapsulating Security Payload,,[RFC5840]
 142,ROHC,Robust Header Compression,,[RFC5858]
 143,Ethernet,Ethernet,,[RFC8986]
-144-252,,Unassigned,,[Internet_Assigned_Numbers_Authority]
+144,AGGFRAG,"AGGFRAG encapsulation payload for ESP (TEMPORARY - registered 2022-08-26, document sent to IESG Evaluation 2022-07-14)",,[draft-ietf-ipsecme-iptfs-18]
+145-252,,Unassigned,,[Internet_Assigned_Numbers_Authority]
 253,,Use for experimentation and testing,Y,[RFC3692]
 254,,Use for experimentation and testing,Y,[RFC3692]
 255,Reserved,,,[Internet_Assigned_Numbers_Authority]

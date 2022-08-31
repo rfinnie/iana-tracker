@@ -25,7 +25,7 @@ Decimal,Description,References
 23,id-ct-authEnvelopedData,[RFC5083]
 24,id-ct-routeOriginAuthz,[RFC6482]
 25,id-ct-KP-sKeyPackage,[RFC6031]
-26,id-ct-rpkiManifest,[RFC-ietf-sidrops-6486bis-11]
+26,id-ct-rpkiManifest,[RFC9286]
 27,id-ct-asciiTextWithCRLF,[RFC5485]
 28,id-ct-xml,[RFC5485]
 29,id-ct-pdf,[RFC5485]
