@@ -49,3 +49,4 @@ Decimal,Description,References
 47,id-ct-geofeedCSVwithCRLF,[RFC9092]
 48,id-ct-signedChecklist,[draft-ietf-sidrops-rpki-rsc-02]
 49,id-ct-ASPA,[draft-ietf-sidrops-aspa-profile-06]
+50,id-ct-signedTAL,[draft-ietf-sidrops-signed-tal-10]

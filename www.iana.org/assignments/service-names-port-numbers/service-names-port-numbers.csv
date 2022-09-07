@@ -7799,8 +7799,8 @@ iconp,3972,tcp,ict-control Protocol,[Roel_Harbers],[Roel_Harbers],2005-08,,,,,
 iconp,3972,udp,ict-control Protocol,[Roel_Harbers],[Roel_Harbers],2005-08,,,,,
 progistics,3973,tcp,ConnectShip Progistics,[ConnectShip_Inc],[Robert_Kinyon],2005-08,2019-12-12,,,,
 progistics,3973,udp,ConnectShip Progistics,[ConnectShip_Inc],[Robert_Kinyon],2005-08,2019-12-12,,,,
-citysearch,3974,tcp,Remote Applicant Tracking Service,[XK22_Data],[Marc_Castelluccio],2005-08,2022-08-16,,,,
-citysearch,3974,udp,Remote Applicant Tracking Service,[XK22_Data],[Marc_Castelluccio],2005-08,2022-08-16,,,,
+xk22,3974,tcp,Remote Applicant Tracking Service,[XK22_Data],[Marc_Castelluccio],2005-08,2022-08-31,,,,
+xk22,3974,udp,Remote Applicant Tracking Service,[XK22_Data],[Marc_Castelluccio],2005-08,2022-08-31,,,,
 airshot,3975,tcp,Air Shot,[Shingo_Kimura],[Shingo_Kimura],2005-08,,,,,
 airshot,3975,udp,Air Shot,[Shingo_Kimura],[Shingo_Kimura],2005-08,,,,,
 opswagent,3976,tcp,Server Automation Agent,[Hewlett_Packard_Enterprise],[Cristi_Fati],,2016-04-14,,,,
@@ -14365,6 +14365,8 @@ inova-ontrack,,,Inova Solutions OnTrack Display Protocol,,,,,,,,Defined TXT keys
 iot,,tcp,Internet-of-things (IoT) JSON telegram service,[SEVENSTAX_GmbH],[Ralf_Schwarzer],2015-11-05,,,,,Defined TXT keys: <type>:application specific kind of protocol; <vers>:version of the 'type'; <device>:device descriptor
 iota,,tcp,iotaMed medical records server,[MITM],[Martin_Wehlou],2011-10-18,,,,,Defined TXT keys: none
 ipbroadcaster,,,IP Broadcaster,[base_t_Interactive],[base_t_Interactive],,,,,,Defined TXT keys: None
+iperfd,,tcp,Network socket performance test,[Robert_McMahon],[Robert_McMahon],2022-09-02,,,,,Defined TXT keys: None
+iperfd,,udp,Network socket performance test,[Robert_McMahon],[Robert_McMahon],2022-09-02,,,,,Defined TXT keys: None
 ipspeaker,,,IP Speaker Control Protocol,[Dan_Mahn],[Dan_Mahn],,,,,,Defined TXT keys: None
 iqp,,tcp,Control protocol for Phase One devices,[Phase_One],[Christopher_Jacobsen],2018-01-16,,,,,"Defined TXT keys: txtvers,mk,md,us,un,ss,auth"
 irc-iot,,tcp,The universal protocol for building IoT,[Alexey_Y_Woronov],[Alexey_Y_Woronov],2019-12-20,,,,,Defined TXT keys: _irc-iot

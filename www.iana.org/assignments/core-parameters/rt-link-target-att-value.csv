@@ -357,7 +357,7 @@ oic.r.colour.renderingindex,Colour Rendering Index,[OCF_Resource_Type_Specificat
 oic.r.sound.pressure,Sound Pressure in Pascal,[OCF_Resource_Type_Specification_v2.2.2 clause 6.174],
 oic.r.sound.pressurelevel,Sound Pressure Level in dB,[OCF_Resource_Type_Specification_v2.2.2 clause 6.175],
 oic.r.location.civic,Civic Location,[OCF_Resource_Type_Specification_v2.2.2 clause 6.176],
-ace.ai,ACE-OAuth authz-info endpoint resource.,[RFC-ietf-ace-oauth-authz-46],
+ace.ai,ACE-OAuth authz-info endpoint resource.,[RFC9200],
 oic.d.acassistant,A/C Assistant,[OCF_Device_Specification_v2.2.4 clause A.2],
 oic.d.dali,Light (DALI) Device,[OCF_Device_Specification_v2.2.4 clause A.2],
 oic.d.dali.ac,Light (DALI) Application Controller,[OCF_Device_Specification_v2.2.4 clause A.2],

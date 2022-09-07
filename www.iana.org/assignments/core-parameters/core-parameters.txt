@@ -6,7 +6,7 @@
            2012-06-08
 
    Last Updated
-           2022-08-17
+           2022-09-02
 
    Available Formats
            [IMG]
@@ -622,7 +622,7 @@ Resource Type (rt=) Link Target Attribute Values
    oic.r.sound.pressure                Sound Pressure in Pascal             [OCF_Resource_Type_Specification_v2.2.2 clause 6.174]
    oic.r.sound.pressurelevel           Sound Pressure Level in dB           [OCF_Resource_Type_Specification_v2.2.2 clause 6.175]
    oic.r.location.civic                Civic Location                       [OCF_Resource_Type_Specification_v2.2.2 clause 6.176]
-   ace.ai                              ACE-OAuth authz-info endpoint        [RFC-ietf-ace-oauth-authz-46]
+   ace.ai                              ACE-OAuth authz-info endpoint        [RFC9200]
                                        resource.
    oic.d.acassistant                   A/C Assistant                        [OCF_Device_Specification_v2.2.4 clause A.2]
    oic.d.dali                          Light (DALI) Device                  [OCF_Device_Specification_v2.2.4 clause A.2]
@@ -879,10 +879,10 @@ CoAP Content-Formats
                            Media Type                          Encoding     ID                                 Reference
    text/plain; charset=utf-8                                            0           [RFC2046][RFC3676][RFC5147]
    Unassigned                                                           1-15
-   application/cose; cose-type="cose-encrypt0"                          16          [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/cose; cose-type="cose-mac0"                              17          [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/cose; cose-type="cose-sign1"                             18          [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/ace+cbor                                                 19          [RFC-ietf-ace-oauth-authz-46]
+   application/cose; cose-type="cose-encrypt0"                          16          [RFC9052]
+   application/cose; cose-type="cose-mac0"                              17          [RFC9052]
+   application/cose; cose-type="cose-sign1"                             18          [RFC9052]
+   application/ace+cbor                                                 19          [RFC9200]
    Unassigned                                                           20
    image/gif                                                            21          [https://www.w3.org/Graphics/GIF/spec-gif89a.txt]
    image/jpeg                                                           22          [ISO/IEC 10918-5]
@@ -904,12 +904,12 @@ CoAP Content-Formats
    application/multipart-core                                           62          [RFC8710]
    application/cbor-seq                                                 63          [RFC8742]
    Unassigned                                                           64-95
-   application/cose; cose-type="cose-encrypt"                           96          [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/cose; cose-type="cose-mac"                               97          [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/cose; cose-type="cose-sign"                              98          [RFC-ietf-cose-rfc8152bis-struct-15]
+   application/cose; cose-type="cose-encrypt"                           96          [RFC9052]
+   application/cose; cose-type="cose-mac"                               97          [RFC9052]
+   application/cose; cose-type="cose-sign"                              98          [RFC9052]
    Unassigned                                                           99-100
-   application/cose-key                                                 101         [RFC-ietf-cose-rfc8152bis-struct-15]
-   application/cose-key-set                                             102         [RFC-ietf-cose-rfc8152bis-struct-15]
+   application/cose-key                                                 101         [RFC9052]
+   application/cose-key-set                                             102         [RFC9052]
    Unassigned                                                           103-109
    application/senml+json                                               110         [RFC8428]
    application/sensml+json                                              111         [RFC8428]
@@ -935,8 +935,8 @@ CoAP Content-Formats
    application/pkcs10                                                   286         [RFC5967][RFC8551][RFC9148]
    application/pkix-cert                                                287         [RFC2585][RFC9148]
    Unassigned                                                           288-289
-   application/aif+cbor                                                 290         [RFC-ietf-ace-aif-07]
-   application/aif+json                                                 291         [RFC-ietf-ace-aif-07]
+   application/aif+cbor                                                 290         [RFC9237]
+   application/aif+json                                                 291         [RFC9237]
    Unassigned                                                           292-309
    application/senml+xml                                                310         [RFC8428]
    application/sensml+xml                                               311         [RFC8428]

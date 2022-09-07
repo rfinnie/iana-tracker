@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="cbor-tags">
   <title>Concise Binary Object Representation (CBOR) Tags</title>
   <created>2013-09-19</created>
-  <updated>2022-08-26</updated>
+  <updated>2022-09-01</updated>
   <category>Concise Binary Object Representation (CBOR)</category>
   
   <registry id="tags">
@@ -71,19 +71,19 @@
       <value>16</value>
       <description>COSE_Encrypt0</description>
       <semantics>COSE Single Recipient Encrypted Data Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record date="2017-01-11">
       <value>17</value>
       <description>COSE_Mac0</description>
       <semantics>COSE Mac w/o Recipients Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record date="2017-01-11">
       <value>18</value>
       <description>COSE_Sign1</description>
       <semantics>COSE Single Signer Data Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record>
       <value>19-20</value>
@@ -461,19 +461,19 @@
       <value>96</value>
       <description>COSE_Encrypt</description>
       <semantics>COSE Encrypted Data Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record date="2017-01-11">
       <value>97</value>
       <description>COSE_Mac</description>
       <semantics>COSE MACed Data Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record date="2017-01-11">
       <value>98</value>
       <description>COSE_Sign</description>
       <semantics>COSE Signed Data Object</semantics>
-      <xref type="draft" data="RFC-ietf-cose-rfc8152bis-struct-15"/>
+      <xref type="rfc" data="rfc9052"/>
     </record>
     <record>
       <value>99</value>
@@ -946,13 +946,13 @@ at array index 2k and imaginary (Q) part at index (2k + 1)</semantics>
       <value>55800</value>
       <description>tagged byte string</description>
       <semantics>indicates that the file contains CBOR Sequences</semantics>
-      <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>
+      <xref type="rfc" data="rfc9277"/>
     </record>
     <record date="2022-05-23">
       <value>55801</value>
       <description>tagged byte string</description>
       <semantics>indicates that the file starts with a CBOR-Labeled Non-CBOR Data label.</semantics>
-      <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>
+      <xref type="rfc" data="rfc9277"/>
     </record>
     <record>
       <value>55802-56499</value>
@@ -1052,9 +1052,9 @@ unit test cases.</semantics>
     </record>
     <record date="2022-05-23">
       <value>1668546817-1668612095</value>
-      <description>byte string or any CBOR data item (see Appendix B of <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>)</description>
+      <description>byte string or any CBOR data item (see Appendix B of <xref type="rfc" data="rfc9277"/>)</description>
       <semantics>the representation of content-format ct &lt; 65025 is indicated by tag number TN(ct) = 0x63740101 + (ct / 255) * 256 + ct % 255</semantics>
-      <xref type="draft" data="RFC-ietf-cbor-file-magic-12"/>
+      <xref type="rfc" data="rfc9277"/>
     </record>
     <record>
       <value>1668612096-4294967294</value>
