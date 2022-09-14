@@ -1,7 +1,7 @@
 Name,Template,Reference
 alternative,,[RFC2046][RFC2045]
 appledouble,multipart/appledouble,[Patrik_Faltstrom]
-byteranges,multipart/byteranges,[RFC7233]
+byteranges,multipart/byteranges,[RFC9110]
 digest,,[RFC2046][RFC2045]
 encrypted,multipart/encrypted,[RFC1847]
 example,multipart/example,[RFC4735]

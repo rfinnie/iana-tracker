@@ -949,7 +949,7 @@
 1315,USA Intra Corp.,Terminated,
 1316,"Xiamen 35.Com Technology Co., Ltd.",Accredited,https://rdap.35.com/rdap/
 1317,documentdata Anstalt,Terminated,
-1318,"Kaunas University of Technology, Department of Information Technologies dba Domreg.lt",Accredited,https://rdap.domains.lt/
+1318,Kaunas University of Technology,Accredited,https://rdap.domains.lt/
 1319,Mister Name SARL,Terminated,
 1320,NGI SpA,Terminated,
 1321,ATXDOMAINS Inc.,Terminated,
@@ -1087,7 +1087,7 @@
 1456,NetArt Registrar Sp. z o.o.,Accredited,https://rdap.netart-registrar.com/
 1457,Times Internet Limited,Terminated,
 1458,Telefonica Brasil S.A.,Terminated,
-1459,"Domainmonster.com, Inc.",Accredited,https://rdap.meshdigital.com/v1/
+1459,"Domainmonster.com, Inc.",Terminated,https://rdap.meshdigital.com/v1/
 1460,Server Plan Srl,Accredited,https://rdap.serverplan.com/
 1461,Asusa Corporation,Terminated,
 1462,One.com A/S,Accredited,https://rdap.one.com/v1/
@@ -1143,8 +1143,8 @@
 1513,"Name104, Inc.",Terminated,
 1514,"Name111, Inc.",Terminated,
 1515,123-Reg Limited,Accredited,https://rdap.123-reg.co.uk/v1/
-1516,"Zhengzhou Yi Fang Electronics Co., Ltd.",Terminated,https://rdap.yuming.vip/rdap/domain/
-1517,HOAPDI INC.,Accredited,
+1516,"Zhengzhou Yi Fang Electronics Co., Ltd.",Terminated,
+1517,HOAPDI INC.,Terminated,
 1518,"Shanghai Best Oray Information S&T Co., Ltd.",Accredited,https://rdap.oray.com/
 1519,NETIM SARL,Accredited,https://netim.rdap.services/
 1520,"Adknowledge, Inc.",Terminated,
@@ -1190,7 +1190,7 @@
 1560,Genious Communications SARL/AU,Accredited,https://rdapserver.net/
 1561,Purity Names Incorporated,Terminated,
 1562,Badger Inc.,Terminated,
-1563,"Foshan YiDong Network Co., LTD",Accredited,https://www.72e.net/rdap/
+1563,"Foshan YiDong Network Co., LTD",Accredited,https://rdap.72e.net/rdap/
 1564,TLD Registrar Solutions Ltd.,Accredited,https://rdap.tldregistrarsolutions.com/
 1565,DreamScape Networks FZ-LLC,Terminated,
 1566,NameSector LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -1216,7 +1216,7 @@
 1587,Mijn InternetOplossing B.V.,Accredited,https://rdap.mijninternetoplossing.nl/
 1588,"Beijing Sanfront Information Technology Co., Ltd",Accredited,https://rdap.sfn.cn/rdap/
 1589,XYZ.COM LLC,Terminated,
-1590,"ChinaNet Technology (SuZhou) CO., LTD",Accredited,https://rdap.chinanet.cc/v1/
+1590,"ChinaNet Technology (SuZhou) CO., LTD",Terminated,
 1591,"Promo People, Inc.",Accredited,https://promopeople.rdap.tucows.com/
 1593,Powered by Domain.com LLC,Accredited,https://endurance.rdap.tucows.com/
 1594,"Anessia, LLC",Accredited,https://rdap.networksolutions.com/rdap/
@@ -1226,7 +1226,7 @@
 1598,EastNames Inc.,Terminated,https://rdap.eastnames.com/
 1599,Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn),Accredited,https://whois.aliyun.com/rdap/
 1600,"Tecnocrática Centro de Datos, S.L.",Accredited,https://rdapserver.net/
-1601,Atak Domain Hosting Internet ve Bilgi Teknolojileri Limited Sirketi d/b/a Atak Teknoloji,Accredited,https://rdap.apiname.com/
+1601,Atak Domain Bilgi Teknolojileri A.Ş.,Accredited,https://rdap.apiname.com/
 1603,TransIP B.V.,Accredited,https://rdap.transip.nl/
 1604,DanDomain A/S,Terminated,
 1605,"Chengdu Fly-Digital Technology Co., Ltd.",Accredited,https://whois.sudu.cn/
@@ -1250,7 +1250,7 @@
 1623,Registrar Manager Inc.,Terminated,
 1624,"Shanghai Oweb Network Co., Ltd",Terminated,
 1625,LEMARIT GmbH,Accredited,https://rdds.lemarit.net/rdap/info/
-1626,Domainbox Limited,Accredited,https://rdap.meshdigital.com/v1/
+1626,Domainbox Limited,Terminated,https://rdap.meshdigital.com/v1/
 1627,Domainmonster Limited,Terminated,
 1628,ZNet Technologies Pvt Ltd.,Terminated,
 1629,"Hangzhou Duomai E-Commerce Co., Ltd",Terminated,
@@ -1264,7 +1264,7 @@
 1637,Dynadot0 LLC,Accredited,https://rdap.dynadot.com/
 1638,Dynadot1 LLC,Accredited,https://rdap.dynadot.com/
 1639,EBRAND Holdings S.A.,Accredited,https://rdap.eurodns.com/
-1640,"Beijing Wangzun Technology Co., Ltd.",Accredited,https://whois.namemax.cn/rdap/domain/
+1640,"Beijing Wangzun Technology Co., Ltd.",Accredited,https://whois.namemax.cn/rdap/
 1641,Brennercom Limited,Accredited,https://rdap.brennercom.com/rdap/
 1642,"EmpireStateDomains, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1643,"NorthNames, LLC",Accredited,https://rdap.networksolutions.com/rdap/
@@ -1296,7 +1296,7 @@
 1671,"MidWestDomains, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1672,"PacificDomains, LLC",Accredited,https://rdap.networksolutions.com/rdap/
 1673,BDL Systemes SAS dba SYSTONIC,Accredited,https://rdap.systonic.fr/
-1674,Domainia Inc.,Accredited,
+1674,Domainia Inc.,Terminated,
 1675,CV. Rumahweb Indonesia,Accredited,https://rdap.rumahweb.com/
 1676,Vodien Australia Pty Ltd.,Terminated,
 1677,AcquiredNames LLC,Accredited,https://rdap.namebright.com/rdap/
@@ -1331,9 +1331,9 @@
 1708,Nominet Registrar Services Limited,Accredited,
 1710,Nhan Hoa Software Company Ltd.,Accredited,https://rdapserver.net/
 1712,Number One Web Hosting Limited,Accredited,https://rdap.no1host.com/
-1714,Only Domains Limited,Accredited,https://rdap.instra.com/
+1714,Only Domains Limited,Terminated,
 1715,"DevilDogDomains.com, LLC",Accredited,https://rdap.networksolutions.com/rdap/
-1716,EU Technology (HK) Limited,Accredited,https://www.ymw.cn/rdap/
+1716,EU Technology (HK) Limited,Accredited,https://rdap.ymw.cn/rdap/
 1717,Netzadresse.at Domain Service GmbH,Accredited,https://rdap.ispcomfort.net/
 1718,Dynadot6 LLC,Accredited,https://rdap.dynadot.com/
 1719,Dynadot7 LLC,Accredited,https://rdap.dynadot.com/
@@ -2099,7 +2099,7 @@
 2482,Stichting Registrar of Last Resort Foundation,Accredited,https://rdap.rolr.uk/
 2483,NameCamp Limited,Accredited,https://rdap.namecamp.com/
 2484,"Domain Research, LLC",Accredited,https://api.domainr.com/rdap/
-2485,"SHENZHEN EIMS INFORMATION TECHNOLOGY CO. ,LTD",Accredited,https://rdap.190.vip/
+2485,"SHENZHEN EIMS INFORMATION TECHNOLOGY CO., LTD",Accredited,https://rdap.190.vip/
 2486,Ednit Software Private Limited,Accredited,https://rdapserver.net/
 2487,Internet Domain Service BS Corp,Accredited,https://rdap.internet.bs/
 2489,C T CORPORATION SYSTEM DBA Corsearch,Terminated,
@@ -2856,7 +2856,7 @@
 3244,"Dai Nippon Joho System Co., Ltd.",Accredited,https://rdap.rrpproxy.net/
 3245,Arcanes Technologies,Accredited,https://rdapserver.net
 3246,Reliable Software,Accredited,https://rdap.hoster.by/
-3247,"Internet Works Online International (HK) Co., Limited",Accredited,https://rdap.ddd.com/rdap/
+3247,DDD TECHNOLOGY PTE. LTD.,Accredited,https://rdap.ddd.com/rdap/
 3248,"Marine Domains, LLC",Terminated,
 3250,Host SpA,Accredited,
 3251,"Shenzhen Digital Assets Exchange Information Technology Co., Ltd",Terminated,
@@ -3420,7 +3420,7 @@
 3809,Annapurna Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3810,Aquila Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
 3811,Australe Domains LLC,Accredited,https://rdap.networksolutions.com/rdap/
-3812,Innovadeus Pvt. Ltd.,Accredited,https://rdapserver.net/
+3812,Innovadeus Pvt. Ltd.,Terminated,
 3813,"ShangYu Global Technology Co., Ltd.",Accredited,https://whois.shangyuglobal.com:9090/rdap/
 3814,Zunyi Brandma Network Technology Ltd.,Accredited,https://rdap.zuuq.cn/
 3817,Wix.com Ltd.,Accredited,https://www.wix.com/_api/whois/rdap/
@@ -3627,6 +3627,18 @@
 4026,WDomain 3 Ltd,Accredited,
 4027,WDomain 4 Ltd,Accredited,
 4028,WDomain 5 Ltd,Accredited,
+4029,PT Aksara Data Digital,Accredited,
+4030,UK Intis Telecom Ltd,Accredited,https://rdap.dnsale.com/
+4031,Dynadot1700 LLC,Accredited,
+4032,Dynadot3184 LLC,Accredited,
+4033,Dynadot3804 LLC,Accredited,
+4034,Dynadot5706 LLC,Accredited,
+4035,Dynadot9266 LLC,Accredited,
+4036,Strange Domains LLC,Accredited,
+4037,Europlanet G.P.,Accredited,
+4038,PS Internet Company LLP,Accredited,
+4039,Domain Global Services Pte. Ltd.,Accredited,
+4040,Bhatia Labs Inc,Accredited,
 9994,Reserved for Registry Operator acting as Registrar where directed by ICANN,Reserved,
 9995,Reserved for Pre-Delegation Testing transactions #1 reporting,Reserved,
 9996,Reserved for Pre-Delegation Testing transactions #2 reporting,Reserved,

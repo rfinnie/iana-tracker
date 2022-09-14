@@ -167,7 +167,9 @@ unit test cases.",[Michael_Richardson][Samir_Hussain],template/1330664270
 1398229316,map,Concise Software Identifier (CoSWID),[RFC-ietf-sacm-coswid-22],
 1398229317-1668546816,Unassigned,,,
 1668546817-1668612095,byte string or any CBOR data item (see Appendix B of [RFC9277]),the representation of content-format ct < 65025 is indicated by tag number TN(ct) = 0x63740101 + (ct / 255) * 256 + ct % 255,[RFC9277],
-1668612096-4294967294,Unassigned,,,
+1668612096-1701996914,Unassigned,,,
+1701996915,array,Array of content-addressed blocks and ERIS read capabilities,[Endo_Renberg],template/1701996915
+1701996916-4294967294,Unassigned,,,
 4294967295,(none valid),always invalid; see Section 10.1,[draft-bormann-cbor-notable-tags-02],
 4294967296,map,Intel FPGA SPDM Manifest,[Andrew_Draper],template/4294967296
 4294967297-18446744073709551614,Unassigned,,,

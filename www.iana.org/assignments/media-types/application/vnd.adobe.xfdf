@@ -1,147 +1,79 @@
+(registered 2022-04-29, last updated 2022-04-29)
 
-Name : Roberto Perelman
+Media type name: application
 
-E-mail : rperelma&adobe.com
+Media subtype name: xfdf
 
-MIME media type name : Application
+Required parameters: None
 
-MIME subtype name : Vendor Tree - vnd.adobe.xfdf
+Optional parameters: charset, with the recommended value being "UTF-8" (see RFC 3023)
 
-Required parameters : none
+Encoding considerations: Binary (because XML encoding in UTF-8 is 
+   limited to 1000 octets, and XFDF lines can be longer.)
 
-Optional parameters :
-charset, with the recommended value being "UTF-8" (see RFC 2376)
+Security considerations: For backwards compatibility reasons, XFDF is 
+   based on XML 1.0 (5th edition) and all security considerations 
+   relevant to XML 1.0 apply to XFDF. On clients, XFDF data is 
+   usually combined with a PDF document and presented to an end user 
+   in some form. On servers, XFDF data can be stored in databases, or 
+   fed to other applications. XFDF represents only a subset of FDF 
+   and may be converted to or from FDF. In all cases, it is important 
+   that the data in XFDF is scrutinized to prevent malicious inputs 
+   from causing damage. XFDF does not support data integrity via 
+   digital signatures or data confidentiality via encryption.
 
-Encoding considerations :
-application/vnd.adobe.xfdf is used over HTTP, and no
-content-transfer-encoding is necessary (see RFC 2376)
+Interoperability considerations: XFDF does not define an explicitly 
+   encoded version number for XFDF into the XML data. Unrecognized 
+   XML tags and attributes will be ignored by older processors. Older 
+   versions of XFDF are thus fully compatible with newer versions of 
+   XFDF. XFDF only defines a subset of FDF containing form fields and 
+   annotations so conversions between these different formats can be 
+   lossy.
 
-Security considerations :
-This format is used to carry forms data in both directions between a web
-client and a server. As such, its security implications are dependent on
-what use that data is put to at both the client and the server ends. At
-the
-client, that data is usually presented to an end user in some form. At the
-server, that data can be stored in databases, or fed to other
-applications.
-In all cases, it is important that this data is scrutinized to prevent
-malicious inputs from causing damage. See also RFC 2376 for additional
-considerations on the subject of security.
+Published specification: XFDF is defined by "ISO 19444-1:2019 
+   Document management  XML Forms Data Format  Part 1: Use of ISO 
+   32000-2 (XFDF 3.0)": https://www.iso.org/standard/74272.html
 
-Interoperability considerations :
-Since this is an XML-based format, it can be manipulated by any tool that
-understands XML
+Applications which use this media: The XML Forms Data Format (XFDF) 
+   is an XML-based equivalent subset of the FDF file format. XFDF 
+   enables the exchange of a subset of form and annotation data used 
+   with PDF documents using XML 1.0.
 
-Published specification :
-Included below:
+Fragment identifier considerations: XFDF does not have fragment 
+   identifiers, but may be the target of a PDF fragment identifier. 
+   Annex O of ISO 32000-2:2020 defines all PDF related fragment 
+   identifiers. Table Annex O.4 defines the "fdf" PDF open parameter 
+   which takes a relative or absolute URI argument to an XFDF file. 
+   This opens the PDF document and then imports data from the 
+   specified XFDF file. This information is also described 
+   informatively in RFC 8118.
 
-<schema targetNamespace="http://ns.adobe.com/xfdf/"
-        version="1.0"
-        xmlns:xfdf="http://ns.adobe.com/xfdf/"
-        xmlns="http://www.w3.org/TR/xmlschema-1">
+Restrictions on usage: None
 
-    <element name="xfdf" type="xfdf:xfdfType"/>
+Additional information:
 
-    <type name="xfdfType">
-        <element name="fields" minOccurs="0" maxOccurs="1"
-type="xfdf:fields"/>
-        <element name="f" minOccurs="0" maxOccurs="1">
-            <type>
-                <attribute name="href" minOccurs="1" type="uri"/>
-            </type>
-        </element>
-        <attribute name="xmlns" minOccurs="1">
-            <datatype source="uri">
-                <enumeration value="http://ns.adobe.com/xfdf/"/>
-            </datatype>
-        </attribute>
-        <attribute name="xml:space" minOccurs="1">
-            <datatype source="string">
-                <enumeration value="preserve">
-                    <annotation>
-                        <info>Specially important for multi-line text
-field values, but declare it at the root for compactness, to
-take advantage of inheritance
-                        </info>
-                    </annotation>
-                </enumeration>
-            </datatype>
-        </attribute>
-    </type>
+   1. Deprecated alias names for this type: application/vnd.adobe.xfdf
+   2. Magic number(s): none - see also RFC 3023. (RFC 3023 was the 
+      current RFC at the time XFDF was originally defined and later 
+      capabilities introduced via RFC 6839 and RFC 7303 are 
+      incompatible with XFDF due to its backwards compatibility 
+      requirements.)
+   3. File extension(s): .xfdf
+   4. Macintosh file type code: "XFDF"
+   5. Object Identifiers: n/a
 
-    <type name="fields">
-        <element name="field" minOccurs="0" maxOccurs="*"
-type="xfdf:field"/>
-    </type>
+General Comments: XFDF is standardized by ISO Technical Committee 171 
+   Sub-Committee 2 Working Group 8.
 
-    <type name="field">
-        <element name="field" minOccurs="0" maxOccurs="*"
-type="xfdf:field"/>
-        <element name="value" minOccurs="0" maxOccurs="*" type="string">
+Person to contact for further information:
 
-            <annotation>
-                <info>A null value is equivalent to not including a
-value tag at all
-            </annotation>
-        </element>
-        <attribute name="name" minOccurs="1">
-            <datatype source="string">
-                <pattern value="[^.]+">
-                    <annotation>
-                        <info>Field names may not contain periods</info>
+   1. Name: Betsy Fanning
+   2. Email: betsy.fanning&pdfa.org
 
-                    </annotation>
-                </pattern>
-            </datatype>
-        </attribute>
-    </type>
+Intended usage: Common
 
-</schema>
+   The XML Forms Data Format (XFDF) is an XML 1.0 based file format 
+   used for a subset of PDF form and annotation data..
 
-
-A sample document instance:
-
-<?xml version="1.0" encoding="UTF-8"?>
-<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
-    <fields>
-        <field name="essay">
-            <value>Once upon a time, there was a king.
-He had one daughter.</value>
-        </field>
-        <field name="phone">
-            <field name="work">
-                <value>408 536-6000</value>
-            </field>
-        </field>
-        <field name="hobbies">
-            <value>biking</value>
-            <value>hiking</value>
-            <value>gardening</value>
-        </field>
-        <field name="comments"/>
-    </fields>
-    <f href="http://foo.com/bar.pdf"/>
-</xfdf>
-
-Applications which use this media :
-Adobe Acrobat
-
-Additional information :
-
-1. Magic number(s) : none (see also RFC 2376)
-2. File extension(s) : .xfdf
-3. Macintosh file type code : "XFDF"
-
-
-Person to contact for further information :
-
-1. Name : Roberto Perelman
-2. E-mail : rperelma&adobe.com
-
-Intended usage : Common
-
-Author/Change controller :
-
-(created 22 Jan 2002)
-(originally created 03 Nov 2000)
-
+Author/Change controller: Committee Manager for ISO TC 171 SC 2, 
+   info&pdfa.org

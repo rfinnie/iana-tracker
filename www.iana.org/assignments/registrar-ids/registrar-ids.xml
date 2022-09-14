@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2022-06-23</updated>
+    <updated>2022-09-09</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -6385,9 +6385,9 @@
             <name>documentdata Anstalt</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-08-22">
+        <record updated="2022-07-28">
             <value>1318</value>
-            <name>Kaunas University of Technology, Department of Information Technologies dba Domreg.lt</name>
+            <name>Kaunas University of Technology</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.domains.lt/</server>
@@ -7283,10 +7283,10 @@
             <name>Telefonica Brasil S.A.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2019-09-05">
+        <record updated="2022-07-06">
             <value>1459</value>
             <name>Domainmonster.com, Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.meshdigital.com/v1/</server>
             </rdapurl>
@@ -7675,14 +7675,11 @@
             <value>1516</value>
             <name>Zhengzhou Yi Fang Electronics Co., Ltd.</name>
             <status>Terminated</status>
-            <rdapurl>
-                <server>https://rdap.yuming.vip/rdap/domain/</server>
-            </rdapurl>
         </record>
-        <record updated="2016-07-19">
+        <record updated="2022-07-21">
             <value>1517</value>
             <name>HOAPDI INC.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2020-01-23">
             <value>1518</value>
@@ -7981,12 +7978,12 @@
             <name>Badger Inc.</name>
             <status>Terminated</status>
         </record>
-        <record updated="2021-07-08">
+        <record updated="2022-08-11">
             <value>1563</value>
             <name>Foshan YiDong Network Co., LTD</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://www.72e.net/rdap/</server>
+                <server>https://rdap.72e.net/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-10-23">
@@ -8181,13 +8178,10 @@
             <name>XYZ.COM LLC</name>
             <status>Terminated</status>
         </record>
-        <record updated="2020-04-23">
+        <record updated="2022-08-01">
             <value>1590</value>
             <name>ChinaNet Technology (SuZhou) CO., LTD</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://rdap.chinanet.cc/v1/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2021-08-12">
             <value>1591</value>
@@ -8263,9 +8257,9 @@
             </rdapurl>
         </record>
 
-        <record updated="2020-04-30">
+        <record updated="2022-07-07">
             <value>1601</value>
-            <name>Atak Domain Hosting Internet ve Bilgi Teknolojileri Limited Sirketi d/b/a Atak Teknoloji</name>
+            <name>Atak Domain Bilgi Teknolojileri A.Ş.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.apiname.com/</server>
@@ -8444,10 +8438,10 @@
                 <server>https://rdds.lemarit.net/rdap/info/</server>
             </rdapurl>
         </record>
-        <record updated="2019-09-05">
+        <record updated="2022-07-06">
             <value>1626</value>
             <name>Domainbox Limited</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
             <rdapurl>
                 <server>https://rdap.meshdigital.com/v1/</server>
             </rdapurl>
@@ -8541,12 +8535,12 @@
                 <server>https://rdap.eurodns.com/</server>
             </rdapurl>
         </record>
-        <record updated="2019-11-11">
+        <record updated="2022-07-15">
             <value>1640</value>
             <name>Beijing Wangzun Technology Co., Ltd.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://whois.namemax.cn/rdap/domain/</server>
+                <server>https://whois.namemax.cn/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-28">
@@ -8781,10 +8775,10 @@
                 <server>https://rdap.systonic.fr/</server>
             </rdapurl>
         </record>
-        <record>
+        <record updated="2022-07-21">
             <value>1674</value>
             <name>Domainia Inc.</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record updated="2020-04-06">
             <value>1675</value>
@@ -9041,13 +9035,10 @@
             </rdapurl>
         </record>
         
-        <record updated="2020-01-16">
+        <record updated="2022-07-25">
             <value>1714</value>
             <name>Only Domains Limited</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://rdap.instra.com/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record updated="2019-08-15">
             <value>1715</value>
@@ -9057,12 +9048,12 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2022-04-21">
+        <record updated="2022-07-28">
             <value>1716</value>
             <name>EU Technology (HK) Limited</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://www.ymw.cn/rdap/</server>
+                <server>https://rdap.ymw.cn/rdap/</server>
             </rdapurl>
         </record>
         <record updated="2019-08-22">
@@ -14593,7 +14584,7 @@
         </record>
         <record date="2015-05-21" updated="2021-07-22">
             <value>2485</value>
-            <name>SHENZHEN EIMS INFORMATION TECHNOLOGY CO. ,LTD</name>
+            <name>SHENZHEN EIMS INFORMATION TECHNOLOGY CO., LTD</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.190.vip/</server>
@@ -19743,9 +19734,9 @@
                 <server>https://rdap.hoster.by/</server>
             </rdapurl>
         </record>
-        <record date="2016-06-30" updated="2021-04-01">
+        <record date="2016-06-30" updated="2022-09-08">
             <value>3247</value>
-            <name>Internet Works Online International (HK) Co., Limited</name>
+            <name>DDD TECHNOLOGY PTE. LTD.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.ddd.com/rdap/</server>
@@ -24205,13 +24196,10 @@
                 <server>https://rdap.networksolutions.com/rdap/</server>
             </rdapurl>
         </record>
-        <record date="2018-05-24" updated="2019-11-21">
+        <record date="2018-05-24" updated="2022-09-09">
             <value>3812</value>
             <name>Innovadeus Pvt. Ltd.</name>
-            <status>Accredited</status>
-            <rdapurl>
-                <server>https://rdapserver.net/</server>
-            </rdapurl>
+            <status>Terminated</status>
         </record>
         <record date="2018-06-28" updated="2021-03-04">
             <value>3813</value>
@@ -25604,6 +25592,69 @@
         <record date="2022-05-19">
             <value>4028</value>
             <name>WDomain 5 Ltd</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-07-28">
+            <value>4029</value>
+            <name>PT Aksara Data Digital</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-04" updated="2022-09-08">
+            <value>4030</value>
+            <name>UK Intis Telecom Ltd</name>
+            <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dnsale.com/</server>
+            </rdapurl>
+        </record>
+        <record date="2022-08-11">
+            <value>4031</value>
+            <name>Dynadot1700 LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-11">
+            <value>4032</value>
+            <name>Dynadot3184 LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-11">
+            <value>4033</value>
+            <name>Dynadot3804 LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-11">
+            <value>4034</value>
+            <name>Dynadot5706 LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-11">
+            <value>4035</value>
+            <name>Dynadot9266 LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-06-30">
+            <value>4036</value>
+            <name>Strange Domains LLC</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-06-30">
+            <value>4037</value>
+            <name>Europlanet G.P.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-18">
+            <value>4038</value>
+            <name>PS Internet Company LLP</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-25">
+            <value>4039</value>
+            <name>Domain Global Services Pte. Ltd.</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-08-25">
+            <value>4040</value>
+            <name>Bhatia Labs Inc</name>
             <status>Accredited</status>
         </record>
         <record date="2020-06-10">
