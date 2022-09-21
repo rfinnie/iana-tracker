@@ -103,4 +103,4 @@ Decimal,Description,References
 102,id-mod-public-notary-v2,[RFC9162]
 103,id-mod-dtn-tcpclv4-2021,[RFC9174]
 104,id-mod-docsign-eku,[draft-ietf-lamps-documentsigning-eku-04]
-105,id-mod-rpcWithTLS-2021,[RFC-ietf-nfsv4-rpc-tls-11]
+105,id-mod-rpcWithTLS-2021,[RFC9289]

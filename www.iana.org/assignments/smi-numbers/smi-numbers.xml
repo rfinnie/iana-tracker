@@ -3,7 +3,7 @@
 <?xml-model href="smi-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="smi-numbers">
   <title>Structure of Management Information (SMI) Numbers (MIB Module Registrations)</title>
-  <updated>2022-09-05</updated>
+  <updated>2022-09-20</updated>
   
  
   
@@ -6342,10 +6342,10 @@ Access Beyond web</description>
         <description>id-mod-aes-gmac-alg-2020</description>
         <xref type="rfc" data="rfc9044"/>
       </record>
-      <record date="2022-08-03">
+      <record date="2022-08-03" updated="2022-09-20">
         <value>73</value>
-        <description>id-mod-rpkiSignedChecklist-2021</description>
-        <xref type="draft" data="draft-ietf-sidrops-rpki-rsc-08"/>
+        <description>id-mod-rpkiSignedChecklist-2022</description>
+        <xref type="draft" data="RFC-ietf-sidrops-rpki-rsc-11"/>
       </record>
       <record date="2022-08-04">
         <value>74</value>
@@ -6604,7 +6604,7 @@ Access Beyond web</description>
       <record date="2021-04-01">
         <value>48</value>
         <description>id-ct-signedChecklist</description>
-        <xref type="draft" data="draft-ietf-sidrops-rpki-rsc-02"/>
+        <xref type="draft" data="RFC-ietf-sidrops-rpki-rsc-11"/>
       </record>
       <record date="2021-11-08">
         <value>49</value>
@@ -8227,7 +8227,7 @@ Access Beyond web</description>
       <record date="2022-08-11">
         <value>105</value>
         <description>id-mod-rpcWithTLS-2021</description>
-        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-11"/>
+        <xref type="rfc" data="rfc9289"/>
       </record>
     </registry>
 
@@ -8606,12 +8606,12 @@ Access Beyond web</description>
       <record date="2020-11-09">
         <value>33</value>
         <description>id-kp-rpcTLSClient</description>
-        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-10"/>
+        <xref type="rfc" data="rfc9289"/>
       </record>
       <record date="2020-11-09">
         <value>34</value>
         <description>id-kp-rpcTLSServer</description>
-        <xref type="draft" data="RFC-ietf-nfsv4-rpc-tls-10"/>
+        <xref type="rfc" data="rfc9289"/>
       </record>
       <record date="2021-02-22">
         <value>35</value>

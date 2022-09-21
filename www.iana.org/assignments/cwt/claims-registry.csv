@@ -43,5 +43,5 @@ psa-implementation-id,PSA Implementation ID,N/A,2396,byte string,[Hannes_Tschofe
 psa-boot-seed,PSA Boot Seed,N/A,2397,byte string,[Hannes_Tschofenig],[draft-tschofenig-rats-psa-token-09]
 psa-certification-reference,PSA Certification Reference,N/A,2398,text string,[Hannes_Tschofenig],[draft-tschofenig-rats-psa-token-09]
 psa-software-components,PSA Software Components,N/A,2399,array,[Hannes_Tschofenig],[draft-tschofenig-rats-psa-token-09]
-psa-verification-service-indicator,PSA Verification Service Indicator,N/A,2400,array,[Hannes_Tschofenig],[draft-tschofenig-rats-psa-token-09]
+psa-verification-service-indicator,PSA Verification Service Indicator,N/A,2400,text string,[Hannes_Tschofenig],[draft-tschofenig-rats-psa-token-09]
 Unassigned,,,2401 to 65535,,,

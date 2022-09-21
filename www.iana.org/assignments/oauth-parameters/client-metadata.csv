@@ -67,3 +67,8 @@ introspection_encrypted_response_alg,"String value specifying the desired
         value).",[IETF],"[RFC-ietf-oauth-jwt-introspection-response-12, Section 6]"
 introspection_encrypted_response_enc,"String value specifying the desired
         introspection response content encryption algorithm (enc value).",[IETF],"[RFC-ietf-oauth-jwt-introspection-response-12, Section 6]"
+frontchannel_logout_uri,RP URL that will cause the RP to log itself out when rendered in an iframe by the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Front-Channel Logout 1.0, Section 2]"
+frontchannel_logout_session_required,Boolean value specifying whether the RP requires that a sid (session ID) query parameter be included to identify the RP session with the OP when the frontchannel_logout_uri is used,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Front-Channel Logout 1.0, Section 2]"
+backchannel_logout_uri,RP URL that will cause the RP to log itself out when sent a Logout Token by the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Back-Channel Logout 1.0, Section 2.2]"
+backchannel_logout_session_required,Boolean value specifying whether the RP requires that a sid (session ID) Claim be included in the Logout Token to identify the RP session with the OP when the backchannel_logout_uri is used,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Back-Channel Logout 1.0, Section 2.2]"
+post_logout_redirect_uris,Array of URLs supplied by the RP to which it MAY request that the End-User's User Agent be redirected using the post_logout_redirect_uri parameter after a logout has been performed,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect RP-Initiated Logout 1.0, Section 3.1]"

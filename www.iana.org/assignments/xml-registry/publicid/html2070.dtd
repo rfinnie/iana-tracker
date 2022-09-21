@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-07-08</dd>
+        <dd>2022-09-16</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2977,6 +2977,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-tcg-algs.txt">ns/yang/ietf-tcg-algs.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/draft-ietf-rats-yang-tpm-charra-21">RFC-ietf-rats-yang-tpm-charra-21</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-tcp</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-tcp</td>
+            <td>
+              <a href="ns/yang/ietf-tcp.txt">ns/yang/ietf-tcp.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-tcpm-yang-tcp-09">RFC-ietf-tcpm-yang-tcp-09</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-te-packet-types</td>
