@@ -1,9 +1,8 @@
 Name,File,Maintained by IANA?,Namespace (Modules Only),Prefix (Modules Only),Module (Submodules Only),Reference,Notes
 iana-bfd-types,iana-bfd-types@2021-10-21.yang,Y,urn:ietf:params:xml:ns:yang:iana-bfd-types,iana-bfd-types,,[RFC9127],"BFD Diagnostic Codes and BFD Authentication Types must not be added directly to the iana-bfd-types YANG module. They must first be added to [IANA registry bfd-parameters], which it mirrors."
-iana-bgp-l2-encaps,,Y,urn:ietf:params:xml:ns:yang:iana-bgp-l2-encaps,iana-bgp-l2-encaps,,[RFC-ietf-opsawg-l2nm-19],"BGP Layer 2 encapsulation types must not be directly added to the
+iana-bgp-l2-encaps,iana-bgp-l2-encaps@2022-09-20.yang,Y,urn:ietf:params:xml:ns:yang:iana-bgp-l2-encaps,iana-bgp-l2-encaps,,[RFC9291],"BGP Layer 2 encapsulation types must not be directly added to the
         ""iana-bgp-l2-encaps"" YANG module. They must instead be added to
-        the ""BGP Layer 2 Encapsulation Types"" registry at [IANA registry bgp-parameters].
-        Note: the initial module file will be posted upon [RFC-ietf-opsawg-l2nm-19]'s publication as an RFC."
+        the ""BGP Layer 2 Encapsulation Types"" registry at [IANA registry bgp-parameters]."
 iana-crypt-hash,iana-crypt-hash@2014-08-06.yang,Y,urn:ietf:params:xml:ns:yang:iana-crypt-hash,ianach,,[RFC7317],"Registration procedure: Expert Review, as described in [RFC8126]. Expert(s): Kent Watsen."
 iana-dns-class-rr-type,iana-dns-class-rr-type@2022-05-30.yang,Y,urn:ietf:params:xml:ns:yang:iana-dns-class-rr-type,dnsct,,[RFC9108],"Classes and types of DNS resource records must not be directly
         added to the ""iana-dns-class-rr-type"" YANG module.  They must
@@ -20,8 +19,8 @@ iana-hardware,iana-hardware@2018-03-13.yang,Y,urn:ietf:params:xml:ns:yang:iana-h
 iana-if-type,iana-if-type@2022-08-24.yang,Y,urn:ietf:params:xml:ns:yang:iana-if-type,ianaift,,[RFC7224],"Interface types must not be directly added to the iana-if-type YANG
    module. They must instead be added to the ""Interface Types (ifType)"" registry 
 at [IANA registry smi-numbers]."
-iana-pseudowire-types,,Y,urn:ietf:params:xml:ns:yang:iana-pseudowire-types,iana-pw-types,,[RFC-ietf-opsawg-l2nm-19],"MPLS pseudowire types must not be directly added to the ""iana-pseudowire-types"" YANG module. They must instead be added to the ""MPLS Pseudowire Types""
-        registry at [IANA registry pwe3-parameters]. Note: the initial module file will be posted upon [RFC-ietf-opsawg-l2nm-19]'s publication as an RFC."
+iana-pseudowire-types,iana-pseudowire-types@2022-09-20.yang,Y,urn:ietf:params:xml:ns:yang:iana-pseudowire-types,iana-pw-types,,[RFC9291],"MPLS pseudowire types must not be directly added to the ""iana-pseudowire-types"" YANG module. They must instead be added to the ""MPLS Pseudowire Types""
+        registry at [IANA registry pwe3-parameters]."
 iana-routing-types,iana-routing-types@2022-08-19.yang,Y,urn:ietf:params:xml:ns:yang:iana-routing-types,iana-rt-types,,[RFC8294],"Address Families and Subsequent Address Families must not be 
 directly added to the iana-routing-types YANG module.  They must
 instead be respectively added to the [Address Family Numbers]
@@ -66,7 +65,7 @@ ietf-dots-signal-channel,ietf-dots-signal-channel@2021-09-02.yang,N,urn:ietf:par
 ietf-dots-signal-control,ietf-dots-signal-control@2021-09-02.yang,N,urn:ietf:params:xml:ns:yang:ietf-dots-signal-control,dots-control,,[RFC9133],
 ietf-dots-telemetry,ietf-dots-telemetry@2022-06-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-dots-telemetry,dots-telemetry,,[RFC9244],
 ietf-dslite,ietf-dslite@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-dslite,dslite,,[RFC8513],
-ietf-ethernet-segment,,N,urn:ietf:params:xml:ns:yang:ietf-ethernet-segment,l2vpn-es,,[RFC-ietf-opsawg-l2nm-19],[RFC-ietf-opsawg-l2nm-19]'s module file will be posted upon the document's publication as an RFC.
+ietf-ethernet-segment,ietf-ethernet-segment@2022-09-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-ethernet-segment,l2vpn-es,,[RFC9291],
 ietf-ethertypes,ietf-ethertypes@2019-03-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-ethertypes,ethertypes,,[RFC8519],
 ietf-factory-default,ietf-factory-default@2020-08-31.yang,N,urn:ietf:params:xml:ns:yang:ietf-factory-default,fd,,[RFC8808],
 ietf-geo-location,ietf-geo-location@2022-02-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-geo-location,geo,,[RFC9179],
@@ -100,7 +99,7 @@ ietf-isis-reverse-metric,,N,urn:ietf:params:xml:ns:yang:ietf-isis-reverse-metric
 ietf-key-chain,ietf-key-chain@2017-06-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-key-chain,key-chain,,[RFC8177],
 ietf-l2-topology,ietf-l2-topology@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology,l2t,,[RFC8944],
 ietf-l2-topology-state,ietf-l2-topology-state@2020-11-15.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2-topology-state,l2t-s,,[RFC8944],
-ietf-l2vpn-ntw,,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-ntw,l2vpn-ntw,,[RFC-ietf-opsawg-l2nm-19],[RFC-ietf-opsawg-l2nm-19]'s module file will be posted upon the document's publication as an RFC.
+ietf-l2vpn-ntw,ietf-l2vpn-ntw@2022-09-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-ntw,l2vpn-ntw,,[RFC9291],
 ietf-l2vpn-svc,ietf-l2vpn-svc@2018-10-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-l2vpn-svc,l2vpn-svc,,[RFC8466],
 ietf-l3-unicast-topology,ietf-l3-unicast-topology@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology,l3t,,[RFC8346],
 ietf-l3-unicast-topology-state,ietf-l3-unicast-topology-state@2018-02-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-l3-unicast-topology-state,l3t-s,,[RFC8346],

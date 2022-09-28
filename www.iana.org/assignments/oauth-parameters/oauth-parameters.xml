@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="oauth-parameters">
   <title>OAuth Parameters</title>
   <created>2012-07-27</created>
-  <updated>2022-09-19</updated>
+  <updated>2022-09-23</updated>
   
   <registry id="token-types">
     <title>OAuth Access Token Types</title>
@@ -455,11 +455,11 @@ described in <xref type="rfc" data="rfc6749"/>.
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
       <xref type="uri" data="https://openid.net/specs/openid-connect-core-1_0.html">OpenID Connect Core 1.0 incorporating errata set 1</xref>
     </record>
-    <record date="2013-08-28">
+    <record date="2013-08-28" updated="2022-09-23">
       <name>session_state</name>
       <usage>authorization response, access token response</usage>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-session-1_0.html">OpenID Connect Session Management 1.0</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-session-1_0.html#CreatingUpdatingSessions">OpenID Connect Session Management 1.0, Section 2</xref>
     </record>
     <record date="2015-01-12">
       <name>assertion</name>
@@ -1192,7 +1192,7 @@ described in <xref type="rfc" data="rfc7591"/>.
       <description>RP URL that will cause the RP to log itself out when 
         rendered in an iframe by the OP</description>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-frontchannel-1_0.html#IANA">OpenID Connect Front-Channel Logout 1.0, Section 2</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-frontchannel-1_0.html#RPLogout">OpenID Connect Front-Channel Logout 1.0, Section 2</xref>
     </record>
     <record date="2022-09-19">
       <value>frontchannel_logout_session_required</value>
@@ -1200,14 +1200,14 @@ described in <xref type="rfc" data="rfc7591"/>.
         a sid (session ID) query parameter be included to identify the RP 
         session with the OP when the frontchannel_logout_uri is used</description>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-frontchannel-1_0.html#IANA">OpenID Connect Front-Channel Logout 1.0, Section 2</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-frontchannel-1_0.html#RPLogout">OpenID Connect Front-Channel Logout 1.0, Section 2</xref>
     </record>
     <record date="2022-09-19">
       <value>backchannel_logout_uri</value>
       <description>RP URL that will cause the RP to log itself out when 
         sent a Logout Token by the OP</description>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#IANA">OpenID Connect Back-Channel Logout 1.0, Section 2.2</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#BCRegistration">OpenID Connect Back-Channel Logout 1.0, Section 2.2</xref>
     </record>
     <record date="2022-09-19">
       <value>backchannel_logout_session_required</value>
@@ -1215,7 +1215,7 @@ described in <xref type="rfc" data="rfc7591"/>.
         (session ID) Claim be included in the Logout Token to identify the RP 
         session with the OP when the backchannel_logout_uri is used</description>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#IANA">OpenID Connect Back-Channel Logout 1.0, Section 2.2</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#BCRegistration">OpenID Connect Back-Channel Logout 1.0, Section 2.2</xref>
     </record>
     <record date="2022-09-19">
       <value>post_logout_redirect_uris</value>
@@ -1223,7 +1223,7 @@ described in <xref type="rfc" data="rfc7591"/>.
         the End-User's User Agent be redirected using the post_logout_redirect_uri 
         parameter after a logout has been performed</description>
       <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
-      <xref type="uri" data="https://openid.net/specs/openid-connect-rpinitiated-1_0.html#IANA">OpenID Connect RP-Initiated Logout 1.0, Section 3.1</xref>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-rpinitiated-1_0.html#ClientMetadata">OpenID Connect RP-Initiated Logout 1.0, Section 3.1</xref>
     </record>
   </registry>
 
@@ -1814,6 +1814,36 @@ described in <xref type="rfc" data="rfc8414"/>.
       <controller>IETF</controller>
       <xref type="rfc" data="rfc9207">RFC9207, Section 3</xref>
     </record>
+    <record date="2022-09-23">
+      <name>check_session_iframe</name>
+      <description>URL of an OP iframe that supports cross-origin communications for session state information with the RP Client, using the HTML5 postMessage API</description>
+      <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-session-1_0.html#OPMetadata">OpenID Connect Session Management 1.0, Section 3.3</xref>
+    </record>
+    <record date="2022-09-23">
+      <name>frontchannel_logout_supported</name>
+      <description>Boolean value specifying whether the OP supports HTTP-based logout, with true indicating support</description>
+      <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-frontchannel-1_0.html#OPLogout">OpenID Connect Front-Channel Logout 1.0, Section 3</xref>
+    </record>
+    <record date="2022-09-23">
+      <name>backchannel_logout_supported</name>
+      <description>Boolean value specifying whether the OP supports back-channel logout, with true indicating support</description>
+      <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#Backchannel">OpenID Connect Back-Channel Logout 1.0, Section 2</xref>
+    </record>
+    <record date="2022-09-23">
+      <name>backchannel_logout_session_supported</name>
+      <description>Boolean value specifying whether the OP can pass a sid (session ID) Claim in the Logout Token to identify the RP session with the OP</description>
+      <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-backchannel-1_0.html#Backchannel">OpenID Connect Back-Channel Logout 1.0, Section 2</xref>
+    </record>
+    <record date="2022-09-23">
+      <name>end_session_endpoint</name>
+      <description>URL at the OP to which an RP can perform a redirect to request that the End-User be logged out at the OP</description>
+      <controller><xref type="person" data="OpenID_Foundation_Artifact_Binding_Working_Group"/></controller>
+      <xref type="uri" data="https://openid.net/specs/openid-connect-rpinitiated-1_0.html#OPMetadata">OpenID Connect RP-Initiated Logout 1.0, Section 2.1</xref>
+    </record>
   </registry>
   
   <people>
@@ -1838,7 +1868,7 @@ described in <xref type="rfc" data="rfc8414"/>.
     <person id="OpenID_Foundation_Artifact_Binding_Working_Group">
       <name>OpenID Foundation Artifact Binding Working Group</name>
       <uri>mailto:openid-specs-ab&amp;lists.openid.net</uri>
-      <updated>2022-09-19</updated>
+      <updated>2022-09-23</updated>
     </person>
   </people>
 </registry>

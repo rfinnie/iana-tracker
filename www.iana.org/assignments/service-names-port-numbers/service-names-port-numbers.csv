@@ -14664,6 +14664,7 @@ radiusdtls,,udp,"Authentication, Accounting, and Dynamic Authorization via the R
 radiustls,,tcp,"Authentication, Accounting, and Dynamic Authorization via the RADIUS protocol. This service name is used to construct the SRV service label ""_radiustls"" for discovery of RADIUS/TLS servers.",[IESG],[IETF_Chair],2015-03-23,2015-10-06,[RFC7585],,,Defined TXT keys: None
 railduino,,tcp,Model Railroad Messaging,[Railduino],[Volker_Wiegand_2],2018-01-08,,,,,Defined TXT keys: role=master
 raop,,,Remote Audio Output Protocol (AirTunes),[BonjourDev],[BonjourDev],,2011-10-14,,,,Defined TXT keys: None
+rapta,,tcp,Industrial IOT self-discovery network,[Rapta_Inc],[Matt_Daue],2022-09-22,,,,,Defined TXT keys: version
 rbr,,,RBR Instrument Communication,[Greg_Johnson],[Greg_Johnson],,,,,,Defined TXT keys: None
 rce,,,PowerCard,[DeVoeSquared],[DeVoeSquared],,,,,,Defined TXT keys: None
 rdp,,,Windows Remote Desktop Protocol,[Jugaari],[Jugaari],,,,,,Defined TXT keys: None

@@ -78,3 +78,8 @@ introspection_encryption_enc_values_supported,"JSON array containing a list of a
         supported by the authorization server for introspection response
         content encryption (enc value).",IETF,"[RFC-ietf-oauth-jwt-introspection-response-12, Section 7]"
 authorization_response_iss_parameter_supported,Boolean value indicating whether the authorization server provides the iss parameter in the authorization response.,IETF,"[RFC9207, Section 3]"
+check_session_iframe,"URL of an OP iframe that supports cross-origin communications for session state information with the RP Client, using the HTML5 postMessage API",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Session Management 1.0, Section 3.3]"
+frontchannel_logout_supported,"Boolean value specifying whether the OP supports HTTP-based logout, with true indicating support",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Front-Channel Logout 1.0, Section 3]"
+backchannel_logout_supported,"Boolean value specifying whether the OP supports back-channel logout, with true indicating support",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Back-Channel Logout 1.0, Section 2]"
+backchannel_logout_session_supported,Boolean value specifying whether the OP can pass a sid (session ID) Claim in the Logout Token to identify the RP session with the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Back-Channel Logout 1.0, Section 2]"
+end_session_endpoint,URL at the OP to which an RP can perform a redirect to request that the End-User be logged out at the OP,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect RP-Initiated Logout 1.0, Section 2.1]"

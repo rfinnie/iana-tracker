@@ -30,7 +30,7 @@ registration,authorization request,[OpenID_Foundation_Artifact_Binding_Working_G
 request,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 request_uri,authorization request,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 id_token,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
-session_state,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Session Management 1.0]
+session_state,"authorization response, access token response",[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Session Management 1.0, Section 2]"
 assertion,token request,IESG,[RFC7521]
 client_assertion,token request,IESG,[RFC7521]
 client_assertion_type,token request,IESG,[RFC7521]

@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-09-16</dd>
+        <dd>2022-09-27</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1904,7 +1904,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/iana-bgp-l2-encaps.txt">ns/yang/iana-bgp-l2-encaps.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9291">RFC9291</a>]</td>
           </tr>
           <tr>
             <td>yang:iana-crypt-hash</td>
@@ -1952,7 +1952,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/iana-pseudowire-types.txt">ns/yang/iana-pseudowire-types.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9291">RFC9291</a>]</td>
           </tr>
           <tr>
             <td>yang:iana-routing-types</td>
@@ -2016,7 +2016,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd.txt">ns/yang/ietf-bfd.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-ip-mh</td>
@@ -2024,7 +2024,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-ip-mh.txt">ns/yang/ietf-bfd-ip-mh.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-ip-sh</td>
@@ -2032,7 +2032,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-ip-sh.txt">ns/yang/ietf-bfd-ip-sh.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-lag</td>
@@ -2040,7 +2040,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-lag.txt">ns/yang/ietf-bfd-lag.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-mpls</td>
@@ -2048,7 +2048,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-mpls.txt">ns/yang/ietf-bfd-mpls.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-bfd-types</td>
@@ -2056,7 +2056,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-bfd-types.txt">ns/yang/ietf-bfd-types.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-rfc9127-bis-04">RFC-ietf-bfd-rfc9127-bis-04</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-complex-type-instance</td>
@@ -2224,7 +2224,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-ethernet-segment.txt">ns/yang/ietf-ethernet-segment.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9291">RFC9291</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-ethertypes</td>
@@ -2379,6 +2379,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc6728">RFC6728</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-ipsec-iptfs</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-ipsec-iptfs</td>
+            <td>
+              <a href="ns/yang/ietf-ipsec-iptfs.txt">ns/yang/ietf-ipsec-iptfs.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-ipsecme-yang-iptfs-11">RFC-ietf-ipsecme-yang-iptfs-11</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-ipv4-unicast-routing</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing</td>
             <td>
@@ -2440,7 +2448,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-l2vpn-ntw.txt">ns/yang/ietf-l2vpn-ntw.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-l2nm-19">RFC-ietf-opsawg-l2nm-19</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9291">RFC9291</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-l2vpn-svc</td>

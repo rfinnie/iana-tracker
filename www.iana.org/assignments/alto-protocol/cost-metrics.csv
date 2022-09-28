@@ -8,4 +8,4 @@ hopcount,See Section 4.5 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alt
 tput,See Section 5.1 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]
 bw-residual,See Section 5.2 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]
 bw-available,See Section 5.3 of [RFC-ietf-alto-performance-metrics-28],[RFC-ietf-alto-performance-metrics-28]
-ane-path,See Section 6.5.1 of [RFC-ietf-alto-path-vector-25],[RFC-ietf-alto-path-vector-25]
+ane-path,See Section 6.5.1 of [RFC9275],[RFC9275]
