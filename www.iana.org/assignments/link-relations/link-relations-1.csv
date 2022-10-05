@@ -1,6 +1,6 @@
 Relation Name,Description,Reference,Notes
 about,Refers to a resource that is the subject of the link's context.,"[RFC6903], section 2",
-acl,Asserts that the link target provides an access control description for the link context.,[https://solidproject.org/TR/wac#acl-link-relation],
+acl,Asserts that the link target provides an access control resource for the link context.,[https://solidproject.org/TR/wac#acl-link-relation],
 alternate,Refers to a substitute for this context,[HTML],
 amphtml,Used to reference alternative content that uses the AMP profile of the HTML format.,[AMP HTML],
 appendix,Refers to an appendix.,[HTML 4.01 Specification],

@@ -168,7 +168,7 @@ University of California at Berkeley, June 1986.][Bruce Willins]"
 141,WESP,Wrapped Encapsulating Security Payload,,[RFC5840]
 142,ROHC,Robust Header Compression,,[RFC5858]
 143,Ethernet,Ethernet,,[RFC8986]
-144,AGGFRAG,"AGGFRAG encapsulation payload for ESP (TEMPORARY - registered 2022-08-26, document sent to IESG Evaluation 2022-07-14)",,[draft-ietf-ipsecme-iptfs-18]
+144,AGGFRAG,AGGFRAG encapsulation payload for ESP,,[RFC-ietf-ipsecme-iptfs-19]
 145-252,,Unassigned,,[Internet_Assigned_Numbers_Authority]
 253,,Use for experimentation and testing,Y,[RFC3692]
 254,,Use for experimentation and testing,Y,[RFC3692]

@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2022-09-15</updated>
+    <updated>2022-10-03</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -19748,10 +19748,10 @@
             <status>Terminated</status>
         </record>
         
-        <record date="2016-08-19" updated="2017-10-12">
+        <record date="2016-08-19" updated="2022-10-03">
             <value>3250</value>
             <name>Host SpA</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2016-09-09" updated="2019-07-15">
             <value>3251</value>
@@ -25344,10 +25344,10 @@
             <name>Namesaw.Com Inc</name>
             <status>Accredited</status>
         </record>
-        <record date="2022-03-10">
+        <record date="2022-03-10" updated="2022-09-30">
             <value>3978</value>
             <name>Domains API LLC</name>
-            <status>Accredited</status>
+            <status>Terminated</status>
         </record>
         <record date="2022-02-17">
             <value>3979</value>
@@ -25660,6 +25660,11 @@
         <record date="2022-08-25">
             <value>4040</value>
             <name>Bhatia Labs Inc</name>
+            <status>Accredited</status>
+        </record>
+        <record date="2022-09-29">
+            <value>4042</value>
+            <name>Zname Ltd</name>
             <status>Accredited</status>
         </record>
         <record date="2020-06-10">

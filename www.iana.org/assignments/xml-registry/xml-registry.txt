@@ -3,7 +3,7 @@
                                                                   IETF XML Registry
 
    Last Updated
-           2022-09-23
+           2022-09-27
 
    Note
 
@@ -323,12 +323,12 @@ yang:ietf-acldns                                    urn:ietf:params:xml:ns:yang:
 yang:ietf-alarms                                    urn:ietf:params:xml:ns:yang:ietf-alarms                                    ns/yang/ietf-alarms.txt                                    [RFC8632]
 yang:ietf-alarms-x733                               urn:ietf:params:xml:ns:yang:ietf-alarms-x733                               ns/yang/ietf-alarms-x733.txt                               [RFC8632]
 yang:ietf-babel                                     urn:ietf:params:xml:ns:yang:ietf-babel                                     ns/yang/ietf-babel.txt                                     [RFC-ietf-babel-yang-model-13]
-yang:ietf-bfd                                       urn:ietf:params:xml:ns:yang:ietf-bfd                                       ns/yang/ietf-bfd.txt                                       [RFC-ietf-bfd-rfc9127-bis-04]
-yang:ietf-bfd-ip-mh                                 urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh                                 ns/yang/ietf-bfd-ip-mh.txt                                 [RFC-ietf-bfd-rfc9127-bis-04]
-yang:ietf-bfd-ip-sh                                 urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh                                 ns/yang/ietf-bfd-ip-sh.txt                                 [RFC-ietf-bfd-rfc9127-bis-04]
-yang:ietf-bfd-lag                                   urn:ietf:params:xml:ns:yang:ietf-bfd-lag                                   ns/yang/ietf-bfd-lag.txt                                   [RFC-ietf-bfd-rfc9127-bis-04]
-yang:ietf-bfd-mpls                                  urn:ietf:params:xml:ns:yang:ietf-bfd-mpls                                  ns/yang/ietf-bfd-mpls.txt                                  [RFC-ietf-bfd-rfc9127-bis-04]
-yang:ietf-bfd-types                                 urn:ietf:params:xml:ns:yang:ietf-bfd-types                                 ns/yang/ietf-bfd-types.txt                                 [RFC-ietf-bfd-rfc9127-bis-04]
+yang:ietf-bfd                                       urn:ietf:params:xml:ns:yang:ietf-bfd                                       ns/yang/ietf-bfd.txt                                       [RFC9314]
+yang:ietf-bfd-ip-mh                                 urn:ietf:params:xml:ns:yang:ietf-bfd-ip-mh                                 ns/yang/ietf-bfd-ip-mh.txt                                 [RFC9314]
+yang:ietf-bfd-ip-sh                                 urn:ietf:params:xml:ns:yang:ietf-bfd-ip-sh                                 ns/yang/ietf-bfd-ip-sh.txt                                 [RFC9314]
+yang:ietf-bfd-lag                                   urn:ietf:params:xml:ns:yang:ietf-bfd-lag                                   ns/yang/ietf-bfd-lag.txt                                   [RFC9314]
+yang:ietf-bfd-mpls                                  urn:ietf:params:xml:ns:yang:ietf-bfd-mpls                                  ns/yang/ietf-bfd-mpls.txt                                  [RFC9314]
+yang:ietf-bfd-types                                 urn:ietf:params:xml:ns:yang:ietf-bfd-types                                 ns/yang/ietf-bfd-types.txt                                 [RFC9314]
 yang:ietf-complex-type-instance                     urn:ietf:params:xml:ns:yang:ietf-complex-type-instance                     ns/yang/ietf-complex-type-instance.txt                     [RFC6095]
 yang:ietf-complex-types                             urn:ietf:params:xml:ns:yang:ietf-complex-types                             ns/yang/ietf-complex-types.txt                             [RFC6095]
 yang:ietf-connection-oriented-oam                   urn:ietf:params:xml:ns:yang:ietf-connection-oriented-oam                   ns/yang/ietf-connection-oriented-oam.txt                   [RFC8531]
@@ -369,6 +369,7 @@ yang:ietf-interface-protection                      urn:ietf:params:xml:ns:yang:
 yang:ietf-interfaces                                urn:ietf:params:xml:ns:yang:ietf-interfaces                                ns/yang/ietf-interfaces.txt                                [RFC8343]
 yang:ietf-ip                                        urn:ietf:params:xml:ns:yang:ietf-ip                                        ns/yang/ietf-ip.txt                                        [RFC8344]
 yang:ietf-ipfix-psamp                               urn:ietf:params:xml:ns:yang:ietf-ipfix-psamp                               ns/yang/ietf-ipfix-psamp.txt                               [RFC6728]
+yang:ietf-ipsec-iptfs                               urn:ietf:params:xml:ns:yang:ietf-ipsec-iptfs                               ns/yang/ietf-ipsec-iptfs.txt                               [RFC-ietf-ipsecme-yang-iptfs-11]
 yang:ietf-ipv4-unicast-routing                      urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing                      ns/yang/ietf-ipv4-unicast-routing.txt                      [RFC8349]
 yang:ietf-ipv6-unicast-routing                      urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing                      ns/yang/ietf-ipv6-unicast-routing.txt                      [RFC8349]
 yang:ietf-isis                                      urn:ietf:params:xml:ns:yang:ietf-isis                                      ns/yang/ietf-isis.txt                                      [RFC-ietf-isis-yang-isis-cfg-42]
