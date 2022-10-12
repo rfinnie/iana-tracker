@@ -17,7 +17,7 @@ chapter,Refers to a chapter in a collection of resources.,[HTML 4.01 Specificati
 cite-as,Indicates that the link target is preferred over the link context for the purpose of permanent citation.,[RFC8574],
 collection,The target IRI points to a resource which represents the collection resource for the context IRI.,[RFC6573],
 contents,Refers to a table of contents.,[HTML 4.01 Specification],
-convertedFrom,"The document linked to was later converted to the
+convertedfrom,"The document linked to was later converted to the
       document that contains this link relation.  For example, an RFC can
       have a link to the Internet-Draft that became the RFC; in that case,
       the link relation would be ""convertedFrom"".",[RFC7991],"This relation is different than ""predecessor-version"" in that
@@ -72,21 +72,21 @@ hub,"Refers to a hub that enables registration for
     notification of updates to the context.",[WebSub],This relation type was requested by Brett Slatkin.
 icon,Refers to an icon representing the link's context.,[HTML],
 index,Refers to an index.,[HTML 4.01 Specification],
-intervalAfter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.21,
-intervalBefore,refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.22,
-intervalContains,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.23,
-intervalDisjoint,"refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.24,
-intervalDuring,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.25,
-intervalEquals,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.26,
-intervalFinishedBy,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.27,
-intervalFinishes,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.28,
-intervalIn,"refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.29,
-intervalMeets,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.30,
-intervalMetBy,refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.31,
-intervalOverlappedBy,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.32,
-intervalOverlaps,"refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.33,
-intervalStartedBy,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.34,
-intervalStarts,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.35,
+intervalafter,refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.21,
+intervalbefore,refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.22,
+intervalcontains,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.23,
+intervaldisjoint,"refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.24,
+intervalduring,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.25,
+intervalequals,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.26,
+intervalfinishedby,"refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.27,
+intervalfinishes,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.28,
+intervalin,"refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.29,
+intervalmeets,refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.30,
+intervalmetby,refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource,[Time Ontology in OWL] section 4.2.31,
+intervaloverlappedby,"refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.32,
+intervaloverlaps,"refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.33,
+intervalstartedby,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.34,
+intervalstarts,"refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource",[Time Ontology in OWL] section 4.2.35,
 item,The target IRI points to a resource that is a member of the collection represented by the context IRI.,[RFC6573],
 last,"An IRI that refers to the furthest following resource
       in a series of resources.",[RFC8288],"This relation type registration did not indicate a
@@ -127,7 +127,7 @@ openid2.provider,Refers to a resource which accepts OpenID Authentication protoc
 original,The Target IRI points to an Original Resource.,[RFC7089],"An Original Resource is a resource that exists or used to
       exist, and for which access to one of its prior states may be
       required."
-P3Pv1,Refers to a P3P privacy policy for the context.,[The Platform for Privacy Preferences 1.0 (P3P1.0) Specification],
+p3pv1,Refers to a P3P privacy policy for the context.,[The Platform for Privacy Preferences 1.0 (P3P1.0) Specification],
 payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus

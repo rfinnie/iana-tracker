@@ -142,7 +142,7 @@ Value,Description,Data Type,Reference
 141,PKM-SAID,text,[RFC5904]
 142,PKM-SA-Descriptor,string,[RFC5904]
 143,PKM-Auth-Key,string,[RFC5904]
-144,DS-Lite-Tunnel-Name,text,[RFC6519]
+144,DS-Lite-Tunnel-Name,string,[RFC6519]
 145,Mobile-Node-Identifier,string,[RFC6572]
 146,Service-Selection,text,[RFC6572]
 147,PMIP6-Home-LMA-IPv6-Address,ipv6addr,[RFC6572]

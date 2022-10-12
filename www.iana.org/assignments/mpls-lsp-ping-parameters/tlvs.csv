@@ -25,7 +25,7 @@ Type,TLV Name,Reference,Sub-TLV Registry
 25,Upstream Neighbor Address,[RFC7555],No Sub-TLVs
 26,Downstream Neighbor Address,[RFC7555],No Sub-TLVs
 27,MPLS OAM Functions,[RFC7759],[https://www.iana.org/assignments/mpls-lsp-ping-parameters/mpls-lsp-ping-parameters.xml#sub-tlv-27]
-28,"EGRESS TLV (TEMPORARY - registered 2021-11-08, expires 2022-11-08)",[draft-ietf-mpls-egress-tlv-for-nil-fec-01],No Sub-TLVs
+28,"EGRESS TLV (TEMPORARY - registered 2021-11-08, extension registered 2022-10-10, expires 2023-11-08)",[draft-ietf-mpls-egress-tlv-for-nil-fec-01],No Sub-TLVs
 29-31739,Unassigned,,
 31740-31743,Reserved for Experimental Use,[RFC9041],"Not to be assigned. This range is for TLVs that require an error message if not recognized. [RFC9041, Section 3.1]"
 31744-32767,Unassigned,,
