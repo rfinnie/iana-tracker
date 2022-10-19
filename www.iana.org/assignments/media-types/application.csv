@@ -128,6 +128,7 @@ EmergencyCallData.Comment+xml,application/EmergencyCallData.Comment+xml,[RFC7852
 EmergencyCallData.Control+xml,application/EmergencyCallData.Control+xml,[RFC8147]
 EmergencyCallData.DeviceInfo+xml,application/EmergencyCallData.DeviceInfo+xml,[RFC7852]
 EmergencyCallData.eCall.MSD,application/EmergencyCallData.eCall.MSD,[RFC8147]
+EmergencyCallData.LegacyESN+json,application/EmergencyCallData.LegacyESN+json,[NENA][Randall_Gellens]
 EmergencyCallData.ProviderInfo+xml,application/EmergencyCallData.ProviderInfo+xml,[RFC7852]
 EmergencyCallData.ServiceInfo+xml,application/EmergencyCallData.ServiceInfo+xml,[RFC7852]
 EmergencyCallData.SubscriberInfo+xml,application/EmergencyCallData.SubscriberInfo+xml,[RFC7852]

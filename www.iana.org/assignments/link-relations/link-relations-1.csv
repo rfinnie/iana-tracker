@@ -183,6 +183,7 @@ service-doc,"Identifies service documentation for the context that
       is primarily intended for human consumption.",[RFC8631],
 service-meta,"Identifies general metadata for the context that is
       primarily intended for consumption by machines.",[RFC8631],
+siptrunkingcapability,refers to a capability document that defines parameters or configuration requirements for automated peering and communication channel negotiation of the Session Initiation Protocol (SIP).,[draft-engi-siptrunkingcapability-link],
 sponsored,Refers to a resource that is within a context that is sponsored (such as advertising or another compensation agreement).,[Google Blog post 09-2019],
 start,"Refers to the first resource in a collection of
       resources.",[HTML 4.01 Specification],

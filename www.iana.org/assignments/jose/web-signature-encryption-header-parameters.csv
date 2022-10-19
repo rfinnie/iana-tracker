@@ -37,4 +37,4 @@ b64,Base64url-Encode Payload,JWS,[IESG],"[RFC7797, Section 3]"
 ppt,PASSporT extension identifier,JWS,[IESG],"[RFC8225, Section 8.1]"
 url,URL,"JWE, JWS",[IESG],"[RFC8555, Section 6.4.1]"
 nonce,Nonce,"JWE, JWS",[IESG],"[RFC8555, Section 6.5.2]"
-svt,Signature Validation Token,JWS,[IETF],[RFC-santesson-svt-08]
+svt,Signature Validation Token,JWS,[IETF],[RFC9321]

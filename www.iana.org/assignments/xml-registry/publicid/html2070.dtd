@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-10-07</dd>
+        <dd>2022-10-13</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2857,6 +2857,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-routing-types.txt">ns/yang/ietf-routing-types.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc8294">RFC8294</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-schc</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-schc</td>
+            <td>
+              <a href="ns/yang/ietf-schc.txt">ns/yang/ietf-schc.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-lpwan-schc-yang-data-model-21">RFC-ietf-lpwan-schc-yang-data-model-21</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-segment-routing</td>

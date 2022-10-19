@@ -104,3 +104,4 @@ Decimal,Description,References
 103,id-mod-dtn-tcpclv4-2021,[RFC9174]
 104,id-mod-docsign-eku,[RFC-ietf-lamps-documentsigning-eku-06]
 105,id-mod-rpcWithTLS-2021,[RFC9289]
+106,"id-mod-nftype (TEMPORARY - registered 2022-10-17, expires 2023-10-17",[draft-ietf-lamps-5g-nftypes-05]

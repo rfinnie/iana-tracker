@@ -2,7 +2,7 @@ Value,Description,Reference
 0,Reserved,[RFC7684]
 1,SID/Label Sub-TLV,[RFC8665]
 2,Prefix-SID Sub-TLV,[RFC8665]
-3,"Flex-Algorithm Prefix Metric (TEMPORARY - registered 2019-10-03, extension registered 2022-08-31, expires 2023-10-03)",[draft-ietf-lsr-flex-algo]
+3,Flexible Algorithm Prefix Metric (FAPM),"[RFC-ietf-lsr-flex-algo-25, Section 9]"
 4,Prefix Source OSPF Router-ID,[RFC9084]
 5,Prefix Source Router Address,[RFC9084]
 6-8,Unassigned,

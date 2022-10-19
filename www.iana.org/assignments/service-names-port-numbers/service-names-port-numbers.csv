@@ -9944,7 +9944,7 @@ autopassdaemon,5820,tcp,AutoPass licensing,[Micro_Focus_2],[AutoPass],2022-06-10
 ,5821-5840,,Unassigned,,,,,,,,
 shiprush-d-ch,5841,tcp,Z-firm ShipRush interface for web access and bidirectional data,[Z-Firm_LLC],[Rafael_Zimberoff],2014-08-22,,,,,
 ,5841,udp,Reserved,,,,,,,,
-reversion,5842,tcp,Reversion Backup/Restore,[Cameo_Systems_Inc],[Craig_Nelson],2011-09-26,,,,,
+reversion,5842,tcp,Reversion Backup/Restore,[Pincoder_Diagnostics_Inc],[Craig_Nelson],2011-09-26,2022-10-12,,,,
 ,5842,udp,Reserved,,,,,,,,
 ,5843-5858,,Unassigned,,,,,,,,
 wherehoo,5859,tcp,WHEREHOO,[Jim_Youll],[Jim_Youll],,,,,,
