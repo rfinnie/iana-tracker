@@ -1,10 +1,10 @@
 Next Protocol,Description,Reference
-0x00,Reserved,[RFC-ietf-lisp-gpe-19]
-0x01,IPv4,[RFC-ietf-lisp-gpe-19]
-0x02,IPv6,[RFC-ietf-lisp-gpe-19]
-0x03,Ethernet,[RFC-ietf-lisp-gpe-19]
-0x04,NSH,[RFC-ietf-lisp-gpe-19]
+0x00,Reserved,[RFC9305]
+0x01,IPv4,[RFC9305]
+0x02,IPv6,[RFC9305]
+0x03,Ethernet,[RFC9305]
+0x04,NSH,[RFC9305]
 0x05-0x7D,Unassigned,
-0x7E-0x7F,Experimentation and testing,[RFC-ietf-lisp-gpe-19]
+0x7E-0x7F,Experimentation and testing,[RFC9305]
 0x80-0xFD,Unassigned (shim headers),
-0xFE-0xFF,Experimentation and testing (shim headers),[RFC-ietf-lisp-gpe-19]
+0xFE-0xFF,Experimentation and testing (shim headers),[RFC9305]

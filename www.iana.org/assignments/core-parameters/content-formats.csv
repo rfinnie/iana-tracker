@@ -42,7 +42,7 @@ Unassigned,,116-139,
 application/yang-data+cbor; id=sid,,140,[RFC9254]
 Unassigned,,141-255,
 application/coap-group+json,,256,[RFC7390]
-application/concise-problem-details+cbor,,257,[RFC-ietf-core-problem-details-08]
+application/concise-problem-details+cbor,,257,[RFC9290]
 application/swid+cbor,,258,[RFC-ietf-sacm-coswid-22]
 Unassigned,,259-270,
 application/dots+cbor,,271,[RFC9132]

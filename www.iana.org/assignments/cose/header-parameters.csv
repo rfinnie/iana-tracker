@@ -12,7 +12,9 @@ counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature
 Unassigned,8,,,,
 CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC8152]
 kid context,10,bstr,,Identifies the context for the key identifier,"[RFC8613, Section 5.1]"
-Unassigned,11-31,,,,
+Countersignature version 2,11,COSE_Countersignature / [+ COSE_Countersignature],,V2 countersignature attribute,[RFC-ietf-cose-countersign-10]
+Countersignature0 version 2,12,COSE_Countersignature0,,V2 Abbreviated Countersignature,[RFC-ietf-cose-countersign-10]
+Unassigned,13-31,,,,
 "x5bag (TEMPORARY - registered 2019-08-20, extension registered 2021-08-12, expires 2022-08-20)",32,COSE_X509,,An unordered bag of X.509 certificates,[draft-ietf-cose-x509-08]
 "x5chain (TEMPORARY - registered 2019-08-20, extension registered 2021-08-12, expires 2022-08-20)",33,COSE_X509,,An ordered chain of X.509 certificates,[draft-ietf-cose-x509-08]
 "x5t (TEMPORARY - registered 2019-08-20, extension registered 2021-08-12, expires 2022-08-20)",34,COSE_CertHash,,Hash of an X.509 certificate,[draft-ietf-cose-x509-08]

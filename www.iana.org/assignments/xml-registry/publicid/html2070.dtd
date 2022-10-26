@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-10-13</dd>
+        <dd>2022-10-24</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2187,6 +2187,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc9244">RFC9244</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-dots-robust-trans</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-dots-robust-trans</td>
+            <td>
+              <a href="ns/yang/ietf-dots-robust-trans.txt">ns/yang/ietf-dots-robust-trans.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-dots-robust-blocks-06">RFC-ietf-dots-robust-blocks-06</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-dots-signal-channel</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-dots-signal-channel</td>
             <td>
@@ -2408,7 +2416,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-isis.txt">ns/yang/ietf-isis.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-isis-yang-isis-cfg-42">RFC-ietf-isis-yang-isis-cfg-42</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9130">RFC9130</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-isis-reverse-metric</td>
@@ -2416,7 +2424,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-isis-reverse-metric.txt">ns/yang/ietf-isis-reverse-metric.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-lsr-yang-isis-reverse-metric-06">RFC-ietf-lsr-yang-isis-reverse-metric-06</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9194">RFC9194</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-key-chain</td>
@@ -2744,7 +2752,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-ospf.txt">ns/yang/ietf-ospf.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-ospf-yang-28">RFC-ietf-ospf-yang-28</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9129">RFC9129</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-packet-fields</td>
@@ -2760,7 +2768,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-pim-base.txt">ns/yang/ietf-pim-base.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-yang-16">RFC-ietf-pim-yang-16</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9128">RFC9128</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-pim-bidir</td>
@@ -2768,7 +2776,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-pim-bidir.txt">ns/yang/ietf-pim-bidir.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-yang-16">RFC-ietf-pim-yang-16</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9128">RFC9128</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-pim-dm</td>
@@ -2776,7 +2784,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-pim-dm.txt">ns/yang/ietf-pim-dm.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-yang-16">RFC-ietf-pim-yang-16</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9128">RFC9128</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-pim-rp</td>
@@ -2784,7 +2792,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-pim-rp.txt">ns/yang/ietf-pim-rp.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-yang-16">RFC-ietf-pim-yang-16</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9128">RFC9128</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-pim-sm</td>
@@ -2792,7 +2800,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-pim-sm.txt">ns/yang/ietf-pim-sm.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-pim-yang-16">RFC-ietf-pim-yang-16</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9128">RFC9128</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-ptp</td>

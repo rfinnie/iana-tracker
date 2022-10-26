@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="cbor-tags">
   <title>Concise Binary Object Representation (CBOR) Tags</title>
   <created>2013-09-19</created>
-  <updated>2022-09-12</updated>
+  <updated>2022-10-24</updated>
   <category>Concise Binary Object Representation (CBOR)</category>
   
   <registry id="tags">
@@ -85,8 +85,14 @@
       <semantics>COSE Single Signer Data Object</semantics>
       <xref type="rfc" data="rfc9052"/>
     </record>
+    <record date="2022-10-24">
+      <value>19</value>
+      <description>COSE_Countersignature</description>
+      <semantics>COSE standalone V2 countersignature</semantics>
+      <xref type="draft" data="RFC-ietf-cose-countersign-10"/>
+    </record>
     <record>
-      <value>19-20</value>
+      <value>20</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -931,8 +937,15 @@ at array index 2k and imaginary (Q) part at index (2k + 1)</semantics>
       <xref type="uri" data="https://github.com/arthurwangtz/platformv-cbor"/>
       <xref type="person" data="Wang_Tongzhou"/>
     </record>
+    <record date="2022-10-20">
+      <value>50012</value>
+      <description>integer</description>
+      <semantics>PlatformV_IS_TYPE</semantics>
+      <xref type="uri" data="https://github.com/arthurwangtz/platformv-cbor"/>
+      <xref type="person" data="Wang_Tongzhou"/>
+    </record>
     <record>
-      <value>50012-55798</value>
+      <value>50013-55798</value>
       <description>Unassigned</description>
       <semantics/>
     </record>
@@ -1216,7 +1229,7 @@ unit test cases.</semantics>
     <person id="Wang_Tongzhou">
       <name>Wang Tongzhou</name>
       <uri>mailto:tongzhou.wang&amp;siemens.com</uri>
-      <updated>2021-02-03</updated>
+      <updated>2022-10-20</updated>
     </person>
   </people>
   

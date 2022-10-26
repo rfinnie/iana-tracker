@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2022-10-10</updated>
+  <updated>2022-10-24</updated>
   
   
  
@@ -473,7 +473,7 @@ Hence, the media type registry disallows parameters named "q".
     </record>
     <record date="2022-07-12">
       <name>concise-problem-details+cbor</name>
-      <xref type="draft" data="RFC-ietf-core-problem-details-08">RFC-ietf-core-problem-details-08, Section 6.3</xref>
+      <xref type="rfc" data="rfc9290">RFC9290, Section 6.3</xref>
       <file type="template">application/concise-problem-details+cbor</file>
     </record>
     <record>
@@ -4134,10 +4134,20 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="Philipp_Gortan"/>
       <file type="template">application/vnd.gentics.grd+json</file>
     </record>
+    <record date="2022-10-21">
+      <name>vnd.gentoo.catmetadata+xml</name>
+      <xref type="person" data="Michał_Górny"/>
+      <file type="template">application/vnd.gentoo.catmetadata+xml</file>
+    </record>
     <record date="2022-10-04">
       <name>vnd.gentoo.manifest</name>
       <xref type="person" data="Michał_Górny"/>
       <file type="template">application/vnd.gentoo.manifest</file>
+    </record>
+    <record date="2022-10-21">
+      <name>vnd.gentoo.pkgmetadata+xml</name>
+      <xref type="person" data="Michał_Górny"/>
+      <file type="template">application/vnd.gentoo.pkgmetadata+xml</file>
     </record>
     <record date="2014-05-20">
       <name>vnd.geo+json (OBSOLETED by <xref type="rfc" data="rfc7946"/> in favor of application/geo+json)</name>
@@ -4570,6 +4580,16 @@ Hence, the media type registry disallows parameters named "q".
       <name>vnd.ipld.car</name>
       <xref type="person" data="Marcin_Rataj"/>
       <file type="template">application/vnd.ipld.car</file>
+    </record>
+    <record date="2022-10-19">
+      <name>vnd.ipld.dag-cbor</name>
+      <xref type="person" data="Marcin_Rataj"/>
+      <file type="template">application/vnd.ipld.dag-cbor</file>
+    </record>
+    <record date="2022-10-19">
+      <name>vnd.ipld.dag-json</name>
+      <xref type="person" data="Marcin_Rataj"/>
+      <file type="template">application/vnd.ipld.dag-json</file>
     </record>
     <record date="2022-04-01">
       <name>vnd.ipld.raw</name>
@@ -11520,7 +11540,7 @@ by the IANA.</note>
     <person id="Michał_Górny">
       <name>Michał Górny</name>
       <uri>mailto:mgorny&amp;gentoo.org</uri>
-      <updated>2022-10-04</updated>
+      <updated>2022-10-21</updated>
     </person>
     <person id="Mikhail_Gorshenev">
       <name>Mikhail Gorshenev</name>
@@ -13078,7 +13098,7 @@ by the IANA.</note>
     <person id="Marcin_Rataj">
       <name>Marcin Rataj</name>
       <uri>mailto:lidel&amp;protocol.ai</uri>
-      <updated>2022-04-01</updated>
+      <updated>2022-10-19</updated>
     </person>
     <person id="Uwe_Rauschenbach">
       <name>Uwe Rauschenbach</name>

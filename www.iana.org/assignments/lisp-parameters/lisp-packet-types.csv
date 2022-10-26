@@ -1,12 +1,12 @@
 Code,Message,Reference
-0,Reserved,[RFC-draft-ietf-lisp-rfc6833bis]
-1,LISP Map-Request,[RFC-draft-ietf-lisp-rfc6833bis]
-2,LISP Map-Reply,[RFC-draft-ietf-lisp-rfc6833bis]
-3,LISP Map-Register,[RFC-draft-ietf-lisp-rfc6833bis]
-4,LISP Map-Notify,[RFC-draft-ietf-lisp-rfc6833bis]
-5,LISP Map-Notify-Ack,[RFC-draft-ietf-lisp-rfc6833bis]
+0,Reserved,[RFC9301]
+1,LISP Map-Request,[RFC9301]
+2,LISP Map-Reply,[RFC9301]
+3,LISP Map-Register,[RFC9301]
+4,LISP Map-Notify,[RFC9301]
+5,LISP Map-Notify-Ack,[RFC9301]
 6,"LISP DDT Map-Referral (TEMPORARY - registered 2017-04-19, extension registered 2022-04-13, expires 2023-04-19)",[RFC8111]
 7,Unassigned,
-8,LISP Encapsulated Control Message,[RFC-draft-ietf-lisp-rfc6833bis]
+8,LISP Encapsulated Control Message,[RFC9301]
 9-14,Unassigned,
-15,LISP Shared Extension Message,[RFC-ietf-lisp-rfc8113bis-03]
+15,LISP Shared Extension Message,[RFC9304]
