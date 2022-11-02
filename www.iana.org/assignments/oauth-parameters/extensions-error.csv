@@ -5,7 +5,7 @@ insufficient_scope,resource access error response,bearer access token type,IETF,
 unsupported_token_type,revocation endpoint error response,token revocation endpoint,IETF,[RFC7009]
 interaction_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 login_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
-session_selection_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
+account_selection_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 consent_required,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 invalid_request_uri,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]
 invalid_request_object,authorization endpoint,OpenID Connect,[OpenID_Foundation_Artifact_Binding_Working_Group],[OpenID Connect Core 1.0 incorporating errata set 1]

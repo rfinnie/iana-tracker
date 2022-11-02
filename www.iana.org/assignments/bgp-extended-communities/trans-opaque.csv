@@ -13,7 +13,8 @@ Sub-Type Value,Name,Reference,Date
 0x0c,Encapsulation Extended Community,[RFC9012],
 0x0d,Default Gateway,[Yakov_Rekhter],2012-07-10
 0x0e,Point-to-Point-to-Multipoint (PPMP) Label,[Rishabh_Parekh],2016-01-19
-0x0f-0x13,Unassigned,,
+0x0f,BGP Group Policy Class Tag Extended Community,[Dhananjaya_Rao],2022-10-26
+0x10-0x13,Unassigned,,
 0x14,Consistent Hash Sort Order,[draft-ietf-bess-service-chaining],2016-05-11
 0x15-0xa9,Unassigned,,
 0xaa,LoadBalance,[draft-ietf-bess-service-chaining],2017-11-01

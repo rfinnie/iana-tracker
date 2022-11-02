@@ -401,10 +401,10 @@ widely deployed implementations",,,[Pasi_Eronen]
 "0xC1,0x00",TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC,N,N,[RFC9189]
 "0xC1,0x01",TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC,N,N,[RFC9189]
 "0xC1,0x02",TLS_GOSTR341112_256_WITH_28147_CNT_IMIT,N,N,[RFC9189]
-"0xC1,0x03",TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L,N,N,[draft-smyshlyaev-tls13-gost-suites]
-"0xC1,0x04",TLS_GOSTR341112_256_WITH_MAGMA_MGM_L,N,N,[draft-smyshlyaev-tls13-gost-suites]
-"0xC1,0x05",TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S,N,N,[draft-smyshlyaev-tls13-gost-suites]
-"0xC1,0x06",TLS_GOSTR341112_256_WITH_MAGMA_MGM_S,N,N,[draft-smyshlyaev-tls13-gost-suites]
+"0xC1,0x03",TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L,N,N,[RFC-smyshlyaev-tls13-gost-suites-08]
+"0xC1,0x04",TLS_GOSTR341112_256_WITH_MAGMA_MGM_L,N,N,[RFC-smyshlyaev-tls13-gost-suites-08]
+"0xC1,0x05",TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S,N,N,[RFC-smyshlyaev-tls13-gost-suites-08]
+"0xC1,0x06",TLS_GOSTR341112_256_WITH_MAGMA_MGM_S,N,N,[RFC-smyshlyaev-tls13-gost-suites-08]
 "0xC1,0x07-FF",Unassigned,,,
 "0xC2-C9,*",Unassigned,,,
 "0xCA,0x00-C9",Unassigned,,,

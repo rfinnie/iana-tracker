@@ -53,7 +53,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,15: DISJOINTNESS-CONFIGURATION TLV missing,[RFC8800]
 ,,16: Scheduled TLV missing,[RFC8934]
 ,,17: CCI object missing,[RFC9050]
-,,18-255: Unassigned,
+,,18: VIRTUAL-NETWORK TLV missing,[RFC-ietf-pce-vn-association-11]
+,,19-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
