@@ -8,3 +8,4 @@ Decimal,Description,References
 7,id-pkix-ocsp-service-locator,[RFC2560]
 8,id-pkix-ocsp-pref-sig-algs,[RFC6277]
 9,id-pkix-ocsp-extended-revoke,[RFC6960]
+10,id-pkix-ocsp-stir-tn,[draft-ietf-stir-certificates-ocsp-03]

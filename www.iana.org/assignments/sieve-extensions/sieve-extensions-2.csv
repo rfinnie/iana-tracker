@@ -126,3 +126,4 @@ there being malicious content in an email message.",[RFC5235],[Sieve_discussion_
         the Cyrus IMAP server ([http://www.cyrusimap.org]).",Not applicable,[Kenneth_Murchison],2020-05-05
 "vnd.dovecot.* (anything starting with ""vnd.dovecot."")","Extends the Sieve language with vendor-defined functionality specific to
 the Dovecot Secure IMAP server ([http://www.dovecot.org]).",Not applicable,[Stephan_Bosch][Timo_Sirainen],2008-07-28
+"vnd.stalwart.* (anything starting with ""vnd.stalwart."")",Extends the Sieve language with vendor-defined functionality specific to the Stalwart JMAP server [http://www.stalw.art].,Not applicable,[Mauro_De_Gennaro],2022-11-02

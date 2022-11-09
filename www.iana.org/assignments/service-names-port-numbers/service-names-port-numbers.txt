@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2022-10-25
+           2022-11-07
 
    Expert(s)
 
@@ -7949,8 +7949,8 @@ backroomnet        3387        tcp    Back Room Net                [Clayton_Wilk
 backroomnet        3387        udp    Back Room Net                [Clayton_Wilkinson]                                   [Clayton_Wilkinson]
 cbserver           3388        tcp    CB Server                    [Allen_Wei]                                           [Allen_Wei]
 cbserver           3388        udp    CB Server                    [Allen_Wei]                                           [Allen_Wei]
-ms-wbt-server      3389        tcp    MS WBT Server                [Ritu_Bahl]                                           [Ritu_Bahl]
-ms-wbt-server      3389        udp    MS WBT Server                [Ritu_Bahl]                                           [Ritu_Bahl]
+ms-wbt-server      3389        tcp    MS WBT Server                [Jordan_Marchese]                                     [Jordan_Marchese]                                                      2022-11-03
+ms-wbt-server      3389        udp    MS WBT Server                [Jordan_Marchese]                                     [Jordan_Marchese]
 dsc                3390        tcp    Distributed Service          [Charles_Honton]                                      [Charles_Honton]
                                       Coordinator
 dsc                3390        udp    Distributed Service          [Charles_Honton]                                      [Charles_Honton]
@@ -14292,7 +14292,10 @@ aritts             8423        tcp    Aristech text-to-speech      [Aristech_Gmb
                  8424-8431            Unassigned
 pgbackrest         8432        tcp    PostgreSQL Backup            [David_Steele]                                        [David_Steele]                                            2022-01-26
                    8432        udp    Reserved
-                 8433-8441            Unassigned
+                   8433        tcp    Reserved
+aws-as2            8433        udp    Non Persistent Desktop and   [Amazon.com_Services_LLC]                             [Ivan_O_Mahony]                                           2022-11-07
+                                      Application Streaming
+                 8434-8441            Unassigned
 cybro-a-bus        8442        tcp    CyBro A-bus Protocol         [Damir_Skrjanec]                                      [Damir_Skrjanec]                                          2007-05
 cybro-a-bus        8442        udp    CyBro A-bus Protocol         [Damir_Skrjanec]                                      [Damir_Skrjanec]                                          2007-05
 pcsync-https       8443        tcp    PCsync HTTPS
@@ -19258,7 +19261,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Amandeep_Jawa_2]                                         Amandeep Jawa                                       mailto:dpap&apple.com                                         2004-11
 [Amandeep_Jawa_3]                                         Amandeep Jawa                                       mailto:daap&apple.com
 [Amatzia_Ben_Artzi]                                       Amatzia Ben-Artzi
-[Amazon.com_Services_LLC]                                                            Amazon.com Services LLC  mailto:aws-iana&amazon.com                                    2020-04-06
+[Amazon.com_Services_LLC]                                                            Amazon.com Services LLC  mailto:aws-iana&amazon.com                                    2022-11-07
 [Amber_Huffman]                                           Amber Huffman                                       mailto:amber.huffman&intel.com                                2018-03-27
 [American_Power_Conve]                                                               American Power           mailto:ports&apcc.com                                         2002-02
                                                                                      Conversion
@@ -20166,7 +20169,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Dan_Razzell]                                             Dan Razzell                                         mailto:dan&starfishsystems.ca                                 2006-06
 [Dan_Shia]                                                Dan Shia                                            mailto:dset!shia&uunet.uu.net
 [Dan_Smith]                                               Dan Smith                                           mailto:dan.smith&den.galileo.com
-[Dan_Wing]                                                Dan Wing                                            mailto:dwing&cisco.com                                        2015-10-08
+[Dan_Wing]                                                Dan Wing                                            mailto:danwing&gmail.com                                      2022-11-07
 [Dan_Zhou]                                                Dan Zhou                   Hearing Australia        mailto:dan.zhou&hearing.com.au                                2021-12-23
 [Dana_Blair]                                              Dana Blair                                          mailto:dblair&cisco.com                                       2004-06
 [Dana_Doggett]                                            Dana Doggett               Stoneware Inc.           mailto:dana.doggett&stone-ware.com                            2012-05-18
@@ -21300,6 +21303,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [ITU_TSB_ITU-T_Study_Group_17]                                                       ITU/TSB (ITU-T Study     mailto:tsbsg17&itu.int                                        2019-09-30
                                                                                      Group 17)
 [Ivan_Berardinelli]                                       Ivan Berardinelli                                   mailto:ivan&gestweb.com
+[Ivan_O_Mahony]                                           Ivan O'Mahony              Amazon.com Services LLC  mailto:iomahony&amazon.com                                    2022-11-07
 [Ivana_Cuozzo]                                            Ivana Cuozzo                                        mailto:Ivana.Cuozzo&tivoli.com
                                                           Interchangeable Virtual
 [IVI_Foundation]                                          Instruments Foundation,                             mailto:ivi.contact&ivifoundation.org                          2021-05-06
@@ -21780,6 +21784,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
                                                                                                               mailto:support&toltec.co.za
 [Joost_Demarest]                                          Joost Demarest             KNX Association          mailto:joost.demarest&knx.org                                 2022-10-21
 [Jordan_Hrycaj]                                           Jordan Hrycaj                                       mailto:jordan&mjh.teddy-net.com
+[Jordan_Marchese]                                         Jordan Marchese                                     mailto:jordanm&microsoft.com                                  2022-11-03
 [Jordi_Lisbona]                                           Jordi Lisbona                                       mailto:jlisbona&tango04.net
 [Jorg_Hoffmann]                                           Jörg Hoffmann                                       mailto:electronicc_rd&wago.com
 [Jorg_Laschke]                                            Jorg Laschke                                        mailto:laschke&hinz.de
@@ -23449,7 +23454,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ringo_Wathelet]                                          Ringo Wathelet                                      mailto:ringowathelet&gmail.com                                2018-07-11
 [Ripplex_Inc]                                                                        Ripplex Inc.             mailto:gucam&ripplex.com                                      2013-03-04
 [Ritsuto_Sako]                                            Ritsuto Sako                                        mailto:sakou.ritsuto&canon.co.jp                              2009-05-04
-[Ritu_Bahl]                                               Ritu Bahl                                           mailto:ritub&microsoft.com
 [Rituparna_Agrawal]                                       Rituparna Agrawal                                   mailto:riagrawa&cisco.com                                     2005-09
 [RiverMeadow_Software_Inc]                                                           RiverMeadow Software     mailto:gdennis&rivermeadow.com                                2021-03-24
                                                                                      Inc.

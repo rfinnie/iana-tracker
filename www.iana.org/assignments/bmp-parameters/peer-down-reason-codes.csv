@@ -6,6 +6,6 @@ Type,Description,Reference
 4,"Remote system closed, no data",[RFC7854]
 5,Peer de-configured,[RFC7854]
 6,"Local system closed, TLV data follows",[RFC9069]
-7-65530,Unassigned,
-65531-65534,Experimental,[RFC7854]
-65535,Reserved,[RFC7854]
+7-250,Unassigned,
+251-254,Experimental,[RFC7854][RFC Errata 7194]
+255,Reserved,[RFC7854][RFC Errata 7194]

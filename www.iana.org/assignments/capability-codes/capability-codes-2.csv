@@ -20,7 +20,8 @@ Value,Description,Reference,Change Controller
 71,Long-Lived Graceful Restart (LLGR) Capability,[draft-uttaro-idr-bgp-persistence],IETF
 72,Routing Policy Distribution,[draft-ietf-idr-rpd-04],IETF
 73,FQDN Capability,[draft-walton-bgp-hostname-capability],IETF
-74-127,Unassigned,,
+74,BFD Capability,[draft-ietf-idr-bgp-bfd-strict-mode-08],IETF
+75-127,Unassigned,,
 128,Prestandard Route Refresh (deprecated),[RFC8810],IETF
 129,"Prestandard Outbound Route Filtering (deprecated), prestandard Routing Policy Distribution (deprecated)",[RFC8810],IETF
 130,Prestandard Outbound Route Filtering (deprecated),[RFC8810],IETF
