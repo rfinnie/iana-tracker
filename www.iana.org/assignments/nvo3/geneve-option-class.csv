@@ -18,5 +18,6 @@ Option Class,Description,Assignee,Contact,Reference
 0x0137-0x0140,"Alibaba, inc",[Alibaba],[Xiaoxin_Peng],
 0x0141-0x0144,Palo Alto Networks,[Palo_Alto_Networks],[Arivu_Ramasamy],
 0x0145-0x0149,"Huawei Technologies Co., Ltd",[Huawei_Technologies_Co_Ltd],[Bo_Wu],
-0x014A-0xFEFF,Unassigned,,,
+0x014A,EMnify GmbH,[EMnify_GmbH],[Nick_Zavaritsky],
+0x014B-0xFEFF,Unassigned,,,
 0xFF00-0xFFFF,Reserved for Experimental Use,,,[RFC8926]
