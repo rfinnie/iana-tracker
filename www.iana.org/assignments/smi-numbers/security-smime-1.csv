@@ -47,6 +47,6 @@ Decimal,Description,References
 45,id-ct-cborSequence,[RFC8769]
 46,id-ct-animaCBORVoucher,[Reserved and Obsolete]
 47,id-ct-geofeedCSVwithCRLF,[RFC9092]
-48,id-ct-signedChecklist,[RFC-ietf-sidrops-rpki-rsc-11]
+48,id-ct-signedChecklist,[RFC9323]
 49,id-ct-ASPA,[draft-ietf-sidrops-aspa-profile-06]
 50,id-ct-signedTAL,[draft-ietf-sidrops-signed-tal-10]

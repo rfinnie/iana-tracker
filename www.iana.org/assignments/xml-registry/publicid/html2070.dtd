@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2022-10-24</dd>
+        <dd>2022-11-17</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2713,6 +2713,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-network-topology-state.txt">ns/yang/ietf-network-topology-state.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc8345">RFC8345</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-network-vpn-pm</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-network-vpn-pm</td>
+            <td>
+              <a href="ns/yang/ietf-network-vpn-pm.txt">ns/yang/ietf-network-vpn-pm.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-yang-vpn-service-pm-15">RFC-ietf-opsawg-yang-vpn-service-pm-15</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-nmda-compare</td>

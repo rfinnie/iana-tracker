@@ -5,5 +5,5 @@ Filename Extension,RPKI Object,Reference
 .gbr,Ghostbusters Record,[RFC6493]
 .mft,Manifest,[RFC6481]
 .roa,Route Origination Authorization,[RFC6481]
-.sig,Signed Checklist,[RFC-ietf-sidrops-rpki-rsc-11]
+.sig,Signed Checklist,[RFC9323]
 .tak,"Trust Anchor Key (TEMPORARY - registered 2022-07-27, expires 2023-07-27)",[draft-ietf-sidrops-signed-tal-11]

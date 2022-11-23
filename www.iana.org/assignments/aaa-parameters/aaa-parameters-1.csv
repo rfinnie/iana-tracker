@@ -363,4 +363,9 @@ AVP Code,Attribute Name,Reference
 668,Redirect-Address-SIP-URI,[RFC8506]
 669,QoS-Final-Unit-Indication,[RFC8506]
 670,OC-Maximum-Rate,[RFC8582]
-671-16777215,Unassigned,
+671,Session-Group-Info,[RFC-ietf-dime-group-signaling-14]
+672,Session-Group-Control-Vector,[RFC-ietf-dime-group-signaling-14]
+673,Session-Group-Id,[RFC-ietf-dime-group-signaling-14]
+674,Group-Response-Action,[RFC-ietf-dime-group-signaling-14]
+675,Session-Group-Capability-Vector,[RFC-ietf-dime-group-signaling-14]
+676-16777215,Unassigned,

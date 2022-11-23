@@ -14536,6 +14536,8 @@ ncbroadcast,,,Network Clipboard Broadcasts,[Thom_McGrath],[Thom_McGrath],,,,,,De
 ncdirect,,,Network Clipboard Direct Transfers,[Thom_McGrath],[Thom_McGrath],,,,,,Defined TXT keys: Contact The ZAZ Software <networkclipboard at thezaz.com>
 ncount-issuer,,tcp,The issuer service in the n-Count electronic value transfer system,[n-Count_Technology_BV],[Eduard_de_Jong],2013-01-22,,,,,Defined TXT keys: None
 ncsyncserver,,,Network Clipboard Sync Server,[Thom_McGrath],[Thom_McGrath],,,,,,Defined TXT keys: Contact The ZAZ Software <networkclipboard at thezaz.com>
+ndi,,tcp,IP based video discovery and usage,[NewTek_Inc],[Brad_McFarland],2022-11-22,,,,,Defined TXT keys: Proprietary
+ndi,,udp,IP based video discovery and usage,[NewTek_Inc],[Brad_McFarland],2022-11-22,,,,,Defined TXT keys: Proprietary
 nedap-aepu,,tcp,Nedap AEOS processing unit,[Nedap],[Leon_van_der_Voort_van_der_Kleij],2014-08-28,,,,,Defined TXT keys: None
 neoriders,,udp,NeoRiders Client Discovery Protocol,[Jesse_W_Towner],[Jesse_W_Towner],,,,,,Defined TXT keys: None
 netready,,tcp,UpdateLogic NetReady Device Identification,[UpdateLogic_Inc],[Chris_Nigbur],2014-10-27,,,,,Defined TXT keys: Proprietary
@@ -14980,6 +14982,8 @@ wkgrpsvr,,,Workgroup Server Discovery,[Forest_Hill],[Forest_Hill],,,,,,Defined T
 workstation,,,Workgroup Manager,[Kevin_Arnold],[Kevin_Arnold],,,,,,Defined TXT keys: None
 wormhole,,,Roku Cascade Wormhole Protocol,[Don_Woodward],[Don_Woodward],,,,,,Defined TXT keys: txtvers=1
 workgroup,,,Novell collaboration workgroup,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=? description=?
+wot,,tcp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,,,,,Defined TXT keys: None
+wot,,udp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,,,,,Defined TXT keys: None
 wpl-ers-http,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
 wpl-ers-zmq,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
 writietalkie,,,Writie Talkie Data Sharing,[Yin_Ki_Lau],[Yin_Ki_Lau],,,,,,Defined TXT keys: None
