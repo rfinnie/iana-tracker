@@ -3,7 +3,7 @@
                                                                     Registrar IDs
 
    Last Updated
-           2022-11-17
+           2022-11-29
 
    Available Formats
            [IMG]
@@ -1559,7 +1559,7 @@ Registrar IDs
     1907   DomainName Path, Inc.                                                 Accredited https://whois.xz.com/rdap/
     1908   BRS, LLC                                                              Accredited https://brs.rdap.tucows.com/
     1909   Webnames Limited                                                      Accredited https://rdap.webnames.ru/rdap/
-    1910   CloudFlare, Inc.                                                      Accredited https://rdap.cloudflare.com/rdap/v1/
+    1910   Cloudflare, Inc.                                                      Accredited https://rdap.cloudflare.com/rdap/v1/
     1911   NUXIT                                                                 Terminated
     1912   Vodien Internet Solutions Pte Ltd                                     Accredited https://rdap.vodien.com/
     1913   DOTSERVE INC.                                                         Accredited https://rdapserver.net/
@@ -3676,8 +3676,9 @@ Registrar IDs
     4038   PS Internet Company LLP                                               Accredited
     4039   Domain Global Services Pte. Ltd.                                      Accredited
     4040   Bhatia Labs Inc                                                       Accredited
+    4041   Hydra Registrar, LLC                                                  Accredited
     4042   Zname Ltd                                                             Accredited
-    4144   C-Soft Oy dba NordName                                                Accredited
+    4144   C-Soft Oy dba NordName                                                Accredited https://rdap.nordname.net/rdap/
     9994   Reserved for Registry Operator acting as Registrar where directed by  Reserved
            ICANN
     9995   Reserved for Pre-Delegation Testing transactions #1 reporting         Reserved

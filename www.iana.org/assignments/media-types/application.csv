@@ -797,6 +797,7 @@ vnd.gentoo.catmetadata+xml,application/vnd.gentoo.catmetadata+xml,[Michał_Górn
 vnd.gentoo.ebuild,application/vnd.gentoo.ebuild,[Michał_Górny]
 vnd.gentoo.eclass,application/vnd.gentoo.eclass,[Michał_Górny]
 vnd.gentoo.manifest,application/vnd.gentoo.manifest,[Michał_Górny]
+vnd.gentoo.xpak,application/vnd.gentoo.xpak,[Gentoo_Portage_Project]
 vnd.gentoo.pkgmetadata+xml,application/vnd.gentoo.pkgmetadata+xml,[Michał_Górny]
 vnd.geo+json (OBSOLETED by [RFC7946] in favor of application/geo+json),application/vnd.geo+json,[Sean_Gillies]
 vnd.geocube+xml (OBSOLETED by request),application/vnd.geocube+xml,[Francois_Pirsch]

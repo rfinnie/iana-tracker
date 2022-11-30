@@ -1,5 +1,6 @@
 Name,Template,Reference
 aces,image/aces,[SMPTE][Howard_Lukk]
+apng,image/apng,[W3C][W3C_PNG_Working_Group]
 avci,image/avci,[ISO-IEC_JTC1][David_Singer]
 avcs,image/avcs,[ISO-IEC_JTC1][David_Singer]
 avif,image/avif,[Alliance_for_Open_Media][Cyril_Concolato]

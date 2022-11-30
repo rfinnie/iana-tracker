@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2022-11-17</updated>
+    <updated>2022-11-29</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -10478,9 +10478,9 @@
                 <server>https://rdap.webnames.ru/rdap/</server>
             </rdapurl>
         </record>
-        <record updated="2019-09-11">
+        <record updated="2022-11-29">
             <value>1910</value>
-            <name>CloudFlare, Inc.</name>
+            <name>Cloudflare, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
                 <server>https://rdap.cloudflare.com/rdap/v1/</server>
@@ -25659,15 +25659,23 @@
             <name>Bhatia Labs Inc</name>
             <status>Accredited</status>
         </record>
+        <record date="2022-11-23">
+            <value>4041</value>
+            <name>Hydra Registrar, LLC</name>
+            <status>Accredited</status>
+        </record>
         <record date="2022-09-29">
             <value>4042</value>
             <name>Zname Ltd</name>
             <status>Accredited</status>
         </record>
-        <record date="2022-11-17">
+        <record date="2022-11-17" updated="2022-11-25">
             <value>4144</value>
             <name>C-Soft Oy dba NordName</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.nordname.net/rdap/</server>
+            </rdapurl>
         </record>
         <record date="2020-06-10">
             <value>9994</value>
