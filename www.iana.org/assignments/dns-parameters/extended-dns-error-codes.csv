@@ -27,5 +27,6 @@ INFO-CODE,Purpose,Reference
 25,Signature Expired before Valid,[https://github.com/NLnetLabs/unbound/pull/604#discussion_r802678343][Willem_Toorop]
 26,Too Early,[RFC9250]
 27,Unsupported NSEC3 Iterations Value,[RFC9276]
-28-49151,Unassigned,
+28,Unable to conform to policy,[Philip_Homburg]
+29-49151,Unassigned,
 49152-65535,Reserved for Private Use,"[RFC8914, Section 5.2]"

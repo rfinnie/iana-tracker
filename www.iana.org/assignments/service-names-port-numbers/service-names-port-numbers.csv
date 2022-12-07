@@ -8603,7 +8603,7 @@ prex-tcp,4487,tcp,Protocol for Remote Execution over TCP,[Daniel_Ruppert],[Danie
 awacs-ice,4488,tcp,Apple Wide Area Connectivity Service ICE Bootstrap,[Rory_McGuire],[Rory_McGuire],2010-09-24,,,,,
 awacs-ice,4488,udp,Apple Wide Area Connectivity Service ICE Bootstrap,[Rory_McGuire],[Rory_McGuire],2010-09-24,,,,,
 ,4489-4499,,Unassigned,,,,,,,Known UNAUTHORIZED USE: Ports 4490 and 4491,
-ipsec-nat-t,4500,tcp,IPsec NAT-Traversal,,,,2022-09-15,[RFC-ietf-ipsecme-rfc8229bis-09],,,
+ipsec-nat-t,4500,tcp,IPsec NAT-Traversal,,,,2022-09-15,[RFC9329],,,
 ipsec-nat-t,4500,udp,IPsec NAT-Traversal,,,,2017-07-07,[RFC3948][RFC7296],,,
 ,4501,,Unassigned,[IANA],[IANA],,,,,,De-registered 08 June 2001
 a25-fap-fgw,4502,sctp,A25 (FAP-FGW),[ThreeGPP_2],[Zhiming_Li],2012-01-11,,,,,
@@ -14608,6 +14608,8 @@ panoply,,tcp,Panoply multimedia composite transfer protocol,[Natarajan_Balasunda
 parabay-p2p,,tcp,Parabay P2P protocol,[Vishnu_Varadaraj],[Vishnu_Varadaraj],,,,,,Defined TXT keys: None
 parity,,tcp,PA-R-I-Ty (Public Address - Radio - Intercom - Telefony),[ims_Info],[Oskar_Persano],2011-10-20,,,,,Defined TXT keys: Proprietary
 parity,,udp,PA-R-I-Ty (Public Address - Radio - Intercom - Telefony),[ims_Info],[Oskar_Persano],2011-10-20,,,,,Defined TXT keys: Proprietary
+payload-app,,tcp,Local and remote file transfers,[Didrik_Nordström],[Didrik_Nordström],2022-12-02,,,,,"Defined TXT keys: _payload._tcp.local, _payload._udp.local"
+payload-app,,udp,Local and remote file transfers,[Didrik_Nordström],[Didrik_Nordström],2022-12-02,,,,,"Defined TXT keys: _payload._tcp.local, _payload._udp.local"
 pgpkey-hkp,,,Horowitz Key Protocol (HKP),[Marc_Horowitz],[Marc_Horowitz],,,,,,Defined TXT keys: None
 pgpkey-http,,,PGP Keyserver using HTTP/1.1,[Jeroen_Massar_3],[Jeroen_Massar_3],,,,,,"Defined TXT keys: path=<path on the server where the HKP applications reside>
                   normally: ""path=/pks/"""
