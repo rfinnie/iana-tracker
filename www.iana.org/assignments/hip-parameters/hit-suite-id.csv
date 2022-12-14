@@ -3,4 +3,6 @@ Value,Suite ID,Reference
 1,"RSA,DSA/SHA-256",[RFC7401]
 2,ECDSA/SHA-384,[RFC7401]
 3,ECDSA_LOW/SHA-1,[RFC7401]
-4-15,Unassigned,
+4,Unassigned,
+5,EdDSA/cSHAKE128,[RFC-ietf-drip-rid-37]
+6-15,Unassigned,

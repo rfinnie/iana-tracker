@@ -2,5 +2,5 @@ Value,Description,Reference
 0,Path is set up using the RSVP-TE signaling protocol,[RFC8408]
 1,Traffic-engineering path is set up using Segment Routing.,[RFC8664]
 2,Traffic engineering path is set up using PCECC mode,[RFC9050]
-3,"Traffic engineering path is set up using SRv6. (TEMPORARY - registered 2022-01-12, expires 2023-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
+3,"Traffic engineering path is set up using SRv6. (TEMPORARY - registered 2022-01-12, extension registered 2022-12-12, expires 2024-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 4-255,Unassigned,

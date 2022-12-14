@@ -32,4 +32,4 @@ Decimal,Description,References
 31,id-pe-acmeIdentifier,[RFC8737]
 32,id-pe-masa-url,[RFC8995]
 33,id-pe-eJWTClaimConstraints,[RFC9118]
-34,"id-pe-nftypes (TEMPORARY - registered 2022-10-17, expires 2023-10-17)",[draft-ietf-lamps-5g-nftypes-05]
+34,id-pe-nftypes,[RFC-ietf-lamps-5g-nftypes-08]

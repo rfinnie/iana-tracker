@@ -24,7 +24,7 @@ Number,Name,Recipient Tests,Reference
 30,brainpoolP512r1,"[RFC6989], Sec. 2.3",[RFC6954]
 31,Curve25519,"[RFC8031], Sec. 3.2",[RFC8031]
 32,Curve448,"[RFC8031], Sec. 3.2",[RFC8031]
-33,GOST3410_2012_256,"[draft-smyslov-ike2-gost-02, Sec. 6.1]",[draft-smyslov-ike2-gost-02]
-34,GOST3410_2012_512,"[draft-smyslov-ike2-gost-02, Sec. 6.1]",[draft-smyslov-ike2-gost-02]
+33,GOST3410_2012_256,"[RFC-smyslov-ike2-gost-15, Sec. 6.1]",[RFC-smyslov-ike2-gost-15]
+34,GOST3410_2012_512,"[RFC-smyslov-ike2-gost-15, Sec. 6.1]",[RFC-smyslov-ike2-gost-15]
 35-1023,Unassigned,,
 1024-65535,Reserved for Private Use,,[RFC7296]
