@@ -12921,8 +12921,10 @@ iec-104-sec,19998,tcp,IEC 60870-5-104 process control - secure,[Grant_Gilchrist]
 ,19998,udp,Reserved,,,,,,,,
 dnp-sec,19999,tcp,Distributed Network Protocol - Secure,[Grant_Gilchrist],[Grant_Gilchrist],2008-08-04,,,,,
 dnp-sec,19999,udp,Distributed Network Protocol - Secure,[Grant_Gilchrist],[Grant_Gilchrist],2008-08-04,,,,,
+dnp-sec,19999,sctp,Distributed Network Protocol - secured,[DNP_Users_Group],[Andrew_West],2022-12-20,,,,,
 dnp,20000,tcp,DNP,[Michael_Thesing],[Michael_Thesing],,,,,,
 dnp,20000,udp,DNP,[Michael_Thesing],[Michael_Thesing],,,,,,
+dnp,20000,sctp,Distributed Network Protocol,[DNP_Users_Group],[Andrew_West],2022-12-20,,,,,
 microsan,20001,tcp,MicroSAN,[Thomas_E_Ludwig],[Thomas_E_Ludwig],2004-02,,,,,
 microsan,20001,udp,MicroSAN,[Thomas_E_Ludwig],[Thomas_E_Ludwig],2004-02,,,,,
 commtact-http,20002,tcp,Commtact HTTP,[Tomas_Svoboda],[Tomas_Svoboda],2004-12,,,,,
@@ -13625,8 +13627,8 @@ vroa,39063,tcp,Children's hearing test/Telemedicine,[Hearing_Australia],[Dan_Zho
 turbonote-1,39681,tcp,TurboNote Default Port,[Peter_Hyde],[Peter_Hyde],,,,,,
 turbonote-1,39681,udp,TurboNote Default Port,[Peter_Hyde],[Peter_Hyde],,,,,,
 ,39682-39999,,Unassigned,,,,,,,,
-safetynetp,40000,tcp,SafetyNET p,[Roland_Rupp],[Roland_Rupp],2006-11,,,,,
-safetynetp,40000,udp,SafetyNET p,[Roland_Rupp],[Roland_Rupp],2006-11,,,,,
+safetynetp,40000,tcp,SafetyNET p,[Pilz_GmbH_and_Co._KG],[Matthias_Holzaepfel],2006-11,2022-12-15,,,,
+safetynetp,40000,udp,SafetyNET p,[Pilz_GmbH_and_Co._KG],[Matthias_Holzaepfel],2006-11,2022-12-15,,,,
 ,40001-40022,,Unassigned,,,,,,,,
 ,40023,tcp,Reserved,,,,,,,,
 k-patentssensor,40023,udp,K-PatentsSensorInformation,[Vaisala],[Saku_Lahteenmaki],2015-12-02,2021-02-02,,,,
@@ -14986,8 +14988,23 @@ wkgrpsvr,,,Workgroup Server Discovery,[Forest_Hill],[Forest_Hill],,,,,,Defined T
 workstation,,,Workgroup Manager,[Kevin_Arnold],[Kevin_Arnold],,,,,,Defined TXT keys: None
 wormhole,,,Roku Cascade Wormhole Protocol,[Don_Woodward],[Don_Woodward],,,,,,Defined TXT keys: txtvers=1
 workgroup,,,Novell collaboration workgroup,[Brady_Anderson],[Brady_Anderson],,,,,,Defined TXT keys: version=? description=?
-wot,,tcp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,,,,,Defined TXT keys: None
-wot,,udp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,,,,,Defined TXT keys: None
+wot,,tcp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,2022-12-15,,,,"Defined TXT keys:
+      td: Absolute pathname of the Thing Description of the Thing or Thing Description of the Thing
+      Description Directory.
+      type: Type of the Thing Description, i.e. ""Thing"" or ""Directory"". If omitted, the type is assumed
+      to be Thing.
+      scheme: Scheme part of URL. One of the following values can be specified, with the standard
+      registered URI interpretations [RFC7595]: http (HTTP over TCP),https (HTTP over TLS/TCP),
+      coap+tcp (CoAP over TCP), or coaps+tcp (CoAP over TLS/TCP). If omitted, the scheme is
+      assumed to be http."
+wot,,udp,W3C WoT Thing Description or Directory,[W3C_Web_of_Things_Working_Group],[Kazuyuki_Ashimura],2022-11-22,2022-12-15,,,,"Defined TXT keys:
+      td: Absolute pathname of the Thing Description of the Thing or Thing Description of the Thing
+      Description Directory.
+      type: Type of the Thing Description, i.e. ""Thing"" or ""Directory"". If omitted, the type is assumed
+      to be Thing.
+      scheme: Scheme part of URL. One of the following values can be specified, with the standard
+      registered URI interpretations [RFC7595]: coap (CoAP over UDP), coaps CoAP over DTLS/UDP.
+      If omitted, the scheme is assumed to be coap."
 wpl-ers-http,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
 wpl-ers-zmq,,tcp,World Programming repository server,[World_Programming_Limited],[Thomas_Quarendon],2017-03-17,,,,,Defined TXT keys: None
 writietalkie,,,Writie Talkie Data Sharing,[Yin_Ki_Lau],[Yin_Ki_Lau],,,,,,Defined TXT keys: None

@@ -8,12 +8,12 @@ content type,3,tstr / uint,[COAP Content-Formats] or [Media Types] registry,Cont
 kid,4,bstr,,Key identifier,[RFC9052]
 IV,5,bstr,,Full Initialization Vector,[RFC9052]
 Partial IV,6,bstr,,Partial Initialization Vector,[RFC9052]
-counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature structure,[RFC8152]
+counter signature,7,COSE_Signature / [+ COSE_Signature ],,CBOR-encoded signature structure (Deprecated by [RFC9338]),[RFC8152]
 Unassigned,8,,,,
-CounterSignature0,9,bstr,,Counter signature with implied signer and headers,[RFC8152]
+CounterSignature0,9,bstr,,Counter signature with implied signer and headers (Deprecated by [RFC9338]),[RFC8152]
 kid context,10,bstr,,Identifies the context for the key identifier,"[RFC8613, Section 5.1]"
-Countersignature version 2,11,COSE_Countersignature / [+ COSE_Countersignature],,V2 countersignature attribute,[RFC-ietf-cose-countersign-10]
-Countersignature0 version 2,12,COSE_Countersignature0,,V2 Abbreviated Countersignature,[RFC-ietf-cose-countersign-10]
+Countersignature version 2,11,COSE_Countersignature / [+ COSE_Countersignature],,V2 countersignature attribute,[RFC9338]
+Countersignature0 version 2,12,COSE_Countersignature0,,V2 Abbreviated Countersignature,[RFC9338]
 Unassigned,13-31,,,,
 x5bag,32,COSE_X509,,An unordered bag of X.509 certificates,[RFC-ietf-cose-x509-09]
 x5chain,33,COSE_X509,,An ordered chain of X.509 certificates,[RFC-ietf-cose-x509-09]

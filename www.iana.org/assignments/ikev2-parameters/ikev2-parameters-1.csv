@@ -10,6 +10,6 @@ Value,Exchange Type,Reference
 41,GSA_REKEY,[draft-yeung-g-ikev2]
 42,Unassigned,
 43,IKE_INTERMEDIATE,[RFC9242]
-44,IKE_FOLLOWUP_KE,[draft-ietf-ipsecme-ikev2-multiple-ke-06]
+44,IKE_FOLLOWUP_KE,[RFC-ietf-ipsecme-ikev2-multiple-ke-12]
 45-239,Unassigned,
 240-255,Private use,[RFC7296]

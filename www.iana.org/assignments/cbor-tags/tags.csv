@@ -9,7 +9,7 @@ Tag,Data Item,Semantics,Reference,Template
 16,COSE_Encrypt0,COSE Single Recipient Encrypted Data Object,[RFC9052],
 17,COSE_Mac0,COSE Mac w/o Recipients Object,[RFC9052],
 18,COSE_Sign1,COSE Single Signer Data Object,[RFC9052],
-19,COSE_Countersignature,COSE standalone V2 countersignature,[RFC-ietf-cose-countersign-10],
+19,COSE_Countersignature,COSE standalone V2 countersignature,[RFC9338],
 20,Unassigned,,,
 21,(any),Expected conversion to base64url encoding; see Section 3.4.5.2,[RFC8949],
 22,(any),Expected conversion to base64 encoding; see Section 3.4.5.2,[RFC8949],

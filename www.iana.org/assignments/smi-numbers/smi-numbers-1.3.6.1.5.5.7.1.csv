@@ -10,7 +10,7 @@ Decimal,Description,References
 9,id-pe-sbgp-routerIdentifier,[Reserved and Obsolete]
 10,id-pe-ac-proxying,[RFC3281]
 11,id-pe-subjectInfoAccess,[RFC3280]
-12,id-pe-logotype,[RFC3709]
+12,id-pe-logotype,[RFC-ietf-lamps-rfc3709bis-10]
 13,id-pe-wlanSSID,[RFC4334]
 14,id-pe-proxyCertInfo,[RFC3820]
 15,id-pe-acPolicies,[RFC4476]
