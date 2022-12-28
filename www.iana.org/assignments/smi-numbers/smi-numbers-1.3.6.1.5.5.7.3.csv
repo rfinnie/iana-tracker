@@ -34,4 +34,4 @@ Decimal,Description,References
 33,id-kp-rpcTLSClient,[RFC9289]
 34,id-kp-rpcTLSServer,[RFC9289]
 35,id-kp-bundleSecurity,[RFC9174]
-36,id-kp-documentSigning,[RFC-ietf-lamps-documentsigning-eku-06]
+36,id-kp-documentSigning,[RFC9336]

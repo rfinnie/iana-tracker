@@ -102,6 +102,7 @@ Decimal,Description,References
 101,id-mod-eJWTClaimConstraints-2021,[RFC9118]
 102,id-mod-public-notary-v2,[RFC9162]
 103,id-mod-dtn-tcpclv4-2021,[RFC9174]
-104,id-mod-docsign-eku,[RFC-ietf-lamps-documentsigning-eku-06]
+104,id-mod-docsign-eku,[RFC9336]
 105,id-mod-rpcWithTLS-2021,[RFC9289]
 106,id-mod-nftype,[RFC-ietf-lamps-5g-nftypes-08]
+107,id-mod-logotype-2022,[RFC-ietf-lamps-rfc3709bis-10]
