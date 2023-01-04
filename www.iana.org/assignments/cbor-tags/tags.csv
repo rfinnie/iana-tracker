@@ -128,7 +128,8 @@ Tag,Data Item,Semantics,Reference,Template
 25441,Array containing at most one array followed by at most one map,Capture [3],[https://github.com/japhb/cbor-specs/blob/main/capture.md][Geoffrey_Broadwell],
 25442-32767,Unassigned,,,
 32768,unsigned integer,Identifier for a FHIR constant,[Stefan_Genchev],template/32768
-32769-42599,Unassigned,,,
+32769,multiple,External reference,[https://gitlab.com/Hawk777/cbor-specs/-/blob/main/external-reference.md][Christopher_Head],
+32770-42599,Unassigned,,,
 42600,map,A confidentiality clearance. The key value pairs of the map are defined in ADatP-4774.4,[Aidan_Murdock],template/42600
 42601,array,A metadata binding. The elements of the array are defined in AdatP-4778.5. The tag is also used as part of the magic number in on-disk detached and encapsulating bindings.,[Aidan_Murdock],template/42601
 42602,map,A collection of NCMS metadata elements. The key value pairs of the map are defined in AdatP-5636.4,[Aidan_Murdock],template/42602

@@ -9,5 +9,6 @@ for use by Consultative Committee for Space Data Systems (CCSDS) missions.",[RFC
 268451840-268468223,Allocated to SPATIAM CORPORATION to provide DTN services to organizations.,[Alberto_Montilla]
 268468224-268484607,Allocated to Phoenix R&D GMBH to provide DTN services for secure messaging.,[Julia_Longtin]
 268484608-268500991,Allocated to LateLab AB for various terrestrial DTN deployments and services.,[Samo_Grasic]
-268500992-4398046511103,Unassigned,
+268500992-268517375,Allocated to MEIS d.o.o. from Slovenia for various terrestrial DTN testbeds.,[Bostjan_Grasic]
+268517376-4398046511103,Unassigned,
 >=4398046511104,Reserved,[RFC7116]

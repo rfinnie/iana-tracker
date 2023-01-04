@@ -94,7 +94,7 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1157,Opaque Prefix Attribute,,"[RFC7752, Section 3.3.3.6]"
 1158,Prefix-SID,,"[RFC9085, Section 2.3.1]"
 1159,Range,,"[RFC9085, Section 2.3.5]"
-1160,Unassigned,,
+1160,IS-IS Flood Reflection,(22|23|25|141|222|223|242)/161,[draft-ietf-idr-bgp-ls-isis-flood-reflection-02]
 1161,SID/Label,,"[RFC9085, Section 2.1.1]"
 1162,SRv6 Locator TLV,,[draft-ietf-idr-bgpls-srv6-ext-08]
 1163-1169,Unassigned,,
