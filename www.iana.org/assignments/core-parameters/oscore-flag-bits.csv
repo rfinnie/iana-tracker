@@ -6,6 +6,16 @@ Bit Position,Name,Description,Reference
 3,Kid Context Flag,Set to 1 if kid context is present in the compressed COSE object,[RFC8613]
 4,Kid Flag,Set to 1 if kid is present in the compressed COSE object,[RFC8613]
 5-7,Partial IV Length,Encodes the Partial IV length; can have value 0 to 5,[RFC8613]
-8-14,Unassigned,,
-15,Nonce Flag,Set to 1 if nonce is present in the compressed COSE object,[draft-ietf-core-oscore-key-update-02]
-16-63,Unassigned,,
+8,Extension-2 Flag,"Set to 1 if the OSCORE Option specifies a third byte, which includes the flag bits 16-23",[draft-ietf-core-oscore-key-update-03]
+9-14,Unassigned,,
+15,Nonce Flag,Set to 1 if nonce is present in the compressed COSE object,[draft-ietf-core-oscore-key-update-03]
+16,Extension-3 Flag,"Set to 1 if the OSCORE Option specifies a fourth byte, which includes the flag bits 24-31",[draft-ietf-core-oscore-key-update-03]
+17-23,Unassigned,,
+24,Extension-4 Flag,"Set to 1 if the OSCORE Option specifies a fifth byte, which includes the flag bits 32-39",[draft-ietf-core-oscore-key-update-03]
+25-31,Unassigned,,
+32,Extension-5 Flag,"Set to 1 if the OSCORE Option specifies a sixth byte, which includes the flag bits 40-47",[draft-ietf-core-oscore-key-update-03]
+33-39,Unassigned,,
+40,Extension-6 Flag,"Set to 1 if the OSCORE Option specifies a seventh byte, which includes the flag bits 48-55",[draft-ietf-core-oscore-key-update-03]
+41-47,Unassigned,,
+48,Extension-7 Flag,"Set to 1 if the OSCORE Option specifies a eighth byte, which includes the flag bits 56-63",[draft-ietf-core-oscore-key-update-03]
+49-63,Unassigned,,

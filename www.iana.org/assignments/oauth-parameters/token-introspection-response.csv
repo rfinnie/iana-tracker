@@ -25,3 +25,4 @@ cnonce,"""client-nonce"".  A nonce previously provided to the
 cti,"""CWT ID"".  The identifier of a CWT as defined in
         [RFC8392].",IETF,"[RFC9200, Section 5.9.2]"
 exi,"""Expires in"". Lifetime of the token in seconds from the time the RS first sees it. Used to implement a weaker form of token expiration for devices that cannot synchronize their internal clocks.",IETF,"[RFC9200, Section 5.9.2]"
+authorization_details,The member authorization_details contains a JSON array of JSON objects representing the rights of the access token. Each JSON object contains the data to specify the authorization requirements for a certain type of resource.,IETF,"[RFC-ietf-oauth-rar-22, Section 9.2]"

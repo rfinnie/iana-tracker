@@ -3,7 +3,7 @@
                                                                      Media Types
 
    Last Updated
-           2022-12-26
+           2023-01-04
 
    Registration Procedure(s)
 
@@ -1035,6 +1035,7 @@ vnd.maxmind.maxmind-db                                                   applica
 vnd.mcd                                                                  application/vnd.mcd                                                                  [Tadashi_Gotoh]
 vnd.medcalcdata                                                          application/vnd.medcalcdata                                                          [Frank_Schoonjans]
 vnd.mediastation.cdkey                                                   application/vnd.mediastation.cdkey                                                   [Henry_Flurry]
+vnd.medicalholodeck.recordxr                                             application/vnd.medicalholodeck.recordxr                                             [Dominique_Sandoz]
 vnd.meridian-slingshot                                                   application/vnd.meridian-slingshot                                                   [Eric_Wedel]
 vnd.MFER                                                                 application/vnd.MFER                                                                 [Masaaki_Hirai]
 vnd.mfmp                                                                 application/vnd.mfmp                                                                 [Yukari_Ikeda]
@@ -1513,6 +1514,7 @@ vnd.wmf.bootstrap                                                        applica
 vnd.wolfram.mathematica                                                  application/vnd.wolfram.mathematica                                                  [Wolfram]
 vnd.wolfram.mathematica.package                                          application/vnd.wolfram.mathematica.package                                          [Wolfram]
 vnd.wolfram.player                                                       application/vnd.wolfram.player                                                       [Wolfram]
+vnd.wordlift                                                             application/vnd.wordlift                                                             [David_Riccitelli]
 vnd.wordperfect                                                          application/vnd.wordperfect                                                          [Kim_Scarborough]
 vnd.wqd                                                                  application/vnd.wqd                                                                  [Jan_Bostrom]
 vnd.wrq-hp3000-labelled                                                  application/vnd.wrq-hp3000-labelled                                                  [Chris_Bartram]
@@ -2784,6 +2786,7 @@ video
    [Pete_Resnick]                                     Pete Resnick              mailto:presnick&qualcomm.com                           2000-02-20
    [Cynthia_Revström]                                 Cynthia Revström          mailto:iana&cynthia.re                                 2020-09-29
    [Bryn_Rhodes]                                      Bryn Rhodes               mailto:bryn&dynamiccontentgroup.com                    2020-12-08
+   [David_Riccitelli]                                 David Riccitelli          mailto:david&wordlift.io                               2023-01-04
    [Steve_Rice]                                       Steve Rice                mailto:developers&pagerduty.com                        2015-09-30
    [Jamie_Riden]                                      Jamie Riden               mailto:jamie&umajin.com                                2006-03-31
    [James_Riordon]                                    James Riordon             mailto:webmaster&khronos.org                           2011-02-01
@@ -2801,6 +2804,7 @@ video
    [Matti_Salmi]                                      Matti Salmi               mailto:matti.salmi&nokia.com                           2003-03-20
    [Troy_Sandal]                                      Troy Sandal               mailto:troys&visio.com                                 1997-11-19
    [Anders_Sandholm]                                  Anders Sandholm           mailto:sandholm&google.com                             2011-12-14
+   [Dominique_Sandoz]                                 Dominique Sandoz          mailto:dominique&medicalholodeck.com                   2023-01-02
    [Gary_Sands]                                       Gary Sands                mailto:gsands&tycoint.com                              2008-01-25
    [Paul_Santinelli_Jr.]                              Paul Santinelli, Jr.      mailto:psantinelli&narrative.com                       1996-10-19
    [SAP_SE]                                           SAP SE                    mailto:igor.afanasyev&sap.com                          2021-03-23

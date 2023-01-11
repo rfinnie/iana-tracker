@@ -96,3 +96,4 @@ cdniets,CDNI Expiration Time Setting for Signed Token Renewal,[IETF],"[RFC9246, 
 cdnistt,CDNI Signed Token Transport Method for Signed Token Renewal,[IETF],"[RFC9246, Section 2.1.13]"
 cdnistd,CDNI Signed Token Depth,[IETF],"[RFC9246, Section 2.1.14]"
 sig_val_claims,Signature Validation Token,[IETF],"[RFC9321, Section 3.2.3]"
+authorization_details,The claim authorization_details contains a JSON array of JSON objects representing the rights of the access token. Each JSON object contains the data to specify the authorization requirements for a certain type of resource.,[IETF],"[RFC-ietf-oauth-rar-22, Section 9.1]"
