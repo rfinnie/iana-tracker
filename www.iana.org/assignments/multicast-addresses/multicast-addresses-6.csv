@@ -12,4 +12,5 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.4.14.0-224.4.17.255,London Stock Exchange Group,[Johnathan_Ryder],[London_Stock_Exchange_Group],2018-01-04,
 224.4.18.0-224.4.21.255,London Stock Exchange Group,[Johnathan_Ryder],[London_Stock_Exchange_Group],2021-02-04,
 224.4.22.0-224.4.23.255,London Stock Exchange Group,[Johnathan_Ryder],[London_Stock_Exchange_Group],2021-09-21,
-224.4.24.0-224.4.255.255,Unassigned,,,,
+224.4.24.0-224.4.31.255,Fenics Market Data,[Steve_Loizou],[Cantor_Fitzgerald],2023-01-18,
+224.4.32.0-224.4.255.255,Unassigned,,,,

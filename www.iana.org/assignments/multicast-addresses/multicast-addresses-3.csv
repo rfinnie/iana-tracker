@@ -13,7 +13,9 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.2.12,CNP-HD-PLC,[Ernst_EDER],[LonMark_International],2018-11-15,
 224.0.2.13,BSE,[Rami_Chalhoub],[BSE],2019-01-17,
 224.0.2.14,OPC Discovery,[OPC_Foundation],[OPC_Foundation],2019-08-19,
-224.0.2.15-224.0.2.63,Unassigned,,,,
+224.0.2.15,Unassigned,,,,
+224.0.2.16-224.0.2.17,unidns,[Xie_Shao],[Xie_Shao],2023-01-18,
+224.0.2.18-224.0.2.63,Unassigned,,,,
 224.0.2.64-224.0.2.95,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1996-04,2007-07
 224.0.2.96-224.0.2.127,BallisterNet,[Tom_Ballister],[Tom_Ballister],1997-07-01,2021-06-11
 224.0.2.128-224.0.2.191,WOZ-Garage,[Douglas_Marquardt],,1997-02-01,
@@ -133,8 +135,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.23.179,PixelPusher,[Jasmine_Strong],,2014-06-04,
 224.0.23.180,network metronome,[George_Neville-Neil],,2014-12-17,
 224.0.23.181,polaris-video-transport,[Geoff_Golder],,2016-04-19,
-224.0.23.182-224.0.23.183,Unassigned,,,,
-224.0.23.184-224.0.23.191,Fenics Market Data,[Steve_Loizou],,2023-01-12,
+224.0.23.182-224.0.23.191,Unassigned,,,,
 224.0.23.192-224.0.23.255,PINKOTC,[Sergey_Shulgin],,2008-08-12,
 224.0.24.0-224.0.24.127,AGSC UK VVs,[Andrew_Rowley],,2006-06-09,
 224.0.24.128-224.0.24.255,EM-MULTI,[Soren_Martin_Sorensen],,2006-08-07,

@@ -1,4 +1,4 @@
-Media Type,Encoding,ID,Reference
+Content Type,Content Coding,ID,Reference
 text/plain; charset=utf-8,,0,[RFC2046][RFC3676][RFC5147]
 Unassigned,,1-15,
 "application/cose; cose-type=""cose-encrypt0""",,16,[RFC9052]

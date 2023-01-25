@@ -46,9 +46,9 @@ TLV Code Point,Description,IS-IS TLV/Sub-TLV,Reference
 1037,SRMS Preference,,"[RFC9085, Section 2.1.5]"
 1038,SRv6 Capabilities TLV,,[draft-ietf-idr-bgpls-srv6-ext-08]
 1039,Flexible Algorithm Definition,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
-1040,Flexible Algorithm Exclude Any Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
-1041,Flexible Algorithm Include Any Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
-1042,Flexible Algorithm Include All Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
+1040,Flexible Algorithm Exclude-Any Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
+1041,Flexible Algorithm Include-Any Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
+1042,Flexible Algorithm Include-All Affinity,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
 1043,Flexible Algorithm Definition Flags,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
 1044,Flexible Algorithm Prefix Metric,,[RFC-ietf-idr-bgp-ls-flex-algo-12]
 1045,Flexible Algorithm Exclude SRLG,,[RFC-ietf-idr-bgp-ls-flex-algo-12]

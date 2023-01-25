@@ -11,7 +11,7 @@ cmp,IETF,[RFC-ietf-lamps-cmp-updates-23][draft-ietf-ace-cmpv2-coap-transport-04]
 coap,IETF,[RFC8323],permanent,,2017-12-22,
 core,IETF,[RFC6690],permanent,,,
 csvm,W3C,[https://www.w3.org/TR/tabular-data-model/#default-locations-and-site-wide-location-configuration],permanent,,2015-09-28,
-dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-resource],permanent,"Includes all resources identified with the path prefix ""/.well-known/dnt/""",2015-08-19,
+dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-resource],permanent,,2015-08-19,
 dnt-policy.txt,Electronic Frontier Foundation,[https://www.eff.org/dnt-policy],permanent,,2015-08-19,
 dots,IETF,[RFC9132],permanent,,2020-01-16,2021-06-11
 ecips,[Wei_Tang],[https://ecips.that.world/24-ECIPURI],provisional,,2019-04-10,
@@ -32,8 +32,7 @@ idp-proxy,IETF,[RFC8827],permanent,,2019-07-25,
 jmap,IETF,"[RFC8620, Section 2.2]",permanent,,2019-03-28,
 keybase.txt,[The_Keybase_Project],[https://keybase.io/__/keybase_well_known],permanent,Related information: Documentation for the Keybase [command line] and [API].,2014-04-08,
 looking-glass,[M._Stubbig],"[RFC8522, Section 2]",permanent,,2018-12-07,
-masque,IETF,[RFC9298],permanent,"Includes all resources identified with the path
-prefix ""/.well-known/masque/udp/""",2022-06-23,
+masque,IETF,[RFC9298],permanent,,2022-06-23,
 matrix,[The_Matrix.org_Foundation_C.I.C.],[https://matrix.org/docs/spec/client_server/latest.html#well-known-uri][https://matrix.org/docs/spec/server_server/latest.html#get-well-known-matrix-server],permanent,,2019-04-16,
 mta-sts.txt,IETF,[RFC8461],permanent,,2018-06-21,
 mud,,,obsoleted,,2016-11-23,2021-12-28
@@ -71,3 +70,4 @@ include one or more parameters in the query string; see Section 4.1
 of [RFC7033].  Resources at this location are able to return a JSON
 Resource Descriptor (JRD) as described in Section 4.4 of [RFC7033].",2013-03-15,2013-09-06
 webweaver.json,[DigiOnline_GmbH],[https://www.webweaver.de/well-known],provisional,,2022-08-11,
+wot,[W3C_WoT_WG],[https://www.w3.org/TR/wot-discovery/#introduction-well-known],permanent,,2023-01-24,
