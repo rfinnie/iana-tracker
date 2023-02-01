@@ -71,3 +71,4 @@ forbiddenFrom,common,IETF,"The server does not permit the user to send a message
 forbiddenToSend,common,IETF,The user does not have permission to send at all right now.,"[RFC8621, Section 7.5]"
 mdnAlreadySent,common,IETF,"The message has the ""$mdnsent"" keyword already set.  The
    client MUST NOT try again to send an MDN for this message.","[RFC9007, Section 2.1]"
+unknownDataType,common,IETF,"The server does not recognise this data type, or the capability to enable it was not present.",[RFC-ietf-jmap-blob-18]

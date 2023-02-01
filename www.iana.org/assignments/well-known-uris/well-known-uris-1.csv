@@ -11,6 +11,8 @@ cmp,IETF,[RFC-ietf-lamps-cmp-updates-23][draft-ietf-ace-cmpv2-coap-transport-04]
 coap,IETF,[RFC8323],permanent,,2017-12-22,
 core,IETF,[RFC6690],permanent,,,
 csvm,W3C,[https://www.w3.org/TR/tabular-data-model/#default-locations-and-site-wide-location-configuration],permanent,,2015-09-28,
+did.json,[Credentials_Community_Group],[https://w3c-ccg.github.io/did-method-web],provisional,,2023-01-31,
+did-configuration.json,[Claims_and_Credentials_WG],[https://identity.foundation/.well-known/resources/did-configuration],provisional,,2023-01-31,
 dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-resource],permanent,,2015-08-19,
 dnt-policy.txt,Electronic Frontier Foundation,[https://www.eff.org/dnt-policy],permanent,,2015-08-19,
 dots,IETF,[RFC9132],permanent,,2020-01-16,2021-06-11

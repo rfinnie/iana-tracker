@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2023-01-18</updated>
+  <updated>2023-01-24</updated>
   
   
  
@@ -2013,13 +2013,13 @@ Hence, the media type registry disallows parameters named "q".
     <record>
       <name>sep-exi</name>
       <xref type="person" data="Robby_Simpson"/>
-      <xref type="person" data="ZigBee"/>
+      <xref type="person" data="Connectivity_Standards_Alliance"/>
       <file type="template">application/sep-exi</file>
     </record>
     <record>
       <name>sep+xml</name>
       <xref type="person" data="Robby_Simpson"/>
-      <xref type="person" data="ZigBee"/>
+      <xref type="person" data="Connectivity_Standards_Alliance"/>
       <file type="template">application/sep+xml</file>
     </record>
     <record>
@@ -9292,6 +9292,12 @@ by the IANA.</note>
       <xref type="person" data="Uli_Klumpp"/>
       <file type="template">model/gltf+json</file>
     </record>
+    <record date="2023-01-24">
+      <name>JT</name>
+      <xref type="person" data="ISO-TC_184-SC_4"/>
+      <xref type="person" data="Michael_Zink"/>
+      <file type="template">model/JT</file>
+    </record>
     <record>
       <name>iges</name>
       <xref type="person" data="Curtis_Parks"/>
@@ -11054,6 +11060,11 @@ by the IANA.</note>
       <name>Mick Conley</name>
       <uri>mailto:mconley&amp;wi-fi.org</uri>
       <updated>2013-09-06</updated>
+    </person>
+    <person id="Connectivity_Standards_Alliance">
+      <name>Connectivity Standards Alliance</name>
+      <uri>https://csa-iot.org</uri>
+      <updated>2023-01-24</updated>
     </person>
     <person id="Victor_Costan">
       <name>Victor Costan</name>
@@ -14222,15 +14233,15 @@ by the IANA.</note>
       <uri>mailto:d&amp;liwa.li</uri>
       <updated>2015-03-16</updated>
     </person>
-    <person id="ZigBee">
-      <name>ZigBee Alliance</name>
-      <uri>mailto:http://www.zigbee.org</uri>
-      <updated>2012-11-27</updated>
-    </person>
     <person id="Gottfried_Zimmermann">
       <name>Gottfried Zimmermann</name>
       <uri>mailto:gzimmermann at acm.org</uri>
       <updated>2013-06-24</updated>
+    </person>
+    <person id="Michael_Zink">
+      <name>Michael Zink</name>
+      <uri>mailto:mike.zink&amp;siemens.com</uri>
+      <updated>2023-01-24</updated>
     </person>
     <person id="William_Zou">
       <name>William Zou</name>
