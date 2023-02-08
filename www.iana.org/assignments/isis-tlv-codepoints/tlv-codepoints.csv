@@ -90,7 +90,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 138,GMPLS-SRLG,n,y,n,n,[RFC5307]
 139,IPv6 SRLG,n,y,n,n,[RFC6119]
 140,IPv6 TE Router ID,n,y,n,n,[RFC6119]
-141,Inter-AS Reachability Information,n,y,n,n,[RFC-ietf-lsr-isis-rfc5316bis-07]
+141,Inter-AS Reachability Information,n,y,n,n,[RFC9346]
 142,GADDR-TLV,n,y,n,n,[RFC7176]
 143,MT-Port-Cap-TLV,y,n,n,n,[RFC6165]
 144,MT-Capability TLV,n,y,n,n,[RFC6329]

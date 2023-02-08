@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-01-27</dd>
+        <dd>2023-02-02</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2400,7 +2400,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-ipsec-iptfs.txt">ns/yang/ietf-ipsec-iptfs.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-ipsecme-yang-iptfs-11">RFC-ietf-ipsecme-yang-iptfs-11</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9348">RFC9348</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-ipv4-unicast-routing</td>
