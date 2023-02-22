@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2023-02-03</updated>
+  <updated>2023-02-17</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert 
 Review" <xref type="rfc" data="rfc8126"/> registration procedure, guidance for IESG-designated 
 experts can be found in <xref type="rfc" data="rfc7370"/>.
@@ -1147,9 +1147,18 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_223>y</TLV_223>
       <xref type="rfc" data="rfc8919"/>
     </record>
-    <record>
+    <record date="2023-02-17">
       <value>17</value>
-      <description>Unassigned</description>
+      <description>Generic Metric 
+        (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+      </description>
+      <TLV_22>y</TLV_22>
+      <TLV_23>y</TLV_23>
+      <TLV_25>n</TLV_25>
+      <TLV_141>y</TLV_141>
+      <TLV_222>y</TLV_222>
+      <TLV_223>y</TLV_223>
+      <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 2.1</xref>
     </record>
     <record>
       <value>18</value>
@@ -2106,11 +2115,11 @@ the IESG.
     </registry>
   
     <registry id="isis-sub-sub-tlv-srv6-capability">
-      <title>IS-IS Sub-Sub-TLVs for SRv6 Capability Sub-TLV</title>
+      <title>IS-IS Sub-Sub-TLVs for SRv6 Capabilities Sub-TLV</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines sub-sub-TLVs for the SRv6 Capability Sub-TLV (25) 
-advertised in the IS-IS Router Capabilities TLV (242).</description>
+      <description>This registry defines sub-sub-TLVs for the SRv6 Capabilities sub-TLV (25)
+advertised in the IS-IS Router CAPABILITY TLV (242).</description>
       <expert>Unassigned</expert>
       <record date="2021-11-24">
         <value>0</value>
@@ -2127,7 +2136,7 @@ advertised in the IS-IS Router Capabilities TLV (242).</description>
       <title>IS-IS SRv6 Capabilities Sub-TLV Flags</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines bit values advertised in the flags field of the 
+      <description>This registry defines bit values advertised in the Flags field of the
 SRv6 Capabilities sub-TLV (25). This sub-TLV is advertised in the 
 IS-IS Router CAPABILITY TLV (242).</description>
       <expert>Unassigned</expert>
@@ -2289,8 +2298,15 @@ whenever possible.
       <xref type="rfc" data="rfc7308"/>
     </record>
     <record>
-      <value>15-17</value>
+      <value>15-16</value>
       <description>Unassigned</description>
+    </record>
+    <record date="2023-02-17">
+      <value>17</value>
+      <description>Generic Metric 
+        (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+      </description>
+      <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 2.1</xref>
     </record>
     <record date="2020-07-07">
       <value>18</value>
@@ -2404,7 +2420,7 @@ encoding.
       <title>IS-IS Sub-Sub-TLVs for SRv6 SID Sub-TLVs</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines Sub-Sub-TLVs for SRv6 SID Sub-TLVs. This includes 
+      <description>This registry defines sub-sub-TLVs for SRv6 SID sub-TLVs. This includes
 the following sub-TLVs:
   
 SRv6 End SID (5) (Advertised in SRv6 Locator TLV (27))
@@ -2434,7 +2450,7 @@ SRv6 LAN End.X SID (44) (Advertised in TLVs advertising neighbor information)</d
       <title>IS-IS SRv6 Locator TLV Flags</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines bit values advertised in the flags field of the 
+      <description>This registry defines bit values advertised in the Flags field of the
 SRv6 Locator TLV (27).</description>
       <expert>Unassigned</expert>
       <record date="2021-11-24">
@@ -2452,8 +2468,8 @@ SRv6 Locator TLV (27).</description>
       <title>IS-IS SRv6 End SID Sub-TLV Flags</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines bit values advertised in the flags field of the 
-SRv6 End SID sub-TLV (5), which is advertised in the SRv6 Locator TLV 
+      <description>This registry defines bit values advertised in the Flags field of the
+SRv6 End SID sub-TLV (5), which is advertised in the SRv6 Locator TLV
 (27).</description>
       <expert>Unassigned</expert>
       <record>
@@ -2466,7 +2482,7 @@ SRv6 End SID sub-TLV (5), which is advertised in the SRv6 Locator TLV
       <title>IS-IS SRv6 Adjacency SID Sub-TLVs Flags</title>
       <xref type="draft" data="RFC-ietf-lsr-isis-srv6-extensions-18"/>
       <registration_rule>Expert Review</registration_rule>
-      <description>This registry defines bit values advertised in the flags field of 
+      <description>This registry defines bit values advertised in the Flags field of
 SRv6 SID sub-TLVs associated with adjacencies. These sub-TLVs are 
 advertised in TLVs advertising neighbor information. The list of 
 sub-TLVs includes:
@@ -2530,8 +2546,36 @@ SRv6 LAN End.X SID (44)</description>
         <description>Flexible Algorithm Exclude SRLG</description>
         <xref type="draft" data="RFC-ietf-lsr-flex-algo-25">RFC-ietf-lsr-flex-algo-25, Section 6.5</xref>
       </record>
+      <record date="2023-02-17">
+        <value>6</value>
+        <description>IS-IS Exclude Minimum Bandwidth 
+          (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+        </description>
+        <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 3.1.1</xref>
+      </record>
+      <record date="2023-02-17">
+        <value>7</value>
+        <description>IS-IS Exclude Maximum Delay 
+          (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+        </description>
+        <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 3.1.2</xref>
+      </record>
+      <record date="2023-02-17">
+        <value>8</value>
+        <description>IS-IS Reference Bandwidth 
+          (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+        </description>
+        <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 4.1.3.1</xref>
+      </record>
+      <record date="2023-02-17">
+        <value>9</value>
+        <description>IS-IS Threshold Metric 
+          (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+        </description>
+        <xref type="draft" data="draft-ietf-lsr-flex-algo-bw-con-05">draft-ietf-lsr-flex-algo-bw-con-05, Section 4.1.3.2</xref>
+      </record>
       <record>
-        <value>6-255</value>
+        <value>10-255</value>
         <description>Unassigned</description>
       </record>
     </registry>

@@ -15,10 +15,10 @@ kid context,10,bstr,,Identifies the context for the key identifier,"[RFC8613, Se
 Countersignature version 2,11,COSE_Countersignature / [+ COSE_Countersignature],,V2 countersignature attribute,[RFC9338]
 Countersignature0 version 2,12,COSE_Countersignature0,,V2 Abbreviated Countersignature,[RFC9338]
 Unassigned,13-31,,,,
-x5bag,32,COSE_X509,,An unordered bag of X.509 certificates,[RFC-ietf-cose-x509-09]
-x5chain,33,COSE_X509,,An ordered chain of X.509 certificates,[RFC-ietf-cose-x509-09]
-x5t,34,COSE_CertHash,,Hash of an X.509 certificate,[RFC-ietf-cose-x509-09]
-x5u,35,uri,,URI pointing to an X.509 certificate,[RFC-ietf-cose-x509-09]
+x5bag,32,COSE_X509,,An unordered bag of X.509 certificates,[RFC9360]
+x5chain,33,COSE_X509,,An ordered chain of X.509 certificates,[RFC9360]
+x5t,34,COSE_CertHash,,Hash of an X.509 certificate,[RFC9360]
+x5u,35,uri,,URI pointing to an X.509 certificate,[RFC9360]
 Unassigned,36-255,,,,
 CUPHNonce,256,bstr,,Challenge Nonce,[FIDO Device Onboard Specification]
 CUPHOwnerPubKey,257,array,,Public Key,[FIDO Device Onboard Specification]

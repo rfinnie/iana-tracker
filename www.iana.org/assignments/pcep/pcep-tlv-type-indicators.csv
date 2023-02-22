@@ -65,6 +65,6 @@ Value,Description,Reference
 63,"MULTIPATH-OPPDIR-PATH
         (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
 64,LSP-EXTENDED-FLAG,[RFC9357]
-65,VIRTUAL-NETWORK-TLV,[RFC-ietf-pce-vn-association-11]
+65,VIRTUAL-NETWORK-TLV,[RFC9358]
 66-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

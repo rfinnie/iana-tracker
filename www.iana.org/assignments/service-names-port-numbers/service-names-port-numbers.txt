@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-           2023-01-04
+           2023-02-17
 
    Expert(s)
 
@@ -2078,7 +2078,19 @@ apex-mesh           912        tcp    APEX relay-relay service
 apex-mesh           912        udp    APEX relay-relay service
 apex-edge           913        tcp    APEX endpoint-relay service                                                                                                                                            [RFC3340]
 apex-edge           913        udp    APEX endpoint-relay service                                                                                                                                            [RFC3340]
-                  914-952             Unassigned
+                    914        tcp    Reserved
+                                      Routing in Fat Trees Link
+                                      Information Elements
+rift-lies           914        udp    (TEMPORARY - registered      [RIFT_WG]                                             [Jordan_Head][Tony_Przygienda]                            2023-02-17                [draft-ietf-rift-rift-16]
+                                      2023-02-17, expires
+                                      2024-02-17)
+                    915        tcp    Reserved
+                                      Routing in Fat Trees
+                                      Topology Information
+rift-ties           915        udp    Elements (TEMPORARY -        [RIFT_WG]                                             [Jordan_Head][Tony_Przygienda]                            2023-02-17                [draft-ietf-rift-rift-16]
+                                      registered 2023-02-17,
+                                      expires 2024-02-17)
+                  916-952             Unassigned
 rndc                953        tcp    BIND9 remote name daemon     [Internet_Systems_Consortium_Inc]                     [Ray_Bellis]                                              2017-06-08
                                       controller
                     953        udp    Reserved
@@ -17479,6 +17491,10 @@ behnke-video                   tcp    Behnke doorphones / video    [Telefonbau_B
 bender                                Bender Communication         [Bender_GmbH_Co_KG]                                   [Markus_Kremer]                                           2013-10-15                                                                                     Defined TXT keys: product version bus id featuremask
                                       Protocol
 bfagent                               BuildForge Agent             [Joe_Senner_2]                                        [Joe_Senner_2]                                                                                                                                           Defined TXT keys: None
+bhipc                          tcp    Becker & Hickl Inter Process [Becker_Hickl_GmbH]                                   [Enzo_Marscheck]                                          2023-02-15                                                                                     Defined TXT keys: None
+                                      Communication
+bhipc                          udp    Becker & Hickl Inter Process [Becker_Hickl_GmbH]                                   [Enzo_Marscheck]                                          2023-02-15                                                                                     Defined TXT keys: None
+                                      Communication
 bidib                          tcp    Model Railway Control via    [BiDiB_Tools_e.V.]                                    [Andreas_Bergmaier]                                       2022-12-26                                                                                     Defined TXT keys: bidib,node,interface,uid,prod,user -
                                       netBiDiB                                                                                                                                                                                                                                    http://bidib.org/transport/bidib_net_e.html
 bigbangchess                          Big Bang Chess               [Freeverse_Software]                                  [Freeverse_Software]                                                                                                                                     Defined TXT keys: None
@@ -19580,6 +19596,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Baskaran_Subramaniam]                                    Baskaran Subramaniam                                mailto:baskaran&apple.com
 [Beats_Electronics_LLC]                                                              Beats Electronics LLC.   mailto:eddie&beatsbydre.com                                   2013-06-03
 [Beats_Electronics_LLC_2]                                                            Beats Electronics LLC.   mailto:yunho.huh&beatsbydre.com                               2014-06-27
+[Becker_Hickl_GmbH]                                                                  Becker & Hickl GmbH      mailto:info&becker-hickl.com                                  2023-02-15
 [Beckhoff_Automation_GmbH_Co_KG]                                                     Beckhoff Automation GmbH mailto:legal&beckhoff.com                                     2019-02-28
                                                                                      & Co. KG
 [Bellvedi_Ltd]                                                                       Bellvedi Ltd.            mailto:iana&bellvedi.com                                      2022-06-01
@@ -20707,6 +20724,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Enrique_Corujo]                                          Enrique Corujo                                      mailto:enrique&caclearing.com                                 2006-02
 [ENSTEAM_Sp_z.o.o.]                                                                  ENSTEAM Sp. z o.o.       mailto:support&ensteam.com                                    2015-07-08
 [Environics_Oy]                                           Environics Oy                                       mailto:pasi.nuutinmaki&environics.fi
+[Enzo_Marscheck]                                          Enzo Marscheck             Becker & Hickl GmbH      mailto:marscheck&becker-hickl.de                              2023-02-15
 [Epipole_Limited]                                                                    Epipole Limited          mailto:info&epipole.com                                       2014-11-13
 [eQ-3_Entwicklung_GmbH]                                                              eQ-3 Entwicklung GmbH    mailto:ports&entwicklung.eq-3.de                              2018-02-28
 [Eran_Gampel]                                             Eran Gampel                                         mailto:eran&aoe6.net
@@ -21832,6 +21850,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Joon_Radley_2]                                           Joon Radley                                         mailto:joon&toltec.co.za                                      2008-10-21
                                                                                                               mailto:support&toltec.co.za
 [Joost_Demarest]                                          Joost Demarest             KNX Association          mailto:joost.demarest&knx.org                                 2022-10-21
+[Jordan_Head]                                             Jordan Head                                         mailto:jhead&juniper.net                                      2023-02-17
 [Jordan_Hrycaj]                                           Jordan Hrycaj                                       mailto:jordan&mjh.teddy-net.com
 [Jordan_Marchese]                                         Jordan Marchese                                     mailto:jordanm&microsoft.com                                  2022-11-03
 [Jordi_Lisbona]                                           Jordi Lisbona                                       mailto:jlisbona&tango04.net
@@ -23504,6 +23523,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Rickard_Schoultz]                                        Rickard Schoultz                                    mailto:schoultz&sunet.se
 [Ricky_Sharp]                                             Ricky Sharp                                         mailto:rsharp&instantinteractive.com
 [Rieko_Asai]                                              Rieko Asai                                          mailto:asai&isl.mei.co.jp
+[RIFT_WG]                                                 IETF RIFT WG                                        mailto:rift&ietf.org
 [Rik_Ditter]                                              Rik Ditter                                          mailto:managers&generationtechnologies.com                    2006-02
 [Rik_Faith]                                               Rik Faith                                           mailto:faith&cs.unc.edu
 [Rina_Nethaniel]                                          Rina Nethaniel
@@ -24487,6 +24507,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tony_Lubrano]                                            Tony Lubrano                                        mailto:tlubrano&neonsys.com
 [Tony_Matthews]                                           Tony Matthews                                       mailto:tmatthews&triomotion.com                               2002-02
 [Tony_Ponzo]                                              Tony Ponzo                 Open Text Corporation    mailto:tponzo&opentext.com                                    2022-10-07
+[Tony_Przygienda]                                         Tony Przygienda                                     mailto:prz&juniper.net                                        2023-02-17
 [Tony_Sawyer]                                             Tony Sawyer                                         mailto:tonys&gemtech.com
 [Tony_Scamurra]                                           Tony Scamurra                                       mailto:Tony&desktoppaging.com
 [Tony_Sowter]                                             Tony Sowter                                         mailto:ts&datcon.co.uk

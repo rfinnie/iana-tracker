@@ -1597,7 +1597,11 @@ apex-mesh,912,tcp,APEX relay-relay service,,,,,,,,
 apex-mesh,912,udp,APEX relay-relay service,,,,,,,,
 apex-edge,913,tcp,APEX endpoint-relay service,,,,,[RFC3340],,,
 apex-edge,913,udp,APEX endpoint-relay service,,,,,[RFC3340],,,
-,914-952,,Unassigned,,,,,,,,
+,914,tcp,Reserved,,,,,,,,
+rift-lies,914,udp,"Routing in Fat Trees Link Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)",[RIFT_WG],[Jordan_Head][Tony_Przygienda],2023-02-17,,[draft-ietf-rift-rift-16],,,
+,915,tcp,Reserved,,,,,,,,
+rift-ties,915,udp,"Routing in Fat Trees Topology Information Elements (TEMPORARY - registered 2023-02-17, expires 2024-02-17)",[RIFT_WG],[Jordan_Head][Tony_Przygienda],2023-02-17,,[draft-ietf-rift-rift-16],,,
+,916-952,,Unassigned,,,,,,,,
 rndc,953,tcp,BIND9 remote name daemon controller,[Internet_Systems_Consortium_Inc],[Ray_Bellis],2017-06-08,,,,,
 ,953,udp,Reserved,,,,,,,,
 ,954-988,,Unassigned,,,,,,,,
@@ -14039,6 +14043,8 @@ behnke-station,,tcp,Behnke audio / video intercom systems,[Telefonbau_Behnke_Gmb
 behnke-video,,tcp,Behnke doorphones / video intercoms,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2021-03-17,,,,,"Defined TXT keys: mjpg, jpg, auth, camera, macaddress"
 bender,,,Bender Communication Protocol,[Bender_GmbH_Co_KG],[Markus_Kremer],2013-10-15,,,,,Defined TXT keys: product version bus id featuremask
 bfagent,,,BuildForge Agent,[Joe_Senner_2],[Joe_Senner_2],,,,,,Defined TXT keys: None
+bhipc,,tcp,Becker & Hickl Inter Process Communication,[Becker_Hickl_GmbH],[Enzo_Marscheck],2023-02-15,,,,,Defined TXT keys: None
+bhipc,,udp,Becker & Hickl Inter Process Communication,[Becker_Hickl_GmbH],[Enzo_Marscheck],2023-02-15,,,,,Defined TXT keys: None
 bidib,,tcp,Model Railway Control via netBiDiB,[BiDiB_Tools_e.V.],[Andreas_Bergmaier],2022-12-26,,,,,"Defined TXT keys: bidib,node,interface,uid,prod,user - http://bidib.org/transport/bidib_net_e.html"
 bigbangchess,,,Big Bang Chess,[Freeverse_Software],[Freeverse_Software],,,,,,Defined TXT keys: None
 bigbangmancala,,,Big Bang Mancala,[Freeverse_Software],[Freeverse_Software],,,,,,Defined TXT keys: None

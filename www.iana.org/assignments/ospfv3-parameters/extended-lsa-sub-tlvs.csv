@@ -33,7 +33,8 @@ Value,Description,L2BM,Reference
 31,"SRv6 End.X SID Sub-TLV (TEMPORARY - registered 2022-08-04, expires 2023-08-04)",Y,[draft-ietf-lsr-ospfv3-srv6-extensions-06]
 32,"SRv6 LAN End.X SID Sub-TLV (TEMPORARY - registered 2022-08-04, expires 2023-08-04)",Y,[draft-ietf-lsr-ospfv3-srv6-extensions-06]
 33,OSPF Flexible Algorithm ASBR Metric,X,"[RFC-ietf-lsr-flex-algo-26, Section 10.2]"
-34-32767,Unassigned,,
+34,"Generic Metric (TEMPORARY - registered 2023-02-16, expires 2024-02-16)",N,"[draft-ietf-lsr-flex-algo-bw-con-05, Section 2.2]"
+35-32767,Unassigned,,
 32768-33023,Reserved for Experimental Use,,[RFC8362]
 33024-45055,Unassigned,,
 45056-65535,Reserved,,[RFC8362]

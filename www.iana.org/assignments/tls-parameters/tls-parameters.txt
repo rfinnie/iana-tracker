@@ -6,7 +6,7 @@
            2005-08-23
 
    Last Updated
-           2022-12-06
+           2023-02-21
 
    Available Formats
            [IMG]
@@ -602,10 +602,10 @@ TLS Cipher Suites
     0xC1,0x00   TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC          N       N           [RFC9189]
     0xC1,0x01   TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC               N       N           [RFC9189]
     0xC1,0x02   TLS_GOSTR341112_256_WITH_28147_CNT_IMIT               N       N           [RFC9189]
-    0xC1,0x03   TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L             N       N           [RFC-smyshlyaev-tls13-gost-suites-08]
-    0xC1,0x04   TLS_GOSTR341112_256_WITH_MAGMA_MGM_L                  N       N           [RFC-smyshlyaev-tls13-gost-suites-08]
-    0xC1,0x05   TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S             N       N           [RFC-smyshlyaev-tls13-gost-suites-08]
-    0xC1,0x06   TLS_GOSTR341112_256_WITH_MAGMA_MGM_S                  N       N           [RFC-smyshlyaev-tls13-gost-suites-08]
+    0xC1,0x03   TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L             N       N           [RFC9367]
+    0xC1,0x04   TLS_GOSTR341112_256_WITH_MAGMA_MGM_L                  N       N           [RFC9367]
+    0xC1,0x05   TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S             N       N           [RFC9367]
+    0xC1,0x06   TLS_GOSTR341112_256_WITH_MAGMA_MGM_S                  N       N           [RFC9367]
    0xC1,0x07-FF Unassigned
     0xC2-C9,*   Unassigned
    0xCA,0x00-C9 Unassigned
@@ -1227,37 +1227,42 @@ TLS Exporter Labels
            [IMG]
            CSV
 
-                        Value                      DTLS-OK Recommended                       Reference                        Note
-   client finished                                 Y       Y           [RFC5246]                                              (1)
-   server finished                                 Y       Y           [RFC5246]                                              (1)
-   master secret                                   Y       Y           [RFC5246]                                              (1)
-   key expansion                                   Y       Y           [RFC5246]                                              (1)
-   client EAP encryption                           N       Y           [RFC5216][RFC6347]
-   ttls keying material                            N       N           [RFC5281][RFC6347]
-   ttls challenge                                  N       N           [RFC5281][RFC6347]
-   EXTRACTOR-dtls_srtp                             Y       Y           [RFC5764]
-   EXPORTER_DTLS_OVER_SCTP                         Y       Y           [RFC6083]
-   EXPORTER-ETSI-TC-M2M-Bootstrap                  Y       N           [TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega]
-   EXPORTER-ETSI-TC-M2M-Connection                 Y       N           [TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega]
-   TLS_MK_Extr                                     Y       N           [TR 33.222][Silke_Holtmanns]
-   EXPORTER_GBA_Digest                             Y       N           [TS 33.220 Annex M.6][Silke_Holtmanns]
-   EXPORTER: teap session key seed                 N       Y           [RFC7170]
-   EXPORTER-oneM2M-Bootstrap                       Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
-   EXPORTER-oneM2M-Connection                      Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
-   EXPORTER-oneM2M-ESCertKE                        Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
-   EXPORTER-Token-Binding                          Y       Y           [RFC8471]
-   EXPORTER-BBF-Dying-Gasp                         N       N           [TR-301 Issue 2 Amendment 1]
-   EXPORTER-network-time-security                  Y       Y           [RFC8915, Section 4.3]
-   EXPORTER_3GPP_N32_MASTER                        N       N           [3GPP TS 33.501]
-   EXPORTER-ACE-MQTT-Sign-Challenge                N       N           [RFC-ietf-ace-mqtt-tls-profile-17]
-   EXPORTER_EAP_TLS_Key_Material                   N       Y           [RFC9190]
-   EXPORTER_EAP_TLS_Method-Id                      N       Y           [RFC9190]
-   EXPORTER-BBF-USP-Record                         N       N           [TR-369][Broadband_Forum]
-   EXPORTER-client authenticator handshake context Y       Y           [RFC9261]
-   EXPORTER-server authenticator handshake context Y       Y           [RFC9261]
-   EXPORTER-client authenticator finished key      Y       Y           [RFC9261]
-   EXPORTER-server authenticator finished key      Y       Y           [RFC9261]
-   EXPORTER-Channel-Binding                        Y       Y           [RFC9266]
+                         Value                        DTLS-OK Recommended                       Reference                        Note
+   client finished                                    Y       Y           [RFC5246]                                              (1)
+   server finished                                    Y       Y           [RFC5246]                                              (1)
+   master secret                                      Y       Y           [RFC5246]                                              (1)
+   key expansion                                      Y       Y           [RFC5246]                                              (1)
+   client EAP encryption                              N       Y           [RFC5216][RFC6347]
+   ttls keying material                               N       N           [RFC5281][RFC6347]
+   ttls challenge                                     N       N           [RFC5281][RFC6347]
+   EXTRACTOR-dtls_srtp                                Y       Y           [RFC5764]
+   EXPORTER_DTLS_OVER_SCTP                            Y       Y           [RFC6083]
+   EXPORTER-ETSI-TC-M2M-Bootstrap                     Y       N           [TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega]
+   EXPORTER-ETSI-TC-M2M-Connection                    Y       N           [TS 102 921 v2.0.3][Miguel_Angel_Reina_Ortega]
+   TLS_MK_Extr                                        Y       N           [TR 33.222][Silke_Holtmanns]
+   EXPORTER_GBA_Digest                                Y       N           [TS 33.220 Annex M.6][Silke_Holtmanns]
+   EXPORTER: teap session key seed                    N       Y           [RFC7170]
+   EXPORTER-oneM2M-Bootstrap                          Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
+   EXPORTER-oneM2M-Connection                         Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
+   EXPORTER-oneM2M-ESCertKE                           Y       N           [oneM2M Security Solutions][Miguel_Angel_Reina_Ortega]
+   EXPORTER-Token-Binding                             Y       Y           [RFC8471]
+   EXPORTER-BBF-Dying-Gasp                            N       N           [TR-301 Issue 2 Amendment 1]
+   EXPORTER-network-time-security                     Y       Y           [RFC8915, Section 4.3]
+   EXPORTER_3GPP_N32_MASTER                           N       N           [3GPP TS 33.501]
+   EXPORTER-ACE-MQTT-Sign-Challenge                   N       N           [RFC-ietf-ace-mqtt-tls-profile-17]
+   EXPORTER_EAP_TLS_Key_Material                      N       Y           [RFC9190]
+   EXPORTER_EAP_TLS_Method-Id                         N       Y           [RFC9190]
+   EXPORTER-BBF-USP-Record                            N       N           [TR-369][Broadband_Forum]
+   EXPORTER-client authenticator handshake context    Y       Y           [RFC9261]
+   EXPORTER-server authenticator handshake context    Y       Y           [RFC9261]
+   EXPORTER-client authenticator finished key         Y       Y           [RFC9261]
+   EXPORTER-server authenticator finished key         Y       Y           [RFC9261]
+   EXPORTER-Channel-Binding                           Y       Y           [RFC9266]
+   EXPORTER: teap session key seed                    N       Y           [RFC-ietf-emu-tls-eap-types-13]
+   EXPORTER: Inner Methods Compound Keys              N       Y           [RFC-ietf-emu-tls-eap-types-13]
+   EXPORTER: Session Key Generating Function          N       Y           [RFC-ietf-emu-tls-eap-types-13]
+   EXPORTER: Extended Session Key Generating Function N       Y           [RFC-ietf-emu-tls-eap-types-13]
+   TEAPbindkey@ietf.org                               N       Y           [RFC-ietf-emu-tls-eap-types-13]
 
 TLS Authorization Data Formats
 
@@ -1434,13 +1439,13 @@ TLS SignatureScheme
       0x0706     iso_ibs2                            N           [draft-wang-tls-raw-public-key-with-ibc]
       0x0707     iso_chinese_ibs                     N           [draft-wang-tls-raw-public-key-with-ibc]
       0x0708     sm2sig_sm3                          N           [RFC8998]
-      0x0709     gostr34102012_256a                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070A     gostr34102012_256b                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070B     gostr34102012_256c                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070C     gostr34102012_256d                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070D     gostr34102012_512a                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070E     gostr34102012_512b                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
-      0x070F     gostr34102012_512c                  N           [RFC-smyshlyaev-tls13-gost-suites-08]
+      0x0709     gostr34102012_256a                  N           [RFC9367]
+      0x070A     gostr34102012_256b                  N           [RFC9367]
+      0x070B     gostr34102012_256c                  N           [RFC9367]
+      0x070C     gostr34102012_256d                  N           [RFC9367]
+      0x070D     gostr34102012_512a                  N           [RFC9367]
+      0x070E     gostr34102012_512b                  N           [RFC9367]
+      0x070F     gostr34102012_512c                  N           [RFC9367]
    0x0710-0x07FF Unassigned
    0x0800-0x0803 Reserved for backward compatibility             [RFC8446]
       0x0804     rsa_pss_rsae_sha256                 Y           [RFC8446]
