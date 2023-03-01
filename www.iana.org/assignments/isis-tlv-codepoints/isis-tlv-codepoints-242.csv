@@ -24,8 +24,8 @@ Value,Description,Reference
 22,Segment Routing Local Block (SRLB),[RFC8667]
 23,Node MSD,[RFC8491]
 24,Segment Routing Mapping Server Preference (SRMS Preference),[RFC8667]
-25,SRv6 Capabilities,"[RFC-ietf-lsr-isis-srv6-extensions-18, Section 2]"
-26,Flexible Algorithm Definition (FAD),"[RFC-ietf-lsr-flex-algo-25, Section 5.1]"
+25,SRv6 Capabilities,"[RFC9352, Section 2]"
+26,Flexible Algorithm Definition (FAD),"[RFC9350, Section 5.1]"
 27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2022-06-21, expires 2023-08-08)",[draft-ietf-lsr-dynamic-flooding]
 28,"IS-IS Dynamic Flooding Sub-TLV
         (TEMPORARY - registered 2019-08-08, extension registered 2022-06-21, expires 2023-08-08)",[draft-ietf-lsr-dynamic-flooding]

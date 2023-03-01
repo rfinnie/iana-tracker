@@ -10,4 +10,4 @@ Value,Description,Reference
         decision.  Local policy at the node claiming support for Algorithm
         1 MUST NOT alter the SPF paths computed by Algorithm 1.",[RFC8665]
 2-127,Unassigned,
-128-255,Flexible Algorithms,"[RFC-ietf-lsr-flex-algo-25, Section 4]"
+128-255,Flexible Algorithms,"[RFC9350, Section 4]"

@@ -19,5 +19,7 @@ Status Code,Meaning,Contact,Reference,Change Controller
 1015,TLS handshake,[IESG_HYBI],[RFC6455],
 1016-2999,Unassigned,,,
 3000,Unauthorized,[Leo_Tietz],,
-3001-3999,Unassigned,,,
+3001-3002,Unassigned,,,
+3003,Forbidden,[Ada_Young],,
+3004-3999,Unassigned,,,
 4000-4999,Reserved for Private Use,,[RFC6455],

@@ -19,6 +19,6 @@ LLS Type,Name,Reference
 18,Local Interface ID TLV,[RFC8510]
 19,Reverse Metric TLV,[RFC9339]
 20,Reverse TE Metric TLV,[RFC9339]
-21,Local Interface IPv4 Address TLV,[RFC-ietf-lsr-ospf-bfd-strict-mode-10]
+21,Local Interface IPv4 Address TLV,[RFC9355]
 22-32767,Unassigned,
 32768-65535,Reserved for Private Use,[RFC5613]

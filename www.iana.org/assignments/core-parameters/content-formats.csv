@@ -43,7 +43,7 @@ application/yang-data+cbor; id=sid,,140,[RFC9254]
 Unassigned,,141-255,
 application/coap-group+json,,256,[RFC7390]
 application/concise-problem-details+cbor,,257,[RFC9290]
-application/swid+cbor,,258,[RFC-ietf-sacm-coswid-22]
+application/swid+cbor,,258,[RFC-ietf-sacm-coswid-24]
 Unassigned,,259-270,
 application/dots+cbor,,271,[RFC9132]
 application/missing-blocks+cbor-seq,,272,[RFC9177]
