@@ -5,6 +5,6 @@ Type,Name,Reference
 3,Policy Association,[RFC9005]
 4,Single-Sided Bidirectional LSP Association,[RFC9059]
 5,Double-Sided Bidirectional LSP Association,[RFC9059]
-6,"SR Policy Association (TEMPORARY - registered 2021-03-30, extension registered 2022-02-14, expires 2023-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
+6,"SR Policy Association (TEMPORARY - registered 2021-03-30, extension registered 2023-03-07, expires 2024-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 7,VN Association,[RFC9358]
 8-65535,Unassigned,

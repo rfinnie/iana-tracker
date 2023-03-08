@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2023-02-22</updated>
+  <updated>2023-03-06</updated>
   
   
  
@@ -2176,7 +2176,7 @@ Hence, the media type registry disallows parameters named "q".
     </record>
     <record date="2022-08-01">
       <name>swid+cbor</name>
-      <xref type="draft" data="RFC-ietf-sacm-coswid-22"/>
+      <xref type="draft" data="RFC-ietf-sacm-coswid-24"/>
       <file type="template">application/swid+cbor</file>
     </record>
     <record date="2019-09-03">
@@ -2724,6 +2724,11 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="Steve_Leow"/>
       <file type="template">application/vnd.accpac.simply.imp</file>
     </record>
+    <record date="2023-03-02">
+      <name>vnd.acm.addressxfer+json</name>
+      <xref type="person" data="Sridhar_Ramakrishnan"/>
+      <file type="template">application/vnd.acm.addressxfer+json</file>
+    </record>
     <record>
       <name>vnd.acucobol</name>
       <xref type="person" data="Dovid_Lubin"/>
@@ -3217,6 +3222,11 @@ Hence, the media type registry disallows parameters named "q".
       <name>vnd.cncf.helm.chart.provenance.v1.prov</name>
       <xref type="person" data="Andrew_Block"/>
       <file type="template">application/vnd.cncf.helm.chart.provenance.v1.prov</file>
+    </record>
+    <record date="2023-02-27">
+      <name>vnd.cncf.helm.config.v1+json</name>
+      <xref type="person" data="Andrew_Block"/>
+      <file type="template">application/vnd.cncf.helm.config.v1+json</file>
     </record>
     <record date="2014-11-21">
       <name>vnd.coffeescript</name>
@@ -4987,6 +4997,16 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="Tadashi_Gotoh"/>
       <file type="template">application/vnd.mcd</file>
     </record>
+    <record date="2023-03-06">
+      <name>vnd.mdl</name>
+      <xref type="person" data="Lutz_Kettner"/>
+      <file type="template">application/vnd.mdl</file>
+    </record>
+    <record date="2023-03-02">
+      <name>vnd.mdl-mbsdf</name>
+      <xref type="person" data="Lutz_Kettner"/>
+      <file type="template">application/vnd.mdl-mbsdf</file>
+    </record>
     <record>
       <name>vnd.medcalcdata</name>
       <xref type="person" data="Frank_Schoonjans"/>
@@ -5687,6 +5707,12 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="OASIS_TC_Admin"/>
       <xref type="person" data="OASIS"/>
       <file type="template">application/vnd.oasis.opendocument.text-master</file>
+    </record>
+    <record updated="2023-02-27">
+      <name>vnd.oasis.opendocument.text-master-template</name>
+      <xref type="person" data="OASIS_TC_Admin"/>
+      <xref type="person" data="OASIS"/>
+      <file type="template">application/vnd.oasis.opendocument.text-master-template</file>
     </record>
     <record updated="2022-06-07">
       <name>vnd.oasis.opendocument.text-template</name>
@@ -10859,7 +10885,7 @@ by the IANA.</note>
     <person id="Andrew_Block">
       <name>Andrew Block</name>
       <uri>mailto:andy.block&amp;gmail.com</uri>
-      <updated>2022-10-04</updated>
+      <updated>2023-02-27</updated>
     </person>
     <person id="Kevin_Blumberg">
       <name>Kevin Blumberg</name>
@@ -12261,6 +12287,11 @@ by the IANA.</note>
       <uri>mailto:kkester&amp;digitalriver.com</uri>
       <updated>2015-09-11</updated>
     </person>
+    <person id="Lutz_Kettner">
+      <name>Lutz Kettner</name>
+      <uri>mailto:lkettner&amp;nvidia.com</uri>
+      <updated>2023-03-06</updated>
+    </person>
     <person id="Khronos">
       <name>The Khronos Group</name>
       <uri>http://www.khronos.org</uri>
@@ -13231,6 +13262,11 @@ by the IANA.</note>
       <name>Purva R Rajkotia</name>
       <uri>mailto:prajkoti&amp;qca.qualcomm.com</uri>
       <updated>2012-06-05</updated>
+    </person>
+    <person id="Sridhar_Ramakrishnan">
+      <name>Sridhar Ramakrishnan</name>
+      <uri>mailto:evalsinca&amp;hotmail.com</uri>
+      <updated>2023-03-02</updated>
     </person>
     <person id="Ben_Ramsey">
       <name>Ben Ramsey</name>
