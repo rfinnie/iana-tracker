@@ -146,7 +146,7 @@ simple-filter,urn:ietf:params:xml:schema:simple-filter,schema/simple-filter.xsd,
 smi:base:1.0,urn:ietf:params:xml:schema:smi:base:1.0,schema/smi/base/1.0.xsd,[RFC5935]
 spirits-1.0,urn:ietf:params:xml:schema:spirits-1.0,schema/spirits-1.0.xsd,[RFC3910]
 sppf:1,urn:ietf:params:xml:schema:sppf:1,schema/sppf-1.xsd,[RFC7877]
-tmNotice-1.0,urn:ietf:params:xml:schema:tmNotice-1.0,schema/tmNotice-1.0.xsd,[RFC-ietf-regext-tmch-func-spec-15]
+tmNotice-1.0,urn:ietf:params:xml:schema:tmNotice-1.0,schema/tmNotice-1.0.xsd,[RFC9361]
 traceroute-1.0,urn:ietf:params:xml:schema:traceroute-1.0,schema/traceroute-1.0.xsd,[RFC5388]
 vcard-4.0,urn:ietf:params:xml:schema:vcard-4.0,schema/vcard-4.0.xsd,[RFC7852]
 vts-lang,urn:ietf:params:xml:schema:vts-lang,schema/vts-lang.xsd,[RFC4153]

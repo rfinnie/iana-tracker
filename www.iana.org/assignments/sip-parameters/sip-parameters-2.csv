@@ -85,6 +85,8 @@ Policy-ID,,[RFC6794]
 Priority,,[RFC3261]
 Priority-Share,,"[3GPP TS 24.229 v13.16.0]
       [Frederic_Firmin]"
+Priority-Verstat,,"[3GPP TS 24.229]
+      [Lionel_Morand]"
 Priv-Answer-Mode,,[RFC5373]
 Privacy,,[RFC3323]
 Proxy-Authenticate,,[RFC3261]

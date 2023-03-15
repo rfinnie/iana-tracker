@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-03-03</dd>
+        <dd>2023-03-10</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -1744,7 +1744,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/tmNotice-1.0.txt">ns/tmNotice-1.0.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-regext-tmch-func-spec-15">RFC-ietf-regext-tmch-func-spec-15</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9361">RFC9361</a>]</td>
           </tr>
           <tr>
             <td>traceroute-1.0</td>
@@ -4494,7 +4494,7 @@ Per [<a href="https://www.iana.org/go/rfc6685">RFC6685</a>], IODEF schemas requi
             <td>
               <a href="schema/tmNotice-1.0.xsd">schema/tmNotice-1.0.xsd</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-regext-tmch-func-spec-15">RFC-ietf-regext-tmch-func-spec-15</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9361">RFC9361</a>]</td>
           </tr>
           <tr>
             <td>traceroute-1.0</td>
