@@ -76,6 +76,7 @@ Value,Name,Reference
 0xC05B,GOOG-CONNECTION-ID,[Jonas_Oreland]
 0xC05C,GOOG-DELTA,[Jonas_Oreland]
 0xC05D,GOOG-DELTA-ACK,[Jonas_Oreland]
-0xC05E-0xC05F,Unassigned,
+0xC05E,GOOG-DELTA-SYNC-REQ,[Jonas_Oreland]
+0xC05F-0xC05F,Unassigned,
 0xC060,GOOG-MESSAGE-INTEGRITY-32,[Jonas_Oreland]
 0xC061-0xFFFF,Unassigned,

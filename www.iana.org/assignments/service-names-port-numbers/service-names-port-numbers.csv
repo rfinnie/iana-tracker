@@ -14059,6 +14059,8 @@ bluevertise,,udp,BlueVertise Network Protocol (BNP),[Fabrizio_Guglielmino],[Fabr
 boardplus,,tcp,board plus application transfer protocol,[CX5_SOFTWARE],[Yohei_Yoshihara],2013-02-04,,,,,Defined TXT keys: None
 booked-sync,,tcp,Booked communication protocol - Sharing And Sync Service,[Sören_Havemester],[Sören_Havemester],2013-02-18,,,,,"Defined TXT keys: Edition, Version, Public Shares, Machine ID, Machine Name"
 bookworm,,,Bookworm Client Discovery,[Arne_Dirks],[Arne_Dirks],,,,,,Defined TXT keys: flavors
+bootstrap,,tcp,Bootstrap service discovery,[Pedro_Garcia],[Pedro_Garcia],2023-03-20,,,,,"Defined TXT keys: ""url"": if present, indicates a connection url (i.e. wss://example.com/bootstrap, or https://example.com/bootstrap) to be used by the device for bootstrapping; ""namespace"": identifies the underlying application-level protocol (should be unique for the application protocol, typically a UUID or a URN)"
+bootstrap,,udp,Bootstrap service discovery,[Pedro_Garcia],[Pedro_Garcia],2023-03-20,,,,,"Defined TXT keys: ""url"": if present, indicates a connection url (i.e. wss://example.com/bootstrap, or https://example.com/bootstrap) to be used by the device for bootstrapping; ""namespace"": identifies the underlying application-level protocol (should be unique for the application protocol, typically a UUID or a URN)"
 boundaryscan,,udp,Proprietary,[Uwe_Ziegler],[Uwe_Ziegler],,,,,,"Defined TXT keys: blocked=<name of the device>, version=<firmware/instrument controller version>"
 bousg,,,Bag Of Unusual Strategy Games,,,,,,,,Defined TXT keys: None
 boutfitness,,tcp,Bout Fitness Synchronization Service,[Bout_Fitness_LLC],[Jesse_Curry],2014-06-16,,,,,Defined TXT keys: None

@@ -15,7 +15,7 @@ Address Block,Name,RFC,Allocation Date,Termination Date,Source,Destination,Forwa
 2001:4:112::/48,AS112-v6,[RFC7535],2014-12,N/A,True,True,True,True,False
 2001:10::/28,Deprecated (previously ORCHID),[RFC4843],2007-03,2014-03,,,,,
 2001:20::/28,ORCHIDv2,[RFC7343],2014-07,N/A,True,True,True,True,False
-2001:30::/28,Drone Remote ID Protocol Entity Tags (DETs) Prefix,[RFC-ietf-drip-rid-37],2022-12,N/A,True,True,True,True,False
+2001:30::/28,Drone Remote ID Protocol Entity Tags (DETs) Prefix,[RFC9374],2022-12,N/A,True,True,True,True,False
 2001:db8::/32,Documentation,[RFC3849],2004-07,N/A,False,False,False,False,False
 2002::/16 [3],6to4,[RFC3056],2001-02,N/A,True,True,True,N/A [3],False
 2620:4f:8000::/48,Direct Delegation AS112 Service,[RFC7534],2011-05,N/A,True,True,True,True,False
