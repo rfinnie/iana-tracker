@@ -28,5 +28,6 @@ INFO-CODE,Purpose,Reference
 26,Too Early,[RFC9250]
 27,Unsupported NSEC3 Iterations Value,[RFC9276]
 28,Unable to conform to policy,[draft-homburg-dnsop-codcp-00]
-29-49151,Unassigned,
+29,Synthesized,[https://github.com/PowerDNS/pdns/pull/12334][Otto_Moerbeek]
+30-49151,Unassigned,
 49152-65535,Reserved for Private Use,"[RFC8914, Section 5.2]"

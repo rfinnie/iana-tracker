@@ -9,5 +9,5 @@ Value,Name,Reference
 7,Connection Collision Resolution,[RFC4486]
 8,Out of Resources,[RFC4486]
 9,Hard Reset,[RFC8538]
-10,BFD Down,[RFC-ietf-idr-bfd-subcode-05]
+10,BFD Down,[RFC9384]
 11-255,Unassigned,
