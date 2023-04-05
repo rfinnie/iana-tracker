@@ -1,5 +1,5 @@
 Value,Description,DTLS-OK,Reference
-0-19,Unassigned (Requires coordination; see [RFC7983]),,[RFC5764][RFC7983]
+0-19,Unassigned (Requires coordination; see [RFC-ietf-avtcore-rfc7983bis-09]),,[RFC5764][RFC-ietf-avtcore-rfc7983bis-09]
 20,change_cipher_spec,Y,[RFC8446]
 21,alert,Y,[RFC8446]
 22,handshake,Y,[RFC8446]
@@ -9,4 +9,4 @@ Value,Description,DTLS-OK,Reference
 26,ACK,Y,[RFC9147]
 27-31,Unassigned,,
 32-63,Reserved,,[RFC9147]
-64-255,Unassigned (Requires coordination; see [RFC7983]),,[RFC5764][RFC7983]
+64-255,Unassigned (Requires coordination; see [RFC-ietf-avtcore-rfc7983bis-09]),,[RFC5764][RFC-ietf-avtcore-rfc7983bis-09]

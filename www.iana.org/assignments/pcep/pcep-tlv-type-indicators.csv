@@ -59,11 +59,11 @@ Value,Description,Reference
 57,"SRPOLICY-CPATH-ID (TEMPORARY - registered 2021-03-30, extension registered 2023-03-07, expires 2024-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 58,"SRPOLICY-CPATH-NAME (TEMPORARY - registered 2021-03-30, extension registered 2023-03-07, expires 2024-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
 59,"SRPOLICY-CPATH-PREFERENCE (TEMPORARY - registered 2021-03-30, extension registered 2023-03-07, expires 2024-03-30)",[draft-ietf-pce-segment-routing-policy-cp-06]
-60,"MULTIPATH-CAP (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
-61,"MULTIPATH-WEIGHT (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
-62,"MULTIPATH-BACKUP (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+60,"MULTIPATH-CAP (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
+61,"MULTIPATH-WEIGHT (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
+62,"MULTIPATH-BACKUP (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 63,"MULTIPATH-OPPDIR-PATH
-        (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+        (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 64,LSP-EXTENDED-FLAG,[RFC9357]
 65,VIRTUAL-NETWORK-TLV,[RFC9358]
 66-65503,Unassigned,

@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-   2023-03-20
+   2023-03-30
 
    Expert(s)
 
@@ -15825,7 +15825,7 @@ vtp                16666       udp    Vidder Tunnel Protocol       [Vidder_Inc] 
                 16667-16788           Unassigned
                                       This server provides
                                       callable services to
-cadsisvr           16789       tcp    mainframe External Security  [CA_Technologies]                                     [Thomas_Sakowski]                                         2015-06-02
+cadsisvr           16789       tcp    mainframe External Security  [Broadcom]                                            [Thomas_Sakowski]                                         2015-06-02   2023-03-29
                                       Managers from any TCP/IP
                                       platform
                    16789       udp    Reserved
@@ -17375,6 +17375,13 @@ aeroflex                              software                     [David_Hagood
                                                                                                                                                                                                                                                                                   specification (for not yet LXI compatible instruments)
 aerohive-proxy                 tcp    Aerohive Proxy Configuration [Aerohive_Networks]                                   [Matthew_Gast]                                            2012-05-31                                                                                     Defined TXT keys: name, port, username
                                       Service
+affinity-docs0                 tcp    Affinity Designer document   [Serif_Europe_Ltd]                                    [Tom_Lachecki]                                            2023-03-30                                                                                     Defined TXT keys: Proprietary
+                                      sharing
+affinity-docs1                 tcp    Affinity Photo document      [Serif_Europe_Ltd]                                    [Tom_Lachecki]                                            2023-03-30                                                                                     Defined TXT keys: Proprietary
+                                      sharing
+affinity-docs2                 tcp    Affinity Publisher document  [Serif_Europe_Ltd]                                    [Tom_Lachecki]                                            2023-03-30                                                                                     Defined TXT keys: Proprietary
+                                      sharing
+affinity-cntent                tcp    Affinity content sharing     [Serif_Europe_Ltd]                                    [Tom_Lachecki]                                            2023-03-30                                                                                     Defined TXT keys: Proprietary
 airdrop                        tcp    Airdrop                      [Apple_Inc]                                           [Marc_Krochmal_2]                                         2012-03-02                                                                                     Defined TXT keys: flags, phash, ehash, cname
 airmate                        tcp    Airmate interworking         [Myriel_Aviation_-_Airmate]                           [Daniel_Mavrakis_3]                                       2020-09-21                                                                                     Defined TXT keys: proprietary
                                       protocol
@@ -19831,6 +19838,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Broadband_Forum]                                                                    Broadband Forum          mailto:help&broadband-forum.org                               2020-03-17
 [Brocade_Communications_Systems]                          Brocade Communications                              mailto:ncarter&brocade.com                                    2015-11-17
                                                           Systems
+[Broadcom]                                                                           Broadcom                 mailto:thomas.sakowski&broadcom.com                           2023-03-29
 [Brooks_Bell]                                             Brooks Bell                Layered Logic, Inc.      mailto:brooks&layeredlogic.com                                2012-01-04
 [Bruce_Carlson]                                           Bruce Carlson                                       mailto:bruce.carlson&iprintl.com                              2003-01
 [Bruce_Casey]                                             Bruce Casey                                         mailto:bcasey&responselogic.com
@@ -19872,7 +19880,6 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Byron_Jones]                                             Byron Jones                                         mailto:byronj&bellsouth.net
 [C_Enrique_Ortiz]                                         C. Enrique Ortiz                                    mailto:eortiz&j2medeveloper.com                               2003-01
 [C_Philip_Wood]                                           C. Philip Wood                                      mailto:cpw&lanl.gov
-[CA_Technologies]                                                                    CA Technologies          mailto:sakth01&ca.com                                         2015-06-02
 [Cabel_Sasser]                                            Cabel Sasser               Panic Inc.               mailto:cabel&panic.com                                        2012-07-19
 [CableLabs]                                               CableLabs                                           mailto:info&cablelabs.com                                     2015-11-24
 [CaldSoft]                                                CaldSoft                                            mailto:development&caldsoft.co.uk                             2011-08-12
@@ -23917,6 +23924,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Serguei_Osokine]                                         Serguei Osokine                                     mailto:osokin&paragraph.com
 [Serguei_Tevs]                                            Serguei Tevs                                        mailto:STevs&ivecon.com                                       2002-02
 [Serhij_Symonenko]                                        Serhij Symonenko           Altertech                mailto:div&altertech.com                                      2021-11-12
+[Serif_Europe_Ltd]                                                                   Serif (Europe) Ltd.      mailto:affinity&serif.com                                     2023-03-30
 [Service_Desk_Product]                                    Service Desk Product                                mailto:info&hp.com                                            2006-05
                                                           Manager
 [SEVENSTAX_GmbH]                                          SEVENSTAX GmbH                                      mailto:info&sevenstax.de                                      2015-11-05
@@ -24368,7 +24376,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Thomas_Revesz]                                           Thomas Revesz              Thermo-Calc Software AB  mailto:thomasr&thermocalc.se                                  2012-06-28
 [Thomas_Ruchti]                                           Thomas Ruchti                                       mailto:thomasmruchti&eaton.com                                2003-06
 [Thomas_Russell]                                          Thomas Russell                                      mailto:trussell&scte.org                                      2005-05
-[Thomas_Sakowski]                                         Thomas Sakowski            CA Technologies          mailto:sakth01&ca.com                                         2015-06-02
+[Thomas_Sakowski]                                         Thomas Sakowski            Broadcom                 mailto:thomas.sakowski&broadcom.com                           2023-03-29
 [Thomas_Schleu]                                           Thomas Schleu                                       mailto:tschleu&canto.de
 [Thomas_Schleu_2]                                         Thomas Schleu              Canto                    mailto:tschleu&canto.com                                      2014-02-26
 [Thomas_Schmidt]                                          Thomas Schmidt                                      mailto:ts&bintec.de
@@ -24475,6 +24483,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Tom_Hennessy]                                            Tom Hennessy                                        mailto:thenn&novadigm.com
 [Tom_Herbert]                                             Tom Herbert                                         mailto:tom&herbertland.com                                    2017-05-19
 [Tom_Kee]                                                 Tom Kee                                             mailto:t.kee&f5.com
+[Tom_Lachecki]                                            Tom Lachecki               Serif (Europe) Ltd.      mailto:tlachecki&serif.com                                    2023-03-30
 [Tom_Lake]                                                Tom Lake                                            mailto:tlake&m-ware.com
 [Tom_Lane]                                                Tom Lane                                            mailto:tgl&sss.pgh.pa.us
 [Tom_Lemaire]                                             Tom Lemaire                                         mailto:toml&banyan.com

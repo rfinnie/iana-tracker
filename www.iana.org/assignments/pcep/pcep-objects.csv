@@ -144,8 +144,8 @@ Object-Class Value,Name,Object-Type,Reference
 44,CCI Object-Type,0: Reserved,[RFC9050]
 ,,1: MPLS Label,[RFC9050]
 ,,2-15: Unassigned,
-45,"PATH-ATTRIB (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",0: Reserved,[draft-ietf-pce-multipath-05]
-,,1: PATH-ATTRIB,[draft-ietf-pce-multipath-05]
+45,"PATH-ATTRIB (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",0: Reserved,[draft-ietf-pce-multipath-07]
+,,1: PATH-ATTRIB,[draft-ietf-pce-multipath-07]
 ,,2-15: Unassigned,
 46-247,Unassigned,0: Reserved,[RFC Errata 4956]
 ,,1-15: Unassigned,
