@@ -15,7 +15,7 @@ Community Sub-Types"" registry)",[RFC7153],
 0x45-0x46,Unassigned,,
 0x47,FlowSpec Non-Transitive Extended Communities,[draft-ietf-idr-flowspec-interfaceset],2016-03-16
 0x48-0x49,Unassigned,,
-0x4a,Transport Class,[draft-kaliraj-idr-bgp-classful-transport-planes],2020-07-01
+0x4a,Transport Class,[draft-ietf-idr-bgp-ct-03],2020-07-01
 0x4b-0x7f,Unassigned,,
 0xc0-0xcf,Reserved for Experimental Use,[RFC7153],2012-09-28
 0xd0-0xff,Unassigned,,

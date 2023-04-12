@@ -12,6 +12,7 @@ global-disposition-notification,message/global-disposition-notification,[RFC6533
 global-headers,message/global-headers,[RFC6533]
 http,message/http,[RFC9112]
 imdn+xml,message/imdn+xml,[RFC5438]
+mls,message/mls,[RFC-ietf-mls-protocol-20]
 news (OBSOLETED by [RFC5537]),message/news,[RFC5537][Henry_Spencer]
 ohttp-req,message/ohttp-req,[RFC-ietf-ohai-ohttp-08]
 ohttp-res,message/ohttp-res,[RFC-ietf-ohai-ohttp-08]

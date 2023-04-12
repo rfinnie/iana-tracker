@@ -99,7 +99,7 @@ Error-Type,Meaning,Error-value,Reference
 ,,"36: RRO mixes SRv6-RRO subobjects with other subobject types (TEMPORARY - registered 2022-01-12, extension registered 2022-12-12, expires 2024-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,"37: Invalid SRv6 SID Structure (TEMPORARY - registered 2022-01-12, extension registered 2022-12-12, expires 2024-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,"38: Conflicting Path ID
-        (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+        (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 ,,39-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
@@ -158,9 +158,9 @@ Error-Type,Meaning,Error-value,Reference
 ,,18: Unknown Label,[RFC9050]
 ,,"19: Attempted SRv6 when the capability was not advertised (TEMPORARY - registered 2022-01-12, extension registered 2022-12-12, expires 2024-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,"20: Not supported path backup
-        (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+        (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 ,,"21: Non-empty path
-        (TEMPORARY - registered 2022-05-09, expires 2023-05-09)",[draft-ietf-pce-multipath-05]
+        (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 ,,22-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
