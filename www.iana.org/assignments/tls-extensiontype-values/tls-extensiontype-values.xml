@@ -5,7 +5,7 @@
   <title>Transport Layer Security (TLS) Extensions</title>
   <category>Transport Layer Security (TLS)</category>
   <created>2005-11-15</created>
-  <updated>2023-04-11</updated>
+  <updated>2023-04-12</updated>
   
   
   <registry id="tls-extensiontype-values-1">
@@ -529,7 +529,7 @@ authenticator requests.
       <xref type="rfc" data="rfc9102"/>
       <xref type="rfc-errata" data="6860"/>
     </record>
-    <record date="2023-04-11">
+    <record date="2023-04-11" updated="2023-04-12">
       <value>60</value>
       <name>sequence_number_encryption_algorithms</name>
       <tls13>CH, HRR, SH</tls13>
