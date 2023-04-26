@@ -6,3 +6,4 @@ Type Code,Attribute,Reference
 169,DNS-Server-IPv6-Address,[RFC6911]
 171,Delegated-IPv6-Prefix-Pool,[RFC6911]
 172,Stateful-IPv6-Address-Pool,[RFC6911]
+245.3,DHCPv6-Options,[RFC-ietf-opsawg-add-encrypted-dns-12]

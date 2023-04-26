@@ -5,7 +5,7 @@
   <title>IS-IS TLV Codepoints</title>
   <category>IS-IS</category>
   <created>2003-05-06</created>
-  <updated>2023-04-05</updated>
+  <updated>2023-04-20</updated>
   <note>For IS-IS registries and value ranges maintained via the "Expert 
 Review" <xref type="rfc" data="rfc8126"/> registration procedure, guidance for IESG-designated 
 experts can be found in <xref type="rfc" data="rfc7370"/>.
@@ -673,7 +673,7 @@ Network Service (ISO 8473)", International Standard 10589:
       <SNP>n</SNP>
       <purge>n</purge>
       <status>
-        <xref type="rfc" data="RFC9377"/>
+        <xref type="rfc" data="rfc9377"/>
       </status>
     </record>
     <record>
@@ -1482,7 +1482,7 @@ n - sub-TLV MUST NOT appear in TLV 25
       <TLV_141>y</TLV_141>
       <TLV_222>y</TLV_222>
       <TLV_223>y</TLV_223>
-      <xref type="rfc" data="RFC9377"/>
+      <xref type="rfc" data="rfc9377"/>
     </record>
     <record>
       <value>162-249</value>
@@ -2106,7 +2106,7 @@ the IESG.
     <record date="2020-08-05">
       <value>161</value>
       <description>Flood Reflection Discovery</description>
-      <xref type="rfc" data="RFC9377"/>
+      <xref type="rfc" data="rfc9377"/>
     </record>
     <record>
       <value>162-255</value>
@@ -2120,7 +2120,7 @@ the IESG.
       <registration_rule>Expert Review</registration_rule>
       <description>This registry defines sub-sub-TLVs for the SRv6 Capabilities sub-TLV (25)
 advertised in the IS-IS Router CAPABILITY TLV (242).</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record date="2021-11-24">
         <value>0</value>
         <description>Reserved</description>
@@ -2139,7 +2139,7 @@ advertised in the IS-IS Router CAPABILITY TLV (242).</description>
       <description>This registry defines bit values advertised in the Flags field of the
 SRv6 Capabilities sub-TLV (25). This sub-TLV is advertised in the 
 IS-IS Router CAPABILITY TLV (242).</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record>
         <value>0</value>
         <description>Unassigned</description>
@@ -2426,7 +2426,7 @@ the following sub-TLVs:
 SRv6 End SID (5) (Advertised in SRv6 Locator TLV (27))
 SRv6 End.X SID (43) (Advertised in TLVs advertising neighbor information)
 SRv6 LAN End.X SID (44) (Advertised in TLVs advertising neighbor information)</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record>
         <value>0</value>
         <description>Reserved</description>
@@ -2452,7 +2452,7 @@ SRv6 LAN End.X SID (44) (Advertised in TLVs advertising neighbor information)</d
       <registration_rule>Expert Review</registration_rule>
       <description>This registry defines bit values advertised in the Flags field of the
 SRv6 Locator TLV (27).</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record date="2021-11-24">
         <value>0</value>
         <description>D-flag</description>
@@ -2471,7 +2471,7 @@ SRv6 Locator TLV (27).</description>
       <description>This registry defines bit values advertised in the Flags field of the
 SRv6 End SID sub-TLV (5), which is advertised in the SRv6 Locator TLV
 (27).</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record>
         <value>0-7</value>
         <description>Unassigned</description>
@@ -2489,7 +2489,7 @@ sub-TLVs includes:
 
 SRv6 End.X SID (43)
 SRv6 LAN End.X SID (44)</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record date="2021-11-24">
         <value>0</value>
         <description>B-flag</description>
@@ -2515,7 +2515,7 @@ SRv6 LAN End.X SID (44)</description>
       <title>IS-IS Sub-Sub-TLVs for Flexible Algorithm Definition Sub-TLV</title>
       <xref type="rfc" data="rfc9350"/>
       <registration_rule>Expert Review</registration_rule>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record date="2022-10-14">
         <value>0</value>
         <description>Reserved</description>
@@ -2582,11 +2582,11 @@ SRv6 LAN End.X SID (44)</description>
 
     <registry id="isis-sub-sub-tlvs-flood-reflection-discovery-sub-tlv">
       <title>IS-IS Sub-Sub-TLVs for Flood Reflection Discovery Sub-TLV</title>
-      <xref type="rfc" data="RFC9377"/>
+      <xref type="rfc" data="rfc9377"/>
       <registration_rule>Expert Review</registration_rule>
       <description>This registry contains assigned sub-sub-TLV identifiers for Flood 
 Reflection Discovery purposes.</description>
-      <expert>Unassigned</expert>
+      <expert>Chris Hopps, Hannes Gredler, Les Ginsberg</expert>
       <record>
         <value>0-160</value>
         <description>Unassigned</description>
@@ -2594,7 +2594,7 @@ Reflection Discovery purposes.</description>
       <record date="2022-12-13">
         <value>161</value>
         <description>Flood Reflection Discovery Tunnel Encapsulation Attribute</description>
-        <xref type="rfc" data="RFC9377"/>
+        <xref type="rfc" data="rfc9377"/>
       </record>
       <record>
         <value>162-255</value>

@@ -14954,6 +14954,8 @@ usp-ctr-ws,,tcp,USP discovery,[Broadband_Forum],[Broadband_Forum],2017-09-28,,[h
 uswi,,,Universal Switching Corporation products,[Roger_Lemberg],[Roger_Lemberg],,,,,,Defined TXT keys: None
 utest,,,uTest,[Gregory_Power],[Gregory_Power],,,,,,Defined TXT keys: None
 uwsgi,,,Unbit Web Server Gateway Interface,[Roberto_De_Ioris],[Roberto_De_Ioris],,,,,,Defined TXT keys: None
+vapix-http,,tcp,Indicator for VAPIX support over HTTP,[Axis_Communications],[Christian_Storm],2023-04-18,,,,,Defined TXT keys: https://help.axis.com/en-us/axis-os#axis-bonjour-implementation
+vapix-https,,tcp,Indicator for VAPIX support over HTTPS,[Axis_Communications],[Christian_Storm],2023-04-18,,,,,Defined TXT keys: https://help.axis.com/en-us/axis-os#axis-bonjour-implementation
 ve-decoder,,,American Dynamics VideoEdge Decoder Control Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, path, idp"
 ve-encoder,,,American Dynamics VideoEdge Encoder Control Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, path, idp"
 ve-recorder,,,American Dynamics VideoEdge Recorder Control Service,[Gary_Sands],[Gary_Sands],,,,,,"Defined TXT keys: txtvers, macaddress, protovers, model, serial, path, idp"

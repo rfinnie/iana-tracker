@@ -21,5 +21,6 @@ Option Class,Description,Assignee,Contact,Reference
 0x014A,EMnify GmbH,[EMnify_GmbH],[Nick_Zavaritsky],
 0x014B,Cilium,[Cilium],[Cilium_Committers],
 0x014C,"Corelight, Inc.",[Corelight],[Corelight-IANA],
-0x014D-0xFEFF,Unassigned,,,
+0x014D,1NCE GmbH,[_1NCE_GmbH],[Ervins_Kampans],
+0x014E-0xFEFF,Unassigned,,,
 0xFF00-0xFFFF,Reserved for Experimental Use,,,[RFC8926]
