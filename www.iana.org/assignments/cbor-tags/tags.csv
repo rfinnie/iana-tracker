@@ -169,7 +169,9 @@ at array index 2k and imaginary (Q) part at index (2k + 1)",[Saajan_Chana],templ
 60002,array,The tagged CBOR array contains attestation evidence data with an Intel SGX report.,[Shanwei_Cen],template/60002
 60003-65534,Unassigned,,,
 65535,(none valid),always invalid; see Section 10.1,[draft-bormann-cbor-notable-tags-02],
-65536-15309735,Unassigned,,,
+65536-79999,Unassigned,,,
+80000-80099,"byte string, array or map",Private tags as suggested in [https://mailarchive.ietf.org/arch/msg/cbor/NJlskB63pjXFt5a6S37tiwJBbCM].,[Tony_Putman],template/80000-80099
+80100-15309735,Unassigned,,,
 15309736,map (major type 5),RAINS Message,[https://britram.github.io/rains-prototype][Brian_Trammell],
 15309737-1330664269,Unassigned,,,
 1330664270,byte-string,"A CBOR encoded Openswan configuration file, as stored on disk for

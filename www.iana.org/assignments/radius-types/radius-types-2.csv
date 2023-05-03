@@ -226,7 +226,9 @@ Value,Description,Data Type,Reference
 245,Extended-Attribute-5,long-extended,[RFC6929]
 245.1,SAML-Assertion,text,[RFC7833]
 245.2,SAML-Protocol,text,[RFC7833]
-245.{3-25},Unassigned,,
+245.3,DHCPv6-Options,string,[RFC-ietf-opsawg-add-encrypted-dns-12]
+245.4,DHCPv4-Options,string,[RFC-ietf-opsawg-add-encrypted-dns-12]
+245.{5-25},Unassigned,,
 245.26,Extended-Vendor-Specific-5,evs,[RFC6929]
 245.{27-240},Unassigned,,
 245.{241-255},Reserved,,[RFC6929]

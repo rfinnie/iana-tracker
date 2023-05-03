@@ -45,7 +45,7 @@ Option",[RFC5568]
 138,CARD Request option,[RFC4065]
 139,CARD Reply option,[RFC4065]
 140-143,Unassigned,
-144,Encrypted DNS Option,[RFC-ietf-add-dnr-13]
+144,Encrypted DNS Option,[RFC-ietf-add-dnr-16]
 145-252,Unassigned,
 253,RFC3692-style Experiment 1 [1],[RFC4727]
 254,RFC3692-style Experiment 2 [1],[RFC4727]

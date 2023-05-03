@@ -3,7 +3,7 @@
                                                                      Media Types
 
    Last Updated
-   2023-04-18
+   2023-05-02
 
    Registration Procedure(s)
 
@@ -190,6 +190,7 @@ dns                                                                      applica
 dns+json                                                                 application/dns+json                                                                 [RFC8427]
 dns-message                                                              application/dns-message                                                              [RFC8484]
 dots+cbor                                                                application/dots+cbor                                                                [RFC9132]
+dpop+jwt                                                                 application/dpop+jwt                                                                 [RFC-ietf-oauth-dpop-16]
 dskpp+xml                                                                application/dskpp+xml                                                                [RFC6063]
 dssc+der                                                                 application/dssc+der                                                                 [RFC5698]
 dssc+xml                                                                 application/dssc+xml                                                                 [RFC5698]
@@ -261,6 +262,7 @@ ipfix                                                                    applica
 ipp                                                                      application/ipp                                                                      [RFC8010]
 ISUP                                                                     application/ISUP                                                                     [RFC3204]
 its+xml                                                                  application/its+xml                                                                  [W3C][ITS-IG-W3C]
+java-archive                                                             application/java-archive                                                             [JCP][Iris_Clark]
 javascript (OBSOLETED in favor of text/javascript)                       application/javascript                                                               [RFC4329][RFC9239]
 jf2feed+json                                                             application/jf2feed+json                                                             [W3C][Ivan_Herman]
 jose                                                                     application/jose                                                                     [RFC7515]
@@ -390,13 +392,16 @@ pls+xml                                                                  applica
 poc-settings+xml                                                         application/poc-settings+xml                                                         [RFC4354]
 postscript                                                               application/postscript                                                               [RFC2045][RFC2046]
 ppsp-tracker+json                                                        application/ppsp-tracker+json                                                        [RFC7846]
-problem+json                                                             application/problem+json                                                             [RFC7807]
-problem+xml                                                              application/problem+xml                                                              [RFC7807]
+problem+json                                                             application/problem+json                                                             [RFC-ietf-httpapi-rfc7807bis-07]
+problem+xml                                                              application/problem+xml                                                              [RFC-ietf-httpapi-rfc7807bis-07]
 provenance+xml                                                           application/provenance+xml                                                           [W3C][Ivan_Herman]
 prs.alvestrand.titrax-sheet                                              application/prs.alvestrand.titrax-sheet                                              [Harald_T._Alvestrand]
 prs.cww                                                                  application/prs.cww                                                                  [Khemchart_Rungchavalnont]
 prs.cyn                                                                  application/prs.cyn                                                                  [Cynthia_Revström]
 prs.hpub+zip                                                             application/prs.hpub+zip                                                             [Giulio_Zambon]
+prs.implied-document+xml                                                 application/prs.implied-document+xml                                                 [Marek_Čermák]
+prs.implied-executable                                                   application/prs.implied-executable                                                   [Marek_Čermák]
+prs.implied-structure                                                    application/prs.implied-structure                                                    [Marek_Čermák]
 prs.nprend                                                               application/prs.nprend                                                               [Jay_Doggett]
 prs.plucker                                                              application/prs.plucker                                                              [Bill_Janssen]
 prs.rdf-xml-crypt                                                        application/prs.rdf-xml-crypt                                                        [Toby_Inkster]
@@ -2336,6 +2341,7 @@ video
    [Tom_Christie]                                     Tom Christie              mailto:tom&tomchristie.com                             2013-09-06
    [Shay_Cicelsky]                                    Shay Cicelsky             mailto:shayc&everad.com                                2000-05-20
    [Martin_Cizek]                                     Martin Cizek              mailto:martin.cizek&cuzk.cz                            2022-08-03
+   [Iris_Clark]                                       Iris Clark                mailto:pmo&jcp.org                                     2023-04-27
    [John_Clark]                                       John Clark                mailto:jclark&dbvision.net                             2002-06-20
    [Gordon_Clarke]                                    Gordon Clarke             mailto:gedcom&familysearch.org                         2021-12-07
    [Gary_Clueit]                                      Gary Clueit               mailto:clueit&airzip.com                               2012-06-05
@@ -2355,6 +2361,7 @@ video
    [Michael_R._Crusoe]                                Michael R. Crusoe         mailto:mrc&commonwl.org                                2022-05-09
    [Frank_Cusack]                                     Frank Cusack              mailto:frank&tri-dsystems.com                          2007-07-05
    [CWL_Project]                                      CWL Project               mailto:commonworkflowlanguage&sfconservancy.org        2022-05-09
+   [Marek_Čermák]                                     Marek Čermák              mailto:cermmarek&gmail.com                             2023-05-02
    [Claire_DEsclercs]                                 Claire D'Esclercs         mailto:contact&oipf.tv                                 2011-02-25
    [Erik_Dahlström]                                   Erik Dahlström            mailto:erik.dahlstrom&maxar.com                        2022-02-01
    [Priya_Dandawate]                                  Priya Dandawate           mailto:pdandaw&microsoft.com                           2013-07-23
@@ -2570,6 +2577,8 @@ video
    [Prakash_Iyer]                                     Prakash Iyer              mailto:Prakash.iyer&intel.com                          2008-02-07
    [Ronald_Jacobs]                                    Ronald Jacobs             mailto:ron.jacobs&shopkick.com                         2019-07-08
    [Bill_Janssen]                                     Bill Janssen              mailto:bill&janssen.org                                2002-06-20
+   [JCP]                                              Java Community Process    mailto:pmo&jcp.org                                     2023-04-27
+                                                      (JCP)
    [Jegulsky]                                         Alexander Jegulsky        mailto:alexj&bekitzur.com                              2013-11-20
    [Stefan_Jernberg]                                  Stefan Jernberg           mailto:SJernber&TIBCO.com                              2006-09-13
    [Ken_Jibiki]                                       Ken Jibiki                mailto:ken&kenjij.com                                  2010-07-23

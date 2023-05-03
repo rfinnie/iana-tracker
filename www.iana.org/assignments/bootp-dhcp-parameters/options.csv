@@ -180,7 +180,7 @@ applications",,,
 159,OPTION_V4_PORTPARAMS,4,This option is used to configure a set of ports bound to a shared IPv4 address.,[RFC7618]
 160,Unassigned,,Previously assigned by [RFC7710]; known to also be used by Polycom.,[RFC7710][RFC8910]
 161,OPTION_MUD_URL_V4,N (variable),Manufacturer Usage Descriptions,[RFC8520]
-162,OPTION_V4_DNR,N,Encrypted DNS Server,[RFC-ietf-add-dnr-13]
+162,OPTION_V4_DNR,N,Encrypted DNS Server,[RFC-ietf-add-dnr-16]
 163-174,Unassigned,,,[RFC3942]
 175,"Etherboot (Tentatively Assigned -
 2005-06-23)",,,
