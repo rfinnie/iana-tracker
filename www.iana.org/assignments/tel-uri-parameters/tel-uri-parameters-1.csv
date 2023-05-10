@@ -1,6 +1,6 @@
 Parameter Name,Predefined Values,Reference
 isub,Constrained,[RFC3966]
-isub-encoding,Constrained,[RFC4715]
+isub-encoding,Constrained,[RFC4715][3GPP TS 24.229][Lionel_Morand]
 ext,Constrained,[RFC3966]
 phone-context,Constrained,[RFC3966]
 enumdi,No value,[RFC4759]

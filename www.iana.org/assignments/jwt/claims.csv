@@ -110,3 +110,4 @@ also_known_as,"Stage name, religious name or any other type of alias/pseudonym w
 htm,The HTTP method of the request,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
 htu,The HTTP URI of the request (without query and fragment parts),[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
 ath,The base64url encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
+atc,Authority Token Challenge,[IETF],[RFC-ietf-acme-authority-token-09]

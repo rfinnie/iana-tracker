@@ -23,3 +23,5 @@ invalid_target,"implicit grant error response, token error response",resource pa
 unsupported_pop_key,token error response,[RFC9200],IETF,"[RFC9200, Section 5.8.3]"
 incompatible_ace_profiles,token error response,[RFC9200],IETF,"[RFC9200, Section 5.8.3]"
 invalid_authorization_details,"token endpoint, authorization endpoint",OAuth 2.0 Rich Authorization Requests,IETF,"[RFC-ietf-oauth-rar-22, Section 5]"
+invalid_dpop_proof,"token error response, resource access error response",Demonstrating Proof of Possession (DPoP),IETF,[RFC-ietf-oauth-dpop-16]
+use_dpop_nonce,"token error response, resource access error response",Demonstrating Proof of Possession (DPoP),IETF,[RFC-ietf-oauth-dpop-16]

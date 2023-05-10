@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-03-10</dd>
+        <dd>2023-05-05</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2067,6 +2067,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc9314">RFC9314</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-bfd-unsolicited</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-bfd-unsolicited</td>
+            <td>
+              <a href="ns/yang/ietf-bfd-unsolicited.txt">ns/yang/ietf-bfd-unsolicited.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-bfd-unsolicited-16">RFC-ietf-bfd-unsolicited-16</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-complex-type-instance</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-complex-type-instance</td>
             <td>
@@ -2736,7 +2744,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-network-vpn-pm.txt">ns/yang/ietf-network-vpn-pm.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-yang-vpn-service-pm-15">RFC-ietf-opsawg-yang-vpn-service-pm-15</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9375">RFC9375</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-nmda-compare</td>

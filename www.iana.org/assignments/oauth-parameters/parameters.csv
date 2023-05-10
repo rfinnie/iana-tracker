@@ -71,3 +71,4 @@ req_cnf,token request,IETF,"[RFC9201, Section 5]"
 rs_cnf,token response,IETF,"[RFC9201, Section 5]"
 cnf,token response,IETF,"[RFC9201, Section 5]"
 authorization_details,"authorization request, token request, token response",IETF,[RFC-ietf-oauth-rar-22]
+dpop_jkt,authorization request,IETF,"[RFC-ietf-oauth-dpop-16, Section 10]"
