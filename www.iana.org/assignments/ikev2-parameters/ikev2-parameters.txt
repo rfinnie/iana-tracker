@@ -6,7 +6,7 @@
    2005-01-18
 
    Last Updated
-   2023-05-08
+   2023-05-15
 
    Available Formats
    [IMG]
@@ -762,12 +762,12 @@ IKEv2 Traffic Selector Types
    [IMG]
    CSV
 
-    Value       TS Type                     Reference
+    Value       TS Type                    Reference
      0-6   Reserved           [RFC7296]
       7    TS_IPV4_ADDR_RANGE [RFC7296]
       8    TS_IPV6_ADDR_RANGE [RFC7296]
       9    TS_FC_ADDR_RANGE   [RFC4595]
-     10    TS_SECLABEL        [draft-ietf-ipsecme-labeled-ipsec-04]
+     10    TS_SECLABEL        [RFC-ietf-ipsecme-labeled-ipsec-12]
    11-240  Unassigned
    241-255 Private use        [RFC7296]
 
@@ -847,7 +847,10 @@ IKEv2 Configuration Payload Attribute Types
        24      TIMEOUT_PERIOD_FOR_LIVENESS_CHECK NO           0 or 4 octets  [TS 24.302 13.4.0][Frederic_Firmin]
        25      INTERNAL_DNS_DOMAIN               YES          0 or more      [RFC8598]
        26      INTERNAL_DNSSEC_TA                YES          0 or more      [RFC8598]
-    27-16383   Unassigned
+       27      ENCDNS_IP4                        YES          0 or more      [RFC-ietf-ipsecme-add-ike-14]
+       28      ENCDNS_IP6                        YES          0 or more      [RFC-ietf-ipsecme-add-ike-14]
+       29      ENCDNS_DIGEST_INFO                YES          0 or more      [RFC-ietf-ipsecme-add-ike-14]
+    30-16383   Unassigned
    16384-32767 Private Use                                                   [RFC7296]
 
 IKEv2 Gateway Identity Types

@@ -5,6 +5,7 @@ Next Protocol,Description,Reference
 0x03,Ethernet,[RFC8300]
 0x04,NSH,[RFC8300]
 0x05,MPLS,[RFC8300]
-0x06-0xFD,Unassigned,
+0x06,IOAM (Next protocol is an IOAM header),[RFC-ietf-sfc-ioam-nsh-13]
+0x07-0xFD,Unassigned,
 0xFE,Experiment 1,[RFC8300]
 0xFF,Experiment 2,[RFC8300]

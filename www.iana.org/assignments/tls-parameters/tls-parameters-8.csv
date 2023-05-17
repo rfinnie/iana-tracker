@@ -61,7 +61,9 @@ Value,Description,DTLS-OK,Recommended,Reference,Comment
 19018,Reserved,Y,N,[RFC8701],
 19019-23129,Unassigned,,,,
 23130,Reserved,Y,N,[RFC8701],
-23131-27241,Unassigned,,,,
+23131-25496,Unassigned,,,,
+25497,X25519Kyber768Draft00,Y,N,[draft-tls-westerbaan-xyber768d00-02],Pre-standards version of Kyber768
+25498-27241,Unassigned,,,,
 27242,Reserved,Y,N,[RFC8701],
 27243-31353,Unassigned,,,,
 31354,Reserved,Y,N,[RFC8701],

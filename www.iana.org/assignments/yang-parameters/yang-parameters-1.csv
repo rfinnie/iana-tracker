@@ -79,6 +79,7 @@ ietf-i2nsf-ikec,ietf-i2nsf-ikec@2021-07-14.yang,N,urn:ietf:params:xml:ns:yang:ie
 ietf-i2nsf-ikeless,ietf-i2nsf-ikeless@2021-07-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-ikeless,nsfikels,,[RFC9061],
 ietf-i2nsf-monitoring-interface,,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-monitoring-interface,i2nsfmi,,[RFC-ietf-i2nsf-nsf-monitoring-data-model-19],[RFC-ietf-i2nsf-nsf-monitoring-data-model-19]'s module file will be posted upon the document's publication as an RFC.
 ietf-i2nsf-nsf-facing-interface,,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-nsf-facing-interface,i2nsfnfi,,[RFC-ietf-i2nsf-nsf-facing-interface-dm-28],[RFC-ietf-i2nsf-nsf-facing-interface-dm-28]'s module file will be posted upon the document's publication as an RFC.
+ietf-i2nsf-registration-interface,,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-registration-interface,i2nsfri,,[RFC-ietf-i2nsf-registration-interface-dm-26],[RFC-ietf-i2nsf-registration-interface-dm-26]'s module file will be posted upon the document's publication as an RFC.
 ietf-i2rs-rib,ietf-i2rs-rib@2018-09-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2rs-rib,iir,,[RFC8431],
 ietf-igmp-mld,ietf-igmp-mld@2019-11-01.yang,N,urn:ietf:params:xml:ns:yang:ietf-igmp-mld,igmp-mld,,[RFC8652],
 ietf-igmp-mld-proxy,,N,urn:ietf:params:xml:ns:yang:ietf-igmp-mld-proxy,igmp-mld-proxy,,[RFC-ietf-pim-igmp-mld-proxy-yang-10],[RFC-ietf-pim-igmp-mld-proxy-yang-10]'s module file will be posted upon the document's publication as an RFC.
@@ -124,6 +125,7 @@ ietf-mpls-ldp,ietf-mpls-ldp@2022-03-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-m
 ietf-mpls-ldp-extended,ietf-mpls-ldp-extended@2022-03-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp-extended,ldp-ext,,[RFC9070],
 ietf-msdp,ietf-msdp@2020-10-31.yang,N,urn:ietf:params:xml:ns:yang:ietf-msdp,msdp,,[RFC8916],
 ietf-mud,ietf-mud@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-mud,ietf-mud,,[RFC8520],
+ietf-mud,,N,urn:ietf:params:xml:ns:yang:ietf-mud-transparency,mudtx,,[RFC-ietf-opsawg-sbom-access-18],[RFC-ietf-opsawg-sbom-access-18]'s module file will be posted upon the document's publication as an RFC.
 ietf-nat,ietf-nat@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nat,nat,,[RFC8512],
 ietf-netconf,ietf-netconf@2011-06-01.yang,N,urn:ietf:params:xml:ns:netconf:base:1.0,nc,,[RFC6241],
 ietf-netconf-acm,ietf-netconf-acm@2012-02-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-netconf-acm,nacm,,[RFC6536],
