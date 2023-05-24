@@ -6,7 +6,7 @@
    2005-01-18
 
    Last Updated
-   2023-05-15
+   2023-05-23
 
    Available Formats
    [IMG]
@@ -60,7 +60,7 @@ IKEv2 Exchange Types
    [IMG]
    CSV
 
-    Value    Exchange Type                   Reference
+    Value    Exchange Type          Reference
     0-33   Reserved           [RFC7296]
      34    IKE_SA_INIT        [RFC7296]
      35    IKE_AUTH           [RFC7296]
@@ -72,7 +72,7 @@ IKEv2 Exchange Types
      41    GSA_REKEY          [draft-yeung-g-ikev2]
      42    Unassigned
      43    IKE_INTERMEDIATE   [RFC9242]
-     44    IKE_FOLLOWUP_KE    [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+     44    IKE_FOLLOWUP_KE    [RFC9370]
    45-239  Unassigned
    240-255 Private use        [RFC7296]
 
@@ -132,15 +132,14 @@ Transform Type Values
  Tero Kivinen, Valery Smyslov
 
    Reference
-   [RFC7296][RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+   [RFC7296][RFC9370]
 
    Note
 
  "Key Exchange Method (KE)" transform type was originally
  named "Diffie-Hellman Group (D-H)" and was referenced by
  that name in a number of RFCs published prior
- to [RFC-ietf-ipsecme-ikev2-multiple-ke-12], which
- gave it the current title.
+ to [RFC9370], which gave it the current title.
 
 
    Note
@@ -154,20 +153,20 @@ Transform Type Values
    [IMG]
    CSV
 
-    Type              Description                       Used In                              Reference
+    Type              Description                       Used In               Reference
       0    Reserved                                                       [RFC7296]
       1    Encryption Algorithm (ENCR)        (IKE and ESP)               [RFC7296]
       2    Pseudo-random Function (PRF)       (IKE)                       [RFC7296]
       3    Integrity Algorithm (INTEG)        (IKE, AH, optional in ESP)  [RFC7296]
-      4    Key Exchange Method (KE)           (IKE, optional in AH & ESP) [RFC7296][RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+      4    Key Exchange Method (KE)           (IKE, optional in AH & ESP) [RFC7296][RFC9370]
       5    Extended Sequence Numbers (ESN)    (AH and ESP)                [RFC7296]
-      6    Additional Key Exchange 1 (ADDKE1) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-      7    Additional Key Exchange 2 (ADDKE2) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-      8    Additional Key Exchange 3 (ADDKE3) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-      9    Additional Key Exchange 4 (ADDKE4) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-     10    Additional Key Exchange 5 (ADDKE5) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-     11    Additional Key Exchange 6 (ADDKE6) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
-     12    Additional Key Exchange 7 (ADDKE7) (optional in IKE, AH, ESP)  [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+      6    Additional Key Exchange 1 (ADDKE1) (optional in IKE, AH, ESP)  [RFC9370]
+      7    Additional Key Exchange 2 (ADDKE2) (optional in IKE, AH, ESP)  [RFC9370]
+      8    Additional Key Exchange 3 (ADDKE3) (optional in IKE, AH, ESP)  [RFC9370]
+      9    Additional Key Exchange 4 (ADDKE4) (optional in IKE, AH, ESP)  [RFC9370]
+     10    Additional Key Exchange 5 (ADDKE5) (optional in IKE, AH, ESP)  [RFC9370]
+     11    Additional Key Exchange 6 (ADDKE6) (optional in IKE, AH, ESP)  [RFC9370]
+     12    Additional Key Exchange 7 (ADDKE7) (optional in IKE, AH, ESP)  [RFC9370]
    13-240  Unassigned
    241-255 Private use                                                    [RFC7296]
 
@@ -280,7 +279,7 @@ Transform Type Values
    [IMG]
    CSV
 
-     Number           Name                 Status                Reference
+     Number           Name                 Status          Reference
        0      Reserved                                   [RFC7296]
        1      PRF_HMAC_MD5          DEPRECATED [RFC8247] [RFC2104]
        2      PRF_HMAC_SHA1                              [RFC2104]
@@ -290,7 +289,7 @@ Transform Type Values
        6      PRF_HMAC_SHA2_384                          [RFC4868]
        7      PRF_HMAC_SHA2_512                          [RFC4868]
        8      PRF_AES128_CMAC                            [RFC4615]
-       9      PRF_HMAC_STREEBOG_512                      [RFC-smyslov-ike2-gost-15]
+       9      PRF_HMAC_STREEBOG_512                      [RFC9385]
     10-1023   Unassigned
    1024-65535 Private use                                [RFC7296]
 
@@ -347,15 +346,14 @@ Transform Type Values
  Tero Kivinen, Valery Smyslov
 
    Reference
-   [RFC7296][RFC6989][RFC-ietf-ipsecme-ikev2-multiple-ke-12][RFC9395]
+   [RFC7296][RFC6989][RFC9370][RFC9395]
 
    Note
 
  This registry was originally named "Transform Type 4 -
  Diffie-Hellman Group Transform IDs" and was referenced
  using that name in a number of RFCs published prior to
- [RFC-ietf-ipsecme-ikev2-multiple-ke-12], which gave
- it its current title.
+ [RFC9370], which gave it its current title.
 
 
    Note
@@ -374,7 +372,7 @@ Transform Type Values
    Note
 
  The instructions for the designated experts are described
- in [RFC-ietf-ipsecme-ikev2-multiple-ke-12]. While adding
+ in [RFC9370]. While adding
  new Key Exchange (KE) methods, the following considerations
  must be applied. A key exchange method must take exactly one
  round trip (one IKEv2 exchange) and at the end of this
@@ -390,39 +388,36 @@ Transform Type Values
    [IMG]
    CSV
 
-     Number                         Name                              Status                  Recipient Tests                    Reference
-       0      NONE                                                                                                       [RFC7296]
-       1      768-bit MODP Group                               DEPRECATED [RFC8247] [RFC6989], Sec. 2.1                  [RFC7296]
-       2      1024-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC7296]
-      3-4     Reserved                                                                                                   [RFC7296]
-       5      1536-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-      6-13    Unassigned                                                                                                 [RFC7296]
-       14     2048-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-       15     3072-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-       16     4096-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-       17     6144-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-       18     8192-bit MODP Group                                                   [RFC6989], Sec. 2.1                  [RFC3526]
-       19     256-bit random ECP group                                              [RFC6989], Sec. 2.3                  [RFC5903]
-       20     384-bit random ECP group                                              [RFC6989], Sec. 2.3                  [RFC5903]
-       21     521-bit random ECP group                                              [RFC6989], Sec. 2.3                  [RFC5903]
-       22     1024-bit MODP Group with 160-bit Prime Order     DEPRECATED [RFC8247] [RFC6989], Sec. 2.2                  [RFC5114]
-              Subgroup
-       23     2048-bit MODP Group with 224-bit Prime Order                          [RFC6989], Sec. 2.2                  [RFC5114]
-              Subgroup
-       24     2048-bit MODP Group with 256-bit Prime Order                          [RFC6989], Sec. 2.2                  [RFC5114]
-              Subgroup
-       25     192-bit Random ECP Group                                              [RFC6989], Sec. 2.3                  [RFC5114]
-       26     224-bit Random ECP Group                                              [RFC6989], Sec. 2.3                  [RFC5114]
-       27     brainpoolP224r1                                                       [RFC6989], Sec. 2.3                  [RFC6954]
-       28     brainpoolP256r1                                                       [RFC6989], Sec. 2.3                  [RFC6954]
-       29     brainpoolP384r1                                                       [RFC6989], Sec. 2.3                  [RFC6954]
-       30     brainpoolP512r1                                                       [RFC6989], Sec. 2.3                  [RFC6954]
-       31     Curve25519                                                            [RFC8031], Sec. 3.2                  [RFC8031]
-       32     Curve448                                                              [RFC8031], Sec. 3.2                  [RFC8031]
-       33     GOST3410_2012_256                                                     [RFC-smyslov-ike2-gost-15, Sec. 6.1] [RFC-smyslov-ike2-gost-15]
-       34     GOST3410_2012_512                                                     [RFC-smyslov-ike2-gost-15, Sec. 6.1] [RFC-smyslov-ike2-gost-15]
+     Number                           Name                                 Status          Recipient Tests   Reference
+       0      NONE                                                                                           [RFC7296]
+       1      768-bit MODP Group                                    DEPRECATED [RFC8247] [RFC6989], Sec. 2.1 [RFC7296]
+       2      1024-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC7296]
+      3-4     Reserved                                                                                       [RFC7296]
+       5      1536-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+      6-13    Unassigned                                                                                     [RFC7296]
+       14     2048-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+       15     3072-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+       16     4096-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+       17     6144-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+       18     8192-bit MODP Group                                                        [RFC6989], Sec. 2.1 [RFC3526]
+       19     256-bit random ECP group                                                   [RFC6989], Sec. 2.3 [RFC5903]
+       20     384-bit random ECP group                                                   [RFC6989], Sec. 2.3 [RFC5903]
+       21     521-bit random ECP group                                                   [RFC6989], Sec. 2.3 [RFC5903]
+       22     1024-bit MODP Group with 160-bit Prime Order Subgroup DEPRECATED [RFC8247] [RFC6989], Sec. 2.2 [RFC5114]
+       23     2048-bit MODP Group with 224-bit Prime Order Subgroup                      [RFC6989], Sec. 2.2 [RFC5114]
+       24     2048-bit MODP Group with 256-bit Prime Order Subgroup                      [RFC6989], Sec. 2.2 [RFC5114]
+       25     192-bit Random ECP Group                                                   [RFC6989], Sec. 2.3 [RFC5114]
+       26     224-bit Random ECP Group                                                   [RFC6989], Sec. 2.3 [RFC5114]
+       27     brainpoolP224r1                                                            [RFC6989], Sec. 2.3 [RFC6954]
+       28     brainpoolP256r1                                                            [RFC6989], Sec. 2.3 [RFC6954]
+       29     brainpoolP384r1                                                            [RFC6989], Sec. 2.3 [RFC6954]
+       30     brainpoolP512r1                                                            [RFC6989], Sec. 2.3 [RFC6954]
+       31     Curve25519                                                                 [RFC8031], Sec. 3.2 [RFC8031]
+       32     Curve448                                                                   [RFC8031], Sec. 3.2 [RFC8031]
+       33     GOST3410_2012_256                                                          [RFC9385, Sec. 6.1] [RFC9385]
+       34     GOST3410_2012_512                                                          [RFC9385, Sec. 6.1] [RFC9385]
     35-1023   Unassigned
-   1024-65535 Reserved for Private Use                                                                                   [RFC7296]
+   1024-65535 Reserved for Private Use                                                                       [RFC7296]
 
   Transform Type 5 - Extended Sequence Numbers Transform IDs
 
@@ -571,7 +566,7 @@ IKEv2 Notify Message Types - Error Types
    0-8191     Expert Review
    8192-16383 Private use
 
-     Value    NOTIFY MESSAGES - ERROR TYPES                Reference
+     Value    NOTIFY MESSAGES - ERROR TYPES       Reference
        0      Reserved                      [RFC7296]
        1      UNSUPPORTED_CRITICAL_PAYLOAD  [RFC7296]
       2-3     Reserved                      [RFC7296]
@@ -603,7 +598,7 @@ IKEv2 Notify Message Types - Error Types
        44     CHILD_SA_NOT_FOUND            [RFC7296]
        45     INVALID_GROUP_ID              [draft-yeung-g-ikev2]
        46     AUTHORIZATION_FAILED          [draft-yeung-g-ikev2]
-       47     STATE_NOT_FOUND               [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+       47     STATE_NOT_FOUND               [RFC9370]
     48-8191   Unassigned
    8192-16383 Private use                   [RFC7296]
 
@@ -682,7 +677,7 @@ IKEv2 Notify Message Types - Status Types
       16438    INTERMEDIATE_EXCHANGE_SUPPORTED     [RFC9242]
       16439    IP4_ALLOWED                         [RFC8983]
       16440    IP6_ALLOWED                         [RFC8983]
-      16441    ADDITIONAL_KEY_EXCHANGE             [RFC-ietf-ipsecme-ikev2-multiple-ke-12]
+      16441    ADDITIONAL_KEY_EXCHANGE             [RFC9370]
       16442    USE_AGGFRAG                         [RFC9347]
    16443-40959 Unassigned
    40960-65535 Private use                         [RFC7296]
@@ -953,15 +948,15 @@ IKEv2 Hash Algorithms
    [IMG]
    CSV
 
-     Value         Hash Algorithm              Reference
+     Value         Hash Algorithm      Reference
        0      Reserved                 [RFC7427]
        1      SHA1                     [RFC7427]
        2      SHA2-256                 [RFC7427]
        3      SHA2-384                 [RFC7427]
        4      SHA2-512                 [RFC7427]
        5      Identity                 [RFC8420]
-       6      STREEBOG_256             [RFC-smyslov-ike2-gost-15]
-       7      STREEBOG_512             [RFC-smyslov-ike2-gost-15]
+       6      STREEBOG_256             [RFC9385]
+       7      STREEBOG_512             [RFC9385]
      8-1023   Unassigned
    1024-65535 Reserved for Private Use [RFC7427]
 

@@ -63,7 +63,8 @@ Value,Description,DTLS-OK,Recommended,Reference,Comment
 23130,Reserved,Y,N,[RFC8701],
 23131-25496,Unassigned,,,,
 25497,X25519Kyber768Draft00,Y,N,[draft-tls-westerbaan-xyber768d00-02],Pre-standards version of Kyber768
-25498-27241,Unassigned,,,,
+25498,SecP256r1Kyber768Draft00,Y,N,[draft-kwiatkowski-tls-ecdhe-kyber-01],Combining secp256r1 ECDH with pre-standards version of Kyber768
+25499-27241,Unassigned,,,,
 27242,Reserved,Y,N,[RFC8701],
 27243-31353,Unassigned,,,,
 31354,Reserved,Y,N,[RFC8701],

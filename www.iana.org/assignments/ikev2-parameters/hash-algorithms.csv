@@ -5,7 +5,7 @@ Value,Hash Algorithm,Reference
 3,SHA2-384,[RFC7427]
 4,SHA2-512,[RFC7427]
 5,Identity,[RFC8420]
-6,STREEBOG_256,[RFC-smyslov-ike2-gost-15]
-7,STREEBOG_512,[RFC-smyslov-ike2-gost-15]
+6,STREEBOG_256,[RFC9385]
+7,STREEBOG_512,[RFC9385]
 8-1023,Unassigned,
 1024-65535,Reserved for Private Use,[RFC7427]
