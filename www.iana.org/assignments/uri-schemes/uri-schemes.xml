@@ -3,7 +3,7 @@
 <?xml-model href="uri-schemes.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="uri-schemes">
   <title>Uniform Resource Identifier (URI) Schemes</title>
-  <updated>2023-05-16</updated>
+  <updated>2023-05-25</updated>
   
   <registry id="uri-schemes-1">
     <title>Uniform Resource Identifier (URI) Schemes</title>
@@ -371,7 +371,8 @@ publication, even when the specification requests permanent registration.
     </record>
     <record date="2017-06-07" updated="2017-12-22">
       <value>coap+tcp</value>
-      <description>coap+tcp <xref type="note" data="1"/></description>
+      <description>coap+tcp 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes">reviewer notes</xref>)</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8323"/></well-known>
       <xref type="rfc" data="rfc8323"/>
@@ -379,7 +380,8 @@ publication, even when the specification requests permanent registration.
     </record>
     <record date="2017-12-22">
       <value>coap+ws</value>
-      <description>coap+ws <xref type="note" data="1"/></description>
+      <description>coap+ws 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes">reviewer notes</xref>)</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8323"/></well-known>
       <xref type="rfc" data="rfc8323"/>
@@ -395,7 +397,8 @@ publication, even when the specification requests permanent registration.
     </record>
     <record date="2017-06-07" updated="2017-12-22">
       <value>coaps+tcp</value>
-      <description>coaps+tcp <xref type="note" data="1"/></description>
+      <description>coaps+tcp 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes">reviewer notes</xref>)</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8323"/></well-known>
       <xref type="rfc" data="rfc8323"/>
@@ -403,7 +406,8 @@ publication, even when the specification requests permanent registration.
     </record>
     <record date="2017-12-22">
       <value>coaps+ws</value>
-      <description>coaps+ws <xref type="note" data="1"/></description>
+      <description>coaps+ws 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/coap-expert-notes">reviewer notes</xref>)</description>
       <status>Permanent</status>
       <well-known><xref type="rfc" data="rfc8323"/></well-known>
       <xref type="rfc" data="rfc8323"/>
@@ -497,10 +501,11 @@ publication, even when the specification requests permanent registration.
       <xref type="rfc" data="rfc4918"/>
       <notes/>
     </record>
-    <record date="2023-04-17">
+    <record date="2023-04-17" updated="2023-05-24">
       <file type="template">prov/dhttp</file>
       <value>dhttp</value>
-      <description>dhttp</description>
+      <description>dhttp 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/dhttp-expert-notes">reviewer notes</xref>)</description>
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="person" data="Qi_Zhou"/>
@@ -1670,6 +1675,15 @@ publication, even when the specification requests permanent registration.
       <xref type="person" data="urischemeowners_at_microsoft.com"/>
       <notes/>
     </record>
+    <record date="2023-05-23">
+      <file type="template">prov/ms-remotedesktop</file>
+      <value>ms-remotedesktop</value>
+      <description>ms-remotedesktop</description>
+      <status>Provisional</status>
+      <well-known>-</well-known>
+      <xref type="person" data="urischemeowners_at_microsoft.com"/>
+      <notes/>
+    </record>
     <record date="2023-01-20">
       <file type="template">prov/ms-remotedesktop-launch</file>
       <value>ms-remotedesktop-launch</value>
@@ -2797,7 +2811,9 @@ publication, even when the specification requests permanent registration.
     <record date="2021-10-29" updated="2023-02-27">
       <file type="template">prov/swid</file>
       <value>swid</value>
-      <description>swid</description>
+      <description>swid 
+
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/swid-expert-notes">reviewer notes</xref>)</description>
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="draft" data="RFC-ietf-sacm-coswid-24">RFC-ietf-sacm-coswid-24, Section 5.1</xref>
@@ -2806,7 +2822,9 @@ publication, even when the specification requests permanent registration.
     <record date="2021-10-29">
       <file type="template">prov/swidpath</file>
       <value>swidpath</value>
-      <description>swidpath</description>
+      <description>swidpath 
+
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/swidpath-expert-notes">reviewer notes</xref>)</description>
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="draft" data="RFC-ietf-sacm-coswid-24">RFC-ietf-sacm-coswid-24, Section 5.2</xref>
@@ -3083,10 +3101,11 @@ publication, even when the specification requests permanent registration.
       <xref type="person" data="urischemeowners_at_microsoft.com"/>
       <notes/>
     </record>
-    <record date="2022-07-06">
+    <record date="2022-07-06" updated="2023-05-24">
       <file type="template">prov/w3</file>
       <value>w3</value>
-      <description>w3</description>
+      <description>w3 
+      (see <xref type="uri" data="https://www.iana.org/assignments/uri-schemes/expert-notes/w3-expert-notes">reviewer notes</xref>)</description>
       <status>Provisional</status>
       <well-known>-</well-known>
       <xref type="person" data="Qi_Zhou"/>
@@ -3282,11 +3301,6 @@ publication, even when the specification requests permanent registration.
       <xref type="rfc" data="rfc2056"/>
       <notes/>
     </record>
-    <footnote anchor="1">CoAP registers different URI schemes for accessing CoAP resources 
-via different protocols. This approach runs counter to the WWW principle that a 
-URI identifies a resource and that multiple URIs for identifying the same 
-resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#avoid-uri-aliases"/>.
-    </footnote>
   </registry>
 
   <people>
@@ -3687,7 +3701,7 @@ resource should be avoided <xref type="uri" data="http://www.w3.org/TR/webarch/#
     <person id="urischemeowners_at_microsoft.com">
       <name>urischemeowners at microsoft.com</name>
       <uri>mailto:urischemeowners&amp;microsoft.com</uri>
-      <updated>2023-01-20</updated>
+      <updated>2023-05-23</updated>
     </person>
     <person id="Wang_Shu">
       <name>Wang Shu</name>
