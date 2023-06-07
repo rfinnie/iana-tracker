@@ -119,7 +119,7 @@ Network Service (ISO 8473)"", International Standard 10589:
 235,MT IP. Reach,n,y,n,n,[RFC5120]
 236,IPv6 IP. Reach,n,y,n,n,[RFC5308]
 237,MT IPv6 IP. Reach,n,y,n,n,[RFC5120]
-238,Application-Specific SRLG,n,y,n,n,[RFC8919]
+238,Application-Specific SRLG,n,y,n,n,[RFC-ietf-lsr-rfc8919bis-04]
 239,Unassigned,,,,,
 240,P2P 3-Way Adj. State,y,n,n,n,[RFC5303]
 241,Unassigned,,,,,

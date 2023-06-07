@@ -96,7 +96,7 @@ cdniets,CDNI Expiration Time Setting for Signed Token Renewal,[IETF],"[RFC9246, 
 cdnistt,CDNI Signed Token Transport Method for Signed Token Renewal,[IETF],"[RFC9246, Section 2.1.13]"
 cdnistd,CDNI Signed Token Depth,[IETF],"[RFC9246, Section 2.1.14]"
 sig_val_claims,Signature Validation Token,[IETF],"[RFC9321, Section 3.2.3]"
-authorization_details,The claim authorization_details contains a JSON array of JSON objects representing the rights of the access token. Each JSON object contains the data to specify the authorization requirements for a certain type of resource.,[IETF],"[RFC-ietf-oauth-rar-22, Section 9.1]"
+authorization_details,The claim authorization_details contains a JSON array of JSON objects representing the rights of the access token. Each JSON object contains the data to specify the authorization requirements for a certain type of resource.,[IETF],"[RFC9396, Section 9.1]"
 verified_claims,This container Claim is composed of the verification evidence related to a certain verification process and the corresponding Claims about the End-User which were verified in this process.,[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 5]"
 place_of_birth,A structured Claim representing the End-User's place of birth.,[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"
 nationalities,String array representing the End-User's nationalities.,[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"

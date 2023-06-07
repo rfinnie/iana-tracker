@@ -87,5 +87,5 @@ backchannel_token_delivery_modes_supported,Supported CIBA authentication result 
 backchannel_authentication_endpoint,CIBA Backchannel Authentication Endpoint,[OpenID_Foundation_MODRNA_Working_Group],"[OpenID Connect Client-Initiated Backchannel Authentication Flow - Core 1.0, Section 4]"
 backchannel_authentication_request_signing_alg_values_supported,JSON array containing a list of the JWS signing algorithms supported for validation of signed CIBA authentication requests,[OpenID_Foundation_MODRNA_Working_Group],"[OpenID Connect Client-Initiated Backchannel Authentication Flow - Core 1.0, Section 4]"
 backchannel_user_code_parameter_supported,Indicates whether the OP supports the use of the CIBA user_code parameter.,[OpenID_Foundation_MODRNA_Working_Group],"[OpenID Connect Client-Initiated Backchannel Authentication Flow - Core 1.0, Section 4]"
-authorization_details_types_supported,JSON array containing the authorization details types the AS supports,IETF,"[RFC-ietf-oauth-rar-22, Section 10]"
+authorization_details_types_supported,JSON array containing the authorization details types the AS supports,IETF,"[RFC9396, Section 10]"
 dpop_signing_alg_values_supported,JSON array containing a list of the JWS algorithms supported for DPoP proof JWTs,IETF,"[RFC-ietf-oauth-dpop-16, Section 5.1]"

@@ -1,5 +1,5 @@
 Value,Description,Reference
-0x01,Master/Slave (MS-bit),[RFC2328]
+0x01,Leader (L-bit),[RFC2328][RFC-ietf-lsr-ospf-terminology-09]
 0x02,More (M-bit),[RFC2328]
 0x04,Init (I-bit),[RFC2328]
 0x08,Unassigned,

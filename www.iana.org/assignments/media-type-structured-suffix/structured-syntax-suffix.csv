@@ -245,3 +245,4 @@ CBOR Sequence,+cbor-seq,[RFC8742],binary,n/a,"The syntax and semantics of
 Zstandard,+zstd,[RFC8878],binary,N/A,"The syntax and semantics of
           fragment identifiers specified for +zstd should be as specified
           for ""application/zstd"".",See Section 8 of [RFC8878].,Refer to the author for the 'application/zstd' media type.,[IETF],2020-05-19,
+YAML Ain't Markup Language (YAML),+yaml,[YAML][RFC-ietf-httpapi-yaml-mediatypes-07],"Same as ""application/yaml""","Same as ""application/yaml""","Differently from application/yaml, there is no fragment identification syntax defined for +yaml. A specific xxx/yyy+yaml media type needs to define the syntax and semantics for fragment identifiers because the ones defined for ""application/yaml"" do not apply unless explicitly expressed.","Same as ""application/yaml""",httpapi@ietf.org or art@ietf.org,[IETF],2023-06-02,
