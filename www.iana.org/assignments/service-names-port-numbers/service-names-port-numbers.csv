@@ -9204,10 +9204,10 @@ qcp,5082,tcp,Qpur Communication Protocol,[Joachim_Kluemper],[Joachim_Kluemper],2
 qcp,5082,udp,Qpur Communication Protocol,[Joachim_Kluemper],[Joachim_Kluemper],2008-03-19,,,,,
 qfp,5083,tcp,Qpur File Protocol,[Joachim_Kluemper],[Joachim_Kluemper],2008-03-19,,,,,
 qfp,5083,udp,Qpur File Protocol,[Joachim_Kluemper],[Joachim_Kluemper],2008-03-19,,,,,
-llrp,5084,tcp,EPCglobal Low-Level Reader Protocol,[Margaret_Wasserman][Paul_Dietrich],[Margaret_Wasserman][Paul_Dietrich],2006-11,,,,,Defined TXT keys: None. RFID reader Low Level Reader Protocol
-llrp,5084,udp,EPCglobal Low-Level Reader Protocol,[Margaret_Wasserman][Paul_Dietrich],[Margaret_Wasserman][Paul_Dietrich],2006-11,,,,,Defined TXT keys: None. RFID reader Low Level Reader Protocol
-encrypted-llrp,5085,tcp,EPCglobal Encrypted LLRP,[Margaret_Wasserman],[Margaret_Wasserman],2006-11,,,,,
-encrypted-llrp,5085,udp,EPCglobal Encrypted LLRP,[Margaret_Wasserman],[Margaret_Wasserman],2006-11,,,,,
+llrp,5084,tcp,EPCglobal Low-Level Reader Protocol,[Margaret_Cullen][Paul_Dietrich],[Margaret_Cullen][Paul_Dietrich],2006-11,,,,,Defined TXT keys: None. RFID reader Low Level Reader Protocol
+llrp,5084,udp,EPCglobal Low-Level Reader Protocol,[Margaret_Cullen][Paul_Dietrich],[Margaret_Cullen][Paul_Dietrich],2006-11,,,,,Defined TXT keys: None. RFID reader Low Level Reader Protocol
+encrypted-llrp,5085,tcp,EPCglobal Encrypted LLRP,[Margaret_Cullen],[Margaret_Cullen],2006-11,,,,,
+encrypted-llrp,5085,udp,EPCglobal Encrypted LLRP,[Margaret_Cullen],[Margaret_Cullen],2006-11,,,,,
 aprigo-cs,5086,tcp,Aprigo Collection Service,[Ron_Zalkind],[Ron_Zalkind],2010-05-28,,,,,
 ,5086,udp,Reserved,,,,,,,,
 biotic,5087,tcp,BIOTIC - Binary Internet of Things Interoperable Communication,[Waher_Data_AB],[Peter_Waher],2014-06-16,2015-11-25,,,,
