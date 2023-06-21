@@ -3,10 +3,10 @@
                                                                     vCard Elements
 
    Created
-           2011-06-10
+   2011-06-10
 
    Last Updated
-           2019-05-16
+   2023-06-16
 
    Note
 
@@ -16,18 +16,18 @@
 
 
    Available Formats
-           [IMG]
-           XML [IMG]
-           HTML [IMG]
-           Plain text
+   [IMG]
+   XML [IMG]
+   HTML [IMG]
+   Plain text
 
    Registries included below
 
-     * vCard Properties
-     * vCard Parameters
-     * vCard Value Data Types
-     * vCard Property Values
-     * vCard Parameter Values
+     • vCard Properties
+     • vCard Parameters
+     • vCard Value Data Types
+     • vCard Property Values
+     • vCard Parameter Values
 
 vCard Properties
 
@@ -36,11 +36,11 @@ vCard Properties
  Primary: Simon Perreault; Backups: Cyrus Daboo, Peter Saint-Andre
 
    Reference
-           [RFC6350]
+   [RFC6350]
 
    Available Formats
-           [IMG]
-           CSV
+   [IMG]
+   CSV
 
              Range               Registration Procedures
    No namespace specified     Expert Review and RFC Required
@@ -99,11 +99,11 @@ vCard Parameters
  Primary: Simon Perreault; Backups: Cyrus Daboo, Peter Saint-Andre
 
    Reference
-           [RFC6350]
+   [RFC6350]
 
    Available Formats
-           [IMG]
-           CSV
+   [IMG]
+   CSV
 
              Range               Registration Procedures
    No namespace specified     Expert Review and RFC Required
@@ -137,7 +137,7 @@ vCard Value Data Types
  Primary: Simon Perreault; Backups: Cyrus Daboo, Peter Saint-Andre
 
    Reference
-           [RFC6350]
+   [RFC6350]
 
    Note
 
@@ -146,8 +146,8 @@ vCard Value Data Types
 
 
    Available Formats
-           [IMG]
-           CSV
+   [IMG]
+   CSV
 
    Value Data Type         Reference
    BOOLEAN          [RFC6350], Section 4.4
@@ -175,11 +175,11 @@ vCard Property Values
  Primary: Simon Perreault; Backups: Cyrus Daboo, Peter Saint-Andre
 
    Reference
-           [RFC6350]
+   [RFC6350]
 
    Available Formats
-           [IMG]
-           CSV
+   [IMG]
+   CSV
 
    Property    Value                    Reference
    BEGIN    VCARD       [RFC6350], Section 6.1.1
@@ -203,11 +203,11 @@ vCard Parameter Values
  Primary: Simon Perreault; Backups: Cyrus Daboo, Peter Saint-Andre
 
    Reference
-           [RFC6350]
+   [RFC6350]
 
    Available Formats
-           [IMG]
-           CSV
+   [IMG]
+   CSV
 
                                                Property                                             Parameter    Value            Reference
    FN, NICKNAME, PHOTO, ADR, TEL, EMAIL, IMPP, LANG, TZ, GEO, TITLE, ROLE, LOGO, ORG, RELATED,      TYPE      work         [RFC6350], Section 5.6

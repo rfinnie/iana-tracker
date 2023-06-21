@@ -773,8 +773,8 @@ kryptolan,398,tcp,Kryptolan,[Peter_de_Laval],[Peter_de_Laval],,,,,,
 kryptolan,398,udp,Kryptolan,[Peter_de_Laval],[Peter_de_Laval],,,,,,
 iso-tsap-c2,399,tcp,ISO Transport Class 2 Non-Control over TCP,[Yanick_Pouffary],[Yanick_Pouffary],,,,,,
 iso-tsap-c2,399,udp,ISO Transport Class 2 Non-Control over UDP,[Yanick_Pouffary],[Yanick_Pouffary],,,,,,
-osb-sd,400,tcp,Oracle Secure Backup,[Joseph_Dziedzic],[Joseph_Dziedzic],2008-06-06,,,,,Formerly was Workstation Solutions
-osb-sd,400,udp,Oracle Secure Backup,[Joseph_Dziedzic],[Joseph_Dziedzic],2008-06-06,,,,,Formerly was Workstation Solutions
+osb-sd,400,tcp,Oracle Secure Backup,[Steven_Fried],[Steven_Fried],2008-06-06,2023-06-15,,,,Formerly was Workstation Solutions
+osb-sd,400,udp,Oracle Secure Backup,[Steven_Fried],[Steven_Fried],2008-06-06,2023-06-15,,,,Formerly was Workstation Solutions
 ups,401,tcp,Uninterruptible Power Supply,[Charles_Bennett],[Charles_Bennett],2008-08-29,,,,,
 ups,401,udp,Uninterruptible Power Supply,[Charles_Bennett],[Charles_Bennett],2008-08-29,,,,,
 genie,402,tcp,Genie Protocol,[Mark_Hankin],[Mark_Hankin],,,,,,
