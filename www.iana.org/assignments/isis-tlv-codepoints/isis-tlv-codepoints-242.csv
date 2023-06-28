@@ -26,9 +26,9 @@ Value,Description,Reference
 24,Segment Routing Mapping Server Preference (SRMS Preference),[RFC8667]
 25,SRv6 Capabilities,"[RFC9352, Section 2]"
 26,Flexible Algorithm Definition (FAD),"[RFC9350, Section 5.1]"
-27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2022-06-21, expires 2023-08-08)",[draft-ietf-lsr-dynamic-flooding]
+27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2023-06-21, expires 2024-08-08)",[draft-ietf-lsr-dynamic-flooding]
 28,"IS-IS Dynamic Flooding Sub-TLV
-        (TEMPORARY - registered 2019-08-08, extension registered 2022-06-21, expires 2023-08-08)",[draft-ietf-lsr-dynamic-flooding]
+        (TEMPORARY - registered 2019-08-08, extension registered 2023-06-21, expires 2024-08-08)",[draft-ietf-lsr-dynamic-flooding]
 29,"IP Algorithm Sub-TLV
         (TEMPORARY - registered 2021-04-27, extension registered 2023-03-15, expires 2024-04-27)",[draft-ietf-lsr-ip-flexalgo-01]
 30-160,Unassigned,
