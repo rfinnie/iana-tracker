@@ -26,7 +26,7 @@ Value,LSA Function Code Name,Reference
 39,E-Type-7-LSA,[RFC8362]
 40,E-Link-LSA,[RFC8362]
 41,E-Intra-Area-Prefix-LSA,[RFC8362]
-42,"SRv6 Locator LSA (TEMPORARY - registered 2022-07-11, document sent to IESG Evaluation 2023-05-15)",[draft-ietf-lsr-ospfv3-srv6-extensions-14]
+42,SRv6 Locator LSA,"[RFC-ietf-lsr-ospfv3-srv6-extensions-15, Section 7]"
 43-255,Unassigned,
 256-8175,Reserved,[RFC7770]
 8176-8183,Experimentation,[RFC7770]

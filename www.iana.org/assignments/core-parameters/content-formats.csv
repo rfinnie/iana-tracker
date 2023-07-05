@@ -43,7 +43,7 @@ application/yang-data+cbor; id=sid,,140,[RFC9254]
 Unassigned,,141-255,
 application/coap-group+json,,256,[RFC7390]
 application/concise-problem-details+cbor,,257,[RFC9290]
-application/swid+cbor,,258,[RFC-ietf-sacm-coswid-24]
+application/swid+cbor,,258,[RFC9393]
 application/pkixcmp,"Content may contain arbitrary octet values. The octet values are the ASN.1 DER encoding of a PKI message, as defined in the [RFC4210] specifications.",259,[RFC-ietf-ace-cmpv2-coap-transport-10][RFC4210]
 Unassigned,,260-270,
 application/dots+cbor,,271,[RFC9132]

@@ -74,6 +74,7 @@ ietf-geo-location,ietf-geo-location@2022-02-11.yang,N,urn:ietf:params:xml:ns:yan
 ietf-hardware,ietf-hardware@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware,hw,,[RFC8348],
 ietf-hardware-state,ietf-hardware-state@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-hardware-state,hw-state,,[RFC8348],
 ietf-i2nsf-capability,,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-capability,i2nsfcap,,[RFC-ietf-i2nsf-capability-data-model-32],[RFC-ietf-i2nsf-capability-data-model-32]'s module file will be posted upon the document's publication as an RFC.
+ietf-i2nsf-cons-facing-interface,,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-cons-facing-interface,i2nsfcfi,,[RFC-ietf-i2nsf-consumer-facing-interface-dm-31],[RFC-ietf-i2nsf-consumer-facing-interface-dm-31]'s module file will be posted upon the document's publication as an RFC.
 ietf-i2nsf-ike,ietf-i2nsf-ike@2021-07-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-ike,nsfike,,[RFC9061],
 ietf-i2nsf-ikec,ietf-i2nsf-ikec@2021-07-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-ikec,nsfikec,,[RFC9061],
 ietf-i2nsf-ikeless,ietf-i2nsf-ikeless@2021-07-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-i2nsf-ikeless,nsfikels,,[RFC9061],
@@ -164,7 +165,7 @@ ietf-routing,ietf-routing@2016-11-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-rou
 ietf-routing,ietf-routing@2018-03-13.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing,rt,,[RFC8349],
 ietf-routing-policy,ietf-routing-policy@2021-10-11.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing-policy,rt-pol,,[RFC9067],
 ietf-routing-types,ietf-routing-types@2017-12-04.yang,N,urn:ietf:params:xml:ns:yang:ietf-routing-types,rt-types,,[RFC8294],
-ietf-sap-ntw,ietf-sap-ntw@2023-06-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-sap-ntw,sap,,[RFC9408],[RFC9408]'s module file will be posted upon the document's publication as an RFC.
+ietf-sap-ntw,ietf-sap-ntw@2023-06-20.yang,N,urn:ietf:params:xml:ns:yang:ietf-sap-ntw,sap,,[RFC9408],
 ietf-schc,ietf-schc@2023-03-01.yang,N,urn:ietf:params:xml:ns:yang:ietf-schc,schc,,[RFC9363],
 ietf-segment-routing,ietf-segment-routing@2021-05-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-segment-routing,sr,,[RFC9020],
 ietf-segment-routing-common,ietf-segment-routing-common@2021-05-26.yang,N,urn:ietf:params:xml:ns:yang:ietf-segment-routing-common,sr-cmn,,[RFC9020],
@@ -188,7 +189,7 @@ ietf-softwire-br,ietf-softwire-br@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:
 ietf-softwire-ce,ietf-softwire-ce@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-softwire-ce,softwire-ce,,[RFC8676],
 ietf-softwire-common,ietf-softwire-common@2019-11-16.yang,N,urn:ietf:params:xml:ns:yang:ietf-softwire-common,softwire-common,,[RFC8676],
 ietf-subscribed-notifications,ietf-subscribed-notifications@2019-09-09.yang,N,urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications,sn,,[RFC8639],
-ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[draft-ietf-netmod-syslog-model-26],"TEMPORARY - registered 2021-07-11, extension registered 2022-05-11, expires 2023-07-11. [draft-ietf-netmod-syslog-model-26]'s module file will be posted upon the document's publication as an RFC."
+ietf-syslog,,N,urn:ietf:params:xml:ns:yang:ietf-syslog,ietf-syslog,,[draft-ietf-netmod-syslog-model-26],"TEMPORARY - registered 2021-07-11, extension registered 2023-06-30, expires 2024-07-11. [draft-ietf-netmod-syslog-model-26]'s module file will be posted upon the document's publication as an RFC."
 ietf-system,ietf-system@2014-08-06.yang,N,urn:ietf:params:xml:ns:yang:ietf-system,sys,,[RFC7317],
 ietf-system-capabilities,ietf-system-capabilities@2022-02-17.yang,N,urn:ietf:params:xml:ns:yang:ietf-system-capabilities,sysc,,[RFC9196],
 ietf-system-tacacs-plus,ietf-system-tacacs-plus@2021-08-05.yang,N,urn:ietf:params:xml:ns:yang:ietf-system-tacacs-plus,sys-tcs-plus,,[RFC9105],

@@ -6,4 +6,4 @@ Filename Extension,RPKI Object,Reference
 .mft,Manifest,[RFC6481]
 .roa,Route Origination Authorization,[RFC6481]
 .sig,Signed Checklist,[RFC9323]
-.tak,"Trust Anchor Key (TEMPORARY - registered 2022-07-27, expires 2023-07-27)",[draft-ietf-sidrops-signed-tal-11]
+.tak,"Trust Anchor Key (TEMPORARY - registered 2022-07-27, extension registered 2023-06-30, expires 2024-07-27)",[draft-ietf-sidrops-signed-tal-11]

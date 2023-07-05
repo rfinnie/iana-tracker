@@ -6,7 +6,7 @@
    2012-06-08
 
    Last Updated
-   2023-05-31
+   2023-06-30
 
    Available Formats
    [IMG]
@@ -793,7 +793,7 @@ CoAP Option Numbers
 
    Expert(s)
 
- Klaus Hartke (primary), Carsten Bormann (secondary), Jaime Jimenez (secondary), Alexander Pelov (secondary)
+ Bilhanan Silverajan (primary), Klaus Hartke (secondary), Carsten Bormann (secondary), Jaime Jimenez (secondary), Alexander Pelov (secondary)
 
    Reference
    [RFC7252, Section 12.2]
@@ -869,7 +869,7 @@ CoAP Content-Formats
 
    Expert(s)
 
- Klaus Hartke (primary), Carsten Bormann (secondary), Jaime Jimenez (secondary), Alexander Pelov (secondary)
+ Esko Dijk (primary), Klaus Hartke (secondary), Carsten Bormann (secondary), Jaime Jimenez (secondary), Alexander Pelov (secondary)
 
    Reference
    [RFC7252, Section 12.3][RFC Errata 4954]
@@ -930,7 +930,7 @@ CoAP Content-Formats
    Unassigned                                                                      141-255
    application/coap-group+json                                                     256         [RFC7390]
    application/concise-problem-details+cbor                                        257         [RFC9290]
-   application/swid+cbor                                                           258         [RFC-ietf-sacm-coswid-24]
+   application/swid+cbor                                                           258         [RFC9393]
                                                  Content may contain arbitrary
                                                  octet values. The octet values
    application/pkixcmp                           are the ASN.1 DER encoding of a   259         [RFC-ietf-ace-cmpv2-coap-transport-10][RFC4210]
@@ -1017,7 +1017,7 @@ CoAP Signaling Option Numbers
 
    Expert(s)
 
- Klaus Hartke (primary), Alexander Pelov (secondary)
+ Bilhanan Silverajan (primary), Klaus Hartke (secondary), Alexander Pelov (secondary)
 
    Reference
    [RFC8323]

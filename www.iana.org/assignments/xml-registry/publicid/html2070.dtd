@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-05-31</dd>
+        <dd>2023-06-30</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2299,6 +2299,14 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-capability-data-model-32">RFC-ietf-i2nsf-capability-data-model-32</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-i2nsf-cons-facing-interface</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-cons-facing-interface</td>
+            <td>
+              <a href="ns/yang/ietf-i2nsf-cons-facing-interface.txt">ns/yang/ietf-i2nsf-cons-facing-interface.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-i2nsf-consumer-facing-interface-dm-31">RFC-ietf-i2nsf-consumer-facing-interface-dm-31</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-i2nsf-ike</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-i2nsf-ike</td>
             <td>
@@ -2577,6 +2585,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-logical-network-element.txt">ns/yang/ietf-logical-network-element.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc8530">RFC8530</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-lpwan-schc-compound-ack</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-lpwan-schc-compound-ack</td>
+            <td>
+              <a href="ns/yang/ietf-lpwan-schc-compound-ack.txt">ns/yang/ietf-lpwan-schc-compound-ack.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-lpwan-schc-compound-ack-17">RFC-ietf-lpwan-schc-compound-ack-17</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-microwave-radio-link</td>
@@ -2928,7 +2944,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-sap-ntw.txt">ns/yang/ietf-sap-ntw.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-sap-15">RFC-ietf-opsawg-sap-15</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9408">RFC9408</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-schc</td>
@@ -3027,7 +3043,7 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8639">RFC8639</a>]</td>
           </tr>
           <tr>
-            <td>yang:ietf-syslog (TEMPORARY - registered 2021-07-11, extension registered 2022-05-11, expires 2023-07-11)</td>
+            <td>yang:ietf-syslog (TEMPORARY - registered 2021-07-11, extension registered 2023-06-30, expires 2024-07-11)</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-syslog</td>
             <td>
               <a href="ns/yang/ietf-syslog.txt">ns/yang/ietf-syslog.txt</a>
