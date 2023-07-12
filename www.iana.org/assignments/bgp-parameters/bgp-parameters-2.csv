@@ -7,7 +7,7 @@ Value,Code,Reference
 5,LOCAL_PREF,[RFC4271]
 6,ATOMIC_AGGREGATE,[RFC4271]
 7,AGGREGATOR,[RFC4271]
-8,COMMUNITY,[RFC1997]
+8,COMMUNITIES,[RFC1997]
 9,ORIGINATOR_ID,[RFC4456]
 10,CLUSTER_LIST,[RFC4456]
 11,DPA (deprecated),"[Chen, E., Bates, T., ""Destination Preference Attribute for BGP"",
@@ -36,7 +36,7 @@ Work in progress, March 1996.][RFC6938]"
 33,BGPsec_Path,[RFC8205]
 34,"BGP Community Container Attribute (TEMPORARY - registered 2017-07-28, extension registered 2018-08-10, expires 2019-07-28)",[draft-ietf-idr-wide-bgp-communities]
 35,Only to Customer (OTC),[RFC9234]
-36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, extension registered 2022-05-13, expires 2023-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking-06]
+36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, extension registered 2023-07-10, expires 2024-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking-06]
 37,SFP attribute,[RFC9015]
 38,BFD Discriminator,[RFC9026]
 39,"BGP Router Capabilities (RCA) (TEMPORARY - registered 2022-12-20, expires 2023-12-20)",[draft-ietf-idr-entropy-label-01]
