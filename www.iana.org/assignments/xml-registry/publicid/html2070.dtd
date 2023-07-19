@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-06-30</dd>
+        <dd>2023-07-12</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2984,7 +2984,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-service-assurance.txt">ns/yang/ietf-service-assurance.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-service-assurance-yang-11">RFC-ietf-opsawg-service-assurance-yang-11</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9418">RFC9418</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-service-assurance-device</td>
@@ -2992,7 +2992,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-service-assurance-device.txt">ns/yang/ietf-service-assurance-device.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-service-assurance-yang-11">RFC-ietf-opsawg-service-assurance-yang-11</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9418">RFC9418</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-service-assurance-interface</td>
@@ -3000,7 +3000,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-service-assurance-interface.txt">ns/yang/ietf-service-assurance-interface.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-opsawg-service-assurance-yang-11">RFC-ietf-opsawg-service-assurance-yang-11</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9418">RFC9418</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-snmp</td>

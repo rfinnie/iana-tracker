@@ -112,3 +112,6 @@ htu,The HTTP URI of the request (without query and fragment parts),[IETF],"[RFC-
 ath,The base64url encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
 atc,Authority Token Challenge,[IETF],[RFC-ietf-acme-authority-token-09]
 sub_id,Subject Identifier,[IETF],"[RFC-ietf-secevent-subject-identifiers-18, Section 4.1]"
+rcd,Rich Call Data Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
+rcdi,Rich Call Data Integrity Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
+crn,Call Reason,[IETF],[RFC-ietf-stir-passport-rcd-26]

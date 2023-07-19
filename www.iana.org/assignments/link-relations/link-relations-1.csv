@@ -42,7 +42,7 @@ describes,"The relationship A 'describes' B asserts that
         the resource it describes.  If B is 'describedby' A, then A
         'describes' B."
 disclosure,Refers to a list of patent disclosures made with respect to material for which 'disclosure' relation is specified.,[RFC6579],
-dns-prefetch,"Used to indicate an origin that will be used to fetch required resources for the link context, and that the user agent ought to resolve as early as possible.",[Resource Hints],
+dns-prefetch,"Used to indicate an origin that will be used to fetch required resources for the link context, and that the user agent ought to resolve as early as possible.",[HTML],
 duplicate,"Refers to a resource whose available representations
       are byte-for-byte identical with the corresponding representations of
       the context IRI.",[RFC6249],"This relation is for static resources.  That is, an HTTP GET
@@ -143,10 +143,10 @@ payment,Indicates a resource where payment is accepted.,[RFC8288],"This relation
       that points to the location where the book may be purchased
       through an online retailer."
 pingback,Gives the address of the pingback resource for the link context.,[Pingback 1.0],
-preconnect,"Used to indicate an origin that will be used to fetch required resources for the link context. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection.",[Resource Hints],
+preconnect,"Used to indicate an origin that will be used to fetch required resources for the link context. Initiating an early connection, which includes the DNS lookup, TCP handshake, and optional TLS negotiation, allows the user agent to mask the high latency costs of establishing a connection.",[HTML],
 predecessor-version,"Points to a resource containing the predecessor
       version in the version history.",[RFC5829],
-prefetch,"The prefetch link relation type is used to identify a resource that might be required by the next navigation from the link context, and that the user agent ought to fetch, such that the user agent can deliver a faster response once the resource is requested in the future.",[Resource Hints],
+prefetch,"The prefetch link relation type is used to identify a resource that might be required by the next navigation from the link context, and that the user agent ought to fetch, such that the user agent can deliver a faster response once the resource is requested in the future.",[HTML],
 preload,"Refers to a resource that should be loaded early in the processing of the link's context, without blocking rendering.",[Preload],Additional target attributes establish the detailed fetch properties of the link.
 prerender,"Used to identify a resource that might be required by the next navigation from the link context, and that the user agent ought to fetch and execute, such that the user agent can deliver a faster response once the resource is requested in the future.",[Resource Hints],
 prev,"Indicates that the link's context is a part of a series, and
@@ -183,7 +183,7 @@ service-doc,"Identifies service documentation for the context that
       is primarily intended for human consumption.",[RFC8631],
 service-meta,"Identifies general metadata for the context that is
       primarily intended for consumption by machines.",[RFC8631],
-sip-trunking-capability,Refers to a capability set document that defines parameters or configuration requirements for automated peering and communication channel negotiation of the Session Initiation Protocol (SIP).,[RFC-ietf-asap-siptrunkingcapability-link-05],
+sip-trunking-capability,Refers to a capability set document that defines parameters or configuration requirements for automated peering and communication-channel negotiation of the Session Initiation Protocol (SIP).,[RFC9409],
 sponsored,Refers to a resource that is within a context that is sponsored (such as advertising or another compensation agreement).,[Google Blog post 09-2019],
 start,"Refers to the first resource in a collection of
       resources.",[HTML 4.01 Specification],
