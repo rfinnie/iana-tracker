@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-07-12</dd>
+        <dd>2023-07-21</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2587,10 +2587,10 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8530">RFC8530</a>]</td>
           </tr>
           <tr>
-            <td>yang:ietf-lpwan-schc-compound-ack</td>
-            <td>urn:ietf:params:xml:ns:yang:ietf-lpwan-schc-compound-ack</td>
+            <td>yang:ietf-schc-compound-ack</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-schc-compound-ack</td>
             <td>
-              <a href="ns/yang/ietf-lpwan-schc-compound-ack.txt">ns/yang/ietf-lpwan-schc-compound-ack.txt</a>
+              <a href="ns/yang/ietf-schc-compound-ack.txt">ns/yang/ietf-schc-compound-ack.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/draft-ietf-lpwan-schc-compound-ack-17">RFC-ietf-lpwan-schc-compound-ack-17</a>]</td>
           </tr>
