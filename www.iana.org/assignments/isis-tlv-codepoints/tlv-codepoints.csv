@@ -74,8 +74,8 @@ Network Service (ISO 8473)"", International Standard 10589:
 43-65,Unassigned,,,,,
 66,Lucent Proprietary,n,y,n,n,
 67-125,Unassigned,,,,,
-126,IPv4 Algorithm Prefix Reachability,n,y,n,n,"[RFC-ietf-lsr-ip-flexalgo-16, Section 6.1]"
-127,IPv6 Algorithm Prefix Reachability,n,y,n,n,"[RFC-ietf-lsr-ip-flexalgo-16, Section 6.2]"
+126,IPv4 Algorithm Prefix Reachability,n,y,n,n,"[RFC-ietf-lsr-ip-flexalgo-17, Section 6.1]"
+127,IPv6 Algorithm Prefix Reachability,n,y,n,n,"[RFC-ietf-lsr-ip-flexalgo-17, Section 6.2]"
 128,IP Int. Reach,n,y,n,n,[RFC1195][RFC5302]
 129,Prot. Supported,y,y,n,n,[RFC1195]
 130,IP Ext. Address,n,y,n,n,[RFC1195][RFC5302]

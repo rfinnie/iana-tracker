@@ -4,7 +4,8 @@ Sub-Type Value,Name,Reference,Date
 0x03,Route Origin,[RFC5668],
 0x04,Generic (deprecated),[draft-ietf-idr-as4octet-extcomm-generic-subtype],
 0x05,OSPF Domain Identifier,[RFC4577],
-0x06-0x07,Unassigned,,
+0x06,Route Aggregation Parameter,[Enke_Chen],2023-07-31
+0x07,Unassigned,,
 0x08,BGP Data Collection,[RFC4384],
 0x09,Source AS,[RFC6514],
 0x0a-0x0f,Unassigned,,

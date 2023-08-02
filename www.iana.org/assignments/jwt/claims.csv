@@ -115,3 +115,4 @@ sub_id,Subject Identifier,[IETF],"[RFC-ietf-secevent-subject-identifiers-18, Sec
 rcd,Rich Call Data Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
 rcdi,Rich Call Data Integrity Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
 crn,Call Reason,[IETF],[RFC-ietf-stir-passport-rcd-26]
+msgi,Message Integrity Information,[IETF],[RFC-ietf-stir-messaging-08]

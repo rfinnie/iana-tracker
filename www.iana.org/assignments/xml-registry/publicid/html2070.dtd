@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-07-21</dd>
+        <dd>2023-07-27</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2592,7 +2592,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-schc-compound-ack.txt">ns/yang/ietf-schc-compound-ack.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-lpwan-schc-compound-ack-17">RFC-ietf-lpwan-schc-compound-ack-17</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9441">RFC9441</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-microwave-radio-link</td>

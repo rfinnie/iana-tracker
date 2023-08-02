@@ -5,8 +5,8 @@ Value,Description,Reference
 3,Flexible Algorithm Prefix Metric (FAPM),"[RFC9350, Section 9]"
 4,Prefix Source OSPF Router-ID,[RFC9084]
 5,Prefix Source Router Address,[RFC9084]
-6,OSPFv2 IP Algorithm Prefix Reachability,"[RFC-ietf-lsr-ip-flexalgo-16, Section 6.3]"
-7,OSPFv2 IP Forwarding Address,"[RFC-ietf-lsr-ip-flexalgo-16, Section 6.3.1]"
+6,OSPFv2 IP Algorithm Prefix Reachability,"[RFC-ietf-lsr-ip-flexalgo-17, Section 6.3]"
+7,OSPFv2 IP Forwarding Address,"[RFC-ietf-lsr-ip-flexalgo-17, Section 6.3.1]"
 8,Unassigned,
 9,BIER Sub-TLV,[RFC8444]
 10,BIER MPLS Encapsulation Sub-TLV,[RFC8444]
