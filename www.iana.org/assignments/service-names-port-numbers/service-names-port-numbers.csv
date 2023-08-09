@@ -11568,7 +11568,10 @@ pcsync-http,8444,tcp,PCsync HTTP,[Katy_Lynn_McCullough],[Katy_Lynn_McCullough],,
 pcsync-http,8444,udp,PCsync HTTP,[Katy_Lynn_McCullough],[Katy_Lynn_McCullough],,,,,,
 copy,8445,tcp,Port for copy peer sync feature,[Copy],[Jason_Dictos],2012-09-19,,,,,
 copy-disc,8445,udp,Port for copy discovery,[Copy],[Jason_Dictos],2012-09-19,,,,,
-,8446-8449,,Unassigned,,,,,,,,
+,8446-8447,,Unassigned,,,,,,,,
+matrix-fed,8448,tcp,Matrix Federation Protocol,[The_Matrix.org_Foundation_C.I.C.],[Travis_Ralston],2023-08-04,,,,,
+,8448,udp,Reserved,,,,,,,,
+,8449,,Unassigned,,,,,,,,
 npmp,8450,tcp,npmp,[Ian_Chard],[Ian_Chard],,,,,,
 npmp,8450,udp,npmp,[Ian_Chard],[Ian_Chard],,,,,,
 ,8451-8456,,Unassigned,,,,,,,,
@@ -12619,7 +12622,7 @@ dsmcc-ccp,13822,udp,DSMCC Channel Change Protocol,[Tim_Addington],[Tim_Addington
 bmdss,13823,tcp,Blackmagic Design Streaming Server,[Sam_Vaughan],[Sam_Vaughan],2011-03-01,,,,,
 ,13823,udp,Reserved,,,,,,,,
 ,13824-13831,,Unassigned,,,,,,,,
-a-trust-rpc,13832,tcp,Certificate Management and Issuing,[A-Trust_Gesellschaft_für_Sicherheitssysteme_im_elektronischen_Datenverkehr_GmbH],[Patrick_Hagelkruys],2023-06-05,,,,,
+a-trust-rpc,13832,tcp,Certificate Management and Issuing,[A-Trust_GmbH],[Patrick_Hagelkruys],2023-06-05,,,,,
 ,13832,udp,Reserved,,,,,,,,
 ,13833-13893,,Unassigned,,,,,,,,
 ucontrol,13894,tcp,Ultimate Control communication protocol,[NEGU_Soft],[borja_lopez_urkidi],2012-09-10,,,,,
@@ -14522,6 +14525,7 @@ mercurydock,,tcp,Mercury Dock Assistant,[Spider_Electronics],[Kenny_Millar],2014
 mesamis,,,Mes Amis,[David_Priest],[David_Priest],,,,,,Defined TXT keys: None
 meshcop,,udp,Thread Mesh Commissioning,[Thread_Group_Inc],[Esko_Dijk],2020-11-20,,,,,"Defined TXT keys: Thread 1.1 Specification, Section 8.4.1.1.2. https://www.threadgroup.org/ThreadSpec"
 mi-raysat,,,Mental Ray for Maya,[Autodesk],[Autodesk],,,,,,Defined TXT keys: None
+microdeep,,tcp,A protocol for controlling a microscope,[Zorth_Sarl],[David_Mendels],2023-08-02,,,,,Defined TXT keys: txtvers version name uuid
 mieleacs,,tcp,Protocol for connected accessories,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
 mieleathome,,tcp,Miele@home Protocol,[Miele_and_Cie._KG],[Nils_Langhammer],2014-03-13,,,,,Defined TXT keys: txtvers and proprietary keys
 mieleprof,,tcp,Miele protocol for prof. appliances,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys

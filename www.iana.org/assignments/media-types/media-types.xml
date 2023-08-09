@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2023-07-19</updated>
+  <updated>2023-08-04</updated>
   
   
  
@@ -1703,14 +1703,14 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="rfc" data="rfc7846"/>
       <file type="template">application/ppsp-tracker+json</file>
     </record>
-    <record date="2016-02-04" updated="2023-05-02">
+    <record date="2016-02-04" updated="2023-08-01">
       <name>problem+json</name>
-      <xref type="draft" data="RFC-ietf-httpapi-rfc7807bis-07"/>
+      <xref type="rfc" data="rfc9457"/>
       <file type="template">application/problem+json</file>
     </record>
-    <record date="2016-02-04" updated="2023-05-02">
+    <record date="2016-02-04" updated="2023-08-01">
       <name>problem+xml</name>
-      <xref type="draft" data="RFC-ietf-httpapi-rfc7807bis-07"/>
+      <xref type="rfc" data="rfc9457"/>
       <file type="template">application/problem+xml</file>
     </record>
     <record>
@@ -1768,6 +1768,11 @@ Hence, the media type registry disallows parameters named "q".
       <name>prs.rdf-xml-crypt</name>
       <xref type="person" data="Toby_Inkster"/>
       <file type="template">application/prs.rdf-xml-crypt</file>
+    </record>
+    <record date="2023-08-03">
+      <name>prs.vcfbzip2</name>
+      <xref type="person" data="Paolo_Marcheschi"/>
+      <file type="template">application/prs.vcfbzip2</file>
     </record>
     <record>
       <name>prs.xsf+xml</name>
@@ -2822,6 +2827,11 @@ Hence, the media type registry disallows parameters named "q".
       <name>vnd.acm.addressxfer+json</name>
       <xref type="person" data="Sridhar_Ramakrishnan"/>
       <file type="template">application/vnd.acm.addressxfer+json</file>
+    </record>
+    <record date="2023-08-04">
+      <name>vnd.acm.chatbot+json</name>
+      <xref type="person" data="Sridhar_Ramakrishnan"/>
+      <file type="template">application/vnd.acm.chatbot+json</file>
     </record>
     <record>
       <name>vnd.acucobol</name>
@@ -12819,6 +12829,11 @@ by the IANA.</note>
       <uri>mailto:mmansell&amp;ca.ibm.com</uri>
       <updated>2009-02-18</updated>
     </person>
+    <person id="Paolo_Marcheschi">
+      <name>Paolo Marcheschi</name>
+      <uri>mailto:paolo.marcheschi&amp;ftgm.it</uri>
+      <updated>2023-08-03</updated>
+    </person>
     <person id="Jerome_Marcon">
       <name>Jérôme Marcon</name>
       <uri>mailto:jerome.marcon&amp;alcatel-lucent.com</uri>
@@ -13464,7 +13479,7 @@ by the IANA.</note>
     <person id="Sridhar_Ramakrishnan">
       <name>Sridhar Ramakrishnan</name>
       <uri>mailto:admin&amp;arnexa.com</uri>
-      <updated>2023-05-25</updated>
+      <updated>2023-08-04</updated>
     </person>
     <person id="Ben_Ramsey">
       <name>Ben Ramsey</name>
