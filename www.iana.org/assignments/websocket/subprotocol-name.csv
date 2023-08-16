@@ -62,4 +62,4 @@ v3.penguin-stats.live+proto,Penguin statistics Live Protocol v3 (Protobuf encodi
 TLCP-2.4.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://www.lightstreamer.com/tlcp-2.4.0],[Dario_Crivelli],[Lightstreamer_Srl]
 TLCP-2.5.0.lightstreamer.com,TLCP (Text Lightstreamer Client Protocol),[https://www.lightstreamer.com/tlcp-2.5.0],[Dario_Crivelli],[Lightstreamer_Srl]
 ocpp2.1,OCPP 2.1,[https://www.openchargealliance.org/downloads/],[Open_Charge_Alliance],[Open_Charge_Alliance]
-Redfish WebSocket,Redfish Specification DSP0266,[https://www.dmtf.org/dsp/DSP0266],[DMTF_Administration],[DMTF_Administration]
+Redfish,Redfish Specification DSP0266,[https://www.dmtf.org/dsp/DSP0266],[DMTF_Administration],[DMTF_Administration]

@@ -143,10 +143,26 @@ Object-Class Value,Name,Object-Type,Reference
 ,,2-15: Unassigned,
 44,CCI Object-Type,0: Reserved,[RFC9050]
 ,,1: MPLS Label,[RFC9050]
-,,2-15: Unassigned,
+,,"2: Native IP (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",[draft-ietf-pce-pcep-extension-native-ip-24]
+,,3-15: Unassigned,
 45,"PATH-ATTRIB (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",0: Reserved,[draft-ietf-pce-multipath-07]
 ,,1: PATH-ATTRIB,[draft-ietf-pce-multipath-07]
 ,,2-15: Unassigned,
-46-247,Unassigned,0: Reserved,[RFC Errata 4956]
+46,"BGP Peer Info Object-Type
+        (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",0: Reserved,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,1: IPv4 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,2: IPv6 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,3-15: Unassigned,
+47,"Explicit Peer Route Object-Type
+        (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",0: Reserved,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,1: IPv4 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,2: IPv6 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,3-15: Unassigned,
+48,"Peer Prefix Advertisement Object-Type
+        (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",0: Reserved,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,1: IPv4 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,2: IPv6 address,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,3-15: Unassigned,
+49-247,Unassigned,0: Reserved,[RFC Errata 4956]
 ,,1-15: Unassigned,
 248-255,Experimental Use,0-15: Experimental Use,[RFC8356]

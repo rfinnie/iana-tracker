@@ -14444,7 +14444,8 @@ jukejoint,,tcp,Music sharing protocol,[Phrenetic_Apps_LLC],[Christopher_Pow],201
 keynoteaccess,,tcp,KeynoteAccess is used for sending remote requests/responses when controlling a slideshow with Keynote Remote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 keynotepairing,,tcp,KeynotePairing is used to pair Keynote Remote with Keynote,[Apple],[Brad_Vaughan],2011-10-12,,,,,Defined TXT keys: None
 kiwin,,tcp,Topology Discovery,[Stephen_kiwin_PALM],[Stephen_kiwin_PALM],2015-06-30,,,,,"Defined TXT keys: kiwin, top"
-knx,,udp,Discovery in KNX IoT Point API,[KNX_Association],[Joost_Demarest],2022-10-21,,,,,Defined TXT keys: None
+knx,,tcp,KNX Discovery Protocol,[KNX_Association_cvba],[Joost_Demarest],2023-08-10,,,,,Defined TXT keys: None
+knx,,udp,Discovery in KNX IoT Point API,[KNX_Association_cvba],[Joost_Demarest],2022-10-21,,,,,Defined TXT keys: None
 ktp,,,Kabira Transaction Platform,[Ramiro_Sarmiento],[Ramiro_Sarmiento],,,,,,Defined TXT keys: None
 kyma,,tcp,Symbolic Sound Kyma Service Discovery,[Symbolic_Sound_Corporation],[Kurt_Hebel],2018-11-28,,,,,Defined TXT keys: None
 la-maint,,,IMP Logical Address Maintenance,,,,2013-05-24,,,,This service name is no longer in use.

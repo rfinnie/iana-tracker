@@ -3,7 +3,7 @@
 <?xml-model href="multicast-addresses.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2023-06-09</updated>
+  <updated>2023-08-09</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -354,7 +354,19 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <controller><xref type="person" data="Ramp_Holdings"/></controller>
     </record>
     <record>
-      <addr>224.0.0.151-224.0.0.250</addr>
+      <addr>224.0.0.151</addr>
+      <description>Unassigned</description>
+    </record>
+    <record date="2023-08-09">
+      <addr>224.0.0.152</addr>
+      <description>WiseHome</description>
+      <xref type="person" data="Erick_MacDonald_Filzek"/>
+      <controller>
+        <xref type="person" data="IOT_COMPANY_SOLUCOES_TECNOLOGICAS_LTDA"/>
+      </controller>
+    </record>
+    <record>
+      <addr>224.0.0.153-224.0.0.250</addr>
       <description>Unassigned</description>
     </record>
     <record date="2000-04-01">
@@ -3651,6 +3663,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <uri>mailto:ehall&amp;ntrg.com</uri>
       <updated>1999-10-01</updated>
     </person>
+    <person id="Erick_MacDonald_Filzek">
+      <name>Erick MacDonald Filzek</name>
+      <uri>mailto:filzek&amp;wisehome.io</uri>
+      <updated>2023-08-09</updated>
+    </person>
     <person id="Erik_Guttman">
       <name>Erik Guttman</name>
       <uri>mailto:Erik.Guttman&amp;sun.com</uri>
@@ -3827,6 +3844,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <org>Intercontinental Exchange, Inc.</org>
       <uri>mailto:riradmin&amp;theice.com</uri>
       <updated>2023-04-10</updated>
+    </person>
+    <person id="IOT_COMPANY_SOLUCOES_TECNOLOGICAS_LTDA">
+      <org>IOT COMPANY SOLUCOES TECNOLOGICAS LTDA</org>
+      <uri>mailto:contato&amp;wisehome.io</uri>
+      <updated>2023-08-09</updated>
     </person>
     <person id="IP_Admin">
       <name>IP Admin</name>
