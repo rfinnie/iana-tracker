@@ -44,7 +44,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.0.104,Nokia MC CH,[Morteza_Kalhour],,2002-10-01,
 224.0.0.105,ff-lr-address,[Dave_Glanzer],,2003-03-01,
 224.0.0.106,All-Snoopers,[RFC4286],,,
-224.0.0.107,PTP-pdelay,[http://ieee1588.nist.gov/][Kang_Lee],,2007-02-02,
+224.0.0.107,PTP-pdelay,[NIST: IEEE Std 1588][Kang_Lee],,2007-02-02,
 224.0.0.108,Saratoga,[Lloyd_Wood],,2007-08-30,2011-03-17
 224.0.0.109,LL-MANET-Routers,[RFC5498],,,2011-02-23
 224.0.0.110,IGRS,[Xiaoyu_Zhou],,2009-01-20,

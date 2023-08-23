@@ -72,4 +72,4 @@ forbiddenToSend,common,IETF,The user does not have permission to send at all rig
 mdnAlreadySent,common,IETF,"The message has the ""$mdnsent"" keyword already set.  The
    client MUST NOT try again to send an MDN for this message.","[RFC9007, Section 2.1]"
 unknownDataType,common,IETF,"The server does not recognise this data type, or the capability to
-        enable it is not present in the current Request Object.",[RFC-ietf-jmap-blob-18]
+        enable it is not present in the current Request Object.",[RFC9404]

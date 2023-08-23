@@ -116,3 +116,5 @@ rcd,Rich Call Data Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
 rcdi,Rich Call Data Integrity Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
 crn,Call Reason,[IETF],[RFC-ietf-stir-passport-rcd-26]
 msgi,Message Integrity Information,[IETF],[RFC-ietf-stir-messaging-08]
+_claim_names,JSON object whose member names are the Claim Names for the Aggregated and Distributed Claims,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.6.2]"
+_claim_sources,JSON object whose member names are referenced by the member values of the _claim_names member,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.6.2]"

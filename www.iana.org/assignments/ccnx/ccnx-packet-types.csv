@@ -4,4 +4,6 @@ Type,Name,Reference
 0x02,PT_RETURN,"[RFC8609, Section 3.2]"
 0x03,PT_CCNINFO_REQUEST,[RFC9344]
 0x04,PT_CCNINFO_REPLY,[RFC9344]
-0x05-0xFF,Unassigned,
+0x05,Echo Request,[RFC-irtf-icnrg-icnping-11]
+0x06,Echo Reply,[RFC-irtf-icnrg-icnping-11]
+0x07-0xFF,Unassigned,

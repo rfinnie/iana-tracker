@@ -54,7 +54,8 @@ Error-Type,Meaning,Error-value,Reference
 ,,16: Scheduled TLV missing,[RFC8934]
 ,,17: CCI object missing,[RFC9050]
 ,,18: VIRTUAL-NETWORK-TLV missing,[RFC9358]
-,,19-255: Unassigned,
+,,"19: Native IP object missing (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",[draft-ietf-pce-pcep-extension-native-ip-24]
+,,20-255: Unassigned,
 7,Synchronized path computation request missing,0-255: Unassigned,[RFC5440]
 8,Unknown request reference,0-255: Unassigned,[RFC5440]
 9,Attempt to establish a second PCEP session,0-255: Unassigned,[RFC5440]
@@ -100,7 +101,9 @@ Error-Type,Meaning,Error-value,Reference
 ,,"37: Invalid SRv6 SID Structure (TEMPORARY - registered 2022-01-12, extension registered 2022-12-12, expires 2024-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
 ,,"38: Conflicting Path ID
         (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
-,,39-255: Unassigned,
+,,"39: PCECC NATIVE-IP-TE-CAPABILITY bit is not set
+        (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",[draft-ietf-pce-pcep-extension-native-ip-24]
+,,40-255: Unassigned,
 11,Unrecognized EXRS subobject,0-255: Unassigned,[RFC5521]
 12,Diffserv-aware TE error,0: Unassigned,[RFC5455]
 ,,1: Unsupported class-type,[RFC5455]
@@ -161,7 +164,9 @@ Error-Type,Meaning,Error-value,Reference
         (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 ,,"21: Non-empty path
         (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
-,,22-255: Unassigned,
+,,"22: Only one BPI,EPR or PPA object can be included in this message
+        (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",[draft-ietf-pce-pcep-extension-native-ip-24]
+,,23-255: Unassigned,
 20,LSP State Synchronization Error,0: Unassigned,[RFC8231]
 ,,"1: A PCE indicates to a PCC that it cannot process
         (an otherwise valid) LSP State Report. The PCEP-
@@ -261,4 +266,15 @@ Error-Type,Meaning,Error-value,Reference
 ,,4: Unable to remove the binding value,[RFC-ietf-pce-binding-label-sid-15]
 ,,5: Inconsistent binding types,[RFC-ietf-pce-binding-label-sid-15]
 ,,6-255: Unassigned,
-33-255,Unassigned,0-255: Unassigned,
+33,"Native IP TE failure (TEMPORARY - registered 2023-08-14, expires 2024-08-14)",0: Unassigned,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,1: Peer AS not match,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,2: Peer IP can't be reached,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,3: Local IP is in use,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,4: Remote IP is in use,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,5: Exist BGP session broken,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,6: Explicit Peer Route Error,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,7: EPR/BPI Peer Info mismatch,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,8: BPI/PPA Address Family mismatch,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,9: PPA/BPI Peer Info mismatch,[draft-ietf-pce-pcep-extension-native-ip-24]
+,,10-255: Unassigned,
+34-255,Unassigned,0-255: Unassigned,

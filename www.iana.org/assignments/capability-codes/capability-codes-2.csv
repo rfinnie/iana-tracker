@@ -17,7 +17,7 @@ Value,Description,Reference,Change Controller
 68,Multisession BGP Capability,[draft-ietf-idr-bgp-multisession],IETF
 69,ADD-PATH Capability,[RFC7911],IETF
 70,Enhanced Route Refresh Capability,[RFC7313],IETF
-71,Long-Lived Graceful Restart (LLGR) Capability,[draft-uttaro-idr-bgp-persistence],IETF
+71,Long-Lived Graceful Restart (LLGR) Capability,[RFC-ietf-idr-long-lived-gr-06],IETF
 72,Routing Policy Distribution,[draft-ietf-idr-rpd-04],IETF
 73,FQDN Capability,[draft-walton-bgp-hostname-capability],IETF
 74,BFD Capability,[draft-ietf-idr-bgp-bfd-strict-mode-08],IETF

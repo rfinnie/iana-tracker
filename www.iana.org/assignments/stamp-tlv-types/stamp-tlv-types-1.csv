@@ -8,8 +8,8 @@ Value,Description,Reference
 6,Access Report,[RFC8972]
 7,Follow-Up Telemetry,[RFC8972]
 8,HMAC,[RFC8972]
-9,"Destination Node Address (TEMPORARY - registered 2022-08-09, extension registered 2023-07-10, expires 2024-08-09)",[draft-ietf-ippm-stamp-srpm-04]
-10,"Return Path (TEMPORARY - registered 2022-08-09, extension registered 2023-07-10, expires 2024-08-09)",[draft-ietf-ippm-stamp-srpm-04]
+9,Destination Node IPv4 or IPv6 Address,[RFC-ietf-ippm-stamp-srpm-18]
+10,Return Path,[RFC-ietf-ippm-stamp-srpm-18]
 11-239,Unassigned,
 240-251,Reserved for Experimental Use,[RFC8972]
 252-254,Reserved for Private Use,[RFC8972]

@@ -2,5 +2,4 @@ Bit Position,Symbol,Description,Reference
 0,U,Unrecognized TLV,[RFC8972]
 1,M,Malformed TLV,[RFC8972]
 2,I,Integrity check failed,[RFC8972]
-3,V,"Verification Check (TEMPORARY - registered 2022-08-09, extension registered 2023-07-10, expires 2024-08-09)",[draft-ietf-ippm-stamp-srpm-04]
-4-7,,Unassigned,
+3-7,,Unassigned,
