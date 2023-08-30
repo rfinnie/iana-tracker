@@ -3,7 +3,7 @@
                                                         IPv4 Multicast Address Space Registry
 
    Last Updated
-   2023-08-17
+   2023-08-29
 
    Expert(s)
 
@@ -474,7 +474,7 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
 224.0.23.2                  Ricoh-device-ctrl        [Akihiro_Nishida]                                                           2003-02-01
 224.0.23.3-224.0.23.10      Telefeed                 [Wally_Beddoe]                                                              2003-04-01
 224.0.23.11                 SpectraTalk              [Madhav_Karhade]                                                            2003-05-01
-224.0.23.12                 EIBnet/IP                [Marc_Goossens]                                                             2003-07-01
+224.0.23.12                 KNXnet/IP                [Joost_Demarest]                         [KNX_Association]                  2003-07-01 2023-08-23
 224.0.23.13                 TVE-ANNOUNCE2            [Michael_Dolan]                                                             2003-10-01
 224.0.23.14                 DvbServDisc              [Bert_van_Willigen]                                                         2004-01-01
 224.0.23.15-224.0.23.31     MJDPM                    [Matthew_Straight]                                                          2007-03-01
@@ -646,7 +646,8 @@ AD-HOC Block I (224.0.2.0 - 224.0.255.255)
 224.0.232.0-224.0.239.255   Lucera Financial Infra   [Kevin_McNicholas]                       [Lucera_Financial_Infrastructures] 2022-02-17
 224.0.240.0-224.0.243.255   London Metal Exchange    [LME_Networks]                           [London_Metal_Exchange]            2022-05-26
 224.0.244.0-224.0.244.255   Clearpool AMS            [Charles_Gomes]                          [Clearpool]                        2023-05-19
-224.0.245.0-224.0.249.255   Unassigned
+224.0.245.0-224.0.245.255   OneChronos               [Kelly_Littlepage]                       [OCX_Group_Inc]                    2023-08-29
+224.0.246.0-224.0.249.255   Unassigned
 224.0.250.0-224.0.251.255   KPN Broadcast Services   [Ad_C_Spelt][KPN_IP_Office]                                                 2009-09-01
 224.0.252.0-224.0.252.255   KPN Broadcast Services   [Ad_C_Spelt][KPN_IP_Office]                                                 2005-08-01
 224.0.253.0-224.0.253.255   KPN Broadcast Services   [Ad_C_Spelt][KPN_IP_Office]                                                 2005-08-01
@@ -1077,6 +1078,7 @@ Relative Addresses used with Scoped Multicast Addresses
 [Jon_Gabriel]                                     Jon Gabriel                                 mailto:grabriel&tivoli.com                         1998-12-01
 [Jon_Postel]                                      Jon Postel                                  mailto:postel&isi.edu
 [Jonathan_Niedfeldt]                              Jonathan Niedfeldt                          mailto:jon&digitalacoustics.com                    2008-02-22
+[Joost_Demarest]                                  Joost Demarest            KNX Association   mailto:joost.demarest&knx.org                      2023-08-23
 [Jose_Luis_Marocho]                               Jose Luis Marocho                           mailto:73374.313&compuserve.com                    1996-07-01
 [Juan_Ayas]                                       Juan Ayas                                   mailto:jayas&lda-audiotech.com                     2018-10-17
 [Julian_Nevell]                                   Julian Nevell                               mailto:JNEVELL&vbs.bt.co.uk                        1999-08-01
@@ -1086,9 +1088,11 @@ Relative Addresses used with Scoped Multicast Addresses
 [Karen_Seo]                                       Karen Seo                                   mailto:kseo&bbn.com
 [Karl_Elad]                                       Karl Elad                                   mailto:karl.elad&intelsat.com                      2006-03-31
 [Keith_Thompson]                                  Keith Thompson                              mailto:thompson&ridgeback.east.sun.com             2001-06-01
+[Kelly_Littlepage]                                Kelly Littlepage                            mailto:kelly&onechronos.com                        2023-08-29
 [Kevin_Gross]                                     Kevin Gross                                 mailto:kvng&ieee.org                               2010-03-12
 [Kevin_Gross_2]                                   Kevin Gross                                 mailto:kevin.gross&avanw.com                       2012-08-28
 [Kevin_McNicholas]                                Kevin McNicholas                            mailto:kevin.mcnicholas&lucera.com                 2022-02-17
+[KNX_Association]                                                           KNX Association   mailto:joost.demarest&knx.org                      2023-08-23
 [KPN_IP_Office]                                   KPN IP Office                               mailto:kpn-ip-office&kpn.com                       2011-04-18
 [Kristian_A_Bognaes]                              Kristian A. Bognaes                         mailto:kristian.bognaes&norman.com                 2014-01-08
 [Lau_Wei_Lun]                                     Lau Wei Lun                                 mailto:weilun.lau&asianext.com                     2023-03-03
@@ -1109,7 +1113,6 @@ Relative Addresses used with Scoped Multicast Addresses
 [Lucera_Financial_Infrastructures]                                          Lucera Financial  mailto:support&lucera.com                          2022-02-17
                                                                             Infrastructures
 [Madhav_Karhade]                                  Madhav Karhade                              mailto:Madhav.Karhade&wibhu.com                    2003-05-01
-[Marc_Goossens]                                   Marc Goossens                               mailto:mgoossens&eiba.com                          2003-07-01
 [Mark_Armstrong]                                  Mark Armstrong                              mailto:Mark.Armstrong&soleratec.com                2006-02-09
 [Mark_Bakke]                                      Mark Bakke                                  mailto:mbakke&cisco.com                            2001-12-01
 [Mark_Hamilton]                                   Mark Hamilton                               mailto:mah&spectralink.com                         1998-11-01
@@ -1155,6 +1158,7 @@ Relative Addresses used with Scoped Multicast Addresses
 [NE-TEAM_at_telecomsys.com]                       NE-TEAM_at_telecomsys.com                   mailto:NE-TEAM&telecomsys.com                      2014-11-07
 [Nick_Barendt]                                    Nick Barendt                                mailto:nbarendt&vxitech.com                        2005-11-01
 [Nigel_Thompson]                                  Nigel Thompson                              mailto:nigelt&tribal.com                           1999-01-01
+[OCX_Group_Inc]                                                             OCX Group Inc     mailto:noc&onechronos.com                          2023-08-29
 [Oliver_Lewis]                                    Oliver Lewis                                mailto:o.lewis&icerobotics.co.uk                   2006-07-11
 [OPC_Foundation]                                                            OPC Foundation    mailto:sysadmin&opcfoundation.org                  2019-08-19
 [OSPF_WG_Chairs]                                  OSPF WG Chairs                              mailto:ospf-chairs&ietf.org

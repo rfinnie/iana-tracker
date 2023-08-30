@@ -3,7 +3,7 @@
 <?xml-model href="registrar-ids.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="registrar-ids">
     <title>Registrar IDs</title>
-    <updated>2023-08-10</updated>
+    <updated>2023-08-24</updated>
     <registry id="registrar-ids-1">
         <title>Registrar IDs</title>
         <xref type="text">Not defined by an RFC</xref>
@@ -24494,12 +24494,12 @@
                 <server>https://rdapserver.net/</server>
             </rdapurl>
         </record>
-        <record date="2020-08-27" updated="2021-01-28">
+        <record date="2020-08-27" updated="2023-08-17">
             <value>3862</value>
             <name>Spaceship, Inc.</name>
             <status>Accredited</status>
             <rdapurl>
-                <server>https://rdap.namecheap.com/</server>
+                <server>https://rdap.spaceship.com/</server>
             </rdapurl>
         </record>
         <record date="2020-04-08" updated="2023-02-10">
@@ -26689,10 +26689,13 @@
                 <server>https://rdap.gname.com/</server>
             </rdapurl>
         </record>
-        <record date="2022-12-01">
+        <record date="2022-12-01" updated="2023-08-24">
             <value>4142</value>
             <name>Gname 150 Inc</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.gname.com/</server>
+            </rdapurl>
         </record>
         <record date="2022-12-15" updated="2022-12-22">
             <value>4143</value>
@@ -26715,10 +26718,13 @@
             <name>Cluvit Corporation</name>
             <status>Accredited</status>
         </record>
-        <record date="2023-04-06">
+        <record date="2023-04-06" updated="2023-08-24">
             <value>4146</value>
             <name>Neo Strive, LLC D/B/A Domtake</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.domtake.com/</server>
+            </rdapurl>
         </record>
         <record date="2023-04-13" updated="2023-07-13">
             <value>4147</value>
@@ -26733,10 +26739,21 @@
             <name>Nomeo BV</name>
             <status>Accredited</status>
         </record>
-        <record date="2023-08-10">
+        <record date="2023-08-10" updated="2023-08-17">
             <value>4149</value>
             <name>Dnsgulf Pte. Ltd.</name>
             <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdap.dnsgulf.com/domain/dnsgulf.com/</server>
+            </rdapurl>
+        </record>
+        <record date="2023-08-24" updated="2023-08-24">
+            <value>4150</value>
+            <name>Nominus.com LLC</name>
+            <status>Accredited</status>
+            <rdapurl>
+                <server>https://rdapserver.net/nominus.com/</server>
+            </rdapurl>
         </record>
         <record date="2020-06-10">
             <value>9994</value>
