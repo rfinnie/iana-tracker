@@ -109,7 +109,7 @@ msisdn,End-User's mobile phone number formatted according to ITU-T recommendatio
 also_known_as,"Stage name, religious name or any other type of alias/pseudonym with which a person is known in a specific context besides its legal name. This must be part of the applicable legislation and thus the trust framework (e.g., be an attribute on the identity card).",[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"
 htm,The HTTP method of the request,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
 htu,The HTTP URI of the request (without query and fragment parts),[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
-ath,The base64url encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
+ath,The base64url-encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
 atc,Authority Token Challenge,[IETF],[RFC-ietf-acme-authority-token-09]
 sub_id,Subject Identifier,[IETF],"[RFC-ietf-secevent-subject-identifiers-18, Section 4.1]"
 rcd,Rich Call Data Information,[IETF],[RFC-ietf-stir-passport-rcd-26]

@@ -20,6 +20,7 @@ dnt,[W3C_Tracking_Protection_WG],[http://www.w3.org/TR/tracking-dnt/#status-reso
 dnt-policy.txt,Electronic Frontier Foundation,[https://www.eff.org/dnt-policy],permanent,,2015-08-19,
 dots,IETF,[RFC9132],permanent,,2020-01-16,2021-06-11
 ecips,[Wei_Tang],[https://ecips.that.world/24-ECIPURI],provisional,,2019-04-10,
+edhoc,IETF,[RFC-ietf-lake-edhoc-22],permanent,,2023-08-29,
 enterprise-network-security,[ETSI_TC_CYBER],[ETSI TS 103 523-5 clause 4.3.4.3.4.2],permanent,,2022-02-07,
 enterprise-transport-security,[ETSI_TC_CYBER],[ETSI TS 103 523-3 clause 4.3.8.3],permanent,,2019-05-14,
 est,IETF,[RFC7030][RFC9148],permanent,,2013-08-16,2020-04-29
@@ -56,6 +57,7 @@ posh,IETF,[RFC7711],permanent,"The suffix ""posh"" is expected to be followed by
       of, for instance, ""/.well-known/posh/spice.json"".  Registration of
       service names shall be requested by developers of the relevant
       application protocols.",2015-09-20,
+probing.txt,IETF,[RFC-ietf-opsec-probe-attribution-09],permanent,,2023-09-01,
 pvd,IETF,[RFC8801],permanent,,2020-02-18,
 rd,IETF,[RFC9176],permanent,,2021-05-04,
 reload-config,IETF,[RFC6940],permanent,,,
