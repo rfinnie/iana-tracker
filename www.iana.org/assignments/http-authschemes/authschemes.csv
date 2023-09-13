@@ -2,7 +2,7 @@ Authentication Scheme Name,Reference,Notes
 Basic,[RFC7617],
 Bearer,[RFC6750],
 Digest,[RFC7616],
-DPoP,"[RFC-ietf-oauth-dpop-16, Section 7.1]",
+DPoP,"[RFC9449, Section 7.1]",
 HOBA,"[RFC7486, Section 3]","The HOBA scheme can be used with either HTTP
    servers or proxies.  When used in response to a 407 Proxy
    Authentication Required indication, the appropriate proxy

@@ -26,7 +26,7 @@ phone_number_verified,True if the phone number has been verified; otherwise fals
 address,Preferred postal address,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.1]"
 updated_at,Time the information was last updated,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.1]"
 azp,Authorized party - the party to which the ID Token was issued,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 2]"
-nonce,Value used to associate a Client session with an ID Token (MAY also be used for nonce values in other applications of JWTs),[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 2][RFC-ietf-oauth-dpop-16]"
+nonce,Value used to associate a Client session with an ID Token (MAY also be used for nonce values in other applications of JWTs),[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 2][RFC9449]"
 auth_time,Time when the authentication occurred,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 2]"
 at_hash,Access Token hash value,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 2]"
 c_hash,Code hash value,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 3.3.2.11]"
@@ -107,9 +107,9 @@ salutation,"End-User's salutation, e.g., ""Mr.""",[eKYC_and_Identity_Assurance_W
 title,"End-User's title, e.g., ""Dr.""",[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"
 msisdn,End-User's mobile phone number formatted according to ITU-T recommendation [E.164],[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"
 also_known_as,"Stage name, religious name or any other type of alias/pseudonym with which a person is known in a specific context besides its legal name. This must be part of the applicable legislation and thus the trust framework (e.g., be an attribute on the identity card).",[eKYC_and_Identity_Assurance_WG],"[OpenID Connect for Identity Assurance 1.0, Section 4]"
-htm,The HTTP method of the request,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
-htu,The HTTP URI of the request (without query and fragment parts),[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
-ath,The base64url-encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC-ietf-oauth-dpop-16, Section 4.2]"
+htm,The HTTP method of the request,[IETF],"[RFC9449, Section 4.2]"
+htu,The HTTP URI of the request (without query and fragment parts),[IETF],"[RFC9449, Section 4.2]"
+ath,The base64url-encoded SHA-256 hash of the ASCII encoding of the associated access token's value,[IETF],"[RFC9449, Section 4.2]"
 atc,Authority Token Challenge,[IETF],[RFC-ietf-acme-authority-token-09]
 sub_id,Subject Identifier,[IETF],"[RFC-ietf-secevent-subject-identifiers-18, Section 4.1]"
 rcd,Rich Call Data Information,[IETF],[RFC-ietf-stir-passport-rcd-26]
