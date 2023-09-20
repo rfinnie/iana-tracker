@@ -66,5 +66,6 @@ Value,Description,Reference
         (TEMPORARY - registered 2022-05-09, extension registered 2023-04-04, expires 2024-05-09)",[draft-ietf-pce-multipath-07]
 64,LSP-EXTENDED-FLAG,[RFC9357]
 65,VIRTUAL-NETWORK-TLV,[RFC9358]
-66-65503,Unassigned,
+66,"SR Algorithm (TEMPORARY - registered 2023-09-13, expires 2024-09-13)",[draft-ietf-pce-sid-algo-04]
+67-65503,Unassigned,
 65504-65535,Experimental Use,[RFC8356]

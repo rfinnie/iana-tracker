@@ -21,4 +21,6 @@ Value,Description,Reference
 19,Number of layers on a path,[RFC8282]
 20,Domain Count metric,[RFC8685]
 21,Border Node Count metric,[RFC8685]
-22-255,Unassigned,
+22,"Path Min Delay Metric (TEMPORARY - registered 2023-09-13, expires 2024-09-13)",[draft-ietf-pce-sid-algo-04]
+23,"P2MP Path Min Delay Metric (TEMPORARY - registered 2023-09-13, expires 2024-09-13)",[draft-ietf-pce-sid-algo-04]
+24-255,Unassigned,

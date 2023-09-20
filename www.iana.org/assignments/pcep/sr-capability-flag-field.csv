@@ -1,5 +1,6 @@
 Bit,Description,Reference
-0-5,Unassigned,
+0-4,Unassigned,
+5,"SR Algorithm Capability (TEMPORARY - registered 2023-09-13, expires 2024-09-13)",[draft-ietf-pce-sid-algo-04]
 6,"Node or Adjacency Identifier (NAI) is
         supported (N)",[RFC8664]
 7,Unlimited Maximum SID Depth (X),[RFC8664]
