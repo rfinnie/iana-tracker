@@ -35,3 +35,6 @@ Decimal,Description,References
 34,id-kp-rpcTLSServer,[RFC9289]
 35,id-kp-bundleSecurity,[RFC9174]
 36,id-kp-documentSigning,[RFC9336]
+37,id-kp-jwt,[RFC-ietf-lamps-nf-eku-05]
+38,id-kp-httpContentEncrypt,[RFC-ietf-lamps-nf-eku-05]
+39,id-kp-oauthAccessTokenSigning,[RFC-ietf-lamps-nf-eku-05]

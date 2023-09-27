@@ -8,7 +8,7 @@ apple-touch-icon,Refers to an icon for the context. Synonym for icon.,[Configuri
 apple-touch-startup-image,Refers to a launch screen for the context.,[Configuring Web Applications],
 archives,"Refers to a collection of records, documents, or other
       materials of historical interest.",[HTML5],
-author,Refers to the context's author.,[HTML],
+author,Refers to the context's author.,[HTML],See also 'me'
 blocked-by,"Identifies the entity that blocks access to a resource
       following receipt of a legal demand.",[RFC7725],
 bookmark,Gives a permanent link to use for bookmarking purposes.,[HTML],
@@ -108,6 +108,7 @@ lrdd,"Refers to further information about the link's context,
       MAY have others.",[RFC6415],
 manifest,Links to a manifest file for the context.,[Web App Manifest],
 mask-icon,Refers to a mask that can be applied to the icon for the context.,[Creating Pinned Tab Icons],
+me,Links to a resource about the author of the link's context.,[https://microformats.org/wiki/rel-me],See also 'author'
 media-feed,Refers to a feed of personalised media recommendations relevant to the link context.,[https://wicg.github.io/media-feeds/#discovery-of-media-feeds],
 memento,"The Target IRI points to a Memento, a fixed resource that will not change state anymore.",[RFC7089],"A Memento for an Original Resource is a resource that
       encapsulates a prior state of the Original Resource."

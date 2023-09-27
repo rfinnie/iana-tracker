@@ -106,3 +106,4 @@ Decimal,Description,References
 105,id-mod-rpcWithTLS-2021,[RFC9289]
 106,id-mod-nftype,[RFC9310]
 107,id-mod-logotype-2022,[RFC9399]
+108,id-mod-nf-eku,[RFC-ietf-lamps-nf-eku-05]

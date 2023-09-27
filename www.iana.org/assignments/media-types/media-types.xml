@@ -84,7 +84,7 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="rfc" data="rfc9200"/>
       <file type="template">application/ace+cbor</file>
     </record>
-    <record date="2022-03-31" updated="2023-07-19">
+    <record date="2022-03-31">
       <name>ace+json</name>
       <xref type="rfc" data="rfc9431"/>
       <file type="template">application/ace+json</file>
@@ -645,7 +645,7 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="rfc" data="rfc9132"/>
       <file type="template">application/dots+cbor</file>
     </record>
-    <record date="2023-05-01" updated="2023-09-08">
+    <record date="2023-05-01">
       <name>dpop+jwt</name>
       <xref type="rfc" data="rfc9449"/>
       <file type="template">application/dpop+jwt</file>
@@ -1713,12 +1713,12 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="rfc" data="rfc7846"/>
       <file type="template">application/ppsp-tracker+json</file>
     </record>
-    <record date="2016-02-04" updated="2023-08-01">
+    <record date="2016-02-04" updated="2023-05-02">
       <name>problem+json</name>
       <xref type="rfc" data="rfc9457"/>
       <file type="template">application/problem+json</file>
     </record>
-    <record date="2016-02-04" updated="2023-08-01">
+    <record date="2016-02-04" updated="2023-05-02">
       <name>problem+xml</name>
       <xref type="rfc" data="rfc9457"/>
       <file type="template">application/problem+xml</file>
@@ -2220,7 +2220,7 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="Chet_Ensign"/>
       <file type="template">application/stix+json</file>
     </record>
-    <record date="2022-08-01" updated="2023-06-29">
+    <record date="2022-08-01">
       <name>swid+cbor</name>
       <xref type="rfc" data="rfc9393"/>
       <file type="template">application/swid+cbor</file>
@@ -9431,7 +9431,7 @@ by the IANA.</note>
       <xref type="rfc" data="rfc5438"/>
       <file type="template">message/imdn+xml</file>
     </record>
-    <record date="2023-04-06" updated="2023-07-18">
+    <record date="2023-04-06">
       <name>mls</name>
       <xref type="rfc" data="rfc9420"/>
       <file type="template">message/mls</file>
