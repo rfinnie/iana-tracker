@@ -15,6 +15,7 @@ rdap_objectTag,Any,[RFC8521],[IESG],"This extension describes a best practice fo
         structuring entity identifiers to enable query bootstrapping."
 redirect_with_content,Any,[https://raw.githubusercontent.com/APNIC-net/rdap-redirect-with-content/v1/apnic-rdap-redirect-with-content.txt],[Tom_Harrison],COMMON
 regType,Any,[https://gitlab.centralnic.com/centralnic/centralnic-rdap-extensions/blob/master/regtype.md],[Gavin_Brown],COMMON
+reverse_search,Any,[RFC-ietf-regext-rdap-reverse-search-25],[IETF],This extension identifier is used for both URI path segments and response extensions related to the reverse search in RDAP.
 sorting,Any,[RFC8977],[IETF],"This extension describes a best practice for result
       set sorting."
 subsetting,Any,[RFC8982],[IETF],"This extension describes best practice for partial

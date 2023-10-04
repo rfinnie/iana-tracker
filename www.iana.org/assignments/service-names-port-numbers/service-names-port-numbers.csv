@@ -13945,6 +13945,8 @@ wb-mon,,,Wideband Monitoring,,,,,,,,
 xnet,,,Cross Net Debugger,,,,,,,,
 xns-idp,,,Xerox NS IDP,,,,,,,,
 1password,,,1Password Password Manager data sharing and synchronization protocol,[Roustem_Karimov],[Roustem_Karimov],,,,,,Defined TXT keys: None
+7ksonar,,tcp,Teledyne Marine 7k Sonar Protocol,[Teledyne_Marine],[Anders_Brandt_5],2023-10-03,,,,,Defined TXT keys: None
+7ksonar,,udp,Teledyne Marine 7k Sonar Protocol,[Teledyne_Marine],[Anders_Brandt_5],2023-10-03,,,,,Defined TXT keys: None
 a-d-sync,,,Altos Design Synchronization protocol,[David_Lasker],[David_Lasker],,,,,,Defined TXT keys: None
 abi-instrument,,,Applied Biosystems Universal Instrument Framework,[ThermoFisher_Scientific],[Carlo_Quiñónez],,2021-07-27,,,,"Defined TXT keys:   product=<short product name/model>
   description=<readable name>
@@ -14920,6 +14922,8 @@ tivo-music,,,TiVo Music Protocol,[Developer_Support],[Developer_Support],,,,,,De
 tivo-photos,,,TiVo Photos Protocol,[Developer_Support],[Developer_Support],,,,,,Defined TXT keys: None
 tivo-remote,,,TiVo Remote Protocol,[Developer_Support],[Developer_Support],,,,,,"Defined TXT keys: protocol, path, swversion, platform, TSN"
 tivo-videos,,,TiVo Videos Protocol,[Developer_Support],[Developer_Support],,,,,,"Defined TXT keys: protocol, path, swversion, platform, TSN"
+tmsensor,,tcp,Teledyne Marine Sensor,[Teledyne_Marine],[Anders_Brandt_5],2023-10-03,,,,,Defined TXT keys: None
+tmsensor,,udp,Teledyne Marine Sensor,[Teledyne_Marine],[Anders_Brandt_5],2023-10-03,,,,,Defined TXT keys: None
 todogwa,,,2Do Sync Helper Tool for Mac OS X and PCs,[Fahad_Gilani],[Fahad_Gilani],,,,,,Defined TXT keys: None
 tomboy,,,Tomboy,[Alex_Graveley],[Alex_Graveley],,,,,,Defined TXT keys: None
 toothpicserver,,,ToothPics Dental Office Support Server,[Milton_Pulis],[Milton_Pulis],,,,,,Defined TXT keys: None
