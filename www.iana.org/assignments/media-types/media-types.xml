@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2023-09-25</updated>
+  <updated>2023-10-09</updated>
   
   
  
@@ -1095,6 +1095,11 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="rfc" data="rfc7464"/>
       <file type="template">application/json-seq</file>
     </record>
+    <record date="2023-10-03">
+      <name>jsonpath</name>
+      <xref type="draft" data="RFC-ietf-jsonpath-base-21"/>
+      <file type="template">application/jsonpath</file>
+    </record>
     <record date="2015-01-23">
       <name>jwk+json</name>
       <xref type="rfc" data="rfc7517"/>
@@ -1718,6 +1723,21 @@ Hence, the media type registry disallows parameters named "q".
       <name>ppsp-tracker+json</name>
       <xref type="rfc" data="rfc7846"/>
       <file type="template">application/ppsp-tracker+json</file>
+    </record>
+    <record date="2023-10-09">
+      <name>private-token-issuer-directory</name>
+      <xref type="draft" data="RFC-ietf-privacypass-protocol-16"/>
+      <file type="template">application/private-token-issuer-directory</file>
+    </record>
+    <record date="2023-10-09">
+      <name>private-token-request</name>
+      <xref type="draft" data="RFC-ietf-privacypass-protocol-16"/>
+      <file type="template">application/private-token-request</file>
+    </record>
+    <record date="2023-10-09">
+      <name>private-token-response</name>
+      <xref type="draft" data="RFC-ietf-privacypass-protocol-16"/>
+      <file type="template">application/private-token-response</file>
     </record>
     <record date="2016-02-04" updated="2023-05-02">
       <name>problem+json</name>
