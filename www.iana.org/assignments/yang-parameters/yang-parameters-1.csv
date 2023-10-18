@@ -127,7 +127,7 @@ ietf-mpls-ldp,ietf-mpls-ldp@2022-03-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-m
 ietf-mpls-ldp-extended,ietf-mpls-ldp-extended@2022-03-14.yang,N,urn:ietf:params:xml:ns:yang:ietf-mpls-ldp-extended,ldp-ext,,[RFC9070],
 ietf-msdp,ietf-msdp@2020-10-31.yang,N,urn:ietf:params:xml:ns:yang:ietf-msdp,msdp,,[RFC8916],
 ietf-mud,ietf-mud@2019-01-28.yang,N,urn:ietf:params:xml:ns:yang:ietf-mud,ietf-mud,,[RFC8520],
-ietf-mud-transparency,,N,urn:ietf:params:xml:ns:yang:ietf-mud-transparency,mudtx,,[RFC-ietf-opsawg-sbom-access-18],[RFC-ietf-opsawg-sbom-access-18]'s module file will be posted upon the document's publication as an RFC.
+ietf-mud-transparency,ietf-mud-transparency@2023-10-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-mud-transparency,mudtx,,[RFC9472],
 ietf-nat,ietf-nat@2019-01-10.yang,N,urn:ietf:params:xml:ns:yang:ietf-nat,nat,,[RFC8512],
 ietf-netconf,ietf-netconf@2011-06-01.yang,N,urn:ietf:params:xml:ns:netconf:base:1.0,nc,,[RFC6241],
 ietf-netconf-acm,ietf-netconf-acm@2012-02-22.yang,N,urn:ietf:params:xml:ns:yang:ietf-netconf-acm,nacm,,[RFC6536],

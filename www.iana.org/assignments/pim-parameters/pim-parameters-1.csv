@@ -26,6 +26,6 @@ Value,Length,Name,Reference
 37,variable,DR Address Option,[draft-ietf-pim-dr-improvement-10]
 38,variable,BDR Address Option,[draft-ietf-pim-dr-improvement-10]
 39,4,BFD Discriminator Option,[RFC9186]
-40,0,Packed Assert Capability,[RFC-ietf-pim-assert-packing-12]
+40,0,Packed Assert Capability,[RFC9466]
 41-65000,-,Unassigned,
 65001-65535,-,Reserved (Private Use),

@@ -15,7 +15,9 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.2.14,OPC Discovery,[OPC_Foundation],[OPC_Foundation],2019-08-19,
 224.0.2.15,MRFLabbing (expires 2024-06-09),[Mohammed_Raoof_Fadda],[Mohammed_Raoof_Fadda],2023-06-09,
 224.0.2.16-224.0.2.17,unidns,[Xie_Shao],[Xie_Shao],2023-01-18,
-224.0.2.18-224.0.2.63,Unassigned,,,,
+224.0.2.18,vivoh-directory-1,[Giovanni_Marzot_2],[Vivoh],2023-10-13,
+224.0.2.19,vivoh-directory-2,[Giovanni_Marzot_2],[Vivoh],2023-10-13,
+224.0.2.20-224.0.2.63,Unassigned,,,,
 224.0.2.64-224.0.2.95,"Intercontinental Exchange, Inc.",[RIR_Admin],[Intercontinental_Exchange_Inc.],1996-04,2007-07
 224.0.2.96-224.0.2.127,BallisterNet,[Tom_Ballister],[Tom_Ballister],1997-07-01,2021-06-11
 224.0.2.128-224.0.2.191,WOZ-Garage,[Douglas_Marquardt],,1997-02-01,
