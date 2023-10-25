@@ -28,3 +28,4 @@ autoRenewalExpired,The short-term certificate is no longer available because the
 autoRenewalCancellationInvalid,"A request to cancel an auto-renewal Order that is not in state ""valid"" has been received",[RFC8739]
 autoRenewalRevocationNotSupported,A request to revoke an auto-renewal Order has been received,[RFC8739]
 unknownDelegation,An unknown configuration is listed in the delegation attribute of the order request,[RFC9115]
+onionCAARequired,"The CA only supports checking CAA for hidden services in-band, but the client has not provided an in-band CAA",[draft-ietf-acme-onion-01]

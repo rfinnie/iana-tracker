@@ -9107,7 +9107,7 @@ strexec-d,5026,tcp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08
 strexec-d,5026,udp,Storix I/O daemon (data),[Storix_Inc],[David_Huffman],2005-08,,,,,
 strexec-s,5027,tcp,Storix I/O daemon (stat),[Storix_Inc],[David_Huffman],2005-08,,,,,
 strexec-s,5027,udp,Storix I/O daemon (stat),[Storix_Inc],[David_Huffman],2005-08,,,,,
-qvr,5028,tcp,Quiqum Virtual Relais,[Philipp_Marcel_Albre],[Philipp_Marcel_Albre],2009-07-06,,,,,
+qvr,5028,tcp,Quiqum Virtual Relais,[Philipp_Marcel_Albrecht],[Philipp_Marcel_Albrecht],2009-07-06,,,,,
 ,5028,udp,Reserved,,,,,,,,
 infobright,5029,tcp,Infobright Database Server,[Mark_Windrim],[Mark_Windrim],2009-07-23,,,,,
 infobright,5029,udp,Infobright Database Server,[Mark_Windrim],[Mark_Windrim],2009-07-23,,,,,

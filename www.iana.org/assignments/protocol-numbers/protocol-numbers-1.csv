@@ -72,7 +72,7 @@ Livermore, California, June 1977.][Barry_Howard]"
 52,I-NLSP,Integrated Net Layer Security  TUBA,,[K_Robert_Glenn]
 53,SWIPE (deprecated),IP with Encryption,,[John_Ioannidis]
 54,NARP,NBMA Address Resolution Protocol,,[RFC1735]
-55,MOBILE,IP Mobility,,[Charlie_Perkins]
+55,Min-IPv4,Minimal IPv4 Encapsulation,,[RFC2004][Charlie_Perkins]
 56,TLSP,"Transport Layer Security Protocol        
 using Kryptonet key management",,[Christer_Oberg]
 57,SKIP,SKIP,,[Tom_Markson]

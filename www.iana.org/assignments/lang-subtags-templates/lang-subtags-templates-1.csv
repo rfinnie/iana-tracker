@@ -1162,6 +1162,7 @@ script,Bamu,bamu.txt,2009-07-30
 script,Bass,bass.txt,2010-04-19
 script,Beng,Beng.txt,2017-01-19
 script,Bhks,bhks.txt,2015-08-04
+script,Chis,Chis.txt,2023-10-16
 script,Chrs,Chrs.txt,2019-09-16
 script,Cpmn,Cpmn.txt,2017-08-15
 script,Cprt,Cprt.txt,2017-08-15
@@ -1170,10 +1171,12 @@ script,Dogr,Dogr.txt,2017-01-19
 script,Dupl,dupl.txt,2010-08-17
 script,Elba,elba.txt,2010-08-17
 script,Elym,Elym.txt,2018-10-31
+script,Gara,Gara.txt,2023-10-16
 script,Geor,Geor.txt,2017-01-19
 script,Gong,Gong.txt,2017-01-19
 script,Gonm,Gonm.txt,2017-01-19
 script,Gran,gran.txt,2009-12-14
+script,Gukh,Gukh.txt,2023-10-16
 script,Hanb,hanb.txt,2016-02-10
 script,Hatr,hatr.txt,2013-12-13
 script,Hluw,hluw.txt,2012-01-04
@@ -1187,6 +1190,7 @@ script,Khoj,khoj.txt,2011-08-24
 script,Kitl,kitl.txt,2014-12-17
 script,Kits,kits.txt,2014-12-17
 script,Kpel,kpel.txt,2010-04-19
+script,Krai,Krai.txt,2023-10-16
 script,Leke,leke.txt,2015-08-04
 script,Lisu,lisu.txt,2009-03-13
 script,Loma,loma.txt,2010-04-19
@@ -1210,6 +1214,7 @@ script,Nkdb,Nkdb.txt,2017-08-15
 script,Nkgb,nkgb.txt,2009-03-13
 script,Nkgb-20170815,Nkgb-20170815.txt,2017-08-15
 script,Nshu,nshu.txt,2011-01-11
+script,Onao,Onao.txt,2023-10-16
 script,Orkh,orkh.txt,2009-07-30
 script,Orya,Orya.txt,2017-01-19
 script,Osge,osge.txt,2014-12-17
@@ -1227,6 +1232,7 @@ script,Sarb,sarb.txt,2009-07-30
 script,Shrd,shrd.txt,2011-01-11
 script,Shui,Shui.txt,2017-08-15
 script,Sidd,sidd.txt,2013-12-13
+script,Sidt,Sidt.txt,2023-10-16
 script,Sind,sind.txt,2010-08-17
 script,Sind,sind-20110111.txt,2011-01-11
 script,Sogd,Sogd.txt,2017-12-14
@@ -1236,10 +1242,14 @@ script,Soyo,Soyo.txt,2017-01-19
 script,Sunu,Sunu.txt,2021-12-29
 script,Takr,takr.txt,2011-01-11
 script,Tang,tang.txt,2011-01-11
+script,Tayo,Tayo.txt,2023-10-16
 script,Tglg,tglg.txt,2009-03-13
 script,Tirh,Tirh.txt,2011-08-24
 script,Tnsa,Tnsa.txt,2021-03-05
+script,Todr,Todr.txt,2023-10-16
+script,Tols,Tols.txt,2023-10-16
 script,Toto,Toto.txt,2020-05-12
+script,Tutg,Tutg.txt,2023-10-16
 script,Vith,Vith.txt,2021-03-05
 script,Wara,wara.txt,2009-12-14
 script,Wcho,Wcho.txt,2017-08-15
