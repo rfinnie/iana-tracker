@@ -4,7 +4,7 @@ Type,NLRI Type,Reference
 2,Link NLRI,[RFC-ietf-idr-rfc7752bis-16]
 3,IPv4 Topology Prefix NLRI,[RFC-ietf-idr-rfc7752bis-16]
 4,IPv6 Topology Prefix NLRI,[RFC-ietf-idr-rfc7752bis-16]
-5,TE Policy NLRI type,[draft-ietf-idr-te-lsp-distribution-17]
+5,SR Policy Candidate Path NLRI,[draft-ietf-idr-bgp-ls-sr-policy-02]
 6,SRv6 SID NLRI,[RFC-ietf-idr-bgpls-srv6-ext-14]
 7-1100,Unassigned,
 1101,Not to be allocated,

@@ -7,7 +7,7 @@ Protocol-ID,NLRI information source protocol,Reference
 5,Static configuration,[RFC-ietf-idr-rfc7752bis-16]
 6,OSPFv3,[RFC-ietf-idr-rfc7752bis-16]
 7,BGP,[RFC9086]
-8,RSVP-TE,[draft-ietf-idr-te-lsp-distribution-17]
-9,Segment Routing,[draft-ietf-idr-te-lsp-distribution-17]
+8,RSVP-TE,[draft-ietf-idr-bgp-ls-te-path-01]
+9,Segment Routing,[draft-ietf-idr-bgp-ls-sr-policy-02]
 10-199,Unassigned,
 200-255,Private Use,[RFC-ietf-idr-rfc7752bis-16]
