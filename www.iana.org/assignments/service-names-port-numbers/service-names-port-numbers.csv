@@ -6165,8 +6165,8 @@ stvp,3158,tcp,SmashTV Protocol,[Christian_Wolff],[Christian_Wolff],,,,,,
 stvp,3158,udp,SmashTV Protocol,[Christian_Wolff],[Christian_Wolff],,,,,,
 navegaweb-port,3159,tcp,NavegaWeb Tarification,[Miguel_Angel_Fernand],[Miguel_Angel_Fernand],,,,,,
 navegaweb-port,3159,udp,NavegaWeb Tarification,[Miguel_Angel_Fernand],[Miguel_Angel_Fernand],,,,,,
-tip-app-server,3160,tcp,TIP Application Server,[Olivier_Mascia],[Olivier_Mascia],,,,,,
-tip-app-server,3160,udp,TIP Application Server,[Olivier_Mascia],[Olivier_Mascia],,,,,,
+tip-app-server,3160,tcp,TIP Application Server,[Integral_Software],[Olivier_Mascia],,2023-11-07,,,,
+tip-app-server,3160,udp,TIP Application Server,[Integral_Software],[Olivier_Mascia],,2023-11-07,,,,
 doc1lm,3161,tcp,DOC1 License Manager,[Greg_Goodson],[Greg_Goodson],,,,,,
 doc1lm,3161,udp,DOC1 License Manager,[Greg_Goodson],[Greg_Goodson],,,,,,
 sflm,3162,tcp,SFLM,[System_Administrator],[System_Administrator],,,,,,
@@ -6751,8 +6751,8 @@ vat-control,3457,tcp,VAT default control,[Van_Jacobson],[Van_Jacobson],,,,,,
 vat-control,3457,udp,VAT default control,[Van_Jacobson],[Van_Jacobson],,,,,,
 d3winosfi,3458,tcp,D3WinOSFI,[Brad_Hamilton],[Brad_Hamilton],,,,,,
 d3winosfi,3458,udp,D3WinOSFI,[Brad_Hamilton],[Brad_Hamilton],,,,,,
-integral,3459,tcp,TIP Integral,[Olivier_Mascia],[Olivier_Mascia],,,,,,
-integral,3459,udp,TIP Integral,[Olivier_Mascia],[Olivier_Mascia],,,,,,
+integral,3459,tcp,TIP Integral,[Integral_Software],[Olivier_Mascia],,2023-11-07,,,,
+integral,3459,udp,TIP Integral,[Integral_Software],[Olivier_Mascia],,2023-11-07,,,,
 edm-manager,3460,tcp,EDM Manger,,,,,,,,
 edm-manager,3460,udp,EDM Manger,,,,,,,,
 edm-stager,3461,tcp,EDM Stager,,,,,,,,
@@ -14534,6 +14534,7 @@ mesamis,,,Mes Amis,[David_Priest],[David_Priest],,,,,,Defined TXT keys: None
 meshcop,,udp,Thread Mesh Commissioning,[Thread_Group_Inc],[Esko_Dijk],2020-11-20,,,,,"Defined TXT keys: Thread 1.1 Specification, Section 8.4.1.1.2. https://www.threadgroup.org/ThreadSpec"
 mi-raysat,,,Mental Ray for Maya,[Autodesk],[Autodesk],,,,,,Defined TXT keys: None
 microdeep,,tcp,A protocol for controlling a microscope,[Zorth_Sarl],[David_Mendels],2023-08-02,,,,,Defined TXT keys: txtvers version name uuid
+midi2,,udp,MIDI 2.0 Device Discovery,[MIDI_Manufacturers_Association],[Florian_Bomers],2023-11-07,,,,,"Defined TXT keys: EndpointName, ProductInstanceId"
 mieleacs,,tcp,Protocol for connected accessories,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys
 mieleathome,,tcp,Miele@home Protocol,[Miele_and_Cie._KG],[Nils_Langhammer],2014-03-13,,,,,Defined TXT keys: txtvers and proprietary keys
 mieleprof,,tcp,Miele protocol for prof. appliances,[Miele_and_Cie._KG],[Nils_Langhammer],2018-04-20,,,,,Defined TXT keys: txtvers and proprietary keys

@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-   2023-10-26
+   2023-11-07
 
    Expert(s)
 
@@ -7478,8 +7478,8 @@ stvp               3158        tcp    SmashTV Protocol             [Christian_Wo
 stvp               3158        udp    SmashTV Protocol             [Christian_Wolff]                                     [Christian_Wolff]
 navegaweb-port     3159        tcp    NavegaWeb Tarification       [Miguel_Angel_Fernand]                                [Miguel_Angel_Fernand]
 navegaweb-port     3159        udp    NavegaWeb Tarification       [Miguel_Angel_Fernand]                                [Miguel_Angel_Fernand]
-tip-app-server     3160        tcp    TIP Application Server       [Olivier_Mascia]                                      [Olivier_Mascia]
-tip-app-server     3160        udp    TIP Application Server       [Olivier_Mascia]                                      [Olivier_Mascia]
+tip-app-server     3160        tcp    TIP Application Server       [Integral_Software]                                   [Olivier_Mascia]                                                       2023-11-07
+tip-app-server     3160        udp    TIP Application Server       [Integral_Software]                                   [Olivier_Mascia]                                                       2023-11-07
 doc1lm             3161        tcp    DOC1 License Manager         [Greg_Goodson]                                        [Greg_Goodson]
 doc1lm             3161        udp    DOC1 License Manager         [Greg_Goodson]                                        [Greg_Goodson]
 sflm               3162        tcp    SFLM                         [System_Administrator]                                [System_Administrator]
@@ -8133,8 +8133,8 @@ vat-control        3457        tcp    VAT default control          [Van_Jacobson
 vat-control        3457        udp    VAT default control          [Van_Jacobson]                                        [Van_Jacobson]
 d3winosfi          3458        tcp    D3WinOSFI                    [Brad_Hamilton]                                       [Brad_Hamilton]
 d3winosfi          3458        udp    D3WinOSFI                    [Brad_Hamilton]                                       [Brad_Hamilton]
-integral           3459        tcp    TIP Integral                 [Olivier_Mascia]                                      [Olivier_Mascia]
-integral           3459        udp    TIP Integral                 [Olivier_Mascia]                                      [Olivier_Mascia]
+integral           3459        tcp    TIP Integral                 [Integral_Software]                                   [Olivier_Mascia]                                                       2023-11-07
+integral           3459        udp    TIP Integral                 [Integral_Software]                                   [Olivier_Mascia]                                                       2023-11-07
 edm-manager        3460        tcp    EDM Manger
 edm-manager        3460        udp    EDM Manger
 edm-stager         3461        tcp    EDM Stager
@@ -18257,6 +18257,7 @@ meshcop                        udp    Thread Mesh Commissioning    [Thread_Group
 mi-raysat                             Mental Ray for Maya          [Autodesk]                                            [Autodesk]                                                                                                                                               Defined TXT keys: None
 microdeep                      tcp    A protocol for controlling a [Zorth_Sarl]                                          [David_Mendels]                                           2023-08-02                                                                                     Defined TXT keys: txtvers version name uuid
                                       microscope
+midi2                          udp    MIDI 2.0 Device Discovery    [MIDI_Manufacturers_Association]                      [Florian_Bomers]                                          2023-11-07                                                                                     Defined TXT keys: EndpointName, ProductInstanceId
 mieleacs                       tcp    Protocol for connected       [Miele_and_Cie._KG]                                   [Nils_Langhammer]                                         2018-04-20                                                                                     Defined TXT keys: txtvers and proprietary keys
                                       accessories
 mieleathome                    tcp    Miele@home Protocol          [Miele_and_Cie._KG]                                   [Nils_Langhammer]                                         2014-03-13                                                                                     Defined TXT keys: txtvers and proprietary keys
@@ -20884,6 +20885,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Flexera_Software]                                        Flexera Software                                    mailto:security&flexerasoftware.com                           2016-07-19
 [FLIR_Systems_AB]                                                                    FLIR Systems AB          mailto:bjorn.roth&flir.se                                     2011-10-20
 [Florence_Wyman]                                          Florence Wyman                                      mailto:wyman&peabody.plk.af.mil
+[Florian_Bomers]                                          Florian Bomers                                      mailto:Florian.Bomers.iana&bome.com                           2023-11-07
 [Florian_Weimer]                                          Florian Weimer                                      mailto:fweimer&redhat.com                                     2013-03-12
 [Flynn_Joffray]                                           Flynn Joffray              Oak Labs, Inc.           mailto:flynn&oaklabs.is                                       2017-02-09
 [fnxsoftware.com]                                                                    fnxsoftware.com          mailto:juan.guerrero&fnxsoftware.com                          2015-06-30
@@ -21392,6 +21394,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Inlab_Software_GmbH]                                                                Inlab Software GmbH      mailto:info&inlab.de                                          2014-05-02
 [Insider_Software]                                                                   Insider Software         http://www.insidersoftware.com
 [Insist]                                                                             Insist                   mailto:support&isticky.net
+[Integral_Software]                                                                  Integral Software        mailto:om&integral.software                                   2023-11-07
 [Intel]                                                                              Intel                    mailto:joshua.boelter&intel.com                               2011-10-18
 [Intel_Corporation]                                                                  Intel Corporation        mailto:eduardo.cabre&intel.com                                2022-01-10
 [IntelliAdmin_LLC]                                                                   IntelliAdmin, LLC        mailto:support&intelliadmin.com                               2016-11-18
@@ -22748,6 +22751,8 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Mictron]                                                                            Mictron                  mailto:iana&mictron.se                                        2013-10-17
 [MIDI_Manufacturers_Assoc_Inc]                                                       MIDI Manufacturers Assoc mailto:info&midi.org                                          2011-11-14
                                                                                      Inc
+[MIDI_Manufacturers_Association]                                                     MIDI Manufacturers       mailto:info&midi.org                                          2023-11-07
+                                                                                     Association
 [Midnight_Oil_Enterprises_LLC]                                                       Midnight Oil             mailto:corkill&mn-oil.com                                     2013-07-09
                                                                                      Enterprises, LLC
 [Miele_and_Cie._KG]                                                                  Miele & Cie. KG          mailto:nils.langhammer&miele.de                               2018-04-20
@@ -23042,7 +23047,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Oliver_Lewis]                                            Oliver Lewis                                        mailto:o.lewis&icerobotics.co.uk                              2006-08
 [Oliver_Thulke]                                           Oliver Thulke                                       mailto:oth&ratio.de
 [Olivier_Delecluse]                                       Olivier Delecluse                                   mailto:odelecluse&intego.com
-[Olivier_Mascia]                                          Olivier Mascia                                      mailto:om&tipgroup.com
+[Olivier_Mascia]                                          Olivier Mascia                                      mailto:om&integral.software                                   2023-11-07
 [Olivier_St-Laurent]                                      Olivier St-Laurent         Galaxy4D Online Game     mailto:admin&galaxy4d.com                                     2012-06-18
                                                                                      Engine
 [Omer_BarNir]                                             Omer BarNir                                         mailto:omer.barnir&oracle.com

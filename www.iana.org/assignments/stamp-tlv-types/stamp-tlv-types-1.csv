@@ -8,8 +8,8 @@ Value,Description,Reference
 6,Access Report,[RFC8972]
 7,Follow-Up Telemetry,[RFC8972]
 8,HMAC,[RFC8972]
-9,Destination Node IPv4 or IPv6 Address,[RFC-ietf-ippm-stamp-srpm-18]
-10,Return Path,[RFC-ietf-ippm-stamp-srpm-18]
+9,Destination Node IPv4 or IPv6 Address,[RFC9503]
+10,Return Path,[RFC9503]
 11-239,Unassigned,
 240-251,Reserved for Experimental Use,[RFC8972]
 252-254,Reserved for Private Use,[RFC8972]
