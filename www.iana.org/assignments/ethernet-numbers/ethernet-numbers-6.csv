@@ -1,5 +1,5 @@
 Protocol Number (decimal),Protocol Number (hex),Description,References
-0000,0000,reserved,[RFC7042]
+0000,0000,reserved,[RFC-ietf-intarea-rfc7042bis-11]
 0001,0001,MARS Data Messages (short form),[RFC2022]
 0002,0002,reserved for future NHRP use,[RFC2332]
 0003,0003,MARS/NHRP Control Messages,[RFC2022][RFC2332]
@@ -9,6 +9,6 @@ Protocol Number (decimal),Protocol Number (hex),Description,References
 0007,0007,L2TP,[RFC3070]
 0008,0008,Virtual Private Network ID,[RFC2684]
 0009-0065,0009-0041,Unassigned,
-0066,0042,Documentation Use,[RFC7042]
+0066,0042,Documentation Use,[RFC-ietf-intarea-rfc7042bis-11]
 0067-65534,0043-FFFE,Unassigned,
-65535,FFFF,Reserved,[RFC7042]
+65535,FFFF,Reserved,[RFC-ietf-intarea-rfc7042bis-11]

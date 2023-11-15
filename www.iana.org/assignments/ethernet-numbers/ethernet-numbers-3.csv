@@ -9,5 +9,5 @@ Addresses,Usage,Reference
 90-01-00,TRILL OAM,[RFC7455]
 90-01-01 to 90-01-FF,Unassigned (small allocations requiring both unicast and multicast),
 90-02-00 to 90-0F-FF,Unassigned,
-90-10-00 to 90-10-FF,Documentation,[RFC7042]
+90-10-00 to 90-10-FF,Documentation,[RFC-ietf-intarea-rfc7042bis-11]
 90-11-00 to FF-FF-FF,Unassigned,

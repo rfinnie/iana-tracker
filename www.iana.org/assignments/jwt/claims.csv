@@ -118,3 +118,5 @@ crn,Call Reason,[IETF],[RFC-ietf-stir-passport-rcd-26]
 msgi,Message Integrity Information,[IETF],[RFC-ietf-stir-messaging-08]
 _claim_names,JSON object whose member names are the Claim Names for the Aggregated and Distributed Claims,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.6.2]"
 _claim_sources,JSON object whose member names are referenced by the member values of the _claim_names member,[OpenID_Foundation_Artifact_Binding_Working_Group],"[OpenID Connect Core 1.0, Section 5.6.2]"
+rdap_allowed_purposes,This claim describes the set of RDAP query purposes that are available to an identity that is presented for access to a protected RDAP resource.,[IETF],"[RFC-ietf-regext-rdap-openid-27, Section 3.1.5.1]"
+rdap_dnt_allowed,"This claim contains a JSON boolean literal that describes a ""do not track"" request for server-side tracking, logging, or recording of an identity that is presented for access to a protected RDAP resource.",[IETF],"[RFC-ietf-regext-rdap-openid-27, Section 3.1.5.2]"

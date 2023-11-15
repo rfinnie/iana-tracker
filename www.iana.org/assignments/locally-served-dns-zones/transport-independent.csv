@@ -1,3 +1,3 @@
 Zone,Description,Reference
 HOME.ARPA,Homenet Special-Use Domain,[RFC8375]
-RESOLVER.ARPA,DNS Resolver Special-Use Domain,[RFC-ietf-add-ddr-10]
+RESOLVER.ARPA,DNS Resolver Special-Use Domain,[RFC9462]
