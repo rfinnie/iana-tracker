@@ -6,7 +6,7 @@
    2013-09-19
 
    Last Updated
-   2023-08-24
+   2023-11-17
 
    Available Formats
    [IMG]
@@ -14,9 +14,11 @@
    HTML [IMG]
    Plain text
 
-   Registry included below
+   Registries included below
 
      • CBOR Tags
+     • Timescales
+     • Time Tag Map Keys
 
 CBOR Tags
 
@@ -70,7 +72,7 @@ CBOR Tags
 34                              text string           base64; see Section 3.4.5.3                                                      [RFC8949]
 35                              UTF-8 string          Regular expression; see Section 2.4.4.3                                          [RFC7049]
 36                              text string           MIME message; see Section 3.4.5.3                                                [RFC8949]
-37                              byte string           Binary UUID ([RFC4122, Section 4.1.2])                                           [https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
+37                              byte string           Binary UUID ([RFC-ietf-uuidrev-rfc4122bis-14, Section 4])                        [https://github.com/lucas-clemente/cbor-specs/blob/master/uuid.md][Lucas_Clemente]
 38                              array                 Language-tagged string                                                           [RFC9290, Appendix A]
 39                              multiple              Identifier                                                                       [https://github.com/lucas-clemente/cbor-specs/blob/master/id.md][Lucas_Clemente]
 40                              array of two arrays   Multi-dimensional Array, row-major order                                         [RFC8746]
@@ -84,7 +86,8 @@ CBOR Tags
 46                              unsigned integer or   YANG instance-identifier datatype; see Section 6.13.                             [RFC9254]
                                 text string or array
 47                              unsigned integer      YANG Schema Item iDentifier (sid); see Section 3.2.                              [RFC9254]
-48-51                           Unassigned
+48                              byte string           IEEE MAC Address                                                                 [RFC-ietf-intarea-rfc7042bis-11]
+49-51                           Unassigned
 52                              byte string or array  IPv4, [prefixlen,IPv4], [IPv4,prefixpart]                                        [RFC9164]
 53                              Unassigned
 54                              byte string or array  IPv6, [prefixlen,IPv6], [IPv6,prefixpart]                                        [RFC9164]
@@ -169,9 +172,9 @@ CBOR Tags
 278                             byte string           Universal Geographical Area Description (GAD) description of velocity; see       [TS 23.032][Mathew_Meins]
                                                       Section 8
 279-1000                        Unassigned
-1001                            map                   extended time                                                                    [draft-bormann-cbor-time-tag-01]
-1002                            map                   duration                                                                         [draft-bormann-cbor-time-tag-01]
-1003                            map                   period                                                                           [draft-bormann-cbor-time-tag-01]
+1001                            map                   [RFC-ietf-cbor-time-tag-12] extended time                                        [RFC-ietf-cbor-time-tag-12]
+1002                            map                   [RFC-ietf-cbor-time-tag-12] duration                                             [RFC-ietf-cbor-time-tag-12]
+1003                            array                 [RFC-ietf-cbor-time-tag-12] period                                               [RFC-ietf-cbor-time-tag-12]
 1004                            UTF-8 text string     [RFC3339] full-date string                                                       [RFC8943]
 1005-1009                       Unassigned
 1010                            array: [id: text      Object type identifier                                                           [draft-rundgren-cotx-04]
@@ -179,7 +182,9 @@ CBOR Tags
 1011-1039                       Unassigned
 1040                            array of two arrays   Multi-dimensional Array, column-major order                                      [RFC8746]
                                 [1]
-1041-1279                       Unassigned
+1041-1047                       Unassigned
+1048                            byte string           IEEE OUI/CID                                                                     [RFC-ietf-intarea-rfc7042bis-11]
+1049-1279                       Unassigned
 1280-1400                       any                   alternatives 7..127, 1+2 encoding; see Section 9.1                               [draft-bormann-cbor-notable-tags-07]
 1401-18299                      Unassigned
 18300-18555                     byte string           Bare Hash value (COSE algorithm -256 to -1)                                      [draft-bormann-cbor-notable-tags-09, Section 3.1.1]
@@ -271,6 +276,63 @@ CBOR Tags
 4294967296                      map                   Intel FPGA SPDM Manifest                                                         [Andrew_Draper]                                                                                                    template/4294967296
 4294967297-18446744073709551614 Unassigned
 18446744073709551615            (none valid)          always invalid; Section 10.1                                                     [draft-bormann-cbor-notable-tags-02]
+
+Timescales
+
+   Registration Procedure(s)
+
+ RFC and Expert Review Required
+
+   Reference
+   [RFC-ietf-cbor-time-tag-12]
+
+   Available Formats
+   [IMG]
+   CSV
+
+   Timescale          Value               Semantics                Reference
+   UTC        0                      UTC with POSIX Epoch [RFC-ietf-cbor-time-tag-12]
+   TAI        1                      TAI with PTP Epoch   [RFC-ietf-cbor-time-tag-12]
+   Unassigned 2-18446744073709551615
+
+Time Tag Map Keys
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Unassigned
+
+   Reference
+   [RFC-ietf-cbor-time-tag-12]
+
+   Available Formats
+   [IMG]
+   CSV
+
+             Value                         Semantics                                           Reference
+   -18446744073709551616..-19 Unassigned
+   -18                        attoseconds                         [RFC-ietf-cbor-time-tag-12]
+   -15                        femtoseconds                        [RFC-ietf-cbor-time-tag-12]
+   -12                        picoseconds                         [RFC-ietf-cbor-time-tag-12]
+   -11                        IXDTF Suffix Information (elective) [RFC-ietf-cbor-time-tag-12][draft-ietf-sedate-datetime-extended-11]
+   -10                        IXDTF Time Zone Hint (elective)     [RFC-ietf-cbor-time-tag-12][draft-ietf-sedate-datetime-extended-11]
+   -9                         nanoseconds                         [RFC-ietf-cbor-time-tag-12]
+   -8                         Guarantee                           [RFC-ietf-cbor-time-tag-12]
+   -7                         Uncertainty                         [RFC-ietf-cbor-time-tag-12]
+   -6                         microseconds                        [RFC-ietf-cbor-time-tag-12]
+   -5                         Offset-Scaled Log Variance          [RFC-ietf-cbor-time-tag-12]
+   -4                         Clock Accuracy                      [RFC-ietf-cbor-time-tag-12]
+   -3                         milliseconds                        [RFC-ietf-cbor-time-tag-12]
+   -2                         Clock Class                         [RFC-ietf-cbor-time-tag-12]
+   1                          base time value as in CBOR Tag 1    [RFC8949][RFC-ietf-cbor-time-tag-12]
+   4                          base time value as in CBOR Tag 4    [RFC8949][RFC-ietf-cbor-time-tag-12]
+   5                          base time value as in CBOR Tag 5    [RFC8949][RFC-ietf-cbor-time-tag-12]
+   10                         IXDTF Time Zone Hint (critical)     [RFC-ietf-cbor-time-tag-12][draft-ietf-sedate-datetime-extended-11]
+   11                         IXDTF Suffix Information (critical) [RFC-ietf-cbor-time-tag-12][draft-ietf-sedate-datetime-extended-11]
+   12-18446744073709551615    Unassigned
 
                                                                  Contact Information
 

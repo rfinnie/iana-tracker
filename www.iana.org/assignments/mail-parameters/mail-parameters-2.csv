@@ -41,3 +41,4 @@ SMTPUTF8,Internationalized email address,[RFC6531],
 MT-PRIORITY,Priority Message Handling,[RFC6710],
 RRVS,Require Recipient Valid Since,[RFC7293],
 REQUIRETLS,Require TLS,[RFC8689],
+LIMITS,Server limits,[RFC-freed-smtp-limits-07],"See ""SMTP Server Limits"" registry below."

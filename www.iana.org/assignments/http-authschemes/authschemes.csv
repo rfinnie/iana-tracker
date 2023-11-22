@@ -11,6 +11,7 @@ HOBA,"[RFC7486, Section 3]","The HOBA scheme can be used with either HTTP
 Mutual,[RFC8120],
 Negotiate,"[RFC4559, Section 3]",This authentication scheme violates both HTTP semantics (being connection-oriented) and syntax (use of syntax incompatible with the WWW-Authenticate and Authorization header field syntax).
 OAuth,"[RFC5849, Section 3.5.1]",
+PrivateToken,"[RFC-ietf-privacypass-auth-scheme-15, Section 2]",
 SCRAM-SHA-1,[RFC7804],
 SCRAM-SHA-256,[RFC7804],
 vapid,"[RFC 8292, Section 3]",
