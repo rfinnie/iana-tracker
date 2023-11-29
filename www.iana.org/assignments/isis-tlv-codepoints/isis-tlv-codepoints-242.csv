@@ -29,7 +29,7 @@ Value,Description,Reference
 27,"IS-IS Area Leader Sub-TLV (TEMPORARY - registered 2019-08-08, extension registered 2023-06-21, expires 2024-08-08)",[draft-ietf-lsr-dynamic-flooding]
 28,"IS-IS Dynamic Flooding Sub-TLV
         (TEMPORARY - registered 2019-08-08, extension registered 2023-06-21, expires 2024-08-08)",[draft-ietf-lsr-dynamic-flooding]
-29,IP Algorithm,"[RFC-ietf-lsr-ip-flexalgo-17, Section 5.1]"
+29,IP Algorithm,"[RFC9502, Section 5.1]"
 30-160,Unassigned,
 161,Flood Reflection Discovery,[RFC9377]
 162-255,Unassigned,

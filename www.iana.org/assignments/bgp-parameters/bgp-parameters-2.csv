@@ -39,7 +39,7 @@ Work in progress, March 1996.][RFC6938]"
 36,"BGP Domain Path (D-PATH) (TEMPORARY - registered 2019-07-08, extension registered 2023-07-10, expires 2024-07-08)",[draft-ietf-bess-evpn-ipvpn-interworking-06]
 37,SFP attribute,[RFC9015]
 38,BFD Discriminator,[RFC9026]
-39,"BGP Router Capabilities (RCA) (TEMPORARY - registered 2022-12-20, expires 2023-12-20)",[draft-ietf-idr-entropy-label-01]
+39,"BGP Next Hop Dependent Capabilities (NHC) (TEMPORARY - registered 2022-12-20, extension registered 2023-11-22, expires 2024-12-20)",[draft-ietf-idr-entropy-label-13]
 40,BGP Prefix-SID,[RFC8669]
 41-127,Unassigned,
 128,ATTR_SET,[RFC6368]

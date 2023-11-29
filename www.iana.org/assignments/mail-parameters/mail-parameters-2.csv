@@ -15,7 +15,9 @@ roles",[RFC821],"The actual use of TURN was deprecated in
 [RFC2821]"
 8BITMIME,"SMTP and Submit transport of 8bit   
 MIME content",[RFC6152],
-SIZE,Message size declaration,[RFC1870],
+SIZE,Message size declaration,[RFC1870],"For additional declarations or limits of this general type,
+        see the LIMITS extension below and the SMTP Server Limits
+        registry."
 VERB,Verbose,[Eric Allman],
 ONEX,One message transaction only,[Eric Allman],
 CHUNKING,Chunking,[RFC3030],
@@ -41,4 +43,4 @@ SMTPUTF8,Internationalized email address,[RFC6531],
 MT-PRIORITY,Priority Message Handling,[RFC6710],
 RRVS,Require Recipient Valid Since,[RFC7293],
 REQUIRETLS,Require TLS,[RFC8689],
-LIMITS,Server limits,[RFC-freed-smtp-limits-07],"See ""SMTP Server Limits"" registry below."
+LIMITS,Server limits,[RFC-freed-smtp-limits-07],"See ""SMTP Server Limits"" registry."
