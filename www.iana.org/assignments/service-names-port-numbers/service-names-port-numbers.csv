@@ -12345,7 +12345,7 @@ tile-ml,10261,tcp,Tile remote machine learning,[_1026_Labs],[Rob_Earhart],2016-0
 blocks,10288,tcp,Blocks,[Carl_Malamud],[Carl_Malamud],,,,,,
 blocks,10288,udp,Blocks,[Carl_Malamud],[Carl_Malamud],,,,,,
 ,10289-10320,,Unassigned,,,,,,,,
-cosir,10321,tcp,Computer Op System Information Report,[Kevin_C_Barber],[Kevin_C_Barber],2009-01-13,,,,,
+,10321,tcp,Reserved,,,,2023-12-05,,,,De-Assigned on 2023-12-05.
 ,10321,udp,Reserved,,,,,,,,
 ,10322-10438,,Unassigned,,,,,,,,
 bngsync,10439,udp,BalanceNG session table synchronization protocol,[Inlab_Software_GmbH],[Thomas_G._Obermair],2014-05-02,,,,,
@@ -14069,6 +14069,8 @@ bhipc,,udp,Becker & Hickl Inter Process Communication,[Becker_Hickl_GmbH],[Enzo_
 bidib,,tcp,Model Railway Control via netBiDiB,[BiDiB_Tools_e.V.],[Andreas_Bergmaier],2022-12-26,,,,,"Defined TXT keys: bidib,node,interface,uid,prod,user - http://bidib.org/transport/bidib_net_e.html"
 bigbangchess,,,Big Bang Chess,[Freeverse_Software],[Freeverse_Software],,,,,,Defined TXT keys: None
 bigbangmancala,,,Big Bang Mancala,[Freeverse_Software],[Freeverse_Software],,,,,,Defined TXT keys: None
+BioSonics,,tcp,BioSonics Echosounders,[BioSonics_Inc.],[Asa_Packer],2023-12-05,,,,,Defined TXT keys: None
+BioSonics,,udp,BioSonics Echosounders,[BioSonics_Inc.],[Asa_Packer],2023-12-05,,,,,Defined TXT keys: None
 bitflit,,tcp,Data transfer service,[Ramesh_Gupta],[Ramesh_Gupta],2012-02-21,,,,,"Defined TXT keys: provider, vendor, user, host, deploy, prototype, schedule"
 bittorrent,,,BitTorrent Zeroconf Peer Discovery Protocol,[Robin_Perkins],[Robin_Perkins],,,,,,Defined TXT keys: None
 blackbook,,,Little Black Book Information Exchange Protocol,[David_HM_Spector][Paul_M_Franceus],[David_HM_Spector][Paul_M_Franceus],,,,,,"Defined TXT keys:   product=<application name>
@@ -14133,6 +14135,7 @@ core-rd,,udp,Resource Directory accessed using CoAP,[IESG],[IETF_Chair],2021-03-
 core-rd-tls,,tcp,Resource Directory accessed using CoAP over TLS,[IESG],[IETF_Chair],2021-03-16,2022-04-14,[RFC9176],,,Defined TXT keys: None
 core-rd-dtls,,udp,Resource Directory accessed using CoAP over DTLS,[IESG],[IETF_Chair],2021-03-16,,[RFC9176],,,Defined TXT keys: None
 corroboree,,,Corroboree Server,[Heath_Raftery],[Heath_Raftery],,,,,,Defined TXT keys: None
+cosir,,tcp,Computer Op System Information Report,[Kevin_C_Barber],[Kevin_C_Barber],2009-01-13,2023-12-05,,,,Defined TXT keys: None
 coviot,,tcp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
 coviot,,udp,Service for coviot branded devices,[Coviot],[Adnan_Senyurt],2017-05-19,,,,,"Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION"
 cpnotebook2,,,NoteBook 2,[Circus_Ponies_Suppor],[Circus_Ponies_Suppor],,,,,,Defined TXT keys: None
@@ -14946,6 +14949,7 @@ ttp4daemon,,,TechTool Pro 4 Anti-Piracy Service,[Micromat],[Micromat],,,,,,Defin
 tunage,,,Tunage Media Control Service,[Matt_Patenaude],[Matt_Patenaude],,,,,,Defined TXT keys: None
 tuneranger,,,TuneRanger,[Acertant],[Acertant],,,,,,Defined TXT keys: None
 tvm,,tcp,Vogel's TV mount control,[Vogels_Products],[Remco_Poelstra],2022-03-29,,,,,"Defined TXT keys: txtvers, model"
+twiline-disc,,tcp,Discovery for Twiline systems,[W._Wahli_AG],[Michael_Voser],2023-12-04,,,,,"Defined TXT keys: txtvers, protovers, caddr, xbusid"
 twinlevel,,tcp,detect sanitary product,[Oblamatik_AG],[Simon_Ensslen],2012-09-05,,,,,Defined TXT keys: None
 twosnakes,,tcp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None
 twosnakes,,sctp,Service to enable multiplayer game called two snakes.,[Narendra_Kumar_Reddy_Thummaluru],[Narendra_Kumar_Reddy_Thummaluru],2016-06-01,,,,,Defined TXT keys: None

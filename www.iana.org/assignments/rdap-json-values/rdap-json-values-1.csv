@@ -217,3 +217,4 @@ administratively (i.e., not for use by the recipient in their own
 right in operational networks).",[NRO],
 reserved,status,"The object instance has been allocated to an IANA
 special-purpose address registry.",[NRO],
+jsonpath,redacted expression language,"JSON path expression language, as defined in [draft-ietf-jsonpath-base].",[IETF],[RFC-ietf-regext-rdap-redacted-16]

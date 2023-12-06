@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2023-11-09</updated>
+  <updated>2023-11-29</updated>
   
   
  
@@ -911,6 +911,12 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="OGC"/>
       <xref type="person" data="Scott_Simmons"/>
       <file type="template">application/geopackage+sqlite3</file>
+    </record>
+    <record date="2023-11-27">
+      <name>geoxacml+json</name>
+      <xref type="person" data="OGC"/>
+      <xref type="person" data="Scott_Simmons"/>
+      <file type="template">application/geoxacml+json</file>
     </record>
     <record date="2017-07-18">
       <name>geoxacml+xml</name>
@@ -5587,6 +5593,26 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="Sebastian_A._Weiss"/>
       <file type="template">application/vnd.nacamar.ybrid+json</file>
     </record>
+    <record date="2023-11-27">
+      <name>vnd.nato.bindingdataobject+cbor</name>
+      <xref type="person" data="Aidan_Murdock"/>
+      <file type="template">application/vnd.nato.bindingdataobject+cbor</file>
+    </record>
+    <record date="2023-11-22">
+      <name>vnd.nato.bindingdataobject+json</name>
+      <xref type="person" data="Aidan_Murdock"/>
+      <file type="template">application/vnd.nato.bindingdataobject+json</file>
+    </record>
+    <record date="2023-11-27">
+      <name>vnd.nato.bindingdataobject+xml</name>
+      <xref type="person" data="Aidan_Murdock"/>
+      <file type="template">application/vnd.nato.bindingdataobject+xml</file>
+    </record>
+    <record date="2023-11-27">
+      <name>vnd.nato.openxmlformats-package.iepd+zip</name>
+      <xref type="person" data="Aidan_Murdock"/>
+      <file type="template">application/vnd.nato.openxmlformats-package.iepd+zip</file>
+    </record>
     <record>
       <name>vnd.ncd.control</name>
       <xref type="person" data="Lauri_Tarkkala"/>
@@ -5776,6 +5802,21 @@ Hence, the media type registry disallows parameters named "q".
       <name>vnd.ntt-local.sip-ta_tcp_stream</name>
       <xref type="person" data="NTT-local"/>
       <file type="template">application/vnd.ntt-local.sip-ta_tcp_stream</file>
+    </record>
+    <record date="2023-11-29">
+      <name>vnd.oai.workflows</name>
+      <xref type="person" data="Frank_Kilcommins"/>
+      <file type="template">application/vnd.oai.workflows</file>
+    </record>
+    <record date="2023-11-29">
+      <name>vnd.oai.workflows+json</name>
+      <xref type="person" data="Frank_Kilcommins"/>
+      <file type="template">application/vnd.oai.workflows+json</file>
+    </record>
+    <record date="2023-11-29">
+      <name>vnd.oai.workflows+yaml</name>
+      <xref type="person" data="Frank_Kilcommins"/>
+      <file type="template">application/vnd.oai.workflows+yaml</file>
     </record>
     <record date="2022-06-01" updated="2022-06-07">
       <name>vnd.oasis.opendocument.base</name>
@@ -12579,6 +12620,11 @@ by the IANA.</note>
       <uri>mailto:skikstra&amp;66.com</uri>
       <updated>2008-05-13</updated>
     </person>
+    <person id="Frank_Kilcommins">
+      <name>Frank Kilcommins</name>
+      <uri>mailto:fkilcommins&amp;gmail.com</uri>
+      <updated>2023-11-29</updated>
+    </person>
     <person id="Yokoyama_Kiyonobu">
       <name>Yokoyama Kiyonobu</name>
       <uri>mailto:ngn&amp;nihon-seigyo.co.jp</uri>
@@ -13112,6 +13158,11 @@ by the IANA.</note>
       <name>Makoto Murata</name>
       <uri>mailto:eb2m-mrt&amp;asahi-net.or.jp</uri>
       <updated>2011-03-23</updated>
+    </person>
+    <person id="Aidan_Murdock">
+      <name>Aidan Murdock</name>
+      <uri>mailto:aidan.murdock&amp;ncia.nato.int</uri>
+      <updated>2023-11-27</updated>
     </person>
     <person id="Kevin_Murray">
       <name>Kevin Murray</name>
@@ -13891,8 +13942,8 @@ by the IANA.</note>
     </person>
     <person id="Scott_Simmons">
       <name>Scott Simmons</name>
-      <uri>mailto:ssimmons&amp;opengeospatial.org</uri>
-      <updated>2022-01-13</updated>
+      <uri>mailto:ssimmons&amp;ogc.org</uri>
+      <updated>2023-11-27</updated>
     </person>
     <person id="Ben_Simon">
       <name>Ben Simon</name>
