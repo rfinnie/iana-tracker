@@ -68,7 +68,8 @@ Value,Name,Reference
 0xC000,CISCO-STUN-FLOWDATA,[Dan_Wing]
 0xC001,ENF-FLOW-DESCRIPTION,[Pål_Erik_Martinsen]
 0xC002,ENF-NETWORK-STATUS,[Pål_Erik_Martinsen]
-0xC003-0xC056,Unassigned,
+0xC003,CISCO-WEBEX-FLOW-INFO,[Stefano_Giorcelli]
+0xC004-0xC056,Unassigned,
 0xC057,GOOG-NETWORK-INFO,[Jonas_Oreland]
 0xC058,GOOG-LAST-ICE-CHECK-RECEIVED,[Jonas_Oreland]
 0xC059,GOOG-MISC-INFO,[Jonas_Oreland]
@@ -77,6 +78,6 @@ Value,Name,Reference
 0xC05C,GOOG-DELTA,[Jonas_Oreland]
 0xC05D,GOOG-DELTA-ACK,[Jonas_Oreland]
 0xC05E,GOOG-DELTA-SYNC-REQ,[Jonas_Oreland]
-0xC05F-0xC05F,Unassigned,
+0xC05F,Unassigned,
 0xC060,GOOG-MESSAGE-INTEGRITY-32,[Jonas_Oreland]
 0xC061-0xFFFF,Unassigned,

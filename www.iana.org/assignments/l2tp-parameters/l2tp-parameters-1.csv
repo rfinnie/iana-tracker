@@ -114,4 +114,5 @@ Also, see ATM Alarm Status AVP Values below",[RFC4454]
 100,RTP AVP,[RFC5611]
 101,PW Switching Point AVP,[RFC6073]
 102,S-BFD Target Discriminator ID,[RFC7886]
-103-65535,Unassigned,
+103,ECN Capability,[RFC-ietf-tsvwg-rfc6040update-shim-23]
+104-65535,Unassigned,

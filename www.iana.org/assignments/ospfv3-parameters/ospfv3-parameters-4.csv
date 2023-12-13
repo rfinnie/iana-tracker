@@ -6,4 +6,4 @@ Value,Description,Reference
 0x10,DN-bit,[RFC5340]
 0x20,N-bit,[RFC8362]
 0x40,E-Flag (ELC Flag),[RFC9089]
-0x80,AC-bit,"[RFC-ietf-lsr-ospfv3-srv6-extensions-15, Section 6]"
+0x80,AC-bit,"[RFC9513, Section 6]"

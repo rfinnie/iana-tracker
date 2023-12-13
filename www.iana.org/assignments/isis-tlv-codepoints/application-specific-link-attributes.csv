@@ -8,7 +8,7 @@ Type,Description,Reference
 12-13,Unassigned,
 14,Extended Administrative Group,[RFC7308]
 15-16,Unassigned,
-17,"Generic Metric (TEMPORARY - registered 2023-02-17, expires 2024-02-17)","[draft-ietf-lsr-flex-algo-bw-con-05, Section 2.1]"
+17,"Generic Metric (TEMPORARY - registered 2023-02-17, extension registered 2023-12-07, expires 2025-02-17)","[draft-ietf-lsr-flex-algo-bw-con-07, Section 2.1]"
 18,TE Default metric,[RFC5305]
 19-32,Unassigned,
 33,Unidirectional Link Delay,[RFC8570]

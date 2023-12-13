@@ -1,5 +1,5 @@
 Bit,Capability Description,Reference
-31,LSP-REPORT-CAPABILITY (R),[RFC-ietf-pce-pcep-stateful-pce-gmpls-23]
-30,LSP-UPDATE-CAPABILITY (U),[RFC-ietf-pce-pcep-stateful-pce-gmpls-23]
-29,LSP-INSTANTIATION-CAPABILITY (I),[RFC-ietf-pce-pcep-stateful-pce-gmpls-23]
+31,LSP-REPORT-CAPABILITY (R),[RFC9504]
+30,LSP-UPDATE-CAPABILITY (U),[RFC9504]
+29,LSP-INSTANTIATION-CAPABILITY (I),[RFC9504]
 0-28,Unassigned,

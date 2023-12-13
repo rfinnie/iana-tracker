@@ -46,4 +46,5 @@ Value,Description,DTLS-OK,Reference,Comment
 116,certificate_required,Y,[RFC8446],
 117-119,Unassigned,,,
 120,no_application_protocol,Y,[RFC7301][RFC8447],
-121-255,Unassigned,,,
+121,"ech_required (TEMPORARY - registered 2023-12-12, expires 2024-12-12)",Y,[draft-ietf-tls-esni-17],
+122-255,Unassigned,,,

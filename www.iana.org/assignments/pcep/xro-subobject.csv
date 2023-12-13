@@ -9,7 +9,7 @@ Value,Description,Reference
 8,Optical Interface Class List,[RFC8780]
 9,Client Signal Information,[RFC8780]
 10,Label,[RFC8779]
-11,LSP,[RFC-ietf-pce-pcep-stateful-pce-gmpls-23]
+11,LSP,[RFC9504]
 12-31,Unassigned,
 32,Autonomous system number,[RFC3209]
 33,Unassigned,

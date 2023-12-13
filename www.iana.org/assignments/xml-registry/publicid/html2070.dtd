@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-10-13</dd>
+        <dd>2023-11-28</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2904,7 +2904,7 @@ The registration template should cite the specification.
             <td>
               <a href="ns/yang/ietf-rib-extension.txt">ns/yang/ietf-rib-extension.txt</a>
             </td>
-            <td>[<a href="https://www.iana.org/go/draft-ietf-rtgwg-yang-rib-extend-21">RFC-ietf-rtgwg-yang-rib-extend-21</a>]</td>
+            <td>[<a href="https://www.iana.org/go/rfc9403">RFC9403</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-rip</td>
