@@ -69,7 +69,8 @@ Value,Name,Reference
 0xC001,ENF-FLOW-DESCRIPTION,[Pål_Erik_Martinsen]
 0xC002,ENF-NETWORK-STATUS,[Pål_Erik_Martinsen]
 0xC003,CISCO-WEBEX-FLOW-INFO,[Stefano_Giorcelli]
-0xC004-0xC056,Unassigned,
+0xC004-0xC055,Unassigned,
+0xC056,CITRIX-TRANSACTION-ID,[Paras_Babbar]
 0xC057,GOOG-NETWORK-INFO,[Jonas_Oreland]
 0xC058,GOOG-LAST-ICE-CHECK-RECEIVED,[Jonas_Oreland]
 0xC059,GOOG-MISC-INFO,[Jonas_Oreland]

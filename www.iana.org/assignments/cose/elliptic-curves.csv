@@ -10,3 +10,8 @@ X448,5,OKP,X448 for use w/ ECDH only,,[RFC9053],Yes
 Ed25519,6,OKP,Ed25519 for use w/ EdDSA only,,[RFC9053],Yes
 Ed448,7,OKP,Ed448 for use w/ EdDSA only,,[RFC9053],Yes
 secp256k1,8,EC2,SECG secp256k1 curve,IESG,[RFC8812],No
+Unassigned,9-255,,,,,
+brainpoolP256r1,256,EC2,BrainpoolP256r1,[ISO/IEC JTC 1/SC 17/WG 10],"[ISO/IEC 18013-5:2021, 9.1.5.2]",No
+brainpoolP320r1,257,EC2,BrainpoolP320r1,[ISO/IEC JTC 1/SC 17/WG 10],"[ISO/IEC 18013-5:2021, 9.1.5.2]",No
+brainpoolP384r1,258,EC2,BrainpoolP384r1,[ISO/IEC JTC 1/SC 17/WG 10],"[ISO/IEC 18013-5:2021, 9.1.5.2]",No
+brainpoolP512r1,259,EC2,BrainpoolP512r1,[ISO/IEC JTC 1/SC 17/WG 10],"[ISO/IEC 18013-5:2021, 9.1.5.2]",No

@@ -10,4 +10,5 @@ Value,Description,Semantics Definition,Reference
 8,Start-N-Ack,Section 3.3,[RFC5938]
 9,Stop-N-Sessions,Section 3.4,[RFC5938]
 10,Stop-N-Ack,Section 3.5,[RFC5938]
-11-255,Unassigned,,
+11,Request-TW-Micro-Sessions,Section 4.1,[RFC-ietf-ippm-otwamp-on-lag-08]
+12-255,Unassigned,,
