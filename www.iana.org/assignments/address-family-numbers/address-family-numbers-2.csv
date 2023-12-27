@@ -36,7 +36,7 @@ Number,Description,Reference,Registration Date
 16385,EIGRP IPv4 Service Family,[Donnie_Savage],2008-05-13
 16386,EIGRP IPv6 Service Family,[Donnie_Savage],2008-05-13
 16387,LISP Canonical Address Format (LCAF),[David_Meyer],2009-11-12
-16388,BGP-LS,[RFC-ietf-idr-rfc7752bis-16],2013-03-20
+16388,BGP-LS,[RFC9552],2013-03-20
 16389,48-bit MAC,[RFC7042],2013-05-06
 16390,64-bit MAC,[RFC7042],2013-05-06
 16391,OUI,[RFC7961],2013-09-25

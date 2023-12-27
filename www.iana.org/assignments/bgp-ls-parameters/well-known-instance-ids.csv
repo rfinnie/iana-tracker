@@ -1,4 +1,4 @@
 Identifier,Routing Universe,Reference
-0,Default Layer 3 Routing topology,[RFC-ietf-idr-rfc7752bis-16]
+0,Default Layer 3 Routing topology,[RFC9552]
 1-31,Unassigned,
-32 - 2^64-1,Private use - not recorded,[RFC-ietf-idr-rfc7752bis-16]
+32 - 2^64-1,Private use - not recorded,[RFC9552]

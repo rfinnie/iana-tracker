@@ -16,7 +16,7 @@ iat,Issued At,iat,6,integer or floating-point number,[IESG],[RFC8392]
 cti,CWT ID,jti,7,byte string,[IESG],[RFC8392]
 cnf,Confirmation,cnf,8,map,[IESG],[RFC8747]
 scope,"The scope of an access token, as defined in [RFC6749].",scope,9,byte string or text string,[IESG],"[RFC8693, Section 4.2]"
-Nonce,"Nonce (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",nonce,10,byte string,[IESG],[OpenID Connect Core 1.0][draft-ietf-rats-eat-12]
+Nonce,Nonce,eat_nonce,10,byte string,[IETF],[OpenID Connect Core 1.0][RFC-ietf-rats-eat-24]
 Unassigned,,,11 to 37,,,
 ace_profile,"The ACE profile a token is supposed to be used
         with.",ace_profile,38,integer,[IETF],"[RFC9200, Section 5.10]"
@@ -25,18 +25,27 @@ cnonce,"The client-nonce sent to the AS by the RS via
 exi,"The expiration time of a token measured from
         when it was received at the RS in seconds.",exi,40,unsigned integer,[IETF],"[RFC9200, Section 5.10.3]"
 Unassigned,,,41 to 255,,,
-UEID,"The Universal Entity ID (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",ueid,256,byte string,[IESG],[draft-ietf-rats-eat-12]
-SUEIDs,"Semi-permanent UEIDs (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",sueids,257,map,[IESG],[draft-ietf-rats-eat-12]
-Hardware OEMID,"Hardware OEM ID (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",oemid,258,byte string or integer,[IESG],[draft-ietf-rats-eat-12]
-Hardware Model,"Model identifier for hardware (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",hwmodel,259,byte string,[IESG],[draft-ietf-rats-eat-12]
-Hardware Version,"Hardware Version Identifier (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",hwversion,260,array,[IESG],[draft-ietf-rats-eat-12]
-Unassigned,,,261,,,
-Secure Boot,"Indicate whether the boot was secure (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",secboot,262,Boolean,[IESG],[draft-ietf-rats-eat-12]
-Debug Status,"Indicate status of debug facilities (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",dbgstat,263,integer,[IESG],[draft-ietf-rats-eat-12]
-Location,"The geographic location (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",location,264,map,[IESG],[draft-ietf-rats-eat-12]
-Profile,"Indicates the EAT profile followed (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",eat_profile,265,URI or OID,[IESG],[draft-ietf-rats-eat-12]
-Submodules Section,"The section containing submodules (TEMPORARY - registered 2022-03-23, extension registered 2023-02-13, expires 2024-03-23)",submods,266,map,[IESG],[draft-ietf-rats-eat-12]
-Unassigned,,,267 to 299,,,
+UEID,The Universal Entity ID,ueid,256,byte string,[IETF],[RFC-ietf-rats-eat-24]
+SUEIDs,Semi-permanent UEIDs,sueids,257,map,[IETF],[RFC-ietf-rats-eat-24]
+Hardware OEM ID,Hardware OEM ID,oemid,258,byte string or integer,[IETF],[RFC-ietf-rats-eat-24]
+Hardware Model,Model identifier for hardware,hwmodel,259,byte string,[IETF],[RFC-ietf-rats-eat-24]
+Hardware Version,Hardware Version Identifier,hwversion,260,array,[IETF],[RFC-ietf-rats-eat-24]
+Uptime,Uptime,uptime,261,unsigned integer,[IETF],[RFC-ietf-rats-eat-24]
+OEM Authorised Boot,Indicates whether the software booted was OEM authorized,oemboot,262,Boolean,[IETF],[RFC-ietf-rats-eat-24]
+Debug Status,Indicates status of debug facilities,dbgstat,263,integer or string,[IETF],[RFC-ietf-rats-eat-24]
+Location,The geographic location,location,264,map,[IETF],[RFC-ietf-rats-eat-24]
+EAT Profile,Indicates the EAT profile followed,eat_profile,265,URI or OID,[IETF],[RFC-ietf-rats-eat-24]
+Submodules Section,The section containing submodules,submods,266,map,[IETF],[RFC-ietf-rats-eat-24]
+Boot Count,The number times the entity or submodule has been booted,bootcount,267,uint,[IETF],[RFC-ietf-rats-eat-24]
+Boot Seed,Identifies a boot cycle,bootseed,268,bytes,[IETF],[RFC-ietf-rats-eat-24]
+DLOAs,Certifications received as Digital Letters of Approval,dloas,269,array,[IETF],[RFC-ietf-rats-eat-24]
+Software Name,The name of the software running in the entity,swname,270,map,[IETF],[RFC-ietf-rats-eat-24]
+Software Version,The version of software running in the entity,swversion,271,map,[IETF],[RFC-ietf-rats-eat-24]
+Software Manifests,Manifests describing the software installed on the entity,manifests,272,array,[IETF],[RFC-ietf-rats-eat-24]
+Measurements,"Measurements of the software, memory configuration and such on the entity",measurements,273,array,[IETF],[RFC-ietf-rats-eat-24]
+Software Measurement Results,The results of comparing software measurements to reference values,measres,274,array,[IETF],[RFC-ietf-rats-eat-24]
+Intended Use,Indicates intended use of the EAT,intuse,275,integer or string,[IETF],[RFC-ietf-rats-eat-24]
+Unassigned,,,276 to 299,,,
 wmver,The version of the WM Token,wmver,300,unsigned integer,[DASH-IF],[ETSI TS 104 002 V1.1.1]
 wmvnd,The WM technology vendor,wmvnd,301,unsigned integer,[DASH-IF],[ETSI TS 104 002 V1.1.1]
 wmpatlen,The length in bits of the WM pattern,wmpatlen,302,unsigned integer,[DASH-IF],[ETSI TS 104 002 V1.1.1]

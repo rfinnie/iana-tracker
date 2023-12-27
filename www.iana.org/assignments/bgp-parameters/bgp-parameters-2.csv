@@ -29,7 +29,7 @@ Work in progress, March 1996.][RFC6938]"
 26,AIGP,[RFC7311]
 27,PE Distinguisher Labels,[RFC6514]
 28,BGP Entropy Label Capability Attribute (deprecated),[RFC6790][RFC7447]
-29,BGP-LS Attribute,[RFC-ietf-idr-rfc7752bis-16]
+29,BGP-LS Attribute,[RFC9552]
 30,Deprecated,[RFC8093]
 31,Deprecated,[RFC8093]
 32,LARGE_COMMUNITY,[RFC8092]
