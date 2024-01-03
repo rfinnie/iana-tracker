@@ -773,8 +773,8 @@ kryptolan,398,tcp,Kryptolan,[Peter_de_Laval],[Peter_de_Laval],,,,,,
 kryptolan,398,udp,Kryptolan,[Peter_de_Laval],[Peter_de_Laval],,,,,,
 iso-tsap-c2,399,tcp,ISO Transport Class 2 Non-Control over TCP,[Yanick_Pouffary],[Yanick_Pouffary],,,,,,
 iso-tsap-c2,399,udp,ISO Transport Class 2 Non-Control over UDP,[Yanick_Pouffary],[Yanick_Pouffary],,,,,,
-osb-sd,400,tcp,Oracle Secure Backup,[Steven_Fried],[Steven_Fried],2008-06-06,2023-06-15,,,,Formerly was Workstation Solutions
-osb-sd,400,udp,Oracle Secure Backup,[Steven_Fried],[Steven_Fried],2008-06-06,2023-06-15,,,,Formerly was Workstation Solutions
+osb-sd,400,tcp,Oracle Secure Backup,[Steven_Wertheimer],[Steven_Wertheimer],2008-06-06,2023-12-27,,,,Formerly was Workstation Solutions
+osb-sd,400,udp,Oracle Secure Backup,[Steven_Wertheimer],[Steven_Wertheimer],2008-06-06,2023-12-27,,,,Formerly was Workstation Solutions
 ups,401,tcp,Uninterruptible Power Supply,[Charles_Bennett],[Charles_Bennett],2008-08-29,,,,,
 ups,401,udp,Uninterruptible Power Supply,[Charles_Bennett],[Charles_Bennett],2008-08-29,,,,,
 genie,402,tcp,Genie Protocol,[Mark_Hankin],[Mark_Hankin],,,,,,
@@ -12299,7 +12299,7 @@ bctp-server,10107,udp,"VERITAS BCTP, server",[Saugata_Guha],[Saugata_Guha],2004-
 nmea-0183,10110,tcp,NMEA-0183 Navigational Data,[Meindert_Sprang],[Meindert_Sprang],2009-02-18,,,,,
 nmea-0183,10110,udp,NMEA-0183 Navigational Data,[Meindert_Sprang],[Meindert_Sprang],2009-02-18,,,,,
 ,10111,tcp,Reserved,,,,,,,,
-nmea-onenet,10111,udp,NMEA OneNet multicast messaging,[National_Marine_Electronics_Association],[Steve_Spitzer],2011-09-15,,,,,
+nmea-onenet,10111,udp,NMEA OneNet multicast messaging,[National_Marine_Electronics_Association],[Mark_Oslund],2011-09-15,2023-12-27,,,,
 ,10112,,Unassigned,,,,,,,,
 netiq-endpoint,10113,tcp,NetIQ Endpoint,[John_Wood],[John_Wood],,,,,,
 netiq-endpoint,10113,udp,NetIQ Endpoint,[John_Wood],[John_Wood],,,,,,
@@ -14628,9 +14628,9 @@ omadm-bootstrap,,tcp,Open Mobile Alliance (OMA) Device Management (DM) Bootstrap
 omni-bookmark,,,OmniWeb,[The_Omni_Group],[The_Omni_Group],,,,,,Defined TXT keys: None
 omni-live,,,Service for remote control of Omnisphere virtual instrument,[Glenn_Olander_2],[Glenn_Olander_2],,,,,,Defined TXT keys: omni-livetxt.html
 omnistate,,tcp,Resource state update notifications,[The_Omni_Group],[The_Omni_Group],2020-07-10,,,,,Defined TXT keys: Proprietary
-onenet-info,,tcp,OneNet Application Information Service,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, path"
-onenet-pairing,,tcp,OneNet Pairing,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, id, path"
-onenet-pgn,,udp,OneNet PGN Transport Service,[National_Marine_Electronics_Association],[Steven_Spitzer],2019-12-09,,,,,"Defined TXT keys: txtvers, protovers, nmea-name"
+onenet-info,,tcp,OneNet Application Information Service,[National_Marine_Electronics_Association],[Mark_Oslund],2019-12-09,2023-12-27,,,,"Defined TXT keys: txtvers, protovers, path"
+onenet-pairing,,tcp,OneNet Pairing,[National_Marine_Electronics_Association],[Mark_Oslund],2019-12-09,2023-12-27,,,,"Defined TXT keys: txtvers, protovers, id, path"
+onenet-pgn,,udp,OneNet PGN Transport Service,[National_Marine_Electronics_Association],[Mark_Oslund],2019-12-09,2023-12-27,,,,"Defined TXT keys: txtvers, protovers, nmea-name"
 openbase,,,OpenBase SQL,,,,,,,,Defined TXT keys: None
 opencu,,udp,Conferencing Protocol,[Marc_Manthey_2],[Marc_Manthey_2],,,,,,Defined TXT keys: None
 openpath,,tcp,Discovery of OpenPath appliances,[OpenPath_Security_Inc],[John_Hickey],2018-01-11,,,,,Defined TXT keys: Proprietary
