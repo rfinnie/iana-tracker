@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="media-types">
   <title>Media Types</title>
   <category>Multipurpose Internet Mail Extensions (MIME) and Media Types</category>
-  <updated>2024-01-02</updated>
+  <updated>2024-01-08</updated>
   
   
  
@@ -179,6 +179,16 @@ Hence, the media type registry disallows parameters named "q".
       <name>alto-propmapparams+json</name>
       <xref type="rfc" data="rfc9240"/>
       <file type="template">application/alto-propmapparams+json</file>
+    </record>
+    <record date="2024-01-08">
+      <name>alto-tips+json</name>
+      <xref type="draft" data="RFC-ietf-alto-new-transport-22"/>
+      <file type="template">application/alto-tips+json</file>
+    </record>
+    <record date="2024-01-08">
+      <name>alto-tipsparams+json</name>
+      <xref type="draft" data="RFC-ietf-alto-new-transport-22"/>
+      <file type="template">application/alto-tipsparams+json</file>
     </record>
     <record date="2020-03-26">
       <name>alto-updatestreamcontrol+json</name>
@@ -7758,6 +7768,11 @@ Hence, the media type registry disallows parameters named "q".
       <xref type="person" data="David_Matthewman"/>
       <file type="template">application/vnd.xara</file>
     </record>
+    <record date="2024-01-03">
+      <name>vnd.xecrets-encrypted</name>
+      <xref type="person" data="Svante_Seleborg"/>
+      <file type="template">application/vnd.xecrets-encrypted</file>
+    </record>
     <record>
       <name>vnd.xfdl</name>
       <xref type="person" data="Dave_Manning"/>
@@ -13896,6 +13911,11 @@ by the IANA.</note>
       <name>Meredith Searcy</name>
       <uri>mailto:msearcy&amp;newmoon.com</uri>
       <updated>1997-06-19</updated>
+    </person>
+    <person id="Svante_Seleborg">
+      <name>Svante Seleborg</name>
+      <uri>mailto:svante&amp;axantum.com</uri>
+      <updated>2024-01-03</updated>
     </person>
     <person id="Guy_Selzler">
       <name>Guy Selzler</name>

@@ -17,7 +17,7 @@ Address(es),Description,References,Change Controller,Date Registered,Last Review
 224.0.0.15,all-cbt-routers,[Tony_Ballardie][RFC2189],,1997-02-01,
 224.0.0.16,designated-sbm,[Fred_Baker],,1997-06-01,
 224.0.0.17,all-sbms,[Fred_Baker],,1997-06-01,
-224.0.0.18,VRRP,[RFC3768][RFC5798],,,
+224.0.0.18,VRRP,[RFC3768][RFC-ietf-rtgwg-vrrp-rfc5798bis-18],,,
 224.0.0.19,IPAllL1ISs,[Tony_Przygienda],,1999-10-01,
 224.0.0.20,IPAllL2ISs,[Tony_Przygienda],,1999-10-01,
 224.0.0.21,IPAllIntermediate Systems,[Tony_Przygienda],,1999-10-01,
