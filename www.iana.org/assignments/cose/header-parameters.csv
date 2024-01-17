@@ -16,7 +16,8 @@ Countersignature version 2,11,COSE_Countersignature / [+ COSE_Countersignature],
 Countersignature0 version 2,12,COSE_Countersignature0,,V2 Abbreviated Countersignature,[RFC9338]
 kcwt,13,COSE_Messages,,A CBOR Web Token (CWT) containing a COSE_Key in a 'cnf' claim and possibly other claims. CWT is defined in [RFC8392]. COSE_Messages is defined in [RFC9052].,[RFC-ietf-lake-edhoc-22]
 kccs,14,map,,A CWT Claims Set (CCS) containing a COSE_Key in a 'cnf' claim and possibly other claims. CCS is defined in [RFC8392].,[RFC-ietf-lake-edhoc-22]
-Unassigned,15-31,,,,
+CWT Claims,15,map,,Location for CWT Claims in COSE Header Parameters.,[RFC-ietf-cose-cwt-claims-in-headers-10]
+Unassigned,16-31,,,,
 x5bag,32,COSE_X509,,An unordered bag of X.509 certificates,[RFC9360]
 x5chain,33,COSE_X509,,An ordered chain of X.509 certificates,[RFC9360]
 x5t,34,COSE_CertHash,,Hash of an X.509 certificate,[RFC9360]

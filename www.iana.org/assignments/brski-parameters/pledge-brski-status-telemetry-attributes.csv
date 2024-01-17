@@ -1,5 +1,5 @@
 Attribute,Reference
 version,[RFC8995]
-Status,[RFC8995]
-Reason,[RFC8995]
+status,[RFC8995][RFC Errata 6834]
+reason,[RFC8995][RFC Errata 6834]
 reason-context,[RFC8995]

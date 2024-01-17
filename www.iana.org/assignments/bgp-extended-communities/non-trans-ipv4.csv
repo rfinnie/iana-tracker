@@ -1,4 +1,4 @@
 Sub-Type Value,Name,Reference,Date
 0x00-0x08,Unassigned,,
-0x09,Node Target Extended Community,[draft-dong-idr-node-target-ext-comm-03],2021-06-11
+0x09,Node Target Extended Community,[draft-ietf-idr-node-target-ext-comm-01],2021-06-11
 0x0a-0xff,Unassigned,,
