@@ -135,7 +135,7 @@ University of California at Berkeley, June 1986.][Bruce Willins]"
 109,SNP,Sitara Networks Protocol,,[Manickam_R_Sridhar]
 110,Compaq-Peer,Compaq Peer Protocol,,[Victor_Volpe]
 111,IPX-in-IP,IPX in IP,,[CJ_Lee]
-112,VRRP,Virtual Router Redundancy Protocol,,[RFC5798]
+112,VRRP,Virtual Router Redundancy Protocol,,[RFC-ietf-rtgwg-vrrp-rfc5798bis-18]
 113,PGM,PGM Reliable Transport Protocol,,[Tony_Speakman]
 114,,any 0-hop protocol,,[Internet_Assigned_Numbers_Authority]
 115,L2TP,Layer Two Tunneling Protocol,,[RFC3931][Bernard_Aboba]

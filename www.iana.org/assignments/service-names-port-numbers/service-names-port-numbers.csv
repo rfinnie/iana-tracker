@@ -14066,6 +14066,7 @@ behnke-cc,,tcp,Behnke doorphones / emergency phones,[Telefonbau_Behnke_GmbH],[Th
 behnke-station,,tcp,Behnke audio / video intercom systems,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2021-03-17,,,,,"Defined TXT keys: mjpg, jpg, auth, camera, macaddress"
 behnke-video,,tcp,Behnke doorphones / video intercoms,[Telefonbau_Behnke_GmbH],[Thomas_Kraemer],2021-03-17,,,,,"Defined TXT keys: mjpg, jpg, auth, camera, macaddress"
 bender,,,Bender Communication Protocol,[Bender_GmbH_Co_KG],[Markus_Kremer],2013-10-15,,,,,Defined TXT keys: product version bus id featuremask
+beyondidentity,,tcp,Beyond Identity Platform Authenticator S,[Beyond_Identity_Inc.],[Monty_Wiseman],2024-01-17,,,,,Defined TXT keys: proprietary
 bfagent,,,BuildForge Agent,[Joe_Senner_2],[Joe_Senner_2],,,,,,Defined TXT keys: None
 bhipc,,tcp,Becker & Hickl Inter Process Communication,[Becker_Hickl_GmbH],[Enzo_Marscheck],2023-02-15,,,,,Defined TXT keys: None
 bhipc,,udp,Becker & Hickl Inter Process Communication,[Becker_Hickl_GmbH],[Enzo_Marscheck],2023-02-15,,,,,Defined TXT keys: None
@@ -14538,6 +14539,7 @@ mediatap,,tcp,Mediatap streaming protocol,[Mediatap_GbR],[Mario_Pörner],2011-10
 mercurydock,,tcp,Mercury Dock Assistant,[Spider_Electronics],[Kenny_Millar],2014-03-10,,,,,"Defined TXT keys:  status, signature, ver"
 mesamis,,,Mes Amis,[David_Priest],[David_Priest],,,,,,Defined TXT keys: None
 meshcop,,udp,Thread Mesh Commissioning,[Thread_Group_Inc],[Esko_Dijk],2020-11-20,,,,,"Defined TXT keys: Thread 1.1 Specification, Section 8.4.1.1.2. https://www.threadgroup.org/ThreadSpec"
+meshcop-e,,udp,Thread Mesh Commissioning Ephemeral-key,[Thread_Group_Inc],[Esko_Dijk],2024-01-22,,,,,"Defined TXT keys: TXT records keys, if any, will be defined in Section 8.12 of the Thread Specification. https://www.threadgroup.org/ThreadSpec"
 mi-raysat,,,Mental Ray for Maya,[Autodesk],[Autodesk],,,,,,Defined TXT keys: None
 microdeep,,tcp,A protocol for controlling a microscope,[Zorth_Sarl],[David_Mendels],2023-08-02,,,,,Defined TXT keys: txtvers version name uuid
 midi2,,udp,MIDI 2.0 Device Discovery,[MIDI_Manufacturers_Association],[Florian_Bomers],2023-11-07,,,,,"Defined TXT keys: EndpointName, ProductInstanceId"

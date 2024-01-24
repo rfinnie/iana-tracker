@@ -3,7 +3,7 @@
                                                Service Name and Transport Protocol Port Number Registry
 
    Last Updated
-   2024-01-12
+   2024-01-22
 
    Expert(s)
 
@@ -17518,6 +17518,8 @@ behnke-video                   tcp    Behnke doorphones / video    [Telefonbau_B
                                       intercoms
 bender                                Bender Communication         [Bender_GmbH_Co_KG]                                   [Markus_Kremer]                                           2013-10-15                                                                                     Defined TXT keys: product version bus id featuremask
                                       Protocol
+beyondidentity                 tcp    Beyond Identity Platform     [Beyond_Identity_Inc.]                                [Monty_Wiseman]                                           2024-01-17                                                                                     Defined TXT keys: proprietary
+                                      Authenticator S
 bfagent                               BuildForge Agent             [Joe_Senner_2]                                        [Joe_Senner_2]                                                                                                                                           Defined TXT keys: None
 bhipc                          tcp    Becker & Hickl Inter Process [Becker_Hickl_GmbH]                                   [Enzo_Marscheck]                                          2023-02-15                                                                                     Defined TXT keys: None
                                       Communication
@@ -18254,6 +18256,9 @@ mediatap                       tcp    Mediatap streaming protocol  [Mediatap_GbR
 mercurydock                    tcp    Mercury Dock Assistant       [Spider_Electronics]                                  [Kenny_Millar]                                            2014-03-10                                                                                     Defined TXT keys: status, signature, ver
 mesamis                               Mes Amis                     [David_Priest]                                        [David_Priest]                                                                                                                                           Defined TXT keys: None
 meshcop                        udp    Thread Mesh Commissioning    [Thread_Group_Inc]                                    [Esko_Dijk]                                               2020-11-20                                                                                     Defined TXT keys: Thread 1.1 Specification, Section 8.4.1.1.2.
+                                                                                                                                                                                                                                                                                  https://www.threadgroup.org/ThreadSpec
+                                      Thread Mesh Commissioning                                                                                                                                                                                                                   Defined TXT keys: TXT records keys, if any, will be defined in
+meshcop-e                      udp    Ephemeral-key                [Thread_Group_Inc]                                    [Esko_Dijk]                                               2024-01-22                                                                                     Section 8.12 of the Thread Specification.
                                                                                                                                                                                                                                                                                   https://www.threadgroup.org/ThreadSpec
 mi-raysat                             Mental Ray for Maya          [Autodesk]                                            [Autodesk]                                                                                                                                               Defined TXT keys: None
 microdeep                      tcp    A protocol for controlling a [Zorth_Sarl]                                          [David_Mendels]                                           2023-08-02                                                                                     Defined TXT keys: txtvers version name uuid
@@ -19697,6 +19702,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Beth_Crespo]                                             Beth Crespo                                         mailto:beth.crespo&hp.com
 [Betsy_Alexander]                                         Betsy Alexander                                     tel:+1-604-681-4549
 [Beverly_Moody]                                           Beverly Moody                                       mailto:Beverly_Moody&stercomm.com
+[Beyond_Identity_Inc.]                                    Beyond Identity Inc.                                mailto:iana&beyondidentity.com                                2024-01-17
 [BFD_Chairs]                                              IETF BFD Working Group                              mailto:bfd-chairs&tools.ietf.org                              2014-01-09
                                                           Chairs
 [Bharathi_Sivaramakrishnan]                               Bharathi Sivaramakrishnan                           mailto:bharathi.sivaramakrishnan&oracle.com                   2017-02-10
@@ -20847,7 +20853,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Ernst_Bewersdorff]                                       Ernst Bewersdorff          efsta IT Services GmbH   mailto:e.bewersdorff&efsta.eu                                 2022-02-02
 [Erwin_Hogeweg]                                           Erwin Hogeweg                                       mailto:erwin&airtech.demon.nl
 [Erwin_Hoffmann]                                          Erwin Hoffmann             FEHCom                   mailto:feh&fehcom.de                                          2015-01-09
-[Esko_Dijk]                                               Esko Dijk                  Thread Group, Inc.       mailto:esko.dijk&iotconsultancy.nl                            2020-11-20
+[Esko_Dijk]                                               Esko Dijk                  Thread Group, Inc.       mailto:esko.dijk&iotconsultancy.nl                            2024-01-22
 [ESPeasy]                                                                            ESPeasy                  mailto:gijs.noorlander&gmail.com                              2018-11-28
 [Eugene_Hopkinson]                                        Eugene Hopkinson           VoxelStorm               mailto:slowriot&voxelstorm.com                                2012-11-08
 [Etai_Lev_Ran]                                            Etai Lev-Ran                                        mailto:elevran&cisco.com                                      2005-02
@@ -22871,6 +22877,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [MongoDB_Inc.]                                                                       MongoDB, Inc.            mailto:akshay&mongodb.com                                     2019-02-21
 [Montgomery_Zukowski]                                     Montgomery Zukowski                                 mailto:monty&nextnorth.acs.ohio-state.edu
 [Monty]                                                   Monty                                               mailto:monty&analytikerna.se
+[Monty_Wiseman]                                           Monty Wiseman                                       mailto:monty.wiseman&beyondidentity.com                       2024-01-17
 [Moon_Ho_Chung]                                           Moon Ho Chung                                       mailto:mchung&esps.com
 [Morega_System]                                                                      Morega Systems Inc.      mailto:atahir&morega.com                                      2012-08-20
 [Morgan_Doyle]                                            Morgan Doyle                                        mailto:morgan&mpt.ie
@@ -24441,7 +24448,7 @@ zigbee-gateway                 udp    ZigBee IP Gateway            [ZigBee_Allia
 [Thomas_Zwick]                                            Thomas Zwick                                        mailto:thomas.zwick&tz-software.de                            2011-10-12
 [Thor_Olson]                                              Thor Olson                                          mailto:Thor&terabase.com
 [Thorvald_Natvig]                                         Thorvald Natvig                                     mailto:thorvald&natvig.com
-[Thread_Group_Inc]                                                                   Thread Group, Inc.       mailto:help&threadgroup.org                                   2021-12-10
+[Thread_Group_Inc]                                                                   Thread Group, Inc.       mailto:help&threadgroup.org                                   2024-01-22
 [Three_Lights_Software_LLC]                                                          3 Lights Software LLC    mailto:support&3lightssoftware.com                            2014-07-22
 [ThreeGPP_2]                                                                         3GPP2                    mailto:lizhiming&huawei.com                                   2012-01-11
 [ThreeGPP_3]                                                                         3GPP                     mailto:frederic.firmin&etsi.org                               2014-11-14
