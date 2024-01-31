@@ -21,7 +21,9 @@ Secure Hash Standard, 17 April 1995.
 14,ECDSA Curve P-384 with SHA-384,ECDSAP384SHA384,Y,*,[RFC6605][proposed standard]
 15,Ed25519,ED25519,Y,*,[RFC8080][proposed standard]
 16,Ed448,ED448,Y,*,[RFC8080][proposed standard]
-17-122,Unassigned,,,,
+17-22,Unassigned,,,,
+23,GOST R 34.10-2012,ECC-GOST12,Y,*,[RFC-makarenko-gost2012-dnssec-05][informational]
+24-122,Unassigned,,,,
 123-251,Reserved,,,,[RFC4034][proposed standard][RFC6014][proposed standard]
 252,Reserved for Indirect Keys,INDIRECT,N,N,[RFC4034][proposed standard]
 253,private algorithm,PRIVATEDNS,Y,Y,[RFC4034][proposed standard]

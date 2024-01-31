@@ -19,7 +19,7 @@
       <h1>IETF XML Registry</h1>
       <dl>
         <dt>Last Updated</dt>
-        <dd>2023-11-28</dd>
+        <dd>2024-01-26</dd>
         <dt>Note</dt>
         <dd>
           <pre>[<a href="https://www.iana.org/go/rfc3688">RFC3688</a>] defines an IANA maintained registry of XML documents used within IETF protocols.
@@ -2011,6 +2011,22 @@ The registration template should cite the specification.
             <td>[<a href="https://www.iana.org/go/rfc8632">RFC8632</a>]</td>
           </tr>
           <tr>
+            <td>yang:ietf-alto</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-alto</td>
+            <td>
+              <a href="ns/yang/ietf-alto.txt">ns/yang/ietf-alto.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-alto-oam-yang-17">RFC-ietf-alto-oam-yang-17</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-alto-stats</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-alto-stats</td>
+            <td>
+              <a href="ns/yang/ietf-alto-stats.txt">ns/yang/ietf-alto-stats.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-alto-oam-yang-17">RFC-ietf-alto-oam-yang-17</a>]</td>
+          </tr>
+          <tr>
             <td>yang:ietf-babel</td>
             <td>urn:ietf:params:xml:ns:yang:ietf-babel</td>
             <td>
@@ -3001,6 +3017,14 @@ The registration template should cite the specification.
               <a href="ns/yang/ietf-service-assurance-interface.txt">ns/yang/ietf-service-assurance-interface.txt</a>
             </td>
             <td>[<a href="https://www.iana.org/go/rfc9418">RFC9418</a>]</td>
+          </tr>
+          <tr>
+            <td>yang:ietf-sid-file</td>
+            <td>urn:ietf:params:xml:ns:yang:ietf-sid-file</td>
+            <td>
+              <a href="ns/yang/ietf-sid-file.txt">ns/yang/ietf-sid-file.txt</a>
+            </td>
+            <td>[<a href="https://www.iana.org/go/draft-ietf-core-sid-24">RFC-ietf-core-sid-24</a>]</td>
           </tr>
           <tr>
             <td>yang:ietf-snmp</td>

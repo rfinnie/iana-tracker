@@ -50,3 +50,4 @@ Decimal,Description,References
 48,id-ct-signedChecklist,[RFC9323]
 49,id-ct-ASPA,[draft-ietf-sidrops-aspa-profile-06]
 50,id-ct-signedTAL,[draft-ietf-sidrops-signed-tal-10]
+51,"id-ct-rpkiSignedPrefixList (TEMPORARY - registered 2024-01-29, expires 2025-01-29)","[draft-ietf-sidrops-rpki-prefixlist-01, Section 8]"
