@@ -3,7 +3,7 @@
 <?xml-model href="multicast-addresses.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="multicast-addresses">
   <title>IPv4 Multicast Address Space Registry</title>
-  <updated>2024-01-23</updated>
+  <updated>2024-02-02</updated>
   <expert>Stig Venaas</expert>
   <note>Host Extensions for IP Multicasting <xref type="rfc" data="rfc1112"/> specifies the extensions
 required of a host implementation of the Internet Protocol (IP) to
@@ -343,8 +343,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <description>ALL_V4_RIFT_ROUTERS (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)</description>
       <xref type="draft" data="draft-ietf-rift-rift-16"/>
     </record>
+    <record date="2024-02-02">
+      <addr>224.0.0.122</addr>
+      <description>NVO BUM Traffic</description>
+      <xref type="draft" data="RFC-ietf-bier-evpn-14"/>
+    </record>
     <record>
-      <addr>224.0.0.122-224.0.0.149</addr>
+      <addr>224.0.0.123-224.0.0.149</addr>
       <description>Unassigned</description>
     </record>
     <record date="2019-03-13">
@@ -860,105 +865,165 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <description>imFtmSvc</description>
       <xref type="person" data="Zia_Bhatti"/>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.91</addr>
       <description>NQDS4</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.92</addr>
       <description>NQDS5</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.93</addr>
       <description>NQDS6</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.94</addr>
       <description>NLVL12</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.95</addr>
       <description>NTDS1</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.96</addr>
       <description>NTDS2</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.97</addr>
       <description>NODSA</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.98</addr>
       <description>NODSB</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.99</addr>
       <description>NODSC</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.100</addr>
       <description>NODSD</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.101</addr>
       <description>NQDS4R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.102</addr>
       <description>NQDS5R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.103</addr>
       <description>NQDS6R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.104</addr>
       <description>NLVL12R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.105</addr>
       <description>NTDS1R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.106</addr>
       <description>NTDS2R</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.107</addr>
       <description>NODSAR</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.108</addr>
       <description>NODSBR</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.109</addr>
       <description>NODSCR</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
-    <record date="1998-09-01">
+    <record date="1998-09-01" updated="2024-02-01">
       <addr>224.0.1.110</addr>
       <description>NODSDR</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="1998-10-01">
       <addr>224.0.1.111</addr>
@@ -1670,10 +1735,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <description>Mercantile &amp; Commodity Exchange</description>
       <xref type="person" data="Asad_Gilani"/>
     </record>
-    <record date="1999-03-01">
+    <record date="1999-03-01" updated="2024-02-01">
       <addr>224.0.17.32-224.0.17.63</addr>
       <description>NDQMD1</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="1999-03-01">
       <addr>224.0.17.64-224.0.17.127</addr>
@@ -1993,10 +2061,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <addr>224.0.23.81-224.0.23.127</addr>
       <description>Reserved (Moneyline)</description>
     </record>
-    <record date="2004-01-01">
+    <record date="2004-01-01" updated="2024-02-01">
       <addr>224.0.23.128-224.0.23.157</addr>
       <description>PHLX</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2005-09-01">
       <addr>224.0.23.158</addr>
@@ -2247,10 +2318,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
 	  <controller><xref type="person" data="Euronext_Admin"/></controller>
       <reviewed>2014-11-24</reviewed>
     </record>
-    <record date="2009-05-12" updated="2016-05-06">
+    <record date="2009-05-12" updated="2024-02-01">
       <addr>224.0.68.0-224.0.69.255</addr>
-      <description>ISE</description>
-      <xref type="person" data="ISE-Networks"/>
+      <description>Nasdaq Inc.</description>
+      <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2009-06-16" updated="2018-04-20">
       <addr>224.0.70.0-224.0.71.255</addr>
@@ -2274,10 +2348,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <description>Direct Edge</description>
       <xref type="person" data="Javier_Landin"/>
     </record>
-    <record date="2010-01-22" updated="2016-05-06">
+    <record date="2010-01-22" updated="2024-02-01">
       <addr>224.0.75.0-224.0.75.255</addr>
-      <description>ISE</description>
-      <xref type="person" data="ISE-Networks"/>
+      <description>Nasdaq Inc.</description>
+      <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2010-02-26" updated="2018-04-20">
       <addr>224.0.76.0-224.0.76.255</addr>
@@ -2303,10 +2380,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <controller><xref type="person" data="Ålands_Telekommunikation_Ab"/></controller>
       <reviewed>2018-02-20</reviewed>
     </record>
-    <record date="2010-08-24" updated="2016-05-06">
+    <record date="2010-08-24" updated="2024-02-01">
       <addr>224.0.79.0-224.0.81.255</addr>
-      <description>ISE</description>
-      <xref type="person" data="ISE-Networks"/>
+      <description>Nasdaq Inc.</description>
+      <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2011-01-31" updated="2017-06-23">
       <addr>224.0.82.0-224.0.85.255</addr>
@@ -2418,10 +2498,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
         <xref type="person" data="Intercontinental_Exchange_Inc."/>
       </controller>
     </record>
-    <record date="2012-07-12" updated="2016-05-06">
+    <record date="2012-07-12" updated="2024-02-01">
       <addr>224.0.117.0-224.0.119.255</addr>
-      <description>ISE</description>
-      <xref type="person" data="ISE-Networks"/>
+      <description>Nasdaq Inc.</description>
+      <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2013-01-15" updated="2024-01-23">
       <addr>224.0.120.0-224.0.120.255</addr>
@@ -2866,10 +2949,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
 <xref type="uri" data="https://www.iana.org/protocols/apply"/>
             
     </note>
-    <record date="1999-03-01">
+    <record date="1999-03-01" updated="2024-02-01">
       <addr>224.3.0.0-224.3.0.63</addr>
       <description>Nasdaqmdfeeds  (re-new/March 2003)</description>
       <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record>
       <addr>224.3.0.64-224.3.255.255</addr>
@@ -2920,10 +3006,13 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.
       <description>CBOE Holdings</description>
       <xref type="person" data="John_Rittner"/>
     </record>
-    <record date="2012-04-11" updated="2016-05-06">
+    <record date="2012-04-11" updated="2024-02-01">
       <addr>224.4.8.0-224.4.9.255</addr>
-      <description>ISE</description>
-      <xref type="person" data="ISE-Networks"/>
+      <description>Nasdaq Inc.</description>
+      <xref type="person" data="Michael_Rosenberg"/>
+      <controller>
+        <xref type="person" data="Nasdaq_Inc"/>
+      </controller>
     </record>
     <record date="2012-04-11" updated="2021-10-28">
       <addr>224.4.10.0-224.4.13.255</addr>
@@ -3904,11 +3993,6 @@ low-order bits of the IP Multicast address are placed in the low-order
       <uri>mailto:supervision&amp;orange.sk</uri>
       <updated>2021-06-11</updated>
     </person>
-    <person id="ISE-Networks">
-      <org>ISE-Networks</org>
-      <uri>mailto:isenetworks&amp;ise.com</uri>
-      <updated>2016-05-06</updated>
-    </person>
     <person id="Ishan_Wu">
       <name>Ishan Wu</name>
       <uri>mailto:iwu&amp;cisco.com</uri>
@@ -4313,8 +4397,9 @@ low-order bits of the IP Multicast address are placed in the low-order
     </person>
     <person id="Michael_Rosenberg">
       <name>Michael Rosenberg</name>
-      <uri>mailto:michael.rosenberg&amp;nasdaqomx.com</uri>
-      <updated>2012-03-15</updated>
+      <org>Nasdaq Inc.</org>
+      <uri>mailto:michael.rosenberg&amp;nasdaq.com</uri>
+      <updated>2024-02-01</updated>
     </person>
     <person id="Michael_Wang">
       <name>Michael Wang</name>
@@ -4380,6 +4465,11 @@ low-order bits of the IP Multicast address are placed in the low-order
       <name>Nadine Guillaume</name>
       <uri>mailto:nadine.guillaume&amp;sciatl.com</uri>
       <updated>2005-02-01</updated>
+    </person>
+    <person id="Nasdaq_Inc">
+      <org>Nasdaq Inc.</org>
+      <uri>mailto:network-request&amp;nasdaq.com</uri>
+      <updated>2024-02-01</updated>
     </person>
     <person id="Neal_Lawrence">
       <name>Neal Lawrence</name>
