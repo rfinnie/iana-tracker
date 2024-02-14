@@ -1,9 +1,0 @@
-Value,Name,Reference
-0,RPF Vector TLV,[RFC5496]
-1,MVPN Join Attribute,[RFC6513]
-2,MT-ID Join Attribute,[RFC6420]
-3,Pop-Count,[RFC6807]
-4,Explicit RPF Vector,[RFC7891]
-5,Transport Attribute,[RFC8059]
-6,Receiver RLOC Attribute,[RFC8059]
-7-63,Unassigned,

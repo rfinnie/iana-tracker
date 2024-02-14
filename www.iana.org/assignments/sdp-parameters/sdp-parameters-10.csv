@@ -1,6 +1,0 @@
-Type,SDP Name,Mux Category,Reference
-att-field (source level),cname,NORMAL,[RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (source level),previous-ssrc,NORMAL,[RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (source level),fmtp,IDENTICAL-PER-PT,[RFC5576][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (source level),ts-refclk,NORMAL,[RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]
-att-field (source level),mediaclk,NORMAL,[RFC7273][RFC-ietf-mmusic-sdp-mux-attributes-16]

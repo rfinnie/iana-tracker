@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,reserved for 'any',[RFC3411]
-1,reserved for SNMPv1,[RFC3411]
-2,reserved for SNMPv2c,[RFC3411]
-3,User-Based Security Model (USM),[RFC3411]
-4,Transport Security Model (TSM),[RFC5591]
-5-255,Unassigned,

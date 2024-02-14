@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC8972]
-1,HW Assist,[RFC8972]
-2,SW Local,[RFC8972]
-3,Control Plane,[RFC8972]
-4-239,Unassigned,
-240-249,Reserved for Experimental Use,[RFC8972]
-250-254,Reserved for Private Use,[RFC8972]
-255,Reserved,[RFC8972]

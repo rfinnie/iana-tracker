@@ -1,6 +1,0 @@
-Type,SDP Name,Mux Category,Reference
-bwtype,CT,NORMAL,[RFC8866][RFC8859]
-bwtype,AS,SUM,[RFC8866][RFC8859]
-bwtype,RS,SUM,[RFC3556][RFC8859]
-bwtype,RR,SUM,[RFC3556][RFC8859]
-bwtype,TIAS,SPECIAL,[RFC3890][RFC8859]

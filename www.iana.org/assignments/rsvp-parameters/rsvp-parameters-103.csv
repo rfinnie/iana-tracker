@@ -1,6 +1,0 @@
-Value,Description,Reference
-1,Service conflict,[RFC2205]
-2,Service unsupported,[RFC2205]
-3,Bad Flowspec value,[RFC2205]
-4,Bad Tspec value,[RFC2205]
-5,Bad Adspec value,[RFC2205]

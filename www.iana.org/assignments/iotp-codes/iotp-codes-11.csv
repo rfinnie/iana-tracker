@@ -1,8 +1,0 @@
-Attribute/Content,Reference
-"""OfferResponse""",[RFC2801]
-"""PaymentResponse""",[RFC2801]
-"""DeliveryResponse""",[RFC2801]
-"""AuthenticationRequest""",[RFC2801]
-"""AuthenticationResponse""",[RFC2801]
-"""PingRequest""",[RFC2801]
-"""PingResponse""",[RFC2801]

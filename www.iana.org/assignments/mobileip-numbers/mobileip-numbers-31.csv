@@ -1,7 +1,0 @@
-Value,Name,Reference
-0,Reserved,[RFC5563]
-1,Ethernet MAC address,[RFC5563]
-2,Mobile Equipment Identifier (MEID),[RFC5563]
-3,International Mobile Equipment Identity (IMEI),[RFC5563]
-4,Electronic Serial Number (ESN),[RFC5563]
-5-255,Unassigned,

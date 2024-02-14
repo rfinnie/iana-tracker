@@ -1,4 +1,0 @@
-Value,Encoding Name,Encoding Reference,Reference
-0,UTF-8 encoded text,[RFC3629],[RFC6968]
-1,GZIP'ed UTF-8 encoded text,[RFC1952][RFC3629],[RFC6968]
-2-15,Unassigned,,

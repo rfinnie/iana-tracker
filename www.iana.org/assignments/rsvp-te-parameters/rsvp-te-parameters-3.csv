@@ -1,8 +1,0 @@
-Bit Flag,Name,Reference
-0x01,Local protection desired,[RFC3209]
-0x02,Local recording desired,[RFC3209]
-0x04,SE Style desired,[RFC3209]
-0x08,Bandwidth protection desired,[RFC4090]
-0x10,Node protection desired,[RFC4090]
-0x20,Path re-evaluation request,[RFC4736]
-0x40,Soft Preemption Desired,[RFC5712]

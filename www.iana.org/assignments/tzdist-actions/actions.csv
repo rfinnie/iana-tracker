@@ -1,7 +1,0 @@
-Action Name,Reference
-capabilities,"[RFC7808, Section 5.1]"
-list,"[RFC7808, Section 5.2]"
-get,"[RFC7808, Section 5.3]"
-expand,"[RFC7808, Section 5.4]"
-find,"[RFC7808, Section 5.5]"
-leapseconds,"[RFC7808, Section 5.6]"

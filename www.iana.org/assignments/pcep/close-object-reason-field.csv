@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC5440]
-1,No explanation provided,[RFC5440]
-2,DeadTimer expired,[RFC5440]
-3,Reception of a malformed PCEP message,[RFC5440]
-4,Reception of an unacceptable number of unknown requests/replies,[RFC5440]
-5,Reception of an unacceptable number of unrecognized PCEP messages,[RFC5440]
-6-255,Unassigned,

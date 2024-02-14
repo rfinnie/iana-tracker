@@ -1,7 +1,0 @@
-Range,Registration Procedures,Note
-1 - 8191,Registry closed,Error types
-8192 - 16383,Registry closed,Doi-Specific Error types
-16384 - 24575,Registry closed,Status types RESERVED
-24576 - 32767,Registry closed,DOI-specific Status codes
-32768 - 40959,Registry closed,Private Use
-40960 - 65535,Registry closed,RESERVED

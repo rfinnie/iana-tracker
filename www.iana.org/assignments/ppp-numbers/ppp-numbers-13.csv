@@ -1,9 +1,0 @@
-Type,Configuration Option,Reference
-1,AppleTalk-Address,[RFC1378]
-2,Routing-Protocol,[RFC1378]
-3,Suppress-Broadcasts,[RFC1378]
-4,AT-Compression-Protocol,[RFC1378]
-5,Reserved,[RFC1378]
-6,Server-information,[RFC1378]
-7,Zone-information,[RFC1378]
-8,Default-Router-Address,[RFC1378]

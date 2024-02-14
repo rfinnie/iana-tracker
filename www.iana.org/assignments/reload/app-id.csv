@@ -1,8 +1,0 @@
-Application-ID,Application,Reference
-0,INVALID,[RFC6940]
-1-5059,Unassigned,
-5060,SIP,Reserved for use by SIP Usage
-5061,SIP,Reserved for use by SIP Usage
-5062-61440,Unassigned,
-61441-65534,Reserved for Private Use,[RFC6940]
-65535,Reserved,[RFC6940]

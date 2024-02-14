@@ -5,12 +5,15 @@ This repository seeks to track changes to these documents and keep them in a rev
 
 ## Methodology
 
-To avoid overloading www.iana.org with crawls (and, incidentally, annoying the IANA), a collector script is run every 5 minutes which tries a random sampling of the document database.
-The sampling is chosen so that each file should be checked weekly on average.
-Recently modified documents receive higher priority, and similar documents are checked when an update is detected (for example, if a .txt update is detected, its corresponding .csv and .xml versions are fetched).
+Once per week, the repository at [rsync://rsync.iana.org/assignments](rsync://rsync.iana.org/assignments) is synced and committed.
+Note that this rsync module contains original .xml and .txt files, but not .csv files as found on the web site.
+(According to an IANA representative, the .csv files on the web site are generated later in their process.)
 
-The crawl script only checks known existing files.
-In the future, full crawls may be scheduled every few months to look for new documents.
+Prior to 2024-02-14, the data was collected by scraping www.iana.org directly.
+A collector script was run every 5 minutes which tried a random sampling of the document database.
+The sampling was chosen so that each file should have been checked weekly on average.
+Recently modified documents received higher priority, and similar documents were checked when an update was detected (for example, if a .txt update was detected, its corresponding .csv and .xml versions were fetched).
+The crawl script only checked known existing files, and full re-crawls were done every few years.
 
 ## History
 
@@ -18,10 +21,8 @@ In the future, full crawls may be scheduled every few months to look for new doc
 - Subsequent full crawls have been performed on 2016-05-22, 2017-06-18 and 2020-12-29.
 - There was a period between 2020-04 and 2020-12 when the scan script was not working correctly and document updates were not tracked.
 - On 2020-12-29, the repository was rebased to remove recorded transient fetch errors, and to squash commits down to weekly.
+- On 2024-02-14, the repository was changed to sync directly from the IANA's recently new (as of 2021) rsync module. This involved removing .csv files and pulling in new files since the last full re-crawl in 2020.
 
 ## License
 
-The IANA was originally created as a United States Department of Defense organization, which would have placed produced works under the public domain.
-However, the IANA was transferred to ICANN in 2000, and since 2009, ICANN is a California non-profit company.
-
-So short of an explicit declaration of license (which I have not been able to find), copyright status for IANA-produced works is unclear.
+[According to the IANA](https://www.iana.org/help/licensing-terms), documents contained herein are public domain, or available under a [Creative Commons CC0 1.0 Legal Code](https://creativecommons.org/publicdomain/zero/1.0/legalcode) license where an explicit license declaration is required.

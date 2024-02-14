@@ -1,7 +1,0 @@
-Type Extension,Description,Reference
-0,"Unsigned timestamp of arbitrary length, given by the TLV Length field. The MANET routing protocol has to define how to interpret this timestamp",[RFC7182]
-1,"Unsigned 32-bit timestamp, as specified in [IEEE 1003.1-2008 (POSIX)]",[RFC7182]
-2,"NTP timestamp format, as defined in [RFC5905]",[RFC7182]
-3,"Signed timestamp of arbitrary length with no constraints such as monotonicity. In particular, it may represent any random value",[RFC7182]
-4-251,Unassigned,
-252-255,Reserved for Experimental Use,[RFC7182]

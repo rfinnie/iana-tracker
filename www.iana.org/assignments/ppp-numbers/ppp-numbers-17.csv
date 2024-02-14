@@ -1,9 +1,0 @@
-Type,MAC,Address Format,Reference
-0,Reserved,,[RFC3518]
-1,IEEE 802.3/Ethernet,Canonical addresses,[RFC3518]
-2,IEEE 802.4,Canonical addresses,[RFC3518]
-3,IEEE 802.5,Non-canonical addresses,[RFC3518]
-4,FDDI,Non-canonical addresses,[RFC3518]
-5-10,Reserved,,
-11,IEEE 802.5,Canonical addresses,[RFC3518]
-12,FDDI,Canonical addresses,[RFC3518]

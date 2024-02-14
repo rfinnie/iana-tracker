@@ -1,7 +1,0 @@
-Value,Description,Reference
-1,Reserved,[RFC4034][RFC3445]
-2,Reserved,[RFC4034][RFC3445]
-3,DNSSEC,[RFC4034][RFC2535]
-4,Reserved,[RFC4034][RFC3445]
-5-254,Unassigned,[RFC4034][RFC3445]
-255,Reserved,[RFC4034][RFC3445]

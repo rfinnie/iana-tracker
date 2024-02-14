@@ -1,5 +1,0 @@
-request_type,Description,Reference
-CONNECT,"Returns information about the successful registration of the peer and/or of each swarm action
-      requested. May additionally return the list of peers corresponding to the action attribute requested.",[RFC7846]
-FIND,Returns the list of peers corresponding to the requested scope.,[RFC7846]
-STAT_REPORT,Confirms the success of the requested operation.,[RFC7846]

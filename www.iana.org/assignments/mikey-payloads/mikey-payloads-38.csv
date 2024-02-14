@@ -1,8 +1,0 @@
-Value,OMA BCAST Types,Comment,Reference
-0,Reserved,,[RFC4909]
-1,LTKM,,[RFC4909]
-2,STKM,,[RFC4909]
-3,LTKM Reporting,,[RFC5410]
-4,Parental Control,,[RFC5410]
-5-191,Unassigned,,
-192-255,Reserved for Private Use,,

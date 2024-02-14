@@ -1,4 +1,0 @@
-Value,Description,Reference
-moduluslength,Parameter for RSA (integer value),[RFC5698]
-plength,"Parameter for DSA (integer value, used together with parameter ""qlength"")",[RFC5698]
-qlength,"Parameter for DSA (integer value, used together with parameter ""plength"")",[RFC5698]

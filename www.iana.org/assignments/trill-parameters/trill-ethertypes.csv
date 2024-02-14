@@ -1,6 +1,0 @@
-Value,Mnemonic,Explanation,Reference
-0x22F3,TRILL,TRILL data,[RFC6325]
-0x22F4,L2-IS-IS,IS-IS,[RFC6325]
-0x893B,FGL,Fine Grained Labeling,[RFC7172]
-0x8946,-,TRILL RBridge Channel,[RFC7178]
-0x9A22,MT,Multi-Topology,[RFC8377]

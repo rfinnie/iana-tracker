@@ -1,6 +1,0 @@
-Option Code,S46 Mechanism,Reference
-64,DS-Lite,[RFC6334]
-88,DHCPv4 over DHCPv6,[RFC7341]
-94,MAP-E,[RFC7598]
-95,MAP-T,[RFC7598]
-96,Lightweight 4over6,[RFC7598]

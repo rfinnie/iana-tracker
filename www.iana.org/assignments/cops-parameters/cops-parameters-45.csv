@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,NO_ERROR Value used for regular ADMISSION_PRI elements,[RFC6401]
-1,Reserved,[RFC6401]
-2,HETEROGENEOUS This element encountered heterogeneous merge,[RFC6401]
-3-240,Unassigned,
-241-255,Reserved for Private Use,[RFC6401]

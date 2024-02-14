@@ -1,7 +1,0 @@
-Sub-Type Value,Name,Reference,Date
-0x00,BGP Origin Validation State Extended Community,[RFC8097],
-0x01,Cost Community,[draft-ietf-idr-custom-decision],2014-07-15
-0x02,Route Target,[Nischal_Sheth],2019-05-17
-0x03-0x14,Unassigned,,
-0x15,RT-derived-EC,[draft-zzhang-idr-rt-derived-community-00],2021-03-09
-0x16-0xff,Unassigned,,

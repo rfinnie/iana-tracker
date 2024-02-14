@@ -1,9 +1,0 @@
-Chunk Flag Value,Chunk Flag Name,Reference
-0x01,E bit,[RFC9260]
-0x02,B bit,[RFC9260]
-0x04,U bit,[RFC9260]
-0x08,I bit,[RFC9260]
-0x10,Unassigned,
-0x20,Unassigned,
-0x40,Unassigned,
-0x80,Unassigned,

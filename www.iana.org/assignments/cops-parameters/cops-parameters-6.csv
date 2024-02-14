@@ -1,5 +1,0 @@
-R-Type,Description,Reference
-0x01,Incoming-Message/Admission Control request,[RFC2748]
-0x02,Resource-Allocation request,[RFC2748]
-0x04,Outgoing-Message request,[RFC2748]
-0x08,Configuration request,[RFC2748]

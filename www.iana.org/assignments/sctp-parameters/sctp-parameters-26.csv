@@ -1,6 +1,0 @@
-HMAC Identifier,Message Digest Algorithm,Reference
-0,Reserved,[RFC4895]
-1,SHA-1,[RFC4895]
-2,Reserved,[RFC4895]
-3,SHA-256,[RFC4895]
-4-65535,Unassigned,

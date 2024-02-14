@@ -1,8 +1,0 @@
-Code,Description,Reference
-4.0.0,Something undefined caused a persistent transient failure,[RFC3367]
-4.1.0,"There was an error in the query that made it unable to be    
-interpreted",[RFC3367]
-4.2.0,The query was to complex,[RFC3367]
-4.2.1,The Service was too busy,[RFC3367]
-4.2.2,The Server is in maintenance,[RFC3367]
-4.2.3,The Server had an internal error,[RFC3367]

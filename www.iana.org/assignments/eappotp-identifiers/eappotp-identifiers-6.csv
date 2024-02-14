@@ -1,4 +1,0 @@
-Octet 1,Octet 2,MAC Algorithm,Reference
-0x00,0x00,Reserved,[RFC4793]
-0x00,0x01,HMAC (default),[RFC4793]
-0x80,-,Vendor-specific,[RFC4793]

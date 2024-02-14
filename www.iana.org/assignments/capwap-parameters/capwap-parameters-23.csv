@@ -1,5 +1,0 @@
-WTP MAC Type,Type Value,Reference
-Local-MAC,0,[RFC5415]
-Split-MAC,1,[RFC5415]
-Both,2,[RFC5415]
-Unassigned,3-255,

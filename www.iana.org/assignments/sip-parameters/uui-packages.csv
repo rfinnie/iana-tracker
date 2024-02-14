@@ -1,4 +1,0 @@
-Package,Description,Reference
-isdn-uui,"The associated application is being used with
-      constraints suitable for interworking with the ISDN User-to-User
-      service, and therefore can be interworked at ISDN gateways.",[RFC7434]

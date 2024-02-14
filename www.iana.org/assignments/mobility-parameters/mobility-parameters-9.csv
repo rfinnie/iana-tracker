@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC5213]
-1,Attachment over a new interface,[RFC5213]
-2,Handoff between two different interfaces of the mobile node,[RFC5213]
-3,Handoff between mobile access gateways for the same interface,[RFC5213]
-4,Handoff state unknown,[RFC5213]
-5,Handoff state not changed (Re-registration),[RFC5213]
-6,Attachment over a new interface sharing prefixes,[RFC7864]
-7-255,Unassigned,

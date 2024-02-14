@@ -1,6 +1,0 @@
-Code,Forwarding Option,Reference
-0,invalidForwardingOption,[RFC6940]
-1,exp-forward,[RFC6940]
-2,extensive_routing_mode,[RFC7263][RFC7263]
-3-254,Unassigned,
-255,Reserved,[RFC6940]

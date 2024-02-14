@@ -1,7 +1,0 @@
-Field Name,Field Type,Configurable,Reference
-identifier,object,true,[RFC8555]
-status,string,false,[RFC8555]
-expires,string,false,[RFC8555]
-challenges,array of object,false,[RFC8555]
-wildcard,boolean,false,[RFC8555]
-subdomainAuthAllowed,boolean,false,[RFC9444]

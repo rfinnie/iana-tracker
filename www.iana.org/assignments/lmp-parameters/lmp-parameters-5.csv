@@ -1,6 +1,0 @@
-C-Type,Description,Reference
-0,Reserved,
-1,LOCAL_CCID,[RFC4204]
-2,REMOTE_CCID,[RFC4204]
-3-119,Unassigned,
-120-127,Private Use,[RFC4204]

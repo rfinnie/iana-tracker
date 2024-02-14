@@ -1,4 +1,0 @@
-LIST-EXTENDED extended data item tag,LIST-EXTENDED extended data item description,Which LIST-EXTENDED option(s) (and their types) causes this extended data item to be returned (if any),Published specification,Security considerations,Intended usage,Person and email address to contact for further information,Owner/Change controller
-CHILDINFO,The CHILDINFO extended data item describes the selection criteria that has caused it to be returned and indicates that the mailbox has one or more child mailboxes that match the selection criteria.,RECURSIVEMATCH selection option,"[RFC5258, Section 3.5]","[RFC5258, Section 8]",COMMON,[Alexey_Melnikov],[IESG]
-OLDNAME,The OLDNAME extended data item describes the old mailbox name for the mailbox identified by the LIST response.,none,"[RFC5465, Section 5.4]
-		[RFC9051]",[none],COMMON,[Alexey_Melnikov],[IESG]

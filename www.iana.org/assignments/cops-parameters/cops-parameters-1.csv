@@ -1,5 +1,0 @@
-Range,Registration Procedures,Notes
-0x0,IETF Review,Defined by RFC4261
-0x001-0x3FF,Specification Required,COPS extension document required
-0x4000-0x7FFF,Reserved,Private Use
-0x8000-0xFFFF,First Come First Served,

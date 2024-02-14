@@ -1,6 +1,0 @@
-AVP Value,Attribute Name,Reference
-0,Reserved,
-1,DELIVER_AND_GRANT,[RFC6733]
-2,GRANT_AND_STORE,[RFC6733]
-3,GRANT_AND_LOSE,[RFC6733]
-4-4294967295,Unassigned,

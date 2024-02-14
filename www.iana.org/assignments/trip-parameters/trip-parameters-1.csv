@@ -1,6 +1,0 @@
-Code,Capability,Reference
-0,Reserved,[RFC3219]
-1,Route Types Supported,[RFC3219]
-2,Send Receive Capability,[RFC3219]
-3-32767,Unassigned,
-32768-65535,Reserved for Vendor Specific Use,[RFC3219]

@@ -1,5 +1,0 @@
-Value,Name,Reference
-0,registration accepted,[RFC3344]
-1,"registration accepted, but simultaneous mobility bindings unsupported",[RFC3344]
-2,Concurrent registration (pre-accept),[RFC6521]
-3-8,Unassigned,

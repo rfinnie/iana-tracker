@@ -1,7 +1,0 @@
-Value,SID Class,Type,Reference
-0,RESERVED,,[RFC6407]
-1,NUMBER_OF_SID_BITS,B,[RFC6407]
-2,SID_VALUE,V,[RFC6407]
-3-128,Unassigned,,
-129-255,Private Use,,[RFC6407]
-256-32767,Unassigned,,

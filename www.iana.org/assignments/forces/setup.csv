@@ -1,6 +1,0 @@
-Value,Name,Reference
-0x00000000,Success,[RFC5810]
-0x00000001,FE ID Invalid,[RFC5810]
-0x00000002,Permission Denied,[RFC5810]
-0x00000003-0x0000FFFF,Unassigned,
-0x00010000-0xFFFFFFFF,Reserved for Private Use,[RFC5810]

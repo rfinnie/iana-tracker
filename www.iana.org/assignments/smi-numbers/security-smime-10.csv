@@ -1,8 +1,0 @@
-Decimal,Description,References
-1,id-eit-envelopedData,[RFC3855]
-2,id-eit-signedData,[RFC3855]
-3,id-eit-certsOnly,[RFC3855]
-4,id-eit-signedReceipt,[RFC3855]
-5,id-eit-envelopedX400,[RFC3855]
-6,id-eit-signedX400,[RFC3855]
-7,id-eit-compressedData,[RFC3855]

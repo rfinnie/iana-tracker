@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC4666][RFC3868]
-1,Registration Request (REG REQ),[RFC4666][RFC3868]
-2,Registration Response (REG RSP),[RFC4666][RFC3868]
-3,Deregistration Request (DEREG REQ),[RFC4666][RFC3868]
-4,Deregistration Response (DEREG RSP),[RFC4666][RFC3868]
-5-127,Unassigned,
-128-255,Reserved for IETF-Defined RKM extensions,

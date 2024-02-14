@@ -1,7 +1,0 @@
-Type,SDP Name,Reference
-media,audio,[RFC8866]
-media,video,[RFC8866]
-media,text,[RFC8866]
-media,application,[RFC8866]
-media,message,[RFC8866]
-media,image,[RFC6466]

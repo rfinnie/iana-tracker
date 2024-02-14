@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,(reserved),
-1,(SCCRQ) Start-Control-Connection-Request,
-2,(SCCRP) Start-Control-Connection-Reply,
-3,(SCCCN) Start-Control-Connection-Connected,
-4,(StopCCN) Stop-Control-Connection-Notification,
-5,(reserved),
-6,(HELLO) Hello,
-20,(ACK) Explicit Acknowledgement,[RFC3931]

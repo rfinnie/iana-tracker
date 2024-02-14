@@ -1,9 +1,0 @@
-Error Code,Intended Usage,Reference
-E_SYNTAX,"Parsing error in request (including identifiers). See 
-Section 8.5.2 of [RFC7285]",[RFC7285]
-E_MISSING_FIELD,"A required JSON field is missing. See 
-Section 8.5.2 of [RFC7285]",[RFC7285]
-E_INVALID_FIELD_TYPE,"The type of the value of a JSON field is invalid. See 
-Section 8.5.2 of [RFC7285]",[RFC7285]
-E_INVALID_FIELD_VALUE,"The value of a JSON field is invalid. See 
-Section 8.5.2 of [RFC7285]",[RFC7285]

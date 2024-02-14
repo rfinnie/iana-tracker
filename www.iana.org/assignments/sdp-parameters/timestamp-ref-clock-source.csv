@@ -1,8 +1,0 @@
-Name,Long Name,Mux Category,Reference
-ntp,Network Time Protocol,NORMAL,"[RFC7273, section 4][RFC8859]"
-ptp,Precision Time Protocol,NORMAL,"[RFC7273, section 4][RFC8859]"
-gps,Global Positioning System,NORMAL,"[RFC7273, section 4][RFC8859]"
-gal,Galileo,NORMAL,"[RFC7273, section 4][RFC8859]"
-glonass,Global Navigation Satellite System,NORMAL,"[RFC7273, section 4][RFC8859]"
-local,Local Clock,NORMAL,"[RFC7273, section 4][RFC8859]"
-private,Private Clock,NORMAL,"[RFC7273, section 4][RFC8859]"

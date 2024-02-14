@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC5981]
-1,IPV4_ADDRESS,[RFC5981]
-2,IPV6_ADDRESS,[RFC5981]
-3,UDP_PORT_LIST,[RFC5981]
-4,TCP_PORT_LIST,[RFC5981]
-5,SPI,[RFC5981]
-6-127,Unassigned,
-128-255,Reserved for Private or Experimental Use,[RFC5981]

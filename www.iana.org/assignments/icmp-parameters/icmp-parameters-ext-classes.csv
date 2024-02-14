@@ -1,7 +1,0 @@
-Class Value,Class Name,Reference
-1,MPLS Label Stack Class,[RFC4950]
-2,Interface Information Object,[RFC5837]
-3,Interface Identification Object,[RFC8335]
-4,Extended Information,[RFC8883]
-5-246,Unassigned,
-247-255,Reserved for Private Use,[RFC4884]

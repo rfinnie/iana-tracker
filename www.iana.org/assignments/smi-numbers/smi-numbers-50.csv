@@ -1,8 +1,0 @@
-Decimal,Name,References
-0,Reserved,[IANA]
-1,Domain Name System names,[IANA]
-2,gss-host-based-services,[RFC2743]
-3,gss-anonymous-name,[RFC2743]
-4,gss-api-exported-name,[RFC2743]
-5,gss-domain-based-services,[RFC5178]
-6,gss-composite-export,[RFC6680]

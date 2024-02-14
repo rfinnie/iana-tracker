@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC7503]
-1,Router-Hardware-Fingerprint TLV,[RFC7503]
-2-65534,Unassigned,
-65535,Autoconfiguration-Experiment-TLV,[RFC7503]

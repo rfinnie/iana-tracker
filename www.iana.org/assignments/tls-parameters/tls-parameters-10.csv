@@ -1,7 +1,0 @@
-Value,Description,DTLS-OK,Reference
-0,Unassigned,,
-1,explicit_prime,Y,[RFC8422]
-2,explicit_char2,Y,[RFC8422]
-3,named_curve,Y,[RFC8422]
-4-247,Unassigned,,
-248-255,Reserved for Private Use,,[RFC8422]

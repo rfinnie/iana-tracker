@@ -1,7 +1,0 @@
-Code,Extension Name,Reference
-0x0,invalidMessageExtensionType,[RFC6940]
-0x1,exp-ext,[RFC6940]
-0x2,Diagnostic_Ping,[RFC7851]
-0x3,self_tuning_data,[RFC7363]
-0x4-0xfffe,Unassigned,
-0xffff,Reserved,[RFC6940]

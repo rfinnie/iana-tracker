@@ -1,2 +1,0 @@
-FreeformClass,"A sequence of letters, numbers, symbols, spaces, and other code points that is used for free-form strings.","[RFC8264, Section 4.3]"
-IdentifierClass,"A sequence of letters, numbers, and symbols that is used to identify or address a network entity.","[RFC8264, Section 4.2]"

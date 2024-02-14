@@ -1,8 +1,0 @@
-Value,Meaning,Reference
-0,Unassigned,
-1,LOGOUT,[RFC5191]
-2-3,Unassigned,[RFC5191]
-4,ADMINISTRATIVE,[RFC5191]
-5-7,Unassigned,[RFC5191]
-8,SESSION_TIMEOUT,[RFC5191]
-9-4294967295,Unassigned,

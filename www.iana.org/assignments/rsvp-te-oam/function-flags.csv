@@ -1,8 +1,0 @@
-Bit Number,Description,Reference
-0,Continuity Check (CC),[RFC7260]
-1,Connectivity Verification (CV),[RFC7260]
-2,Fault Management Signal (FMS),[RFC7260]
-3,Performance Monitoring/Loss (PM/Loss),[RFC7260]
-4,Performance Monitoring/Delay (PM/Delay),[RFC7260]
-5,Performance Monitoring/Throughput Measurement (PM/Throughput),[RFC7260]
->= 6,Unassigned,

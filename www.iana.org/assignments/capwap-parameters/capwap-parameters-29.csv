@@ -1,4 +1,0 @@
-IEEE 802.11 Auth Type,Type Value,Reference
-Open System,0,[RFC5416]
-WEP Shared Key,1,[RFC5416]
-Unassigned,2-255,

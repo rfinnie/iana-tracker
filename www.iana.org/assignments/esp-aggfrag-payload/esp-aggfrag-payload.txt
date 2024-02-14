@@ -1,0 +1,43 @@
+   Internet Assigned Numbers Authority
+
+                                                                 ESP AGGFRAG_PAYLOAD
+
+   Created
+   2022-09-28
+
+   Last Updated
+   2023-05-25
+
+   Available Formats
+   [IMG]
+   XML [IMG]
+   HTML [IMG]
+   Plain text
+
+   Registry included below
+
+     • AGGFRAG_PAYLOAD Sub-Types
+
+AGGFRAG_PAYLOAD Sub-Types
+
+   Registration Procedure(s)
+
+ Expert Review
+
+   Expert(s)
+
+ Christian Hopps
+
+   Reference
+   [RFC9347]
+
+   Available Formats
+   [IMG]
+   CSV
+
+   Sub-Type             Name              Reference
+   0        Non-Congestion-Control Format [RFC9347]
+   1        Congestion Control Format     [RFC9347]
+   3-255    Unassigned
+
+   Licensing Terms

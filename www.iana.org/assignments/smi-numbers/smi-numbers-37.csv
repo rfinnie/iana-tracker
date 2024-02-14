@@ -1,9 +1,0 @@
-Decimal,Description,References
-0,module-identifiers,[RFC4534]
-1,content-types,[RFC4534]
-2,security-suites,[RFC4534]
-3,protocol-identifiers,[RFC4534]
-4,rekey-methods,[RFC4534]
-5,rekey-reliability-methods,[RFC4534]
-6,distributed-operations-methods,[RFC4534]
-7,data-policies,[RFC4534]

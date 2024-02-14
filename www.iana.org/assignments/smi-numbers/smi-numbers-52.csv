@@ -1,6 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,per-conf,perform conf. (encrypt),[Carlisle_Adams]
-2,rec-conf,receive conf. (decrypt),[Carlisle_Adams]
-3,per-conf-full,perform full confidentiality,[RFC2479]
-4,rec-conf-full,receive full confidentiality,[RFC2479]

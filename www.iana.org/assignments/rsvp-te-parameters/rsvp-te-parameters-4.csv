@@ -1,9 +1,0 @@
-Flag,Name,Reference
-0x01,Local protection available,[RFC3209]
-0x02,Local protection in use,[RFC3209]
-0x04,Bandwidth protection,[RFC4090]
-0x08,Node protection,[RFC4090]
-0x10,Unassigned,
-0x20,Node-id,[RFC4561]
-0x40,Unassigned,
-0x80,Unassigned,

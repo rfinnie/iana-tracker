@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Default MRT Profile,[RFC7812]
-1-200,Unassigned,
-201-220,Reserved for Experimental Use,[RFC7812]
-221-254,Reserved for Private Use,[RFC7812]
-255,Reserved (for future registry extension),[RFC7812]

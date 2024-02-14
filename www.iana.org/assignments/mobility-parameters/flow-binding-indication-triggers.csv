@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC7109]
-1,Unspecified,[RFC7109]
-2,Administrative Reason,[RFC7109]
-3,Possible Out-of-Sync BCE State,[RFC7109]
-4-249,Unassigned,
-250-255,Reserved for Testing Purposes Only,[RFC7109]

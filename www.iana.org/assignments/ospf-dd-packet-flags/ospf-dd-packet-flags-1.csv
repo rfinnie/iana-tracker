@@ -1,9 +1,0 @@
-Value,Description,Reference
-0x01,Leader (L-bit),[RFC2328][RFC9454]
-0x02,More (M-bit),[RFC2328]
-0x04,Init (I-bit),[RFC2328]
-0x08,Unassigned,
-0x10,IPv6 MTU (M6-bit),[RFC5838]
-0x20,Unassigned,
-0x40,Unassigned,
-0x80,Unassigned,

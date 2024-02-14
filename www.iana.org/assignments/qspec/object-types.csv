@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,QoS Desired,[RFC5975]
-1,QoS Available,[RFC5975]
-2,QoS Reserved,[RFC5975]
-3,Minimum QoS,[RFC5975]
-4-63,Unassigned,
-64-67,Reserved for Private/Experimental Use,[RFC5975]
-68-4095,Reserved,[RFC5975]

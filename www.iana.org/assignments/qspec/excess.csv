@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,drop,[RFC5975]
-1,shape,[RFC5975]
-2,re-mark,[RFC5975]
-3,no metering or policing is permitted,[RFC5975]
-4-63,Unassigned,
-64-255,Reserved,[RFC5975]

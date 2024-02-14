@@ -1,7 +1,0 @@
-Option,Description,Reference
-1,IPX-Network-Number,[RFC1552]
-2,IPX-Node-Number,[RFC1552]
-3,IPX-Compression-Protocol,[RFC1552]
-4,IPX-Routing-Protocol,[RFC1552]
-5,IPX-Router-Name,[RFC1552]
-6,IPX-Configuration-Complete,[RFC1552]

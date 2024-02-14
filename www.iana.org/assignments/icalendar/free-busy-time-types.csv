@@ -1,5 +1,0 @@
-Free/Busy Time Type,Status,Reference
-FREE,Current,"[RFC5545, Section 3.2.9]"
-BUSY,Current,"[RFC5545, Section 3.2.9]"
-BUSY-UNAVAILABLE,Current,"[RFC5545, Section 3.2.9]"
-BUSY-TENTATIVE,Current,"[RFC5545, Section 3.2.9]"

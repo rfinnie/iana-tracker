@@ -1,6 +1,0 @@
-Value,Name,References
-0,Reserved,[RFC2407]
-1,seconds,[RFC2407]
-2,kilobytes,[RFC2407]
-3-61439,Unassigned,
-61440-65535,Reserved for private use,

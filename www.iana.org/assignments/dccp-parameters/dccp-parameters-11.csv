@@ -1,7 +1,0 @@
-Drop Code,Description/Meaning,Reference
-0,Protocol Constraints,[RFC4340]
-1,Application Not Listening,[RFC4340]
-2,Receive Buffer,[RFC4340]
-3,Corrupt,[RFC4340]
-4-6,Unassigned,[RFC4340]
-7,Delivered Corrupt,[RFC4340]

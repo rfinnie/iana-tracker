@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Unassigned,
-1,BAB-HMAC,[RFC6257]
-2,PIB-RSA-SHA256,[RFC6257]
-3,PCB-RSA-AES128-PAYLOAD-PIB-PCB,[RFC6257]
-4,ESB-RSA-AES128-EXT,[RFC6257]
-values greater than 4,Reserved,[RFC6257]

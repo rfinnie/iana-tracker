@@ -1,6 +1,0 @@
-Value,Description,Reference
-1,Without Label Range,[RFC3209]
-2,With ATM Label Range,[RFC3209]
-3,With Frame Relay Label Range,[RFC3209]
-4,Generalized_Label_Request,[RFC3473]
-5,Generalized Channel_Set,[RFC6002]

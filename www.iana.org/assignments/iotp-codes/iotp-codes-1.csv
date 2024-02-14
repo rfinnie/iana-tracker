@@ -1,5 +1,0 @@
-Attribute,Values,Reference
-"""sha1""",Indicates that a [SHA1] authentication will apply,[RFC2801]
-"""signature""","Indicates that authentication consists of the generation       
-of a digital signature.",[RFC2801]
-"""Pay:ppp""","Where ""ppp"" may be set to any valid value for ""iotpbrand""",[RFC2801]

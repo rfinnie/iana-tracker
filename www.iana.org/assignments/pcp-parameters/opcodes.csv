@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,ANNOUNCE,[RFC6887]
-1,MAP,[RFC6887]
-2,PEER,[RFC6887]
-3,AUTHENTICATION,[RFC7652]
-4-63,Unassigned,
-64-95,Reserved,[RFC6887]
-96-126,Reserved for Private Use,[RFC6887]
-127,Reserved,[RFC6887]

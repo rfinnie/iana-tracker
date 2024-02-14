@@ -1,4 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,ttime,use trusted time,[Carlisle_Adams]
-2,utime,use untrusted time,[Carlisle_Adams]

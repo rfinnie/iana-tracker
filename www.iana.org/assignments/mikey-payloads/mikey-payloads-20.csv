@@ -1,7 +1,0 @@
-Value,Cert Type,Reference
-0,X.509v3,[RFC3830]
-1,X.509v3 URL,[RFC3830]
-2,X.509v3 Sign,[RFC3830]
-3,X.509v3 Encr,[RFC3830]
-4-240,Unassigned,
-241-255,Reserved for Private Use,

@@ -1,9 +1,0 @@
-Token,Description,Reference
-blank,The about:blank URI references a blank page.,[RFC6694]
-invalid,"The about:invalid URI references a non-existent
-        document with a generic error condition. It can be used when a URI is
-        necessary, but the default value shouldn't be resolveable as any type
-        of document.",[http://dev.w3.org/csswg/css3-values/#about-invalid][CSSWG]
-srcdoc,Used as the document's address of iframe srcdoc documents in HTML.,[http://www.whatwg.org/specs/web-apps/current-work/#about:srcdoc][Ian_Hickson]
-legacy-compat,For use in DOCTYPEs in HTML documents when needed for compatibility with XML tools.,[http://www.whatwg.org/specs/web-apps/current-work/#about:legacy-compat][Ian_Hickson]
-html-kind,The about:html-kind URI identifies the vocabulary of kind values in HTML specifications from W3C and WhatWG.,[https://html.spec.whatwg.org/multipage/embedded-content.html#identifying-a-track-kind-through-a-url][David_Singer]

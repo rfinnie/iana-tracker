@@ -1,7 +1,0 @@
-Token,Reference
-auth-style,"[RFC8053, Section 4.2]"
-location-when-unauthenticated,"[RFC8053, Section 4.3]"
-no-auth,"[RFC8053, Section 4.4]"
-location-when-logout,"[RFC8053, Section 4.5]"
-logout-timeout,"[RFC8053, Section 4.6]"
-username,"[RFC8053, Section 4.7]"

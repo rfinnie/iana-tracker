@@ -1,6 +1,0 @@
-Mechanism_Type,Value,Mechanism Choice Data Value Table Reference,Reference
-Key Creation Algorithm,0,"Table 26, [RFC4535]",[RFC4535]
-Encryption Algorithm,1,"Table 16, [RFC4535]",[RFC4535]
-Nonce Hash Algorithm,2,"Table 25, [RFC4535]",[RFC4535]
-Reserved to IANA,3-192,,[RFC4535]
-Private Use,193-255,,[RFC4535]

@@ -1,8 +1,0 @@
-Value,Description,Reference
-0x00,Reserved,[RFC6124]
-0x01,EAP-EKE-ID exchange,[RFC6124]
-0x02,EAP-EKE-Commit exchange,[RFC6124]
-0x03,EAP-EKE-Confirm exchange,[RFC6124]
-0x04,EAP-EKE-Failure exchange,[RFC6124]
-0x05-0x7F,Unassigned,
-0x80-0xFF,Reserved for Private Use,[RFC6124]

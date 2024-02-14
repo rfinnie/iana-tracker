@@ -1,7 +1,0 @@
-Data Transfer Type,Type Value,Reference
-Reserved,0,[RFC5415]
-Transfer data is included,1,[RFC5415]
-Last Transfer Data Block is included (EOF),2,[RFC5415]
-Unassigned,3-4,
-An error occurred.  Transfer is aborted,5,[RFC5415]
-Unassigned,6-255,

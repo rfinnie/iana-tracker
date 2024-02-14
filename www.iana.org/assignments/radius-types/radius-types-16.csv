@@ -1,5 +1,0 @@
-Value,Description,Reference
-1,Only allow access to default zone,[RFC2869]
-2,Use zone filter inclusively,[RFC2869]
-3,Not used,[RFC2869]
-4,Use zone filter exclusively,[RFC2869]

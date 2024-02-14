@@ -1,6 +1,0 @@
-Value,Description,Reference
-0x01,B-bit,[RFC5340]
-0x02,E-bit,[RFC5340]
-0x04,V-bit,[RFC5340]
-0x08,Deprecated,[RFC5340]
-0x10,Nt-bit,[RFC5340]

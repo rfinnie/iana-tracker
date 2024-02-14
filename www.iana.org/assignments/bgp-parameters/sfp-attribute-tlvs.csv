@@ -1,9 +1,0 @@
-Type,Name,Reference,Registration Date
-0,Reserved,[RFC9015],
-1,Association TLV,[RFC9015],2020-09-02
-2,Hop TLV,[RFC9015],2020-09-02
-3,SFT TLV,[RFC9015],2020-09-02
-4,MPLS Swapping/Stacking,[RFC9015],2020-09-02
-5,SFP Traversal With MPLS,[RFC9015],2020-09-02
-6-65534,Unassigned,,
-65535,Reserved,[RFC9015],

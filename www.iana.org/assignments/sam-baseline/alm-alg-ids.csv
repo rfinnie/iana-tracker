@@ -1,6 +1,0 @@
-"ID",Algorithm Name,Reference
-0x0000,INVALID-ALG,[RFC7019]
-0x0001,SCRIBE-SAM,[RFC7019]
-0x0002,P2PCAST-SAM,[RFC7019]
-0x0003-0x7FFF,Unassigned,
-0x8000-0xFFFF,Reserved for Private Use,[RFC7019]

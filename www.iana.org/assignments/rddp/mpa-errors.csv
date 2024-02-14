@@ -1,8 +1,0 @@
-Layer/Error-Type/Error-Code,Error-Type-Name/Error-Code-Name,Reference
-0x2/0x0/0x01,"MPA Error / TCP connection closed, terminated, or lost",[RFC5044]
-0x2/0x0/0x02,MPA Error / MPA CRC Error,[RFC5044]
-0x2/0x0/0x03,MPA Error / MPA Marker and ULPDU Length field mismatch,[RFC5044]
-0x2/0x0/0x04,MPA Error / Invalid MPA Request Frame or MPA Response Frame,[RFC5044]
-0x2/0x0/0x05,MPA Error / Local catastrophic error,[RFC6581]
-0x2/0x0/0x06,MPA Error / Insufficient IRD resources,[RFC6581]
-0x2/0x0/0x07,MPA Error / No matching RTR option,[RFC6581]

@@ -1,7 +1,0 @@
-Value,Description,Reference
-0x00,Reserved,[RFC5974]
-0x01,Internal or system error,[RFC5974]
-0x02,Authorization failure,[RFC5974]
-0x03-0x7F,Unassigned,
-0x80-0xBF,Reserved for Experimental/Private Use,[RFC5974]
-0xC0-0xFF,Reserved,[RFC5974]

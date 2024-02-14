@@ -1,6 +1,0 @@
-"ID",Description,Reference,Change Controller
-damaged,Required components are damaged.,[RFC8147],IESG
-data-unsupported,"The data item referenced in a ""send-data"" request is not supported.",[RFC8147],IESG
-security-failure,The authenticity of the request or the authority of the requestor could not be verified.,[RFC8147],IESG
-unable,The action could not be accomplished (a generic error for use when no other code is appropriate).,[RFC8147],IESG
-unsupported,"The ""action"" value is not supported.",[RFC8147],IESG

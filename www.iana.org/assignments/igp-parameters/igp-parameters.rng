@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+  ns="http://www.iana.org/assignments">
+
+  <include href="../_support/iana-registry.rng"/>
+
+  <start>
+    <element name="registry">
+      <ref name="registryMeta"/>
+     
+      <!-- IGP Algorithm Types -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+      
+      <!-- Link Attribute Application Identifiers -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+           
+      <!-- IGP MSD-Types -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+
+      <!-- IGP Metric-Type -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+
+      <!-- IGP Flexible Algorithm Definition Flags -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+	  
+      <!-- Path Computation Element (PCE) Capability Flags -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+
+      <!-- PCED sub-TLV Type Indicators -->
+      
+      <element name="registry">
+        <ref name="registryMeta"/>
+        <zeroOrMore>
+          <element name="record">
+            <optional><attribute name="date"><ref name="genericDate"/></attribute></optional>
+            <optional><attribute name="updated"><ref name="genericDate"/></attribute></optional>
+            <element name="value"><text/></element>
+            <element name="description"><ref name="richText"/></element>
+            <optional><ref name="references"/></optional>
+          </element>
+        </zeroOrMore>
+      </element>
+
+      <ref name="people"/>
+    </element>
+  </start>
+
+</grammar>

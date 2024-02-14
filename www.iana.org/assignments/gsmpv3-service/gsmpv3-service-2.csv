@@ -1,9 +1,0 @@
-Service ID,Description,Reference
-0,Reserved,
-1,CBR= 1,[RFC3292]
-2,rt-VBR.1,[RFC3292]
-3,rt-VBR.2,[RFC3292]
-4,rt-VBR.3,[RFC3292]
-5,nrt-VBR.1,[RFC3292]
-6,nrt-VBR.2,[RFC3292]
-7-65535,Unassigned,

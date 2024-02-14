@@ -1,8 +1,0 @@
-Keyword,Attribute (X.520 keys),Reference
-CN,CommonName,[RFC1779]
-L,LocalityName,[RFC1779]
-ST,StateOrProvinceName,[RFC1779]
-O,OrganizationName,[RFC1779]
-OU,OrganizationalUnitName,[RFC1779]
-C,CountryName,[RFC1779]
-STREET,StreetAddress,[RFC1779]

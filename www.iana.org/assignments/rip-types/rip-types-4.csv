@@ -1,6 +1,0 @@
-Value,Description,Reference,Notes
-0,none,,
-1,Authentication Trailer,[RFC4822],Only used with Cryptographic Hash Function
-2,Plain-text password,[RFC1388],
-3,Cryptographic Hash Function,[RFC4822],Requires Authentication Trailer
-4-65534,Unassigned,,

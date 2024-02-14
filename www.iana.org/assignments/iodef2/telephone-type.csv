@@ -1,9 +1,0 @@
-Value,Description,Reference
-wired,A number of a wire-line (land-line) phone.,[RFC7970]
-mobile,A number of a mobile phone.,[RFC7970]
-fax,A number to a fax machine.,[RFC7970]
-hotline,"A number to a regularly monitored operational
-        hotline.",[RFC7970]
-ext-value,"A value used to indicate that this attribute is
-        extended and the actual value is provided using the
-        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

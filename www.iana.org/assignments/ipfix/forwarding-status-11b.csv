@@ -1,6 +1,0 @@
-Binary,Hex,Description,Reference
-11 000000b,0xC0,Unknown,[RFC7270]
-11 000001b,0xC1,Punt Adjacency,[RFC7270]
-11 000010b,0xC2,Incomplete Adjacency,[RFC7270]
-11 000011b,0xC3,For us,[RFC7270]
-,0xC4-0xFF,Unassigned,

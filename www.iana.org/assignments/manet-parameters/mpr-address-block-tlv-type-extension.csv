@@ -1,4 +1,0 @@
-Type Extension,Name,Description,Reference
-0,MPR,This value is to be interpreted according to the registry [MPR TLV Bit Values],[RFC7188][RFC7181]
-1-223,,Unassigned,
-224-255,,Reserved for Experimental Use,[RFC7631]

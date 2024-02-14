@@ -1,8 +1,0 @@
-Property Group,Name,Reference
-Random Access,Random-Access,[RFC7826]
-Random Access,Beginning-Only,[RFC7826]
-Random Access,No-Seeking,[RFC7826]
-Retention,Unlimited,[RFC7826]
-Retention,Time-Limited,[RFC7826]
-Retention,Time-Duration,[RFC7826]
-Supported Scale,Scales,[RFC7826]

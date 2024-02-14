@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC8972]
-1,Network available,[RFC8972]
-2,Network unavailable,[RFC8972]
-3-239,Unassigned,
-240-249,Reserved for Experimental Use,[RFC8972]
-250-254,Reserved for Private Use,[RFC8972]
-255,Reserved,

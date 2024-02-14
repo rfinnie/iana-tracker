@@ -1,8 +1,0 @@
-"ID",S2K Type,Reference
-0,Simple S2K,[RFC4880]
-1,Salted S2K,[RFC4880]
-2,Reserved value,[RFC4880]
-3,Iterated and Salted S2K,[RFC4880]
-4-99,Unassigned,[RFC4880]
-100-110,Private/Experimental S2K,[RFC4880]
-111-255,Unassigned,[RFC4880]

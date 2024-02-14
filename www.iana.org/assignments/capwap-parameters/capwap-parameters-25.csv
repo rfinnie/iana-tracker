@@ -1,9 +1,0 @@
-WTP Reboot Stats Failure Type,Type Value,Reference
-Not Supported,0,[RFC5415]
-AC Initiated,1,[RFC5415]
-Link Failure,2,[RFC5415]
-Software Failure,3,[RFC5415]
-Hardware Failure,4,[RFC5415]
-Other Failure,5,[RFC5415]
-Unassigned,6-254,
-Unknown,255,[RFC5415]

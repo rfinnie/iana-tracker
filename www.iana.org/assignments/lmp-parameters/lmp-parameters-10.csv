@@ -1,7 +1,0 @@
-C-Type,Description,Reference
-0,Reserved,
-1,HELLO_CONFIG,[RFC4204]
-2,LMP-WDM_CONFIG,[RFC4209]
-3,BehaviorConfig,[RFC6898]
-4-119,Unassigned,
-120-127,Private Use,[RFC4204]

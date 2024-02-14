@@ -1,6 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,per-poo,create proof-of-origin,[Carlisle_Adams]
-2,rec-poo,verify proof-of-origin,[Carlisle_Adams]
-3,per-pod,create proof-of-delivery,[Carlisle_Adams]
-4,rec-pod,verify proof-of-delivery,[Carlisle_Adams]

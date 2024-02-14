@@ -1,6 +1,0 @@
-Type,Mnemonic,Description,Reference
-0,NULL,No TaggerId field is present,[RFC6621]
-1,DEFAULT,A TaggerId of non-specific context is present,[RFC6621]
-2,IPv4,A TaggerId representing an IPv4 address is present,[RFC6621]
-3,IPv6,A TaggerId representing an IPv6 address is present,[RFC6621]
-4-7,,Unassigned,

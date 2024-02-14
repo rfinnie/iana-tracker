@@ -1,6 +1,0 @@
-Value,Hash Func,Reference
-0,SHA-1,[RFC3830]
-1,MD5,[RFC3830]
-2,SHA-256,[RFC6043]
-3-240,Unassigned,
-241-255,Reserved for Private Use,

@@ -1,6 +1,0 @@
-Value,ID Type,Reference
-0-10,Reserved,[RFC3547]
-11,ID_KEY_ID,[RFC3547]
-12,Reserved,[RFC3547]
-13-127,Unassigned,
-128-255,Private Use,[RFC3547]

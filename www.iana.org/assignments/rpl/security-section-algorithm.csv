@@ -1,3 +1,0 @@
-Value,Encryption/MAC,Signature,Reference
-0,CCM with AES-128,RSA with SHA-256,[RFC6550]
-1-255,Unassigned,Unassigned,

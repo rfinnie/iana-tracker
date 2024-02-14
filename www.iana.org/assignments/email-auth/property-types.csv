@@ -1,6 +1,0 @@
-ptype,Definition,Description
-body,[RFC8601] section 2.3,The property being reported was found in the body of the message.
-dns,[RFC8904],The property being reported belongs to the Domain Name System.
-header,[RFC8601] section 2.3,The property being reported was found in a header field of the message.
-policy,[RFC8601] section 2.3,The property being reported relates to a locally-defined policy.
-smtp,[RFC8601] section 2.3,The property being reported is a parameter to an SMTP command used to relay the message.

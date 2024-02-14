@@ -1,5 +1,0 @@
-Compression Method,Description,Reference
-01,RUN-LENGTH algorithm,[RFC3072]
-02,DEFLATE (ZIP),[RFC1951]
-03-239,Unassigned,
-240-255,Private or application specific,

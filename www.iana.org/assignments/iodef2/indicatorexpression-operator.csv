@@ -1,5 +1,0 @@
-Value,Description,Reference
-not,negation operator.,[RFC7970]
-and,conjunction operator.,[RFC7970]
-or,disjunction operator.,[RFC7970]
-xor,exclusive disjunction operator.,[RFC7970]

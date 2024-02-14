@@ -1,7 +1,0 @@
-Value,Ticket Type,Reference
-0,Reserved,[RFC6043]
-1,MIKEY base ticket,[RFC6043]
-2,3GPP base ticket,[RFC6043]
-3-61439,Unassigned,
-61440-65534,Reserved for Private Use,[RFC6043]
-65535,Reserved,[RFC6043]

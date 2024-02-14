@@ -1,7 +1,0 @@
-Value,Group Type,Reference
-0,Reserved,
-1,MODP (modular exponentiation group),[RFC2409]
-2,ECP  (elliptic curve group over GF[P]),[RFC2409]
-3,EC2N (elliptic curve group over GF[2^N]),[RFC2409]
-4-65000,Unassigned,
-65001-65535,Reserved for private use,

@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Unknown Version,[RFC5971]
-1,Unknown Type,[RFC5971]
-2,Invalid R-flag,[RFC5971]
-3,Incorrect Message Length,[RFC5971]
-4,Invalid E-flag,[RFC5971]
-5,Invalid C-flag,[RFC5971]

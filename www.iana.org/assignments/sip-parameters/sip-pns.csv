@@ -1,4 +1,0 @@
-Value,Description,Reference
-apns,Apple Push Notification service,[RFC8599]
-fcm,Firebase Cloud Messaging,[RFC8599]
-webpush,Generic Event Delivery Using HTTP Push,[RFC8599]

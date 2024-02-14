@@ -1,9 +1,0 @@
-Cryptographic_Key_Types,Value,Description/Defined In,Reference
-Reserved,0-2,,[RFC4535]
-3DES_CBC64_192,3,,[RFC2451]
-Reserved,4-11,,[RFC4535]
-AES_CBC_128,12,"This type MUST be           
-supported.",[RFC4306]
-AES_CTR,13,,[RFC4306]
-Reserved to IANA,14-49152,,[RFC4535]
-Private Use,49153-65535,,[RFC4535]

@@ -1,6 +1,0 @@
-Value,Usage,Reference
-0,Reserved,
-1,IPv4 Multicast Address,[RFC2734]
-2,IPv6 Multicast Address,[RFC3146]
-3-254,Unassigned,
-255,Reserved,

@@ -1,8 +1,0 @@
-Identifier type,Element,Reference
-0x00,Reserved,
-0x01,Session,[RFC3033]
-0x02,Resource,[RFC3033]
-0x03-0x0F,IANA does not assign,
-0x10-0xFD,Unassigned,
-0xFE,Experimental/Organization specific,[RFC3033]
-0xFF,Reserved,

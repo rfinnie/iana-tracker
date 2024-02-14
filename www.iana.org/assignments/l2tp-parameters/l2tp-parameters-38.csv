@@ -1,4 +1,0 @@
-Value,Description,Reference
-0,No incoming data packets require sequencing.,[RFC3931]
-1,Only non-IP data packets require sequencing.,[RFC3931]
-2,All incoming data packets require sequencing.,[RFC3931]

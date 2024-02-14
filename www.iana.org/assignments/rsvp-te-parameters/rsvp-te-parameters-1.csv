@@ -1,7 +1,0 @@
-Type,Name,Allowed on LSP_ATTRIBUTES,Allowed on LSP_REQUIRED_ATTRIBUTES,Allowed on LSP Hop Attributes,Reference
-1,Attribute Flags,Yes,Yes,Yes,[RFC5420][RFC7570]
-2,Service ID TLV,Yes,No,No,[RFC6060][RFC7570]
-3,OAM Configuration TLV,Yes,Yes,No,[RFC7260][RFC7570]
-4,WSON Processing Hop Attribute TLV,No,No,Yes,[RFC7689]
-5,RTM_SET sub-object,Yes,No,No,[RFC8169]
-6,ETLD,No,No,Yes,"[RFC8577, Section 9.7]"

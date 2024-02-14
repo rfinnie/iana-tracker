@@ -1,4 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,Reserved,[RFC7055]
-1,mechanisms,A sub-arc containing ABFAB mechanisms,[RFC7055]
-2,nametypes,A sub-arc containing ABFAB GSS-API Name Types,[RFC7055]

@@ -1,4 +1,0 @@
-ACK_Type,Value,Definition,Reference
-Simple,0,Data portion null.,[RFC4535]
-Reserved to IANA,1-192,,
-Private Use,193-255,,

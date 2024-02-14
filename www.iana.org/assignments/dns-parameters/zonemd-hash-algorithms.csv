@@ -1,7 +1,0 @@
-Value,Description,Mnemonic,Reference
-0,Reserved,,[RFC8976]
-1,SHA-384,SHA384,[RFC8976]
-2,SHA-512,SHA512,[RFC8976]
-3-239,Unassigned,,
-240-254,Reserved for Private Use,N/A,[RFC8976]
-255,Reserved,,[RFC8976]

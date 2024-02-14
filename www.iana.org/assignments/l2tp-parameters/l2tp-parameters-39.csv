@@ -1,9 +1,0 @@
-Bit,Description,Reference
-Bit 0,V (VCCV) bit,[RFC5085]
-Bit 1,S (Sequence) bit,[RFC4454]
-Bit 2,B (Fragmentation) bit,[RFC4454]
-Bit 3,E (Fragmentation) bit,[RFC4454]
-Bit 4,T (Transport type) bit,[RFC4454]
-Bit 5,G (EFCI) bit,[RFC4454]
-Bit 6,C (CLP) bit,[RFC4454]
-Bit 7,U (Command/Response) bit,[RFC4454]

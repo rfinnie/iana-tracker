@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC6696]
-1,HMAC-SHA256-64,[RFC6696]
-2,HMAC-SHA256-128,[RFC6696]
-3,HMAC-SHA256-256,[RFC6696]
-4-191,Unassigned,
-192-255,Reserved for Private Use,[RFC6696]

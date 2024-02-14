@@ -1,7 +1,0 @@
-SubErr,Field with Error,Reference
-0,Unspecified,[RFC8171]
-1,Version not understood (see Section 3.1.1 of [RFC8171]),[RFC8171]
-2,Unknown Type field value,[RFC8171]
-3,Specified Data Label not being served,[RFC8171]
-4-254,Unassigned,
-255,Reserved,[RFC8171]

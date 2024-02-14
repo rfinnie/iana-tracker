@@ -1,8 +1,0 @@
-Code,Protocol,Reference
-0,Reserved,[RFC3219]
-1,SIP,[RFC3219]
-2,H.323-H.225.0-Q.931,[RFC3219]
-3,H.323-H.225.0-RAS,[RFC3219]
-4,H.323-H.225.0-Annex-G,[RFC3219]
-5-32767,Unassigned,
-32768-65535,Reserved for Vendor Use,[RFC3219]

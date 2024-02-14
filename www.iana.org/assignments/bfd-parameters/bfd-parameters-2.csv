@@ -1,8 +1,0 @@
-Address,BFD Authentication Type Name,Reference
-0,Reserved,[RFC5880]
-1,Simple Password,[RFC5880]
-2,Keyed MD5,[RFC5880]
-3,Meticulous Keyed MD5,[RFC5880]
-4,Keyed SHA1,[RFC5880]
-5,Meticulous Keyed SHA1,[RFC5880]
-6-255,Unassigned,

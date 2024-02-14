@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Duplicate Object,[RFC5971]
-1,Unrecognized Object,[RFC5971]
-2,Missing Object,[RFC5971]
-3,Invalid Object Type,[RFC5971]
-4,Untranslated Object,[RFC5971]
-5,Invalid Extensibility Flags,[RFC5971]

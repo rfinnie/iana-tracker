@@ -1,4 +1,0 @@
-Schema URI,Name,Reference
-urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig,Service Provider Configuration Schema,"[RFC7643, Section 5]"
-urn:ietf:params:scim:schemas:core:2.0:ResourceType,Resource Type Configuration,"[RFC7643, Section 6]"
-urn:ietf:params:scim:schemas:core:2.0:Schema,Schema Definitions Schema,"[RFC7643, Section 7]"

@@ -1,5 +1,0 @@
-Replay Method,Name,Reference
-0-1,Reserved,[RFC3957]
-2,Timestamps,[RFC3957]
-3,Nonces,[RFC3957]
-4-65535,Unassigned,

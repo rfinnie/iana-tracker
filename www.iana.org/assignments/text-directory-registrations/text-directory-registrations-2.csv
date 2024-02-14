@@ -1,8 +1,0 @@
-Type,Reference
-ldapSchemas,[RFC2927]
-attributeTypes,[RFC2927]
-matchingRules,[RFC2927]
-objectClasses,[RFC2927]
-matchingRuleUse,[RFC2927]
-ldapSyntaxes,[RFC2927]
-IMPP,[RFC4770]

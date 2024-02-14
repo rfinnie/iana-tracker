@@ -1,4 +1,0 @@
-Value (hex),Description,Reference
-0003,Robust Header Compression (ROHC),[RFC3241]
-004f,Historical; do not use -- see RFC2023,
-0061,IP Header Compression,[RFC2507][RFC3544]

@@ -1,8 +1,0 @@
-Access Type Name,Reference
-ftp,[RFC2046]
-anon-ftp,[RFC2046]
-tftp,[RFC2046]
-local-file,[RFC2046]
-mail-server,[RFC2046]
-url,[RFC2017]
-news-message-ID,[RFC1036][Henry_Spencer][RFC5538]

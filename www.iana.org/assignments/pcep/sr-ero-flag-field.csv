@@ -1,7 +1,0 @@
-Bit,Description,Reference
-0-6,Unassigned,
-7,"SR Algorithm Flag (TEMPORARY - registered 2023-09-13, expires 2024-09-13)",[draft-ietf-pce-sid-algo-04]
-8,NAI is absent (F),[RFC8664]
-9,SID is absent (S),[RFC8664]
-10,"SID specifies TC, S, and TTL in addition to an MPLS label (C)",[RFC8664]
-11,SID specifies an MPLS label (M),[RFC8664]

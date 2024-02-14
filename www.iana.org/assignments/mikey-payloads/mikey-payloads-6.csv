@@ -1,6 +1,0 @@
-Value,CS ID Map Type,Reference
-0,SRTP-ID,[RFC3830]
-1,Empty map,[RFC4563]
-2,GENERIC-ID,[RFC6043]
-3-240,Unassigned,
-241-255,Reserved for Private Use,[RFC3830]

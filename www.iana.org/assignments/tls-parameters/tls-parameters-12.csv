@@ -1,6 +1,0 @@
-Value,Description,DTLS-OK,Reference
-0,user_mapping_data,Y,[RFC4681]
-1-16385,Unassigned,,
-16386,authz_data,Y,[RFC5878]
-16387-65279,Unassigned,,
-65280-65535,Reserved for Private Use,,[RFC4680]

@@ -1,6 +1,0 @@
-Identifier,Name,Reference
-npt,Normal Play Time,[RFC7826]
-clock,UTC Absolute Time format,[RFC7826]
-smpte,SMPTE Timestamps,[RFC7826]
-smpte-30-drop,SMPTE Timestamps 29.97 Frames/sec (30 Hz with Drop),[RFC7826]
-smpte-25,SMPTE Timestamps 25 Frames/sec,[RFC7826]

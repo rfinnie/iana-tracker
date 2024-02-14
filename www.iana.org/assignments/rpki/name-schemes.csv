@@ -1,9 +1,0 @@
-Filename Extension,RPKI Object,Reference
-.asa,"Autonomous System Provider Authorization (TEMPORARY - registered 2021-11-08, extension registered 2023-10-05, expires 2024-11-08)",[draft-ietf-sidrops-aspa-profile-16]
-.cer,Certificate,[RFC6481]
-.crl,Certificate Revocation List,[RFC6481]
-.gbr,Ghostbusters Record,[RFC6493]
-.mft,Manifest,[RFC6481]
-.roa,Route Origination Authorization,[RFC-ietf-sidrops-rfc6482bis-09]
-.sig,Signed Checklist,[RFC9323]
-.tak,"Trust Anchor Key (TEMPORARY - registered 2022-07-27, extension registered 2023-06-30, expires 2024-07-27)",[draft-ietf-sidrops-signed-tal-11]

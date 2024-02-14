@@ -1,0 +1,44 @@
+Type name: application
+
+Subtype name: linkset
+
+Required parameters: N/A
+
+Optional parameters: profile
+
+Encoding considerations: Linksets are encoded according to the
+definitions provided in [RFC8288]. The encoding discussed in
+[RFC8288] is based on the general encoding rules specified by
+HTTP [RFC9110] and allows specific parameters to be extended
+by the indication of character encoding and language as
+defined by [RFC8187].
+
+Security considerations: The security considerations of [RFC9264] apply.
+
+Interoperability considerations: N/A
+
+Published specification: [RFC9264]
+
+Applications that use this media type: This media type is not
+specific to any application, as it can be used by any application
+that wants to interchange web links.
+
+Additional information:
+
+   Magic number(s): N/A
+
+   File extension(s): This media type does not propose a specific
+   extension.
+
+   Macintosh file type code(s): TEXT
+
+Person & email address to contact for further information: Erik
+Wilde <erik.wilde&dret.net>
+
+Intended usage: COMMON
+
+Restrictions on usage: none
+
+Author: Erik Wilde <erik.wilde&dret.net>
+
+Change controller: IETF

@@ -1,7 +1,0 @@
-Value,Description,Reference
-count,The Counter class value is a counter.,[RFC7970]
-peak,The Counter class value is a peak value.,[RFC7970]
-average,The Counter class value is an average.,[RFC7970]
-ext-value,"A value used to indicate that this attribute is
-        extended and the actual value is provided using the
-        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

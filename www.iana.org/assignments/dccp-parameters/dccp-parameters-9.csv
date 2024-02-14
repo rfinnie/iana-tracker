@@ -1,8 +1,0 @@
-CCID,Description/Meaning,Reference
-0-1,Unassigned,[RFC4340]
-2,TCP-like Congestion Control,[RFC4341]
-3,TFRC Congestion Control,[RFC4342]
-4,TCP-Friendly Rate Control for Small Packets,[RFC5622]
-5-247,Unassigned,[RFC4340]
-248-254,Reserved,[RFC4340]
-255,Unassigned,[RFC4340]

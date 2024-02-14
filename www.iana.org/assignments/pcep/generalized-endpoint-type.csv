@@ -1,8 +1,0 @@
-Value,Type,Reference
-0,Point-to-Point,[RFC8779]
-1,Point-to-Multipoint with leaf type 1,[RFC8779]
-2,Point-to-Multipoint with leaf type 2,[RFC8779]
-3,Point-to-Multipoint with leaf type 3,[RFC8779]
-4,Point-to-Multipoint with leaf type 4,[RFC8779]
-5-244,Unassigned,
-245-255,Experimental Use,[RFC8779]

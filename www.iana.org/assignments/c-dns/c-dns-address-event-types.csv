@@ -1,8 +1,0 @@
-Identifier,Event Type,ae-code contents,Reference
-0,TCP reset,None,[RFC8618]
-1,ICMP time exceeded,ICMP code [icmpcodes],[RFC8618]
-2,ICMP destination unreachable,ICMP code [icmpcodes],[RFC8618]
-3,ICMPv6 time exceeded,ICMPv6 code [icmpv6codes],[RFC8618]
-4,ICMPv6 destination unreachable,ICMPv6 code [icmpv6codes],[RFC8618]
-5,ICMPv6 packet too big,ICMPv6 code [icmpv6codes],[RFC8618]
-6-18446744073709551615,Unassigned,,

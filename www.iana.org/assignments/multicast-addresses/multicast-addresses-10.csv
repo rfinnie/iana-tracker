@@ -1,4 +1,0 @@
-Relative,Description,References,Change Controller,Date Registered,Last Reviewed
-232.0.0.0,Reserved,[RFC4607],,,
-232.0.0.1-232.0.0.255,Reserved for IANA allocation,[RFC4607],,,
-232.0.1.0-232.255.255.255,Reserved for local host allocation,[RFC4607],,,

@@ -1,7 +1,0 @@
-Flag,Description,Reference
-0,V flag,[RFC7854]
-1,L flag,[RFC7854][RFC Errata 7703]
-2,A flag,[RFC7854]
-3,O flag,[RFC8671]
-4,F flag (DEPRECATED),[RFC9069]
-5-7,Unassigned,

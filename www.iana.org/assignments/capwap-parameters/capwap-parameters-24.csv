@@ -1,7 +1,0 @@
-WTP Radio Stats Failure Type,Type Value,Reference
-Statistic Not Supported,0,[RFC5415]
-Software Failure,1,[RFC5415]
-Hardware Failure,2,[RFC5415]
-Other Failure,3,[RFC5415]
-Unassigned,4-254,
-Unknown,255,[RFC5415]

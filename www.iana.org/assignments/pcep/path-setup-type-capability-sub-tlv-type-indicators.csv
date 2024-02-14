@@ -1,7 +1,0 @@
-Value,Meaning,Reference
-0,Reserved,[RFC8664]
-1,PCECC-CAPABILITY,[RFC9050]
-2-25,Unassigned,
-26,SR-PCE-CAPABILITY,[RFC8664]
-27,"SRv6-PCE-CAPABILITY (TEMPORARY - registered 2022-01-12, extension registered 2023-12-14, expires 2025-01-12)",[draft-ietf-pce-segment-routing-ipv6-13]
-28-65535,Unassigned,

@@ -1,9 +1,0 @@
-Identifier,Token,Contact,Reference
-0x00-0x29,Reserved,,[RFC5580]
-0x30,TADIG,TD.13 Coordinator (td13 at gsm.org),[RFC5580]
-0x31,REALM,IETF O&M Area Directors (ops-ads at ietf.org),[RFC5580]
-0x32,E212,ITU Director (tsbdir at itu.int),[RFC5580]
-0x33,ICC,ITU Director (tsbdir at itu.int),[RFC5580]
-0x34,WBAID,WBA Director (pmo@wballiance.com),[WBA][Bruno_Tomas]
-0x35-0xFE,Unassigned,,
-0xFF,Reserved,,[RFC5580]

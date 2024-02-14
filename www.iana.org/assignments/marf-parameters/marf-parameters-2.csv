@@ -1,9 +1,0 @@
-Feedback Type Name,Description,Reference,Status
-abuse,unsolicited email or some other kind of email abuse,[RFC5965],current
-auth-failure,email authentication failure report,[RFC6591],current
-fraud,indicates some kind of fraud or phishing activity,[RFC5965],current
-not-spam,"Indicates that the entity providing the report does not
-        consider the message to be spam.  This may be used to correct a
-        message that was incorrectly tagged or categorized as spam.",[RFC6430],current
-other,any other feedback that does not fit into other registered types,[RFC5965],current
-virus,report of a virus found in the originating message,[RFC5965],current

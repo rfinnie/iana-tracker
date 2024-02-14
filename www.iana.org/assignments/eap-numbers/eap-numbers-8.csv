@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC6696]
-1,"Re-auth-Start, applies to Initiate Code only",[RFC6696]
-2,"Re-auth, applies to Initiate and Finish Codes",[RFC6696]
-3-191,Unassigned,
-192-255,Reserved for Private Use,[RFC6696]

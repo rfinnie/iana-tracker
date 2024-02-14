@@ -1,6 +1,0 @@
-Value,TLV Name,Reference
-0,Reserved,[RFC6427]
-1,Interface Identifier TLV,[RFC6427]
-2,Global Identifier,[RFC6427]
-3-247,Unassigned,
-248-255,Reserved for Experimental Use,[RFC6427]

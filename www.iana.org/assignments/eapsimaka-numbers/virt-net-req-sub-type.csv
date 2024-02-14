@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC7458]
-1,PDN Type: IPv4,[RFC7458]
-2,PDN Type: IPv6,[RFC7458]
-3,PDN Type: IPv4v6,[RFC7458]
-4-127,Unassigned,

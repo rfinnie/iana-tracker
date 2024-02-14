@@ -1,7 +1,0 @@
-Value,Description,Reference
-1,HELLO_MESSAGE,[RFC3626]
-2,TC_MESSAGE,[RFC3626]
-3,MID_MESSAGE,[RFC3626]
-4,HNA_MESSAGE,[RFC3626]
-5-127,Unassigned,
-128-255,Reserved for Private/Local Use,

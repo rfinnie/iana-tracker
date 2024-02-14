@@ -1,0 +1,52 @@
+   Internet Assigned Numbers Authority
+
+                                                   Hypertext Transfer Protocol (HTTP) Problem Types
+
+   Created
+   2023-05-02
+
+   Last Updated
+   2024-02-12
+
+   Available Formats
+   [IMG]
+   XML [IMG]
+   HTML [IMG]
+   Plain text
+
+   Registry included below
+
+     • HTTP Problem Types
+
+HTTP Problem Types
+
+   Registration Procedure(s)
+
+ Specification Required
+
+   Expert(s)
+
+ Mark Nottingham, Sanjay Dalal
+
+   Reference
+   [RFC9457]
+
+   Note
+
+ New problem types and changes to existing ones can be requested using
+ the [registration request interface] or the [HTTPAPI mailing list].
+
+
+   Available Formats
+   [IMG]
+   CSV
+
+                           Type URI                                         Title                 Recommended HTTP Status          Reference
+                                                                                                            Code
+   about:blank                                               See HTTP Status Code                N/A                        [RFC9457]
+   https://iana.org/assignments/http-problem-types#date      Date Not Acceptable                 400                        [RFC9458, Section
+                                                                                                                            6.5.2]
+   https://iana.org/assignments/http-problem-types#ohttp-key Oblivious HTTP key configuration    400                        [RFC9458, Section 5.3]
+                                                             not acceptable
+
+   Licensing Terms

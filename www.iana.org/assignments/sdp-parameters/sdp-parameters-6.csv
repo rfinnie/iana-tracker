@@ -1,5 +1,0 @@
-Type,SDP Name,Reference
-enckey,clear,[RFC8866]
-enckey,base64,[RFC8866]
-enckey,uri,[RFC8866]
-enckey,prompt,[RFC8866]

@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Success,[RFC7109]
-1-127,Unassigned,
-128,Binding (target CoA) Does NOT Exist,[RFC7109]
-129,Action NOT Authorized,[RFC7109]
-130-255,Unassigned,

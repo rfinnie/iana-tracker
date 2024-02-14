@@ -1,8 +1,0 @@
-Grp ID Type,Value,Description/Defined In,Reference
-Reserved,0,,[RFC4535]
-UTF-8,1,Format defined in Section 7.1.1.1.1 of [RFC4535].,[RFC4535]
-Octet String,2,This type MUST be implemented. Format defined in Section 7.1.1.1.2 of [RFC4535].,[RFC4535]
-IPv4,3,Format defined in Section 7.1.1.1.3 of [RFC4535].,[RFC4535]
-IPv6,4,Format defined in Section 7.1.1.1.4 of [RFC4535].,[RFC4535]
-Reserved to IANA,5-192,,[RFC4535]
-Private Use,193-255,,[RFC4535]

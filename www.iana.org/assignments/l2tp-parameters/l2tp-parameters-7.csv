@@ -1,6 +1,0 @@
-Value,Description,Reference
-23,(MSRQ) Multicast-Session-Request,[RFC4045]
-24,(MSRP) Multicast-Session-Response,[RFC4045]
-25,(MSE) Multicast-Session-Establishment,[RFC4045]
-26,(MSI) Multicast-Session-Information,[RFC4045]
-27,(MSEN) Multicast-Session-End-Notify,[RFC4045]

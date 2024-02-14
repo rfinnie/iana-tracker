@@ -1,6 +1,0 @@
-Value,DH-Group,Comments,DH Value length (bits),Reference
-0,OAKLEY 5,Mandatory,1536,[RFC3830]
-1,OAKLEY 1,,768,[RFC3830]
-2,OAKLEY 2,,1024,[RFC3830]
-3-240,Unassigned,,,
-241-255,Reserved for Private Use,,,

@@ -1,6 +1,0 @@
-Sub-Type Value,Name,Reference,Date
-0x00-0x03,Unassigned,,
-0x04,Link Bandwidth,[draft-ietf-idr-link-bandwidth-07],
-0x05-0x7f,Unassigned,,
-0x80,Virtual-Network Identifier Extended Community,[draft-drao-bgp-l3vpn-virtual-network-overlays],2015-09-29
-0x81-0xff,Unassigned,,

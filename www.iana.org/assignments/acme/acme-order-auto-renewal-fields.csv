@@ -1,6 +1,0 @@
-Field Name,Field Type,Configurable,Reference
-start-date,string,true,[RFC8739]
-end-date,string,true,[RFC8739]
-lifetime,integer,true,[RFC8739]
-lifetime-adjust,integer,true,[RFC8739]
-allow-certificate-get,boolean,true,[RFC8739]

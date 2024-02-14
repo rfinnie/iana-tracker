@@ -1,6 +1,0 @@
-Value,Name,Reference
-0,Reserved,[RFC6388]
-1,MBB Status,[RFC6388]
-2,PLR Status Value Element,[RFC7715]
-3,Protected Node Status Value Element,[RFC7715]
-4-255,Unassigned,

@@ -1,5 +1,0 @@
-Value,Value Name,Description,Reference
-1,NC_TPI_CLTS,Connectionless,[RFC1833]
-2,NC_TPI_COTS,Connection oriented,[RFC1833]
-3,NC_TPI_COTS_ORD,Connection oriented with graceful close,[RFC1833]
-4,NC_TPI_RAW,Raw transport,[RFC1833]

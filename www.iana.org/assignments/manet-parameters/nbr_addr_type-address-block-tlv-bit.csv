@@ -1,4 +1,0 @@
-Bit,Value,Name,Description,Reference
-7,0x01,ORIGINATOR,The network address is an originator address reachable via the originating router,[RFC7188]
-6,0x02,ROUTABLE,The network address is a routable address reachable via the originating router,[RFC7188]
-0-5,,Unassigned,,[RFC7188]

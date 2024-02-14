@@ -1,6 +1,0 @@
-Type,Name,Reference
-0,Network Virtual Terminal (NVT) ASCII VPN identifier,[RFC6607]
-1,RFC2685 VPN-ID,[RFC2685][RFC6607]
-2-253,Unassigned,
-254,All VPNs (wildcard),[RFC6926]
-255,"Global, default VPN",[RFC6607]

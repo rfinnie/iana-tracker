@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,Pad,[RFC6089]
-1,PadN,[RFC6089]
-2,BID Reference,[RFC6089]
-3,Traffic Selector,[RFC6089]
-4,Flow Binding Action,[RFC7109]
-5,Target Care-of Address,[RFC7109]
-6-250,Unassigned,
-251-255,Reserved for Experimental Use,[RFC6089]

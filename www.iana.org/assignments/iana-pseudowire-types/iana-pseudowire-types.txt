@@ -1,0 +1,33 @@
+   Internet Assigned Numbers Authority
+
+                                                          iana-pseudowire-types YANG Module
+
+   Created
+           2022-06-15
+
+   Last Updated
+           2022-09-23
+
+   Registration Procedure(s)
+
+ See MPLS Pseudowire Types registry.
+
+   Description
+
+ MPLS pseudowire types must not be directly added to the "iana-pseudowire-types"
+ YANG module. They must instead be added to the "MPLS Pseudowire Types"
+ registry at [IANA registry pwe3-parameters].
+
+ Module: [iana-pseudowire-types@2022-09-20.yang]
+
+
+   Reference
+           [RFC9291][RFC4446]
+
+   Available Formats
+           [IMG]
+           XML [IMG]
+           HTML [IMG]
+           Plain text
+
+   Licensing Terms

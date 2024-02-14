@@ -1,7 +1,0 @@
-Codes,Description,Reference
-0,Bad SPI,
-1,Authentication Failed,
-2,Decompression Failed,
-3,Decryption Failed,
-4,Need Authentication,
-5,Need Authorization,

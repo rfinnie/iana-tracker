@@ -1,6 +1,0 @@
-Value,Name,Reference
-0,Reserved,[RFC5492]
-1,Authentication (deprecated),[RFC4271][RFC5492]
-2,Capabilities,[RFC5492]
-3-254,Unassigned,
-255,Extended Length,[RFC9072]

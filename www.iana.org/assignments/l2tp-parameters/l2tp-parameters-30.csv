@@ -1,3 +1,0 @@
-Value,Meaning,Reference
-0x00000001,S-bit (synchronous framing),[RFC2661]
-0x00000002,A-bit (asyncronous framing),[RFC2661]

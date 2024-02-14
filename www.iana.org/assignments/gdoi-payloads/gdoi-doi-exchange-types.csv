@@ -1,6 +1,0 @@
-Value,Phase,Reference
-GROUPKEY-PULL,32,[RFC6407]
-GROUPKEY-PUSH,33,[RFC6407]
-Known Unregistered Use,34,
-GROUPKEY-PUSH-ACK,35,[RFC8263]
-Unassigned,36-239,

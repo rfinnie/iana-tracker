@@ -1,6 +1,0 @@
-Value,Name,References
-0,Reserved,[RFC4359]
-1,RSASSA-PKCS1-v1_5,[RFC4359]
-2,RSASSA-PSS,[RFC4359]
-3-61439,Unassigned,
-61440-65535,Reserved for private use,

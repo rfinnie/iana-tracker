@@ -1,5 +1,0 @@
-data_type_code,Symbolic Name,Reference
-0x00000000,Reserved,
-0x00000001,SSH_EXTENDED_DATA_STDERR,[RFC4254]
-0x00000002-0xFDFFFFFF,Unassigned,
-0xFE000000-0xFFFFFFFF,Reserved for Private Use,

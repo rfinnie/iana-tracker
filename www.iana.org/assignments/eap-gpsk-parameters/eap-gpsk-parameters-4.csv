@@ -1,9 +1,0 @@
-OP Code,Description,Reference
-0x00,Reserved,[RFC5433]
-0x01,GPSK-1,[RFC5433]
-0x02,GPSK-2,[RFC5433]
-0x03,GPSK-3,[RFC5433]
-0x04,GPSK-4,[RFC5433]
-0x05,GPSK-Fail,[RFC5433]
-0x06,GPSK-Protected-Fail,[RFC5433]
-0x07-0xFF,Unassigned,

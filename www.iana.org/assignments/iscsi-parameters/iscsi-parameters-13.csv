@@ -1,7 +1,0 @@
-"Status Class
-(fixed)","Status Code
-(one octet)",Description,Reference
-0x03,0x00,Target error,[RFC7143]
-0x03,0x01,Service unavailable,[RFC7143]
-0x03,0x02,Out of resources,[RFC7143]
-0x03,0x03-0xff,Unassigned,

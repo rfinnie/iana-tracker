@@ -1,8 +1,0 @@
-Value,Description,Reference
-Bit 9,S (Standby) bit,[RFC5641]
-Bit 10,E (Local PSN-facing PW (egress) Tx Fault) bit,[RFC5641]
-Bit 11,I (Local PSN-facing PW (ingress) Rx Fault) bit,[RFC5641]
-Bit 12,T (Local AC (egress) Tx Fault) bit,[RFC5641]
-Bit 13,R (Local AC (ingress) Rx Fault) bit,[RFC5641]
-Bit 14,N (New) bit [use deprecated],[RFC3931][RFC5641]
-Bit 15,A (Active) bit,[RFC3931]

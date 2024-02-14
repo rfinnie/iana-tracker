@@ -1,9 +1,0 @@
-Number,Description/Meaning,Reference
-128,Send RTT Estimate,[RFC6323]
-129-183,Unassigned,
-184-190,Reserved for experimental and testing use,[RFC4342]
-191,Unassigned,
-192,Send Loss Event Rate,[RFC4342]
-193-247,Unassigned,
-248-254,Reserved for experimental and testing use,[RFC4342]
-255,Reserved,[RFC4342]

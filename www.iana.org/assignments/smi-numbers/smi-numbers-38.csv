@@ -1,6 +1,0 @@
-Decimal,Description,References
-1,PolicyToken,[RFC4534]
-2,GSAKMPv1RegistrationSA,[RFC4534]
-3,GSAKMPv1DeRegistrationSA,[RFC4534]
-4,GSAKMPv1RekeySA,[RFC4534]
-5,GenericDataSA,[RFC4534]

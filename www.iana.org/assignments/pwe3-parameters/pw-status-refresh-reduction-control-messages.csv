@@ -1,5 +1,0 @@
-Type,Message Description,Reference
-0x00,Unassigned,
-0x01,Notification message,[RFC8237]
-0x02,PW Configuration Message,[RFC8237]
-0x03-0xFF,Unassigned,

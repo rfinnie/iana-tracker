@@ -1,4 +1,0 @@
-Name,URLString,Value,Owner,Reference
-baseObject,base,0,IESG,[RFC4511][RFC4516]
-singleLevel,one,1,IESG,[RFC4511][RFC4516]
-wholeSubtree,sub,2,IESG,[RFC4511][RFC4516]

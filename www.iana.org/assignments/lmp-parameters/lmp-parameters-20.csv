@@ -1,8 +1,0 @@
-C-Type,Description,Reference
-0,Reserved,
-1,BEGIN_VERIFY_ERROR,[RFC4204]
-2,LINK_SUMMARY_ERROR,[RFC4204]
-3,TRACE_ERROR,[RFC4207]
-4,ConfirmDataChannelStatusNack,[RFC5818]
-5-119,Unassigned,
-120-127,Private Use,[RFC4204]

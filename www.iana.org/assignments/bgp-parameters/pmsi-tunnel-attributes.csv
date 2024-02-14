@@ -1,8 +1,0 @@
-Value,Name,Reference
-0,Unassigned,
-1,Extension,[RFC7902]
-2,Leaf Information Required per-Flow (LIR-pF),[RFC8534]
-3-4,Assisted-Replication Type (T),[RFC-ietf-bess-evpn-optimized-ir-12]
-5,Broadcast and Multicast (BM),[RFC-ietf-bess-evpn-optimized-ir-12]
-6,Unknown (U),[RFC-ietf-bess-evpn-optimized-ir-12]
-7,Leaf Information Required (L),[RFC6514]

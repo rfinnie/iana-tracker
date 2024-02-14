@@ -1,7 +1,0 @@
-Value,Name,Reference
-0,Reserved,[RFC7272]
-1,Synchronization Client,"[RFC7272, Section 7]"
-2,MSAS,[TS 183 063]
-3,SC Prime Input,[TS 183 063]
-4,SC Prime Output,[TS 183 063]
-5-15,Unassigned,

@@ -1,5 +1,0 @@
-Code,Default Reason Phrase,Reference
-100,"""Cannot process the alert payload""",[RFC8876]
-101,"""Alert payload was not present or could not be found""",[RFC8876]
-102,"""Not enough information to determine the purpose of the alert""",[RFC8876]
-103,"""Alert payload was corrupted""",[RFC8876]

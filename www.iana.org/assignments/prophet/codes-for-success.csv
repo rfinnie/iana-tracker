@@ -1,5 +1,0 @@
-Value,Code Name,Reference
-0x00,Generic Success,[RFC6693]
-0x01,Submessage Received,[RFC6693]
-0x02-0x7F,Unassigned,
-0x80-0xFF,Reserved for Private/Experimental Use,[RFC6693]

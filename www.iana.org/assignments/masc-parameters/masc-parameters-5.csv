@@ -1,8 +1,0 @@
-Error Code,Symbolic Name,Reference
-1,Message Header Error,[RFC2909]
-2,OPEN Message Error,[RFC2909]
-3,UPDATE Message Error,[RFC2909]
-4,Hold Timer Expired,[RFC2909]
-5,Finite State Machine Error,[RFC2909]
-6,NOTIFICATION Message Error,[RFC2909]
-7,Cease,[RFC2909]

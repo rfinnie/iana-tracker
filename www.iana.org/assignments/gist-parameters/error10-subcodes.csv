@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Incorrect Length,[RFC5971]
-1,Value Not Supported,[RFC5971]
-2,Invalid Flag-Field Combination,[RFC5971]
-3,Empty List,[RFC5971]
-4,Invalid Cookie,[RFC5971]
-5,Stack-Proposal,[RFC5971]

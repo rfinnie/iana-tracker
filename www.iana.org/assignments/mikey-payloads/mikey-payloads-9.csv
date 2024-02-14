@@ -1,6 +1,0 @@
-Value,MAC Alg,Section in Document,Reference
-0,NULL,4.2.4,[RFC3830]
-1,HMAC-SHA-1-160,4.2.4,[RFC3830]
-2,HMAC-SHA-256-256,6.2,[RFC6043]
-3-240,Unassigned,,
-241-255,Reserved for Private Use,,

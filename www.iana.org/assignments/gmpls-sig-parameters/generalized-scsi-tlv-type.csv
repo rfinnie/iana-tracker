@@ -1,6 +1,0 @@
-Value,SCSI-TLV,Switching Type,Reference
-0,Reserved,,[RFC8258]
-1-9,Unassigned,,
-10,Availability,"5, 52",[RFC8330]
-11,Frequency Availability Bitmap,152,[RFC8363]
-12-65535,Unassigned,,

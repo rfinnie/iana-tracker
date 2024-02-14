@@ -1,5 +1,0 @@
-Number,Digest,Reference
-0,Reserved,[RFC7143]
-1,CRC32c,[RFC7143]
-2-255,Reserved (Not assigned by IANA),[RFC7143]
-256-65535,Unassigned,

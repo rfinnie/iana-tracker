@@ -1,5 +1,0 @@
-Value,Description,Reference,Comment
-0,Reserved,[RFC6961],
-1,ocsp,[RFC6066][RFC6961],
-2,ocsp_multi_RESERVED,[RFC6961][RFC8446],Used in TLS versions prior to 1.3.
-3-255,Unassigned,,

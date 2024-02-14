@@ -1,8 +1,0 @@
-Value,Description,Reference
-1,Delay bound cannot be met,[RFC2205]
-2,Requested bandwidth unavailable,[RFC2205]
-3,"MTU in flowspec larger than             
-interface MTU",[RFC2205]
-4,LSP Admission Failure,[RFC4872]
-5,Bad Association Type,[RFC4872]
-6,Reverse LSP Failure,[RFC7551]

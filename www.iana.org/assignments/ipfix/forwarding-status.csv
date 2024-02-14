@@ -1,5 +1,0 @@
-Value,Description,Reference
-00b,Unknown,[RFC7270]
-01b,Forwarded,[RFC7270]
-10b,Dropped,[RFC7270]
-11b,Consumed,[RFC7270]

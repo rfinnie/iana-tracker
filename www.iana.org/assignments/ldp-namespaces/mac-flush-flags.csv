@@ -1,4 +1,0 @@
-Bit Number,Hex,Abbreviation,Description,Reference
-0,0x80,C,Context,[RFC7361]
-1,0x40,N,Negative MAC flushing,[RFC7361]
-2-7,,,Unassigned,

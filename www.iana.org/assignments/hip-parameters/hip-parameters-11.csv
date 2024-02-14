@@ -1,8 +1,0 @@
-Value,Registration Type,Reference
-0,Unassigned,
-1,RENDEZVOUS,[RFC8004]
-2,RELAY_UDP_HIP,[RFC5770]
-3,RELAY_UDP_ESP,[RFC9028]
-4,CANDIDATE_DISCOVERY,[RFC9028]
-5-200,Unassigned,
-201-255,Reserved for Private Use,[RFC8003]

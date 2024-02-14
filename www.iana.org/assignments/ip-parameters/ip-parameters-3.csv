@@ -1,7 +1,0 @@
-TOS Value,Description,Reference
-0000,Default,[Obsoleted by RFC2474]
-0001,Minimize Monetary Cost,[Obsoleted by RFC2474]
-0010,Maximize Reliability,[Obsoleted by RFC2474]
-0100,Maximize Throughput,[Obsoleted by RFC2474]
-1000,Minimize Delay,[Obsoleted by RFC2474]
-1111,Maximize Security,[Obsoleted by RFC2474]

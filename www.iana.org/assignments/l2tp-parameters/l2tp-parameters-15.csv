@@ -1,8 +1,0 @@
-Value,Message Description,Reference
-0,Reserved,[RFC5611]
-1,Bit Rate values disagree.,[RFC5611]
-2,"Different trunk types in the case of trunk-specific CESoPSN    
-with CAS.",[RFC5611]
-3,Requested payload size too big or too small.,[RFC5611]
-4,RTP header cannot be generated.,[RFC5611]
-5,Requested timestamp clock frequency cannot be generated.,[RFC5611]

@@ -1,5 +1,0 @@
-RDMAP Message Atomic Operation Subcode,Atomic Operation,Reference
-0x0,FetchAdd,[RFC7306]
-0x1,Reserved,[RFC7306]
-0x2,CmpSwap,[RFC7306]
-0x3-OxF,Unassigned,

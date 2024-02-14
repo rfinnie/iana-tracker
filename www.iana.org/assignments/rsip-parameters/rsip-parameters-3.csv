@@ -1,7 +1,0 @@
-Value,Tunnel Type,Reference
-0,Reserved,[RFC3103]
-1,IP-IP,[RFC3103]
-2,GRE,[RFC3103]
-3,L2TP,[RFC3103]
-4-240,Unassigned,[RFC3103]
-241-255,Reserved for Private Use,[RFC3103]

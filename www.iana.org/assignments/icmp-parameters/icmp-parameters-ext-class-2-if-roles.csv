@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,Incoming IP Interface,[RFC5837]
-1,Sub-IP Component of Incoming IP Interface,[RFC5837]
-2,Outgoing IP Interface,[RFC5837]
-3,IP Next-hop,[RFC5837]

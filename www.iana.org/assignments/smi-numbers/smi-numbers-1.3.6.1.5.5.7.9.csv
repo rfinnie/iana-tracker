@@ -1,6 +1,0 @@
-Decimal,Description,References
-1,id-pda-dateOfBirth,[RFC3039]
-2,id-pda-placeOfBirth,[RFC3039]
-3,id-pda-gender,[RFC3039]
-4,id-pda-countryOfCitizenship,[RFC3039]
-5,id-pda-countryOfResidence,[RFC3039]

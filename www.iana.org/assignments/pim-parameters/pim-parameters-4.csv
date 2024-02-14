@@ -1,4 +1,0 @@
-Value,Description,Reference
-0,native encoding for the address family,[RFC7761]
-1,"native encoding for the address family, but with one or more PIM Join Attributes present",[RFC5384][RFC Errata 1597]
-2-255,Unassigned,

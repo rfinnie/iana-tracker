@@ -1,8 +1,0 @@
-Status,Description,Reference
-0,Success,[RFC6812]
-1,Fail - catch all,[RFC6812]
-2,Authentication failure,[RFC6812]
-3,Format error - sent when any CSLD type is not recognized or any part of a CSLD has a value that is not recognized,[RFC6812]
-4,Port in use - the UDP/TCP port is already being used by some other application and cannot be reserved,[RFC6812]
-5-40959,Unassigned,
-40960-65535,Experimental Use,[RFC6812]

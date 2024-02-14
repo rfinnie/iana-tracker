@@ -1,6 +1,0 @@
-X.400 Extended Body Part,MIME content-type,Reference
-GeneralText,text/plain;charset=iso-8859-x,[RFC1494]
-ODA,application/oda,[RFC1494]
-mime-postscript-body,application/postscript,[RFC1494]
-mime-jpeg-body,image/jpeg,[RFC1494]
-mime-gif-body,image/gif,[RFC1494]

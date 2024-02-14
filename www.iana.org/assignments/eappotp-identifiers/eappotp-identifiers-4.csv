@@ -1,5 +1,0 @@
-Octet 1,Octet 2,Encryption Algorithm,Reference
-0x00,0x00,Reserved,[RFC4793]
-0x00,0x01,AES-CBC (default) with 128-bit keys and 16-octet IVs,[RFC4793]
-0x00,0x02,3DES-CBC with 112-bit keys and 8-octet IVs,[RFC4793]
-0x80,-,Vendor-specific,[RFC4793]

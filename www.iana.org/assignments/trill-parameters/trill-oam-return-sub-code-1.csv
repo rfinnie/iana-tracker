@@ -1,5 +1,0 @@
-Sub Code,Assignment,Reference
-0,Valid response,[RFC7455]
-1,Fragment limit exceeded,[RFC7455]
-2,Intermediate RBridge,[RFC7455]
-3-255,Unassigned,

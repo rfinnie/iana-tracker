@@ -1,9 +1,0 @@
-Protocol ID,Protocol,Reference
-0,Reserved,[RFC7296]
-1,IKE,[RFC7296]
-2,AH,[RFC7296]
-3,ESP,[RFC7296]
-4,FC_ESP_HEADER,[RFC4595]
-5,FC_CT_AUTHENTICATION,[RFC4595]
-6-200,Unassigned,
-201-255,Private use,[RFC7296]

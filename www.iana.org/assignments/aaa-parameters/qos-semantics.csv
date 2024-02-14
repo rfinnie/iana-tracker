@@ -1,6 +1,0 @@
-AVP Value,Attribute Name,Reference
-0,QoS-Desired,[RFC5777]
-1,QoS-Available,[RFC5777]
-2,QoS-Delivered,[RFC5777]
-3,Minimum-QoS,[RFC5777]
-4,QoS-Authorized,[RFC5777]

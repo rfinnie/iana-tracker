@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,Generic LSP reroute request,[RFC5710]
-1,Reroute Request Soft Preemption,[RFC5712]
-2-32767,Unassigned,
-32768-65535,Reserved for Private Use,[RFC5710]

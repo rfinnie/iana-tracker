@@ -1,8 +1,0 @@
-Field Name,Resource Type,Reference
-newNonce,New nonce,[RFC8555]
-newAccount,New account,[RFC8555]
-newOrder,New order,[RFC8555]
-newAuthz,New authorization,[RFC8555]
-revokeCert,Revoke certificate,[RFC8555]
-keyChange,Key change,[RFC8555]
-meta,Metadata object,[RFC8555]

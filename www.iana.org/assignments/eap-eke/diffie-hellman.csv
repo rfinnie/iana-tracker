@@ -1,9 +1,0 @@
-Value,Name,Description,Reference
-0,Reserved,,[RFC6124]
-1,DHGROUP_EKE_2,"The prime number of the 1024-bit Group 2 [RFC7296], with the generator 5 (decimal)",[RFC6124]
-2,DHGROUP_EKE_5,"The prime number of the 1536-bit Group 5 [RFC3526], g=31",[RFC6124]
-3,DHGROUP_EKE_14,"The prime number of the 2048-bit Group 14 [RFC3526], g=11",[RFC6124]
-4,DHGROUP_EKE_15,"The prime number of the 3072-bit Group 15 [RFC3526], g=5",[RFC6124]
-5,DHGROUP_EKE_16,"The prime number of the 4096-bit Group 16 [RFC3526], g=5",[RFC6124]
-6-127,Unassigned,,
-128-255,Reserved for Private Use,,[RFC6124]

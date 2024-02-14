@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC6401]
-1,Take priority of highest QoS,[RFC3181][RFC6401]
-2,Take highest priority,[RFC3181][RFC6401]
-3,Force Error on heterogenous merge,[RFC3181][RFC6401]
-4-240,Unassigned,
-241-255,Reserved for Private Use,[RFC6401]

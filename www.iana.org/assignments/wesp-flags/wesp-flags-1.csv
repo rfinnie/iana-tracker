@@ -1,5 +1,0 @@
-Bit,Description,Reference
-0-1,WESP Version,[RFC5840]
-2,Encrypted Payload,[RFC5840]
-3,Padding Present,[RFC5840]
-4-7,Unassigned,

@@ -1,4 +1,0 @@
-Type Extension,Name,Description,Reference
-0,VALIDITY_TIME,The time from receipt of the message during which the information contained in the message is to be considered valid,[RFC5497]
-1-223,,Unassigned,
-224-255,,Reserved for Experimental Use,[RFC5497]

@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,No relay is present.,[RFC8777]
-1,A 4-byte IPv4 address is present,[RFC8777]
-2,A 16-byte IPv6 address is present,[RFC8777]
-3,A wire-encoded domain name is present,[RFC8777]
-4-127,Unassigned,

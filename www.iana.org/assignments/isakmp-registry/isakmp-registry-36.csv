@@ -1,6 +1,0 @@
-Value,Notify Messages - Status Types,References
-24576,RESPONDER-LIFETIME,[RFC2407]
-24577,REPLAY-STATUS,[RFC2407]
-24578,INITIAL-CONTACT,[RFC2407]
-24579-32000,Unassigned,
-32001-32767,Reserved for private use,

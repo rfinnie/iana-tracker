@@ -1,8 +1,0 @@
-Value,Sub-TLV,Reference
-0,Reserved,[RFC6827]
-1-11,Unassigned,
-12,Inter-RA Export Upward sub-TLV,[RFC6827]
-13,Inter-RA Export Downward sub-TLV,[RFC6827]
-14-32767,Unassigned,
-32768-32777,Reserved for Experimental Use,[RFC6827]
-32778-65535,Reserved,[RFC6827]

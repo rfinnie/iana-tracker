@@ -1,6 +1,0 @@
-Bit,Description,Reference
-0-3,Unassigned,
-4,Relative Time (R-bit),[RFC8934]
-5,PCC Responsible (C-bit),[RFC8934]
-6,LSP Activated (A-bit),[RFC8934]
-7,Grace Period Included (G-bit),[RFC8934]

@@ -1,9 +1,0 @@
-Type,Description,Reference
-0,Reserved,[RFC7487]
-1,BFD Identifiers Sub-TLV,[RFC7487]
-2,Negotiation Timer Parameters Sub-TLV,[RFC7487]
-3,BFD Authentication Sub-TLV,[RFC7487]
-4,Traffic Class Sub-TLV,[RFC7487]
-5-65532,Unassigned,
-65533-65534,Reserved for Experimental Use,[RFC7487]
-65535,Reserved,[RFC7487]

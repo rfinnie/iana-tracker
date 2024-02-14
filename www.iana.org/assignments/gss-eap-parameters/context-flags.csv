@@ -1,4 +1,0 @@
-Flag,Name,Reference
-0x1,Unassigned,
-0x2,GSS_C_MUTUAL_FLAG,"[RFC7055, Section 5.6.1]"
-0x3-0x80000000,Unassigned,

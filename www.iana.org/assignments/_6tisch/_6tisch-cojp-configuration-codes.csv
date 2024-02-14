@@ -1,5 +1,0 @@
-Name,Value,Description,Reference
-Reserved for Private Use,less than -65536,,[RFC-ietf-6tisch-minimal-security-15]
-Unassigned,-65536 to -1,,[RFC-ietf-6tisch-minimal-security-15]
-Unsupported,0,The indicated setting is not supported by the networking stack implementation.,[RFC-ietf-6tisch-minimal-security-15]
-Malformed,1,The indicated parameter value is malformed.,[RFC-ietf-6tisch-minimal-security-15]

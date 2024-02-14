@@ -1,7 +1,0 @@
-Role,Description,Reference
-0,Reserved,[RFC6812]
-1,Sender,[RFC6812]
-2,Responder,[RFC6812]
-3-200,Unassigned,
-201-225,Private Use,[RFC6812]
-226-255,Experimental Use,[RFC6812]

@@ -1,8 +1,0 @@
-Value,Action,Reference
-0,Reset,[RFC8629]
-1,Terminate,[RFC8629]
-2,Direct Connection,[RFC8629]
-3,Suppress Forwarding,[RFC8629]
-4-65519,Unassigned,
-65520-65534,Reserved for Private Use,[RFC8629]
-65535,Reserved,[RFC8629]

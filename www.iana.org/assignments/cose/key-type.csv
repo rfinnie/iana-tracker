@@ -1,8 +1,0 @@
-Name,Value,Description,Capabilities,Reference
-Reserved,0,This value is reserved,,[RFC9053]
-OKP,1,Octet Key Pair,"[kty(1), crv]",[RFC9053]
-EC2,2,Elliptic Curve Keys w/ x- and y-coordinate pair,"[kty(2), crv]",[RFC9053]
-RSA,3,RSA Key,[kty(3)],[RFC8230][RFC9053]
-Symmetric,4,Symmetric Keys,[kty(4)],[RFC9053]
-HSS-LMS,5,Public key for HSS/LMS hash-based digital signature,"[kty(5), hash algorithm]",[RFC8778][RFC9053]
-WalnutDSA,6,WalnutDSA public key,[kty(6)],[RFC9021][RFC9053]

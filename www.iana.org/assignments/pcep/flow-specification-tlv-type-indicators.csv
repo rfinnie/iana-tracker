@@ -1,7 +1,0 @@
-Value,Meaning,Reference
-0-255,Reserved. Must not be allocated. Usage mirrors the BGP FlowSpec registry [draft-ietf-idr-rfc5575bis-27] and [draft-ietf-idr-flow-spec-v6-19],[RFC9168]
-256,Route Distinguisher,[RFC9168]
-257,IPv4 Multicast,[RFC9168]
-258,IPv6 Multicast,[RFC9168]
-259-65531,Unassigned,
-65532-65535,Experimental Use,[RFC9168]

@@ -1,9 +1,0 @@
-Number,Authentication Method,Reference
-0,Reserved,
-1,CHAP,[RFC7143]
-2,SRP,[RFC7143]
-3,KRB5,[RFC7143]
-4,SPKM1 (OBSOLETE),[RFC7143]
-5,SPKM2 (OBSOLETE),[RFC7143]
-6-255,Reserved (Not assigned by IANA),[RFC7143]
-256-65535,Unassigned,

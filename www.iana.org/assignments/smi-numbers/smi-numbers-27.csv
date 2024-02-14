@@ -1,5 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,md5-DES-CBC,md5-DES-CBC,[Carlisle_Adams]
-2,sum64-DES-CBC,sum64-DES-CBC,[Carlisle_Adams]
-3,NULL-MAC,NULL_MAC,[RFC2847]

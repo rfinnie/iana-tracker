@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC4763]
-1,SAKE/Challenge,[RFC4763]
-2,SAKE/Confirm,[RFC4763]
-3,SAKE/Auth-Reject,[RFC4763]
-4,SAKE/Identity,[RFC4763]
-5-255,Unassigned,

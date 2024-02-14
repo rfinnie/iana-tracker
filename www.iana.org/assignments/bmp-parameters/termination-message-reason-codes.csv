@@ -1,9 +1,0 @@
-Type,Description,Reference
-0,Administratively closed,[RFC7854]
-1,Unspecified reason,[RFC7854]
-2,Out of resources,[RFC7854]
-3,Redundant connection,[RFC7854]
-4,Permanently administratively closed,[RFC7854]
-5-65530,Unassigned,
-65531-65534,Experimental,[RFC7854]
-65535,Reserved,[RFC7854]

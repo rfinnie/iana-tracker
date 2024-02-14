@@ -1,6 +1,0 @@
-Value,Name,Reference
-0,INVALID,[RFC5776]
-1,RSASSA-PKCS1-v1_5 (default),[RFC5776]
-2,RSASSA-PSS,[RFC5776]
-3-240,Unassigned,
-241-255,Private Use,[RFC5776]

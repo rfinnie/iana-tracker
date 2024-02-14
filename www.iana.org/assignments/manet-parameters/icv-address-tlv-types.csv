@@ -1,6 +1,0 @@
-Type Extension,Description,Reference
-0,ICV of an object (e.g. an address),[RFC7182]
-1,"ICV, using a cryptographic function and a hash function, as specified in Section 12 of [RFC7182]",[RFC7182]
-2,"ICV, using a cryptographic function and a hash function, and including the IP datagram source address, as specified in Section 12 of [RFC7182]",[RFC7182]
-3-251,Unassigned,
-252-255,Reserved for Experimental Use,[RFC7182]

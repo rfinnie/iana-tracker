@@ -1,6 +1,0 @@
-Radio Failure Causes,Type Value,Reference
-Normal,0,[RFC5415]
-Radio Failure,1,[RFC5415]
-Software Failure,2,[RFC5415]
-Administratively Set,3,[RFC5415]
-Unassigned,4-255,

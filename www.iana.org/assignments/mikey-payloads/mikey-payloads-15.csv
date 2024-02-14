@@ -1,5 +1,0 @@
-Value,S Type,Reference
-0,RSA/PKCS#1/1.5,[RFC3830]
-1,RSA/PSS,[RFC3830]
-2,ECCSI,[RFC6509]
-3-15,Unassigned,

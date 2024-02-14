@@ -1,5 +1,0 @@
-Code,Description,Reference
-0x0,In-band Response Requested,[RFC6374]
-0x1,Out-of-band Response Requested,[RFC6374]
-0x2,No Response Requested,[RFC6374]
-0x3-0xFF,Unassigned,

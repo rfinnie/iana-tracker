@@ -1,6 +1,0 @@
-Value,Attribute Type,Format,Reference
-0-13,Reserved,,[RFC7296]
-14,Key Length (in bits),TV,[RFC7296]
-15-17,Reserved,,[RFC7296]
-18-16383,Unassigned,,
-16384-32767,Private use,,[RFC7296]

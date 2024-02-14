@@ -1,9 +1,0 @@
-Code,Address Family,Reference
-0,Reserved,[RFC3219]
-1,Decimal Routing Numbers,[RFC3219]
-2,PentaDecimal Routing Numbers,[RFC3219]
-3,E.164 Numbers,[RFC3219]
-4,TrunkGroup,[RFC5140]
-5,Carrier,[RFC5140]
-6-32767,Unassigned,
-32768-65535,Reserved for Vendor Use,[RFC3219]

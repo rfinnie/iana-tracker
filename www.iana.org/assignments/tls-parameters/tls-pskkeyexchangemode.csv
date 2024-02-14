@@ -1,5 +1,0 @@
-Value,Description,Recommended,Reference
-0,psk_ke,Y,[RFC8446]
-1,psk_dhe_ke,Y,[RFC8446]
-2-253,Unassigned,,
-254-255,Reserved for Private Use,,[RFC8446]

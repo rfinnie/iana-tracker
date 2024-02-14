@@ -1,8 +1,0 @@
-error_code,Description,Reference
-00,No Error,[RFC7846]
-01,Bad Request,[RFC7846]
-02,Unsupported Version Number,[RFC7846]
-03,Forbidden Action,[RFC7846]
-04,Internal Server Error,[RFC7846]
-05,Service Unavailable,[RFC7846]
-06,Authentication Required,[RFC7846]

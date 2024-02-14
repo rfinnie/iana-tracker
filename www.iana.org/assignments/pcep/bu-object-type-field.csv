@@ -1,5 +1,0 @@
-Type,Name,Reference
-0,Reserved,[RFC8233]
-1,LBU (Link Bandwidth Utilization),[RFC8233]
-2,LRBU (Link Residual Bandwidth Utilization),[RFC8233]
-3-255,Unassigned,

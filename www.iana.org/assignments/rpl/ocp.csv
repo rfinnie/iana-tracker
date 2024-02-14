@@ -1,4 +1,0 @@
-Code,Description,Reference
-0,A basic Objective Function that relies only on the objects that are defined in [RFC6550].,[RFC6552]
-1,Minimum Rank with Hysteresis Objective Function (MRHOF),[RFC6719]
-2-65535,Unassigned,

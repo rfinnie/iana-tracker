@@ -1,7 +1,0 @@
-Value,Name,Reference
-0,Unassigned,[RFC5563]
-1,PMIPv4 Interface ID,[RFC5563]
-2,PMIPv4 Device ID,[RFC5563]
-3,PMIPv4 Subscriber ID,[RFC5563]
-4,Access Technology Type,[RFC5563]
-5-255,Unassigned,[RFC5563]

@@ -1,4 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,per-dflow,perform data flow,[Carlisle_Adams]
-2,rec-dflow,receive data flow,[Carlisle_Adams]

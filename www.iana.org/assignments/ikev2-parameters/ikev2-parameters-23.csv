@@ -1,9 +1,0 @@
-Value,ROHC Attribute Type,Format,Reference
-0,Reserved,,[RFC5857]
-1,Maximum Context Identifier (MAX_CID),TV,[RFC5857]
-2,ROHC Profile (ROHC_PROFILE),TV,[RFC5857]
-3,ROHC Integrity Algorithm (ROHC_INTEG),TV,[RFC5857]
-4,ROHC ICV Length in bytes (ROHC_ICV_LEN),TV,[RFC5857]
-5,Maximum Reconstructed Reception Unit (MRRU),TV,[RFC5857]
-6-16383,Unassigned,,
-16384-32767,Reserved for Private Use,,[RFC5857]

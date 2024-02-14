@@ -1,8 +1,0 @@
-Value,Description,Reference
-person,"The information for this contact references an
-        individual.",[RFC7970]
-organization,"The information for this contact references an
-        organization.",[RFC7970]
-ext-value,"A value used to indicate that this attribute is
-        extended and the actual value is provided using the
-        corresponding ext-* attribute.  See Section 5.1.1 of [RFC7970].",[RFC7970]

@@ -1,6 +1,0 @@
-Value,Name,Reference
-0,Unspecific,[RFC Errata 4493]
-1,Connection Not Synchronized,[RFC4271]
-2,Bad Message Length,[RFC4271]
-3,Bad Message Type,[RFC4271]
-4-255,Unassigned,

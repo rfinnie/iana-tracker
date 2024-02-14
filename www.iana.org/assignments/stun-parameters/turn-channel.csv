@@ -1,4 +1,0 @@
-Value,Name,Reference
-0x0000-0x3FFF,Reserved,[RFC8656]
-0x4000-0x4FFF,Used by TURN,[RFC8656]
-0x5000-0xFFFF,"Reserved (For DTLS-SRTP multiplexing collision avoidance, see [RFC7983])",[RFC7983]

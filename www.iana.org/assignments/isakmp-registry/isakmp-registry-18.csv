@@ -1,8 +1,0 @@
-Value,Name,References
-0,Reserved,[RFC2407]
-1,Tunnel,[RFC2407]
-2,Transport,[RFC2407]
-3,UDP-Encapsulated-Tunnel,[RFC3947]
-4,UDP-Encapsulated-Transport,[RFC3947]
-5-61439,Unassigned,
-61440-65535,Reserved for private use,

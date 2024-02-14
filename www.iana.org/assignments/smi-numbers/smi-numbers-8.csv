@@ -1,5 +1,0 @@
-Decimal,Name,Description,References
-1,pppLcp,ppp link control,[RFC1471]
-2,pppSecurity,ppp security,[RFC1472]
-3,pppIp,ppp IP network control,[RFC1473]
-4,pppBridge,ppp bridge networl control,[RFC1474]

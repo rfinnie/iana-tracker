@@ -1,4 +1,0 @@
-Value,Description,Reference
-0-127,Same meaning as Address Family Numbers. See http://www.iana.org/assignments/address-family-numbers,
-128-250,Unassigned,
-251-255,Reserved for Private Use,[RFC3973]

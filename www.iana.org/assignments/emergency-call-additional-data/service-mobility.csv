@@ -1,5 +1,0 @@
-Token,Description,Reference
-Mobile,The device is able to move at any time,[RFC7852]
-Fixed,The device is not expected to move unless the service is relocated,[RFC7852]
-Nomadic,The device is not expected to change its point of attachment while on a call,[RFC7852]
-Unknown,No information is known about the service mobility environment for the device,[RFC7852]

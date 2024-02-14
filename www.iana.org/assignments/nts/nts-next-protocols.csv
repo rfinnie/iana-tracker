@@ -1,4 +1,0 @@
-Protocol ID,Protocol Name,Reference
-0,Network Time Protocol version 4 (NTPv4),[RFC8915]
-1-32767,Unassigned,
-32768-65535,Reserved for Private or Experimental Use,[RFC8915]

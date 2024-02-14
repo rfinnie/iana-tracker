@@ -1,6 +1,0 @@
-Type,Description,Reference
-0,Errored PDU,[RFC7854]
-1,Messages Lost,[RFC7854]
-2-65530,Unassigned,
-65531-65534,Experimental,[RFC7854]
-65535,Reserved,[RFC7854]

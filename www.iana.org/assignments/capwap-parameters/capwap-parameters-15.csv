@@ -1,5 +1,0 @@
-Radio Operational State,Type Value,Reference
-Reserved,0,[RFC5415]
-Enabled,1,[RFC5415]
-Disabled,2,[RFC5415]
-Unassigned,3-255,

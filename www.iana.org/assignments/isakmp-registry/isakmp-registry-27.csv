@@ -1,8 +1,0 @@
-Value,Name,References
-0,Reserved,[RFC6407]
-1,None,[RFC6407]
-2,Source-Only,[RFC6407]
-3,Destination-Only,[RFC6407]
-4,Source-and-Destination,[RFC6407]
-5-61439,Unassigned,
-61440-65535,Private Use,[RFC6407]

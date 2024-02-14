@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,DNS update performed,[RFC5026]
-1-127,Unassigned,
-128,Reason unspecified,[RFC5026]
-129,Administratively prohibited,[RFC5026]
-130,DNS Update Failed,[RFC5026]
-131-255,Unassigned,

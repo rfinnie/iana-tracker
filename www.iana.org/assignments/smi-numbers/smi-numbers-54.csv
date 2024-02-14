@@ -1,6 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,per-doa,"perform DOA (e.g., sign)",[Carlisle_Adams]
-2,rec-doa,receive DOA (verify sig),[Carlisle_Adams]
-3,per-doa-ciph,perform DOA with DI over ciphertext,[RFC2479]
-4,rec-doa-ciph,verify DOA with DI over ciphertext,[RFC2479]

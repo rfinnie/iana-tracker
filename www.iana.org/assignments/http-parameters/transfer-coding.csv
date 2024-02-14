@@ -1,9 +1,0 @@
-Name,Description,Reference,Notes
-chunked,Transfer in a series of chunks,[RFC9112],Section 7.1
-compress,"UNIX ""compress"" data format [Welch, T., ""A Technique for High Performance Data Compression"", IEEE Computer 17(6), June 1984.]",[RFC9112],Section 7.2
-deflate,"""deflate"" compressed data ([RFC1951]) inside the ""zlib"" data format ([RFC1950])",[RFC9112],Section 7.2
-gzip,GZIP file format [RFC1952],[RFC9112],Section 7.2
-identity,(withdrawn in errata to [RFC2616]),[RFC2616],Section 3.6
-trailers,(reserved),[RFC9112],Section 12.3
-x-compress,Deprecated (alias for compress),[RFC9112],Section 7.2
-x-gzip,Deprecated (alias for gzip),[RFC9112],Section 7.2

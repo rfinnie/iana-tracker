@@ -1,8 +1,0 @@
-Value,Meaning,Reference
-0,Reserved,[RFC8169]
-1,IPv4 address,[RFC8169]
-2,IPv6 address,[RFC8169]
-3,Unnumbered interface,[RFC8169]
-4-191,Unassigned,
-192-254,Reserved for Private Use,[RFC8169]
-255,Reserved,[RFC8169]

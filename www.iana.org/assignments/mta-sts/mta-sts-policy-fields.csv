@@ -1,5 +1,0 @@
-Field Name,Description,Reference
-version,Policy version,"[RFC8461, Section 3.2]"
-mode,Enforcement behavior,"[RFC8461, Section 3.2]"
-max_age,Policy lifetime,"[RFC8461, Section 3.2]"
-mx,MX identities,"[RFC8461, Section 3.2]"

@@ -1,7 +1,0 @@
-Value,Meaning,Reference
-0,Reserved,[RFC8685]
-1,2-byte AS number,[RFC8685]
-2,4-byte AS number,[RFC8685]
-3,4-byte OSPF area ID,[RFC8685]
-4,Variable-length IS-IS area ID,[RFC8685]
-5-255,Unassigned,

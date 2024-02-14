@@ -1,3 +1,0 @@
-Token,Semantics,Mux Category,Reference
-lay,Layered decoding dependency,IDENTICAL-PER-PT,[RFC5583][RFC8859]
-mdc,Multi descriptive decoding dependency,IDENTICAL-PER-PT,[RFC5583][RFC8859]

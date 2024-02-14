@@ -1,7 +1,0 @@
-Bit,Name,Reference
-31,L - Link Diverse,[RFC8800]
-30,N - Node Diverse,[RFC8800]
-29,S - SRLG Diverse,[RFC8800]
-28,P - Shortest Path,[RFC8800]
-27,T - Strict Disjointness,[RFC8800]
-0-26,Unassigned,

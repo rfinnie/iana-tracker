@@ -1,7 +1,0 @@
-Type,Name,Reference
-0x00,Reserved,[RFC8832]
-0x01,Reserved,[RFC8832]
-0x02,DATA_CHANNEL_ACK,[RFC8832]
-0x03,DATA_CHANNEL_OPEN,[RFC8832]
-0x04-0xfe,Unassigned,
-0xff,Reserved,[RFC8832]

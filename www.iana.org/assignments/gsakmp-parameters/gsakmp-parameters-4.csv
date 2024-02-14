@@ -1,5 +1,0 @@
-Policy_Token_Type,Value,Definition/Defined In,Reference
-Reserved,0,,[RFC4535]
-GSAKMP_ASN.1_PT_V1,1,All implementations of GSAKMP MUST support this PT format. Format specified in [RFC4534].,[RFC4534]
-Reserved to IANA,2-49152,,[RFC4535]
-Private Use,49153-65535,,[RFC4535]

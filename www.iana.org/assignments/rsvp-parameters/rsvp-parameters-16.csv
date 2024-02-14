@@ -1,8 +1,0 @@
-Value,Description,Reference
-2,Int-serv,[RFC2210]
-3,Deprecated,"[IESG, ""IESG on IANA allocations for ietf-ccamp-gmpls-sonet-sdh-08.txt"" January 2004.]"
-4,SONET/SDH SENDER_TSPEC,[RFC4606]
-5,G.709,[RFC4328]
-6,Ethernet SENDER_TSPEC,[RFC6003]
-7,OTN-TDM,[RFC7139]
-8,SSON SENDER_TSPEC,[RFC7792]

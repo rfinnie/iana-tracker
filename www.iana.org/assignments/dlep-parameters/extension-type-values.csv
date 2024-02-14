@@ -1,9 +1,0 @@
-Code,Description,Reference
-0,Reserved,[RFC8175]
-1,Multi-Hop Forwarding,[RFC8629]
-2,Control-Plane-Based Pause,[RFC8651]
-3,Link Identifiers,[RFC8703]
-4,Latency Range,[RFC8757]
-5-65519,Unassigned,
-65520-65534,Reserved for Private Use,[RFC8175]
-65535,Reserved,[RFC8175]

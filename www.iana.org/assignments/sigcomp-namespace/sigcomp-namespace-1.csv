@@ -1,5 +1,0 @@
-Decimal Value,Hex Value,Description,Reference
-0,00,Reserved,[RFC3320]
-1,01,SigComp version 1,[RFC3320]
-2,02,SigComp version 2 (NACK support),[RFC4077]
-3-65535,03-FFFF,Unassigned,

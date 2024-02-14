@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC5291]
-1-63,Unassigned,
-64,Address Prefix ORF,[RFC5292]
-65,CP-ORF,[RFC7543]
-66-127,Unassigned,
-128-255,Reserved for Vendor-Specific,[RFC5291]

@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,unspecified EOR,[RFC5976]
-1,high priority restored at 100%; medium priority restored at 100%,[RFC5976]
-2,high priority restored at 100%; medium priority restored at 80%,[RFC5976]
-3,high priority restored >= 80%; medium priority restored >= 80%,[RFC5976]
-4,high priority restored >= 80%; medium priority restored >= 60%,[RFC5976]
-5,high priority restored >= 60%; medium priority restored >= 60%,[RFC5976]
-6-15,Unassigned,

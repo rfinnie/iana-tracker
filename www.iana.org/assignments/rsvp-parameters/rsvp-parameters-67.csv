@@ -1,5 +1,0 @@
-Value,Description,Reference
-1,Forward/Reverse Interface ID,[RFC3477]
-2,IPv4 interface identifier with target,[RFC6107]
-3,IPv6 interface identifier with target,[RFC6107]
-4,Unnumbered interface with target,[RFC6107]

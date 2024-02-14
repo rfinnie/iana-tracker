@@ -1,7 +1,0 @@
-Service/Application,Description,Reference
-3gpp-service,"Communication services defined by 3GPP for use by the IM CN            
-subsystem and its attached UAs. This value in itself does not define
-a service and requires subsequent labels to define the service.",[RFC6050]
-3gpp-application,"Applications defined by 3GPP for use by UAs attached to the IM CN      
-subsystem. This value in itself does not define a service and
-requires subsequent labels to define the service.",[RFC6050]

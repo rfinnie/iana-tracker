@@ -1,0 +1,50 @@
+Type name: application
+
+Subtype name: swid+cbor
+
+Required parameters: none
+
+Optional parameters: none
+
+Encoding considerations: Binary (encoded as CBOR [RFC8949]).  See
+RFC 9393 for details.
+
+Security considerations: See Section 9 of RFC 9393.
+
+Interoperability considerations:  Applications MAY ignore any key
+value pairs that they do not understand.  This allows backwards-
+compatible extensions to this specification.
+
+Published specification: RFC 9393
+
+Applications that use this media type:  The type is used by software
+asset management systems and vulnerability assessment systems and
+is used in applications that use remote integrity verification.
+
+Fragment Identifier Considerations: The syntax and semantics of
+fragment identifiers specified for "application/swid+cbor" are as
+specified for "application/cbor".  (At publication of RFC 9393, there
+is no fragment identification syntax defined for "application/cbor".)
+
+Additional information:
+
+Magic number(s):  If tagged, the first five bytes in hex: da 53 57
+49 44 (see Section 8 of RFC 9393).
+
+File extension(s): coswid
+
+Macintosh file type code(s): none
+
+Macintosh Universal Type Identifier code:  org.ietf.coswid
+conforms to public.data.
+
+Person & email address to contact for further information: IESG
+<iesg&ietf.org>
+
+Intended usage: COMMON
+
+Restrictions on usage: none
+
+Author: Henk Birkholz <henk.birkholz&sit.fraunhofer.de>
+
+Change controller: IESG

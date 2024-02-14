@@ -1,6 +1,0 @@
-Value,Description,Mnemonic,Reference
-0,Reserved,,[RFC8976]
-1,Simple ZONEMD collation,SIMPLE,[RFC8976]
-2-239,Unassigned,,
-240-254,Reserved for Private Use,N/A,[RFC8976]
-255,Reserved,,[RFC8976]

@@ -1,4 +1,0 @@
-UsernameCaseMapped,IdentifierClass,The SASLprep profile of Stringprep,profiles/UsernameCaseMapped.txt,"[RFC8265, Section 3.3]"
-UsernameCasePreserved,IdentifierClass,The SASLprep profile of Stringprep,profiles/UsernameCasePreserved.txt,"[RFC8265, Section 3.4]"
-OpaqueString,FreeformClass,The SASLprep profile of Stringprep,profiles/OpaqueString.txt,"[RFC8265, Section 4.2]"
-Nickname,FreeformClass,None,profiles/Nickname.txt,[RFC8266]

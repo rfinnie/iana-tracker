@@ -1,8 +1,0 @@
-Value,Switching Granularity,Reference
-0,Provided in signaling.,[RFC6004][RFC6003]
-1,Ethernet Port (for port-based service),[RFC6003]
-2,Ethernet Frame (for EVC-based service),[RFC6003]
-3-239,Unassigned,
-240-254,Reserved for Vendor-Specific Use,[RFC6003]
-255,Reserved,[RFC6003]
-256-65535,Not assigned at this time,[RFC6003]

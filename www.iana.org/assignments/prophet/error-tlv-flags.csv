@@ -1,5 +1,0 @@
-Value,Error TLV Name,Reference
-0x00,Dictionary Conflict,[RFC6693]
-0x01,Bad String ID,[RFC6693]
-0x02-0x7F,Unassigned,
-0x080-0xFF,Reserved for Private Use,[RFC6693]

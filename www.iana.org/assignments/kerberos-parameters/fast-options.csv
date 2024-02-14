@@ -1,4 +1,0 @@
-Type,Name,Description,Reference
-0,RESERVED,Reserved for future expansion of this field.,[RFC6113]
-1,hide-client-names,Requesting the KDC to hide client names in the KDC response,[RFC6113]
-16,kdc-follow-referrals,reserved,[RFC6113]

@@ -1,7 +1,0 @@
-Value,ID Scheme,Reference
-0,Reserved,[RFC6509]
-1,tel URI with monthly keys,[RFC6509]
-2,3GPP MCX hashed UID,"[3GPP TS 33.180, Sections E.1.2 and F.2.1][Tim_Woodward]"
-3-239,Unassigned,
-240-254,Reserved for Private Use,[RFC6509]
-255,Reserved,[RFC6509]

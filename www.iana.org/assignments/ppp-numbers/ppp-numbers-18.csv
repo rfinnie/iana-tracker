@@ -1,6 +1,0 @@
-Protocol,Spanning Tree,Reference
-0,Null - no spanning tree protocol supported,[RFC3518]
-1,IEEE 802.1D spanning tree protocol,[RFC3518]
-2,IEEE 802.1G extended spanning tree protocol,[RFC3518]
-3,IBM source route spanning tree protocol,[RFC3518]
-4,DEC LANbridge 100 spanning tree protocol,[RFC3518]

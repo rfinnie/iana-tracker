@@ -1,5 +1,0 @@
-Value,Description,Reference
-1-63,Unassigned,
-64,Path Key with 32-bit PCE ID,[RFC5520]
-65,Path Key with 128-bit PCE ID,[RFC5520]
-66-127,Unassigned,

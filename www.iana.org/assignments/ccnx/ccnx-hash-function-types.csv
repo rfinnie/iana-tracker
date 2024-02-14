@@ -1,8 +1,0 @@
-Type,Name,Reference
-0x0000,Reserved,[RFC8609]
-0x0001,T_SHA-256,"[RFC8609, Section 3.3.3]"
-0x0002,T_SHA-512,"[RFC8609, Section 3.3.3]"
-0x0003-0x0FFE,Unassigned,
-0x0FFF,T_ORG,"[RFC8609, Section 3.3.2]"
-0x1000-0x1FFF,Reserved for Experimental Use,"[RFC8609, Section 3]"
-0x2000-0xFFFF,Unassigned,

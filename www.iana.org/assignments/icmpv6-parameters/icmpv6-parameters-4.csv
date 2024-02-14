@@ -1,8 +1,0 @@
-Subtype,Description,Reference
-0,Reserved,[RFC5568]
-1,Reserved,[RFC5568]
-2,RtSolPr,[RFC5568]
-3,PrRtAdv,[RFC5568]
-4,HI - Deprecated (Unavailable for Assignment),[RFC5568]
-5,HAck - Deprecated (Unavailable for Assignment),[RFC5568]
-6-255,Unassigned,

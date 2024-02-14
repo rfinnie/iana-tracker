@@ -1,4 +1,0 @@
-Prefix,Description,Assignee,Reference
-ietf:,"IETF tags allocated in the IANA ""IETF YANG Module Tags” registry.",IETF,[RFC8819]
-vendor:,Non-registered tags allocated by the module implementer.,IETF,[RFC8819]
-user:,Non-registered tags allocated by and for the user.,IETF,[RFC8819]

@@ -1,8 +1,0 @@
-Code,Name,Reference
-7.00,Unassigned,
-7.01,CSM,[RFC8323]
-7.02,Ping,[RFC8323]
-7.03,Pong,[RFC8323]
-7.04,Release,[RFC8323]
-7.05,Abort,[RFC8323]
-7.06-7.31,Unassigned,

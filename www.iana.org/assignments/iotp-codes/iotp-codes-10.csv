@@ -1,9 +1,0 @@
-TransId/IOtpTransType,Reference
-"""BaselineAuthentication""",[RFC2801]
-"""BaselineDeposit""",[RFC2801]
-"""BaselinePurchase""",[RFC2801]
-"""BaselineRefund""",[RFC2801]
-"""BaselineWithdrawal""",[RFC2801]
-"""BaselineValueExchange""",[RFC2801]
-"""BaselineInquiry""",[RFC2801]
-"""BaselinePing""",[RFC2801]

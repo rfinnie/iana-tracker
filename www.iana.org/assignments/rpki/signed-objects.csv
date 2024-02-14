@@ -1,7 +1,0 @@
-Name,OID,Reference
-Route Origination Authorization,1.2.840.113549.1.9.16.1.24,[RFC-ietf-sidrops-rfc6482bis-09]
-Manifest,1.2.840.113549.1.9.16.1.26,[RFC9286]
-Ghostbusters,1.2.840.113549.1.9.16.1.35,[RFC6493]
-"Autonomous System Provider Authorization (TEMPORARY - registered 2021-11-08, extension registered 2023-10-05, expires 2024-11-08)",1.2.840.113549.1.9.16.1.49,[draft-ietf-sidrops-aspa-profile-16]
-"Trust Anchor Key (TEMPORARY - registered 2022-08-04, extension registered 2023-06-30, expires 2024-08-04)",1.2.840.113549.1.9.16.1.50,"[draft-ietf-sidrops-signed-tal-11, Section 3.1]"
-Signed Checklist,1.2.840.113549.1.9.16.1.48,[RFC9323]

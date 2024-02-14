@@ -1,5 +1,0 @@
-Bit Position,Symbol,Description,Reference
-0,U,Unrecognized TLV,[RFC8972]
-1,M,Malformed TLV,[RFC8972]
-2,I,Integrity check failed,[RFC8972]
-3-7,,Unassigned,

@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,best-effort priority,[RFC5976]
-1,normal priority,[RFC5976]
-2,high priority,[RFC5976]
-3-255,Unassigned,

@@ -1,6 +1,0 @@
-RDMAP DDP Untagged Queue Number,Queue Usage Description,Reference
-0x00000000,Queue 0 (Send operation Variants),[RFC5040]
-0x00000001,Queue 1 (RDMA Read Request operations),[RFC5040]
-0x00000002,Queue 2 (Terminate operations),[RFC5040]
-0x00000003,Queue 3 (Atomic Response operations),[RFC7306]
-0x00000004-0xFFFFFFFF,Unassigned,

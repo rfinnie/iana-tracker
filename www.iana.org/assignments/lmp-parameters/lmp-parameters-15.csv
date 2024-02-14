@@ -1,7 +1,0 @@
-C-Type,Description,Reference
-0,Reserved,
-1,IPv4 TE_LINK,[RFC4204]
-2,IPv6 TE_LINK,[RFC4204]
-3,Unnumbered TE_LINK,[RFC4204]
-4-119,Unassigned,
-120-127,Private Use,[RFC4204]

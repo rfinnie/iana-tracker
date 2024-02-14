@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC7499]
-1,Fragmentation-Supported,[RFC7499]
-2,More-Data-Pending,[RFC7499]
-3,More-Data-Request,[RFC7499]
-4-255,Unassigned,

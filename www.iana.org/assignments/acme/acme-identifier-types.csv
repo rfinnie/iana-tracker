@@ -1,5 +1,0 @@
-Label,Reference
-dns,[RFC8555]
-ip,[RFC8738]
-email,[RFC8823][RFC5321][RFC6531]
-TNAuthList,[RFC9448]

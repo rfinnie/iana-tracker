@@ -1,4 +1,0 @@
-Decimal,Name,Description,References
-0,Reserved,,[IANA]
-1,per-acc,apply access control,[Carlisle_Adams]
-2,rec-acc,verify access control,[Carlisle_Adams]

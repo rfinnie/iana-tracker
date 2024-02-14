@@ -1,5 +1,0 @@
-IEEE 802.11 Antenna Selection,Type Value,Reference
-Reserved,0,[RFC5416]
-Internal Antenna,1,[RFC5416]
-External Antenna,2,[RFC5416]
-Unassigned,3-255,

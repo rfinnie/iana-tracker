@@ -1,5 +1,0 @@
-Value,Description,Reference
-1,Physical port,[ipfix-iana_at_cisco.com]
-2,Port channel,[ipfix-iana_at_cisco.com]
-3,Vlan,[ipfix-iana_at_cisco.com]
-4-255,Unassigned,

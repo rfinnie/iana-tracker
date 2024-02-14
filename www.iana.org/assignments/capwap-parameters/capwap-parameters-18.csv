@@ -1,7 +1,0 @@
-Returned Message Element Reason,Type Value,Reference
-Reserved,0,[RFC5415]
-Unknown Message Element,1,[RFC5415]
-Unsupported Message Element,2,[RFC5415]
-Unknown Message Element Value,3,[RFC5415]
-Unsupported Message Element Value,4,[RFC5415]
-Unassigned,5-255,

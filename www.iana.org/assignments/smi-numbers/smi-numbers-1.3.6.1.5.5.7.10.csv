@@ -1,8 +1,0 @@
-Decimal,Description,References
-1,id-aca-authenticationInfo,[RFC3281]
-2,id-aca-accessIdentity,[RFC3281]
-3,id-aca-chargingIdentity,[RFC3281]
-4,id-aca-group,[RFC3281]
-5,id-aca-role,[Reserved and Obsolete]
-6,id-aca-encAttrs,[RFC3281]
-7,id-aca-wlanSSID,[RFC4334]

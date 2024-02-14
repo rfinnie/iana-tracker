@@ -1,9 +1,0 @@
-Bit,Code,Description,Reference
-0,R,Request,[RFC5191]
-1,S,Start,[RFC5191]
-2,C,Complete,[RFC5191]
-3,A,re-Authentication,[RFC5191]
-4,P,Ping,[RFC5191]
-5,I,IP Reconfiguration,[RFC5191]
-6,E,prE-authentication,[RFC5873]
-7-15,,Unassigned,

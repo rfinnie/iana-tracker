@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,Unspecified Time-to-Restore,[RFC5976]
-1,Best Time-to-Restore: less than or equal to 200 ms,[RFC5976]
-2,Normal Time-to-Restore: less than or equal to 2 s,[RFC5976]
-3-15,Unassigned,

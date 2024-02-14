@@ -1,6 +1,0 @@
-Codes,Description,Reference
-0,Reserved,[RFC8335]
-1,Identifies Interface By Name,[RFC8335]
-2,Identifies Interface By Index,[RFC8335]
-3,Identifies Interface By Address,[RFC8335]
-4-255,Unassigned,

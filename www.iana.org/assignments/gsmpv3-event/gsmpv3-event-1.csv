@@ -1,8 +1,0 @@
-Bit,Event Flag Name,Reference
-0,U: Port Up,[RFC3292]
-1,D: Port Down,[RFC3292]
-2,I: Invalid Label,[RFC3292]
-3,N: New Port,[RFC3292]
-4,Z: Dead Port,[RFC3292]
-5,A: Adjacency Event,[RFC3292]
-6-15,x: Unused,[RFC3292]

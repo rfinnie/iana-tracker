@@ -1,9 +1,0 @@
-PEN,Value,Name,Reference
-0,0,Reserved,[RFC6876]
-0,1,Malformed Message,[RFC6876]
-0,2,Version Not Supported,[RFC6876]
-0,3,Type Not Supported,[RFC6876]
-0,4,Invalid Message,[RFC6876]
-0,5,SASL Mechanism Error,[RFC6876]
-0,6,Invalid Parameter,[RFC6876]
-0,7-4294967295,Unassigned,

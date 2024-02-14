@@ -1,4 +1,0 @@
-Method,Description,Reference
-0x0001,AES-128,[RFC5457]
-0x0002-0x7FFF,Unassigned,
-0x8000,KEYROTATE - indicates that encryption key rotation is available/will be used,[Kevin_P._Fleming]

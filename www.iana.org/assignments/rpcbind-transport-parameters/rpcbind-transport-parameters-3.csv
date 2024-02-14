@@ -1,5 +1,0 @@
-Value Name,Value,Reference
-NC_NOPROTO,"""-""",[RFC1833]
-NC_TCP,"""tcp""",[RFC1833]
-NC_UDP,"""udp""",[RFC1833]
-NC_ICMP,"""icmp""",[RFC1833]

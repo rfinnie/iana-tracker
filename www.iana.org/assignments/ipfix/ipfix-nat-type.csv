@@ -1,9 +1,0 @@
-Value,Description,Reference
-0,unknown,[ipfix-iana_at_cisco.com]
-1,NAT44 translated,[ipfix-iana_at_cisco.com]
-2,NAT64 translated,[ipfix-iana_at_cisco.com]
-3,NAT46 translated,[ipfix-iana_at_cisco.com]
-4,IPv4-->IPv4 (no NAT),[ipfix-iana_at_cisco.com]
-5,NAT66 translated,[ipfix-iana_at_cisco.com]
-6,IPv6-->IPv6 (no NAT),[ipfix-iana_at_cisco.com]
-7-255,Unassigned,

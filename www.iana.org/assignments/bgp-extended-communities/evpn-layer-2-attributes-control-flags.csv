@@ -1,4 +1,0 @@
-Sub-Type Value,Name,Reference,Date
-P,Advertising PE is the primary PE.,[RFC8214],2017-06-15
-B,Advertising PE is the backup PE.,[RFC8214],2017-06-15
-C,Control word [RFC4448] MUST be present.,[RFC8214],2017-06-15

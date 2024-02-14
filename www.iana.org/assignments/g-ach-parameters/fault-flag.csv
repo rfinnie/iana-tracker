@@ -1,4 +1,0 @@
-Bit,Hex,Description,Reference
-0-5,,Unassigned,
-6,0x2,L-Flag,[RFC6427]
-7,0x1,R-Flag,[RFC6427]

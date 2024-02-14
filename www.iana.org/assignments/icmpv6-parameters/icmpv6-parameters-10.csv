@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,NOOP,[RFC4620]
-1,Unused,[RFC4620]
-2,Node Name,[RFC4620]
-3,Node Addresses,[RFC4620]
-4,IPv4 Addresses,[RFC4620]
-5-255,Unassigned,

@@ -1,9 +1,0 @@
-Value,Description,Reference
-0x01,MT-bit,[RFC4915]
-0x02,E-bit,[RFC2328]
-0x04,MC-bit,[RFC1584][RFC5110]
-0x08,N/P-bit,[RFC3101]
-0x10,L-bit,[RFC5613]
-0x20,DC-bit,[RFC1793]
-0x40,O-bit,[RFC5250]
-0x80,DN-bit,[RFC4576]

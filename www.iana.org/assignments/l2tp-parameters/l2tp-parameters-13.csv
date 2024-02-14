@@ -1,6 +1,0 @@
-Value,Message Description,Reference
-0,Reserved,
-1,No multicast traffic for the group,[RFC4045]
-2,Session terminated for the reason indicated in the error code,[RFC4045]
-3,No more receivers,[RFC4045]
-4,No more receivers (filter-mode change),[RFC4045]

@@ -1,8 +1,0 @@
-Value,Algorithm Type,Reference
-0,RESERVED,[RFC3547]
-1,KEK_ALG_DES,[RFC3547]
-2,KEK_ALG_3DES,[RFC3547]
-3,KEK_ALG_AES,[RFC3547]
-4-127,Unassigned,
-128-255,Private Use,[RFC3547]
-256-65535,Unassigned,

@@ -1,9 +1,0 @@
-Value,Description,Reference
-Bit 0,V (VCCV) bit,[RFC5085]
-Bit 1,S (Sequence) bit,[RFC3931]
-Bit 2,B (Fragmentation) bit,[RFC4623]
-Bit 3,E (Fragmentation) bit,[RFC4623]
-Bit 4,Reserved,[RFC3931]
-Bit 5,Reserved,[RFC3931]
-Bit 6,Reserved,[RFC3931]
-Bit 7,Reserved,[RFC3931]

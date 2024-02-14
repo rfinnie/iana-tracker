@@ -1,5 +1,0 @@
-Token,Semantics,Mux Category,Reference
-FID,Flow Identification,NORMAL,[RFC5576][RFC8859]
-FEC,Forward Error Correction,NORMAL,[RFC5576][RFC8859]
-FEC-FR,Forward Error Correction FR,NORMAL,[RFC5956][RFC8859]
-DUP,Duplication,NORMAL,[RFC7104][RFC8859]

@@ -1,4 +1,0 @@
-Value (hex),Description,Reference
-002d,Van Jacobson Compressed TCP/IP,[RFC1144][RFC1332]
-0003,Robust Header Compression (ROHC),[RFC3241]
-0061,IP Header Compression,[RFC2507][RFC3544]

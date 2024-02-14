@@ -1,6 +1,0 @@
-Type Code,Description/Policy,Reference
-0,Reserved,[RFC8651]
-1,Queue Parameter,[RFC8651]
-2-65407,Unassigned,
-65408-65534,Reserved for Private Use,[RFC8651]
-65535,Reserved,[RFC8651]

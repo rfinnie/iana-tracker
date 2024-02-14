@@ -1,6 +1,0 @@
-Flag Bit,Meaning,Reference
-A,Checksum required,"[RFC8684, Section 3.1]"
-B,Extensibility,"[RFC8684, Section 3.1]"
-C,Do not attempt to establish new subflows to the source address.,"[RFC8684, Section 3.1]"
-D-G,Unassigned,
-H,HMAC-SHA256,"[RFC8684, Section 3.2]"

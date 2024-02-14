@@ -1,9 +1,0 @@
-Key Operation Value,Key Operation Description,Change Controller,Reference
-sign,Compute digital signature or MAC,[IESG],"[RFC7517, Section 4.3]"
-verify,Verify digital signature or MAC,[IESG],"[RFC7517, Section 4.3]"
-encrypt,Encrypt content,[IESG],"[RFC7517, Section 4.3]"
-decrypt,"Decrypt content and validate decryption, if applicable",[IESG],"[RFC7517, Section 4.3]"
-wrapKey,Encrypt key,[IESG],"[RFC7517, Section 4.3]"
-unwrapKey,"Decrypt key and validate decryption, if applicable",[IESG],"[RFC7517, Section 4.3]"
-deriveKey,Derive key,[IESG],"[RFC7517, Section 4.3]"
-deriveBits,Derive bits not to be used as a key,[IESG],"[RFC7517, Section 4.3]"

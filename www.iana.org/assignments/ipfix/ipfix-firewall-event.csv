@@ -1,8 +1,0 @@
-Value,Description,Reference
-0,Ignore (invalid),[ipfix-iana_at_cisco.com]
-1,Flow Created,[ipfix-iana_at_cisco.com]
-2,Flow Deleted,[ipfix-iana_at_cisco.com]
-3,Flow Denied,[ipfix-iana_at_cisco.com]
-4,Flow Alert,[ipfix-iana_at_cisco.com]
-5,Flow Update,[ipfix-iana_at_cisco.com]
-6-255,Unassigned,

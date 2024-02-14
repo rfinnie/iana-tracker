@@ -1,7 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC7869]
-1,MD5,[RFC7869]
-2,SHA1,[RFC7869]
-3,Unassigned,
-4,SHA256,[RFC7869]
-5-2147483647,Unassigned,

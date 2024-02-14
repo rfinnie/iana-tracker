@@ -1,6 +1,0 @@
-Value,Description,Reference
-1,Message ID list,[RFC2961]
-2,IPv4 Message ID Source list,[RFC2961]
-3,IPv6 Message ID Source list,[RFC2961]
-4,IPv4 Message ID Multicast list,[RFC2961]
-5,IPv6 Message ID Multicast list,[RFC2961]

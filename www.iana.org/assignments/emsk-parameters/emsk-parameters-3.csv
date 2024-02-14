@@ -1,5 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC5295]
-1,HMAC-SHA-256 PRF+ (Default),[RFC5295]
-2-220,Unassigned,
-221-255,Reserved for Private Use,[RFC5295]

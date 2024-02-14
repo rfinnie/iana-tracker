@@ -1,6 +1,0 @@
-Value,Description,Reference
-0,Reserved,[RFC3868]
-1,Connectionless Data Transfer (CLDT),[RFC3868]
-2,Connectionless Data Response (CLDR),[RFC3868]
-3-127,Unassigned,
-128-255,Reserved for IETF-Defined Message Class Extensions,

@@ -1,7 +1,0 @@
-Decimal,Description,References
-1,id-ct-evidence-record,[Reserved]
-2,id-ct-dssc-asn1,[RFC5698]
-3,id-ct-dssc-xml,[RFC5698]
-4,id-ct-LTAPRequest,[Reserved]
-5,id-ct-LTAPResponse,[Reserved]
-6,id-ct-dssc-tbsPolicy,[RFC5698]

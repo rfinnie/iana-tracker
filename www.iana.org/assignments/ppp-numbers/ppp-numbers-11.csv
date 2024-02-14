@@ -1,8 +1,0 @@
-Class,Description,Reference
-0,Null Class,[RFC1990]
-1,Locally Assigned,[RFC1990]
-2,Internet Protocol (IPv4),[RFC1990]
-3,IEEE 802.1 global MAC address,[RFC1990]
-4,PPP Magic Number Block,[RFC1990]
-5,Public Switched Network Director Number,[RFC1990]
-6,Internet Protocol (Ipv6) Address,[RFC3790]

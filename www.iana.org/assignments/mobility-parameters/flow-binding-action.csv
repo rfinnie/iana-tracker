@@ -1,9 +1,0 @@
-Value,Description,Reference
-0-10,Unassigned,
-11,Add a flow binding,[RFC7109]
-12,Delete a flow binding,[RFC7109]
-13,Modify a flow binding,[RFC7109]
-14,Refresh a flow binding,[RFC7109]
-15,Move a flow binding,[RFC7109]
-16,Revoke a flow binding,[RFC7109]
-17-255,Unassigned,

@@ -1,4 +1,0 @@
-JSON String,Description,Reference
-preposition,A request for the dCDN to acquire metadata or content.,[RFC8007]
-invalidate,"A request for the dCDN to invalidate metadata or content. After servicing this request the dCDN will not use the specified data without first re-validating it using, for example, an ""If-None-Match"" HTTP request. The dCDN need not erase the associated data.",[RFC8007]
-purge,"A request for the dCDN to erase metadata or content. After servicing the request, the specified data MUST NOT be held on the dCDN (the dCDN should re-acquire the metadata or content from uCDN if it needs it).",[RFC8007]

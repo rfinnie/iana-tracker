@@ -1,5 +1,0 @@
-Bit Number,Capability Description,Reference
-0,Version Predicate match (V),[RFC6550]
-1,InstanceID Predicate match (I),[RFC6550]
-2,DODAGID Predicate match (D),[RFC6550]
-3-7,Unassigned,

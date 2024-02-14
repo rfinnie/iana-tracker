@@ -1,8 +1,0 @@
-URN,Description,Contact,Index Value,Reference
-urn:ietf:params:tzdist:error:invalid-action,Generic error code for any invalid action.,IESG,N/A,"[RFC7808, Section 5]"
-urn:ietf:params:tzdist:error:invalid-changedsince,"Error code for incorrect use of the ""changedsince"" URI query parameter.",IESG,N/A,"[RFC7808, Section 5.2]"
-urn:ietf:params:tzdist:error:tzid-not-found,Error code for missing time zone identifier.,IESG,N/A,"[RFC7808, Section 5.3, Section 5.4]"
-urn:ietf:params:tzdist:error:invalid-format,Error code for unsupported HTTP Accept request header field value.,IESG,N/A,"[RFC7808, Section 5.3]"
-urn:ietf:params:tzdist:error:invalid-start,"Error code for incorrect use of the ""start"" URI query parameter.",IESG,N/A,"[RFC7808, Section 5.3, Section 5.4]"
-urn:ietf:params:tzdist:error:invalid-end,"Error code for incorrect use of the ""end"" URI query parameter.",IESG,N/A,"[RFC7808, Section 5.3, Section 5.4]"
-urn:ietf:params:tzdist:error:invalid-pattern,"Error code for incorrect use of the ""pattern"" URI query parameter.",IESG,N/A,"[RFC7808, Section 5.5]"

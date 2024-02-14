@@ -1,7 +1,0 @@
-Bit Number,Name,Reference
-7,N: Treat as a Non-IP Packet,[RFC8029]
-6,I: Interface and Label Stack Object Request,[RFC8029]
-5,E: ELI/EL push indicator,[RFC8012]
-4,L: Label-based load balance indicator,[RFC8012]
-3,G: LAG Description Indicator,[RFC8611]
-2-0,Unassigned,

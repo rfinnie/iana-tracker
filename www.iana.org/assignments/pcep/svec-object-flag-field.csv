@@ -1,8 +1,0 @@
-Bit,Description,Reference
-0-17,Unassigned,
-18,Domain Diverse O-bit,[RFC8685]
-19,Partial Path Diverse,[RFC8306]
-20,Link Direction Diverse,[RFC8306]
-21,SRLG Diverse,[RFC5440]
-22,Node Diverse,[RFC5440]
-23,Link Diverse,[RFC5440]

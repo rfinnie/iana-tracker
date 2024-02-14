@@ -1,9 +1,0 @@
-Entry Name,Description,Content-Type,Contact,Change Controller,Reference
-/comment,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/flags,Reserved entry hierarchy.,-,[Cyrus_Daboo],,[RFC5257]
-/altsubject,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/<section-part>/comment,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/<section-part>/flags/seen,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/<section-part>/flags/answered,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/<section-part>/flags/flagged,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
-/<section-part>/flags/forwarded,Defined in IMAP ANNOTATE extension document.,text/plain; charset=utf-8,[Cyrus_Daboo],,[RFC5257]
